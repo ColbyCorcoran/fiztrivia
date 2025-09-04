@@ -1,0 +1,230 @@
+import Foundation
+import SwiftUI
+import SwiftData
+
+@Observable
+class GameViewModel {
+    var gameState: GameState = .selectingCategory
+    var gameSession = GameSession()
+    var questions: [TriviaQuestion] = []
+    var wheelRotation: Double = 0
+    var isSpinning = false
+    var showCompletionCelebration = false
+    
+    private var usedQuestions: Set<String> = []
+    private let difficultyManager = DifficultyManager.shared
+    private let answeredQuestionsManager = AnsweredQuestionsManager.shared
+    
+    init() {
+        loadQuestions()
+    }
+    
+    func loadQuestions() {
+        guard let url = Bundle.main.url(forResource: "questions", withExtension: "json") else {
+            print("Failed to find questions.json file")
+            return
+        }
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let jsonObject = try JSONSerialization.jsonObject(with: data, options: [])
+            
+            guard let jsonDict = jsonObject as? [String: Any],
+                  let categories = jsonDict["categories"] as? [String: [[String: Any]]] else {
+                print("Invalid JSON structure")
+                return
+            }
+            
+            var allQuestions: [TriviaQuestion] = []
+            
+            for (categoryName, categoryQuestions) in categories {
+                for questionDict in categoryQuestions {
+                    if let question = questionDict["question"] as? String,
+                       let options = questionDict["options"] as? [String],
+                       let correctAnswer = questionDict["correct_answer"] as? String {
+                        
+                        let id = questionDict["id"] as? String
+                        let subcategory = questionDict["subcategory"] as? String
+                        let difficulty = questionDict["difficulty"] as? String ?? "Medium"
+                        
+                        let triviaQuestion = TriviaQuestion(
+                            id: id,
+                            category: categoryName,
+                            subcategory: subcategory,
+                            question: question,
+                            options: options,
+                            correctAnswer: correctAnswer,
+                            difficulty: difficulty
+                        )
+                        allQuestions.append(triviaQuestion)
+                    }
+                }
+            }
+            
+            questions = allQuestions
+            print("Successfully loaded \(questions.count) questions from database")
+            
+        } catch {
+            print("Failed to parse JSON: \(error)")
+            createSampleQuestions()
+        }
+    }
+    
+    private func createSampleQuestions() {
+        print("Creating sample questions as fallback")
+        questions = [
+            TriviaQuestion(
+                id: "ent_sample_001",
+                category: "Entertainment",
+                subcategory: "Movies",
+                question: "Who directed the movie 'Jaws'?",
+                options: ["Steven Spielberg", "George Lucas", "Martin Scorsese", "Francis Ford Coppola"],
+                correctAnswer: "Steven Spielberg",
+                difficulty: "Medium"
+            ),
+            TriviaQuestion(
+                id: "sci_sample_001",
+                category: "Science",
+                subcategory: "Physics",
+                question: "What is the chemical symbol for gold?",
+                options: ["Go", "Gd", "Au", "Ag"],
+                correctAnswer: "Au",
+                difficulty: "Easy"
+            ),
+            TriviaQuestion(
+                id: "spt_sample_001",
+                category: "Sports",
+                subcategory: "Football",
+                question: "How many players are on a football team on the field at once?",
+                options: ["10", "11", "12", "13"],
+                correctAnswer: "11",
+                difficulty: "Easy"
+            )
+        ]
+        print("Created \(questions.count) sample questions")
+    }
+    
+    func startGame() {
+        gameSession = GameSession()
+        usedQuestions.removeAll()
+        gameState = .selectingCategory
+    }
+    
+    
+    
+    func loadRandomQuestion() {
+        guard let category = gameSession.selectedCategory else { return }
+        
+        let categoryQuestions = questions.filter { question in
+            question.category == category.rawValue && 
+            !usedQuestions.contains(question.id) &&
+            !answeredQuestionsManager.isQuestionAnswered(question.id) &&
+            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty)
+        }
+        
+        guard let randomQuestion = categoryQuestions.randomElement() else {
+            print("No more unanswered questions available for category: \(category.rawValue) with difficulty: \(difficultyManager.selectedDifficulty.rawValue)")
+            return
+        }
+        
+        gameSession.currentQuestion = randomQuestion
+        gameSession.answerState = .unanswered
+    }
+    
+    func selectAnswer(_ answer: String, modelContext: ModelContext? = nil) {
+        guard let question = gameSession.currentQuestion else { return }
+        
+        usedQuestions.insert(question.id)
+        answeredQuestionsManager.markQuestionAnswered(question.id)
+        
+        if answer == question.correctAnswer {
+            gameSession.answerState = .correct
+            gameSession.currentStreak += 1
+            HapticManager.shared.correctAnswerEffect()
+        } else {
+            gameSession.answerState = .incorrect
+            // Save the current streak before resetting if it's > 0
+            if gameSession.currentStreak > 0, let context = modelContext {
+                let entry = LeaderboardEntry(streak: gameSession.currentStreak, date: Date())
+                context.insert(entry)
+                
+                do {
+                    try context.save()
+                    print("Automatically saved streak to leaderboard: \(gameSession.currentStreak)")
+                    
+                    // Clear the persistent streak since it's now saved to leaderboard
+                    gameSession.currentStreak = 0
+                    StreakPersistenceManager.clearCurrentStreak()
+                    
+                } catch {
+                    print("Failed to auto-save streak: \(error)")
+                    // Still reset the streak even if save failed
+                    gameSession.currentStreak = 0
+                    StreakPersistenceManager.clearCurrentStreak()
+                }
+            } else {
+                // No streak to save, just reset
+                gameSession.currentStreak = 0
+                StreakPersistenceManager.clearCurrentStreak()
+            }
+            HapticManager.shared.incorrectAnswerEffect()
+        }
+        
+        // Check if all questions have been answered
+        checkForCompletion()
+    }
+    
+    
+    func continueGame() {
+        gameState = .selectingCategory
+    }
+    
+    func showLeaderboard() {
+        gameState = .leaderboard
+    }
+    
+    func showSettings() {
+        gameState = .settings
+    }
+    
+    
+    var randomCongratulatoryMessage: String {
+        return UserManager.shared.personalizedCongratulatoryMessage()
+    }
+    
+    var randomEncouragingMessage: String {
+        return UserManager.shared.personalizedEncouragingMessage()
+    }
+    
+    private func checkForCompletion() {
+        if answeredQuestionsManager.areAllQuestionsAnswered(in: questions, difficultyMode: difficultyManager.selectedDifficulty) {
+            print("🎉 All questions completed! Showing celebration.")
+            showCompletionCelebration = true
+            HapticManager.shared.correctAnswerEffect()
+        }
+    }
+    
+    func resetAllProgress() {
+        answeredQuestionsManager.resetAllAnswered()
+        usedQuestions.removeAll()
+        showCompletionCelebration = false
+        gameSession.currentQuestion = nil
+        gameSession.answerState = .unanswered
+        print("All progress reset - ready to play again!")
+    }
+    
+    func getTotalQuestionsCount() -> Int {
+        return questions.filter { difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: $0.difficulty) }.count
+    }
+    
+    func getAnsweredQuestionsCount() -> Int {
+        let availableQuestions = questions.filter { difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: $0.difficulty) }
+        return availableQuestions.filter { answeredQuestionsManager.isQuestionAnswered($0.id) }.count
+    }
+    
+    func getCategoryProgress(_ category: TriviaCategory) -> (answered: Int, total: Int) {
+        let answered = answeredQuestionsManager.getAnsweredCountForCategory(category.rawValue, in: questions, difficultyMode: difficultyManager.selectedDifficulty)
+        let total = answeredQuestionsManager.getTotalQuestionsForCategory(category.rawValue, in: questions, difficultyMode: difficultyManager.selectedDifficulty)
+        return (answered, total)
+    }
+}

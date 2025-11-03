@@ -82,7 +82,7 @@ struct EntertainmentSubcategory: TriviaSubcategory {
     static let marvel = EntertainmentSubcategory(name: "Marvel", icon: "shield.fill", color: "#F7B500")
     static let harryPotter = EntertainmentSubcategory(name: "Harry Potter", icon: "wand.and.stars", color: "#FF7F0F")
     static let pokemon = EntertainmentSubcategory(name: "Pokémon", icon: "sparkles", color: "#8E44AD")
-    static let starWars = EntertainmentSubcategory(name: "Star Wars", icon: "lightsaber", color: "#3498DB")
+    static let starWars = EntertainmentSubcategory(name: "Star Wars", icon: "allergens.fill", color: "#3498DB")
     static let pixar = EntertainmentSubcategory(name: "Pixar", icon: "lamp.desk.fill", color: "#1ABC9C")
     static let filmScoreComposers = EntertainmentSubcategory(name: "Film Score Composers", icon: "music.note.list", color: "#2ECC71")
     static let theOffice = EntertainmentSubcategory(name: "The Office", icon: "building.2.fill", color: "#E91E63")
@@ -117,7 +117,7 @@ struct BibleSubcategory: TriviaSubcategory {
     let color: String
 
     static let oldTestament = BibleSubcategory(name: "Old Testament", icon: "scroll.fill", color: "#F7B500")
-    static let newTestament = BibleSubcategory(name: "New Testament", icon: "cross.fill", color: "#FF7F0F")
+    static let newTestament = BibleSubcategory(name: "New Testament", icon: "flame.fill", color: "#FF7F0F")
     static let bibleTrivia = BibleSubcategory(name: "Bible Trivia", icon: "questionmark.circle.fill", color: "#8E44AD")
     static let biblicalHistory = BibleSubcategory(name: "Biblical History", icon: "building.columns.fill", color: "#3498DB")
     static let biblicalTheology = BibleSubcategory(name: "Biblical Theology", icon: "lightbulb.fill", color: "#1ABC9C")
@@ -176,7 +176,7 @@ struct FoodSubcategory: TriviaSubcategory {
     let color: String
 
     static let ingredients = FoodSubcategory(name: "Ingredients", icon: "carrot.fill", color: "#F7B500")
-    static let famousChefs = FoodSubcategory(name: "Famous Chefs/Restaurants", icon: "chef.hat.fill", color: "#FF7F0F")
+    static let famousChefs = FoodSubcategory(name: "Famous Chefs/Restaurants", icon: "person.3.fill", color: "#FF7F0F")
     static let dishes = FoodSubcategory(name: "Dishes", icon: "fork.knife", color: "#8E44AD")
 
     static let all: [FoodSubcategory] = [ingredients, famousChefs, dishes]

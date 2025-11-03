@@ -15,6 +15,10 @@ struct SettingsView: View {
     @State private var showingStreakAlert = false
     @State private var pendingModeChange: Bool? = nil
     @State private var pendingCategoryChange: TriviaCategory? = nil
+
+    // Local state for immediate UI updates
+    @State private var localModeEnabled: Bool = false
+    @State private var localSelectedCategory: TriviaCategory? = nil
     
     var body: some View {
         NavigationView {
@@ -86,37 +90,17 @@ struct SettingsView: View {
 
                     Section(header: Text("Single Category Mode"),
                            footer: Text("Focus on questions from a single category. The wheel will show subcategories instead of all categories.")) {
-                        Toggle("Enable Single Category Mode", isOn: Binding(
-                            get: { singleCategoryManager.isEnabled },
-                            set: { newValue in
-                                if gameViewModel.gameSession.currentStreak > 0 {
-                                    pendingModeChange = newValue
-                                    showingStreakAlert = true
-                                } else {
-                                    singleCategoryManager.setModeEnabled(newValue)
-                                    if !newValue {
-                                        singleCategoryManager.setSelectedCategory(nil)
-                                    }
-                                }
+                        Toggle("Enable Single Category Mode", isOn: $localModeEnabled)
+                            .onChange(of: localModeEnabled) { oldValue, newValue in
+                                handleModeChange(from: oldValue, to: newValue)
                             }
-                        ))
 
-                        if singleCategoryManager.isEnabled {
+                        if localModeEnabled {
                             VStack(alignment: .leading, spacing: 8) {
                                 HStack {
                                     Text("Selected Category")
                                     Spacer()
-                                    Picker("Category", selection: Binding(
-                                        get: { singleCategoryManager.selectedCategory },
-                                        set: { newCategory in
-                                            if gameViewModel.gameSession.currentStreak > 0 && singleCategoryManager.selectedCategory != newCategory {
-                                                pendingCategoryChange = newCategory
-                                                showingStreakAlert = true
-                                            } else {
-                                                singleCategoryManager.setSelectedCategory(newCategory)
-                                            }
-                                        }
-                                    )) {
+                                    Picker("", selection: $localSelectedCategory) {
                                         Text("Select...").tag(nil as TriviaCategory?)
                                         ForEach(TriviaCategory.allCases, id: \.self) { category in
                                             HStack {
@@ -127,9 +111,12 @@ struct SettingsView: View {
                                         }
                                     }
                                     .pickerStyle(MenuPickerStyle())
+                                    .onChange(of: localSelectedCategory) { oldValue, newValue in
+                                        handleCategoryChange(from: oldValue, to: newValue)
+                                    }
                                 }
 
-                                if let selectedCategory = singleCategoryManager.selectedCategory {
+                                if let selectedCategory = localSelectedCategory {
                                     Text("Wheel will show \(selectedCategory.rawValue) subcategories")
                                         .font(.caption)
                                         .foregroundColor(.secondary)
@@ -227,6 +214,11 @@ struct SettingsView: View {
                         }
                     }
                 }
+                .onAppear {
+                    // Initialize local state from manager
+                    localModeEnabled = singleCategoryManager.isEnabled
+                    localSelectedCategory = singleCategoryManager.selectedCategory
+                }
         }
     }
     
@@ -250,6 +242,40 @@ struct SettingsView: View {
         editedUsername = ""
     }
 
+    private func handleModeChange(from oldValue: Bool, to newValue: Bool) {
+        // Check if user has a streak
+        if gameViewModel.gameSession.currentStreak > 0 {
+            // Store the pending change
+            pendingModeChange = newValue
+            // Revert local state temporarily (will be applied after alert)
+            localModeEnabled = oldValue
+            // Show alert immediately
+            showingStreakAlert = true
+        } else {
+            // No streak, apply immediately
+            singleCategoryManager.setModeEnabled(newValue)
+            if !newValue {
+                singleCategoryManager.setSelectedCategory(nil)
+                localSelectedCategory = nil
+            }
+        }
+    }
+
+    private func handleCategoryChange(from oldValue: TriviaCategory?, to newValue: TriviaCategory?) {
+        // Only show alert if changing from one category to another (not initial selection)
+        if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil && oldValue != newValue {
+            // Store the pending change
+            pendingCategoryChange = newValue
+            // Revert local state temporarily (will be applied after alert)
+            localSelectedCategory = oldValue
+            // Show alert immediately
+            showingStreakAlert = true
+        } else {
+            // No streak or initial selection, apply immediately
+            singleCategoryManager.setSelectedCategory(newValue)
+        }
+    }
+
     private func applyPendingChanges(saveStreak: Bool) {
         // Save streak to leaderboard if requested
         if saveStreak && gameViewModel.gameSession.currentStreak > 0 {
@@ -271,8 +297,10 @@ struct SettingsView: View {
         // Apply pending mode change
         if let modeChange = pendingModeChange {
             singleCategoryManager.setModeEnabled(modeChange)
+            localModeEnabled = modeChange
             if !modeChange {
                 singleCategoryManager.setSelectedCategory(nil)
+                localSelectedCategory = nil
             }
             pendingModeChange = nil
         }
@@ -280,6 +308,7 @@ struct SettingsView: View {
         // Apply pending category change
         if let categoryChange = pendingCategoryChange {
             singleCategoryManager.setSelectedCategory(categoryChange)
+            localSelectedCategory = categoryChange
             pendingCategoryChange = nil
         }
 

@@ -266,10 +266,14 @@ struct SettingsView: View {
         if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil && oldValue != newValue {
             // Store the pending change
             pendingCategoryChange = newValue
-            // Revert local state temporarily (will be applied after alert)
-            localSelectedCategory = oldValue
-            // Show alert immediately
-            showingStreakAlert = true
+
+            // Delay alert to allow picker to dismiss first (fixes modal presentation conflict)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                // Revert local state after picker dismisses
+                localSelectedCategory = oldValue
+                // Show alert now that picker is dismissed
+                showingStreakAlert = true
+            }
         } else {
             // No streak or initial selection, apply immediately
             singleCategoryManager.setSelectedCategory(newValue)

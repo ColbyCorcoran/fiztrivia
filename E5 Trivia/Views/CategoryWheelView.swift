@@ -42,7 +42,7 @@ struct CategoryWheelView: View {
 
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
-        if singleCategoryManager.isEnabled, let selectedCategory = singleCategoryManager.selectedCategory {
+        if singleCategoryManager.isEnabled, singleCategoryManager.selectedCategory != nil {
             // Get subcategories for the selected category, filtering out those with no remaining questions
             let subcategories = singleCategoryManager.getSubcategoriesForSelectedCategory(from: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty)
 

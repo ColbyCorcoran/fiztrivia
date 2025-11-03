@@ -79,17 +79,15 @@ struct EntertainmentSubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let marvel = EntertainmentSubcategory(name: "Marvel", icon: "shield.fill", color: "#F7B500")
+    static let comicBooks = EntertainmentSubcategory(name: "Comic Books", icon: "book.pages.fill", color: "#F7B500")
     static let harryPotter = EntertainmentSubcategory(name: "Harry Potter", icon: "wand.and.stars", color: "#FF7F0F")
     static let pokemon = EntertainmentSubcategory(name: "Pokémon", icon: "sparkles", color: "#8E44AD")
     static let starWars = EntertainmentSubcategory(name: "Star Wars", icon: "allergens.fill", color: "#3498DB")
     static let pixar = EntertainmentSubcategory(name: "Pixar", icon: "lamp.desk.fill", color: "#1ABC9C")
     static let filmScoreComposers = EntertainmentSubcategory(name: "Film Score Composers", icon: "music.note.list", color: "#2ECC71")
     static let theOffice = EntertainmentSubcategory(name: "The Office", icon: "building.2.fill", color: "#E91E63")
-    static let dc = EntertainmentSubcategory(name: "DC", icon: "bolt.fill", color: "#5C6BC0")
-    static let comicBooks = EntertainmentSubcategory(name: "Comic Books", icon: "book.pages.fill", color: "#E74C3C")
 
-    static let all: [EntertainmentSubcategory] = [marvel, harryPotter, pokemon, starWars, pixar, filmScoreComposers, theOffice, dc, comicBooks]
+    static let all: [EntertainmentSubcategory] = [comicBooks, harryPotter, pokemon, starWars, pixar, filmScoreComposers, theOffice]
 }
 
 // MARK: - Sports Subcategories

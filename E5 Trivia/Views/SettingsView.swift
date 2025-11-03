@@ -341,10 +341,8 @@ struct SettingsView: View {
         // Apply pending mode change
         if let modeChange = pendingModeChange {
             singleCategoryManager.setModeEnabled(modeChange)
-            localModeEnabled = modeChange
             if !modeChange {
                 singleCategoryManager.setSelectedCategory(nil)
-                localSelectedCategory = nil
             }
             pendingModeChange = nil
         }
@@ -352,7 +350,6 @@ struct SettingsView: View {
         // Apply pending category change
         if let categoryChange = pendingCategoryChange {
             singleCategoryManager.setSelectedCategory(categoryChange)
-            localSelectedCategory = categoryChange
             pendingCategoryChange = nil
         }
 
@@ -361,8 +358,15 @@ struct SettingsView: View {
 
         HapticManager.shared.buttonTapEffect()
 
-        // Reset flag to allow onChange to work normally
-        isApplyingChanges = false
+        // Update local state AFTER manager updates with a slight delay to ensure they stick
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            // Sync local state from manager (source of truth)
+            self.localModeEnabled = self.singleCategoryManager.isEnabled
+            self.localSelectedCategory = self.singleCategoryManager.selectedCategory
+
+            // Reset flag to allow onChange to work normally
+            self.isApplyingChanges = false
+        }
     }
 }
 

@@ -2234,7 +2234,7 @@
         "question": "Which cinematographer won Academy Awards for both 'Blade Runner 2049' and 'Dune', becoming known for his innovative use of practical lighting effects?",
         "options": [
           "Roger Deakins",
-          "Emmanuel Lubezki",
+          "Emmanuel Lubezki", 
           "Hoyte van Hoytema",
           "Greig Fraser"
         ],
@@ -2524,8 +2524,8 @@
       {
         "id": "ent_181",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "What is the first Pok\u00e9mon in the National Pok\u00e9dex?",
+        "subcategory": "Pokémon",
+        "question": "What is the first Pokémon in the National Pokédex?",
         "options": [
           "Pikachu",
           "Bulbasaur",
@@ -2538,7 +2538,7 @@
       {
         "id": "ent_182",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Pikachu?",
         "options": [
           "Fire",
@@ -2552,8 +2552,8 @@
       {
         "id": "ent_183",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "How many original starter Pok\u00e9mon are there?",
+        "subcategory": "Pokémon",
+        "question": "How many original starter Pokémon are there?",
         "options": [
           "2",
           "3",
@@ -2566,7 +2566,7 @@
       {
         "id": "ent_184",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What does Charmander evolve into?",
         "options": [
           "Charmeleon",
@@ -2580,10 +2580,10 @@
       {
         "id": "ent_185",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "What item is used to catch Pok\u00e9mon?",
+        "subcategory": "Pokémon",
+        "question": "What item is used to catch Pokémon?",
         "options": [
-          "Pok\u00e9 Ball",
+          "Poké Ball",
           "Master Ball",
           "Great Ball",
           "All of the above"
@@ -2594,7 +2594,7 @@
       {
         "id": "ent_186",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What is the final evolution of Squirtle?",
         "options": [
           "Wartortle",
@@ -2608,8 +2608,8 @@
       {
         "id": "ent_187",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "Which Pok\u00e9mon is known as the Mouse Pok\u00e9mon?",
+        "subcategory": "Pokémon",
+        "question": "Which Pokémon is known as the Mouse Pokémon?",
         "options": [
           "Rattata",
           "Pikachu",
@@ -2622,8 +2622,8 @@
       {
         "id": "ent_188",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "What type is super effective against Water-type Pok\u00e9mon?",
+        "subcategory": "Pokémon",
+        "question": "What type is super effective against Water-type Pokémon?",
         "options": [
           "Fire",
           "Electric",
@@ -2636,8 +2636,8 @@
       {
         "id": "ent_189",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "What is the legendary Fire-type Pok\u00e9mon from Generation 1?",
+        "subcategory": "Pokémon",
+        "question": "What is the legendary Fire-type Pokémon from Generation 1?",
         "options": [
           "Articuno",
           "Zapdos",
@@ -2650,7 +2650,7 @@
       {
         "id": "ent_190",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What level does Magikarp evolve into Gyarados?",
         "options": [
           "15",
@@ -2664,8 +2664,8 @@
       {
         "id": "ent_191",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "Which Pok\u00e9mon is known for sleeping most of the time?",
+        "subcategory": "Pokémon",
+        "question": "Which Pokémon is known for sleeping most of the time?",
         "options": [
           "Slowpoke",
           "Snorlax",
@@ -2678,7 +2678,7 @@
       {
         "id": "ent_192",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Psyduck?",
         "options": [
           "Psychic",
@@ -2692,8 +2692,8 @@
       {
         "id": "ent_193",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "How many generations of Pok\u00e9mon games were there originally?",
+        "subcategory": "Pokémon",
+        "question": "How many generations of Pokémon games were there originally?",
         "options": [
           "1",
           "2",
@@ -2706,7 +2706,7 @@
       {
         "id": "ent_194",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What does Eevee need to evolve into Vaporeon?",
         "options": [
           "Fire Stone",
@@ -2720,8 +2720,8 @@
       {
         "id": "ent_195",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "Which Pok\u00e9mon is known as the Virtual Pok\u00e9mon?",
+        "subcategory": "Pokémon",
+        "question": "Which Pokémon is known as the Virtual Pokémon?",
         "options": [
           "Porygon",
           "Alakazam",
@@ -2734,8 +2734,8 @@
       {
         "id": "ent_196",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "What Pok\u00e9mon is number 150 in the Pok\u00e9dex?",
+        "subcategory": "Pokémon",
+        "question": "What Pokémon is number 150 in the Pokédex?",
         "options": [
           "Mew",
           "Mewtwo",
@@ -2748,8 +2748,8 @@
       {
         "id": "ent_197",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "What region do the original Pok\u00e9mon games take place in?",
+        "subcategory": "Pokémon",
+        "question": "What region do the original Pokémon games take place in?",
         "options": [
           "Johto",
           "Hoenn",
@@ -2762,7 +2762,7 @@
       {
         "id": "ent_198",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What happens when you use a Moon Stone on Clefairy?",
         "options": [
           "It evolves into Clefable",
@@ -2776,8 +2776,8 @@
       {
         "id": "ent_199",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "Which gym leader uses Electric-type Pok\u00e9mon in the original games?",
+        "subcategory": "Pokémon",
+        "question": "Which gym leader uses Electric-type Pokémon in the original games?",
         "options": [
           "Brock",
           "Misty",
@@ -2790,8 +2790,8 @@
       {
         "id": "ent_200",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "What type of Pok\u00e9mon is Geodude?",
+        "subcategory": "Pokémon",
+        "question": "What type of Pokémon is Geodude?",
         "options": [
           "Rock",
           "Ground",
@@ -2804,8 +2804,8 @@
       {
         "id": "ent_201",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "Which Pok\u00e9mon evolves into Alakazam?",
+        "subcategory": "Pokémon",
+        "question": "Which Pokémon evolves into Alakazam?",
         "options": [
           "Abra",
           "Kadabra",
@@ -2818,7 +2818,7 @@
       {
         "id": "ent_202",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What is the signature move of Pikachu?",
         "options": [
           "Thunder",
@@ -2832,8 +2832,8 @@
       {
         "id": "ent_203",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "How many original Pok\u00e9mon were there in Generation 1?",
+        "subcategory": "Pokémon",
+        "question": "How many original Pokémon were there in Generation 1?",
         "options": [
           "150",
           "151",
@@ -2846,7 +2846,7 @@
       {
         "id": "ent_204",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Jigglypuff?",
         "options": [
           "Normal",
@@ -2860,8 +2860,8 @@
       {
         "id": "ent_205",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "Which Pok\u00e9mon is known for putting others to sleep with its song?",
+        "subcategory": "Pokémon",
+        "question": "Which Pokémon is known for putting others to sleep with its song?",
         "options": [
           "Snorlax",
           "Jigglypuff",
@@ -2874,7 +2874,7 @@
       {
         "id": "ent_206",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What does Magnemite evolve into?",
         "options": [
           "Magneton",
@@ -2888,8 +2888,8 @@
       {
         "id": "ent_207",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "Which Pok\u00e9mon has the ability to transform into any other Pok\u00e9mon?",
+        "subcategory": "Pokémon",
+        "question": "Which Pokémon has the ability to transform into any other Pokémon?",
         "options": [
           "Mew",
           "Ditto",
@@ -2902,7 +2902,7 @@
       {
         "id": "ent_208",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What badge do you get from defeating Brock?",
         "options": [
           "Boulder Badge",
@@ -2916,8 +2916,8 @@
       {
         "id": "ent_209",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "Which Pok\u00e9mon is known as the Flame Pok\u00e9mon?",
+        "subcategory": "Pokémon",
+        "question": "Which Pokémon is known as the Flame Pokémon?",
         "options": [
           "Charmander",
           "Charmeleon",
@@ -4484,7 +4484,7 @@
       {
         "id": "ent_321",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Charizard?",
         "options": [
           "Fire/Flying",
@@ -4498,7 +4498,7 @@
       {
         "id": "ent_322",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Blastoise?",
         "options": [
           "Water",
@@ -4512,7 +4512,7 @@
       {
         "id": "ent_323",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Venusaur?",
         "options": [
           "Grass/Poison",
@@ -4526,7 +4526,7 @@
       {
         "id": "ent_324",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Gengar?",
         "options": [
           "Ghost/Poison",
@@ -4540,7 +4540,7 @@
       {
         "id": "ent_325",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Alakazam?",
         "options": [
           "Psychic",
@@ -4554,7 +4554,7 @@
       {
         "id": "ent_326",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Machamp?",
         "options": [
           "Fighting",
@@ -4568,7 +4568,7 @@
       {
         "id": "ent_327",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Golem?",
         "options": [
           "Rock/Ground",
@@ -4582,7 +4582,7 @@
       {
         "id": "ent_328",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Lapras?",
         "options": [
           "Water/Ice",
@@ -4596,7 +4596,7 @@
       {
         "id": "ent_329",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Snorlax?",
         "options": [
           "Normal",
@@ -4610,7 +4610,7 @@
       {
         "id": "ent_330",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Dragonite?",
         "options": [
           "Dragon/Flying",
@@ -4624,7 +4624,7 @@
       {
         "id": "ent_331",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Mewtwo?",
         "options": [
           "Psychic",
@@ -4638,7 +4638,7 @@
       {
         "id": "ent_332",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Mew?",
         "options": [
           "Psychic",
@@ -4652,7 +4652,7 @@
       {
         "id": "ent_333",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Lugia?",
         "options": [
           "Psychic/Flying",
@@ -4666,7 +4666,7 @@
       {
         "id": "ent_334",
         "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
+        "subcategory": "Pokémon",
         "question": "What type is Ho-Oh?",
         "options": [
           "Fire/Flying",
@@ -5553,10 +5553,10 @@
         "subcategory": "Soccer",
         "question": "Who holds the record for most World Cup goals?",
         "options": [
-          "Pel\u00e9",
+          "Pelé",
           "Miroslav Klose",
           "Ronaldo",
-          "Gerd M\u00fcller"
+          "Gerd Müller"
         ],
         "correct_answer": "Miroslav Klose",
         "difficulty": "hard"
@@ -7050,7 +7050,7 @@
       {
         "id": "bib_001",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who was known as the 'Apostle to the Gentiles'?",
         "options": [
           "Peter",
@@ -7064,7 +7064,7 @@
       {
         "id": "bib_002",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "How many books are in the New Testament?",
         "options": [
           "25",
@@ -7078,7 +7078,7 @@
       {
         "id": "bib_003",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the first plague in Egypt?",
         "options": [
           "Locusts",
@@ -7092,7 +7092,7 @@
       {
         "id": "bib_004",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who built the ark?",
         "options": [
           "Moses",
@@ -7106,7 +7106,7 @@
       {
         "id": "bib_005",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What is the shortest verse in the Bible?",
         "options": [
           "God is love",
@@ -7120,7 +7120,7 @@
       {
         "id": "bib_006",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many days and nights did Jesus fast in the wilderness?",
         "options": [
           "30",
@@ -7134,7 +7134,7 @@
       {
         "id": "bib_007",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was the king of Israel after Saul?",
         "options": [
           "Solomon",
@@ -7148,7 +7148,7 @@
       {
         "id": "bib_008",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many disciples did Jesus have?",
         "options": [
           "10",
@@ -7162,7 +7162,7 @@
       {
         "id": "bib_009",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the first book of the Bible?",
         "options": [
           "Exodus",
@@ -7176,7 +7176,7 @@
       {
         "id": "bib_010",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "Who wrote most of the letters in the New Testament?",
         "options": [
           "Peter",
@@ -7190,7 +7190,7 @@
       {
         "id": "bib_011",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "What did God create on the first day?",
         "options": [
           "Land and sea",
@@ -7204,7 +7204,7 @@
       {
         "id": "bib_012",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was swallowed by a great fish?",
         "options": [
           "Jonah",
@@ -7218,7 +7218,7 @@
       {
         "id": "bib_013",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "How many books are in the Old Testament?",
         "options": [
           "37",
@@ -7232,7 +7232,7 @@
       {
         "id": "bib_014",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who betrayed Jesus?",
         "options": [
           "Peter",
@@ -7246,7 +7246,7 @@
       {
         "id": "bib_015",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What city was Jesus born in?",
         "options": [
           "Jerusalem",
@@ -7260,7 +7260,7 @@
       {
         "id": "bib_016",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of Moses' sister?",
         "options": [
           "Mary",
@@ -7274,7 +7274,7 @@
       {
         "id": "bib_017",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many sons did Jacob have?",
         "options": [
           "10",
@@ -7288,7 +7288,7 @@
       {
         "id": "bib_018",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did David use to defeat Goliath?",
         "options": [
           "A sword",
@@ -7302,7 +7302,7 @@
       {
         "id": "bib_019",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What musical instrument did David play?",
         "options": [
           "Flute",
@@ -7316,7 +7316,7 @@
       {
         "id": "bib_020",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many plagues did God send upon Egypt?",
         "options": [
           "7",
@@ -7330,7 +7330,7 @@
       {
         "id": "bib_021",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was the oldest person mentioned in the Bible?",
         "options": [
           "Noah",
@@ -7344,7 +7344,7 @@
       {
         "id": "bib_022",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Jacob give Joseph that made his brothers jealous?",
         "options": [
           "A ring",
@@ -7358,7 +7358,7 @@
       {
         "id": "bib_023",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was thrown into the lion's den?",
         "options": [
           "David",
@@ -7372,7 +7372,7 @@
       {
         "id": "bib_024",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Moses' staff turn into when he threw it down?",
         "options": [
           "A sword",
@@ -7386,7 +7386,7 @@
       {
         "id": "bib_025",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many days did Jesus fast in the wilderness?",
         "options": [
           "30",
@@ -7400,7 +7400,7 @@
       {
         "id": "bib_026",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was the first high priest of Israel?",
         "options": [
           "Moses",
@@ -7414,7 +7414,7 @@
       {
         "id": "bib_027",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many loaves and fishes did Jesus use to feed the 5000?",
         "options": [
           "3 loaves, 2 fishes",
@@ -7428,7 +7428,7 @@
       {
         "id": "bib_028",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of Abraham's wife?",
         "options": [
           "Rachel",
@@ -7442,7 +7442,7 @@
       {
         "id": "bib_029",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who climbed a sycamore tree to see Jesus?",
         "options": [
           "Nicodemus",
@@ -7456,7 +7456,7 @@
       {
         "id": "bib_030",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "What language was most of the Old Testament written in?",
         "options": [
           "Greek",
@@ -7470,7 +7470,7 @@
       {
         "id": "bib_031",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What were the names of the first two people?",
         "options": [
           "Abraham and Sarah",
@@ -7484,7 +7484,7 @@
       {
         "id": "bib_032",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many people were on Noah's ark?",
         "options": [
           "6",
@@ -7498,7 +7498,7 @@
       {
         "id": "bib_033",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was sold into slavery by his brothers?",
         "options": [
           "Joseph",
@@ -7512,7 +7512,7 @@
       {
         "id": "bib_034",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did God give Moses on Mount Sinai?",
         "options": [
           "The Ten Commandments",
@@ -7526,7 +7526,7 @@
       {
         "id": "bib_035",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was the strongest man in the Bible?",
         "options": [
           "David",
@@ -7540,7 +7540,7 @@
       {
         "id": "bib_036",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What did Jesus turn water into?",
         "options": [
           "Oil",
@@ -7554,7 +7554,7 @@
       {
         "id": "bib_037",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many disciples did Jesus choose?",
         "options": [
           "10",
@@ -7568,7 +7568,7 @@
       {
         "id": "bib_038",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who denied Jesus three times?",
         "options": [
           "John",
@@ -7582,7 +7582,7 @@
       {
         "id": "bib_039",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many days was Jesus in the tomb?",
         "options": [
           "1",
@@ -7596,7 +7596,7 @@
       {
         "id": "bib_040",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "Who wrote most of the Psalms?",
         "options": [
           "Solomon",
@@ -7610,7 +7610,7 @@
       {
         "id": "bib_041",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was Solomon known for?",
         "options": [
           "Strength",
@@ -7624,7 +7624,7 @@
       {
         "id": "bib_042",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was the first king of Israel?",
         "options": [
           "David",
@@ -7638,7 +7638,7 @@
       {
         "id": "bib_043",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Esau sell to Jacob?",
         "options": [
           "His coat",
@@ -7652,7 +7652,7 @@
       {
         "id": "bib_044",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "How many books are in the Bible total?",
         "options": [
           "64",
@@ -7666,7 +7666,7 @@
       {
         "id": "bib_045",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Moses use to part the Red Sea?",
         "options": [
           "His hands",
@@ -7680,7 +7680,7 @@
       {
         "id": "bib_046",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many years did the Israelites wander in the wilderness?",
         "options": [
           "30",
@@ -7694,7 +7694,7 @@
       {
         "id": "bib_047",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of the garden where Adam and Eve lived?",
         "options": [
           "Garden of Eden",
@@ -7708,7 +7708,7 @@
       {
         "id": "bib_048",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was the first person to be murdered in the Bible?",
         "options": [
           "Adam",
@@ -7722,7 +7722,7 @@
       {
         "id": "bib_049",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did God use to destroy the earth in Noah's time?",
         "options": [
           "Fire",
@@ -7736,7 +7736,7 @@
       {
         "id": "bib_050",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many of each clean animal did Noah take on the ark?",
         "options": [
           "2",
@@ -7750,7 +7750,7 @@
       {
         "id": "bib_051",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was Abraham's name before God changed it?",
         "options": [
           "Abram",
@@ -7764,7 +7764,7 @@
       {
         "id": "bib_052",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did God promise Abraham about his descendants?",
         "options": [
           "They would be wise",
@@ -7778,7 +7778,7 @@
       {
         "id": "bib_053",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of Isaac's wife?",
         "options": [
           "Sarah",
@@ -7792,7 +7792,7 @@
       {
         "id": "bib_054",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Which son did Abraham almost sacrifice?",
         "options": [
           "Ishmael",
@@ -7806,7 +7806,7 @@
       {
         "id": "bib_055",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Jacob's name get changed to?",
         "options": [
           "Israel",
@@ -7820,7 +7820,7 @@
       {
         "id": "bib_056",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many brothers did Joseph have?",
         "options": [
           "10",
@@ -7834,7 +7834,7 @@
       {
         "id": "bib_057",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Pharaoh's dreams about cows and grain represent?",
         "options": [
           "War and peace",
@@ -7848,7 +7848,7 @@
       {
         "id": "bib_058",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who found baby Moses in the river?",
         "options": [
           "Pharaoh's daughter",
@@ -7862,7 +7862,7 @@
       {
         "id": "bib_059",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Moses see that was burning but not consumed?",
         "options": [
           "A tree",
@@ -7876,7 +7876,7 @@
       {
         "id": "bib_060",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the last plague in Egypt?",
         "options": [
           "Darkness",
@@ -7890,7 +7890,7 @@
       {
         "id": "bib_061",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did the Israelites put on their doorposts during the Passover?",
         "options": [
           "Water",
@@ -7904,7 +7904,7 @@
       {
         "id": "bib_062",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What food did God provide for the Israelites in the wilderness?",
         "options": [
           "Bread",
@@ -7918,7 +7918,7 @@
       {
         "id": "bib_063",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who succeeded Moses as leader of Israel?",
         "options": [
           "Aaron",
@@ -7932,7 +7932,7 @@
       {
         "id": "bib_064",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What city had walls that fell down when the Israelites shouted?",
         "options": [
           "Jerusalem",
@@ -7946,7 +7946,7 @@
       {
         "id": "bib_065",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who was the mother of John the Baptist?",
         "options": [
           "Mary",
@@ -7960,7 +7960,7 @@
       {
         "id": "bib_066",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What did Jesus say is the greatest commandment?",
         "options": [
           "Do not steal",
@@ -7974,7 +7974,7 @@
       {
         "id": "bib_067",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many wise men visited baby Jesus?",
         "options": [
           "Two",
@@ -7988,7 +7988,7 @@
       {
         "id": "bib_068",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What did the wise men bring to Jesus?",
         "options": [
           "Gold, frankincense, and myrrh",
@@ -8002,7 +8002,7 @@
       {
         "id": "bib_069",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Where did Jesus grow up?",
         "options": [
           "Bethlehem",
@@ -8016,7 +8016,7 @@
       {
         "id": "bib_070",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who baptized Jesus?",
         "options": [
           "Peter",
@@ -8030,7 +8030,7 @@
       {
         "id": "bib_071",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many people did Jesus feed with five loaves and two fish?",
         "options": [
           "3,000",
@@ -8044,7 +8044,7 @@
       {
         "id": "bib_072",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What was Matthew's job before following Jesus?",
         "options": [
           "Fisherman",
@@ -8058,7 +8058,7 @@
       {
         "id": "bib_073",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Which disciple walked on water?",
         "options": [
           "John",
@@ -8072,7 +8072,7 @@
       {
         "id": "bib_074",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What did Jesus ride into Jerusalem?",
         "options": [
           "A horse",
@@ -8086,7 +8086,7 @@
       {
         "id": "bib_075",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What did Judas receive for betraying Jesus?",
         "options": [
           "30 pieces of silver",
@@ -8100,7 +8100,7 @@
       {
         "id": "bib_076",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who helped Jesus carry his cross?",
         "options": [
           "Peter",
@@ -8114,7 +8114,7 @@
       {
         "id": "bib_077",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What happened to the temple curtain when Jesus died?",
         "options": [
           "It caught fire",
@@ -8128,7 +8128,7 @@
       {
         "id": "bib_078",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who was the first person to see Jesus after his resurrection?",
         "options": [
           "Peter",
@@ -8142,7 +8142,7 @@
       {
         "id": "bib_079",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many days after his resurrection did Jesus ascend to heaven?",
         "options": [
           "30",
@@ -8156,7 +8156,7 @@
       {
         "id": "bib_080",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What happened on the Day of Pentecost?",
         "options": [
           "Jesus was born",
@@ -8170,7 +8170,7 @@
       {
         "id": "bib_081",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What was Paul's name before he became a Christian?",
         "options": [
           "Saul",
@@ -8184,7 +8184,7 @@
       {
         "id": "bib_082",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "On what road did Paul meet Jesus?",
         "options": [
           "Road to Jerusalem",
@@ -8198,7 +8198,7 @@
       {
         "id": "bib_083",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "How many missionary journeys did Paul take?",
         "options": [
           "Two",
@@ -8212,7 +8212,7 @@
       {
         "id": "bib_084",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What is the last book of the Bible?",
         "options": [
           "Jude",
@@ -8226,7 +8226,7 @@
       {
         "id": "bib_085",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "Who wrote the book of Revelation?",
         "options": [
           "Paul",
@@ -8240,7 +8240,7 @@
       {
         "id": "bib_086",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What was the name of the place where Jesus was crucified?",
         "options": [
           "Calvary",
@@ -8254,7 +8254,7 @@
       {
         "id": "bib_087",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many people were saved on Noah's ark?",
         "options": [
           "6",
@@ -8268,7 +8268,7 @@
       {
         "id": "bib_088",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What was the first miracle Jesus performed?",
         "options": [
           "Healing the blind",
@@ -8282,7 +8282,7 @@
       {
         "id": "bib_089",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "What did God create on the second day?",
         "options": [
           "Land and sea",
@@ -8296,7 +8296,7 @@
       {
         "id": "bib_090",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who was the mother of Jesus?",
         "options": [
           "Martha",
@@ -8310,7 +8310,7 @@
       {
         "id": "bib_091",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What did Jesus say He is the way to?",
         "options": [
           "Happiness",
@@ -8324,7 +8324,7 @@
       {
         "id": "bib_092",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many commandments did God give Moses?",
         "options": [
           "8",
@@ -8338,7 +8338,7 @@
       {
         "id": "bib_093",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What did Jesus do for 40 days after His resurrection?",
         "options": [
           "Taught disciples",
@@ -8352,7 +8352,7 @@
       {
         "id": "bib_094",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was known as a man after God's own heart?",
         "options": [
           "Solomon",
@@ -8366,7 +8366,7 @@
       {
         "id": "bib_095",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What was Peter's job before following Jesus?",
         "options": [
           "Tax collector",
@@ -8380,7 +8380,7 @@
       {
         "id": "bib_096",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of the mountain where Moses received the Ten Commandments?",
         "options": [
           "Mount Olive",
@@ -8394,7 +8394,7 @@
       {
         "id": "bib_097",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was swallowed by a big fish?",
         "options": [
           "Jonah",
@@ -8408,7 +8408,7 @@
       {
         "id": "bib_098",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of the giant David fought?",
         "options": [
           "Goliath",
@@ -8422,7 +8422,7 @@
       {
         "id": "bib_099",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many days was Jonah in the fish?",
         "options": [
           "1",
@@ -8436,7 +8436,7 @@
       {
         "id": "bib_100",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was the oldest man in the Bible?",
         "options": [
           "Noah",
@@ -8450,7 +8450,7 @@
       {
         "id": "bib_101",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of the boat Noah built?",
         "options": [
           "The Ark",
@@ -8464,7 +8464,7 @@
       {
         "id": "bib_102",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What sign did God give Noah that He would never flood the earth again?",
         "options": [
           "A dove",
@@ -8478,7 +8478,7 @@
       {
         "id": "bib_103",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of Abraham and Sarah's son?",
         "options": [
           "Ishmael",
@@ -8492,7 +8492,7 @@
       {
         "id": "bib_104",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What were the names of Isaac's twin sons?",
         "options": [
           "Cain and Abel",
@@ -8506,7 +8506,7 @@
       {
         "id": "bib_105",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Which son was Jacob's favorite?",
         "options": [
           "Reuben",
@@ -8520,7 +8520,7 @@
       {
         "id": "bib_106",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Pharaoh's butler and baker have that Joseph interpreted?",
         "options": [
           "Visions",
@@ -8534,7 +8534,7 @@
       {
         "id": "bib_107",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many years of famine did Joseph predict?",
         "options": [
           "5",
@@ -8548,7 +8548,7 @@
       {
         "id": "bib_108",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who found baby Moses floating in the river?",
         "options": [
           "His mother",
@@ -8562,7 +8562,7 @@
       {
         "id": "bib_109",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What mountain did Moses receive the Ten Commandments on?",
         "options": [
           "Mount Ararat",
@@ -8576,7 +8576,7 @@
       {
         "id": "bib_110",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did the Israelites worship while Moses was on the mountain?",
         "options": [
           "A silver calf",
@@ -8590,7 +8590,7 @@
       {
         "id": "bib_111",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many spies did Moses send to explore the Promised Land?",
         "options": [
           "10",
@@ -8604,7 +8604,7 @@
       {
         "id": "bib_112",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many of the spies gave a good report about the Promised Land?",
         "options": [
           "1",
@@ -8618,7 +8618,7 @@
       {
         "id": "bib_113",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who were the two spies who gave a good report?",
         "options": [
           "Moses and Aaron",
@@ -8632,7 +8632,7 @@
       {
         "id": "bib_114",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Rahab use to help the spies escape from Jericho?",
         "options": [
           "A ladder",
@@ -8646,7 +8646,7 @@
       {
         "id": "bib_115",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many times did the Israelites march around Jericho on the seventh day?",
         "options": [
           "One",
@@ -8660,7 +8660,7 @@
       {
         "id": "bib_116",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was the first judge of Israel?",
         "options": [
           "Gideon",
@@ -8674,7 +8674,7 @@
       {
         "id": "bib_117",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was Samson's source of strength?",
         "options": [
           "His muscles",
@@ -8688,7 +8688,7 @@
       {
         "id": "bib_118",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who cut Samson's hair?",
         "options": [
           "Delilah",
@@ -8702,7 +8702,7 @@
       {
         "id": "bib_119",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What relation was Ruth to Naomi?",
         "options": [
           "Sister",
@@ -8716,7 +8716,7 @@
       {
         "id": "bib_120",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who did Ruth marry?",
         "options": [
           "Boaz",
@@ -8730,7 +8730,7 @@
       {
         "id": "bib_121",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Hannah pray for at the temple?",
         "options": [
           "Wisdom",
@@ -8744,7 +8744,7 @@
       {
         "id": "bib_122",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was the name of Hannah's son?",
         "options": [
           "David",
@@ -8758,7 +8758,7 @@
       {
         "id": "bib_123",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who anointed Saul as the first king of Israel?",
         "options": [
           "Moses",
@@ -8772,7 +8772,7 @@
       {
         "id": "bib_124",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "How many stones did David pick up to fight Goliath?",
         "options": [
           "Three",
@@ -8786,7 +8786,7 @@
       {
         "id": "bib_125",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was David's best friend?",
         "options": [
           "Samuel",
@@ -8800,7 +8800,7 @@
       {
         "id": "bib_126",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Solomon ask God for?",
         "options": [
           "Wealth",
@@ -8814,7 +8814,7 @@
       {
         "id": "bib_127",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Solomon build for God?",
         "options": [
           "An altar",
@@ -8828,7 +8828,7 @@
       {
         "id": "bib_128",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was taken up to heaven in a whirlwind?",
         "options": [
           "Enoch",
@@ -8842,7 +8842,7 @@
       {
         "id": "bib_129",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who received a double portion of Elijah's spirit?",
         "options": [
           "Elisha",
@@ -8856,7 +8856,7 @@
       {
         "id": "bib_130",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Naaman dip in seven times to be healed?",
         "options": [
           "The Red Sea",
@@ -8870,7 +8870,7 @@
       {
         "id": "bib_131",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who rebuilt the walls of Jerusalem?",
         "options": [
           "Ezra",
@@ -8884,7 +8884,7 @@
       {
         "id": "bib_132",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What was Queen Esther's Hebrew name?",
         "options": [
           "Ruth",
@@ -8898,7 +8898,7 @@
       {
         "id": "bib_133",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "Who was Esther's cousin who raised her?",
         "options": [
           "Mordecai",
@@ -8912,7 +8912,7 @@
       {
         "id": "bib_134",
         "category": "Bible",
-        "subcategory": "Old Testament",
+        "subcategory": "Bible",
         "question": "What did Job lose first in his trials?",
         "options": [
           "His health",
@@ -8926,7 +8926,7 @@
       {
         "id": "bib_135",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "Who wrote the book of Ecclesiastes?",
         "options": [
           "David",
@@ -8940,7 +8940,7 @@
       {
         "id": "bib_136",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What does 'Emmanuel' mean?",
         "options": [
           "Prince of Peace",
@@ -8954,7 +8954,7 @@
       {
         "id": "bib_137",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "Who were Jesus' earthly parents?",
         "options": [
           "Joseph and Mary",
@@ -8968,7 +8968,7 @@
       {
         "id": "bib_138",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What was the name of the tax collector who climbed a tree to see Jesus?",
         "options": [
           "Matthew",
@@ -8982,7 +8982,7 @@
       {
         "id": "bib_139",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Bible",
         "question": "How many baskets of leftovers were collected after feeding the 5000?",
         "options": [
           "7",
@@ -8996,7 +8996,7 @@
       {
         "id": "bib_140",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Bible",
         "question": "What was the name of the man Jesus raised from the dead?",
         "options": [
           "Jairus",
@@ -9010,7 +9010,7 @@
       {
         "id": "bib_141",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Scripture",
         "question": "Which book comes after Genesis in the Bible?",
         "options": [
           "Exodus",
@@ -12277,7 +12277,7 @@
         "id": "sci_029",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What scientist is famous for the equation E=mc\u00b2?",
+        "question": "What scientist is famous for the equation E=mc²?",
         "options": [
           "Newton",
           "Einstein",
@@ -12433,12 +12433,12 @@
         "subcategory": "Physics",
         "question": "At what temperature does water boil at sea level?",
         "options": [
-          "90\u00b0C",
-          "95\u00b0C",
-          "100\u00b0C",
-          "105\u00b0C"
+          "90°C",
+          "95°C",
+          "100°C",
+          "105°C"
         ],
-        "correct_answer": "100\u00b0C",
+        "correct_answer": "100°C",
         "difficulty": "easy"
       },
       {
@@ -12461,12 +12461,12 @@
         "subcategory": "Physics",
         "question": "What is the formula for kinetic energy?",
         "options": [
-          "KE = mv\u00b2",
-          "KE = \u00bdmv\u00b2",
-          "KE = m\u00b2v",
+          "KE = mv²",
+          "KE = ½mv²",
+          "KE = m²v",
           "KE = 2mv"
         ],
-        "correct_answer": "KE = \u00bdmv\u00b2",
+        "correct_answer": "KE = ½mv²",
         "difficulty": "hard"
       },
       {
@@ -12475,12 +12475,12 @@
         "subcategory": "Biology",
         "question": "What is the normal human body temperature in Fahrenheit?",
         "options": [
-          "96.8\u00b0F",
-          "97.6\u00b0F",
-          "98.6\u00b0F",
-          "99.6\u00b0F"
+          "96.8°F",
+          "97.6°F",
+          "98.6°F",
+          "99.6°F"
         ],
-        "correct_answer": "98.6\u00b0F",
+        "correct_answer": "98.6°F",
         "difficulty": "easy"
       },
       {
@@ -13719,7 +13719,7 @@
         "id": "sci_132",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "What state of matter is water at 100\u00b0C?",
+        "question": "What state of matter is water at 100°C?",
         "options": [
           "Solid",
           "Liquid",
@@ -13791,12 +13791,12 @@
         "subcategory": "Physics",
         "question": "What is the freezing point of water in Celsius?",
         "options": [
-          "-10\u00b0C",
-          "0\u00b0C",
-          "10\u00b0C",
-          "32\u00b0C"
+          "-10°C",
+          "0°C",
+          "10°C",
+          "32°C"
         ],
-        "correct_answer": "0\u00b0C",
+        "correct_answer": "0°C",
         "difficulty": "easy"
       },
       {
@@ -14535,12 +14535,12 @@
         "subcategory": "Famous Chefs/Restaurants",
         "question": "Which chef is known for molecular gastronomy?",
         "options": [
-          "Ferran Adri\u00e0",
+          "Ferran Adrià",
           "Julia Child",
           "Anthony Bourdain",
           "Rachel Ray"
         ],
-        "correct_answer": "Ferran Adri\u00e0",
+        "correct_answer": "Ferran Adrià",
         "difficulty": "hard"
       },
       {
@@ -14874,7 +14874,7 @@
           "Thomas Keller",
           "Daniel Boulud",
           "Eric Ripert",
-          "Jos\u00e9 Andr\u00e9s"
+          "José Andrés"
         ],
         "correct_answer": "Thomas Keller",
         "difficulty": "medium"
@@ -14981,7 +14981,7 @@
         "id": "foo_063",
         "category": "Food",
         "subcategory": "Famous Chefs/Restaurants",
-        "question": "What is the name of Jos\u00e9 Andr\u00e9s' minibar concept?",
+        "question": "What is the name of José Andrés' minibar concept?",
         "options": [
           "Small plates",
           "Molecular dining",

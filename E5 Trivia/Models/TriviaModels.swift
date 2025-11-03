@@ -59,6 +59,127 @@ enum TriviaCategory: String, CaseIterable {
         case .food: return "#E91E63"
         }
     }
+
+    var subcategories: [String] {
+        // This will be populated dynamically from the question database
+        return []
+    }
+}
+
+// MARK: - Subcategory Protocol
+protocol TriviaSubcategory {
+    var name: String { get }
+    var icon: String { get }
+    var color: String { get }
+}
+
+// MARK: - Entertainment Subcategories
+struct EntertainmentSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let marvel = EntertainmentSubcategory(name: "Marvel", icon: "shield.fill", color: "#F7B500")
+    static let harryPotter = EntertainmentSubcategory(name: "Harry Potter", icon: "wand.and.stars", color: "#FF7F0F")
+    static let pokemon = EntertainmentSubcategory(name: "Pokémon", icon: "sparkles", color: "#8E44AD")
+    static let starWars = EntertainmentSubcategory(name: "Star Wars", icon: "lightsaber", color: "#3498DB")
+    static let pixar = EntertainmentSubcategory(name: "Pixar", icon: "lamp.desk.fill", color: "#1ABC9C")
+    static let filmScoreComposers = EntertainmentSubcategory(name: "Film Score Composers", icon: "music.note.list", color: "#2ECC71")
+    static let theOffice = EntertainmentSubcategory(name: "The Office", icon: "building.2.fill", color: "#E91E63")
+    static let dc = EntertainmentSubcategory(name: "DC", icon: "bolt.fill", color: "#5C6BC0")
+    static let comicBooks = EntertainmentSubcategory(name: "Comic Books", icon: "book.pages.fill", color: "#E74C3C")
+
+    static let all: [EntertainmentSubcategory] = [marvel, harryPotter, pokemon, starWars, pixar, filmScoreComposers, theOffice, dc, comicBooks]
+}
+
+// MARK: - Sports Subcategories
+struct SportsSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let basketball = SportsSubcategory(name: "Basketball", icon: "basketball.fill", color: "#F7B500")
+    static let tennis = SportsSubcategory(name: "Tennis", icon: "tennisball.fill", color: "#FF7F0F")
+    static let golf = SportsSubcategory(name: "Golf", icon: "figure.golf", color: "#8E44AD")
+    static let soccer = SportsSubcategory(name: "Soccer", icon: "soccerball", color: "#3498DB")
+    static let olympics = SportsSubcategory(name: "Olympics", icon: "medal.fill", color: "#1ABC9C")
+    static let hockey = SportsSubcategory(name: "Hockey", icon: "hockey.puck.fill", color: "#2ECC71")
+    static let americanFootball = SportsSubcategory(name: "American Football", icon: "football.fill", color: "#E91E63")
+    static let baseball = SportsSubcategory(name: "Baseball", icon: "baseball.fill", color: "#5C6BC0")
+
+    static let all: [SportsSubcategory] = [basketball, tennis, golf, soccer, olympics, hockey, americanFootball, baseball]
+}
+
+// MARK: - Bible Subcategories
+struct BibleSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let oldTestament = BibleSubcategory(name: "Old Testament", icon: "scroll.fill", color: "#F7B500")
+    static let newTestament = BibleSubcategory(name: "New Testament", icon: "cross.fill", color: "#FF7F0F")
+    static let bibleTrivia = BibleSubcategory(name: "Bible Trivia", icon: "questionmark.circle.fill", color: "#8E44AD")
+    static let biblicalHistory = BibleSubcategory(name: "Biblical History", icon: "building.columns.fill", color: "#3498DB")
+    static let biblicalTheology = BibleSubcategory(name: "Biblical Theology", icon: "lightbulb.fill", color: "#1ABC9C")
+    static let biblicalLanguages = BibleSubcategory(name: "Biblical Languages", icon: "textformat.abc", color: "#2ECC71")
+
+    static let all: [BibleSubcategory] = [oldTestament, newTestament, bibleTrivia, biblicalHistory, biblicalTheology, biblicalLanguages]
+}
+
+// MARK: - History Subcategories
+struct HistorySubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let modernHistory = HistorySubcategory(name: "Modern History", icon: "airplane.departure", color: "#F7B500")
+    static let ancientHistory = HistorySubcategory(name: "Ancient History", icon: "building.columns.fill", color: "#FF7F0F")
+    static let medievalHistory = HistorySubcategory(name: "Medieval History", icon: "shield.lefthalf.filled", color: "#8E44AD")
+    static let churchHistory = HistorySubcategory(name: "Church History", icon: "building.fill", color: "#3498DB")
+
+    static let all: [HistorySubcategory] = [modernHistory, ancientHistory, medievalHistory, churchHistory]
+}
+
+// MARK: - Science Subcategories
+struct ScienceSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let biology = ScienceSubcategory(name: "Biology", icon: "leaf.fill", color: "#F7B500")
+    static let chemistry = ScienceSubcategory(name: "Chemistry", icon: "flask.fill", color: "#FF7F0F")
+    static let physics = ScienceSubcategory(name: "Physics", icon: "atom", color: "#8E44AD")
+    static let astronomy = ScienceSubcategory(name: "Astronomy", icon: "sparkles", color: "#3498DB")
+
+    static let all: [ScienceSubcategory] = [biology, chemistry, physics, astronomy]
+}
+
+// MARK: - Earth Subcategories
+struct EarthSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let animals = EarthSubcategory(name: "Animals", icon: "pawprint.fill", color: "#F7B500")
+    static let weather = EarthSubcategory(name: "Weather", icon: "cloud.sun.fill", color: "#FF7F0F")
+    static let plants = EarthSubcategory(name: "Plants", icon: "leaf.fill", color: "#8E44AD")
+    static let trees = EarthSubcategory(name: "Trees", icon: "tree.fill", color: "#3498DB")
+    static let geography = EarthSubcategory(name: "Geography", icon: "map.fill", color: "#1ABC9C")
+
+    static let all: [EarthSubcategory] = [animals, weather, plants, trees, geography]
+}
+
+// MARK: - Food Subcategories
+struct FoodSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let ingredients = FoodSubcategory(name: "Ingredients", icon: "carrot.fill", color: "#F7B500")
+    static let famousChefs = FoodSubcategory(name: "Famous Chefs/Restaurants", icon: "chef.hat.fill", color: "#FF7F0F")
+    static let dishes = FoodSubcategory(name: "Dishes", icon: "fork.knife", color: "#8E44AD")
+
+    static let all: [FoodSubcategory] = [ingredients, famousChefs, dishes]
 }
 
 @Model
@@ -284,6 +405,112 @@ class AnsweredQuestionsManager: ObservableObject {
     func areAllQuestionsAnswered(in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Bool {
         let availableQuestions = questions.filter { difficultyMode.shouldInclude(questionDifficulty: $0.difficulty) }
         return availableQuestions.allSatisfy { answeredQuestionIds.contains($0.id) }
+    }
+
+    func getAnsweredCountForSubcategory(_ subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
+        let subcategoryQuestions = questions.filter { question in
+            question.subcategory == subcategory &&
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+        }
+
+        return subcategoryQuestions.filter { answeredQuestionIds.contains($0.id) }.count
+    }
+
+    func getTotalQuestionsForSubcategory(_ subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
+        return questions.filter { question in
+            question.subcategory == subcategory &&
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+        }.count
+    }
+
+    func areAllSubcategoryQuestionsAnswered(_ subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Bool {
+        let subcategoryQuestions = questions.filter { question in
+            question.subcategory == subcategory &&
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+        }
+
+        if subcategoryQuestions.isEmpty {
+            return true // Consider empty subcategory as completed
+        }
+
+        return subcategoryQuestions.allSatisfy { answeredQuestionIds.contains($0.id) }
+    }
+}
+
+// MARK: - Single Category Mode Manager
+class SingleCategoryModeManager: ObservableObject {
+    private static let modeEnabledKey = "single_category_mode_enabled"
+    private static let selectedCategoryKey = "single_category_mode_selected_category"
+
+    @Published var isEnabled: Bool = false
+    @Published var selectedCategory: TriviaCategory?
+
+    static let shared = SingleCategoryModeManager()
+
+    private init() {
+        loadSettings()
+    }
+
+    private func loadSettings() {
+        isEnabled = UserDefaults.standard.bool(forKey: Self.modeEnabledKey)
+
+        if let categoryString = UserDefaults.standard.string(forKey: Self.selectedCategoryKey),
+           let category = TriviaCategory(rawValue: categoryString) {
+            selectedCategory = category
+        }
+    }
+
+    func setModeEnabled(_ enabled: Bool) {
+        isEnabled = enabled
+        UserDefaults.standard.set(enabled, forKey: Self.modeEnabledKey)
+    }
+
+    func setSelectedCategory(_ category: TriviaCategory?) {
+        selectedCategory = category
+        if let category = category {
+            UserDefaults.standard.set(category.rawValue, forKey: Self.selectedCategoryKey)
+        } else {
+            UserDefaults.standard.removeObject(forKey: Self.selectedCategoryKey)
+        }
+    }
+
+    func getSubcategoriesForSelectedCategory(from questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> [any TriviaSubcategory] {
+        guard let category = selectedCategory else { return [] }
+
+        // Get all unique subcategories from the question database for this category
+        let subcategoryNames = Set(questions.filter { $0.category == category.rawValue }.compactMap { $0.subcategory })
+
+        // Map to subcategory objects with icon and color
+        var subcategories: [any TriviaSubcategory] = []
+
+        switch category {
+        case .entertainment:
+            subcategories = EntertainmentSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .sports:
+            subcategories = SportsSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .bible:
+            subcategories = BibleSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .history:
+            subcategories = HistorySubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .science:
+            subcategories = ScienceSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .earth:
+            subcategories = EarthSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .food:
+            subcategories = FoodSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        }
+
+        return subcategories
+    }
+
+    func hasQuestionsRemaining(for subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode, answeredManager: AnsweredQuestionsManager) -> Bool {
+        let subcategoryQuestions = questions.filter { question in
+            question.subcategory == subcategory &&
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !answeredManager.isQuestionAnswered(question.id)
+        }
+
+        return !subcategoryQuestions.isEmpty
     }
 }
 

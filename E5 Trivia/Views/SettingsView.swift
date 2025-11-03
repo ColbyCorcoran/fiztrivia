@@ -20,6 +20,7 @@ struct SettingsView: View {
     // Local state for immediate UI updates
     @State private var localModeEnabled: Bool = false
     @State private var localSelectedCategory: TriviaCategory? = nil
+    @State private var isInitialLoad: Bool = true  // Prevent onChange from firing on initial load
     
     var body: some View {
         NavigationView {
@@ -201,9 +202,17 @@ struct SettingsView: View {
                     }
                 }
                 .onAppear {
+                    // Set initial load flag to prevent onChange from firing during setup
+                    isInitialLoad = true
+
                     // Initialize local state from manager
                     localModeEnabled = singleCategoryManager.isEnabled
                     localSelectedCategory = singleCategoryManager.selectedCategory
+
+                    // Set flag to false after a brief delay to allow onChange to settle
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                        isInitialLoad = false
+                    }
                 }
         }
         .alert("Save Current Streak?", isPresented: $showingStreakAlert) {
@@ -259,6 +268,9 @@ struct SettingsView: View {
     }
 
     private func handleModeChange(from oldValue: Bool, to newValue: Bool) {
+        // Skip if this is the initial load
+        guard !isInitialLoad else { return }
+
         // Check if user has a streak
         if gameViewModel.gameSession.currentStreak > 0 {
             // Store the pending change
@@ -282,6 +294,9 @@ struct SettingsView: View {
     }
 
     private func handleCategoryChange(from oldValue: TriviaCategory?, to newValue: TriviaCategory?) {
+        // Skip if this is the initial load
+        guard !isInitialLoad else { return }
+
         // Only show alert if changing from one category to another (not initial selection)
         if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil && oldValue != newValue {
             // Store old category for potential revert (if user cancels)

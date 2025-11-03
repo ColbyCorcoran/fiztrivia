@@ -15,6 +15,7 @@ struct SettingsView: View {
     @State private var showingStreakAlert = false
     @State private var pendingModeChange: Bool? = nil
     @State private var pendingCategoryChange: TriviaCategory? = nil
+    @State private var previousCategory: TriviaCategory? = nil  // Store old category for cancel
 
     // Local state for immediate UI updates
     @State private var localModeEnabled: Bool = false
@@ -165,9 +166,7 @@ struct SettingsView: View {
                         }
                         .alert("Save Current Streak?", isPresented: $showingStreakAlert) {
                             Button("Cancel", role: .cancel) {
-                                // Reset pending changes
-                                pendingModeChange = nil
-                                pendingCategoryChange = nil
+                                handleAlertCancel()
                             }
                             Button("Discard & Continue") {
                                 applyPendingChanges(saveStreak: false)
@@ -242,6 +241,23 @@ struct SettingsView: View {
         editedUsername = ""
     }
 
+    private func handleAlertCancel() {
+        // Revert category picker to previous selection if it was changed
+        if previousCategory != nil {
+            localSelectedCategory = previousCategory
+            previousCategory = nil
+        }
+
+        // Revert mode toggle if it was changed
+        if let previousMode = pendingModeChange {
+            localModeEnabled = !previousMode  // Revert to opposite of pending
+        }
+
+        // Clear all pending changes
+        pendingModeChange = nil
+        pendingCategoryChange = nil
+    }
+
     private func handleModeChange(from oldValue: Bool, to newValue: Bool) {
         // Check if user has a streak
         if gameViewModel.gameSession.currentStreak > 0 {
@@ -264,13 +280,14 @@ struct SettingsView: View {
     private func handleCategoryChange(from oldValue: TriviaCategory?, to newValue: TriviaCategory?) {
         // Only show alert if changing from one category to another (not initial selection)
         if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil && oldValue != newValue {
-            // Store the pending change
+            // Store old category for potential revert (if user cancels)
+            previousCategory = oldValue
+            // Store new category as pending
             pendingCategoryChange = newValue
+            // Let picker UI update to new value immediately
 
             // Delay alert to allow picker to dismiss first (fixes modal presentation conflict)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                // Revert local state after picker dismisses
-                localSelectedCategory = oldValue
                 // Show alert now that picker is dismissed
                 showingStreakAlert = true
             }
@@ -315,6 +332,9 @@ struct SettingsView: View {
             localSelectedCategory = categoryChange
             pendingCategoryChange = nil
         }
+
+        // Clear previous category tracking
+        previousCategory = nil
 
         HapticManager.shared.buttonTapEffect()
     }

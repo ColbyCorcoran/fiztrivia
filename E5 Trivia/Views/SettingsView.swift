@@ -21,6 +21,7 @@ struct SettingsView: View {
     @State private var localModeEnabled: Bool = false
     @State private var localSelectedCategory: TriviaCategory? = nil
     @State private var isInitialLoad: Bool = true  // Prevent onChange from firing on initial load
+    @State private var isApplyingChanges: Bool = false  // Prevent onChange from firing while applying alert changes
     
     var body: some View {
         NavigationView {
@@ -268,8 +269,8 @@ struct SettingsView: View {
     }
 
     private func handleModeChange(from oldValue: Bool, to newValue: Bool) {
-        // Skip if this is the initial load
-        guard !isInitialLoad else { return }
+        // Skip if this is the initial load or we're applying changes from alert
+        guard !isInitialLoad && !isApplyingChanges else { return }
 
         // Check if user has a streak
         if gameViewModel.gameSession.currentStreak > 0 {
@@ -294,8 +295,8 @@ struct SettingsView: View {
     }
 
     private func handleCategoryChange(from oldValue: TriviaCategory?, to newValue: TriviaCategory?) {
-        // Skip if this is the initial load
-        guard !isInitialLoad else { return }
+        // Skip if this is the initial load or we're applying changes from alert
+        guard !isInitialLoad && !isApplyingChanges else { return }
 
         // Only show alert if changing from one category to another (not initial selection)
         if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil && oldValue != newValue {
@@ -317,6 +318,9 @@ struct SettingsView: View {
     }
 
     private func applyPendingChanges(saveStreak: Bool) {
+        // Set flag to prevent onChange from triggering during our updates
+        isApplyingChanges = true
+
         // Save streak to leaderboard if requested
         if saveStreak && gameViewModel.gameSession.currentStreak > 0 {
             let entry = LeaderboardEntry(streak: gameViewModel.gameSession.currentStreak, date: Date())
@@ -356,6 +360,9 @@ struct SettingsView: View {
         previousCategory = nil
 
         HapticManager.shared.buttonTapEffect()
+
+        // Reset flag to allow onChange to work normally
+        isApplyingChanges = false
     }
 }
 

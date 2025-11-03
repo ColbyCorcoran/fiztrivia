@@ -14,6 +14,7 @@ struct SettingsView: View {
     @State private var showingResetAlert = false
     @State private var showingStreakAlert = false
     @State private var pendingModeChange: Bool? = nil
+    @State private var previousModeValue: Bool? = nil  // Store old mode for cancel
     @State private var pendingCategoryChange: TriviaCategory? = nil
     @State private var previousCategory: TriviaCategory? = nil  // Store old category for cancel
 
@@ -252,15 +253,16 @@ struct SettingsView: View {
     }
 
     private func handleAlertCancel() {
-        // Revert category picker to previous selection if it was changed
-        if previousCategory != nil {
-            localSelectedCategory = previousCategory
-            previousCategory = nil
+        // Revert mode toggle to previous value if it was changed
+        if let previousMode = previousModeValue {
+            localModeEnabled = previousMode
+            previousModeValue = nil
         }
 
-        // Revert mode toggle if it was changed
-        if let previousMode = pendingModeChange {
-            localModeEnabled = !previousMode  // Revert to opposite of pending
+        // Revert category picker to previous selection if it was changed
+        if let previousCat = previousCategory {
+            localSelectedCategory = previousCat
+            previousCategory = nil
         }
 
         // Clear all pending changes
@@ -274,15 +276,16 @@ struct SettingsView: View {
 
         // Check if user has a streak
         if gameViewModel.gameSession.currentStreak > 0 {
-            // Store the pending change
+            // Store old mode for potential revert (if user cancels)
+            previousModeValue = oldValue
+            // Store new mode as pending
             pendingModeChange = newValue
-            // Revert local state temporarily (will be applied after alert)
-            localModeEnabled = oldValue
+            // Let toggle UI update to new value immediately
 
             // Use DispatchQueue to ensure alert shows after any UI updates
             DispatchQueue.main.async {
                 // Show alert immediately after current UI cycle
-                showingStreakAlert = true
+                self.showingStreakAlert = true
             }
         } else {
             // No streak, apply immediately
@@ -353,7 +356,8 @@ struct SettingsView: View {
             pendingCategoryChange = nil
         }
 
-        // Clear previous category tracking
+        // Clear previous value tracking
+        previousModeValue = nil
         previousCategory = nil
 
         HapticManager.shared.buttonTapEffect()

@@ -164,19 +164,6 @@ struct SettingsView: View {
                         } message: {
                             Text("This will reset all answered questions and allow you to play them again. This action cannot be undone.")
                         }
-                        .alert("Save Current Streak?", isPresented: $showingStreakAlert) {
-                            Button("Cancel", role: .cancel) {
-                                handleAlertCancel()
-                            }
-                            Button("Discard & Continue") {
-                                applyPendingChanges(saveStreak: false)
-                            }
-                            Button("Save & Continue") {
-                                applyPendingChanges(saveStreak: true)
-                            }
-                        } message: {
-                            Text("You currently have a streak of \(gameViewModel.gameSession.currentStreak). Would you like to save it to the leaderboard before switching?")
-                        }
                     }
                     
                     Section("Game Statistics") {
@@ -218,6 +205,19 @@ struct SettingsView: View {
                     localModeEnabled = singleCategoryManager.isEnabled
                     localSelectedCategory = singleCategoryManager.selectedCategory
                 }
+        }
+        .alert("Save Current Streak?", isPresented: $showingStreakAlert) {
+            Button("Cancel", role: .cancel) {
+                handleAlertCancel()
+            }
+            Button("Discard & Continue") {
+                applyPendingChanges(saveStreak: false)
+            }
+            Button("Save & Continue") {
+                applyPendingChanges(saveStreak: true)
+            }
+        } message: {
+            Text("You currently have a streak of \(gameViewModel.gameSession.currentStreak). Would you like to save it to the leaderboard before switching?")
         }
     }
     
@@ -265,8 +265,12 @@ struct SettingsView: View {
             pendingModeChange = newValue
             // Revert local state temporarily (will be applied after alert)
             localModeEnabled = oldValue
-            // Show alert immediately
-            showingStreakAlert = true
+
+            // Use DispatchQueue to ensure alert shows after any UI updates
+            DispatchQueue.main.async {
+                // Show alert immediately after current UI cycle
+                showingStreakAlert = true
+            }
         } else {
             // No streak, apply immediately
             singleCategoryManager.setModeEnabled(newValue)
@@ -286,10 +290,10 @@ struct SettingsView: View {
             pendingCategoryChange = newValue
             // Let picker UI update to new value immediately
 
-            // Delay alert to allow picker to dismiss first (fixes modal presentation conflict)
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                // Show alert now that picker is dismissed
-                showingStreakAlert = true
+            // Delay alert to allow picker to fully dismiss (increased to 0.5s for reliability)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                // Force state update to trigger alert reliably
+                self.showingStreakAlert = true
             }
         } else {
             // No streak or initial selection, apply immediately

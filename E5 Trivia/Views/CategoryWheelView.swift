@@ -43,7 +43,7 @@ struct CategoryWheelView: View {
     
     private var backgroundGradient: some View {
         LinearGradient(
-            colors: [Color.blue.opacity(0.2), Color.purple.opacity(0.2)],
+            colors: [Color(hex: "#f3eddf"), Color(hex: "#e8dcc8")],
             startPoint: .topLeading,
             endPoint: .bottomTrailing
         )
@@ -123,15 +123,15 @@ struct CategoryWheelView: View {
             VStack(spacing: 4) {
                 Text("Current Streak")
                     .font(.caption)
-                    .foregroundColor(.secondary)
+                    .foregroundColor(Color(hex: "#533214"))
                 Text("\(gameViewModel.gameSession.currentStreak)")
                     .font(.title2)
                     .fontWeight(.bold)
-                    .foregroundColor(.primary)
+                    .foregroundColor(Color(hex: "#dd7423"))
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .background(Color.secondary.opacity(0.1))
+            .background(Color(hex: "#f4d29b"))
             .cornerRadius(12)
             .padding(.trailing, 20)
         }
@@ -182,11 +182,11 @@ struct CategoryWheelView: View {
                     Text(question.correctAnswer)
                         .font(.title3)
                         .fontWeight(.semibold)
-                        .foregroundColor(.green)
+                        .foregroundColor(Color(hex: "#39766d"))
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
-                        .background(Color.green.opacity(0.1))
+                        .background(Color(hex: "#39766d").opacity(0.15))
                         .cornerRadius(6)
                 }
             }
@@ -235,9 +235,9 @@ struct CategoryWheelView: View {
                             .frame(maxWidth: .infinity, minHeight: 44)
                             .padding(.horizontal, 12)
                             .padding(.vertical, 10)
-                            .background(Color.white.opacity(0.9))
+                            .background(Color(hex: "#f4d29b"))
                             .cornerRadius(12)
-                            .shadow(color: .black.opacity(0.05), radius: 2, x: 0, y: 1)
+                            .shadow(color: Color(hex: "#533214").opacity(0.15), radius: 2, x: 0, y: 1)
                     }
                 }
             }
@@ -264,7 +264,7 @@ struct CategoryWheelView: View {
     
     private var wheelShadow: some View {
         Circle()
-            .fill(Color.black.opacity(0.2))
+            .fill(Color(hex: "#533214").opacity(0.25))
             .frame(width: 450, height: 450)
             .blur(radius: 15)
             .offset(y: 8)
@@ -317,9 +317,9 @@ struct CategoryWheelView: View {
     private var centerCircleAndButton: some View {
         ZStack {
             Circle()
-                .fill(Color.white)
+                .fill(Color(hex: "#f3eddf"))
                 .frame(width: 100, height: 100)
-                .shadow(radius: 8)
+                .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 8)
             
             if gameViewModel.isSpinning {
                 Image(systemName: "arrow.trianglehead.2.counterclockwise.rotate.90")
@@ -338,10 +338,13 @@ struct CategoryWheelView: View {
     }
     
     private var wheelPointer: some View {
-        Triangle()
-            .fill(Color.white)
-            .frame(width: 30, height: 20)
-            .offset(y: -53)
+        ZStack {
+            Triangle()
+                .fill(Color(hex: "#dd7423"))
+                .frame(width: 30, height: 20)
+                .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 3, x: 0, y: 2)
+        }
+        .offset(y: -53)
     }
     
     private var homeBarGradient: some View {
@@ -505,7 +508,7 @@ struct CategoryWheelView: View {
                         Text("\(gameViewModel.getAnsweredQuestionsCount())")
                             .font(.title2)
                             .fontWeight(.bold)
-                            .foregroundColor(.yellow)
+                            .foregroundColor(Color(hex: "#f3d29d"))
                     }
                     .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)
                     .animation(.easeInOut(duration: 0.8).delay(0.8), value: gameViewModel.showCompletionCelebration)
@@ -522,12 +525,12 @@ struct CategoryWheelView: View {
                             .font(.title2)
                             .fontWeight(.semibold)
                     }
-                    .foregroundColor(.blue)
+                    .foregroundColor(.white)
                     .padding(.horizontal, 32)
                     .padding(.vertical, 16)
-                    .background(Color.white)
+                    .background(Color(hex: "#dd7423"))
                     .cornerRadius(25)
-                    .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
+                    .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 10, x: 0, y: 5)
                 }
                 .scaleEffect(gameViewModel.showCompletionCelebration ? 1 : 0.8)
                 .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)

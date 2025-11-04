@@ -139,6 +139,7 @@ struct CategoryWheelView: View {
     private var uiContentLayer: some View {
         VStack(spacing: 0) {
             topToolbar
+            Spacer()
             questionArea
             Spacer()
         }
@@ -146,59 +147,62 @@ struct CategoryWheelView: View {
     
     private var topToolbar: some View {
         HStack(spacing: 12) {
-            Button(action: {
-                HapticManager.shared.buttonTapEffect()
-                gameViewModel.showLeaderboard()
-            }) {
-                Image(systemName: "list.number")
-                    .font(.title2)
-                    .foregroundColor(.primary)
+            // Left side: Leaderboard + Subtitle
+            HStack(spacing: 12) {
+                Button(action: {
+                    HapticManager.shared.buttonTapEffect()
+                    gameViewModel.showLeaderboard()
+                }) {
+                    Image(systemName: "list.number")
+                        .font(.title2)
+                        .foregroundColor(.primary)
+                }
+                .disabled(navigationButtonsDisabled)
+                .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
+                .triviaAccessibility(
+                    label: "Leaderboard",
+                    hint: "View top scores",
+                    traits: .isButton
+                )
+
+                Text(userManager.personalizedTagline)
+                    .font(.system(size: 16, weight: .medium))
+                    .foregroundColor(.secondary)
             }
-            .disabled(navigationButtonsDisabled)
-            .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
-            .triviaAccessibility(
-                label: "Leaderboard",
-                hint: "View top scores",
-                traits: .isButton
-            )
 
             Spacer()
 
-            // Personalized tagline in center
-            Text(userManager.personalizedTagline)
-                .font(.system(size: 16, weight: .medium))
-                .foregroundColor(.secondary)
+            // Right side: Streak Badge + Settings
+            HStack(spacing: 12) {
+                // Minimal streak badge
+                HStack(spacing: 4) {
+                    Text("🔥")
+                        .font(.caption)
+                    Text("\(gameViewModel.gameSession.currentStreak)")
+                        .font(.system(size: 14, weight: .semibold))
+                        .foregroundColor(Color(hex: "#39766d"))
+                }
+                .padding(.horizontal, 8)
+                .padding(.vertical, 4)
+                .background(Color(hex: "#39766d").opacity(0.15))
+                .cornerRadius(8)
 
-            Spacer()
-
-            // Minimal streak badge
-            HStack(spacing: 4) {
-                Text("🔥")
-                    .font(.caption)
-                Text("\(gameViewModel.gameSession.currentStreak)")
-                    .font(.system(size: 14, weight: .semibold))
-                    .foregroundColor(Color(hex: "#39766d"))
+                Button(action: {
+                    HapticManager.shared.buttonTapEffect()
+                    gameViewModel.showSettings()
+                }) {
+                    Image(systemName: "gear")
+                        .font(.title2)
+                        .foregroundColor(.primary)
+                }
+                .disabled(navigationButtonsDisabled)
+                .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
+                .triviaAccessibility(
+                    label: "Settings",
+                    hint: "Open app settings",
+                    traits: .isButton
+                )
             }
-            .padding(.horizontal, 8)
-            .padding(.vertical, 4)
-            .background(Color(hex: "#39766d").opacity(0.15))
-            .cornerRadius(8)
-
-            Button(action: {
-                HapticManager.shared.buttonTapEffect()
-                gameViewModel.showSettings()
-            }) {
-                Image(systemName: "gear")
-                    .font(.title2)
-                    .foregroundColor(.primary)
-            }
-            .disabled(navigationButtonsDisabled)
-            .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
-            .triviaAccessibility(
-                label: "Settings",
-                hint: "Open app settings",
-                traits: .isButton
-            )
         }
         .padding(.horizontal, 20)
         .padding(.top, 10)
@@ -266,85 +270,81 @@ struct CategoryWheelView: View {
     }
     
     private var resultView: some View {
-        VStack(spacing: 16) {
-            // Fiz mascot - celebrating or encouraging (TOP, bigger)
+        VStack(spacing: 20) {
+            // Fiz mascot - celebrating or encouraging (TOP, larger)
             Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 160, height: 160)
+                .frame(width: 200, height: 200)
                 .scaleEffect(showingResult ? 1.0 : 0.5)
                 .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
 
             // For correct answers: simple centered text
             if answerResult == .correct {
                 Text(userManager.personalizedCongratulatoryMessage())
-                    .font(.title2)
+                    .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
                     .multilineTextAlignment(.center)
             }
 
-            // For incorrect answers: horizontal layout with text on left
+            // For incorrect answers: centered text with answer
             if answerResult == .incorrect {
-                HStack(alignment: .top, spacing: 12) {
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text(userManager.personalizedEncouragingMessage())
-                            .font(.title2)
-                            .fontWeight(.bold)
-                            .foregroundColor(.primary)
-                            .multilineTextAlignment(.leading)
+                VStack(spacing: 12) {
+                    Text(userManager.personalizedEncouragingMessage())
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.primary)
+                        .multilineTextAlignment(.center)
 
-                        if let question = currentQuestion {
-                            VStack(alignment: .leading, spacing: 6) {
-                                Text("Correct Answer:")
-                                    .font(.body)
-                                    .foregroundColor(.secondary)
+                    if let question = currentQuestion {
+                        VStack(spacing: 8) {
+                            Text("Correct Answer:")
+                                .font(.body)
+                                .foregroundColor(.secondary)
 
-                                Text(question.correctAnswer)
-                                    .font(.title3)
-                                    .fontWeight(.semibold)
-                                    .foregroundColor(Color(hex: "#39766d"))
-                                    .multilineTextAlignment(.leading)
-                                    .padding(.horizontal, 10)
-                                    .padding(.vertical, 6)
-                                    .background(Color(hex: "#39766d").opacity(0.15))
-                                    .cornerRadius(6)
-                            }
+                            Text(question.correctAnswer)
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color(hex: "#39766d"))
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal, 16)
+                                .padding(.vertical, 10)
+                                .background(Color(hex: "#39766d").opacity(0.15))
+                                .cornerRadius(8)
                         }
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
         }
         .frame(maxWidth: .infinity)
-        .padding(20)
+        .padding(24)
     }
     
     private func questionView(for question: TriviaQuestion) -> some View {
         VStack(spacing: 16) {
             VStack(spacing: 8) {
-                // Show subcategory name in Single Category Mode, category name in Default Mode
-                if singleCategoryManager.isEnabled, let subcategory = question.subcategory {
-                    // Find the subcategory icon and color
-                    if let segmentData = wheelSegments.first(where: { $0.subcategory == subcategory }) {
-                        HStack {
-                            Image(systemName: segmentData.icon)
+                // Show category with subcategory underneath
+                VStack(spacing: 2) {
+                    // Main category
+                    if let category = gameViewModel.gameSession.selectedCategory {
+                        HStack(spacing: 6) {
+                            Image(systemName: category.icon)
                                 .font(.title2)
-                            Text(subcategory)
+                            Text(category.rawValue)
                                 .font(.body)
                                 .fontWeight(.semibold)
                         }
                         .foregroundColor(.secondary)
                     }
-                } else if let category = gameViewModel.gameSession.selectedCategory {
-                    HStack {
-                        Image(systemName: category.icon)
-                            .font(.title2)
-                        Text(category.rawValue)
-                            .font(.body)
-                            .fontWeight(.semibold)
+
+                    // Subcategory (smaller, underneath)
+                    if let subcategory = question.subcategory {
+                        Text(subcategory)
+                            .font(.caption)
+                            .fontWeight(.medium)
+                            .foregroundColor(.secondary.opacity(0.7))
                     }
-                    .foregroundColor(.secondary)
                 }
 
                 Text(question.question)

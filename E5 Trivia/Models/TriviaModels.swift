@@ -81,7 +81,7 @@ struct EntertainmentSubcategory: TriviaSubcategory {
 
     static let comicBooks = EntertainmentSubcategory(name: "Comic Books", icon: "book.pages.fill", color: "#F7B500")
     static let harryPotter = EntertainmentSubcategory(name: "Harry Potter", icon: "wand.and.stars", color: "#FF7F0F")
-    static let pokemon = EntertainmentSubcategory(name: "Pokémon", icon: "sparkles", color: "#8E44AD")
+    static let pokemon = EntertainmentSubcategory(name: "Pokémon", icon: "circle.circle.fill", color: "#8E44AD")
     static let starWars = EntertainmentSubcategory(name: "Star Wars", icon: "allergens.fill", color: "#3498DB")
     static let pixar = EntertainmentSubcategory(name: "Pixar", icon: "lamp.desk.fill", color: "#1ABC9C")
     static let filmScoreComposers = EntertainmentSubcategory(name: "Film Score Composers", icon: "music.note.list", color: "#2ECC71")

@@ -136,10 +136,37 @@ struct CategoryWheelView: View {
     private var uiContentLayer: some View {
         VStack(spacing: 0) {
             topToolbar
-            // Freed space - to be redesigned
+            centeredFizAndStreak
             questionArea
             Spacer()
         }
+    }
+
+    private var centeredFizAndStreak: some View {
+        VStack(spacing: 12) {
+            // Centered Fiz mascot
+            Image("fiz-regular pose")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 90, height: 90)
+
+            // Current streak display below
+            VStack(spacing: 4) {
+                Text("Current Streak")
+                    .font(.caption)
+                    .foregroundColor(Color(hex: "#533214"))
+                Text("\(gameViewModel.gameSession.currentStreak)")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(hex: "#39766d"))
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 8)
+            .background(Color(hex: "#39766d").opacity(0.2))
+            .cornerRadius(12)
+        }
+        .frame(maxWidth: .infinity)
+        .frame(height: 160)
     }
     
     private var topToolbar: some View {

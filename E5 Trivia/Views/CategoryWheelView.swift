@@ -244,44 +244,55 @@ struct CategoryWheelView: View {
     }
     
     private var resultView: some View {
-        HStack(alignment: .top, spacing: 16) {
-            // Fiz mascot - celebrating or encouraging (LEFT)
+        VStack(spacing: 16) {
+            // Fiz mascot - celebrating or encouraging (TOP, bigger)
             Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 140, height: 140)
+                .frame(width: 160, height: 160)
                 .scaleEffect(showingResult ? 1.0 : 0.5)
                 .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
 
-            // Text content (RIGHT, left-justified)
-            VStack(alignment: .leading, spacing: 12) {
-                Text(answerResult == .correct
-                     ? userManager.personalizedCongratulatoryMessage()
-                     : userManager.personalizedEncouragingMessage())
+            // For correct answers: simple centered text
+            if answerResult == .correct {
+                Text(userManager.personalizedCongratulatoryMessage())
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
-                    .multilineTextAlignment(.leading)
+                    .multilineTextAlignment(.center)
+            }
 
-                if answerResult == .incorrect, let question = currentQuestion {
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text("Correct Answer:")
-                            .font(.body)
-                            .foregroundColor(.secondary)
-
-                        Text(question.correctAnswer)
-                            .font(.title3)
-                            .fontWeight(.semibold)
-                            .foregroundColor(Color(hex: "#39766d"))
+            // For incorrect answers: horizontal layout with text on left
+            if answerResult == .incorrect {
+                HStack(alignment: .top, spacing: 12) {
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text(userManager.personalizedEncouragingMessage())
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
                             .multilineTextAlignment(.leading)
-                            .padding(.horizontal, 10)
-                            .padding(.vertical, 6)
-                            .background(Color(hex: "#39766d").opacity(0.15))
-                            .cornerRadius(6)
+
+                        if let question = currentQuestion {
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text("Correct Answer:")
+                                    .font(.body)
+                                    .foregroundColor(.secondary)
+
+                                Text(question.correctAnswer)
+                                    .font(.title3)
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(Color(hex: "#39766d"))
+                                    .multilineTextAlignment(.leading)
+                                    .padding(.horizontal, 10)
+                                    .padding(.vertical, 6)
+                                    .background(Color(hex: "#39766d").opacity(0.15))
+                                    .cornerRadius(6)
+                            }
+                        }
                     }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
         }
         .frame(maxWidth: .infinity)
         .padding(20)
@@ -614,6 +625,9 @@ struct CategoryWheelView: View {
         showingQuestion = false
         showingResult = true
 
+        // Capture answer state before clearing
+        let wasIncorrect = (answerResult == .incorrect)
+
         // Auto-clear after 1.5 seconds and re-enable buttons
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             withAnimation(.easeOut(duration: 0.3)) {
@@ -621,20 +635,20 @@ struct CategoryWheelView: View {
                 currentQuestion = nil
                 answerResult = .unanswered
                 navigationButtonsDisabled = false // Re-enable all buttons
+            }
 
-                // If incorrect answer and new high score achieved, show toast
-                if answerResult == .incorrect && achievedNewHighScore {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            // If incorrect answer and new high score achieved, show toast
+            if wasIncorrect && achievedNewHighScore {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    withAnimation {
+                        showingHighScoreToast = true
+                    }
+
+                    // Auto-dismiss after 3 seconds
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                         withAnimation {
-                            showingHighScoreToast = true
-                        }
-
-                        // Auto-dismiss after 3 seconds
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-                            withAnimation {
-                                showingHighScoreToast = false
-                                achievedNewHighScore = false
-                            }
+                            showingHighScoreToast = false
+                            achievedNewHighScore = false
                         }
                     }
                 }

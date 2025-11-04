@@ -140,7 +140,7 @@ struct LeaderboardRow: View {
         case 1: return Color(hex: "#f3d29d").opacity(0.6)
         case 2: return Color(hex: "#b1aea5").opacity(0.4)
         case 3: return Color(hex: "#d48c20").opacity(0.4)
-        default: return Color(hex: "#39766d").opacity(0.2)
+        default: return Color(hex: "#e8dcc8").opacity(0.5)
         }
     }
     

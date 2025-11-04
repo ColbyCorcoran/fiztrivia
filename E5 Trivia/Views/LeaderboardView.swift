@@ -41,17 +41,26 @@ struct LeaderboardView: View {
                 
                 VStack(spacing: 15) {
                 // Header with Fiz
-                VStack(spacing: 6) {
+                HStack(spacing: 16) {
                     Image("fiz-leaderboard")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 100, height: 100)
+                        .frame(width: 120, height: 120)
 
-                    Text("Top Answer Streaks")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.primary)
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Top Answer")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
+                        Text("Streaks")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 }
+                .frame(maxWidth: .infinity)
+                .padding(.horizontal, 20)
                 
                 // Leaderboard list - fixed height container
                 ZStack {
@@ -96,11 +105,11 @@ struct LeaderboardView: View {
                     Text("\(gameViewModel.gameSession.currentStreak)")
                         .font(.title2)
                         .fontWeight(.bold)
-                        .foregroundColor(Color(hex: "#dd7423"))
+                        .foregroundColor(Color(hex: "#39766d"))
                 }
                 .padding(.horizontal, 16)
                 .padding(.vertical, 12)
-                .background(Color(hex: "#f4d29b"))
+                .background(Color(hex: "#39766d").opacity(0.2))
                 .cornerRadius(12)
                 .shadow(color: Color(hex: "#533214").opacity(0.15), radius: 3, x: 0, y: 1)
                 
@@ -131,7 +140,7 @@ struct LeaderboardRow: View {
         case 1: return Color(hex: "#f3d29d").opacity(0.6)
         case 2: return Color(hex: "#b1aea5").opacity(0.4)
         case 3: return Color(hex: "#d48c20").opacity(0.4)
-        default: return Color(hex: "#f4d29b")
+        default: return Color(hex: "#39766d").opacity(0.2)
         }
     }
     

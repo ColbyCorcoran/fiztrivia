@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 // MARK: - Wheel Segment Data
 struct WheelSegmentData: Hashable {
@@ -24,6 +25,7 @@ struct CategoryWheelView: View {
     @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
     @Environment(\.modelContext) private var modelContext
+    @Query(sort: [SortDescriptor(\LeaderboardEntry.streak, order: .reverse)]) private var leaderboardEntries: [LeaderboardEntry]
     
     // New state management for inline questions/results
     @State private var showingQuestion = false
@@ -39,6 +41,11 @@ struct CategoryWheelView: View {
     // Toast notification for subcategory completion
     @State private var showingCompletionToast = false
     @State private var completedSubcategoryName = ""
+
+    // New high score tracking
+    @State private var achievedNewHighScore = false
+    @State private var showingHighScoreToast = false
+    @State private var newHighScoreValue = 0
 
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
@@ -103,6 +110,11 @@ struct CategoryWheelView: View {
                     Spacer()
                 }
                 .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+
+            // Toast notification for new high score
+            if showingHighScoreToast {
+                newHighScoreToastView
             }
 
             // Celebration overlay for completion
@@ -174,14 +186,16 @@ struct CategoryWheelView: View {
     private var titleAndStreakSection: some View {
         HStack {
             VStack (alignment: .leading, spacing: 4) {
-                HStack {
+                HStack(spacing: 8) {
                     Text("E5")
                         .font(.system(size: 40, weight: .bold))
                         .foregroundColor(.primary)
-                    Image(systemName: "exclamationmark.magnifyingglass")
-                        .font(.system(size: 30))
+                    Image("fiz-regular pose")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 40, height: 40)
                 }
-                
+
                 Text(userManager.personalizedTagline)
                     .font(.system(size: 18, weight: .regular))
                     .foregroundColor(.secondary)
@@ -198,11 +212,11 @@ struct CategoryWheelView: View {
                 Text("\(gameViewModel.gameSession.currentStreak)")
                     .font(.title2)
                     .fontWeight(.bold)
-                    .foregroundColor(Color(hex: "#dd7423"))
+                    .foregroundColor(Color(hex: "#39766d"))
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .background(Color(hex: "#f4d29b"))
+            .background(Color(hex: "#39766d").opacity(0.2))
             .cornerRadius(12)
             .padding(.trailing, 20)
         }
@@ -230,41 +244,46 @@ struct CategoryWheelView: View {
     }
     
     private var resultView: some View {
-        VStack(spacing: 12) {
-            // Fiz mascot - celebrating or encouraging
+        HStack(alignment: .top, spacing: 16) {
+            // Fiz mascot - celebrating or encouraging (LEFT)
             Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 120, height: 120)
+                .frame(width: 140, height: 140)
                 .scaleEffect(showingResult ? 1.0 : 0.5)
                 .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
 
-            Text(answerResult == .correct
-                 ? userManager.personalizedCongratulatoryMessage()
-                 : userManager.personalizedEncouragingMessage())
-                .font(.title2)
-                .fontWeight(.bold)
-                .foregroundColor(.primary)
-                .multilineTextAlignment(.center)
+            // Text content (RIGHT, left-justified)
+            VStack(alignment: .leading, spacing: 12) {
+                Text(answerResult == .correct
+                     ? userManager.personalizedCongratulatoryMessage()
+                     : userManager.personalizedEncouragingMessage())
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(.primary)
+                    .multilineTextAlignment(.leading)
 
-            if answerResult == .incorrect, let question = currentQuestion {
-                VStack(spacing: 6) {
-                    Text("Correct Answer:")
-                        .font(.body)
-                        .foregroundColor(.secondary)
+                if answerResult == .incorrect, let question = currentQuestion {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Correct Answer:")
+                            .font(.body)
+                            .foregroundColor(.secondary)
 
-                    Text(question.correctAnswer)
-                        .font(.title3)
-                        .fontWeight(.semibold)
-                        .foregroundColor(Color(hex: "#39766d"))
-                        .multilineTextAlignment(.center)
-                        .padding(.horizontal, 10)
-                        .padding(.vertical, 6)
-                        .background(Color(hex: "#39766d").opacity(0.15))
-                        .cornerRadius(6)
+                        Text(question.correctAnswer)
+                            .font(.title3)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color(hex: "#39766d"))
+                            .multilineTextAlignment(.leading)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 6)
+                            .background(Color(hex: "#39766d").opacity(0.15))
+                            .cornerRadius(6)
+                    }
                 }
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .frame(maxWidth: .infinity)
         .padding(20)
     }
     
@@ -322,7 +341,7 @@ struct CategoryWheelView: View {
                             .frame(maxWidth: .infinity, minHeight: 44)
                             .padding(.horizontal, 12)
                             .padding(.vertical, 10)
-                            .background(Color(hex: "#f4d29b"))
+                            .background(Color(hex: "#f3eddf"))
                             .cornerRadius(12)
                             .shadow(color: Color(hex: "#533214").opacity(0.15), radius: 2, x: 0, y: 1)
                     }
@@ -333,17 +352,10 @@ struct CategoryWheelView: View {
     }
     
     private var placeholderView: some View {
-        VStack(spacing: 16) {
-            Image("fiz-regular pose")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 100, height: 100)
-
-            Text("Spin the wheel to start!")
-                .font(.title2)
-                .foregroundColor(.secondary)
-        }
-        .padding()
+        Text("Spin the wheel to start!")
+            .font(.title2)
+            .foregroundColor(.secondary)
+            .padding()
     }
     
     private func wheelLayer(geometry: GeometryProxy) -> some View {
@@ -564,6 +576,18 @@ struct CategoryWheelView: View {
         // Check subcategory before answering (for completion detection)
         let questionSubcategory = question.subcategory
 
+        // Check if this answer would create a new high score
+        let currentStreak = gameViewModel.gameSession.currentStreak
+        let isCorrect = (answer == question.correctAnswer)
+        if isCorrect {
+            let potentialStreak = currentStreak + 1
+            let previousBest = leaderboardEntries.first?.streak ?? 0
+            if potentialStreak > previousBest {
+                achievedNewHighScore = true
+                newHighScoreValue = potentialStreak
+            }
+        }
+
         // Use GameViewModel's answer selection method with ModelContext
         gameViewModel.selectAnswer(answer, modelContext: modelContext)
         answerResult = gameViewModel.gameSession.answerState
@@ -597,10 +621,79 @@ struct CategoryWheelView: View {
                 currentQuestion = nil
                 answerResult = .unanswered
                 navigationButtonsDisabled = false // Re-enable all buttons
+
+                // If incorrect answer and new high score achieved, show toast
+                if answerResult == .incorrect && achievedNewHighScore {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        withAnimation {
+                            showingHighScoreToast = true
+                        }
+
+                        // Auto-dismiss after 3 seconds
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                            withAnimation {
+                                showingHighScoreToast = false
+                                achievedNewHighScore = false
+                            }
+                        }
+                    }
+                }
             }
         }
     }
     
+    private var newHighScoreToastView: some View {
+        ZStack {
+            // Semi-transparent background
+            Color.black.opacity(0.7)
+                .ignoresSafeArea()
+                .onTapGesture {
+                    // Dismiss on tap
+                    withAnimation {
+                        showingHighScoreToast = false
+                        achievedNewHighScore = false
+                    }
+                }
+
+            // Toast card
+            VStack(spacing: 20) {
+                HStack(spacing: 16) {
+                    // Fiz celebrating
+                    Image("fiz-new high score")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 120, height: 120)
+
+                    // Text content
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("New High Score!")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color(hex: "#dd7423"))
+
+                        Text("\(newHighScoreValue) correct in a row!")
+                            .font(.headline)
+                            .foregroundColor(.primary)
+
+                        Text("Great job, \(userManager.displayName)!")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .padding(20)
+            }
+            .background(Color(hex: "#f3eddf"))
+            .cornerRadius(16)
+            .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 20, x: 0, y: 10)
+            .padding(.horizontal, 30)
+            .scaleEffect(showingHighScoreToast ? 1.0 : 0.8)
+            .opacity(showingHighScoreToast ? 1.0 : 0)
+            .animation(.spring(response: 0.5, dampingFraction: 0.7), value: showingHighScoreToast)
+        }
+        .transition(.opacity.combined(with: .scale))
+    }
+
     private var completionCelebrationOverlay: some View {
         ZStack {
             // Semi-transparent background
@@ -760,7 +853,7 @@ struct WheelSegment: View {
                     )
                     path.closeSubpath()
                 }
-                .stroke(Color.white, lineWidth: 3)
+                .stroke(Color(hex: "#f3eddf"), lineWidth: 3)
             )
 
             // Category/Subcategory icon - larger and radially oriented
@@ -775,11 +868,11 @@ struct WheelSegment: View {
                 .overlay(
                         Image(systemName: segmentData.icon)
                             .font(.system(size: 45))
-                            .foregroundColor(.white.opacity(0.5))
+                            .foregroundColor(Color(hex: "#f3eddf").opacity(0.5))
                             .blur(radius: 1)
                             .offset(x: -1, y: -1)
                     )
-                    .shadow(color: Color.black.opacity(0.3), radius: 2, x: 2, y: 2)
+                    .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 2, x: 2, y: 2)
         }
     }
 }

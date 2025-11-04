@@ -1,25 +1,80 @@
 import SwiftUI
 
+// MARK: - Wheel Segment Data
+struct WheelSegmentData: Hashable {
+    let name: String
+    let icon: String
+    let color: String
+    let subcategory: String? // nil for main categories, set for subcategories
+
+    static func == (lhs: WheelSegmentData, rhs: WheelSegmentData) -> Bool {
+        return lhs.name == rhs.name && lhs.subcategory == rhs.subcategory
+    }
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+        hasher.combine(subcategory)
+    }
+}
+
 struct CategoryWheelView: View {
     @Bindable var gameViewModel: GameViewModel
     @StateObject private var userManager = UserManager.shared
     @StateObject private var difficultyManager = DifficultyManager.shared
+    @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
     @Environment(\.modelContext) private var modelContext
     
-    private let categories = TriviaCategory.allCases
-    private let segmentAngle = 360.0 / Double(TriviaCategory.allCases.count)
-    
     // New state management for inline questions/results
     @State private var showingQuestion = false
-    @State private var showingResult = false  
+    @State private var showingResult = false
     @State private var navigationButtonsDisabled = false
     @State private var currentQuestion: TriviaQuestion?
     @State private var answerResult: AnswerState = .unanswered
-    
+
     // Drag gesture state for pull-to-spin
     @State private var dragRotation: Double = 0
     @State private var isDragging = false
+
+    // Toast notification for subcategory completion
+    @State private var showingCompletionToast = false
+    @State private var completedSubcategoryName = ""
+
+    // Computed property for wheel segments
+    private var wheelSegments: [WheelSegmentData] {
+        if singleCategoryManager.isEnabled, singleCategoryManager.selectedCategory != nil {
+            // Get subcategories for the selected category, filtering out those with no remaining questions
+            let subcategories = singleCategoryManager.getSubcategoriesForSelectedCategory(from: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty)
+
+            return subcategories.compactMap { subcategory in
+                // Only include subcategories that have unanswered questions
+                if singleCategoryManager.hasQuestionsRemaining(for: subcategory.name, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty, answeredManager: answeredQuestionsManager) {
+                    return WheelSegmentData(
+                        name: subcategory.name,
+                        icon: subcategory.icon,
+                        color: subcategory.color,
+                        subcategory: subcategory.name
+                    )
+                }
+                return nil
+            }
+        } else {
+            // Default mode: show main categories
+            return TriviaCategory.allCases.map { category in
+                WheelSegmentData(
+                    name: category.rawValue,
+                    icon: category.icon,
+                    color: category.color,
+                    subcategory: nil
+                )
+            }
+        }
+    }
+
+    private var segmentAngle: Double {
+        let count = wheelSegments.count
+        return count > 0 ? 360.0 / Double(count) : 0
+    }
     
     var body: some View {
         GeometryReader { geometry in
@@ -33,7 +88,23 @@ struct CategoryWheelView: View {
             uiContentLayer
             wheelLayer(geometry: geometry)
             homeBarGradient
-            
+
+            // Toast notification for subcategory completion
+            if showingCompletionToast {
+                VStack {
+                    Spacer()
+                    Text("🎉 \(completedSubcategoryName) Complete!")
+                        .font(.headline)
+                        .padding()
+                        .background(Color.black.opacity(0.8))
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding(.bottom, 200)
+                    Spacer()
+                }
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+
             // Celebration overlay for completion
             if gameViewModel.showCompletionCelebration {
                 completionCelebrationOverlay
@@ -197,7 +268,20 @@ struct CategoryWheelView: View {
     private func questionView(for question: TriviaQuestion) -> some View {
         VStack(spacing: 16) {
             VStack(spacing: 8) {
-                if let category = gameViewModel.gameSession.selectedCategory {
+                // Show subcategory name in Single Category Mode, category name in Default Mode
+                if singleCategoryManager.isEnabled, let subcategory = question.subcategory {
+                    // Find the subcategory icon and color
+                    if let segmentData = wheelSegments.first(where: { $0.subcategory == subcategory }) {
+                        HStack {
+                            Image(systemName: segmentData.icon)
+                                .font(.title2)
+                            Text(subcategory)
+                                .font(.body)
+                                .fontWeight(.semibold)
+                        }
+                        .foregroundColor(.secondary)
+                    }
+                } else if let category = gameViewModel.gameSession.selectedCategory {
                     HStack {
                         Image(systemName: category.icon)
                             .font(.title2)
@@ -207,7 +291,7 @@ struct CategoryWheelView: View {
                     }
                     .foregroundColor(.secondary)
                 }
-                
+
                 Text(question.question)
                     .font(.title3)
                     .fontWeight(.medium)
@@ -272,11 +356,11 @@ struct CategoryWheelView: View {
     
     private var wheelWithGesture: some View {
         ZStack {
-            ForEach(Array(categories.enumerated()), id: \.element) { index, category in
+            ForEach(Array(wheelSegments.enumerated()), id: \.element) { index, segmentData in
                 WheelSegment(
-                    category: category,
+                    segmentData: segmentData,
                     index: index,
-                    totalSegments: categories.count
+                    totalSegments: wheelSegments.count
                 )
             }
         }
@@ -398,31 +482,61 @@ struct CategoryWheelView: View {
     }
     
     private func selectCategoryAndLoadQuestion() {
-        // Determine which category was selected
-        let normalizedRotation = gameViewModel.wheelRotation.truncatingRemainder(dividingBy: 360)
-        let categoryIndex = Int((360 - normalizedRotation) / 51.43) % TriviaCategory.allCases.count
-        let selectedCategory = TriviaCategory.allCases[categoryIndex]
-        
-        gameViewModel.gameSession.selectedCategory = selectedCategory
-        
-        // Load a random unanswered question from that category
-        let categoryQuestions = gameViewModel.questions.filter { question in
-            question.category == selectedCategory.rawValue &&
-            !answeredQuestionsManager.isQuestionAnswered(question.id) &&
-            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty)
-        }
-        
-        guard let randomQuestion = categoryQuestions.randomElement() else {
-            print("No unanswered questions available for category: \(selectedCategory.rawValue) with difficulty: \(difficultyManager.selectedDifficulty.rawValue)")
+        // Check if there are any segments available
+        guard !wheelSegments.isEmpty else {
+            print("No wheel segments available")
             navigationButtonsDisabled = false
             return
         }
-        
+
+        // Determine which segment was selected based on rotation
+        let normalizedRotation = gameViewModel.wheelRotation.truncatingRemainder(dividingBy: 360)
+        let segmentIndex = Int((360 - normalizedRotation) / segmentAngle) % wheelSegments.count
+        let selectedSegment = wheelSegments[segmentIndex]
+
+        // Filter questions based on mode
+        var filteredQuestions: [TriviaQuestion]
+
+        if singleCategoryManager.isEnabled, let subcategoryName = selectedSegment.subcategory {
+            // Single Category Mode: filter by subcategory
+            filteredQuestions = gameViewModel.questions.filter { question in
+                question.subcategory == subcategoryName &&
+                !answeredQuestionsManager.isQuestionAnswered(question.id) &&
+                difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty)
+            }
+
+            // Set the main category for display purposes
+            if let mainCategory = singleCategoryManager.selectedCategory {
+                gameViewModel.gameSession.selectedCategory = mainCategory
+            }
+        } else {
+            // Default Mode: filter by main category
+            guard let selectedCategory = TriviaCategory(rawValue: selectedSegment.name) else {
+                print("Invalid category: \(selectedSegment.name)")
+                navigationButtonsDisabled = false
+                return
+            }
+
+            gameViewModel.gameSession.selectedCategory = selectedCategory
+
+            filteredQuestions = gameViewModel.questions.filter { question in
+                question.category == selectedCategory.rawValue &&
+                !answeredQuestionsManager.isQuestionAnswered(question.id) &&
+                difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty)
+            }
+        }
+
+        guard let randomQuestion = filteredQuestions.randomElement() else {
+            print("No unanswered questions available for segment: \(selectedSegment.name)")
+            navigationButtonsDisabled = false
+            return
+        }
+
         // Set up question state
         currentQuestion = randomQuestion
         gameViewModel.gameSession.currentQuestion = randomQuestion
         gameViewModel.gameSession.answerState = .unanswered
-        
+
         // Show question after a brief delay
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             withAnimation(.easeInOut(duration: 0.3)) {
@@ -433,18 +547,39 @@ struct CategoryWheelView: View {
     
     // MARK: - Answer Selection Logic
     private func selectAnswer(_ answer: String) {
-        guard currentQuestion != nil else { return }
-        
+        guard let question = currentQuestion else { return }
+
         HapticManager.shared.buttonTapEffect()
-        
+
+        // Check subcategory before answering (for completion detection)
+        let questionSubcategory = question.subcategory
+
         // Use GameViewModel's answer selection method with ModelContext
         gameViewModel.selectAnswer(answer, modelContext: modelContext)
         answerResult = gameViewModel.gameSession.answerState
-        
+
+        // Check if subcategory is now complete (Single Category Mode only)
+        if singleCategoryManager.isEnabled,
+           let subcategory = questionSubcategory,
+           answeredQuestionsManager.areAllSubcategoryQuestionsAnswered(subcategory, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty) {
+            // Show toast notification for subcategory completion
+            completedSubcategoryName = subcategory
+            withAnimation {
+                showingCompletionToast = true
+            }
+
+            // Auto-dismiss toast after 2 seconds
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                withAnimation {
+                    showingCompletionToast = false
+                }
+            }
+        }
+
         // Show result
         showingQuestion = false
         showingResult = true
-        
+
         // Auto-clear after 1.5 seconds and re-enable buttons
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             withAnimation(.easeOut(duration: 0.3)) {
@@ -464,7 +599,7 @@ struct CategoryWheelView: View {
                 .onTapGesture {
                     // Prevent taps from going through
                 }
-            
+
             VStack(spacing: 30) {
                 // Celebration emojis
                 HStack(spacing: 20) {
@@ -472,18 +607,18 @@ struct CategoryWheelView: View {
                         .font(.system(size: 60))
                         .scaleEffect(gameViewModel.showCompletionCelebration ? 1.2 : 0.5)
                         .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.1), value: gameViewModel.showCompletionCelebration)
-                    
+
                     Text("🏆")
                         .font(.system(size: 60))
                         .scaleEffect(gameViewModel.showCompletionCelebration ? 1.2 : 0.5)
                         .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.2), value: gameViewModel.showCompletionCelebration)
-                    
+
                     Text("🎊")
                         .font(.system(size: 60))
                         .scaleEffect(gameViewModel.showCompletionCelebration ? 1.2 : 0.5)
                         .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.3), value: gameViewModel.showCompletionCelebration)
                 }
-                
+
                 VStack(spacing: 16) {
                     Text("Congratulations, \(userManager.displayName)!")
                         .font(.largeTitle)
@@ -492,15 +627,26 @@ struct CategoryWheelView: View {
                         .multilineTextAlignment(.center)
                         .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)
                         .animation(.easeInOut(duration: 0.8).delay(0.4), value: gameViewModel.showCompletionCelebration)
-                    
-                    Text("You've answered all questions in the \(difficultyManager.selectedDifficulty.rawValue) difficulty mode!")
-                        .font(.title2)
-                        .foregroundColor(.white.opacity(0.9))
-                        .multilineTextAlignment(.center)
-                        .padding(.horizontal, 20)
-                        .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)
-                        .animation(.easeInOut(duration: 0.8).delay(0.6), value: gameViewModel.showCompletionCelebration)
-                    
+
+                    // Different messages for single category vs all categories
+                    if singleCategoryManager.isEnabled, let category = singleCategoryManager.selectedCategory {
+                        Text("You've answered all \(category.rawValue) questions in \(difficultyManager.selectedDifficulty.rawValue) mode!")
+                            .font(.title2)
+                            .foregroundColor(.white.opacity(0.9))
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal, 20)
+                            .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)
+                            .animation(.easeInOut(duration: 0.8).delay(0.6), value: gameViewModel.showCompletionCelebration)
+                    } else {
+                        Text("You've answered all questions in the \(difficultyManager.selectedDifficulty.rawValue) difficulty mode!")
+                            .font(.title2)
+                            .foregroundColor(.white.opacity(0.9))
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal, 20)
+                            .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)
+                            .animation(.easeInOut(duration: 0.8).delay(0.6), value: gameViewModel.showCompletionCelebration)
+                    }
+
                     HStack(spacing: 8) {
                         Text("Total Questions Answered:")
                             .font(.body)
@@ -513,24 +659,50 @@ struct CategoryWheelView: View {
                     .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)
                     .animation(.easeInOut(duration: 0.8).delay(0.8), value: gameViewModel.showCompletionCelebration)
                 }
-                
-                Button(action: {
-                    HapticManager.shared.buttonTapEffect()
-                    gameViewModel.resetAllProgress()
-                }) {
-                    HStack(spacing: 12) {
-                        Text("🔄")
-                            .font(.title2)
-                        Text("Play Again")
-                            .font(.title2)
-                            .fontWeight(.semibold)
+
+                // Action buttons
+                VStack(spacing: 12) {
+                    Button(action: {
+                        HapticManager.shared.buttonTapEffect()
+                        gameViewModel.resetAllProgress()
+                    }) {
+                        HStack(spacing: 12) {
+                            Text("🔄")
+                                .font(.title2)
+                            Text("Play Again")
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                        }
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 32)
+                        .padding(.vertical, 16)
+                        .background(Color(hex: "#dd7423"))
+                        .cornerRadius(25)
+                        .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 10, x: 0, y: 5)
                     }
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 32)
-                    .padding(.vertical, 16)
-                    .background(Color(hex: "#dd7423"))
-                    .cornerRadius(25)
-                    .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 10, x: 0, y: 5)
+
+                    // Settings button for Single Category Mode
+                    if singleCategoryManager.isEnabled {
+                        Button(action: {
+                            HapticManager.shared.buttonTapEffect()
+                            gameViewModel.showCompletionCelebration = false
+                            gameViewModel.showSettings()
+                        }) {
+                            HStack(spacing: 12) {
+                                Image(systemName: "gear")
+                                    .font(.title2)
+                                Text("Change Category")
+                                    .font(.title3)
+                                    .fontWeight(.semibold)
+                            }
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 28)
+                            .padding(.vertical, 14)
+                            .background(Color(hex: "#39766d"))
+                            .cornerRadius(25)
+                            .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 10, x: 0, y: 5)
+                        }
+                    }
                 }
                 .scaleEffect(gameViewModel.showCompletionCelebration ? 1 : 0.8)
                 .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)
@@ -543,25 +715,25 @@ struct CategoryWheelView: View {
 }
 
 struct WheelSegment: View {
-    let category: TriviaCategory
+    let segmentData: WheelSegmentData
     let index: Int
     let totalSegments: Int
-    
+
     private var segmentAngle: Double {
         360.0 / Double(totalSegments)
     }
-    
+
     private var startAngle: Double {
         Double(index) * segmentAngle
     }
-    
+
     var body: some View {
         ZStack {
             // Segment background
             Path { path in
                 let center = CGPoint(x: 225, y: 225)
                 let radius: CGFloat = 225
-                
+
                 path.move(to: center)
                 path.addArc(
                     center: center,
@@ -572,12 +744,12 @@ struct WheelSegment: View {
                 )
                 path.closeSubpath()
             }
-            .fill(Color(hex: category.color))
+            .fill(Color(hex: segmentData.color))
             .overlay(
                 Path { path in
                     let center = CGPoint(x: 225, y: 225)
                     let radius: CGFloat = 225
-                    
+
                     path.move(to: center)
                     path.addArc(
                         center: center,
@@ -590,9 +762,9 @@ struct WheelSegment: View {
                 }
                 .stroke(Color.white, lineWidth: 3)
             )
-            
-            // Category icon - larger and radially oriented
-            Image(systemName: category.icon)
+
+            // Category/Subcategory icon - larger and radially oriented
+            Image(systemName: segmentData.icon)
                 .font(.system(size: 45))
                 .foregroundColor(.black.opacity(0.75))
                 .rotationEffect(.degrees(startAngle + segmentAngle/2)) // Rotate so bottom points to center
@@ -601,7 +773,7 @@ struct WheelSegment: View {
                     y: 225 + sin(Angle.degrees(startAngle + segmentAngle/2 - 90).radians) * 145
                 )
                 .overlay(
-                        Image(systemName: category.icon)
+                        Image(systemName: segmentData.icon)
                             .font(.system(size: 45))
                             .foregroundColor(.white.opacity(0.5))
                             .blur(radius: 1)

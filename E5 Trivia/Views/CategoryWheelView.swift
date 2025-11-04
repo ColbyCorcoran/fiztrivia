@@ -47,6 +47,9 @@ struct CategoryWheelView: View {
     @State private var showingHighScoreToast = false
     @State private var newHighScoreValue = 0
 
+    // Random Fiz selection for spin button
+    @State private var currentSpinFizImage = "fiz-regular pose"
+
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
         if singleCategoryManager.isEnabled, singleCategoryManager.selectedCategory != nil {
@@ -136,41 +139,13 @@ struct CategoryWheelView: View {
     private var uiContentLayer: some View {
         VStack(spacing: 0) {
             topToolbar
-            centeredFizAndStreak
             questionArea
             Spacer()
         }
     }
-
-    private var centeredFizAndStreak: some View {
-        VStack(spacing: 12) {
-            // Centered Fiz mascot
-            Image("fiz-regular pose")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 90, height: 90)
-
-            // Current streak display below
-            VStack(spacing: 4) {
-                Text("Current Streak")
-                    .font(.caption)
-                    .foregroundColor(Color(hex: "#533214"))
-                Text("\(gameViewModel.gameSession.currentStreak)")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(hex: "#39766d"))
-            }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 8)
-            .background(Color(hex: "#39766d").opacity(0.2))
-            .cornerRadius(12)
-        }
-        .frame(maxWidth: .infinity)
-        .frame(height: 160)
-    }
     
     private var topToolbar: some View {
-        HStack {
+        HStack(spacing: 12) {
             Button(action: {
                 HapticManager.shared.buttonTapEffect()
                 gameViewModel.showLeaderboard()
@@ -195,6 +170,19 @@ struct CategoryWheelView: View {
                 .foregroundColor(.secondary)
 
             Spacer()
+
+            // Minimal streak badge
+            HStack(spacing: 4) {
+                Text("🔥")
+                    .font(.caption)
+                Text("\(gameViewModel.gameSession.currentStreak)")
+                    .font(.system(size: 14, weight: .semibold))
+                    .foregroundColor(Color(hex: "#39766d"))
+            }
+            .padding(.horizontal, 8)
+            .padding(.vertical, 4)
+            .background(Color(hex: "#39766d").opacity(0.15))
+            .cornerRadius(8)
 
             Button(action: {
                 HapticManager.shared.buttonTapEffect()
@@ -471,10 +459,14 @@ struct CategoryWheelView: View {
                 .fill(Color(hex: "#f3eddf"))
                 .frame(width: 100, height: 100)
                 .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 8)
-            
+
             if gameViewModel.isSpinning {
-                Image(systemName: "arrow.trianglehead.2.counterclockwise.rotate.90")
-                    .font(.system(size: 40))
+                // Random Fiz image while spinning
+                Image(currentSpinFizImage)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 70, height: 70)
+                    .clipShape(Circle())
             } else {
                 Button("SPIN") {
                     spinWheelInline()
@@ -486,6 +478,16 @@ struct CategoryWheelView: View {
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
             }
         }
+    }
+
+    // Helper to pick random Fiz image
+    private func selectRandomFizImage() {
+        let fizImages = [
+            "fiz-regular pose",
+            "fiz-happy smirk",
+            // Add your app icon Fiz images here once you provide the names
+        ]
+        currentSpinFizImage = fizImages.randomElement() ?? "fiz-regular pose"
     }
     
     private var wheelPointer: some View {
@@ -531,6 +533,7 @@ struct CategoryWheelView: View {
         
         // Start the wheel spin
         gameViewModel.isSpinning = true
+        selectRandomFizImage()  // Pick a random Fiz for this spin
         HapticManager.shared.wheelSpinEffect()
         
         let randomSpins = Double.random(in: 5...8)

@@ -758,20 +758,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "ent_055",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Who composed the score for the movie 'Pirates of the Caribbean'?",
-        "options": [
-          "Hans Zimmer",
-          "John Williams",
-          "Danny Elfman",
-          "James Horner"
-        ],
-        "correct_answer": "Hans Zimmer",
-        "difficulty": "medium"
-      },
-      {
         "id": "ent_056",
         "category": "Entertainment",
         "subcategory": "The Office",
@@ -3698,143 +3684,17 @@
         "difficulty": "hard"
       },
       {
-        "id": "ent_265",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for Star Wars?",
-        "options": [
-          "John Williams",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "John Williams",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_266",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for The Lord of the Rings?",
-        "options": [
-          "John Williams",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "John Williams",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_267",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for Batman?",
-        "options": [
-          "John Williams",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "John Williams",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_268",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for Jurassic Park?",
-        "options": [
-          "John Williams",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "John Williams",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_269",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for Indiana Jones?",
-        "options": [
-          "John Williams",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "John Williams",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_270",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for E.T.?",
-        "options": [
-          "John Williams",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "John Williams",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_271",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for Jaws?",
-        "options": [
-          "John Williams",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "John Williams",
-        "difficulty": "hard"
-      },
-      {
         "id": "ent_272",
         "category": "Entertainment",
         "subcategory": "Film Score Composers",
         "question": "Which composer created the score for Superman?",
         "options": [
           "Hans Zimmer",
-          "Hans Zimmer",
+          "John Williams",
           "Howard Shore",
           "Danny Elfman"
         ],
         "correct_answer": "John Williams",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_273",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for The Dark Knight?",
-        "options": [
-          "Hans Zimmer",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "Hans Zimmer",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_274",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for Inception?",
-        "options": [
-          "Hans Zimmer",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "Hans Zimmer",
         "difficulty": "hard"
       },
       {
@@ -3844,53 +3704,11 @@
         "question": "Which composer created the score for Interstellar?",
         "options": [
           "Hans Zimmer",
-          "Hans Zimmer",
+          "John Williams",
           "Howard Shore",
           "Danny Elfman"
         ],
         "correct_answer": "Hans Zimmer",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_276",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for Pirates of the Caribbean: The Curse of the Black Pearl?",
-        "options": [
-          "Klaus Badelt",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "Klaus Badelt",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_277",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for Gladiator?",
-        "options": [
-          "Hans Zimmer",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "Hans Zimmer",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_278",
-        "category": "Entertainment",
-        "subcategory": "Film Score Composers",
-        "question": "Which composer created the score for The Lion King?",
-        "options": [
-          "Alan Menken",
-          "Hans Zimmer",
-          "Howard Shore",
-          "Danny Elfman"
-        ],
-        "correct_answer": "Alan Menken",
         "difficulty": "hard"
       },
       {

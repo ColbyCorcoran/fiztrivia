@@ -40,11 +40,13 @@ struct LeaderboardView: View {
                 .frame(height: 50)
                 
                 VStack(spacing: 15) {
-                // Header
+                // Header with Fiz
                 VStack(spacing: 6) {
-                    Text("🏆")
-                        .font(.system(size: 40))
-                    
+                    Image("fiz-leaderboard")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 100, height: 100)
+
                     Text("Top Answer Streaks")
                         .font(.title)
                         .fontWeight(.bold)

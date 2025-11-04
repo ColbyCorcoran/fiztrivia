@@ -24,17 +24,19 @@ struct OnboardingView: View {
             VStack(spacing: 32) {
                 Spacer()
                 
-                // Welcome section
+                // Welcome section with Fiz
                 VStack(spacing: 16) {
-                    Image(systemName: "exclamationmark.magnifyingglass")
-                        .font(.system(size: 80))
-                    
+                    Image("fiz-happy smirk")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 140, height: 140)
+
                     Text("Welcome to E5!")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(.primary)
                         .multilineTextAlignment(.center)
-                    
+
                     Text("Trivia, just for you")
                         .font(.title2)
                         .foregroundColor(.secondary)

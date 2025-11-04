@@ -231,25 +231,28 @@ struct CategoryWheelView: View {
     
     private var resultView: some View {
         VStack(spacing: 12) {
-            Text(answerResult == .correct ? "✅" : "❌")
-                .font(.system(size: 40))
-                .scaleEffect(showingResult ? 1.2 : 0.5)
+            // Fiz mascot - celebrating or encouraging
+            Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 120, height: 120)
+                .scaleEffect(showingResult ? 1.0 : 0.5)
                 .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
-            
-            Text(answerResult == .correct 
+
+            Text(answerResult == .correct
                  ? userManager.personalizedCongratulatoryMessage()
                  : userManager.personalizedEncouragingMessage())
                 .font(.title2)
                 .fontWeight(.bold)
                 .foregroundColor(.primary)
                 .multilineTextAlignment(.center)
-            
+
             if answerResult == .incorrect, let question = currentQuestion {
                 VStack(spacing: 6) {
                     Text("Correct Answer:")
                         .font(.body)
                         .foregroundColor(.secondary)
-                    
+
                     Text(question.correctAnswer)
                         .font(.title3)
                         .fontWeight(.semibold)
@@ -330,10 +333,17 @@ struct CategoryWheelView: View {
     }
     
     private var placeholderView: some View {
-        Text("Spin the wheel to start!")
-            .font(.title2)
-            .foregroundColor(.secondary)
-            .padding()
+        VStack(spacing: 16) {
+            Image("fiz-regular pose")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 100)
+
+            Text("Spin the wheel to start!")
+                .font(.title2)
+                .foregroundColor(.secondary)
+        }
+        .padding()
     }
     
     private func wheelLayer(geometry: GeometryProxy) -> some View {
@@ -601,23 +611,13 @@ struct CategoryWheelView: View {
                 }
 
             VStack(spacing: 30) {
-                // Celebration emojis
-                HStack(spacing: 20) {
-                    Text("🎉")
-                        .font(.system(size: 60))
-                        .scaleEffect(gameViewModel.showCompletionCelebration ? 1.2 : 0.5)
-                        .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.1), value: gameViewModel.showCompletionCelebration)
-
-                    Text("🏆")
-                        .font(.system(size: 60))
-                        .scaleEffect(gameViewModel.showCompletionCelebration ? 1.2 : 0.5)
-                        .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.2), value: gameViewModel.showCompletionCelebration)
-
-                    Text("🎊")
-                        .font(.system(size: 60))
-                        .scaleEffect(gameViewModel.showCompletionCelebration ? 1.2 : 0.5)
-                        .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.3), value: gameViewModel.showCompletionCelebration)
-                }
+                // Fiz celebrating new high score
+                Image("fiz-new high score")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 180, height: 180)
+                    .scaleEffect(gameViewModel.showCompletionCelebration ? 1.0 : 0.5)
+                    .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.2), value: gameViewModel.showCompletionCelebration)
 
                 VStack(spacing: 16) {
                     Text("Congratulations, \(userManager.displayName)!")

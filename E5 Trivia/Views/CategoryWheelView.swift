@@ -136,7 +136,7 @@ struct CategoryWheelView: View {
     private var uiContentLayer: some View {
         VStack(spacing: 0) {
             topToolbar
-            titleAndStreakSection
+            // Freed space - to be redesigned
             questionArea
             Spacer()
         }
@@ -159,9 +159,16 @@ struct CategoryWheelView: View {
                 hint: "View top scores",
                 traits: .isButton
             )
-            
+
             Spacer()
-            
+
+            // Personalized tagline in center
+            Text(userManager.personalizedTagline)
+                .font(.system(size: 16, weight: .medium))
+                .foregroundColor(.secondary)
+
+            Spacer()
+
             Button(action: {
                 HapticManager.shared.buttonTapEffect()
                 gameViewModel.showSettings()

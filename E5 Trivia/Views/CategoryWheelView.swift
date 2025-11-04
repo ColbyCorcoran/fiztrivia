@@ -139,7 +139,6 @@ struct CategoryWheelView: View {
     private var uiContentLayer: some View {
         VStack(spacing: 0) {
             topToolbar
-            Spacer()
             questionArea
             Spacer()
         }

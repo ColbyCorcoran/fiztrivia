@@ -129,7 +129,7 @@ struct CategoryWheelView: View {
     
     private var backgroundGradient: some View {
         LinearGradient(
-            colors: [Color(hex: "#f3eddf"), Color(hex: "#e8dcc8")],
+            colors: [Color.fizBackground, Color.fizBackgroundSecondary],
             startPoint: .topLeading,
             endPoint: .bottomTrailing
         )
@@ -179,11 +179,11 @@ struct CategoryWheelView: View {
                         .font(.caption)
                     Text("\(gameViewModel.gameSession.currentStreak)")
                         .font(.system(size: 14, weight: .semibold))
-                        .foregroundColor(Color(hex: "#39766d"))
+                        .foregroundColor(Color.fizTeal)
                 }
                 .padding(.horizontal, 8)
                 .padding(.vertical, 4)
-                .background(Color(hex: "#39766d").opacity(0.15))
+                .background(Color.fizTeal.opacity(0.15))
                 .cornerRadius(8)
 
                 Button(action: {
@@ -233,15 +233,15 @@ struct CategoryWheelView: View {
             VStack(spacing: 4) {
                 Text("Current Streak")
                     .font(.caption)
-                    .foregroundColor(Color(hex: "#533214"))
+                    .foregroundColor(Color.fizBrown)
                 Text("\(gameViewModel.gameSession.currentStreak)")
                     .font(.title2)
                     .fontWeight(.bold)
-                    .foregroundColor(Color(hex: "#39766d"))
+                    .foregroundColor(Color.fizTeal)
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .background(Color(hex: "#39766d").opacity(0.2))
+            .background(Color.fizTeal.opacity(0.2))
             .cornerRadius(12)
             .padding(.trailing, 20)
         }
@@ -315,11 +315,11 @@ struct CategoryWheelView: View {
                             Text(question.correctAnswer)
                                 .font(.title2)
                                 .fontWeight(.semibold)
-                                .foregroundColor(Color(hex: "#39766d"))
+                                .foregroundColor(Color.fizTeal)
                                 .multilineTextAlignment(.center)
                                 .padding(.horizontal, 16)
                                 .padding(.vertical, 10)
-                                .background(Color(hex: "#39766d").opacity(0.15))
+                                .background(Color.fizTeal.opacity(0.15))
                                 .cornerRadius(8)
                         }
                     }
@@ -383,9 +383,9 @@ struct CategoryWheelView: View {
                             .frame(maxWidth: .infinity, minHeight: 44)
                             .padding(.horizontal, 12)
                             .padding(.vertical, 10)
-                            .background(Color(hex: "#f3eddf"))
+                            .background(Color.fizBackground)
                             .cornerRadius(12)
-                            .shadow(color: Color(hex: "#533214").opacity(0.15), radius: 2, x: 0, y: 1)
+                            .shadow(color: Color.fizBrown.opacity(0.15), radius: 2, x: 0, y: 1)
                     }
                 }
             }
@@ -412,7 +412,7 @@ struct CategoryWheelView: View {
     
     private var wheelShadow: some View {
         Circle()
-            .fill(Color(hex: "#533214").opacity(0.25))
+            .fill(Color.fizBrown.opacity(0.25))
             .frame(width: 450, height: 450)
             .blur(radius: 15)
             .offset(y: 8)
@@ -465,9 +465,9 @@ struct CategoryWheelView: View {
     private var centerCircleAndButton: some View {
         ZStack {
             Circle()
-                .fill(Color(hex: "#f3eddf"))
+                .fill(Color.fizBackground)
                 .frame(width: 100, height: 100)
-                .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 8)
+                .shadow(color: Color.fizBrown.opacity(0.3), radius: 8)
 
             if gameViewModel.isSpinning {
                 // Random Fiz image while spinning
@@ -502,8 +502,9 @@ struct CategoryWheelView: View {
     private var wheelPointer: some View {
         ZStack {
             Triangle()
-                .fill(Color(hex: "#f3eddf"))
+                .fill(Color.fizOrange)
                 .frame(width: 30, height: 20)
+                .shadow(color: Color.fizBrown.opacity(0.3), radius: 3, x: 0, y: 2)
         }
         .offset(y: -53)
     }
@@ -728,7 +729,7 @@ struct CategoryWheelView: View {
                         Text("New High Score!")
                             .font(.title2)
                             .fontWeight(.bold)
-                            .foregroundColor(Color(hex: "#dd7423"))
+                            .foregroundColor(Color.fizOrange)
 
                         Text("\(newHighScoreValue) correct in a row!")
                             .font(.headline)
@@ -742,9 +743,9 @@ struct CategoryWheelView: View {
                 }
                 .padding(20)
             }
-            .background(Color(hex: "#f3eddf"))
+            .background(Color.fizBackground)
             .cornerRadius(16)
-            .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 20, x: 0, y: 10)
+            .shadow(color: Color.fizBrown.opacity(0.3), radius: 20, x: 0, y: 10)
             .padding(.horizontal, 30)
             .scaleEffect(showingHighScoreToast ? 1.0 : 0.8)
             .opacity(showingHighScoreToast ? 1.0 : 0)
@@ -806,7 +807,7 @@ struct CategoryWheelView: View {
                         Text("\(gameViewModel.getAnsweredQuestionsCount())")
                             .font(.title2)
                             .fontWeight(.bold)
-                            .foregroundColor(Color(hex: "#f3d29d"))
+                            .foregroundColor(Color.fizCream)
                     }
                     .opacity(gameViewModel.showCompletionCelebration ? 1 : 0)
                     .animation(.easeInOut(duration: 0.8).delay(0.8), value: gameViewModel.showCompletionCelebration)
@@ -828,9 +829,9 @@ struct CategoryWheelView: View {
                         .foregroundColor(.white)
                         .padding(.horizontal, 32)
                         .padding(.vertical, 16)
-                        .background(Color(hex: "#dd7423"))
+                        .background(Color.fizOrange)
                         .cornerRadius(25)
-                        .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 10, x: 0, y: 5)
+                        .shadow(color: Color.fizBrown.opacity(0.3), radius: 10, x: 0, y: 5)
                     }
 
                     // Settings button for Single Category Mode
@@ -850,9 +851,9 @@ struct CategoryWheelView: View {
                             .foregroundColor(.white)
                             .padding(.horizontal, 28)
                             .padding(.vertical, 14)
-                            .background(Color(hex: "#39766d"))
+                            .background(Color.fizTeal)
                             .cornerRadius(25)
-                            .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 10, x: 0, y: 5)
+                            .shadow(color: Color.fizBrown.opacity(0.3), radius: 10, x: 0, y: 5)
                         }
                     }
                 }
@@ -912,7 +913,7 @@ struct WheelSegment: View {
                     )
                     path.closeSubpath()
                 }
-                .stroke(Color(hex: "#f3eddf"), lineWidth: 3)
+                .stroke(Color.fizBackground, lineWidth: 3)
             )
 
             // Category/Subcategory icon - larger and radially oriented
@@ -927,11 +928,11 @@ struct WheelSegment: View {
                 .overlay(
                         Image(systemName: segmentData.icon)
                             .font(.system(size: 45))
-                            .foregroundColor(Color(hex: "#f3eddf").opacity(0.5))
+                            .foregroundColor(Color.fizBackground.opacity(0.5))
                             .blur(radius: 1)
                             .offset(x: -1, y: -1)
                     )
-                    .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 2, x: 2, y: 2)
+                    .shadow(color: Color.fizBrown.opacity(0.3), radius: 2, x: 2, y: 2)
         }
     }
 }
@@ -974,7 +975,14 @@ extension Color {
     }
 }
 
-#Preview {
+#Preview("Light Mode") {
     CategoryWheelView(gameViewModel: GameViewModel())
         .modelContainer(for: LeaderboardEntry.self, inMemory: true)
+        .preferredColorScheme(.light)
+}
+
+#Preview("Dark Mode") {
+    CategoryWheelView(gameViewModel: GameViewModel())
+        .modelContainer(for: LeaderboardEntry.self, inMemory: true)
+        .preferredColorScheme(.dark)
 }

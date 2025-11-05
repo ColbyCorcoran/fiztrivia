@@ -186,7 +186,14 @@ struct LeaderboardRow: View {
     }
 }
 
-#Preview {
+#Preview("Light Mode") {
     LeaderboardView(gameViewModel: GameViewModel())
         .modelContainer(for: LeaderboardEntry.self, inMemory: true)
+        .preferredColorScheme(.light)
+}
+
+#Preview("Dark Mode") {
+    LeaderboardView(gameViewModel: GameViewModel())
+        .modelContainer(for: LeaderboardEntry.self, inMemory: true)
+        .preferredColorScheme(.dark)
 }

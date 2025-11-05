@@ -15,7 +15,7 @@ struct OnboardingView: View {
     var body: some View {
         ZStack {
             LinearGradient(
-                colors: [Color(hex: "#f3eddf"), Color(hex: "#e8dcc8")],
+                colors: [Color.fizBackground, Color.fizBackgroundSecondary],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
@@ -82,9 +82,9 @@ struct OnboardingView: View {
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
-                            .background(Color(hex: "#dd7423"))
+                            .background(Color.fizOrange)
                             .cornerRadius(12)
-                            .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 4, x: 0, y: 2)
+                            .shadow(color: Color.fizBrown.opacity(0.3), radius: 4, x: 0, y: 2)
                     }
                     .padding(.horizontal, 32)
                     .disabled(enteredName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
@@ -139,6 +139,12 @@ struct OnboardingView: View {
     }
 }
 
-#Preview {
+#Preview("Light Mode") {
     OnboardingView()
+        .preferredColorScheme(.light)
+}
+
+#Preview("Dark Mode") {
+    OnboardingView()
+        .preferredColorScheme(.dark)
 }

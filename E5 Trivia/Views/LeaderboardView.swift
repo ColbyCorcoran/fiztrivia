@@ -125,7 +125,7 @@ struct LeaderboardRow: View {
     let rank: Int
     let entry: LeaderboardEntry
     let isTopThree: Bool
-    
+
     private var rankIcon: String {
         switch rank {
         case 1: return "🥇"
@@ -134,13 +134,23 @@ struct LeaderboardRow: View {
         default: return "#\(rank)"
         }
     }
-    
+
     private var backgroundColor: Color {
         switch rank {
         case 1: return Color(hex: "#f3d29d").opacity(0.6)
         case 2: return Color(hex: "#b1aea5").opacity(0.4)
         case 3: return Color(hex: "#d48c20").opacity(0.4)
         default: return Color(hex: "#e8dcc8").opacity(0.5)
+        }
+    }
+
+    private var streakIcon: String {
+        switch entry.streak {
+        case 1...2: return "⭐"
+        case 3...4: return "✨"
+        case 5...9: return "🔥"
+        case 10...14: return "🔥🔥"
+        default: return "💯" // 15+
         }
     }
     
@@ -164,9 +174,9 @@ struct LeaderboardRow: View {
             }
             
             Spacer()
-            
-            // Streak icon
-            Text("🔥")
+
+            // Dynamic streak icon based on achievement level
+            Text(streakIcon)
                 .font(.title3)
         }
         .padding()

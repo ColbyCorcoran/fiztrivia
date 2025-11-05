@@ -95,7 +95,7 @@ struct CategoryWheelView: View {
     private func mainContentView(geometry: GeometryProxy) -> some View {
         ZStack {
             backgroundGradient
-            uiContentLayer
+            uiContentLayer(geometry: geometry)
             wheelLayer(geometry: geometry)
             homeBarGradient
 
@@ -136,10 +136,10 @@ struct CategoryWheelView: View {
         .ignoresSafeArea()
     }
     
-    private var uiContentLayer: some View {
+    private func uiContentLayer(geometry: GeometryProxy) -> some View {
         VStack(spacing: 0) {
             topToolbar
-            questionArea
+            questionAreaWithCalculatedSpacing(geometry: geometry)
             Spacer()
         }
     }
@@ -266,6 +266,16 @@ struct CategoryWheelView: View {
         .frame(height: 300)
         .frame(maxWidth: .infinity)
         .padding(.horizontal, 16)
+    }
+
+    private func questionAreaWithCalculatedSpacing(geometry: GeometryProxy) -> some View {
+        let toolbarHeight: CGFloat = 50
+        let wheelTopY = geometry.size.height - 325  // Wheel center (height - 100) minus radius (225)
+        let safeZoneHeight = wheelTopY - toolbarHeight
+        let topPadding = (safeZoneHeight - 300) / 2  // Center 300pt questionArea in safe zone
+
+        return questionArea
+            .padding(.top, max(topPadding, 20))  // Minimum 20pt padding
     }
     
     private var resultView: some View {

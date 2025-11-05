@@ -502,9 +502,8 @@ struct CategoryWheelView: View {
     private var wheelPointer: some View {
         ZStack {
             Triangle()
-                .fill(Color(hex: "#dd7423"))
+                .fill(Color(hex: "#f3eddf"))
                 .frame(width: 30, height: 20)
-                .shadow(color: Color(hex: "#533214").opacity(0.3), radius: 3, x: 0, y: 2)
         }
         .offset(y: -53)
     }

@@ -147,7 +147,7 @@ struct LeaderboardRow: View {
     private var streakIcon: String {
         switch entry.streak {
         case 1...2: return "⭐"
-        case 3...4: return "✨"
+        case 3...4: return "🌟"
         case 5...9: return "🔥"
         case 10...14: return "🔥🔥"
         default: return "💯" // 15+

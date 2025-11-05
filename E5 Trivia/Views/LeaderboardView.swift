@@ -18,7 +18,7 @@ struct LeaderboardView: View {
     var body: some View {
         ZStack {
             LinearGradient(
-                colors: [Color(hex: "#f3eddf"), Color(hex: "#e8dcc8")],
+                colors: [Color.fizBackground, Color.fizBackgroundSecondary],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
@@ -100,18 +100,18 @@ struct LeaderboardView: View {
                 HStack(spacing: 8) {
                     Text("\(userManager.displayName)'s Current Streak:")
                         .font(.subheadline)
-                        .foregroundColor(Color(hex: "#533214"))
+                        .foregroundColor(Color.fizBrown)
 
                     Text("\(gameViewModel.gameSession.currentStreak)")
                         .font(.title2)
                         .fontWeight(.bold)
-                        .foregroundColor(Color(hex: "#39766d"))
+                        .foregroundColor(Color.fizTeal)
                 }
                 .padding(.horizontal, 16)
                 .padding(.vertical, 12)
-                .background(Color(hex: "#39766d").opacity(0.2))
+                .background(Color.fizTeal.opacity(0.2))
                 .cornerRadius(12)
-                .shadow(color: Color(hex: "#533214").opacity(0.15), radius: 3, x: 0, y: 1)
+                .shadow(color: Color.fizBrown.opacity(0.15), radius: 3, x: 0, y: 1)
                 
                 Spacer(minLength: 20)
                 }
@@ -137,10 +137,10 @@ struct LeaderboardRow: View {
 
     private var backgroundColor: Color {
         switch rank {
-        case 1: return Color(hex: "#f3d29d").opacity(0.6)
-        case 2: return Color(hex: "#b1aea5").opacity(0.4)
-        case 3: return Color(hex: "#d48c20").opacity(0.4)
-        default: return Color(hex: "#e8dcc8").opacity(0.5)
+        case 1: return Color.fizLightGold.opacity(0.6)
+        case 2: return Color.fizGray.opacity(0.4)
+        case 3: return Color.fizDarkGold.opacity(0.4)
+        default: return Color.fizBackgroundSecondary.opacity(0.5)
         }
     }
 
@@ -182,7 +182,7 @@ struct LeaderboardRow: View {
         .padding()
         .background(backgroundColor)
         .cornerRadius(12)
-        .shadow(color: Color(hex: "#533214").opacity(0.1), radius: 2, x: 0, y: 1)
+        .shadow(color: Color.fizBrown.opacity(0.1), radius: 2, x: 0, y: 1)
     }
 }
 

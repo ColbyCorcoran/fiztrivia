@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B66F14CF2E4B7DF200C426E5 /* Build configuration list for PBXProject "E5 Trivia" */;
+			buildConfigurationList = B66F14CF2E4B7DF200C426E5 /* Build configuration list for PBXProject "Fiz" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B66F14CF2E4B7DF200C426E5 /* Build configuration list for PBXProject "E5 Trivia" */ = {
+		B66F14CF2E4B7DF200C426E5 /* Build configuration list for PBXProject "Fiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66F14F52E4B7DF400C426E5 /* Debug */,

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B68C5A892EBD2B7C00C2A449 /* E5_TriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A872EBD2A5400C2A449 /* E5_TriviaApp.swift */; };
 		B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */; };
 		B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A772EBD2A5400C2A449 /* questions.json */; };
 		B68C5A8C2EBD2BB700C2A449 /* questions_backup_20251104_205250.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A782EBD2A5400C2A449 /* questions_backup_20251104_205250.json */; };
@@ -21,6 +20,7 @@
 		B68C5A942EBD2BDF00C2A449 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A832EBD2A5400C2A449 /* SettingsView.swift */; };
 		B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A862EBD2A5400C2A449 /* ContentView.swift */; };
 		B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A852EBD2A5400C2A449 /* Assets.xcassets */; };
+		B68C5A9B2EBD409B00C2A449 /* FizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A9A2EBD409B00C2A449 /* FizApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +44,6 @@
 		B66F14D42E4B7DF200C426E5 /* Fiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14E32E4B7DF400C426E5 /* FizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B68C5A702EBD2A2A00C2A449 /* E5_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E5_TriviaUITests.swift; sourceTree = "<group>"; };
-		B68C5A712EBD2A2A00C2A449 /* E5_TriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E5_TriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B68C5A732EBD2A4700C2A449 /* E5_TriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E5_TriviaTests.swift; sourceTree = "<group>"; };
 		B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaModels.swift; sourceTree = "<group>"; };
 		B68C5A772EBD2A5400C2A449 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		B68C5A782EBD2A5400C2A449 /* questions_backup_20251104_205250.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_backup_20251104_205250.json; sourceTree = "<group>"; };
@@ -60,7 +57,10 @@
 		B68C5A832EBD2A5400C2A449 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B68C5A852EBD2A5400C2A449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B68C5A862EBD2A5400C2A449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B68C5A872EBD2A5400C2A449 /* E5_TriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E5_TriviaApp.swift; sourceTree = "<group>"; };
+		B68C5A972EBD408200C2A449 /* FizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizUITests.swift; sourceTree = "<group>"; };
+		B68C5A982EBD408200C2A449 /* FizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B68C5A992EBD409000C2A449 /* FizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizTests.swift; sourceTree = "<group>"; };
+		B68C5A9A2EBD409B00C2A449 /* FizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 		B68C5A722EBD2A2A00C2A449 /* Fiz UITests */ = {
 			isa = PBXGroup;
 			children = (
-				B68C5A702EBD2A2A00C2A449 /* E5_TriviaUITests.swift */,
-				B68C5A712EBD2A2A00C2A449 /* E5_TriviaUITestsLaunchTests.swift */,
+				B68C5A972EBD408200C2A449 /* FizUITests.swift */,
+				B68C5A982EBD408200C2A449 /* FizUITestsLaunchTests.swift */,
 			);
 			path = "Fiz UITests";
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 		B68C5A742EBD2A4700C2A449 /* Fiz Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B68C5A732EBD2A4700C2A449 /* E5_TriviaTests.swift */,
+				B68C5A992EBD409000C2A449 /* FizTests.swift */,
 			);
 			path = "Fiz Tests";
 			sourceTree = SOURCE_ROOT;
@@ -181,7 +181,7 @@
 				B68C5A842EBD2A5400C2A449 /* Views */,
 				B68C5A852EBD2A5400C2A449 /* Assets.xcassets */,
 				B68C5A862EBD2A5400C2A449 /* ContentView.swift */,
-				B68C5A872EBD2A5400C2A449 /* E5_TriviaApp.swift */,
+				B68C5A9A2EBD409B00C2A449 /* FizApp.swift */,
 			);
 			path = Fiz;
 			sourceTree = "<group>";
@@ -327,13 +327,13 @@
 				B68C5A922EBD2BD700C2A449 /* LeaderboardView.swift in Sources */,
 				B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */,
 				B68C5A902EBD2BCF00C2A449 /* GameViewModel.swift in Sources */,
+				B68C5A9B2EBD409B00C2A449 /* FizApp.swift in Sources */,
 				B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */,
 				B68C5A932EBD2BDB00C2A449 /* OnboardingView.swift in Sources */,
 				B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */,
 				B68C5A942EBD2BDF00C2A449 /* SettingsView.swift in Sources */,
 				B68C5A8E2EBD2BC100C2A449 /* FizColors.swift in Sources */,
 				B68C5A912EBD2BD300C2A449 /* CategoryWheelView.swift in Sources */,
-				B68C5A892EBD2B7C00C2A449 /* E5_TriviaApp.swift in Sources */,
 				B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

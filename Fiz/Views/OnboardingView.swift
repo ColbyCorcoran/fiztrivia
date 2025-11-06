@@ -1,6 +1,6 @@
 //
 //  OnboardingView.swift
-//  E5 Trivia
+//  Fiz
 //
 //  Created by Claude Code on 8/13/25.
 //
@@ -31,7 +31,7 @@ struct OnboardingView: View {
                         .scaledToFit()
                         .frame(width: 140, height: 140)
 
-                    Text("Welcome to E5!")
+                    Text("Welcome to Fiz Trivia!")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(.primary)

@@ -4,18 +4,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-E5 Trivia is a SwiftUI iOS application that provides an interactive trivia game experience. The app features a spinning wheel for category selection, inline question display, automatic streak tracking, personalized user experience, difficulty modes, and persistent leaderboard storage across 7 reorganized categories.
+Fiz is a SwiftUI iOS application that provides an interactive trivia game experience. The app features a spinning wheel for category selection, inline question display, automatic streak tracking, personalized user experience, difficulty modes, and persistent leaderboard storage across 7 reorganized categories.
 
 ## Build and Development Commands
 
 ### Building the Project
-- **Build**: Open `E5 Trivia.xcodeproj` in Xcode and use Cmd+B to build
+- **Build**: Open `Fiz.xcodeproj` in Xcode and use Cmd+B to build
 - **Run**: Use Cmd+R to run in simulator or on device
 - **Clean Build**: Product → Clean Build Folder in Xcode
 
 ### Testing
 - **Run Tests**: Cmd+U in Xcode
-- **UI Tests**: Available in `E5 TriviaUITests/` directory
+- **UI Tests**: Available in `Fiz UITests/` directory
 
 ## Architecture Overview
 
@@ -179,14 +179,14 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 
 ### File Organization
 ```
-E5 Trivia/
+Fiz/
 ├── Models/
 │   └── TriviaModels.swift       # All data models, managers, enums
 ├── ViewModels/
 │   └── GameViewModel.swift      # Core game logic and state
 ├── Views/
 │   ├── CategoryWheelView.swift  # Main single-screen game interface
-│   ├── LeaderboardView.swift    # Achievement history display  
+│   ├── LeaderboardView.swift    # Achievement history display
 │   ├── SettingsView.swift       # User preferences
 │   └── OnboardingView.swift     # First-time setup
 ├── Utils/

@@ -1,13 +1,13 @@
 //
-//  E5_TriviaUITestsLaunchTests.swift
-//  E5 TriviaUITests
+//  FizUITestsLaunchTests.swift
+//  Fiz UITests
 //
 //  Created by Colby Corcoran on 8/12/25.
 //
 
 import XCTest
 
-final class E5_TriviaUITestsLaunchTests: XCTestCase {
+final class FizUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

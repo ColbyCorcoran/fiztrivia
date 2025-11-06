@@ -1,6 +1,6 @@
 //
-//  E5_TriviaApp.swift
-//  E5 Trivia
+//  FizApp.swift
+//  Fiz
 //
 //  Created by Colby Corcoran on 8/12/25.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct E5_TriviaApp: App {
+struct FizApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             LeaderboardEntry.self,

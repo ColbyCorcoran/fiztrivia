@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  E5 Trivia
+//  Fiz
 //
 //  Created by Colby Corcoran on 8/12/25.
 //

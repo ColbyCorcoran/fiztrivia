@@ -9,7 +9,7 @@ import os
 
 def main():
     # File paths
-    original_file = '/Users/colbycorcoran/Documents/App Development/E5 Trivia/E5 Trivia/Resources/questions.json'
+    original_file = '/Users/colbycorcoran/Documents/App Development/Fiz/Fiz/Resources/questions.json'
     
     # Read original data
     print("Reading original questions file...")

@@ -1,14 +1,14 @@
 //
-//  E5_TriviaTests.swift
-//  E5 TriviaTests
+//  FizTests.swift
+//  Fiz Tests
 //
 //  Created by Colby Corcoran on 8/12/25.
 //
 
 import Testing
-@testable import E5_Trivia
+@testable import Fiz
 
-struct E5_TriviaTests {
+struct FizTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

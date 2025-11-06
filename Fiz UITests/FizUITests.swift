@@ -1,13 +1,13 @@
 //
-//  E5_TriviaUITests.swift
-//  E5 TriviaUITests
+//  FizUITests.swift
+//  Fiz UITests
 //
 //  Created by Colby Corcoran on 8/12/25.
 //
 
 import XCTest
 
-final class E5_TriviaUITests: XCTestCase {
+final class FizUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

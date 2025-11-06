@@ -212,7 +212,7 @@ struct CategoryWheelView: View {
         HStack {
             VStack (alignment: .leading, spacing: 4) {
                 HStack(spacing: 8) {
-                    Text("E5")
+                    Text("Fiz")
                         .font(.system(size: 40, weight: .bold))
                         .foregroundColor(.primary)
                     Image("fiz-regular pose")

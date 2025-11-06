@@ -494,6 +494,8 @@ struct CategoryWheelView: View {
         let fizImages = [
             "fiz-regular pose",
             "fiz-happy smirk",
+            "fiz-leaderboard",
+            "fiz-new high score"
             // Add your app icon Fiz images here once you provide the names
         ]
         currentSpinFizImage = fizImages.randomElement() ?? "fiz-regular pose"

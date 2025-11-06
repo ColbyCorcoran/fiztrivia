@@ -482,7 +482,7 @@ struct CategoryWheelView: View {
                 }
                 .font(.title2)
                 .fontWeight(.bold)
-                .foregroundColor(.black)
+                .foregroundColor(.fizOrange)
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
             }
@@ -502,9 +502,8 @@ struct CategoryWheelView: View {
     private var wheelPointer: some View {
         ZStack {
             Triangle()
-                .fill(Color.fizOrange)
+                .fill(Color.fizBackground)
                 .frame(width: 30, height: 20)
-                .shadow(color: Color.fizBrown.opacity(0.3), radius: 3, x: 0, y: 2)
         }
         .offset(y: -53)
     }

@@ -6,6 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B68C5A892EBD2B7C00C2A449 /* E5_TriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A872EBD2A5400C2A449 /* E5_TriviaApp.swift */; };
+		B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */; };
+		B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A772EBD2A5400C2A449 /* questions.json */; };
+		B68C5A8C2EBD2BB700C2A449 /* questions_backup_20251104_205250.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A782EBD2A5400C2A449 /* questions_backup_20251104_205250.json */; };
+		B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */; };
+		B68C5A8E2EBD2BC100C2A449 /* FizColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7B2EBD2A5400C2A449 /* FizColors.swift */; };
+		B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */; };
+		B68C5A902EBD2BCF00C2A449 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7E2EBD2A5400C2A449 /* GameViewModel.swift */; };
+		B68C5A912EBD2BD300C2A449 /* CategoryWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A802EBD2A5400C2A449 /* CategoryWheelView.swift */; };
+		B68C5A922EBD2BD700C2A449 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A812EBD2A5400C2A449 /* LeaderboardView.swift */; };
+		B68C5A932EBD2BDB00C2A449 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A822EBD2A5400C2A449 /* OnboardingView.swift */; };
+		B68C5A942EBD2BDF00C2A449 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A832EBD2A5400C2A449 /* SettingsView.swift */; };
+		B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A862EBD2A5400C2A449 /* ContentView.swift */; };
+		B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A852EBD2A5400C2A449 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B66F14E42E4B7DF400C426E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,28 +41,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B66F14D42E4B7DF200C426E5 /* E5 Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E5 Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66F14E32E4B7DF400C426E5 /* E5 TriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E5 TriviaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66F14ED2E4B7DF400C426E5 /* E5 TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E5 TriviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66F14D42E4B7DF200C426E5 /* Fiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66F14E32E4B7DF400C426E5 /* FizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68C5A702EBD2A2A00C2A449 /* E5_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E5_TriviaUITests.swift; sourceTree = "<group>"; };
+		B68C5A712EBD2A2A00C2A449 /* E5_TriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E5_TriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B68C5A732EBD2A4700C2A449 /* E5_TriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E5_TriviaTests.swift; sourceTree = "<group>"; };
+		B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaModels.swift; sourceTree = "<group>"; };
+		B68C5A772EBD2A5400C2A449 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		B68C5A782EBD2A5400C2A449 /* questions_backup_20251104_205250.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_backup_20251104_205250.json; sourceTree = "<group>"; };
+		B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHelpers.swift; sourceTree = "<group>"; };
+		B68C5A7B2EBD2A5400C2A449 /* FizColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizColors.swift; sourceTree = "<group>"; };
+		B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		B68C5A7E2EBD2A5400C2A449 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		B68C5A802EBD2A5400C2A449 /* CategoryWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryWheelView.swift; sourceTree = "<group>"; };
+		B68C5A812EBD2A5400C2A449 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		B68C5A822EBD2A5400C2A449 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B68C5A832EBD2A5400C2A449 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B68C5A852EBD2A5400C2A449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B68C5A862EBD2A5400C2A449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B68C5A872EBD2A5400C2A449 /* E5_TriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E5_TriviaApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B66F14D62E4B7DF200C426E5 /* E5 Trivia */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "E5 Trivia";
-			sourceTree = "<group>";
-		};
-		B66F14E62E4B7DF400C426E5 /* E5 TriviaTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "E5 TriviaTests";
-			sourceTree = "<group>";
-		};
-		B66F14F02E4B7DF400C426E5 /* E5 TriviaUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "E5 TriviaUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B66F14D12E4B7DF200C426E5 /* Frameworks */ = {
@@ -75,9 +91,9 @@
 		B66F14CB2E4B7DF200C426E5 = {
 			isa = PBXGroup;
 			children = (
-				B66F14D62E4B7DF200C426E5 /* E5 Trivia */,
-				B66F14E62E4B7DF400C426E5 /* E5 TriviaTests */,
-				B66F14F02E4B7DF400C426E5 /* E5 TriviaUITests */,
+				B68C5A882EBD2A5400C2A449 /* Fiz */,
+				B68C5A742EBD2A4700C2A449 /* Fiz Tests */,
+				B68C5A722EBD2A2A00C2A449 /* Fiz UITests */,
 				B66F14D52E4B7DF200C426E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,19 +101,97 @@
 		B66F14D52E4B7DF200C426E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B66F14D42E4B7DF200C426E5 /* E5 Trivia.app */,
-				B66F14E32E4B7DF400C426E5 /* E5 TriviaTests.xctest */,
-				B66F14ED2E4B7DF400C426E5 /* E5 TriviaUITests.xctest */,
+				B66F14D42E4B7DF200C426E5 /* Fiz.app */,
+				B66F14E32E4B7DF400C426E5 /* FizTests.xctest */,
+				B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B68C5A722EBD2A2A00C2A449 /* Fiz UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B68C5A702EBD2A2A00C2A449 /* E5_TriviaUITests.swift */,
+				B68C5A712EBD2A2A00C2A449 /* E5_TriviaUITestsLaunchTests.swift */,
+			);
+			path = "Fiz UITests";
+			sourceTree = "<group>";
+		};
+		B68C5A742EBD2A4700C2A449 /* Fiz Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B68C5A732EBD2A4700C2A449 /* E5_TriviaTests.swift */,
+			);
+			path = "Fiz Tests";
+			sourceTree = SOURCE_ROOT;
+		};
+		B68C5A762EBD2A5400C2A449 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B68C5A792EBD2A5400C2A449 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B68C5A772EBD2A5400C2A449 /* questions.json */,
+				B68C5A782EBD2A5400C2A449 /* questions_backup_20251104_205250.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B68C5A7D2EBD2A5400C2A449 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */,
+				B68C5A7B2EBD2A5400C2A449 /* FizColors.swift */,
+				B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B68C5A7F2EBD2A5400C2A449 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B68C5A7E2EBD2A5400C2A449 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B68C5A842EBD2A5400C2A449 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B68C5A802EBD2A5400C2A449 /* CategoryWheelView.swift */,
+				B68C5A812EBD2A5400C2A449 /* LeaderboardView.swift */,
+				B68C5A822EBD2A5400C2A449 /* OnboardingView.swift */,
+				B68C5A832EBD2A5400C2A449 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B68C5A882EBD2A5400C2A449 /* Fiz */ = {
+			isa = PBXGroup;
+			children = (
+				B68C5A762EBD2A5400C2A449 /* Models */,
+				B68C5A792EBD2A5400C2A449 /* Resources */,
+				B68C5A7D2EBD2A5400C2A449 /* Utils */,
+				B68C5A7F2EBD2A5400C2A449 /* ViewModels */,
+				B68C5A842EBD2A5400C2A449 /* Views */,
+				B68C5A852EBD2A5400C2A449 /* Assets.xcassets */,
+				B68C5A862EBD2A5400C2A449 /* ContentView.swift */,
+				B68C5A872EBD2A5400C2A449 /* E5_TriviaApp.swift */,
+			);
+			path = Fiz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B66F14D32E4B7DF200C426E5 /* E5 Trivia */ = {
+		B66F14D32E4B7DF200C426E5 /* Fiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B66F14F72E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "E5 Trivia" */;
+			buildConfigurationList = B66F14F72E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "Fiz" */;
 			buildPhases = (
 				B66F14D02E4B7DF200C426E5 /* Sources */,
 				B66F14D12E4B7DF200C426E5 /* Frameworks */,
@@ -107,19 +201,16 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				B66F14D62E4B7DF200C426E5 /* E5 Trivia */,
-			);
-			name = "E5 Trivia";
+			name = Fiz;
 			packageProductDependencies = (
 			);
 			productName = "E5 Trivia";
-			productReference = B66F14D42E4B7DF200C426E5 /* E5 Trivia.app */;
+			productReference = B66F14D42E4B7DF200C426E5 /* Fiz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B66F14E22E4B7DF400C426E5 /* E5 TriviaTests */ = {
+		B66F14E22E4B7DF400C426E5 /* FizTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B66F14FA2E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "E5 TriviaTests" */;
+			buildConfigurationList = B66F14FA2E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "FizTests" */;
 			buildPhases = (
 				B66F14DF2E4B7DF400C426E5 /* Sources */,
 				B66F14E02E4B7DF400C426E5 /* Frameworks */,
@@ -130,19 +221,16 @@
 			dependencies = (
 				B66F14E52E4B7DF400C426E5 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B66F14E62E4B7DF400C426E5 /* E5 TriviaTests */,
-			);
-			name = "E5 TriviaTests";
+			name = FizTests;
 			packageProductDependencies = (
 			);
 			productName = "E5 TriviaTests";
-			productReference = B66F14E32E4B7DF400C426E5 /* E5 TriviaTests.xctest */;
+			productReference = B66F14E32E4B7DF400C426E5 /* FizTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B66F14EC2E4B7DF400C426E5 /* E5 TriviaUITests */ = {
+		B66F14EC2E4B7DF400C426E5 /* FizUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B66F14FD2E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "E5 TriviaUITests" */;
+			buildConfigurationList = B66F14FD2E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "FizUITests" */;
 			buildPhases = (
 				B66F14E92E4B7DF400C426E5 /* Sources */,
 				B66F14EA2E4B7DF400C426E5 /* Frameworks */,
@@ -153,14 +241,11 @@
 			dependencies = (
 				B66F14EF2E4B7DF400C426E5 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B66F14F02E4B7DF400C426E5 /* E5 TriviaUITests */,
-			);
-			name = "E5 TriviaUITests";
+			name = FizUITests;
 			packageProductDependencies = (
 			);
 			productName = "E5 TriviaUITests";
-			productReference = B66F14ED2E4B7DF400C426E5 /* E5 TriviaUITests.xctest */;
+			productReference = B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,9 +285,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B66F14D32E4B7DF200C426E5 /* E5 Trivia */,
-				B66F14E22E4B7DF400C426E5 /* E5 TriviaTests */,
-				B66F14EC2E4B7DF400C426E5 /* E5 TriviaUITests */,
+				B66F14D32E4B7DF200C426E5 /* Fiz */,
+				B66F14E22E4B7DF400C426E5 /* FizTests */,
+				B66F14EC2E4B7DF400C426E5 /* FizUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +297,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68C5A8C2EBD2BB700C2A449 /* questions_backup_20251104_205250.json in Resources */,
+				B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */,
+				B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68C5A922EBD2BD700C2A449 /* LeaderboardView.swift in Sources */,
+				B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */,
+				B68C5A902EBD2BCF00C2A449 /* GameViewModel.swift in Sources */,
+				B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */,
+				B68C5A932EBD2BDB00C2A449 /* OnboardingView.swift in Sources */,
+				B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */,
+				B68C5A942EBD2BDF00C2A449 /* SettingsView.swift in Sources */,
+				B68C5A8E2EBD2BC100C2A449 /* FizColors.swift in Sources */,
+				B68C5A912EBD2BD300C2A449 /* CategoryWheelView.swift in Sources */,
+				B68C5A892EBD2B7C00C2A449 /* E5_TriviaApp.swift in Sources */,
+				B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +357,12 @@
 /* Begin PBXTargetDependency section */
 		B66F14E52E4B7DF400C426E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B66F14D32E4B7DF200C426E5 /* E5 Trivia */;
+			target = B66F14D32E4B7DF200C426E5 /* Fiz */;
 			targetProxy = B66F14E42E4B7DF400C426E5 /* PBXContainerItemProxy */;
 		};
 		B66F14EF2E4B7DF400C426E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B66F14D32E4B7DF200C426E5 /* E5 Trivia */;
+			target = B66F14D32E4B7DF200C426E5 /* Fiz */;
 			targetProxy = B66F14EE2E4B7DF400C426E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,6 +498,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fiz;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,7 +509,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "colbyacorcoran.E5-Trivia";
+				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.Fiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -426,6 +526,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fiz;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -436,7 +537,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "colbyacorcoran.E5-Trivia";
+				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.Fiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -453,12 +554,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "colbyacorcoran.E5-TriviaTests";
+				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.FizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E5 Trivia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/E5 Trivia";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fiz";
 			};
 			name = Debug;
 		};
@@ -471,12 +572,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "colbyacorcoran.E5-TriviaTests";
+				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.FizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E5 Trivia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/E5 Trivia";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fiz";
 			};
 			name = Release;
 		};
@@ -487,7 +588,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "colbyacorcoran.E5-TriviaUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.FizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -503,7 +604,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "colbyacorcoran.E5-TriviaUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.FizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -524,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B66F14F72E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "E5 Trivia" */ = {
+		B66F14F72E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "Fiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66F14F82E4B7DF400C426E5 /* Debug */,
@@ -533,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B66F14FA2E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "E5 TriviaTests" */ = {
+		B66F14FA2E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "FizTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66F14FB2E4B7DF400C426E5 /* Debug */,
@@ -542,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B66F14FD2E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "E5 TriviaUITests" */ = {
+		B66F14FD2E4B7DF400C426E5 /* Build configuration list for PBXNativeTarget "FizUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66F14FE2E4B7DF400C426E5 /* Debug */,

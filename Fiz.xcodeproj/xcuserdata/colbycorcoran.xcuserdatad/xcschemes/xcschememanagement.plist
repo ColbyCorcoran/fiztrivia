@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>E5 Trivia.xcscheme_^#shared#^_</key>
+		<key>Fiz.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B66F14D32E4B7DF200C426E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B66F14E22E4B7DF400C426E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B66F14EC2E4B7DF400C426E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

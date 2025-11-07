@@ -376,17 +376,12 @@ struct CategoryWheelView: View {
                         Text(option)
                             .font(.body)
                             .fontWeight(.medium)
-                            .foregroundColor(.primary)
                             .multilineTextAlignment(.center)
                             .lineLimit(nil)
                             .fixedSize(horizontal: false, vertical: true)
                             .frame(maxWidth: .infinity, minHeight: 44)
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 10)
-                            .background(Color.fizBackground)
-                            .cornerRadius(12)
-                            .shadow(color: Color.fizBrown.opacity(0.15), radius: 2, x: 0, y: 1)
                     }
+                    .liquidGlassButtonStyle(color: Color.fizTeal)
                 }
             }
         }
@@ -675,8 +670,9 @@ struct CategoryWheelView: View {
         // Capture answer state before clearing
         let wasIncorrect = (answerResult == .incorrect)
 
-        // Auto-clear after 1.5 seconds and re-enable buttons
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+        // Auto-clear after delay (longer for incorrect answers to allow reading the correct answer)
+        let clearDelay = wasIncorrect ? 3.0 : 1.5
+        DispatchQueue.main.asyncAfter(deadline: .now() + clearDelay) {
             withAnimation(.easeOut(duration: 0.3)) {
                 showingResult = false
                 currentQuestion = nil
@@ -691,8 +687,8 @@ struct CategoryWheelView: View {
                         showingHighScoreToast = true
                     }
 
-                    // Auto-dismiss after 3 seconds
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                    // Auto-dismiss after 5 seconds (longer to celebrate the achievement)
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                         withAnimation {
                             showingHighScoreToast = false
                             achievedNewHighScore = false
@@ -704,55 +700,70 @@ struct CategoryWheelView: View {
     }
     
     private var newHighScoreToastView: some View {
-        ZStack {
-            // Semi-transparent background
-            Color.black.opacity(0.7)
-                .ignoresSafeArea()
-                .onTapGesture {
-                    // Dismiss on tap
-                    withAnimation {
-                        showingHighScoreToast = false
-                        achievedNewHighScore = false
-                    }
+        VStack {
+            // Larger notification card without dark background
+            VStack(spacing: 24) {
+                // Fiz celebrating - larger size
+                Image("fiz-new high score")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 180, height: 180)
+                    .scaleEffect(showingHighScoreToast ? 1.0 : 0.5)
+                    .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingHighScoreToast)
+
+                // Text content - larger and more prominent
+                VStack(spacing: 12) {
+                    Text("🎉 New High Score! 🎉")
+                        .font(.system(size: 32, weight: .bold))
+                        .foregroundColor(Color.fizOrange)
+                        .multilineTextAlignment(.center)
+
+                    Text("\(newHighScoreValue) correct in a row!")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.primary)
+                        .multilineTextAlignment(.center)
+
+                    Text("Amazing work, \(userManager.displayName)!")
+                        .font(.title3)
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.center)
                 }
-
-            // Toast card
-            VStack(spacing: 20) {
-                HStack(spacing: 16) {
-                    // Fiz celebrating
-                    Image("fiz-new high score")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 120, height: 120)
-
-                    // Text content
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("New High Score!")
-                            .font(.title2)
-                            .fontWeight(.bold)
-                            .foregroundColor(Color.fizOrange)
-
-                        Text("\(newHighScoreValue) correct in a row!")
-                            .font(.headline)
-                            .foregroundColor(.primary)
-
-                        Text("Great job, \(userManager.displayName)!")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                }
-                .padding(20)
             }
-            .background(Color.fizBackground)
-            .cornerRadius(16)
-            .shadow(color: Color.fizBrown.opacity(0.3), radius: 20, x: 0, y: 10)
-            .padding(.horizontal, 30)
+            .padding(.horizontal, 40)
+            .padding(.vertical, 32)
+            .background(
+                RoundedRectangle(cornerRadius: 24)
+                    .fill(Color.fizBackground)
+                    .shadow(color: Color.fizOrange.opacity(0.4), radius: 30, x: 0, y: 15)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 24)
+                    .stroke(
+                        LinearGradient(
+                            colors: [Color.fizOrange.opacity(0.6), Color.fizTeal.opacity(0.4)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ),
+                        lineWidth: 3
+                    )
+            )
+            .padding(.horizontal, 24)
             .scaleEffect(showingHighScoreToast ? 1.0 : 0.8)
             .opacity(showingHighScoreToast ? 1.0 : 0)
-            .animation(.spring(response: 0.5, dampingFraction: 0.7), value: showingHighScoreToast)
+            .animation(.spring(response: 0.6, dampingFraction: 0.7), value: showingHighScoreToast)
+            .onTapGesture {
+                // Dismiss on tap
+                withAnimation {
+                    showingHighScoreToast = false
+                    achievedNewHighScore = false
+                }
+            }
+
+            Spacer()
         }
-        .transition(.opacity.combined(with: .scale))
+        .padding(.top, 120)
+        .transition(.move(edge: .top).combined(with: .opacity))
     }
 
     private var completionCelebrationOverlay: some View {
@@ -825,15 +836,11 @@ struct CategoryWheelView: View {
                                 .font(.title2)
                             Text("Play Again")
                                 .font(.title2)
-                                .fontWeight(.semibold)
                         }
-                        .foregroundColor(.white)
-                        .padding(.horizontal, 32)
-                        .padding(.vertical, 16)
-                        .background(Color.fizOrange)
-                        .cornerRadius(25)
-                        .shadow(color: Color.fizBrown.opacity(0.3), radius: 10, x: 0, y: 5)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 6)
                     }
+                    .prominentLiquidGlassButtonStyle(color: Color.fizOrange)
 
                     // Settings button for Single Category Mode
                     if singleCategoryManager.isEnabled {
@@ -847,15 +854,11 @@ struct CategoryWheelView: View {
                                     .font(.title2)
                                 Text("Change Category")
                                     .font(.title3)
-                                    .fontWeight(.semibold)
                             }
-                            .foregroundColor(.white)
-                            .padding(.horizontal, 28)
-                            .padding(.vertical, 14)
-                            .background(Color.fizTeal)
-                            .cornerRadius(25)
-                            .shadow(color: Color.fizBrown.opacity(0.3), radius: 10, x: 0, y: 5)
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 4)
                         }
+                        .prominentLiquidGlassButtonStyle(color: Color.fizTeal)
                     }
                 }
                 .scaleEffect(gameViewModel.showCompletionCelebration ? 1 : 0.8)

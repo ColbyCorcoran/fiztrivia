@@ -73,17 +73,28 @@ class HapticManager {
         mediumImpact()
         playWheelSpin()
     }
-    
+
     func correctAnswerEffect() {
-        successFeedback()
+        // Custom celebratory haptic pattern instead of single burst
+        // Pattern: light -> medium -> light (creates a "bounce" celebration effect)
+        lightImpact()
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.06) {
+            self.mediumImpact()
+        }
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.12) {
+            self.lightImpact()
+        }
+
         playCorrectAnswer()
     }
-    
+
     func incorrectAnswerEffect() {
         errorFeedback()
         playIncorrectAnswer()
     }
-    
+
     func buttonTapEffect() {
         lightImpact()
         playButtonTap()

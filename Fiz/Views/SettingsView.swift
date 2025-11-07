@@ -247,6 +247,7 @@ struct SettingsView: View {
                         Button("Done") {
                             gameViewModel.continueGame()
                         }
+                        .glassButtonStyle()
                     }
                 }
                 .onAppear {

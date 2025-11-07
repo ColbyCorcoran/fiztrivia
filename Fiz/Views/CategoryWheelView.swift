@@ -154,8 +154,8 @@ struct CategoryWheelView: View {
                 }) {
                     Image(systemName: "list.number")
                         .font(.title2)
-                        .foregroundColor(.primary)
                 }
+                .glassButtonStyle()
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
                 .triviaAccessibility(
@@ -173,7 +173,7 @@ struct CategoryWheelView: View {
 
             // Right side: Streak Badge + Settings
             HStack(spacing: 12) {
-                // Minimal streak badge
+                // Minimal streak badge with glass effect
                 HStack(spacing: 4) {
                     Text("🔥")
                         .font(.caption)
@@ -192,8 +192,8 @@ struct CategoryWheelView: View {
                 }) {
                     Image(systemName: "gear")
                         .font(.title2)
-                        .foregroundColor(.primary)
                 }
+                .glassButtonStyle()
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
                 .triviaAccessibility(

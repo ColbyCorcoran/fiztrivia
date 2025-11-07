@@ -78,14 +78,10 @@ struct OnboardingView: View {
                     }) {
                         Text("Ready to Start!")
                             .font(.headline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(Color.fizOrange)
-                            .cornerRadius(12)
-                            .shadow(color: Color.fizBrown.opacity(0.3), radius: 4, x: 0, y: 2)
+                            .padding(.vertical, 4)
                     }
+                    .glassProminentButtonStyle(color: Color.fizOrange)
                     .padding(.horizontal, 32)
                     .disabled(enteredName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                     .opacity(enteredName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? 0.6 : 1.0)

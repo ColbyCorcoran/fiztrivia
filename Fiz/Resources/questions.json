@@ -3732,9 +3732,9 @@
         "question": "What is the real name of Spider-Man?",
         "options": [
           "Peter Parker",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Miles Morales",
+          "Ben Reilly",
+          "Otto Octavius"
         ],
         "correct_answer": "Peter Parker",
         "difficulty": "hard"
@@ -3746,9 +3746,9 @@
         "question": "What is the real name of Batman?",
         "options": [
           "Bruce Wayne",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Dick Grayson",
+          "Tim Drake",
+          "Jason Todd"
         ],
         "correct_answer": "Bruce Wayne",
         "difficulty": "hard"
@@ -3760,9 +3760,9 @@
         "question": "What is the real name of Superman?",
         "options": [
           "Clark Kent",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Kal-El",
+          "Bruce Wayne",
+          "Clark Joseph Kent"
         ],
         "correct_answer": "Clark Kent",
         "difficulty": "hard"
@@ -3774,9 +3774,9 @@
         "question": "What is the real name of Captain America?",
         "options": [
           "Steve Rogers",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Bucky Barnes",
+          "Sam Wilson",
+          "John Walker"
         ],
         "correct_answer": "Steve Rogers",
         "difficulty": "hard"
@@ -3788,9 +3788,9 @@
         "question": "What is the real name of Green Lantern?",
         "options": [
           "Hal Jordan",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "John Stewart",
+          "Guy Gardner",
+          "Kyle Rayner"
         ],
         "correct_answer": "Hal Jordan",
         "difficulty": "hard"
@@ -3802,9 +3802,9 @@
         "question": "What is the real name of Wonder Woman?",
         "options": [
           "Diana Prince",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Donna Troy",
+          "Artemis",
+          "Hippolyta"
         ],
         "correct_answer": "Diana Prince",
         "difficulty": "hard"
@@ -3816,9 +3816,9 @@
         "question": "What is the real name of Wolverine?",
         "options": [
           "Logan",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "James Howlett",
+          "Victor Creed",
+          "Scott Summers"
         ],
         "correct_answer": "Logan",
         "difficulty": "hard"
@@ -3830,9 +3830,9 @@
         "question": "What is the real name of Deadpool?",
         "options": [
           "Wade Wilson",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Slade Wilson",
+          "Frank Castle",
+          "Logan Howlett"
         ],
         "correct_answer": "Wade Wilson",
         "difficulty": "hard"
@@ -3844,9 +3844,9 @@
         "question": "What is the real name of Daredevil?",
         "options": [
           "Matt Murdock",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Frank Castle",
+          "Luke Cage",
+          "Danny Rand"
         ],
         "correct_answer": "Matt Murdock",
         "difficulty": "hard"
@@ -3858,9 +3858,9 @@
         "question": "What is the real name of Green Arrow?",
         "options": [
           "Oliver Queen",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Roy Harper",
+          "Connor Hawke",
+          "Barry Allen"
         ],
         "correct_answer": "Oliver Queen",
         "difficulty": "hard"
@@ -3872,9 +3872,9 @@
         "question": "What is the real name of Aquaman?",
         "options": [
           "Arthur Curry",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Orin",
+          "Kaldur'ahm",
+          "Garth"
         ],
         "correct_answer": "Arthur Curry",
         "difficulty": "hard"
@@ -3886,9 +3886,9 @@
         "question": "What is the real name of The Hulk?",
         "options": [
           "Bruce Banner",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Robert Bruce Banner",
+          "Rick Jones",
+          "Amadeus Cho"
         ],
         "correct_answer": "Bruce Banner",
         "difficulty": "hard"
@@ -3900,9 +3900,9 @@
         "question": "What is the real name of Thor?",
         "options": [
           "Thor Odinson",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Loki Laufeyson",
+          "Baldur",
+          "Odin Borson"
         ],
         "correct_answer": "Thor Odinson",
         "difficulty": "hard"
@@ -4124,9 +4124,9 @@
         "question": "What is Superman's real name?",
         "options": [
           "Clark Kent",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Bruce Wayne",
+          "Kal-El",
+          "Clark Joseph Kent"
         ],
         "correct_answer": "Clark Kent",
         "difficulty": "hard"
@@ -4138,9 +4138,9 @@
         "question": "What is Wonder Woman's real name?",
         "options": [
           "Diana Prince",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Donna Troy",
+          "Artemis",
+          "Cassie Sandsmark"
         ],
         "correct_answer": "Diana Prince",
         "difficulty": "hard"
@@ -4152,9 +4152,9 @@
         "question": "What is The Flash's real name?",
         "options": [
           "Barry Allen",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Wally West",
+          "Jay Garrick",
+          "Bart Allen"
         ],
         "correct_answer": "Barry Allen",
         "difficulty": "hard"
@@ -4166,9 +4166,9 @@
         "question": "What is Green Lantern's real name?",
         "options": [
           "Hal Jordan",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "John Stewart",
+          "Guy Gardner",
+          "Alan Scott"
         ],
         "correct_answer": "Hal Jordan",
         "difficulty": "hard"
@@ -4180,9 +4180,9 @@
         "question": "What is Aquaman's real name?",
         "options": [
           "Arthur Curry",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Orin",
+          "Jackson Hyde",
+          "Garth"
         ],
         "correct_answer": "Arthur Curry",
         "difficulty": "hard"
@@ -4194,9 +4194,9 @@
         "question": "What is Green Arrow's real name?",
         "options": [
           "Oliver Queen",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Roy Harper",
+          "Connor Hawke",
+          "Emiko Queen"
         ],
         "correct_answer": "Oliver Queen",
         "difficulty": "hard"
@@ -4208,9 +4208,9 @@
         "question": "What is Martian Manhunter's real name?",
         "options": [
           "J'onn J'onzz",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "M'gann M'orzz",
+          "John Jones",
+          "Ma'alefa'ak"
         ],
         "correct_answer": "J'onn J'onzz",
         "difficulty": "hard"
@@ -4222,9 +4222,9 @@
         "question": "What is Shazam's real name?",
         "options": [
           "Billy Batson",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Freddy Freeman",
+          "Adam",
+          "Eugene Choi"
         ],
         "correct_answer": "Billy Batson",
         "difficulty": "hard"
@@ -4236,9 +4236,9 @@
         "question": "What is Hawkman's real name?",
         "options": [
           "Carter Hall",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Katar Hol",
+          "Shiera Hall",
+          "Kendra Saunders"
         ],
         "correct_answer": "Carter Hall",
         "difficulty": "hard"
@@ -4250,9 +4250,9 @@
         "question": "What is Zatanna's real name?",
         "options": [
           "Zatanna Zatara",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Zara Zatara",
+          "Zee Zatara",
+          "Zoe Zatara"
         ],
         "correct_answer": "Zatanna Zatara",
         "difficulty": "hard"
@@ -4264,9 +4264,9 @@
         "question": "What is Constantine's real name?",
         "options": [
           "John Constantine",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Johnny Constantine",
+          "Jonathan Constantine",
+          "Jack Constantine"
         ],
         "correct_answer": "John Constantine",
         "difficulty": "hard"
@@ -4278,9 +4278,9 @@
         "question": "What is Swamp Thing's real name?",
         "options": [
           "Alec Holland",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Alex Holland",
+          "Alan Holland",
+          "Abby Holland"
         ],
         "correct_answer": "Alec Holland",
         "difficulty": "hard"
@@ -4292,9 +4292,9 @@
         "question": "What is Lobo's real name?",
         "options": [
           "Lobo",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Lucius",
+          "Logan",
+          "Lars"
         ],
         "correct_answer": "Lobo",
         "difficulty": "hard"

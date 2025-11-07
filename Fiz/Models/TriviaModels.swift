@@ -1,5 +1,6 @@
 import Foundation
 import SwiftData
+import UIKit
 
 struct TriviaQuestion: Codable, Identifiable {
     let id: String

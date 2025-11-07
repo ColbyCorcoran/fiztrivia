@@ -3152,20 +3152,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "ent_227",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the Winter Soldier's real name?",
-        "options": [
-          "James Buchanan Barnes",
-          "Steve Rogers",
-          "Sam Wilson",
-          "John Walker"
-        ],
-        "correct_answer": "James Buchanan Barnes",
-        "difficulty": "hard"
-      },
-      {
         "id": "ent_228",
         "category": "Entertainment",
         "subcategory": "Comic Books",
@@ -3726,34 +3712,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "ent_280",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the real name of Spider-Man?",
-        "options": [
-          "Peter Parker",
-          "Eddie Brock",
-          "Harry Osborn",
-          "Flash Thompson"
-        ],
-        "correct_answer": "Peter Parker",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_281",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the real name of Batman?",
-        "options": [
-          "Bruce Wayne",
-          "Harvey Dent",
-          "James Gordon",
-          "Lucius Fox"
-        ],
-        "correct_answer": "Bruce Wayne",
-        "difficulty": "hard"
-      },
-      {
         "id": "ent_282",
         "category": "Entertainment",
         "subcategory": "Comic Books",
@@ -3824,20 +3782,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "ent_287",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the real name of Deadpool?",
-        "options": [
-          "Wade Wilson",
-          "Slade Wilson",
-          "Frank Castle",
-          "Logan Howlett"
-        ],
-        "correct_answer": "Wade Wilson",
-        "difficulty": "hard"
-      },
-      {
         "id": "ent_288",
         "category": "Entertainment",
         "subcategory": "Comic Books",
@@ -3877,20 +3821,6 @@
           "Oliver Queen"
         ],
         "correct_answer": "Arthur Curry",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_291",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the real name of The Hulk?",
-        "options": [
-          "Bruce Banner",
-          "Tony Stark",
-          "Stephen Strange",
-          "Hank Pym"
-        ],
-        "correct_answer": "Bruce Banner",
         "difficulty": "hard"
       },
       {
@@ -4115,90 +4045,6 @@
           "The Incredibles"
         ],
         "correct_answer": "Lightyear",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_308",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Superman's real name?",
-        "options": [
-          "Clark Kent",
-          "Bruce Wayne",
-          "Barry Allen",
-          "Oliver Queen"
-        ],
-        "correct_answer": "Clark Kent",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_309",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Wonder Woman's real name?",
-        "options": [
-          "Diana Prince",
-          "Barbara Gordon",
-          "Selina Kyle",
-          "Harleen Quinzel"
-        ],
-        "correct_answer": "Diana Prince",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_310",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is The Flash's real name?",
-        "options": [
-          "Barry Allen",
-          "Bruce Wayne",
-          "Oliver Queen",
-          "Hal Jordan"
-        ],
-        "correct_answer": "Barry Allen",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_311",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Green Lantern's real name?",
-        "options": [
-          "Hal Jordan",
-          "Barry Allen",
-          "Oliver Queen",
-          "Arthur Curry"
-        ],
-        "correct_answer": "Hal Jordan",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_312",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Aquaman's real name?",
-        "options": [
-          "Arthur Curry",
-          "Barry Allen",
-          "Hal Jordan",
-          "Victor Stone"
-        ],
-        "correct_answer": "Arthur Curry",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_313",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Green Arrow's real name?",
-        "options": [
-          "Oliver Queen",
-          "Bruce Wayne",
-          "Clark Kent",
-          "Hal Jordan"
-        ],
-        "correct_answer": "Oliver Queen",
         "difficulty": "hard"
       },
       {

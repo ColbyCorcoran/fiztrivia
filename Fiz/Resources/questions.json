@@ -4320,8 +4320,8 @@
         "question": "What type is Blastoise?",
         "options": [
           "Water",
-          "Fire",
-          "Water",
+          "Steel",
+          "Poison",
           "Grass"
         ],
         "correct_answer": "Water",
@@ -4334,7 +4334,7 @@
         "question": "What type is Venusaur?",
         "options": [
           "Grass/Poison",
-          "Fire",
+          "Poison",
           "Water",
           "Grass"
         ],
@@ -8828,7 +8828,7 @@
       {
         "id": "bib_141",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Old Testament",
         "question": "Which book comes after Genesis in the Bible?",
         "options": [
           "Exodus",
@@ -14799,7 +14799,7 @@
         "id": "foo_063",
         "category": "Food",
         "subcategory": "Famous Chefs/Restaurants",
-        "question": "What is the name of Jos\u00e9 Andr\u00e9s' minibar concept?",
+        "question": "What is the main element of Jos\u00e9 Andr\u00e9s' minibar concept?",
         "options": [
           "Small plates",
           "Molecular dining",

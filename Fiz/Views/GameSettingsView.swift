@@ -20,7 +20,7 @@ struct GameSettingsView: View {
 
     var body: some View {
         Form {
-            Section("Game Settings") {
+            Section("Game Difficulty") {
                 VStack(alignment: .leading, spacing: 8) {
                     HStack {
                         Text("Difficulty Mode")
@@ -40,7 +40,7 @@ struct GameSettingsView: View {
                 }
             }
 
-            Section(header: Text("Single Category Mode"),
+            Section(header: Text("Game Modes"),
                    footer: Text("Focus on questions from a single category. The wheel will show subcategories instead of all categories.")) {
                 Toggle("Enable Single Category Mode", isOn: $localModeEnabled)
                     .onChange(of: localModeEnabled) { oldValue, newValue in

@@ -22,7 +22,8 @@ struct SettingsView: View {
                             }
                         }
                     }
-
+                }
+                Section {
                     NavigationLink(destination: GameSettingsView(gameViewModel: gameViewModel)) {
                         HStack {
                             Image(systemName: "gamecontroller.fill")
@@ -39,6 +40,7 @@ struct SettingsView: View {
                         }
                     }
                 }
+            
 
                 Section("About") {
                     HStack {

@@ -22,6 +22,8 @@
 		B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A852EBD2A5400C2A449 /* Assets.xcassets */; };
 		B68C5A9B2EBD409B00C2A449 /* FizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A9A2EBD409B00C2A449 /* FizApp.swift */; };
 		B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */; };
+		B699B5FF2EBE4403001AF50D /* PersonalizationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */; };
+		B699B6002EBE4403001AF50D /* GameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		B68C5A992EBD409000C2A449 /* FizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizTests.swift; sourceTree = "<group>"; };
 		B68C5A9A2EBD409B00C2A449 /* FizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizApp.swift; sourceTree = "<group>"; };
 		B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingsView.swift; sourceTree = "<group>"; };
+		B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 				B68C5A812EBD2A5400C2A449 /* LeaderboardView.swift */,
 				B68C5A822EBD2A5400C2A449 /* OnboardingView.swift */,
 				B68C5A832EBD2A5400C2A449 /* SettingsView.swift */,
+				B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */,
+				B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +343,8 @@
 				B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */,
 				B68C5A942EBD2BDF00C2A449 /* SettingsView.swift in Sources */,
 				B68C5A8E2EBD2BC100C2A449 /* FizColors.swift in Sources */,
+				B699B5FF2EBE4403001AF50D /* PersonalizationSettingsView.swift in Sources */,
+				B699B6002EBE4403001AF50D /* GameSettingsView.swift in Sources */,
 				B68C5A912EBD2BD300C2A449 /* CategoryWheelView.swift in Sources */,
 				B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */,
 			);

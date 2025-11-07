@@ -541,15 +541,14 @@ struct GameSession {
 class AppIconManager: ObservableObject {
     private static let selectedIconKey = "selected_app_icon"
 
-    @Published var selectedIcon: AppIcon = .default
+    @Published var selectedIcon: AppIcon = .correct
 
     static let shared = AppIconManager()
 
     enum AppIcon: String, CaseIterable, Identifiable {
-        case `default` = "Default"
+        case correct = "Correct"
         case regularPose = "Regular Pose"
         case happySmirk = "Happy Smirk"
-        case correct = "Correct"
         case incorrect = "Incorrect"
         case leaderboard = "Leaderboard"
         case newHighScore = "New High Score"
@@ -557,13 +556,12 @@ class AppIconManager: ObservableObject {
         var id: String { rawValue }
 
         var iconName: String? {
-            // Return nil for default icon (uses the main AppIcon)
+            // Return nil for the default icon (Correct - ships with the app)
             // For alternate icons, return the name that matches the bundle icon name
             switch self {
-            case .default: return nil
+            case .correct: return nil  // Default - uses main AppIcon
             case .regularPose: return "AppIcon-RegularPose"
             case .happySmirk: return "AppIcon-HappySmirk"
-            case .correct: return "AppIcon-Correct"
             case .incorrect: return "AppIcon-Incorrect"
             case .leaderboard: return "AppIcon-Leaderboard"
             case .newHighScore: return "AppIcon-NewHighScore"
@@ -573,10 +571,9 @@ class AppIconManager: ObservableObject {
         var previewImageName: String {
             // Image names from Assets.xcassets for preview
             switch self {
-            case .default: return "fiz-regular pose"
+            case .correct: return "fiz-correct"
             case .regularPose: return "fiz-regular pose"
             case .happySmirk: return "fiz-happy smirk"
-            case .correct: return "fiz-correct"
             case .incorrect: return "fiz-incorrect"
             case .leaderboard: return "fiz-leaderboard"
             case .newHighScore: return "fiz-new high score"
@@ -585,10 +582,9 @@ class AppIconManager: ObservableObject {
 
         var description: String {
             switch self {
-            case .default: return "The classic Fiz look"
+            case .correct: return "Fiz celebrating (Default)"
             case .regularPose: return "Fiz in regular pose"
             case .happySmirk: return "Fiz with a happy smirk"
-            case .correct: return "Fiz celebrating"
             case .incorrect: return "Fiz thinking"
             case .leaderboard: return "Fiz on the leaderboard"
             case .newHighScore: return "Fiz with new high score"
@@ -604,6 +600,9 @@ class AppIconManager: ObservableObject {
         if let savedIconName = UserDefaults.standard.string(forKey: Self.selectedIconKey),
            let icon = AppIcon(rawValue: savedIconName) {
             selectedIcon = icon
+        } else {
+            // Default to Correct if no saved preference
+            selectedIcon = .correct
         }
     }
 

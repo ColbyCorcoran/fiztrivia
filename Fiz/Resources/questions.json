@@ -4306,9 +4306,9 @@
         "question": "What type is Charizard?",
         "options": [
           "Fire/Flying",
-          "Fire",
-          "Water",
-          "Grass"
+          "Fire/Dragon",
+          "Dragon",
+          "Fire"
         ],
         "correct_answer": "Fire/Flying",
         "difficulty": "hard"
@@ -4320,9 +4320,9 @@
         "question": "What type is Blastoise?",
         "options": [
           "Water",
-          "Steel",
-          "Poison",
-          "Grass"
+          "Water/Steel",
+          "Ice",
+          "Steel"
         ],
         "correct_answer": "Water",
         "difficulty": "hard"
@@ -4334,9 +4334,9 @@
         "question": "What type is Venusaur?",
         "options": [
           "Grass/Poison",
+          "Grass",
           "Poison",
-          "Water",
-          "Grass"
+          "Bug"
         ],
         "correct_answer": "Grass/Poison",
         "difficulty": "hard"
@@ -4348,9 +4348,9 @@
         "question": "What type is Gengar?",
         "options": [
           "Ghost/Poison",
-          "Fire",
-          "Water",
-          "Grass"
+          "Ghost",
+          "Dark",
+          "Poison"
         ],
         "correct_answer": "Ghost/Poison",
         "difficulty": "hard"
@@ -4362,9 +4362,9 @@
         "question": "What type is Alakazam?",
         "options": [
           "Psychic",
-          "Fire",
-          "Water",
-          "Grass"
+          "Psychic/Steel",
+          "Steel",
+          "Fighting"
         ],
         "correct_answer": "Psychic",
         "difficulty": "hard"
@@ -4376,9 +4376,9 @@
         "question": "What type is Machamp?",
         "options": [
           "Fighting",
-          "Fire",
-          "Water",
-          "Grass"
+          "Fighting/Rock",
+          "Rock",
+          "Normal"
         ],
         "correct_answer": "Fighting",
         "difficulty": "hard"
@@ -4390,9 +4390,9 @@
         "question": "What type is Golem?",
         "options": [
           "Rock/Ground",
-          "Fire",
-          "Water",
-          "Grass"
+          "Rock",
+          "Ground",
+          "Steel"
         ],
         "correct_answer": "Rock/Ground",
         "difficulty": "hard"
@@ -4404,9 +4404,9 @@
         "question": "What type is Lapras?",
         "options": [
           "Water/Ice",
-          "Fire",
           "Water",
-          "Grass"
+          "Ice",
+          "Dragon"
         ],
         "correct_answer": "Water/Ice",
         "difficulty": "hard"
@@ -4418,9 +4418,9 @@
         "question": "What type is Snorlax?",
         "options": [
           "Normal",
-          "Fire",
-          "Water",
-          "Grass"
+          "Normal/Fighting",
+          "Fighting",
+          "Rock"
         ],
         "correct_answer": "Normal",
         "difficulty": "hard"
@@ -4432,9 +4432,9 @@
         "question": "What type is Dragonite?",
         "options": [
           "Dragon/Flying",
-          "Fire",
-          "Water",
-          "Grass"
+          "Dragon/Water",
+          "Dragon",
+          "Water"
         ],
         "correct_answer": "Dragon/Flying",
         "difficulty": "hard"
@@ -4446,9 +4446,9 @@
         "question": "What type is Mewtwo?",
         "options": [
           "Psychic",
-          "Fire",
-          "Water",
-          "Grass"
+          "Psychic/Fighting",
+          "Fighting",
+          "Steel"
         ],
         "correct_answer": "Psychic",
         "difficulty": "hard"
@@ -4460,9 +4460,9 @@
         "question": "What type is Mew?",
         "options": [
           "Psychic",
-          "Fire",
-          "Water",
-          "Grass"
+          "Psychic/Fairy",
+          "Fairy",
+          "Normal"
         ],
         "correct_answer": "Psychic",
         "difficulty": "hard"
@@ -4474,9 +4474,9 @@
         "question": "What type is Lugia?",
         "options": [
           "Psychic/Flying",
-          "Fire",
-          "Water",
-          "Grass"
+          "Water/Flying",
+          "Psychic",
+          "Water"
         ],
         "correct_answer": "Psychic/Flying",
         "difficulty": "hard"
@@ -4488,9 +4488,9 @@
         "question": "What type is Ho-Oh?",
         "options": [
           "Fire/Flying",
-          "Fire",
-          "Water",
-          "Grass"
+          "Fire/Dragon",
+          "Dragon",
+          "Fire"
         ],
         "correct_answer": "Fire/Flying",
         "difficulty": "hard"

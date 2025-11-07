@@ -366,16 +366,28 @@ struct CategoryWheelView: View {
             }
             
             LazyVGrid(columns: [
-                GridItem(.flexible(), spacing: 8),
-                GridItem(.flexible(), spacing: 8)
-            ], spacing: 8) {
+                GridItem(.flexible(), spacing: 12),
+                GridItem(.flexible(), spacing: 12)
+            ], spacing: 12) {
                 ForEach(Array(question.options.enumerated()), id: \.offset) { index, option in
                     Button(action: {
                         selectAnswer(option)
                     }) {
                         Text(option)
+                            .font(.headline)
+                            .fontWeight(.medium)
+                            .foregroundColor(.primary)
+                            .multilineTextAlignment(.center)
+                            .lineLimit(nil)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .frame(maxWidth: .infinity, minHeight: 56)
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 14)
+                            .background(Color.fizBackground)
+                            .cornerRadius(12)
+                            .shadow(color: Color.fizBrown.opacity(0.15), radius: 2, x: 0, y: 1)
                     }
-                    .answerButtonStyle()
+                    .buttonStyle(.plain)
                 }
             }
         }

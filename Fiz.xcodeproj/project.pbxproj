@@ -67,6 +67,7 @@
 		B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingsView.swift; sourceTree = "<group>"; };
 		B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationSettingsView.swift; sourceTree = "<group>"; };
+		B699B6012EBE4A79001AF50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +184,7 @@
 		B68C5A882EBD2A5400C2A449 /* Fiz */ = {
 			isa = PBXGroup;
 			children = (
+				B699B6012EBE4A79001AF50D /* Info.plist */,
 				B68C5A762EBD2A5400C2A449 /* Models */,
 				B68C5A792EBD2A5400C2A449 /* Resources */,
 				B68C5A7D2EBD2A5400C2A449 /* Utils */,
@@ -511,6 +513,7 @@
 				DEVELOPMENT_TEAM = Z5476SBJVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fiz/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Fiz;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -541,6 +544,7 @@
 				DEVELOPMENT_TEAM = Z5476SBJVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fiz/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Fiz;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

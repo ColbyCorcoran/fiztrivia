@@ -77,11 +77,8 @@ struct OnboardingView: View {
                         submitName()
                     }) {
                         Text("Ready to Start!")
-                            .font(.headline)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 4)
                     }
-                    .glassProminentButtonStyle(color: Color.fizOrange)
+                    .prominentActionButton(color: Color.fizOrange)
                     .padding(.horizontal, 32)
                     .disabled(enteredName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                     .opacity(enteredName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? 0.6 : 1.0)

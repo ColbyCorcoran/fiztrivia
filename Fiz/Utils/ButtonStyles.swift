@@ -1,158 +1,119 @@
 import SwiftUI
 
-// MARK: - Liquid Glass Button Styles (iOS 26+)
+// MARK: - iOS 26 Liquid Glass Button Styles with iOS 18 Fallback
 // iOS 26 introduces native .buttonStyle(.glass) and .buttonStyle(.glassProminent)
-// This file provides wrappers and fallbacks for older iOS versions
+// For iOS 18 and below, we use traditional solid button styles
 
-// MARK: - Glass Button Style with Fallback
-struct GlassButtonStyleWrapper: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        if #available(iOS 26.0, *) {
-            // iOS 26+: Use native glass button style
-            configuration.label
-                .buttonStyle(.glass)
+// MARK: - Toolbar Glass Button (Leaderboard, Settings, Done buttons)
+extension View {
+    func toolbarGlassButton() -> some View {
+        if #available(iOS 26, *) {
+            // iOS 26: Use native glass button style
+            return AnyView(self.buttonStyle(.glass))
         } else {
-            // Fallback: Custom glass-like effect for iOS 17-25
-            configuration.label
-                .padding(.horizontal, 12)
-                .padding(.vertical, 12)
-                .background(
-                    ZStack {
-                        Color.primary.opacity(0.05)
-                        if !configuration.isPressed {
-                            Color.white.opacity(0.1)
-                                .blur(radius: 8)
-                        }
-                    }
-                )
-                .cornerRadius(10)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color.primary.opacity(0.15), lineWidth: 0.5)
-                )
-                .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-                .animation(.easeInOut(duration: 0.1), value: configuration.isPressed)
+            // iOS 18 and below: Use plain style (icon buttons)
+            return AnyView(self.buttonStyle(.plain))
         }
     }
 }
 
-// MARK: - Prominent Glass Button Style with Fallback
-struct GlassProminentButtonStyleWrapper: ButtonStyle {
-    var color: Color = Color.fizOrange
+// MARK: - Answer Button Style (Question Options)
+struct AnswerButtonStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 26, *) {
+            // iOS 26: Use native glass button style
+            content
+                .buttonStyle(.glass)
+        } else {
+            // iOS 18 and below: Traditional solid buttons
+            content
+                .buttonStyle(iOS18AnswerButtonStyle())
+        }
+    }
+}
 
+struct iOS18AnswerButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
-        if #available(iOS 26.0, *) {
-            // iOS 26+: Use native glass prominent button style
-            configuration.label
+        configuration.label
+            .font(.body)
+            .fontWeight(.medium)
+            .foregroundColor(.primary)
+            .multilineTextAlignment(.center)
+            .lineLimit(nil)
+            .fixedSize(horizontal: false, vertical: true)
+            .frame(maxWidth: .infinity, minHeight: 44)
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
+            .background(Color.fizBackground)
+            .cornerRadius(12)
+            .shadow(color: Color.fizBrown.opacity(0.15), radius: 2, x: 0, y: 1)
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
+    }
+}
+
+extension View {
+    func answerButtonStyle() -> some View {
+        self.modifier(AnswerButtonStyle())
+    }
+}
+
+// MARK: - Prominent Action Button Style (Play Again, Ready to Start, etc.)
+struct ProminentActionButtonStyle: ViewModifier {
+    var color: Color
+
+    func body(content: Content) -> some View {
+        if #available(iOS 26, *) {
+            // iOS 26: Use native glass prominent button style
+            content
                 .buttonStyle(.glassProminent)
                 .tint(color)
         } else {
-            // Fallback: Enhanced glass-like effect for iOS 17-25
-            configuration.label
-                .fontWeight(.semibold)
-                .padding(.horizontal, 20)
-                .padding(.vertical, 14)
-                .background(
-                    ZStack {
-                        color.opacity(0.3)
-                        if !configuration.isPressed {
-                            LinearGradient(
-                                colors: [color.opacity(0.4), color.opacity(0.2)],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
-                            .blur(radius: 8)
-                        }
-                    }
-                )
-                .foregroundStyle(.white)
-                .cornerRadius(14)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 14)
-                        .stroke(
-                            LinearGradient(
-                                colors: [.white.opacity(0.5), .white.opacity(0.1)],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            ),
-                            lineWidth: 1.5
-                        )
-                )
-                .shadow(color: color.opacity(0.3), radius: 10, x: 0, y: 5)
-                .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-                .animation(.easeInOut(duration: 0.1), value: configuration.isPressed)
+            // iOS 18 and below: Traditional solid prominent buttons
+            content
+                .buttonStyle(iOS18ProminentButtonStyle(color: color))
         }
     }
 }
 
-// MARK: - Liquid Glass Button Style (for answer buttons)
-struct LiquidGlassButtonStyle: ButtonStyle {
-    var color: Color = Color.fizTeal
+struct iOS18ProminentButtonStyle: ButtonStyle {
+    var color: Color
 
     func makeBody(configuration: Configuration) -> some View {
-        if #available(iOS 26.0, *) {
-            // iOS 26+: Use native glass with custom tint
-            configuration.label
-                .buttonStyle(.glass)
-                .tint(color)
-        } else if #available(iOS 17.0, *) {
-            // iOS 17-25: Custom translucent glass effect
-            configuration.label
-                .padding(.horizontal, 16)
-                .padding(.vertical, 12)
-                .background(
-                    ZStack {
-                        color.opacity(0.2)
-                        if !configuration.isPressed {
-                            color.opacity(0.1)
-                                .blur(radius: 10)
-                        }
-                    }
-                )
-                .foregroundStyle(color)
-                .cornerRadius(12)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 12)
-                        .stroke(color.opacity(0.3), lineWidth: 1)
-                )
-                .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-                .animation(.easeInOut(duration: 0.1), value: configuration.isPressed)
-        } else {
-            // Fallback for iOS < 17
-            configuration.label
-                .padding(.horizontal, 16)
-                .padding(.vertical, 12)
-                .background(color.opacity(0.15))
-                .foregroundColor(color)
-                .cornerRadius(12)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 12)
-                        .stroke(color.opacity(0.3), lineWidth: 1)
-                )
-                .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-        }
+        configuration.label
+            .font(.headline)
+            .fontWeight(.semibold)
+            .foregroundColor(.white)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 16)
+            .background(color)
+            .cornerRadius(12)
+            .shadow(color: Color.fizBrown.opacity(0.3), radius: 4, x: 0, y: 2)
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
     }
 }
 
-// MARK: - View Extensions
 extension View {
-    /// Applies glass button style with iOS 26+ support and fallback
-    func glassButtonStyle() -> some View {
-        self.buttonStyle(GlassButtonStyleWrapper())
-    }
-
-    /// Applies prominent glass button style with iOS 26+ support and fallback
-    func glassProminentButtonStyle(color: Color = Color.fizOrange) -> some View {
-        self.buttonStyle(GlassProminentButtonStyleWrapper(color: color))
-    }
-
-    /// Applies liquid glass button style (for answer buttons)
-    func liquidGlassButtonStyle(color: Color = Color.fizTeal) -> some View {
-        self.buttonStyle(LiquidGlassButtonStyle(color: color))
-    }
-
-    /// Legacy alias for compatibility
-    func prominentLiquidGlassButtonStyle(color: Color = Color.fizOrange) -> some View {
-        self.glassProminentButtonStyle(color: color)
+    func prominentActionButton(color: Color = Color.fizOrange) -> some View {
+        self.modifier(ProminentActionButtonStyle(color: color))
     }
 }
+
+// MARK: - Legacy Aliases for Compatibility
+extension View {
+    func glassButtonStyle() -> some View {
+        self.toolbarGlassButton()
+    }
+
+    func liquidGlassButtonStyle(color: Color = Color.fizTeal) -> some View {
+        self.answerButtonStyle()
+    }
+
+    func glassProminentButtonStyle(color: Color = Color.fizOrange) -> some View {
+        self.prominentActionButton(color: color)
+    }
+
+    func prominentLiquidGlassButtonStyle(color: Color = Color.fizOrange) -> some View {
+        self.prominentActionButton(color: color)
+    }
+}
+

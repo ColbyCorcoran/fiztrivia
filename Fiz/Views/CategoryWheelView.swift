@@ -374,14 +374,8 @@ struct CategoryWheelView: View {
                         selectAnswer(option)
                     }) {
                         Text(option)
-                            .font(.body)
-                            .fontWeight(.medium)
-                            .multilineTextAlignment(.center)
-                            .lineLimit(nil)
-                            .fixedSize(horizontal: false, vertical: true)
-                            .frame(maxWidth: .infinity, minHeight: 44)
                     }
-                    .liquidGlassButtonStyle(color: Color.fizTeal)
+                    .answerButtonStyle()
                 }
             }
         }
@@ -833,14 +827,11 @@ struct CategoryWheelView: View {
                     }) {
                         HStack(spacing: 12) {
                             Text("🔄")
-                                .font(.title2)
                             Text("Play Again")
-                                .font(.title2)
                         }
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 6)
                     }
-                    .prominentLiquidGlassButtonStyle(color: Color.fizOrange)
+                    .prominentActionButton(color: Color.fizOrange)
+                    .padding(.horizontal, 32)
 
                     // Settings button for Single Category Mode
                     if singleCategoryManager.isEnabled {
@@ -851,14 +842,11 @@ struct CategoryWheelView: View {
                         }) {
                             HStack(spacing: 12) {
                                 Image(systemName: "gear")
-                                    .font(.title2)
                                 Text("Change Category")
-                                    .font(.title3)
                             }
-                            .padding(.horizontal, 16)
-                            .padding(.vertical, 4)
                         }
-                        .prominentLiquidGlassButtonStyle(color: Color.fizTeal)
+                        .prominentActionButton(color: Color.fizTeal)
+                        .padding(.horizontal, 32)
                     }
                 }
                 .scaleEffect(gameViewModel.showCompletionCelebration ? 1 : 0.8)

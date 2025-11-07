@@ -569,14 +569,14 @@ class AppIconManager: ObservableObject {
         }
 
         var previewImageName: String {
-            // Image names from Assets.xcassets for preview
+            // Image names from Assets.xcassets for preview (with cream background to match actual app icons)
             switch self {
-            case .correct: return "fiz-correct"
-            case .regularPose: return "fiz-regular pose"
-            case .happySmirk: return "fiz-happy smirk"
-            case .incorrect: return "fiz-incorrect"
-            case .leaderboard: return "fiz-leaderboard"
-            case .newHighScore: return "fiz-new high score"
+            case .correct: return "AppIcon-Correct-Preview"
+            case .regularPose: return "AppIcon-RegularPose-Preview"
+            case .happySmirk: return "AppIcon-HappySmirk-Preview"
+            case .incorrect: return "AppIcon-Incorrect-Preview"
+            case .leaderboard: return "AppIcon-Leaderboard-Preview"
+            case .newHighScore: return "AppIcon-NewHighScore-Preview"
             }
         }
 

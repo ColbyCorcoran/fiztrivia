@@ -21,6 +21,7 @@
 		B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A862EBD2A5400C2A449 /* ContentView.swift */; };
 		B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A852EBD2A5400C2A449 /* Assets.xcassets */; };
 		B68C5A9B2EBD409B00C2A449 /* FizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A9A2EBD409B00C2A449 /* FizApp.swift */; };
+		B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B68C5A982EBD408200C2A449 /* FizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B68C5A992EBD409000C2A449 /* FizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizTests.swift; sourceTree = "<group>"; };
 		B68C5A9A2EBD409B00C2A449 /* FizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizApp.swift; sourceTree = "<group>"; };
+		B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */,
+				B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */,
 				B68C5A7B2EBD2A5400C2A449 /* FizColors.swift */,
 				B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */,
 			);
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68C5A922EBD2BD700C2A449 /* LeaderboardView.swift in Sources */,
+				B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */,
 				B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */,
 				B68C5A902EBD2BCF00C2A449 /* GameViewModel.swift in Sources */,
 				B68C5A9B2EBD409B00C2A449 /* FizApp.swift in Sources */,

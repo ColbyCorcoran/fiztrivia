@@ -3194,20 +3194,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "ent_231",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What metal is Captain America's shield made of?",
-        "options": [
-          "Vibranium",
-          "Adamantium",
-          "Unobtainium",
-          "Uru"
-        ],
-        "correct_answer": "Vibranium",
-        "difficulty": "hard"
-      },
-      {
         "id": "ent_232",
         "category": "Entertainment",
         "subcategory": "Comic Books",
@@ -6430,20 +6416,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "spt_150",
-        "category": "Sports",
-        "subcategory": "Olympics",
-        "question": "What do the Olympic rings represent?",
-        "options": [
-          "Five sports",
-          "Five colors",
-          "Five continents",
-          "Five countries"
-        ],
-        "correct_answer": "Five continents",
-        "difficulty": "medium"
-      },
-      {
         "id": "spt_151",
         "category": "Sports",
         "subcategory": "Hockey",
@@ -6525,20 +6497,6 @@
           "LeBron James"
         ],
         "correct_answer": "Wilt Chamberlain",
-        "difficulty": "hard"
-      },
-      {
-        "id": "spt_157",
-        "category": "Sports",
-        "subcategory": "Basketball",
-        "question": "Which team has won the most NBA championships?",
-        "options": [
-          "Boston Celtics",
-          "Los Angeles Lakers",
-          "Chicago Bulls",
-          "Golden State Warriors"
-        ],
-        "correct_answer": "Boston Celtics",
         "difficulty": "hard"
       },
       {
@@ -7213,20 +7171,6 @@
           "Honey"
         ],
         "correct_answer": "Wine",
-        "difficulty": "easy"
-      },
-      {
-        "id": "bib_037",
-        "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "How many disciples did Jesus choose?",
-        "options": [
-          "10",
-          "11",
-          "12",
-          "13"
-        ],
-        "correct_answer": "12",
         "difficulty": "easy"
       },
       {
@@ -7916,20 +7860,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "bib_087",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "How many people were saved on Noah's ark?",
-        "options": [
-          "6",
-          "7",
-          "8",
-          "9"
-        ],
-        "correct_answer": "8",
-        "difficulty": "medium"
-      },
-      {
         "id": "bib_088",
         "category": "Bible",
         "subcategory": "New Testament",
@@ -8053,20 +7983,6 @@
           "Mount Zion"
         ],
         "correct_answer": "Mount Sinai",
-        "difficulty": "easy"
-      },
-      {
-        "id": "bib_097",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Who was swallowed by a big fish?",
-        "options": [
-          "Jonah",
-          "Job",
-          "Joshua",
-          "Jeremiah"
-        ],
-        "correct_answer": "Jonah",
         "difficulty": "easy"
       },
       {
@@ -9806,20 +9722,6 @@
         ],
         "correct_answer": "Nile",
         "difficulty": "easy"
-      },
-      {
-        "id": "his_051",
-        "category": "History",
-        "subcategory": "Medieval History",
-        "question": "What was the main weapon of medieval knights?",
-        "options": [
-          "Bow and arrow",
-          "Sword",
-          "Spear",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium"
       },
       {
         "id": "his_052",
@@ -16139,20 +16041,6 @@
           "Yard"
         ],
         "correct_answer": "Forest",
-        "difficulty": "easy"
-      },
-      {
-        "id": "ear_106",
-        "category": "Earth",
-        "subcategory": "Trees",
-        "question": "What season do deciduous trees lose their leaves?",
-        "options": [
-          "Spring",
-          "Summer",
-          "Fall",
-          "Winter"
-        ],
-        "correct_answer": "Fall",
         "difficulty": "easy"
       },
       {

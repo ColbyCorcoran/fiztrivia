@@ -8,7 +8,6 @@ struct SettingsView: View {
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
     @StateObject private var appIconManager = AppIconManager.shared
     @Environment(\.modelContext) private var modelContext
-    @State private var soundEnabled = true
     @State private var hapticEnabled = true
     @State private var editedUsername: String = ""
     @State private var isEditingUsername = false
@@ -110,10 +109,8 @@ struct SettingsView: View {
                         .padding(.vertical, 8)
                     }
                     
-                    Section("Audio & Haptics") {
-                        Toggle("Sound Effects", isOn: $soundEnabled)
-                            .accessibilityHint("Enable or disable sound effects")
-                        
+                    Section(header: Text("Haptics"),
+                           footer: Text("Haptic feedback provides tactile responses when you interact with the app.")) {
                         Toggle("Haptic Feedback", isOn: $hapticEnabled)
                             .accessibilityHint("Enable or disable haptic feedback")
                     }

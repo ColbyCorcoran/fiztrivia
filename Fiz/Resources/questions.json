@@ -6904,6 +6904,202 @@
         ],
         "correct_answer": "No hits, runs, or errors allowed",
         "difficulty": "medium"
+      },
+      {
+        "id": "spt_190",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "What five colors are the Olympic rings?",
+        "options": [
+          "Blue, yellow, black, green, red",
+          "Blue, yellow, orange, green, red",
+          "Blue, yellow, black, white, red",
+          "Blue, purple, black, green, red"
+        ],
+        "correct_answer": "Blue, yellow, black, green, red",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_191",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "Which country hosted the 2008 Summer Olympics?",
+        "options": [
+          "China",
+          "Greece",
+          "United Kingdom",
+          "Brazil"
+        ],
+        "correct_answer": "China",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_192",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is it called when a player scores three goals in one game?",
+        "options": [
+          "Hat trick",
+          "Triple",
+          "Treble",
+          "Three-peat"
+        ],
+        "correct_answer": "Hat trick",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_193",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "How many players from each team are on the ice during regular play?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "4"
+        ],
+        "correct_answer": "6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_194",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "What is the maximum number of players on the field for one team during a match?",
+        "options": [
+          "11",
+          "10",
+          "12",
+          "9"
+        ],
+        "correct_answer": "11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_195",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "Which player has won the most FIFA Ballon d'Or awards?",
+        "options": [
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "Pel\u00e9",
+          "Diego Maradona"
+        ],
+        "correct_answer": "Lionel Messi",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_196",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "What is the term for one stroke under par on a hole?",
+        "options": [
+          "Birdie",
+          "Eagle",
+          "Bogey",
+          "Par"
+        ],
+        "correct_answer": "Birdie",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_197",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "Which golf tournament is held at Augusta National?",
+        "options": [
+          "The Masters",
+          "US Open",
+          "The Open Championship",
+          "PGA Championship"
+        ],
+        "correct_answer": "The Masters",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_198",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "What is a score of zero called in tennis?",
+        "options": [
+          "Love",
+          "Nil",
+          "Zero",
+          "Deuce"
+        ],
+        "correct_answer": "Love",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_199",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "Which female tennis player has won the most Grand Slam singles titles?",
+        "options": [
+          "Margaret Court",
+          "Serena Williams",
+          "Steffi Graf",
+          "Martina Navratilova"
+        ],
+        "correct_answer": "Margaret Court",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_200",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is it called when a batter hits the ball out of the playing field?",
+        "options": [
+          "Home run",
+          "Grand slam",
+          "Triple",
+          "Fly out"
+        ],
+        "correct_answer": "Home run",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_201",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "Who holds the record for most career home runs in MLB?",
+        "options": [
+          "Barry Bonds",
+          "Hank Aaron",
+          "Babe Ruth",
+          "Alex Rodriguez"
+        ],
+        "correct_answer": "Barry Bonds",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_202",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "How many points is a safety worth?",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "1"
+        ],
+        "correct_answer": "2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_203",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "What is the maximum number of players on a basketball court for one team?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "4"
+        ],
+        "correct_answer": "5",
+        "difficulty": "easy"
       }
     ],
     "Bible": [
@@ -9496,6 +9692,216 @@
         ],
         "correct_answer": "Justification",
         "difficulty": "medium"
+      },
+      {
+        "id": "bib_190",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does the Hebrew word 'Shalom' mean?",
+        "options": [
+          "Peace",
+          "Love",
+          "Faith",
+          "Hope"
+        ],
+        "correct_answer": "Peace",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_191",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does the Greek word 'Agape' refer to?",
+        "options": [
+          "Unconditional love",
+          "Friendship",
+          "Joy",
+          "Wisdom"
+        ],
+        "correct_answer": "Unconditional love",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_192",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does 'Amen' mean?",
+        "options": [
+          "So be it/Truly",
+          "Praise God",
+          "Forever",
+          "The end"
+        ],
+        "correct_answer": "So be it/Truly",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_193",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Which empire destroyed the Temple in Jerusalem in 70 AD?",
+        "options": [
+          "Roman Empire",
+          "Babylonian Empire",
+          "Persian Empire",
+          "Greek Empire"
+        ],
+        "correct_answer": "Roman Empire",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_194",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Who led the Israelites out of Egypt?",
+        "options": [
+          "Moses",
+          "Aaron",
+          "Joshua",
+          "Abraham"
+        ],
+        "correct_answer": "Moses",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_195",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Which king built the first Temple in Jerusalem?",
+        "options": [
+          "Solomon",
+          "David",
+          "Saul",
+          "Hezekiah"
+        ],
+        "correct_answer": "Solomon",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_196",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "How many books are in the Protestant Old Testament?",
+        "options": [
+          "39",
+          "27",
+          "66",
+          "46"
+        ],
+        "correct_answer": "39",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_197",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What is the first book of the Bible?",
+        "options": [
+          "Genesis",
+          "Exodus",
+          "Matthew",
+          "Psalms"
+        ],
+        "correct_answer": "Genesis",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_198",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What are the first five books of the Bible called?",
+        "options": [
+          "The Pentateuch",
+          "The Gospels",
+          "The Epistles",
+          "The Prophets"
+        ],
+        "correct_answer": "The Pentateuch",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_199",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What was the occupation of the apostle Peter before following Jesus?",
+        "options": [
+          "Fisherman",
+          "Tax collector",
+          "Carpenter",
+          "Tentmaker"
+        ],
+        "correct_answer": "Fisherman",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_200",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many days and nights did it rain during Noah's flood?",
+        "options": [
+          "40",
+          "7",
+          "100",
+          "30"
+        ],
+        "correct_answer": "40",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_201",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "How many disciples did Jesus choose?",
+        "options": [
+          "12",
+          "10",
+          "7",
+          "70"
+        ],
+        "correct_answer": "12",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_202",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which Gospel was written by a physician?",
+        "options": [
+          "Luke",
+          "Mark",
+          "Matthew",
+          "John"
+        ],
+        "correct_answer": "Luke",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_203",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Who was swallowed by a great fish?",
+        "options": [
+          "Jonah",
+          "Daniel",
+          "Elijah",
+          "Elisha"
+        ],
+        "correct_answer": "Jonah",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_204",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What was the name of Abraham's nephew?",
+        "options": [
+          "Lot",
+          "Isaac",
+          "Ishmael",
+          "Jacob"
+        ],
+        "correct_answer": "Lot",
+        "difficulty": "medium"
       }
     ],
     "History": [
@@ -11920,6 +12326,384 @@
         ],
         "correct_answer": "Assassination of Archduke Franz Ferdinand",
         "difficulty": "hard"
+      },
+      {
+        "id": "his_175",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "In what year did the Great Schism split the Christian church into Eastern and Western branches?",
+        "options": [
+          "1054",
+          "1204",
+          "867",
+          "1378"
+        ],
+        "correct_answer": "1054",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_176",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What were the series of religious wars in the medieval period called?",
+        "options": [
+          "The Crusades",
+          "The Inquisition",
+          "The Reconquista",
+          "The Reformation"
+        ],
+        "correct_answer": "The Crusades",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_177",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "Who is traditionally credited with starting the Protestant Reformation in 1517?",
+        "options": [
+          "Martin Luther",
+          "John Calvin",
+          "Henry VIII",
+          "John Wycliffe"
+        ],
+        "correct_answer": "Martin Luther",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_178",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What document did Martin Luther reportedly nail to a church door?",
+        "options": [
+          "95 Theses",
+          "Diet of Worms",
+          "Augsburg Confession",
+          "Book of Concord"
+        ],
+        "correct_answer": "95 Theses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_179",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What religious order was founded by St. Francis of Assisi?",
+        "options": [
+          "Franciscans",
+          "Dominicans",
+          "Jesuits",
+          "Benedictines"
+        ],
+        "correct_answer": "Franciscans",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_180",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What council formally defined the Christian biblical canon?",
+        "options": [
+          "Council of Hippo",
+          "Council of Nicaea",
+          "Council of Trent",
+          "Council of Chalcedon"
+        ],
+        "correct_answer": "Council of Hippo",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_181",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "Who was the first Archbishop of Canterbury?",
+        "options": [
+          "Augustine",
+          "Anselm",
+          "Thomas Becket",
+          "Dunstan"
+        ],
+        "correct_answer": "Augustine",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_182",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What year did the Vatican become an independent city-state?",
+        "options": [
+          "1929",
+          "1870",
+          "1517",
+          "1492"
+        ],
+        "correct_answer": "1929",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_183",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What religious text was translated by William Tyndale in the 16th century?",
+        "options": [
+          "The Bible",
+          "The Quran",
+          "The Torah",
+          "The Vedas"
+        ],
+        "correct_answer": "The Bible",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_184",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What year did William the Conqueror invade England?",
+        "options": [
+          "1066",
+          "1215",
+          "1348",
+          "1492"
+        ],
+        "correct_answer": "1066",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_185",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What document did King John sign in 1215 limiting royal power?",
+        "options": [
+          "Magna Carta",
+          "Bill of Rights",
+          "Constitution",
+          "Charter of Liberties"
+        ],
+        "correct_answer": "Magna Carta",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_186",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What pandemic killed approximately one-third of Europe's population in the 14th century?",
+        "options": [
+          "Black Death",
+          "Spanish Flu",
+          "Smallpox",
+          "Cholera"
+        ],
+        "correct_answer": "Black Death",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_187",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What empire did Charlemagne rule?",
+        "options": [
+          "Holy Roman Empire",
+          "Byzantine Empire",
+          "Ottoman Empire",
+          "Mongol Empire"
+        ],
+        "correct_answer": "Holy Roman Empire",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_188",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What was the feudal system's lowest class called?",
+        "options": [
+          "Serfs",
+          "Knights",
+          "Vassals",
+          "Peasants"
+        ],
+        "correct_answer": "Serfs",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_189",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "Who led the Mongol Empire during its greatest expansion?",
+        "options": [
+          "Genghis Khan",
+          "Kublai Khan",
+          "Tamerlane",
+          "Attila"
+        ],
+        "correct_answer": "Genghis Khan",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_190",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What was the capital of the Byzantine Empire?",
+        "options": [
+          "Constantinople",
+          "Rome",
+          "Athens",
+          "Alexandria"
+        ],
+        "correct_answer": "Constantinople",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_191",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What war lasted 116 years between England and France?",
+        "options": [
+          "Hundred Years' War",
+          "War of the Roses",
+          "Thirty Years' War",
+          "Seven Years' War"
+        ],
+        "correct_answer": "Hundred Years' War",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_192",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "Who was the legendary king associated with the Knights of the Round Table?",
+        "options": [
+          "King Arthur",
+          "King Alfred",
+          "King Richard",
+          "King Edward"
+        ],
+        "correct_answer": "King Arthur",
+        "difficulty": "easy"
+      },
+      {
+        "id": "his_193",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "What ancient wonder was located in Alexandria, Egypt?",
+        "options": [
+          "Lighthouse of Alexandria",
+          "Colossus of Rhodes",
+          "Statue of Zeus",
+          "Mausoleum at Halicarnassus"
+        ],
+        "correct_answer": "Lighthouse of Alexandria",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_194",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "What material did ancient Egyptians use to make paper?",
+        "options": [
+          "Papyrus",
+          "Parchment",
+          "Vellum",
+          "Bark"
+        ],
+        "correct_answer": "Papyrus",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_195",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "Who was the first emperor of unified China?",
+        "options": [
+          "Qin Shi Huang",
+          "Emperor Wu",
+          "Confucius",
+          "Sun Tzu"
+        ],
+        "correct_answer": "Qin Shi Huang",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_196",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "What ancient civilization built Machu Picchu?",
+        "options": [
+          "Inca",
+          "Aztec",
+          "Maya",
+          "Olmec"
+        ],
+        "correct_answer": "Inca",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_197",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "What battle ended Persian invasion attempts of Greece in 490 BCE?",
+        "options": [
+          "Battle of Marathon",
+          "Battle of Thermopylae",
+          "Battle of Salamis",
+          "Battle of Plataea"
+        ],
+        "correct_answer": "Battle of Marathon",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_198",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "What year did the Berlin Wall fall?",
+        "options": [
+          "1989",
+          "1991",
+          "1987",
+          "1985"
+        ],
+        "correct_answer": "1989",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_199",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "Which country was the first to grant women the right to vote in national elections?",
+        "options": [
+          "New Zealand",
+          "United States",
+          "United Kingdom",
+          "Australia"
+        ],
+        "correct_answer": "New Zealand",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_200",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "What year did the Titanic sink?",
+        "options": [
+          "1912",
+          "1914",
+          "1910",
+          "1920"
+        ],
+        "correct_answer": "1912",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_201",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "What was the first artificial satellite launched into space?",
+        "options": [
+          "Sputnik 1",
+          "Explorer 1",
+          "Vanguard 1",
+          "Luna 1"
+        ],
+        "correct_answer": "Sputnik 1",
+        "difficulty": "medium"
       }
     ],
     "Science": [
@@ -14246,6 +15030,482 @@
         ],
         "correct_answer": "Distance light travels in one year",
         "difficulty": "medium"
+      },
+      {
+        "id": "sci_176",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the name of the largest moon of Saturn?",
+        "options": [
+          "Titan",
+          "Europa",
+          "Ganymede",
+          "Callisto"
+        ],
+        "correct_answer": "Titan",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_177",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What type of galaxy is the Milky Way classified as?",
+        "options": [
+          "Spiral",
+          "Elliptical",
+          "Irregular",
+          "Lenticular"
+        ],
+        "correct_answer": "Spiral",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_178",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the Roche limit?",
+        "options": [
+          "The distance at which tidal forces destroy an object",
+          "The maximum distance a comet can travel",
+          "The temperature limit of a star",
+          "The speed of light barrier"
+        ],
+        "correct_answer": "The distance at which tidal forces destroy an object",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_179",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "Which planet has the shortest day in our solar system?",
+        "options": [
+          "Jupiter",
+          "Saturn",
+          "Neptune",
+          "Mars"
+        ],
+        "correct_answer": "Jupiter",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_180",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is a pulsar?",
+        "options": [
+          "A rapidly rotating neutron star",
+          "A dying red giant",
+          "A forming protostar",
+          "A black hole's event horizon"
+        ],
+        "correct_answer": "A rapidly rotating neutron star",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_181",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "Which spacecraft was the first to visit Pluto?",
+        "options": [
+          "New Horizons",
+          "Voyager 2",
+          "Cassini",
+          "Pioneer 10"
+        ],
+        "correct_answer": "New Horizons",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_182",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the Great Red Spot on Jupiter?",
+        "options": [
+          "A giant storm",
+          "A volcanic crater",
+          "An impact scar",
+          "A frozen ocean"
+        ],
+        "correct_answer": "A giant storm",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_183",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the approximate temperature at the core of the Sun?",
+        "options": [
+          "15 million degrees Celsius",
+          "5,500 degrees Celsius",
+          "100,000 degrees Celsius",
+          "1 million degrees Celsius"
+        ],
+        "correct_answer": "15 million degrees Celsius",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_184",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "Which moon in our solar system has active geysers?",
+        "options": [
+          "Enceladus",
+          "Titan",
+          "Io",
+          "Triton"
+        ],
+        "correct_answer": "Enceladus",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_185",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the SI unit of electric charge?",
+        "options": [
+          "Coulomb",
+          "Ampere",
+          "Volt",
+          "Ohm"
+        ],
+        "correct_answer": "Coulomb",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_186",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What phenomenon describes the bending of light as it passes from one medium to another?",
+        "options": [
+          "Refraction",
+          "Reflection",
+          "Diffraction",
+          "Dispersion"
+        ],
+        "correct_answer": "Refraction",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_187",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the Heisenberg Uncertainty Principle?",
+        "options": [
+          "You cannot simultaneously know a particle's exact position and momentum",
+          "Light behaves as both a wave and particle",
+          "Energy cannot be created or destroyed",
+          "Objects in motion stay in motion"
+        ],
+        "correct_answer": "You cannot simultaneously know a particle's exact position and momentum",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_188",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the term for the resistance of a fluid to flow?",
+        "options": [
+          "Viscosity",
+          "Density",
+          "Elasticity",
+          "Plasticity"
+        ],
+        "correct_answer": "Viscosity",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_189",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What particles are exchanged in the strong nuclear force?",
+        "options": [
+          "Gluons",
+          "Photons",
+          "W and Z bosons",
+          "Gravitons"
+        ],
+        "correct_answer": "Gluons",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_190",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the Doppler effect?",
+        "options": [
+          "The change in frequency of a wave relative to an observer",
+          "The splitting of light into colors",
+          "The interference of two waves",
+          "The absorption of light by matter"
+        ],
+        "correct_answer": "The change in frequency of a wave relative to an observer",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_191",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the name of the theoretical temperature at which all molecular motion stops?",
+        "options": [
+          "Absolute zero",
+          "Freezing point",
+          "Critical point",
+          "Triple point"
+        ],
+        "correct_answer": "Absolute zero",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_192",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is superfluidity?",
+        "options": [
+          "A phase of matter with zero viscosity",
+          "A state of maximum density",
+          "A form of plasma",
+          "A type of superconductor"
+        ],
+        "correct_answer": "A phase of matter with zero viscosity",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_193",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What does a Tesla measure?",
+        "options": [
+          "Magnetic field strength",
+          "Electric current",
+          "Voltage",
+          "Resistance"
+        ],
+        "correct_answer": "Magnetic field strength",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_194",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the most abundant element in Earth's crust?",
+        "options": [
+          "Oxygen",
+          "Silicon",
+          "Aluminum",
+          "Iron"
+        ],
+        "correct_answer": "Oxygen",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_195",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What type of bond involves the sharing of electron pairs between atoms?",
+        "options": [
+          "Covalent",
+          "Ionic",
+          "Metallic",
+          "Hydrogen"
+        ],
+        "correct_answer": "Covalent",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_196",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is Avogadro's number approximately equal to?",
+        "options": [
+          "6.022 \u00d7 10\u00b2\u00b3",
+          "3.14 \u00d7 10\u2078",
+          "9.81 \u00d7 10\u00b2",
+          "1.602 \u00d7 10\u207b\u00b9\u2079"
+        ],
+        "correct_answer": "6.022 \u00d7 10\u00b2\u00b3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_197",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is a catalyst?",
+        "options": [
+          "A substance that speeds up a reaction without being consumed",
+          "A product of a chemical reaction",
+          "A type of acid",
+          "A radioactive element"
+        ],
+        "correct_answer": "A substance that speeds up a reaction without being consumed",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_198",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the electron configuration of a noble gas called?",
+        "options": [
+          "Stable octet",
+          "Valence shell",
+          "Orbital maximum",
+          "Ionic state"
+        ],
+        "correct_answer": "Stable octet",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_199",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is an allotrope?",
+        "options": [
+          "Different structural forms of the same element",
+          "An isotope with extra neutrons",
+          "A compound with two elements",
+          "A radioactive decay product"
+        ],
+        "correct_answer": "Different structural forms of the same element",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_200",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the pH of a neutral solution at 25\u00b0C?",
+        "options": [
+          "7",
+          "0",
+          "14",
+          "1"
+        ],
+        "correct_answer": "7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_201",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What process converts a solid directly to a gas without passing through a liquid state?",
+        "options": [
+          "Sublimation",
+          "Evaporation",
+          "Condensation",
+          "Deposition"
+        ],
+        "correct_answer": "Sublimation",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_202",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the powerhouse organelle of the cell?",
+        "options": [
+          "Mitochondria",
+          "Nucleus",
+          "Ribosome",
+          "Chloroplast"
+        ],
+        "correct_answer": "Mitochondria",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_203",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the process by which plants make their own food using sunlight?",
+        "options": [
+          "Photosynthesis",
+          "Cellular respiration",
+          "Fermentation",
+          "Glycolysis"
+        ],
+        "correct_answer": "Photosynthesis",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_204",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the term for animals that are active at night?",
+        "options": [
+          "Nocturnal",
+          "Diurnal",
+          "Crepuscular",
+          "Cathemeral"
+        ],
+        "correct_answer": "Nocturnal",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_205",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What are the three domains of life?",
+        "options": [
+          "Bacteria, Archaea, Eukarya",
+          "Animals, Plants, Fungi",
+          "Prokaryotes, Eukaryotes, Viruses",
+          "Vertebrates, Invertebrates, Microbes"
+        ],
+        "correct_answer": "Bacteria, Archaea, Eukarya",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_206",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the name of the protein that carries oxygen in red blood cells?",
+        "options": [
+          "Hemoglobin",
+          "Myoglobin",
+          "Insulin",
+          "Collagen"
+        ],
+        "correct_answer": "Hemoglobin",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_207",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the process of programmed cell death called?",
+        "options": [
+          "Apoptosis",
+          "Necrosis",
+          "Mitosis",
+          "Meiosis"
+        ],
+        "correct_answer": "Apoptosis",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_208",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What type of organisms can produce their own food from inorganic substances?",
+        "options": [
+          "Autotrophs",
+          "Heterotrophs",
+          "Decomposers",
+          "Parasites"
+        ],
+        "correct_answer": "Autotrophs",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_209",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the genetic material of most organisms?",
+        "options": [
+          "DNA",
+          "RNA",
+          "Proteins",
+          "Lipids"
+        ],
+        "correct_answer": "DNA",
+        "difficulty": "easy"
       }
     ],
     "Food": [
@@ -16656,6 +17916,398 @@
         ],
         "correct_answer": "Harissa",
         "difficulty": "medium"
+      },
+      {
+        "id": "foo_176",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What is the main ingredient in traditional pesto sauce?",
+        "options": [
+          "Basil",
+          "Parsley",
+          "Cilantro",
+          "Oregano"
+        ],
+        "correct_answer": "Basil",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_177",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What French sauce is made with egg yolks and butter?",
+        "options": [
+          "Hollandaise",
+          "B\u00e9arnaise",
+          "Beurre blanc",
+          "Mornay"
+        ],
+        "correct_answer": "Hollandaise",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_178",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What is sriracha sauce primarily made from?",
+        "options": [
+          "Chili peppers",
+          "Tomatoes",
+          "Soybeans",
+          "Fish"
+        ],
+        "correct_answer": "Chili peppers",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_179",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What is the main ingredient in Worcestershire sauce?",
+        "options": [
+          "Anchovies",
+          "Oysters",
+          "Sardines",
+          "Clams"
+        ],
+        "correct_answer": "Anchovies",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_180",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "Which ancient civilization is credited with inventing ice cream?",
+        "options": [
+          "China",
+          "Egypt",
+          "Greece",
+          "Rome"
+        ],
+        "correct_answer": "China",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_181",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "What food did the Aztecs use as currency?",
+        "options": [
+          "Cacao beans",
+          "Corn",
+          "Vanilla pods",
+          "Chili peppers"
+        ],
+        "correct_answer": "Cacao beans",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_182",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "Which fruit was historically known as a 'love apple'?",
+        "options": [
+          "Tomato",
+          "Strawberry",
+          "Apple",
+          "Peach"
+        ],
+        "correct_answer": "Tomato",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_183",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What Italian dessert translates to 'pick me up'?",
+        "options": [
+          "Tiramisu",
+          "Panna cotta",
+          "Cannoli",
+          "Gelato"
+        ],
+        "correct_answer": "Tiramisu",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_184",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What is the main flavoring in a traditional cr\u00e8me br\u00fbl\u00e9e?",
+        "options": [
+          "Vanilla",
+          "Chocolate",
+          "Coffee",
+          "Caramel"
+        ],
+        "correct_answer": "Vanilla",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_185",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What French pastry is made of choux dough filled with cream?",
+        "options": [
+          "\u00c9clair",
+          "Macaron",
+          "Madeleine",
+          "Croissant"
+        ],
+        "correct_answer": "\u00c9clair",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_186",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What cooking technique involves submerging food in vacuum-sealed bags in temperature-controlled water?",
+        "options": [
+          "Sous vide",
+          "Braising",
+          "Poaching",
+          "Steaming"
+        ],
+        "correct_answer": "Sous vide",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_187",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the process of briefly cooking vegetables in boiling water, then plunging them into ice water?",
+        "options": [
+          "Blanching",
+          "Parboiling",
+          "Simmering",
+          "Poaching"
+        ],
+        "correct_answer": "Blanching",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_188",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What does it mean to 'deglaze' a pan?",
+        "options": [
+          "Add liquid to dissolve browned bits",
+          "Remove excess oil",
+          "Season with salt",
+          "Cool it rapidly"
+        ],
+        "correct_answer": "Add liquid to dissolve browned bits",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_189",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What is the staple grain in traditional Ethiopian cuisine?",
+        "options": [
+          "Teff",
+          "Rice",
+          "Wheat",
+          "Quinoa"
+        ],
+        "correct_answer": "Teff",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_190",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What spice blend is essential in Indian garam masala?",
+        "options": [
+          "Multiple warming spices",
+          "Only chili peppers",
+          "Turmeric and ginger",
+          "Curry leaves"
+        ],
+        "correct_answer": "Multiple warming spices",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_191",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What is miso made from?",
+        "options": [
+          "Fermented soybeans",
+          "Rice flour",
+          "Seaweed",
+          "Fish paste"
+        ],
+        "correct_answer": "Fermented soybeans",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_192",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What ingredient causes bread to rise?",
+        "options": [
+          "Yeast",
+          "Baking soda",
+          "Salt",
+          "Sugar"
+        ],
+        "correct_answer": "Yeast",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_193",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What is the process of working dough to develop gluten called?",
+        "options": [
+          "Kneading",
+          "Folding",
+          "Laminating",
+          "Proofing"
+        ],
+        "correct_answer": "Kneading",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_194",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What is a 'poolish' in baking?",
+        "options": [
+          "A wet pre-ferment",
+          "A type of flour",
+          "A glazing technique",
+          "A decorative pattern"
+        ],
+        "correct_answer": "A wet pre-ferment",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_195",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What type of tea is Earl Grey flavored with?",
+        "options": [
+          "Bergamot",
+          "Jasmine",
+          "Lavender",
+          "Rose"
+        ],
+        "correct_answer": "Bergamot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_196",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What is the main difference between ale and lager?",
+        "options": [
+          "Type of yeast and fermentation temperature",
+          "Hop content",
+          "Alcohol percentage",
+          "Color"
+        ],
+        "correct_answer": "Type of yeast and fermentation temperature",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_197",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What spirit is traditionally used in a mojito?",
+        "options": [
+          "Rum",
+          "Vodka",
+          "Tequila",
+          "Gin"
+        ],
+        "correct_answer": "Rum",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_198",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Which chef is known for pioneering California cuisine at Chez Panisse?",
+        "options": [
+          "Alice Waters",
+          "Thomas Keller",
+          "Wolfgang Puck",
+          "Julia Child"
+        ],
+        "correct_answer": "Alice Waters",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_199",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "What restaurant holds the record for the most Michelin stars ever awarded?",
+        "options": [
+          "El Bulli",
+          "The French Laundry",
+          "Noma",
+          "Per Se"
+        ],
+        "correct_answer": "El Bulli",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_200",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the main protein in a traditional Greek moussaka?",
+        "options": [
+          "Lamb",
+          "Chicken",
+          "Beef",
+          "Pork"
+        ],
+        "correct_answer": "Lamb",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_201",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What dish is traditionally served at a Thanksgiving dinner?",
+        "options": [
+          "Turkey",
+          "Ham",
+          "Chicken",
+          "Beef"
+        ],
+        "correct_answer": "Turkey",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_202",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What vegetable is sauerkraut made from?",
+        "options": [
+          "Cabbage",
+          "Cucumber",
+          "Radish",
+          "Turnip"
+        ],
+        "correct_answer": "Cabbage",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_203",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What gives saffron its distinctive yellow color?",
+        "options": [
+          "Crocin pigment",
+          "Beta-carotene",
+          "Turmeric",
+          "Paprika"
+        ],
+        "correct_answer": "Crocin pigment",
+        "difficulty": "hard"
       }
     ],
     "Earth": [

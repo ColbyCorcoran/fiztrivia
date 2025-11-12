@@ -34,6 +34,13 @@
 		B6B0E3572EC4FBCC007873A8 /* App Icon-Incorrect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3482EC4FBCC007873A8 /* App Icon-Incorrect@2x.png */; };
 		B6B0E3582EC4FBCC007873A8 /* App Icon-NewHighScore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E34C2EC4FBCC007873A8 /* App Icon-NewHighScore@2x.png */; };
 		B6B0E3592EC4FBCC007873A8 /* App Icon-HappySmirk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3472EC4FBCC007873A8 /* App Icon-HappySmirk@3x.png */; };
+		B6B0E35C2EC5018C007873A8 /* PostHog in Frameworks */ = {isa = PBXBuildFile; productRef = B6B0E35B2EC5018C007873A8 /* PostHog */; };
+		B6B0E35E2EC501BA007873A8 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0E35D2EC501BA007873A8 /* AnalyticsManager.swift */; };
+		B6B0E3642EC50550007873A8 /* App Icon-NewHighScore.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3622EC50550007873A8 /* App Icon-NewHighScore.png */; };
+		B6B0E3652EC50550007873A8 /* App Icon-RegularPose.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3632EC50550007873A8 /* App Icon-RegularPose.png */; };
+		B6B0E3662EC50550007873A8 /* App Icon-Incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3602EC50550007873A8 /* App Icon-Incorrect.png */; };
+		B6B0E3672EC50550007873A8 /* App Icon-Leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3612EC50550007873A8 /* App Icon-Leaderboard.png */; };
+		B6B0E3682EC50550007873A8 /* App Icon-HappySmirk.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E35F2EC50550007873A8 /* App Icon-HappySmirk.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +95,12 @@
 		B6B0E34D2EC4FBCC007873A8 /* App Icon-NewHighScore@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-NewHighScore@3x.png"; sourceTree = "<group>"; };
 		B6B0E34E2EC4FBCC007873A8 /* App Icon-RegularPose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-RegularPose@2x.png"; sourceTree = "<group>"; };
 		B6B0E34F2EC4FBCC007873A8 /* App Icon-RegularPose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-RegularPose@3x.png"; sourceTree = "<group>"; };
+		B6B0E35D2EC501BA007873A8 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		B6B0E35F2EC50550007873A8 /* App Icon-HappySmirk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-HappySmirk.png"; sourceTree = "<group>"; };
+		B6B0E3602EC50550007873A8 /* App Icon-Incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-Incorrect.png"; sourceTree = "<group>"; };
+		B6B0E3612EC50550007873A8 /* App Icon-Leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-Leaderboard.png"; sourceTree = "<group>"; };
+		B6B0E3622EC50550007873A8 /* App Icon-NewHighScore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-NewHighScore.png"; sourceTree = "<group>"; };
+		B6B0E3632EC50550007873A8 /* App Icon-RegularPose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-RegularPose.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B0E35C2EC5018C007873A8 /* PostHog in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +132,11 @@
 		B66F14CB2E4B7DF200C426E5 = {
 			isa = PBXGroup;
 			children = (
+				B6B0E35F2EC50550007873A8 /* App Icon-HappySmirk.png */,
+				B6B0E3602EC50550007873A8 /* App Icon-Incorrect.png */,
+				B6B0E3612EC50550007873A8 /* App Icon-Leaderboard.png */,
+				B6B0E3622EC50550007873A8 /* App Icon-NewHighScore.png */,
+				B6B0E3632EC50550007873A8 /* App Icon-RegularPose.png */,
 				B6B0E3462EC4FBCC007873A8 /* App Icon-HappySmirk@2x.png */,
 				B6B0E3472EC4FBCC007873A8 /* App Icon-HappySmirk@3x.png */,
 				B6B0E3482EC4FBCC007873A8 /* App Icon-Incorrect@2x.png */,
@@ -186,6 +205,7 @@
 				B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */,
 				B68C5A7B2EBD2A5400C2A449 /* FizColors.swift */,
 				B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */,
+				B6B0E35D2EC501BA007873A8 /* AnalyticsManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -244,6 +264,7 @@
 			);
 			name = Fiz;
 			packageProductDependencies = (
+				B6B0E35B2EC5018C007873A8 /* PostHog */,
 			);
 			productName = "E5 Trivia";
 			productReference = B66F14D42E4B7DF200C426E5 /* Fiz.app */;
@@ -321,6 +342,9 @@
 			);
 			mainGroup = B66F14CB2E4B7DF200C426E5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B6B0E35A2EC5018C007873A8 /* XCRemoteSwiftPackageReference "posthog-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B66F14D52E4B7DF200C426E5 /* Products */;
 			projectDirPath = "";
@@ -339,6 +363,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B0E3452EC4EE3F007873A8 /* questions_backup_20251112_161007.json in Resources */,
+				B6B0E3642EC50550007873A8 /* App Icon-NewHighScore.png in Resources */,
+				B6B0E3652EC50550007873A8 /* App Icon-RegularPose.png in Resources */,
+				B6B0E3662EC50550007873A8 /* App Icon-Incorrect.png in Resources */,
+				B6B0E3672EC50550007873A8 /* App Icon-Leaderboard.png in Resources */,
+				B6B0E3682EC50550007873A8 /* App Icon-HappySmirk.png in Resources */,
 				B6B0E3502EC4FBCC007873A8 /* App Icon-RegularPose@3x.png in Resources */,
 				B6B0E3512EC4FBCC007873A8 /* App Icon-NewHighScore@3x.png in Resources */,
 				B6B0E3522EC4FBCC007873A8 /* App Icon-Incorrect@3x.png in Resources */,
@@ -387,6 +416,7 @@
 				B68C5A8E2EBD2BC100C2A449 /* FizColors.swift in Sources */,
 				B699B5FF2EBE4403001AF50D /* PersonalizationSettingsView.swift in Sources */,
 				B699B6002EBE4403001AF50D /* GameSettingsView.swift in Sources */,
+				B6B0E35E2EC501BA007873A8 /* AnalyticsManager.swift in Sources */,
 				B68C5A912EBD2BD300C2A449 /* CategoryWheelView.swift in Sources */,
 				B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */,
 			);
@@ -721,6 +751,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6B0E35A2EC5018C007873A8 /* XCRemoteSwiftPackageReference "posthog-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PostHog/posthog-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6B0E35B2EC5018C007873A8 /* PostHog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6B0E35A2EC5018C007873A8 /* XCRemoteSwiftPackageReference "posthog-ios" */;
+			productName = PostHog;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B66F14CC2E4B7DF200C426E5 /* Project object */;
 }

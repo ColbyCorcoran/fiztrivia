@@ -8978,6 +8978,258 @@
         ],
         "correct_answer": "Sola Fide",
         "difficulty": "hard"
+      },
+      {
+        "id": "bib_172",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What is the Hebrew word for 'God' used most commonly in the Old Testament?",
+        "options": [
+          "Elohim",
+          "Yahweh",
+          "Adonai",
+          "El Shaddai"
+        ],
+        "correct_answer": "Elohim",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_173",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does the Hebrew word 'Shalom' mean?",
+        "options": [
+          "Peace",
+          "Love",
+          "Faith",
+          "Hope"
+        ],
+        "correct_answer": "Peace",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_174",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What language was most of the New Testament originally written in?",
+        "options": [
+          "Greek",
+          "Hebrew",
+          "Aramaic",
+          "Latin"
+        ],
+        "correct_answer": "Greek",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_175",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does the Greek word 'Logos' mean in John 1:1?",
+        "options": [
+          "Word",
+          "Light",
+          "Life",
+          "Truth"
+        ],
+        "correct_answer": "Word",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_176",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does 'Hallelujah' mean in Hebrew?",
+        "options": [
+          "Praise the Lord",
+          "God is good",
+          "Holy, holy, holy",
+          "Glory to God"
+        ],
+        "correct_answer": "Praise the Lord",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_177",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What language did Jesus likely speak in His daily life?",
+        "options": [
+          "Aramaic",
+          "Hebrew",
+          "Greek",
+          "Latin"
+        ],
+        "correct_answer": "Aramaic",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_178",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Who was the Roman Emperor when Jesus was crucified?",
+        "options": [
+          "Tiberius",
+          "Augustus",
+          "Nero",
+          "Claudius"
+        ],
+        "correct_answer": "Tiberius",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_179",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What year is traditionally believed to be when Jesus was born?",
+        "options": [
+          "4-6 BC",
+          "1 AD",
+          "10 BC",
+          "1 BC"
+        ],
+        "correct_answer": "4-6 BC",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_180",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Which empire conquered Jerusalem in 586 BC?",
+        "options": [
+          "Babylonian",
+          "Assyrian",
+          "Persian",
+          "Greek"
+        ],
+        "correct_answer": "Babylonian",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_181",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Who destroyed the Second Temple in 70 AD?",
+        "options": [
+          "Romans",
+          "Greeks",
+          "Persians",
+          "Egyptians"
+        ],
+        "correct_answer": "Romans",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_182",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What was the capital of the Northern Kingdom of Israel?",
+        "options": [
+          "Samaria",
+          "Jerusalem",
+          "Bethel",
+          "Dan"
+        ],
+        "correct_answer": "Samaria",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_183",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Which Persian king allowed the Jews to return from exile?",
+        "options": [
+          "Cyrus",
+          "Darius",
+          "Xerxes",
+          "Artaxerxes"
+        ],
+        "correct_answer": "Cyrus",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_184",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What is the study of end times called in theology?",
+        "options": [
+          "Eschatology",
+          "Soteriology",
+          "Pneumatology",
+          "Christology"
+        ],
+        "correct_answer": "Eschatology",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_185",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What theological term means 'God became flesh'?",
+        "options": [
+          "Incarnation",
+          "Transfiguration",
+          "Resurrection",
+          "Ascension"
+        ],
+        "correct_answer": "Incarnation",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_186",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What is the theological term for God's unmerited favor?",
+        "options": [
+          "Grace",
+          "Mercy",
+          "Love",
+          "Justice"
+        ],
+        "correct_answer": "Grace",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_187",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What does the term 'Trinity' refer to?",
+        "options": [
+          "Father, Son, Holy Spirit",
+          "Faith, hope, love",
+          "Body, soul, spirit",
+          "Heaven, earth, hell"
+        ],
+        "correct_answer": "Father, Son, Holy Spirit",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_188",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What is the study of salvation called in theology?",
+        "options": [
+          "Soteriology",
+          "Ecclesiology",
+          "Hamartiology",
+          "Eschatology"
+        ],
+        "correct_answer": "Soteriology",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_189",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What theological term means 'declared righteous'?",
+        "options": [
+          "Justification",
+          "Sanctification",
+          "Redemption",
+          "Glorification"
+        ],
+        "correct_answer": "Justification",
+        "difficulty": "medium"
       }
     ],
     "History": [

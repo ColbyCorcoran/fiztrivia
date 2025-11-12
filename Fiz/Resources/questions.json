@@ -7002,6 +7002,104 @@
         ],
         "correct_answer": "5",
         "difficulty": "easy"
+      },
+      {
+        "id": "spt_204",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "Which NBA team has won the most championships in league history?",
+        "options": [
+          "Boston Celtics",
+          "Los Angeles Lakers",
+          "Chicago Bulls",
+          "Golden State Warriors"
+        ],
+        "correct_answer": "Boston Celtics",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_205",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "What surface is used at the US Open tennis tournament?",
+        "options": [
+          "Hard court",
+          "Clay",
+          "Grass",
+          "Carpet"
+        ],
+        "correct_answer": "Hard court",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_206",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "How long is each half of a professional soccer match?",
+        "options": [
+          "45 minutes",
+          "40 minutes",
+          "30 minutes",
+          "50 minutes"
+        ],
+        "correct_answer": "45 minutes",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_207",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "In which city were the first modern Olympic Games held?",
+        "options": [
+          "Athens",
+          "Paris",
+          "London",
+          "Rome"
+        ],
+        "correct_answer": "Athens",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_208",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is the name of the trophy awarded to the NHL champions?",
+        "options": [
+          "Stanley Cup",
+          "Conn Smythe Trophy",
+          "Hart Memorial Trophy",
+          "Presidents' Trophy"
+        ],
+        "correct_answer": "Stanley Cup",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_209",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "What is the maximum number of clubs a golfer can carry in their bag?",
+        "options": [
+          "14",
+          "12",
+          "16",
+          "18"
+        ],
+        "correct_answer": "14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_210",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is the line of scrimmage in American football?",
+        "options": [
+          "The imaginary line where the ball is placed",
+          "The 50-yard line",
+          "The goal line",
+          "The sideline"
+        ],
+        "correct_answer": "The imaginary line where the ball is placed",
+        "difficulty": "medium"
       }
     ],
     "Bible": [
@@ -9734,6 +9832,76 @@
         ],
         "correct_answer": "Lot",
         "difficulty": "medium"
+      },
+      {
+        "id": "bib_205",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which prophet was taken up to heaven in a whirlwind?",
+        "options": [
+          "Elijah",
+          "Elisha",
+          "Isaiah",
+          "Jeremiah"
+        ],
+        "correct_answer": "Elijah",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_206",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What was the name of Ruth's mother-in-law?",
+        "options": [
+          "Naomi",
+          "Hannah",
+          "Rachel",
+          "Leah"
+        ],
+        "correct_answer": "Naomi",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_207",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "On which island was the apostle John when he wrote Revelation?",
+        "options": [
+          "Patmos",
+          "Cyprus",
+          "Crete",
+          "Malta"
+        ],
+        "correct_answer": "Patmos",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_208",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does 'Hallelujah' mean?",
+        "options": [
+          "Praise the Lord",
+          "God is great",
+          "Peace be with you",
+          "Thank God"
+        ],
+        "correct_answer": "Praise the Lord",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_209",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What is the shortest book in the New Testament?",
+        "options": [
+          "2 John",
+          "Philemon",
+          "Jude",
+          "3 John"
+        ],
+        "correct_answer": "2 John",
+        "difficulty": "hard"
       }
     ],
     "History": [
@@ -12424,6 +12592,118 @@
         ],
         "correct_answer": "Sputnik 1",
         "difficulty": "medium"
+      },
+      {
+        "id": "his_202",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "What ancient library was located in Egypt and destroyed by fire?",
+        "options": [
+          "Library of Alexandria",
+          "Library of Pergamum",
+          "Library of Nineveh",
+          "Library of Athens"
+        ],
+        "correct_answer": "Library of Alexandria",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_203",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "What writing system did ancient Mesopotamians use?",
+        "options": [
+          "Cuneiform",
+          "Hieroglyphics",
+          "Sanskrit",
+          "Pictographs"
+        ],
+        "correct_answer": "Cuneiform",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_204",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What was the name of the Viking explorer who reached North America around 1000 AD?",
+        "options": [
+          "Leif Erikson",
+          "Erik the Red",
+          "Ragnar Lothbrok",
+          "Bjorn Ironside"
+        ],
+        "correct_answer": "Leif Erikson",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_205",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What disease was known as the 'sweating sickness' in Tudor England?",
+        "options": [
+          "English sweating sickness",
+          "Plague",
+          "Typhoid",
+          "Cholera"
+        ],
+        "correct_answer": "English sweating sickness",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_206",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "What year did Nelson Mandela become President of South Africa?",
+        "options": [
+          "1994",
+          "1990",
+          "1989",
+          "1995"
+        ],
+        "correct_answer": "1994",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_207",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "Which country gifted the Statue of Liberty to the United States?",
+        "options": [
+          "France",
+          "England",
+          "Spain",
+          "Italy"
+        ],
+        "correct_answer": "France",
+        "difficulty": "easy"
+      },
+      {
+        "id": "his_208",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What year was the King James Bible first published?",
+        "options": [
+          "1611",
+          "1517",
+          "1455",
+          "1689"
+        ],
+        "correct_answer": "1611",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_209",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What religious group was founded by George Fox in the 17th century?",
+        "options": [
+          "Quakers",
+          "Methodists",
+          "Baptists",
+          "Presbyterians"
+        ],
+        "correct_answer": "Quakers",
+        "difficulty": "hard"
       }
     ],
     "Science": [
@@ -15156,6 +15436,76 @@
         ],
         "correct_answer": "DNA",
         "difficulty": "easy"
+      },
+      {
+        "id": "sci_210",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the largest internal organ in the human body?",
+        "options": [
+          "Liver",
+          "Heart",
+          "Brain",
+          "Stomach"
+        ],
+        "correct_answer": "Liver",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_211",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the speed limit of the universe according to Einstein's theory?",
+        "options": [
+          "Speed of light",
+          "Speed of sound",
+          "Speed of gravity",
+          "Speed of electricity"
+        ],
+        "correct_answer": "Speed of light",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_212",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "Which planet rotates on its side?",
+        "options": [
+          "Uranus",
+          "Saturn",
+          "Neptune",
+          "Jupiter"
+        ],
+        "correct_answer": "Uranus",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_213",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the chemical symbol for potassium?",
+        "options": [
+          "K",
+          "P",
+          "Po",
+          "Pt"
+        ],
+        "correct_answer": "K",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_214",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the study of fungi called?",
+        "options": [
+          "Mycology",
+          "Botany",
+          "Zoology",
+          "Bacteriology"
+        ],
+        "correct_answer": "Mycology",
+        "difficulty": "hard"
       }
     ],
     "Food": [
@@ -17916,6 +18266,48 @@
         ],
         "correct_answer": "Crocin pigment",
         "difficulty": "hard"
+      },
+      {
+        "id": "foo_204",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What cooking method uses dry heat in an oven?",
+        "options": [
+          "Baking",
+          "Boiling",
+          "Steaming",
+          "Frying"
+        ],
+        "correct_answer": "Baking",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_205",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What French dessert consists of caramelized sugar on top of custard?",
+        "options": [
+          "Cr\u00e8me br\u00fbl\u00e9e",
+          "Cr\u00e8me caramel",
+          "Mousse",
+          "Flan"
+        ],
+        "correct_answer": "Cr\u00e8me br\u00fbl\u00e9e",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_206",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is tofu made from?",
+        "options": [
+          "Soybeans",
+          "Rice",
+          "Wheat",
+          "Chickpeas"
+        ],
+        "correct_answer": "Soybeans",
+        "difficulty": "medium"
       }
     ],
     "Earth": [

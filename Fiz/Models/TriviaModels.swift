@@ -80,7 +80,7 @@ struct EntertainmentSubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let comicBooks = EntertainmentSubcategory(name: "Comic Books", icon: "book.pages.fill", color: "#F7B500")
+    static let superheroes = EntertainmentSubcategory(name: "Superheroes", icon: "book.pages.fill", color: "#F7B500")
     static let harryPotter = EntertainmentSubcategory(name: "Harry Potter", icon: "wand.and.stars", color: "#FF7F0F")
     static let pokemon = EntertainmentSubcategory(name: "Pokémon", icon: "circle.circle.fill", color: "#8E44AD")
     static let starWars = EntertainmentSubcategory(name: "Star Wars", icon: "allergens.fill", color: "#3498DB")
@@ -88,7 +88,7 @@ struct EntertainmentSubcategory: TriviaSubcategory {
     static let filmScoreComposers = EntertainmentSubcategory(name: "Film Score Composers", icon: "music.note.list", color: "#2ECC71")
     static let theOffice = EntertainmentSubcategory(name: "The Office", icon: "building.2.fill", color: "#E91E63")
 
-    static let all: [EntertainmentSubcategory] = [comicBooks, harryPotter, pokemon, starWars, pixar, filmScoreComposers, theOffice]
+    static let all: [EntertainmentSubcategory] = [superheroes, harryPotter, pokemon, starWars, pixar, filmScoreComposers, theOffice]
 }
 
 // MARK: - Sports Subcategories
@@ -406,6 +406,19 @@ class AnsweredQuestionsManager: ObservableObject {
         return availableQuestions.allSatisfy { answeredQuestionIds.contains($0.id) }
     }
 
+    func areAllCategoryQuestionsAnswered(_ category: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Bool {
+        let categoryQuestions = questions.filter { question in
+            question.category == category &&
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+        }
+
+        if categoryQuestions.isEmpty {
+            return true // Consider empty category as completed
+        }
+
+        return categoryQuestions.allSatisfy { answeredQuestionIds.contains($0.id) }
+    }
+
     func getAnsweredCountForSubcategory(_ subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
         let subcategoryQuestions = questions.filter { question in
             question.subcategory == subcategory &&
@@ -534,6 +547,33 @@ struct GameSession {
     init() {
         // Load persistent streak on initialization
         _currentStreak = StreakPersistenceManager.loadCurrentStreak()
+    }
+}
+
+// MARK: - Haptic Settings Manager
+class HapticSettingsManager: ObservableObject {
+    private static let hapticEnabledKey = "haptic_feedback_enabled"
+
+    @Published var isHapticEnabled: Bool = true
+
+    static let shared = HapticSettingsManager()
+
+    private init() {
+        loadSettings()
+    }
+
+    private func loadSettings() {
+        // Default to true if no preference is saved
+        if UserDefaults.standard.object(forKey: Self.hapticEnabledKey) != nil {
+            isHapticEnabled = UserDefaults.standard.bool(forKey: Self.hapticEnabledKey)
+        } else {
+            isHapticEnabled = true
+        }
+    }
+
+    func setHapticEnabled(_ enabled: Bool) {
+        isHapticEnabled = enabled
+        UserDefaults.standard.set(enabled, forKey: Self.hapticEnabledKey)
     }
 }
 

@@ -4,7 +4,7 @@ struct PersonalizationSettingsView: View {
     @Bindable var gameViewModel: GameViewModel
     @StateObject private var userManager = UserManager.shared
     @StateObject private var appIconManager = AppIconManager.shared
-    @State private var hapticEnabled = true
+    @StateObject private var hapticSettingsManager = HapticSettingsManager.shared
     @State private var editedUsername: String = ""
     @State private var isEditingUsername = false
 
@@ -94,7 +94,10 @@ struct PersonalizationSettingsView: View {
 
             Section(header: Text("Haptics"),
                    footer: Text("Haptic feedback provides tactile responses when you interact with the app.")) {
-                Toggle("Haptic Feedback", isOn: $hapticEnabled)
+                Toggle("Haptic Feedback", isOn: Binding(
+                    get: { hapticSettingsManager.isHapticEnabled },
+                    set: { hapticSettingsManager.setHapticEnabled($0) }
+                ))
                     .accessibilityHint("Enable or disable haptic feedback")
             }
         }

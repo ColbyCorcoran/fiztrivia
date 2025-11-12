@@ -38,9 +38,10 @@ struct CategoryWheelView: View {
     @State private var dragRotation: Double = 0
     @State private var isDragging = false
 
-    // Toast notification for subcategory completion
+    // Toast notification for subcategory/category completion
     @State private var showingCompletionToast = false
     @State private var completedSubcategoryName = ""
+    @State private var completedCategoryName = ""
 
     // New high score tracking
     @State private var achievedNewHighScore = false
@@ -69,14 +70,18 @@ struct CategoryWheelView: View {
                 return nil
             }
         } else {
-            // Default mode: show main categories
-            return TriviaCategory.allCases.map { category in
-                WheelSegmentData(
-                    name: category.rawValue,
-                    icon: category.icon,
-                    color: category.color,
-                    subcategory: nil
-                )
+            // Default mode: show main categories, filtering out completed ones
+            return TriviaCategory.allCases.compactMap { category in
+                // Only include categories that have unanswered questions
+                if !answeredQuestionsManager.areAllCategoryQuestionsAnswered(category.rawValue, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty) {
+                    return WheelSegmentData(
+                        name: category.rawValue,
+                        icon: category.icon,
+                        color: category.color,
+                        subcategory: nil
+                    )
+                }
+                return nil
             }
         }
     }
@@ -99,17 +104,27 @@ struct CategoryWheelView: View {
             wheelLayer(geometry: geometry)
             homeBarGradient
 
-            // Toast notification for subcategory completion
+            // Toast notification for subcategory/category completion
             if showingCompletionToast {
                 VStack {
                     Spacer()
-                    Text("🎉 \(completedSubcategoryName) Complete!")
-                        .font(.headline)
-                        .padding()
-                        .background(Color.black.opacity(0.8))
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                        .padding(.bottom, 200)
+                    if !completedSubcategoryName.isEmpty {
+                        Text("🎉 \(completedSubcategoryName) Complete!")
+                            .font(.headline)
+                            .padding()
+                            .background(Color.black.opacity(0.8))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                            .padding(.bottom, 200)
+                    } else if !completedCategoryName.isEmpty {
+                        Text("🎉 \(completedCategoryName) Complete!")
+                            .font(.headline)
+                            .padding()
+                            .background(Color.black.opacity(0.8))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                            .padding(.bottom, 200)
+                    }
                     Spacer()
                 }
                 .transition(.move(edge: .bottom).combined(with: .opacity))
@@ -279,55 +294,65 @@ struct CategoryWheelView: View {
     }
     
     private var resultView: some View {
-        VStack(spacing: 20) {
-            // Fiz mascot - celebrating or encouraging (TOP, larger)
-            Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 200, height: 200)
-                .scaleEffect(showingResult ? 1.0 : 0.5)
-                .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
+        GeometryReader { geometry in
+            VStack(spacing: 20) {
+                // Fiz mascot - celebrating or encouraging (TOP, larger)
+                Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 200)
+                    .scaleEffect(showingResult ? 1.0 : 0.5)
+                    .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
 
-            // For correct answers: simple centered text
-            if answerResult == .correct {
-                Text(userManager.personalizedCongratulatoryMessage())
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.primary)
-                    .multilineTextAlignment(.center)
-            }
-
-            // For incorrect answers: centered text with answer
-            if answerResult == .incorrect {
-                VStack(spacing: 12) {
-                    Text(userManager.personalizedEncouragingMessage())
-                        .font(.title)
+                // For correct answers: simple centered text with dynamic sizing
+                if answerResult == .correct {
+                    Text(userManager.personalizedCongratulatoryMessage())
+                        .font(.system(size: min(28, geometry.size.width * 0.08)))
                         .fontWeight(.bold)
                         .foregroundColor(.primary)
                         .multilineTextAlignment(.center)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.5)
+                        .padding(.horizontal, 16)
+                }
 
-                    if let question = currentQuestion {
-                        VStack(spacing: 8) {
-                            Text("Correct Answer:")
-                                .font(.body)
-                                .foregroundColor(.secondary)
+                // For incorrect answers: centered text with answer and dynamic sizing
+                if answerResult == .incorrect {
+                    VStack(spacing: 12) {
+                        Text(userManager.personalizedEncouragingMessage())
+                            .font(.system(size: min(28, geometry.size.width * 0.08)))
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
+                            .multilineTextAlignment(.center)
+                            .lineLimit(2)
+                            .minimumScaleFactor(0.5)
+                            .padding(.horizontal, 16)
 
-                            Text(question.correctAnswer)
-                                .font(.title2)
-                                .fontWeight(.semibold)
-                                .foregroundColor(Color.fizTeal)
-                                .multilineTextAlignment(.center)
-                                .padding(.horizontal, 16)
-                                .padding(.vertical, 10)
-                                .background(Color.fizTeal.opacity(0.15))
-                                .cornerRadius(8)
+                        if let question = currentQuestion {
+                            VStack(spacing: 8) {
+                                Text("Correct Answer:")
+                                    .font(.body)
+                                    .foregroundColor(.secondary)
+
+                                Text(question.correctAnswer)
+                                    .font(.title2)
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(Color.fizTeal)
+                                    .multilineTextAlignment(.center)
+                                    .lineLimit(3)
+                                    .minimumScaleFactor(0.7)
+                                    .padding(.horizontal, 16)
+                                    .padding(.vertical, 10)
+                                    .background(Color.fizTeal.opacity(0.15))
+                                    .cornerRadius(8)
+                            }
                         }
                     }
                 }
             }
+            .frame(maxWidth: .infinity)
+            .padding(24)
         }
-        .frame(maxWidth: .infinity)
-        .padding(24)
     }
     
     private func questionView(for question: TriviaQuestion) -> some View {
@@ -651,12 +676,13 @@ struct CategoryWheelView: View {
         gameViewModel.selectAnswer(answer, modelContext: modelContext)
         answerResult = gameViewModel.gameSession.answerState
 
-        // Check if subcategory is now complete (Single Category Mode only)
+        // Check for completion (subcategory in Single Category Mode, or category in Default Mode)
         if singleCategoryManager.isEnabled,
            let subcategory = questionSubcategory,
            answeredQuestionsManager.areAllSubcategoryQuestionsAnswered(subcategory, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty) {
             // Show toast notification for subcategory completion
             completedSubcategoryName = subcategory
+            completedCategoryName = ""
             withAnimation {
                 showingCompletionToast = true
             }
@@ -665,6 +691,24 @@ struct CategoryWheelView: View {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                 withAnimation {
                     showingCompletionToast = false
+                    completedSubcategoryName = ""
+                }
+            }
+        } else if !singleCategoryManager.isEnabled,
+                  let selectedCategory = gameViewModel.gameSession.selectedCategory,
+                  answeredQuestionsManager.areAllCategoryQuestionsAnswered(selectedCategory.rawValue, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty) {
+            // Show toast notification for category completion (Default Mode)
+            completedCategoryName = selectedCategory.rawValue
+            completedSubcategoryName = ""
+            withAnimation {
+                showingCompletionToast = true
+            }
+
+            // Auto-dismiss toast after 2 seconds
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                withAnimation {
+                    showingCompletionToast = false
+                    completedCategoryName = ""
                 }
             }
         }

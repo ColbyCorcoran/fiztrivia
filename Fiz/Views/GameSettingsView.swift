@@ -31,6 +31,9 @@ struct GameSettingsView: View {
                             }
                         }
                         .pickerStyle(MenuPickerStyle())
+                        .onChange(of: difficultyManager.selectedDifficulty) { _, newValue in
+                            difficultyManager.setDifficulty(newValue)
+                        }
                     }
 
                     Text(difficultyManager.selectedDifficulty.description)

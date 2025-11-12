@@ -6638,6 +6638,286 @@
         ],
         "correct_answer": "11",
         "difficulty": "hard"
+      },
+      {
+        "id": "spt_170",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "How many points is a touchdown worth in American football?",
+        "options": [
+          "6",
+          "7",
+          "3",
+          "5"
+        ],
+        "correct_answer": "6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_171",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is the maximum number of players allowed on the field for one team at a time?",
+        "options": [
+          "11",
+          "10",
+          "12",
+          "9"
+        ],
+        "correct_answer": "11",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_172",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "Which NFL team has won the most Super Bowls?",
+        "options": [
+          "New England Patriots",
+          "Pittsburgh Steelers",
+          "Dallas Cowboys",
+          "San Francisco 49ers"
+        ],
+        "correct_answer": "New England Patriots",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_173",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is the name of the trophy awarded to the Super Bowl winner?",
+        "options": [
+          "Vince Lombardi Trophy",
+          "Heisman Trophy",
+          "Stanley Cup",
+          "Commissioner's Trophy"
+        ],
+        "correct_answer": "Vince Lombardi Trophy",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_174",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "How long is an NFL football field from end zone to end zone?",
+        "options": [
+          "100 yards",
+          "120 yards",
+          "90 yards",
+          "110 yards"
+        ],
+        "correct_answer": "100 yards",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_175",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What position does the player who snaps the ball play?",
+        "options": [
+          "Center",
+          "Guard",
+          "Tackle",
+          "Quarterback"
+        ],
+        "correct_answer": "Center",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_176",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "How many quarters are in an NFL game?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "6"
+        ],
+        "correct_answer": "4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_177",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What NFL team is known as 'America's Team'?",
+        "options": [
+          "Dallas Cowboys",
+          "Green Bay Packers",
+          "New York Giants",
+          "Chicago Bears"
+        ],
+        "correct_answer": "Dallas Cowboys",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_178",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "Who holds the record for most career touchdown passes in the NFL?",
+        "options": [
+          "Tom Brady",
+          "Drew Brees",
+          "Peyton Manning",
+          "Brett Favre"
+        ],
+        "correct_answer": "Tom Brady",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_179",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is it called when a player is tackled in their own end zone?",
+        "options": [
+          "Safety",
+          "Touchback",
+          "Fumble",
+          "Sack"
+        ],
+        "correct_answer": "Safety",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_180",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "How many strikes result in a strikeout?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "correct_answer": "3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_181",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "How many innings are in a regulation baseball game?",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "10"
+        ],
+        "correct_answer": "9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_182",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "Which MLB team has won the most World Series championships?",
+        "options": [
+          "New York Yankees",
+          "St. Louis Cardinals",
+          "Boston Red Sox",
+          "San Francisco Giants"
+        ],
+        "correct_answer": "New York Yankees",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_183",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is the name of the championship series in Major League Baseball?",
+        "options": [
+          "World Series",
+          "Championship Series",
+          "MLB Finals",
+          "Grand Slam"
+        ],
+        "correct_answer": "World Series",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_184",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "How many players are on the field for each team during play?",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "correct_answer": "9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_185",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is it called when a batter hits the ball out of the playing field?",
+        "options": [
+          "Home run",
+          "Grand slam",
+          "Triple",
+          "Fly ball"
+        ],
+        "correct_answer": "Home run",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_186",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "How many bases are there on a baseball diamond?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "2"
+        ],
+        "correct_answer": "4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_187",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "Who holds the record for most career home runs in MLB?",
+        "options": [
+          "Barry Bonds",
+          "Hank Aaron",
+          "Babe Ruth",
+          "Alex Rodriguez"
+        ],
+        "correct_answer": "Barry Bonds",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_188",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is the position of the player who stands behind home plate?",
+        "options": [
+          "Catcher",
+          "Pitcher",
+          "First baseman",
+          "Shortstop"
+        ],
+        "correct_answer": "Catcher",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_189",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is a perfect game in baseball?",
+        "options": [
+          "No hits, runs, or errors allowed",
+          "Pitching all 9 innings",
+          "Hitting a home run",
+          "Striking out every batter"
+        ],
+        "correct_answer": "No hits, runs, or errors allowed",
+        "difficulty": "medium"
       }
     ],
     "Bible": [

@@ -4473,7 +4473,7 @@
         "id": "spt_013",
         "category": "Sports",
         "subcategory": "American Football",
-        "question": "How many players are on the field for each American football team during play?",
+        "question": "How many players are on the field for each team during play?",
         "options": [
           "10",
           "11",
@@ -6794,6 +6794,20 @@
         "difficulty": "easy"
       },
       {
+        "id": "spt_181",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "How many innings are in a regulation baseball game?",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "10"
+        ],
+        "correct_answer": "9",
+        "difficulty": "easy"
+      },
+      {
         "id": "spt_182",
         "category": "Sports",
         "subcategory": "Baseball",
@@ -6825,7 +6839,7 @@
         "id": "spt_184",
         "category": "Sports",
         "subcategory": "Baseball",
-        "question": "How many players are on the field for each baseball team during play?",
+        "question": "How many players are on the field for each team during play?",
         "options": [
           "9",
           "10",
@@ -14150,6 +14164,20 @@
         "difficulty": "easy"
       },
       {
+        "id": "sci_160",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Mitochondria",
+          "Nucleus",
+          "Ribosome",
+          "Chloroplast"
+        ],
+        "correct_answer": "Mitochondria",
+        "difficulty": "easy"
+      },
+      {
         "id": "sci_161",
         "category": "Science",
         "subcategory": "Biology",
@@ -14164,6 +14192,34 @@
         "difficulty": "medium"
       },
       {
+        "id": "sci_162",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "How many chambers does the human heart have?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "5"
+        ],
+        "correct_answer": "4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_163",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the largest organ in the human body?",
+        "options": [
+          "Skin",
+          "Liver",
+          "Brain",
+          "Heart"
+        ],
+        "correct_answer": "Skin",
+        "difficulty": "easy"
+      },
+      {
         "id": "sci_164",
         "category": "Science",
         "subcategory": "Chemistry",
@@ -14175,6 +14231,20 @@
           "Cu"
         ],
         "correct_answer": "Au",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_165",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the pH of pure water?",
+        "options": [
+          "7",
+          "0",
+          "14",
+          "10"
+        ],
+        "correct_answer": "7",
         "difficulty": "easy"
       },
       {
@@ -14192,6 +14262,34 @@
         "difficulty": "medium"
       },
       {
+        "id": "sci_167",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the most abundant element in Earth's atmosphere?",
+        "options": [
+          "Nitrogen",
+          "Oxygen",
+          "Carbon dioxide",
+          "Argon"
+        ],
+        "correct_answer": "Nitrogen",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_168",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the speed of light in a vacuum?",
+        "options": [
+          "299,792,458 m/s",
+          "300,000,000 m/s",
+          "186,000 mph",
+          "1,000,000 m/s"
+        ],
+        "correct_answer": "299,792,458 m/s",
+        "difficulty": "hard"
+      },
+      {
         "id": "sci_169",
         "category": "Science",
         "subcategory": "Physics",
@@ -14203,6 +14301,20 @@
           "Law of gravity"
         ],
         "correct_answer": "Law of inertia",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_170",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What unit is used to measure electrical resistance?",
+        "options": [
+          "Ohm",
+          "Volt",
+          "Ampere",
+          "Watt"
+        ],
+        "correct_answer": "Ohm",
         "difficulty": "medium"
       },
       {
@@ -14218,6 +14330,34 @@
         ],
         "correct_answer": "Gravity",
         "difficulty": "easy"
+      },
+      {
+        "id": "sci_172",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the closest star to Earth?",
+        "options": [
+          "The Sun",
+          "Alpha Centauri",
+          "Proxima Centauri",
+          "Sirius"
+        ],
+        "correct_answer": "The Sun",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_173",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "How many moons does Mars have?",
+        "options": [
+          "2",
+          "1",
+          "0",
+          "4"
+        ],
+        "correct_answer": "2",
+        "difficulty": "medium"
       },
       {
         "id": "sci_174",
@@ -15552,6 +15692,20 @@
         "difficulty": "medium"
       },
       {
+        "id": "foo_094",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What nut is used to make marzipan?",
+        "options": [
+          "Almond",
+          "Cashew",
+          "Pistachio",
+          "Hazelnut"
+        ],
+        "correct_answer": "Almond",
+        "difficulty": "medium"
+      },
+      {
         "id": "foo_095",
         "category": "Food",
         "subcategory": "Ingredients",
@@ -15591,6 +15745,20 @@
           "Ricotta"
         ],
         "correct_answer": "Mozzarella",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_098",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is the primary ingredient in guacamole?",
+        "options": [
+          "Avocado",
+          "Tomato",
+          "Lime",
+          "Onion"
+        ],
+        "correct_answer": "Avocado",
         "difficulty": "easy"
       },
       {
@@ -16516,6 +16684,20 @@
         ],
         "correct_answer": "Gordon Ramsay",
         "difficulty": "easy"
+      },
+      {
+        "id": "foo_165",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "What chef is known for 'molecular gastronomy'?",
+        "options": [
+          "Ferran Adri\u00e0",
+          "Thomas Keller",
+          "Daniel Boulud",
+          "Alain Ducasse"
+        ],
+        "correct_answer": "Ferran Adri\u00e0",
+        "difficulty": "hard"
       },
       {
         "id": "foo_166",
@@ -19278,6 +19460,20 @@
         "difficulty": "medium"
       },
       {
+        "id": "ear_190",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the capital of Australia?",
+        "options": [
+          "Canberra",
+          "Sydney",
+          "Melbourne",
+          "Brisbane"
+        ],
+        "correct_answer": "Canberra",
+        "difficulty": "medium"
+      },
+      {
         "id": "ear_191",
         "category": "Earth",
         "subcategory": "Geography",
@@ -19289,6 +19485,20 @@
           "Kalahari Desert"
         ],
         "correct_answer": "Sahara Desert",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_192",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the smallest country in the world by area?",
+        "options": [
+          "Vatican City",
+          "Monaco",
+          "San Marino",
+          "Liechtenstein"
+        ],
+        "correct_answer": "Vatican City",
         "difficulty": "easy"
       },
       {

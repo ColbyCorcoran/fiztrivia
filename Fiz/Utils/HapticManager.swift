@@ -11,36 +11,47 @@ class HapticManager {
     private init() {
         prepareHaptics()
     }
-    
+
     private func prepareHaptics() {
         impactLight.prepare()
         impactMedium.prepare()
         impactHeavy.prepare()
         notification.prepare()
     }
-    
+
+    // Check if haptics are enabled before performing
+    private var isHapticEnabled: Bool {
+        return HapticSettingsManager.shared.isHapticEnabled
+    }
+
     // MARK: - Haptic Feedback
     func lightImpact() {
+        guard isHapticEnabled else { return }
         impactLight.impactOccurred()
     }
-    
+
     func mediumImpact() {
+        guard isHapticEnabled else { return }
         impactMedium.impactOccurred()
     }
-    
+
     func heavyImpact() {
+        guard isHapticEnabled else { return }
         impactHeavy.impactOccurred()
     }
-    
+
     func successFeedback() {
+        guard isHapticEnabled else { return }
         notification.notificationOccurred(.success)
     }
-    
+
     func errorFeedback() {
+        guard isHapticEnabled else { return }
         notification.notificationOccurred(.error)
     }
-    
+
     func warningFeedback() {
+        guard isHapticEnabled else { return }
         notification.notificationOccurred(.warning)
     }
     

@@ -21,6 +21,9 @@
 		B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A862EBD2A5400C2A449 /* ContentView.swift */; };
 		B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A852EBD2A5400C2A449 /* Assets.xcassets */; };
 		B68C5A9B2EBD409B00C2A449 /* FizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A9A2EBD409B00C2A449 /* FizApp.swift */; };
+		B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */; };
+		B699B5FF2EBE4403001AF50D /* PersonalizationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */; };
+		B699B6002EBE4403001AF50D /* GameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,10 @@
 		B68C5A982EBD408200C2A449 /* FizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B68C5A992EBD409000C2A449 /* FizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizTests.swift; sourceTree = "<group>"; };
 		B68C5A9A2EBD409B00C2A449 /* FizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizApp.swift; sourceTree = "<group>"; };
+		B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingsView.swift; sourceTree = "<group>"; };
+		B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationSettingsView.swift; sourceTree = "<group>"; };
+		B699B6012EBE4A79001AF50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */,
+				B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */,
 				B68C5A7B2EBD2A5400C2A449 /* FizColors.swift */,
 				B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */,
 			);
@@ -167,6 +175,8 @@
 				B68C5A812EBD2A5400C2A449 /* LeaderboardView.swift */,
 				B68C5A822EBD2A5400C2A449 /* OnboardingView.swift */,
 				B68C5A832EBD2A5400C2A449 /* SettingsView.swift */,
+				B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */,
+				B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +184,7 @@
 		B68C5A882EBD2A5400C2A449 /* Fiz */ = {
 			isa = PBXGroup;
 			children = (
+				B699B6012EBE4A79001AF50D /* Info.plist */,
 				B68C5A762EBD2A5400C2A449 /* Models */,
 				B68C5A792EBD2A5400C2A449 /* Resources */,
 				B68C5A7D2EBD2A5400C2A449 /* Utils */,
@@ -325,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68C5A922EBD2BD700C2A449 /* LeaderboardView.swift in Sources */,
+				B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */,
 				B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */,
 				B68C5A902EBD2BCF00C2A449 /* GameViewModel.swift in Sources */,
 				B68C5A9B2EBD409B00C2A449 /* FizApp.swift in Sources */,
@@ -333,6 +345,8 @@
 				B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */,
 				B68C5A942EBD2BDF00C2A449 /* SettingsView.swift in Sources */,
 				B68C5A8E2EBD2BC100C2A449 /* FizColors.swift in Sources */,
+				B699B5FF2EBE4403001AF50D /* PersonalizationSettingsView.swift in Sources */,
+				B699B6002EBE4403001AF50D /* GameSettingsView.swift in Sources */,
 				B68C5A912EBD2BD300C2A449 /* CategoryWheelView.swift in Sources */,
 				B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */,
 			);
@@ -499,6 +513,7 @@
 				DEVELOPMENT_TEAM = Z5476SBJVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fiz/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Fiz;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -533,6 +548,7 @@
 				DEVELOPMENT_TEAM = Z5476SBJVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fiz/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Fiz;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

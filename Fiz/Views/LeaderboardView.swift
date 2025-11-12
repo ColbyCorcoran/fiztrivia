@@ -31,8 +31,8 @@ struct LeaderboardView: View {
                         gameViewModel.continueGame()
                     }
                     .font(.headline)
-                    .foregroundColor(.primary)
-                    
+                    .glassButtonStyle()
+
                     Spacer()
                 }
                 .padding(.horizontal, 20)

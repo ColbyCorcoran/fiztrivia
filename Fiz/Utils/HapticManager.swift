@@ -1,16 +1,13 @@
 import UIKit
-import AVFoundation
 
 class HapticManager {
     static let shared = HapticManager()
-    
+
     private let impactLight = UIImpactFeedbackGenerator(style: .light)
     private let impactMedium = UIImpactFeedbackGenerator(style: .medium)
     private let impactHeavy = UIImpactFeedbackGenerator(style: .heavy)
     private let notification = UINotificationFeedbackGenerator()
-    
-    private var audioPlayer: AVAudioPlayer?
-    
+
     private init() {
         prepareHaptics()
     }
@@ -47,45 +44,30 @@ class HapticManager {
         notification.notificationOccurred(.warning)
     }
     
-    // MARK: - Sound Effects
-    func playWheelSpin() {
-        playSystemSound(soundID: 1103) // Swoosh sound
-    }
-    
-    func playCorrectAnswer() {
-        playSystemSound(soundID: 1054) // Success sound
-    }
-    
-    func playIncorrectAnswer() {
-        playSystemSound(soundID: 1053) // Error sound
-    }
-    
-    func playButtonTap() {
-        playSystemSound(soundID: 1104) // Click sound
-    }
-    
-    private func playSystemSound(soundID: SystemSoundID) {
-        AudioServicesPlaySystemSound(soundID)
-    }
-    
     // MARK: - Combined Effects
     func wheelSpinEffect() {
         mediumImpact()
-        playWheelSpin()
     }
-    
+
     func correctAnswerEffect() {
-        successFeedback()
-        playCorrectAnswer()
+        // Custom celebratory haptic pattern
+        // Pattern: light -> medium -> light (creates a "bounce" celebration effect)
+        lightImpact()
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.06) {
+            self.mediumImpact()
+        }
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.12) {
+            self.lightImpact()
+        }
     }
-    
+
     func incorrectAnswerEffect() {
         errorFeedback()
-        playIncorrectAnswer()
     }
-    
+
     func buttonTapEffect() {
         lightImpact()
-        playButtonTap()
     }
 }

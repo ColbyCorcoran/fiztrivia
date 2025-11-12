@@ -3152,20 +3152,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "ent_227",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the Winter Soldier's real name?",
-        "options": [
-          "James Buchanan Barnes",
-          "Steve Rogers",
-          "Sam Wilson",
-          "John Walker"
-        ],
-        "correct_answer": "James Buchanan Barnes",
-        "difficulty": "hard"
-      },
-      {
         "id": "ent_228",
         "category": "Entertainment",
         "subcategory": "Comic Books",
@@ -3205,20 +3191,6 @@
           "Star-Lord Sr."
         ],
         "correct_answer": "Ego",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_231",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What metal is Captain America's shield made of?",
-        "options": [
-          "Vibranium",
-          "Adamantium",
-          "Unobtainium",
-          "Uru"
-        ],
-        "correct_answer": "Vibranium",
         "difficulty": "hard"
       },
       {
@@ -3726,43 +3698,15 @@
         "difficulty": "hard"
       },
       {
-        "id": "ent_280",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the real name of Spider-Man?",
-        "options": [
-          "Peter Parker",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
-        ],
-        "correct_answer": "Peter Parker",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_281",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the real name of Batman?",
-        "options": [
-          "Bruce Wayne",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
-        ],
-        "correct_answer": "Bruce Wayne",
-        "difficulty": "hard"
-      },
-      {
         "id": "ent_282",
         "category": "Entertainment",
         "subcategory": "Comic Books",
         "question": "What is the real name of Superman?",
         "options": [
           "Clark Kent",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Bruce Wayne",
+          "Barry Allen",
+          "Oliver Queen"
         ],
         "correct_answer": "Clark Kent",
         "difficulty": "hard"
@@ -3774,9 +3718,9 @@
         "question": "What is the real name of Captain America?",
         "options": [
           "Steve Rogers",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Tony Stark",
+          "Peter Parker",
+          "Bruce Banner"
         ],
         "correct_answer": "Steve Rogers",
         "difficulty": "hard"
@@ -3788,9 +3732,9 @@
         "question": "What is the real name of Green Lantern?",
         "options": [
           "Hal Jordan",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Oliver Queen",
+          "Ray Palmer",
+          "Victor Stone"
         ],
         "correct_answer": "Hal Jordan",
         "difficulty": "hard"
@@ -3802,9 +3746,9 @@
         "question": "What is the real name of Wonder Woman?",
         "options": [
           "Diana Prince",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Barbara Gordon",
+          "Selina Kyle",
+          "Pamela Isley"
         ],
         "correct_answer": "Diana Prince",
         "difficulty": "hard"
@@ -3816,25 +3760,11 @@
         "question": "What is the real name of Wolverine?",
         "options": [
           "Logan",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Victor Creed",
+          "Scott Summers",
+          "Hank McCoy"
         ],
         "correct_answer": "Logan",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_287",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the real name of Deadpool?",
-        "options": [
-          "Wade Wilson",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
-        ],
-        "correct_answer": "Wade Wilson",
         "difficulty": "hard"
       },
       {
@@ -3844,9 +3774,9 @@
         "question": "What is the real name of Daredevil?",
         "options": [
           "Matt Murdock",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Frank Castle",
+          "Luke Cage",
+          "Danny Rand"
         ],
         "correct_answer": "Matt Murdock",
         "difficulty": "hard"
@@ -3858,9 +3788,9 @@
         "question": "What is the real name of Green Arrow?",
         "options": [
           "Oliver Queen",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Bruce Wayne",
+          "Barry Allen",
+          "Hal Jordan"
         ],
         "correct_answer": "Oliver Queen",
         "difficulty": "hard"
@@ -3872,25 +3802,11 @@
         "question": "What is the real name of Aquaman?",
         "options": [
           "Arthur Curry",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Barry Allen",
+          "Hal Jordan",
+          "Oliver Queen"
         ],
         "correct_answer": "Arthur Curry",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_291",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is the real name of The Hulk?",
-        "options": [
-          "Bruce Banner",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
-        ],
-        "correct_answer": "Bruce Banner",
         "difficulty": "hard"
       },
       {
@@ -3900,9 +3816,9 @@
         "question": "What is the real name of Thor?",
         "options": [
           "Thor Odinson",
-          "Bruce Banner",
-          "Clark Kent",
-          "Tony Stark"
+          "Loki Laufeyson",
+          "Baldur",
+          "Odin Borson"
         ],
         "correct_answer": "Thor Odinson",
         "difficulty": "hard"
@@ -4118,99 +4034,15 @@
         "difficulty": "hard"
       },
       {
-        "id": "ent_308",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Superman's real name?",
-        "options": [
-          "Clark Kent",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
-        ],
-        "correct_answer": "Clark Kent",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_309",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Wonder Woman's real name?",
-        "options": [
-          "Diana Prince",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
-        ],
-        "correct_answer": "Diana Prince",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_310",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is The Flash's real name?",
-        "options": [
-          "Barry Allen",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
-        ],
-        "correct_answer": "Barry Allen",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_311",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Green Lantern's real name?",
-        "options": [
-          "Hal Jordan",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
-        ],
-        "correct_answer": "Hal Jordan",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_312",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Aquaman's real name?",
-        "options": [
-          "Arthur Curry",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
-        ],
-        "correct_answer": "Arthur Curry",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_313",
-        "category": "Entertainment",
-        "subcategory": "Comic Books",
-        "question": "What is Green Arrow's real name?",
-        "options": [
-          "Oliver Queen",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
-        ],
-        "correct_answer": "Oliver Queen",
-        "difficulty": "hard"
-      },
-      {
         "id": "ent_314",
         "category": "Entertainment",
         "subcategory": "Comic Books",
         "question": "What is Martian Manhunter's real name?",
         "options": [
           "J'onn J'onzz",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "M'gann M'orzz",
+          "John Jones",
+          "Ma'alefa'ak"
         ],
         "correct_answer": "J'onn J'onzz",
         "difficulty": "hard"
@@ -4222,9 +4054,9 @@
         "question": "What is Shazam's real name?",
         "options": [
           "Billy Batson",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Freddy Freeman",
+          "Adam",
+          "Eugene Choi"
         ],
         "correct_answer": "Billy Batson",
         "difficulty": "hard"
@@ -4236,9 +4068,9 @@
         "question": "What is Hawkman's real name?",
         "options": [
           "Carter Hall",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Katar Hol",
+          "Shiera Hall",
+          "Kendra Saunders"
         ],
         "correct_answer": "Carter Hall",
         "difficulty": "hard"
@@ -4250,9 +4082,9 @@
         "question": "What is Zatanna's real name?",
         "options": [
           "Zatanna Zatara",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Rachel Roth",
+          "June Moone",
+          "Kara Danvers"
         ],
         "correct_answer": "Zatanna Zatara",
         "difficulty": "hard"
@@ -4264,9 +4096,9 @@
         "question": "What is Constantine's real name?",
         "options": [
           "John Constantine",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Jason Blood",
+          "Tim Hunter",
+          "Felix Faust"
         ],
         "correct_answer": "John Constantine",
         "difficulty": "hard"
@@ -4278,9 +4110,9 @@
         "question": "What is Swamp Thing's real name?",
         "options": [
           "Alec Holland",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Alex Holland",
+          "Alan Holland",
+          "Abby Holland"
         ],
         "correct_answer": "Alec Holland",
         "difficulty": "hard"
@@ -4292,9 +4124,9 @@
         "question": "What is Lobo's real name?",
         "options": [
           "Lobo",
-          "Clark Kent",
-          "Diana Prince",
-          "Barry Allen"
+          "Lucius",
+          "Logan",
+          "Lars"
         ],
         "correct_answer": "Lobo",
         "difficulty": "hard"
@@ -4306,9 +4138,9 @@
         "question": "What type is Charizard?",
         "options": [
           "Fire/Flying",
-          "Fire",
-          "Water",
-          "Grass"
+          "Fire/Dragon",
+          "Dragon",
+          "Fire"
         ],
         "correct_answer": "Fire/Flying",
         "difficulty": "hard"
@@ -4320,9 +4152,9 @@
         "question": "What type is Blastoise?",
         "options": [
           "Water",
-          "Fire",
-          "Water",
-          "Grass"
+          "Water/Steel",
+          "Ice",
+          "Steel"
         ],
         "correct_answer": "Water",
         "difficulty": "hard"
@@ -4334,9 +4166,9 @@
         "question": "What type is Venusaur?",
         "options": [
           "Grass/Poison",
-          "Fire",
-          "Water",
-          "Grass"
+          "Grass",
+          "Poison",
+          "Bug"
         ],
         "correct_answer": "Grass/Poison",
         "difficulty": "hard"
@@ -4348,9 +4180,9 @@
         "question": "What type is Gengar?",
         "options": [
           "Ghost/Poison",
-          "Fire",
-          "Water",
-          "Grass"
+          "Ghost",
+          "Dark",
+          "Poison"
         ],
         "correct_answer": "Ghost/Poison",
         "difficulty": "hard"
@@ -4362,9 +4194,9 @@
         "question": "What type is Alakazam?",
         "options": [
           "Psychic",
-          "Fire",
-          "Water",
-          "Grass"
+          "Psychic/Steel",
+          "Steel",
+          "Fighting"
         ],
         "correct_answer": "Psychic",
         "difficulty": "hard"
@@ -4376,9 +4208,9 @@
         "question": "What type is Machamp?",
         "options": [
           "Fighting",
-          "Fire",
-          "Water",
-          "Grass"
+          "Fighting/Rock",
+          "Rock",
+          "Normal"
         ],
         "correct_answer": "Fighting",
         "difficulty": "hard"
@@ -4390,9 +4222,9 @@
         "question": "What type is Golem?",
         "options": [
           "Rock/Ground",
-          "Fire",
-          "Water",
-          "Grass"
+          "Rock",
+          "Ground",
+          "Steel"
         ],
         "correct_answer": "Rock/Ground",
         "difficulty": "hard"
@@ -4404,9 +4236,9 @@
         "question": "What type is Lapras?",
         "options": [
           "Water/Ice",
-          "Fire",
           "Water",
-          "Grass"
+          "Ice",
+          "Dragon"
         ],
         "correct_answer": "Water/Ice",
         "difficulty": "hard"
@@ -4418,9 +4250,9 @@
         "question": "What type is Snorlax?",
         "options": [
           "Normal",
-          "Fire",
-          "Water",
-          "Grass"
+          "Normal/Fighting",
+          "Fighting",
+          "Rock"
         ],
         "correct_answer": "Normal",
         "difficulty": "hard"
@@ -4432,9 +4264,9 @@
         "question": "What type is Dragonite?",
         "options": [
           "Dragon/Flying",
-          "Fire",
-          "Water",
-          "Grass"
+          "Dragon/Water",
+          "Dragon",
+          "Water"
         ],
         "correct_answer": "Dragon/Flying",
         "difficulty": "hard"
@@ -4446,9 +4278,9 @@
         "question": "What type is Mewtwo?",
         "options": [
           "Psychic",
-          "Fire",
-          "Water",
-          "Grass"
+          "Psychic/Fighting",
+          "Fighting",
+          "Steel"
         ],
         "correct_answer": "Psychic",
         "difficulty": "hard"
@@ -4460,9 +4292,9 @@
         "question": "What type is Mew?",
         "options": [
           "Psychic",
-          "Fire",
-          "Water",
-          "Grass"
+          "Psychic/Fairy",
+          "Fairy",
+          "Normal"
         ],
         "correct_answer": "Psychic",
         "difficulty": "hard"
@@ -4474,9 +4306,9 @@
         "question": "What type is Lugia?",
         "options": [
           "Psychic/Flying",
-          "Fire",
-          "Water",
-          "Grass"
+          "Water/Flying",
+          "Psychic",
+          "Water"
         ],
         "correct_answer": "Psychic/Flying",
         "difficulty": "hard"
@@ -4488,9 +4320,9 @@
         "question": "What type is Ho-Oh?",
         "options": [
           "Fire/Flying",
-          "Fire",
-          "Water",
-          "Grass"
+          "Fire/Dragon",
+          "Dragon",
+          "Fire"
         ],
         "correct_answer": "Fire/Flying",
         "difficulty": "hard"
@@ -6584,20 +6416,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "spt_150",
-        "category": "Sports",
-        "subcategory": "Olympics",
-        "question": "What do the Olympic rings represent?",
-        "options": [
-          "Five sports",
-          "Five colors",
-          "Five continents",
-          "Five countries"
-        ],
-        "correct_answer": "Five continents",
-        "difficulty": "medium"
-      },
-      {
         "id": "spt_151",
         "category": "Sports",
         "subcategory": "Hockey",
@@ -6679,20 +6497,6 @@
           "LeBron James"
         ],
         "correct_answer": "Wilt Chamberlain",
-        "difficulty": "hard"
-      },
-      {
-        "id": "spt_157",
-        "category": "Sports",
-        "subcategory": "Basketball",
-        "question": "Which team has won the most NBA championships?",
-        "options": [
-          "Boston Celtics",
-          "Los Angeles Lakers",
-          "Chicago Bulls",
-          "Golden State Warriors"
-        ],
-        "correct_answer": "Boston Celtics",
         "difficulty": "hard"
       },
       {
@@ -7367,20 +7171,6 @@
           "Honey"
         ],
         "correct_answer": "Wine",
-        "difficulty": "easy"
-      },
-      {
-        "id": "bib_037",
-        "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "How many disciples did Jesus choose?",
-        "options": [
-          "10",
-          "11",
-          "12",
-          "13"
-        ],
-        "correct_answer": "12",
         "difficulty": "easy"
       },
       {
@@ -8070,20 +7860,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "bib_087",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "How many people were saved on Noah's ark?",
-        "options": [
-          "6",
-          "7",
-          "8",
-          "9"
-        ],
-        "correct_answer": "8",
-        "difficulty": "medium"
-      },
-      {
         "id": "bib_088",
         "category": "Bible",
         "subcategory": "New Testament",
@@ -8207,20 +7983,6 @@
           "Mount Zion"
         ],
         "correct_answer": "Mount Sinai",
-        "difficulty": "easy"
-      },
-      {
-        "id": "bib_097",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Who was swallowed by a big fish?",
-        "options": [
-          "Jonah",
-          "Job",
-          "Joshua",
-          "Jeremiah"
-        ],
-        "correct_answer": "Jonah",
         "difficulty": "easy"
       },
       {
@@ -8828,7 +8590,7 @@
       {
         "id": "bib_141",
         "category": "Bible",
-        "subcategory": "New Testament",
+        "subcategory": "Old Testament",
         "question": "Which book comes after Genesis in the Bible?",
         "options": [
           "Exodus",
@@ -9960,20 +9722,6 @@
         ],
         "correct_answer": "Nile",
         "difficulty": "easy"
-      },
-      {
-        "id": "his_051",
-        "category": "History",
-        "subcategory": "Medieval History",
-        "question": "What was the main weapon of medieval knights?",
-        "options": [
-          "Bow and arrow",
-          "Sword",
-          "Spear",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium"
       },
       {
         "id": "his_052",
@@ -14799,7 +14547,7 @@
         "id": "foo_063",
         "category": "Food",
         "subcategory": "Famous Chefs/Restaurants",
-        "question": "What is the name of Jos\u00e9 Andr\u00e9s' minibar concept?",
+        "question": "What is the main element of Jos\u00e9 Andr\u00e9s' minibar concept?",
         "options": [
           "Small plates",
           "Molecular dining",
@@ -16293,20 +16041,6 @@
           "Yard"
         ],
         "correct_answer": "Forest",
-        "difficulty": "easy"
-      },
-      {
-        "id": "ear_106",
-        "category": "Earth",
-        "subcategory": "Trees",
-        "question": "What season do deciduous trees lose their leaves?",
-        "options": [
-          "Spring",
-          "Summer",
-          "Fall",
-          "Winter"
-        ],
-        "correct_answer": "Fall",
         "difficulty": "easy"
       },
       {

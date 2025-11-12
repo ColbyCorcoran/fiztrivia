@@ -15228,6 +15228,860 @@
         ],
         "correct_answer": "Indian",
         "difficulty": "easy"
+      },
+      {
+        "id": "foo_115",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What Italian dessert features layers of coffee-soaked ladyfingers and mascarpone?",
+        "options": [
+          "Tiramisu",
+          "Panna cotta",
+          "Cannoli",
+          "Gelato"
+        ],
+        "correct_answer": "Tiramisu",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_116",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What French dessert is a baked custard topped with caramelized sugar?",
+        "options": [
+          "Cr\u00e8me br\u00fbl\u00e9e",
+          "Cr\u00e8me caramel",
+          "Mousse",
+          "Souffl\u00e9"
+        ],
+        "correct_answer": "Cr\u00e8me br\u00fbl\u00e9e",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_117",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What is the main ingredient in traditional cheesecake?",
+        "options": [
+          "Cream cheese",
+          "Ricotta",
+          "Mascarpone",
+          "Cottage cheese"
+        ],
+        "correct_answer": "Cream cheese",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_118",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What Spanish dessert is a fried dough pastry often served with chocolate?",
+        "options": [
+          "Churros",
+          "Flan",
+          "Tres leches",
+          "Sopapilla"
+        ],
+        "correct_answer": "Churros",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_119",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What Turkish sweet is made from sugar, starch, and nuts?",
+        "options": [
+          "Turkish delight",
+          "Baklava",
+          "Kunafa",
+          "Halva"
+        ],
+        "correct_answer": "Turkish delight",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_120",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What Austrian chocolate cake has apricot jam between layers?",
+        "options": [
+          "Sachertorte",
+          "Black Forest cake",
+          "Linzer torte",
+          "Dobos torte"
+        ],
+        "correct_answer": "Sachertorte",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_121",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What is the English dessert made with sponge cake, custard, and whipped cream?",
+        "options": [
+          "Trifle",
+          "Pudding",
+          "Fool",
+          "Syllabub"
+        ],
+        "correct_answer": "Trifle",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_122",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What Japanese dessert is made from sweet rice paste?",
+        "options": [
+          "Mochi",
+          "Dorayaki",
+          "Taiyaki",
+          "Dango"
+        ],
+        "correct_answer": "Mochi",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_123",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What is the Italian Christmas bread with candied fruits?",
+        "options": [
+          "Panettone",
+          "Pandoro",
+          "Colomba",
+          "Stollen"
+        ],
+        "correct_answer": "Panettone",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_124",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What leavening agent is used in Irish soda bread?",
+        "options": [
+          "Baking soda",
+          "Yeast",
+          "Baking powder",
+          "Sourdough starter"
+        ],
+        "correct_answer": "Baking soda",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_125",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What is a French macaroon made with?",
+        "options": [
+          "Almond flour",
+          "Coconut",
+          "Hazelnut flour",
+          "Wheat flour"
+        ],
+        "correct_answer": "Almond flour",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_126",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What is the process of beating butter and sugar together called?",
+        "options": [
+          "Creaming",
+          "Whipping",
+          "Folding",
+          "Kneading"
+        ],
+        "correct_answer": "Creaming",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_127",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What type of bread is leavened with a starter culture?",
+        "options": [
+          "Sourdough",
+          "Baguette",
+          "Ciabatta",
+          "Focaccia"
+        ],
+        "correct_answer": "Sourdough",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_128",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What is the name for bread dough that hasn't been kneaded much?",
+        "options": [
+          "No-knead bread",
+          "Quick bread",
+          "Flatbread",
+          "Unleavened bread"
+        ],
+        "correct_answer": "No-knead bread",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_129",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What temperature is considered the 'danger zone' for bread yeast to die?",
+        "options": [
+          "Above 140\u00b0F",
+          "Above 100\u00b0F",
+          "Above 180\u00b0F",
+          "Above 200\u00b0F"
+        ],
+        "correct_answer": "Above 140\u00b0F",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_130",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What is the fermented milk drink popular in Eastern Europe?",
+        "options": [
+          "Kefir",
+          "Buttermilk",
+          "Lassi",
+          "Ayran"
+        ],
+        "correct_answer": "Kefir",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_131",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What Mexican drink is made from rice, cinnamon, and vanilla?",
+        "options": [
+          "Horchata",
+          "Agua fresca",
+          "Atole",
+          "Champurrado"
+        ],
+        "correct_answer": "Horchata",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_132",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What is the traditional Japanese rice wine?",
+        "options": [
+          "Sake",
+          "Soju",
+          "Shochu",
+          "Makgeolli"
+        ],
+        "correct_answer": "Sake",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_133",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What spirit is made from agave plants?",
+        "options": [
+          "Tequila",
+          "Rum",
+          "Vodka",
+          "Whiskey"
+        ],
+        "correct_answer": "Tequila",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_134",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What is the name for aged, dark tea from China?",
+        "options": [
+          "Pu-erh",
+          "Oolong",
+          "Black tea",
+          "White tea"
+        ],
+        "correct_answer": "Pu-erh",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_135",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What cocktail consists of vodka, coffee liqueur, and cream?",
+        "options": [
+          "White Russian",
+          "Black Russian",
+          "Mudslide",
+          "Espresso Martini"
+        ],
+        "correct_answer": "White Russian",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_136",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What is the main ingredient in a Bellini cocktail?",
+        "options": [
+          "Peach pur\u00e9e",
+          "Strawberry pur\u00e9e",
+          "Raspberry pur\u00e9e",
+          "Mango pur\u00e9e"
+        ],
+        "correct_answer": "Peach pur\u00e9e",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_137",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the French term for cutting vegetables into thin strips?",
+        "options": [
+          "Julienne",
+          "Brunoise",
+          "Chiffonade",
+          "Dice"
+        ],
+        "correct_answer": "Julienne",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_138",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What cooking method involves cooking food in a sealed bag in water?",
+        "options": [
+          "Sous vide",
+          "Poaching",
+          "Steaming",
+          "Braising"
+        ],
+        "correct_answer": "Sous vide",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_139",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the process of coating food in breadcrumbs before frying?",
+        "options": [
+          "Breading",
+          "Dredging",
+          "Batter",
+          "Dusting"
+        ],
+        "correct_answer": "Breading",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_140",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the technique of cooking meat slowly in liquid?",
+        "options": [
+          "Braising",
+          "Roasting",
+          "Grilling",
+          "Saut\u00e9ing"
+        ],
+        "correct_answer": "Braising",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_141",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the process of removing the center of a vegetable or fruit?",
+        "options": [
+          "Coring",
+          "Peeling",
+          "Zesting",
+          "Pitting"
+        ],
+        "correct_answer": "Coring",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_142",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the term for briefly cooking food in boiling water?",
+        "options": [
+          "Parboiling",
+          "Simmering",
+          "Poaching",
+          "Blanching"
+        ],
+        "correct_answer": "Parboiling",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_143",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What country is the origin of fondue?",
+        "options": [
+          "Switzerland",
+          "France",
+          "Italy",
+          "Austria"
+        ],
+        "correct_answer": "Switzerland",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_144",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What cuisine features dishes like schnitzel and sauerkraut?",
+        "options": [
+          "German",
+          "Austrian",
+          "Polish",
+          "Czech"
+        ],
+        "correct_answer": "German",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_145",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What country is known for jerk seasoning?",
+        "options": [
+          "Jamaica",
+          "Trinidad",
+          "Barbados",
+          "Haiti"
+        ],
+        "correct_answer": "Jamaica",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_146",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What cuisine uses a lot of fish sauce and lime?",
+        "options": [
+          "Vietnamese",
+          "Thai",
+          "Chinese",
+          "Korean"
+        ],
+        "correct_answer": "Vietnamese",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_147",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What country is the origin of ceviche?",
+        "options": [
+          "Peru",
+          "Mexico",
+          "Ecuador",
+          "Chile"
+        ],
+        "correct_answer": "Peru",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_148",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What Middle Eastern cuisine features dishes like hummus and falafel?",
+        "options": [
+          "Lebanese",
+          "Turkish",
+          "Egyptian",
+          "Syrian"
+        ],
+        "correct_answer": "Lebanese",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_149",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the traditional French fish stew from Marseille?",
+        "options": [
+          "Bouillabaisse",
+          "Bisque",
+          "Chowder",
+          "Cioppino"
+        ],
+        "correct_answer": "Bouillabaisse",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_150",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What Ethiopian flatbread is used as both plate and utensil?",
+        "options": [
+          "Injera",
+          "Naan",
+          "Pita",
+          "Lavash"
+        ],
+        "correct_answer": "Injera",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_151",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What Polish dumplings are often filled with potato or cheese?",
+        "options": [
+          "Pierogi",
+          "Pelmeni",
+          "Ravioli",
+          "Gyoza"
+        ],
+        "correct_answer": "Pierogi",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_152",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the Caribbean dish of spiced, jerk-seasoned chicken?",
+        "options": [
+          "Jerk chicken",
+          "Curry chicken",
+          "Stewed chicken",
+          "Fricassee"
+        ],
+        "correct_answer": "Jerk chicken",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_153",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What Russian soup is made with beets?",
+        "options": [
+          "Borscht",
+          "Solyanka",
+          "Shchi",
+          "Ukha"
+        ],
+        "correct_answer": "Borscht",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_154",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the German potato pancake called?",
+        "options": [
+          "Kartoffelpuffer",
+          "Sp\u00e4tzle",
+          "Kn\u00f6del",
+          "Schnitzel"
+        ],
+        "correct_answer": "Kartoffelpuffer",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_155",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the Indonesian fried rice dish?",
+        "options": [
+          "Nasi goreng",
+          "Pad thai",
+          "Fried rice",
+          "Biryani"
+        ],
+        "correct_answer": "Nasi goreng",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_156",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What Louisiana dish is a thick stew served over rice?",
+        "options": [
+          "Gumbo",
+          "Jambalaya",
+          "\u00c9touff\u00e9e",
+          "Red beans and rice"
+        ],
+        "correct_answer": "Gumbo",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_157",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What herb is traditionally used in pesto?",
+        "options": [
+          "Basil",
+          "Parsley",
+          "Cilantro",
+          "Oregano"
+        ],
+        "correct_answer": "Basil",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_158",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is the Japanese horseradish condiment?",
+        "options": [
+          "Wasabi",
+          "Ginger",
+          "Daikon",
+          "Yuzu"
+        ],
+        "correct_answer": "Wasabi",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_159",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What cheese is traditionally used in Greek salad?",
+        "options": [
+          "Feta",
+          "Halloumi",
+          "Kasseri",
+          "Mizithra"
+        ],
+        "correct_answer": "Feta",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_160",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is the main ingredient in tahini?",
+        "options": [
+          "Sesame seeds",
+          "Chickpeas",
+          "Sunflower seeds",
+          "Almonds"
+        ],
+        "correct_answer": "Sesame seeds",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_161",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What grain is couscous made from?",
+        "options": [
+          "Semolina wheat",
+          "Rice",
+          "Quinoa",
+          "Bulgur"
+        ],
+        "correct_answer": "Semolina wheat",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_162",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What type of beans are used in traditional refried beans?",
+        "options": [
+          "Pinto beans",
+          "Black beans",
+          "Kidney beans",
+          "Navy beans"
+        ],
+        "correct_answer": "Pinto beans",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_163",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is the spicy green paste served with sushi?",
+        "options": [
+          "Wasabi",
+          "Matcha",
+          "Yuzu kosho",
+          "Shiso"
+        ],
+        "correct_answer": "Wasabi",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_164",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Which chef is known for the quote 'It's raw!' on Hell's Kitchen?",
+        "options": [
+          "Gordon Ramsay",
+          "Marco Pierre White",
+          "Jamie Oliver",
+          "Alain Ducasse"
+        ],
+        "correct_answer": "Gordon Ramsay",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_165",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "What chef is known for 'molecular gastronomy'?",
+        "options": [
+          "Ferran Adri\u00e0",
+          "Thomas Keller",
+          "Daniel Boulud",
+          "Alain Ducasse"
+        ],
+        "correct_answer": "Ferran Adri\u00e0",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_166",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "What fast food chain uses the slogan 'Eat Fresh'?",
+        "options": [
+          "Subway",
+          "Chipotle",
+          "Panera",
+          "Jimmy John's"
+        ],
+        "correct_answer": "Subway",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_167",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Which celebrity chef is known for Southwestern cuisine and owns Mesa Grill?",
+        "options": [
+          "Bobby Flay",
+          "Rick Bayless",
+          "Aaron Sanchez",
+          "Jos\u00e9 Andr\u00e9s"
+        ],
+        "correct_answer": "Bobby Flay",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_168",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "What restaurant is the setting for the TV show 'The Bear'?",
+        "options": [
+          "The Original Beef of Chicagoland",
+          "Lou Malnati's",
+          "Portillo's",
+          "Al's Beef"
+        ],
+        "correct_answer": "The Original Beef of Chicagoland",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_169",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "What sandwich was named after a British Earl?",
+        "options": [
+          "Sandwich",
+          "Wellington",
+          "Earl Grey",
+          "Yorkshire pudding"
+        ],
+        "correct_answer": "Sandwich",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_170",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "What vegetable was originally purple before it was orange?",
+        "options": [
+          "Carrot",
+          "Beet",
+          "Eggplant",
+          "Potato"
+        ],
+        "correct_answer": "Carrot",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_171",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "What food was once considered poisonous in Europe?",
+        "options": [
+          "Tomato",
+          "Potato",
+          "Corn",
+          "Pumpkin"
+        ],
+        "correct_answer": "Tomato",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_172",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "What country did French fries actually originate from?",
+        "options": [
+          "Belgium",
+          "France",
+          "Netherlands",
+          "Germany"
+        ],
+        "correct_answer": "Belgium",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_173",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "What food preservation method was discovered by accident in China?",
+        "options": [
+          "Fermentation",
+          "Smoking",
+          "Salting",
+          "Pickling"
+        ],
+        "correct_answer": "Fermentation",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_174",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What are the five French mother sauces?",
+        "options": [
+          "B\u00e9chamel, Velout\u00e9, Espagnole, Hollandaise, Tomato",
+          "Marinara, Alfredo, Pesto, Carbonara, Bolognese",
+          "Soy, Teriyaki, Hoisin, Oyster, Fish",
+          "Ranch, Blue cheese, Caesar, Italian, French"
+        ],
+        "correct_answer": "B\u00e9chamel, Velout\u00e9, Espagnole, Hollandaise, Tomato",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_175",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What is the spicy North African chili paste?",
+        "options": [
+          "Harissa",
+          "Sambal",
+          "Sriracha",
+          "Gochujang"
+        ],
+        "correct_answer": "Harissa",
+        "difficulty": "medium"
       }
     ],
     "Earth": [

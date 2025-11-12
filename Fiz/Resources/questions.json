@@ -6906,20 +6906,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "spt_190",
-        "category": "Sports",
-        "subcategory": "Olympics",
-        "question": "What five colors are the Olympic rings?",
-        "options": [
-          "Blue, yellow, black, green, red",
-          "Blue, yellow, orange, green, red",
-          "Blue, yellow, black, white, red",
-          "Blue, purple, black, green, red"
-        ],
-        "correct_answer": "Blue, yellow, black, green, red",
-        "difficulty": "medium"
-      },
-      {
         "id": "spt_191",
         "category": "Sports",
         "subcategory": "Olympics",
@@ -6931,20 +6917,6 @@
           "Brazil"
         ],
         "correct_answer": "China",
-        "difficulty": "medium"
-      },
-      {
-        "id": "spt_192",
-        "category": "Sports",
-        "subcategory": "Hockey",
-        "question": "What is it called when a player scores three goals in one game?",
-        "options": [
-          "Hat trick",
-          "Triple",
-          "Treble",
-          "Three-peat"
-        ],
-        "correct_answer": "Hat trick",
         "difficulty": "medium"
       },
       {
@@ -6962,20 +6934,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "spt_194",
-        "category": "Sports",
-        "subcategory": "Soccer",
-        "question": "What is the maximum number of players on the field for one team during a match?",
-        "options": [
-          "11",
-          "10",
-          "12",
-          "9"
-        ],
-        "correct_answer": "11",
-        "difficulty": "medium"
-      },
-      {
         "id": "spt_195",
         "category": "Sports",
         "subcategory": "Soccer",
@@ -6988,20 +6946,6 @@
         ],
         "correct_answer": "Lionel Messi",
         "difficulty": "hard"
-      },
-      {
-        "id": "spt_196",
-        "category": "Sports",
-        "subcategory": "Golf",
-        "question": "What is the term for one stroke under par on a hole?",
-        "options": [
-          "Birdie",
-          "Eagle",
-          "Bogey",
-          "Par"
-        ],
-        "correct_answer": "Birdie",
-        "difficulty": "medium"
       },
       {
         "id": "spt_197",
@@ -7018,20 +6962,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "spt_198",
-        "category": "Sports",
-        "subcategory": "Tennis",
-        "question": "What is a score of zero called in tennis?",
-        "options": [
-          "Love",
-          "Nil",
-          "Zero",
-          "Deuce"
-        ],
-        "correct_answer": "Love",
-        "difficulty": "easy"
-      },
-      {
         "id": "spt_199",
         "category": "Sports",
         "subcategory": "Tennis",
@@ -7043,34 +6973,6 @@
           "Martina Navratilova"
         ],
         "correct_answer": "Margaret Court",
-        "difficulty": "hard"
-      },
-      {
-        "id": "spt_200",
-        "category": "Sports",
-        "subcategory": "Baseball",
-        "question": "What is it called when a batter hits the ball out of the playing field?",
-        "options": [
-          "Home run",
-          "Grand slam",
-          "Triple",
-          "Fly out"
-        ],
-        "correct_answer": "Home run",
-        "difficulty": "easy"
-      },
-      {
-        "id": "spt_201",
-        "category": "Sports",
-        "subcategory": "Baseball",
-        "question": "Who holds the record for most career home runs in MLB?",
-        "options": [
-          "Barry Bonds",
-          "Hank Aaron",
-          "Babe Ruth",
-          "Alex Rodriguez"
-        ],
-        "correct_answer": "Barry Bonds",
         "difficulty": "hard"
       },
       {
@@ -9694,20 +9596,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "bib_190",
-        "category": "Bible",
-        "subcategory": "Biblical Languages",
-        "question": "What does the Hebrew word 'Shalom' mean?",
-        "options": [
-          "Peace",
-          "Love",
-          "Faith",
-          "Hope"
-        ],
-        "correct_answer": "Peace",
-        "difficulty": "medium"
-      },
-      {
         "id": "bib_191",
         "category": "Bible",
         "subcategory": "Biblical Languages",
@@ -9778,34 +9666,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "bib_196",
-        "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "How many books are in the Protestant Old Testament?",
-        "options": [
-          "39",
-          "27",
-          "66",
-          "46"
-        ],
-        "correct_answer": "39",
-        "difficulty": "hard"
-      },
-      {
-        "id": "bib_197",
-        "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "What is the first book of the Bible?",
-        "options": [
-          "Genesis",
-          "Exodus",
-          "Matthew",
-          "Psalms"
-        ],
-        "correct_answer": "Genesis",
-        "difficulty": "easy"
-      },
-      {
         "id": "bib_198",
         "category": "Bible",
         "subcategory": "Biblical Theology",
@@ -9848,20 +9708,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "bib_201",
-        "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "How many disciples did Jesus choose?",
-        "options": [
-          "12",
-          "10",
-          "7",
-          "70"
-        ],
-        "correct_answer": "12",
-        "difficulty": "easy"
-      },
-      {
         "id": "bib_202",
         "category": "Bible",
         "subcategory": "New Testament",
@@ -9874,20 +9720,6 @@
         ],
         "correct_answer": "Luke",
         "difficulty": "hard"
-      },
-      {
-        "id": "bib_203",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Who was swallowed by a great fish?",
-        "options": [
-          "Jonah",
-          "Daniel",
-          "Elijah",
-          "Elisha"
-        ],
-        "correct_answer": "Jonah",
-        "difficulty": "easy"
       },
       {
         "id": "bib_204",
@@ -12328,20 +12160,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "his_175",
-        "category": "History",
-        "subcategory": "Church History",
-        "question": "In what year did the Great Schism split the Christian church into Eastern and Western branches?",
-        "options": [
-          "1054",
-          "1204",
-          "867",
-          "1378"
-        ],
-        "correct_answer": "1054",
-        "difficulty": "hard"
-      },
-      {
         "id": "his_176",
         "category": "History",
         "subcategory": "Church History",
@@ -12524,34 +12342,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "his_189",
-        "category": "History",
-        "subcategory": "Medieval History",
-        "question": "Who led the Mongol Empire during its greatest expansion?",
-        "options": [
-          "Genghis Khan",
-          "Kublai Khan",
-          "Tamerlane",
-          "Attila"
-        ],
-        "correct_answer": "Genghis Khan",
-        "difficulty": "medium"
-      },
-      {
-        "id": "his_190",
-        "category": "History",
-        "subcategory": "Medieval History",
-        "question": "What was the capital of the Byzantine Empire?",
-        "options": [
-          "Constantinople",
-          "Rome",
-          "Athens",
-          "Alexandria"
-        ],
-        "correct_answer": "Constantinople",
-        "difficulty": "medium"
-      },
-      {
         "id": "his_191",
         "category": "History",
         "subcategory": "Medieval History",
@@ -12580,20 +12370,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "his_193",
-        "category": "History",
-        "subcategory": "Ancient History",
-        "question": "What ancient wonder was located in Alexandria, Egypt?",
-        "options": [
-          "Lighthouse of Alexandria",
-          "Colossus of Rhodes",
-          "Statue of Zeus",
-          "Mausoleum at Halicarnassus"
-        ],
-        "correct_answer": "Lighthouse of Alexandria",
-        "difficulty": "hard"
-      },
-      {
         "id": "his_194",
         "category": "History",
         "subcategory": "Ancient History",
@@ -12605,34 +12381,6 @@
           "Bark"
         ],
         "correct_answer": "Papyrus",
-        "difficulty": "medium"
-      },
-      {
-        "id": "his_195",
-        "category": "History",
-        "subcategory": "Ancient History",
-        "question": "Who was the first emperor of unified China?",
-        "options": [
-          "Qin Shi Huang",
-          "Emperor Wu",
-          "Confucius",
-          "Sun Tzu"
-        ],
-        "correct_answer": "Qin Shi Huang",
-        "difficulty": "hard"
-      },
-      {
-        "id": "his_196",
-        "category": "History",
-        "subcategory": "Ancient History",
-        "question": "What ancient civilization built Machu Picchu?",
-        "options": [
-          "Inca",
-          "Aztec",
-          "Maya",
-          "Olmec"
-        ],
-        "correct_answer": "Inca",
         "difficulty": "medium"
       },
       {
@@ -12650,20 +12398,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "his_198",
-        "category": "History",
-        "subcategory": "Modern History",
-        "question": "What year did the Berlin Wall fall?",
-        "options": [
-          "1989",
-          "1991",
-          "1987",
-          "1985"
-        ],
-        "correct_answer": "1989",
-        "difficulty": "medium"
-      },
-      {
         "id": "his_199",
         "category": "History",
         "subcategory": "Modern History",
@@ -12676,20 +12410,6 @@
         ],
         "correct_answer": "New Zealand",
         "difficulty": "hard"
-      },
-      {
-        "id": "his_200",
-        "category": "History",
-        "subcategory": "Modern History",
-        "question": "What year did the Titanic sink?",
-        "options": [
-          "1912",
-          "1914",
-          "1910",
-          "1920"
-        ],
-        "correct_answer": "1912",
-        "difficulty": "medium"
       },
       {
         "id": "his_201",
@@ -15074,20 +14794,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "sci_179",
-        "category": "Science",
-        "subcategory": "Astronomy",
-        "question": "Which planet has the shortest day in our solar system?",
-        "options": [
-          "Jupiter",
-          "Saturn",
-          "Neptune",
-          "Mars"
-        ],
-        "correct_answer": "Jupiter",
-        "difficulty": "hard"
-      },
-      {
         "id": "sci_180",
         "category": "Science",
         "subcategory": "Astronomy",
@@ -15156,20 +14862,6 @@
         ],
         "correct_answer": "Enceladus",
         "difficulty": "hard"
-      },
-      {
-        "id": "sci_185",
-        "category": "Science",
-        "subcategory": "Physics",
-        "question": "What is the SI unit of electric charge?",
-        "options": [
-          "Coulomb",
-          "Ampere",
-          "Volt",
-          "Ohm"
-        ],
-        "correct_answer": "Coulomb",
-        "difficulty": "medium"
       },
       {
         "id": "sci_186",
@@ -15393,48 +15085,6 @@
           "Deposition"
         ],
         "correct_answer": "Sublimation",
-        "difficulty": "medium"
-      },
-      {
-        "id": "sci_202",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the powerhouse organelle of the cell?",
-        "options": [
-          "Mitochondria",
-          "Nucleus",
-          "Ribosome",
-          "Chloroplast"
-        ],
-        "correct_answer": "Mitochondria",
-        "difficulty": "easy"
-      },
-      {
-        "id": "sci_203",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the process by which plants make their own food using sunlight?",
-        "options": [
-          "Photosynthesis",
-          "Cellular respiration",
-          "Fermentation",
-          "Glycolysis"
-        ],
-        "correct_answer": "Photosynthesis",
-        "difficulty": "easy"
-      },
-      {
-        "id": "sci_204",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the term for animals that are active at night?",
-        "options": [
-          "Nocturnal",
-          "Diurnal",
-          "Crepuscular",
-          "Cathemeral"
-        ],
-        "correct_answer": "Nocturnal",
         "difficulty": "medium"
       },
       {
@@ -17918,20 +17568,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "foo_176",
-        "category": "Food",
-        "subcategory": "Sauces & Condiments",
-        "question": "What is the main ingredient in traditional pesto sauce?",
-        "options": [
-          "Basil",
-          "Parsley",
-          "Cilantro",
-          "Oregano"
-        ],
-        "correct_answer": "Basil",
-        "difficulty": "medium"
-      },
-      {
         "id": "foo_177",
         "category": "Food",
         "subcategory": "Sauces & Condiments",
@@ -18044,20 +17680,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "foo_185",
-        "category": "Food",
-        "subcategory": "Desserts",
-        "question": "What French pastry is made of choux dough filled with cream?",
-        "options": [
-          "\u00c9clair",
-          "Macaron",
-          "Madeleine",
-          "Croissant"
-        ],
-        "correct_answer": "\u00c9clair",
-        "difficulty": "hard"
-      },
-      {
         "id": "foo_186",
         "category": "Food",
         "subcategory": "Cooking Techniques",
@@ -18140,20 +17762,6 @@
         ],
         "correct_answer": "Fermented soybeans",
         "difficulty": "medium"
-      },
-      {
-        "id": "foo_192",
-        "category": "Food",
-        "subcategory": "Baking",
-        "question": "What ingredient causes bread to rise?",
-        "options": [
-          "Yeast",
-          "Baking soda",
-          "Salt",
-          "Sugar"
-        ],
-        "correct_answer": "Yeast",
-        "difficulty": "easy"
       },
       {
         "id": "foo_193",

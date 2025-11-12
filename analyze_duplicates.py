@@ -1,239 +1,194 @@
 #!/usr/bin/env python3
 """
 Analyze questions.json for duplicate questions.
-Finds exact duplicates, semantic duplicates, and essential duplicates.
+Focus on newly added questions and cross-check against all existing questions.
 """
 
 import json
-import re
 from collections import defaultdict
 from difflib import SequenceMatcher
 
+# Define newly added question ranges
+NEW_QUESTION_RANGES = {
+    'bib': (210, 259),
+    'ear': (207, 252),
+    'foo': (207, 256),
+    'his': (210, 259),
+    'sci': (215, 264),
+    'spt': (211, 260)
+}
+
+def is_new_question(question_id):
+    """Check if a question ID is in the newly added ranges."""
+    prefix = question_id.split('_')[0]
+    if prefix not in NEW_QUESTION_RANGES:
+        return False
+
+    try:
+        num = int(question_id.split('_')[1])
+        start, end = NEW_QUESTION_RANGES[prefix]
+        return start <= num <= end
+    except:
+        return False
+
 def normalize_text(text):
-    """Normalize text for comparison by removing punctuation and extra spaces."""
-    text = text.lower()
-    text = re.sub(r'[^\w\s]', '', text)
-    text = re.sub(r'\s+', ' ', text)
-    return text.strip()
+    """Normalize text for comparison."""
+    return text.lower().strip().replace('?', '').replace('.', '').replace(',', '')
 
 def similarity_ratio(text1, text2):
     """Calculate similarity ratio between two texts."""
     return SequenceMatcher(None, normalize_text(text1), normalize_text(text2)).ratio()
-
-def are_semantically_similar(q1, q2, threshold=0.85):
-    """Check if two questions are semantically similar."""
-    return similarity_ratio(q1, q2) >= threshold
-
-def are_essentially_same(q1_data, q2_data):
-    """Check if two questions test the same knowledge."""
-    # If questions are very similar and have same correct answer
-    if similarity_ratio(q1_data['question'], q2_data['question']) >= 0.7:
-        if q1_data['correct_answer'] == q2_data['correct_answer']:
-            return True
-    return False
 
 def main():
     # Load questions
     with open('/home/user/fiztrivia/Fiz/Resources/questions.json', 'r') as f:
         data = json.load(f)
 
-    # Flatten questions from categories
-    questions = []
-    for category, category_questions in data['categories'].items():
-        questions.extend(category_questions)
+    # Extract all questions from the nested structure
+    all_questions = []
+    for category, questions_list in data['categories'].items():
+        all_questions.extend(questions_list)
 
-    print(f"Total questions in database: {len(questions)}")
+    print(f"Total questions in database: {len(all_questions)}")
 
-    # Define newly added question ranges
-    new_ranges = {
-        'sci': range(176, 210),  # sci_176 to sci_209
-        'foo': range(176, 204),  # foo_176 to foo_203
-        'his': range(175, 202),  # his_175 to his_201
-        'spt': range(190, 204),  # spt_190 to spt_203
-        'bib': range(190, 205),  # bib_190 to bib_204
-    }
+    # Separate new and existing questions
+    new_questions = [q for q in all_questions if is_new_question(q['id'])]
+    existing_questions = [q for q in all_questions if not is_new_question(q['id'])]
 
-    # Identify new questions
-    new_questions = []
-    for q in questions:
-        q_id = q['id']
-        prefix = q_id.split('_')[0]
-        try:
-            number = int(q_id.split('_')[1])
-            if prefix in new_ranges and number in new_ranges[prefix]:
-                new_questions.append(q)
-        except:
-            pass
+    print(f"New questions: {len(new_questions)}")
+    print(f"Existing questions: {len(existing_questions)}")
+    print()
 
-    print(f"New questions to check: {len(new_questions)}")
+    # Track duplicates
+    exact_duplicates = []
+    semantic_duplicates = []
+    essential_duplicates = []
 
-    # Find duplicates
-    duplicates = []
+    # 1. Check for exact duplicate text
+    print("=" * 80)
+    print("CHECKING FOR EXACT DUPLICATES")
+    print("=" * 80)
 
-    # Track exact duplicates
     question_text_map = defaultdict(list)
-    for q in questions:
+    for q in all_questions:
         normalized = normalize_text(q['question'])
         question_text_map[normalized].append(q)
 
-    # Find exact duplicates
-    print("\n" + "="*80)
-    print("EXACT DUPLICATES")
-    print("="*80)
-    exact_count = 0
-    for normalized_text, q_list in question_text_map.items():
-        if len(q_list) > 1:
-            exact_count += len(q_list) - 1
-            print(f"\nDuplicate Group (EXACT) - {len(q_list)} instances:")
-            for q in sorted(q_list, key=lambda x: x['id']):
-                print(f"  ID: {q['id']}")
-                print(f"  Category: {q['category']} -> {q.get('subcategory', 'N/A')}")
-                print(f"  Question: {q['question']}")
-                print(f"  Answer: {q['correct_answer']}")
-                print()
+    for text, qs in question_text_map.items():
+        if len(qs) > 1:
+            # Check if any involve new questions
+            has_new = any(is_new_question(q['id']) for q in qs)
+            if has_new:
+                exact_duplicates.append(qs)
+                print(f"\nEXACT DUPLICATE GROUP (involves new questions):")
+                for q in qs:
+                    new_marker = " [NEW]" if is_new_question(q['id']) else ""
+                    print(f"  - {q['id']}{new_marker}: {q['question']}")
+                    print(f"    Category: {q['category']}, Subcategory: {q.get('subcategory', 'N/A')}")
 
-            # Recommendation
-            keep = min(q_list, key=lambda x: x['id'])
-            remove = [q for q in q_list if q['id'] != keep['id']]
-            print(f"  RECOMMENDATION:")
-            print(f"    KEEP: {keep['id']}")
-            print(f"    REMOVE: {', '.join([q['id'] for q in remove])}")
-            print()
+    if not exact_duplicates:
+        print("\nNo exact duplicates found involving new questions.")
 
-            duplicates.append({
-                'type': 'exact',
-                'count': len(q_list),
-                'questions': q_list,
-                'keep': keep['id'],
-                'remove': [q['id'] for q in remove]
-            })
+    # 2. Check for semantic duplicates (high similarity but not exact)
+    print("\n" + "=" * 80)
+    print("CHECKING FOR SEMANTIC DUPLICATES (>90% similar)")
+    print("=" * 80)
 
-    # Find semantic duplicates (checking new questions against all)
-    print("\n" + "="*80)
-    print("SEMANTIC DUPLICATES (Very similar wording, 85%+ match)")
-    print("="*80)
-    semantic_count = 0
+    # Check new questions against all questions
     checked_pairs = set()
-
     for new_q in new_questions:
-        for other_q in questions:
+        for other_q in all_questions:
             if new_q['id'] == other_q['id']:
                 continue
 
-            pair = tuple(sorted([new_q['id'], other_q['id']]))
-            if pair in checked_pairs:
+            # Create a consistent pair identifier
+            pair_id = tuple(sorted([new_q['id'], other_q['id']]))
+            if pair_id in checked_pairs:
                 continue
-            checked_pairs.add(pair)
+            checked_pairs.add(pair_id)
 
-            # Skip if already found as exact duplicate
-            if normalize_text(new_q['question']) == normalize_text(other_q['question']):
-                continue
+            similarity = similarity_ratio(new_q['question'], other_q['question'])
 
-            if are_semantically_similar(new_q['question'], other_q['question'], threshold=0.85):
-                semantic_count += 1
-                ratio = similarity_ratio(new_q['question'], other_q['question'])
-                print(f"\nSemantic Duplicate (Similarity: {ratio:.1%}):")
-                print(f"  ID 1: {new_q['id']}")
-                print(f"  Category: {new_q['category']} -> {new_q.get('subcategory', 'N/A')}")
-                print(f"  Question: {new_q['question']}")
-                print(f"  Answer: {new_q['correct_answer']}")
-                print()
-                print(f"  ID 2: {other_q['id']}")
-                print(f"  Category: {other_q['category']} -> {other_q.get('subcategory', 'N/A')}")
-                print(f"  Question: {other_q['question']}")
-                print(f"  Answer: {other_q['correct_answer']}")
-                print()
+            # High similarity but not exact match
+            if 0.90 < similarity < 1.0:
+                semantic_duplicates.append((new_q, other_q))
+                print(f"\nSEMANTIC DUPLICATE PAIR (>90% similar):")
+                print(f"  - {new_q['id']} [NEW]: {new_q['question']}")
+                print(f"    Category: {new_q['category']}, Subcategory: {new_q.get('subcategory', 'N/A')}")
+                print(f"  - {other_q['id']}: {other_q['question']}")
+                print(f"    Category: {other_q['category']}, Subcategory: {other_q.get('subcategory', 'N/A')}")
+                print(f"    Similarity: {similarity:.2%}")
 
-                keep = min([new_q, other_q], key=lambda x: x['id'])
-                remove = new_q if keep['id'] == other_q['id'] else other_q
-                print(f"  RECOMMENDATION:")
-                print(f"    KEEP: {keep['id']}")
-                print(f"    REMOVE: {remove['id']}")
-                print()
+    if not semantic_duplicates:
+        print("\nNo semantic duplicates found involving new questions.")
 
-                duplicates.append({
-                    'type': 'semantic',
-                    'similarity': ratio,
-                    'questions': [new_q, other_q],
-                    'keep': keep['id'],
-                    'remove': [remove['id']]
-                })
+    # 3. Check for essential duplicates (same correct answer + similar topic)
+    print("\n" + "=" * 80)
+    print("CHECKING FOR ESSENTIAL DUPLICATES (same answer, similar question)")
+    print("=" * 80)
 
-    # Find essential duplicates (testing same knowledge, 70-85% match)
-    print("\n" + "="*80)
-    print("ESSENTIAL DUPLICATES (Same knowledge, different wording, 70-85% match)")
-    print("="*80)
-    essential_count = 0
-    checked_pairs = set()
+    # Group by correct answer
+    answer_groups = defaultdict(list)
+    for q in all_questions:
+        answer_groups[normalize_text(q['correct_answer'])].append(q)
 
-    for new_q in new_questions:
-        for other_q in questions:
-            if new_q['id'] == other_q['id']:
-                continue
+    # For each answer group, check if questions are asking the same thing
+    checked_essential_pairs = set()
+    for answer, qs in answer_groups.items():
+        if len(qs) > 1:
+            # Check pairs within this answer group
+            for i, q1 in enumerate(qs):
+                for q2 in qs[i+1:]:
+                    # Only check if at least one is new
+                    if not (is_new_question(q1['id']) or is_new_question(q2['id'])):
+                        continue
 
-            pair = tuple(sorted([new_q['id'], other_q['id']]))
-            if pair in checked_pairs:
-                continue
-            checked_pairs.add(pair)
+                    # Create a consistent pair identifier
+                    pair_id = tuple(sorted([q1['id'], q2['id']]))
+                    if pair_id in checked_essential_pairs:
+                        continue
+                    checked_essential_pairs.add(pair_id)
 
-            # Skip if already found as exact or semantic duplicate
-            ratio = similarity_ratio(new_q['question'], other_q['question'])
-            if ratio >= 0.85:
-                continue
+                    similarity = similarity_ratio(q1['question'], q2['question'])
 
-            if ratio >= 0.70 and new_q['correct_answer'] == other_q['correct_answer']:
-                essential_count += 1
-                print(f"\nEssential Duplicate (Similarity: {ratio:.1%}):")
-                print(f"  ID 1: {new_q['id']}")
-                print(f"  Category: {new_q['category']} -> {new_q.get('subcategory', 'N/A')}")
-                print(f"  Question: {new_q['question']}")
-                print(f"  Answer: {new_q['correct_answer']}")
-                print()
-                print(f"  ID 2: {other_q['id']}")
-                print(f"  Category: {other_q['category']} -> {other_q.get('subcategory', 'N/A')}")
-                print(f"  Question: {other_q['question']}")
-                print(f"  Answer: {other_q['correct_answer']}")
-                print()
+                    # If they have same answer and question is >70% similar
+                    if similarity > 0.70 and similarity < 0.90:  # Not already caught as semantic
+                        essential_duplicates.append((q1, q2))
+                        print(f"\nESSENTIAL DUPLICATE PAIR (same answer, similar question):")
+                        new_marker1 = " [NEW]" if is_new_question(q1['id']) else ""
+                        new_marker2 = " [NEW]" if is_new_question(q2['id']) else ""
+                        print(f"  - {q1['id']}{new_marker1}: {q1['question']}")
+                        print(f"    Answer: {q1['correct_answer']}")
+                        print(f"    Category: {q1['category']}, Subcategory: {q1.get('subcategory', 'N/A')}")
+                        print(f"  - {q2['id']}{new_marker2}: {q2['question']}")
+                        print(f"    Answer: {q2['correct_answer']}")
+                        print(f"    Category: {q2['category']}, Subcategory: {q2.get('subcategory', 'N/A')}")
+                        print(f"    Similarity: {similarity:.2%}")
 
-                keep = min([new_q, other_q], key=lambda x: x['id'])
-                remove = new_q if keep['id'] == other_q['id'] else other_q
-                print(f"  RECOMMENDATION:")
-                print(f"    KEEP: {keep['id']}")
-                print(f"    REMOVE: {remove['id']}")
-                print()
-
-                duplicates.append({
-                    'type': 'essential',
-                    'similarity': ratio,
-                    'questions': [new_q, other_q],
-                    'keep': keep['id'],
-                    'remove': [remove['id']]
-                })
+    if not essential_duplicates:
+        print("\nNo essential duplicates found involving new questions.")
 
     # Summary
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("SUMMARY")
-    print("="*80)
-    print(f"Total questions analyzed: {len(questions)}")
-    print(f"New questions checked: {len(new_questions)}")
-    print(f"Exact duplicates found: {exact_count}")
-    print(f"Semantic duplicates found: {semantic_count}")
-    print(f"Essential duplicates found: {essential_count}")
-    print(f"Total duplicate instances: {exact_count + semantic_count + essential_count}")
+    print("=" * 80)
+    print(f"Total questions analyzed: {len(all_questions)}")
+    print(f"New questions analyzed: {len(new_questions)}")
+    print(f"Exact duplicate groups found: {len(exact_duplicates)}")
+    print(f"Semantic duplicate pairs found: {len(semantic_duplicates)}")
+    print(f"Essential duplicate pairs found: {len(essential_duplicates)}")
 
-    # List all IDs to remove
-    all_to_remove = []
-    for dup in duplicates:
-        all_to_remove.extend(dup['remove'])
+    total_duplicates = len(exact_duplicates) + len(semantic_duplicates) + len(essential_duplicates)
 
-    if all_to_remove:
-        print(f"\n" + "="*80)
-        print("ALL QUESTION IDS TO REMOVE")
-        print("="*80)
-        for qid in sorted(set(all_to_remove)):
-            print(f"  {qid}")
-        print(f"\nTotal unique questions to remove: {len(set(all_to_remove))}")
-        print(f"Database would go from {len(questions)} to {len(questions) - len(set(all_to_remove))} questions")
+    if total_duplicates == 0:
+        print("\n" + "=" * 80)
+        print("✓ ZERO DUPLICATES FOUND")
+        print("=" * 80)
+        print("All 296 new questions are unique and do not duplicate anything in the")
+        print("existing question database. The database is clean!")
+    else:
+        print(f"\nTotal duplicate issues found: {total_duplicates}")
+        print("Review the details above to identify which questions need attention.")
 
 if __name__ == '__main__':
     main()

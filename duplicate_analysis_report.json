@@ -1,0 +1,805 @@
+{
+  "analysis_date": "2025-11-12",
+  "total_questions": 1511,
+  "duplicates_found": 32,
+  "questions_to_remove": [
+    "bib_190",
+    "bib_196",
+    "bib_197",
+    "bib_201",
+    "bib_203",
+    "foo_176",
+    "foo_185",
+    "foo_192",
+    "his_175",
+    "his_189",
+    "his_190",
+    "his_193",
+    "his_195",
+    "his_196",
+    "his_198",
+    "his_200",
+    "sci_179",
+    "sci_185",
+    "sci_202",
+    "sci_203",
+    "sci_204",
+    "spt_190",
+    "spt_192",
+    "spt_194",
+    "spt_196",
+    "spt_198",
+    "spt_200",
+    "spt_201"
+  ],
+  "duplicate_groups": [
+    {
+      "group_number": 1,
+      "type": "exact",
+      "keep": "spt_030",
+      "remove": [
+        "spt_198"
+      ],
+      "questions": [
+        {
+          "id": "spt_030",
+          "category": "Sports",
+          "subcategory": "Tennis",
+          "question": "What is a score of zero called in tennis?",
+          "answer": "Love"
+        },
+        {
+          "id": "spt_198",
+          "category": "Sports",
+          "subcategory": "Tennis",
+          "question": "What is a score of zero called in tennis?",
+          "answer": "Love"
+        }
+      ]
+    },
+    {
+      "group_number": 2,
+      "type": "exact",
+      "keep": "spt_052",
+      "remove": [
+        "spt_192"
+      ],
+      "questions": [
+        {
+          "id": "spt_052",
+          "category": "Sports",
+          "subcategory": "Soccer",
+          "question": "What is it called when a player scores three goals in one game?",
+          "answer": "Hat trick"
+        },
+        {
+          "id": "spt_192",
+          "category": "Sports",
+          "subcategory": "Hockey",
+          "question": "What is it called when a player scores three goals in one game?",
+          "answer": "Hat trick"
+        }
+      ]
+    },
+    {
+      "group_number": 3,
+      "type": "exact",
+      "keep": "spt_185",
+      "remove": [
+        "spt_200"
+      ],
+      "questions": [
+        {
+          "id": "spt_185",
+          "category": "Sports",
+          "subcategory": "Baseball",
+          "question": "What is it called when a batter hits the ball out of the playing field?",
+          "answer": "Home run"
+        },
+        {
+          "id": "spt_200",
+          "category": "Sports",
+          "subcategory": "Baseball",
+          "question": "What is it called when a batter hits the ball out of the playing field?",
+          "answer": "Home run"
+        }
+      ]
+    },
+    {
+      "group_number": 4,
+      "type": "exact",
+      "keep": "spt_187",
+      "remove": [
+        "spt_201"
+      ],
+      "questions": [
+        {
+          "id": "spt_187",
+          "category": "Sports",
+          "subcategory": "Baseball",
+          "question": "Who holds the record for most career home runs in MLB?",
+          "answer": "Barry Bonds"
+        },
+        {
+          "id": "spt_201",
+          "category": "Sports",
+          "subcategory": "Baseball",
+          "question": "Who holds the record for most career home runs in MLB?",
+          "answer": "Barry Bonds"
+        }
+      ]
+    },
+    {
+      "group_number": 5,
+      "type": "exact",
+      "keep": "bib_012",
+      "remove": [
+        "bib_203"
+      ],
+      "questions": [
+        {
+          "id": "bib_012",
+          "category": "Bible",
+          "subcategory": "Old Testament",
+          "question": "Who was swallowed by a great fish?",
+          "answer": "Jonah"
+        },
+        {
+          "id": "bib_203",
+          "category": "Bible",
+          "subcategory": "Old Testament",
+          "question": "Who was swallowed by a great fish?",
+          "answer": "Jonah"
+        }
+      ]
+    },
+    {
+      "group_number": 6,
+      "type": "exact",
+      "keep": "bib_173",
+      "remove": [
+        "bib_190"
+      ],
+      "questions": [
+        {
+          "id": "bib_173",
+          "category": "Bible",
+          "subcategory": "Biblical Languages",
+          "question": "What does the Hebrew word 'Shalom' mean?",
+          "answer": "Peace"
+        },
+        {
+          "id": "bib_190",
+          "category": "Bible",
+          "subcategory": "Biblical Languages",
+          "question": "What does the Hebrew word 'Shalom' mean?",
+          "answer": "Peace"
+        }
+      ]
+    },
+    {
+      "group_number": 7,
+      "type": "exact",
+      "keep": "his_022",
+      "remove": [
+        "his_190"
+      ],
+      "questions": [
+        {
+          "id": "his_022",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "What was the capital of the Byzantine Empire?",
+          "answer": "Constantinople"
+        },
+        {
+          "id": "his_190",
+          "category": "History",
+          "subcategory": "Medieval History",
+          "question": "What was the capital of the Byzantine Empire?",
+          "answer": "Constantinople"
+        }
+      ]
+    },
+    {
+      "group_number": 8,
+      "type": "exact",
+      "keep": "his_023",
+      "remove": [
+        "his_200"
+      ],
+      "questions": [
+        {
+          "id": "his_023",
+          "category": "History",
+          "subcategory": "Modern History",
+          "question": "What year did the Titanic sink?",
+          "answer": "1912"
+        },
+        {
+          "id": "his_200",
+          "category": "History",
+          "subcategory": "Modern History",
+          "question": "What year did the Titanic sink?",
+          "answer": "1912"
+        }
+      ]
+    },
+    {
+      "group_number": 9,
+      "type": "semantic",
+      "keep": "spt_041",
+      "remove": [
+        "spt_192"
+      ],
+      "questions": [
+        {
+          "id": "spt_192",
+          "category": "Sports",
+          "subcategory": "Hockey",
+          "question": "What is it called when a player scores three goals in one game?",
+          "answer": "Hat trick"
+        },
+        {
+          "id": "spt_041",
+          "category": "Sports",
+          "subcategory": "Hockey",
+          "question": "What is the term for when a player scores three goals in one game?",
+          "answer": "Hat trick"
+        }
+      ]
+    },
+    {
+      "group_number": 10,
+      "type": "semantic",
+      "keep": "spt_171",
+      "remove": [
+        "spt_194"
+      ],
+      "questions": [
+        {
+          "id": "spt_194",
+          "category": "Sports",
+          "subcategory": "Soccer",
+          "question": "What is the maximum number of players on the field for one team during a match?",
+          "answer": "11"
+        },
+        {
+          "id": "spt_171",
+          "category": "Sports",
+          "subcategory": "American Football",
+          "question": "What is the maximum number of players allowed on the field for one team at a time?",
+          "answer": "11"
+        }
+      ]
+    },
+    {
+      "group_number": 11,
+      "type": "semantic",
+      "keep": "bib_013",
+      "remove": [
+        "bib_196"
+      ],
+      "questions": [
+        {
+          "id": "bib_196",
+          "category": "Bible",
+          "subcategory": "Biblical Theology",
+          "question": "How many books are in the Protestant Old Testament?",
+          "answer": "39"
+        },
+        {
+          "id": "bib_013",
+          "category": "Bible",
+          "subcategory": "Bible Trivia",
+          "question": "How many books are in the Old Testament?",
+          "answer": "39"
+        }
+      ]
+    },
+    {
+      "group_number": 12,
+      "type": "semantic",
+      "keep": "bib_009",
+      "remove": [
+        "bib_197"
+      ],
+      "questions": [
+        {
+          "id": "bib_197",
+          "category": "Bible",
+          "subcategory": "Biblical Theology",
+          "question": "What is the first book of the Bible?",
+          "answer": "Genesis"
+        },
+        {
+          "id": "bib_009",
+          "category": "Bible",
+          "subcategory": "Old Testament",
+          "question": "What was the first book of the Bible?",
+          "answer": "Genesis"
+        }
+      ]
+    },
+    {
+      "group_number": 13,
+      "type": "semantic",
+      "keep": "bib_008",
+      "remove": [
+        "bib_201"
+      ],
+      "questions": [
+        {
+          "id": "bib_201",
+          "category": "Bible",
+          "subcategory": "New Testament",
+          "question": "How many disciples did Jesus choose?",
+          "answer": "12"
+        },
+        {
+          "id": "bib_008",
+          "category": "Bible",
+          "subcategory": "New Testament",
+          "question": "How many disciples did Jesus have?",
+          "answer": "12"
+        }
+      ]
+    },
+    {
+      "group_number": 14,
+      "type": "semantic",
+      "keep": "his_038",
+      "remove": [
+        "his_195"
+      ],
+      "questions": [
+        {
+          "id": "his_195",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "Who was the first emperor of unified China?",
+          "answer": "Qin Shi Huang"
+        },
+        {
+          "id": "his_038",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "Who was the first emperor of China?",
+          "answer": "Qin Shi Huang"
+        }
+      ]
+    },
+    {
+      "group_number": 15,
+      "type": "semantic",
+      "keep": "his_014",
+      "remove": [
+        "his_196"
+      ],
+      "questions": [
+        {
+          "id": "his_196",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "What ancient civilization built Machu Picchu?",
+          "answer": "Inca"
+        },
+        {
+          "id": "his_014",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "What civilization built Machu Picchu?",
+          "answer": "Inca"
+        }
+      ]
+    },
+    {
+      "group_number": 16,
+      "type": "semantic",
+      "keep": "his_169",
+      "remove": [
+        "his_196"
+      ],
+      "questions": [
+        {
+          "id": "his_196",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "What ancient civilization built Machu Picchu?",
+          "answer": "Inca"
+        },
+        {
+          "id": "his_169",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "Which ancient civilization built Machu Picchu?",
+          "answer": "Inca"
+        }
+      ]
+    },
+    {
+      "group_number": 17,
+      "type": "semantic",
+      "keep": "his_004",
+      "remove": [
+        "his_198"
+      ],
+      "questions": [
+        {
+          "id": "his_198",
+          "category": "History",
+          "subcategory": "Modern History",
+          "question": "What year did the Berlin Wall fall?",
+          "answer": "1989"
+        },
+        {
+          "id": "his_004",
+          "category": "History",
+          "subcategory": "Modern History",
+          "question": "When did the Berlin Wall fall?",
+          "answer": "1989"
+        }
+      ]
+    },
+    {
+      "group_number": 18,
+      "type": "semantic",
+      "keep": "sci_063",
+      "remove": [
+        "sci_179"
+      ],
+      "questions": [
+        {
+          "id": "sci_179",
+          "category": "Science",
+          "subcategory": "Astronomy",
+          "question": "Which planet has the shortest day in our solar system?",
+          "answer": "Jupiter"
+        },
+        {
+          "id": "sci_063",
+          "category": "Science",
+          "subcategory": "Astronomy",
+          "question": "Which planet has the shortest day in the Solar System?",
+          "answer": "Jupiter"
+        }
+      ]
+    },
+    {
+      "group_number": 19,
+      "type": "semantic",
+      "keep": "sci_121",
+      "remove": [
+        "sci_185"
+      ],
+      "questions": [
+        {
+          "id": "sci_185",
+          "category": "Science",
+          "subcategory": "Physics",
+          "question": "What is the SI unit of electric charge?",
+          "answer": "Coulomb"
+        },
+        {
+          "id": "sci_121",
+          "category": "Science",
+          "subcategory": "Physics",
+          "question": "What is the basic unit of electric charge?",
+          "answer": "Coulomb"
+        }
+      ]
+    },
+    {
+      "group_number": 20,
+      "type": "semantic",
+      "keep": "sci_007",
+      "remove": [
+        "sci_202"
+      ],
+      "questions": [
+        {
+          "id": "sci_202",
+          "category": "Science",
+          "subcategory": "Biology",
+          "question": "What is the powerhouse organelle of the cell?",
+          "answer": "Mitochondria"
+        },
+        {
+          "id": "sci_007",
+          "category": "Science",
+          "subcategory": "Biology",
+          "question": "What is the powerhouse of the cell?",
+          "answer": "Mitochondria"
+        }
+      ]
+    },
+    {
+      "group_number": 21,
+      "type": "semantic",
+      "keep": "foo_101",
+      "remove": [
+        "foo_185"
+      ],
+      "questions": [
+        {
+          "id": "foo_185",
+          "category": "Food",
+          "subcategory": "Desserts",
+          "question": "What French pastry is made of choux dough filled with cream?",
+          "answer": "\u00c9clair"
+        },
+        {
+          "id": "foo_101",
+          "category": "Food",
+          "subcategory": "Baking",
+          "question": "What French pastry is made with choux dough and filled with cream?",
+          "answer": "\u00c9clair"
+        }
+      ]
+    },
+    {
+      "group_number": 22,
+      "type": "essential",
+      "keep": "spt_106",
+      "remove": [
+        "spt_190"
+      ],
+      "questions": [
+        {
+          "id": "spt_190",
+          "category": "Sports",
+          "subcategory": "Olympics",
+          "question": "What five colors are the Olympic rings?",
+          "answer": "Blue, yellow, black, green, red"
+        },
+        {
+          "id": "spt_106",
+          "category": "Sports",
+          "subcategory": "Olympics",
+          "question": "What are the colors of the Olympic rings?",
+          "answer": "Blue, yellow, black, green, red"
+        }
+      ]
+    },
+    {
+      "group_number": 23,
+      "type": "essential",
+      "keep": "spt_017",
+      "remove": [
+        "spt_196"
+      ],
+      "questions": [
+        {
+          "id": "spt_196",
+          "category": "Sports",
+          "subcategory": "Golf",
+          "question": "What is the term for one stroke under par on a hole?",
+          "answer": "Birdie"
+        },
+        {
+          "id": "spt_017",
+          "category": "Sports",
+          "subcategory": "Golf",
+          "question": "What is one stroke under par called in golf?",
+          "answer": "Birdie"
+        }
+      ]
+    },
+    {
+      "group_number": 24,
+      "type": "essential",
+      "keep": "spt_029",
+      "remove": [
+        "spt_200"
+      ],
+      "questions": [
+        {
+          "id": "spt_200",
+          "category": "Sports",
+          "subcategory": "Baseball",
+          "question": "What is it called when a batter hits the ball out of the playing field?",
+          "answer": "Home run"
+        },
+        {
+          "id": "spt_029",
+          "category": "Sports",
+          "subcategory": "Baseball",
+          "question": "What is it called when a batter hits the ball over the fence?",
+          "answer": "Home run"
+        }
+      ]
+    },
+    {
+      "group_number": 25,
+      "type": "essential",
+      "keep": "spt_135",
+      "remove": [
+        "spt_200"
+      ],
+      "questions": [
+        {
+          "id": "spt_200",
+          "category": "Sports",
+          "subcategory": "Baseball",
+          "question": "What is it called when a batter hits the ball out of the playing field?",
+          "answer": "Home run"
+        },
+        {
+          "id": "spt_135",
+          "category": "Sports",
+          "subcategory": "Baseball",
+          "question": "What is it called when you hit the ball and run all the bases?",
+          "answer": "Home run"
+        }
+      ]
+    },
+    {
+      "group_number": 26,
+      "type": "essential",
+      "keep": "his_145",
+      "remove": [
+        "his_175"
+      ],
+      "questions": [
+        {
+          "id": "his_175",
+          "category": "History",
+          "subcategory": "Church History",
+          "question": "In what year did the Great Schism split the Christian church into Eastern and Western branches?",
+          "answer": "1054"
+        },
+        {
+          "id": "his_145",
+          "category": "History",
+          "subcategory": "Church History",
+          "question": "In what year did the Great Schism occur, splitting the Eastern and Western churches?",
+          "answer": "1054"
+        }
+      ]
+    },
+    {
+      "group_number": 27,
+      "type": "essential",
+      "keep": "his_102",
+      "remove": [
+        "his_189"
+      ],
+      "questions": [
+        {
+          "id": "his_189",
+          "category": "History",
+          "subcategory": "Medieval History",
+          "question": "Who led the Mongol Empire during its greatest expansion?",
+          "answer": "Genghis Khan"
+        },
+        {
+          "id": "his_102",
+          "category": "History",
+          "subcategory": "Medieval History",
+          "question": "Who led the Mongol Empire to its greatest extent?",
+          "answer": "Genghis Khan"
+        }
+      ]
+    },
+    {
+      "group_number": 28,
+      "type": "essential",
+      "keep": "his_005",
+      "remove": [
+        "his_193"
+      ],
+      "questions": [
+        {
+          "id": "his_193",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "What ancient wonder was located in Alexandria, Egypt?",
+          "answer": "Lighthouse of Alexandria"
+        },
+        {
+          "id": "his_005",
+          "category": "History",
+          "subcategory": "Ancient History",
+          "question": "Which wonder of the ancient world was located in Alexandria?",
+          "answer": "Lighthouse of Alexandria"
+        }
+      ]
+    },
+    {
+      "group_number": 29,
+      "type": "essential",
+      "keep": "sci_141",
+      "remove": [
+        "sci_203"
+      ],
+      "questions": [
+        {
+          "id": "sci_203",
+          "category": "Science",
+          "subcategory": "Biology",
+          "question": "What is the process by which plants make their own food using sunlight?",
+          "answer": "Photosynthesis"
+        },
+        {
+          "id": "sci_141",
+          "category": "Science",
+          "subcategory": "Biology",
+          "question": "What is the process by which plants make food?",
+          "answer": "Photosynthesis"
+        }
+      ]
+    },
+    {
+      "group_number": 30,
+      "type": "essential",
+      "keep": "sci_082",
+      "remove": [
+        "sci_204"
+      ],
+      "questions": [
+        {
+          "id": "sci_204",
+          "category": "Science",
+          "subcategory": "Biology",
+          "question": "What is the term for animals that are active at night?",
+          "answer": "Nocturnal"
+        },
+        {
+          "id": "sci_082",
+          "category": "Science",
+          "subcategory": "Biology",
+          "question": "What do we call animals that are active at night?",
+          "answer": "Nocturnal"
+        }
+      ]
+    },
+    {
+      "group_number": 31,
+      "type": "essential",
+      "keep": "foo_046",
+      "remove": [
+        "foo_176"
+      ],
+      "questions": [
+        {
+          "id": "foo_176",
+          "category": "Food",
+          "subcategory": "Sauces & Condiments",
+          "question": "What is the main ingredient in traditional pesto sauce?",
+          "answer": "Basil"
+        },
+        {
+          "id": "foo_046",
+          "category": "Food",
+          "subcategory": "Ingredients",
+          "question": "What is the main ingredient in pesto?",
+          "answer": "Basil"
+        }
+      ]
+    },
+    {
+      "group_number": 32,
+      "type": "essential",
+      "keep": "foo_100",
+      "remove": [
+        "foo_192"
+      ],
+      "questions": [
+        {
+          "id": "foo_192",
+          "category": "Food",
+          "subcategory": "Baking",
+          "question": "What ingredient causes bread to rise?",
+          "answer": "Yeast"
+        },
+        {
+          "id": "foo_100",
+          "category": "Food",
+          "subcategory": "Baking",
+          "question": "What leavening agent causes bread to rise?",
+          "answer": "Yeast"
+        }
+      ]
+    }
+  ]
+}

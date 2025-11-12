@@ -1,0 +1,186 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                     DUPLICATE QUESTIONS ANALYSIS REPORT                        ║
+║                            Fiz Trivia Database                                 ║
+║                          November 12, 2025                                     ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+🔍 ANALYSIS OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Database File:         /home/user/fiztrivia/Fiz/Resources/questions.json
+Total Questions:       1,511
+New Questions Added:   118 (in ranges 175-209)
+Duplicates Found:      28 questions (23.7% of new questions!)
+Duplicate Groups:      32 groups (some questions appear in multiple groups)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 KEY FINDINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ All 28 duplicates were from NEWLY ADDED questions (ranges 175-209)
+✓ Original database (questions 001-174) had ZERO duplicates
+✓ Sports category hit hardest: 50% of new Sports questions are duplicates!
+✓ One question (spt_200) appears in 4 different duplicate groups
+
+DUPLICATE BREAKDOWN:
+  • 8 Exact Duplicates     - Identical question text
+  • 13 Semantic Duplicates - 85%+ similar wording, same answer
+  • 11 Essential Duplicates - 70-85% similar, tests same knowledge
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 IMPACT BY CATEGORY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Category    | Duplicates | % of New Questions | Impact
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sports      | 7          | 50.0%             | 🔴 CRITICAL
+History     | 8          | 29.6%             | 🟠 HIGH
+Bible       | 5          | 33.3%             | 🟠 HIGH
+Science     | 5          | 14.7%             | 🟡 MEDIUM
+Food        | 3          | 10.7%             | 🟢 LOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  SPORTS: 7 out of 14 new questions (50%) are duplicates!
+⚠️  HISTORY: 8 out of 27 new questions (29.6%) are duplicates!
+⚠️  BIBLE: 5 out of 15 new questions (33.3%) are duplicates!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚨 WORST OFFENDERS (Multiple Duplicate Groups)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔴 PRIORITY 1: spt_200 (appears in 4 groups!)
+   Question: "What is it called when a batter hits the ball out of the
+             playing field?"
+   Duplicates: spt_185 (exact), spt_029 (83.1% similar), spt_135 (70.2% similar)
+   Impact: Single question duplicated THREE other times
+
+🟠 PRIORITY 2: his_196 (appears in 3 groups)
+   Question: "What ancient civilization built Machu Picchu?"
+   Duplicates: his_014 (90.0% similar), his_169 (94.4% similar)
+
+🟠 PRIORITY 3: spt_192 (appears in 3 groups)
+   Question: "What is it called when a player scores three goals in one game?"
+   Duplicates: spt_052 (exact), spt_041 (88.2% similar)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 EXAMPLE DUPLICATES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EXACT DUPLICATE EXAMPLE:
+  ✓ Keep:   spt_030 - "What is a score of zero called in tennis?"
+  ✗ Remove: spt_198 - "What is a score of zero called in tennis?"
+  Note: Identical word-for-word
+
+SEMANTIC DUPLICATE EXAMPLE (96.2% similar):
+  ✓ Keep:   sci_121 - "What is the basic unit of electric charge?"
+  ✗ Remove: sci_185 - "What is the SI unit of electric charge?"
+  Note: Same question, slightly different wording, same answer (Coulomb)
+
+ESSENTIAL DUPLICATE EXAMPLE (83.1% similar):
+  ✓ Keep:   foo_100 - "What leavening agent causes bread to rise?"
+  ✗ Remove: foo_192 - "What ingredient causes bread to rise?"
+  Note: Different wording, tests same knowledge, same answer (Yeast)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 COMPLETE REMOVAL LIST (28 questions)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Bible (5):
+  bib_190, bib_196, bib_197, bib_201, bib_203
+
+Food (3):
+  foo_176, foo_185, foo_192
+
+History (8):
+  his_175, his_189, his_190, his_193, his_195, his_196, his_198, his_200
+
+Science (5):
+  sci_179, sci_185, sci_202, sci_203, sci_204
+
+Sports (7):
+  spt_190, spt_192, spt_194, spt_196, spt_198, spt_200, spt_201
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ RECOMMENDATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ACTION REQUIRED: Remove all 28 duplicate questions
+
+BEFORE:  1,511 questions
+AFTER:   1,483 questions (-28, -1.9%)
+
+WHY: All duplicates were introduced in the recent expansion (questions 175-209).
+     The original database was clean. This suggests the new questions were
+     added without duplicate checking.
+
+PRIORITY ORDER:
+  1. spt_200 (4 groups) - REMOVE FIRST
+  2. his_196 (3 groups)
+  3. spt_192 (3 groups)
+  4. All remaining 25 questions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📄 FILES GENERATED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. DUPLICATE_ANALYSIS_SUMMARY.md - Detailed human-readable report with all
+                                    duplicate groups and full question text
+
+2. duplicate_analysis_report.json - Machine-readable JSON report with all
+                                    data for automated processing
+
+3. REMOVAL_CHECKLIST.md          - Step-by-step checklist for removing
+                                    duplicates with verification commands
+
+4. EXECUTIVE_SUMMARY.txt         - This file - quick overview
+
+5. refined_duplicates_analysis.py - Python script that generated the analysis
+                                    (can be re-run anytime for verification)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 ANALYSIS METHODOLOGY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Normalized all question text (lowercase, removed punctuation)
+• Calculated similarity ratios using sequence matching
+• Required matching answers for semantic/essential duplicates
+• Focused analysis on newly added questions (175-209 ranges)
+• Cross-checked against ALL 1,511 questions in database
+• Identified questions appearing in multiple duplicate groups
+• Always kept question with lower ID number
+
+FALSE POSITIVES FILTERED:
+  ✗ Questions with similar wording but DIFFERENT answers
+  ✗ Questions asking about different subjects (e.g., "capital of X" vs
+    "capital of Y")
+  ✗ Similar structure but testing different knowledge
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔮 PREVENTION RECOMMENDATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Run duplicate analysis BEFORE adding new questions
+2. Use the refined_duplicates_analysis.py script for quality control
+3. Check new questions against existing database
+4. Review Sports questions carefully (50% duplicate rate!)
+5. Consider implementing automated duplicate checking in CI/CD
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Analysis Date: November 12, 2025
+Analyst: Claude Code (Duplicate Detection System)
+Database: /home/user/fiztrivia/Fiz/Resources/questions.json
+Version: questions.json (1,511 questions)
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                          END OF EXECUTIVE SUMMARY                              ║
+╚════════════════════════════════════════════════════════════════════════════════╝

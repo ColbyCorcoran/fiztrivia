@@ -1,0 +1,64 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                     DUPLICATE REMOVAL - QUICK REFERENCE                        ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+🎯 BOTTOM LINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Remove these 28 questions:
+
+bib_190 bib_196 bib_197 bib_201 bib_203
+foo_176 foo_185 foo_192
+his_175 his_189 his_190 his_193 his_195 his_196 his_198 his_200
+sci_179 sci_185 sci_202 sci_203 sci_204
+spt_190 spt_192 spt_194 spt_196 spt_198 spt_200 spt_201
+
+Database: 1,511 → 1,483 questions (-1.9%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔥 TOP 3 WORST DUPLICATES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. spt_200 - Appears in 4 groups (home run question)
+2. his_196 - Appears in 3 groups (Machu Picchu)
+3. spt_192 - Appears in 3 groups (hat trick)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 CATEGORY BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sports  (7) → 50.0% of new Sports questions are duplicates! 🔴
+History (8) → 29.6% of new History questions are duplicates! 🟠
+Bible   (5) → 33.3% of new Bible questions are duplicates! 🟠
+Science (5) → 14.7% of new Science questions are duplicates
+Food    (3) → 10.7% of new Food questions are duplicates
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 REFERENCE FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+/home/user/fiztrivia/EXECUTIVE_SUMMARY.txt
+  → Quick overview (this is what you want!)
+
+/home/user/fiztrivia/DUPLICATE_ANALYSIS_SUMMARY.md
+  → Full details with all question text for each duplicate group
+
+/home/user/fiztrivia/REMOVAL_CHECKLIST.md
+  → Step-by-step removal checklist with verification commands
+
+/home/user/fiztrivia/duplicate_analysis_report.json
+  → Machine-readable data for automated processing
+
+/home/user/fiztrivia/refined_duplicates_analysis.py
+  → Re-runnable analysis script
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 KEY INSIGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ALL duplicates came from the recently added questions (ranges 175-209).
+The original database (001-174) had ZERO duplicates.
+This confirms your suspicion that duplicates were introduced during expansion.
+
+23.7% of the 118 new questions are duplicates! 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

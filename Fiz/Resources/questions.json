@@ -14162,6 +14162,230 @@
         ],
         "correct_answer": "32",
         "difficulty": "easy"
+      },
+      {
+        "id": "sci_160",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Mitochondria",
+          "Nucleus",
+          "Ribosome",
+          "Chloroplast"
+        ],
+        "correct_answer": "Mitochondria",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_161",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the study of fungi called?",
+        "options": [
+          "Mycology",
+          "Botany",
+          "Zoology",
+          "Microbiology"
+        ],
+        "correct_answer": "Mycology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_162",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "How many chambers does the human heart have?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "5"
+        ],
+        "correct_answer": "4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_163",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the largest organ in the human body?",
+        "options": [
+          "Skin",
+          "Liver",
+          "Brain",
+          "Heart"
+        ],
+        "correct_answer": "Skin",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_164",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+          "Au",
+          "Ag",
+          "Fe",
+          "Cu"
+        ],
+        "correct_answer": "Au",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_165",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the pH of pure water?",
+        "options": [
+          "7",
+          "0",
+          "14",
+          "10"
+        ],
+        "correct_answer": "7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_166",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What type of bond involves the sharing of electrons?",
+        "options": [
+          "Covalent bond",
+          "Ionic bond",
+          "Metallic bond",
+          "Hydrogen bond"
+        ],
+        "correct_answer": "Covalent bond",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_167",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the most abundant element in Earth's atmosphere?",
+        "options": [
+          "Nitrogen",
+          "Oxygen",
+          "Carbon dioxide",
+          "Argon"
+        ],
+        "correct_answer": "Nitrogen",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_168",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the speed of light in a vacuum?",
+        "options": [
+          "299,792,458 m/s",
+          "300,000,000 m/s",
+          "186,000 mph",
+          "1,000,000 m/s"
+        ],
+        "correct_answer": "299,792,458 m/s",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_169",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is Newton's first law of motion also known as?",
+        "options": [
+          "Law of inertia",
+          "Law of acceleration",
+          "Law of action-reaction",
+          "Law of gravity"
+        ],
+        "correct_answer": "Law of inertia",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_170",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What unit is used to measure electrical resistance?",
+        "options": [
+          "Ohm",
+          "Volt",
+          "Ampere",
+          "Watt"
+        ],
+        "correct_answer": "Ohm",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_171",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What force keeps planets in orbit around the Sun?",
+        "options": [
+          "Gravity",
+          "Magnetism",
+          "Centrifugal force",
+          "Nuclear force"
+        ],
+        "correct_answer": "Gravity",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_172",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the closest star to Earth?",
+        "options": [
+          "The Sun",
+          "Alpha Centauri",
+          "Proxima Centauri",
+          "Sirius"
+        ],
+        "correct_answer": "The Sun",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_173",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "How many moons does Mars have?",
+        "options": [
+          "2",
+          "1",
+          "0",
+          "4"
+        ],
+        "correct_answer": "2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_174",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the name of the galaxy that contains our Solar System?",
+        "options": [
+          "Milky Way",
+          "Andromeda",
+          "Whirlpool",
+          "Sombrero"
+        ],
+        "correct_answer": "Milky Way",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_175",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is a light-year?",
+        "options": [
+          "Distance light travels in one year",
+          "Time light takes to reach Earth",
+          "Age of a star",
+          "Brightness of a star"
+        ],
+        "correct_answer": "Distance light travels in one year",
+        "difficulty": "medium"
       }
     ],
     "Food": [

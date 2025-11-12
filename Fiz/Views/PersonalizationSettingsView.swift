@@ -5,6 +5,7 @@ struct PersonalizationSettingsView: View {
     @StateObject private var userManager = UserManager.shared
     @StateObject private var appIconManager = AppIconManager.shared
     @StateObject private var hapticSettingsManager = HapticSettingsManager.shared
+    @StateObject private var analyticsManager = AnalyticsManager.shared
     @State private var editedUsername: String = ""
     @State private var isEditingUsername = false
 
@@ -99,6 +100,21 @@ struct PersonalizationSettingsView: View {
                     set: { hapticSettingsManager.setHapticEnabled($0) }
                 ))
                     .accessibilityHint("Enable or disable haptic feedback")
+            }
+
+            Section(header: Text("Analytics"),
+                   footer: Text("Help improve Fiz by sharing anonymous usage data. We only track which features you use - no personal information, location, or question answers are collected.")) {
+                Toggle("Share Anonymous Analytics", isOn: Binding(
+                    get: { analyticsManager.isAnalyticsEnabled },
+                    set: { newValue in
+                        analyticsManager.setAnalyticsEnabled(newValue)
+                        if newValue {
+                            // Track that analytics was enabled
+                            analyticsManager.trackSettingChanged(setting: "analytics", value: "enabled")
+                        }
+                    }
+                ))
+                    .accessibilityHint("Enable or disable anonymous analytics")
             }
         }
         .navigationTitle("Personalization")

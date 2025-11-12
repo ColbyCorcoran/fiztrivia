@@ -33,6 +33,7 @@ struct GameSettingsView: View {
                         .pickerStyle(MenuPickerStyle())
                         .onChange(of: difficultyManager.selectedDifficulty) { _, newValue in
                             difficultyManager.setDifficulty(newValue)
+                            AnalyticsManager.shared.trackSettingChanged(setting: "difficulty_mode", value: newValue.rawValue)
                         }
                     }
 
@@ -183,6 +184,7 @@ struct GameSettingsView: View {
             if !newValue {
                 singleCategoryManager.setSelectedCategory(nil)
                 localSelectedCategory = nil
+                AnalyticsManager.shared.trackSingleCategoryModeDisabled()
             }
         }
     }
@@ -198,6 +200,9 @@ struct GameSettingsView: View {
             }
         } else {
             singleCategoryManager.setSelectedCategory(newValue)
+            if let category = newValue {
+                AnalyticsManager.shared.trackSingleCategoryModeEnabled(category: category.rawValue)
+            }
         }
     }
 

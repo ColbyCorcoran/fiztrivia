@@ -687,6 +687,14 @@ struct CategoryWheelView: View {
                 showingCompletionToast = true
             }
 
+            // Track subcategory completion
+            let questionsAnswered = answeredQuestionsManager.getAnsweredCountForSubcategory(subcategory, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty)
+            AnalyticsManager.shared.trackCategoryCompleted(
+                category: subcategory,
+                difficultyMode: difficultyManager.selectedDifficulty.rawValue,
+                questionsAnswered: questionsAnswered
+            )
+
             // Auto-dismiss toast after 2 seconds
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                 withAnimation {
@@ -703,6 +711,14 @@ struct CategoryWheelView: View {
             withAnimation {
                 showingCompletionToast = true
             }
+
+            // Track category completion
+            let questionsAnswered = answeredQuestionsManager.getAnsweredCountForCategory(selectedCategory.rawValue, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty)
+            AnalyticsManager.shared.trackCategoryCompleted(
+                category: selectedCategory.rawValue,
+                difficultyMode: difficultyManager.selectedDifficulty.rawValue,
+                questionsAnswered: questionsAnswered
+            )
 
             // Auto-dismiss toast after 2 seconds
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {

@@ -10,6 +10,8 @@ import SwiftData
 
 @main
 struct FizApp: App {
+    @Environment(\.scenePhase) private var scenePhase
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             LeaderboardEntry.self,
@@ -28,5 +30,17 @@ struct FizApp: App {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
+        .onChange(of: scenePhase) { oldPhase, newPhase in
+            switch newPhase {
+            case .active:
+                AnalyticsManager.shared.trackAppOpened()
+            case .background:
+                AnalyticsManager.shared.trackAppBackgrounded()
+            case .inactive:
+                break
+            @unknown default:
+                break
+            }
+        }
     }
 }

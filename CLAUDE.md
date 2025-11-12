@@ -58,23 +58,25 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 
 ### Question Database Structure
 
+**Current Database (as of last update): 1,807 total questions**
+
 **Reorganized Categories** (7 total categories):
-- **Entertainment** (209 questions): Harry Potter, Marvel, DC, Star Wars, Pokémon, etc.
-- **Sports** (155 questions): Football, Basketball, Baseball, Tennis, Olympics, etc.
-- **Bible** (142 questions): Biblical knowledge and teachings
-- **History** (176 questions): Ancient, Medieval, Modern, Church History
-- **Science** (164 questions): Physics, Chemistry, Biology, Astronomy
-- **Earth** (192 questions): Animals, Geography, Weather, Plants, Trees
-- **Food** (64 questions): Ingredients, Dishes, Famous Chefs/Restaurants
+- **Entertainment** (307 questions): Harry Potter, Marvel, DC, Star Wars, Pokémon, Superheroes, Pixar, etc.
+- **Sports** (250 questions): Football, Basketball, Baseball, Tennis, Olympics, Hockey, Soccer, Golf
+- **Bible** (250 questions): Old Testament, New Testament, Biblical History, Biblical Theology, Biblical Languages, Bible Trivia
+- **History** (250 questions): Ancient, Medieval, Modern, Church History
+- **Science** (250 questions): Physics, Chemistry, Biology, Astronomy
+- **Earth** (250 questions): Animals, Geography, Weather, Plants, Trees
+- **Food** (250 questions): Ingredients, Dishes, Famous Chefs/Restaurants, Cuisines, Baking, Beverages, Desserts, Cooking Techniques, Food History, Sauces & Condiments
 
 **Question ID System**:
-- Entertainment: `ent_001` through `ent_209`
-- Sports: `spt_001` through `spt_155`  
-- Bible: `bib_001` through `bib_142`
-- History: `his_001` through `his_176`
-- Science: `sci_001` through `sci_164`
-- Earth: `ear_001` through `ear_192`
-- Food: `foo_001` through `foo_064`
+- Entertainment: `ent_001` through `ent_307`
+- Sports: `spt_001` through `spt_271` (some gaps due to duplicate removal)
+- Bible: `bib_001` through `bib_271` (some gaps due to duplicate removal)
+- History: `his_001` through `his_268` (some gaps due to duplicate removal)
+- Science: `sci_001` through `sci_277` (some gaps due to duplicate removal)
+- Earth: `ear_001` through `ear_266` (some gaps due to duplicate removal)
+- Food: `foo_001` through `foo_260` (some gaps due to duplicate removal)
 
 **Question Structure**:
 ```json
@@ -202,3 +204,253 @@ Fiz/
 - **QuestionView.swift**: Deleted - questions now display inline
 - **ResultView.swift**: Deleted - results show inline with auto-clear
 - **Random Trivia category**: Removed - questions redistributed to proper categories
+
+---
+
+## Database Expansion Workflow
+
+**Current Database Status (as of last update):**
+- **Total Questions**: 1,807
+- **Target per Category**: All categories at 250 (except Entertainment)
+- **Entertainment**: 307 questions (naturally larger due to content variety)
+- **All Other Categories**: 250 questions each
+
+### Quick Command
+
+When you want to expand the database, use this command format:
+
+```
+Let's expand our question database by [X] questions per category
+```
+
+Or for total expansion across all categories:
+
+```
+Let's expand our question database to [X] questions per category
+```
+
+### Automated Workflow Process
+
+When the expansion command is given, follow this systematic process:
+
+#### **Phase 1: Analysis & Planning (5-10 minutes)**
+
+1. **Database Analysis**
+   - Run analysis on `Fiz/Resources/questions.json`
+   - Count current questions per category and subcategory
+   - Identify which categories need questions to reach target
+   - Calculate total questions needed
+
+2. **Create Expansion Plan**
+   - Determine question distribution across subcategories
+   - Set difficulty targets (prioritize: Hard > Medium > Easy)
+   - Identify any imbalanced subcategories
+   - Create todo list with all tasks
+
+3. **Generate Summary Report**
+   ```
+   Current: Category breakdown
+   Target: X questions per category
+   Needed: Y total new questions
+   Distribution: By category and subcategory
+   ```
+
+#### **Phase 2: Initial Duplicate Check (2-3 minutes)**
+
+1. **Run Pre-Expansion Duplicate Analysis**
+   - Check existing database for any duplicates
+   - If duplicates found, remove them first
+   - Report how many duplicates were removed
+   - Update baseline counts
+
+2. **Create Timestamped Backup**
+   ```bash
+   cp Fiz/Resources/questions.json Fiz/Resources/questions_backup_$(date +%Y%m%d_%H%M%S).json
+   ```
+
+#### **Phase 3: Question Generation (Work One Category at a Time)**
+
+For each category that needs expansion:
+
+1. **Review Existing Questions**
+   - Read sample questions from each subcategory
+   - Note common topics, question patterns, difficulty styles
+   - Identify gaps or underrepresented topics
+
+2. **Generate New Questions**
+   - Create questions in batches (10-50 at a time depending on total needed)
+   - Follow existing ID numbering system
+   - Distribute across all subcategories proportionally
+   - Emphasize hard and medium difficulty
+   - Use specific, detailed questions to avoid duplicates
+
+3. **Content Guidelines**
+   - **Family-friendly**: No violence, sexual content, or graphic material
+   - **Non-controversial**: Avoid divisive political or religious interpretations
+   - **Factual**: Based on verifiable information
+   - **Varied**: Different question types, topics, and angles
+   - **Specific**: Detailed enough to avoid semantic duplicates
+
+4. **Commit After Each Category**
+   ```bash
+   git add Fiz/Resources/questions.json [script_files]
+   git commit -m "Add [X] [Category] questions to reach [target]
+
+   Distribution across subcategories:
+   - [Subcategory]: old → new (+added)
+
+   Difficulty: X hard, Y medium, Z easy
+   [Category]: old_count → new_count questions ✓"
+   ```
+
+#### **Phase 4: Incremental Duplicate Checking**
+
+After adding questions to each category:
+
+1. **Quick Duplicate Check**
+   - Check only the newly added questions against existing database
+   - Use similarity matching (exact, semantic >90%, essential >70%)
+   - Report any duplicates immediately
+
+2. **If Duplicates Found**
+   - Remove duplicate questions
+   - Generate replacement questions
+   - Verify replacements are unique
+   - Re-commit with updated questions
+
+#### **Phase 5: Final Verification (5-10 minutes)**
+
+After all categories completed:
+
+1. **Comprehensive Duplicate Analysis**
+   - Run full database duplicate check (all 1,800+ questions)
+   - Check for:
+     - Exact duplicates (identical text)
+     - Semantic duplicates (>90% similar, same answer)
+     - Essential duplicates (test same knowledge, 70-90% similar)
+   - Generate detailed report
+
+2. **Remove Any Found Duplicates**
+   - Create list of all duplicate question IDs
+   - Remove duplicates (keep lower ID number)
+   - Count how many questions each category needs to reach target
+
+3. **Generate Replacement Questions**
+   - Work through each category that needs replacements
+   - Generate VERY specific, unique questions
+   - Check each replacement against entire database
+   - Iterate until all replacements are verified unique
+
+4. **Final Verification**
+   - Confirm all categories at target count
+   - Verify zero duplicates in database
+   - Run final count check
+
+#### **Phase 6: Documentation & Commit**
+
+1. **Update CLAUDE.md**
+   - Update "Current Database Status" section at top of this workflow
+   - Update question counts in "Question Database Structure" section
+   - Update ID ranges if changed
+
+2. **Create Summary Report**
+   - Total questions added
+   - Duplicates removed
+   - Final database statistics
+   - Breakdown by category and difficulty
+
+3. **Final Commit and Push**
+   ```bash
+   git add -A
+   git commit -m "Complete database expansion to [X] questions per category
+
+   Summary:
+   - Added: X new questions
+   - Removed: Y duplicates
+   - Replaced: Z questions
+   - Final total: [total] questions
+
+   All categories at [target] questions (except Entertainment at [count])
+   ✅ All questions verified unique"
+
+   git push -u origin [branch-name]
+   ```
+
+### Quality Control Checklist
+
+Before considering expansion complete, verify:
+
+- ✅ All target categories at desired question count
+- ✅ Zero duplicates in entire database (verified with analysis tool)
+- ✅ Questions distributed across all subcategories
+- ✅ Difficulty emphasis on hard/medium as specified
+- ✅ All questions follow content guidelines (family-friendly, factual)
+- ✅ Backup created before expansion
+- ✅ All changes committed and pushed
+- ✅ Documentation updated
+
+### Tools & Scripts
+
+**Key Scripts Created During Expansions:**
+- `analyze_duplicates.py` - Comprehensive duplicate detection
+- `remove_duplicates.py` - Batch duplicate removal
+- `add_[category]_to_[target].py` - Category-specific question addition
+- `verify_replacements.py` - Replacement question verification
+
+**Duplicate Detection Method:**
+```python
+# Uses difflib.SequenceMatcher for similarity ratio
+# Exact: 100% match
+# Semantic: >90% match + same answer
+# Essential: 70-90% match + same answer
+```
+
+### Common Pitfalls to Avoid
+
+1. **Don't Generate Questions Without Checking Existing Database**
+   - Always read existing questions first
+   - Note common topics and patterns
+   - Avoid creating questions on already-covered facts
+
+2. **Don't Skip Incremental Duplicate Checks**
+   - Check after each category, not just at the end
+   - Easier to fix 10 duplicates than 50
+
+3. **Don't Batch Commit Too Many Categories**
+   - Commit after each category completion
+   - Easier to track and debug issues
+
+4. **Don't Ignore Semantic Duplicates**
+   - "What is X called?" vs "What is the name of X?" = duplicate
+   - Check meaning, not just exact text
+
+5. **Don't Rush Replacement Questions**
+   - Take time to make them truly unique
+   - Verify each one individually
+   - Better to be slow and accurate than fast and duplicate
+
+### Example Expansion Command Interpretations
+
+| User Command | Interpretation | Action |
+|--------------|----------------|--------|
+| "Expand database by 50 questions per category" | Add 50 to each non-Entertainment category | Add 300 total (6 categories × 50) |
+| "Expand database to 300 per category" | Bring all categories to 300 | Calculate difference from current count |
+| "Add 100 more questions" | Distribute 100 across all categories | ~16-17 per category |
+| "Balance the database with 25 more questions" | Add to underrepresented categories first | Prioritize smallest categories |
+
+### Workflow Efficiency Notes
+
+**Typical Timings:**
+- Analysis & Planning: 5-10 minutes
+- Question Generation (per category): 10-15 minutes for 50 questions
+- Duplicate Checking: 2-5 minutes per check
+- Replacement Generation: 5-10 minutes
+- Final Verification: 10-15 minutes
+- **Total for 50 questions per category (300 total)**: ~2-3 hours
+
+**Optimization Tips:**
+- Work category-by-category, not all at once
+- Commit frequently (after each category)
+- Run duplicate checks incrementally
+- Keep replacement batches small (easier to verify)
+- Use specific, detailed questions to naturally avoid duplicates

@@ -22,8 +22,10 @@ class AnalyticsManager: ObservableObject {
     }
 
     private func configurePostHog() {
-        let config = PostHogConfig(apiKey: "phc_pPTqusdmpJSoGYjymsgdz6BX6lcnUfuZzkKGw713JeZ")
-        config.host = "https://us.posthog.com"
+        let config = PostHogConfig(
+            apiKey: "phc_pPTqusdmpJSoGYjymsgdz6BX6lcnUfuZzkKGw713JeZ",
+            host: "https://us.posthog.com"
+        )
 
         // Privacy-focused configuration
         config.captureApplicationLifecycleEvents = false  // We'll track these manually

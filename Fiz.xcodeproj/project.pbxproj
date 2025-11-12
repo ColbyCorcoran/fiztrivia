@@ -24,6 +24,16 @@
 		B699B5FF2EBE4403001AF50D /* PersonalizationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */; };
 		B699B6002EBE4403001AF50D /* GameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */; };
 		B6B0E3452EC4EE3F007873A8 /* questions_backup_20251112_161007.json in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3442EC4EE3F007873A8 /* questions_backup_20251112_161007.json */; };
+		B6B0E3502EC4FBCC007873A8 /* App Icon-RegularPose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E34F2EC4FBCC007873A8 /* App Icon-RegularPose@3x.png */; };
+		B6B0E3512EC4FBCC007873A8 /* App Icon-NewHighScore@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E34D2EC4FBCC007873A8 /* App Icon-NewHighScore@3x.png */; };
+		B6B0E3522EC4FBCC007873A8 /* App Icon-Incorrect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3492EC4FBCC007873A8 /* App Icon-Incorrect@3x.png */; };
+		B6B0E3532EC4FBCC007873A8 /* App Icon-HappySmirk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3462EC4FBCC007873A8 /* App Icon-HappySmirk@2x.png */; };
+		B6B0E3542EC4FBCC007873A8 /* App Icon-Leaderboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E34B2EC4FBCC007873A8 /* App Icon-Leaderboard@3x.png */; };
+		B6B0E3552EC4FBCC007873A8 /* App Icon-Leaderboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E34A2EC4FBCC007873A8 /* App Icon-Leaderboard@2x.png */; };
+		B6B0E3562EC4FBCC007873A8 /* App Icon-RegularPose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E34E2EC4FBCC007873A8 /* App Icon-RegularPose@2x.png */; };
+		B6B0E3572EC4FBCC007873A8 /* App Icon-Incorrect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3482EC4FBCC007873A8 /* App Icon-Incorrect@2x.png */; };
+		B6B0E3582EC4FBCC007873A8 /* App Icon-NewHighScore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E34C2EC4FBCC007873A8 /* App Icon-NewHighScore@2x.png */; };
+		B6B0E3592EC4FBCC007873A8 /* App Icon-HappySmirk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3472EC4FBCC007873A8 /* App Icon-HappySmirk@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +78,16 @@
 		B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationSettingsView.swift; sourceTree = "<group>"; };
 		B699B6012EBE4A79001AF50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B6B0E3442EC4EE3F007873A8 /* questions_backup_20251112_161007.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_backup_20251112_161007.json; sourceTree = "<group>"; };
+		B6B0E3462EC4FBCC007873A8 /* App Icon-HappySmirk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-HappySmirk@2x.png"; sourceTree = "<group>"; };
+		B6B0E3472EC4FBCC007873A8 /* App Icon-HappySmirk@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-HappySmirk@3x.png"; sourceTree = "<group>"; };
+		B6B0E3482EC4FBCC007873A8 /* App Icon-Incorrect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-Incorrect@2x.png"; sourceTree = "<group>"; };
+		B6B0E3492EC4FBCC007873A8 /* App Icon-Incorrect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-Incorrect@3x.png"; sourceTree = "<group>"; };
+		B6B0E34A2EC4FBCC007873A8 /* App Icon-Leaderboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-Leaderboard@2x.png"; sourceTree = "<group>"; };
+		B6B0E34B2EC4FBCC007873A8 /* App Icon-Leaderboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-Leaderboard@3x.png"; sourceTree = "<group>"; };
+		B6B0E34C2EC4FBCC007873A8 /* App Icon-NewHighScore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-NewHighScore@2x.png"; sourceTree = "<group>"; };
+		B6B0E34D2EC4FBCC007873A8 /* App Icon-NewHighScore@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-NewHighScore@3x.png"; sourceTree = "<group>"; };
+		B6B0E34E2EC4FBCC007873A8 /* App Icon-RegularPose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-RegularPose@2x.png"; sourceTree = "<group>"; };
+		B6B0E34F2EC4FBCC007873A8 /* App Icon-RegularPose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon-RegularPose@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +118,16 @@
 		B66F14CB2E4B7DF200C426E5 = {
 			isa = PBXGroup;
 			children = (
+				B6B0E3462EC4FBCC007873A8 /* App Icon-HappySmirk@2x.png */,
+				B6B0E3472EC4FBCC007873A8 /* App Icon-HappySmirk@3x.png */,
+				B6B0E3482EC4FBCC007873A8 /* App Icon-Incorrect@2x.png */,
+				B6B0E3492EC4FBCC007873A8 /* App Icon-Incorrect@3x.png */,
+				B6B0E34A2EC4FBCC007873A8 /* App Icon-Leaderboard@2x.png */,
+				B6B0E34B2EC4FBCC007873A8 /* App Icon-Leaderboard@3x.png */,
+				B6B0E34C2EC4FBCC007873A8 /* App Icon-NewHighScore@2x.png */,
+				B6B0E34D2EC4FBCC007873A8 /* App Icon-NewHighScore@3x.png */,
+				B6B0E34E2EC4FBCC007873A8 /* App Icon-RegularPose@2x.png */,
+				B6B0E34F2EC4FBCC007873A8 /* App Icon-RegularPose@3x.png */,
 				B68C5A882EBD2A5400C2A449 /* Fiz */,
 				B68C5A742EBD2A4700C2A449 /* Fiz Tests */,
 				B68C5A722EBD2A2A00C2A449 /* Fiz UITests */,
@@ -309,6 +339,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B0E3452EC4EE3F007873A8 /* questions_backup_20251112_161007.json in Resources */,
+				B6B0E3502EC4FBCC007873A8 /* App Icon-RegularPose@3x.png in Resources */,
+				B6B0E3512EC4FBCC007873A8 /* App Icon-NewHighScore@3x.png in Resources */,
+				B6B0E3522EC4FBCC007873A8 /* App Icon-Incorrect@3x.png in Resources */,
+				B6B0E3532EC4FBCC007873A8 /* App Icon-HappySmirk@2x.png in Resources */,
+				B6B0E3542EC4FBCC007873A8 /* App Icon-Leaderboard@3x.png in Resources */,
+				B6B0E3552EC4FBCC007873A8 /* App Icon-Leaderboard@2x.png in Resources */,
+				B6B0E3562EC4FBCC007873A8 /* App Icon-RegularPose@2x.png in Resources */,
+				B6B0E3572EC4FBCC007873A8 /* App Icon-Incorrect@2x.png in Resources */,
+				B6B0E3582EC4FBCC007873A8 /* App Icon-NewHighScore@2x.png in Resources */,
+				B6B0E3592EC4FBCC007873A8 /* App Icon-HappySmirk@3x.png in Resources */,
 				B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */,
 				B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */,
 			);

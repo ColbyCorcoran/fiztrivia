@@ -1671,12 +1671,12 @@
         "id": "ent_121",
         "category": "Entertainment",
         "subcategory": "Pixar",
-        "question": "What is the name of the university in Monsters University?",
+        "question": "What is the name of the college Mike and Sully attend?",
         "options": [
           "Monsters University",
           "Scare University",
           "Fear Tech",
-          "Monsters Inc University"
+          "Monsters Community College"
         ],
         "correct_answer": "Monsters University",
         "difficulty": "easy"
@@ -2231,14 +2231,14 @@
         "id": "ent_161",
         "category": "Entertainment",
         "subcategory": "Pixar",
-        "question": "What is the name of the emotion that controls Riley's personality in Inside Out?",
+        "question": "What is the name of the main emotion that controls Riley's personality in Inside Out?",
         "options": [
           "Joy",
           "Sadness",
           "Anger",
-          "All emotions together"
+          "Disgust"
         ],
-        "correct_answer": "All emotions together",
+        "correct_answer": "Joy",
         "difficulty": "medium"
       },
       {
@@ -2248,7 +2248,7 @@
         "question": "In Brave, what is the name of Merida's mother?",
         "options": [
           "Queen Elinor",
-          "Queen Eleanor",
+          "Queen Elena",
           "Queen Elizabeth",
           "Queen Emma"
         ],
@@ -2261,27 +2261,13 @@
         "subcategory": "Pixar",
         "question": "What is the name of the daycare in Toy Story 3?",
         "options": [
-          "Sunny Side",
+          "Sunny Side Up",
           "Sunnyside",
           "Sunny Day",
           "Sunshine"
         ],
         "correct_answer": "Sunnyside",
         "difficulty": "medium"
-      },
-      {
-        "id": "ent_164",
-        "category": "Entertainment",
-        "subcategory": "Pixar",
-        "question": "In Monsters, Inc., what is the name of the little girl?",
-        "options": [
-          "Boo",
-          "Mary",
-          "Kitty",
-          "Baby"
-        ],
-        "correct_answer": "Boo",
-        "difficulty": "easy"
       },
       {
         "id": "ent_165",
@@ -3575,7 +3561,7 @@
         "id": "ent_259",
         "category": "Entertainment",
         "subcategory": "The Office",
-        "question": "What is Stanley's crossword puzzle addiction?",
+        "question": "What is Stanley's puzzle addiction?",
         "options": [
           "Daily crosswords",
           "Sudoku",
@@ -3830,7 +3816,7 @@
         "question": "What Pixar movie featured Woody and Buzz?",
         "options": [
           "Toy Story",
-          "Toy Story 4",
+          "Turning Red",
           "Finding Nemo",
           "Luca"
         ],
@@ -3841,7 +3827,7 @@
         "id": "ent_294",
         "category": "Entertainment",
         "subcategory": "Pixar",
-        "question": "What Pixar movie featured Nemo?",
+        "question": "What Pixar movie featured Bruce?",
         "options": [
           "Finding Nemo",
           "Toy Story 3",
@@ -3858,7 +3844,7 @@
         "question": "What Pixar movie featured Lightning McQueen?",
         "options": [
           "Cars",
-          "Cars 3",
+          "Inside Out",
           "Up",
           "Incredibles 2"
         ],
@@ -3869,10 +3855,10 @@
         "id": "ent_296",
         "category": "Entertainment",
         "subcategory": "Pixar",
-        "question": "What Pixar movie featured Sulley and Mike?",
+        "question": "What Pixar movie featured Sully and Mike?",
         "options": [
           "Monsters Inc.",
-          "Monsters University",
+          "Cars 2",
           "Coco",
           "Inside Out"
         ],
@@ -3883,7 +3869,7 @@
         "id": "ent_297",
         "category": "Entertainment",
         "subcategory": "Pixar",
-        "question": "What Pixar movie featured Mr. Incredible?",
+        "question": "What Pixar movie featured Syndrome?",
         "options": [
           "The Incredibles",
           "Lightyear",
@@ -3897,7 +3883,7 @@
         "id": "ent_298",
         "category": "Entertainment",
         "subcategory": "Pixar",
-        "question": "What Pixar movie featured WALL-E?",
+        "question": "What Pixar movie featured Eve?",
         "options": [
           "WALL-E",
           "Cars",
@@ -3992,20 +3978,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "ent_305",
-        "category": "Entertainment",
-        "subcategory": "Pixar",
-        "question": "What Pixar movie featured Luca?",
-        "options": [
-          "Luca",
-          "Inside Out",
-          "Monsters, Inc.",
-          "WALL-E"
-        ],
-        "correct_answer": "Luca",
-        "difficulty": "easy"
-      },
-      {
         "id": "ent_306",
         "category": "Entertainment",
         "subcategory": "Pixar",
@@ -4025,12 +3997,12 @@
         "subcategory": "Pixar",
         "question": "What Pixar movie featured Buzz Lightyear?",
         "options": [
-          "Lightyear",
+          "Toy Story 2",
           "WALL-E",
           "Ratatouille",
           "Up"
         ],
-        "correct_answer": "Lightyear",
+        "correct_answer": "Toy Story 2",
         "difficulty": "easy"
       },
       {
@@ -8012,20 +7984,6 @@
         ],
         "correct_answer": "3",
         "difficulty": "easy"
-      },
-      {
-        "id": "bib_100",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Who was the oldest man in the Bible?",
-        "options": [
-          "Noah",
-          "Adam",
-          "Methuselah",
-          "Abraham"
-        ],
-        "correct_answer": "Methuselah",
-        "difficulty": "medium"
       },
       {
         "id": "bib_101",
@@ -17106,20 +17064,6 @@
         ],
         "correct_answer": "Mount Everest",
         "difficulty": "easy"
-      },
-      {
-        "id": "ear_183",
-        "category": "Earth",
-        "subcategory": "Animals",
-        "question": "How many bones does a shark have?",
-        "options": [
-          "Over 100",
-          "About 50",
-          "Zero",
-          "Around 200"
-        ],
-        "correct_answer": "Zero",
-        "difficulty": "medium"
       },
       {
         "id": "ear_184",

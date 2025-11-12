@@ -3575,7 +3575,7 @@
         "id": "ent_259",
         "category": "Entertainment",
         "subcategory": "The Office",
-        "question": "What is Stanley's crossword puzzle addiction?",
+        "question": "What is Stanley's puzzle addiction?",
         "options": [
           "Daily crosswords",
           "Sudoku",
@@ -8012,20 +8012,6 @@
         ],
         "correct_answer": "3",
         "difficulty": "easy"
-      },
-      {
-        "id": "bib_100",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Who was the oldest man in the Bible?",
-        "options": [
-          "Noah",
-          "Adam",
-          "Methuselah",
-          "Abraham"
-        ],
-        "correct_answer": "Methuselah",
-        "difficulty": "medium"
       },
       {
         "id": "bib_101",
@@ -17106,20 +17092,6 @@
         ],
         "correct_answer": "Mount Everest",
         "difficulty": "easy"
-      },
-      {
-        "id": "ear_183",
-        "category": "Earth",
-        "subcategory": "Animals",
-        "question": "How many bones does a shark have?",
-        "options": [
-          "Over 100",
-          "About 50",
-          "Zero",
-          "Around 200"
-        ],
-        "correct_answer": "Zero",
-        "difficulty": "medium"
       },
       {
         "id": "ear_184",

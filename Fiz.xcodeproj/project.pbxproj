@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */; };
 		B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A772EBD2A5400C2A449 /* questions.json */; };
-		B68C5A8C2EBD2BB700C2A449 /* questions_backup_20251104_205250.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A782EBD2A5400C2A449 /* questions_backup_20251104_205250.json */; };
 		B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */; };
 		B68C5A8E2EBD2BC100C2A449 /* FizColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7B2EBD2A5400C2A449 /* FizColors.swift */; };
 		B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */; };
@@ -24,6 +23,7 @@
 		B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */; };
 		B699B5FF2EBE4403001AF50D /* PersonalizationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */; };
 		B699B6002EBE4403001AF50D /* GameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */; };
+		B6B0E3452EC4EE3F007873A8 /* questions_backup_20251112_161007.json in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3442EC4EE3F007873A8 /* questions_backup_20251112_161007.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaModels.swift; sourceTree = "<group>"; };
 		B68C5A772EBD2A5400C2A449 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
-		B68C5A782EBD2A5400C2A449 /* questions_backup_20251104_205250.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_backup_20251104_205250.json; sourceTree = "<group>"; };
 		B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHelpers.swift; sourceTree = "<group>"; };
 		B68C5A7B2EBD2A5400C2A449 /* FizColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizColors.swift; sourceTree = "<group>"; };
 		B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingsView.swift; sourceTree = "<group>"; };
 		B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationSettingsView.swift; sourceTree = "<group>"; };
 		B699B6012EBE4A79001AF50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B6B0E3442EC4EE3F007873A8 /* questions_backup_20251112_161007.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_backup_20251112_161007.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				B68C5A772EBD2A5400C2A449 /* questions.json */,
-				B68C5A782EBD2A5400C2A449 /* questions_backup_20251104_205250.json */,
+				B6B0E3442EC4EE3F007873A8 /* questions_backup_20251112_161007.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -308,7 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B68C5A8C2EBD2BB700C2A449 /* questions_backup_20251104_205250.json in Resources */,
+				B6B0E3452EC4EE3F007873A8 /* questions_backup_20251112_161007.json in Resources */,
 				B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */,
 				B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */,
 			);

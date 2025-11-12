@@ -18688,6 +18688,286 @@
         ],
         "correct_answer": "Antarctica",
         "difficulty": "medium"
+      },
+      {
+        "id": "ear_189",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the world's longest river?",
+        "options": [
+          "Nile River",
+          "Amazon River",
+          "Yangtze River",
+          "Mississippi River"
+        ],
+        "correct_answer": "Nile River",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_190",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the capital of Australia?",
+        "options": [
+          "Canberra",
+          "Sydney",
+          "Melbourne",
+          "Brisbane"
+        ],
+        "correct_answer": "Canberra",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_191",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which desert is the largest hot desert in the world?",
+        "options": [
+          "Sahara Desert",
+          "Arabian Desert",
+          "Gobi Desert",
+          "Kalahari Desert"
+        ],
+        "correct_answer": "Sahara Desert",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_192",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the smallest country in the world by area?",
+        "options": [
+          "Vatican City",
+          "Monaco",
+          "San Marino",
+          "Liechtenstein"
+        ],
+        "correct_answer": "Vatican City",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_193",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which mountain range separates Europe and Asia?",
+        "options": [
+          "Ural Mountains",
+          "Caucasus Mountains",
+          "Alps",
+          "Pyrenees"
+        ],
+        "correct_answer": "Ural Mountains",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_194",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the largest island in the world?",
+        "options": [
+          "Greenland",
+          "New Guinea",
+          "Borneo",
+          "Madagascar"
+        ],
+        "correct_answer": "Greenland",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_195",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which ocean is the deepest?",
+        "options": [
+          "Pacific Ocean",
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Arctic Ocean"
+        ],
+        "correct_answer": "Pacific Ocean",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_196",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the capital of Canada?",
+        "options": [
+          "Ottawa",
+          "Toronto",
+          "Montreal",
+          "Vancouver"
+        ],
+        "correct_answer": "Ottawa",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_197",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which waterfall is the tallest in the world?",
+        "options": [
+          "Angel Falls",
+          "Niagara Falls",
+          "Victoria Falls",
+          "Iguazu Falls"
+        ],
+        "correct_answer": "Angel Falls",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_198",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What strait separates Africa from Europe?",
+        "options": [
+          "Strait of Gibraltar",
+          "Bosporus Strait",
+          "Bering Strait",
+          "Strait of Hormuz"
+        ],
+        "correct_answer": "Strait of Gibraltar",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_199",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which country has the most time zones?",
+        "options": [
+          "France",
+          "Russia",
+          "United States",
+          "China"
+        ],
+        "correct_answer": "France",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_200",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the driest place on Earth?",
+        "options": [
+          "Atacama Desert",
+          "Sahara Desert",
+          "Death Valley",
+          "Antarctica"
+        ],
+        "correct_answer": "Atacama Desert",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_201",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which country is both in Europe and Asia?",
+        "options": [
+          "Turkey",
+          "Russia",
+          "Egypt",
+          "Kazakhstan"
+        ],
+        "correct_answer": "Turkey",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_202",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the largest lake in Africa?",
+        "options": [
+          "Lake Victoria",
+          "Lake Tanganyika",
+          "Lake Malawi",
+          "Lake Chad"
+        ],
+        "correct_answer": "Lake Victoria",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_203",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which city is located on two continents?",
+        "options": [
+          "Istanbul",
+          "Cairo",
+          "Dubai",
+          "Jerusalem"
+        ],
+        "correct_answer": "Istanbul",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_204",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the southernmost continent?",
+        "options": [
+          "Antarctica",
+          "Australia",
+          "South America",
+          "Africa"
+        ],
+        "correct_answer": "Antarctica",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_205",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which European capital is known as the 'City of a Hundred Spires'?",
+        "options": [
+          "Prague",
+          "Vienna",
+          "Budapest",
+          "Warsaw"
+        ],
+        "correct_answer": "Prague",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_206",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the largest country in South America?",
+        "options": [
+          "Brazil",
+          "Argentina",
+          "Peru",
+          "Colombia"
+        ],
+        "correct_answer": "Brazil",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_207",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which sea is the saltiest natural body of water?",
+        "options": [
+          "Dead Sea",
+          "Red Sea",
+          "Caspian Sea",
+          "Black Sea"
+        ],
+        "correct_answer": "Dead Sea",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_208",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the longest mountain range in the world?",
+        "options": [
+          "Andes",
+          "Rockies",
+          "Himalayas",
+          "Alps"
+        ],
+        "correct_answer": "Andes",
+        "difficulty": "medium"
       }
     ]
   }

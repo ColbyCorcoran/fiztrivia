@@ -7130,20 +7130,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "spt_213",
-        "category": "Sports",
-        "subcategory": "Soccer",
-        "question": "What is it called when a player scores three goals in one game?",
-        "options": [
-          "Hat trick",
-          "Triple",
-          "Grand slam",
-          "Perfect game"
-        ],
-        "correct_answer": "Hat trick",
-        "difficulty": "easy"
-      },
-      {
         "id": "spt_214",
         "category": "Sports",
         "subcategory": "Soccer",
@@ -7326,20 +7312,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "spt_227",
-        "category": "Sports",
-        "subcategory": "Olympics",
-        "question": "How often are the Summer Olympics held?",
-        "options": [
-          "Every 4 years",
-          "Every 2 years",
-          "Every 5 years",
-          "Annually"
-        ],
-        "correct_answer": "Every 4 years",
-        "difficulty": "easy"
-      },
-      {
         "id": "spt_228",
         "category": "Sports",
         "subcategory": "Olympics",
@@ -7351,20 +7323,6 @@
           "Larisa Latynina"
         ],
         "correct_answer": "Michael Phelps",
-        "difficulty": "medium"
-      },
-      {
-        "id": "spt_229",
-        "category": "Sports",
-        "subcategory": "Olympics",
-        "question": "What do the five Olympic rings represent?",
-        "options": [
-          "Five continents",
-          "Five sports",
-          "Five countries",
-          "Five values"
-        ],
-        "correct_answer": "Five continents",
         "difficulty": "medium"
       },
       {
@@ -7466,20 +7424,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "spt_237",
-        "category": "Sports",
-        "subcategory": "Golf",
-        "question": "What is one stroke over par called?",
-        "options": [
-          "Bogey",
-          "Birdie",
-          "Par",
-          "Double bogey"
-        ],
-        "correct_answer": "Bogey",
-        "difficulty": "easy"
-      },
-      {
         "id": "spt_238",
         "category": "Sports",
         "subcategory": "Tennis",
@@ -7492,20 +7436,6 @@
         ],
         "correct_answer": "4",
         "difficulty": "easy"
-      },
-      {
-        "id": "spt_239",
-        "category": "Sports",
-        "subcategory": "Tennis",
-        "question": "What surface is Wimbledon played on?",
-        "options": [
-          "Grass",
-          "Clay",
-          "Hard court",
-          "Carpet"
-        ],
-        "correct_answer": "Grass",
-        "difficulty": "medium"
       },
       {
         "id": "spt_240",
@@ -7578,20 +7508,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "spt_245",
-        "category": "Sports",
-        "subcategory": "Baseball",
-        "question": "What is the World Series?",
-        "options": [
-          "MLB championship",
-          "All-Star game",
-          "Spring training",
-          "Draft event"
-        ],
-        "correct_answer": "MLB championship",
-        "difficulty": "easy"
-      },
-      {
         "id": "spt_246",
         "category": "Sports",
         "subcategory": "Baseball",
@@ -7604,20 +7520,6 @@
         ],
         "correct_answer": "4",
         "difficulty": "easy"
-      },
-      {
-        "id": "spt_247",
-        "category": "Sports",
-        "subcategory": "Baseball",
-        "question": "What is a perfect game in baseball?",
-        "options": [
-          "No hits, walks, or errors",
-          "No runs allowed",
-          "All strikeouts",
-          "27 outs in a row"
-        ],
-        "correct_answer": "No hits, walks, or errors",
-        "difficulty": "hard"
       },
       {
         "id": "spt_248",
@@ -7648,20 +7550,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "spt_250",
-        "category": "Sports",
-        "subcategory": "American Football",
-        "question": "How many points is a touchdown worth?",
-        "options": [
-          "6",
-          "7",
-          "3",
-          "8"
-        ],
-        "correct_answer": "6",
-        "difficulty": "easy"
-      },
-      {
         "id": "spt_251",
         "category": "Sports",
         "subcategory": "American Football",
@@ -7673,34 +7561,6 @@
           "Grand Bowl"
         ],
         "correct_answer": "Super Bowl",
-        "difficulty": "easy"
-      },
-      {
-        "id": "spt_252",
-        "category": "Sports",
-        "subcategory": "American Football",
-        "question": "How many yards must a team advance to get a first down?",
-        "options": [
-          "10",
-          "5",
-          "15",
-          "20"
-        ],
-        "correct_answer": "10",
-        "difficulty": "medium"
-      },
-      {
-        "id": "spt_253",
-        "category": "Sports",
-        "subcategory": "American Football",
-        "question": "How many quarters are in an NFL game?",
-        "options": [
-          "4",
-          "2",
-          "3",
-          "6"
-        ],
-        "correct_answer": "4",
         "difficulty": "easy"
       },
       {
@@ -7800,6 +7660,146 @@
         ],
         "correct_answer": "10 feet",
         "difficulty": "medium"
+      },
+      {
+        "id": "spt_261",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "What violation occurs when a player dribbles, stops, then dribbles again?",
+        "options": [
+          "Double dribble",
+          "Traveling",
+          "Carrying",
+          "Palming"
+        ],
+        "correct_answer": "Double dribble",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_262",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "What is the penalty for a handball in the penalty area?",
+        "options": [
+          "Penalty kick",
+          "Free kick",
+          "Corner kick",
+          "Yellow card"
+        ],
+        "correct_answer": "Penalty kick",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_263",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "What is the area between the baseline and service line called?",
+        "options": [
+          "No man's land",
+          "The alley",
+          "The court",
+          "The box"
+        ],
+        "correct_answer": "No man's land",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_264",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "What is three strokes under par on a hole called?",
+        "options": [
+          "Albatross",
+          "Eagle",
+          "Birdie",
+          "Condor"
+        ],
+        "correct_answer": "Albatross",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_265",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is it called when a batter gets on base due to four balls?",
+        "options": [
+          "Walk",
+          "Hit by pitch",
+          "Single",
+          "Error"
+        ],
+        "correct_answer": "Walk",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_266",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is the offensive line position in the center called?",
+        "options": [
+          "Center",
+          "Guard",
+          "Tackle",
+          "Tight end"
+        ],
+        "correct_answer": "Center",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_268",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "What event combines cross-country skiing and rifle shooting?",
+        "options": [
+          "Biathlon",
+          "Nordic combined",
+          "Pentathlon",
+          "Decathlon"
+        ],
+        "correct_answer": "Biathlon",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_269",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "How long is the shot clock in the NBA?",
+        "options": [
+          "24 seconds",
+          "30 seconds",
+          "20 seconds",
+          "35 seconds"
+        ],
+        "correct_answer": "24 seconds",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_270",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "How many substitutions are typically allowed in a standard soccer match?",
+        "options": [
+          "3",
+          "5",
+          "Unlimited",
+          "7"
+        ],
+        "correct_answer": "3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_271",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What protective equipment do goalies wear on their legs?",
+        "options": [
+          "Pads",
+          "Shin guards",
+          "Skates",
+          "Helmets"
+        ],
+        "correct_answer": "Pads",
+        "difficulty": "easy"
       }
     ],
     "Bible": [
@@ -10674,34 +10674,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "bib_215",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Who was the first king of Israel?",
-        "options": [
-          "Saul",
-          "David",
-          "Solomon",
-          "Samuel"
-        ],
-        "correct_answer": "Saul",
-        "difficulty": "medium"
-      },
-      {
-        "id": "bib_216",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What musical instrument did David play?",
-        "options": [
-          "Harp",
-          "Trumpet",
-          "Flute",
-          "Drum"
-        ],
-        "correct_answer": "Harp",
-        "difficulty": "medium"
-      },
-      {
         "id": "bib_217",
         "category": "Bible",
         "subcategory": "Old Testament",
@@ -10714,20 +10686,6 @@
         ],
         "correct_answer": "10",
         "difficulty": "medium"
-      },
-      {
-        "id": "bib_218",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What was the name of Abraham's wife?",
-        "options": [
-          "Sarah",
-          "Rebecca",
-          "Rachel",
-          "Leah"
-        ],
-        "correct_answer": "Sarah",
-        "difficulty": "easy"
       },
       {
         "id": "bib_219",
@@ -10769,20 +10727,6 @@
           "Abednego"
         ],
         "correct_answer": "Daniel",
-        "difficulty": "easy"
-      },
-      {
-        "id": "bib_222",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What was the name of the garden where Adam and Eve lived?",
-        "options": [
-          "Garden of Eden",
-          "Garden of Gethsemane",
-          "Paradise",
-          "Zion"
-        ],
-        "correct_answer": "Garden of Eden",
         "difficulty": "easy"
       },
       {
@@ -10828,20 +10772,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "bib_226",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "How many sons did Jacob have?",
-        "options": [
-          "12",
-          "10",
-          "7",
-          "13"
-        ],
-        "correct_answer": "12",
-        "difficulty": "medium"
-      },
-      {
         "id": "bib_227",
         "category": "Bible",
         "subcategory": "Old Testament",
@@ -10882,20 +10812,6 @@
         ],
         "correct_answer": "His long hair",
         "difficulty": "medium"
-      },
-      {
-        "id": "bib_230",
-        "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "Who baptized Jesus?",
-        "options": [
-          "John the Baptist",
-          "Peter",
-          "James",
-          "Andrew"
-        ],
-        "correct_answer": "John the Baptist",
-        "difficulty": "easy"
       },
       {
         "id": "bib_231",
@@ -11010,34 +10926,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "bib_239",
-        "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "How many days did Jesus fast in the wilderness?",
-        "options": [
-          "40",
-          "30",
-          "7",
-          "14"
-        ],
-        "correct_answer": "40",
-        "difficulty": "medium"
-      },
-      {
-        "id": "bib_240",
-        "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "Who was the first person to see Jesus after his resurrection?",
-        "options": [
-          "Mary Magdalene",
-          "Peter",
-          "John",
-          "Thomas"
-        ],
-        "correct_answer": "Mary Magdalene",
-        "difficulty": "hard"
-      },
-      {
         "id": "bib_241",
         "category": "Bible",
         "subcategory": "New Testament",
@@ -11136,20 +11024,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "bib_248",
-        "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "How many years did the Israelites wander in the wilderness?",
-        "options": [
-          "40",
-          "30",
-          "50",
-          "70"
-        ],
-        "correct_answer": "40",
-        "difficulty": "medium"
-      },
-      {
         "id": "bib_249",
         "category": "Bible",
         "subcategory": "Biblical History",
@@ -11162,20 +11036,6 @@
         ],
         "correct_answer": "Red Sea",
         "difficulty": "medium"
-      },
-      {
-        "id": "bib_250",
-        "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "How many books are in the New Testament?",
-        "options": [
-          "27",
-          "39",
-          "66",
-          "22"
-        ],
-        "correct_answer": "27",
-        "difficulty": "hard"
       },
       {
         "id": "bib_251",
@@ -11234,20 +11094,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "bib_255",
-        "category": "Bible",
-        "subcategory": "Biblical Languages",
-        "question": "What does 'Emmanuel' mean?",
-        "options": [
-          "God with us",
-          "Prince of Peace",
-          "Messiah",
-          "Savior"
-        ],
-        "correct_answer": "God with us",
-        "difficulty": "medium"
-      },
-      {
         "id": "bib_256",
         "category": "Bible",
         "subcategory": "Biblical Languages",
@@ -11290,18 +11136,172 @@
         "difficulty": "hard"
       },
       {
-        "id": "bib_259",
+        "id": "bib_260",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Who was the wise king known for building the Temple in Jerusalem?",
+        "options": [
+          "Solomon",
+          "David",
+          "Saul",
+          "Hezekiah"
+        ],
+        "correct_answer": "Solomon",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_261",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which disciple walked on water with Jesus?",
+        "options": [
+          "Peter",
+          "John",
+          "James",
+          "Andrew"
+        ],
+        "correct_answer": "Peter",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_262",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does 'Maranatha' mean?",
+        "options": [
+          "Our Lord, come",
+          "God be with you",
+          "Peace",
+          "Blessed"
+        ],
+        "correct_answer": "Our Lord, come",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_263",
         "category": "Bible",
         "subcategory": "Bible Trivia",
-        "question": "What is the shortest verse in the Bible?",
+        "question": "What type of tree did Zacchaeus climb to see Jesus?",
         "options": [
-          "Jesus wept",
-          "God is love",
-          "Rejoice always",
-          "Pray continually"
+          "Sycamore",
+          "Fig",
+          "Olive",
+          "Cedar"
         ],
-        "correct_answer": "Jesus wept",
+        "correct_answer": "Sycamore",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_264",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What did God create on the third day?",
+        "options": [
+          "Land and vegetation",
+          "Sky and sea",
+          "Sun and moon",
+          "Animals"
+        ],
+        "correct_answer": "Land and vegetation",
         "difficulty": "medium"
+      },
+      {
+        "id": "bib_265",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Where did Jesus perform his first miracle?",
+        "options": [
+          "Cana",
+          "Capernaum",
+          "Jerusalem",
+          "Nazareth"
+        ],
+        "correct_answer": "Cana",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_266",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What river did the Israelites cross to enter the Promised Land?",
+        "options": [
+          "Jordan River",
+          "Euphrates",
+          "Nile",
+          "Tigris"
+        ],
+        "correct_answer": "Jordan River",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_267",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What are the first four books of the New Testament called?",
+        "options": [
+          "The Gospels",
+          "The Epistles",
+          "The Prophets",
+          "The Pentateuch"
+        ],
+        "correct_answer": "The Gospels",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_268",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What did Cain offer to God as a sacrifice?",
+        "options": [
+          "Crops from the field",
+          "A lamb",
+          "Gold",
+          "Incense"
+        ],
+        "correct_answer": "Crops from the field",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_269",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What was the name of the Roman centurion whose servant Jesus healed?",
+        "options": [
+          "Cornelius",
+          "Julius",
+          "Marcus",
+          "Gaius"
+        ],
+        "correct_answer": "Cornelius",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_270",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many books are in the entire Protestant Bible?",
+        "options": [
+          "66",
+          "73",
+          "39",
+          "27"
+        ],
+        "correct_answer": "66",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_271",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which prophet was known for his visions of dry bones coming to life?",
+        "options": [
+          "Ezekiel",
+          "Jeremiah",
+          "Isaiah",
+          "Daniel"
+        ],
+        "correct_answer": "Ezekiel",
+        "difficulty": "hard"
       }
     ],
     "History": [
@@ -14120,20 +14120,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "his_211",
-        "category": "History",
-        "subcategory": "Ancient History",
-        "question": "What was the capital of the Aztec Empire?",
-        "options": [
-          "Tenochtitlan",
-          "Cuzco",
-          "Tikal",
-          "Chichen Itza"
-        ],
-        "correct_answer": "Tenochtitlan",
-        "difficulty": "hard"
-      },
-      {
         "id": "his_212",
         "category": "History",
         "subcategory": "Ancient History",
@@ -14188,20 +14174,6 @@
         ],
         "correct_answer": "Aristotle",
         "difficulty": "medium"
-      },
-      {
-        "id": "his_216",
-        "category": "History",
-        "subcategory": "Ancient History",
-        "question": "What was the ancient Egyptian writing system called?",
-        "options": [
-          "Hieroglyphics",
-          "Cuneiform",
-          "Sanskrit",
-          "Linear B"
-        ],
-        "correct_answer": "Hieroglyphics",
-        "difficulty": "easy"
       },
       {
         "id": "his_217",
@@ -14260,20 +14232,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "his_221",
-        "category": "History",
-        "subcategory": "Ancient History",
-        "question": "Who was the last pharaoh of Egypt?",
-        "options": [
-          "Cleopatra VII",
-          "Tutankhamun",
-          "Ramses II",
-          "Nefertiti"
-        ],
-        "correct_answer": "Cleopatra VII",
-        "difficulty": "medium"
-      },
-      {
         "id": "his_222",
         "category": "History",
         "subcategory": "Ancient History",
@@ -14285,20 +14243,6 @@
           "Persian Empire"
         ],
         "correct_answer": "Mongol Empire",
-        "difficulty": "hard"
-      },
-      {
-        "id": "his_223",
-        "category": "History",
-        "subcategory": "Ancient History",
-        "question": "Which ancient civilization invented the wheel?",
-        "options": [
-          "Mesopotamians",
-          "Egyptians",
-          "Greeks",
-          "Chinese"
-        ],
-        "correct_answer": "Mesopotamians",
         "difficulty": "hard"
       },
       {
@@ -14328,20 +14272,6 @@
         ],
         "correct_answer": "1066",
         "difficulty": "medium"
-      },
-      {
-        "id": "his_226",
-        "category": "History",
-        "subcategory": "Medieval History",
-        "question": "Who was the first Holy Roman Emperor?",
-        "options": [
-          "Charlemagne",
-          "Otto I",
-          "Frederick Barbarossa",
-          "Charles V"
-        ],
-        "correct_answer": "Charlemagne",
-        "difficulty": "hard"
       },
       {
         "id": "his_227",
@@ -14568,20 +14498,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "his_243",
-        "category": "History",
-        "subcategory": "Church History",
-        "question": "Who was the first Archbishop of Canterbury?",
-        "options": [
-          "Augustine of Canterbury",
-          "Thomas Becket",
-          "Anselm",
-          "Lanfranc"
-        ],
-        "correct_answer": "Augustine of Canterbury",
-        "difficulty": "hard"
-      },
-      {
         "id": "his_244",
         "category": "History",
         "subcategory": "Church History",
@@ -14680,34 +14596,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "his_251",
-        "category": "History",
-        "subcategory": "Modern History",
-        "question": "Who was the first president of the United States?",
-        "options": [
-          "George Washington",
-          "Thomas Jefferson",
-          "John Adams",
-          "Benjamin Franklin"
-        ],
-        "correct_answer": "George Washington",
-        "difficulty": "easy"
-      },
-      {
-        "id": "his_252",
-        "category": "History",
-        "subcategory": "Modern History",
-        "question": "What year did World War I begin?",
-        "options": [
-          "1914",
-          "1917",
-          "1939",
-          "1941"
-        ],
-        "correct_answer": "1914",
-        "difficulty": "medium"
-      },
-      {
         "id": "his_253",
         "category": "History",
         "subcategory": "Modern History",
@@ -14719,20 +14607,6 @@
           "Anthony Eden"
         ],
         "correct_answer": "Winston Churchill",
-        "difficulty": "medium"
-      },
-      {
-        "id": "his_254",
-        "category": "History",
-        "subcategory": "Modern History",
-        "question": "What treaty ended World War I?",
-        "options": [
-          "Treaty of Versailles",
-          "Treaty of Paris",
-          "Treaty of Ghent",
-          "Treaty of Vienna"
-        ],
-        "correct_answer": "Treaty of Versailles",
         "difficulty": "medium"
       },
       {
@@ -14804,6 +14678,132 @@
         ],
         "correct_answer": "1789",
         "difficulty": "medium"
+      },
+      {
+        "id": "his_260",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "What year did the construction of the Panama Canal complete?",
+        "options": [
+          "1914",
+          "1904",
+          "1920",
+          "1898"
+        ],
+        "correct_answer": "1914",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_261",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "What metal did the Bronze Age get its name from?",
+        "options": [
+          "Bronze (copper and tin alloy)",
+          "Iron",
+          "Gold",
+          "Silver"
+        ],
+        "correct_answer": "Bronze (copper and tin alloy)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_262",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What title did the leader of the Mongol Empire hold?",
+        "options": [
+          "Khan",
+          "Sultan",
+          "Emperor",
+          "Caliph"
+        ],
+        "correct_answer": "Khan",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_263",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What religious movement emphasized predestination and was founded by John Calvin?",
+        "options": [
+          "Calvinism",
+          "Lutheranism",
+          "Anglicanism",
+          "Methodism"
+        ],
+        "correct_answer": "Calvinism",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_264",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "Which two cities were hit by atomic bombs in 1945?",
+        "options": [
+          "Hiroshima and Nagasaki",
+          "Tokyo and Kyoto",
+          "Osaka and Kobe",
+          "Nagoya and Yokohama"
+        ],
+        "correct_answer": "Hiroshima and Nagasaki",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_265",
+        "category": "History",
+        "subcategory": "Ancient History",
+        "question": "What ancient trade route connected China to the Mediterranean?",
+        "options": [
+          "Silk Road",
+          "Spice Route",
+          "Amber Road",
+          "Incense Route"
+        ],
+        "correct_answer": "Silk Road",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_266",
+        "category": "History",
+        "subcategory": "Medieval History",
+        "question": "What disease was also known as the 'Black Death'?",
+        "options": [
+          "Bubonic plague",
+          "Smallpox",
+          "Cholera",
+          "Typhus"
+        ],
+        "correct_answer": "Bubonic plague",
+        "difficulty": "easy"
+      },
+      {
+        "id": "his_267",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What year did Henry VIII establish the Church of England?",
+        "options": [
+          "1534",
+          "1517",
+          "1540",
+          "1558"
+        ],
+        "correct_answer": "1534",
+        "difficulty": "hard"
+      },
+      {
+        "id": "his_268",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "Which document declared the 13 American colonies independent from Britain?",
+        "options": [
+          "Declaration of Independence",
+          "Constitution",
+          "Bill of Rights",
+          "Articles of Confederation"
+        ],
+        "correct_answer": "Declaration of Independence",
+        "difficulty": "easy"
       }
     ],
     "Science": [
@@ -17622,20 +17622,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "sci_216",
-        "category": "Science",
-        "subcategory": "Astronomy",
-        "question": "What is the hottest planet in our solar system?",
-        "options": [
-          "Venus",
-          "Mercury",
-          "Mars",
-          "Jupiter"
-        ],
-        "correct_answer": "Venus",
-        "difficulty": "medium"
-      },
-      {
         "id": "sci_217",
         "category": "Science",
         "subcategory": "Astronomy",
@@ -17860,20 +17846,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "sci_233",
-        "category": "Science",
-        "subcategory": "Physics",
-        "question": "What type of energy does a moving object have?",
-        "options": [
-          "Kinetic",
-          "Potential",
-          "Thermal",
-          "Chemical"
-        ],
-        "correct_answer": "Kinetic",
-        "difficulty": "easy"
-      },
-      {
         "id": "sci_234",
         "category": "Science",
         "subcategory": "Physics",
@@ -17900,34 +17872,6 @@
         ],
         "correct_answer": "Acoustics",
         "difficulty": "medium"
-      },
-      {
-        "id": "sci_236",
-        "category": "Science",
-        "subcategory": "Physics",
-        "question": "What particle has no electric charge?",
-        "options": [
-          "Neutron",
-          "Proton",
-          "Electron",
-          "Positron"
-        ],
-        "correct_answer": "Neutron",
-        "difficulty": "easy"
-      },
-      {
-        "id": "sci_237",
-        "category": "Science",
-        "subcategory": "Physics",
-        "question": "What is the formula for kinetic energy?",
-        "options": [
-          "\u00bdmv\u00b2",
-          "mgh",
-          "mc\u00b2",
-          "Fd"
-        ],
-        "correct_answer": "\u00bdmv\u00b2",
-        "difficulty": "hard"
       },
       {
         "id": "sci_238",
@@ -17972,48 +17916,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "sci_241",
-        "category": "Science",
-        "subcategory": "Physics",
-        "question": "What is the speed of sound in air at room temperature?",
-        "options": [
-          "343 m/s",
-          "300 m/s",
-          "400 m/s",
-          "500 m/s"
-        ],
-        "correct_answer": "343 m/s",
-        "difficulty": "hard"
-      },
-      {
-        "id": "sci_242",
-        "category": "Science",
-        "subcategory": "Physics",
-        "question": "What is friction?",
-        "options": [
-          "A force that opposes motion",
-          "A type of energy",
-          "A form of acceleration",
-          "A state of matter"
-        ],
-        "correct_answer": "A force that opposes motion",
-        "difficulty": "easy"
-      },
-      {
-        "id": "sci_243",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the basic unit of life?",
-        "options": [
-          "Cell",
-          "Atom",
-          "Molecule",
-          "Tissue"
-        ],
-        "correct_answer": "Cell",
-        "difficulty": "easy"
-      },
-      {
         "id": "sci_244",
         "category": "Science",
         "subcategory": "Biology",
@@ -18039,20 +17941,6 @@
           "Respiration"
         ],
         "correct_answer": "Mitosis",
-        "difficulty": "medium"
-      },
-      {
-        "id": "sci_246",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the largest organ in the human body?",
-        "options": [
-          "Skin",
-          "Liver",
-          "Brain",
-          "Lungs"
-        ],
-        "correct_answer": "Skin",
         "difficulty": "medium"
       },
       {
@@ -18154,20 +18042,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "sci_254",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the smallest bone in the human body?",
-        "options": [
-          "Stapes (in the ear)",
-          "Phalanx",
-          "Carpal",
-          "Metacarpal"
-        ],
-        "correct_answer": "Stapes (in the ear)",
-        "difficulty": "hard"
-      },
-      {
         "id": "sci_255",
         "category": "Science",
         "subcategory": "Chemistry",
@@ -18180,20 +18054,6 @@
         ],
         "correct_answer": "Au",
         "difficulty": "medium"
-      },
-      {
-        "id": "sci_256",
-        "category": "Science",
-        "subcategory": "Chemistry",
-        "question": "What is the atomic number of carbon?",
-        "options": [
-          "6",
-          "12",
-          "8",
-          "14"
-        ],
-        "correct_answer": "6",
-        "difficulty": "hard"
       },
       {
         "id": "sci_257",
@@ -18236,20 +18096,6 @@
         ],
         "correct_answer": "Hydrogen",
         "difficulty": "easy"
-      },
-      {
-        "id": "sci_260",
-        "category": "Science",
-        "subcategory": "Chemistry",
-        "question": "What is the chemical formula for methane?",
-        "options": [
-          "CH4",
-          "CO2",
-          "C2H6",
-          "C3H8"
-        ],
-        "correct_answer": "CH4",
-        "difficulty": "hard"
       },
       {
         "id": "sci_261",
@@ -18305,6 +18151,160 @@
           "Lithium"
         ],
         "correct_answer": "Francium",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_265",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the study of motion without considering its causes called?",
+        "options": [
+          "Kinematics",
+          "Dynamics",
+          "Statics",
+          "Mechanics"
+        ],
+        "correct_answer": "Kinematics",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_266",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the process of a gas turning directly into a solid called?",
+        "options": [
+          "Deposition",
+          "Sublimation",
+          "Condensation",
+          "Freezing"
+        ],
+        "correct_answer": "Deposition",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_267",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the green pigment in plants that captures sunlight?",
+        "options": [
+          "Chlorophyll",
+          "Carotene",
+          "Xanthophyll",
+          "Anthocyanin"
+        ],
+        "correct_answer": "Chlorophyll",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_268",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is a comet's tail made of?",
+        "options": [
+          "Gas and dust",
+          "Ice",
+          "Rock",
+          "Metal"
+        ],
+        "correct_answer": "Gas and dust",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_269",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the bending of waves around obstacles called?",
+        "options": [
+          "Diffraction",
+          "Refraction",
+          "Reflection",
+          "Dispersion"
+        ],
+        "correct_answer": "Diffraction",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_271",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the control center of a cell called?",
+        "options": [
+          "Nucleus",
+          "Mitochondria",
+          "Ribosome",
+          "Endoplasmic reticulum"
+        ],
+        "correct_answer": "Nucleus",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_272",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the name of Mars' larger moon?",
+        "options": [
+          "Phobos",
+          "Deimos",
+          "Titan",
+          "Europa"
+        ],
+        "correct_answer": "Phobos",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_273",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the SI unit of frequency?",
+        "options": [
+          "Hertz",
+          "Watt",
+          "Joule",
+          "Volt"
+        ],
+        "correct_answer": "Hertz",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_274",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the pH of a strong base?",
+        "options": [
+          "Greater than 7",
+          "Equal to 7",
+          "Less than 7",
+          "Zero"
+        ],
+        "correct_answer": "Greater than 7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_275",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the tough outer layer of a tree called?",
+        "options": [
+          "Bark",
+          "Cambium",
+          "Phloem",
+          "Xylem"
+        ],
+        "correct_answer": "Bark",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_277",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the chemical symbol for lead?",
+        "options": [
+          "Pb",
+          "Ld",
+          "Le",
+          "Pl"
+        ],
+        "correct_answer": "Pb",
         "difficulty": "hard"
       }
     ],
@@ -21110,48 +21110,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "foo_207",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What spice is derived from the crocus flower?",
-        "options": [
-          "Saffron",
-          "Turmeric",
-          "Paprika",
-          "Cumin"
-        ],
-        "correct_answer": "Saffron",
-        "difficulty": "hard"
-      },
-      {
-        "id": "foo_208",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What grain is used to make traditional Japanese sake?",
-        "options": [
-          "Rice",
-          "Wheat",
-          "Barley",
-          "Corn"
-        ],
-        "correct_answer": "Rice",
-        "difficulty": "medium"
-      },
-      {
-        "id": "foo_209",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What is the main ingredient in hummus?",
-        "options": [
-          "Chickpeas",
-          "Lentils",
-          "White beans",
-          "Black beans"
-        ],
-        "correct_answer": "Chickpeas",
-        "difficulty": "medium"
-      },
-      {
         "id": "foo_210",
         "category": "Food",
         "subcategory": "Ingredients",
@@ -21782,20 +21740,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "foo_255",
-        "category": "Food",
-        "subcategory": "Sauces & Condiments",
-        "question": "What are the five French mother sauces?",
-        "options": [
-          "B\u00e9chamel, Velout\u00e9, Espagnole, Hollandaise, Tomato",
-          "Marinara, Alfredo, Pesto, Carbonara, Bolognese",
-          "Soy, Teriyaki, Hoisin, Oyster, Fish",
-          "Ranch, Blue cheese, Caesar, Thousand Island, Italian"
-        ],
-        "correct_answer": "B\u00e9chamel, Velout\u00e9, Espagnole, Hollandaise, Tomato",
-        "difficulty": "hard"
-      },
-      {
         "id": "foo_256",
         "category": "Food",
         "subcategory": "Sauces & Condiments",
@@ -21807,6 +21751,62 @@
           "Herb butter"
         ],
         "correct_answer": "Garlic mayonnaise",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_257",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the French term for vegetables cut into thin, matchstick-like strips?",
+        "options": [
+          "Julienne",
+          "Brunoise",
+          "Chiffonade",
+          "Mirepoix"
+        ],
+        "correct_answer": "Julienne",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_258",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What is the traditional base of a b\u00e9arnaise sauce?",
+        "options": [
+          "Hollandaise with tarragon",
+          "Butter and wine",
+          "Cream and egg",
+          "Mayonnaise"
+        ],
+        "correct_answer": "Hollandaise with tarragon",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_259",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What Italian dessert consists of coffee-soaked ladyfingers layered with mascarpone cheese?",
+        "options": [
+          "Tiramisu",
+          "Panna cotta",
+          "Zabaglione",
+          "Affogato"
+        ],
+        "correct_answer": "Tiramisu",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_260",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "Which food preservation method involves submerging food in vinegar or brine?",
+        "options": [
+          "Pickling",
+          "Curing",
+          "Smoking",
+          "Drying"
+        ],
+        "correct_answer": "Pickling",
         "difficulty": "medium"
       }
     ],
@@ -24738,20 +24738,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "ear_212",
-        "category": "Earth",
-        "subcategory": "Animals",
-        "question": "How many legs does a spider have?",
-        "options": [
-          "8",
-          "6",
-          "10",
-          "12"
-        ],
-        "correct_answer": "8",
-        "difficulty": "easy"
-      },
-      {
         "id": "ear_213",
         "category": "Earth",
         "subcategory": "Animals",
@@ -24878,20 +24864,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "ear_222",
-        "category": "Earth",
-        "subcategory": "Geography",
-        "question": "What is the longest river in the world?",
-        "options": [
-          "Nile",
-          "Amazon",
-          "Yangtze",
-          "Mississippi"
-        ],
-        "correct_answer": "Nile",
-        "difficulty": "medium"
-      },
-      {
         "id": "ear_223",
         "category": "Earth",
         "subcategory": "Geography",
@@ -24904,20 +24876,6 @@
         ],
         "correct_answer": "Africa",
         "difficulty": "easy"
-      },
-      {
-        "id": "ear_224",
-        "category": "Earth",
-        "subcategory": "Geography",
-        "question": "What is the capital of Canada?",
-        "options": [
-          "Ottawa",
-          "Toronto",
-          "Montreal",
-          "Vancouver"
-        ],
-        "correct_answer": "Ottawa",
-        "difficulty": "medium"
       },
       {
         "id": "ear_225",
@@ -24976,20 +24934,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "ear_229",
-        "category": "Earth",
-        "subcategory": "Geography",
-        "question": "Which desert is the largest hot desert in the world?",
-        "options": [
-          "Sahara",
-          "Arabian",
-          "Gobi",
-          "Kalahari"
-        ],
-        "correct_answer": "Sahara",
-        "difficulty": "medium"
-      },
-      {
         "id": "ear_230",
         "category": "Earth",
         "subcategory": "Geography",
@@ -25032,34 +24976,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "ear_233",
-        "category": "Earth",
-        "subcategory": "Geography",
-        "question": "Which sea is the saltiest natural body of water?",
-        "options": [
-          "Dead Sea",
-          "Red Sea",
-          "Mediterranean Sea",
-          "Caspian Sea"
-        ],
-        "correct_answer": "Dead Sea",
-        "difficulty": "medium"
-      },
-      {
-        "id": "ear_234",
-        "category": "Earth",
-        "subcategory": "Weather",
-        "question": "What causes thunder?",
-        "options": [
-          "Rapid expansion of heated air",
-          "Clouds colliding",
-          "Lightning striking ground",
-          "Rain hitting surfaces"
-        ],
-        "correct_answer": "Rapid expansion of heated air",
-        "difficulty": "hard"
-      },
-      {
         "id": "ear_235",
         "category": "Earth",
         "subcategory": "Weather",
@@ -25072,34 +24988,6 @@
         ],
         "correct_answer": "Meteorology",
         "difficulty": "medium"
-      },
-      {
-        "id": "ear_236",
-        "category": "Earth",
-        "subcategory": "Weather",
-        "question": "What is frozen rain called?",
-        "options": [
-          "Hail",
-          "Sleet",
-          "Snow",
-          "Graupel"
-        ],
-        "correct_answer": "Hail",
-        "difficulty": "medium"
-      },
-      {
-        "id": "ear_237",
-        "category": "Earth",
-        "subcategory": "Weather",
-        "question": "What type of cloud produces thunderstorms?",
-        "options": [
-          "Cumulonimbus",
-          "Cumulus",
-          "Stratus",
-          "Cirrus"
-        ],
-        "correct_answer": "Cumulonimbus",
-        "difficulty": "hard"
       },
       {
         "id": "ear_238",
@@ -25156,62 +25044,6 @@
         ],
         "correct_answer": "Enhanced Fujita Scale",
         "difficulty": "hard"
-      },
-      {
-        "id": "ear_242",
-        "category": "Earth",
-        "subcategory": "Plants",
-        "question": "What process do plants use to make food from sunlight?",
-        "options": [
-          "Photosynthesis",
-          "Respiration",
-          "Transpiration",
-          "Germination"
-        ],
-        "correct_answer": "Photosynthesis",
-        "difficulty": "easy"
-      },
-      {
-        "id": "ear_243",
-        "category": "Earth",
-        "subcategory": "Plants",
-        "question": "What is the largest flower in the world?",
-        "options": [
-          "Rafflesia arnoldii",
-          "Titan arum",
-          "Sunflower",
-          "Victoria amazonica"
-        ],
-        "correct_answer": "Rafflesia arnoldii",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ear_244",
-        "category": "Earth",
-        "subcategory": "Plants",
-        "question": "What part of the plant conducts photosynthesis?",
-        "options": [
-          "Leaves",
-          "Roots",
-          "Stems",
-          "Flowers"
-        ],
-        "correct_answer": "Leaves",
-        "difficulty": "easy"
-      },
-      {
-        "id": "ear_245",
-        "category": "Earth",
-        "subcategory": "Plants",
-        "question": "What is the study of plants called?",
-        "options": [
-          "Botany",
-          "Zoology",
-          "Ecology",
-          "Biology"
-        ],
-        "correct_answer": "Botany",
-        "difficulty": "medium"
       },
       {
         "id": "ear_246",
@@ -25309,6 +25141,174 @@
           "Tropical"
         ],
         "correct_answer": "Deciduous",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_253",
+        "category": "Earth",
+        "subcategory": "Animals",
+        "question": "What is the only venomous primate?",
+        "options": [
+          "Slow loris",
+          "Howler monkey",
+          "Lemur",
+          "Tarsier"
+        ],
+        "correct_answer": "Slow loris",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_255",
+        "category": "Earth",
+        "subcategory": "Weather",
+        "question": "What instrument measures humidity?",
+        "options": [
+          "Hygrometer",
+          "Barometer",
+          "Thermometer",
+          "Anemometer"
+        ],
+        "correct_answer": "Hygrometer",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_256",
+        "category": "Earth",
+        "subcategory": "Plants",
+        "question": "What part of the plant absorbs water and nutrients from the soil?",
+        "options": [
+          "Roots",
+          "Stems",
+          "Leaves",
+          "Flowers"
+        ],
+        "correct_answer": "Roots",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_257",
+        "category": "Earth",
+        "subcategory": "Trees",
+        "question": "What coniferous tree loses its needles in winter?",
+        "options": [
+          "Larch",
+          "Pine",
+          "Spruce",
+          "Fir"
+        ],
+        "correct_answer": "Larch",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_258",
+        "category": "Earth",
+        "subcategory": "Animals",
+        "question": "What is the largest species of penguin?",
+        "options": [
+          "Emperor penguin",
+          "King penguin",
+          "Gentoo penguin",
+          "Ad\u00e9lie penguin"
+        ],
+        "correct_answer": "Emperor penguin",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_259",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "Which U.S. state has the most active volcanoes?",
+        "options": [
+          "Alaska",
+          "Hawaii",
+          "Washington",
+          "California"
+        ],
+        "correct_answer": "Alaska",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_260",
+        "category": "Earth",
+        "subcategory": "Weather",
+        "question": "What is the rotating column of air over water called?",
+        "options": [
+          "Waterspout",
+          "Tornado",
+          "Hurricane",
+          "Cyclone"
+        ],
+        "correct_answer": "Waterspout",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_261",
+        "category": "Earth",
+        "subcategory": "Plants",
+        "question": "What is the process by which plants release water vapor?",
+        "options": [
+          "Transpiration",
+          "Photosynthesis",
+          "Respiration",
+          "Germination"
+        ],
+        "correct_answer": "Transpiration",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_262",
+        "category": "Earth",
+        "subcategory": "Trees",
+        "question": "What tree produces helicopter seeds?",
+        "options": [
+          "Maple",
+          "Oak",
+          "Pine",
+          "Birch"
+        ],
+        "correct_answer": "Maple",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_264",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What mountain range separates Europe from Asia?",
+        "options": [
+          "Ural Mountains",
+          "Alps",
+          "Himalayas",
+          "Caucasus"
+        ],
+        "correct_answer": "Ural Mountains",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_265",
+        "category": "Earth",
+        "subcategory": "Geography",
+        "question": "What is the capital of Japan?",
+        "options": [
+          "Tokyo",
+          "Osaka",
+          "Kyoto",
+          "Nagoya"
+        ],
+        "correct_answer": "Tokyo",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ear_266",
+        "category": "Earth",
+        "subcategory": "Animals",
+        "question": "What is a group of whales called?",
+        "options": [
+          "Pod",
+          "School",
+          "Herd",
+          "Pack"
+        ],
+        "correct_answer": "Pod",
         "difficulty": "medium"
       }
     ]

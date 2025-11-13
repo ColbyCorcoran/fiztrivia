@@ -11052,20 +11052,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "bib_252",
-        "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "How many books of the Bible did Moses write?",
-        "options": [
-          "5",
-          "3",
-          "7",
-          "10"
-        ],
-        "correct_answer": "5",
-        "difficulty": "hard"
-      },
-      {
         "id": "bib_253",
         "category": "Bible",
         "subcategory": "Biblical Theology",
@@ -11080,18 +11066,18 @@
         "difficulty": "hard"
       },
       {
-        "id": "bib_254",
+        "id": "bib_255",
         "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "How many commandments did God give to Moses?",
+        "subcategory": "Old Testament",
+        "question": "What did Lot's wife turn into when she looked back at Sodom?",
         "options": [
-          "10",
-          "7",
-          "12",
-          "40"
+          "A pillar of salt",
+          "Stone",
+          "Dust",
+          "Ashes"
         ],
-        "correct_answer": "10",
-        "difficulty": "easy"
+        "correct_answer": "A pillar of salt",
+        "difficulty": "medium"
       },
       {
         "id": "bib_256",
@@ -11108,20 +11094,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "bib_257",
-        "category": "Bible",
-        "subcategory": "Biblical Languages",
-        "question": "What does 'Messiah' mean?",
-        "options": [
-          "Anointed one",
-          "King",
-          "Prophet",
-          "Savior"
-        ],
-        "correct_answer": "Anointed one",
-        "difficulty": "medium"
-      },
-      {
         "id": "bib_258",
         "category": "Bible",
         "subcategory": "Bible Trivia",
@@ -11133,6 +11105,20 @@
           "Jeremiah"
         ],
         "correct_answer": "Psalms",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_259",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "How many sons of Jesse did Samuel see before anointing David as king?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "5"
+        ],
+        "correct_answer": "7",
         "difficulty": "hard"
       },
       {
@@ -11301,6 +11287,720 @@
           "Daniel"
         ],
         "correct_answer": "Ezekiel",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_272",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What was the name of the high priest who questioned Jesus before his crucifixion?",
+        "options": [
+          "Caiaphas",
+          "Annas",
+          "Nicodemus",
+          "Gamaliel"
+        ],
+        "correct_answer": "Caiaphas",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_274",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "How many lepers did Jesus heal, but only one returned to thank Him?",
+        "options": [
+          "10",
+          "7",
+          "12",
+          "5"
+        ],
+        "correct_answer": "10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_276",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which disciple doubted Jesus' resurrection until he saw Him?",
+        "options": [
+          "Thomas",
+          "Peter",
+          "Philip",
+          "Nathanael"
+        ],
+        "correct_answer": "Thomas",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_277",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What was the occupation of Matthew before becoming a disciple?",
+        "options": [
+          "Tax collector",
+          "Fisherman",
+          "Carpenter",
+          "Physician"
+        ],
+        "correct_answer": "Tax collector",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_278",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which book of the New Testament has only one chapter?",
+        "options": [
+          "Philemon",
+          "Jude",
+          "2 John",
+          "3 John"
+        ],
+        "correct_answer": "Philemon",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_279",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What was the name of the island where John wrote the book of Revelation?",
+        "options": [
+          "Patmos",
+          "Cyprus",
+          "Crete",
+          "Malta"
+        ],
+        "correct_answer": "Patmos",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_280",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which woman is mentioned as a seller of purple cloth in the book of Acts?",
+        "options": [
+          "Lydia",
+          "Priscilla",
+          "Phoebe",
+          "Dorcas"
+        ],
+        "correct_answer": "Lydia",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_282",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What parable did Jesus tell about a father and his two sons?",
+        "options": [
+          "The Prodigal Son",
+          "The Good Samaritan",
+          "The Lost Sheep",
+          "The Sower"
+        ],
+        "correct_answer": "The Prodigal Son",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_283",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which two disciples were brothers and fishermen?",
+        "options": [
+          "Peter and Andrew",
+          "James and John",
+          "Matthew and Thomas",
+          "Philip and Bartholomew"
+        ],
+        "correct_answer": "Peter and Andrew",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_285",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Who was released instead of Jesus during Pilate's trial?",
+        "options": [
+          "Barabbas",
+          "Simon",
+          "Judas",
+          "Ananias"
+        ],
+        "correct_answer": "Barabbas",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_286",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What year is traditionally given for the fall of Jerusalem to Babylon?",
+        "options": [
+          "586 BC",
+          "722 BC",
+          "70 AD",
+          "135 AD"
+        ],
+        "correct_answer": "586 BC",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_287",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Which empire conquered the Northern Kingdom of Israel in 722 BC?",
+        "options": [
+          "Assyrian Empire",
+          "Babylonian Empire",
+          "Persian Empire",
+          "Greek Empire"
+        ],
+        "correct_answer": "Assyrian Empire",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_288",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "How many years did the Babylonian exile last?",
+        "options": [
+          "70",
+          "40",
+          "50",
+          "100"
+        ],
+        "correct_answer": "70",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_289",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Which Roman emperor destroyed the Second Temple in Jerusalem in 70 AD?",
+        "options": [
+          "Titus",
+          "Nero",
+          "Vespasian",
+          "Hadrian"
+        ],
+        "correct_answer": "Titus",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_290",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What was the name of the Jewish revolt against Rome that occurred in 66-73 AD?",
+        "options": [
+          "First Jewish-Roman War",
+          "Bar Kokhba Revolt",
+          "Maccabean Revolt",
+          "Hasmonean Rebellion"
+        ],
+        "correct_answer": "First Jewish-Roman War",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_291",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "Which book of the Bible does not mention the word 'God'?",
+        "options": [
+          "Esther",
+          "Ruth",
+          "Song of Solomon",
+          "Obadiah"
+        ],
+        "correct_answer": "Esther",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_292",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many chapters are in the book of Genesis?",
+        "options": [
+          "50",
+          "40",
+          "66",
+          "27"
+        ],
+        "correct_answer": "50",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_293",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "Which book of the Bible is the shortest?",
+        "options": [
+          "2 John",
+          "3 John",
+          "Philemon",
+          "Obadiah"
+        ],
+        "correct_answer": "2 John",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_294",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many psalms are in the book of Psalms?",
+        "options": [
+          "150",
+          "100",
+          "120",
+          "200"
+        ],
+        "correct_answer": "150",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_295",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What does the term 'Trinity' refer to in Christian theology?",
+        "options": [
+          "Father, Son, and Holy Spirit",
+          "Three patriarchs",
+          "Three kingdoms",
+          "Three covenants"
+        ],
+        "correct_answer": "Father, Son, and Holy Spirit",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_296",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What is the term for God becoming human in Jesus Christ?",
+        "options": [
+          "Incarnation",
+          "Transfiguration",
+          "Ascension",
+          "Resurrection"
+        ],
+        "correct_answer": "Incarnation",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_297",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What does 'justification by faith' mean in Christian theology?",
+        "options": [
+          "Being declared righteous through belief",
+          "Proving one's worthiness",
+          "Earning salvation",
+          "Following the law"
+        ],
+        "correct_answer": "Being declared righteous through belief",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_299",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does 'Emmanuel' or 'Immanuel' mean?",
+        "options": [
+          "God with us",
+          "God saves",
+          "God is mighty",
+          "God is holy"
+        ],
+        "correct_answer": "God with us",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_300",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does 'Abba' mean in Aramaic?",
+        "options": [
+          "Father",
+          "Lord",
+          "Master",
+          "Teacher"
+        ],
+        "correct_answer": "Father",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_252",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What precious metal did the Israelites take from Egypt before the Exodus?",
+        "options": [
+          "Gold and silver",
+          "Only gold",
+          "Only silver",
+          "Bronze"
+        ],
+        "correct_answer": "Gold and silver",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_254",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which book follows Deuteronomy in the Old Testament?",
+        "options": [
+          "Joshua",
+          "Judges",
+          "Ruth",
+          "1 Samuel"
+        ],
+        "correct_answer": "Joshua",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_257",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What was the name of King Saul's father?",
+        "options": [
+          "Kish",
+          "Jesse",
+          "Nahor",
+          "Terah"
+        ],
+        "correct_answer": "Kish",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_273",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What gifts did the wise men bring to baby Jesus?",
+        "options": [
+          "Gold, frankincense, and myrrh",
+          "Gold, silver, and bronze",
+          "Jewels, spices, and cloth",
+          "Gold, incense, and oil"
+        ],
+        "correct_answer": "Gold, frankincense, and myrrh",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_281",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What was the name of the garden where Jesus prayed before His arrest?",
+        "options": [
+          "Gethsemane",
+          "Eden",
+          "Kidron",
+          "Olivet"
+        ],
+        "correct_answer": "Gethsemane",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_301",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which prophet married a prostitute as a symbol of God's love for Israel?",
+        "options": [
+          "Hosea",
+          "Jeremiah",
+          "Ezekiel",
+          "Amos"
+        ],
+        "correct_answer": "Hosea",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_302",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What instrument did the Israelites blow to make the walls of Jericho fall?",
+        "options": [
+          "Trumpets (shofars)",
+          "Drums",
+          "Cymbals",
+          "Harps"
+        ],
+        "correct_answer": "Trumpets (shofars)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_303",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which king of Judah found the Book of the Law in the temple?",
+        "options": [
+          "Josiah",
+          "Hezekiah",
+          "Manasseh",
+          "Amon"
+        ],
+        "correct_answer": "Josiah",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_304",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What food did God provide the Israelites in the wilderness besides manna?",
+        "options": [
+          "Quail",
+          "Fish",
+          "Bread",
+          "Honey"
+        ],
+        "correct_answer": "Quail",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_305",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which prophet's name means 'The Lord is my God'?",
+        "options": [
+          "Elijah",
+          "Isaiah",
+          "Jeremiah",
+          "Ezekiel"
+        ],
+        "correct_answer": "Elijah",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_306",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "What did Esau trade to Jacob for a bowl of stew?",
+        "options": [
+          "His birthright",
+          "His cattle",
+          "His land",
+          "His servants"
+        ],
+        "correct_answer": "His birthright",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_310",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which book contains the story of Queen Esther saving the Jewish people?",
+        "options": [
+          "Esther",
+          "Ruth",
+          "Judges",
+          "1 Samuel"
+        ],
+        "correct_answer": "Esther",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_313",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which disciple was a Zealot before following Jesus?",
+        "options": [
+          "Simon the Zealot",
+          "Simon Peter",
+          "Judas Iscariot",
+          "Matthew"
+        ],
+        "correct_answer": "Simon the Zealot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_314",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which epistle is addressed to a man named Theophilus?",
+        "options": [
+          "Luke (Gospel) and Acts",
+          "1 Timothy",
+          "Philemon",
+          "Titus"
+        ],
+        "correct_answer": "Luke (Gospel) and Acts",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_315",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which church did Paul address in his letter about the 'fruit of the Spirit'?",
+        "options": [
+          "Galatians",
+          "Ephesians",
+          "Colossians",
+          "Philippians"
+        ],
+        "correct_answer": "Galatians",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_316",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "Which New Testament book contains only one chapter?",
+        "options": [
+          "Philemon",
+          "Jude",
+          "2 John",
+          "3 John"
+        ],
+        "correct_answer": "Philemon",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_317",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What was the occupation of Simon Peter before becoming a disciple?",
+        "options": [
+          "Fisherman",
+          "Tax collector",
+          "Carpenter",
+          "Physician"
+        ],
+        "correct_answer": "Fisherman",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_318",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "On what day of the week did Jesus rise from the dead?",
+        "options": [
+          "Sunday",
+          "Saturday",
+          "Friday",
+          "Monday"
+        ],
+        "correct_answer": "Sunday",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_319",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Which Jewish festival commemorates the Israelites' deliverance from Egypt?",
+        "options": [
+          "Passover",
+          "Pentecost",
+          "Tabernacles",
+          "Purim"
+        ],
+        "correct_answer": "Passover",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_320",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What does the word 'Christ' literally mean?",
+        "options": [
+          "Anointed One",
+          "Savior",
+          "King",
+          "Prophet"
+        ],
+        "correct_answer": "Anointed One",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_321",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What does the doctrine of the Trinity teach?",
+        "options": [
+          "One God in three persons",
+          "Three separate Gods",
+          "Three stages of God",
+          "Three names of God"
+        ],
+        "correct_answer": "One God in three persons",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_322",
+        "category": "Bible",
+        "subcategory": "Biblical Languages",
+        "question": "What does 'Eloi, Eloi, lama sabachthani' mean?",
+        "options": [
+          "My God, my God, why have you forsaken me?",
+          "Father, into your hands I commit my spirit",
+          "It is finished",
+          "Father, forgive them"
+        ],
+        "correct_answer": "My God, my God, why have you forsaken me?",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_323",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which judge of Israel had 30 sons who rode 30 donkeys?",
+        "options": [
+          "Jair",
+          "Gideon",
+          "Samson",
+          "Tola"
+        ],
+        "correct_answer": "Jair",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_324",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What was the name of the sorcerer who tried to buy the power of the Holy Spirit?",
+        "options": [
+          "Simon",
+          "Elymas",
+          "Bar-Jesus",
+          "Apollos"
+        ],
+        "correct_answer": "Simon",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_325",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which king of Israel reigned for only seven days before committing suicide?",
+        "options": [
+          "Zimri",
+          "Ahab",
+          "Jehu",
+          "Baasha"
+        ],
+        "correct_answer": "Zimri",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_326",
+        "category": "Bible",
+        "subcategory": "New Testament",
+        "question": "What was the name of Paul's companion who was left sick in Miletus?",
+        "options": [
+          "Trophimus",
+          "Tychicus",
+          "Titus",
+          "Timothy"
+        ],
+        "correct_answer": "Trophimus",
+        "difficulty": "hard"
+      },
+      {
+        "id": "bib_327",
+        "category": "Bible",
+        "subcategory": "Old Testament",
+        "question": "Which book of poetry in the Bible contains the phrase \"vanity of vanities\"?",
+        "options": [
+          "Ecclesiastes",
+          "Proverbs",
+          "Psalms",
+          "Song of Solomon"
+        ],
+        "correct_answer": "Ecclesiastes",
         "difficulty": "hard"
       }
     ],
@@ -17538,20 +18238,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "sci_210",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the largest internal organ in the human body?",
-        "options": [
-          "Liver",
-          "Heart",
-          "Brain",
-          "Stomach"
-        ],
-        "correct_answer": "Liver",
-        "difficulty": "medium"
-      },
-      {
         "id": "sci_211",
         "category": "Science",
         "subcategory": "Physics",
@@ -17591,20 +18277,6 @@
           "Pt"
         ],
         "correct_answer": "K",
-        "difficulty": "hard"
-      },
-      {
-        "id": "sci_214",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the study of fungi called?",
-        "options": [
-          "Mycology",
-          "Botany",
-          "Zoology",
-          "Bacteriology"
-        ],
-        "correct_answer": "Mycology",
         "difficulty": "hard"
       },
       {
@@ -18292,6 +18964,20 @@
         ],
         "correct_answer": "Bark",
         "difficulty": "easy"
+      },
+      {
+        "id": "sci_277",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the chemical symbol for lead?",
+        "options": [
+          "Pb",
+          "Ld",
+          "Le",
+          "Pl"
+        ],
+        "correct_answer": "Pb",
+        "difficulty": "hard"
       },
       {
         "id": "sci_277",

@@ -8236,20 +8236,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "spt_304",
-        "category": "Sports",
-        "subcategory": "American Football",
-        "question": "What is the line of scrimmage?",
-        "options": [
-          "The imaginary line where the ball is placed",
-          "The end zone line",
-          "The sideline",
-          "The 50-yard line"
-        ],
-        "correct_answer": "The imaginary line where the ball is placed",
-        "difficulty": "medium"
-      },
-      {
         "id": "spt_305",
         "category": "Sports",
         "subcategory": "American Football",
@@ -8404,34 +8390,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "spt_316",
-        "category": "Sports",
-        "subcategory": "Hockey",
-        "question": "What is icing in hockey?",
-        "options": [
-          "Shooting the puck from behind center line past goal line",
-          "Freezing the puck",
-          "A penalty",
-          "Scoring three goals"
-        ],
-        "correct_answer": "Shooting the puck from behind center line past goal line",
-        "difficulty": "hard"
-      },
-      {
-        "id": "spt_317",
-        "category": "Sports",
-        "subcategory": "Hockey",
-        "question": "What is a power play in hockey?",
-        "options": [
-          "Playing with a man advantage",
-          "A strong offensive play",
-          "A penalty shot",
-          "Overtime play"
-        ],
-        "correct_answer": "Playing with a man advantage",
-        "difficulty": "medium"
-      },
-      {
         "id": "spt_318",
         "category": "Sports",
         "subcategory": "Hockey",
@@ -8460,20 +8418,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "spt_320",
-        "category": "Sports",
-        "subcategory": "Golf",
-        "question": "What is the green in golf?",
-        "options": [
-          "The putting surface around the hole",
-          "The fairway",
-          "The rough",
-          "The tee box"
-        ],
-        "correct_answer": "The putting surface around the hole",
-        "difficulty": "easy"
-      },
-      {
         "id": "spt_321",
         "category": "Sports",
         "subcategory": "Olympics",
@@ -8500,6 +8444,62 @@
         ],
         "correct_answer": "Triathlon",
         "difficulty": "easy"
+      },
+      {
+        "id": "spt_323",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "What is the fairway in golf?",
+        "options": [
+          "The mowed area between tee and green",
+          "The putting surface",
+          "The sand trap",
+          "The rough"
+        ],
+        "correct_answer": "The mowed area between tee and green",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_324",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is a hat trick called when scored consecutively?",
+        "options": [
+          "Natural hat trick",
+          "Perfect hat trick",
+          "Pure hat trick",
+          "True hat trick"
+        ],
+        "correct_answer": "Natural hat trick",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_325",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is the trapezoid area behind the goal used for?",
+        "options": [
+          "Restricting goalie puck handling",
+          "Penalty shots",
+          "Face-offs",
+          "Icing calls"
+        ],
+        "correct_answer": "Restricting goalie puck handling",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_326",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is a quarterback sack?",
+        "options": [
+          "Tackling the QB behind the line of scrimmage",
+          "Intercepting a pass",
+          "Fumbling the ball",
+          "Missing a field goal"
+        ],
+        "correct_answer": "Tackling the QB behind the line of scrimmage",
+        "difficulty": "medium"
       }
     ],
     "Bible": [
@@ -16864,20 +16864,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "his_311",
-        "category": "History",
-        "subcategory": "Church History",
-        "question": "Which council established the Nicene Creed?",
-        "options": [
-          "Council of Nicaea",
-          "Council of Trent",
-          "Council of Chalcedon",
-          "Council of Constantinople"
-        ],
-        "correct_answer": "Council of Nicaea",
-        "difficulty": "medium"
-      },
-      {
         "id": "his_312",
         "category": "History",
         "subcategory": "Church History",
@@ -16904,6 +16890,20 @@
         ],
         "correct_answer": "Martin Luther",
         "difficulty": "medium"
+      },
+      {
+        "id": "his_314",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "Which council addressed the Arian heresy in 325 AD?",
+        "options": [
+          "First Council of Nicaea",
+          "Council of Chalcedon",
+          "Council of Trent",
+          "Council of Constantinople"
+        ],
+        "correct_answer": "First Council of Nicaea",
+        "difficulty": "hard"
       }
     ],
     "Science": [
@@ -20310,20 +20310,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "sci_277",
-        "category": "Science",
-        "subcategory": "Chemistry",
-        "question": "What is the chemical symbol for lead?",
-        "options": [
-          "Pb",
-          "Ld",
-          "Le",
-          "Pl"
-        ],
-        "correct_answer": "Pb",
-        "difficulty": "hard"
-      },
-      {
         "id": "sci_251",
         "category": "Science",
         "subcategory": "Chemistry",
@@ -20602,20 +20588,6 @@
         ],
         "correct_answer": "Femur",
         "difficulty": "easy"
-      },
-      {
-        "id": "sci_277",
-        "category": "Science",
-        "subcategory": "Physics",
-        "question": "What law states that for every action, there is an equal and opposite reaction?",
-        "options": [
-          "Newton's third law",
-          "Newton's first law",
-          "Law of gravity",
-          "Law of inertia"
-        ],
-        "correct_answer": "Newton's third law",
-        "difficulty": "medium"
       },
       {
         "id": "sci_278",
@@ -20982,20 +20954,6 @@
         "difficulty": "easy"
       },
       {
-        "id": "sci_313",
-        "category": "Science",
-        "subcategory": "Physics",
-        "question": "What is the SI unit of power?",
-        "options": [
-          "Watt",
-          "Joule",
-          "Newton",
-          "Volt"
-        ],
-        "correct_answer": "Watt",
-        "difficulty": "medium"
-      },
-      {
         "id": "sci_314",
         "category": "Science",
         "subcategory": "Physics",
@@ -21106,6 +21064,48 @@
         ],
         "correct_answer": "Moon's gravitational pull",
         "difficulty": "medium"
+      },
+      {
+        "id": "sci_322",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the SI unit of energy?",
+        "options": [
+          "Joule",
+          "Watt",
+          "Newton",
+          "Pascal"
+        ],
+        "correct_answer": "Joule",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_323",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the chemical formula for ammonia?",
+        "options": [
+          "NH\u2083",
+          "NH\u2084",
+          "N\u2082H\u2084",
+          "N\u2083H"
+        ],
+        "correct_answer": "NH\u2083",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_324",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the term for an organism that makes its own food?",
+        "options": [
+          "Autotroph",
+          "Heterotroph",
+          "Decomposer",
+          "Consumer"
+        ],
+        "correct_answer": "Autotroph",
+        "difficulty": "hard"
       }
     ],
     "Food": [
@@ -28994,20 +28994,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "ear_273",
-        "category": "Earth",
-        "subcategory": "Weather",
-        "question": "What causes the Northern Lights (Aurora Borealis)?",
-        "options": [
-          "Solar wind interacting with Earth's magnetic field",
-          "Ice crystals in the atmosphere",
-          "Volcanic ash",
-          "Moon's gravity"
-        ],
-        "correct_answer": "Solar wind interacting with Earth's magnetic field",
-        "difficulty": "hard"
-      },
-      {
         "id": "ear_274",
         "category": "Earth",
         "subcategory": "Weather",
@@ -29246,20 +29232,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "ear_295",
-        "category": "Earth",
-        "subcategory": "Plants",
-        "question": "What is the study of plants called?",
-        "options": [
-          "Botany",
-          "Zoology",
-          "Ecology",
-          "Biology"
-        ],
-        "correct_answer": "Botany",
-        "difficulty": "easy"
-      },
-      {
         "id": "ear_296",
         "category": "Earth",
         "subcategory": "Plants",
@@ -29272,20 +29244,6 @@
         ],
         "correct_answer": "Venus flytrap",
         "difficulty": "easy"
-      },
-      {
-        "id": "ear_297",
-        "category": "Earth",
-        "subcategory": "Plants",
-        "question": "What is the most expensive spice in the world by weight?",
-        "options": [
-          "Saffron",
-          "Vanilla",
-          "Cardamom",
-          "Cinnamon"
-        ],
-        "correct_answer": "Saffron",
-        "difficulty": "hard"
       },
       {
         "id": "ear_298",
@@ -29510,6 +29468,48 @@
         ],
         "correct_answer": "Wolffia (watermeal)",
         "difficulty": "hard"
+      },
+      {
+        "id": "ear_315",
+        "category": "Earth",
+        "subcategory": "Weather",
+        "question": "What is the scientific name for the study of weather?",
+        "options": [
+          "Meteorology",
+          "Climatology",
+          "Atmospheric science",
+          "Hydrology"
+        ],
+        "correct_answer": "Meteorology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ear_316",
+        "category": "Earth",
+        "subcategory": "Plants",
+        "question": "What is the process by which plants lose water through their leaves?",
+        "options": [
+          "Transpiration",
+          "Evaporation",
+          "Condensation",
+          "Precipitation"
+        ],
+        "correct_answer": "Transpiration",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ear_317",
+        "category": "Earth",
+        "subcategory": "Animals",
+        "question": "What is the only mammal that can fly?",
+        "options": [
+          "Bat",
+          "Flying squirrel",
+          "Sugar glider",
+          "Flying lemur"
+        ],
+        "correct_answer": "Bat",
+        "difficulty": "easy"
       }
     ]
   }

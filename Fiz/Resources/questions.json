@@ -19358,20 +19358,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "sci_250",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What type of blood cells fight infection?",
-        "options": [
-          "White blood cells",
-          "Red blood cells",
-          "Platelets",
-          "Plasma"
-        ],
-        "correct_answer": "White blood cells",
-        "difficulty": "medium"
-      },
-      {
         "id": "sci_251",
         "category": "Science",
         "subcategory": "Biology",
@@ -19456,20 +19442,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "sci_259",
-        "category": "Science",
-        "subcategory": "Chemistry",
-        "question": "What is the lightest element?",
-        "options": [
-          "Hydrogen",
-          "Helium",
-          "Lithium",
-          "Carbon"
-        ],
-        "correct_answer": "Hydrogen",
-        "difficulty": "easy"
-      },
-      {
         "id": "sci_261",
         "category": "Science",
         "subcategory": "Chemistry",
@@ -19496,34 +19468,6 @@
         ],
         "correct_answer": "Organic chemistry",
         "difficulty": "medium"
-      },
-      {
-        "id": "sci_263",
-        "category": "Science",
-        "subcategory": "Chemistry",
-        "question": "What is a substance made of only one type of atom called?",
-        "options": [
-          "Element",
-          "Compound",
-          "Mixture",
-          "Solution"
-        ],
-        "correct_answer": "Element",
-        "difficulty": "medium"
-      },
-      {
-        "id": "sci_264",
-        "category": "Science",
-        "subcategory": "Chemistry",
-        "question": "What is the most reactive metal?",
-        "options": [
-          "Francium",
-          "Sodium",
-          "Potassium",
-          "Lithium"
-        ],
-        "correct_answer": "Francium",
-        "difficulty": "hard"
       },
       {
         "id": "sci_265",
@@ -19594,20 +19538,6 @@
         ],
         "correct_answer": "Diffraction",
         "difficulty": "hard"
-      },
-      {
-        "id": "sci_271",
-        "category": "Science",
-        "subcategory": "Biology",
-        "question": "What is the control center of a cell called?",
-        "options": [
-          "Nucleus",
-          "Mitochondria",
-          "Ribosome",
-          "Endoplasmic reticulum"
-        ],
-        "correct_answer": "Nucleus",
-        "difficulty": "easy"
       },
       {
         "id": "sci_272",
@@ -19692,6 +19622,790 @@
         ],
         "correct_answer": "Pb",
         "difficulty": "hard"
+      },
+      {
+        "id": "sci_251",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the pH of pure water at 25\u00b0C?",
+        "options": [
+          "7",
+          "0",
+          "14",
+          "10"
+        ],
+        "correct_answer": "7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_252",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "Which element has the highest electronegativity?",
+        "options": [
+          "Fluorine",
+          "Oxygen",
+          "Chlorine",
+          "Nitrogen"
+        ],
+        "correct_answer": "Fluorine",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_253",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is Avogadro's number?",
+        "options": [
+          "6.022 \u00d7 10\u00b2\u00b3",
+          "6.626 \u00d7 10\u207b\u00b3\u2074",
+          "3.14159",
+          "2.998 \u00d7 10\u2078"
+        ],
+        "correct_answer": "6.022 \u00d7 10\u00b2\u00b3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_255",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the chemical symbol for tungsten?",
+        "options": [
+          "W",
+          "T",
+          "Tu",
+          "Tg"
+        ],
+        "correct_answer": "W",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_256",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "Which element is liquid at room temperature besides mercury?",
+        "options": [
+          "Bromine",
+          "Gallium",
+          "Cesium",
+          "Francium"
+        ],
+        "correct_answer": "Bromine",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_257",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What process do plants use to convert light energy into chemical energy?",
+        "options": [
+          "Photosynthesis",
+          "Respiration",
+          "Fermentation",
+          "Oxidation"
+        ],
+        "correct_answer": "Photosynthesis",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_258",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "Which noble gas is used in neon signs?",
+        "options": [
+          "Neon",
+          "Argon",
+          "Helium",
+          "Krypton"
+        ],
+        "correct_answer": "Neon",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_260",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "Which acid is found in vinegar?",
+        "options": [
+          "Acetic acid",
+          "Citric acid",
+          "Sulfuric acid",
+          "Hydrochloric acid"
+        ],
+        "correct_answer": "Acetic acid",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_261",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the molecular formula for water?",
+        "options": [
+          "H\u2082O",
+          "H\u2082O\u2082",
+          "HO",
+          "H\u2083O"
+        ],
+        "correct_answer": "H\u2082O",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_262",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "Which element has the atomic number 79?",
+        "options": [
+          "Gold",
+          "Silver",
+          "Platinum",
+          "Copper"
+        ],
+        "correct_answer": "Gold",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_265",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the process by which cells divide to produce two identical daughter cells?",
+        "options": [
+          "Mitosis",
+          "Meiosis",
+          "Fission",
+          "Budding"
+        ],
+        "correct_answer": "Mitosis",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_266",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "Which blood type is known as the universal donor?",
+        "options": [
+          "O negative",
+          "AB positive",
+          "A positive",
+          "B negative"
+        ],
+        "correct_answer": "O negative",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_267",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the name of the molecule that carries genetic information?",
+        "options": [
+          "DNA",
+          "RNA",
+          "Protein",
+          "Lipid"
+        ],
+        "correct_answer": "DNA",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_268",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "Which organelle is responsible for protein synthesis?",
+        "options": [
+          "Ribosome",
+          "Golgi apparatus",
+          "Lysosome",
+          "Peroxisome"
+        ],
+        "correct_answer": "Ribosome",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_269",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the smallest unit of life?",
+        "options": [
+          "Cell",
+          "Atom",
+          "Molecule",
+          "Tissue"
+        ],
+        "correct_answer": "Cell",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_270",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "Which part of the brain controls balance and coordination?",
+        "options": [
+          "Cerebellum",
+          "Cerebrum",
+          "Medulla",
+          "Hypothalamus"
+        ],
+        "correct_answer": "Cerebellum",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_272",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "Which vitamin is produced when skin is exposed to sunlight?",
+        "options": [
+          "Vitamin D",
+          "Vitamin C",
+          "Vitamin A",
+          "Vitamin K"
+        ],
+        "correct_answer": "Vitamin D",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_273",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the gestation period of a human pregnancy?",
+        "options": [
+          "9 months",
+          "10 months",
+          "8 months",
+          "7 months"
+        ],
+        "correct_answer": "9 months",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_274",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "Which biological process converts food into energy?",
+        "options": [
+          "Cellular respiration",
+          "Photosynthesis",
+          "Digestion",
+          "Metabolism"
+        ],
+        "correct_answer": "Cellular respiration",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_275",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the largest bone in the human body?",
+        "options": [
+          "Femur",
+          "Tibia",
+          "Humerus",
+          "Fibula"
+        ],
+        "correct_answer": "Femur",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_277",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What law states that for every action, there is an equal and opposite reaction?",
+        "options": [
+          "Newton's third law",
+          "Newton's first law",
+          "Law of gravity",
+          "Law of inertia"
+        ],
+        "correct_answer": "Newton's third law",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_278",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the speed of sound in air at sea level?",
+        "options": [
+          "343 m/s",
+          "300 m/s",
+          "400 m/s",
+          "500 m/s"
+        ],
+        "correct_answer": "343 m/s",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_279",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "Which fundamental force is responsible for holding atomic nuclei together?",
+        "options": [
+          "Strong nuclear force",
+          "Weak nuclear force",
+          "Electromagnetic force",
+          "Gravity"
+        ],
+        "correct_answer": "Strong nuclear force",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_280",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is absolute zero in Kelvin?",
+        "options": [
+          "0 K",
+          "-273 K",
+          "273 K",
+          "-100 K"
+        ],
+        "correct_answer": "0 K",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_281",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What phenomenon explains why light bends when passing through a prism?",
+        "options": [
+          "Refraction",
+          "Reflection",
+          "Diffraction",
+          "Interference"
+        ],
+        "correct_answer": "Refraction",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_283",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "Who formulated the uncertainty principle in quantum mechanics?",
+        "options": [
+          "Werner Heisenberg",
+          "Erwin Schr\u00f6dinger",
+          "Niels Bohr",
+          "Max Planck"
+        ],
+        "correct_answer": "Werner Heisenberg",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_287",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the electromagnetic spectrum range that humans can see?",
+        "options": [
+          "Visible light",
+          "Infrared",
+          "Ultraviolet",
+          "X-rays"
+        ],
+        "correct_answer": "Visible light",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_288",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is Planck's constant approximately equal to?",
+        "options": [
+          "6.626 \u00d7 10\u207b\u00b3\u2074 J\u00b7s",
+          "6.022 \u00d7 10\u00b2\u00b3",
+          "3.00 \u00d7 10\u2078 m/s",
+          "1.602 \u00d7 10\u207b\u00b9\u2079 C"
+        ],
+        "correct_answer": "6.626 \u00d7 10\u207b\u00b3\u2074 J\u00b7s",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_292",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "Which planet is known for its prominent ring system?",
+        "options": [
+          "Saturn",
+          "Jupiter",
+          "Uranus",
+          "Neptune"
+        ],
+        "correct_answer": "Saturn",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_294",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the closest star to Earth besides the Sun?",
+        "options": [
+          "Proxima Centauri",
+          "Alpha Centauri",
+          "Sirius",
+          "Betelgeuse"
+        ],
+        "correct_answer": "Proxima Centauri",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_295",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What phenomenon causes the Moon to appear red during a lunar eclipse?",
+        "options": [
+          "Rayleigh scattering",
+          "Reflection",
+          "Absorption",
+          "Refraction"
+        ],
+        "correct_answer": "Rayleigh scattering",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_297",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the largest moon of Saturn?",
+        "options": [
+          "Titan",
+          "Europa",
+          "Ganymede",
+          "Callisto"
+        ],
+        "correct_answer": "Titan",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_298",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the term for a rocky body that orbits the Sun?",
+        "options": [
+          "Asteroid",
+          "Comet",
+          "Meteor",
+          "Satellite"
+        ],
+        "correct_answer": "Asteroid",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_299",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "Which planet has the shortest day (rotation period)?",
+        "options": [
+          "Jupiter",
+          "Saturn",
+          "Earth",
+          "Mars"
+        ],
+        "correct_answer": "Jupiter",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_300",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the name of the telescope launched by NASA in 1990?",
+        "options": [
+          "Hubble Space Telescope",
+          "James Webb Space Telescope",
+          "Spitzer Space Telescope",
+          "Kepler Space Telescope"
+        ],
+        "correct_answer": "Hubble Space Telescope",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_301",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the only metal that is liquid at standard room temperature?",
+        "options": [
+          "Mercury",
+          "Gallium",
+          "Bromine",
+          "Cesium"
+        ],
+        "correct_answer": "Mercury",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_302",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "Which element has the symbol 'K' on the periodic table?",
+        "options": [
+          "Potassium",
+          "Krypton",
+          "Kalium",
+          "Ketone"
+        ],
+        "correct_answer": "Potassium",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_303",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What type of reaction absorbs energy from its surroundings?",
+        "options": [
+          "Endothermic",
+          "Exothermic",
+          "Combustion",
+          "Synthesis"
+        ],
+        "correct_answer": "Endothermic",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_304",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "Which gas makes up approximately 21% of Earth's atmosphere?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Argon"
+        ],
+        "correct_answer": "Oxygen",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_305",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "What is the chemical name for table salt?",
+        "options": [
+          "Sodium chloride",
+          "Potassium chloride",
+          "Sodium carbonate",
+          "Calcium chloride"
+        ],
+        "correct_answer": "Sodium chloride",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_306",
+        "category": "Science",
+        "subcategory": "Chemistry",
+        "question": "Which element is essential for organic compounds?",
+        "options": [
+          "Carbon",
+          "Hydrogen",
+          "Oxygen",
+          "Nitrogen"
+        ],
+        "correct_answer": "Carbon",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_307",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the basic unit of heredity?",
+        "options": [
+          "Gene",
+          "Chromosome",
+          "DNA",
+          "Protein"
+        ],
+        "correct_answer": "Gene",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_308",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "Which system in the human body is responsible for transporting oxygen?",
+        "options": [
+          "Circulatory system",
+          "Respiratory system",
+          "Nervous system",
+          "Digestive system"
+        ],
+        "correct_answer": "Circulatory system",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_309",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the process by which organisms produce offspring?",
+        "options": [
+          "Reproduction",
+          "Photosynthesis",
+          "Respiration",
+          "Digestion"
+        ],
+        "correct_answer": "Reproduction",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_310",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "Which protein gives blood its red color?",
+        "options": [
+          "Hemoglobin",
+          "Myoglobin",
+          "Albumin",
+          "Fibrinogen"
+        ],
+        "correct_answer": "Hemoglobin",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_311",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "What is the largest artery in the human body?",
+        "options": [
+          "Aorta",
+          "Pulmonary artery",
+          "Carotid artery",
+          "Femoral artery"
+        ],
+        "correct_answer": "Aorta",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_312",
+        "category": "Science",
+        "subcategory": "Biology",
+        "question": "Which organelle contains the cell's genetic material?",
+        "options": [
+          "Nucleus",
+          "Mitochondria",
+          "Ribosome",
+          "Golgi apparatus"
+        ],
+        "correct_answer": "Nucleus",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_313",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the SI unit of power?",
+        "options": [
+          "Watt",
+          "Joule",
+          "Newton",
+          "Volt"
+        ],
+        "correct_answer": "Watt",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_314",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the formula for calculating work?",
+        "options": [
+          "Force \u00d7 Distance",
+          "Mass \u00d7 Acceleration",
+          "Force \u00d7 Time",
+          "Power \u00d7 Time"
+        ],
+        "correct_answer": "Force \u00d7 Distance",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_315",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "Which law states that objects at rest stay at rest unless acted upon by an external force?",
+        "options": [
+          "Newton's first law",
+          "Newton's second law",
+          "Newton's third law",
+          "Law of gravity"
+        ],
+        "correct_answer": "Newton's first law",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sci_316",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What is the boiling point of water at sea level in Celsius?",
+        "options": [
+          "100\u00b0C",
+          "212\u00b0C",
+          "0\u00b0C",
+          "50\u00b0C"
+        ],
+        "correct_answer": "100\u00b0C",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_317",
+        "category": "Science",
+        "subcategory": "Physics",
+        "question": "What type of wave requires a medium to travel through?",
+        "options": [
+          "Mechanical wave",
+          "Electromagnetic wave",
+          "Light wave",
+          "Radio wave"
+        ],
+        "correct_answer": "Mechanical wave",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_318",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "Which planet is known as the Red Planet?",
+        "options": [
+          "Mars",
+          "Venus",
+          "Jupiter",
+          "Mercury"
+        ],
+        "correct_answer": "Mars",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_319",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the term for a star system with two stars?",
+        "options": [
+          "Binary star system",
+          "Double star",
+          "Twin stars",
+          "Pair stars"
+        ],
+        "correct_answer": "Binary star system",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_320",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What is the age of our solar system approximately?",
+        "options": [
+          "4.6 billion years",
+          "13.8 billion years",
+          "1 billion years",
+          "10 billion years"
+        ],
+        "correct_answer": "4.6 billion years",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sci_321",
+        "category": "Science",
+        "subcategory": "Astronomy",
+        "question": "What causes tides on Earth?",
+        "options": [
+          "Moon's gravitational pull",
+          "Sun's heat",
+          "Earth's rotation",
+          "Ocean currents"
+        ],
+        "correct_answer": "Moon's gravitational pull",
+        "difficulty": "medium"
       }
     ],
     "Food": [

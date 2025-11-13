@@ -58,25 +58,25 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 
 ### Question Database Structure
 
-**Current Database (as of last update): 1,807 total questions**
+**Current Database (as of last update): 2,107 total questions**
 
 **Reorganized Categories** (7 total categories):
 - **Entertainment** (307 questions): Harry Potter, Marvel, DC, Star Wars, Pokémon, Superheroes, Pixar, etc.
-- **Sports** (250 questions): Football, Basketball, Baseball, Tennis, Olympics, Hockey, Soccer, Golf
-- **Bible** (250 questions): Old Testament, New Testament, Biblical History, Biblical Theology, Biblical Languages, Bible Trivia
-- **History** (250 questions): Ancient, Medieval, Modern, Church History
-- **Science** (250 questions): Physics, Chemistry, Biology, Astronomy
-- **Earth** (250 questions): Animals, Geography, Weather, Plants, Trees
-- **Food** (250 questions): Ingredients, Dishes, Famous Chefs/Restaurants, Cuisines, Baking, Beverages, Desserts, Cooking Techniques, Food History, Sauces & Condiments
+- **Sports** (300 questions): Football, Basketball, Baseball, Tennis, Olympics, Hockey, Soccer, Golf
+- **Bible** (300 questions): Old Testament, New Testament, Biblical History, Biblical Theology, Biblical Languages, Bible Trivia
+- **History** (300 questions): Ancient, Medieval, Modern, Church History
+- **Science** (300 questions): Physics, Chemistry, Biology, Astronomy
+- **Earth** (300 questions): Animals, Geography, Weather, Plants, Trees
+- **Food** (300 questions): Ingredients, Dishes, Famous Chefs/Restaurants, Cuisines, Baking, Beverages, Desserts, Cooking Techniques, Food History, Sauces & Condiments
 
 **Question ID System**:
 - Entertainment: `ent_001` through `ent_307`
-- Sports: `spt_001` through `spt_271` (some gaps due to duplicate removal)
-- Bible: `bib_001` through `bib_271` (some gaps due to duplicate removal)
-- History: `his_001` through `his_268` (some gaps due to duplicate removal)
-- Science: `sci_001` through `sci_277` (some gaps due to duplicate removal)
-- Earth: `ear_001` through `ear_266` (some gaps due to duplicate removal)
-- Food: `foo_001` through `foo_260` (some gaps due to duplicate removal)
+- Sports: `spt_001` through `spt_326`
+- Bible: `bib_001` through `bib_327`
+- History: `his_001` through `his_314`
+- Science: `sci_001` through `sci_324`
+- Earth: `ear_001` through `ear_317`
+- Food: `foo_001` through `foo_307`
 
 **Question Structure**:
 ```json
@@ -210,10 +210,10 @@ Fiz/
 ## Database Expansion Workflow
 
 **Current Database Status (as of last update):**
-- **Total Questions**: 1,807
-- **Target per Category**: All categories at 250 (except Entertainment)
+- **Total Questions**: 2,107
+- **Target per Category**: All categories at 300 (except Entertainment)
 - **Entertainment**: 307 questions (naturally larger due to content variety)
-- **All Other Categories**: 250 questions each
+- **All Other Categories**: 300 questions each
 
 ### Quick Command
 

@@ -22412,20 +22412,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "foo_254",
-        "category": "Food",
-        "subcategory": "Food History",
-        "question": "Which empire first cultivated potatoes?",
-        "options": [
-          "Inca",
-          "Aztec",
-          "Maya",
-          "Roman"
-        ],
-        "correct_answer": "Inca",
-        "difficulty": "hard"
-      },
-      {
         "id": "foo_256",
         "category": "Food",
         "subcategory": "Sauces & Condiments",
@@ -22494,6 +22480,720 @@
         ],
         "correct_answer": "Pickling",
         "difficulty": "medium"
+      },
+      {
+        "id": "foo_251",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is the world's most expensive spice by weight?",
+        "options": [
+          "Saffron",
+          "Vanilla",
+          "Cardamom",
+          "Cinnamon"
+        ],
+        "correct_answer": "Saffron",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_252",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "Which type of rice is traditionally used in risotto?",
+        "options": [
+          "Arborio",
+          "Basmati",
+          "Jasmine",
+          "Wild rice"
+        ],
+        "correct_answer": "Arborio",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_253",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is tahini made from?",
+        "options": [
+          "Sesame seeds",
+          "Chickpeas",
+          "Sunflower seeds",
+          "Almonds"
+        ],
+        "correct_answer": "Sesame seeds",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_255",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What type of fish are anchovies?",
+        "options": [
+          "Small saltwater fish",
+          "Freshwater fish",
+          "Shellfish",
+          "Crustaceans"
+        ],
+        "correct_answer": "Small saltwater fish",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_256",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "Which grain is used to make polenta?",
+        "options": [
+          "Cornmeal",
+          "Wheat",
+          "Rice",
+          "Barley"
+        ],
+        "correct_answer": "Cornmeal",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_257",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is the main ingredient in kimchi?",
+        "options": [
+          "Napa cabbage",
+          "Radish",
+          "Cucumber",
+          "Bean sprouts"
+        ],
+        "correct_answer": "Napa cabbage",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_258",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "Which nut is technically a legume?",
+        "options": [
+          "Peanut",
+          "Almond",
+          "Cashew",
+          "Walnut"
+        ],
+        "correct_answer": "Peanut",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_259",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is capers?",
+        "options": [
+          "Pickled flower buds",
+          "A type of olive",
+          "Pickled onions",
+          "A spice"
+        ],
+        "correct_answer": "Pickled flower buds",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_260",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "Which fruit is dried to make prunes?",
+        "options": [
+          "Plums",
+          "Apricots",
+          "Dates",
+          "Figs"
+        ],
+        "correct_answer": "Plums",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_262",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What type of pasta is shaped like small rice grains?",
+        "options": [
+          "Orzo",
+          "Penne",
+          "Fusilli",
+          "Farfalle"
+        ],
+        "correct_answer": "Orzo",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_263",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the primary ingredient in the Japanese dish tempura?",
+        "options": [
+          "Battered and fried seafood or vegetables",
+          "Raw fish",
+          "Rice",
+          "Noodles"
+        ],
+        "correct_answer": "Battered and fried seafood or vegetables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_264",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "Which Indian bread is traditionally baked in a tandoor oven?",
+        "options": [
+          "Naan",
+          "Chapati",
+          "Paratha",
+          "Roti"
+        ],
+        "correct_answer": "Naan",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_265",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the main protein in the Spanish dish paella?",
+        "options": [
+          "Seafood and/or chicken",
+          "Beef",
+          "Pork",
+          "Lamb"
+        ],
+        "correct_answer": "Seafood and/or chicken",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_267",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "Which Vietnamese soup is traditionally made with beef or chicken broth?",
+        "options": [
+          "Pho",
+          "Ramen",
+          "Udon",
+          "Tom yum"
+        ],
+        "correct_answer": "Pho",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_268",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the main ingredient in the Scottish dish haggis?",
+        "options": [
+          "Sheep's offal",
+          "Beef",
+          "Chicken",
+          "Fish"
+        ],
+        "correct_answer": "Sheep's offal",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_269",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Which chef is known for the quote 'Bam!'?",
+        "options": [
+          "Emeril Lagasse",
+          "Gordon Ramsay",
+          "Bobby Flay",
+          "Wolfgang Puck"
+        ],
+        "correct_answer": "Emeril Lagasse",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_270",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Who is the host of 'Hell's Kitchen'?",
+        "options": [
+          "Gordon Ramsay",
+          "Jamie Oliver",
+          "Anthony Bourdain",
+          "Alton Brown"
+        ],
+        "correct_answer": "Gordon Ramsay",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_271",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Which chef is known for molecular gastronomy and the restaurant elBulli?",
+        "options": [
+          "Ferran Adri\u00e0",
+          "Heston Blumenthal",
+          "Grant Achatz",
+          "Thomas Keller"
+        ],
+        "correct_answer": "Ferran Adri\u00e0",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_272",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Which city is home to the most Michelin-starred restaurants?",
+        "options": [
+          "Tokyo",
+          "Paris",
+          "New York",
+          "London"
+        ],
+        "correct_answer": "Tokyo",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_273",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Who wrote the bestselling kitchen memoir 'Kitchen Confidential'?",
+        "options": [
+          "Anthony Bourdain",
+          "Gordon Ramsay",
+          "Marco Pierre White",
+          "Eric Ripert"
+        ],
+        "correct_answer": "Anthony Bourdain",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_274",
+        "category": "Food",
+        "subcategory": "Famous Chefs/Restaurants",
+        "question": "Which chef owns the Fat Duck restaurant in England?",
+        "options": [
+          "Heston Blumenthal",
+          "Gordon Ramsay",
+          "Jamie Oliver",
+          "Marco Pierre White"
+        ],
+        "correct_answer": "Heston Blumenthal",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_275",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What is the staple grain in Ethiopian cuisine?",
+        "options": [
+          "Teff",
+          "Rice",
+          "Wheat",
+          "Corn"
+        ],
+        "correct_answer": "Teff",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_276",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "Which cuisine is known for using the 'five-spice' powder?",
+        "options": [
+          "Chinese",
+          "Indian",
+          "Thai",
+          "Korean"
+        ],
+        "correct_answer": "Chinese",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_277",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What is the traditional cooking pot used in Moroccan cuisine?",
+        "options": [
+          "Tagine",
+          "Wok",
+          "Paella pan",
+          "Dutch oven"
+        ],
+        "correct_answer": "Tagine",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_278",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "Which country's cuisine features the dish bibimbap?",
+        "options": [
+          "Korea",
+          "Japan",
+          "China",
+          "Vietnam"
+        ],
+        "correct_answer": "Korea",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_279",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "What is the main herb used in pesto sauce?",
+        "options": [
+          "Basil",
+          "Parsley",
+          "Cilantro",
+          "Oregano"
+        ],
+        "correct_answer": "Basil",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_281",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What is the primary ingredient in kombucha?",
+        "options": [
+          "Tea",
+          "Coffee",
+          "Fruit juice",
+          "Milk"
+        ],
+        "correct_answer": "Tea",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_282",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "Which country is the world's largest producer of coffee?",
+        "options": [
+          "Brazil",
+          "Colombia",
+          "Ethiopia",
+          "Vietnam"
+        ],
+        "correct_answer": "Brazil",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_285",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What cooking technique involves cooking food in a small amount of fat over high heat?",
+        "options": [
+          "Saut\u00e9ing",
+          "Braising",
+          "Poaching",
+          "Steaming"
+        ],
+        "correct_answer": "Saut\u00e9ing",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_286",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the term for cooking food slowly in liquid at low temperature?",
+        "options": [
+          "Braising",
+          "Grilling",
+          "Roasting",
+          "Frying"
+        ],
+        "correct_answer": "Braising",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_287",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What is the French term for 'cooked under pressure'?",
+        "options": [
+          "Sous vide",
+          "En papillote",
+          "Au gratin",
+          "Flamb\u00e9"
+        ],
+        "correct_answer": "Sous vide",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_288",
+        "category": "Food",
+        "subcategory": "Cooking Techniques",
+        "question": "What does it mean to 'blanch' a vegetable?",
+        "options": [
+          "Briefly boil then plunge in ice water",
+          "Grill until charred",
+          "Roast at high heat",
+          "Steam until soft"
+        ],
+        "correct_answer": "Briefly boil then plunge in ice water",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_289",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What ingredient makes baked goods rise?",
+        "options": [
+          "Baking powder or yeast",
+          "Sugar",
+          "Butter",
+          "Eggs"
+        ],
+        "correct_answer": "Baking powder or yeast",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_290",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What is the protein in flour that gives bread its structure?",
+        "options": [
+          "Gluten",
+          "Starch",
+          "Fiber",
+          "Albumin"
+        ],
+        "correct_answer": "Gluten",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_291",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What is a 'roux' used for in baking and cooking?",
+        "options": [
+          "Thickening sauces",
+          "Leavening cakes",
+          "Sweetening desserts",
+          "Coloring pastries"
+        ],
+        "correct_answer": "Thickening sauces",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_292",
+        "category": "Food",
+        "subcategory": "Baking",
+        "question": "What temperature should egg whites be at for optimal meringue?",
+        "options": [
+          "Room temperature",
+          "Cold",
+          "Warm",
+          "Hot"
+        ],
+        "correct_answer": "Room temperature",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_293",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What is the main flavoring in tiramisu?",
+        "options": [
+          "Coffee",
+          "Chocolate",
+          "Vanilla",
+          "Almond"
+        ],
+        "correct_answer": "Coffee",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_294",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "Which French dessert is made of choux pastry filled with cream?",
+        "options": [
+          "\u00c9clair",
+          "Macaron",
+          "Cr\u00eape",
+          "Tarte"
+        ],
+        "correct_answer": "\u00c9clair",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_295",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What is the primary ingredient in traditional Turkish delight?",
+        "options": [
+          "Sugar and starch",
+          "Honey and nuts",
+          "Chocolate",
+          "Fruit puree"
+        ],
+        "correct_answer": "Sugar and starch",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_296",
+        "category": "Food",
+        "subcategory": "Desserts",
+        "question": "What type of pastry is used to make baklava?",
+        "options": [
+          "Phyllo",
+          "Puff pastry",
+          "Choux",
+          "Shortcrust"
+        ],
+        "correct_answer": "Phyllo",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_297",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "Which ancient civilization is credited with inventing pizza?",
+        "options": [
+          "Ancient Rome",
+          "Ancient Greece",
+          "Ancient Egypt",
+          "Ancient Persia"
+        ],
+        "correct_answer": "Ancient Rome",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_298",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "What vegetable was originally purple before selective breeding?",
+        "options": [
+          "Carrot",
+          "Potato",
+          "Onion",
+          "Corn"
+        ],
+        "correct_answer": "Carrot",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_299",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What are the five 'mother sauces' in French cuisine?",
+        "options": [
+          "B\u00e9chamel, Velout\u00e9, Espagnole, Hollandaise, Tomato",
+          "Marinara, Alfredo, Pesto, Carbonara, Bolognese",
+          "Soy, Teriyaki, Hoisin, Oyster, Fish sauce",
+          "Ketchup, Mustard, Mayo, BBQ, Ranch"
+        ],
+        "correct_answer": "B\u00e9chamel, Velout\u00e9, Espagnole, Hollandaise, Tomato",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_300",
+        "category": "Food",
+        "subcategory": "Sauces & Condiments",
+        "question": "What ingredient gives Worcestershire sauce its distinctive flavor?",
+        "options": [
+          "Anchovies",
+          "Soy sauce",
+          "Vinegar",
+          "Molasses"
+        ],
+        "correct_answer": "Anchovies",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_301",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What is the Japanese name for the fermented soybean paste used in soup?",
+        "options": [
+          "Miso",
+          "Natto",
+          "Tofu",
+          "Edamame"
+        ],
+        "correct_answer": "Miso",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_302",
+        "category": "Food",
+        "subcategory": "Dishes",
+        "question": "What is the French term for vegetables cut into thin strips?",
+        "options": [
+          "Julienne",
+          "Brunoise",
+          "Chiffonade",
+          "Dice"
+        ],
+        "correct_answer": "Julienne",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_303",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "Which spice comes from the dried stigma of a crocus flower?",
+        "options": [
+          "Saffron",
+          "Turmeric",
+          "Paprika",
+          "Cumin"
+        ],
+        "correct_answer": "Saffron",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_304",
+        "category": "Food",
+        "subcategory": "Beverages",
+        "question": "What is the name of the traditional Japanese rice wine?",
+        "options": [
+          "Sake",
+          "Soju",
+          "Baijiu",
+          "Shochu"
+        ],
+        "correct_answer": "Sake",
+        "difficulty": "easy"
+      },
+      {
+        "id": "foo_305",
+        "category": "Food",
+        "subcategory": "Cuisines",
+        "question": "Which country is the origin of the dish ceviche?",
+        "options": [
+          "Peru",
+          "Mexico",
+          "Spain",
+          "Brazil"
+        ],
+        "correct_answer": "Peru",
+        "difficulty": "medium"
+      },
+      {
+        "id": "foo_306",
+        "category": "Food",
+        "subcategory": "Ingredients",
+        "question": "What type of flour is used to make traditional Japanese tempura batter?",
+        "options": [
+          "All-purpose wheat flour",
+          "Rice flour",
+          "Corn flour",
+          "Buckwheat flour"
+        ],
+        "correct_answer": "All-purpose wheat flour",
+        "difficulty": "hard"
+      },
+      {
+        "id": "foo_307",
+        "category": "Food",
+        "subcategory": "Food History",
+        "question": "Which fruit was once so valuable it was used as currency?",
+        "options": [
+          "Pineapple",
+          "Banana",
+          "Orange",
+          "Apple"
+        ],
+        "correct_answer": "Pineapple",
+        "difficulty": "hard"
       }
     ],
     "Earth": [

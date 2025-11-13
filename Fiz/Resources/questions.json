@@ -7578,20 +7578,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "spt_255",
-        "category": "Sports",
-        "subcategory": "American Football",
-        "question": "Which team has won the most Super Bowls?",
-        "options": [
-          "New England Patriots",
-          "Pittsburgh Steelers",
-          "Dallas Cowboys",
-          "San Francisco 49ers"
-        ],
-        "correct_answer": "New England Patriots",
-        "difficulty": "hard"
-      },
-      {
         "id": "spt_256",
         "category": "Sports",
         "subcategory": "Basketball",
@@ -7662,20 +7648,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "spt_261",
-        "category": "Sports",
-        "subcategory": "Basketball",
-        "question": "What violation occurs when a player dribbles, stops, then dribbles again?",
-        "options": [
-          "Double dribble",
-          "Traveling",
-          "Carrying",
-          "Palming"
-        ],
-        "correct_answer": "Double dribble",
-        "difficulty": "medium"
-      },
-      {
         "id": "spt_262",
         "category": "Sports",
         "subcategory": "Soccer",
@@ -7701,20 +7673,6 @@
           "The box"
         ],
         "correct_answer": "No man's land",
-        "difficulty": "hard"
-      },
-      {
-        "id": "spt_264",
-        "category": "Sports",
-        "subcategory": "Golf",
-        "question": "What is three strokes under par on a hole called?",
-        "options": [
-          "Albatross",
-          "Eagle",
-          "Birdie",
-          "Condor"
-        ],
-        "correct_answer": "Albatross",
         "difficulty": "hard"
       },
       {
@@ -7746,20 +7704,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "spt_268",
-        "category": "Sports",
-        "subcategory": "Olympics",
-        "question": "What event combines cross-country skiing and rifle shooting?",
-        "options": [
-          "Biathlon",
-          "Nordic combined",
-          "Pentathlon",
-          "Decathlon"
-        ],
-        "correct_answer": "Biathlon",
-        "difficulty": "hard"
-      },
-      {
         "id": "spt_269",
         "category": "Sports",
         "subcategory": "Basketball",
@@ -7774,20 +7718,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "spt_270",
-        "category": "Sports",
-        "subcategory": "Soccer",
-        "question": "How many substitutions are typically allowed in a standard soccer match?",
-        "options": [
-          "3",
-          "5",
-          "Unlimited",
-          "7"
-        ],
-        "correct_answer": "3",
-        "difficulty": "medium"
-      },
-      {
         "id": "spt_271",
         "category": "Sports",
         "subcategory": "Hockey",
@@ -7799,6 +7729,776 @@
           "Helmets"
         ],
         "correct_answer": "Pads",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_251",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "What is the regulation height of a basketball hoop in feet?",
+        "options": [
+          "10 feet",
+          "9 feet",
+          "11 feet",
+          "12 feet"
+        ],
+        "correct_answer": "10 feet",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_252",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "Who holds the NBA record for most career points?",
+        "options": [
+          "LeBron James",
+          "Kareem Abdul-Jabbar",
+          "Michael Jordan",
+          "Kobe Bryant"
+        ],
+        "correct_answer": "LeBron James",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_254",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "Which team did Michael Jordan play for during most of his career?",
+        "options": [
+          "Chicago Bulls",
+          "Washington Wizards",
+          "Los Angeles Lakers",
+          "Boston Celtics"
+        ],
+        "correct_answer": "Chicago Bulls",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_256",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "How many minutes is each quarter in an NBA game?",
+        "options": [
+          "12 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ],
+        "correct_answer": "12 minutes",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_257",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "Which player is known as 'The Greek Freak'?",
+        "options": [
+          "Giannis Antetokounmpo",
+          "Nikola Joki\u0107",
+          "Luka Don\u010di\u0107",
+          "Kristaps Porzi\u0146\u0123is"
+        ],
+        "correct_answer": "Giannis Antetokounmpo",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_258",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "How many yards is a football field from end zone to end zone?",
+        "options": [
+          "100 yards",
+          "110 yards",
+          "120 yards",
+          "90 yards"
+        ],
+        "correct_answer": "100 yards",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_259",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "Which team has won the most Super Bowl championships?",
+        "options": [
+          "New England Patriots",
+          "Pittsburgh Steelers",
+          "Dallas Cowboys",
+          "San Francisco 49ers"
+        ],
+        "correct_answer": "New England Patriots",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_260",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "Who has thrown the most touchdown passes in NFL history?",
+        "options": [
+          "Tom Brady",
+          "Peyton Manning",
+          "Drew Brees",
+          "Brett Favre"
+        ],
+        "correct_answer": "Tom Brady",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_262",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "How many players from each team are on the field during a play?",
+        "options": [
+          "11",
+          "10",
+          "12",
+          "9"
+        ],
+        "correct_answer": "11",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_263",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is the trophy awarded to the Super Bowl winner called?",
+        "options": [
+          "Vince Lombardi Trophy",
+          "Stanley Cup",
+          "Larry O'Brien Trophy",
+          "Commissioner's Trophy"
+        ],
+        "correct_answer": "Vince Lombardi Trophy",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_265",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "Who holds the record for most home runs in a single MLB season?",
+        "options": [
+          "Barry Bonds",
+          "Mark McGwire",
+          "Sammy Sosa",
+          "Babe Ruth"
+        ],
+        "correct_answer": "Barry Bonds",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_266",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is it called when a batter hits the ball over the outfield fence?",
+        "options": [
+          "Home run",
+          "Grand slam",
+          "Triple",
+          "Double"
+        ],
+        "correct_answer": "Home run",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_269",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is the distance between bases on a baseball field?",
+        "options": [
+          "90 feet",
+          "80 feet",
+          "100 feet",
+          "85 feet"
+        ],
+        "correct_answer": "90 feet",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_271",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "Which male player has won the most Grand Slam singles titles?",
+        "options": [
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Roger Federer",
+          "Pete Sampras"
+        ],
+        "correct_answer": "Novak Djokovic",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_275",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "Which tournament is played on grass courts?",
+        "options": [
+          "Wimbledon",
+          "French Open",
+          "Australian Open",
+          "US Open"
+        ],
+        "correct_answer": "Wimbledon",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_277",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "What is it called when a player scores three goals in one match?",
+        "options": [
+          "Hat trick",
+          "Triple threat",
+          "Trifecta",
+          "Triple play"
+        ],
+        "correct_answer": "Hat trick",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_279",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "What is the penalty for a handball in the penalty box?",
+        "options": [
+          "Penalty kick",
+          "Free kick",
+          "Corner kick",
+          "Yellow card"
+        ],
+        "correct_answer": "Penalty kick",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_280",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "What color card results in a player being ejected from the match?",
+        "options": [
+          "Red",
+          "Yellow",
+          "Blue",
+          "Black"
+        ],
+        "correct_answer": "Red",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_282",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is the championship trophy in the NHL called?",
+        "options": [
+          "Stanley Cup",
+          "Calder Cup",
+          "Conn Smythe Trophy",
+          "Hart Trophy"
+        ],
+        "correct_answer": "Stanley Cup",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_283",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "How many players from each team are on the ice at one time (not including goalie)?",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "correct_answer": "5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_285",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "How long is each period in an NHL hockey game?",
+        "options": [
+          "20 minutes",
+          "15 minutes",
+          "25 minutes",
+          "30 minutes"
+        ],
+        "correct_answer": "20 minutes",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_286",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "Which team has won the most Stanley Cup championships?",
+        "options": [
+          "Montreal Canadiens",
+          "Toronto Maple Leafs",
+          "Detroit Red Wings",
+          "Boston Bruins"
+        ],
+        "correct_answer": "Montreal Canadiens",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_287",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is the blue line used for in hockey?",
+        "options": [
+          "Marks the offensive/defensive zones",
+          "Goal line",
+          "Center line",
+          "Penalty box boundary"
+        ],
+        "correct_answer": "Marks the offensive/defensive zones",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_288",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "What is par on a typical golf course for 18 holes?",
+        "options": [
+          "72",
+          "70",
+          "74",
+          "68"
+        ],
+        "correct_answer": "72",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_289",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "What is one stroke under par called?",
+        "options": [
+          "Birdie",
+          "Eagle",
+          "Bogey",
+          "Par"
+        ],
+        "correct_answer": "Birdie",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_290",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "How many clubs is a golfer allowed to carry during a round?",
+        "options": [
+          "14",
+          "12",
+          "16",
+          "18"
+        ],
+        "correct_answer": "14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_291",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "Which major golf tournament is held at Augusta National?",
+        "options": [
+          "The Masters",
+          "US Open",
+          "PGA Championship",
+          "The Open Championship"
+        ],
+        "correct_answer": "The Masters",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_293",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "Who has won the most major championships in men's golf?",
+        "options": [
+          "Jack Nicklaus",
+          "Tiger Woods",
+          "Arnold Palmer",
+          "Gary Player"
+        ],
+        "correct_answer": "Jack Nicklaus",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_294",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "Where were the first modern Olympic Games held?",
+        "options": [
+          "Athens, Greece",
+          "Paris, France",
+          "London, England",
+          "Rome, Italy"
+        ],
+        "correct_answer": "Athens, Greece",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_295",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "Which athlete has won the most Olympic gold medals?",
+        "options": [
+          "Michael Phelps",
+          "Usain Bolt",
+          "Simone Biles",
+          "Carl Lewis"
+        ],
+        "correct_answer": "Michael Phelps",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_296",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "What are the five Olympic rings colors?",
+        "options": [
+          "Blue, yellow, black, green, red",
+          "Blue, yellow, white, green, red",
+          "Blue, orange, black, green, red",
+          "Purple, yellow, black, green, red"
+        ],
+        "correct_answer": "Blue, yellow, black, green, red",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_297",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "What year were the first modern Olympics held?",
+        "options": [
+          "1896",
+          "1900",
+          "1892",
+          "1888"
+        ],
+        "correct_answer": "1896",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_298",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "Which country has hosted the Summer Olympics the most times?",
+        "options": [
+          "United States",
+          "France",
+          "United Kingdom",
+          "Greece"
+        ],
+        "correct_answer": "United States",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_301",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "What is the shot clock time limit in the NBA?",
+        "options": [
+          "24 seconds",
+          "30 seconds",
+          "20 seconds",
+          "35 seconds"
+        ],
+        "correct_answer": "24 seconds",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_302",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "Which player is known as 'His Airness'?",
+        "options": [
+          "Michael Jordan",
+          "LeBron James",
+          "Kobe Bryant",
+          "Magic Johnson"
+        ],
+        "correct_answer": "Michael Jordan",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_303",
+        "category": "Sports",
+        "subcategory": "Basketball",
+        "question": "What is a 'double-double' in basketball?",
+        "options": [
+          "Double digits in two statistical categories",
+          "Two points scored twice",
+          "Two players scoring 20 points",
+          "Scoring 20 points"
+        ],
+        "correct_answer": "Double digits in two statistical categories",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_304",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is the line of scrimmage?",
+        "options": [
+          "The imaginary line where the ball is placed",
+          "The end zone line",
+          "The sideline",
+          "The 50-yard line"
+        ],
+        "correct_answer": "The imaginary line where the ball is placed",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_305",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "How many downs does a team have to gain 10 yards?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "correct_answer": "4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_306",
+        "category": "Sports",
+        "subcategory": "American Football",
+        "question": "What is a 'safety' worth in points?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "6"
+        ],
+        "correct_answer": "2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_307",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is a 'perfect game' in baseball?",
+        "options": [
+          "No opposing player reaches base",
+          "A no-hitter",
+          "Winning by 10 runs",
+          "27 strikeouts"
+        ],
+        "correct_answer": "No opposing player reaches base",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_308",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is the pitching rubber distance from home plate in MLB?",
+        "options": [
+          "60 feet 6 inches",
+          "55 feet",
+          "65 feet",
+          "50 feet"
+        ],
+        "correct_answer": "60 feet 6 inches",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_309",
+        "category": "Sports",
+        "subcategory": "Baseball",
+        "question": "What is a 'ground rule double'?",
+        "options": [
+          "Ball bounces over the fence",
+          "Hit to the warning track",
+          "Double play",
+          "Base hit that rolls to the wall"
+        ],
+        "correct_answer": "Ball bounces over the fence",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_310",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "How many games must be won to win a set in tennis?",
+        "options": [
+          "6 (with 2-game advantage)",
+          "5",
+          "7",
+          "8"
+        ],
+        "correct_answer": "6 (with 2-game advantage)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_311",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "What is the term for winning all four Grand Slams in one year?",
+        "options": [
+          "Calendar Grand Slam",
+          "Golden Slam",
+          "Career Grand Slam",
+          "Super Slam"
+        ],
+        "correct_answer": "Calendar Grand Slam",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_312",
+        "category": "Sports",
+        "subcategory": "Tennis",
+        "question": "Which female player has won the most Grand Slam titles?",
+        "options": [
+          "Margaret Court",
+          "Serena Williams",
+          "Steffi Graf",
+          "Martina Navratilova"
+        ],
+        "correct_answer": "Margaret Court",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_313",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "What is the standard size of a soccer goal in feet?",
+        "options": [
+          "8 feet high by 24 feet wide",
+          "7 feet high by 21 feet wide",
+          "9 feet high by 27 feet wide",
+          "10 feet high by 30 feet wide"
+        ],
+        "correct_answer": "8 feet high by 24 feet wide",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_314",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "What is stoppage time in soccer?",
+        "options": [
+          "Extra time added for delays",
+          "Halftime break",
+          "Penalty shootout time",
+          "Water break"
+        ],
+        "correct_answer": "Extra time added for delays",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_315",
+        "category": "Sports",
+        "subcategory": "Soccer",
+        "question": "What is an 'own goal'?",
+        "options": [
+          "When a player scores on their own net",
+          "A penalty kick",
+          "A corner kick goal",
+          "A free kick goal"
+        ],
+        "correct_answer": "When a player scores on their own net",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_316",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is icing in hockey?",
+        "options": [
+          "Shooting the puck from behind center line past goal line",
+          "Freezing the puck",
+          "A penalty",
+          "Scoring three goals"
+        ],
+        "correct_answer": "Shooting the puck from behind center line past goal line",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_317",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is a power play in hockey?",
+        "options": [
+          "Playing with a man advantage",
+          "A strong offensive play",
+          "A penalty shot",
+          "Overtime play"
+        ],
+        "correct_answer": "Playing with a man advantage",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_318",
+        "category": "Sports",
+        "subcategory": "Hockey",
+        "question": "What is the neutral zone in hockey?",
+        "options": [
+          "Area between the two blue lines",
+          "The crease",
+          "Behind the goal",
+          "The penalty box"
+        ],
+        "correct_answer": "Area between the two blue lines",
+        "difficulty": "hard"
+      },
+      {
+        "id": "spt_319",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "What is a 'mulligan' in golf?",
+        "options": [
+          "A second chance shot (informal)",
+          "A type of club",
+          "A golf course",
+          "A score of par"
+        ],
+        "correct_answer": "A second chance shot (informal)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_320",
+        "category": "Sports",
+        "subcategory": "Golf",
+        "question": "What is the green in golf?",
+        "options": [
+          "The putting surface around the hole",
+          "The fairway",
+          "The rough",
+          "The tee box"
+        ],
+        "correct_answer": "The putting surface around the hole",
+        "difficulty": "easy"
+      },
+      {
+        "id": "spt_321",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "What does the Olympic Torch represent?",
+        "options": [
+          "Peace and unity",
+          "Victory",
+          "Competition",
+          "Excellence"
+        ],
+        "correct_answer": "Peace and unity",
+        "difficulty": "medium"
+      },
+      {
+        "id": "spt_322",
+        "category": "Sports",
+        "subcategory": "Olympics",
+        "question": "Which event includes swimming, cycling, and running?",
+        "options": [
+          "Triathlon",
+          "Pentathlon",
+          "Decathlon",
+          "Heptathlon"
+        ],
+        "correct_answer": "Triathlon",
         "difficulty": "easy"
       }
     ],

@@ -63,7 +63,7 @@ struct SettingsView: View {
                     HStack {
                         Text("Version")
                         Spacer()
-                        Text("1.0")
+                        Text(appVersion)
                             .foregroundColor(.secondary)
                     }
 
@@ -85,6 +85,16 @@ struct SettingsView: View {
                 }
             }
         }
+    }
+
+    private var appVersion: String {
+        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+            if let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+                return "\(version) (\(build))"
+            }
+            return version
+        }
+        return "Unknown"
     }
 }
 

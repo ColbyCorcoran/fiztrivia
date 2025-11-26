@@ -455,7 +455,7 @@ struct CategoryWheelView: View {
 
         return ZStack {
             wheelShadow
-            wheelWithGesture(wheelCenter: wheelCenter)
+            wheelWithGesture
             centerCircleAndButton
             wheelPointer
         }
@@ -470,7 +470,7 @@ struct CategoryWheelView: View {
             .offset(y: 8)
     }
     
-    private func wheelWithGesture(wheelCenter: CGPoint) -> some View {
+    private var wheelWithGesture: some View {
         ZStack {
             ForEach(Array(wheelSegments.enumerated()), id: \.element) { index, segmentData in
                 WheelSegment(
@@ -483,14 +483,17 @@ struct CategoryWheelView: View {
         .frame(width: 450, height: 450)
         .rotationEffect(.degrees(gameViewModel.wheelRotation + dragRotation))
         .animation(.easeOut(duration: AccessibilitySettings.adjustedAnimationDuration(3.0)), value: gameViewModel.wheelRotation)
-        .gesture(wheelDragGesture(wheelCenter: wheelCenter))
+        .gesture(wheelDragGesture)
     }
     
-    private func wheelDragGesture(wheelCenter: CGPoint) -> some Gesture {
+    private var wheelDragGesture: some Gesture {
         DragGesture()
             .onChanged { value in
                 // Only allow dragging when buttons are enabled (not spinning, not showing question/result)
                 guard !gameViewModel.isSpinning && !navigationButtonsDisabled else { return }
+
+                // Wheel's local center (the wheel is 450x450, so center is at 225, 225)
+                let wheelCenter = CGPoint(x: 225, y: 225)
 
                 if !isDragging {
                     // First drag event - record starting angle

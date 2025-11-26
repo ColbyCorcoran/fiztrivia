@@ -39,6 +39,8 @@ struct CategoryWheelView: View {
     @State private var dragRotation: Double = 0
     @State private var isDragging = false
     @State private var dragSpinDirection: Double = 1.0 // 1.0 for clockwise, -1.0 for counter-clockwise
+    @State private var dragStartAngle: Double = 0
+    @State private var dragCurrentAngle: Double = 0
 
     // Toast notification for subcategory/category completion
     @State private var showingCompletionToast = false
@@ -449,13 +451,15 @@ struct CategoryWheelView: View {
     }
     
     private func wheelLayer(geometry: GeometryProxy) -> some View {
-        ZStack {
+        let wheelCenter = CGPoint(x: geometry.size.width / 2, y: geometry.size.height - 100)
+
+        return ZStack {
             wheelShadow
-            wheelWithGesture
+            wheelWithGesture(wheelCenter: wheelCenter)
             centerCircleAndButton
             wheelPointer
         }
-        .position(x: geometry.size.width / 2, y: geometry.size.height - 100)
+        .position(wheelCenter)
     }
     
     private var wheelShadow: some View {
@@ -466,7 +470,7 @@ struct CategoryWheelView: View {
             .offset(y: 8)
     }
     
-    private var wheelWithGesture: some View {
+    private func wheelWithGesture(wheelCenter: CGPoint) -> some View {
         ZStack {
             ForEach(Array(wheelSegments.enumerated()), id: \.element) { index, segmentData in
                 WheelSegment(
@@ -479,18 +483,43 @@ struct CategoryWheelView: View {
         .frame(width: 450, height: 450)
         .rotationEffect(.degrees(gameViewModel.wheelRotation + dragRotation))
         .animation(.easeOut(duration: AccessibilitySettings.adjustedAnimationDuration(3.0)), value: gameViewModel.wheelRotation)
-        .gesture(wheelDragGesture)
+        .gesture(wheelDragGesture(wheelCenter: wheelCenter))
     }
     
-    private var wheelDragGesture: some Gesture {
+    private func wheelDragGesture(wheelCenter: CGPoint) -> some Gesture {
         DragGesture()
             .onChanged { value in
                 // Only allow dragging when buttons are enabled (not spinning, not showing question/result)
                 guard !gameViewModel.isSpinning && !navigationButtonsDisabled else { return }
-                isDragging = true
-                // Convert drag translation to rotation angle
-                let angle = atan2(value.translation.height, value.translation.width) * 180 / .pi
-                dragRotation = angle * 0.5 // Dampening factor for smoother feel
+
+                if !isDragging {
+                    // First drag event - record starting angle
+                    isDragging = true
+                    let dx = value.location.x - wheelCenter.x
+                    let dy = value.location.y - wheelCenter.y
+                    dragStartAngle = atan2(dy, dx) * 180 / .pi
+                    dragCurrentAngle = dragStartAngle
+                    dragRotation = 0
+                } else {
+                    // Calculate current angle from wheel center to touch point
+                    let dx = value.location.x - wheelCenter.x
+                    let dy = value.location.y - wheelCenter.y
+                    let newAngle = atan2(dy, dx) * 180 / .pi
+
+                    // Calculate the angular change
+                    var angleDelta = newAngle - dragCurrentAngle
+
+                    // Handle wrap-around (crossing from 180 to -180 or vice versa)
+                    if angleDelta > 180 {
+                        angleDelta -= 360
+                    } else if angleDelta < -180 {
+                        angleDelta += 360
+                    }
+
+                    // Accumulate the rotation
+                    dragRotation += angleDelta
+                    dragCurrentAngle = newAngle
+                }
             }
             .onEnded { value in
                 // Only process drag end if we were actually dragging
@@ -503,11 +532,13 @@ struct CategoryWheelView: View {
 
                 isDragging = false
 
-                let dragDistance = sqrt(pow(value.translation.width, 2) + pow(value.translation.height, 2))
-                if dragDistance > 50 {
-                    // Capture the direction of the drag before resetting
-                    // Positive dragRotation = clockwise, negative = counter-clockwise
-                    dragSpinDirection = dragRotation >= 0 ? 1.0 : -1.0
+                // Check if user dragged far enough (at least 30 degrees of rotation)
+                if abs(dragRotation) > 30 {
+                    // Determine spin direction based on accumulated rotation
+                    // In screen coordinates (Y increases downward):
+                    // Positive dragRotation = clockwise drag → spin clockwise
+                    // Negative dragRotation = counter-clockwise drag → spin counter-clockwise
+                    dragSpinDirection = dragRotation > 0 ? 1.0 : -1.0
 
                     // Add the drag rotation to the wheel's final position for continuity
                     gameViewModel.wheelRotation += dragRotation

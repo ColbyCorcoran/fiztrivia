@@ -5,6 +5,7 @@ struct PersonalizationSettingsView: View {
     @StateObject private var userManager = UserManager.shared
     @StateObject private var appIconManager = AppIconManager.shared
     @StateObject private var hapticSettingsManager = HapticSettingsManager.shared
+    @StateObject private var popupDurationManager = PopupDurationManager.shared
     @StateObject private var analyticsManager = AnalyticsManager.shared
     @State private var editedUsername: String = ""
     @State private var isEditingUsername = false
@@ -94,6 +95,35 @@ struct PersonalizationSettingsView: View {
                     set: { hapticSettingsManager.setHapticEnabled($0) }
                 ))
                     .accessibilityHint("Enable or disable haptic feedback")
+            }
+
+            Section(header: Text("Answer Popup Duration"),
+                   footer: Text("Control how long answer popups are displayed. Shorter durations allow for faster trivia gameplay. Use Question History to review answers later.")) {
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Correct Answer: \(String(format: "%.1f", popupDurationManager.correctPopupDuration))s")
+                        .font(.subheadline)
+                    Slider(
+                        value: Binding(
+                            get: { popupDurationManager.correctPopupDuration },
+                            set: { popupDurationManager.setCorrectPopupDuration($0) }
+                        ),
+                        in: 0.5...5.0,
+                        step: 0.5
+                    )
+                }
+
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Incorrect Answer: \(String(format: "%.1f", popupDurationManager.incorrectPopupDuration))s")
+                        .font(.subheadline)
+                    Slider(
+                        value: Binding(
+                            get: { popupDurationManager.incorrectPopupDuration },
+                            set: { popupDurationManager.setIncorrectPopupDuration($0) }
+                        ),
+                        in: 0.5...5.0,
+                        step: 0.5
+                    )
+                }
             }
 
             Section(header: Text("Analytics"),

@@ -15,6 +15,7 @@ struct FizApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             LeaderboardEntry.self,
+            QuestionHistoryEntry.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

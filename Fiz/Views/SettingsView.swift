@@ -40,7 +40,24 @@ struct SettingsView: View {
                         }
                     }
                 }
-            
+
+                Section {
+                    NavigationLink(destination: QuestionHistoryView()) {
+                        HStack {
+                            Image(systemName: "clock.arrow.circlepath")
+                                .font(.title2)
+                                .foregroundColor(Color.fizBrown)
+                                .frame(width: 32)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Question History")
+                                    .font(.body)
+                                Text("Review answered questions")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            }
+                        }
+                    }
+                }
 
                 Section("About") {
                     HStack {

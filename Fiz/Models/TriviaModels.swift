@@ -186,10 +186,35 @@ final class LeaderboardEntry {
     var streak: Int
     var date: Date
     var id: UUID
-    
+
     init(streak: Int, date: Date) {
         self.streak = streak
         self.date = date
+        self.id = UUID()
+    }
+}
+
+@Model
+final class QuestionHistoryEntry {
+    var questionId: String
+    var questionText: String
+    var correctAnswer: String
+    var userAnswer: String
+    var wasCorrect: Bool
+    var timestamp: Date
+    var category: String
+    var subcategory: String?
+    var id: UUID
+
+    init(questionId: String, questionText: String, correctAnswer: String, userAnswer: String, wasCorrect: Bool, category: String, subcategory: String?) {
+        self.questionId = questionId
+        self.questionText = questionText
+        self.correctAnswer = correctAnswer
+        self.userAnswer = userAnswer
+        self.wasCorrect = wasCorrect
+        self.timestamp = Date()
+        self.category = category
+        self.subcategory = subcategory
         self.id = UUID()
     }
 }
@@ -574,6 +599,47 @@ class HapticSettingsManager: ObservableObject {
     func setHapticEnabled(_ enabled: Bool) {
         isHapticEnabled = enabled
         UserDefaults.standard.set(enabled, forKey: Self.hapticEnabledKey)
+    }
+}
+
+// MARK: - Popup Duration Manager
+class PopupDurationManager: ObservableObject {
+    private static let correctPopupDurationKey = "correct_popup_duration"
+    private static let incorrectPopupDurationKey = "incorrect_popup_duration"
+
+    @Published var correctPopupDuration: Double = 1.5 // Default 1.5 seconds
+    @Published var incorrectPopupDuration: Double = 3.0 // Default 3.0 seconds
+
+    static let shared = PopupDurationManager()
+
+    private init() {
+        loadSettings()
+    }
+
+    private func loadSettings() {
+        // Load correct popup duration (default 1.5)
+        if UserDefaults.standard.object(forKey: Self.correctPopupDurationKey) != nil {
+            correctPopupDuration = UserDefaults.standard.double(forKey: Self.correctPopupDurationKey)
+        } else {
+            correctPopupDuration = 1.5
+        }
+
+        // Load incorrect popup duration (default 3.0)
+        if UserDefaults.standard.object(forKey: Self.incorrectPopupDurationKey) != nil {
+            incorrectPopupDuration = UserDefaults.standard.double(forKey: Self.incorrectPopupDurationKey)
+        } else {
+            incorrectPopupDuration = 3.0
+        }
+    }
+
+    func setCorrectPopupDuration(_ duration: Double) {
+        correctPopupDuration = duration
+        UserDefaults.standard.set(duration, forKey: Self.correctPopupDurationKey)
+    }
+
+    func setIncorrectPopupDuration(_ duration: Double) {
+        incorrectPopupDuration = duration
+        UserDefaults.standard.set(duration, forKey: Self.incorrectPopupDurationKey)
     }
 }
 

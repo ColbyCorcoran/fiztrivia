@@ -24,6 +24,7 @@ struct CategoryWheelView: View {
     @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
+    @StateObject private var popupDurationManager = PopupDurationManager.shared
     @Environment(\.modelContext) private var modelContext
     @Query(sort: [SortDescriptor(\LeaderboardEntry.streak, order: .reverse)]) private var leaderboardEntries: [LeaderboardEntry]
     
@@ -37,6 +38,7 @@ struct CategoryWheelView: View {
     // Drag gesture state for pull-to-spin
     @State private var dragRotation: Double = 0
     @State private var isDragging = false
+    @State private var dragSpinDirection: Double = 1.0 // 1.0 for clockwise, -1.0 for counter-clockwise
 
     // Toast notification for subcategory/category completion
     @State private var showingCompletionToast = false
@@ -503,6 +505,10 @@ struct CategoryWheelView: View {
 
                 let dragDistance = sqrt(pow(value.translation.width, 2) + pow(value.translation.height, 2))
                 if dragDistance > 50 {
+                    // Capture the direction of the drag before resetting
+                    // Positive dragRotation = clockwise, negative = counter-clockwise
+                    dragSpinDirection = dragRotation >= 0 ? 1.0 : -1.0
+
                     // Add the drag rotation to the wheel's final position for continuity
                     gameViewModel.wheelRotation += dragRotation
                     dragRotation = 0
@@ -532,6 +538,7 @@ struct CategoryWheelView: View {
                     .clipShape(Circle())
             } else {
                 Button("SPIN") {
+                    dragSpinDirection = 1.0 // Default to clockwise for button spin
                     spinWheelInline()
                 }
                 .font(.title2)
@@ -602,9 +609,10 @@ struct CategoryWheelView: View {
         gameViewModel.isSpinning = true
         selectRandomFizImage()  // Pick a random Fiz for this spin
         HapticManager.shared.wheelSpinEffect()
-        
+
         let randomSpins = Double.random(in: 5...8)
-        let finalRotation = gameViewModel.wheelRotation + (randomSpins * 360)
+        // Apply the drag direction to the spin (1.0 = clockwise, -1.0 = counter-clockwise)
+        let finalRotation = gameViewModel.wheelRotation + (dragSpinDirection * randomSpins * 360)
         
         withAnimation(.easeOut(duration: 3.0)) {
             gameViewModel.wheelRotation = finalRotation
@@ -730,6 +738,23 @@ struct CategoryWheelView: View {
         gameViewModel.selectAnswer(answer, modelContext: modelContext)
         answerResult = gameViewModel.gameSession.answerState
 
+        // Save to question history
+        let historyEntry = QuestionHistoryEntry(
+            questionId: question.id,
+            questionText: question.question,
+            correctAnswer: question.correctAnswer,
+            userAnswer: answer,
+            wasCorrect: isCorrect,
+            category: question.category,
+            subcategory: question.subcategory
+        )
+        modelContext.insert(historyEntry)
+        do {
+            try modelContext.save()
+        } catch {
+            print("Failed to save question history: \(error)")
+        }
+
         // Check for completion (subcategory in Single Category Mode, or category in Default Mode)
         if singleCategoryManager.isEnabled,
            let subcategory = questionSubcategory,
@@ -790,8 +815,8 @@ struct CategoryWheelView: View {
         // Capture answer state before clearing
         let wasIncorrect = (answerResult == .incorrect)
 
-        // Auto-clear after delay (longer for incorrect answers to allow reading the correct answer)
-        let clearDelay = wasIncorrect ? 3.0 : 1.5
+        // Auto-clear after delay (use user-configured durations)
+        let clearDelay = wasIncorrect ? popupDurationManager.incorrectPopupDuration : popupDurationManager.correctPopupDuration
         DispatchQueue.main.asyncAfter(deadline: .now() + clearDelay) {
             withAnimation(.easeOut(duration: 0.3)) {
                 showingResult = false

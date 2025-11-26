@@ -401,6 +401,7 @@ For each category that needs expansion:
    - **Factual**: Based on verifiable information
    - **Varied**: Different question types, topics, and angles
    - **Specific**: Detailed enough to avoid semantic duplicates
+   - **No snakes or spiders**: Never include questions about snakes or spiders in any category
 
 4. **Commit After Each Category**
    ```bash

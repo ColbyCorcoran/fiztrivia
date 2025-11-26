@@ -40,6 +40,7 @@
 		B6B0E3842EC5075F007873A8 /* AppIcon-NewHighScore@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3742EC5075F007873A8 /* AppIcon-NewHighScore@3x.png */; };
 		B6B0E3852EC5075F007873A8 /* AppIcon-RegularPose.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E3752EC5075F007873A8 /* AppIcon-RegularPose.png */; };
 		B6B0E3862EC5075F007873A8 /* AppIcon-Incorrect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0E36D2EC5075F007873A8 /* AppIcon-Incorrect@2x.png */; };
+		B6E1CF722ED7B1380021D4B3 /* QuestionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E1CF712ED7B1380021D4B3 /* QuestionHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		B6B0E3752EC5075F007873A8 /* AppIcon-RegularPose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-RegularPose.png"; sourceTree = "<group>"; };
 		B6B0E3762EC5075F007873A8 /* AppIcon-RegularPose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-RegularPose@2x.png"; sourceTree = "<group>"; };
 		B6B0E3772EC5075F007873A8 /* AppIcon-RegularPose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-RegularPose@3x.png"; sourceTree = "<group>"; };
+		B6E1CF712ED7B1380021D4B3 /* QuestionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 				B68C5A832EBD2A5400C2A449 /* SettingsView.swift */,
 				B699B5FD2EBE4403001AF50D /* GameSettingsView.swift */,
 				B699B5FE2EBE4403001AF50D /* PersonalizationSettingsView.swift */,
+				B6E1CF712ED7B1380021D4B3 /* QuestionHistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				B68C5A932EBD2BDB00C2A449 /* OnboardingView.swift in Sources */,
 				B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */,
 				B68C5A942EBD2BDF00C2A449 /* SettingsView.swift in Sources */,
+				B6E1CF722ED7B1380021D4B3 /* QuestionHistoryView.swift in Sources */,
 				B68C5A8E2EBD2BC100C2A449 /* FizColors.swift in Sources */,
 				B699B5FF2EBE4403001AF50D /* PersonalizationSettingsView.swift in Sources */,
 				B699B6002EBE4403001AF50D /* GameSettingsView.swift in Sources */,

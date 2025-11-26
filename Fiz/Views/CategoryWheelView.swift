@@ -51,6 +51,10 @@ struct CategoryWheelView: View {
     // Random Fiz selection for spin button
     @State private var currentSpinFizImage = "fiz-regular pose"
 
+    // No questions available notification
+    @State private var showingNoQuestionsToast = false
+    @State private var noQuestionsMessage = ""
+
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
         if singleCategoryManager.isEnabled, singleCategoryManager.selectedCategory != nil {
@@ -109,21 +113,33 @@ struct CategoryWheelView: View {
                 VStack {
                     Spacer()
                     if !completedSubcategoryName.isEmpty {
-                        Text("🎉 \(completedSubcategoryName) Complete!")
-                            .font(.headline)
-                            .padding()
-                            .background(Color.black.opacity(0.8))
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
-                            .padding(.bottom, 200)
+                        VStack(spacing: 8) {
+                            Text("🎉 \(completedSubcategoryName) Complete!")
+                                .font(.headline)
+                                .fontWeight(.bold)
+                            Text("This section has been removed from the wheel")
+                                .font(.subheadline)
+                        }
+                        .padding()
+                        .background(Color.black.opacity(0.8))
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding(.bottom, 200)
+                        .padding(.horizontal, 20)
                     } else if !completedCategoryName.isEmpty {
-                        Text("🎉 \(completedCategoryName) Complete!")
-                            .font(.headline)
-                            .padding()
-                            .background(Color.black.opacity(0.8))
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
-                            .padding(.bottom, 200)
+                        VStack(spacing: 8) {
+                            Text("🎉 \(completedCategoryName) Complete!")
+                                .font(.headline)
+                                .fontWeight(.bold)
+                            Text("This category has been removed from the wheel")
+                                .font(.subheadline)
+                        }
+                        .padding()
+                        .background(Color.black.opacity(0.8))
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding(.bottom, 200)
+                        .padding(.horizontal, 20)
                     }
                     Spacer()
                 }
@@ -133,6 +149,11 @@ struct CategoryWheelView: View {
             // Toast notification for new high score
             if showingHighScoreToast {
                 newHighScoreToastView
+            }
+
+            // Toast notification for no questions available
+            if showingNoQuestionsToast {
+                noQuestionsToastView
             }
 
             // Celebration overlay for completion
@@ -294,65 +315,64 @@ struct CategoryWheelView: View {
     }
     
     private var resultView: some View {
-        GeometryReader { geometry in
-            VStack(spacing: 20) {
-                // Fiz mascot - celebrating or encouraging (TOP, larger)
-                Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 200, height: 200)
-                    .scaleEffect(showingResult ? 1.0 : 0.5)
-                    .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
+        VStack(spacing: 20) {
+            // Fiz mascot - celebrating or encouraging (TOP, larger)
+            Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 180, height: 180)
+                .scaleEffect(showingResult ? 1.0 : 0.5)
+                .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
 
-                // For correct answers: simple centered text with dynamic sizing
-                if answerResult == .correct {
-                    Text(userManager.personalizedCongratulatoryMessage())
-                        .font(.system(size: min(28, geometry.size.width * 0.08)))
+            // For correct answers: simple centered text
+            if answerResult == .correct {
+                Text(userManager.personalizedCongratulatoryMessage())
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(.primary)
+                    .multilineTextAlignment(.center)
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.7)
+                    .padding(.horizontal, 20)
+            }
+
+            // For incorrect answers: centered text with answer
+            if answerResult == .incorrect {
+                VStack(spacing: 12) {
+                    Text(userManager.personalizedEncouragingMessage())
+                        .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.primary)
                         .multilineTextAlignment(.center)
                         .lineLimit(2)
-                        .minimumScaleFactor(0.5)
-                        .padding(.horizontal, 16)
-                }
+                        .minimumScaleFactor(0.7)
+                        .padding(.horizontal, 20)
 
-                // For incorrect answers: centered text with answer and dynamic sizing
-                if answerResult == .incorrect {
-                    VStack(spacing: 12) {
-                        Text(userManager.personalizedEncouragingMessage())
-                            .font(.system(size: min(28, geometry.size.width * 0.08)))
-                            .fontWeight(.bold)
-                            .foregroundColor(.primary)
-                            .multilineTextAlignment(.center)
-                            .lineLimit(2)
-                            .minimumScaleFactor(0.5)
-                            .padding(.horizontal, 16)
+                    if let question = currentQuestion {
+                        VStack(spacing: 8) {
+                            Text("Correct Answer:")
+                                .font(.callout)
+                                .foregroundColor(.secondary)
 
-                        if let question = currentQuestion {
-                            VStack(spacing: 8) {
-                                Text("Correct Answer:")
-                                    .font(.body)
-                                    .foregroundColor(.secondary)
-
-                                Text(question.correctAnswer)
-                                    .font(.title2)
-                                    .fontWeight(.semibold)
-                                    .foregroundColor(Color.fizTeal)
-                                    .multilineTextAlignment(.center)
-                                    .lineLimit(3)
-                                    .minimumScaleFactor(0.7)
-                                    .padding(.horizontal, 16)
-                                    .padding(.vertical, 10)
-                                    .background(Color.fizTeal.opacity(0.15))
-                                    .cornerRadius(8)
-                            }
+                            Text(question.correctAnswer)
+                                .font(.title3)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.fizTeal)
+                                .multilineTextAlignment(.center)
+                                .lineLimit(3)
+                                .minimumScaleFactor(0.8)
+                                .padding(.horizontal, 20)
+                                .padding(.vertical, 12)
+                                .background(Color.fizTeal.opacity(0.15))
+                                .cornerRadius(10)
                         }
+                        .padding(.horizontal, 16)
                     }
                 }
             }
-            .frame(maxWidth: .infinity)
-            .padding(24)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .padding(.horizontal, 24)
     }
     
     private func questionView(for question: TriviaQuestion) -> some View {
@@ -463,18 +483,26 @@ struct CategoryWheelView: View {
     private var wheelDragGesture: some Gesture {
         DragGesture()
             .onChanged { value in
-                if !gameViewModel.isSpinning && !navigationButtonsDisabled {
-                    isDragging = true
-                    // Convert drag translation to rotation angle
-                    let angle = atan2(value.translation.height, value.translation.width) * 180 / .pi
-                    dragRotation = angle * 0.5 // Dampening factor for smoother feel
-                }
+                // Only allow dragging when buttons are enabled (not spinning, not showing question/result)
+                guard !gameViewModel.isSpinning && !navigationButtonsDisabled else { return }
+                isDragging = true
+                // Convert drag translation to rotation angle
+                let angle = atan2(value.translation.height, value.translation.width) * 180 / .pi
+                dragRotation = angle * 0.5 // Dampening factor for smoother feel
             }
             .onEnded { value in
+                // Only process drag end if we were actually dragging
+                guard !gameViewModel.isSpinning && !navigationButtonsDisabled else {
+                    // Reset any accumulated drag rotation if gesture happened during disabled state
+                    dragRotation = 0
+                    isDragging = false
+                    return
+                }
+
                 isDragging = false
-                
+
                 let dragDistance = sqrt(pow(value.translation.width, 2) + pow(value.translation.height, 2))
-                if dragDistance > 50 && !gameViewModel.isSpinning && !navigationButtonsDisabled {
+                if dragDistance > 50 {
                     // Add the drag rotation to the wheel's final position for continuity
                     gameViewModel.wheelRotation += dragRotation
                     dragRotation = 0
@@ -557,15 +585,18 @@ struct CategoryWheelView: View {
     // MARK: - Inline Wheel Spin Logic
     private func spinWheelInline() {
         guard !gameViewModel.isSpinning else { return }
-        
+
         // Disable all buttons during spin and question
         navigationButtonsDisabled = true
-        
+
         // Clear any previous state
         showingQuestion = false
         showingResult = false
         currentQuestion = nil
         answerResult = .unanswered
+
+        // Reset drag rotation to ensure wheel position is accurate
+        dragRotation = 0
         
         // Start the wheel spin
         gameViewModel.isSpinning = true
@@ -590,7 +621,20 @@ struct CategoryWheelView: View {
     private func selectCategoryAndLoadQuestion() {
         // Check if there are any segments available
         guard !wheelSegments.isEmpty else {
-            print("No wheel segments available")
+            print("No wheel segments available - all categories completed!")
+            // Show notification that all questions are answered
+            let modeDescription = singleCategoryManager.isEnabled
+                ? (singleCategoryManager.selectedCategory?.rawValue ?? "this category")
+                : "all categories"
+            noQuestionsMessage = "🎉 You've completed all questions in \(modeDescription) for \(difficultyManager.selectedDifficulty.rawValue) mode!"
+            withAnimation {
+                showingNoQuestionsToast = true
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                withAnimation {
+                    showingNoQuestionsToast = false
+                }
+            }
             navigationButtonsDisabled = false
             return
         }
@@ -634,6 +678,16 @@ struct CategoryWheelView: View {
 
         guard let randomQuestion = filteredQuestions.randomElement() else {
             print("No unanswered questions available for segment: \(selectedSegment.name)")
+            // This should not happen since we filter wheelSegments, but just in case
+            noQuestionsMessage = "No more questions in \(selectedSegment.name). Try spinning again!"
+            withAnimation {
+                showingNoQuestionsToast = true
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                withAnimation {
+                    showingNoQuestionsToast = false
+                }
+            }
             navigationButtonsDisabled = false
             return
         }
@@ -695,8 +749,8 @@ struct CategoryWheelView: View {
                 questionsAnswered: questionsAnswered
             )
 
-            // Auto-dismiss toast after 2 seconds
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            // Auto-dismiss toast after 3 seconds (longer to read the message)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                 withAnimation {
                     showingCompletionToast = false
                     completedSubcategoryName = ""
@@ -720,8 +774,8 @@ struct CategoryWheelView: View {
                 questionsAnswered: questionsAnswered
             )
 
-            // Auto-dismiss toast after 2 seconds
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            // Auto-dismiss toast after 3 seconds (longer to read the message)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                 withAnimation {
                     showingCompletionToast = false
                     completedCategoryName = ""
@@ -830,6 +884,21 @@ struct CategoryWheelView: View {
         }
         .padding(.top, 120)
         .transition(.move(edge: .top).combined(with: .opacity))
+    }
+
+    private var noQuestionsToastView: some View {
+        VStack {
+            Spacer()
+            Text(noQuestionsMessage)
+                .font(.headline)
+                .padding()
+                .background(Color.black.opacity(0.8))
+                .foregroundColor(.white)
+                .cornerRadius(10)
+                .padding(.bottom, 200)
+            Spacer()
+        }
+        .transition(.move(edge: .bottom).combined(with: .opacity))
     }
 
     private var completionCelebrationOverlay: some View {

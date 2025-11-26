@@ -78,12 +78,6 @@ struct PersonalizationSettingsView: View {
                                     .multilineTextAlignment(.center)
                                     .lineLimit(2)
                                     .frame(height: 30)
-
-                                if appIconManager.selectedIcon == icon {
-                                    Image(systemName: "checkmark.circle.fill")
-                                        .foregroundColor(Color.fizTeal)
-                                        .font(.caption)
-                                }
                             }
                             .frame(maxWidth: .infinity)
                         }

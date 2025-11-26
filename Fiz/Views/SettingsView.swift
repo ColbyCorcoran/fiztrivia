@@ -66,13 +66,6 @@ struct SettingsView: View {
                         Text(appVersion)
                             .foregroundColor(.secondary)
                     }
-
-                    HStack {
-                        Text("Categories")
-                        Spacer()
-                        Text("\(TriviaCategory.allCases.count)")
-                            .foregroundColor(.secondary)
-                    }
                 }
             }
             .navigationTitle("Settings")

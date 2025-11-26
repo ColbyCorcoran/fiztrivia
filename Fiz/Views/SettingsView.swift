@@ -16,7 +16,7 @@ struct SettingsView: View {
                             VStack(alignment: .leading, spacing: 2) {
                                 Text("Personalization")
                                     .font(.body)
-                                Text("Profile, App Icon, Haptics")
+                                Text("Username, App Icon, and more")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }

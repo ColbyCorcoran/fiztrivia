@@ -21194,20 +21194,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "foo_169",
-        "category": "Food",
-        "subcategory": "Food History",
-        "question": "What sandwich was named after a British Earl?",
-        "options": [
-          "Sandwich",
-          "Wellington",
-          "Earl Grey",
-          "Yorkshire pudding"
-        ],
-        "correct_answer": "Sandwich",
-        "difficulty": "easy"
-      },
-      {
         "id": "foo_172",
         "category": "Food",
         "subcategory": "Food History",

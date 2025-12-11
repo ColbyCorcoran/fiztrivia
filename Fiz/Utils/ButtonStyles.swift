@@ -33,6 +33,8 @@ struct AnswerButtonStyle: ViewModifier {
 }
 
 struct iOS18AnswerButtonStyle: ButtonStyle {
+    @Environment(\.sizeCategory) var sizeCategory
+
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.body)
@@ -41,13 +43,26 @@ struct iOS18AnswerButtonStyle: ButtonStyle {
             .multilineTextAlignment(.center)
             .lineLimit(nil)
             .fixedSize(horizontal: false, vertical: true)
-            .frame(maxWidth: .infinity, minHeight: 44)
-            .padding(.horizontal, 12)
-            .padding(.vertical, 10)
+            .frame(maxWidth: .infinity, minHeight: dynamicMinHeight)
+            .padding(.horizontal, dynamicHorizontalPadding)
+            .padding(.vertical, dynamicVerticalPadding)
             .background(Color.fizBackground)
             .cornerRadius(12)
             .shadow(color: Color.fizBrown.opacity(0.15), radius: 2, x: 0, y: 1)
             .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
+    }
+
+    private var dynamicMinHeight: CGFloat {
+        // Ensure minimum touch target of 44pt, but allow natural growth
+        sizeCategory >= .accessibilityMedium ? 56 : 44
+    }
+
+    private var dynamicHorizontalPadding: CGFloat {
+        sizeCategory >= .accessibilityMedium ? 8 : 12
+    }
+
+    private var dynamicVerticalPadding: CGFloat {
+        sizeCategory >= .accessibilityMedium ? 8 : 10
     }
 }
 
@@ -77,6 +92,7 @@ struct ProminentActionButtonStyle: ViewModifier {
 
 struct iOS18ProminentButtonStyle: ButtonStyle {
     var color: Color
+    @Environment(\.sizeCategory) var sizeCategory
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
@@ -84,11 +100,15 @@ struct iOS18ProminentButtonStyle: ButtonStyle {
             .fontWeight(.semibold)
             .foregroundColor(.white)
             .frame(maxWidth: .infinity)
-            .padding(.vertical, 16)
+            .padding(.vertical, dynamicVerticalPadding)
             .background(color)
             .cornerRadius(12)
             .shadow(color: Color.fizBrown.opacity(0.3), radius: 4, x: 0, y: 2)
             .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
+    }
+
+    private var dynamicVerticalPadding: CGFloat {
+        sizeCategory >= .accessibilityMedium ? 12 : 16
     }
 }
 

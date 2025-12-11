@@ -26,6 +26,7 @@ struct CategoryWheelView: View {
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
     @StateObject private var popupDurationManager = PopupDurationManager.shared
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.sizeCategory) private var sizeCategory
     @Query(sort: [SortDescriptor(\LeaderboardEntry.streak, order: .reverse)]) private var leaderboardEntries: [LeaderboardEntry]
     
     // New state management for inline questions/results
@@ -98,7 +99,27 @@ struct CategoryWheelView: View {
         let count = wheelSegments.count
         return count > 0 ? 360.0 / Double(count) : 0
     }
-    
+
+    // MARK: - Dynamic Type Helpers
+    private var isLargeAccessibilitySize: Bool {
+        sizeCategory >= .accessibilityMedium
+    }
+
+    private var scaledImageSize: CGFloat {
+        if sizeCategory >= .accessibilityLarge {
+            return 120  // Smaller images for very large text
+        } else if isLargeAccessibilitySize {
+            return 140  // Medium reduction for accessibility sizes
+        } else {
+            return 180  // Normal size
+        }
+    }
+
+    private var questionAreaHeight: CGFloat {
+        // For large accessibility sizes, use more flexible height
+        isLargeAccessibilitySize ? 400 : 300
+    }
+
     var body: some View {
         GeometryReader { geometry in
             mainContentView(geometry: geometry)
@@ -290,6 +311,26 @@ struct CategoryWheelView: View {
     }
     
     private var questionArea: some View {
+        Group {
+            if isLargeAccessibilitySize {
+                // For large text: Use ScrollView to prevent overflow
+                ScrollView {
+                    questionContent
+                        .padding(.horizontal, 16)
+                }
+                .frame(maxWidth: .infinity)
+                .frame(height: questionAreaHeight)
+            } else {
+                // For normal text: Use fixed layout
+                questionContent
+                    .frame(height: questionAreaHeight)
+                    .frame(maxWidth: .infinity)
+                    .padding(.horizontal, 16)
+            }
+        }
+    }
+
+    private var questionContent: some View {
         ZStack {
             Group {
                 if showingResult {
@@ -303,28 +344,25 @@ struct CategoryWheelView: View {
             .animation(.easeInOut(duration: 0.3), value: showingQuestion)
             .animation(.easeInOut(duration: 0.3), value: showingResult)
         }
-        .frame(height: 300)
-        .frame(maxWidth: .infinity)
-        .padding(.horizontal, 16)
     }
 
     private func questionAreaWithCalculatedSpacing(geometry: GeometryProxy) -> some View {
         let toolbarHeight: CGFloat = 50
         let wheelTopY = geometry.size.height - 325  // Wheel center (height - 100) minus radius (225)
         let safeZoneHeight = wheelTopY - toolbarHeight
-        let topPadding = (safeZoneHeight - 300) / 2  // Center 300pt questionArea in safe zone
+        let topPadding = (safeZoneHeight - questionAreaHeight) / 2  // Center questionArea in safe zone
 
         return questionArea
             .padding(.top, max(topPadding, 20))  // Minimum 20pt padding
     }
     
     private var resultView: some View {
-        VStack(spacing: 20) {
-            // Fiz mascot - celebrating or encouraging (TOP, larger)
+        VStack(spacing: isLargeAccessibilitySize ? 12 : 20) {
+            // Fiz mascot - celebrating or encouraging (TOP, scaled for accessibility)
             Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 180, height: 180)
+                .frame(width: scaledImageSize, height: scaledImageSize)
                 .scaleEffect(showingResult ? 1.0 : 0.5)
                 .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
 
@@ -415,28 +453,16 @@ struct CategoryWheelView: View {
             }
             
             LazyVGrid(columns: [
-                GridItem(.flexible(), spacing: 12),
-                GridItem(.flexible(), spacing: 12)
-            ], spacing: 12) {
+                GridItem(.flexible(), spacing: isLargeAccessibilitySize ? 8 : 12),
+                GridItem(.flexible(), spacing: isLargeAccessibilitySize ? 8 : 12)
+            ], spacing: isLargeAccessibilitySize ? 8 : 12) {
                 ForEach(Array(question.options.enumerated()), id: \.offset) { index, option in
                     Button(action: {
                         selectAnswer(option)
                     }) {
                         Text(option)
-                            .font(.headline)
-                            .fontWeight(.medium)
-                            .foregroundColor(.primary)
-                            .multilineTextAlignment(.center)
-                            .lineLimit(nil)
-                            .fixedSize(horizontal: false, vertical: true)
-                            .frame(maxWidth: .infinity, minHeight: 56)
-                            .padding(.horizontal, 16)
-                            .padding(.vertical, 14)
-                            .background(Color.fizBackground)
-                            .cornerRadius(12)
-                            .shadow(color: Color.fizBrown.opacity(0.15), radius: 2, x: 0, y: 1)
                     }
-                    .buttonStyle(.plain)
+                    .answerButtonStyle()
                 }
             }
         }
@@ -881,12 +907,12 @@ struct CategoryWheelView: View {
     private var newHighScoreToastView: some View {
         VStack {
             // Larger notification card without dark background
-            VStack(spacing: 24) {
-                // Fiz celebrating - larger size
+            VStack(spacing: isLargeAccessibilitySize ? 16 : 24) {
+                // Fiz celebrating - scaled for accessibility
                 Image("fiz-new high score")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 180, height: 180)
+                    .frame(width: scaledImageSize, height: scaledImageSize)
                     .scaleEffect(showingHighScoreToast ? 1.0 : 0.5)
                     .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingHighScoreToast)
 
@@ -969,12 +995,12 @@ struct CategoryWheelView: View {
                     // Prevent taps from going through
                 }
 
-            VStack(spacing: 30) {
-                // Fiz celebrating new high score
+            VStack(spacing: isLargeAccessibilitySize ? 20 : 30) {
+                // Fiz celebrating new high score - scaled for accessibility
                 Image("fiz-new high score")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 180, height: 180)
+                    .frame(width: scaledImageSize, height: scaledImageSize)
                     .scaleEffect(gameViewModel.showCompletionCelebration ? 1.0 : 0.5)
                     .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.2), value: gameViewModel.showCompletionCelebration)
 

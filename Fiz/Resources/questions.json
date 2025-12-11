@@ -2592,20 +2592,6 @@
         "difficulty": "medium"
       },
       {
-        "id": "ent_193",
-        "category": "Entertainment",
-        "subcategory": "Pok\u00e9mon",
-        "question": "How many generations of Pok\u00e9mon games were there originally?",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
-        "correct_answer": "1",
-        "difficulty": "medium"
-      },
-      {
         "id": "ent_194",
         "category": "Entertainment",
         "subcategory": "Pok\u00e9mon",
@@ -3442,7 +3428,7 @@
           "Corn",
           "Soybeans"
         ],
-        "correct_answer": "Mose",
+        "correct_answer": "Hemp",
         "difficulty": "hard"
       },
       {
@@ -3704,8 +3690,8 @@
         "question": "What is the real name of Thor?",
         "options": [
           "Thor Odinson",
-          "Loki Laufeyson",
-          "Baldur",
+          "Thorel Borson",
+          "Thorjrin Baldur",
           "Odin Borson"
         ],
         "correct_answer": "Thor Odinson",
@@ -7582,7 +7568,7 @@
       {
         "id": "bib_002",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "New Testament",
         "question": "How many books are in the New Testament?",
         "options": [
           "25",
@@ -7681,7 +7667,7 @@
         "id": "bib_009",
         "category": "Bible",
         "subcategory": "Old Testament",
-        "question": "What was the first book of the Bible?",
+        "question": "What is the first book of the Bible?",
         "options": [
           "Exodus",
           "Genesis",
@@ -7694,7 +7680,7 @@
       {
         "id": "bib_010",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "New Testament",
         "question": "Who wrote most of the letters in the New Testament?",
         "options": [
           "Peter",
@@ -7708,7 +7694,7 @@
       {
         "id": "bib_011",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "What did God create on the first day?",
         "options": [
           "Land and sea",
@@ -7736,7 +7722,7 @@
       {
         "id": "bib_013",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "How many books are in the Old Testament?",
         "options": [
           "37",
@@ -7960,7 +7946,7 @@
       {
         "id": "bib_030",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "What language was most of the Old Testament written in?",
         "options": [
           "Greek",
@@ -8086,7 +8072,7 @@
       {
         "id": "bib_040",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "Who wrote most of the Psalms?",
         "options": [
           "Solomon",
@@ -8716,7 +8702,7 @@
       {
         "id": "bib_085",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "New Testament",
         "question": "Who wrote the book of Revelation?",
         "options": [
           "Paul",
@@ -8758,7 +8744,7 @@
       {
         "id": "bib_089",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "What did God create on the second day?",
         "options": [
           "Land and sea",
@@ -9332,7 +9318,7 @@
       {
         "id": "bib_135",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "Who wrote the book of Ecclesiastes?",
         "options": [
           "David",
@@ -9388,7 +9374,7 @@
       {
         "id": "bib_139",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "New Testament",
         "question": "How many baskets of leftovers were collected after feeding the 5000?",
         "options": [
           "7",
@@ -10158,7 +10144,7 @@
       {
         "id": "bib_200",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "How many days and nights did it rain during Noah's flood?",
         "options": [
           "40",
@@ -10228,7 +10214,7 @@
       {
         "id": "bib_209",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "New Testament",
         "question": "What is the shortest book in the New Testament?",
         "options": [
           "2 John",
@@ -10620,7 +10606,7 @@
       {
         "id": "bib_263",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "New Testament",
         "question": "What type of tree did Zacchaeus climb to see Jesus?",
         "options": [
           "Sycamore",
@@ -10914,7 +10900,7 @@
       {
         "id": "bib_292",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "How many chapters are in the book of Genesis?",
         "options": [
           "50",
@@ -10926,23 +10912,9 @@
         "difficulty": "hard"
       },
       {
-        "id": "bib_293",
-        "category": "Bible",
-        "subcategory": "Bible Trivia",
-        "question": "Which book of the Bible is the shortest?",
-        "options": [
-          "2 John",
-          "3 John",
-          "Philemon",
-          "Obadiah"
-        ],
-        "correct_answer": "2 John",
-        "difficulty": "hard"
-      },
-      {
         "id": "bib_294",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
+        "subcategory": "Old Testament",
         "question": "How many psalms are in the book of Psalms?",
         "options": [
           "150",

@@ -71,7 +71,7 @@ enum TriviaCategory: String, CaseIterable {
         case .technology: return "#3498DB"         // Blue
         case .art: return "#F39C12"                // Orange
         case .geography: return "#16A085"          // Teal
-        case .sports: return "#FF7F0F"             // Orange
+        case .sports: return "#E67E22"             // Darker Orange
         case .science: return "#1ABC9C"            // Turquoise
         case .nature: return "#2ECC71"             // Green
         case .history: return "#5DADE2"            // Light Blue

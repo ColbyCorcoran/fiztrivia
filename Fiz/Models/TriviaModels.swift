@@ -6,23 +6,27 @@ struct TriviaQuestion: Codable, Identifiable {
     let id: String
     let category: String
     let subcategory: String?
+    let topic: String?
+    let subtopic: String?
     let question: String
     let options: [String]
     let correctAnswer: String
     let difficulty: String
-    
-    init(id: String? = nil, category: String, subcategory: String?, question: String, options: [String], correctAnswer: String, difficulty: String) {
+
+    init(id: String? = nil, category: String, subcategory: String?, topic: String? = nil, subtopic: String? = nil, question: String, options: [String], correctAnswer: String, difficulty: String) {
         self.id = id ?? UUID().uuidString
         self.category = category
         self.subcategory = subcategory
+        self.topic = topic
+        self.subtopic = subtopic
         self.question = question
         self.options = options
         self.correctAnswer = correctAnswer
         self.difficulty = difficulty
     }
-    
+
     private enum CodingKeys: String, CodingKey {
-        case id, category, subcategory, question, options
+        case id, category, subcategory, topic, subtopic, question, options
         case correctAnswer = "correct_answer"
         case difficulty
     }
@@ -30,34 +34,49 @@ struct TriviaQuestion: Codable, Identifiable {
 
 enum TriviaCategory: String, CaseIterable {
     case entertainment = "Entertainment"
+    case literature = "Literature"
+    case music = "Music"
+    case technology = "Technology"
+    case art = "Art"
+    case geography = "Geography"
     case sports = "Sports"
-    case bible = "Bible"
-    case history = "History"
     case science = "Science"
-    case earth = "Earth"
+    case nature = "Nature"
+    case history = "History"
+    case bible = "Bible"
     case food = "Food"
-    
+
     var icon: String {
         switch self {
         case .entertainment: return "movieclapper.fill"
+        case .literature: return "book.fill"
+        case .music: return "music.note"
+        case .technology: return "laptopcomputer"
+        case .art: return "paintpalette.fill"
+        case .geography: return "map.fill"
         case .sports: return "tennisball.fill"
-        case .bible: return "text.book.closed.fill"
-        case .history: return "building.columns.fill"
         case .science: return "atom"
-        case .earth: return "globe.europe.africa.fill"
+        case .nature: return "leaf.fill"
+        case .history: return "building.columns.fill"
+        case .bible: return "text.book.closed.fill"
         case .food: return "fork.knife.circle.fill"
         }
     }
-    
+
     var color: String {
         switch self {
-        case .entertainment: return "#F7B500"
-        case .sports: return "#FF7F0F"
-        case .bible: return "#8E44AD"
-        case .history: return "#3498DB"
-        case .science: return "#1ABC9C"
-        case .earth: return "#2ECC71"
-        case .food: return "#E91E63"
+        case .entertainment: return "#F7B500"      // Gold
+        case .literature: return "#9B59B6"         // Purple
+        case .music: return "#E74C3C"              // Red
+        case .technology: return "#3498DB"         // Blue
+        case .art: return "#F39C12"                // Orange
+        case .geography: return "#16A085"          // Teal
+        case .sports: return "#FF7F0F"             // Orange
+        case .science: return "#1ABC9C"            // Turquoise
+        case .nature: return "#2ECC71"             // Green
+        case .history: return "#5DADE2"            // Light Blue
+        case .bible: return "#8E44AD"              // Dark Purple
+        case .food: return "#E91E63"               // Pink
         }
     }
 
@@ -80,15 +99,12 @@ struct EntertainmentSubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let superheroes = EntertainmentSubcategory(name: "Superheroes", icon: "book.pages.fill", color: "#F7B500")
-    static let harryPotter = EntertainmentSubcategory(name: "Harry Potter", icon: "wand.and.stars", color: "#FF7F0F")
-    static let pokemon = EntertainmentSubcategory(name: "Pokémon", icon: "circle.circle.fill", color: "#8E44AD")
-    static let starWars = EntertainmentSubcategory(name: "Star Wars", icon: "allergens.fill", color: "#3498DB")
-    static let pixar = EntertainmentSubcategory(name: "Pixar", icon: "lamp.desk.fill", color: "#1ABC9C")
-    static let filmScoreComposers = EntertainmentSubcategory(name: "Film Score Composers", icon: "music.note.list", color: "#2ECC71")
-    static let theOffice = EntertainmentSubcategory(name: "The Office", icon: "building.2.fill", color: "#E91E63")
+    static let animation = EntertainmentSubcategory(name: "Animation", icon: "film.stack.fill", color: "#F7B500")
+    static let sciFiFantasy = EntertainmentSubcategory(name: "Sci-Fi/Fantasy", icon: "sparkles", color: "#FF7F0F")
+    static let actionAdventure = EntertainmentSubcategory(name: "Action/Adventure", icon: "bolt.fill", color: "#8E44AD")
+    static let dramaComedy = EntertainmentSubcategory(name: "Drama/Comedy", icon: "theatermasks.fill", color: "#3498DB")
 
-    static let all: [EntertainmentSubcategory] = [superheroes, harryPotter, pokemon, starWars, pixar, filmScoreComposers, theOffice]
+    static let all: [EntertainmentSubcategory] = [animation, sciFiFantasy, actionAdventure, dramaComedy]
 }
 
 // MARK: - Sports Subcategories
@@ -97,16 +113,14 @@ struct SportsSubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let basketball = SportsSubcategory(name: "Basketball", icon: "basketball.fill", color: "#F7B500")
-    static let tennis = SportsSubcategory(name: "Tennis", icon: "tennisball.fill", color: "#FF7F0F")
-    static let golf = SportsSubcategory(name: "Golf", icon: "figure.golf", color: "#8E44AD")
-    static let soccer = SportsSubcategory(name: "Soccer", icon: "soccerball", color: "#3498DB")
-    static let olympics = SportsSubcategory(name: "Olympics", icon: "medal.fill", color: "#1ABC9C")
-    static let hockey = SportsSubcategory(name: "Hockey", icon: "hockey.puck.fill", color: "#2ECC71")
-    static let americanFootball = SportsSubcategory(name: "American Football", icon: "football.fill", color: "#E91E63")
-    static let baseball = SportsSubcategory(name: "Baseball", icon: "baseball.fill", color: "#5C6BC0")
+    static let teamSports = SportsSubcategory(name: "Team Sports", icon: "figure.basketball", color: "#F7B500")
+    static let individualSports = SportsSubcategory(name: "Individual Sports", icon: "figure.tennis", color: "#FF7F0F")
+    static let internationalCompetition = SportsSubcategory(name: "International Competition", icon: "medal.fill", color: "#8E44AD")
+    static let extremeActionSports = SportsSubcategory(name: "Extreme & Action Sports", icon: "figure.snowboarding", color: "#3498DB")
+    static let sportsHistoryRecords = SportsSubcategory(name: "Sports History & Records", icon: "books.vertical.fill", color: "#1ABC9C")
+    static let athletesBiography = SportsSubcategory(name: "Athletes & Biography", icon: "person.2.fill", color: "#2ECC71")
 
-    static let all: [SportsSubcategory] = [basketball, tennis, golf, soccer, olympics, hockey, americanFootball, baseball]
+    static let all: [SportsSubcategory] = [teamSports, individualSports, internationalCompetition, extremeActionSports, sportsHistoryRecords, athletesBiography]
 }
 
 // MARK: - Bible Subcategories
@@ -120,9 +134,9 @@ struct BibleSubcategory: TriviaSubcategory {
     static let bibleTrivia = BibleSubcategory(name: "Bible Trivia", icon: "questionmark.circle.fill", color: "#8E44AD")
     static let biblicalHistory = BibleSubcategory(name: "Biblical History", icon: "building.columns.fill", color: "#3498DB")
     static let biblicalTheology = BibleSubcategory(name: "Biblical Theology", icon: "lightbulb.fill", color: "#1ABC9C")
-    static let biblicalLanguages = BibleSubcategory(name: "Biblical Languages", icon: "textformat.abc", color: "#2ECC71")
+    static let bibleLanguages = BibleSubcategory(name: "Bible Languages", icon: "textformat.abc", color: "#2ECC71")
 
-    static let all: [BibleSubcategory] = [oldTestament, newTestament, bibleTrivia, biblicalHistory, biblicalTheology, biblicalLanguages]
+    static let all: [BibleSubcategory] = [oldTestament, newTestament, bibleTrivia, biblicalHistory, biblicalTheology, bibleLanguages]
 }
 
 // MARK: - History Subcategories
@@ -153,19 +167,19 @@ struct ScienceSubcategory: TriviaSubcategory {
     static let all: [ScienceSubcategory] = [biology, chemistry, physics, astronomy]
 }
 
-// MARK: - Earth Subcategories
-struct EarthSubcategory: TriviaSubcategory {
+// MARK: - Nature Subcategories
+struct NatureSubcategory: TriviaSubcategory {
     let name: String
     let icon: String
     let color: String
 
-    static let animals = EarthSubcategory(name: "Animals", icon: "pawprint.fill", color: "#F7B500")
-    static let weather = EarthSubcategory(name: "Weather", icon: "cloud.sun.fill", color: "#FF7F0F")
-    static let plants = EarthSubcategory(name: "Plants", icon: "leaf.fill", color: "#8E44AD")
-    static let trees = EarthSubcategory(name: "Trees", icon: "tree.fill", color: "#3498DB")
-    static let geography = EarthSubcategory(name: "Geography", icon: "map.fill", color: "#1ABC9C")
+    static let trees = NatureSubcategory(name: "Trees", icon: "tree.fill", color: "#F7B500")
+    static let weather = NatureSubcategory(name: "Weather", icon: "cloud.sun.fill", color: "#FF7F0F")
+    static let plantsFlowers = NatureSubcategory(name: "Plants & Flowers", icon: "leaf.fill", color: "#8E44AD")
+    static let animalsWildlife = NatureSubcategory(name: "Animals & Wildlife", icon: "pawprint.fill", color: "#3498DB")
+    static let oceansMarineLife = NatureSubcategory(name: "Oceans & Marine Life", icon: "water.waves", color: "#1ABC9C")
 
-    static let all: [EarthSubcategory] = [animals, weather, plants, trees, geography]
+    static let all: [NatureSubcategory] = [trees, weather, plantsFlowers, animalsWildlife, oceansMarineLife]
 }
 
 // MARK: - Food Subcategories
@@ -175,10 +189,93 @@ struct FoodSubcategory: TriviaSubcategory {
     let color: String
 
     static let ingredients = FoodSubcategory(name: "Ingredients", icon: "carrot.fill", color: "#F7B500")
-    static let famousChefs = FoodSubcategory(name: "Famous Chefs/Restaurants", icon: "person.3.fill", color: "#FF7F0F")
-    static let dishes = FoodSubcategory(name: "Dishes", icon: "fork.knife", color: "#8E44AD")
+    static let dishes = FoodSubcategory(name: "Dishes", icon: "fork.knife", color: "#FF7F0F")
+    static let famousChefs = FoodSubcategory(name: "Famous Chefs/Restaurants", icon: "person.3.fill", color: "#8E44AD")
+    static let baking = FoodSubcategory(name: "Baking", icon: "birthday.cake.fill", color: "#3498DB")
+    static let cookingTechniques = FoodSubcategory(name: "Cooking Techniques", icon: "flame.fill", color: "#1ABC9C")
+    static let cuisines = FoodSubcategory(name: "Cuisines", icon: "globe", color: "#2ECC71")
+    static let beverages = FoodSubcategory(name: "Beverages", icon: "cup.and.saucer.fill", color: "#E91E63")
+    static let desserts = FoodSubcategory(name: "Desserts", icon: "star.fill", color: "#9C27B0")
+    static let foodHistory = FoodSubcategory(name: "Food History", icon: "clock.fill", color: "#FF5722")
+    static let saucesCondiments = FoodSubcategory(name: "Sauces & Condiments", icon: "drop.fill", color: "#795548")
 
-    static let all: [FoodSubcategory] = [ingredients, famousChefs, dishes]
+    static let all: [FoodSubcategory] = [ingredients, dishes, famousChefs, baking, cookingTechniques, cuisines, beverages, desserts, foodHistory, saucesCondiments]
+}
+
+// MARK: - Literature Subcategories
+struct LiteratureSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let fantasyLiterature = LiteratureSubcategory(name: "Fantasy Literature", icon: "wand.and.stars", color: "#F7B500")
+    static let classicLiterature = LiteratureSubcategory(name: "Classic Literature", icon: "book.closed.fill", color: "#FF7F0F")
+    static let modernFiction = LiteratureSubcategory(name: "Modern Fiction", icon: "book.pages.fill", color: "#8E44AD")
+    static let poetry = LiteratureSubcategory(name: "Poetry", icon: "text.alignleft", color: "#3498DB")
+    static let childrensBooks = LiteratureSubcategory(name: "Children's Books", icon: "figure.and.child.holdinghands", color: "#1ABC9C")
+    static let authorsBiography = LiteratureSubcategory(name: "Authors & Biography", icon: "person.text.rectangle.fill", color: "#2ECC71")
+
+    static let all: [LiteratureSubcategory] = [fantasyLiterature, classicLiterature, modernFiction, poetry, childrensBooks, authorsBiography]
+}
+
+// MARK: - Music Subcategories
+struct MusicSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let historyEras = MusicSubcategory(name: "History & Eras", icon: "clock.fill", color: "#F7B500")
+    static let musiciansBands = MusicSubcategory(name: "Musicians & Bands", icon: "guitars.fill", color: "#FF7F0F")
+    static let awardsRecords = MusicSubcategory(name: "Awards & Records", icon: "trophy.fill", color: "#8E44AD")
+    static let instrumentsTheory = MusicSubcategory(name: "Instruments & Theory", icon: "pianokeys.fill", color: "#3498DB")
+    static let filmTV = MusicSubcategory(name: "Film & TV", icon: "music.note.tv.fill", color: "#1ABC9C")
+
+    static let all: [MusicSubcategory] = [historyEras, musiciansBands, awardsRecords, instrumentsTheory, filmTV]
+}
+
+// MARK: - Technology Subcategories
+struct TechnologySubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let videoGames = TechnologySubcategory(name: "Video Games", icon: "gamecontroller.fill", color: "#F7B500")
+    static let computersSoftware = TechnologySubcategory(name: "Computers & Software", icon: "desktopcomputer", color: "#FF7F0F")
+    static let internetSocialMedia = TechnologySubcategory(name: "Internet & Social Media", icon: "network", color: "#8E44AD")
+    static let techCompanies = TechnologySubcategory(name: "Tech Companies", icon: "building.2.fill", color: "#3498DB")
+    static let inventions = TechnologySubcategory(name: "Inventions", icon: "lightbulb.fill", color: "#1ABC9C")
+
+    static let all: [TechnologySubcategory] = [videoGames, computersSoftware, internetSocialMedia, techCompanies, inventions]
+}
+
+// MARK: - Art Subcategories
+struct ArtSubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let famousPainters = ArtSubcategory(name: "Famous Painters", icon: "paintbrush.fill", color: "#F7B500")
+    static let artHistoryMovements = ArtSubcategory(name: "Art History & Movements", icon: "clock.arrow.circlepath", color: "#FF7F0F")
+    static let sculpture = ArtSubcategory(name: "Sculpture", icon: "square.3d.down.right.fill", color: "#8E44AD")
+    static let architecture = ArtSubcategory(name: "Architecture", icon: "building.columns.fill", color: "#3498DB")
+    static let photography = ArtSubcategory(name: "Photography", icon: "camera.fill", color: "#1ABC9C")
+
+    static let all: [ArtSubcategory] = [famousPainters, artHistoryMovements, sculpture, architecture, photography]
+}
+
+// MARK: - Geography Subcategories
+struct GeographySubcategory: TriviaSubcategory {
+    let name: String
+    let icon: String
+    let color: String
+
+    static let usGeography = GeographySubcategory(name: "U.S. Geography", icon: "flag.fill", color: "#F7B500")
+    static let worldGeography = GeographySubcategory(name: "World Geography", icon: "globe", color: "#FF7F0F")
+    static let flags = GeographySubcategory(name: "Flags", icon: "flag.2.crossed.fill", color: "#8E44AD")
+    static let landmarksMonuments = GeographySubcategory(name: "Landmarks & Monuments", icon: "building.2.fill", color: "#3498DB")
+    static let mapsBorders = GeographySubcategory(name: "Maps & Borders", icon: "map.fill", color: "#1ABC9C")
+
+    static let all: [GeographySubcategory] = [usGeography, worldGeography, flags, landmarksMonuments, mapsBorders]
 }
 
 @Model
@@ -523,16 +620,26 @@ class SingleCategoryModeManager: ObservableObject {
         switch category {
         case .entertainment:
             subcategories = EntertainmentSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .literature:
+            subcategories = LiteratureSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .music:
+            subcategories = MusicSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .technology:
+            subcategories = TechnologySubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .art:
+            subcategories = ArtSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .geography:
+            subcategories = GeographySubcategory.all.filter { subcategoryNames.contains($0.name) }
         case .sports:
             subcategories = SportsSubcategory.all.filter { subcategoryNames.contains($0.name) }
-        case .bible:
-            subcategories = BibleSubcategory.all.filter { subcategoryNames.contains($0.name) }
-        case .history:
-            subcategories = HistorySubcategory.all.filter { subcategoryNames.contains($0.name) }
         case .science:
             subcategories = ScienceSubcategory.all.filter { subcategoryNames.contains($0.name) }
-        case .earth:
-            subcategories = EarthSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .nature:
+            subcategories = NatureSubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .history:
+            subcategories = HistorySubcategory.all.filter { subcategoryNames.contains($0.name) }
+        case .bible:
+            subcategories = BibleSubcategory.all.filter { subcategoryNames.contains($0.name) }
         case .food:
             subcategories = FoodSubcategory.all.filter { subcategoryNames.contains($0.name) }
         }

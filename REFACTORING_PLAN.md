@@ -49,29 +49,30 @@ This refactoring involves:
 #### **Staying in Entertainment (Movies & TV Shows)**
 - **Pixar (34 questions)** → Entertainment > Animation [topic: "Pixar"]
 - **Star Wars (38 questions)** → Entertainment > Sci-Fi/Fantasy [topic: "Star Wars"]
-- **Superheroes (89 questions)** → Entertainment > Sci-Fi/Fantasy OR Action/Adventure [topic: "Marvel", "DC", "General Superheroes"] - *needs analysis*
+- **Film (1 question)** → Entertainment > Sci-Fi/Fantasy [topic: "Cinematography"] ✅ FINALIZED
+  - Question about cinematographer for Blade Runner 2049 and Dune
+- **Superheroes (89 questions)** → Entertainment > Action/Adventure [topic: "Marvel", "DC", "General"] ✅ FINALIZED
 - **The Office (31 questions)** → Entertainment > Drama/Comedy [topic: "The Office"]
-- **Film (1 question)** → Entertainment > *TBD based on question content*
 
-**Total staying in Entertainment: ~193 questions**
+**Total staying in Entertainment: 193 questions ✅ FINALIZED**
 
 #### **Moving to LITERATURE**
 - **Harry Potter (43 questions)** → Literature > Fantasy Literature [topic: "Harry Potter"]
+  - IDs: ent_001 - ent_043 → lit_001 - lit_043
 
-**Total moving to Literature: 43 questions**
+**Total moving to Literature: 43 questions ✅ FINALIZED**
 
 #### **Moving to MUSIC**
 - **Film Score Composers (21 questions)** → Music > Music in Film & TV [topic: "Film Composers"]
+  - IDs: ent_139 - ent_159 → mus_001 - mus_021
 
-**Total moving to Music: 21 questions**
+**Total moving to Music: 21 questions ✅ FINALIZED**
 
-#### **Needs Analysis**
-- **Pokémon (42 questions)** → Could be:
-  - Entertainment > Animation [topic: "Pokémon"] (if anime-focused)
-  - Technology > Video Games [topic: "Pokémon"] (if game-focused)
-  - **Action needed**: Read sample questions to determine best fit
+#### **Moving to TECHNOLOGY**
+- **Pokémon (42 questions)** → Technology > Video Games [topic: "Pokémon"] ✅ FINALIZED
+  - IDs: ent_181 - ent_222 → tec_001 - tec_042
 
-**Total needing analysis: 42 questions**
+**Total moving to Technology: 42 questions ✅ FINALIZED**
 
 ---
 
@@ -88,10 +89,15 @@ This refactoring involves:
 **Total moving to Nature: 230 questions**
 
 #### **Moving to GEOGRAPHY**
-- **Geography (46 questions)** → Geography > *subcategory TBD* (U.S. Geography, World Geography, etc.)
-  - **Action needed**: Analyze questions to distribute across 5 geography subcategories
+- **Geography (46 questions)** → Geography (new category) ✅ FINALIZED
+  - **World Geography**: 39 questions (85%)
+  - **Maps & Borders**: 5 questions (11%)
+  - **U.S. Geography**: 2 questions (4%)
+  - **Flags**: 0 questions (for future expansion)
+  - **Landmarks & Monuments**: 0 questions (for future expansion)
+  - IDs: ear_165 - ear_310 (scattered) → geo_001 - geo_046
 
-**Total moving to Geography: 46 questions**
+**Total moving to Geography: 46 questions ✅ FINALIZED**
 
 ---
 
@@ -389,48 +395,37 @@ For new category IDs, start from `001` and assign sequentially:
 
 ---
 
-## Phase 5: Questions Needing Content Analysis
+## Phase 5: Questions Needing Content Analysis ✅ COMPLETED
 
-Before finalizing migration paths, these questions need manual review:
+All questions have been analyzed and decisions finalized:
 
-### 5.1 Pokémon Questions (42 questions, IDs ent_110 - ent_151 approximately)
-**Potential Destinations:**
-1. Entertainment > Animation [if anime/show focused]
-2. Technology > Video Games [if game focused]
+### 5.1 Pokémon Questions (42 questions) ✅ FINALIZED
+**Decision:** Technology > Video Games [topic: "Pokémon"]
+- All 42 questions will migrate from Entertainment to Technology
+- ID changes: ent_181 - ent_222 → tec_001 - tec_042
 
-**Action Required:**
-- Read sample questions
-- Determine primary focus (anime vs games)
-- Make category decision
-- Could split if clear distinction exists
+### 5.2 Superheroes Questions (89 questions) ✅ FINALIZED
+**Decision:** Entertainment > Action/Adventure
+- All 89 questions stay in Entertainment category
+- Subcategory changes from "Superheroes" to "Action/Adventure"
+- Topics: Will classify as "Marvel", "DC", or "General" during migration
+- IDs remain the same (ent_006 - ent_094)
 
-### 5.2 Superheroes Questions (89 questions)
-**Potential Destinations:**
-1. Entertainment > Sci-Fi/Fantasy [if fantasy/powers focused]
-2. Entertainment > Action/Adventure [if action focused]
+### 5.3 Geography Questions (46 questions) ✅ FINALIZED
+**Decision:** Analyzed and distributed across subcategories
+- **World Geography**: 39 questions (85%)
+- **Maps & Borders**: 5 questions (11%)
+- **U.S. Geography**: 2 questions (4%)
+- **Flags**: 0 questions (empty for future expansion)
+- **Landmarks & Monuments**: 0 questions (empty for future expansion)
+- ID changes: ear_XXX → geo_001 - geo_046
+- See analyze_geography.py for detailed question list
 
-**Action Required:**
-- Could stay unified under Sci-Fi/Fantasy with topics: "Marvel", "DC", "General"
-- Or split by topic if content suggests different subcategories
-- Read sample questions to decide
-
-### 5.3 Geography Questions (46 questions)
-**Need Distribution Across:**
-- U.S. Geography
-- World Geography
-- Flags
-- Landmarks & Monuments
-- Maps & Borders
-
-**Action Required:**
-- Read all 46 questions
-- Classify each into one of 5 subcategories
-- Create distribution map
-
-### 5.4 Film Question (1 question, ID ent_334)
-**Action Required:**
-- Read the question
-- Determine appropriate subcategory (Animation, Sci-Fi/Fantasy, Action/Adventure, or Drama/Comedy)
+### 5.4 Film Question (1 question, ID ent_160) ✅ FINALIZED
+**Decision:** Entertainment > Sci-Fi/Fantasy [topic: "Cinematography"]
+- Question: "Which cinematographer won Academy Awards for both 'Blade Runner 2049' and 'Dune'..."
+- Answer: Greig Fraser
+- Stays in Entertainment with ID ent_160
 
 ---
 
@@ -581,16 +576,18 @@ Based on complexity and scope:
 ## Next Immediate Actions
 
 1. ✅ Complete this planning document
-2. Read sample questions from:
-   - Pokémon (determine category)
-   - Superheroes (determine subcategory)
-   - Geography (distribute across 5 subcategories)
-   - Film (1 question - determine subcategory)
-3. Create detailed question-by-question migration mapping
-4. Get approval on migration strategy
-5. Begin script development
+2. ✅ Read sample questions from:
+   - ✅ Pokémon (determine category) → Technology > Video Games
+   - ✅ Superheroes (determine subcategory) → Entertainment > Action/Adventure
+   - ✅ Geography (distribute across 5 subcategories) → See MIGRATION_DECISIONS.md
+   - ✅ Film (1 question - determine subcategory) → Entertainment > Sci-Fi/Fantasy
+3. ✅ Create detailed question-by-question migration mapping (see MIGRATION_DECISIONS.md)
+4. **CURRENT**: Get approval on migration strategy
+5. **NEXT**: Begin script development for database migration
 
 ---
 
-**Document Status**: Draft - Pending Question Analysis
-**Next Update**: After sample question review and category decisions
+**Document Status**: ✅ FINALIZED - All Decisions Complete
+**Next Update**: After migration script development begins
+
+See **MIGRATION_DECISIONS.md** for complete finalized migration mapping.

@@ -16326,6 +16326,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "tec_144",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'WWW' stand for?",
+        "options": [
+          "World Wide Web",
+          "Wide World Web",
+          "World Web Wide",
+          "Web World Wide"
+        ],
+        "correct_answer": "World Wide Web",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_145",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform is known for 280-character posts?",
+        "options": [
+          "Twitter/X",
+          "Facebook",
+          "Instagram",
+          "LinkedIn"
+        ],
+        "correct_answer": "Twitter/X",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_146",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What color is the Facebook logo?",
+        "options": [
+          "Blue",
+          "Red",
+          "Green",
+          "Purple"
+        ],
+        "correct_answer": "Blue",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_147",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which video platform was acquired by Google in 2006?",
+        "options": [
+          "YouTube",
+          "Vimeo",
+          "Dailymotion",
+          "Twitch"
+        ],
+        "correct_answer": "YouTube",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_148",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'URL' stand for?",
+        "options": [
+          "Uniform Resource Locator",
+          "Universal Resource Link",
+          "Unified Resource Location",
+          "Universal Reference Locator"
+        ],
+        "correct_answer": "Uniform Resource Locator",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_149",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform uses hashtags most prominently?",
+        "options": [
+          "Twitter/X",
+          "Facebook",
+          "LinkedIn",
+          "Snapchat"
+        ],
+        "correct_answer": "Twitter/X",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_150",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What is the maximum length of a YouTube video username?",
+        "options": [
+          "Not applicable - usernames vary",
+          "15 characters",
+          "20 characters",
+          "30 characters"
+        ],
+        "correct_answer": "Not applicable - usernames vary",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_151",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which streaming service is known for its red logo?",
+        "options": [
+          "Netflix",
+          "Hulu",
+          "Disney+",
+          "Amazon Prime"
+        ],
+        "correct_answer": "Netflix",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_152",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'DM' stand for on social media?",
+        "options": [
+          "Direct Message",
+          "Digital Mail",
+          "Direct Mail",
+          "Data Message"
+        ],
+        "correct_answer": "Direct Message",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_153",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform is owned by Meta?",
+        "options": [
+          "Instagram",
+          "Twitter",
+          "TikTok",
+          "Snapchat"
+        ],
+        "correct_answer": "Instagram",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_154",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What search engine has a colorful logo?",
+        "options": [
+          "Google",
+          "Bing",
+          "Yahoo",
+          "DuckDuckGo"
+        ],
+        "correct_answer": "Google",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_155",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which platform is known for short-form videos and dances?",
+        "options": [
+          "TikTok",
+          "YouTube",
+          "Instagram",
+          "Vine"
+        ],
+        "correct_answer": "TikTok",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_156",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'ISP' stand for?",
+        "options": [
+          "Internet Service Provider",
+          "Internet Search Protocol",
+          "Internal System Provider",
+          "Integrated Service Platform"
+        ],
+        "correct_answer": "Internet Service Provider",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_157",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which emoji shows a face crying with laughter?",
+        "options": [
+          "😂",
+          "😭",
+          "😅",
+          "🤣"
+        ],
+        "correct_answer": "😂",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_158",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What is Google's email service called?",
+        "options": [
+          "Gmail",
+          "Outlook",
+          "Yahoo Mail",
+          "ProtonMail"
+        ],
+        "correct_answer": "Gmail",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_159",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform is primarily for professional networking?",
+        "options": [
+          "LinkedIn",
+          "Facebook",
+          "Instagram",
+          "Twitter"
+        ],
+        "correct_answer": "LinkedIn",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_160",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does '@' symbol represent on social media?",
+        "options": [
+          "Mention/Tag a user",
+          "Email address",
+          "Location",
+          "Hashtag"
+        ],
+        "correct_answer": "Mention/Tag a user",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_161",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which streaming platform is owned by Amazon?",
+        "options": [
+          "Prime Video",
+          "Netflix",
+          "Hulu",
+          "HBO Max"
+        ],
+        "correct_answer": "Prime Video",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_162",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'WiFi' stand for?",
+        "options": [
+          "Wireless Fidelity",
+          "Wide Fidelity",
+          "Wireless File",
+          "Wire-Free Internet"
+        ],
+        "correct_answer": "Wireless Fidelity",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_163",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform has a ghost as its logo?",
+        "options": [
+          "Snapchat",
+          "WhatsApp",
+          "Telegram",
+          "Discord"
+        ],
+        "correct_answer": "Snapchat",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_164",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What year was Facebook founded?",
+        "options": [
+          "2004",
+          "2003",
+          "2005",
+          "2006"
+        ],
+        "correct_answer": "2004",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_165",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which company owns WhatsApp?",
+        "options": [
+          "Meta (Facebook)",
+          "Google",
+          "Microsoft",
+          "Apple"
+        ],
+        "correct_answer": "Meta (Facebook)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_166",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What was Twitter's original character limit before it was increased to 280?",
+        "options": [
+          "140",
+          "100",
+          "120",
+          "160"
+        ],
+        "correct_answer": "140",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_167",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which protocol is used for secure web browsing?",
+        "options": [
+          "HTTPS",
+          "HTTP",
+          "FTP",
+          "SMTP"
+        ],
+        "correct_answer": "HTTPS",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_168",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'VPN' stand for?",
+        "options": [
+          "Virtual Private Network",
+          "Virtual Public Network",
+          "Variable Private Network",
+          "Verified Private Network"
+        ],
+        "correct_answer": "Virtual Private Network",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_169",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which video game streaming platform was acquired by Amazon?",
+        "options": [
+          "Twitch",
+          "YouTube Gaming",
+          "Mixer",
+          "Facebook Gaming"
+        ],
+        "correct_answer": "Twitch",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_170",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What year was YouTube founded?",
+        "options": [
+          "2005",
+          "2004",
+          "2006",
+          "2007"
+        ],
+        "correct_answer": "2005",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_171",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform was known for 6-second videos?",
+        "options": [
+          "Vine",
+          "TikTok",
+          "Instagram",
+          "Snapchat"
+        ],
+        "correct_answer": "Vine",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_172",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'SEO' stand for?",
+        "options": [
+          "Search Engine Optimization",
+          "Social Engine Optimization",
+          "Search Engine Operation",
+          "Site Engine Optimization"
+        ],
+        "correct_answer": "Search Engine Optimization",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_173",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which company created the Chrome browser?",
+        "options": [
+          "Google",
+          "Microsoft",
+          "Apple",
+          "Mozilla"
+        ],
+        "correct_answer": "Google",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_174",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What is Reddit's mascot called?",
+        "options": [
+          "Snoo",
+          "Doo",
+          "Roo",
+          "Blue"
+        ],
+        "correct_answer": "Snoo",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_175",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which email protocol is used for receiving emails?",
+        "options": [
+          "IMAP or POP3",
+          "SMTP",
+          "FTP",
+          "HTTP"
+        ],
+        "correct_answer": "IMAP or POP3",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_176",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What was the original name of Twitter before rebranding to X?",
+        "options": [
+          "Twitter (it's now called X)",
+          "Twttr",
+          "Chirp",
+          "Tweet"
+        ],
+        "correct_answer": "Twitter (it's now called X)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_177",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which search engine focuses on user privacy?",
+        "options": [
+          "DuckDuckGo",
+          "Google",
+          "Bing",
+          "Yahoo"
+        ],
+        "correct_answer": "DuckDuckGo",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_178",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'AMA' stand for on Reddit?",
+        "options": [
+          "Ask Me Anything",
+          "Against Medical Advice",
+          "American Medical Association",
+          "Automated Message Alert"
+        ],
+        "correct_answer": "Ask Me Anything",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_179",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform was acquired by Elon Musk in 2022?",
+        "options": [
+          "Twitter (now X)",
+          "Facebook",
+          "Instagram",
+          "TikTok"
+        ],
+        "correct_answer": "Twitter (now X)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_180",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What is the name of Discord's currency?",
+        "options": [
+          "Nitro",
+          "Discord Coins",
+          "Server Tokens",
+          "Chat Credits"
+        ],
+        "correct_answer": "Nitro",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_181",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which country banned TikTok nationwide in 2020?",
+        "options": [
+          "India",
+          "United States",
+          "China",
+          "Australia"
+        ],
+        "correct_answer": "India",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_182",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'FOMO' stand for in internet slang?",
+        "options": [
+          "Fear Of Missing Out",
+          "Find Out More Online",
+          "Follow On My Own",
+          "First Online Meeting Only"
+        ],
+        "correct_answer": "Fear Of Missing Out",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_183",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which messaging app uses end-to-end encryption by default?",
+        "options": [
+          "Signal",
+          "Facebook Messenger",
+          "Telegram",
+          "Discord"
+        ],
+        "correct_answer": "Signal",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_184",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What year was the first email sent?",
+        "options": [
+          "1971",
+          "1969",
+          "1975",
+          "1980"
+        ],
+        "correct_answer": "1971",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_185",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which protocol do most instant messaging services use?",
+        "options": [
+          "XMPP or proprietary protocols",
+          "HTTP",
+          "FTP",
+          "SMTP"
+        ],
+        "correct_answer": "XMPP or proprietary protocols",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_186",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What was the first social media site to reach 1 million users?",
+        "options": [
+          "Friendster",
+          "MySpace",
+          "Facebook",
+          "SixDegrees"
+        ],
+        "correct_answer": "Friendster",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_187",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which internet protocol assigns IP addresses automatically?",
+        "options": [
+          "DHCP",
+          "DNS",
+          "HTTP",
+          "FTP"
+        ],
+        "correct_answer": "DHCP",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_188",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'ICANN' stand for?",
+        "options": [
+          "Internet Corporation for Assigned Names and Numbers",
+          "International Computer and Network Names",
+          "Internet Control and Access Network Node",
+          "Integrated Communication Access Network Node"
+        ],
+        "correct_answer": "Internet Corporation for Assigned Names and Numbers",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_189",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform was originally called 'The Facebook'?",
+        "options": [
+          "Facebook",
+          "Friendster",
+          "MySpace",
+          "LinkedIn"
+        ],
+        "correct_answer": "Facebook",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_190",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What is the maximum file size for a standard email attachment (most providers)?",
+        "options": [
+          "25 MB",
+          "10 MB",
+          "50 MB",
+          "100 MB"
+        ],
+        "correct_answer": "25 MB",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_191",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which company developed the Tor browser for anonymous browsing?",
+        "options": [
+          "The Tor Project (nonprofit)",
+          "Mozilla",
+          "Google",
+          "Opera"
+        ],
+        "correct_answer": "The Tor Project (nonprofit)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_192",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What year was the first tweet sent?",
+        "options": [
+          "2006",
+          "2004",
+          "2005",
+          "2007"
+        ],
+        "correct_answer": "2006",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_193",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which top-level domain (TLD) was the first ever created?",
+        "options": [
+          ".com",
+          ".net",
+          ".org",
+          ".edu"
+        ],
+        "correct_answer": ".com",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_194",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'RSS' stand for in web feeds?",
+        "options": [
+          "Really Simple Syndication",
+          "Rich Site Summary",
+          "Remote System Service",
+          "Real-time Streaming Service"
+        ],
+        "correct_answer": "Really Simple Syndication",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_195",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which platform pioneered the concept of 'Stories' that disappear after 24 hours?",
+        "options": [
+          "Snapchat",
+          "Instagram",
+          "Facebook",
+          "WhatsApp"
+        ],
+        "correct_answer": "Snapchat",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_196",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What was the first registered domain name?",
+        "options": [
+          "symbolics.com",
+          "google.com",
+          "yahoo.com",
+          "mit.edu"
+        ],
+        "correct_answer": "symbolics.com",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_197",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which internet meme featuring a frog was designated a hate symbol?",
+        "options": [
+          "Pepe the Frog",
+          "Doge",
+          "Grumpy Cat",
+          "Nyan Cat"
+        ],
+        "correct_answer": "Pepe the Frog",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_198",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What does 'WebRTC' stand for?",
+        "options": [
+          "Web Real-Time Communication",
+          "Web Remote Transfer Control",
+          "Website Real-Time Content",
+          "Web Resource Transfer Connection"
+        ],
+        "correct_answer": "Web Real-Time Communication",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_199",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which company created the first web browser with a GUI?",
+        "options": [
+          "NCSA (Mosaic)",
+          "Netscape",
+          "Microsoft",
+          "Apple"
+        ],
+        "correct_answer": "NCSA (Mosaic)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_200",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What year was Instagram launched?",
+        "options": [
+          "2010",
+          "2009",
+          "2011",
+          "2012"
+        ],
+        "correct_answer": "2010",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_201",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which internet protocol is used for transferring files?",
+        "options": [
+          "FTP",
+          "HTTP",
+          "SMTP",
+          "POP3"
+        ],
+        "correct_answer": "FTP",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_202",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "What was the original purpose of LinkedIn when launched in 2003?",
+        "options": [
+          "Professional networking",
+          "Job searching only",
+          "Resume hosting",
+          "Company reviews"
+        ],
+        "correct_answer": "Professional networking",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_203",
+        "category": "Technology",
+        "subcategory": "Internet & Social Media",
+        "question": "Which social media platform has the most active users as of 2024?",
+        "options": [
+          "Facebook",
+          "YouTube",
+          "Instagram",
+          "TikTok"
+        ],
+        "correct_answer": "Facebook",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Art": [],

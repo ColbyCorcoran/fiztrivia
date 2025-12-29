@@ -5,10 +5,11 @@ struct LeaderboardView: View {
     @Bindable var gameViewModel: GameViewModel
     @StateObject private var userManager = UserManager.shared
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.sizeCategory) private var sizeCategory
     @Query(sort: [
         SortDescriptor(\LeaderboardEntry.streak, order: .reverse),
         SortDescriptor(\LeaderboardEntry.date, order: .reverse)
-    ]) 
+    ])
     private var leaderboardEntries: [LeaderboardEntry]
     
     private var recentEntries: [LeaderboardEntry] {
@@ -25,22 +26,29 @@ struct LeaderboardView: View {
             .ignoresSafeArea()
             
             VStack(spacing: 0) {
-                // Top toolbar
+                // Top toolbar - checkmark visible at ALL sizes
                 HStack {
-                    Button("Done") {
+                    Button(action: {
                         gameViewModel.continueGame()
+                    }) {
+                        Image(systemName: "checkmark")
+                            .font(.title3.weight(.semibold))
                     }
-                    .font(.headline)
                     .glassButtonStyle()
+                    .tint(.fizTeal)
+                    .triviaAccessibility(
+                        label: "Return to game",
+                        hint: "Tap to continue playing",
+                        traits: .isButton
+                    )
 
                     Spacer()
                 }
-                .padding(.horizontal, 20)
-                .padding(.top, 10)
-                .frame(height: 50)
-                
-                VStack(spacing: 15) {
-                // Header with Fiz
+                .padding(.horizontal, 10)
+//                .padding(.top, 10)
+                .frame(height: 44)
+
+                // FIXED Header with Fiz - outside ScrollView
                 HStack(spacing: 16) {
                     Image("fiz-leaderboard")
                         .resizable()
@@ -52,24 +60,29 @@ struct LeaderboardView: View {
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.primary)
+                            .lineLimit(sizeCategory.isAccessibilitySize ? nil : 1)
+                            .fixedSize(horizontal: false, vertical: sizeCategory.isAccessibilitySize)
                         Text("Streaks")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.primary)
+                            .lineLimit(sizeCategory.isAccessibilitySize ? nil : 1)
+                            .fixedSize(horizontal: false, vertical: sizeCategory.isAccessibilitySize)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.horizontal, 20)
-                
-                // Leaderboard list - fixed height container
+                .padding(.bottom, 15)
+
+                // Leaderboard list - flexible height, scrollable
                 ZStack {
                     if recentEntries.isEmpty {
                         VStack(spacing: 20) {
                             Text("No streaks yet!")
                                 .font(.title2)
                                 .foregroundColor(.secondary)
-                            
+
                             Text("Start playing to see your best streaks here")
                                 .font(.body)
                                 .foregroundColor(.secondary)
@@ -89,18 +102,20 @@ struct LeaderboardView: View {
                             }
                             .padding(.horizontal)
                             .padding(.top, 8)
+                            .padding(.bottom, 16)
                         }
                     }
                 }
-                .frame(height: 450)
-                
-                Spacer(minLength: 20)
-                
-                // Current streak display
-                HStack(spacing: 8) {
+                .frame(maxHeight: .infinity)
+
+                // Current streak display - fixed at bottom
+                VStack(spacing: 8) {
                     Text("\(userManager.displayName)'s Current Streak:")
                         .font(.subheadline)
                         .foregroundColor(Color.fizBrown)
+                        .lineLimit(sizeCategory.isAccessibilitySize ? nil : 1)
+                        .multilineTextAlignment(.center)
+                        .fixedSize(horizontal: false, vertical: sizeCategory.isAccessibilitySize)
 
                     Text("\(gameViewModel.gameSession.currentStreak)")
                         .font(.title2)
@@ -112,10 +127,8 @@ struct LeaderboardView: View {
                 .background(Color.fizTeal.opacity(0.2))
                 .cornerRadius(12)
                 .shadow(color: Color.fizBrown.opacity(0.15), radius: 3, x: 0, y: 1)
-                
-                Spacer(minLength: 20)
-                }
-                .padding()
+                .padding(.horizontal, 20)
+                .padding(.vertical, 20)
             }
         }
     }
@@ -167,7 +180,7 @@ struct LeaderboardRow: View {
                     .font(.headline)
                     .fontWeight(.semibold)
                     .foregroundColor(.primary)
-                
+
                 Text(entry.date, format: .dateTime.month().day().year())
                     .font(.caption)
                     .foregroundColor(.secondary)

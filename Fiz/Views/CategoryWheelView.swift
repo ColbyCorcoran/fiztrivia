@@ -28,13 +28,16 @@ struct CategoryWheelView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
     @Query(sort: [SortDescriptor(\LeaderboardEntry.streak, order: .reverse)]) private var leaderboardEntries: [LeaderboardEntry]
-    
+
     // New state management for inline questions/results
     @State private var showingQuestion = false
     @State private var showingResult = false
     @State private var navigationButtonsDisabled = false
     @State private var currentQuestion: TriviaQuestion?
     @State private var answerResult: AnswerState = .unanswered
+
+    // Modal presentation for large Dynamic Type sizes
+    @State private var showingQuestionModal = false
 
     // Drag gesture state for pull-to-spin
     @State private var dragRotation: Double = 0
@@ -100,24 +103,12 @@ struct CategoryWheelView: View {
         return count > 0 ? 360.0 / Double(count) : 0
     }
 
-    // MARK: - Dynamic Type Helpers
-    private var isLargeAccessibilitySize: Bool {
-        sizeCategory >= .accessibilityMedium
-    }
-
-    private var scaledImageSize: CGFloat {
-        if sizeCategory >= .accessibilityLarge {
-            return 120  // Smaller images for very large text
-        } else if isLargeAccessibilitySize {
-            return 140  // Medium reduction for accessibility sizes
-        } else {
-            return 180  // Normal size
-        }
-    }
-
-    private var questionAreaHeight: CGFloat {
-        // For large accessibility sizes, use more flexible height
-        isLargeAccessibilitySize ? 400 : 300
+    // MARK: - Dynamic Type & Accessibility
+    // Questions display inline for normal text sizes, but switch to modal
+    // for accessibility text sizes (.accessibility3+) to prevent
+    // content from being hidden behind the wheel
+    private var shouldUseModalPresentation: Bool {
+        sizeCategory.shouldUseModalQuestions
     }
 
     var body: some View {
@@ -186,6 +177,22 @@ struct CategoryWheelView: View {
                 completionCelebrationOverlay
             }
         }
+        .sheet(isPresented: $showingQuestionModal, onDismiss: handleModalDismiss) {
+            if let question = currentQuestion {
+                QuestionModalView(
+                    isPresented: $showingQuestionModal,
+                    question: question,
+                    selectedCategory: gameViewModel.gameSession.selectedCategory,
+                    answerResult: answerResult,
+                    showingResult: showingResult,
+                    onAnswerSelected: selectAnswer,
+                    onDismiss: handleModalDismiss
+                )
+                .presentationDetents([.medium, .large], selection: .constant(sizeCategory.preferredModalDetent))
+                .presentationDragIndicator(.visible)
+                .interactiveDismissDisabled(true) // Cannot skip questions - must answer
+            }
+        }
     }
     
     private var backgroundGradient: some View {
@@ -206,17 +213,18 @@ struct CategoryWheelView: View {
     }
     
     private var topToolbar: some View {
-        HStack(spacing: 12) {
-            // Left side: Leaderboard + Subtitle
-            HStack(spacing: 12) {
+        VStack(spacing: 0) {
+            // Toolbar buttons area
+            HStack {
                 Button(action: {
                     HapticManager.shared.buttonTapEffect()
                     gameViewModel.showLeaderboard()
                 }) {
-                    Image(systemName: "list.number")
-                        .font(.title2)
+                    Image(systemName: "trophy")
+                        .font(.title3.weight(.semibold))
                 }
                 .glassButtonStyle()
+                .tint(.fizTeal)
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
                 .triviaAccessibility(
@@ -224,37 +232,19 @@ struct CategoryWheelView: View {
                     hint: "View top scores",
                     traits: .isButton
                 )
+                
 
-                Text(userManager.personalizedTagline)
-                    .font(.system(size: 16, weight: .medium))
-                    .foregroundColor(.secondary)
-            }
-
-            Spacer()
-
-            // Right side: Streak Badge + Settings
-            HStack(spacing: 12) {
-                // Minimal streak badge with glass effect
-                HStack(spacing: 4) {
-                    Text("🔥")
-                        .font(.caption)
-                    Text("\(gameViewModel.gameSession.currentStreak)")
-                        .font(.system(size: 14, weight: .semibold))
-                        .foregroundColor(Color.fizTeal)
-                }
-                .padding(.horizontal, 8)
-                .padding(.vertical, 4)
-                .background(Color.fizTeal.opacity(0.15))
-                .cornerRadius(8)
+                Spacer()
 
                 Button(action: {
                     HapticManager.shared.buttonTapEffect()
                     gameViewModel.showSettings()
                 }) {
                     Image(systemName: "gear")
-                        .font(.title2)
+                        .font(.title3.weight(.semibold))
                 }
                 .glassButtonStyle()
+                .tint(.fizTeal)
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
                 .triviaAccessibility(
@@ -263,91 +253,88 @@ struct CategoryWheelView: View {
                     traits: .isButton
                 )
             }
-        }
-        .padding(.horizontal, 20)
-        .padding(.top, 10)
-        .frame(height: 50)
-    }
-    
-    private var titleAndStreakSection: some View {
-        HStack {
-            VStack (alignment: .leading, spacing: 4) {
-                HStack(spacing: 8) {
-                    Text("Fiz")
-                        .font(.system(size: 40, weight: .bold))
-                        .foregroundColor(.primary)
-                    Image("fiz-regular pose")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 40, height: 40)
+            .padding(.horizontal, 10)
+            .padding(.top, 10)
+            .padding(.bottom, 15)
+            .frame(height: 44)
+
+            // Tagline and streak counter line
+            HStack {
+                // Tagline - hide at extreme accessibility sizes to save space
+                if !sizeCategory.shouldUseCompactLayout {
+                    Text(userManager.personalizedTagline)
+                        .font(.system(size: 18, weight: .medium))
+                        .foregroundColor(.secondary)
+                        .minimumScaleFactor(0.85)
                 }
 
-                Text(userManager.personalizedTagline)
-                    .font(.system(size: 18, weight: .regular))
-                    .foregroundColor(.secondary)
+                Spacer()
+
+                // Streak badge
+                HStack(spacing: 4) {
+                    Text("🔥")
+                        .font(sizeCategory >= .accessibilityMedium ? .body : .caption)
+                    Text("\(gameViewModel.gameSession.currentStreak)")
+                        .font(sizeCategory >= .accessibilityMedium ? .body : .system(size: 14))
+                        .fontWeight(.semibold)
+                        .minimumScaleFactor(0.9)
+                        .lineLimit(1)
+                        .foregroundColor(Color.fizTeal)
+                }
+                .padding(.horizontal, 8)
+                .padding(.vertical, 4)
+                .background(Color.fizTeal.opacity(0.15))
+                .cornerRadius(8)
             }
-            .padding(.leading, 20)
-           
-            Spacer()
-            
-            // Current streak display
-            VStack(spacing: 4) {
-                Text("Current Streak")
-                    .font(.caption)
-                    .foregroundColor(Color.fizBrown)
-                Text("\(gameViewModel.gameSession.currentStreak)")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.fizTeal)
-            }
-            .padding(.horizontal, 12)
-            .padding(.vertical, 8)
-            .background(Color.fizTeal.opacity(0.2))
-            .cornerRadius(12)
-            .padding(.trailing, 20)
+            .padding(.horizontal, 20)
+            .padding(.top, 4)
+            .frame(height: 32)
         }
-        .frame(height: 80)
-        .frame(maxWidth: .infinity)
     }
     
     private var questionArea: some View {
-        Group {
-            if isLargeAccessibilitySize {
-                // For large text: Use ScrollView to prevent overflow
-                ScrollView {
-                    questionContent
-                        .padding(.horizontal, 16)
-                }
-                .frame(maxWidth: .infinity)
-                .frame(height: questionAreaHeight)
-            } else {
-                // For normal text: Use fixed layout
-                questionContent
-                    .frame(height: questionAreaHeight)
-                    .frame(maxWidth: .infinity)
-                    .padding(.horizontal, 16)
-            }
-        }
-    }
-
-    private var questionContent: some View {
         ZStack {
             Group {
-                if showingResult {
-                    resultView
-                } else if showingQuestion, let question = currentQuestion {
-                    questionView(for: question)
+                if shouldUseModalPresentation {
+                    // Modal mode: Show placeholder when modal is active
+                    if showingQuestionModal {
+                        Text("Question displayed in modal")
+                            .font(.callout)
+                            .foregroundColor(.secondary)
+                            .padding()
+                    } else {
+                        placeholderView
+                    }
                 } else {
-                    placeholderView
+                    // Inline mode: Use shared components
+                    if showingResult {
+                        ResultContentView(
+                            answerResult: answerResult,
+                            currentQuestion: currentQuestion,
+                            showingResult: showingResult
+                        )
+                    } else if showingQuestion, let question = currentQuestion {
+                        QuestionContentView(
+                            question: question,
+                            selectedCategory: gameViewModel.gameSession.selectedCategory,
+                            onAnswerSelected: selectAnswer
+                        )
+                    } else {
+                        placeholderView
+                    }
                 }
             }
             .animation(.easeInOut(duration: 0.3), value: showingQuestion)
             .animation(.easeInOut(duration: 0.3), value: showingResult)
         }
+        .frame(height: 300 * sizeCategory.conservativeScaleFactor)
+        .frame(maxWidth: .infinity)
+        .padding(.horizontal, 16)
     }
 
     private func questionAreaWithCalculatedSpacing(geometry: GeometryProxy) -> some View {
-        let toolbarHeight: CGFloat = 50
+        let toolbarHeight: CGFloat = 50 * sizeCategory.conservativeScaleFactor
+        let questionAreaHeight: CGFloat = 300 * sizeCategory.conservativeScaleFactor
         let wheelTopY = geometry.size.height - 325  // Wheel center (height - 100) minus radius (225)
         let safeZoneHeight = wheelTopY - toolbarHeight
         let topPadding = (safeZoneHeight - questionAreaHeight) / 2  // Center questionArea in safe zone
@@ -357,12 +344,12 @@ struct CategoryWheelView: View {
     }
     
     private var resultView: some View {
-        VStack(spacing: isLargeAccessibilitySize ? 12 : 20) {
-            // Fiz mascot - celebrating or encouraging (TOP, scaled for accessibility)
+        VStack(spacing: 20) {
+            // Fiz mascot - celebrating or encouraging (TOP, larger)
             Image(answerResult == .correct ? "fiz-correct" : "fiz-incorrect")
                 .resizable()
                 .scaledToFit()
-                .frame(width: scaledImageSize, height: scaledImageSize)
+                .frame(width: 180, height: 180)
                 .scaleEffect(showingResult ? 1.0 : 0.5)
                 .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingResult)
 
@@ -453,16 +440,28 @@ struct CategoryWheelView: View {
             }
             
             LazyVGrid(columns: [
-                GridItem(.flexible(), spacing: isLargeAccessibilitySize ? 8 : 12),
-                GridItem(.flexible(), spacing: isLargeAccessibilitySize ? 8 : 12)
-            ], spacing: isLargeAccessibilitySize ? 8 : 12) {
+                GridItem(.flexible(), spacing: 12),
+                GridItem(.flexible(), spacing: 12)
+            ], spacing: 12) {
                 ForEach(Array(question.options.enumerated()), id: \.offset) { index, option in
                     Button(action: {
                         selectAnswer(option)
                     }) {
                         Text(option)
+                            .font(.headline)
+                            .fontWeight(.medium)
+                            .foregroundColor(.primary)
+                            .multilineTextAlignment(.center)
+                            .lineLimit(nil)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .frame(maxWidth: .infinity, minHeight: 56)
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 14)
+                            .background(Color.fizBackground)
+                            .cornerRadius(12)
+                            .shadow(color: Color.fizBrown.opacity(0.15), radius: 2, x: 0, y: 1)
                     }
-                    .answerButtonStyle()
+                    .buttonStyle(.plain)
                 }
             }
         }
@@ -470,10 +469,23 @@ struct CategoryWheelView: View {
     }
     
     private var placeholderView: some View {
-        Text("Spin the wheel to start!")
-            .font(.title2)
-            .foregroundColor(.secondary)
-            .padding()
+        VStack {
+            if sizeCategory.isAccessibilitySize {
+                // At accessibility sizes, position text higher (near top of container)
+                Text("Spin the wheel to start!")
+                    .font(.title2)
+                    .foregroundColor(.secondary)
+                    .padding()
+                Spacer()
+            } else {
+                // Normal sizes: centered (default behavior)
+                Text("Spin the wheel to start!")
+                    .font(.title2)
+                    .foregroundColor(.secondary)
+                    .padding()
+            }
+        }
+        .frame(maxHeight: .infinity)
     }
     
     private func wheelLayer(geometry: GeometryProxy) -> some View {
@@ -601,9 +613,10 @@ struct CategoryWheelView: View {
                     dragSpinDirection = 1.0 // Default to clockwise for button spin
                     spinWheelInline()
                 }
-                .font(.title2)
-                .fontWeight(.bold)
+                .font(.system(size: 22, weight: .bold))  // Fixed size - doesn't scale with Dynamic Type
                 .foregroundColor(.fizOrange)
+                .minimumScaleFactor(0.8)
+                .lineLimit(1)
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
             }
@@ -769,6 +782,11 @@ struct CategoryWheelView: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             withAnimation(.easeInOut(duration: 0.3)) {
                 showingQuestion = true
+
+                // Show modal if using large text size
+                if shouldUseModalPresentation {
+                    showingQuestionModal = true
+                }
             }
         }
     }
@@ -883,6 +901,11 @@ struct CategoryWheelView: View {
                 currentQuestion = nil
                 answerResult = .unanswered
                 navigationButtonsDisabled = false // Re-enable all buttons
+
+                // Close modal if it was open
+                if shouldUseModalPresentation {
+                    showingQuestionModal = false
+                }
             }
 
             // If incorrect answer and new high score achieved, show toast
@@ -903,16 +926,29 @@ struct CategoryWheelView: View {
             }
         }
     }
-    
+
+    // MARK: - Modal Dismissal Handler
+    private func handleModalDismiss() {
+        // Called when modal is dismissed (should not normally happen since dismissal is disabled)
+        // This is a fallback in case the modal is dismissed unexpectedly
+        withAnimation(.easeOut(duration: 0.3)) {
+            showingResult = false
+            showingQuestionModal = false
+            currentQuestion = nil
+            answerResult = .unanswered
+            navigationButtonsDisabled = false
+        }
+    }
+
     private var newHighScoreToastView: some View {
         VStack {
             // Larger notification card without dark background
-            VStack(spacing: isLargeAccessibilitySize ? 16 : 24) {
-                // Fiz celebrating - scaled for accessibility
+            VStack(spacing: 24) {
+                // Fiz celebrating - larger size
                 Image("fiz-new high score")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: scaledImageSize, height: scaledImageSize)
+                    .frame(width: 180, height: 180)
                     .scaleEffect(showingHighScoreToast ? 1.0 : 0.5)
                     .animation(.spring(response: 0.6, dampingFraction: 0.6), value: showingHighScoreToast)
 
@@ -995,12 +1031,12 @@ struct CategoryWheelView: View {
                     // Prevent taps from going through
                 }
 
-            VStack(spacing: isLargeAccessibilitySize ? 20 : 30) {
-                // Fiz celebrating new high score - scaled for accessibility
+            VStack(spacing: 30) {
+                // Fiz celebrating new high score
                 Image("fiz-new high score")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: scaledImageSize, height: scaledImageSize)
+                    .frame(width: 180, height: 180)
                     .scaleEffect(gameViewModel.showCompletionCelebration ? 1.0 : 0.5)
                     .animation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.2), value: gameViewModel.showCompletionCelebration)
 

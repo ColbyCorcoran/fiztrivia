@@ -1,13 +1,11 @@
 import SwiftUI
 import SwiftData
 
-struct GameSettingsView: View {
+struct GameModesSettingsView: View {
     @Bindable var gameViewModel: GameViewModel
-    @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
-    @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
     @Environment(\.modelContext) private var modelContext
-    @State private var showingResetAlert = false
+    @Environment(\.sizeCategory) private var sizeCategory
     @State private var showingStreakAlert = false
     @State private var pendingModeChange: Bool? = nil
     @State private var previousModeValue: Bool? = nil
@@ -20,32 +18,7 @@ struct GameSettingsView: View {
 
     var body: some View {
         Form {
-            Section("Game Difficulty") {
-                VStack(alignment: .leading, spacing: 8) {
-                    HStack {
-                        Text("Difficulty Mode")
-                        Spacer()
-                        Picker("", selection: $difficultyManager.selectedDifficulty) {
-                            ForEach(DifficultyMode.allCases, id: \.self) { difficulty in
-                                Text(difficulty.rawValue).tag(difficulty)
-                            }
-                        }
-                        .pickerStyle(MenuPickerStyle())
-                        .onChange(of: difficultyManager.selectedDifficulty) { _, newValue in
-                            difficultyManager.setDifficulty(newValue)
-                            AnalyticsManager.shared.trackSettingChanged(setting: "difficulty_mode", value: newValue.rawValue)
-                        }
-                    }
-
-                    Text(difficultyManager.selectedDifficulty.description)
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                        .padding(.leading, 0)
-                }
-            }
-
-            Section(header: Text("Game Modes"),
-                   footer: Text("Focus on questions from a single category. The wheel will show subcategories instead of all categories.")) {
+            Section(footer: Text("Focus on questions from a single category. The wheel will show subcategories instead of all categories.")) {
                 Toggle("Enable Single Category Mode", isOn: $localModeEnabled)
                     .onChange(of: localModeEnabled) { oldValue, newValue in
                         handleModeChange(from: oldValue, to: newValue)
@@ -54,8 +27,11 @@ struct GameSettingsView: View {
                 if localModeEnabled {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack {
-                            Text("Selected Category")
-                            Spacer()
+                            // Hide label at accessibility sizes to reduce cramping
+                            if !sizeCategory.isAccessibilitySize {
+                                Text("Selected Category")
+                                Spacer()
+                            }
                             Picker("", selection: $localSelectedCategory) {
                                 Text("Select...").tag(nil as TriviaCategory?)
                                 ForEach(TriviaCategory.allCases, id: \.self) { category in
@@ -84,53 +60,8 @@ struct GameSettingsView: View {
                     }
                 }
             }
-
-            Section("Game Progress") {
-                HStack {
-                    Text("Questions Answered")
-                    Spacer()
-                    Text("\(gameViewModel.getAnsweredQuestionsCount()) / \(gameViewModel.getTotalQuestionsCount())")
-                        .foregroundColor(.secondary)
-                }
-
-                HStack {
-                    Text("Completion")
-                    Spacer()
-                    let progress = Double(gameViewModel.getAnsweredQuestionsCount()) / Double(gameViewModel.getTotalQuestionsCount())
-                    Text("\(Int(progress * 100))%")
-                        .foregroundColor(.secondary)
-                }
-
-                Button(action: {
-                    showingResetAlert = true
-                }) {
-                    HStack {
-                        Image(systemName: "arrow.clockwise")
-                        Text("Reset All Progress")
-                    }
-                    .foregroundColor(.red)
-                }
-                .alert("Reset Progress", isPresented: $showingResetAlert) {
-                    Button("Cancel", role: .cancel) { }
-                    Button("Reset", role: .destructive) {
-                        gameViewModel.resetAllProgress()
-                        HapticManager.shared.buttonTapEffect()
-                    }
-                } message: {
-                    Text("This will reset all answered questions and allow you to play them again. This action cannot be undone.")
-                }
-            }
-
-            Section("Game Statistics") {
-                HStack {
-                    Text("Current Streak")
-                    Spacer()
-                    Text("\(gameViewModel.gameSession.currentStreak)")
-                        .foregroundColor(.secondary)
-                }
-            }
         }
-        .navigationTitle("Game Settings")
+        .navigationTitle("Game Modes")
         .navigationBarTitleDisplayMode(.large)
         .alert("Save Current Streak?", isPresented: $showingStreakAlert) {
             Button("Cancel", role: .cancel) {
@@ -252,7 +183,7 @@ struct GameSettingsView: View {
 
 #Preview {
     NavigationStack {
-        GameSettingsView(gameViewModel: GameViewModel())
+        GameModesSettingsView(gameViewModel: GameViewModel())
             .modelContainer(for: LeaderboardEntry.self, inMemory: true)
     }
 }

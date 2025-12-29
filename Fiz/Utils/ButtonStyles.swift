@@ -8,11 +8,20 @@ import SwiftUI
 extension View {
     func toolbarGlassButton() -> some View {
         if #available(iOS 26, *) {
-            // iOS 26: Use native glass button style
-            return AnyView(self.buttonStyle(.glass))
+            // iOS 26: Use native glass button style with size constraint
+            return AnyView(
+                self
+                    .buttonBorderShape(.circle)          // <- important
+                    .buttonStyle(.glass)
+                    .controlSize(.regular)
+            )
         } else {
-            // iOS 18 and below: Use plain style (icon buttons)
-            return AnyView(self.buttonStyle(.plain))
+            // iOS 18 and below: Use plain style (icon buttons) with size constraint
+            return AnyView(
+                self
+                    .buttonStyle(.plain)
+                    .frame(maxWidth: 80, maxHeight: 80)
+            )
         }
     }
 }
@@ -33,7 +42,7 @@ struct AnswerButtonStyle: ViewModifier {
 }
 
 struct iOS18AnswerButtonStyle: ButtonStyle {
-    @Environment(\.sizeCategory) var sizeCategory
+    @Environment(\.sizeCategory) private var sizeCategory
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
@@ -42,27 +51,15 @@ struct iOS18AnswerButtonStyle: ButtonStyle {
             .foregroundColor(.primary)
             .multilineTextAlignment(.center)
             .lineLimit(nil)
+            .minimumScaleFactor(sizeCategory.textMinimumScaleFactor)
             .fixedSize(horizontal: false, vertical: true)
-            .frame(maxWidth: .infinity, minHeight: dynamicMinHeight)
-            .padding(.horizontal, dynamicHorizontalPadding)
-            .padding(.vertical, dynamicVerticalPadding)
+            .frame(maxWidth: .infinity, minHeight: 44, maxHeight: 150)
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
             .background(Color.fizBackground)
             .cornerRadius(12)
             .shadow(color: Color.fizBrown.opacity(0.15), radius: 2, x: 0, y: 1)
             .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-    }
-
-    private var dynamicMinHeight: CGFloat {
-        // Ensure minimum touch target of 44pt, but allow natural growth
-        sizeCategory >= .accessibilityMedium ? 56 : 44
-    }
-
-    private var dynamicHorizontalPadding: CGFloat {
-        sizeCategory >= .accessibilityMedium ? 8 : 12
-    }
-
-    private var dynamicVerticalPadding: CGFloat {
-        sizeCategory >= .accessibilityMedium ? 8 : 10
     }
 }
 
@@ -92,23 +89,21 @@ struct ProminentActionButtonStyle: ViewModifier {
 
 struct iOS18ProminentButtonStyle: ButtonStyle {
     var color: Color
-    @Environment(\.sizeCategory) var sizeCategory
+    @Environment(\.sizeCategory) private var sizeCategory
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.headline)
             .fontWeight(.semibold)
             .foregroundColor(.white)
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, dynamicVerticalPadding)
+            .minimumScaleFactor(sizeCategory.textMinimumScaleFactor)
+            .lineLimit(2)
+            .frame(maxWidth: .infinity, maxHeight: 100)
+            .padding(.vertical, 16)
             .background(color)
             .cornerRadius(12)
             .shadow(color: Color.fizBrown.opacity(0.3), radius: 4, x: 0, y: 2)
             .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-    }
-
-    private var dynamicVerticalPadding: CGFloat {
-        sizeCategory >= .accessibilityMedium ? 12 : 16
     }
 }
 

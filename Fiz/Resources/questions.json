@@ -22211,6 +22211,482 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "bib_276",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many chapters are in the book of Revelation?",
+        "options": [
+          "22",
+          "12",
+          "28",
+          "40"
+        ],
+        "correct_answer": "22",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_279",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many books of the Bible are named after women?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "correct_answer": "2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_280",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many Gospels are in the New Testament?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "7"
+        ],
+        "correct_answer": "4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_283",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What language was most of the New Testament originally written in?",
+        "options": [
+          "Greek",
+          "Hebrew",
+          "Aramaic",
+          "Latin"
+        ],
+        "correct_answer": "Greek",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_286",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does the name 'Jesus' mean?",
+        "options": [
+          "The Lord saves",
+          "Son of God",
+          "Messiah",
+          "King of kings"
+        ],
+        "correct_answer": "The Lord saves",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_288",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Messiah' mean?",
+        "options": [
+          "Anointed One",
+          "Savior",
+          "King",
+          "Lord"
+        ],
+        "correct_answer": "Anointed One",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_289",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Sabbath' mean?",
+        "options": [
+          "Rest",
+          "Worship",
+          "Holy",
+          "Seventh"
+        ],
+        "correct_answer": "Rest",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_290",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Selah' mean in the Psalms?",
+        "options": [
+          "Pause/Reflect",
+          "Sing",
+          "Praise",
+          "Forever"
+        ],
+        "correct_answer": "Pause/Reflect",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_292",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What empire conquered Judah and destroyed the temple in 586 BC?",
+        "options": [
+          "Babylonian",
+          "Assyrian",
+          "Persian",
+          "Greek"
+        ],
+        "correct_answer": "Babylonian",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_293",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What empire conquered the Northern Kingdom of Israel in 722 BC?",
+        "options": [
+          "Assyrian",
+          "Babylonian",
+          "Persian",
+          "Egyptian"
+        ],
+        "correct_answer": "Assyrian",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_294",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What empire allowed the Jews to return from exile?",
+        "options": [
+          "Persian",
+          "Babylonian",
+          "Greek",
+          "Roman"
+        ],
+        "correct_answer": "Persian",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_295",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What empire ruled over Israel during the time of Jesus?",
+        "options": [
+          "Roman",
+          "Greek",
+          "Persian",
+          "Babylonian"
+        ],
+        "correct_answer": "Roman",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_296",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "What city was the capital of the United Kingdom under David and Solomon?",
+        "options": [
+          "Jerusalem",
+          "Samaria",
+          "Bethlehem",
+          "Hebron"
+        ],
+        "correct_answer": "Jerusalem",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_297",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What is the Great Commandment according to Jesus?",
+        "options": [
+          "Love God and love your neighbor",
+          "Do not kill",
+          "Keep the Sabbath",
+          "Honor your parents"
+        ],
+        "correct_answer": "Love God and love your neighbor",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_298",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What does justification by faith mean?",
+        "options": [
+          "Being made right with God through faith",
+          "Works-based salvation",
+          "Baptismal regeneration",
+          "Penance for sins"
+        ],
+        "correct_answer": "Being made right with God through faith",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_299",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What is grace according to the Bible?",
+        "options": [
+          "Unmerited favor from God",
+          "Earned blessing",
+          "Good works",
+          "Religious rituals"
+        ],
+        "correct_answer": "Unmerited favor from God",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_300",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What does it mean to be born again?",
+        "options": [
+          "Spiritual rebirth through faith in Christ",
+          "Physical rebirth",
+          "Baptism only",
+          "Good deeds"
+        ],
+        "correct_answer": "Spiritual rebirth through faith in Christ",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_267",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What animal spoke to Balaam?",
+        "options": [
+          "Donkey",
+          "Serpent",
+          "Burning bush",
+          "Dove"
+        ],
+        "correct_answer": "Donkey",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_268",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What did Jacob use as a pillow when he dreamed of a ladder to heaven?",
+        "options": [
+          "A stone",
+          "A bundle of clothes",
+          "His sandals",
+          "Nothing"
+        ],
+        "correct_answer": "A stone",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_270",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What bird did Noah send out first from the ark?",
+        "options": [
+          "Raven",
+          "Dove",
+          "Eagle",
+          "Sparrow"
+        ],
+        "correct_answer": "Raven",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_271",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many times did Peter deny Jesus?",
+        "options": [
+          "3",
+          "2",
+          "7",
+          "12"
+        ],
+        "correct_answer": "3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_273",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many loaves and fish did Jesus use to feed the 5000?",
+        "options": [
+          "5 loaves and 2 fish",
+          "2 loaves and 5 fish",
+          "7 loaves and 7 fish",
+          "12 loaves and 2 fish"
+        ],
+        "correct_answer": "5 loaves and 2 fish",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_274",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "How many pieces of silver was Joseph sold for?",
+        "options": [
+          "20",
+          "30",
+          "40",
+          "50"
+        ],
+        "correct_answer": "20",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_281",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What color was the robe placed on Jesus before his crucifixion?",
+        "options": [
+          "Purple",
+          "White",
+          "Red",
+          "Blue"
+        ],
+        "correct_answer": "Purple",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_287",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Elohim' mean?",
+        "options": [
+          "God",
+          "Angel",
+          "Prophet",
+          "King"
+        ],
+        "correct_answer": "God",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_291",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Beelzebub' mean?",
+        "options": [
+          "Lord of the flies",
+          "Prince of darkness",
+          "Evil one",
+          "Deceiver"
+        ],
+        "correct_answer": "Lord of the flies",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_278",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What fell from heaven to feed the Israelites in the wilderness?",
+        "options": [
+          "Manna",
+          "Quail",
+          "Bread",
+          "Honey"
+        ],
+        "correct_answer": "Manna",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_282",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Rabbi' mean?",
+        "options": [
+          "Teacher",
+          "Master",
+          "Lord",
+          "Father"
+        ],
+        "correct_answer": "Teacher",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_284",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Alpha and Omega' mean?",
+        "options": [
+          "Beginning and End",
+          "First and Last",
+          "Creator and Judge",
+          "All answers are correct"
+        ],
+        "correct_answer": "All answers are correct",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_269",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What was the name of the cupbearer who became governor of Judah?",
+        "options": [
+          "Nehemiah",
+          "Ezra",
+          "Zerubbabel",
+          "Haggai"
+        ],
+        "correct_answer": "Nehemiah",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_275",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "Which apostle was a tax collector before following Jesus?",
+        "options": [
+          "Matthew",
+          "Luke",
+          "John",
+          "Thomas"
+        ],
+        "correct_answer": "Matthew",
+        "difficulty": "easy"
+      },
+      {
+        "id": "bib_277",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What was the name of the prophetess who recognized baby Jesus at the temple?",
+        "options": [
+          "Anna",
+          "Mary",
+          "Elizabeth",
+          "Deborah"
+        ],
+        "correct_answer": "Anna",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_285",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Paraclete' mean?",
+        "options": [
+          "Helper/Comforter",
+          "Savior",
+          "Teacher",
+          "Prophet"
+        ],
+        "correct_answer": "Helper/Comforter",
+        "difficulty": "medium"
+      },
+      {
+        "id": "bib_272",
+        "category": "Bible",
+        "subcategory": "Bible Trivia",
+        "question": "What was the name of the witch at Endor whom Saul consulted?",
+        "options": [
+          "The Bible doesn't give her a name",
+          "Jezebel",
+          "Athaliah",
+          "Delilah"
+        ],
+        "correct_answer": "The Bible doesn't give her a name",
+        "difficulty": "hard"
       }
     ],
     "Food": [

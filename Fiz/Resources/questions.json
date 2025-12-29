@@ -28842,7 +28842,7 @@
         ],
         "correct_answer": "6",
         "difficulty": "easy",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -28858,7 +28858,7 @@
         ],
         "correct_answer": "11",
         "difficulty": "easy",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -28974,22 +28974,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_011",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What does MVP stand for?",
-        "options": [
-          "Most Valuable Player",
-          "Most Versatile Player",
-          "Maximum Value Player",
-          "Most Victorious Player"
-        ],
-        "correct_answer": "Most Valuable Player",
-        "difficulty": "easy",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
         "id": "spt_012",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29018,7 +29002,7 @@
         ],
         "correct_answer": "4",
         "difficulty": "easy",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29034,7 +29018,7 @@
         ],
         "correct_answer": "60 minutes",
         "difficulty": "easy",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29050,23 +29034,7 @@
         ],
         "correct_answer": "3",
         "difficulty": "easy",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_016",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many balls result in a walk?",
-        "options": [
-          "3",
-          "4",
-          "5",
-          "6"
-        ],
-        "correct_answer": "4",
-        "difficulty": "easy",
-        "topic": "Baseball",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29102,22 +29070,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_019",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is it called when a player dribbles, stops, then dribbles again?",
-        "options": [
-          "Double dribble",
-          "Travel",
-          "Carry",
-          "Palm"
-        ],
-        "correct_answer": "Double dribble",
-        "difficulty": "easy",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
         "id": "spt_020",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29134,22 +29086,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_021",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the line of scrimmage?",
-        "options": [
-          "Where the play starts",
-          "The goal line",
-          "The sideline",
-          "The middle of the field"
-        ],
-        "correct_answer": "Where the play starts",
-        "difficulty": "easy",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
         "id": "spt_022",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29162,23 +29098,7 @@
         ],
         "correct_answer": "Interception",
         "difficulty": "easy",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_023",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many quarters are in a football game?",
-        "options": [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
-        "correct_answer": "4",
-        "difficulty": "easy",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29246,22 +29166,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_028",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What happens when a player breaks the rules?",
-        "options": [
-          "Time out",
-          "Penalty",
-          "Ejection",
-          "Warning"
-        ],
-        "correct_answer": "Penalty",
-        "difficulty": "easy",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
         "id": "spt_029",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29278,22 +29182,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_030",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the maximum number of players allowed on the field for one team at a time?",
-        "options": [
-          "11",
-          "10",
-          "12",
-          "9"
-        ],
-        "correct_answer": "11",
-        "difficulty": "easy",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
         "id": "spt_031",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29306,7 +29194,7 @@
         ],
         "correct_answer": "Center",
         "difficulty": "easy",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29390,22 +29278,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_037",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the position that defends the goal?",
-        "options": [
-          "Goalkeeper",
-          "Defender",
-          "Sweeper",
-          "Fullback"
-        ],
-        "correct_answer": "Goalkeeper",
-        "difficulty": "easy",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
         "id": "spt_038",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29418,7 +29290,7 @@
         ],
         "correct_answer": "Super Bowl",
         "difficulty": "easy",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29438,22 +29310,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_040",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What protective equipment do goalies wear on their legs?",
-        "options": [
-          "Pads",
-          "Shin guards",
-          "Skates",
-          "Helmets"
-        ],
-        "correct_answer": "Pads",
-        "difficulty": "easy",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
         "id": "spt_041",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29466,23 +29322,7 @@
         ],
         "correct_answer": "11",
         "difficulty": "easy",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_042",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What color card results in a player being ejected from the match?",
-        "options": [
-          "Red",
-          "Yellow",
-          "Blue",
-          "Black"
-        ],
-        "correct_answer": "Red",
-        "difficulty": "easy",
-        "topic": "Soccer",
+        "topic": "Boxing",
         "subtopic": null
       },
       {
@@ -29566,22 +29406,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_048",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many players can be on the ice for each team at one time?",
-        "options": [
-          "5",
-          "6",
-          "7",
-          "8"
-        ],
-        "correct_answer": "6",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
         "id": "spt_049",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29610,7 +29434,7 @@
         ],
         "correct_answer": "120",
         "difficulty": "medium",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29658,7 +29482,7 @@
         ],
         "correct_answer": "32",
         "difficulty": "medium",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29726,22 +29550,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_058",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the area in front of the goal called?",
-        "options": [
-          "Goal area",
-          "Crease",
-          "Net zone",
-          "Goal box"
-        ],
-        "correct_answer": "Crease",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
         "id": "spt_059",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29753,22 +29561,6 @@
           "18"
         ],
         "correct_answer": "16",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_060",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many seconds does a player have to shoot a free throw?",
-        "options": [
-          "8",
-          "10",
-          "12",
-          "15"
-        ],
-        "correct_answer": "10",
         "difficulty": "medium",
         "topic": "Basketball",
         "subtopic": null
@@ -29790,22 +29582,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_062",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How long is stoppage time typically?",
-        "options": [
-          "1-3 minutes",
-          "3-7 minutes",
-          "5-10 minutes",
-          "It varies"
-        ],
-        "correct_answer": "It varies",
-        "difficulty": "medium",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
         "id": "spt_063",
         "category": "Sports",
         "subcategory": "Team Sports",
@@ -29818,7 +29594,7 @@
         ],
         "correct_answer": "Both A and B",
         "difficulty": "medium",
-        "topic": "American Football",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -29834,583 +29610,7 @@
         ],
         "correct_answer": "Tom Brady",
         "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_065",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is it called when a player is tackled in their own end zone?",
-        "options": [
-          "Safety",
-          "Touchback",
-          "Fumble",
-          "Sack"
-        ],
-        "correct_answer": "Safety",
-        "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_066",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the record for most career home runs in MLB?",
-        "options": [
-          "Barry Bonds",
-          "Hank Aaron",
-          "Babe Ruth",
-          "Alex Rodriguez"
-        ],
-        "correct_answer": "Barry Bonds",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_067",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a perfect game in baseball?",
-        "options": [
-          "No hits, runs, or errors allowed",
-          "Pitching all 9 innings",
-          "Hitting a home run",
-          "Striking out every batter"
-        ],
-        "correct_answer": "No hits, runs, or errors allowed",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_068",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the trophy awarded to the NHL champions?",
-        "options": [
-          "Stanley Cup",
-          "Conn Smythe Trophy",
-          "Hart Memorial Trophy",
-          "Presidents' Trophy"
-        ],
-        "correct_answer": "Stanley Cup",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_069",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What country is considered the birthplace of ice hockey?",
-        "options": [
-          "Canada",
-          "United States",
-          "Russia",
-          "Sweden"
-        ],
-        "correct_answer": "Canada",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_070",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a walk in baseball?",
-        "options": [
-          "Four balls pitched",
-          "Three strikes",
-          "Home run",
-          "Sacrifice fly"
-        ],
-        "correct_answer": "Four balls pitched",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_071",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is it called when the quarterback is tackled behind the line of scrimmage?",
-        "options": [
-          "Sack",
-          "Tackle",
-          "Blitz",
-          "Loss"
-        ],
-        "correct_answer": "Sack",
-        "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_072",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the painted area under the basket called?",
-        "options": [
-          "The key",
-          "The paint",
-          "The lane",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_073",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the penalty for a handball in the penalty area?",
-        "options": [
-          "Penalty kick",
-          "Free kick",
-          "Corner kick",
-          "Yellow card"
-        ],
-        "correct_answer": "Penalty kick",
-        "difficulty": "medium",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_074",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player is known as 'His Airness'?",
-        "options": [
-          "Michael Jordan",
-          "LeBron James",
-          "Kobe Bryant",
-          "Magic Johnson"
-        ],
-        "correct_answer": "Michael Jordan",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_075",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the maximum number of players on a soccer team roster?",
-        "options": [
-          "20",
-          "23",
-          "25",
-          "30"
-        ],
-        "correct_answer": "23",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_076",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the offside rule in soccer?",
-        "options": [
-          "Player ahead of ball",
-          "Player ahead of last defender",
-          "Player in penalty box",
-          "Player touching sideline"
-        ],
-        "correct_answer": "Player ahead of last defender",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_077",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What team drafted Kobe Bryant?",
-        "options": [
-          "Los Angeles Lakers",
-          "Charlotte Hornets",
-          "Philadelphia 76ers",
-          "Boston Celtics"
-        ],
-        "correct_answer": "Charlotte Hornets",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_078",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the standard size of a soccer goal?",
-        "options": [
-          "24x8 feet",
-          "24x10 feet",
-          "20x8 feet",
-          "26x8 feet"
-        ],
-        "correct_answer": "24x8 feet",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_079",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the record for most World Cup goals?",
-        "options": [
-          "Pelé",
-          "Miroslav Klose",
-          "Ronaldo",
-          "Gerd Müller"
-        ],
-        "correct_answer": "Miroslav Klose",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_080",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the distance between goal posts in the NFL?",
-        "options": [
-          "18 feet 6 inches",
-          "20 feet",
-          "23 feet 4 inches",
-          "24 feet"
-        ],
-        "correct_answer": "18 feet 6 inches",
-        "difficulty": "hard",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_081",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many players are on a baseball team roster?",
-        "options": [
-          "25",
-          "26",
-          "28",
-          "30"
-        ],
-        "correct_answer": "26",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_082",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the home run record for a single season?",
-        "options": [
-          "70",
-          "73",
-          "75",
-          "77"
-        ],
-        "correct_answer": "73",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_083",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the standard size of a hockey rink?",
-        "options": [
-          "200x85 feet",
-          "200x100 feet",
-          "220x85 feet",
-          "220x100 feet"
-        ],
-        "correct_answer": "200x85 feet",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_084",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the NBA record for most consecutive free throws made?",
-        "options": [
-          "97",
-          "85",
-          "103",
-          "78"
-        ],
-        "correct_answer": "97",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_085",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player holds the record for most assists in NBA history?",
-        "options": [
-          "John Stockton",
-          "Magic Johnson",
-          "Steve Nash",
-          "Chris Paul"
-        ],
-        "correct_answer": "John Stockton",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_086",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the regulation length of an NBA basketball court?",
-        "options": [
-          "94 feet",
-          "100 feet",
-          "90 feet",
-          "96 feet"
-        ],
-        "correct_answer": "94 feet",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_087",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the NBA record for most steals in a single game?",
-        "options": [
-          "11",
-          "10",
-          "12",
-          "9"
-        ],
-        "correct_answer": "11",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_088",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many players from each team are on the ice during regular play?",
-        "options": [
-          "6",
-          "5",
-          "7",
-          "4"
-        ],
-        "correct_answer": "6",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_089",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player has won the most FIFA Ballon d'Or awards?",
-        "options": [
-          "Lionel Messi",
-          "Cristiano Ronaldo",
-          "Pelé",
-          "Diego Maradona"
-        ],
-        "correct_answer": "Lionel Messi",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_090",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many points is a safety worth?",
-        "options": [
-          "2",
-          "3",
-          "6",
-          "1"
-        ],
-        "correct_answer": "2",
-        "difficulty": "hard",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_091",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which English club has won the most Premier League titles?",
-        "options": [
-          "Manchester United",
-          "Liverpool",
-          "Arsenal",
-          "Chelsea"
-        ],
-        "correct_answer": "Manchester United",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_092",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the NHL record for most career goals?",
-        "options": [
-          "Wayne Gretzky",
-          "Gordie Howe",
-          "Mario Lemieux",
-          "Alex Ovechkin"
-        ],
-        "correct_answer": "Alex Ovechkin",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_093",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which team has won the most World Series?",
-        "options": [
-          "New York Yankees",
-          "Boston Red Sox",
-          "St. Louis Cardinals",
-          "Los Angeles Dodgers"
-        ],
-        "correct_answer": "New York Yankees",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_094",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How long is the shot clock in the NBA?",
-        "options": [
-          "24 seconds",
-          "30 seconds",
-          "20 seconds",
-          "35 seconds"
-        ],
-        "correct_answer": "24 seconds",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_095",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the record for most home runs in a single MLB season?",
-        "options": [
-          "Barry Bonds",
-          "Mark McGwire",
-          "Sammy Sosa",
-          "Babe Ruth"
-        ],
-        "correct_answer": "Barry Bonds",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_096",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which team has won the most Stanley Cup championships?",
-        "options": [
-          "Montreal Canadiens",
-          "Toronto Maple Leafs",
-          "Detroit Red Wings",
-          "Boston Bruins"
-        ],
-        "correct_answer": "Montreal Canadiens",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_097",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the pitching rubber distance from home plate in MLB?",
-        "options": [
-          "60 feet 6 inches",
-          "55 feet",
-          "65 feet",
-          "50 feet"
-        ],
-        "correct_answer": "60 feet 6 inches",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_098",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a 'ground rule double'?",
-        "options": [
-          "Ball bounces over the fence",
-          "Hit to the warning track",
-          "Double play",
-          "Base hit that rolls to the wall"
-        ],
-        "correct_answer": "Ball bounces over the fence",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_099",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the neutral zone in hockey?",
-        "options": [
-          "Area between the two blue lines",
-          "The crease",
-          "Behind the goal",
-          "The penalty box"
-        ],
-        "correct_answer": "Area between the two blue lines",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_100",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a hat trick called when scored consecutively?",
-        "options": [
-          "Natural hat trick",
-          "Perfect hat trick",
-          "Pure hat trick",
-          "True hat trick"
-        ],
-        "correct_answer": "Natural hat trick",
-        "difficulty": "hard",
-        "topic": "Hockey",
+        "topic": "Football",
         "subtopic": null
       },
       {
@@ -30458,7 +29658,7 @@
         ],
         "correct_answer": "Hole-in-one",
         "difficulty": "easy",
-        "topic": "Golf",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -30506,7 +29706,7 @@
         ],
         "correct_answer": "The putting surface",
         "difficulty": "easy",
-        "topic": "Golf",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -30650,7 +29850,7 @@
         ],
         "correct_answer": "The mowed area between tee and green",
         "difficulty": "easy",
-        "topic": "Golf",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -30682,7 +29882,7 @@
         ],
         "correct_answer": "Grass",
         "difficulty": "medium",
-        "topic": "Tennis",
+        "topic": "Basketball",
         "subtopic": null
       },
       {
@@ -30750,22 +29950,6 @@
         "subtopic": null
       },
       {
-        "id": "spt_122",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the minimum number of games to win a set?",
-        "options": [
-          "5",
-          "6",
-          "7",
-          "8"
-        ],
-        "correct_answer": "6",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
         "id": "spt_123",
         "category": "Sports",
         "subcategory": "Individual Sports",
@@ -30778,7 +29962,7 @@
         ],
         "correct_answer": "Hard court",
         "difficulty": "medium",
-        "topic": "Tennis",
+        "topic": "Basketball",
         "subtopic": null
       },
       {
@@ -30810,7 +29994,7 @@
         ],
         "correct_answer": "Grass, clay, or hard court",
         "difficulty": "medium",
-        "topic": "Tennis",
+        "topic": "Basketball",
         "subtopic": null
       },
       {
@@ -30842,7 +30026,7 @@
         ],
         "correct_answer": "Hard court",
         "difficulty": "medium",
-        "topic": "Tennis",
+        "topic": "Basketball",
         "subtopic": null
       },
       {
@@ -30938,7 +30122,7 @@
         ],
         "correct_answer": "Winning 6-0",
         "difficulty": "hard",
-        "topic": "Tennis",
+        "topic": "Baseball",
         "subtopic": null
       },
       {
@@ -31018,7 +30202,7 @@
         ],
         "correct_answer": "No man's land",
         "difficulty": "hard",
-        "topic": "Tennis",
+        "topic": "Basketball",
         "subtopic": null
       },
       {
@@ -31050,7 +30234,7 @@
         ],
         "correct_answer": "Calendar Grand Slam",
         "difficulty": "hard",
-        "topic": "Tennis",
+        "topic": "Baseball",
         "subtopic": null
       },
       {
@@ -31374,755 +30558,19 @@
         "subtopic": null
       },
       {
-        "id": "spt_161",
+        "id": "spt_211",
         "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What NFL team is known as 'America's Team'?",
+        "subcategory": "Individual Sports",
+        "question": "What is a 'let' serve in tennis?",
         "options": [
-          "Dallas Cowboys",
-          "Green Bay Packers",
-          "Pittsburgh Steelers",
-          "New England Patriots"
+          "A serve that touches the net but lands in the service box",
+          "An out-of-bounds serve",
+          "A serve that's too fast",
+          "A serve after a fault"
         ],
-        "correct_answer": "Dallas Cowboys",
+        "correct_answer": "A serve that touches the net but lands in the service box",
         "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_163",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the championship trophy in college football?",
-        "options": [
-          "College Football Playoff National Championship Trophy",
-          "Heisman Trophy",
-          "Lombardi Trophy",
-          "Walter Camp Trophy"
-        ],
-        "correct_answer": "College Football Playoff National Championship Trophy",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_164",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which position in football is abbreviated 'QB'?",
-        "options": [
-          "Quarterback",
-          "Quick back",
-          "Quarter blocker",
-          "Quad back"
-        ],
-        "correct_answer": "Quarterback",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_165",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What color are the goal posts in American football?",
-        "options": [
-          "Yellow",
-          "White",
-          "Orange",
-          "Red"
-        ],
-        "correct_answer": "Yellow",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_166",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many players from one team are on a basketball court at one time?",
-        "options": [
-          "5",
-          "6",
-          "7",
-          "4"
-        ],
-        "correct_answer": "5",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_167",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is it called when a player scores while being fouled?",
-        "options": [
-          "And-one",
-          "Free throw",
-          "Flagrant",
-          "Technical"
-        ],
-        "correct_answer": "And-one",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_168",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many points is a free throw worth?",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "0"
-        ],
-        "correct_answer": "1",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_169",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NBA team plays in Madison Square Garden?",
-        "options": [
-          "New York Knicks",
-          "Brooklyn Nets",
-          "Boston Celtics",
-          "Philadelphia 76ers"
-        ],
-        "correct_answer": "New York Knicks",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_170",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What violation occurs when a player takes too many steps without dribbling?",
-        "options": [
-          "Traveling",
-          "Double dribble",
-          "Palming",
-          "Carrying"
-        ],
-        "correct_answer": "Traveling",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_172",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the area where pitchers warm up called?",
-        "options": [
-          "Bullpen",
-          "Dugout",
-          "Mound",
-          "Pen"
-        ],
-        "correct_answer": "Bullpen",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_173",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which base must a runner touch to score a run?",
-        "options": [
-          "Home plate",
-          "First base",
-          "Third base",
-          "Second base"
-        ],
-        "correct_answer": "Home plate",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_174",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the term for hitting the ball over the outfield fence?",
-        "options": [
-          "Home run",
-          "Grand slam",
-          "Triple",
-          "Fly ball"
-        ],
-        "correct_answer": "Home run",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_175",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many outs are in a half-inning?",
-        "options": [
-          "3",
-          "2",
-          "4",
-          "6"
-        ],
-        "correct_answer": "3",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_176",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NFL team has the most Super Bowl appearances without a win?",
-        "options": [
-          "Buffalo Bills",
-          "Minnesota Vikings",
-          "Cincinnati Bengals",
-          "Tennessee Titans"
-        ],
-        "correct_answer": "Buffalo Bills",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_177",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the NFL record for most consecutive games with a touchdown pass?",
-        "options": [
-          "54 (Drew Brees)",
-          "52 (Tom Brady)",
-          "50 (Peyton Manning)",
-          "48 (Aaron Rodgers)"
-        ],
-        "correct_answer": "54 (Drew Brees)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_178",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which college football team has the most national championships?",
-        "options": [
-          "Yale",
-          "Alabama",
-          "Notre Dame",
-          "Princeton"
-        ],
-        "correct_answer": "Yale",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_179",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What formation features 5 offensive linemen, 1 quarterback, 1 running back, and 3 wide receivers?",
-        "options": [
-          "Shotgun formation",
-          "I-formation",
-          "Wishbone",
-          "Wildcat"
-        ],
-        "correct_answer": "Shotgun formation",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_180",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the NFL single-season rushing record?",
-        "options": [
-          "Eric Dickerson",
-          "Barry Sanders",
-          "Adrian Peterson",
-          "O.J. Simpson"
-        ],
-        "correct_answer": "Eric Dickerson",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_181",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the play where the quarterback throws the ball backward to another player?",
-        "options": [
-          "Lateral",
-          "Screen pass",
-          "Reverse",
-          "Handoff"
-        ],
-        "correct_answer": "Lateral",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_182",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NFL team was originally named the Decatur Staleys?",
-        "options": [
-          "Chicago Bears",
-          "Green Bay Packers",
-          "Detroit Lions",
-          "Minnesota Vikings"
-        ],
-        "correct_answer": "Chicago Bears",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_183",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player holds the NBA record for most rebounds in a single game?",
-        "options": [
-          "Wilt Chamberlain (55)",
-          "Bill Russell (51)",
-          "Dennis Rodman (34)",
-          "Dwight Howard (30)"
-        ],
-        "correct_answer": "Wilt Chamberlain (55)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_184",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the defensive strategy where each player guards a specific area?",
-        "options": [
-          "Zone defense",
-          "Man-to-man",
-          "Press defense",
-          "Box-and-one"
-        ],
-        "correct_answer": "Zone defense",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_185",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NBA team won the championship in 2019, their first in franchise history?",
-        "options": [
-          "Toronto Raptors",
-          "Milwaukee Bucks",
-          "Phoenix Suns",
-          "Denver Nuggets"
-        ],
-        "correct_answer": "Toronto Raptors",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_186",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the width of a regulation NBA basketball rim in inches?",
-        "options": [
-          "18 inches",
-          "16 inches",
-          "20 inches",
-          "24 inches"
-        ],
-        "correct_answer": "18 inches",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_187",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which college has produced the most NBA #1 draft picks?",
-        "options": [
-          "Duke",
-          "Kentucky",
-          "North Carolina",
-          "UCLA"
-        ],
-        "correct_answer": "Duke",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_188",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the pass where the ball bounces once before reaching the receiver?",
-        "options": [
-          "Bounce pass",
-          "Chest pass",
-          "Overhead pass",
-          "Baseball pass"
-        ],
-        "correct_answer": "Bounce pass",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_189",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many seconds does a team have to attempt a shot in the NBA?",
-        "options": [
-          "24 seconds",
-          "30 seconds",
-          "35 seconds",
-          "20 seconds"
-        ],
-        "correct_answer": "24 seconds",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_190",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the term for a pitch that curves away from a right-handed batter when thrown by a right-handed pitcher?",
-        "options": [
-          "Slider",
-          "Curveball",
-          "Changeup",
-          "Sinker"
-        ],
-        "correct_answer": "Slider",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_191",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player holds the MLB record for most career home runs?",
-        "options": [
-          "Barry Bonds (762)",
-          "Hank Aaron (755)",
-          "Babe Ruth (714)",
-          "Alex Rodriguez (696)"
-        ],
-        "correct_answer": "Barry Bonds (762)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_192",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What statistic measures a pitcher's average number of earned runs per 9 innings?",
-        "options": [
-          "ERA (Earned Run Average)",
-          "WHIP",
-          "BAA",
-          "FIP"
-        ],
-        "correct_answer": "ERA (Earned Run Average)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_194",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the rule that prevents attackers from gaining unfair advantage by being ahead of defenders?",
-        "options": [
-          "Offside",
-          "Penalty",
-          "Handball",
-          "Obstruction"
-        ],
-        "correct_answer": "Offside",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_195",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which club has won the most UEFA Champions League titles?",
-        "options": [
-          "Real Madrid",
-          "AC Milan",
-          "Barcelona",
-          "Bayern Munich"
-        ],
-        "correct_answer": "Real Madrid",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_196",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the blocking technique where an offensive lineman pulls from their position to lead a run?",
-        "options": [
-          "Trap block",
-          "Zone block",
-          "Reach block",
-          "Combo block"
-        ],
-        "correct_answer": "Trap block",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_197",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NFL player rushed for over 2,000 yards in a 14-game season in 1973?",
-        "options": [
-          "O.J. Simpson",
-          "Jim Brown",
-          "Walter Payton",
-          "Earl Campbell"
-        ],
-        "correct_answer": "O.J. Simpson",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_198",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a 'Tampa 2' defense characterized by?",
-        "options": [
-          "Middle linebacker dropping deep into coverage",
-          "Two safeties playing deep zones",
-          "Two corners pressing receivers",
-          "Four defensive linemen"
-        ],
-        "correct_answer": "Middle linebacker dropping deep into coverage",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_199",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which team won the first Super Bowl in 1967?",
-        "options": [
-          "Green Bay Packers",
-          "Kansas City Chiefs",
-          "Oakland Raiders",
-          "Dallas Cowboys"
-        ],
-        "correct_answer": "Green Bay Packers",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_200",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the Wonderlic test score range for NFL prospects?",
-        "options": [
-          "0-50",
-          "0-100",
-          "0-200",
-          "0-150"
-        ],
-        "correct_answer": "0-50",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_201",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NBA team holds the record for most wins in a regular season?",
-        "options": [
-          "Golden State Warriors (73)",
-          "Chicago Bulls (72)",
-          "Los Angeles Lakers (69)",
-          "Boston Celtics (68)"
-        ],
-        "correct_answer": "Golden State Warriors (73)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_202",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the statistical category that measures a player's overall contribution per 100 possessions?",
-        "options": [
-          "PER (Player Efficiency Rating)",
-          "Win Shares",
-          "VORP",
-          "BPM"
-        ],
-        "correct_answer": "PER (Player Efficiency Rating)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_203",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which team drafted Kobe Bryant before trading him to the Lakers?",
-        "options": [
-          "Charlotte Hornets",
-          "Vancouver Grizzlies",
-          "Toronto Raptors",
-          "New Jersey Nets"
-        ],
-        "correct_answer": "Charlotte Hornets",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_204",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the largest comeback in NBA playoff history (points)?",
-        "options": [
-          "31 points",
-          "29 points",
-          "26 points",
-          "35 points"
-        ],
-        "correct_answer": "31 points",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_205",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NBA player has the highest career free throw percentage?",
-        "options": [
-          "Stephen Curry (90.7%)",
-          "Steve Nash (90.4%)",
-          "Mark Price (90.4%)",
-          "Rick Barry (89.3%)"
-        ],
-        "correct_answer": "Stephen Curry (90.7%)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_206",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the 'Mendoza Line' in baseball?",
-        "options": [
-          "A .200 batting average",
-          "A .100 batting average",
-          "A .250 batting average",
-          "A .150 batting average"
-        ],
-        "correct_answer": "A .200 batting average",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_207",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which pitcher threw a perfect game in the 1956 World Series?",
-        "options": [
-          "Don Larsen",
-          "Sandy Koufax",
-          "Bob Gibson",
-          "Whitey Ford"
-        ],
-        "correct_answer": "Don Larsen",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_208",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What does the baseball statistic 'BABIP' stand for?",
-        "options": [
-          "Batting Average on Balls In Play",
-          "Base Average Batting In Position",
-          "Batters Against Balls In Play",
-          "Base Awarded Batting In Park"
-        ],
-        "correct_answer": "Batting Average on Balls In Play",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_209",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player scored the 'Hand of God' goal in the 1986 World Cup?",
-        "options": [
-          "Diego Maradona",
-          "Pelé",
-          "Johan Cruyff",
-          "Michel Platini"
-        ],
-        "correct_answer": "Diego Maradona",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_210",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the 'false nine' position in soccer?",
-        "options": [
-          "A striker who drops deep to create space",
-          "A defensive midfielder who pushes forward",
-          "A winger who plays centrally",
-          "A fullback who becomes a striker"
-        ],
-        "correct_answer": "A striker who drops deep to create space",
-        "difficulty": "hard",
-        "topic": null,
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -32138,7 +30586,7 @@
         ],
         "correct_answer": "Deuce",
         "difficulty": "easy",
-        "topic": null,
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -32154,7 +30602,7 @@
         ],
         "correct_answer": "Clay",
         "difficulty": "easy",
-        "topic": null,
+        "topic": "Basketball",
         "subtopic": null
       },
       {
@@ -32170,7 +30618,7 @@
         ],
         "correct_answer": "15",
         "difficulty": "easy",
-        "topic": null,
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -32186,7 +30634,23 @@
         ],
         "correct_answer": "Ace",
         "difficulty": "easy",
-        "topic": null,
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_216",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is a tiebreaker in tennis typically played to?",
+        "options": [
+          "7 points",
+          "10 points",
+          "5 points",
+          "15 points"
+        ],
+        "correct_answer": "7 points",
+        "difficulty": "easy",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -32202,7 +30666,23 @@
         ],
         "correct_answer": "18",
         "difficulty": "easy",
-        "topic": null,
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_218",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is a 'mulligan' in golf?",
+        "options": [
+          "A do-over shot (informal)",
+          "A type of club",
+          "A penalty stroke",
+          "A type of putt"
+        ],
+        "correct_answer": "A do-over shot (informal)",
+        "difficulty": "easy",
+        "topic": "Golf",
         "subtopic": null
       },
       {
@@ -32218,7 +30698,7 @@
         ],
         "correct_answer": "Tee",
         "difficulty": "easy",
-        "topic": null,
+        "topic": "Golf",
         "subtopic": null
       },
       {
@@ -32234,7 +30714,7 @@
         ],
         "correct_answer": "Green",
         "difficulty": "easy",
-        "topic": null,
+        "topic": "Golf",
         "subtopic": null
       },
       {
@@ -32250,694 +30730,22 @@
         ],
         "correct_answer": "4",
         "difficulty": "easy",
-        "topic": null,
+        "topic": "Golf",
         "subtopic": null
       },
       {
-        "id": "spt_223",
+        "id": "spt_271",
         "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many lanes are on a standard Olympic track?",
+        "subcategory": "International Competition",
+        "question": "What do the five Olympic rings symbolize?",
         "options": [
-          "8",
-          "6",
-          "10",
-          "9"
+          "Unity of five continents",
+          "Five sports",
+          "Five Olympic values",
+          "Five founding nations"
         ],
-        "correct_answer": "8",
+        "correct_answer": "Unity of five continents",
         "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_224",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What implement is thrown in the javelin event?",
-        "options": [
-          "Spear",
-          "Pole",
-          "Lance",
-          "Rod"
-        ],
-        "correct_answer": "Spear",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_225",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many meters is a standard Olympic sprint track?",
-        "options": [
-          "400 meters",
-          "200 meters",
-          "500 meters",
-          "300 meters"
-        ],
-        "correct_answer": "400 meters",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_226",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which swimming stroke is swum on the back?",
-        "options": [
-          "Backstroke",
-          "Butterfly",
-          "Breaststroke",
-          "Freestyle"
-        ],
-        "correct_answer": "Backstroke",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_227",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many meters is an Olympic-sized swimming pool?",
-        "options": [
-          "50 meters",
-          "25 meters",
-          "100 meters",
-          "75 meters"
-        ],
-        "correct_answer": "50 meters",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_228",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What stroke involves bringing both arms forward simultaneously over the water?",
-        "options": [
-          "Butterfly",
-          "Freestyle",
-          "Backstroke",
-          "Breaststroke"
-        ],
-        "correct_answer": "Butterfly",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_229",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Who holds the record for most Grand Slam singles titles in men's tennis?",
-        "options": [
-          "Novak Djokovic (24)",
-          "Rafael Nadal (22)",
-          "Roger Federer (20)",
-          "Pete Sampras (14)"
-        ],
-        "correct_answer": "Novak Djokovic (24)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_230",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the fastest recorded tennis serve?",
-        "options": [
-          "163.7 mph (Sam Groth)",
-          "157.2 mph (John Isner)",
-          "149.1 mph (Andy Roddick)",
-          "155.3 mph (Ivo Karlović)"
-        ],
-        "correct_answer": "163.7 mph (Sam Groth)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_233",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which country has won the most Davis Cup titles?",
-        "options": [
-          "United States",
-          "Australia",
-          "France",
-          "Great Britain"
-        ],
-        "correct_answer": "United States",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_234",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the name of the line that runs parallel to the net and marks the boundary for singles play?",
-        "options": [
-          "Singles sideline",
-          "Service line",
-          "Baseline",
-          "Center mark"
-        ],
-        "correct_answer": "Singles sideline",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_235",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many games must a player win to take a set, provided they lead by at least 2 games?",
-        "options": [
-          "6",
-          "7",
-          "5",
-          "8"
-        ],
-        "correct_answer": "6",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_236",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the name of the women's team tennis competition equivalent to the Davis Cup?",
-        "options": [
-          "Billie Jean King Cup",
-          "Fed Cup",
-          "WTA Cup",
-          "Venus Cup"
-        ],
-        "correct_answer": "Billie Jean King Cup",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_238",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is three strokes under par called?",
-        "options": [
-          "Albatross",
-          "Eagle",
-          "Condor",
-          "Ace"
-        ],
-        "correct_answer": "Albatross",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_239",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which player has won the most major championships in golf history?",
-        "options": [
-          "Jack Nicklaus (18)",
-          "Tiger Woods (15)",
-          "Walter Hagen (11)",
-          "Ben Hogan (9)"
-        ],
-        "correct_answer": "Jack Nicklaus (18)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_240",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the term for the person who carries a player's clubs and provides advice?",
-        "options": [
-          "Caddie",
-          "Coach",
-          "Handler",
-          "Assistant"
-        ],
-        "correct_answer": "Caddie",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_242",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a score of one over par called?",
-        "options": [
-          "Bogey",
-          "Double bogey",
-          "Par",
-          "Birdie"
-        ],
-        "correct_answer": "Bogey",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_243",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which tournament is known as 'The Old Course' and is considered the home of golf?",
-        "options": [
-          "St. Andrews",
-          "Pebble Beach",
-          "Augusta National",
-          "Pinehurst"
-        ],
-        "correct_answer": "St. Andrews",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_244",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the team golf competition between Europe and the United States called?",
-        "options": [
-          "Ryder Cup",
-          "Presidents Cup",
-          "Walker Cup",
-          "Solheim Cup"
-        ],
-        "correct_answer": "Ryder Cup",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_245",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Who holds the world record in the men's 100-meter dash?",
-        "options": [
-          "Usain Bolt (9.58s)",
-          "Tyson Gay (9.69s)",
-          "Yohan Blake (9.69s)",
-          "Asafa Powell (9.72s)"
-        ],
-        "correct_answer": "Usain Bolt (9.58s)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_246",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many events make up the decathlon?",
-        "options": [
-          "10",
-          "7",
-          "5",
-          "12"
-        ],
-        "correct_answer": "10",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_247",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the name of the jumping event where athletes use a flexible pole?",
-        "options": [
-          "Pole vault",
-          "High jump",
-          "Long jump",
-          "Triple jump"
-        ],
-        "correct_answer": "Pole vault",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_248",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "In which event do athletes run 400 meters while jumping over barriers?",
-        "options": [
-          "400-meter hurdles",
-          "110-meter hurdles",
-          "Steeplechase",
-          "3000-meter hurdles"
-        ],
-        "correct_answer": "400-meter hurdles",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_249",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Who has won the most Olympic gold medals in swimming?",
-        "options": [
-          "Michael Phelps (23)",
-          "Mark Spitz (9)",
-          "Katie Ledecky (9)",
-          "Ryan Lochte (6)"
-        ],
-        "correct_answer": "Michael Phelps (23)",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_250",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What swimming event combines all four strokes?",
-        "options": [
-          "Individual medley",
-          "Relay medley",
-          "Freestyle relay",
-          "Mixed relay"
-        ],
-        "correct_answer": "Individual medley",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_251",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many lanes does an Olympic swimming pool have?",
-        "options": [
-          "8",
-          "6",
-          "10",
-          "12"
-        ],
-        "correct_answer": "8",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_252",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the order of strokes in an individual medley?",
-        "options": [
-          "Butterfly, backstroke, breaststroke, freestyle",
-          "Freestyle, backstroke, butterfly, breaststroke",
-          "Backstroke, breaststroke, butterfly, freestyle",
-          "Breaststroke, butterfly, backstroke, freestyle"
-        ],
-        "correct_answer": "Butterfly, backstroke, breaststroke, freestyle",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_253",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the longest tennis match in history by duration?",
-        "options": [
-          "11 hours 5 minutes (Isner vs Mahut, 2010)",
-          "6 hours 36 minutes (Anderson vs Isner, 2018)",
-          "5 hours 53 minutes (Nadal vs Djokovic, 2012)",
-          "4 hours 54 minutes (Federer vs Roddick, 2009)"
-        ],
-        "correct_answer": "11 hours 5 minutes (Isner vs Mahut, 2010)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_254",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What does the ATP ranking system primarily consider?",
-        "options": [
-          "Points earned in tournaments over 52 weeks",
-          "Win-loss record",
-          "Head-to-head results",
-          "Grand Slam performance only"
-        ],
-        "correct_answer": "Points earned in tournaments over 52 weeks",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_255",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which player completed the 'Golden Slam' (all four majors plus Olympic gold) in 1988?",
-        "options": [
-          "Steffi Graf",
-          "Martina Navratilova",
-          "Serena Williams",
-          "Chris Evert"
-        ],
-        "correct_answer": "Steffi Graf",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_256",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the maximum number of challenges allowed per set in tennis (using Hawk-Eye)?",
-        "options": [
-          "3",
-          "2",
-          "4",
-          "5"
-        ],
-        "correct_answer": "3",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_257",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which Grand Slam was the last to introduce a tiebreak in the final set?",
-        "options": [
-          "French Open (2022)",
-          "Wimbledon (2019)",
-          "US Open (1970)",
-          "Australian Open (2019)"
-        ],
-        "correct_answer": "French Open (2022)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_258",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the term for a serve that touches the net but still lands in the service box?",
-        "options": [
-          "Let",
-          "Fault",
-          "Ace",
-          "Net serve"
-        ],
-        "correct_answer": "Let",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_259",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the lowest score ever recorded in a major championship round?",
-        "options": [
-          "62",
-          "59",
-          "61",
-          "63"
-        ],
-        "correct_answer": "62",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_260",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a 'stimpmeter' used to measure in golf?",
-        "options": [
-          "Green speed",
-          "Ball velocity",
-          "Club head speed",
-          "Wind speed"
-        ],
-        "correct_answer": "Green speed",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_261",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which golfer is known as 'The Golden Bear'?",
-        "options": [
-          "Jack Nicklaus",
-          "Arnold Palmer",
-          "Gary Player",
-          "Tom Watson"
-        ],
-        "correct_answer": "Jack Nicklaus",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_262",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the cut line in most PGA Tour events?",
-        "options": [
-          "Top 70 plus ties",
-          "Top 60 plus ties",
-          "Top 50 plus ties",
-          "Top 80 plus ties"
-        ],
-        "correct_answer": "Top 70 plus ties",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_264",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which club is traditionally used for the longest shots (besides the driver)?",
-        "options": [
-          "3-wood",
-          "5-wood",
-          "Hybrid",
-          "2-iron"
-        ],
-        "correct_answer": "3-wood",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_265",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the world record for the men's marathon?",
-        "options": [
-          "2:00:35 (Eliud Kipchoge)",
-          "2:01:39 (Kelvin Kiptum)",
-          "2:02:57 (Dennis Kimetto)",
-          "1:59:40 (Eliud Kipchoge - unofficial)"
-        ],
-        "correct_answer": "2:00:35 (Eliud Kipchoge)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_266",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the standard weight of a men's shot put?",
-        "options": [
-          "16 pounds",
-          "12 pounds",
-          "20 pounds",
-          "18 pounds"
-        ],
-        "correct_answer": "16 pounds",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_267",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which athlete holds the women's world record in the long jump?",
-        "options": [
-          "Galina Chistyakova (7.52m)",
-          "Jackie Joyner-Kersee (7.49m)",
-          "Heike Drechsler (7.48m)",
-          "Brittney Reese (7.31m)"
-        ],
-        "correct_answer": "Galina Chistyakova (7.52m)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_268",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the world record for the men's 100-meter freestyle?",
-        "options": [
-          "46.86 seconds (Pan Zhanle)",
-          "46.91 seconds (Caeleb Dressel)",
-          "47.04 seconds (César Cielo)",
-          "47.17 seconds (Kyle Chalmers)"
-        ],
-        "correct_answer": "46.86 seconds (Pan Zhanle)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_269",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What swimming technique involves a simultaneous two-handed touch on the wall?",
-        "options": [
-          "Required for butterfly and breaststroke turns",
-          "Required for all strokes",
-          "Required for freestyle only",
-          "Not required for any stroke"
-        ],
-        "correct_answer": "Required for butterfly and breaststroke turns",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_270",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How deep is an Olympic swimming pool?",
-        "options": [
-          "2 meters (minimum)",
-          "3 meters",
-          "1.5 meters",
-          "2.5 meters"
-        ],
-        "correct_answer": "2 meters (minimum)",
-        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -33065,6 +30873,22 @@
           "Great Britain"
         ],
         "correct_answer": "United States",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_281",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What is the marathon distance in kilometers?",
+        "options": [
+          "42.195 km",
+          "40 km",
+          "45 km",
+          "50 km"
+        ],
+        "correct_answer": "42.195 km",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -33374,242 +31198,2418 @@
         "subtopic": null
       },
       {
-        "id": "spt_162",
+        "id": "spt_326",
         "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the line of scrimmage in football?",
+        "subcategory": "International Competition",
+        "question": "What year did the first modern Olympics take place?",
         "options": [
-          "The yard line where the ball is placed for the next play",
-          "The 50-yard line",
-          "The goal line",
-          "The sideline"
+          "1896",
+          "1900",
+          "1892",
+          "1888"
         ],
-        "correct_answer": "The yard line where the ball is placed for the next play",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_171",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the warning track in baseball?",
-        "options": [
-          "The dirt or gravel area before the outfield wall",
-          "The pitcher's mound area",
-          "The baseline",
-          "The coach's box"
-        ],
-        "correct_answer": "The dirt or gravel area before the outfield wall",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_193",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a 'nutmeg' in soccer?",
-        "options": [
-          "Kicking the ball through an opponent's legs",
-          "Scoring with the head",
-          "A bicycle kick",
-          "A corner kick"
-        ],
-        "correct_answer": "Kicking the ball through an opponent's legs",
+        "correct_answer": "1896",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
       {
-        "id": "spt_220",
+        "id": "spt_327",
         "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a pick-six in American football?",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What sport involves riding waves on a board?",
         "options": [
-          "An interception returned for a touchdown",
-          "A six-yard touchdown run",
-          "A blocked field goal",
-          "A fumble recovery"
+          "Surfing",
+          "Skateboarding",
+          "Snowboarding",
+          "Wakeboarding"
         ],
-        "correct_answer": "An interception returned for a touchdown",
+        "correct_answer": "Surfing",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_328",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a halfpipe used for?",
+        "options": [
+          "Skateboarding and snowboarding tricks",
+          "Swimming",
+          "Running",
+          "Cycling"
+        ],
+        "correct_answer": "Skateboarding and snowboarding tricks",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_329",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What sport involves jumping from aircraft with a parachute?",
+        "options": [
+          "Skydiving",
+          "Base jumping",
+          "Bungee jumping",
+          "Hang gliding"
+        ],
+        "correct_answer": "Skydiving",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_330",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What does BMX stand for?",
+        "options": [
+          "Bicycle Motocross",
+          "Bike Motor X-treme",
+          "British Motor X-sports",
+          "Bike Mountain X-sports"
+        ],
+        "correct_answer": "Bicycle Motocross",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_331",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the term for a 360-degree rotation in skateboarding?",
+        "options": [
+          "360",
+          "Spin",
+          "Rotation",
+          "Turn"
+        ],
+        "correct_answer": "360",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_332",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What sport involves descending snow-covered slopes on skis?",
+        "options": [
+          "Skiing",
+          "Snowboarding",
+          "Sledding",
+          "Bobsledding"
+        ],
+        "correct_answer": "Skiing",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_333",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What protective gear is essential in skateboarding?",
+        "options": [
+          "Helmet",
+          "Elbow pads only",
+          "Knee pads only",
+          "None needed"
+        ],
+        "correct_answer": "Helmet",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_334",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the X Games?",
+        "options": [
+          "Extreme sports competition",
+          "Video game tournament",
+          "Olympics qualifier",
+          "Winter sports only"
+        ],
+        "correct_answer": "Extreme sports competition",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_335",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What board sport is done on snow?",
+        "options": [
+          "Snowboarding",
+          "Skateboarding",
+          "Surfing",
+          "Wakeboarding"
+        ],
+        "correct_answer": "Snowboarding",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_336",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a kickflip in skateboarding?",
+        "options": [
+          "Board flip trick",
+          "Jumping motion",
+          "Stopping technique",
+          "Turning maneuver"
+        ],
+        "correct_answer": "Board flip trick",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_337",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What sport involves climbing vertical ice formations?",
+        "options": [
+          "Ice climbing",
+          "Rock climbing",
+          "Mountaineering",
+          "Skiing"
+        ],
+        "correct_answer": "Ice climbing",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_338",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is parkour?",
+        "options": [
+          "Moving through obstacles efficiently",
+          "Skate park design",
+          "Mountain biking",
+          "Street racing"
+        ],
+        "correct_answer": "Moving through obstacles efficiently",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_339",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What does a skateboarder do in a 'grind'?",
+        "options": [
+          "Slide along edge with trucks",
+          "Jump high",
+          "Spin board",
+          "Stop quickly"
+        ],
+        "correct_answer": "Slide along edge with trucks",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_340",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What sport involves riding down rivers in an inflatable boat?",
+        "options": [
+          "White-water rafting",
+          "Kayaking",
+          "Canoeing",
+          "Tubing"
+        ],
+        "correct_answer": "White-water rafting",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_341",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is motocross?",
+        "options": [
+          "Motorcycle racing on dirt tracks",
+          "Car racing",
+          "Bicycle racing",
+          "ATV racing"
+        ],
+        "correct_answer": "Motorcycle racing on dirt tracks",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_342",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What board is used in wakeboarding?",
+        "options": [
+          "Wakeboard",
+          "Surfboard",
+          "Skateboard",
+          "Snowboard"
+        ],
+        "correct_answer": "Wakeboard",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_343",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is bungee jumping?",
+        "options": [
+          "Jumping from height with elastic cord",
+          "Parachuting",
+          "Diving",
+          "Rock climbing"
+        ],
+        "correct_answer": "Jumping from height with elastic cord",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_344",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who is considered the most famous skateboarder of all time?",
+        "options": [
+          "Tony Hawk",
+          "Rodney Mullen",
+          "Bob Burnquist",
+          "Bucky Lasek"
+        ],
+        "correct_answer": "Tony Hawk",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_345",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a 'barrel' in surfing?",
+        "options": [
+          "Riding inside a breaking wave",
+          "Board storage container",
+          "Type of wave",
+          "Surfboard design"
+        ],
+        "correct_answer": "Riding inside a breaking wave",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_346",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is free soloing?",
+        "options": [
+          "Climbing without ropes",
+          "Freestyle skiing",
+          "Solo skateboarding",
+          "Individual surfing"
+        ],
+        "correct_answer": "Climbing without ropes",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_347",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What year was the first X Games held?",
+        "options": [
+          "1995",
+          "1990",
+          "2000",
+          "1985"
+        ],
+        "correct_answer": "1995",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_348",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a 'McTwist' in action sports?",
+        "options": [
+          "540-degree spin",
+          "360-degree spin",
+          "720-degree spin",
+          "180-degree spin"
+        ],
+        "correct_answer": "540-degree spin",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_349",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who was the first person to land a 900 in skateboarding?",
+        "options": [
+          "Tony Hawk",
+          "Bob Burnquist",
+          "Shaun White",
+          "Danny Way"
+        ],
+        "correct_answer": "Tony Hawk",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_350",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is slacklining?",
+        "options": [
+          "Walking on suspended webbing",
+          "Zip-lining",
+          "Tightrope walking on ice",
+          "Mountain climbing"
+        ],
+        "correct_answer": "Walking on suspended webbing",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_351",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What does 'goofy foot' mean in board sports?",
+        "options": [
+          "Right foot forward",
+          "Left foot forward",
+          "Both feet together",
+          "No foot preference"
+        ],
+        "correct_answer": "Right foot forward",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_352",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is BASE jumping an acronym for?",
+        "options": [
+          "Building, Antenna, Span, Earth",
+          "Base Area Skydiving Experience",
+          "British Aerial Sports Extreme",
+          "Belayed Airborne Sports Event"
+        ],
+        "correct_answer": "Building, Antenna, Span, Earth",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_353",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the Vans Warped Tour associated with?",
+        "options": [
+          "Action sports and punk rock",
+          "Classical music",
+          "Basketball",
+          "Marathon running"
+        ],
+        "correct_answer": "Action sports and punk rock",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_354",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a 'nosegrind' in skateboarding?",
+        "options": [
+          "Grinding on front truck",
+          "Riding on nose of board",
+          "Frontside trick",
+          "Jumping technique"
+        ],
+        "correct_answer": "Grinding on front truck",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_355",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who is known as 'The Flying Tomato'?",
+        "options": [
+          "Shaun White",
+          "Tony Hawk",
+          "Travis Pastrana",
+          "Danny Way"
+        ],
+        "correct_answer": "Shaun White",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_356",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is 'hang time' in action sports?",
+        "options": [
+          "Time spent in air",
+          "Waiting time",
+          "Competition time",
+          "Practice time"
+        ],
+        "correct_answer": "Time spent in air",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_357",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the Banzai Pipeline famous for?",
+        "options": [
+          "Dangerous surf break in Hawaii",
+          "Snowboard park",
+          "Skate park",
+          "BMX track"
+        ],
+        "correct_answer": "Dangerous surf break in Hawaii",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_358",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a 'fakie' in skateboarding?",
+        "options": [
+          "Riding backward",
+          "Riding forward",
+          "Jumping trick",
+          "Grinding technique"
+        ],
+        "correct_answer": "Riding backward",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_359",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is wingsuit flying?",
+        "options": [
+          "Gliding through air in special suit",
+          "Paragliding",
+          "Hang gliding",
+          "Skydiving with parachute"
+        ],
+        "correct_answer": "Gliding through air in special suit",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_360",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the Triple Crown of Surfing?",
+        "options": [
+          "Three elite contests in Hawaii",
+          "Three board types",
+          "Three wave heights",
+          "Three surf brands"
+        ],
+        "correct_answer": "Three elite contests in Hawaii",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_361",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who was the first to complete a double backflip on a motorcycle?",
+        "options": [
+          "Travis Pastrana",
+          "Ryan Williams",
+          "Carey Hart",
+          "Mat Hoffman"
+        ],
+        "correct_answer": "Travis Pastrana",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
       {
-        "id": "spt_277",
+        "id": "spt_362",
         "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a hat-trick in hockey?",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the 'Dawn Patrol' in surfing culture?",
         "options": [
-          "Scoring three goals in one game by one player",
-          "Three assists in one game",
-          "Blocking three shots",
-          "Three penalties in one period"
+          "Early morning surf session",
+          "Sunset surfing",
+          "Night surfing",
+          "Afternoon session"
         ],
-        "correct_answer": "Scoring three goals in one game by one player",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_216",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a tiebreaker in tennis typically played to?",
-        "options": [
-          "7 points",
-          "10 points",
-          "5 points",
-          "15 points"
-        ],
-        "correct_answer": "7 points",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_218",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a 'mulligan' in golf?",
-        "options": [
-          "A do-over shot (informal)",
-          "A type of club",
-          "A penalty stroke",
-          "A type of putt"
-        ],
-        "correct_answer": "A do-over shot (informal)",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_231",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the 'kitchen' in pickleball?",
-        "options": [
-          "The non-volley zone near the net",
-          "The service area",
-          "The backcourt",
-          "The sideline area"
-        ],
-        "correct_answer": "The non-volley zone near the net",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_232",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a 'break point' in tennis?",
-        "options": [
-          "A point that if won, breaks the opponent's serve",
-          "A rest period between sets",
-          "A fault on serve",
-          "A challenge to a call"
-        ],
-        "correct_answer": "A point that if won, breaks the opponent's serve",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_237",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the 'water hazard' rule in golf?",
-        "options": [
-          "One-stroke penalty and drop behind hazard",
-          "Two-stroke penalty",
-          "No penalty if found",
-          "Replay from tee"
-        ],
-        "correct_answer": "One-stroke penalty and drop behind hazard",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_241",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a 'scratch golfer'?",
-        "options": [
-          "A golfer with a handicap of zero",
-          "A beginner golfer",
-          "A professional golfer",
-          "A golfer who plays once a year"
-        ],
-        "correct_answer": "A golfer with a handicap of zero",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "spt_263",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the 'green jacket' tradition in golf?",
-        "options": [
-          "Awarded to The Masters champion",
-          "Worn by all PGA Tour pros",
-          "Given to hole-in-one achievers",
-          "Worn by caddies at major tournaments"
-        ],
-        "correct_answer": "Awarded to The Masters champion",
+        "correct_answer": "Early morning surf session",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
       {
-        "id": "spt_271",
+        "id": "spt_363",
         "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What do the five Olympic rings symbolize?",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who climbed El Capitan's 'The Nose' route free solo?",
         "options": [
-          "Unity of five continents",
-          "Five sports",
-          "Five Olympic values",
-          "Five founding nations"
+          "Alex Honnold",
+          "Tommy Caldwell",
+          "Lynn Hill",
+          "Adam Ondra"
         ],
-        "correct_answer": "Unity of five continents",
+        "correct_answer": "Alex Honnold",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_364",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a 'rodeo flip' in snowboarding?",
+        "options": [
+          "Off-axis backflip with 180",
+          "Simple backflip",
+          "360 spin",
+          "Frontflip"
+        ],
+        "correct_answer": "Off-axis backflip with 180",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_365",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who invented the ollie in skateboarding?",
+        "options": [
+          "Alan 'Ollie' Gelfand",
+          "Rodney Mullen",
+          "Tony Hawk",
+          "Stacy Peralta"
+        ],
+        "correct_answer": "Alan 'Ollie' Gelfand",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_366",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the Big Air competition in action sports?",
+        "options": [
+          "Single-trick showcase with large ramp",
+          "Endurance event",
+          "Speed competition",
+          "Team relay"
+        ],
+        "correct_answer": "Single-trick showcase with large ramp",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_367",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is 'jibbing' in snowboarding?",
+        "options": [
+          "Tricks on non-snow features",
+          "Speed racing",
+          "Halfpipe tricks",
+          "Aerial jumps"
+        ],
+        "correct_answer": "Tricks on non-snow features",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_368",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who was the first woman to land a 1080 in skateboarding?",
+        "options": [
+          "Gui Khury (male, but Lizzie Armanto first woman 540)",
+          "Lizzie Armanto",
+          "Leticia Bufoni",
+          "Sky Brown"
+        ],
+        "correct_answer": "Gui Khury (male, but Lizzie Armanto first woman 540)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_369",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the Mega Ramp in skateboarding?",
+        "options": [
+          "Extra-large ramp for big air",
+          "Standard halfpipe",
+          "Street course",
+          "Bowl design"
+        ],
+        "correct_answer": "Extra-large ramp for big air",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_370",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is 'pow' in snowboarding slang?",
+        "options": [
+          "Powder snow",
+          "Power slide",
+          "Powerful trick",
+          "Point of wipeout"
+        ],
+        "correct_answer": "Powder snow",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_371",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who was the first to land a 1080 in skateboarding?",
+        "options": [
+          "Tom Schaar",
+          "Tony Hawk",
+          "Mitchie Brusco",
+          "Gui Khury"
+        ],
+        "correct_answer": "Tom Schaar",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_372",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a 'superman seat grab' in motocross?",
+        "options": [
+          "Extending body backward while grabbing seat",
+          "Sitting trick",
+          "Front flip",
+          "Standing jump"
+        ],
+        "correct_answer": "Extending body backward while grabbing seat",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_373",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is the Eddie Aikau Big Wave Invitational?",
+        "options": [
+          "Elite surfing contest in huge waves",
+          "Skateboard competition",
+          "Snowboard event",
+          "BMX race"
+        ],
+        "correct_answer": "Elite surfing contest in huge waves",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_374",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is 'sketchy' in action sports terminology?",
+        "options": [
+          "Barely landing trick",
+          "Perfect landing",
+          "Failed attempt",
+          "Easy trick"
+        ],
+        "correct_answer": "Barely landing trick",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_375",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "Who is Kelly Slater?",
+        "options": [
+          "11-time world surfing champion",
+          "Skateboarder",
+          "Snowboarder",
+          "BMX rider"
+        ],
+        "correct_answer": "11-time world surfing champion",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_376",
+        "category": "Sports",
+        "subcategory": "Extreme & Action Sports",
+        "question": "What is a 'butter' in snowboarding?",
+        "options": [
+          "Ground-based spin trick",
+          "Aerial trick",
+          "Rail grind",
+          "Speed technique"
+        ],
+        "correct_answer": "Ground-based spin trick",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_377",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who holds the record for most Olympic gold medals?",
+        "options": [
+          "Michael Phelps",
+          "Usain Bolt",
+          "Carl Lewis",
+          "Mark Spitz"
+        ],
+        "correct_answer": "Michael Phelps",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
       {
-        "id": "spt_281",
+        "id": "spt_378",
         "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What is the marathon distance in kilometers?",
+        "subcategory": "Sports History & Records",
+        "question": "What year did Jackie Robinson break baseball's color barrier?",
         "options": [
-          "42.195 km",
-          "40 km",
-          "45 km",
-          "50 km"
+          "1947",
+          "1945",
+          "1950",
+          "1942"
         ],
-        "correct_answer": "42.195 km",
+        "correct_answer": "1947",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_379",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first athlete to run a mile in under 4 minutes?",
+        "options": [
+          "Roger Bannister",
+          "Paavo Nurmi",
+          "Jesse Owens",
+          "Emil Zátopek"
+        ],
+        "correct_answer": "Roger Bannister",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_380",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year were the first modern Olympics held?",
+        "options": [
+          "1896",
+          "1900",
+          "1892",
+          "1888"
+        ],
+        "correct_answer": "1896",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_381",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who hit the most home runs in MLB history?",
+        "options": [
+          "Barry Bonds",
+          "Hank Aaron",
+          "Babe Ruth",
+          "Alex Rodriguez"
+        ],
+        "correct_answer": "Barry Bonds",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_382",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What team won the first Super Bowl?",
+        "options": [
+          "Green Bay Packers",
+          "Kansas City Chiefs",
+          "Dallas Cowboys",
+          "New York Jets"
+        ],
+        "correct_answer": "Green Bay Packers",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_383",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was known as 'The Greatest' in boxing?",
+        "options": [
+          "Muhammad Ali",
+          "Mike Tyson",
+          "Joe Louis",
+          "Sugar Ray Robinson"
+        ],
+        "correct_answer": "Muhammad Ali",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_384",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did Title IX pass, advancing women's sports?",
+        "options": [
+          "1972",
+          "1965",
+          "1980",
+          "1975"
+        ],
+        "correct_answer": "1972",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_385",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first Black athlete to play in the NBA?",
+        "options": [
+          "Earl Lloyd",
+          "Chuck Cooper",
+          "Nathaniel Clifton",
+          "Bill Russell"
+        ],
+        "correct_answer": "Earl Lloyd",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_386",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the longest tennis match ever played?",
+        "options": [
+          "11 hours 5 minutes (Isner-Mahut)",
+          "8 hours",
+          "6 hours",
+          "4 hours"
+        ],
+        "correct_answer": "11 hours 5 minutes (Isner-Mahut)",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_387",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first gymnast to score a perfect 10?",
+        "options": [
+          "Nadia Comăneci",
+          "Olga Korbut",
+          "Mary Lou Retton",
+          "Simone Biles"
+        ],
+        "correct_answer": "Nadia Comăneci",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_388",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did basketball allow professionals in Olympics?",
+        "options": [
+          "1992",
+          "1988",
+          "1996",
+          "1984"
+        ],
+        "correct_answer": "1992",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_389",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who scored 100 points in a single NBA game?",
+        "options": [
+          "Wilt Chamberlain",
+          "Kobe Bryant",
+          "Michael Jordan",
+          "LeBron James"
+        ],
+        "correct_answer": "Wilt Chamberlain",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_390",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the oldest continuous sporting event?",
+        "options": [
+          "Kentucky Derby",
+          "Wimbledon",
+          "Boston Marathon",
+          "America's Cup"
+        ],
+        "correct_answer": "Kentucky Derby",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_391",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first woman to run the Boston Marathon?",
+        "options": [
+          "Kathrine Switzer",
+          "Joan Benoit",
+          "Grete Waitz",
+          "Nina Kuscsik"
+        ],
+        "correct_answer": "Kathrine Switzer",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_392",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year was the first World Cup held?",
+        "options": [
+          "1930",
+          "1928",
+          "1932",
+          "1926"
+        ],
+        "correct_answer": "1930",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_393",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who holds the NFL career touchdown record?",
+        "options": [
+          "Jerry Rice",
+          "Emmitt Smith",
+          "LaDainian Tomlinson",
+          "Tom Brady"
+        ],
+        "correct_answer": "Jerry Rice",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_394",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What team ended the longest championship drought in sports history in 2016?",
+        "options": [
+          "Chicago Cubs (108 years)",
+          "Boston Red Sox",
+          "Cleveland Indians",
+          "Philadelphia Eagles"
+        ],
+        "correct_answer": "Chicago Cubs (108 years)",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
       {
-        "id": "spt_211",
+        "id": "spt_395",
         "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a 'let' serve in tennis?",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first athlete to earn $1 million per year?",
         "options": [
-          "A serve that touches the net but lands in the service box",
-          "An out-of-bounds serve",
-          "A serve that's too fast",
-          "A serve after a fault"
+          "Nolan Ryan",
+          "Muhammad Ali",
+          "Pelé",
+          "Joe Namath"
         ],
-        "correct_answer": "A serve that touches the net but lands in the service box",
+        "correct_answer": "Nolan Ryan",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_396",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did the shot clock start in basketball?",
+        "options": [
+          "1954",
+          "1950",
+          "1960",
+          "1945"
+        ],
+        "correct_answer": "1954",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_397",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the youngest heavyweight boxing champion?",
+        "options": [
+          "Mike Tyson",
+          "Muhammad Ali",
+          "Floyd Patterson",
+          "Evander Holyfield"
+        ],
+        "correct_answer": "Mike Tyson",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_398",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is Babe Ruth's famous 'called shot' game?",
+        "options": [
+          "1932 World Series",
+          "1927 World Series",
+          "1923 World Series",
+          "1930 World Series"
+        ],
+        "correct_answer": "1932 World Series",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_399",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did the three-point line debut in the NBA?",
+        "options": [
+          "1979",
+          "1975",
+          "1982",
+          "1977"
+        ],
+        "correct_answer": "1979",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_400",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first European to win NBA MVP?",
+        "options": [
+          "Dirk Nowitzki",
+          "Tony Parker",
+          "Pau Gasol",
+          "Giannis Antetokounmpo"
+        ],
+        "correct_answer": "Dirk Nowitzki",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_401",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What sport was banned in England from 1457 to 1502?",
+        "options": [
+          "Golf",
+          "Tennis",
+          "Football",
+          "Cricket"
+        ],
+        "correct_answer": "Golf",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_402",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first baseball player to have their number retired?",
+        "options": [
+          "Lou Gehrig",
+          "Babe Ruth",
+          "Jackie Robinson",
+          "Joe DiMaggio"
+        ],
+        "correct_answer": "Lou Gehrig",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_403",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did the NFL and AFL merge?",
+        "options": [
+          "1970",
+          "1966",
+          "1975",
+          "1968"
+        ],
+        "correct_answer": "1970",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_404",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first woman to coach an NBA team?",
+        "options": [
+          "Becky Hammon",
+          "Nancy Lieberman",
+          "Cheryl Reeve",
+          "Geno Auriemma"
+        ],
+        "correct_answer": "Becky Hammon",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_405",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the 'Miracle on Ice'?",
+        "options": [
+          "1980 US Olympic hockey win over USSR",
+          "1960 US hockey gold",
+          "1998 Czech hockey gold",
+          "2002 Canadian hockey gold"
+        ],
+        "correct_answer": "1980 US Olympic hockey win over USSR",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_406",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did instant replay debut in NFL?",
+        "options": [
+          "1986",
+          "1980",
+          "1990",
+          "1975"
+        ],
+        "correct_answer": "1986",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_407",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who broke Babe Ruth's single-season home run record first?",
+        "options": [
+          "Roger Maris",
+          "Hank Aaron",
+          "Mark McGwire",
+          "Barry Bonds"
+        ],
+        "correct_answer": "Roger Maris",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_408",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the Fosbury Flop?",
+        "options": [
+          "High jump technique revolution",
+          "Gymnastics move",
+          "Pole vault technique",
+          "Diving style"
+        ],
+        "correct_answer": "High jump technique revolution",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_409",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did women's boxing become an Olympic sport?",
+        "options": [
+          "2012",
+          "2008",
+          "2016",
+          "2004"
+        ],
+        "correct_answer": "2012",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_410",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first billion-dollar athlete?",
+        "options": [
+          "Michael Jordan",
+          "Tiger Woods",
+          "LeBron James",
+          "Cristiano Ronaldo"
+        ],
+        "correct_answer": "Michael Jordan",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_411",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the Dempsey Roll?",
+        "options": [
+          "Boxing weaving technique",
+          "Football play",
+          "Baseball pitch",
+          "Basketball move"
+        ],
+        "correct_answer": "Boxing weaving technique",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_412",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who won the first Heisman Trophy?",
+        "options": [
+          "Jay Berwanger",
+          "Larry Kelley",
+          "Nile Kinnick",
+          "Tom Harmon"
+        ],
+        "correct_answer": "Jay Berwanger",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_413",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did the designated hitter rule start in MLB?",
+        "options": [
+          "1973",
+          "1970",
+          "1975",
+          "1968"
+        ],
+        "correct_answer": "1973",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_414",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first athlete on a Wheaties box?",
+        "options": [
+          "Lou Gehrig",
+          "Babe Ruth",
+          "Jack Armstrong (fictional)",
+          "Bob Richards"
+        ],
+        "correct_answer": "Lou Gehrig",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_415",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the Sullivan Award?",
+        "options": [
+          "Top amateur athlete award",
+          "Coaching achievement",
+          "Sportsmanship award",
+          "Olympic medal"
+        ],
+        "correct_answer": "Top amateur athlete award",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_416",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What team completed the first perfect season in NFL?",
+        "options": [
+          "1972 Miami Dolphins",
+          "1985 Chicago Bears",
+          "2007 New England Patriots",
+          "1978 Pittsburgh Steelers"
+        ],
+        "correct_answer": "1972 Miami Dolphins",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_417",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did basketball introduce the 24-second shot clock?",
+        "options": [
+          "1954",
+          "1950",
+          "1960",
+          "1947"
+        ],
+        "correct_answer": "1954",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_418",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first Olympic athlete to win gold in same event in four consecutive Olympics?",
+        "options": [
+          "Al Oerter (discus)",
+          "Carl Lewis",
+          "Michael Phelps",
+          "Paul Elvstrøm"
+        ],
+        "correct_answer": "Al Oerter (discus)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_419",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the Dick Fosbury technique revolution year?",
+        "options": [
+          "1968",
+          "1964",
+          "1972",
+          "1960"
+        ],
+        "correct_answer": "1968",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_420",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What boxing match was the 'Rumble in the Jungle'?",
+        "options": [
+          "Ali vs. Foreman 1974",
+          "Ali vs. Frazier",
+          "Ali vs. Liston",
+          "Tyson vs. Holyfield"
+        ],
+        "correct_answer": "Ali vs. Foreman 1974",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_421",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the Bradman Average in cricket?",
+        "options": [
+          "99.94 batting average",
+          "100 runs per match",
+          "50 wickets per season",
+          "10 centuries"
+        ],
+        "correct_answer": "99.94 batting average",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_422",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first openly gay athlete in major US sports?",
+        "options": [
+          "Jason Collins (NBA)",
+          "Michael Sam (NFL)",
+          "Robbie Rogers (MLS)",
+          "Glenn Burke (MLB)"
+        ],
+        "correct_answer": "Jason Collins (NBA)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_423",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did the forward pass become legal in football?",
+        "options": [
+          "1906",
+          "1900",
+          "1910",
+          "1920"
+        ],
+        "correct_answer": "1906",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_424",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What is the Paavo Nurmi Award?",
+        "options": [
+          "Outstanding distance runner",
+          "Sprint achievement",
+          "Field event excellence",
+          "Olympic medal count"
+        ],
+        "correct_answer": "Outstanding distance runner",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_425",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "Who was the first Black woman to win Wimbledon?",
+        "options": [
+          "Althea Gibson",
+          "Serena Williams",
+          "Venus Williams",
+          "Zina Garrison"
+        ],
+        "correct_answer": "Althea Gibson",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_426",
+        "category": "Sports",
+        "subcategory": "Sports History & Records",
+        "question": "What year did hockey adopt the center red line?",
+        "options": [
+          "1943",
+          "1940",
+          "1950",
+          "1935"
+        ],
+        "correct_answer": "1943",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_427",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What sport did Michael Jordan play professionally?",
+        "options": [
+          "Basketball",
+          "Baseball",
+          "Golf",
+          "Tennis"
+        ],
+        "correct_answer": "Basketball",
         "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_428",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What number did Michael Jordan wear for most of his career?",
+        "options": [
+          "23",
+          "32",
+          "45",
+          "12"
+        ],
+        "correct_answer": "23",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_429",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Which Williams sister has won more Grand Slam singles titles?",
+        "options": [
+          "Serena Williams",
+          "Venus Williams",
+          "Equal",
+          "Neither won any"
+        ],
+        "correct_answer": "Serena Williams",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_430",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What country is Usain Bolt from?",
+        "options": [
+          "Jamaica",
+          "Kenya",
+          "Ethiopia",
+          "United States"
+        ],
+        "correct_answer": "Jamaica",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_431",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What sport did Babe Ruth play?",
+        "options": [
+          "Baseball",
+          "Basketball",
+          "Football",
+          "Boxing"
+        ],
+        "correct_answer": "Baseball",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_432",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who is known as 'King James' in basketball?",
+        "options": [
+          "LeBron James",
+          "James Harden",
+          "Michael Jordan",
+          "Magic Johnson"
+        ],
+        "correct_answer": "LeBron James",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_433",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What country is Cristiano Ronaldo from?",
+        "options": [
+          "Portugal",
+          "Spain",
+          "Brazil",
+          "Argentina"
+        ],
+        "correct_answer": "Portugal",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_434",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who is known as 'The Great One' in hockey?",
+        "options": [
+          "Wayne Gretzky",
+          "Bobby Orr",
+          "Mario Lemieux",
+          "Gordie Howe"
+        ],
+        "correct_answer": "Wayne Gretzky",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_435",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What position did Tom Brady play?",
+        "options": [
+          "Quarterback",
+          "Running back",
+          "Wide receiver",
+          "Linebacker"
+        ],
+        "correct_answer": "Quarterback",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_436",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who is considered the greatest boxer of all time?",
+        "options": [
+          "Muhammad Ali",
+          "Mike Tyson",
+          "Floyd Mayweather",
+          "Sugar Ray Leonard"
+        ],
+        "correct_answer": "Muhammad Ali",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_437",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What sport did Tiger Woods revolutionize?",
+        "options": [
+          "Golf",
+          "Tennis",
+          "Boxing",
+          "Swimming"
+        ],
+        "correct_answer": "Golf",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_438",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who won the most Super Bowl rings as a player?",
+        "options": [
+          "Tom Brady",
+          "Joe Montana",
+          "Terry Bradshaw",
+          "Charles Haley"
+        ],
+        "correct_answer": "Tom Brady",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_439",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What country is Pelé from?",
+        "options": [
+          "Brazil",
+          "Argentina",
+          "Portugal",
+          "Spain"
+        ],
+        "correct_answer": "Brazil",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_440",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who is known as 'His Airness'?",
+        "options": [
+          "Michael Jordan",
+          "LeBron James",
+          "Kobe Bryant",
+          "Julius Erving"
+        ],
+        "correct_answer": "Michael Jordan",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_441",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What sport did Simone Biles dominate?",
+        "options": [
+          "Gymnastics",
+          "Swimming",
+          "Track and field",
+          "Figure skating"
+        ],
+        "correct_answer": "Gymnastics",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_442",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who holds the record for most career points in NBA?",
+        "options": [
+          "LeBron James",
+          "Kareem Abdul-Jabbar",
+          "Karl Malone",
+          "Kobe Bryant"
+        ],
+        "correct_answer": "LeBron James",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_443",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What position did Mia Hamm play in soccer?",
+        "options": [
+          "Forward",
+          "Midfielder",
+          "Defender",
+          "Goalkeeper"
+        ],
+        "correct_answer": "Forward",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_444",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was known as 'Dr. J' in basketball?",
+        "options": [
+          "Julius Erving",
+          "Magic Johnson",
+          "Larry Bird",
+          "Kareem Abdul-Jabbar"
+        ],
+        "correct_answer": "Julius Erving",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_445",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What illness did Lou Gehrig have?",
+        "options": [
+          "ALS (Amyotrophic Lateral Sclerosis)",
+          "Cancer",
+          "Alzheimer's",
+          "Parkinson's"
+        ],
+        "correct_answer": "ALS (Amyotrophic Lateral Sclerosis)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_446",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first female gymnast to score a perfect 10?",
+        "options": [
+          "Nadia Comăneci",
+          "Olga Korbut",
+          "Mary Lou Retton",
+          "Simone Biles"
+        ],
+        "correct_answer": "Nadia Comăneci",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_447",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What college did Michael Jordan attend?",
+        "options": [
+          "University of North Carolina",
+          "Duke University",
+          "UCLA",
+          "Georgetown"
+        ],
+        "correct_answer": "University of North Carolina",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_448",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was known as 'The Iron Horse'?",
+        "options": [
+          "Lou Gehrig",
+          "Cal Ripken Jr.",
+          "Babe Ruth",
+          "Joe DiMaggio"
+        ],
+        "correct_answer": "Lou Gehrig",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_449",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What sport did Bo Jackson play professionally (two sports)?",
+        "options": [
+          "Football and Baseball",
+          "Basketball and Baseball",
+          "Football and Basketball",
+          "Baseball and Hockey"
+        ],
+        "correct_answer": "Football and Baseball",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_450",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first woman to dunk in a WNBA game?",
+        "options": [
+          "Lisa Leslie",
+          "Candace Parker",
+          "Brittney Griner",
+          "Sheryl Swoopes"
+        ],
+        "correct_answer": "Lisa Leslie",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_451",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What year did Kobe Bryant retire?",
+        "options": [
+          "2016",
+          "2015",
+          "2017",
+          "2014"
+        ],
+        "correct_answer": "2016",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_452",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was known as 'Rocket' Richard in hockey?",
+        "options": [
+          "Maurice Richard",
+          "Henri Richard",
+          "Bobby Hull",
+          "Gordie Howe"
+        ],
+        "correct_answer": "Maurice Richard",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_453",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What position did Derek Jeter play?",
+        "options": [
+          "Shortstop",
+          "Second base",
+          "Third base",
+          "Outfield"
+        ],
+        "correct_answer": "Shortstop",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_454",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first Black Formula 1 driver?",
+        "options": [
+          "Lewis Hamilton",
+          "Willy T. Ribbs",
+          "Marc Gené",
+          "Karun Chandhok"
+        ],
+        "correct_answer": "Lewis Hamilton",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_455",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What tragic event ended Ayrton Senna's life?",
+        "options": [
+          "Racing crash at San Marino GP",
+          "Plane crash",
+          "Heart attack",
+          "Training accident"
+        ],
+        "correct_answer": "Racing crash at San Marino GP",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_456",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was known as 'The Golden Bear' in golf?",
+        "options": [
+          "Jack Nicklaus",
+          "Arnold Palmer",
+          "Gary Player",
+          "Tiger Woods"
+        ],
+        "correct_answer": "Jack Nicklaus",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_457",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What disease did Muhammad Ali battle later in life?",
+        "options": [
+          "Parkinson's disease",
+          "Alzheimer's",
+          "ALS",
+          "Dementia"
+        ],
+        "correct_answer": "Parkinson's disease",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_458",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first woman to play in a men's professional sports league?",
+        "options": [
+          "Billie Jean King (exhibition)",
+          "Jackie Mitchell (baseball)",
+          "Manon Rhéaume (hockey)",
+          "Danica Patrick (racing)"
+        ],
+        "correct_answer": "Billie Jean King (exhibition)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_459",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What number did Kobe Bryant wear after switching from 8?",
+        "options": [
+          "24",
+          "23",
+          "32",
+          "33"
+        ],
+        "correct_answer": "24",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_460",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was known as 'The Big Unit'?",
+        "options": [
+          "Randy Johnson",
+          "Shaquille O'Neal",
+          "Wilt Chamberlain",
+          "David Robinson"
+        ],
+        "correct_answer": "Randy Johnson",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_461",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first athlete to appear on a Wheaties box?",
+        "options": [
+          "Lou Gehrig",
+          "Babe Ruth",
+          "Bob Richards",
+          "Jack Armstrong"
+        ],
+        "correct_answer": "Lou Gehrig",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_462",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What was Jim Thorpe's Native American name?",
+        "options": [
+          "Wa-Tho-Huk",
+          "Sitting Bull",
+          "Crazy Horse",
+          "Red Cloud"
+        ],
+        "correct_answer": "Wa-Tho-Huk",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_463",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first player to break the MLB color barrier?",
+        "options": [
+          "Jackie Robinson",
+          "Larry Doby",
+          "Satchel Paige",
+          "Willie Mays"
+        ],
+        "correct_answer": "Jackie Robinson",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_464",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What year did Jesse Owens win four gold medals at Berlin Olympics?",
+        "options": [
+          "1936",
+          "1932",
+          "1940",
+          "1928"
+        ],
+        "correct_answer": "1936",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_465",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was known as 'The Manassa Mauler'?",
+        "options": [
+          "Jack Dempsey",
+          "Joe Louis",
+          "Rocky Marciano",
+          "Gene Tunney"
+        ],
+        "correct_answer": "Jack Dempsey",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_466",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What was Secretariat's margin of victory in 1973 Belmont Stakes?",
+        "options": [
+          "31 lengths",
+          "20 lengths",
+          "15 lengths",
+          "10 lengths"
+        ],
+        "correct_answer": "31 lengths",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_467",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first Black player in NHL?",
+        "options": [
+          "Willie O'Ree",
+          "Grant Fuhr",
+          "Jarome Iginla",
+          "P.K. Subban"
+        ],
+        "correct_answer": "Willie O'Ree",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_468",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What was Knute Rockne's famous 'Win one for the Gipper' speech about?",
+        "options": [
+          "George Gipp",
+          "Elmer Layden",
+          "Harry Stuhldreher",
+          "Jim Crowley"
+        ],
+        "correct_answer": "George Gipp",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_469",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first woman to compete in Indianapolis 500?",
+        "options": [
+          "Janet Guthrie",
+          "Danica Patrick",
+          "Sarah Fisher",
+          "Lyn St. James"
+        ],
+        "correct_answer": "Janet Guthrie",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_470",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What disease did Roberto Clemente die delivering aid for?",
+        "options": [
+          "Earthquake relief (plane crash)",
+          "Hurricane relief",
+          "Famine relief",
+          "Flood relief"
+        ],
+        "correct_answer": "Earthquake relief (plane crash)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_471",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was known as 'Shoeless Joe'?",
+        "options": [
+          "Joe Jackson",
+          "Joe DiMaggio",
+          "Joe Morgan",
+          "Joe Torre"
+        ],
+        "correct_answer": "Joe Jackson",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_472",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What year did Arthur Ashe win Wimbledon?",
+        "options": [
+          "1975",
+          "1973",
+          "1970",
+          "1977"
+        ],
+        "correct_answer": "1975",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_473",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was the first athlete to win Olympic gold medals in both Summer and Winter Games?",
+        "options": [
+          "Eddie Eagan",
+          "Clara Hughes",
+          "Christa Luding-Rothenburger",
+          "Lauryn Williams"
+        ],
+        "correct_answer": "Eddie Eagan",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_474",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What was Wilma Rudolph's childhood illness she overcame?",
+        "options": [
+          "Polio",
+          "Scarlet fever",
+          "Tuberculosis",
+          "Rheumatic fever"
+        ],
+        "correct_answer": "Polio",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_475",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "Who was known as 'The Galloping Ghost'?",
+        "options": [
+          "Red Grange",
+          "Jim Thorpe",
+          "Bronko Nagurski",
+          "Sammy Baugh"
+        ],
+        "correct_answer": "Red Grange",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "spt_476",
+        "category": "Sports",
+        "subcategory": "Athletes & Biography",
+        "question": "What year did Roger Bannister break the 4-minute mile?",
+        "options": [
+          "1954",
+          "1952",
+          "1956",
+          "1950"
+        ],
+        "correct_answer": "1954",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       }

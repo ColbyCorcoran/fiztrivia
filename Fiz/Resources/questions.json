@@ -2221,23 +2221,7 @@
     ],
     "Sports": [
       {
-        "id": "spt_002",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NBA team has won the most championships?",
-        "options": [
-          "Lakers",
-          "Celtics",
-          "Bulls",
-          "Warriors"
-        ],
-        "correct_answer": "Celtics",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_003",
+        "id": "spt_001",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How long is a regulation soccer match?",
@@ -2253,23 +2237,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_004",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which country has won the most FIFA World Cups?",
-        "options": [
-          "Germany",
-          "Argentina",
-          "Brazil",
-          "Italy"
-        ],
-        "correct_answer": "Brazil",
-        "difficulty": "medium",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_005",
+        "id": "spt_002",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many points is a touchdown worth?",
@@ -2285,39 +2253,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_007",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the maximum number of sets in a men's Grand Slam tennis match?",
-        "options": [
-          "3",
-          "4",
-          "5",
-          "6"
-        ],
-        "correct_answer": "5",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_009",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "How often are the Summer Olympics held?",
-        "options": [
-          "Every 2 years",
-          "Every 3 years",
-          "Every 4 years",
-          "Every 5 years"
-        ],
-        "correct_answer": "Every 4 years",
-        "difficulty": "easy",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_013",
+        "id": "spt_003",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many players are on the field for each American football team during play?",
@@ -2333,7 +2269,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_014",
+        "id": "spt_004",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many bases are on a baseball field?",
@@ -2349,7 +2285,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_015",
+        "id": "spt_005",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What body part can't touch the ball in soccer (except for the goalie)?",
@@ -2365,23 +2301,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_018",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many minutes are in each quarter of an NBA game?",
-        "options": [
-          "10",
-          "12",
-          "15",
-          "20"
-        ],
-        "correct_answer": "12",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_020",
+        "id": "spt_006",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many innings are in a regulation baseball game?",
@@ -2397,23 +2317,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_021",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "How many rings are on the Olympic flag?",
-        "options": [
-          "4",
-          "5",
-          "6",
-          "7"
-        ],
-        "correct_answer": "5",
-        "difficulty": "easy",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_022",
+        "id": "spt_007",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many players are on a soccer team on the field at one time?",
@@ -2429,135 +2333,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_023",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What surface is Wimbledon played on?",
-        "options": [
-          "Clay",
-          "Hard court",
-          "Grass",
-          "Carpet"
-        ],
-        "correct_answer": "Grass",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_024",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the maximum number of clubs a golfer can carry?",
-        "options": [
-          "12",
-          "14",
-          "16",
-          "18"
-        ],
-        "correct_answer": "14",
-        "difficulty": "medium",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_025",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many players can be on the ice for each team at one time?",
-        "options": [
-          "5",
-          "6",
-          "7",
-          "8"
-        ],
-        "correct_answer": "6",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_027",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a soccer field also called?",
-        "options": [
-          "Court",
-          "Pitch",
-          "Field",
-          "Ground"
-        ],
-        "correct_answer": "Pitch",
-        "difficulty": "medium",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_028",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many yards long is a football field?",
-        "options": [
-          "100",
-          "110",
-          "120",
-          "130"
-        ],
-        "correct_answer": "120",
-        "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_030",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a score of zero called in tennis?",
-        "options": [
-          "Love",
-          "Zero",
-          "Nil",
-          "Nothing"
-        ],
-        "correct_answer": "Love",
-        "difficulty": "easy",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_031",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is two strokes under par called?",
-        "options": [
-          "Birdie",
-          "Eagle",
-          "Albatross",
-          "Hole-in-one"
-        ],
-        "correct_answer": "Eagle",
-        "difficulty": "medium",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_032",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "In which city were the first modern Olympics held?",
-        "options": [
-          "Paris",
-          "London",
-          "Athens",
-          "Rome"
-        ],
-        "correct_answer": "Athens",
-        "difficulty": "medium",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_033",
+        "id": "spt_008",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "Who is considered the greatest basketball player of all time by many?",
@@ -2573,55 +2349,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_034",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the maximum number of players on a soccer team roster?",
-        "options": [
-          "20",
-          "23",
-          "25",
-          "30"
-        ],
-        "correct_answer": "23",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_039",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the term for a tennis serve that isn't returned?",
-        "options": [
-          "Ace",
-          "Fault",
-          "Let",
-          "Winner"
-        ],
-        "correct_answer": "Ace",
-        "difficulty": "easy",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_040",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the term for completing a hole in one stroke?",
-        "options": [
-          "Ace",
-          "Eagle",
-          "Birdie",
-          "Hole-in-one"
-        ],
-        "correct_answer": "Hole-in-one",
-        "difficulty": "easy",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_041",
+        "id": "spt_009",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is it called when a player scores three goals in one match?",
@@ -2637,55 +2365,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_044",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the offside rule in soccer?",
-        "options": [
-          "Player ahead of ball",
-          "Player ahead of last defender",
-          "Player in penalty box",
-          "Player touching sideline"
-        ],
-        "correct_answer": "Player ahead of last defender",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_047",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many Grand Slam tournaments are there per year?",
-        "options": [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
-        "correct_answer": "4",
-        "difficulty": "easy",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_048",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is four strokes under par called?",
-        "options": [
-          "Eagle",
-          "Albatross",
-          "Condor",
-          "Birdie"
-        ],
-        "correct_answer": "Condor",
-        "difficulty": "hard",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_049",
+        "id": "spt_010",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What material is a hockey puck made of?",
@@ -2701,7 +2381,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_050",
+        "id": "spt_011",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What does MVP stand for?",
@@ -2717,7 +2397,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_051",
+        "id": "spt_012",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How tall is a basketball hoop?",
@@ -2733,103 +2413,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_054",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a grand slam in baseball?",
-        "options": [
-          "4 home runs in a game",
-          "Home run with bases loaded",
-          "3 strikes in a row",
-          "Stealing all bases"
-        ],
-        "correct_answer": "Home run with bases loaded",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_055",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What are the four Grand Slam tournaments?",
-        "options": [
-          "Wimbledon, US Open, French Open, Australian Open",
-          "Wimbledon, US Open, French Open, Italian Open",
-          "Wimbledon, US Open, German Open, Australian Open",
-          "Wimbledon, British Open, French Open, Australian Open"
-        ],
-        "correct_answer": "Wimbledon, US Open, French Open, Australian Open",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_060",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What team drafted Kobe Bryant?",
-        "options": [
-          "Los Angeles Lakers",
-          "Charlotte Hornets",
-          "Philadelphia 76ers",
-          "Boston Celtics"
-        ],
-        "correct_answer": "Charlotte Hornets",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_061",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many players can be on the bench during a soccer match?",
-        "options": [
-          "5",
-          "7",
-          "9",
-          "12"
-        ],
-        "correct_answer": "7",
-        "difficulty": "medium",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_062",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the standard size of a soccer goal?",
-        "options": [
-          "24x8 feet",
-          "24x10 feet",
-          "20x8 feet",
-          "26x8 feet"
-        ],
-        "correct_answer": "24x8 feet",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_063",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the record for most World Cup goals?",
-        "options": [
-          "Pelé",
-          "Miroslav Klose",
-          "Ronaldo",
-          "Gerd Müller"
-        ],
-        "correct_answer": "Miroslav Klose",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_066",
+        "id": "spt_013",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many downs does a team get to advance 10 yards?",
@@ -2845,7 +2429,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_067",
+        "id": "spt_014",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How long is an NFL game?",
@@ -2861,39 +2445,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_068",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many teams are in the NFL?",
-        "options": [
-          "30",
-          "32",
-          "34",
-          "36"
-        ],
-        "correct_answer": "32",
-        "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_069",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the distance between goal posts in the NFL?",
-        "options": [
-          "18 feet 6 inches",
-          "20 feet",
-          "23 feet 4 inches",
-          "24 feet"
-        ],
-        "correct_answer": "18 feet 6 inches",
-        "difficulty": "hard",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_070",
+        "id": "spt_015",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many points is a field goal worth?",
@@ -2909,71 +2461,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_071",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many teams are in Major League Baseball?",
-        "options": [
-          "28",
-          "30",
-          "32",
-          "34"
-        ],
-        "correct_answer": "30",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_072",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the distance from home plate to the pitcher's mound?",
-        "options": [
-          "60 feet",
-          "60 feet 6 inches",
-          "65 feet",
-          "70 feet"
-        ],
-        "correct_answer": "60 feet 6 inches",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_073",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many players are on a baseball team roster?",
-        "options": [
-          "25",
-          "26",
-          "28",
-          "30"
-        ],
-        "correct_answer": "26",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_074",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the home run record for a single season?",
-        "options": [
-          "70",
-          "73",
-          "75",
-          "77"
-        ],
-        "correct_answer": "73",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_075",
+        "id": "spt_016",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many balls result in a walk?",
@@ -2989,135 +2477,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_078",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the height of the net in tennis?",
-        "options": [
-          "3 feet",
-          "3 feet 6 inches",
-          "4 feet",
-          "4 feet 6 inches"
-        ],
-        "correct_answer": "3 feet",
-        "difficulty": "hard",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_083",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the diameter of a golf hole?",
-        "options": [
-          "4.25 inches",
-          "4.5 inches",
-          "4.75 inches",
-          "5 inches"
-        ],
-        "correct_answer": "4.25 inches",
-        "difficulty": "hard",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_085",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the term for the area of short grass around the green?",
-        "options": [
-          "Fairway",
-          "Rough",
-          "Fringe",
-          "Collar"
-        ],
-        "correct_answer": "Fringe",
-        "difficulty": "medium",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_086",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "How many sports are in the Summer Olympics?",
-        "options": [
-          "28",
-          "32",
-          "35",
-          "40"
-        ],
-        "correct_answer": "32",
-        "difficulty": "hard",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_087",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What is the Olympic motto?",
-        "options": [
-          "Faster, Higher, Stronger",
-          "Citius, Altius, Fortius",
-          "Both A and B",
-          "Unity, Peace, Excellence"
-        ],
-        "correct_answer": "Both A and B",
-        "difficulty": "medium",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_088",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "How many athletes typically compete in the Summer Olympics?",
-        "options": [
-          "8,000",
-          "10,000",
-          "12,000",
-          "15,000"
-        ],
-        "correct_answer": "10,000",
-        "difficulty": "hard",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_089",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "When were the first Winter Olympics held?",
-        "options": [
-          "1920",
-          "1924",
-          "1928",
-          "1932"
-        ],
-        "correct_answer": "1924",
-        "difficulty": "hard",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_090",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What metal are Olympic gold medals primarily made of?",
-        "options": [
-          "Gold",
-          "Silver",
-          "Bronze",
-          "Platinum"
-        ],
-        "correct_answer": "Silver",
-        "difficulty": "hard",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_091",
+        "id": "spt_017",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How long is each period in hockey?",
@@ -3133,263 +2493,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_092",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many teams are in the NHL?",
-        "options": [
-          "28",
-          "30",
-          "32",
-          "34"
-        ],
-        "correct_answer": "32",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_093",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the standard size of a hockey rink?",
-        "options": [
-          "200x85 feet",
-          "200x100 feet",
-          "220x85 feet",
-          "220x100 feet"
-        ],
-        "correct_answer": "200x85 feet",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_095",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many officials are on the ice during an NHL game?",
-        "options": [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
-        "correct_answer": "4",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_096",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the minimum number of games to win a set?",
-        "options": [
-          "5",
-          "6",
-          "7",
-          "8"
-        ],
-        "correct_answer": "6",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_097",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a bagel in tennis?",
-        "options": [
-          "Winning 6-0",
-          "Losing 0-6",
-          "A type of serve",
-          "A tennis snack"
-        ],
-        "correct_answer": "Winning 6-0",
-        "difficulty": "hard",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_099",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the width of a tennis court?",
-        "options": [
-          "27 feet",
-          "30 feet",
-          "33 feet",
-          "36 feet"
-        ],
-        "correct_answer": "36 feet",
-        "difficulty": "hard",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_100",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What surface is the US Open played on?",
-        "options": [
-          "Clay",
-          "Grass",
-          "Hard court",
-          "Carpet"
-        ],
-        "correct_answer": "Hard court",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_101",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the term for two strokes over par?",
-        "options": [
-          "Bogey",
-          "Double bogey",
-          "Triple bogey",
-          "Albatross"
-        ],
-        "correct_answer": "Double bogey",
-        "difficulty": "easy",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_104",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a mulligan in golf?",
-        "options": [
-          "A type of club",
-          "A do-over shot",
-          "A golf course",
-          "A scoring term"
-        ],
-        "correct_answer": "A do-over shot",
-        "difficulty": "medium",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_105",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the green in golf?",
-        "options": [
-          "The tee area",
-          "The putting surface",
-          "The fairway",
-          "The rough"
-        ],
-        "correct_answer": "The putting surface",
-        "difficulty": "easy",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_106",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What are the colors of the Olympic rings?",
-        "options": [
-          "Blue, yellow, black, green, red",
-          "Blue, yellow, black, green, orange",
-          "Blue, yellow, purple, green, red",
-          "Blue, white, black, green, red"
-        ],
-        "correct_answer": "Blue, yellow, black, green, red",
-        "difficulty": "medium",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_108",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What is the Olympic torch relay?",
-        "options": [
-          "A race",
-          "A ceremony",
-          "A tradition",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_109",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What do Olympic gold medals contain mostly?",
-        "options": [
-          "Gold",
-          "Silver",
-          "Bronze",
-          "Platinum"
-        ],
-        "correct_answer": "Silver",
-        "difficulty": "hard",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_110",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What is the Olympic Village?",
-        "options": [
-          "Where athletes stay",
-          "Where events are held",
-          "Where ceremonies occur",
-          "Where officials work"
-        ],
-        "correct_answer": "Where athletes stay",
-        "difficulty": "easy",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_115",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the area in front of the goal called?",
-        "options": [
-          "Goal area",
-          "Crease",
-          "Net zone",
-          "Goal box"
-        ],
-        "correct_answer": "Crease",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_117",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many teams make the NBA playoffs?",
-        "options": [
-          "12",
-          "14",
-          "16",
-          "18"
-        ],
-        "correct_answer": "16",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_118",
+        "id": "spt_018",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is the arc behind which three-point shots are taken called?",
@@ -3405,23 +2509,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_119",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many seconds does a player have to shoot a free throw?",
-        "options": [
-          "8",
-          "10",
-          "12",
-          "15"
-        ],
-        "correct_answer": "10",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_120",
+        "id": "spt_019",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is it called when a player dribbles, stops, then dribbles again?",
@@ -3437,7 +2525,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_122",
+        "id": "spt_020",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many World Cups has the United States men's team won?",
@@ -3453,39 +2541,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_124",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the penalty for a handball in soccer?",
-        "options": [
-          "Free kick",
-          "Penalty kick",
-          "Corner kick",
-          "Depends on location"
-        ],
-        "correct_answer": "Depends on location",
-        "difficulty": "medium",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_125",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How long is stoppage time typically?",
-        "options": [
-          "1-3 minutes",
-          "3-7 minutes",
-          "5-10 minutes",
-          "It varies"
-        ],
-        "correct_answer": "It varies",
-        "difficulty": "medium",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_126",
+        "id": "spt_021",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is the line of scrimmage?",
@@ -3501,7 +2557,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_129",
+        "id": "spt_022",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is it called when the defense catches a pass?",
@@ -3517,7 +2573,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_130",
+        "id": "spt_023",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many quarters are in a football game?",
@@ -3533,7 +2589,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_131",
+        "id": "spt_024",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is it called when a batter swings and misses?",
@@ -3549,7 +2605,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_132",
+        "id": "spt_025",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What happens when a batter gets four balls?",
@@ -3565,183 +2621,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_136",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What do you need to win a tennis match?",
-        "options": [
-          "Most points",
-          "Most games",
-          "Most sets",
-          "Most serves"
-        ],
-        "correct_answer": "Most sets",
-        "difficulty": "easy",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_137",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a tennis court made of?",
-        "options": [
-          "Grass, clay, or hard court",
-          "Only grass",
-          "Only clay",
-          "Only concrete"
-        ],
-        "correct_answer": "Grass, clay, or hard court",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_139",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is it called when both players have won 6 games each?",
-        "options": [
-          "Deuce",
-          "Tiebreaker",
-          "Match point",
-          "Set point"
-        ],
-        "correct_answer": "Tiebreaker",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_140",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many total players play in singles tennis?",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
-        "correct_answer": "2",
-        "difficulty": "easy",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_141",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the small peg that holds the golf ball called?",
-        "options": [
-          "Tee",
-          "Peg",
-          "Stand",
-          "Holder"
-        ],
-        "correct_answer": "Tee",
-        "difficulty": "easy",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_142",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the goal in golf?",
-        "options": [
-          "Hit it farthest",
-          "Lowest score",
-          "Highest score",
-          "Most shots"
-        ],
-        "correct_answer": "Lowest score",
-        "difficulty": "easy",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_143",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the grass area you're supposed to hit from called?",
-        "options": [
-          "Rough",
-          "Fairway",
-          "Green",
-          "Tee box"
-        ],
-        "correct_answer": "Fairway",
-        "difficulty": "easy",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_144",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is par?",
-        "options": [
-          "A bad score",
-          "The expected score",
-          "The best score",
-          "The worst score"
-        ],
-        "correct_answer": "The expected score",
-        "difficulty": "easy",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_146",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What do athletes win at the Olympics?",
-        "options": [
-          "Trophies",
-          "Medals",
-          "Money",
-          "Certificates"
-        ],
-        "correct_answer": "Medals",
-        "difficulty": "easy",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_147",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What are the three types of Olympic medals?",
-        "options": [
-          "Gold, silver, bronze",
-          "First, second, third",
-          "Red, white, blue",
-          "Big, medium, small"
-        ],
-        "correct_answer": "Gold, silver, bronze",
-        "difficulty": "easy",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_149",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What season has skiing and ice skating?",
-        "options": [
-          "Summer Olympics",
-          "Winter Olympics",
-          "Spring Olympics",
-          "Fall Olympics"
-        ],
-        "correct_answer": "Winter Olympics",
-        "difficulty": "easy",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_151",
+        "id": "spt_026",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What do hockey players wear on their feet?",
@@ -3757,7 +2637,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_152",
+        "id": "spt_027",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What do hockey players try to hit into the goal?",
@@ -3773,7 +2653,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_155",
+        "id": "spt_028",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What happens when a player breaks the rules?",
@@ -3789,39 +2669,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_159",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the NBA record for most consecutive free throws made?",
-        "options": [
-          "97",
-          "85",
-          "103",
-          "78"
-        ],
-        "correct_answer": "97",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_160",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player holds the record for most assists in NBA history?",
-        "options": [
-          "John Stockton",
-          "Magic Johnson",
-          "Steve Nash",
-          "Chris Paul"
-        ],
-        "correct_answer": "John Stockton",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_162",
+        "id": "spt_029",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "Who invented basketball?",
@@ -3837,39 +2685,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_167",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the regulation length of an NBA basketball court?",
-        "options": [
-          "94 feet",
-          "100 feet",
-          "90 feet",
-          "96 feet"
-        ],
-        "correct_answer": "94 feet",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_169",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the NBA record for most steals in a single game?",
-        "options": [
-          "11",
-          "10",
-          "12",
-          "9"
-        ],
-        "correct_answer": "11",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_171",
+        "id": "spt_030",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is the maximum number of players allowed on the field for one team at a time?",
@@ -3885,23 +2701,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_172",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which NFL team has won the most Super Bowls?",
-        "options": [
-          "New England Patriots",
-          "Pittsburgh Steelers",
-          "Both A and B",
-          "San Francisco 49ers"
-        ],
-        "correct_answer": "Both A and B",
-        "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_175",
+        "id": "spt_031",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What position does the player who snaps the ball play?",
@@ -3917,39 +2717,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_178",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the record for most career touchdown passes in the NFL?",
-        "options": [
-          "Tom Brady",
-          "Drew Brees",
-          "Peyton Manning",
-          "Brett Favre"
-        ],
-        "correct_answer": "Tom Brady",
-        "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_179",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is it called when a player is tackled in their own end zone?",
-        "options": [
-          "Safety",
-          "Touchback",
-          "Fumble",
-          "Sack"
-        ],
-        "correct_answer": "Safety",
-        "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_180",
+        "id": "spt_032",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many strikes result in a strikeout?",
@@ -3965,7 +2733,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_184",
+        "id": "spt_033",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many players are on the field for each baseball team during play?",
@@ -3981,7 +2749,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_185",
+        "id": "spt_034",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is it called when a batter hits the ball out of the playing field?",
@@ -3997,103 +2765,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_187",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the record for most career home runs in MLB?",
-        "options": [
-          "Barry Bonds",
-          "Hank Aaron",
-          "Babe Ruth",
-          "Alex Rodriguez"
-        ],
-        "correct_answer": "Barry Bonds",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_189",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a perfect game in baseball?",
-        "options": [
-          "No hits, runs, or errors allowed",
-          "Pitching all 9 innings",
-          "Hitting a home run",
-          "Striking out every batter"
-        ],
-        "correct_answer": "No hits, runs, or errors allowed",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_193",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many players from each team are on the ice during regular play?",
-        "options": [
-          "6",
-          "5",
-          "7",
-          "4"
-        ],
-        "correct_answer": "6",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_195",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player has won the most FIFA Ballon d'Or awards?",
-        "options": [
-          "Lionel Messi",
-          "Cristiano Ronaldo",
-          "Pelé",
-          "Diego Maradona"
-        ],
-        "correct_answer": "Lionel Messi",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_197",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which golf tournament is held at Augusta National?",
-        "options": [
-          "The Masters",
-          "US Open",
-          "The Open Championship",
-          "PGA Championship"
-        ],
-        "correct_answer": "The Masters",
-        "difficulty": "hard",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_202",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How many points is a safety worth?",
-        "options": [
-          "2",
-          "3",
-          "6",
-          "1"
-        ],
-        "correct_answer": "2",
-        "difficulty": "hard",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_203",
+        "id": "spt_035",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is the maximum number of players on a basketball court for one team?",
@@ -4109,39 +2781,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_205",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What surface is used at the US Open tennis tournament?",
-        "options": [
-          "Hard court",
-          "Clay",
-          "Grass",
-          "Carpet"
-        ],
-        "correct_answer": "Hard court",
-        "difficulty": "medium",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_208",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the name of the trophy awarded to the NHL champions?",
-        "options": [
-          "Stanley Cup",
-          "Conn Smythe Trophy",
-          "Hart Memorial Trophy",
-          "Presidents' Trophy"
-        ],
-        "correct_answer": "Stanley Cup",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_212",
+        "id": "spt_036",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is a yellow card used for in soccer?",
@@ -4157,23 +2797,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_214",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which English club has won the most Premier League titles?",
-        "options": [
-          "Manchester United",
-          "Liverpool",
-          "Arsenal",
-          "Chelsea"
-        ],
-        "correct_answer": "Manchester United",
-        "difficulty": "hard",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_216",
+        "id": "spt_037",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is the name of the position that defends the goal?",
@@ -4189,135 +2813,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_220",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What country is considered the birthplace of ice hockey?",
-        "options": [
-          "Canada",
-          "United States",
-          "Russia",
-          "Sweden"
-        ],
-        "correct_answer": "Canada",
-        "difficulty": "medium",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_222",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the NHL record for most career goals?",
-        "options": [
-          "Wayne Gretzky",
-          "Gordie Howe",
-          "Mario Lemieux",
-          "Alex Ovechkin"
-        ],
-        "correct_answer": "Alex Ovechkin",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_226",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What year were the first modern Olympics?",
-        "options": [
-          "1896",
-          "1900",
-          "1880",
-          "1912"
-        ],
-        "correct_answer": "1896",
-        "difficulty": "hard",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_232",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is par for a standard 18-hole golf course?",
-        "options": [
-          "72",
-          "70",
-          "68",
-          "74"
-        ],
-        "correct_answer": "72",
-        "difficulty": "medium",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_236",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Who has won the most major golf championships?",
-        "options": [
-          "Jack Nicklaus",
-          "Tiger Woods",
-          "Arnold Palmer",
-          "Gary Player"
-        ],
-        "correct_answer": "Jack Nicklaus",
-        "difficulty": "hard",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_242",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many sets must a player win to win a men's Grand Slam match?",
-        "options": [
-          "3 out of 5",
-          "2 out of 3",
-          "4 out of 7",
-          "2 out of 5"
-        ],
-        "correct_answer": "3 out of 5",
-        "difficulty": "hard",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_248",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which team has won the most World Series?",
-        "options": [
-          "New York Yankees",
-          "Boston Red Sox",
-          "St. Louis Cardinals",
-          "Los Angeles Dodgers"
-        ],
-        "correct_answer": "New York Yankees",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_249",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a walk in baseball?",
-        "options": [
-          "Four balls pitched",
-          "Three strikes",
-          "Home run",
-          "Sacrifice fly"
-        ],
-        "correct_answer": "Four balls pitched",
-        "difficulty": "medium",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_251",
+        "id": "spt_038",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is the championship game of the NFL called?",
@@ -4333,39 +2829,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_254",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is it called when the quarterback is tackled behind the line of scrimmage?",
-        "options": [
-          "Sack",
-          "Tackle",
-          "Blitz",
-          "Loss"
-        ],
-        "correct_answer": "Sack",
-        "difficulty": "medium",
-        "topic": "American Football",
-        "subtopic": null
-      },
-      {
-        "id": "spt_257",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the painted area under the basket called?",
-        "options": [
-          "The key",
-          "The paint",
-          "The lane",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_258",
+        "id": "spt_039",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many quarters are in an NBA game?",
@@ -4381,55 +2845,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_262",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the penalty for a handball in the penalty area?",
-        "options": [
-          "Penalty kick",
-          "Free kick",
-          "Corner kick",
-          "Yellow card"
-        ],
-        "correct_answer": "Penalty kick",
-        "difficulty": "medium",
-        "topic": "Soccer",
-        "subtopic": null
-      },
-      {
-        "id": "spt_263",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the area between the baseline and service line called?",
-        "options": [
-          "No man's land",
-          "The alley",
-          "The court",
-          "The box"
-        ],
-        "correct_answer": "No man's land",
-        "difficulty": "hard",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_269",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "How long is the shot clock in the NBA?",
-        "options": [
-          "24 seconds",
-          "30 seconds",
-          "20 seconds",
-          "35 seconds"
-        ],
-        "correct_answer": "24 seconds",
-        "difficulty": "hard",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_271",
+        "id": "spt_040",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What protective equipment do goalies wear on their legs?",
@@ -4445,7 +2861,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_277",
+        "id": "spt_041",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "How many players from each team are on the field during a play?",
@@ -4461,39 +2877,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_278",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Who holds the record for most home runs in a single MLB season?",
-        "options": [
-          "Barry Bonds",
-          "Mark McGwire",
-          "Sammy Sosa",
-          "Babe Ruth"
-        ],
-        "correct_answer": "Barry Bonds",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_280",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "Which tournament is played on grass courts?",
-        "options": [
-          "Wimbledon",
-          "French Open",
-          "Australian Open",
-          "US Open"
-        ],
-        "correct_answer": "Wimbledon",
-        "difficulty": "easy",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_281",
+        "id": "spt_042",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What color card results in a player being ejected from the match?",
@@ -4509,7 +2893,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_282",
+        "id": "spt_043",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is the championship trophy in the NHL called?",
@@ -4525,167 +2909,7 @@
         "subtopic": null
       },
       {
-        "id": "spt_286",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which team has won the most Stanley Cup championships?",
-        "options": [
-          "Montreal Canadiens",
-          "Toronto Maple Leafs",
-          "Detroit Red Wings",
-          "Boston Bruins"
-        ],
-        "correct_answer": "Montreal Canadiens",
-        "difficulty": "hard",
-        "topic": "Hockey",
-        "subtopic": null
-      },
-      {
-        "id": "spt_288",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is par on a typical golf course for 18 holes?",
-        "options": [
-          "72",
-          "70",
-          "74",
-          "68"
-        ],
-        "correct_answer": "72",
-        "difficulty": "medium",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_289",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is one stroke under par called?",
-        "options": [
-          "Birdie",
-          "Eagle",
-          "Bogey",
-          "Par"
-        ],
-        "correct_answer": "Birdie",
-        "difficulty": "easy",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_290",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "How many clubs is a golfer allowed to carry during a round?",
-        "options": [
-          "14",
-          "12",
-          "16",
-          "18"
-        ],
-        "correct_answer": "14",
-        "difficulty": "hard",
-        "topic": "Golf",
-        "subtopic": null
-      },
-      {
-        "id": "spt_295",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "Which athlete has won the most Olympic gold medals?",
-        "options": [
-          "Michael Phelps",
-          "Usain Bolt",
-          "Simone Biles",
-          "Carl Lewis"
-        ],
-        "correct_answer": "Michael Phelps",
-        "difficulty": "easy",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_298",
-        "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "Which country has hosted the Summer Olympics the most times?",
-        "options": [
-          "United States",
-          "France",
-          "United Kingdom",
-          "Greece"
-        ],
-        "correct_answer": "United States",
-        "difficulty": "medium",
-        "topic": "Olympics",
-        "subtopic": null
-      },
-      {
-        "id": "spt_302",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "Which player is known as 'His Airness'?",
-        "options": [
-          "Michael Jordan",
-          "LeBron James",
-          "Kobe Bryant",
-          "Magic Johnson"
-        ],
-        "correct_answer": "Michael Jordan",
-        "difficulty": "medium",
-        "topic": "Basketball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_308",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is the pitching rubber distance from home plate in MLB?",
-        "options": [
-          "60 feet 6 inches",
-          "55 feet",
-          "65 feet",
-          "50 feet"
-        ],
-        "correct_answer": "60 feet 6 inches",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_309",
-        "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a 'ground rule double'?",
-        "options": [
-          "Ball bounces over the fence",
-          "Hit to the warning track",
-          "Double play",
-          "Base hit that rolls to the wall"
-        ],
-        "correct_answer": "Ball bounces over the fence",
-        "difficulty": "hard",
-        "topic": "Baseball",
-        "subtopic": null
-      },
-      {
-        "id": "spt_311",
-        "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the term for winning all four Grand Slams in one year?",
-        "options": [
-          "Calendar Grand Slam",
-          "Golden Slam",
-          "Career Grand Slam",
-          "Super Slam"
-        ],
-        "correct_answer": "Calendar Grand Slam",
-        "difficulty": "hard",
-        "topic": "Tennis",
-        "subtopic": null
-      },
-      {
-        "id": "spt_315",
+        "id": "spt_044",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is an 'own goal'?",
@@ -4701,7 +2925,871 @@
         "subtopic": null
       },
       {
-        "id": "spt_318",
+        "id": "spt_045",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which NBA team has won the most championships?",
+        "options": [
+          "Lakers",
+          "Celtics",
+          "Bulls",
+          "Warriors"
+        ],
+        "correct_answer": "Celtics",
+        "difficulty": "medium",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_046",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which country has won the most FIFA World Cups?",
+        "options": [
+          "Germany",
+          "Argentina",
+          "Brazil",
+          "Italy"
+        ],
+        "correct_answer": "Brazil",
+        "difficulty": "medium",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_047",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many minutes are in each quarter of an NBA game?",
+        "options": [
+          "10",
+          "12",
+          "15",
+          "20"
+        ],
+        "correct_answer": "12",
+        "difficulty": "medium",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_048",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many players can be on the ice for each team at one time?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct_answer": "6",
+        "difficulty": "medium",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_049",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is a soccer field also called?",
+        "options": [
+          "Court",
+          "Pitch",
+          "Field",
+          "Ground"
+        ],
+        "correct_answer": "Pitch",
+        "difficulty": "medium",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_050",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many yards long is a football field?",
+        "options": [
+          "100",
+          "110",
+          "120",
+          "130"
+        ],
+        "correct_answer": "120",
+        "difficulty": "medium",
+        "topic": "American Football",
+        "subtopic": null
+      },
+      {
+        "id": "spt_051",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is a grand slam in baseball?",
+        "options": [
+          "4 home runs in a game",
+          "Home run with bases loaded",
+          "3 strikes in a row",
+          "Stealing all bases"
+        ],
+        "correct_answer": "Home run with bases loaded",
+        "difficulty": "medium",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_052",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many players can be on the bench during a soccer match?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "12"
+        ],
+        "correct_answer": "7",
+        "difficulty": "medium",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_053",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many teams are in the NFL?",
+        "options": [
+          "30",
+          "32",
+          "34",
+          "36"
+        ],
+        "correct_answer": "32",
+        "difficulty": "medium",
+        "topic": "American Football",
+        "subtopic": null
+      },
+      {
+        "id": "spt_054",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many teams are in Major League Baseball?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "34"
+        ],
+        "correct_answer": "30",
+        "difficulty": "medium",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_055",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the distance from home plate to the pitcher's mound?",
+        "options": [
+          "60 feet",
+          "60 feet 6 inches",
+          "65 feet",
+          "70 feet"
+        ],
+        "correct_answer": "60 feet 6 inches",
+        "difficulty": "medium",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_056",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many teams are in the NHL?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "34"
+        ],
+        "correct_answer": "32",
+        "difficulty": "medium",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_057",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many officials are on the ice during an NHL game?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct_answer": "4",
+        "difficulty": "medium",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_058",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the area in front of the goal called?",
+        "options": [
+          "Goal area",
+          "Crease",
+          "Net zone",
+          "Goal box"
+        ],
+        "correct_answer": "Crease",
+        "difficulty": "medium",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_059",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many teams make the NBA playoffs?",
+        "options": [
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "correct_answer": "16",
+        "difficulty": "medium",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_060",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many seconds does a player have to shoot a free throw?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "15"
+        ],
+        "correct_answer": "10",
+        "difficulty": "medium",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_061",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the penalty for a handball in soccer?",
+        "options": [
+          "Free kick",
+          "Penalty kick",
+          "Corner kick",
+          "Depends on location"
+        ],
+        "correct_answer": "Depends on location",
+        "difficulty": "medium",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_062",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How long is stoppage time typically?",
+        "options": [
+          "1-3 minutes",
+          "3-7 minutes",
+          "5-10 minutes",
+          "It varies"
+        ],
+        "correct_answer": "It varies",
+        "difficulty": "medium",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_063",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which NFL team has won the most Super Bowls?",
+        "options": [
+          "New England Patriots",
+          "Pittsburgh Steelers",
+          "Both A and B",
+          "San Francisco 49ers"
+        ],
+        "correct_answer": "Both A and B",
+        "difficulty": "medium",
+        "topic": "American Football",
+        "subtopic": null
+      },
+      {
+        "id": "spt_064",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Who holds the record for most career touchdown passes in the NFL?",
+        "options": [
+          "Tom Brady",
+          "Drew Brees",
+          "Peyton Manning",
+          "Brett Favre"
+        ],
+        "correct_answer": "Tom Brady",
+        "difficulty": "medium",
+        "topic": "American Football",
+        "subtopic": null
+      },
+      {
+        "id": "spt_065",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is it called when a player is tackled in their own end zone?",
+        "options": [
+          "Safety",
+          "Touchback",
+          "Fumble",
+          "Sack"
+        ],
+        "correct_answer": "Safety",
+        "difficulty": "medium",
+        "topic": "American Football",
+        "subtopic": null
+      },
+      {
+        "id": "spt_066",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Who holds the record for most career home runs in MLB?",
+        "options": [
+          "Barry Bonds",
+          "Hank Aaron",
+          "Babe Ruth",
+          "Alex Rodriguez"
+        ],
+        "correct_answer": "Barry Bonds",
+        "difficulty": "medium",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_067",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is a perfect game in baseball?",
+        "options": [
+          "No hits, runs, or errors allowed",
+          "Pitching all 9 innings",
+          "Hitting a home run",
+          "Striking out every batter"
+        ],
+        "correct_answer": "No hits, runs, or errors allowed",
+        "difficulty": "medium",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_068",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the name of the trophy awarded to the NHL champions?",
+        "options": [
+          "Stanley Cup",
+          "Conn Smythe Trophy",
+          "Hart Memorial Trophy",
+          "Presidents' Trophy"
+        ],
+        "correct_answer": "Stanley Cup",
+        "difficulty": "medium",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_069",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What country is considered the birthplace of ice hockey?",
+        "options": [
+          "Canada",
+          "United States",
+          "Russia",
+          "Sweden"
+        ],
+        "correct_answer": "Canada",
+        "difficulty": "medium",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_070",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is a walk in baseball?",
+        "options": [
+          "Four balls pitched",
+          "Three strikes",
+          "Home run",
+          "Sacrifice fly"
+        ],
+        "correct_answer": "Four balls pitched",
+        "difficulty": "medium",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_071",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is it called when the quarterback is tackled behind the line of scrimmage?",
+        "options": [
+          "Sack",
+          "Tackle",
+          "Blitz",
+          "Loss"
+        ],
+        "correct_answer": "Sack",
+        "difficulty": "medium",
+        "topic": "American Football",
+        "subtopic": null
+      },
+      {
+        "id": "spt_072",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the painted area under the basket called?",
+        "options": [
+          "The key",
+          "The paint",
+          "The lane",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_073",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the penalty for a handball in the penalty area?",
+        "options": [
+          "Penalty kick",
+          "Free kick",
+          "Corner kick",
+          "Yellow card"
+        ],
+        "correct_answer": "Penalty kick",
+        "difficulty": "medium",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_074",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which player is known as 'His Airness'?",
+        "options": [
+          "Michael Jordan",
+          "LeBron James",
+          "Kobe Bryant",
+          "Magic Johnson"
+        ],
+        "correct_answer": "Michael Jordan",
+        "difficulty": "medium",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_075",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the maximum number of players on a soccer team roster?",
+        "options": [
+          "20",
+          "23",
+          "25",
+          "30"
+        ],
+        "correct_answer": "23",
+        "difficulty": "hard",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_076",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the offside rule in soccer?",
+        "options": [
+          "Player ahead of ball",
+          "Player ahead of last defender",
+          "Player in penalty box",
+          "Player touching sideline"
+        ],
+        "correct_answer": "Player ahead of last defender",
+        "difficulty": "hard",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_077",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What team drafted Kobe Bryant?",
+        "options": [
+          "Los Angeles Lakers",
+          "Charlotte Hornets",
+          "Philadelphia 76ers",
+          "Boston Celtics"
+        ],
+        "correct_answer": "Charlotte Hornets",
+        "difficulty": "hard",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_078",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the standard size of a soccer goal?",
+        "options": [
+          "24x8 feet",
+          "24x10 feet",
+          "20x8 feet",
+          "26x8 feet"
+        ],
+        "correct_answer": "24x8 feet",
+        "difficulty": "hard",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_079",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Who holds the record for most World Cup goals?",
+        "options": [
+          "Pelé",
+          "Miroslav Klose",
+          "Ronaldo",
+          "Gerd Müller"
+        ],
+        "correct_answer": "Miroslav Klose",
+        "difficulty": "hard",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_080",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the distance between goal posts in the NFL?",
+        "options": [
+          "18 feet 6 inches",
+          "20 feet",
+          "23 feet 4 inches",
+          "24 feet"
+        ],
+        "correct_answer": "18 feet 6 inches",
+        "difficulty": "hard",
+        "topic": "American Football",
+        "subtopic": null
+      },
+      {
+        "id": "spt_081",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many players are on a baseball team roster?",
+        "options": [
+          "25",
+          "26",
+          "28",
+          "30"
+        ],
+        "correct_answer": "26",
+        "difficulty": "hard",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_082",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the home run record for a single season?",
+        "options": [
+          "70",
+          "73",
+          "75",
+          "77"
+        ],
+        "correct_answer": "73",
+        "difficulty": "hard",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_083",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the standard size of a hockey rink?",
+        "options": [
+          "200x85 feet",
+          "200x100 feet",
+          "220x85 feet",
+          "220x100 feet"
+        ],
+        "correct_answer": "200x85 feet",
+        "difficulty": "hard",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_084",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the NBA record for most consecutive free throws made?",
+        "options": [
+          "97",
+          "85",
+          "103",
+          "78"
+        ],
+        "correct_answer": "97",
+        "difficulty": "hard",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_085",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which player holds the record for most assists in NBA history?",
+        "options": [
+          "John Stockton",
+          "Magic Johnson",
+          "Steve Nash",
+          "Chris Paul"
+        ],
+        "correct_answer": "John Stockton",
+        "difficulty": "hard",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_086",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the regulation length of an NBA basketball court?",
+        "options": [
+          "94 feet",
+          "100 feet",
+          "90 feet",
+          "96 feet"
+        ],
+        "correct_answer": "94 feet",
+        "difficulty": "hard",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_087",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the NBA record for most steals in a single game?",
+        "options": [
+          "11",
+          "10",
+          "12",
+          "9"
+        ],
+        "correct_answer": "11",
+        "difficulty": "hard",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_088",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many players from each team are on the ice during regular play?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "4"
+        ],
+        "correct_answer": "6",
+        "difficulty": "hard",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_089",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which player has won the most FIFA Ballon d'Or awards?",
+        "options": [
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "Pelé",
+          "Diego Maradona"
+        ],
+        "correct_answer": "Lionel Messi",
+        "difficulty": "hard",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_090",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How many points is a safety worth?",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "1"
+        ],
+        "correct_answer": "2",
+        "difficulty": "hard",
+        "topic": "American Football",
+        "subtopic": null
+      },
+      {
+        "id": "spt_091",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which English club has won the most Premier League titles?",
+        "options": [
+          "Manchester United",
+          "Liverpool",
+          "Arsenal",
+          "Chelsea"
+        ],
+        "correct_answer": "Manchester United",
+        "difficulty": "hard",
+        "topic": "Soccer",
+        "subtopic": null
+      },
+      {
+        "id": "spt_092",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Who holds the NHL record for most career goals?",
+        "options": [
+          "Wayne Gretzky",
+          "Gordie Howe",
+          "Mario Lemieux",
+          "Alex Ovechkin"
+        ],
+        "correct_answer": "Alex Ovechkin",
+        "difficulty": "hard",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_093",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which team has won the most World Series?",
+        "options": [
+          "New York Yankees",
+          "Boston Red Sox",
+          "St. Louis Cardinals",
+          "Los Angeles Dodgers"
+        ],
+        "correct_answer": "New York Yankees",
+        "difficulty": "hard",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_094",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "How long is the shot clock in the NBA?",
+        "options": [
+          "24 seconds",
+          "30 seconds",
+          "20 seconds",
+          "35 seconds"
+        ],
+        "correct_answer": "24 seconds",
+        "difficulty": "hard",
+        "topic": "Basketball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_095",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Who holds the record for most home runs in a single MLB season?",
+        "options": [
+          "Barry Bonds",
+          "Mark McGwire",
+          "Sammy Sosa",
+          "Babe Ruth"
+        ],
+        "correct_answer": "Barry Bonds",
+        "difficulty": "hard",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_096",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "Which team has won the most Stanley Cup championships?",
+        "options": [
+          "Montreal Canadiens",
+          "Toronto Maple Leafs",
+          "Detroit Red Wings",
+          "Boston Bruins"
+        ],
+        "correct_answer": "Montreal Canadiens",
+        "difficulty": "hard",
+        "topic": "Hockey",
+        "subtopic": null
+      },
+      {
+        "id": "spt_097",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is the pitching rubber distance from home plate in MLB?",
+        "options": [
+          "60 feet 6 inches",
+          "55 feet",
+          "65 feet",
+          "50 feet"
+        ],
+        "correct_answer": "60 feet 6 inches",
+        "difficulty": "hard",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_098",
+        "category": "Sports",
+        "subcategory": "Team Sports",
+        "question": "What is a 'ground rule double'?",
+        "options": [
+          "Ball bounces over the fence",
+          "Hit to the warning track",
+          "Double play",
+          "Base hit that rolls to the wall"
+        ],
+        "correct_answer": "Ball bounces over the fence",
+        "difficulty": "hard",
+        "topic": "Baseball",
+        "subtopic": null
+      },
+      {
+        "id": "spt_099",
         "category": "Sports",
         "subcategory": "Team Sports",
         "question": "What is the neutral zone in hockey?",
@@ -4717,39 +3805,247 @@
         "subtopic": null
       },
       {
-        "id": "spt_321",
+        "id": "spt_100",
         "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "What does the Olympic Torch represent?",
+        "subcategory": "Team Sports",
+        "question": "What is a hat trick called when scored consecutively?",
         "options": [
-          "Peace and unity",
-          "Victory",
-          "Competition",
-          "Excellence"
+          "Natural hat trick",
+          "Perfect hat trick",
+          "Pure hat trick",
+          "True hat trick"
         ],
-        "correct_answer": "Peace and unity",
-        "difficulty": "medium",
-        "topic": "Olympics",
+        "correct_answer": "Natural hat trick",
+        "difficulty": "hard",
+        "topic": "Hockey",
         "subtopic": null
       },
       {
-        "id": "spt_322",
+        "id": "spt_101",
         "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "Which event includes swimming, cycling, and running?",
+        "subcategory": "Individual Sports",
+        "question": "What is a score of zero called in tennis?",
         "options": [
-          "Triathlon",
-          "Pentathlon",
-          "Decathlon",
-          "Heptathlon"
+          "Love",
+          "Zero",
+          "Nil",
+          "Nothing"
         ],
-        "correct_answer": "Triathlon",
+        "correct_answer": "Love",
         "difficulty": "easy",
-        "topic": "Olympics",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
-        "id": "spt_323",
+        "id": "spt_102",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the term for a tennis serve that isn't returned?",
+        "options": [
+          "Ace",
+          "Fault",
+          "Let",
+          "Winner"
+        ],
+        "correct_answer": "Ace",
+        "difficulty": "easy",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_103",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the term for completing a hole in one stroke?",
+        "options": [
+          "Ace",
+          "Eagle",
+          "Birdie",
+          "Hole-in-one"
+        ],
+        "correct_answer": "Hole-in-one",
+        "difficulty": "easy",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_104",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "How many Grand Slam tournaments are there per year?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct_answer": "4",
+        "difficulty": "easy",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_105",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the term for two strokes over par?",
+        "options": [
+          "Bogey",
+          "Double bogey",
+          "Triple bogey",
+          "Albatross"
+        ],
+        "correct_answer": "Double bogey",
+        "difficulty": "easy",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_106",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the green in golf?",
+        "options": [
+          "The tee area",
+          "The putting surface",
+          "The fairway",
+          "The rough"
+        ],
+        "correct_answer": "The putting surface",
+        "difficulty": "easy",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_107",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What do you need to win a tennis match?",
+        "options": [
+          "Most points",
+          "Most games",
+          "Most sets",
+          "Most serves"
+        ],
+        "correct_answer": "Most sets",
+        "difficulty": "easy",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_108",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "How many total players play in singles tennis?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_answer": "2",
+        "difficulty": "easy",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_109",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the small peg that holds the golf ball called?",
+        "options": [
+          "Tee",
+          "Peg",
+          "Stand",
+          "Holder"
+        ],
+        "correct_answer": "Tee",
+        "difficulty": "easy",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_110",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the goal in golf?",
+        "options": [
+          "Hit it farthest",
+          "Lowest score",
+          "Highest score",
+          "Most shots"
+        ],
+        "correct_answer": "Lowest score",
+        "difficulty": "easy",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_111",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the grass area you're supposed to hit from called?",
+        "options": [
+          "Rough",
+          "Fairway",
+          "Green",
+          "Tee box"
+        ],
+        "correct_answer": "Fairway",
+        "difficulty": "easy",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_112",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is par?",
+        "options": [
+          "A bad score",
+          "The expected score",
+          "The best score",
+          "The worst score"
+        ],
+        "correct_answer": "The expected score",
+        "difficulty": "easy",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_113",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "Which tournament is played on grass courts?",
+        "options": [
+          "Wimbledon",
+          "French Open",
+          "Australian Open",
+          "US Open"
+        ],
+        "correct_answer": "Wimbledon",
+        "difficulty": "easy",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_114",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is one stroke under par called?",
+        "options": [
+          "Birdie",
+          "Eagle",
+          "Bogey",
+          "Par"
+        ],
+        "correct_answer": "Birdie",
+        "difficulty": "easy",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_115",
         "category": "Sports",
         "subcategory": "Individual Sports",
         "question": "What is the fairway in golf?",
@@ -4765,19 +4061,723 @@
         "subtopic": null
       },
       {
-        "id": "spt_324",
+        "id": "spt_116",
         "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "What is a hat trick called when scored consecutively?",
+        "subcategory": "Individual Sports",
+        "question": "What is the maximum number of sets in a men's Grand Slam tennis match?",
         "options": [
-          "Natural hat trick",
-          "Perfect hat trick",
-          "Pure hat trick",
-          "True hat trick"
+          "3",
+          "4",
+          "5",
+          "6"
         ],
-        "correct_answer": "Natural hat trick",
+        "correct_answer": "5",
+        "difficulty": "medium",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_117",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What surface is Wimbledon played on?",
+        "options": [
+          "Clay",
+          "Hard court",
+          "Grass",
+          "Carpet"
+        ],
+        "correct_answer": "Grass",
+        "difficulty": "medium",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_118",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the maximum number of clubs a golfer can carry?",
+        "options": [
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "correct_answer": "14",
+        "difficulty": "medium",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_119",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is two strokes under par called?",
+        "options": [
+          "Birdie",
+          "Eagle",
+          "Albatross",
+          "Hole-in-one"
+        ],
+        "correct_answer": "Eagle",
+        "difficulty": "medium",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_120",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What are the four Grand Slam tournaments?",
+        "options": [
+          "Wimbledon, US Open, French Open, Australian Open",
+          "Wimbledon, US Open, French Open, Italian Open",
+          "Wimbledon, US Open, German Open, Australian Open",
+          "Wimbledon, British Open, French Open, Australian Open"
+        ],
+        "correct_answer": "Wimbledon, US Open, French Open, Australian Open",
+        "difficulty": "medium",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_121",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the term for the area of short grass around the green?",
+        "options": [
+          "Fairway",
+          "Rough",
+          "Fringe",
+          "Collar"
+        ],
+        "correct_answer": "Fringe",
+        "difficulty": "medium",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_122",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the minimum number of games to win a set?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct_answer": "6",
+        "difficulty": "medium",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_123",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What surface is the US Open played on?",
+        "options": [
+          "Clay",
+          "Grass",
+          "Hard court",
+          "Carpet"
+        ],
+        "correct_answer": "Hard court",
+        "difficulty": "medium",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_124",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is a mulligan in golf?",
+        "options": [
+          "A type of club",
+          "A do-over shot",
+          "A golf course",
+          "A scoring term"
+        ],
+        "correct_answer": "A do-over shot",
+        "difficulty": "medium",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_125",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is a tennis court made of?",
+        "options": [
+          "Grass, clay, or hard court",
+          "Only grass",
+          "Only clay",
+          "Only concrete"
+        ],
+        "correct_answer": "Grass, clay, or hard court",
+        "difficulty": "medium",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_126",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is it called when both players have won 6 games each?",
+        "options": [
+          "Deuce",
+          "Tiebreaker",
+          "Match point",
+          "Set point"
+        ],
+        "correct_answer": "Tiebreaker",
+        "difficulty": "medium",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_127",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What surface is used at the US Open tennis tournament?",
+        "options": [
+          "Hard court",
+          "Clay",
+          "Grass",
+          "Carpet"
+        ],
+        "correct_answer": "Hard court",
+        "difficulty": "medium",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_128",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is par for a standard 18-hole golf course?",
+        "options": [
+          "72",
+          "70",
+          "68",
+          "74"
+        ],
+        "correct_answer": "72",
+        "difficulty": "medium",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_129",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is par on a typical golf course for 18 holes?",
+        "options": [
+          "72",
+          "70",
+          "74",
+          "68"
+        ],
+        "correct_answer": "72",
+        "difficulty": "medium",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_130",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is four strokes under par called?",
+        "options": [
+          "Eagle",
+          "Albatross",
+          "Condor",
+          "Birdie"
+        ],
+        "correct_answer": "Condor",
         "difficulty": "hard",
-        "topic": "Hockey",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_131",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the height of the net in tennis?",
+        "options": [
+          "3 feet",
+          "3 feet 6 inches",
+          "4 feet",
+          "4 feet 6 inches"
+        ],
+        "correct_answer": "3 feet",
+        "difficulty": "hard",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_132",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the diameter of a golf hole?",
+        "options": [
+          "4.25 inches",
+          "4.5 inches",
+          "4.75 inches",
+          "5 inches"
+        ],
+        "correct_answer": "4.25 inches",
+        "difficulty": "hard",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_133",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is a bagel in tennis?",
+        "options": [
+          "Winning 6-0",
+          "Losing 0-6",
+          "A type of serve",
+          "A tennis snack"
+        ],
+        "correct_answer": "Winning 6-0",
+        "difficulty": "hard",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_134",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the width of a tennis court?",
+        "options": [
+          "27 feet",
+          "30 feet",
+          "33 feet",
+          "36 feet"
+        ],
+        "correct_answer": "36 feet",
+        "difficulty": "hard",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_135",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "Which golf tournament is held at Augusta National?",
+        "options": [
+          "The Masters",
+          "US Open",
+          "The Open Championship",
+          "PGA Championship"
+        ],
+        "correct_answer": "The Masters",
+        "difficulty": "hard",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_136",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "Who has won the most major golf championships?",
+        "options": [
+          "Jack Nicklaus",
+          "Tiger Woods",
+          "Arnold Palmer",
+          "Gary Player"
+        ],
+        "correct_answer": "Jack Nicklaus",
+        "difficulty": "hard",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_137",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "How many sets must a player win to win a men's Grand Slam match?",
+        "options": [
+          "3 out of 5",
+          "2 out of 3",
+          "4 out of 7",
+          "2 out of 5"
+        ],
+        "correct_answer": "3 out of 5",
+        "difficulty": "hard",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_138",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the area between the baseline and service line called?",
+        "options": [
+          "No man's land",
+          "The alley",
+          "The court",
+          "The box"
+        ],
+        "correct_answer": "No man's land",
+        "difficulty": "hard",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_139",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "How many clubs is a golfer allowed to carry during a round?",
+        "options": [
+          "14",
+          "12",
+          "16",
+          "18"
+        ],
+        "correct_answer": "14",
+        "difficulty": "hard",
+        "topic": "Golf",
+        "subtopic": null
+      },
+      {
+        "id": "spt_140",
+        "category": "Sports",
+        "subcategory": "Individual Sports",
+        "question": "What is the term for winning all four Grand Slams in one year?",
+        "options": [
+          "Calendar Grand Slam",
+          "Golden Slam",
+          "Career Grand Slam",
+          "Super Slam"
+        ],
+        "correct_answer": "Calendar Grand Slam",
+        "difficulty": "hard",
+        "topic": "Tennis",
+        "subtopic": null
+      },
+      {
+        "id": "spt_141",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "How often are the Summer Olympics held?",
+        "options": [
+          "Every 2 years",
+          "Every 3 years",
+          "Every 4 years",
+          "Every 5 years"
+        ],
+        "correct_answer": "Every 4 years",
+        "difficulty": "easy",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_142",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "How many rings are on the Olympic flag?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct_answer": "5",
+        "difficulty": "easy",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_143",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What is the Olympic Village?",
+        "options": [
+          "Where athletes stay",
+          "Where events are held",
+          "Where ceremonies occur",
+          "Where officials work"
+        ],
+        "correct_answer": "Where athletes stay",
+        "difficulty": "easy",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_144",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What do athletes win at the Olympics?",
+        "options": [
+          "Trophies",
+          "Medals",
+          "Money",
+          "Certificates"
+        ],
+        "correct_answer": "Medals",
+        "difficulty": "easy",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_145",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What are the three types of Olympic medals?",
+        "options": [
+          "Gold, silver, bronze",
+          "First, second, third",
+          "Red, white, blue",
+          "Big, medium, small"
+        ],
+        "correct_answer": "Gold, silver, bronze",
+        "difficulty": "easy",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_146",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What season has skiing and ice skating?",
+        "options": [
+          "Summer Olympics",
+          "Winter Olympics",
+          "Spring Olympics",
+          "Fall Olympics"
+        ],
+        "correct_answer": "Winter Olympics",
+        "difficulty": "easy",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_147",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "Which athlete has won the most Olympic gold medals?",
+        "options": [
+          "Michael Phelps",
+          "Usain Bolt",
+          "Simone Biles",
+          "Carl Lewis"
+        ],
+        "correct_answer": "Michael Phelps",
+        "difficulty": "easy",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_148",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "Which event includes swimming, cycling, and running?",
+        "options": [
+          "Triathlon",
+          "Pentathlon",
+          "Decathlon",
+          "Heptathlon"
+        ],
+        "correct_answer": "Triathlon",
+        "difficulty": "easy",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_149",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "In which city were the first modern Olympics held?",
+        "options": [
+          "Paris",
+          "London",
+          "Athens",
+          "Rome"
+        ],
+        "correct_answer": "Athens",
+        "difficulty": "medium",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_150",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What is the Olympic motto?",
+        "options": [
+          "Faster, Higher, Stronger",
+          "Citius, Altius, Fortius",
+          "Both A and B",
+          "Unity, Peace, Excellence"
+        ],
+        "correct_answer": "Both A and B",
+        "difficulty": "medium",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_151",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What are the colors of the Olympic rings?",
+        "options": [
+          "Blue, yellow, black, green, red",
+          "Blue, yellow, black, green, orange",
+          "Blue, yellow, purple, green, red",
+          "Blue, white, black, green, red"
+        ],
+        "correct_answer": "Blue, yellow, black, green, red",
+        "difficulty": "medium",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_152",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What is the Olympic torch relay?",
+        "options": [
+          "A race",
+          "A ceremony",
+          "A tradition",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_153",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "Which country has hosted the Summer Olympics the most times?",
+        "options": [
+          "United States",
+          "France",
+          "United Kingdom",
+          "Greece"
+        ],
+        "correct_answer": "United States",
+        "difficulty": "medium",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_154",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What does the Olympic Torch represent?",
+        "options": [
+          "Peace and unity",
+          "Victory",
+          "Competition",
+          "Excellence"
+        ],
+        "correct_answer": "Peace and unity",
+        "difficulty": "medium",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_155",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "How many sports are in the Summer Olympics?",
+        "options": [
+          "28",
+          "32",
+          "35",
+          "40"
+        ],
+        "correct_answer": "32",
+        "difficulty": "hard",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_156",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "How many athletes typically compete in the Summer Olympics?",
+        "options": [
+          "8,000",
+          "10,000",
+          "12,000",
+          "15,000"
+        ],
+        "correct_answer": "10,000",
+        "difficulty": "hard",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_157",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "When were the first Winter Olympics held?",
+        "options": [
+          "1920",
+          "1924",
+          "1928",
+          "1932"
+        ],
+        "correct_answer": "1924",
+        "difficulty": "hard",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_158",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What metal are Olympic gold medals primarily made of?",
+        "options": [
+          "Gold",
+          "Silver",
+          "Bronze",
+          "Platinum"
+        ],
+        "correct_answer": "Silver",
+        "difficulty": "hard",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_159",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What do Olympic gold medals contain mostly?",
+        "options": [
+          "Gold",
+          "Silver",
+          "Bronze",
+          "Platinum"
+        ],
+        "correct_answer": "Silver",
+        "difficulty": "hard",
+        "topic": "Olympics",
+        "subtopic": null
+      },
+      {
+        "id": "spt_160",
+        "category": "Sports",
+        "subcategory": "International Competition",
+        "question": "What year were the first modern Olympics?",
+        "options": [
+          "1896",
+          "1900",
+          "1880",
+          "1912"
+        ],
+        "correct_answer": "1896",
+        "difficulty": "hard",
+        "topic": "Olympics",
         "subtopic": null
       }
     ],

@@ -981,14 +981,14 @@
         "id": "ent_062",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of the Hulk's alter ego?",
+        "question": "Who plays Sarah Connor in Terminator 2?",
         "options": [
-          "Bruce Banner",
-          "Tony Stark",
-          "Steve Rogers",
-          "Peter Parker"
+          "Linda Hamilton",
+          "Sigourney Weaver",
+          "Jamie Lee Curtis",
+          "Arnold Schwarzenegger"
         ],
-        "correct_answer": "Bruce Banner",
+        "correct_answer": "Linda Hamilton",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -997,14 +997,14 @@
         "id": "ent_063",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is Superman's weakness?",
+        "question": "What is the name of the robot in Transformers?",
         "options": [
-          "Kryptonite",
-          "Magic",
-          "Red sun radiation",
-          "Lead"
+          "Optimus Prime",
+          "Bumblebee",
+          "Megatron",
+          "Starscream"
         ],
-        "correct_answer": "Kryptonite",
+        "correct_answer": "Optimus Prime",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1013,14 +1013,14 @@
         "id": "ent_064",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "Who is the main villain in Avengers: Endgame?",
+        "question": "What is the name of the prison in The Rock?",
         "options": [
-          "Thanos",
-          "Loki",
-          "Ultron",
-          "Red Skull"
+          "Alcatraz",
+          "San Quentin",
+          "Rikers Island",
+          "Sing Sing"
         ],
-        "correct_answer": "Thanos",
+        "correct_answer": "Alcatraz",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1029,14 +1029,14 @@
         "id": "ent_065",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of Thor's hammer?",
+        "question": "Who plays Katniss Everdeen in The Hunger Games?",
         "options": [
-          "Mjolnir",
-          "Stormbreaker",
-          "Gungnir",
-          "Jarnbjorn"
+          "Jennifer Lawrence",
+          "Emma Stone",
+          "Kristen Stewart",
+          "Shailene Woodley"
         ],
-        "correct_answer": "Mjolnir",
+        "correct_answer": "Jennifer Lawrence",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1237,14 +1237,14 @@
         "id": "ent_078",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of the mineral that weakens Superman?",
+        "question": "What is the name of the organization in Kingsman?",
         "options": [
-          "Kryptonite",
-          "Adamantium",
-          "Vibranium",
-          "Promethium"
+          "Kingsman",
+          "The Statesman",
+          "The Secret Service",
+          "MI6"
         ],
-        "correct_answer": "Kryptonite",
+        "correct_answer": "Kingsman",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -1253,14 +1253,14 @@
         "id": "ent_079",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of Black Panther's kingdom?",
+        "question": "In Kill Bill, what is The Bride's real name?",
         "options": [
-          "Wakanda",
-          "Genosha",
-          "Latveria",
-          "Atlantis"
+          "Beatrix Kiddo",
+          "O-Ren Ishii",
+          "Elle Driver",
+          "Vernita Green"
         ],
-        "correct_answer": "Wakanda",
+        "correct_answer": "Beatrix Kiddo",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -1269,14 +1269,14 @@
         "id": "ent_080",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "In which Avengers film does the team first assemble?",
+        "question": "What is the name of the organization in Salt?",
         "options": [
-          "The Avengers (2012)",
-          "Avengers: Age of Ultron",
-          "Captain America: Civil War",
-          "Avengers: Infinity War"
+          "CIA",
+          "KGB",
+          "FBI",
+          "NSA"
         ],
-        "correct_answer": "The Avengers (2012)",
+        "correct_answer": "CIA",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -1285,14 +1285,14 @@
         "id": "ent_081",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of Wonder Woman's home island?",
+        "question": "Who plays Lara Croft in the 2001 Tomb Raider film?",
         "options": [
-          "Themyscira",
-          "Paradise Island",
-          "Olympus",
-          "Amazon Isle"
+          "Angelina Jolie",
+          "Alicia Vikander",
+          "Milla Jovovich",
+          "Charlize Theron"
         ],
-        "correct_answer": "Themyscira",
+        "correct_answer": "Angelina Jolie",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -1317,14 +1317,14 @@
         "id": "ent_083",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of the high-tech suit Tony Stark wears?",
+        "question": "In Lethal Weapon, what are the main characters' last names?",
         "options": [
-          "Iron Man suit",
-          "War Machine",
-          "Iron Patriot",
-          "Rescue"
+          "Riggs and Murtaugh",
+          "Tango and Cash",
+          "Turner and Hooch",
+          "Butch and Sundance"
         ],
-        "correct_answer": "Iron Man suit",
+        "correct_answer": "Riggs and Murtaugh",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -1589,14 +1589,14 @@
         "id": "ent_100",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of the planet Superman is from?",
+        "question": "In Mad Max: Fury Road, what is the name of the tyrannical leader?",
         "options": [
-          "Krypton",
-          "Oa",
-          "Thanagar",
-          "Rann"
+          "Immortan Joe",
+          "The War Boys",
+          "Max Rockatansky",
+          "Furiosa"
         ],
-        "correct_answer": "Krypton",
+        "correct_answer": "Immortan Joe",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -1605,14 +1605,14 @@
         "id": "ent_101",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "In Avengers: Endgame, what is the name of the quantum realm device?",
+        "question": "What year was Speed released?",
         "options": [
-          "Quantum Tunnel",
-          "Quantum Bridge",
-          "Quantum Portal",
-          "Quantum Gate"
+          "1994",
+          "1995",
+          "1993",
+          "1996"
         ],
-        "correct_answer": "Quantum Tunnel",
+        "correct_answer": "1994",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -1621,14 +1621,14 @@
         "id": "ent_102",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the real name of the Joker's girlfriend Harley Quinn?",
+        "question": "In Point Break, what extreme sport do the bank robbers participate in?",
         "options": [
-          "Harleen Quinzel",
-          "Holly Quinn",
-          "Harper Quinzel",
-          "Harriet Quinn"
+          "Surfing",
+          "Skydiving",
+          "Snowboarding",
+          "Rock climbing"
         ],
-        "correct_answer": "Harleen Quinzel",
+        "correct_answer": "Surfing",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -1701,14 +1701,14 @@
         "id": "ent_107",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of Simba's father in The Lion King?",
+        "question": "What is the name of the titular character in Coraline?",
         "options": [
-          "Mufasa",
-          "Scar",
-          "Rafiki",
-          "Zazu"
+          "Coraline Jones",
+          "Wybie",
+          "The Other Mother",
+          "The Cat"
         ],
-        "correct_answer": "Mufasa",
+        "correct_answer": "Coraline Jones",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1717,14 +1717,14 @@
         "id": "ent_108",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is Elsa's power in Frozen?",
+        "question": "What is the name of the robot in The Iron Giant?",
         "options": [
-          "Ice and snow",
-          "Fire",
-          "Lightning",
-          "Water"
+          "The Iron Giant",
+          "Hogarth",
+          "Dean",
+          "Kent"
         ],
-        "correct_answer": "Ice and snow",
+        "correct_answer": "The Iron Giant",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1749,14 +1749,14 @@
         "id": "ent_110",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the demigod in Moana?",
+        "question": "In The Nightmare Before Christmas, what is the main character's name?",
         "options": [
-          "Maui",
-          "Tamatoa",
-          "Tui",
-          "Sina"
+          "Jack Skellington",
+          "Sally",
+          "Oogie Boogie",
+          "Zero"
         ],
-        "correct_answer": "Maui",
+        "correct_answer": "Jack Skellington",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1765,14 +1765,14 @@
         "id": "ent_111",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What does Aladdin use to fly?",
+        "question": "What animal is Arthur in the TV show Arthur?",
         "options": [
-          "Magic carpet",
-          "Magic lamp",
-          "Flying carpet",
-          "Genie"
+          "Aardvark",
+          "Bear",
+          "Rabbit",
+          "Dog"
         ],
-        "correct_answer": "Magic carpet",
+        "correct_answer": "Aardvark",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1781,14 +1781,14 @@
         "id": "ent_112",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the villain in The Little Mermaid?",
+        "question": "What is the name of the snail who dreams of racing in Turbo?",
         "options": [
-          "Ursula",
-          "Maleficent",
-          "Cruella",
-          "Jafar"
+          "Turbo",
+          "Theo",
+          "Whiplash",
+          "Chet"
         ],
-        "correct_answer": "Ursula",
+        "correct_answer": "Turbo",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1861,14 +1861,14 @@
         "id": "ent_117",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the princess in Beauty and the Beast?",
+        "question": "What is Homer Simpson's job?",
         "options": [
-          "Belle",
-          "Ariel",
-          "Jasmine",
-          "Rapunzel"
+          "Nuclear safety inspector",
+          "Beer taster",
+          "Farmer",
+          "Mayor"
         ],
-        "correct_answer": "Belle",
+        "correct_answer": "Nuclear safety inspector",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1877,14 +1877,14 @@
         "id": "ent_118",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What animal is Remy in Ratatouille?",
+        "question": "What is the name of the family in The Simpsons?",
         "options": [
-          "Rat",
-          "Mouse",
-          "Chef",
-          "Cat"
+          "The Simpsons",
+          "The Griffins",
+          "The Belchers",
+          "The Smiths"
         ],
-        "correct_answer": "Rat",
+        "correct_answer": "The Simpsons",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1893,14 +1893,14 @@
         "id": "ent_119",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the house that floats in Up?",
+        "question": "What color is Papa Smurf in The Smurfs?",
         "options": [
-          "Carl's house",
-          "Ellie's house",
-          "Paradise Falls house",
-          "Balloon house"
+          "Red",
+          "Blue",
+          "White",
+          "Yellow"
         ],
-        "correct_answer": "Carl's house",
+        "correct_answer": "Red",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1909,14 +1909,14 @@
         "id": "ent_120",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the cowboy in Toy Story?",
+        "question": "What is the name of the cat in Tom and Jerry?",
         "options": [
-          "Woody",
-          "Buzz",
-          "Rex",
-          "Andy"
+          "Tom",
+          "Jerry",
+          "Spike",
+          "Tyke"
         ],
-        "correct_answer": "Woody",
+        "correct_answer": "Tom",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1925,14 +1925,14 @@
         "id": "ent_121",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the princess with long magical hair?",
+        "question": "What is the name of the baby in Rugrats?",
         "options": [
-          "Rapunzel",
-          "Elsa",
-          "Anna",
-          "Merida"
+          "Tommy Pickles",
+          "Chuckie Finster",
+          "Phil DeVille",
+          "Dil Pickles"
         ],
-        "correct_answer": "Rapunzel",
+        "correct_answer": "Tommy Pickles",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1941,14 +1941,14 @@
         "id": "ent_122",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What type of animal is Bambi?",
+        "question": "What is the name of the boy in The Polar Express?",
         "options": [
-          "Deer",
-          "Rabbit",
-          "Fox",
-          "Bear"
+          "Hero Boy",
+          "Billy",
+          "The Conductor",
+          "Santa"
         ],
-        "correct_answer": "Deer",
+        "correct_answer": "Hero Boy",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1957,14 +1957,14 @@
         "id": "ent_123",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the forgetful fish in Finding Nemo?",
+        "question": "What is the name of the family dog in Family Guy?",
         "options": [
-          "Dory",
-          "Nemo",
-          "Marlin",
-          "Bruce"
+          "Brian",
+          "Stewie",
+          "Peter",
+          "Quagmire"
         ],
-        "correct_answer": "Dory",
+        "correct_answer": "Brian",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1973,14 +1973,14 @@
         "id": "ent_124",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the race car in Cars?",
+        "question": "What is the name of the restaurant in Bob's Burgers?",
         "options": [
-          "Lightning McQueen",
-          "Mater",
-          "Sally",
-          "Doc Hudson"
+          "Bob's Burgers",
+          "Jimmy Pesto's",
+          "The Burger Joint",
+          "Teddy's"
         ],
-        "correct_answer": "Lightning McQueen",
+        "correct_answer": "Bob's Burgers",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1989,14 +1989,14 @@
         "id": "ent_125",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "Who is the villain in Tangled?",
+        "question": "In Archer, what is Sterling Archer's job?",
         "options": [
-          "Mother Gothel",
-          "Maleficent",
-          "Ursula",
-          "Cruella"
+          "Spy",
+          "Bartender",
+          "Detective",
+          "Pilot"
         ],
-        "correct_answer": "Mother Gothel",
+        "correct_answer": "Spy",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -2021,14 +2021,14 @@
         "id": "ent_127",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the chef in Ratatouille that Remy helps?",
+        "question": "What is Scooby-Doo's favorite food?",
         "options": [
-          "Linguini",
-          "Colette",
-          "Skinner",
-          "Gusteau"
+          "Scooby Snacks",
+          "Pizza",
+          "Sandwiches",
+          "Burgers"
         ],
-        "correct_answer": "Linguini",
+        "correct_answer": "Scooby Snacks",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -2037,14 +2037,14 @@
         "id": "ent_128",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of Mulan's dragon companion?",
+        "question": "What is the name of the main character in Megamind?",
         "options": [
-          "Mushu",
-          "Khan",
-          "Cri-Kee",
-          "Yao"
+          "Megamind",
+          "Metro Man",
+          "Roxanne",
+          "Minion"
         ],
-        "correct_answer": "Mushu",
+        "correct_answer": "Megamind",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -2069,14 +2069,14 @@
         "id": "ent_130",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What year was the first Toy Story film released?",
+        "question": "What town do the Flintstones live in?",
         "options": [
-          "1995",
-          "1998",
-          "1993",
-          "2000"
+          "Bedrock",
+          "Stone City",
+          "Rock Town",
+          "Prehistoric Park"
         ],
-        "correct_answer": "1995",
+        "correct_answer": "Bedrock",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2085,14 +2085,14 @@
         "id": "ent_131",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Frozen, what is the name of Kristoff's reindeer?",
+        "question": "In Dragon Ball Z, what is Goku's alien race called?",
         "options": [
-          "Sven",
-          "Olaf",
-          "Hans",
-          "Marshmallow"
+          "Saiyan",
+          "Namekian",
+          "Frieza Race",
+          "Human"
         ],
-        "correct_answer": "Sven",
+        "correct_answer": "Saiyan",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2101,14 +2101,14 @@
         "id": "ent_132",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the island in Moana?",
+        "question": "What is the name of the town in South Park?",
         "options": [
-          "Motunui",
-          "Te Fiti",
-          "Lalotai",
-          "Maui"
+          "South Park",
+          "Park County",
+          "Colorado Springs",
+          "Mountain Town"
         ],
-        "correct_answer": "Motunui",
+        "correct_answer": "South Park",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2117,14 +2117,14 @@
         "id": "ent_133",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In The Lion King, who is Simba's uncle?",
+        "question": "In Teenage Mutant Ninja Turtles, who is their sensei?",
         "options": [
-          "Scar",
-          "Mufasa",
-          "Rafiki",
-          "Zazu"
+          "Splinter",
+          "Shredder",
+          "April",
+          "Casey"
         ],
-        "correct_answer": "Scar",
+        "correct_answer": "Splinter",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2133,14 +2133,14 @@
         "id": "ent_134",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the restaurant in Ratatouille?",
+        "question": "In Avatar: The Last Airbender, what element can't Aang bend at first?",
         "options": [
-          "Gusteau's",
-          "La Ratatouille",
-          "Ego's",
-          "The French Laundry"
+          "Fire",
+          "Water",
+          "Earth",
+          "Air"
         ],
-        "correct_answer": "Gusteau's",
+        "correct_answer": "Fire",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2181,14 +2181,14 @@
         "id": "ent_137",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Up, what is the name of the boy scout?",
+        "question": "What is the name of Bart Simpson's best friend?",
         "options": [
-          "Russell",
-          "Kevin",
-          "Carl",
-          "Charles"
+          "Milhouse",
+          "Nelson",
+          "Ralph",
+          "Martin"
         ],
-        "correct_answer": "Russell",
+        "correct_answer": "Milhouse",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2197,14 +2197,14 @@
         "id": "ent_138",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the chef that Linguini admires in Ratatouille?",
+        "question": "In South Park, what is Cartman's first name?",
         "options": [
-          "Auguste Gusteau",
-          "Anton Ego",
-          "Chef Skinner",
-          "Colette Tatou"
+          "Eric",
+          "Kyle",
+          "Stan",
+          "Kenny"
         ],
-        "correct_answer": "Auguste Gusteau",
+        "correct_answer": "Eric",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2245,14 +2245,14 @@
         "id": "ent_141",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In How to Train Your Dragon, what is Hiccup's last name?",
+        "question": "What is the name of the boy in Adventure Time?",
         "options": [
-          "Haddock",
-          "Hofferson",
-          "Jorgenson",
-          "Ingerman"
+          "Finn",
+          "Jake",
+          "Ice King",
+          "Marceline"
         ],
-        "correct_answer": "Haddock",
+        "correct_answer": "Finn",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2261,14 +2261,14 @@
         "id": "ent_142",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the villain in Aladdin?",
+        "question": "What is the name of the princess in Anastasia?",
         "options": [
-          "Jafar",
-          "Iago",
-          "Razoul",
-          "Cassim"
+          "Anastasia",
+          "Anya",
+          "Dimitri",
+          "Sophie"
         ],
-        "correct_answer": "Jafar",
+        "correct_answer": "Anastasia",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2277,14 +2277,14 @@
         "id": "ent_143",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Wall-E, what is the name of the plant that Wall-E finds?",
+        "question": "In Futurama, what is Fry's first name?",
         "options": [
-          "A seedling",
-          "An orchid",
-          "A fern",
-          "A rose"
+          "Philip",
+          "Peter",
+          "Frank",
+          "Fred"
         ],
-        "correct_answer": "A seedling",
+        "correct_answer": "Philip",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2293,14 +2293,14 @@
         "id": "ent_144",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the kingdom in Tangled?",
+        "question": "In Samurai Jack, what is Jack trying to destroy?",
         "options": [
-          "Corona",
-          "Arendelle",
-          "DunBroch",
-          "Agrabah"
+          "Aku",
+          "The Samurai",
+          "The Portal",
+          "The Sword"
         ],
-        "correct_answer": "Corona",
+        "correct_answer": "Aku",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2309,14 +2309,14 @@
         "id": "ent_145",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Coco, what is the name of Miguel's idol?",
+        "question": "What is the name of the ogre princess in Shrek 2?",
         "options": [
-          "Ernesto de la Cruz",
-          "Héctor",
-          "Chicharrón",
-          "Papá Julio"
+          "Fiona",
+          "Shrek",
+          "Donkey",
+          "Dragon"
         ],
-        "correct_answer": "Ernesto de la Cruz",
+        "correct_answer": "Fiona",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2341,14 +2341,14 @@
         "id": "ent_147",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In The Incredibles, what is Dash's superpower?",
+        "question": "In SpongeBob SquarePants, what is Mr. Krabs' daughter's name?",
         "options": [
-          "Super speed",
-          "Super strength",
-          "Invisibility",
-          "Elasticity"
+          "Pearl",
+          "Sandy",
+          "Karen",
+          "Mindy"
         ],
-        "correct_answer": "Super speed",
+        "correct_answer": "Pearl",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2357,14 +2357,14 @@
         "id": "ent_148",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the villain in Sleeping Beauty?",
+        "question": "In Dexter's Laboratory, what is Dexter's sister's name?",
         "options": [
-          "Maleficent",
-          "Ursula",
-          "Cruella",
-          "Queen Grimhilde"
+          "Dee Dee",
+          "Mandark",
+          "Mom",
+          "Dad"
         ],
-        "correct_answer": "Maleficent",
+        "correct_answer": "Dee Dee",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2389,14 +2389,14 @@
         "id": "ent_150",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the demigod's hook in Moana?",
+        "question": "What is the name of the horse in Spirit: Stallion of the Cimarron?",
         "options": [
-          "Maui's fishhook",
-          "The Heart of Te Fiti",
-          "Tamatoa's treasure",
-          "The Ocean's Gift"
+          "Spirit",
+          "Rain",
+          "Strider",
+          "Little Creek"
         ],
-        "correct_answer": "Maui's fishhook",
+        "correct_answer": "Spirit",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2405,14 +2405,14 @@
         "id": "ent_151",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Mulan, what is the name of the matchmaker's assistant?",
+        "question": "In Courage the Cowardly Dog, where do Courage and his owners live?",
         "options": [
-          "Grandmother Fa",
-          "The Emperor",
-          "Chi-Fu",
-          "None of the above"
+          "Nowhere, Kansas",
+          "Somewhere, Texas",
+          "Anywhere, Oklahoma",
+          "Everywhere, Nebraska"
         ],
-        "correct_answer": "None of the above",
+        "correct_answer": "Nowhere, Kansas",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2421,14 +2421,14 @@
         "id": "ent_152",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What year did Frozen win the Academy Award for Best Animated Feature?",
+        "question": "What year did Family Guy first air?",
         "options": [
-          "2014",
-          "2013",
-          "2015",
-          "2012"
+          "1999",
+          "2000",
+          "1998",
+          "2001"
         ],
-        "correct_answer": "2014",
+        "correct_answer": "1999",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2437,14 +2437,14 @@
         "id": "ent_153",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Spider-Man: Into the Spider-Verse, what is Miles Morales' superhero name?",
+        "question": "What is the name of the penguin in Wallace and Gromit?",
         "options": [
-          "Spider-Man",
-          "Kid Arachnid",
-          "Spin",
-          "Web-Slinger"
+          "Feathers McGraw",
+          "Wendolene",
+          "Preston",
+          "Piella"
         ],
-        "correct_answer": "Spider-Man",
+        "correct_answer": "Feathers McGraw",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2453,14 +2453,14 @@
         "id": "ent_154",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the food critic in Ratatouille?",
+        "question": "In Looney Tunes, what is Bugs Bunny's catchphrase?",
         "options": [
-          "Anton Ego",
-          "Auguste Gusteau",
-          "Chef Skinner",
-          "Colette"
+          "What's up, Doc?",
+          "That's all folks!",
+          "Beep beep!",
+          "I tawt I taw a puddy tat"
         ],
-        "correct_answer": "Anton Ego",
+        "correct_answer": "What's up, Doc?",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2501,14 +2501,14 @@
         "id": "ent_157",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In The Lion King, what does 'Hakuna Matata' mean?",
+        "question": "In The Boondocks, what are the main characters' last name?",
         "options": [
-          "No worries",
-          "Circle of life",
-          "Be prepared",
-          "Long live the king"
+          "Freeman",
+          "Johnson",
+          "Williams",
+          "Jackson"
         ],
-        "correct_answer": "No worries",
+        "correct_answer": "Freeman",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2517,14 +2517,14 @@
         "id": "ent_158",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the kingdom in Frozen?",
+        "question": "In Rick and Morty, what is the name of the family's last name?",
         "options": [
-          "Arendelle",
-          "Corona",
-          "DunBroch",
-          "Atlantica"
+          "Smith",
+          "Sanchez",
+          "Johnson",
+          "Williams"
         ],
-        "correct_answer": "Arendelle",
+        "correct_answer": "Smith",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2533,14 +2533,14 @@
         "id": "ent_159",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Up, what is the name of the bird that Russell befriends?",
+        "question": "What is the name of the dragon in The Hobbit animated film?",
         "options": [
-          "Kevin",
-          "Russell",
-          "Doug",
-          "Alpha"
+          "Smaug",
+          "Drogon",
+          "Toothless",
+          "Mushu"
         ],
-        "correct_answer": "Kevin",
+        "correct_answer": "Smaug",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2549,14 +2549,14 @@
         "id": "ent_160",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the crab who collects treasures in Moana?",
+        "question": "In Gravity Falls, what are the main characters' names?",
         "options": [
-          "Tamatoa",
-          "Maui",
-          "Heihei",
-          "Pua"
+          "Dipper and Mabel",
+          "Stan and Ford",
+          "Soos and Wendy",
+          "Bill and Gideon"
         ],
-        "correct_answer": "Tamatoa",
+        "correct_answer": "Dipper and Mabel",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2581,14 +2581,14 @@
         "id": "ent_162",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the emotion headquarters in Inside Out?",
+        "question": "In BoJack Horseman, what is BoJack's species?",
         "options": [
-          "Headquarters",
-          "Mind Palace",
-          "Brain Center",
-          "Emotion Station"
+          "Horse",
+          "Dog",
+          "Cat",
+          "Human"
         ],
-        "correct_answer": "Headquarters",
+        "correct_answer": "Horse",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2597,14 +2597,14 @@
         "id": "ent_163",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Coco, what instrument does Miguel play?",
+        "question": "What year did The Simpsons first air?",
         "options": [
-          "Guitar",
-          "Violin",
-          "Trumpet",
-          "Piano"
+          "1989",
+          "1990",
+          "1987",
+          "1992"
         ],
-        "correct_answer": "Guitar",
+        "correct_answer": "1989",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2613,14 +2613,14 @@
         "id": "ent_164",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the ant colony's princess in A Bug's Life?",
+        "question": "In Avatar: The Last Airbender, what is Zuko's sister's name?",
         "options": [
-          "Atta",
-          "Dot",
-          "Rosie",
-          "Gypsy"
+          "Azula",
+          "Katara",
+          "Toph",
+          "Mai"
         ],
-        "correct_answer": "Atta",
+        "correct_answer": "Azula",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2661,14 +2661,14 @@
         "id": "ent_167",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Tangled, what is Flynn Rider's real name?",
+        "question": "What is the name of the king in The Prince of Egypt?",
         "options": [
-          "Eugene Fitzherbert",
-          "Eugene Rider",
-          "Flynn Eugene",
-          "Eugene Flynn"
+          "Rameses",
+          "Moses",
+          "Pharaoh",
+          "Seti"
         ],
-        "correct_answer": "Eugene Fitzherbert",
+        "correct_answer": "Rameses",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2693,14 +2693,14 @@
         "id": "ent_169",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In Ratatouille, what is the name of the motto 'Anyone Can Cook' associated with?",
+        "question": "What is the name of the city in Futurama?",
         "options": [
-          "Auguste Gusteau",
-          "Anton Ego",
-          "Chef Skinner",
-          "Colette"
+          "New New York",
+          "New York",
+          "Future City",
+          "Planet Express City"
         ],
-        "correct_answer": "Auguste Gusteau",
+        "correct_answer": "New New York",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2869,14 +2869,14 @@
         "id": "ent_180",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "Who plays Michael Scott in The Office (US)?",
+        "question": "Who plays Walter White in Breaking Bad?",
         "options": [
-          "Steve Carell",
-          "Rainn Wilson",
-          "John Krasinski",
-          "B.J. Novak"
+          "Bryan Cranston",
+          "Aaron Paul",
+          "Dean Norris",
+          "Bob Odenkirk"
         ],
-        "correct_answer": "Steve Carell",
+        "correct_answer": "Bryan Cranston",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -2981,14 +2981,14 @@
         "id": "ent_187",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the department store in The Office (UK)?",
+        "question": "What is the name of the law firm in Suits?",
         "options": [
-          "Wernham Hogg",
-          "Dunder Mifflin",
-          "Staples",
-          "Office Depot"
+          "Pearson Hardman",
+          "Harvey & Associates",
+          "Legal Services",
+          "Specter Litt"
         ],
-        "correct_answer": "Wernham Hogg",
+        "correct_answer": "Pearson Hardman",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -3029,14 +3029,14 @@
         "id": "ent_190",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "Who plays Dwight Schrute in The Office (US)?",
+        "question": "In Scrubs, what is J.D.'s real first name?",
         "options": [
-          "Rainn Wilson",
-          "Steve Carell",
-          "John Krasinski",
-          "Ed Helms"
+          "John",
+          "James",
+          "Jonathan",
+          "Jason"
         ],
-        "correct_answer": "Rainn Wilson",
+        "correct_answer": "John",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -3173,14 +3173,14 @@
         "id": "ent_199",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the paper company that buys Dunder Mifflin?",
+        "question": "What is the name of the hospital in Grey's Anatomy?",
         "options": [
-          "Sabre",
-          "Staples",
-          "Office Depot",
-          "Michael Scott Paper Company"
+          "Grey Sloan Memorial Hospital",
+          "Seattle Grace Hospital",
+          "Sacred Heart",
+          "County General"
         ],
-        "correct_answer": "Sabre",
+        "correct_answer": "Grey Sloan Memorial Hospital",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -3349,14 +3349,14 @@
         "id": "ent_210",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "In Arrested Development, what is the family's frozen banana stand called?",
+        "question": "In Community, what is the study group's favorite game?",
         "options": [
-          "Bluth's Original Frozen Banana Stand",
-          "The Banana Stand",
-          "Frozen Delights",
-          "Banana Bay"
+          "Dungeons & Dragons",
+          "Paintball",
+          "Foosball",
+          "Video games"
         ],
-        "correct_answer": "Bluth's Original Frozen Banana Stand",
+        "correct_answer": "Paintball",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -3461,14 +3461,14 @@
         "id": "ent_217",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of Andy's a cappella group in The Office (US)?",
+        "question": "In New Girl, what is the name of the bar where the characters hang out?",
         "options": [
-          "Here Comes Treble",
-          "The Office Singers",
-          "Paper Company Harmony",
-          "Acappella Express"
+          "The Griffin",
+          "MacLaren's",
+          "The Regal Beagle",
+          "Cheers"
         ],
-        "correct_answer": "Here Comes Treble",
+        "correct_answer": "The Griffin",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -3589,14 +3589,14 @@
         "id": "ent_225",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the improv group in The Office (US)?",
+        "question": "What is the name of the high school in Buffy the Vampire Slayer?",
         "options": [
-          "The Finer Things Club",
-          "Here Comes Treble",
-          "Threat Level Midnight",
-          "Scrantonicity"
+          "Sunnydale High",
+          "Riverdale High",
+          "Degrassi",
+          "West Beverly"
         ],
-        "correct_answer": "The Finer Things Club",
+        "correct_answer": "Sunnydale High",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -3861,14 +3861,14 @@
         "id": "ent_242",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "Who plays Luke Skywalker in Star Wars?",
+        "question": "Who plays Ellen Ripley in Alien?",
         "options": [
-          "Mark Hamill",
-          "Harrison Ford",
-          "Alec Guinness",
+          "Sigourney Weaver",
+          "Linda Hamilton",
+          "Jamie Lee Curtis",
           "Carrie Fisher"
         ],
-        "correct_answer": "Mark Hamill",
+        "correct_answer": "Sigourney Weaver",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -3893,14 +3893,14 @@
         "id": "ent_244",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of Thor's brother in the Marvel films?",
+        "question": "In Inception, what is Cobb's totem?",
         "options": [
-          "Loki",
-          "Odin",
-          "Heimdall",
-          "Balder"
+          "A spinning top",
+          "A chess piece",
+          "A die",
+          "A poker chip"
         ],
-        "correct_answer": "Loki",
+        "correct_answer": "A spinning top",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -3925,14 +3925,14 @@
         "id": "ent_246",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the child in The Mandalorian?",
+        "question": "What is the name of the AI assistant in Her?",
         "options": [
-          "Grogu",
-          "Yoda",
-          "Mando",
-          "Din"
+          "Samantha",
+          "Siri",
+          "Alexa",
+          "Cortana"
         ],
-        "correct_answer": "Grogu",
+        "correct_answer": "Samantha",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -3957,14 +3957,14 @@
         "id": "ent_248",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the first Star Wars film released?",
+        "question": "What is the name of the AI in 2001: A Space Odyssey?",
         "options": [
-          "A New Hope",
-          "The Empire Strikes Back",
-          "The Phantom Menace",
-          "Return of the Jedi"
+          "HAL 9000",
+          "GLaDOS",
+          "Skynet",
+          "JARVIS"
         ],
-        "correct_answer": "A New Hope",
+        "correct_answer": "HAL 9000",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -4021,14 +4021,14 @@
         "id": "ent_252",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of Thor's home realm in the Marvel films?",
+        "question": "In The Truman Show, what is Truman's job?",
         "options": [
-          "Asgard",
-          "Valhalla",
-          "Midgard",
-          "Jotunheim"
+          "Insurance salesman",
+          "Teacher",
+          "Banker",
+          "Architect"
         ],
-        "correct_answer": "Asgard",
+        "correct_answer": "Insurance salesman",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -4101,14 +4101,14 @@
         "id": "ent_257",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What color is Yoda's lightsaber in Star Wars?",
+        "question": "What is the name of the ship in Alien?",
         "options": [
-          "Green",
-          "Blue",
-          "Purple",
-          "Red"
+          "Nostromo",
+          "Sulaco",
+          "Prometheus",
+          "Covenant"
         ],
-        "correct_answer": "Green",
+        "correct_answer": "Nostromo",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -4245,14 +4245,14 @@
         "id": "ent_266",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "In The Mandalorian, what is the Mandalorian's real name?",
+        "question": "In Black Mirror, what is the name of the episode with the social media rating system?",
         "options": [
-          "Din Djarin",
-          "Boba Fett",
-          "Jango Fett",
-          "Paz Vizsla"
+          "Nosedive",
+          "San Junipero",
+          "White Christmas",
+          "Fifteen Million Merits"
         ],
-        "correct_answer": "Din Djarin",
+        "correct_answer": "Nosedive",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -4277,14 +4277,14 @@
         "id": "ent_268",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "In Star Wars, what is the name of the bounty hunter who captured Han Solo?",
+        "question": "In The Matrix Reloaded, what is the name of the Keymaker's city?",
         "options": [
-          "Boba Fett",
-          "Jango Fett",
-          "Greedo",
-          "Bossk"
+          "The Source",
+          "Zion",
+          "The Matrix",
+          "The Construct"
         ],
-        "correct_answer": "Boba Fett",
+        "correct_answer": "The Source",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -4453,14 +4453,14 @@
         "id": "ent_279",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "In Star Wars, what is the name of the Death Star's weakness?",
+        "question": "What is the name of the hoverboard company in Back to the Future Part II?",
         "options": [
-          "Thermal exhaust port",
-          "Power core",
-          "Shield generator",
-          "Reactor"
+          "Mattel",
+          "Griff's",
+          "Texaco",
+          "Cafe 80s"
         ],
-        "correct_answer": "Thermal exhaust port",
+        "correct_answer": "Mattel",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -4533,14 +4533,14 @@
         "id": "ent_284",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "In Star Wars, what is the name of Anakin Skywalker's mother?",
+        "question": "In Inception, what is the name of the device used to enter dreams?",
         "options": [
-          "Shmi Skywalker",
-          "Padmé Amidala",
-          "Leia Organa",
-          "Mon Mothma"
+          "The PASIV",
+          "The Totem",
+          "The Architect",
+          "The Extractor"
         ],
-        "correct_answer": "Shmi Skywalker",
+        "correct_answer": "The PASIV",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null

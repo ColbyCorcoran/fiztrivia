@@ -14566,6 +14566,806 @@
         "difficulty": "hard",
         "topic": "Pokémon",
         "subtopic": null
+      },
+      {
+        "id": "tec_034",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the name of Nintendo's iconic plumber?",
+        "options": [
+          "Mario",
+          "Luigi",
+          "Wario",
+          "Waluigi"
+        ],
+        "correct_answer": "Mario",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_035",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which company created the PlayStation?",
+        "options": [
+          "Sony",
+          "Microsoft",
+          "Nintendo",
+          "Sega"
+        ],
+        "correct_answer": "Sony",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_036",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the name of Link's fairy companion in 'The Legend of Zelda: Ocarina of Time'?",
+        "options": [
+          "Navi",
+          "Tael",
+          "Tatl",
+          "Midna"
+        ],
+        "correct_answer": "Navi",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_037",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game features a blocky world made entirely of cubes?",
+        "options": [
+          "Minecraft",
+          "Roblox",
+          "Terraria",
+          "Fortnite"
+        ],
+        "correct_answer": "Minecraft",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_038",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What color is Sonic the Hedgehog?",
+        "options": [
+          "Blue",
+          "Red",
+          "Green",
+          "Yellow"
+        ],
+        "correct_answer": "Blue",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_039",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game series features Master Chief?",
+        "options": [
+          "Halo",
+          "Call of Duty",
+          "Destiny",
+          "Titanfall"
+        ],
+        "correct_answer": "Halo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_040",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the maximum number of players in a standard Fortnite Battle Royale match?",
+        "options": [
+          "100",
+          "50",
+          "150",
+          "200"
+        ],
+        "correct_answer": "100",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_041",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which company makes the Xbox?",
+        "options": [
+          "Microsoft",
+          "Sony",
+          "Nintendo",
+          "Sega"
+        ],
+        "correct_answer": "Microsoft",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_042",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is Mario's profession?",
+        "options": [
+          "Plumber",
+          "Carpenter",
+          "Doctor",
+          "Chef"
+        ],
+        "correct_answer": "Plumber",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_043",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game involves catching creatures and battling them?",
+        "options": [
+          "Pokémon",
+          "Digimon",
+          "Monster Hunter",
+          "Yo-kai Watch"
+        ],
+        "correct_answer": "Pokémon",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_044",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the name of the princess Mario typically rescues?",
+        "options": [
+          "Princess Peach",
+          "Princess Daisy",
+          "Princess Rosalina",
+          "Princess Zelda"
+        ],
+        "correct_answer": "Princess Peach",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_045",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which battle royale game features building mechanics?",
+        "options": [
+          "Fortnite",
+          "PUBG",
+          "Apex Legends",
+          "Warzone"
+        ],
+        "correct_answer": "Fortnite",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_046",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What company created Pac-Man?",
+        "options": [
+          "Namco",
+          "Atari",
+          "Nintendo",
+          "Sega"
+        ],
+        "correct_answer": "Namco",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_047",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game series is known for the phrase 'Finish Him'?",
+        "options": [
+          "Mortal Kombat",
+          "Street Fighter",
+          "Tekken",
+          "Soul Calibur"
+        ],
+        "correct_answer": "Mortal Kombat",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_048",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the currency called in Roblox?",
+        "options": [
+          "Robux",
+          "V-Bucks",
+          "Coins",
+          "Gems"
+        ],
+        "correct_answer": "Robux",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_049",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which Nintendo console was released in 2017?",
+        "options": [
+          "Nintendo Switch",
+          "Wii U",
+          "3DS",
+          "Nintendo DS"
+        ],
+        "correct_answer": "Nintendo Switch",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_050",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type of animal is Crash Bandicoot?",
+        "options": [
+          "Bandicoot",
+          "Fox",
+          "Hedgehog",
+          "Raccoon"
+        ],
+        "correct_answer": "Bandicoot",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_051",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What year was the original Nintendo Entertainment System (NES) released in North America?",
+        "options": [
+          "1985",
+          "1983",
+          "1987",
+          "1990"
+        ],
+        "correct_answer": "1985",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_052",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game popularized the battle royale genre?",
+        "options": [
+          "PlayerUnknown's Battlegrounds (PUBG)",
+          "Fortnite",
+          "Apex Legends",
+          "H1Z1"
+        ],
+        "correct_answer": "PlayerUnknown's Battlegrounds (PUBG)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_053",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the name of the main character in 'The Legend of Zelda' series?",
+        "options": [
+          "Link",
+          "Zelda",
+          "Ganondorf",
+          "Epona"
+        ],
+        "correct_answer": "Link",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_054",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which company developed 'The Witcher 3: Wild Hunt'?",
+        "options": [
+          "CD Projekt Red",
+          "BioWare",
+          "Bethesda",
+          "Ubisoft"
+        ],
+        "correct_answer": "CD Projekt Red",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_055",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What was the first commercially successful video game?",
+        "options": [
+          "Pong",
+          "Space Invaders",
+          "Pac-Man",
+          "Asteroids"
+        ],
+        "correct_answer": "Pong",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_056",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game engine is used by 'Fortnite' and 'Gears of War'?",
+        "options": [
+          "Unreal Engine",
+          "Unity",
+          "CryEngine",
+          "Frostbite"
+        ],
+        "correct_answer": "Unreal Engine",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_057",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the best-selling video game of all time?",
+        "options": [
+          "Minecraft",
+          "Grand Theft Auto V",
+          "Tetris",
+          "Wii Sports"
+        ],
+        "correct_answer": "Minecraft",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_058",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which Valve game introduced the Steam platform?",
+        "options": [
+          "Half-Life 2",
+          "Counter-Strike",
+          "Portal",
+          "Team Fortress 2"
+        ],
+        "correct_answer": "Half-Life 2",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_059",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What year did the original PlayStation release in Japan?",
+        "options": [
+          "1994",
+          "1995",
+          "1996",
+          "1997"
+        ],
+        "correct_answer": "1994",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_060",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game features the character Kratos?",
+        "options": [
+          "God of War",
+          "Devil May Cry",
+          "Dante's Inferno",
+          "Darksiders"
+        ],
+        "correct_answer": "God of War",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_061",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the name of the protagonist in the 'Half-Life' series?",
+        "options": [
+          "Gordon Freeman",
+          "Adrian Shephard",
+          "Barney Calhoun",
+          "Alyx Vance"
+        ],
+        "correct_answer": "Gordon Freeman",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_062",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which fighting game series features Ryu and Ken?",
+        "options": [
+          "Street Fighter",
+          "Mortal Kombat",
+          "Tekken",
+          "King of Fighters"
+        ],
+        "correct_answer": "Street Fighter",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_063",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What does 'RPG' stand for in gaming?",
+        "options": [
+          "Role-Playing Game",
+          "Rocket Propelled Grenade",
+          "Real Player Game",
+          "Random Play Generator"
+        ],
+        "correct_answer": "Role-Playing Game",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_064",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game series is known for its tagline 'War. War never changes.'?",
+        "options": [
+          "Fallout",
+          "Call of Duty",
+          "Battlefield",
+          "Medal of Honor"
+        ],
+        "correct_answer": "Fallout",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_065",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What was Sega's mascot before Sonic?",
+        "options": [
+          "Alex Kidd",
+          "Ristar",
+          "Vectorman",
+          "Ecco the Dolphin"
+        ],
+        "correct_answer": "Alex Kidd",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_066",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game won Game of the Year at The Game Awards 2023?",
+        "options": [
+          "Baldur's Gate 3",
+          "The Legend of Zelda: Tears of the Kingdom",
+          "Spider-Man 2",
+          "Alan Wake 2"
+        ],
+        "correct_answer": "Baldur's Gate 3",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_067",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What company created League of Legends?",
+        "options": [
+          "Riot Games",
+          "Blizzard Entertainment",
+          "Valve",
+          "Epic Games"
+        ],
+        "correct_answer": "Riot Games",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_068",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What was the code name for the Nintendo 64 during development?",
+        "options": [
+          "Project Reality",
+          "Dolphin",
+          "Revolution",
+          "Cafe"
+        ],
+        "correct_answer": "Project Reality",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_069",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game designer created Metal Gear Solid?",
+        "options": [
+          "Hideo Kojima",
+          "Shigeru Miyamoto",
+          "Satoru Iwata",
+          "Hideki Kamiya"
+        ],
+        "correct_answer": "Hideo Kojima",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_070",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What year did the video game crash of North America occur?",
+        "options": [
+          "1983",
+          "1980",
+          "1985",
+          "1982"
+        ],
+        "correct_answer": "1983",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_071",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which indie game was created by Toby Fox?",
+        "options": [
+          "Undertale",
+          "Celeste",
+          "Hollow Knight",
+          "Stardew Valley"
+        ],
+        "correct_answer": "Undertale",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_072",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the name of the AI companion in 'Portal'?",
+        "options": [
+          "GLaDOS",
+          "Wheatley",
+          "Cave Johnson",
+          "Chell"
+        ],
+        "correct_answer": "GLaDOS",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_073",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game holds the record for most expensive game ever made?",
+        "options": [
+          "Star Citizen (in development)",
+          "Grand Theft Auto V",
+          "Cyberpunk 2077",
+          "Red Dead Redemption 2"
+        ],
+        "correct_answer": "Star Citizen (in development)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_074",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What was the first game to feature a named playable female character?",
+        "options": [
+          "Ms. Pac-Man",
+          "Metroid",
+          "Tomb Raider",
+          "Resident Evil"
+        ],
+        "correct_answer": "Ms. Pac-Man",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_075",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game engine powers 'The Elder Scrolls V: Skyrim'?",
+        "options": [
+          "Creation Engine",
+          "Gamebryo",
+          "Unreal Engine",
+          "Unity"
+        ],
+        "correct_answer": "Creation Engine",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_076",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the maximum level in the original 'Pac-Man'?",
+        "options": [
+          "256 (due to kill screen)",
+          "255",
+          "999",
+          "Infinite"
+        ],
+        "correct_answer": "256 (due to kill screen)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_077",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game was the first to use motion capture technology?",
+        "options": [
+          "Prince of Persia (1989)",
+          "Mortal Kombat",
+          "Virtua Fighter",
+          "Alone in the Dark"
+        ],
+        "correct_answer": "Prince of Persia (1989)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_078",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What does 'FPS' stand for in gaming (both meanings)?",
+        "options": [
+          "First-Person Shooter and Frames Per Second",
+          "First Player Start",
+          "Full Performance System",
+          "Fast Paced Strategy"
+        ],
+        "correct_answer": "First-Person Shooter and Frames Per Second",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_079",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game creator is known as the 'father of video games'?",
+        "options": [
+          "Ralph Baer",
+          "Nolan Bushnell",
+          "Shigeru Miyamoto",
+          "Sid Meier"
+        ],
+        "correct_answer": "Ralph Baer",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_080",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What was the first video game played in space?",
+        "options": [
+          "Tetris",
+          "Pong",
+          "Game Boy games",
+          "Space Invaders"
+        ],
+        "correct_answer": "Tetris",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_081",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game series popularized the 'New Game Plus' feature?",
+        "options": [
+          "Chrono Trigger",
+          "Final Fantasy VII",
+          "The Legend of Zelda",
+          "Super Mario Bros."
+        ],
+        "correct_answer": "Chrono Trigger",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_082",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the Konami Code?",
+        "options": [
+          "Up, Up, Down, Down, Left, Right, Left, Right, B, A",
+          "Up, Down, Left, Right, A, B",
+          "A, B, A, B, Up, Down",
+          "Left, Right, Up, Down, Start"
+        ],
+        "correct_answer": "Up, Up, Down, Down, Left, Right, Left, Right, B, A",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_083",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which game featured the first true open world?",
+        "options": [
+          "Elite (1984)",
+          "Grand Theft Auto III",
+          "The Legend of Zelda",
+          "Ultima"
+        ],
+        "correct_answer": "Elite (1984)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Art": [],

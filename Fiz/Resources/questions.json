@@ -4962,6 +4962,4646 @@
         "difficulty": "hard",
         "topic": "Harry Potter",
         "subtopic": null
+      },
+      {
+        "id": "lit_034",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Lord of the Rings'?",
+        "options": [
+          "J.R.R. Tolkien",
+          "C.S. Lewis",
+          "George R.R. Martin",
+          "Terry Pratchett"
+        ],
+        "correct_answer": "J.R.R. Tolkien",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_035",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of the lion in 'The Chronicles of Narnia'?",
+        "options": [
+          "Aslan",
+          "Simba",
+          "Mufasa",
+          "Leo"
+        ],
+        "correct_answer": "Aslan",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_036",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Hobbit'?",
+        "options": [
+          "J.R.R. Tolkien",
+          "C.S. Lewis",
+          "J.K. Rowling",
+          "Terry Brooks"
+        ],
+        "correct_answer": "J.R.R. Tolkien",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_037",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of the wizard in 'The Lord of the Rings'?",
+        "options": [
+          "Gandalf",
+          "Merlin",
+          "Dumbledore",
+          "Saruman"
+        ],
+        "correct_answer": "Gandalf",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_038",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Chronicles of Narnia'?",
+        "options": [
+          "C.S. Lewis",
+          "J.R.R. Tolkien",
+          "Philip Pullman",
+          "Roald Dahl"
+        ],
+        "correct_answer": "C.S. Lewis",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_039",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What creature is Smaug in 'The Hobbit'?",
+        "options": [
+          "Dragon",
+          "Troll",
+          "Goblin",
+          "Wizard"
+        ],
+        "correct_answer": "Dragon",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_040",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who created the Discworld series?",
+        "options": [
+          "Terry Pratchett",
+          "Neil Gaiman",
+          "Douglas Adams",
+          "Terry Brooks"
+        ],
+        "correct_answer": "Terry Pratchett",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_041",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of Frodo's gardener in LOTR?",
+        "options": [
+          "Samwise Gamgee",
+          "Merry Brandybuck",
+          "Pippin Took",
+          "Bilbo Baggins"
+        ],
+        "correct_answer": "Samwise Gamgee",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_042",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'A Game of Thrones'?",
+        "options": [
+          "George R.R. Martin",
+          "J.R.R. Tolkien",
+          "Patrick Rothfuss",
+          "Brandon Sanderson"
+        ],
+        "correct_answer": "George R.R. Martin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_043",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What magical land is accessed through a wardrobe?",
+        "options": [
+          "Narnia",
+          "Oz",
+          "Wonderland",
+          "Neverland"
+        ],
+        "correct_answer": "Narnia",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_044",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Name of the Wind'?",
+        "options": [
+          "Patrick Rothfuss",
+          "Brandon Sanderson",
+          "Patrick Rothfuss",
+          "Terry Goodkind"
+        ],
+        "correct_answer": "Patrick Rothfuss",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_045",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What race is Legolas in LOTR?",
+        "options": [
+          "Elf",
+          "Dwarf",
+          "Human",
+          "Hobbit"
+        ],
+        "correct_answer": "Elf",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_046",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'American Gods'?",
+        "options": [
+          "Neil Gaiman",
+          "Terry Pratchett",
+          "China Miéville",
+          "Stephen King"
+        ],
+        "correct_answer": "Neil Gaiman",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_047",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Wheel of Time' series?",
+        "options": [
+          "Robert Jordan",
+          "Brandon Sanderson",
+          "Terry Goodkind",
+          "Raymond E. Feist"
+        ],
+        "correct_answer": "Robert Jordan",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_048",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the One Ring's inscription in LOTR?",
+        "options": [
+          "A ring inscription in the Black Speech",
+          "Elvish runes",
+          "Dwarvish text",
+          "Ancient English"
+        ],
+        "correct_answer": "A ring inscription in the Black Speech",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_049",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Earthsea Cycle'?",
+        "options": [
+          "Ursula K. Le Guin",
+          "Anne McCaffrey",
+          "Marion Zimmer Bradley",
+          "Robin Hobb"
+        ],
+        "correct_answer": "Ursula K. Le Guin",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_050",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the capital of Westeros in 'A Song of Ice and Fire'?",
+        "options": [
+          "King's Landing",
+          "Winterfell",
+          "Casterly Rock",
+          "The Eyrie"
+        ],
+        "correct_answer": "King's Landing",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_051",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Stormlight Archive'?",
+        "options": [
+          "Brandon Sanderson",
+          "Patrick Rothfuss",
+          "Joe Abercrombie",
+          "Mark Lawrence"
+        ],
+        "correct_answer": "Brandon Sanderson",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_052",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What race are Gimli and Thorin in Tolkien's works?",
+        "options": [
+          "Dwarves",
+          "Elves",
+          "Hobbits",
+          "Ents"
+        ],
+        "correct_answer": "Dwarves",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_053",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Dark Tower' series?",
+        "options": [
+          "Stephen King",
+          "Dean Koontz",
+          "Clive Barker",
+          "Peter Straub"
+        ],
+        "correct_answer": "Stephen King",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_054",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of the school in 'The Name of the Wind'?",
+        "options": [
+          "The University",
+          "Hogwarts",
+          "The Arcanum",
+          "The Academy"
+        ],
+        "correct_answer": "The University",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_055",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Malazan Book of the Fallen'?",
+        "options": [
+          "Steven Erikson",
+          "Ian C. Esslemont",
+          "Glen Cook",
+          "R. Scott Bakker"
+        ],
+        "correct_answer": "Steven Erikson",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_056",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the ancient elvish city in LOTR?",
+        "options": [
+          "Rivendell",
+          "Lothlorien",
+          "Mirkwood",
+          "Grey Havens"
+        ],
+        "correct_answer": "Rivendell",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_057",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Kingkiller Chronicle'?",
+        "options": [
+          "Patrick Rothfuss",
+          "Brandon Sanderson",
+          "Brent Weeks",
+          "Peter V. Brett"
+        ],
+        "correct_answer": "Patrick Rothfuss",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_058",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of Jon Snow's direwolf?",
+        "options": [
+          "Ghost",
+          "Grey Wind",
+          "Summer",
+          "Nymeria"
+        ],
+        "correct_answer": "Ghost",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_059",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The First Law' trilogy?",
+        "options": [
+          "Joe Abercrombie",
+          "Mark Lawrence",
+          "Anthony Ryan",
+          "Brian McClellan"
+        ],
+        "correct_answer": "Joe Abercrombie",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_060",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the ring of power called in LOTR?",
+        "options": [
+          "The One Ring",
+          "The Ring of Sauron",
+          "The Master Ring",
+          "The Dark Ring"
+        ],
+        "correct_answer": "The One Ring",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_061",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who completed 'The Wheel of Time' after Robert Jordan's death?",
+        "options": [
+          "Brandon Sanderson",
+          "Harriet McDougal",
+          "Tom Doherty",
+          "Brandon Sanderson"
+        ],
+        "correct_answer": "Brandon Sanderson",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_062",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of the magic system in Brandon Sanderson's Mistborn?",
+        "options": [
+          "Allomancy",
+          "Feruchemy",
+          "Hemalurgy",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_063",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Black Company'?",
+        "options": [
+          "Glen Cook",
+          "Steven Erikson",
+          "Joe Abercrombie",
+          "R. Scott Bakker"
+        ],
+        "correct_answer": "Glen Cook",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_064",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the ancient language in 'The Inheritance Cycle'?",
+        "options": [
+          "The Ancient Language",
+          "Elvish",
+          "Dragon tongue",
+          "Old Speech"
+        ],
+        "correct_answer": "The Ancient Language",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_065",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Book of the New Sun'?",
+        "options": [
+          "Gene Wolfe",
+          "Jack Vance",
+          "M. John Harrison",
+          "China Miéville"
+        ],
+        "correct_answer": "Gene Wolfe",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_066",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the world called in 'The Wheel of Time'?",
+        "options": [
+          "The World",
+          "Randland",
+          "The Westlands",
+          "Tar Valon"
+        ],
+        "correct_answer": "The World",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_067",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'Gormenghast'?",
+        "options": [
+          "Mervyn Peake",
+          "Michael Moorcock",
+          "Fritz Leiber",
+          "Lord Dunsany"
+        ],
+        "correct_answer": "Mervyn Peake",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_068",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is Kvothe's true name in 'The Kingkiller Chronicle'?",
+        "options": [
+          "Kvothe (his calling name)",
+          "Kote",
+          "Maedre",
+          "All are names he uses"
+        ],
+        "correct_answer": "All are names he uses",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_069",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Dying Earth'?",
+        "options": [
+          "Jack Vance",
+          "Gene Wolfe",
+          "Clark Ashton Smith",
+          "Fritz Leiber"
+        ],
+        "correct_answer": "Jack Vance",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_070",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the capital city in Robert Jordan's 'Wheel of Time'?",
+        "options": [
+          "Tar Valon (Aes Sedai)",
+          "Caemlyn",
+          "Cairhien",
+          "Tear"
+        ],
+        "correct_answer": "Tar Valon (Aes Sedai)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_071",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Broken Empire' trilogy?",
+        "options": [
+          "Mark Lawrence",
+          "Joe Abercrombie",
+          "Anthony Ryan",
+          "Brian McClellan"
+        ],
+        "correct_answer": "Mark Lawrence",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_072",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the magic system called in Patrick Rothfuss's work?",
+        "options": [
+          "Sympathy",
+          "Naming",
+          "Both sympathy and naming",
+          "Alar"
+        ],
+        "correct_answer": "Both sympathy and naming",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_073",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who wrote 'The Prince of Nothing' trilogy?",
+        "options": [
+          "R. Scott Bakker",
+          "Steven Erikson",
+          "Glen Cook",
+          "Mark Lawrence"
+        ],
+        "correct_answer": "R. Scott Bakker",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_074",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": [
+          "William Shakespeare",
+          "Charles Dickens",
+          "Jane Austen",
+          "Mark Twain"
+        ],
+        "correct_answer": "William Shakespeare",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_075",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "options": [
+          "Jane Austen",
+          "Charlotte Brontë",
+          "Emily Brontë",
+          "George Eliot"
+        ],
+        "correct_answer": "Jane Austen",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_076",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'A Tale of Two Cities'?",
+        "options": [
+          "Charles Dickens",
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Thomas Hardy"
+        ],
+        "correct_answer": "Charles Dickens",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_077",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Adventures of Tom Sawyer'?",
+        "options": [
+          "Mark Twain",
+          "Jack London",
+          "Herman Melville",
+          "Nathaniel Hawthorne"
+        ],
+        "correct_answer": "Mark Twain",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_078",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Moby-Dick'?",
+        "options": [
+          "Herman Melville",
+          "Mark Twain",
+          "Ernest Hemingway",
+          "John Steinbeck"
+        ],
+        "correct_answer": "Herman Melville",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_079",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Great Expectations'?",
+        "options": [
+          "Charles Dickens",
+          "Thomas Hardy",
+          "George Eliot",
+          "Anthony Trollope"
+        ],
+        "correct_answer": "Charles Dickens",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_080",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Wuthering Heights'?",
+        "options": [
+          "Emily Brontë",
+          "Charlotte Brontë",
+          "Jane Austen",
+          "George Eliot"
+        ],
+        "correct_answer": "Emily Brontë",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_081",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Jane Eyre'?",
+        "options": [
+          "Charlotte Brontë",
+          "Emily Brontë",
+          "Jane Austen",
+          "Elizabeth Gaskell"
+        ],
+        "correct_answer": "Charlotte Brontë",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_082",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Great Gatsby'?",
+        "options": [
+          "F. Scott Fitzgerald",
+          "Ernest Hemingway",
+          "John Steinbeck",
+          "William Faulkner"
+        ],
+        "correct_answer": "F. Scott Fitzgerald",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_083",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": [
+          "Harper Lee",
+          "John Steinbeck",
+          "Truman Capote",
+          "Flannery O'Connor"
+        ],
+        "correct_answer": "Harper Lee",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_084",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Hamlet'?",
+        "options": [
+          "William Shakespeare",
+          "Christopher Marlowe",
+          "Ben Jonson",
+          "John Milton"
+        ],
+        "correct_answer": "William Shakespeare",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_085",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote '1984'?",
+        "options": [
+          "George Orwell",
+          "Aldous Huxley",
+          "Ray Bradbury",
+          "Arthur C. Clarke"
+        ],
+        "correct_answer": "George Orwell",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_086",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Picture of Dorian Gray'?",
+        "options": [
+          "Oscar Wilde",
+          "Robert Louis Stevenson",
+          "Bram Stoker",
+          "H.G. Wells"
+        ],
+        "correct_answer": "Oscar Wilde",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_087",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Frankenstein'?",
+        "options": [
+          "Mary Shelley",
+          "Bram Stoker",
+          "Edgar Allan Poe",
+          "H.G. Wells"
+        ],
+        "correct_answer": "Mary Shelley",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_088",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Dracula'?",
+        "options": [
+          "Bram Stoker",
+          "Mary Shelley",
+          "Robert Louis Stevenson",
+          "H.G. Wells"
+        ],
+        "correct_answer": "Bram Stoker",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_089",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Scarlet Letter'?",
+        "options": [
+          "Nathaniel Hawthorne",
+          "Herman Melville",
+          "Edgar Allan Poe",
+          "Washington Irving"
+        ],
+        "correct_answer": "Nathaniel Hawthorne",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_090",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Odyssey'?",
+        "options": [
+          "Homer",
+          "Virgil",
+          "Ovid",
+          "Sophocles"
+        ],
+        "correct_answer": "Homer",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_091",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "What city is the setting for 'A Tale of Two Cities'?",
+        "options": [
+          "London and Paris",
+          "London and Dublin",
+          "Paris and Rome",
+          "New York and Boston"
+        ],
+        "correct_answer": "London and Paris",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_092",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Crime and Punishment'?",
+        "options": [
+          "Fyodor Dostoevsky",
+          "Leo Tolstoy",
+          "Anton Chekhov",
+          "Ivan Turgenev"
+        ],
+        "correct_answer": "Fyodor Dostoevsky",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_093",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Anna Karenina'?",
+        "options": [
+          "Leo Tolstoy",
+          "Fyodor Dostoevsky",
+          "Ivan Turgenev",
+          "Nikolai Gogol"
+        ],
+        "correct_answer": "Leo Tolstoy",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_094",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Les Misérables'?",
+        "options": [
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Gustave Flaubert",
+          "Émile Zola"
+        ],
+        "correct_answer": "Victor Hugo",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_095",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Count of Monte Cristo'?",
+        "options": [
+          "Alexandre Dumas",
+          "Victor Hugo",
+          "Honoré de Balzac",
+          "Guy de Maupassant"
+        ],
+        "correct_answer": "Alexandre Dumas",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_096",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "What is the name of the whale in 'Moby-Dick'?",
+        "options": [
+          "Moby Dick",
+          "Leviathan",
+          "The White Whale",
+          "Ahab"
+        ],
+        "correct_answer": "Moby Dick",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_097",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Madame Bovary'?",
+        "options": [
+          "Gustave Flaubert",
+          "Victor Hugo",
+          "Émile Zola",
+          "Guy de Maupassant"
+        ],
+        "correct_answer": "Gustave Flaubert",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_098",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Brothers Karamazov'?",
+        "options": [
+          "Fyodor Dostoevsky",
+          "Leo Tolstoy",
+          "Anton Chekhov",
+          "Maxim Gorky"
+        ],
+        "correct_answer": "Fyodor Dostoevsky",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_099",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Don Quixote'?",
+        "options": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Federico García Lorca",
+          "Pedro Calderón"
+        ],
+        "correct_answer": "Miguel de Cervantes",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_100",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Canterbury Tales'?",
+        "options": [
+          "Geoffrey Chaucer",
+          "William Langland",
+          "John Gower",
+          "Thomas Malory"
+        ],
+        "correct_answer": "Geoffrey Chaucer",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_101",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Paradise Lost'?",
+        "options": [
+          "John Milton",
+          "William Blake",
+          "Alexander Pope",
+          "John Donne"
+        ],
+        "correct_answer": "John Milton",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_102",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Gulliver's Travels'?",
+        "options": [
+          "Jonathan Swift",
+          "Daniel Defoe",
+          "Henry Fielding",
+          "Laurence Sterne"
+        ],
+        "correct_answer": "Jonathan Swift",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_103",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Candide'?",
+        "options": [
+          "Voltaire",
+          "Jean-Jacques Rousseau",
+          "Denis Diderot",
+          "Montesquieu"
+        ],
+        "correct_answer": "Voltaire",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_104",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Hunchback of Notre-Dame'?",
+        "options": [
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Gustave Flaubert",
+          "Honoré de Balzac"
+        ],
+        "correct_answer": "Victor Hugo",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_105",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Vanity Fair'?",
+        "options": [
+          "William Makepeace Thackeray",
+          "Charles Dickens",
+          "Anthony Trollope",
+          "George Eliot"
+        ],
+        "correct_answer": "William Makepeace Thackeray",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_106",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Middlemarch'?",
+        "options": [
+          "George Eliot",
+          "Jane Austen",
+          "Charlotte Brontë",
+          "Elizabeth Gaskell"
+        ],
+        "correct_answer": "George Eliot",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_107",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Iliad'?",
+        "options": [
+          "Homer",
+          "Virgil",
+          "Hesiod",
+          "Sophocles"
+        ],
+        "correct_answer": "Homer",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_108",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Divine Comedy'?",
+        "options": [
+          "Dante Alighieri",
+          "Petrarch",
+          "Boccaccio",
+          "Ariosto"
+        ],
+        "correct_answer": "Dante Alighieri",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_109",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'War and Peace'?",
+        "options": [
+          "Leo Tolstoy",
+          "Fyodor Dostoevsky",
+          "Ivan Turgenev",
+          "Anton Chekhov"
+        ],
+        "correct_answer": "Leo Tolstoy",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_110",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Ulysses'?",
+        "options": [
+          "James Joyce",
+          "Samuel Beckett",
+          "W.B. Yeats",
+          "Oscar Wilde"
+        ],
+        "correct_answer": "James Joyce",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_111",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'In Search of Lost Time' (Remembrance of Things Past)?",
+        "options": [
+          "Marcel Proust",
+          "André Gide",
+          "Albert Camus",
+          "Jean-Paul Sartre"
+        ],
+        "correct_answer": "Marcel Proust",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_112",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Aeneid'?",
+        "options": [
+          "Virgil",
+          "Homer",
+          "Ovid",
+          "Horace"
+        ],
+        "correct_answer": "Virgil",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_113",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Oedipus Rex'?",
+        "options": [
+          "Sophocles",
+          "Euripides",
+          "Aeschylus",
+          "Aristophanes"
+        ],
+        "correct_answer": "Sophocles",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_114",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Metamorphoses'?",
+        "options": [
+          "Ovid",
+          "Virgil",
+          "Homer",
+          "Horace"
+        ],
+        "correct_answer": "Ovid",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_115",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'One Hundred Years of Solitude'?",
+        "options": [
+          "Gabriel García Márquez",
+          "Jorge Luis Borges",
+          "Pablo Neruda",
+          "Octavio Paz"
+        ],
+        "correct_answer": "Gabriel García Márquez",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_116",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Master and Margarita'?",
+        "options": [
+          "Mikhail Bulgakov",
+          "Boris Pasternak",
+          "Vladimir Nabokov",
+          "Alexander Solzhenitsyn"
+        ],
+        "correct_answer": "Mikhail Bulgakov",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_117",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Trial'?",
+        "options": [
+          "Franz Kafka",
+          "Hermann Hesse",
+          "Thomas Mann",
+          "Robert Musil"
+        ],
+        "correct_answer": "Franz Kafka",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_118",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Sound and the Fury'?",
+        "options": [
+          "William Faulkner",
+          "Ernest Hemingway",
+          "John Steinbeck",
+          "F. Scott Fitzgerald"
+        ],
+        "correct_answer": "William Faulkner",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_119",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Absalom, Absalom!'?",
+        "options": [
+          "William Faulkner",
+          "Thomas Wolfe",
+          "Sinclair Lewis",
+          "Theodore Dreiser"
+        ],
+        "correct_answer": "William Faulkner",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_120",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'The Grapes of Wrath'?",
+        "options": [
+          "John Steinbeck",
+          "William Faulkner",
+          "Ernest Hemingway",
+          "Sinclair Lewis"
+        ],
+        "correct_answer": "John Steinbeck",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_121",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Beloved'?",
+        "options": [
+          "Toni Morrison",
+          "Alice Walker",
+          "Maya Angelou",
+          "Zora Neale Hurston"
+        ],
+        "correct_answer": "Toni Morrison",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_122",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Invisible Man'?",
+        "options": [
+          "Ralph Ellison",
+          "Richard Wright",
+          "James Baldwin",
+          "Langston Hughes"
+        ],
+        "correct_answer": "Ralph Ellison",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_123",
+        "category": "Literature",
+        "subcategory": "Classic Literature",
+        "question": "Who wrote 'Catch-22'?",
+        "options": [
+          "Joseph Heller",
+          "Kurt Vonnegut",
+          "Thomas Pynchon",
+          "Norman Mailer"
+        ],
+        "correct_answer": "Joseph Heller",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_124",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Hunger Games'?",
+        "options": [
+          "Suzanne Collins",
+          "Veronica Roth",
+          "Stephenie Meyer",
+          "Cassandra Clare"
+        ],
+        "correct_answer": "Suzanne Collins",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_125",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Da Vinci Code'?",
+        "options": [
+          "Dan Brown",
+          "John Grisham",
+          "Michael Crichton",
+          "Tom Clancy"
+        ],
+        "correct_answer": "Dan Brown",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_126",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Girl with the Dragon Tattoo'?",
+        "options": [
+          "Stieg Larsson",
+          "Jo Nesbø",
+          "Henning Mankell",
+          "Camilla Läckberg"
+        ],
+        "correct_answer": "Stieg Larsson",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_127",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Kite Runner'?",
+        "options": [
+          "Khaled Hosseini",
+          "Jhumpa Lahiri",
+          "Aravind Adiga",
+          "Mohsin Hamid"
+        ],
+        "correct_answer": "Khaled Hosseini",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_128",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Life of Pi'?",
+        "options": [
+          "Yann Martel",
+          "Salman Rushdie",
+          "Arundhati Roy",
+          "Vikram Seth"
+        ],
+        "correct_answer": "Yann Martel",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_129",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Fault in Our Stars'?",
+        "options": [
+          "John Green",
+          "Rainbow Rowell",
+          "David Levithan",
+          "Gayle Forman"
+        ],
+        "correct_answer": "John Green",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_130",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Gone Girl'?",
+        "options": [
+          "Gillian Flynn",
+          "Paula Hawkins",
+          "Tana French",
+          "Ruth Ware"
+        ],
+        "correct_answer": "Gillian Flynn",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_131",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Help'?",
+        "options": [
+          "Kathryn Stockett",
+          "Sue Monk Kidd",
+          "Jodi Picoult",
+          "Alice Sebold"
+        ],
+        "correct_answer": "Kathryn Stockett",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_132",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Lovely Bones'?",
+        "options": [
+          "Alice Sebold",
+          "Jodi Picoult",
+          "Kathryn Stockett",
+          "Sue Monk Kidd"
+        ],
+        "correct_answer": "Alice Sebold",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_133",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Handmaid's Tale'?",
+        "options": [
+          "Margaret Atwood",
+          "Ursula K. Le Guin",
+          "Octavia Butler",
+          "Doris Lessing"
+        ],
+        "correct_answer": "Margaret Atwood",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_134",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Road'?",
+        "options": [
+          "Cormac McCarthy",
+          "Don DeLillo",
+          "Philip Roth",
+          "Jonathan Franzen"
+        ],
+        "correct_answer": "Cormac McCarthy",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_135",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Twilight'?",
+        "options": [
+          "Stephenie Meyer",
+          "Cassandra Clare",
+          "Suzanne Collins",
+          "Veronica Roth"
+        ],
+        "correct_answer": "Stephenie Meyer",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_136",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Alchemist'?",
+        "options": [
+          "Paulo Coelho",
+          "Gabriel García Márquez",
+          "Isabel Allende",
+          "Jorge Amado"
+        ],
+        "correct_answer": "Paulo Coelho",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_137",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'A Thousand Splendid Suns'?",
+        "options": [
+          "Khaled Hosseini",
+          "Jhumpa Lahiri",
+          "Aravind Adiga",
+          "Mohsin Hamid"
+        ],
+        "correct_answer": "Khaled Hosseini",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_138",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Girl on the Train'?",
+        "options": [
+          "Paula Hawkins",
+          "Gillian Flynn",
+          "Tana French",
+          "Ruth Ware"
+        ],
+        "correct_answer": "Paula Hawkins",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_139",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Water for Elephants'?",
+        "options": [
+          "Sara Gruen",
+          "Kathryn Stockett",
+          "Sue Monk Kidd",
+          "Jodi Picoult"
+        ],
+        "correct_answer": "Sara Gruen",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_140",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Book Thief'?",
+        "options": [
+          "Markus Zusak",
+          "John Boyne",
+          "Anthony Doerr",
+          "Geraldine Brooks"
+        ],
+        "correct_answer": "Markus Zusak",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_141",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Secret History'?",
+        "options": [
+          "Donna Tartt",
+          "Bret Easton Ellis",
+          "Jay McInerney",
+          "Jonathan Franzen"
+        ],
+        "correct_answer": "Donna Tartt",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_142",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'White Teeth'?",
+        "options": [
+          "Zadie Smith",
+          "Chimamanda Ngozi Adichie",
+          "Jhumpa Lahiri",
+          "Monica Ali"
+        ],
+        "correct_answer": "Zadie Smith",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_143",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Middlesex'?",
+        "options": [
+          "Jeffrey Eugenides",
+          "Jonathan Franzen",
+          "Michael Chabon",
+          "Rick Moody"
+        ],
+        "correct_answer": "Jeffrey Eugenides",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_144",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Corrections'?",
+        "options": [
+          "Jonathan Franzen",
+          "Don DeLillo",
+          "Philip Roth",
+          "David Foster Wallace"
+        ],
+        "correct_answer": "Jonathan Franzen",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_145",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Infinite Jest'?",
+        "options": [
+          "David Foster Wallace",
+          "Thomas Pynchon",
+          "Don DeLillo",
+          "Jonathan Franzen"
+        ],
+        "correct_answer": "David Foster Wallace",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_146",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Cloud Atlas'?",
+        "options": [
+          "David Mitchell",
+          "Haruki Murakami",
+          "Kazuo Ishiguro",
+          "Ian McEwan"
+        ],
+        "correct_answer": "David Mitchell",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_147",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Never Let Me Go'?",
+        "options": [
+          "Kazuo Ishiguro",
+          "Ian McEwan",
+          "Julian Barnes",
+          "Martin Amis"
+        ],
+        "correct_answer": "Kazuo Ishiguro",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_148",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Atonement'?",
+        "options": [
+          "Ian McEwan",
+          "Kazuo Ishiguro",
+          "Julian Barnes",
+          "Graham Swift"
+        ],
+        "correct_answer": "Ian McEwan",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_149",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Amazing Adventures of Kavalier & Clay'?",
+        "options": [
+          "Michael Chabon",
+          "Jonathan Safran Foer",
+          "Jeffrey Eugenides",
+          "Dave Eggers"
+        ],
+        "correct_answer": "Michael Chabon",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_150",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Everything Is Illuminated'?",
+        "options": [
+          "Jonathan Safran Foer",
+          "Michael Chabon",
+          "Nicole Krauss",
+          "Nathan Englander"
+        ],
+        "correct_answer": "Jonathan Safran Foer",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_151",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Brief Wondrous Life of Oscar Wao'?",
+        "options": [
+          "Junot Díaz",
+          "Gabriel García Márquez",
+          "Roberto Bolaño",
+          "Carlos Fuentes"
+        ],
+        "correct_answer": "Junot Díaz",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_152",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote '2666'?",
+        "options": [
+          "Roberto Bolaño",
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Carlos Fuentes"
+        ],
+        "correct_answer": "Roberto Bolaño",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_153",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Underground Railroad'?",
+        "options": [
+          "Colson Whitehead",
+          "Ta-Nehisi Coates",
+          "Jesmyn Ward",
+          "Yaa Gyasi"
+        ],
+        "correct_answer": "Colson Whitehead",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_154",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Half of a Yellow Sun'?",
+        "options": [
+          "Chimamanda Ngozi Adichie",
+          "Zadie Smith",
+          "Yaa Gyasi",
+          "NoViolet Bulawayo"
+        ],
+        "correct_answer": "Chimamanda Ngozi Adichie",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_155",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Goldfinch'?",
+        "options": [
+          "Donna Tartt",
+          "Jennifer Egan",
+          "Ann Patchett",
+          "Elizabeth Strout"
+        ],
+        "correct_answer": "Donna Tartt",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_156",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'A Visit from the Goon Squad'?",
+        "options": [
+          "Jennifer Egan",
+          "Donna Tartt",
+          "Ann Patchett",
+          "Alice Munro"
+        ],
+        "correct_answer": "Jennifer Egan",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_157",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Norwegian Wood'?",
+        "options": [
+          "Haruki Murakami",
+          "Kazuo Ishiguro",
+          "Yukio Mishima",
+          "Kenzaburō Ōe"
+        ],
+        "correct_answer": "Haruki Murakami",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_158",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Gravity's Rainbow'?",
+        "options": [
+          "Thomas Pynchon",
+          "Don DeLillo",
+          "David Foster Wallace",
+          "William Gaddis"
+        ],
+        "correct_answer": "Thomas Pynchon",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_159",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Underworld'?",
+        "options": [
+          "Don DeLillo",
+          "Thomas Pynchon",
+          "Philip Roth",
+          "Cormac McCarthy"
+        ],
+        "correct_answer": "Don DeLillo",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_160",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'American Pastoral'?",
+        "options": [
+          "Philip Roth",
+          "Don DeLillo",
+          "Saul Bellow",
+          "John Updike"
+        ],
+        "correct_answer": "Philip Roth",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_161",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Blood Meridian'?",
+        "options": [
+          "Cormac McCarthy",
+          "Don DeLillo",
+          "Philip Roth",
+          "Thomas Pynchon"
+        ],
+        "correct_answer": "Cormac McCarthy",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_162",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Recognitions'?",
+        "options": [
+          "William Gaddis",
+          "Thomas Pynchon",
+          "Don DeLillo",
+          "David Foster Wallace"
+        ],
+        "correct_answer": "William Gaddis",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_163",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Wind-Up Bird Chronicle'?",
+        "options": [
+          "Haruki Murakami",
+          "Kenzaburō Ōe",
+          "Yukio Mishima",
+          "Jun'ichirō Tanizaki"
+        ],
+        "correct_answer": "Haruki Murakami",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_164",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Satanic Verses'?",
+        "options": [
+          "Salman Rushdie",
+          "V.S. Naipaul",
+          "Arundhati Roy",
+          "Vikram Seth"
+        ],
+        "correct_answer": "Salman Rushdie",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_165",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Disgrace'?",
+        "options": [
+          "J.M. Coetzee",
+          "Nadine Gordimer",
+          "Doris Lessing",
+          "Alan Paton"
+        ],
+        "correct_answer": "J.M. Coetzee",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_166",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Remains of the Day'?",
+        "options": [
+          "Kazuo Ishiguro",
+          "Ian McEwan",
+          "Julian Barnes",
+          "Graham Swift"
+        ],
+        "correct_answer": "Kazuo Ishiguro",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_167",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Blind Assassin'?",
+        "options": [
+          "Margaret Atwood",
+          "Alice Munro",
+          "Carol Shields",
+          "Anne Michaels"
+        ],
+        "correct_answer": "Margaret Atwood",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_168",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The God of Small Things'?",
+        "options": [
+          "Arundhati Roy",
+          "Jhumpa Lahiri",
+          "Kiran Desai",
+          "Anita Desai"
+        ],
+        "correct_answer": "Arundhati Roy",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_169",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Austerlitz'?",
+        "options": [
+          "W.G. Sebald",
+          "Thomas Bernhard",
+          "Peter Handke",
+          "Elfriede Jelinek"
+        ],
+        "correct_answer": "W.G. Sebald",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_170",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Savage Detectives'?",
+        "options": [
+          "Roberto Bolaño",
+          "Carlos Fuentes",
+          "Mario Vargas Llosa",
+          "Julio Cortázar"
+        ],
+        "correct_answer": "Roberto Bolaño",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_171",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Inheritance of Loss'?",
+        "options": [
+          "Kiran Desai",
+          "Arundhati Roy",
+          "Jhumpa Lahiri",
+          "Anita Desai"
+        ],
+        "correct_answer": "Kiran Desai",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_172",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'Wolf Hall'?",
+        "options": [
+          "Hilary Mantel",
+          "Eleanor Catton",
+          "Zadie Smith",
+          "Sarah Waters"
+        ],
+        "correct_answer": "Hilary Mantel",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_173",
+        "category": "Literature",
+        "subcategory": "Modern Fiction",
+        "question": "Who wrote 'The Luminaries'?",
+        "options": [
+          "Eleanor Catton",
+          "Hilary Mantel",
+          "Kate Atkinson",
+          "Sarah Waters"
+        ],
+        "correct_answer": "Eleanor Catton",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_174",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Raven'?",
+        "options": [
+          "Edgar Allan Poe",
+          "Robert Frost",
+          "Emily Dickinson",
+          "Walt Whitman"
+        ],
+        "correct_answer": "Edgar Allan Poe",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_175",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Road Not Taken'?",
+        "options": [
+          "Robert Frost",
+          "Carl Sandburg",
+          "Langston Hughes",
+          "E.E. Cummings"
+        ],
+        "correct_answer": "Robert Frost",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_176",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "How many lines are in a sonnet?",
+        "options": [
+          "14",
+          "10",
+          "12",
+          "16"
+        ],
+        "correct_answer": "14",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_177",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'I Wandered Lonely as a Cloud' (Daffodils)?",
+        "options": [
+          "William Wordsworth",
+          "Samuel Taylor Coleridge",
+          "Lord Byron",
+          "Percy Shelley"
+        ],
+        "correct_answer": "William Wordsworth",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_178",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is a haiku?",
+        "options": [
+          "A three-line Japanese poem",
+          "A four-line poem",
+          "A narrative poem",
+          "An epic poem"
+        ],
+        "correct_answer": "A three-line Japanese poem",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_179",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Leaves of Grass'?",
+        "options": [
+          "Walt Whitman",
+          "Emily Dickinson",
+          "Henry Wadsworth Longfellow",
+          "Edgar Allan Poe"
+        ],
+        "correct_answer": "Walt Whitman",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_180",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is a limerick?",
+        "options": [
+          "A five-line humorous poem",
+          "A fourteen-line poem",
+          "A three-line poem",
+          "An epic poem"
+        ],
+        "correct_answer": "A five-line humorous poem",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_181",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Howl'?",
+        "options": [
+          "Allen Ginsberg",
+          "Jack Kerouac",
+          "Lawrence Ferlinghetti",
+          "Gregory Corso"
+        ],
+        "correct_answer": "Allen Ginsberg",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_182",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who is known as the national poet of Scotland?",
+        "options": [
+          "Robert Burns",
+          "Sir Walter Scott",
+          "Robert Louis Stevenson",
+          "Hugh MacDiarmid"
+        ],
+        "correct_answer": "Robert Burns",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_183",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Waste Land'?",
+        "options": [
+          "T.S. Eliot",
+          "Ezra Pound",
+          "W.H. Auden",
+          "Wallace Stevens"
+        ],
+        "correct_answer": "T.S. Eliot",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_184",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is blank verse?",
+        "options": [
+          "Unrhymed iambic pentameter",
+          "Free verse",
+          "Rhymed couplets",
+          "Sonnets"
+        ],
+        "correct_answer": "Unrhymed iambic pentameter",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_185",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Do Not Go Gentle into That Good Night'?",
+        "options": [
+          "Dylan Thomas",
+          "W.H. Auden",
+          "Ted Hughes",
+          "Philip Larkin"
+        ],
+        "correct_answer": "Dylan Thomas",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_186",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "How many syllables are in a traditional haiku?",
+        "options": [
+          "17 (5-7-5)",
+          "15",
+          "12",
+          "21"
+        ],
+        "correct_answer": "17 (5-7-5)",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_187",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'If—'?",
+        "options": [
+          "Rudyard Kipling",
+          "Robert Frost",
+          "W.B. Yeats",
+          "T.S. Eliot"
+        ],
+        "correct_answer": "Rudyard Kipling",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_188",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is free verse?",
+        "options": [
+          "Poetry without regular meter or rhyme",
+          "Rhyming poetry",
+          "Sonnets",
+          "Haiku"
+        ],
+        "correct_answer": "Poetry without regular meter or rhyme",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_189",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Love Song of J. Alfred Prufrock'?",
+        "options": [
+          "T.S. Eliot",
+          "Ezra Pound",
+          "W.H. Auden",
+          "Robert Frost"
+        ],
+        "correct_answer": "T.S. Eliot",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_190",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is an epic poem?",
+        "options": [
+          "A long narrative poem",
+          "A short lyric poem",
+          "A humorous poem",
+          "A love poem"
+        ],
+        "correct_answer": "A long narrative poem",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_191",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Ode to a Nightingale'?",
+        "options": [
+          "John Keats",
+          "Percy Shelley",
+          "Lord Byron",
+          "William Wordsworth"
+        ],
+        "correct_answer": "John Keats",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_192",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Faerie Queene', an allegorical epic poem?",
+        "options": [
+          "Edmund Spenser",
+          "Christopher Marlowe",
+          "Philip Sidney",
+          "Ben Jonson"
+        ],
+        "correct_answer": "Edmund Spenser",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_193",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Rime of the Ancient Mariner'?",
+        "options": [
+          "Samuel Taylor Coleridge",
+          "William Wordsworth",
+          "Robert Southey",
+          "Lord Byron"
+        ],
+        "correct_answer": "Samuel Taylor Coleridge",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_194",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is a villanelle?",
+        "options": [
+          "A 19-line poem with specific rhyme scheme",
+          "A sonnet variation",
+          "A Japanese poem form",
+          "A four-line stanza"
+        ],
+        "correct_answer": "A 19-line poem with specific rhyme scheme",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_195",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Ozymandias'?",
+        "options": [
+          "Percy Bysshe Shelley",
+          "John Keats",
+          "Lord Byron",
+          "William Wordsworth"
+        ],
+        "correct_answer": "Percy Bysshe Shelley",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_196",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Second Coming'?",
+        "options": [
+          "W.B. Yeats",
+          "T.S. Eliot",
+          "Ezra Pound",
+          "W.H. Auden"
+        ],
+        "correct_answer": "W.B. Yeats",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_197",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is iambic pentameter?",
+        "options": [
+          "Five iambs (unstressed-stressed) per line",
+          "Five stressed syllables",
+          "Ten syllables with no pattern",
+          "Four beats per line"
+        ],
+        "correct_answer": "Five iambs (unstressed-stressed) per line",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_198",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Kubla Khan'?",
+        "options": [
+          "Samuel Taylor Coleridge",
+          "William Wordsworth",
+          "John Keats",
+          "Percy Shelley"
+        ],
+        "correct_answer": "Samuel Taylor Coleridge",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_199",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Annabel Lee'?",
+        "options": [
+          "Edgar Allan Poe",
+          "Emily Dickinson",
+          "Walt Whitman",
+          "Henry Wadsworth Longfellow"
+        ],
+        "correct_answer": "Edgar Allan Poe",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_200",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is a sestina?",
+        "options": [
+          "A 39-line poem with six-line stanzas",
+          "A fourteen-line poem",
+          "A narrative poem",
+          "A Japanese poem"
+        ],
+        "correct_answer": "A 39-line poem with six-line stanzas",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_201",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Hollow Men'?",
+        "options": [
+          "T.S. Eliot",
+          "Ezra Pound",
+          "W.H. Auden",
+          "Wallace Stevens"
+        ],
+        "correct_answer": "T.S. Eliot",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_202",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Invictus'?",
+        "options": [
+          "William Ernest Henley",
+          "Rudyard Kipling",
+          "Alfred Lord Tennyson",
+          "Robert Browning"
+        ],
+        "correct_answer": "William Ernest Henley",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_203",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is an ode?",
+        "options": [
+          "A lyric poem addressing a subject",
+          "A humorous poem",
+          "A narrative poem",
+          "A Japanese poem"
+        ],
+        "correct_answer": "A lyric poem addressing a subject",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_204",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Stopping by Woods on a Snowy Evening'?",
+        "options": [
+          "Robert Frost",
+          "Carl Sandburg",
+          "Wallace Stevens",
+          "E.E. Cummings"
+        ],
+        "correct_answer": "Robert Frost",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_205",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Charge of the Light Brigade'?",
+        "options": [
+          "Alfred Lord Tennyson",
+          "Robert Browning",
+          "Matthew Arnold",
+          "Gerard Manley Hopkins"
+        ],
+        "correct_answer": "Alfred Lord Tennyson",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_206",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "What is alliteration?",
+        "options": [
+          "Repetition of initial consonant sounds",
+          "Repetition of vowel sounds",
+          "Rhyming words",
+          "Meter pattern"
+        ],
+        "correct_answer": "Repetition of initial consonant sounds",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_207",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Funeral Blues' (Stop All the Clocks)?",
+        "options": [
+          "W.H. Auden",
+          "T.S. Eliot",
+          "Dylan Thomas",
+          "Philip Larkin"
+        ],
+        "correct_answer": "W.H. Auden",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_208",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Cantos'?",
+        "options": [
+          "Ezra Pound",
+          "T.S. Eliot",
+          "Wallace Stevens",
+          "Hart Crane"
+        ],
+        "correct_answer": "Ezra Pound",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_209",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Bridge'?",
+        "options": [
+          "Hart Crane",
+          "Wallace Stevens",
+          "William Carlos Williams",
+          "Ezra Pound"
+        ],
+        "correct_answer": "Hart Crane",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_210",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Paterson'?",
+        "options": [
+          "William Carlos Williams",
+          "Wallace Stevens",
+          "Hart Crane",
+          "Marianne Moore"
+        ],
+        "correct_answer": "William Carlos Williams",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_211",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Dream Songs'?",
+        "options": [
+          "John Berryman",
+          "Robert Lowell",
+          "Sylvia Plath",
+          "Anne Sexton"
+        ],
+        "correct_answer": "John Berryman",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_212",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Ariel'?",
+        "options": [
+          "Sylvia Plath",
+          "Anne Sexton",
+          "Adrienne Rich",
+          "Elizabeth Bishop"
+        ],
+        "correct_answer": "Sylvia Plath",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_213",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Life Studies'?",
+        "options": [
+          "Robert Lowell",
+          "John Berryman",
+          "Theodore Roethke",
+          "Delmore Schwartz"
+        ],
+        "correct_answer": "Robert Lowell",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_214",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Duino Elegies'?",
+        "options": [
+          "Rainer Maria Rilke",
+          "Paul Celan",
+          "Georg Trakl",
+          "Stefan George"
+        ],
+        "correct_answer": "Rainer Maria Rilke",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_215",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Four Quartets'?",
+        "options": [
+          "T.S. Eliot",
+          "Ezra Pound",
+          "W.H. Auden",
+          "Wallace Stevens"
+        ],
+        "correct_answer": "T.S. Eliot",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_216",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Harmonium'?",
+        "options": [
+          "Wallace Stevens",
+          "Hart Crane",
+          "William Carlos Williams",
+          "Ezra Pound"
+        ],
+        "correct_answer": "Wallace Stevens",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_217",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'North'?",
+        "options": [
+          "Seamus Heaney",
+          "Ted Hughes",
+          "Philip Larkin",
+          "Thom Gunn"
+        ],
+        "correct_answer": "Seamus Heaney",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_218",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Whitsun Weddings'?",
+        "options": [
+          "Philip Larkin",
+          "Ted Hughes",
+          "Thom Gunn",
+          "Seamus Heaney"
+        ],
+        "correct_answer": "Philip Larkin",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_219",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Crow'?",
+        "options": [
+          "Ted Hughes",
+          "Seamus Heaney",
+          "Philip Larkin",
+          "Geoffrey Hill"
+        ],
+        "correct_answer": "Ted Hughes",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_220",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Wild Iris'?",
+        "options": [
+          "Louise Glück",
+          "Jorie Graham",
+          "Rita Dove",
+          "Sharon Olds"
+        ],
+        "correct_answer": "Louise Glück",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_221",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Collected Poems' and won the Nobel Prize in 1995?",
+        "options": [
+          "Seamus Heaney",
+          "Derek Walcott",
+          "Joseph Brodsky",
+          "Wisława Szymborska"
+        ],
+        "correct_answer": "Seamus Heaney",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_222",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'Omeros'?",
+        "options": [
+          "Derek Walcott",
+          "Seamus Heaney",
+          "V.S. Naipaul",
+          "Kamau Brathwaite"
+        ],
+        "correct_answer": "Derek Walcott",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_223",
+        "category": "Literature",
+        "subcategory": "Poetry",
+        "question": "Who wrote 'The Changing Light at Sandover'?",
+        "options": [
+          "James Merrill",
+          "John Ashbery",
+          "A.R. Ammons",
+          "Mark Strand"
+        ],
+        "correct_answer": "James Merrill",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_224",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Charlotte's Web'?",
+        "options": [
+          "E.B. White",
+          "Roald Dahl",
+          "Dr. Seuss",
+          "Beverly Cleary"
+        ],
+        "correct_answer": "E.B. White",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_225",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Cat in the Hat'?",
+        "options": [
+          "Dr. Seuss",
+          "Roald Dahl",
+          "E.B. White",
+          "Eric Carle"
+        ],
+        "correct_answer": "Dr. Seuss",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_226",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Where the Wild Things Are'?",
+        "options": [
+          "Maurice Sendak",
+          "Dr. Seuss",
+          "Eric Carle",
+          "Margaret Wise Brown"
+        ],
+        "correct_answer": "Maurice Sendak",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_227",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Charlie and the Chocolate Factory'?",
+        "options": [
+          "Roald Dahl",
+          "Dr. Seuss",
+          "E.B. White",
+          "C.S. Lewis"
+        ],
+        "correct_answer": "Roald Dahl",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_228",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Very Hungry Caterpillar'?",
+        "options": [
+          "Eric Carle",
+          "Dr. Seuss",
+          "Maurice Sendak",
+          "Leo Lionni"
+        ],
+        "correct_answer": "Eric Carle",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_229",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Goodnight Moon'?",
+        "options": [
+          "Margaret Wise Brown",
+          "Dr. Seuss",
+          "Maurice Sendak",
+          "Beatrix Potter"
+        ],
+        "correct_answer": "Margaret Wise Brown",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_230",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who created the character Peter Rabbit?",
+        "options": [
+          "Beatrix Potter",
+          "A.A. Milne",
+          "Kenneth Grahame",
+          "E.B. White"
+        ],
+        "correct_answer": "Beatrix Potter",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_231",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Winnie-the-Pooh'?",
+        "options": [
+          "A.A. Milne",
+          "Beatrix Potter",
+          "Kenneth Grahame",
+          "E.B. White"
+        ],
+        "correct_answer": "A.A. Milne",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_232",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Green Eggs and Ham'?",
+        "options": [
+          "Dr. Seuss",
+          "Eric Carle",
+          "Maurice Sendak",
+          "Margaret Wise Brown"
+        ],
+        "correct_answer": "Dr. Seuss",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_233",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'James and the Giant Peach'?",
+        "options": [
+          "Roald Dahl",
+          "E.B. White",
+          "Beverly Cleary",
+          "Judy Blume"
+        ],
+        "correct_answer": "Roald Dahl",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_234",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Matilda'?",
+        "options": [
+          "Roald Dahl",
+          "Beverly Cleary",
+          "Judy Blume",
+          "Louis Sachar"
+        ],
+        "correct_answer": "Roald Dahl",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_235",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Giving Tree'?",
+        "options": [
+          "Shel Silverstein",
+          "Dr. Seuss",
+          "Maurice Sendak",
+          "Chris Van Allsburg"
+        ],
+        "correct_answer": "Shel Silverstein",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_236",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Ramona the Pest'?",
+        "options": [
+          "Beverly Cleary",
+          "Judy Blume",
+          "Roald Dahl",
+          "Lois Lowry"
+        ],
+        "correct_answer": "Beverly Cleary",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_237",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The BFG'?",
+        "options": [
+          "Roald Dahl",
+          "C.S. Lewis",
+          "Enid Blyton",
+          "Michael Bond"
+        ],
+        "correct_answer": "Roald Dahl",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_238",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Curious George'?",
+        "options": [
+          "H.A. Rey and Margret Rey",
+          "Dr. Seuss",
+          "Eric Carle",
+          "Don Freeman"
+        ],
+        "correct_answer": "H.A. Rey and Margret Rey",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_239",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Make Way for Ducklings'?",
+        "options": [
+          "Robert McCloskey",
+          "Dr. Seuss",
+          "Maurice Sendak",
+          "Chris Van Allsburg"
+        ],
+        "correct_answer": "Robert McCloskey",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_240",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Corduroy'?",
+        "options": [
+          "Don Freeman",
+          "Eric Carle",
+          "Leo Lionni",
+          "Ezra Jack Keats"
+        ],
+        "correct_answer": "Don Freeman",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_241",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'A Wrinkle in Time'?",
+        "options": [
+          "Madeleine L'Engle",
+          "Lois Lowry",
+          "Susan Cooper",
+          "Lloyd Alexander"
+        ],
+        "correct_answer": "Madeleine L'Engle",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_242",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Giver'?",
+        "options": [
+          "Lois Lowry",
+          "Madeleine L'Engle",
+          "Lois Duncan",
+          "Paula Danziger"
+        ],
+        "correct_answer": "Lois Lowry",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_243",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Holes'?",
+        "options": [
+          "Louis Sachar",
+          "Jerry Spinelli",
+          "Gary Paulsen",
+          "S.E. Hinton"
+        ],
+        "correct_answer": "Louis Sachar",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_244",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Bridge to Terabithia'?",
+        "options": [
+          "Katherine Paterson",
+          "Lois Lowry",
+          "Judy Blume",
+          "Paula Danziger"
+        ],
+        "correct_answer": "Katherine Paterson",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_245",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Phantom Tollbooth'?",
+        "options": [
+          "Norton Juster",
+          "Roald Dahl",
+          "E.L. Konigsburg",
+          "Natalie Babbitt"
+        ],
+        "correct_answer": "Norton Juster",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_246",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Tuck Everlasting'?",
+        "options": [
+          "Natalie Babbitt",
+          "Katherine Paterson",
+          "Lois Lowry",
+          "Madeleine L'Engle"
+        ],
+        "correct_answer": "Natalie Babbitt",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_247",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Where the Red Fern Grows'?",
+        "options": [
+          "Wilson Rawls",
+          "Gary Paulsen",
+          "Fred Gipson",
+          "Jim Kjelgaard"
+        ],
+        "correct_answer": "Wilson Rawls",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_248",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Island of the Blue Dolphins'?",
+        "options": [
+          "Scott O'Dell",
+          "Gary Paulsen",
+          "Jean Craighead George",
+          "Wilson Rawls"
+        ],
+        "correct_answer": "Scott O'Dell",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_249",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Wind in the Willows'?",
+        "options": [
+          "Kenneth Grahame",
+          "A.A. Milne",
+          "Beatrix Potter",
+          "E.B. White"
+        ],
+        "correct_answer": "Kenneth Grahame",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_250",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Hatchet'?",
+        "options": [
+          "Gary Paulsen",
+          "Will Hobbs",
+          "Jean Craighead George",
+          "Scott O'Dell"
+        ],
+        "correct_answer": "Gary Paulsen",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_251",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Secret Garden'?",
+        "options": [
+          "Frances Hodgson Burnett",
+          "Louisa May Alcott",
+          "L.M. Montgomery",
+          "Laura Ingalls Wilder"
+        ],
+        "correct_answer": "Frances Hodgson Burnett",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_252",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Little Women'?",
+        "options": [
+          "Louisa May Alcott",
+          "Frances Hodgson Burnett",
+          "L.M. Montgomery",
+          "Laura Ingalls Wilder"
+        ],
+        "correct_answer": "Louisa May Alcott",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_253",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Anne of Green Gables'?",
+        "options": [
+          "L.M. Montgomery",
+          "Louisa May Alcott",
+          "Frances Hodgson Burnett",
+          "Laura Ingalls Wilder"
+        ],
+        "correct_answer": "L.M. Montgomery",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_254",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Pippi Longstocking'?",
+        "options": [
+          "Astrid Lindgren",
+          "Roald Dahl",
+          "Enid Blyton",
+          "E.B. White"
+        ],
+        "correct_answer": "Astrid Lindgren",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_255",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Little Prince'?",
+        "options": [
+          "Antoine de Saint-Exupéry",
+          "Roald Dahl",
+          "E.B. White",
+          "C.S. Lewis"
+        ],
+        "correct_answer": "Antoine de Saint-Exupéry",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_256",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Harriet the Spy'?",
+        "options": [
+          "Louise Fitzhugh",
+          "Beverly Cleary",
+          "Judy Blume",
+          "E.L. Konigsburg"
+        ],
+        "correct_answer": "Louise Fitzhugh",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_257",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'From the Mixed-Up Files of Mrs. Basil E. Frankweiler'?",
+        "options": [
+          "E.L. Konigsburg",
+          "Beverly Cleary",
+          "Judy Blume",
+          "Louise Fitzhugh"
+        ],
+        "correct_answer": "E.L. Konigsburg",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_258",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Outsiders'?",
+        "options": [
+          "S.E. Hinton",
+          "Judy Blume",
+          "Paul Zindel",
+          "Robert Cormier"
+        ],
+        "correct_answer": "S.E. Hinton",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_259",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'A Light in the Attic'?",
+        "options": [
+          "Shel Silverstein",
+          "Jack Prelutsky",
+          "Roald Dahl",
+          "Dr. Seuss"
+        ],
+        "correct_answer": "Shel Silverstein",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_260",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Egypt Game'?",
+        "options": [
+          "Zilpha Keatley Snyder",
+          "E.L. Konigsburg",
+          "Beverly Cleary",
+          "Lois Lowry"
+        ],
+        "correct_answer": "Zilpha Keatley Snyder",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_261",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'My Side of the Mountain'?",
+        "options": [
+          "Jean Craighead George",
+          "Gary Paulsen",
+          "Scott O'Dell",
+          "Wilson Rawls"
+        ],
+        "correct_answer": "Jean Craighead George",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_262",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Maniac Magee'?",
+        "options": [
+          "Jerry Spinelli",
+          "Louis Sachar",
+          "Gary Paulsen",
+          "Paul Zindel"
+        ],
+        "correct_answer": "Jerry Spinelli",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_263",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Chocolate War'?",
+        "options": [
+          "Robert Cormier",
+          "S.E. Hinton",
+          "Paul Zindel",
+          "Jerry Spinelli"
+        ],
+        "correct_answer": "Robert Cormier",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_264",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Roll of Thunder, Hear My Cry'?",
+        "options": [
+          "Mildred D. Taylor",
+          "Virginia Hamilton",
+          "Katherine Paterson",
+          "Lois Lowry"
+        ],
+        "correct_answer": "Mildred D. Taylor",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_265",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Dark Is Rising' sequence?",
+        "options": [
+          "Susan Cooper",
+          "Lloyd Alexander",
+          "Madeleine L'Engle",
+          "Ursula K. Le Guin"
+        ],
+        "correct_answer": "Susan Cooper",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_266",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Black Cauldron' series?",
+        "options": [
+          "Lloyd Alexander",
+          "Susan Cooper",
+          "Patricia C. Wrede",
+          "Robin McKinley"
+        ],
+        "correct_answer": "Lloyd Alexander",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_267",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Hero and the Crown'?",
+        "options": [
+          "Robin McKinley",
+          "Tamora Pierce",
+          "Patricia C. Wrede",
+          "Susan Cooper"
+        ],
+        "correct_answer": "Robin McKinley",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_268",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Are You There God? It's Me, Margaret'?",
+        "options": [
+          "Judy Blume",
+          "Beverly Clearly",
+          "Paula Danziger",
+          "Lois Duncan"
+        ],
+        "correct_answer": "Judy Blume",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_269",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The True Confessions of Charlotte Doyle'?",
+        "options": [
+          "Avi",
+          "Gary Paulsen",
+          "Scott O'Dell",
+          "Karen Hesse"
+        ],
+        "correct_answer": "Avi",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_270",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Out of the Dust'?",
+        "options": [
+          "Karen Hesse",
+          "Sharon Creech",
+          "Patricia MacLachlan",
+          "Cynthia Rylant"
+        ],
+        "correct_answer": "Karen Hesse",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_271",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'Walk Two Moons'?",
+        "options": [
+          "Sharon Creech",
+          "Karen Hesse",
+          "Patricia MacLachlan",
+          "Cynthia Voigt"
+        ],
+        "correct_answer": "Sharon Creech",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_272",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The Westing Game'?",
+        "options": [
+          "Ellen Raskin",
+          "E.L. Konigsburg",
+          "Zilpha Keatley Snyder",
+          "Natalie Babbitt"
+        ],
+        "correct_answer": "Ellen Raskin",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_273",
+        "category": "Literature",
+        "subcategory": "Children's Books",
+        "question": "Who wrote 'The View from Saturday'?",
+        "options": [
+          "E.L. Konigsburg",
+          "Sharon Creech",
+          "Karen Hesse",
+          "Avi"
+        ],
+        "correct_answer": "E.L. Konigsburg",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_274",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What was Mark Twain's real name?",
+        "options": [
+          "Samuel Clemens",
+          "William Porter",
+          "Charles Dickens",
+          "Eric Blair"
+        ],
+        "correct_answer": "Samuel Clemens",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_275",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What was George Orwell's real name?",
+        "options": [
+          "Eric Blair",
+          "Charles Dodgson",
+          "Mary Ann Evans",
+          "Samuel Clemens"
+        ],
+        "correct_answer": "Eric Blair",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_276",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author wrote under the pen name Lewis Carroll?",
+        "options": [
+          "Charles Dodgson",
+          "Eric Blair",
+          "Samuel Clemens",
+          "William Porter"
+        ],
+        "correct_answer": "Charles Dodgson",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_277",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What pen name did Mary Ann Evans use?",
+        "options": [
+          "George Eliot",
+          "George Sand",
+          "Currer Bell",
+          "Ellis Bell"
+        ],
+        "correct_answer": "George Eliot",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_278",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author is known for writing while standing at a desk?",
+        "options": [
+          "Ernest Hemingway",
+          "Charles Dickens",
+          "Victor Hugo",
+          "Philip Roth"
+        ],
+        "correct_answer": "Ernest Hemingway",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_279",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who won the Nobel Prize in Literature in 2016?",
+        "options": [
+          "Bob Dylan",
+          "Kazuo Ishiguro",
+          "Louise Glück",
+          "Annie Ernaux"
+        ],
+        "correct_answer": "Bob Dylan",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_280",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author created the characters Sherlock Holmes and Dr. Watson?",
+        "options": [
+          "Arthur Conan Doyle",
+          "Agatha Christie",
+          "Edgar Allan Poe",
+          "G.K. Chesterton"
+        ],
+        "correct_answer": "Arthur Conan Doyle",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_281",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who wrote under the pen name 'Boz' early in their career?",
+        "options": [
+          "Charles Dickens",
+          "Mark Twain",
+          "Oscar Wilde",
+          "William Thackeray"
+        ],
+        "correct_answer": "Charles Dickens",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_282",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which Brontë sister wrote under the pen name Currer Bell?",
+        "options": [
+          "Charlotte Brontë",
+          "Emily Brontë",
+          "Anne Brontë",
+          "Branwell Brontë"
+        ],
+        "correct_answer": "Charlotte Brontë",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_283",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who is the best-selling fiction author of all time?",
+        "options": [
+          "Agatha Christie",
+          "William Shakespeare",
+          "J.K. Rowling",
+          "Stephen King"
+        ],
+        "correct_answer": "Agatha Christie",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_284",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author worked as a journalist before writing '1984'?",
+        "options": [
+          "George Orwell",
+          "Aldous Huxley",
+          "Ray Bradbury",
+          "Kurt Vonnegut"
+        ],
+        "correct_answer": "George Orwell",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_285",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who wrote 'On Writing: A Memoir of the Craft'?",
+        "options": [
+          "Stephen King",
+          "Annie Dillard",
+          "Anne Lamott",
+          "William Zinsser"
+        ],
+        "correct_answer": "Stephen King",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_286",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author founded The Paris Review literary magazine?",
+        "options": [
+          "George Plimpton",
+          "Ernest Hemingway",
+          "James Baldwin",
+          "Norman Mailer"
+        ],
+        "correct_answer": "George Plimpton",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_287",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What nationality was author Franz Kafka?",
+        "options": [
+          "Czech",
+          "German",
+          "Austrian",
+          "Polish"
+        ],
+        "correct_answer": "Czech",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_288",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author served as U.S. Ambassador to Spain?",
+        "options": [
+          "Washington Irving",
+          "James Russell Lowell",
+          "Nathaniel Hawthorne",
+          "Henry James"
+        ],
+        "correct_answer": "Washington Irving",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_289",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who was the first African American woman to win the Nobel Prize in Literature?",
+        "options": [
+          "Toni Morrison",
+          "Maya Angelou",
+          "Alice Walker",
+          "Zora Neale Hurston"
+        ],
+        "correct_answer": "Toni Morrison",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_290",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author wrote the essay 'Politics and the English Language'?",
+        "options": [
+          "George Orwell",
+          "Aldous Huxley",
+          "E.M. Forster",
+          "Virginia Woolf"
+        ],
+        "correct_answer": "George Orwell",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_291",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which Romantic poet drowned at age 29 in the Gulf of Spezia?",
+        "options": [
+          "Percy Bysshe Shelley",
+          "John Keats",
+          "Lord Byron",
+          "Samuel Taylor Coleridge"
+        ],
+        "correct_answer": "Percy Bysshe Shelley",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_292",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What was O. Henry's real name?",
+        "options": [
+          "William Sydney Porter",
+          "Samuel Clemens",
+          "Eric Blair",
+          "Theodore Geisel"
+        ],
+        "correct_answer": "William Sydney Porter",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_293",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author was a licensed pilot on Mississippi riverboats?",
+        "options": [
+          "Mark Twain",
+          "Herman Melville",
+          "Jack London",
+          "Ernest Hemingway"
+        ],
+        "correct_answer": "Mark Twain",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_294",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who wrote under the collective pen name 'Ellery Queen' with their cousin?",
+        "options": [
+          "Frederic Dannay and Manfred Lee",
+          "Erle Stanley Gardner",
+          "Dashiell Hammett",
+          "Raymond Chandler"
+        ],
+        "correct_answer": "Frederic Dannay and Manfred Lee",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_295",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author served as an ambulance driver in World War I?",
+        "options": [
+          "Ernest Hemingway",
+          "F. Scott Fitzgerald",
+          "John Dos Passos",
+          "E.E. Cummings"
+        ],
+        "correct_answer": "Ernest Hemingway",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_296",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What pen name did Charlotte Brontë's sister Emily use?",
+        "options": [
+          "Ellis Bell",
+          "Currer Bell",
+          "Acton Bell",
+          "George Eliot"
+        ],
+        "correct_answer": "Ellis Bell",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_297",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which Beat Generation writer worked as a fire lookout?",
+        "options": [
+          "Jack Kerouac",
+          "Allen Ginsberg",
+          "Gary Snyder",
+          "Lawrence Ferlinghetti"
+        ],
+        "correct_answer": "Jack Kerouac",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_298",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who won the Pulitzer Prize four times for drama?",
+        "options": [
+          "Eugene O'Neill",
+          "Tennessee Williams",
+          "Arthur Miller",
+          "Edward Albee"
+        ],
+        "correct_answer": "Eugene O'Neill",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_299",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author's middle name was Conan, not a pen name?",
+        "options": [
+          "Arthur Conan Doyle",
+          "Arthur Conan",
+          "Conan O'Brien",
+          "Robert E. Howard"
+        ],
+        "correct_answer": "Arthur Conan Doyle",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_300",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What was Dr. Seuss's real name?",
+        "options": [
+          "Theodor Seuss Geisel",
+          "Theodore Geisel Seuss",
+          "Seuss Theodore Geisel",
+          "Theodor Geisel"
+        ],
+        "correct_answer": "Theodor Seuss Geisel",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_301",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author declined the Nobel Prize in Literature in 1964?",
+        "options": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "Boris Pasternak",
+          "Aleksandr Solzhenitsyn"
+        ],
+        "correct_answer": "Jean-Paul Sartre",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_302",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which American author won the first Pulitzer Prize for Fiction?",
+        "options": [
+          "Edith Wharton",
+          "Willa Cather",
+          "Sinclair Lewis",
+          "Ernest Hemingway"
+        ],
+        "correct_answer": "Edith Wharton",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_303",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author worked as a customs inspector while writing poetry?",
+        "options": [
+          "Geoffrey Chaucer",
+          "William Wordsworth",
+          "Herman Melville",
+          "Wallace Stevens"
+        ],
+        "correct_answer": "Geoffrey Chaucer",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_304",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What literary movement was founded by André Breton in 1924?",
+        "options": [
+          "Surrealism",
+          "Dadaism",
+          "Futurism",
+          "Expressionism"
+        ],
+        "correct_answer": "Surrealism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_305",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author duo wrote as 'Nicci French'?",
+        "options": [
+          "Nicci Gerrard and Sean French",
+          "Nicci Harris and David French",
+          "Nicole French and Sean Gerrard",
+          "Nicola French"
+        ],
+        "correct_answer": "Nicci Gerrard and Sean French",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_306",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who was the youngest recipient of the Nobel Prize in Literature?",
+        "options": [
+          "Rudyard Kipling",
+          "Albert Camus",
+          "Bob Dylan",
+          "Toni Morrison"
+        ],
+        "correct_answer": "Rudyard Kipling",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_307",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which Harlem Renaissance writer worked as Langston Hughes's secretary?",
+        "options": [
+          "Zora Neale Hurston",
+          "Nella Larsen",
+          "Jessie Fauset",
+          "Dorothy West"
+        ],
+        "correct_answer": "Zora Neale Hurston",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_308",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which modernist writer worked as a bank clerk for Lloyd's Bank?",
+        "options": [
+          "T.S. Eliot",
+          "Ezra Pound",
+          "James Joyce",
+          "Virginia Woolf"
+        ],
+        "correct_answer": "T.S. Eliot",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_309",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What was the pen name of Aurore Dupin, French novelist?",
+        "options": [
+          "George Sand",
+          "George Eliot",
+          "Colette",
+          "Simone de Beauvoir"
+        ],
+        "correct_answer": "George Sand",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_310",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author was expelled from West Point for deliberately neglecting duties?",
+        "options": [
+          "Edgar Allan Poe",
+          "Herman Melville",
+          "Ambrose Bierce",
+          "Stephen Crane"
+        ],
+        "correct_answer": "Edgar Allan Poe",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_311",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who wrote under the heteronym 'Alberto Caeiro'?",
+        "options": [
+          "Fernando Pessoa",
+          "Jorge Luis Borges",
+          "Octavio Paz",
+          "Pablo Neruda"
+        ],
+        "correct_answer": "Fernando Pessoa",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_312",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which Existentialist author worked in the French Resistance?",
+        "options": [
+          "Albert Camus",
+          "Jean-Paul Sartre",
+          "Simone de Beauvoir",
+          "André Malraux"
+        ],
+        "correct_answer": "Albert Camus",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_313",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What was Isak Dinesen's real name?",
+        "options": [
+          "Karen Blixen",
+          "Sigrid Undset",
+          "Selma Lagerlöf",
+          "Astrid Lindgren"
+        ],
+        "correct_answer": "Karen Blixen",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_314",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author founded the literary movement 'Imagism'?",
+        "options": [
+          "Ezra Pound",
+          "T.S. Eliot",
+          "H.D. (Hilda Doolittle)",
+          "Amy Lowell"
+        ],
+        "correct_answer": "Ezra Pound",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_315",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who was the first woman to win the Neustadt International Prize for Literature?",
+        "options": [
+          "Elizabeth Bishop",
+          "Gabriela Mistral",
+          "Octavio Paz",
+          "Czesław Miłosz"
+        ],
+        "correct_answer": "Elizabeth Bishop",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_316",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author wrote under at least 72 different heteronyms?",
+        "options": [
+          "Fernando Pessoa",
+          "Jorge Luis Borges",
+          "Italo Calvino",
+          "Umberto Eco"
+        ],
+        "correct_answer": "Fernando Pessoa",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_317",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What was the pen name of Aleksey Maksimovich Peshkov?",
+        "options": [
+          "Maxim Gorky",
+          "Anton Chekhov",
+          "Ivan Turgenev",
+          "Nikolai Gogol"
+        ],
+        "correct_answer": "Maxim Gorky",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_318",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which Oulipo member wrote 'Life: A User's Manual'?",
+        "options": [
+          "Georges Perec",
+          "Italo Calvino",
+          "Raymond Queneau",
+          "Jacques Roubaud"
+        ],
+        "correct_answer": "Georges Perec",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_319",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who was the first Latin American to win the Nobel Prize in Literature?",
+        "options": [
+          "Gabriela Mistral",
+          "Pablo Neruda",
+          "Gabriel García Márquez",
+          "Octavio Paz"
+        ],
+        "correct_answer": "Gabriela Mistral",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_320",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which Victorian author worked as an opium addict and ran a household with Dante Gabriel Rossetti?",
+        "options": [
+          "Algernon Charles Swinburne",
+          "Christina Rossetti",
+          "Elizabeth Siddal",
+          "William Morris"
+        ],
+        "correct_answer": "Algernon Charles Swinburne",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_321",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "What was George Sand's relationship to Frédéric Chopin?",
+        "options": [
+          "Romantic partner",
+          "Sister",
+          "Patron",
+          "Student"
+        ],
+        "correct_answer": "Romantic partner",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_322",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Which author founded the literary theory of 'Carnivalization'?",
+        "options": [
+          "Mikhail Bakhtin",
+          "Viktor Shklovsky",
+          "Roman Jakobson",
+          "Vladimir Propp"
+        ],
+        "correct_answer": "Mikhail Bakhtin",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "lit_323",
+        "category": "Literature",
+        "subcategory": "Authors & Biography",
+        "question": "Who wrote the 'Oulipo' constraint novel 'A Void' without using the letter 'e'?",
+        "options": [
+          "Georges Perec",
+          "Raymond Queneau",
+          "Italo Calvino",
+          "Jacques Roubaud"
+        ],
+        "correct_answer": "Georges Perec",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Music": [

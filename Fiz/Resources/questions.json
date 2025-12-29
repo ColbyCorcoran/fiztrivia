@@ -6201,6 +6201,342 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "geo_047",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the capital of France?",
+        "options": [
+          "Paris",
+          "London",
+          "Berlin",
+          "Madrid"
+        ],
+        "correct_answer": "Paris",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_048",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the capital of Germany?",
+        "options": [
+          "Berlin",
+          "Munich",
+          "Hamburg",
+          "Frankfurt"
+        ],
+        "correct_answer": "Berlin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_049",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which river flows through London?",
+        "options": [
+          "Thames",
+          "Seine",
+          "Danube",
+          "Rhine"
+        ],
+        "correct_answer": "Thames",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_050",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which ocean is located between Africa and Australia?",
+        "options": [
+          "Indian Ocean",
+          "Pacific Ocean",
+          "Atlantic Ocean",
+          "Arctic Ocean"
+        ],
+        "correct_answer": "Indian Ocean",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_051",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the capital of Spain?",
+        "options": [
+          "Madrid",
+          "Barcelona",
+          "Valencia",
+          "Seville"
+        ],
+        "correct_answer": "Madrid",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_052",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which European mountain range includes Mont Blanc?",
+        "options": [
+          "The Alps",
+          "The Pyrenees",
+          "The Carpathians",
+          "The Apennines"
+        ],
+        "correct_answer": "The Alps",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_053",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the capital of Italy?",
+        "options": [
+          "Rome",
+          "Venice",
+          "Milan",
+          "Florence"
+        ],
+        "correct_answer": "Rome",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_054",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the largest freshwater lake by surface area?",
+        "options": [
+          "Lake Superior",
+          "Lake Baikal",
+          "Lake Michigan",
+          "Lake Huron"
+        ],
+        "correct_answer": "Lake Superior",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_055",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which African country has the most pyramids?",
+        "options": [
+          "Sudan",
+          "Egypt",
+          "Ethiopia",
+          "Libya"
+        ],
+        "correct_answer": "Sudan",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_056",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the only sea without any coasts?",
+        "options": [
+          "Sargasso Sea",
+          "Dead Sea",
+          "Red Sea",
+          "Black Sea"
+        ],
+        "correct_answer": "Sargasso Sea",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_057",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which country has the most natural lakes?",
+        "options": [
+          "Canada",
+          "Russia",
+          "United States",
+          "Finland"
+        ],
+        "correct_answer": "Canada",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_058",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which sea is bordered by Jordan, Israel, and the West Bank?",
+        "options": [
+          "Dead Sea",
+          "Red Sea",
+          "Mediterranean Sea",
+          "Black Sea"
+        ],
+        "correct_answer": "Dead Sea",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_059",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which strait separates Europe from Africa?",
+        "options": [
+          "Strait of Gibraltar",
+          "Bosphorus Strait",
+          "Strait of Hormuz",
+          "Strait of Malacca"
+        ],
+        "correct_answer": "Strait of Gibraltar",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_060",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the world's largest hot desert?",
+        "options": [
+          "Sahara Desert",
+          "Arabian Desert",
+          "Kalahari Desert",
+          "Gobi Desert"
+        ],
+        "correct_answer": "Sahara Desert",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_061",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which continent has the highest average elevation?",
+        "options": [
+          "Antarctica",
+          "Asia",
+          "South America",
+          "Africa"
+        ],
+        "correct_answer": "Antarctica",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_062",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the world's largest coral reef system?",
+        "options": [
+          "Great Barrier Reef",
+          "Mesoamerican Reef",
+          "New Caledonia Barrier Reef",
+          "Red Sea Coral Reef"
+        ],
+        "correct_answer": "Great Barrier Reef",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_063",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which country is home to the world's highest waterfall?",
+        "options": [
+          "Venezuela",
+          "Norway",
+          "Iceland",
+          "New Zealand"
+        ],
+        "correct_answer": "Venezuela",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_064",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the largest peninsula in the world?",
+        "options": [
+          "Arabian Peninsula",
+          "Indian Peninsula",
+          "Iberian Peninsula",
+          "Indochina Peninsula"
+        ],
+        "correct_answer": "Arabian Peninsula",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_065",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which African lake is the deepest in the world by maximum depth?",
+        "options": [
+          "Lake Tanganyika",
+          "Lake Malawi",
+          "Lake Victoria",
+          "Lake Turkana"
+        ],
+        "correct_answer": "Lake Tanganyika",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_066",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the largest plateau in the world?",
+        "options": [
+          "Tibetan Plateau",
+          "Colorado Plateau",
+          "Deccan Plateau",
+          "Ethiopian Plateau"
+        ],
+        "correct_answer": "Tibetan Plateau",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_067",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "Which country contains the most UNESCO World Heritage Sites?",
+        "options": [
+          "Italy",
+          "China",
+          "Spain",
+          "France"
+        ],
+        "correct_answer": "Italy",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Sports": [

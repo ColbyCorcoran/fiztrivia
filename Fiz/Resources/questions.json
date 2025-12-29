@@ -3406,6 +3406,902 @@
         ],
         "correct_answer": "Francis",
         "difficulty": "hard"
+      },
+      {
+        "id": "ent_237",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the captain in Firefly?",
+        "options": [
+          "Malcolm Reynolds",
+          "Wash",
+          "Jayne Cobb",
+          "Simon Tam"
+        ],
+        "correct_answer": "Malcolm Reynolds",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_238",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the starship in Star Trek?",
+        "options": [
+          "USS Enterprise",
+          "USS Voyager",
+          "USS Discovery",
+          "USS Defiant"
+        ],
+        "correct_answer": "USS Enterprise",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_239",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the spaceship in The Expanse?",
+        "options": [
+          "Rocinante",
+          "Serenity",
+          "Millennium Falcon",
+          "Enterprise"
+        ],
+        "correct_answer": "Rocinante",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_240",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the blue planet inhabited by the Na'vi in Avatar?",
+        "options": [
+          "Pandora",
+          "Pandorum",
+          "Prometheus",
+          "Polyphemus"
+        ],
+        "correct_answer": "Pandora",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_241",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What time-traveling vehicle is used in Back to the Future?",
+        "options": [
+          "DeLorean",
+          "TARDIS",
+          "Time Machine",
+          "Phone Booth"
+        ],
+        "correct_answer": "DeLorean",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_242",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who plays Luke Skywalker in Star Wars?",
+        "options": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Alec Guinness",
+          "Carrie Fisher"
+        ],
+        "correct_answer": "Mark Hamill",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_243",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the alien in E.T.?",
+        "options": [
+          "E.T.",
+          "Elliott",
+          "Gertie",
+          "Michael"
+        ],
+        "correct_answer": "E.T.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_244",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of Thor's brother in the Marvel films?",
+        "options": [
+          "Loki",
+          "Odin",
+          "Heimdall",
+          "Balder"
+        ],
+        "correct_answer": "Loki",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_245",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the time machine in Doctor Who?",
+        "options": [
+          "TARDIS",
+          "DeLorean",
+          "Time Turner",
+          "Sonic Screwdriver"
+        ],
+        "correct_answer": "TARDIS",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_246",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the child in The Mandalorian?",
+        "options": [
+          "Grogu",
+          "Yoda",
+          "Mando",
+          "Din"
+        ],
+        "correct_answer": "Grogu",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_247",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who plays Neo's mentor Morpheus in The Matrix?",
+        "options": [
+          "Laurence Fishburne",
+          "Keanu Reeves",
+          "Hugo Weaving",
+          "Carrie-Anne Moss"
+        ],
+        "correct_answer": "Laurence Fishburne",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_248",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the first Star Wars film released?",
+        "options": [
+          "A New Hope",
+          "The Empire Strikes Back",
+          "The Phantom Menace",
+          "Return of the Jedi"
+        ],
+        "correct_answer": "A New Hope",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_249",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the monster in Stranger Things?",
+        "options": [
+          "Demogorgon",
+          "Mind Flayer",
+          "Vecna",
+          "The Upside Down"
+        ],
+        "correct_answer": "Demogorgon",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_250",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the giant robots in Pacific Rim?",
+        "options": [
+          "Jaegers",
+          "Kaiju",
+          "Mechs",
+          "Titans"
+        ],
+        "correct_answer": "Jaegers",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_251",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who plays Captain Kirk in the original Star Trek series?",
+        "options": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "Patrick Stewart",
+          "Chris Pine"
+        ],
+        "correct_answer": "William Shatner",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_252",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of Thor's home realm in the Marvel films?",
+        "options": [
+          "Asgard",
+          "Valhalla",
+          "Midgard",
+          "Jotunheim"
+        ],
+        "correct_answer": "Asgard",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_253",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What speed must the DeLorean reach to time travel in Back to the Future?",
+        "options": [
+          "88 mph",
+          "100 mph",
+          "77 mph",
+          "99 mph"
+        ],
+        "correct_answer": "88 mph",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_254",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of Peter Quill's alter ego in Guardians of the Galaxy?",
+        "options": [
+          "Star-Lord",
+          "Rocket",
+          "Groot",
+          "Drax"
+        ],
+        "correct_answer": "Star-Lord",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_255",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who plays Mr. Spock in the original Star Trek?",
+        "options": [
+          "Leonard Nimoy",
+          "William Shatner",
+          "DeForest Kelley",
+          "Zachary Quinto"
+        ],
+        "correct_answer": "Leonard Nimoy",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_256",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the agency in Men in Black?",
+        "options": [
+          "Men in Black",
+          "MIB",
+          "The Agency",
+          "Secret Service"
+        ],
+        "correct_answer": "Men in Black",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_257",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What color is Yoda's lightsaber in Star Wars?",
+        "options": [
+          "Green",
+          "Blue",
+          "Purple",
+          "Red"
+        ],
+        "correct_answer": "Green",
+        "difficulty": "easy"
+      },
+      {
+        "id": "ent_258",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Battlestar Galactica, what are the robotic enemies called?",
+        "options": [
+          "Cylons",
+          "Daleks",
+          "Terminators",
+          "Replicators"
+        ],
+        "correct_answer": "Cylons",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_259",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the desert planet in Star Wars?",
+        "options": [
+          "Tatooine",
+          "Hoth",
+          "Dagobah",
+          "Endor"
+        ],
+        "correct_answer": "Tatooine",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_260",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In The Witcher, what is Geralt's nickname?",
+        "options": [
+          "The White Wolf",
+          "The Witcher",
+          "The Butcher",
+          "The Monster Hunter"
+        ],
+        "correct_answer": "The White Wolf",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_261",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the parallel dimension in Stranger Things?",
+        "options": [
+          "The Upside Down",
+          "The Shadow Realm",
+          "The Dark Place",
+          "The Void"
+        ],
+        "correct_answer": "The Upside Down",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_262",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Star Trek, what is Mr. Spock's home planet?",
+        "options": [
+          "Vulcan",
+          "Earth",
+          "Romulus",
+          "Qo'noS"
+        ],
+        "correct_answer": "Vulcan",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_263",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What year does Marty McFly travel to in Back to the Future?",
+        "options": [
+          "1955",
+          "1985",
+          "2015",
+          "1885"
+        ],
+        "correct_answer": "1955",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_264",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the spaceship in Firefly?",
+        "options": [
+          "Serenity",
+          "Millennium Falcon",
+          "Enterprise",
+          "Rocinante"
+        ],
+        "correct_answer": "Serenity",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_265",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the robot in The Iron Giant?",
+        "options": [
+          "The Iron Giant",
+          "Iron Man",
+          "The Giant",
+          "Robot 9"
+        ],
+        "correct_answer": "The Iron Giant",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_266",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In The Mandalorian, what is the Mandalorian's real name?",
+        "options": [
+          "Din Djarin",
+          "Boba Fett",
+          "Jango Fett",
+          "Paz Vizsla"
+        ],
+        "correct_answer": "Din Djarin",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_267",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who directed The Fifth Element?",
+        "options": [
+          "Luc Besson",
+          "James Cameron",
+          "Ridley Scott",
+          "Steven Spielberg"
+        ],
+        "correct_answer": "Luc Besson",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_268",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Star Wars, what is the name of the bounty hunter who captured Han Solo?",
+        "options": [
+          "Boba Fett",
+          "Jango Fett",
+          "Greedo",
+          "Bossk"
+        ],
+        "correct_answer": "Boba Fett",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_269",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the AI computer in 2001: A Space Odyssey?",
+        "options": [
+          "HAL 9000",
+          "JARVIS",
+          "Skynet",
+          "VIKI"
+        ],
+        "correct_answer": "HAL 9000",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_270",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Doctor Who, what is the Doctor's home planet?",
+        "options": [
+          "Gallifrey",
+          "Skaro",
+          "Trenzalore",
+          "Earth"
+        ],
+        "correct_answer": "Gallifrey",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_271",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the theme park in Westworld?",
+        "options": [
+          "Westworld",
+          "Delos Destinations",
+          "The Wild West",
+          "Frontier Land"
+        ],
+        "correct_answer": "Westworld",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_272",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Rick and Morty, what is Rick's last name?",
+        "options": [
+          "Sanchez",
+          "Smith",
+          "Morty",
+          "Rodriguez"
+        ],
+        "correct_answer": "Sanchez",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_273",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Star Trek: The Next Generation, who is the captain of the Enterprise?",
+        "options": [
+          "Jean-Luc Picard",
+          "James T. Kirk",
+          "Benjamin Sisko",
+          "Kathryn Janeway"
+        ],
+        "correct_answer": "Jean-Luc Picard",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_274",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Guardians of the Galaxy, what is the name of the powerful orb?",
+        "options": [
+          "The Power Stone",
+          "The Infinity Stone",
+          "The Orb",
+          "The Tesseract"
+        ],
+        "correct_answer": "The Power Stone",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_275",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Edge of Tomorrow, what causes the time loop?",
+        "options": [
+          "Alien blood",
+          "Quantum device",
+          "Time machine",
+          "Temporal anomaly"
+        ],
+        "correct_answer": "Alien blood",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_276",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Back to the Future, what is the name of Doc Brown's time-traveling train?",
+        "options": [
+          "The Time Train",
+          "The DeLorean Train",
+          "The Jules Verne Train",
+          "The Steam Time Machine"
+        ],
+        "correct_answer": "The Jules Verne Train",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_277",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Avatar, what is the name of the precious mineral mined on Pandora?",
+        "options": [
+          "Unobtanium",
+          "Vibranium",
+          "Adamantium",
+          "Kryptonite"
+        ],
+        "correct_answer": "Unobtanium",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_278",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the black monolith in 2001: A Space Odyssey?",
+        "options": [
+          "The Monolith",
+          "TMA-1",
+          "Discovery",
+          "Jupiter"
+        ],
+        "correct_answer": "TMA-1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_279",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Star Wars, what is the name of the Death Star's weakness?",
+        "options": [
+          "Thermal exhaust port",
+          "Power core",
+          "Shield generator",
+          "Reactor"
+        ],
+        "correct_answer": "Thermal exhaust port",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_280",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the city in Blade Runner?",
+        "options": [
+          "Los Angeles",
+          "New York",
+          "San Francisco",
+          "Tokyo"
+        ],
+        "correct_answer": "Los Angeles",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_281",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who plays Geralt of Rivia in The Witcher Netflix series?",
+        "options": [
+          "Henry Cavill",
+          "Chris Hemsworth",
+          "Tom Hiddleston",
+          "Jason Momoa"
+        ],
+        "correct_answer": "Henry Cavill",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_282",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Interstellar, what is the name of the robot?",
+        "options": [
+          "TARS",
+          "CASE",
+          "HAL",
+          "JARVIS"
+        ],
+        "correct_answer": "TARS",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_283",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who plays Gamora in Guardians of the Galaxy?",
+        "options": [
+          "Zoe Saldana",
+          "Scarlett Johansson",
+          "Lupita Nyong'o",
+          "Karen Gillan"
+        ],
+        "correct_answer": "Zoe Saldana",
+        "difficulty": "medium"
+      },
+      {
+        "id": "ent_284",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Star Wars, what is the name of Anakin Skywalker's mother?",
+        "options": [
+          "Shmi Skywalker",
+          "Padmé Amidala",
+          "Leia Organa",
+          "Mon Mothma"
+        ],
+        "correct_answer": "Shmi Skywalker",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_285",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Pacific Rim, what are the monsters called?",
+        "options": [
+          "Kaiju",
+          "Jaegers",
+          "Titans",
+          "Godzillas"
+        ],
+        "correct_answer": "Kaiju",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_286",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In The Expanse, what is the name of the protomolecule-infected station?",
+        "options": [
+          "Eros",
+          "Tycho Station",
+          "Ganymede",
+          "Ceres"
+        ],
+        "correct_answer": "Eros",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_287",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Stranger Things, what year does the first season take place?",
+        "options": [
+          "1983",
+          "1985",
+          "1980",
+          "1984"
+        ],
+        "correct_answer": "1983",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_288",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Star Trek, what is the Prime Directive?",
+        "options": [
+          "Non-interference with less advanced civilizations",
+          "Always help those in need",
+          "Explore strange new worlds",
+          "Seek out new life"
+        ],
+        "correct_answer": "Non-interference with less advanced civilizations",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_289",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Rick and Morty, what is Morty's last name?",
+        "options": [
+          "Smith",
+          "Sanchez",
+          "Johnson",
+          "Brown"
+        ],
+        "correct_answer": "Smith",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_290",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Back to the Future, what is Doc Brown's first name?",
+        "options": [
+          "Emmett",
+          "Edward",
+          "Ernest",
+          "Elijah"
+        ],
+        "correct_answer": "Emmett",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_291",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Battlestar Galactica, what is the name of the last battlestar?",
+        "options": [
+          "Galactica",
+          "Pegasus",
+          "Atlantia",
+          "Columbia"
+        ],
+        "correct_answer": "Galactica",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_292",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the AI in Westworld that controls the park?",
+        "options": [
+          "Rehoboam",
+          "Arnold",
+          "Ford",
+          "Dolores"
+        ],
+        "correct_answer": "Rehoboam",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_293",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Star Wars, what is the name of the Sith homeworld?",
+        "options": [
+          "Korriban",
+          "Mustafar",
+          "Exegol",
+          "Moraband"
+        ],
+        "correct_answer": "Korriban",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_294",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In The Princess Bride, what is the name of the six-fingered man?",
+        "options": [
+          "Count Rugen",
+          "Prince Humperdinck",
+          "Vizzini",
+          "Inigo Montoya"
+        ],
+        "correct_answer": "Count Rugen",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_295",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Doctor Who, what is the Doctor's time machine called?",
+        "options": [
+          "TARDIS",
+          "Type 40",
+          "Police Box",
+          "Sonic Screwdriver"
+        ],
+        "correct_answer": "TARDIS",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_296",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In The Fifth Element, what are the five elements?",
+        "options": [
+          "Earth, Fire, Water, Wind, Love",
+          "Earth, Fire, Water, Air, Spirit",
+          "Fire, Water, Earth, Metal, Wood",
+          "Light, Dark, Fire, Water, Earth"
+        ],
+        "correct_answer": "Earth, Fire, Water, Wind, Love",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_297",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Star Trek, what is the Vulcan greeting?",
+        "options": [
+          "Live long and prosper",
+          "Peace and long life",
+          "May you live long",
+          "Greetings"
+        ],
+        "correct_answer": "Live long and prosper",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_298",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Interstellar, what is the name of the planet with massive tidal waves?",
+        "options": [
+          "Miller's Planet",
+          "Mann's Planet",
+          "Edmund's Planet",
+          "Cooper Station"
+        ],
+        "correct_answer": "Miller's Planet",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_299",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of Will Smith's character in Men in Black?",
+        "options": [
+          "Agent J",
+          "Agent K",
+          "Agent M",
+          "Agent Z"
+        ],
+        "correct_answer": "Agent J",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ent_300",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "In Avatar, what is the name of Jake Sully's Avatar mentor?",
+        "options": [
+          "Neytiri",
+          "Tsu'tey",
+          "Mo'at",
+          "Eytukan"
+        ],
+        "correct_answer": "Neytiri",
+        "difficulty": "hard"
       }
     ],
     "Literature": [

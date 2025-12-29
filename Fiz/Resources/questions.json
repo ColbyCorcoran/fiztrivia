@@ -14375,22 +14375,6 @@
         "subtopic": null
       },
       {
-        "id": "his_073",
-        "category": "History",
-        "subcategory": "Church History",
-        "question": "Who was the apostle to the Gentiles?",
-        "options": [
-          "Peter",
-          "Paul",
-          "John",
-          "James"
-        ],
-        "correct_answer": "Paul",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "his_074",
         "category": "History",
         "subcategory": "Church History",
@@ -14402,22 +14386,6 @@
           "All of the above"
         ],
         "correct_answer": "All of the above",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "his_075",
-        "category": "History",
-        "subcategory": "Church History",
-        "question": "What were the first four books of the New Testament called?",
-        "options": [
-          "Epistles",
-          "Gospels",
-          "Acts",
-          "Revelations"
-        ],
-        "correct_answer": "Gospels",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -17957,6 +17925,34 @@
         ],
         "correct_answer": "Gutenberg Bible",
         "difficulty": "easy"
+      },
+      {
+        "id": "his_073",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What was the name of the monastic movement that emphasized strict poverty, founded in the 13th century?",
+        "options": [
+          "Franciscan Order",
+          "Dominican Order",
+          "Benedictine Order",
+          "Carthusian Order"
+        ],
+        "correct_answer": "Franciscan Order",
+        "difficulty": "medium"
+      },
+      {
+        "id": "his_075",
+        "category": "History",
+        "subcategory": "Church History",
+        "question": "What year marked the beginning of the Great Schism between Eastern and Western Christianity?",
+        "options": [
+          "1054",
+          "1095",
+          "1215",
+          "1453"
+        ],
+        "correct_answer": "1054",
+        "difficulty": "medium"
       }
     ],
     "Bible": [

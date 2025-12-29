@@ -18,6 +18,7 @@
 		B66F02D02F006EE2007B0E79 /* PopupDurationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C82F006EE2007B0E79 /* PopupDurationSettingsView.swift */; };
 		B66F02D12F006EE2007B0E79 /* HapticsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C72F006EE2007B0E79 /* HapticsSettingsView.swift */; };
 		B66F02D22F006EE2007B0E79 /* GameModesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C52F006EE2007B0E79 /* GameModesSettingsView.swift */; };
+		B66F02D42F02EDD8007B0E79 /* questions_expansions.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D32F02EDD8007B0E79 /* questions_expansions.json */; };
 		B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */; };
 		B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A772EBD2A5400C2A449 /* questions.json */; };
 		B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */; };
@@ -81,6 +82,7 @@
 		B66F02C72F006EE2007B0E79 /* HapticsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsSettingsView.swift; sourceTree = "<group>"; };
 		B66F02C82F006EE2007B0E79 /* PopupDurationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDurationSettingsView.swift; sourceTree = "<group>"; };
 		B66F02C92F006EE2007B0E79 /* UsernameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameSettingsView.swift; sourceTree = "<group>"; };
+		B66F02D32F02EDD8007B0E79 /* questions_expansions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_expansions.json; sourceTree = "<group>"; };
 		B66F14D42E4B7DF200C426E5 /* Fiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14E32E4B7DF400C426E5 /* FizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				B68C5A772EBD2A5400C2A449 /* questions.json */,
+				B66F02D32F02EDD8007B0E79 /* questions_expansions.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				B6B0E3822EC5075F007873A8 /* AppIcon-HappySmirk.png in Resources */,
 				B6B0E3832EC5075F007873A8 /* AppIcon-Incorrect@3x.png in Resources */,
 				B6B0E3842EC5075F007873A8 /* AppIcon-NewHighScore@3x.png in Resources */,
+				B66F02D42F02EDD8007B0E79 /* questions_expansions.json in Resources */,
 				B6B0E3852EC5075F007873A8 /* AppIcon-RegularPose.png in Resources */,
 				B6B0E3862EC5075F007873A8 /* AppIcon-Incorrect@2x.png in Resources */,
 			);

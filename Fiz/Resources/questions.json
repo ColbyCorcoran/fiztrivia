@@ -22088,6 +22088,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "art_181",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Eiffel Tower?",
+        "options": [
+          "Gustave Eiffel",
+          "Charles Garnier",
+          "Hector Guimard",
+          "Victor Baltard"
+        ],
+        "correct_answer": "Gustave Eiffel",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_182",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What famous white marble mausoleum is in India?",
+        "options": [
+          "Taj Mahal",
+          "Red Fort",
+          "Hawa Mahal",
+          "Golden Temple"
+        ],
+        "correct_answer": "Taj Mahal",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_183",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Sydney Opera House?",
+        "options": [
+          "Jørn Utzon",
+          "Walter Burley Griffin",
+          "Harry Seidler",
+          "Glenn Murcutt"
+        ],
+        "correct_answer": "Jørn Utzon",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_184",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the tallest building in the world (as of 2024)?",
+        "options": [
+          "Burj Khalifa",
+          "Shanghai Tower",
+          "Makkah Royal Clock Tower",
+          "One World Trade Center"
+        ],
+        "correct_answer": "Burj Khalifa",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_185",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed Fallingwater?",
+        "options": [
+          "Frank Lloyd Wright",
+          "Le Corbusier",
+          "Walter Gropius",
+          "Ludwig Mies van der Rohe"
+        ],
+        "correct_answer": "Frank Lloyd Wright",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_186",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What style are Gothic cathedrals known for?",
+        "options": [
+          "Pointed arches and flying buttresses",
+          "Rounded arches",
+          "Flat roofs",
+          "Onion domes"
+        ],
+        "correct_answer": "Pointed arches and flying buttresses",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_187",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Guggenheim Museum in Bilbao?",
+        "options": [
+          "Frank Gehry",
+          "Zaha Hadid",
+          "Norman Foster",
+          "Rem Koolhaas"
+        ],
+        "correct_answer": "Frank Gehry",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_188",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the large amphitheater in Rome called?",
+        "options": [
+          "Colosseum",
+          "Pantheon",
+          "Forum",
+          "Circus Maximus"
+        ],
+        "correct_answer": "Colosseum",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_189",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed St. Peter's Basilica dome?",
+        "options": [
+          "Michelangelo",
+          "Bramante",
+          "Bernini",
+          "Raphael"
+        ],
+        "correct_answer": "Michelangelo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_190",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What architectural style has columns and pediments?",
+        "options": [
+          "Classical/Greek Revival",
+          "Gothic",
+          "Baroque",
+          "Art Nouveau"
+        ],
+        "correct_answer": "Classical/Greek Revival",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_191",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Glass Pyramid at the Louvre?",
+        "options": [
+          "I. M. Pei",
+          "Norman Foster",
+          "Renzo Piano",
+          "Richard Meier"
+        ],
+        "correct_answer": "I. M. Pei",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_192",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the name of Barcelona's unfinished church by Gaudí?",
+        "options": [
+          "Sagrada Família",
+          "Casa Batlló",
+          "Park Güell",
+          "La Pedrera"
+        ],
+        "correct_answer": "Sagrada Família",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_193",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What are the three Classical orders of columns?",
+        "options": [
+          "Doric, Ionic, Corinthian",
+          "Roman, Greek, Egyptian",
+          "Gothic, Baroque, Renaissance",
+          "Modern, Contemporary, Postmodern"
+        ],
+        "correct_answer": "Doric, Ionic, Corinthian",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_194",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Seagram Building in New York?",
+        "options": [
+          "Ludwig Mies van der Rohe",
+          "Le Corbusier",
+          "Walter Gropius",
+          "Philip Johnson"
+        ],
+        "correct_answer": "Ludwig Mies van der Rohe",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_195",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What material is the Pantheon dome made from?",
+        "options": [
+          "Concrete",
+          "Stone",
+          "Brick",
+          "Wood"
+        ],
+        "correct_answer": "Concrete",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_196",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Villa Savoye?",
+        "options": [
+          "Le Corbusier",
+          "Frank Lloyd Wright",
+          "Walter Gropius",
+          "Ludwig Mies van der Rohe"
+        ],
+        "correct_answer": "Le Corbusier",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_197",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What ancient wonder was a lighthouse?",
+        "options": [
+          "Lighthouse of Alexandria",
+          "Colossus of Rhodes",
+          "Hanging Gardens",
+          "Statue of Zeus"
+        ],
+        "correct_answer": "Lighthouse of Alexandria",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_198",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Chrysler Building?",
+        "options": [
+          "William Van Alen",
+          "Raymond Hood",
+          "Cass Gilbert",
+          "Shreve, Lamb & Harmon"
+        ],
+        "correct_answer": "William Van Alen",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_199",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What architectural movement emphasized function over form?",
+        "options": [
+          "Modernism/Functionalism",
+          "Art Nouveau",
+          "Baroque",
+          "Gothic Revival"
+        ],
+        "correct_answer": "Modernism/Functionalism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_200",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Barcelona Pavilion?",
+        "options": [
+          "Ludwig Mies van der Rohe",
+          "Le Corbusier",
+          "Walter Gropius",
+          "Antoni Gaudí"
+        ],
+        "correct_answer": "Ludwig Mies van der Rohe",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_201",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What year was the Eiffel Tower completed?",
+        "options": [
+          "1889",
+          "1878",
+          "1900",
+          "1885"
+        ],
+        "correct_answer": "1889",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_202",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Woolworth Building?",
+        "options": [
+          "Cass Gilbert",
+          "William Van Alen",
+          "Raymond Hood",
+          "Louis Sullivan"
+        ],
+        "correct_answer": "Cass Gilbert",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_203",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is Frank Lloyd Wright's architectural philosophy called?",
+        "options": [
+          "Organic architecture",
+          "Brutalism",
+          "Deconstructivism",
+          "High-tech"
+        ],
+        "correct_answer": "Organic architecture",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_204",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Pompidou Centre in Paris?",
+        "options": [
+          "Renzo Piano and Richard Rogers",
+          "Norman Foster",
+          "I. M. Pei",
+          "Jean Nouvel"
+        ],
+        "correct_answer": "Renzo Piano and Richard Rogers",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_205",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the Islamic architectural feature with geometric patterns called?",
+        "options": [
+          "Muqarnas/Arabesque",
+          "Mosaic",
+          "Fresco",
+          "Inlay"
+        ],
+        "correct_answer": "Muqarnas/Arabesque",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_206",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed Brasília, Brazil's capital?",
+        "options": [
+          "Oscar Niemeyer",
+          "Lúcio Costa",
+          "Roberto Burle Marx",
+          "Affonso Eduardo Reidy"
+        ],
+        "correct_answer": "Oscar Niemeyer",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_207",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What architectural movement featured exposed concrete?",
+        "options": [
+          "Brutalism",
+          "Modernism",
+          "Postmodernism",
+          "Deconstructivism"
+        ],
+        "correct_answer": "Brutalism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_208",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Farnsworth House?",
+        "options": [
+          "Ludwig Mies van der Rohe",
+          "Philip Johnson",
+          "Le Corbusier",
+          "Richard Neutra"
+        ],
+        "correct_answer": "Ludwig Mies van der Rohe",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_209",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the oculus in the Pantheon?",
+        "options": [
+          "Opening in the dome",
+          "Entrance hall",
+          "Supporting column",
+          "Decorative frieze"
+        ],
+        "correct_answer": "Opening in the dome",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_210",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Shard in London?",
+        "options": [
+          "Renzo Piano",
+          "Norman Foster",
+          "Zaha Hadid",
+          "Richard Rogers"
+        ],
+        "correct_answer": "Renzo Piano",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_211",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What style is characterized by ornate natural forms?",
+        "options": [
+          "Art Nouveau",
+          "Art Deco",
+          "Bauhaus",
+          "Brutalism"
+        ],
+        "correct_answer": "Art Nouveau",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_212",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Getty Center in Los Angeles?",
+        "options": [
+          "Richard Meier",
+          "I. M. Pei",
+          "Frank Gehry",
+          "Thom Mayne"
+        ],
+        "correct_answer": "Richard Meier",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_213",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is a flying buttress used for?",
+        "options": [
+          "Supporting walls from outside",
+          "Decoration",
+          "Water drainage",
+          "Bell tower support"
+        ],
+        "correct_answer": "Supporting walls from outside",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_214",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the CCTV Headquarters in Beijing?",
+        "options": [
+          "Rem Koolhaas (OMA)",
+          "Zaha Hadid",
+          "Norman Foster",
+          "Herzog & de Meuron"
+        ],
+        "correct_answer": "Rem Koolhaas (OMA)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_215",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the name of Gaudí's wavy apartment building?",
+        "options": [
+          "Casa Milà (La Pedrera)",
+          "Casa Batlló",
+          "Casa Vicens",
+          "Palau Güell"
+        ],
+        "correct_answer": "Casa Milà (La Pedrera)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_216",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the TWA Flight Center at JFK?",
+        "options": [
+          "Eero Saarinen",
+          "SOM",
+          "I. M. Pei",
+          "Paul Rudolph"
+        ],
+        "correct_answer": "Eero Saarinen",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_217",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is Louis Sullivan famous for saying?",
+        "options": [
+          "Form follows function",
+          "Less is more",
+          "Architecture is frozen music",
+          "God is in the details"
+        ],
+        "correct_answer": "Form follows function",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_218",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Einstein Tower in Potsdam?",
+        "options": [
+          "Erich Mendelsohn",
+          "Bruno Taut",
+          "Walter Gropius",
+          "Hans Poelzig"
+        ],
+        "correct_answer": "Erich Mendelsohn",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_219",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the architectural term for a half-circular recess?",
+        "options": [
+          "Apse",
+          "Nave",
+          "Transept",
+          "Clerestory"
+        ],
+        "correct_answer": "Apse",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_220",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Vitra Design Museum?",
+        "options": [
+          "Frank Gehry",
+          "Zaha Hadid",
+          "Rem Koolhaas",
+          "Peter Eisenman"
+        ],
+        "correct_answer": "Frank Gehry",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_221",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Schröder House in Utrecht?",
+        "options": [
+          "Gerrit Rietveld",
+          "Theo van Doesburg",
+          "J.J.P. Oud",
+          "Mart Stam"
+        ],
+        "correct_answer": "Gerrit Rietveld",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_222",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is Andrea Palladio's most famous villa?",
+        "options": [
+          "Villa Rotonda (La Rotonda)",
+          "Villa Barbaro",
+          "Villa Emo",
+          "Villa Foscari"
+        ],
+        "correct_answer": "Villa Rotonda (La Rotonda)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_223",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Vanna Venturi House?",
+        "options": [
+          "Robert Venturi",
+          "Michael Graves",
+          "Charles Moore",
+          "Philip Johnson"
+        ],
+        "correct_answer": "Robert Venturi",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_224",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the architectural term for the triangular section above columns?",
+        "options": [
+          "Pediment",
+          "Entablature",
+          "Frieze",
+          "Cornice"
+        ],
+        "correct_answer": "Pediment",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_225",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Jewish Museum in Berlin?",
+        "options": [
+          "Daniel Libeskind",
+          "Peter Eisenman",
+          "Zaha Hadid",
+          "Frank Gehry"
+        ],
+        "correct_answer": "Daniel Libeskind",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_226",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the term for Islamic pointed arches?",
+        "options": [
+          "Ogee arch",
+          "Horseshoe arch",
+          "Tudor arch",
+          "Lancet arch"
+        ],
+        "correct_answer": "Ogee arch",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_227",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Bibliothèque Sainte-Geneviève?",
+        "options": [
+          "Henri Labrouste",
+          "Charles Garnier",
+          "Victor Baltard",
+          "Eugène Viollet-le-Duc"
+        ],
+        "correct_answer": "Henri Labrouste",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_228",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What architectural movement did Peter Eisenman belong to?",
+        "options": [
+          "Deconstructivism",
+          "Postmodernism",
+          "High-tech",
+          "Metabolism"
+        ],
+        "correct_answer": "Deconstructivism",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_229",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Kimbell Art Museum?",
+        "options": [
+          "Louis Kahn",
+          "Paul Rudolph",
+          "I. M. Pei",
+          "Philip Johnson"
+        ],
+        "correct_answer": "Louis Kahn",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_230",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the term for interlocking timber construction?",
+        "options": [
+          "Mortise and tenon",
+          "Post and beam",
+          "Balloon frame",
+          "Platform frame"
+        ],
+        "correct_answer": "Mortise and tenon",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_231",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the AT&T Building (now Sony Tower)?",
+        "options": [
+          "Philip Johnson",
+          "Michael Graves",
+          "Robert Venturi",
+          "Charles Moore"
+        ],
+        "correct_answer": "Philip Johnson",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_232",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What Japanese architectural movement emphasized organic metabolism?",
+        "options": [
+          "Metabolism",
+          "Modernism",
+          "Brutalism",
+          "High-tech"
+        ],
+        "correct_answer": "Metabolism",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_233",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Ronchamp chapel?",
+        "options": [
+          "Le Corbusier",
+          "Oscar Niemeyer",
+          "Alvar Aalto",
+          "Eero Saarinen"
+        ],
+        "correct_answer": "Le Corbusier",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_234",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the term for a vaulted semicircular ceiling?",
+        "options": [
+          "Barrel vault",
+          "Groin vault",
+          "Rib vault",
+          "Fan vault"
+        ],
+        "correct_answer": "Barrel vault",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_235",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Nationalgalerie in Berlin?",
+        "options": [
+          "Ludwig Mies van der Rohe",
+          "Walter Gropius",
+          "Hans Scharoun",
+          "Egon Eiermann"
+        ],
+        "correct_answer": "Ludwig Mies van der Rohe",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_236",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the term for decorative openwork stonework?",
+        "options": [
+          "Tracery",
+          "Quatrefoil",
+          "Finial",
+          "Crocket"
+        ],
+        "correct_answer": "Tracery",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_237",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Nakagin Capsule Tower?",
+        "options": [
+          "Kisho Kurokawa",
+          "Kenzo Tange",
+          "Arata Isozaki",
+          "Fumihiko Maki"
+        ],
+        "correct_answer": "Kisho Kurokawa",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_238",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the architectural term for a projecting window bay?",
+        "options": [
+          "Oriel window",
+          "Bay window",
+          "Clerestory",
+          "Dormer"
+        ],
+        "correct_answer": "Oriel window",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_239",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "Who designed the Yoyogi National Gymnasium?",
+        "options": [
+          "Kenzo Tange",
+          "Kisho Kurokawa",
+          "Arata Isozaki",
+          "Fumihiko Maki"
+        ],
+        "correct_answer": "Kenzo Tange",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_240",
+        "category": "Art",
+        "subcategory": "Architecture",
+        "question": "What is the term for upward curve of a roof in Asian architecture?",
+        "options": [
+          "Upsweep/Upturned eaves",
+          "Pagoda",
+          "Hip roof",
+          "Gable roof"
+        ],
+        "correct_answer": "Upsweep/Upturned eaves",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Geography": [

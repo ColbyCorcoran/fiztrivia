@@ -11501,22 +11501,6 @@
     ],
     "Nature": [
       {
-        "id": "nat_001",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "Which tree is known for having the longest lifespan?",
-        "options": [
-          "Oak",
-          "Redwood",
-          "Bristlecone Pine",
-          "Baobab"
-        ],
-        "correct_answer": "Bristlecone Pine",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_002",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
@@ -11528,38 +11512,6 @@
           "Hippopotamus"
         ],
         "correct_answer": "Blue Whale",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_003",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What type of cloud produces thunderstorms?",
-        "options": [
-          "Cirrus",
-          "Stratus",
-          "Cumulus",
-          "Cumulonimbus"
-        ],
-        "correct_answer": "Cumulonimbus",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_004",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What process do plants use to make food from sunlight?",
-        "options": [
-          "Respiration",
-          "Photosynthesis",
-          "Transpiration",
-          "Germination"
-        ],
-        "correct_answer": "Photosynthesis",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -11581,22 +11533,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_006",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What instrument measures atmospheric pressure?",
-        "options": [
-          "Thermometer",
-          "Barometer",
-          "Hygrometer",
-          "Anemometer"
-        ],
-        "correct_answer": "Barometer",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_007",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
@@ -11609,38 +11545,6 @@
         ],
         "correct_answer": "Pride",
         "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_008",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which part of the plant absorbs water and nutrients?",
-        "options": [
-          "Leaves",
-          "Stem",
-          "Roots",
-          "Flowers"
-        ],
-        "correct_answer": "Roots",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_009",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What causes ocean tides?",
-        "options": [
-          "Wind",
-          "Moon's gravity",
-          "Earth's rotation",
-          "Temperature changes"
-        ],
-        "correct_answer": "Moon's gravity",
-        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -11673,22 +11577,6 @@
         ],
         "correct_answer": "African Elephant",
         "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_012",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How many legs does a lobster have?",
-        "options": [
-          "6",
-          "8",
-          "10",
-          "12"
-        ],
-        "correct_answer": "10",
-        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -11741,38 +11629,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_016",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which marine animal is particularly known for its rapid color-changing ability?",
-        "options": [
-          "Cuttlefish",
-          "Dolphin",
-          "Seal",
-          "Penguin"
-        ],
-        "correct_answer": "Cuttlefish",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_017",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which tree produces acorns?",
-        "options": [
-          "Oak",
-          "Pine",
-          "Maple",
-          "Birch"
-        ],
-        "correct_answer": "Oak",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_018",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
@@ -11821,310 +11677,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_021",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What tree produces maple syrup?",
-        "options": [
-          "Oak",
-          "Pine",
-          "Maple",
-          "Birch"
-        ],
-        "correct_answer": "Maple",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_022",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "Which tree is known as the 'Tree of Life' in Africa?",
-        "options": [
-          "Palm",
-          "Baobab",
-          "Divi Divi",
-          "Cedar"
-        ],
-        "correct_answer": "Baobab",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_023",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What is the tallest type of tree?",
-        "options": [
-          "Oak",
-          "Pine",
-          "Redwood",
-          "Eucalyptus"
-        ],
-        "correct_answer": "Redwood",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_024",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "Which tree produces nuts that squirrels love?",
-        "options": [
-          "Pine",
-          "Oak",
-          "Maple",
-          "Birch"
-        ],
-        "correct_answer": "Oak",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_025",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What tree is known for its white bark?",
-        "options": [
-          "Oak",
-          "Birch",
-          "Pine",
-          "Maple"
-        ],
-        "correct_answer": "Birch",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_026",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the largest flower in the world?",
-        "options": [
-          "Sunflower",
-          "Rafflesia",
-          "Rose",
-          "Lily"
-        ],
-        "correct_answer": "Rafflesia",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_027",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What plant is the main source of sugar?",
-        "options": [
-          "Sugarcane",
-          "Beetroot",
-          "Corn",
-          "Maple"
-        ],
-        "correct_answer": "Sugarcane",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_028",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What plant is known for its medicinal properties and bitter taste?",
-        "options": [
-          "Aloe vera",
-          "Mint",
-          "Basil",
-          "Rosemary"
-        ],
-        "correct_answer": "Aloe vera",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_029",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which plant can survive in the desert with little water?",
-        "options": [
-          "Fern",
-          "Cactus",
-          "Rose",
-          "Grass"
-        ],
-        "correct_answer": "Cactus",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_030",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What part of the plant conducts photosynthesis?",
-        "options": [
-          "Roots",
-          "Stem",
-          "Leaves",
-          "Flowers"
-        ],
-        "correct_answer": "Leaves",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_031",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What causes lightning?",
-        "options": [
-          "Wind",
-          "Rain",
-          "Electrical discharge",
-          "Temperature change"
-        ],
-        "correct_answer": "Electrical discharge",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_032",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the center of a hurricane called?",
-        "options": [
-          "Core",
-          "Eye",
-          "Center",
-          "Middle"
-        ],
-        "correct_answer": "Eye",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_033",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What instrument measures wind speed?",
-        "options": [
-          "Barometer",
-          "Thermometer",
-          "Anemometer",
-          "Hygrometer"
-        ],
-        "correct_answer": "Anemometer",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_034",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What type of cloud produces rain?",
-        "options": [
-          "Cirrus",
-          "Cumulus",
-          "Stratus",
-          "Nimbus"
-        ],
-        "correct_answer": "Nimbus",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_035",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is frozen rain called?",
-        "options": [
-          "Snow",
-          "Sleet",
-          "Hail",
-          "Ice"
-        ],
-        "correct_answer": "Sleet",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_036",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What causes the greenhouse effect?",
-        "options": [
-          "Oxygen",
-          "Nitrogen",
-          "Carbon dioxide",
-          "Hydrogen"
-        ],
-        "correct_answer": "Carbon dioxide",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_037",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the hottest layer of the atmosphere?",
-        "options": [
-          "Troposphere",
-          "Stratosphere",
-          "Mesosphere",
-          "Thermosphere"
-        ],
-        "correct_answer": "Thermosphere",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_038",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the Beaufort scale used to measure?",
-        "options": [
-          "Temperature",
-          "Wind speed",
-          "Rainfall",
-          "Humidity"
-        ],
-        "correct_answer": "Wind speed",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_039",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is dew point?",
-        "options": [
-          "Highest temperature",
-          "Lowest temperature",
-          "Temperature at which dew forms",
-          "Average temperature"
-        ],
-        "correct_answer": "Temperature at which dew forms",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_040",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
@@ -12136,38 +11688,6 @@
           "Pup"
         ],
         "correct_answer": "Joey",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_041",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How many legs does a crab have?",
-        "options": [
-          "6",
-          "8",
-          "10",
-          "12"
-        ],
-        "correct_answer": "10",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_042",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do you call a group of fish?",
-        "options": [
-          "Flock",
-          "Herd",
-          "School",
-          "Pack"
-        ],
-        "correct_answer": "School",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -12285,214 +11805,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_050",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What part of the tree takes in water?",
-        "options": [
-          "Leaves",
-          "Branches",
-          "Roots",
-          "Trunk"
-        ],
-        "correct_answer": "Roots",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_051",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What do we call the rings inside a tree trunk?",
-        "options": [
-          "Tree rings",
-          "Growth rings",
-          "Annual rings",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_052",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "Which tree loses its leaves in winter?",
-        "options": [
-          "Pine",
-          "Deciduous",
-          "Evergreen",
-          "Coniferous"
-        ],
-        "correct_answer": "Deciduous",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_053",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What do plants make during photosynthesis?",
-        "options": [
-          "Water",
-          "Oxygen",
-          "Carbon dioxide",
-          "Nitrogen"
-        ],
-        "correct_answer": "Oxygen",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_054",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What part of the plant makes the seeds?",
-        "options": [
-          "Roots",
-          "Stem",
-          "Leaves",
-          "Flower"
-        ],
-        "correct_answer": "Flower",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_055",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What do we call plants that live for more than two years?",
-        "options": [
-          "Annual",
-          "Biennial",
-          "Perennial",
-          "Seasonal"
-        ],
-        "correct_answer": "Perennial",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_056",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What helps plants make food?",
-        "options": [
-          "Chlorophyll",
-          "Water",
-          "Soil",
-          "Air"
-        ],
-        "correct_answer": "Chlorophyll",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_057",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which plant is used to make the spice cinnamon?",
-        "options": [
-          "Cinnamon tree",
-          "Nutmeg tree",
-          "Clove tree",
-          "Sassafras"
-        ],
-        "correct_answer": "Cinnamon tree",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_058",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What forms when water vapor cools in the sky?",
-        "options": [
-          "Rain",
-          "Snow",
-          "Clouds",
-          "Hail"
-        ],
-        "correct_answer": "Clouds",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_059",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What do we call frozen raindrops?",
-        "options": [
-          "Snow",
-          "Sleet",
-          "Hail",
-          "Ice"
-        ],
-        "correct_answer": "Hail",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_060",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What causes thunder?",
-        "options": [
-          "Wind",
-          "Rain",
-          "Lightning",
-          "Clouds"
-        ],
-        "correct_answer": "Lightning",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_061",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the hottest season?",
-        "options": [
-          "Spring",
-          "Summer",
-          "Fall",
-          "Winter"
-        ],
-        "correct_answer": "Summer",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_062",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is precipitation?",
-        "options": [
-          "Wind",
-          "Temperature",
-          "Water falling from sky",
-          "Humidity"
-        ],
-        "correct_answer": "Water falling from sky",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_063",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
@@ -12537,134 +11849,6 @@
         ],
         "correct_answer": "Omnivores",
         "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_066",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which marine mammal is known for its tusks?",
-        "options": [
-          "Walrus",
-          "Narwhal",
-          "Sea lion",
-          "Dugong"
-        ],
-        "correct_answer": "Walrus",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_067",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What do we call trees that keep their leaves year-round?",
-        "options": [
-          "Deciduous",
-          "Evergreen",
-          "Seasonal",
-          "Annual"
-        ],
-        "correct_answer": "Evergreen",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_068",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What is bark?",
-        "options": [
-          "Tree's skin",
-          "Tree's leaves",
-          "Tree's roots",
-          "Tree's fruit"
-        ],
-        "correct_answer": "Tree's skin",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_069",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What season do most trees lose their leaves?",
-        "options": [
-          "Spring",
-          "Summer",
-          "Fall",
-          "Winter"
-        ],
-        "correct_answer": "Fall",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_070",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What do seeds need to start growing?",
-        "options": [
-          "Water, warmth, air",
-          "Only water",
-          "Only sunlight",
-          "Only soil"
-        ],
-        "correct_answer": "Water, warmth, air",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_071",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What do we call a baby plant?",
-        "options": [
-          "Seedling",
-          "Sprout",
-          "Shoot",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_072",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What instrument measures temperature?",
-        "options": [
-          "Barometer",
-          "Thermometer",
-          "Anemometer",
-          "Hygrometer"
-        ],
-        "correct_answer": "Thermometer",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_073",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is humidity?",
-        "options": [
-          "Temperature",
-          "Wind speed",
-          "Water in the air",
-          "Air pressure"
-        ],
-        "correct_answer": "Water in the air",
-        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -12717,102 +11901,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_077",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "Which tree produces coconuts?",
-        "options": [
-          "Palm tree",
-          "Oak tree",
-          "Pine tree",
-          "Maple tree"
-        ],
-        "correct_answer": "Palm tree",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_078",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What is the trunk of a tree?",
-        "options": [
-          "The main stem",
-          "The roots",
-          "The leaves",
-          "The branches"
-        ],
-        "correct_answer": "The main stem",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_079",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What color are most leaves?",
-        "options": [
-          "Red",
-          "Blue",
-          "Green",
-          "Yellow"
-        ],
-        "correct_answer": "Green",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_080",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What do plants need from the sun?",
-        "options": [
-          "Heat",
-          "Light",
-          "Warmth",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_081",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What season comes after winter?",
-        "options": [
-          "Summer",
-          "Fall",
-          "Spring",
-          "Autumn"
-        ],
-        "correct_answer": "Spring",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_082",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is wind?",
-        "options": [
-          "Moving water",
-          "Moving air",
-          "Moving clouds",
-          "Moving rain"
-        ],
-        "correct_answer": "Moving air",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_083",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
@@ -12857,38 +11945,6 @@
         ],
         "correct_answer": "Peacock",
         "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_086",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What do we call the process when plants lose their leaves?",
-        "options": [
-          "Growing",
-          "Falling",
-          "Shedding",
-          "Dropping"
-        ],
-        "correct_answer": "Shedding",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_087",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do we call animals that eat fish?",
-        "options": [
-          "Herbivores",
-          "Carnivores",
-          "Piscivores",
-          "Omnivores"
-        ],
-        "correct_answer": "Piscivores",
-        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -12973,22 +12029,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_093",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do penguins use their wings for?",
-        "options": [
-          "Flying",
-          "Swimming",
-          "Walking",
-          "Fighting"
-        ],
-        "correct_answer": "Swimming",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_094",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
@@ -13021,15 +12061,975 @@
         "subtopic": null
       },
       {
-        "id": "nat_096",
+        "id": "nat_124",
         "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What do trees give off that we need to breathe?",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do we call animals that are awake during the day?",
         "options": [
-          "Carbon dioxide",
+          "Nocturnal",
+          "Diurnal",
+          "Crepuscular",
+          "Active"
+        ],
+        "correct_answer": "Diurnal",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_126",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do rabbits primarily eat?",
+        "options": [
+          "Meat",
+          "Fish",
+          "Plants",
+          "Insects"
+        ],
+        "correct_answer": "Plants",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_127",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal is known for its ability to climb trees?",
+        "options": [
+          "Elephant",
+          "Monkey",
+          "Whale",
+          "Fish"
+        ],
+        "correct_answer": "Monkey",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_128",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do we call animals that lay eggs?",
+        "options": [
+          "Mammals",
+          "Oviparous",
+          "Viviparous",
+          "Carnivores"
+        ],
+        "correct_answer": "Oviparous",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_129",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal is known for its humps?",
+        "options": [
+          "Horse",
+          "Cow",
+          "Camel",
+          "Zebra"
+        ],
+        "correct_answer": "Camel",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_130",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do bees make in their hives?",
+        "options": [
+          "Milk",
+          "Honey",
+          "Eggs",
+          "Silk"
+        ],
+        "correct_answer": "Honey",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_131",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which bird is known for its colorful tail feathers?",
+        "options": [
+          "Eagle",
+          "Sparrow",
+          "Peacock",
+          "Crow"
+        ],
+        "correct_answer": "Peacock",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_132",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do we call a group of ants?",
+        "options": [
+          "Swarm",
+          "Colony",
+          "Hive",
+          "Pack"
+        ],
+        "correct_answer": "Colony",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_133",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do you call a baby deer?",
+        "options": [
+          "Cub",
+          "Fawn",
+          "Kid",
+          "Pup"
+        ],
+        "correct_answer": "Fawn",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_134",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal is known for its excellent memory?",
+        "options": [
+          "Dolphin",
+          "Elephant",
+          "Monkey",
+          "Dog"
+        ],
+        "correct_answer": "Elephant",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_136",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which bird is known for its beautiful singing?",
+        "options": [
+          "Crow",
+          "Owl",
+          "Nightingale",
+          "Eagle"
+        ],
+        "correct_answer": "Nightingale",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_137",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do butterflies start as?",
+        "options": [
+          "Eggs",
+          "Caterpillars",
+          "Chrysalis",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_138",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal is known for making honey?",
+        "options": [
+          "Wasp",
+          "Bee",
+          "Ant",
+          "Butterfly"
+        ],
+        "correct_answer": "Bee",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_139",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do you call a baby cow?",
+        "options": [
+          "Foal",
+          "Calf",
+          "Kid",
+          "Lamb"
+        ],
+        "correct_answer": "Calf",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_149",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which bird cannot fly but is an excellent swimmer?",
+        "options": [
+          "Duck",
+          "Swan",
+          "Penguin",
+          "Goose"
+        ],
+        "correct_answer": "Penguin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_150",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do we call animals that sleep through the winter?",
+        "options": [
+          "Migrating",
+          "Hibernating",
+          "Resting",
+          "Sleeping"
+        ],
+        "correct_answer": "Hibernating",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_151",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal is known for its ability to hop?",
+        "options": [
+          "Deer",
+          "Rabbit",
+          "Squirrel",
+          "Mouse"
+        ],
+        "correct_answer": "Rabbit",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_155",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What color is a giraffe's tongue?",
+        "options": [
+          "Pink",
+          "Red",
+          "Blue",
+          "Purple"
+        ],
+        "correct_answer": "Blue",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_156",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "How many noses does a slug have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_answer": "4",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_157",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is a group of flamingos called?",
+        "options": [
+          "Flock",
+          "Flamboyance",
+          "Flight",
+          "Flutter"
+        ],
+        "correct_answer": "Flamboyance",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_159",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the collective name for a group of pandas?",
+        "options": [
+          "Embarrassment",
+          "Awkwardness",
+          "Cuddle",
+          "Tumble"
+        ],
+        "correct_answer": "Embarrassment",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_162",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do we call a baby dog?",
+        "options": [
+          "Kitten",
+          "Puppy",
+          "Cub",
+          "Foal"
+        ],
+        "correct_answer": "Puppy",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_163",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What do we call a baby cat?",
+        "options": [
+          "Puppy",
+          "Kitten",
+          "Cub",
+          "Joey"
+        ],
+        "correct_answer": "Kitten",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_164",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the fastest bird in the world?",
+        "options": [
+          "Eagle",
+          "Falcon",
+          "Peregrine falcon",
+          "Hawk"
+        ],
+        "correct_answer": "Peregrine falcon",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_165",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the largest species of bear?",
+        "options": [
+          "Polar bear",
+          "Grizzly bear",
+          "Kodiak bear",
+          "Black bear"
+        ],
+        "correct_answer": "Polar bear",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_166",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the only mammal capable of true flight?",
+        "options": [
+          "Bat",
+          "Flying squirrel",
+          "Sugar glider",
+          "Flying lemur"
+        ],
+        "correct_answer": "Bat",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_167",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is a group of crows called?",
+        "options": [
+          "A murder",
+          "A flock",
+          "A gaggle",
+          "A pack"
+        ],
+        "correct_answer": "A murder",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_168",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal has the longest gestation period?",
+        "options": [
+          "African elephant",
+          "Blue whale",
+          "Giraffe",
+          "Rhinoceros"
+        ],
+        "correct_answer": "African elephant",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_170",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the largest living reptile?",
+        "options": [
+          "Saltwater crocodile",
+          "Komodo dragon",
+          "Anaconda",
+          "Leatherback sea turtle"
+        ],
+        "correct_answer": "Saltwater crocodile",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_171",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which bird is known for its elaborate tail display?",
+        "options": [
+          "Peacock",
+          "Pheasant",
+          "Turkey",
+          "Ostrich"
+        ],
+        "correct_answer": "Peacock",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_172",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the only continent without native reptiles?",
+        "options": [
+          "Antarctica",
+          "Europe",
+          "Australia",
+          "North America"
+        ],
+        "correct_answer": "Antarctica",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_173",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is a baby kangaroo called?",
+        "options": [
+          "Joey",
+          "Cub",
+          "Pup",
+          "Kit"
+        ],
+        "correct_answer": "Joey",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_174",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal can sleep standing up?",
+        "options": [
+          "Horse",
+          "Cow",
+          "Giraffe",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_175",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the largest living bird by wingspan?",
+        "options": [
+          "Wandering albatross",
+          "Andean condor",
+          "California condor",
+          "Golden eagle"
+        ],
+        "correct_answer": "Wandering albatross",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_176",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What color is a polar bear's skin?",
+        "options": [
+          "Black",
+          "White",
+          "Pink",
+          "Gray"
+        ],
+        "correct_answer": "Black",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_177",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which mammal has the most powerful bite?",
+        "options": [
+          "Hippopotamus",
+          "Lion",
+          "Tiger",
+          "Grizzly bear"
+        ],
+        "correct_answer": "Hippopotamus",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_186",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the only venomous primate?",
+        "options": [
+          "Slow loris",
+          "Howler monkey",
+          "Lemur",
+          "Tarsier"
+        ],
+        "correct_answer": "Slow loris",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_194",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal has three hearts?",
+        "options": [
+          "Octopus",
+          "Squid",
+          "Whale",
+          "Elephant"
+        ],
+        "correct_answer": "Octopus",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_196",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "How long is the gestation period for an African elephant?",
+        "options": [
+          "22 months",
+          "18 months",
+          "12 months",
+          "15 months"
+        ],
+        "correct_answer": "22 months",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_197",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which bird can fly backwards?",
+        "options": [
+          "Hummingbird",
+          "Woodpecker",
+          "Swift",
+          "Kingfisher"
+        ],
+        "correct_answer": "Hummingbird",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_198",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal has the highest blood pressure?",
+        "options": [
+          "Giraffe",
+          "Elephant",
+          "Whale",
+          "Horse"
+        ],
+        "correct_answer": "Giraffe",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_200",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal has the longest migration route?",
+        "options": [
+          "Arctic tern",
+          "Monarch butterfly",
+          "Gray whale",
+          "Caribou"
+        ],
+        "correct_answer": "Arctic tern",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_201",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the only marsupial native to North America?",
+        "options": [
+          "Opossum",
+          "Kangaroo rat",
+          "Flying squirrel",
+          "Raccoon"
+        ],
+        "correct_answer": "Opossum",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_202",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "How many eyes does a honeybee have?",
+        "options": [
+          "5",
+          "2",
+          "6",
+          "8"
+        ],
+        "correct_answer": "5",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_203",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which primate is known for having the most complex social structure?",
+        "options": [
+          "Chimpanzee",
+          "Gorilla",
+          "Orangutan",
+          "Baboon"
+        ],
+        "correct_answer": "Chimpanzee",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_204",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the smallest mammal in the world by weight?",
+        "options": [
+          "Etruscan shrew",
+          "Pygmy shrew",
+          "Bumblebee bat",
+          "Pygmy mouse"
+        ],
+        "correct_answer": "Bumblebee bat",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_205",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal has a tongue longer than its body?",
+        "options": [
+          "Chameleon",
+          "Anteater",
+          "Giraffe",
+          "Frog"
+        ],
+        "correct_answer": "Chameleon",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_206",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the lifespan of a mayfly?",
+        "options": [
+          "24 hours",
+          "1 week",
+          "1 month",
+          "3 days"
+        ],
+        "correct_answer": "24 hours",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_207",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal can survive the longest without water?",
+        "options": [
+          "Kangaroo rat",
+          "Camel",
+          "Desert tortoise",
+          "Jerboa"
+        ],
+        "correct_answer": "Kangaroo rat",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_219",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "Which animal has rectangular pupils?",
+        "options": [
+          "Goat",
+          "Cat",
+          "Horse",
+          "Deer"
+        ],
+        "correct_answer": "Goat",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_220",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the collective noun for a group of flamingos?",
+        "options": [
+          "Flamboyance",
+          "Flock",
+          "Colony",
+          "Parade"
+        ],
+        "correct_answer": "Flamboyance",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_230",
+        "category": "Nature",
+        "subcategory": "Animals & Wildlife",
+        "question": "What is the only mammal that can fly?",
+        "options": [
+          "Bat",
+          "Flying squirrel",
+          "Sugar glider",
+          "Flying lemur"
+        ],
+        "correct_answer": "Bat",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_004",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What process do plants use to make food from sunlight?",
+        "options": [
+          "Respiration",
+          "Photosynthesis",
+          "Transpiration",
+          "Germination"
+        ],
+        "correct_answer": "Photosynthesis",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_008",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which part of the plant absorbs water and nutrients?",
+        "options": [
+          "Leaves",
+          "Stem",
+          "Roots",
+          "Flowers"
+        ],
+        "correct_answer": "Roots",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_017",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which tree produces acorns?",
+        "options": [
+          "Oak",
+          "Pine",
+          "Maple",
+          "Birch"
+        ],
+        "correct_answer": "Oak",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_026",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the largest flower in the world?",
+        "options": [
+          "Sunflower",
+          "Rafflesia",
+          "Rose",
+          "Lily"
+        ],
+        "correct_answer": "Rafflesia",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_027",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant is the main source of sugar?",
+        "options": [
+          "Sugarcane",
+          "Beetroot",
+          "Corn",
+          "Maple"
+        ],
+        "correct_answer": "Sugarcane",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_028",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant is known for its medicinal properties and bitter taste?",
+        "options": [
+          "Aloe vera",
+          "Mint",
+          "Basil",
+          "Rosemary"
+        ],
+        "correct_answer": "Aloe vera",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_029",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which plant can survive in the desert with little water?",
+        "options": [
+          "Fern",
+          "Cactus",
+          "Rose",
+          "Grass"
+        ],
+        "correct_answer": "Cactus",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_030",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What part of the plant conducts photosynthesis?",
+        "options": [
+          "Roots",
+          "Stem",
+          "Leaves",
+          "Flowers"
+        ],
+        "correct_answer": "Leaves",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_053",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What do plants make during photosynthesis?",
+        "options": [
+          "Water",
           "Oxygen",
-          "Nitrogen",
-          "Water vapor"
+          "Carbon dioxide",
+          "Nitrogen"
         ],
         "correct_answer": "Oxygen",
         "difficulty": "easy",
@@ -13037,114 +13037,146 @@
         "subtopic": null
       },
       {
-        "id": "nat_097",
+        "id": "nat_054",
         "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What part of the tree carries water up from the roots?",
+        "subcategory": "Plants & Flowers",
+        "question": "What part of the plant makes the seeds?",
         "options": [
-          "Bark",
+          "Roots",
+          "Stem",
           "Leaves",
-          "Trunk",
-          "Branches"
+          "Flower"
         ],
-        "correct_answer": "Trunk",
+        "correct_answer": "Flower",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_055",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What do we call plants that live for more than two years?",
+        "options": [
+          "Annual",
+          "Biennial",
+          "Perennial",
+          "Seasonal"
+        ],
+        "correct_answer": "Perennial",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
       {
-        "id": "nat_098",
+        "id": "nat_056",
         "category": "Nature",
-        "subcategory": "Trees",
-        "question": "Which tree is known for its bright fall colors?",
+        "subcategory": "Plants & Flowers",
+        "question": "What helps plants make food?",
         "options": [
-          "Pine",
-          "Maple",
-          "Palm",
-          "Cedar"
-        ],
-        "correct_answer": "Maple",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_099",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What do we call a tree that grows fruit?",
-        "options": [
-          "Fruit tree",
-          "Orchard tree",
-          "Food tree",
-          "Garden tree"
-        ],
-        "correct_answer": "Fruit tree",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_100",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What protects the tree trunk?",
-        "options": [
-          "Leaves",
-          "Bark",
-          "Roots",
-          "Branches"
-        ],
-        "correct_answer": "Bark",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_101",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "Which tree produces apples?",
-        "options": [
-          "Apple tree",
-          "Orange tree",
-          "Cherry tree",
-          "Peach tree"
-        ],
-        "correct_answer": "Apple tree",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_102",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What do we call the place where many trees grow together?",
-        "options": [
-          "Garden",
-          "Forest",
-          "Park",
-          "Yard"
-        ],
-        "correct_answer": "Forest",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_103",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What do trees need to grow tall and strong?",
-        "options": [
-          "Sunlight",
+          "Chlorophyll",
           "Water",
-          "Good soil",
+          "Soil",
+          "Air"
+        ],
+        "correct_answer": "Chlorophyll",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_057",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which plant is used to make the spice cinnamon?",
+        "options": [
+          "Cinnamon tree",
+          "Nutmeg tree",
+          "Clove tree",
+          "Sassafras"
+        ],
+        "correct_answer": "Cinnamon tree",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_070",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What do seeds need to start growing?",
+        "options": [
+          "Water, warmth, air",
+          "Only water",
+          "Only sunlight",
+          "Only soil"
+        ],
+        "correct_answer": "Water, warmth, air",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_071",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What do we call a baby plant?",
+        "options": [
+          "Seedling",
+          "Sprout",
+          "Shoot",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_079",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What color are most leaves?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "correct_answer": "Green",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_080",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What do plants need from the sun?",
+        "options": [
+          "Heat",
+          "Light",
+          "Warmth",
           "All of the above"
         ],
         "correct_answer": "All of the above",
         "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_086",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What do we call the process when plants lose their leaves?",
+        "options": [
+          "Growing",
+          "Falling",
+          "Shedding",
+          "Dropping"
+        ],
+        "correct_answer": "Shedding",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -13309,159 +13341,733 @@
         "subtopic": null
       },
       {
-        "id": "nat_114",
+        "id": "nat_143",
         "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What do we call water that falls from clouds?",
+        "subcategory": "Plants & Flowers",
+        "question": "What do sunflowers turn to follow?",
         "options": [
-          "Dew",
-          "Fog",
-          "Precipitation",
-          "Moisture"
+          "The Moon",
+          "The Sun",
+          "The wind",
+          "Rain"
         ],
-        "correct_answer": "Precipitation",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_115",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What makes rainbows appear?",
-        "options": [
-          "Rain and sunshine",
-          "Wind and clouds",
-          "Snow and ice",
-          "Thunder and lightning"
-        ],
-        "correct_answer": "Rain and sunshine",
+        "correct_answer": "The Sun",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
       {
-        "id": "nat_116",
+        "id": "nat_144",
         "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What season has the shortest days?",
+        "subcategory": "Plants & Flowers",
+        "question": "What gives plants their green color?",
+        "options": [
+          "Water",
+          "Sunlight",
+          "Chlorophyll",
+          "Soil"
+        ],
+        "correct_answer": "Chlorophyll",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_145",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which plant is known for closing its leaves when touched?",
+        "options": [
+          "Rose",
+          "Daisy",
+          "Sensitive plant",
+          "Tulip"
+        ],
+        "correct_answer": "Sensitive plant",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_153",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What do bees collect from flowers to make honey?",
+        "options": [
+          "Water",
+          "Pollen",
+          "Nectar",
+          "Seeds"
+        ],
+        "correct_answer": "Nectar",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_182",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which plant is known for tracking the sun's movement?",
+        "options": [
+          "Sunflower",
+          "Daisy",
+          "Tulip",
+          "Rose"
+        ],
+        "correct_answer": "Sunflower",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_183",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the fastest-growing plant?",
+        "options": [
+          "Bamboo",
+          "Kudzu",
+          "Water hyacinth",
+          "Algae"
+        ],
+        "correct_answer": "Bamboo",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_191",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the process by which plants release water vapor?",
+        "options": [
+          "Transpiration",
+          "Photosynthesis",
+          "Respiration",
+          "Germination"
+        ],
+        "correct_answer": "Transpiration",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_216",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which plant can eat insects?",
+        "options": [
+          "Venus flytrap",
+          "Cactus",
+          "Fern",
+          "Moss"
+        ],
+        "correct_answer": "Venus flytrap",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_217",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which plant takes the longest to bloom?",
+        "options": [
+          "Puya raimondii",
+          "Agave",
+          "Bamboo",
+          "Century plant"
+        ],
+        "correct_answer": "Puya raimondii",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_218",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What percentage of Earth's oxygen is produced by ocean plants?",
+        "options": [
+          "70%",
+          "50%",
+          "30%",
+          "90%"
+        ],
+        "correct_answer": "70%",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_227",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "Which plant is known as the 'corpse flower' due to its smell?",
+        "options": [
+          "Titan arum",
+          "Rafflesia",
+          "Skunk cabbage",
+          "Dragon arum"
+        ],
+        "correct_answer": "Titan arum",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_228",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the smallest flowering plant in the world?",
+        "options": [
+          "Wolffia (watermeal)",
+          "Baby's tears",
+          "Pearlwort",
+          "Duckweed"
+        ],
+        "correct_answer": "Wolffia (watermeal)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_261",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the national flower of the United States?",
+        "options": [
+          "Rose",
+          "Tulip",
+          "Daisy",
+          "Sunflower"
+        ],
+        "correct_answer": "Rose",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_262",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower is associated with the Netherlands?",
+        "options": [
+          "Tulip",
+          "Rose",
+          "Lily",
+          "Carnation"
+        ],
+        "correct_answer": "Tulip",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_263",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant is aloe vera used from?",
+        "options": [
+          "Aloe plant",
+          "Cactus",
+          "Succulent",
+          "Fern"
+        ],
+        "correct_answer": "Aloe plant",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_264",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What type of plant is bamboo?",
+        "options": [
+          "Grass",
+          "Tree",
+          "Shrub",
+          "Vine"
+        ],
+        "correct_answer": "Grass",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_265",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower is the symbol of remembrance for veterans?",
+        "options": [
+          "Poppy",
+          "Rose",
+          "Lily",
+          "Daisy"
+        ],
+        "correct_answer": "Poppy",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_266",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant produces vanilla flavoring?",
+        "options": [
+          "Vanilla orchid",
+          "Vanilla bean plant",
+          "Vanilla vine",
+          "Vanilla tree"
+        ],
+        "correct_answer": "Vanilla orchid",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_269",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is lavender commonly used for?",
+        "options": [
+          "Aromatherapy and relaxation",
+          "Cooking only",
+          "Medicine only",
+          "Dye production"
+        ],
+        "correct_answer": "Aromatherapy and relaxation",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_270",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower blooms in spring and is associated with Easter?",
+        "options": [
+          "Lily",
+          "Rose",
+          "Tulip",
+          "Daisy"
+        ],
+        "correct_answer": "Lily",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_271",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What carnivorous plant is native to the Carolinas?",
+        "options": [
+          "Venus flytrap",
+          "Pitcher plant",
+          "Sundew",
+          "Butterwort"
+        ],
+        "correct_answer": "Venus flytrap",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_272",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the national flower of Japan?",
+        "options": [
+          "Cherry blossom",
+          "Chrysanthemum",
+          "Lotus",
+          "Plum blossom"
+        ],
+        "correct_answer": "Cherry blossom",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_273",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower bulb was so valuable it caused a market crash in 17th century Netherlands?",
+        "options": [
+          "Tulip",
+          "Daffodil",
+          "Hyacinth",
+          "Crocus"
+        ],
+        "correct_answer": "Tulip",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_274",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the term for plants that complete their life cycle in two years?",
+        "options": [
+          "Biennials",
+          "Annuals",
+          "Perennials",
+          "Ephemerals"
+        ],
+        "correct_answer": "Biennials",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_275",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant genus includes poison ivy, poison oak, and poison sumac?",
+        "options": [
+          "Toxicodendron",
+          "Rhus",
+          "Urtica",
+          "Hedera"
+        ],
+        "correct_answer": "Toxicodendron",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_276",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the world's most expensive spice by weight?",
+        "options": [
+          "Saffron",
+          "Vanilla",
+          "Cardamom",
+          "Cinnamon"
+        ],
+        "correct_answer": "Saffron",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_277",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower is the symbol of the fleur-de-lis?",
+        "options": [
+          "Iris",
+          "Lily",
+          "Orchid",
+          "Lotus"
+        ],
+        "correct_answer": "Iris",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_278",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant produces the psychoactive compound in cannabis?",
+        "options": [
+          "THC (tetrahydrocannabinol)",
+          "CBD",
+          "Hemp",
+          "Marijuana"
+        ],
+        "correct_answer": "THC (tetrahydrocannabinol)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_279",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the process by which pollen is transferred to fertilize plants?",
+        "options": [
+          "Pollination",
+          "Germination",
+          "Fertilization",
+          "Propagation"
+        ],
+        "correct_answer": "Pollination",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_280",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What desert plant can live for over 200 years and only blooms once before dying?",
+        "options": [
+          "Century plant (agave)",
+          "Joshua tree",
+          "Barrel cactus",
+          "Saguaro cactus"
+        ],
+        "correct_answer": "Century plant (agave)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_281",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the scientific term for the opening on leaves that allows gas exchange?",
+        "options": [
+          "Stomata",
+          "Lenticels",
+          "Cuticle",
+          "Epidermis"
+        ],
+        "correct_answer": "Stomata",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_282",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower produces opium?",
+        "options": [
+          "Opium poppy (Papaver somniferum)",
+          "Corn poppy",
+          "Oriental poppy",
+          "Iceland poppy"
+        ],
+        "correct_answer": "Opium poppy (Papaver somniferum)",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_283",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the term for plants that grow on other plants without being parasitic?",
+        "options": [
+          "Epiphytes",
+          "Parasites",
+          "Saprophytes",
+          "Lithophytes"
+        ],
+        "correct_answer": "Epiphytes",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_284",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What rare parasitic flower is known as the 'corpse flower' for its smell?",
+        "options": [
+          "Rafflesia",
+          "Amorphophallus titanum",
+          "Stapelia",
+          "Aristolochia"
+        ],
+        "correct_answer": "Rafflesia",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_285",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the phenomenon where some plants flower only after exposure to cold temperatures?",
+        "options": [
+          "Vernalization",
+          "Photoperiodism",
+          "Stratification",
+          "Dormancy"
+        ],
+        "correct_answer": "Vernalization",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_267",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What aquatic plant has leaves so large they can support the weight of a small child?",
+        "options": [
+          "Victoria amazonica (giant water lily)",
+          "Lotus",
+          "Water hyacinth",
+          "Cattail"
+        ],
+        "correct_answer": "Victoria amazonica (giant water lily)",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_268",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flowering plant is used to make tequila?",
+        "options": [
+          "Blue agave",
+          "Aloe vera",
+          "Prickly pear",
+          "Century plant"
+        ],
+        "correct_answer": "Blue agave",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_001",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "Which tree is known for having the longest lifespan?",
+        "options": [
+          "Oak",
+          "Redwood",
+          "Bristlecone Pine",
+          "Baobab"
+        ],
+        "correct_answer": "Bristlecone Pine",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_021",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree produces maple syrup?",
+        "options": [
+          "Oak",
+          "Pine",
+          "Maple",
+          "Birch"
+        ],
+        "correct_answer": "Maple",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_022",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "Which tree is known as the 'Tree of Life' in Africa?",
+        "options": [
+          "Palm",
+          "Baobab",
+          "Divi Divi",
+          "Cedar"
+        ],
+        "correct_answer": "Baobab",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_023",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the tallest type of tree?",
+        "options": [
+          "Oak",
+          "Pine",
+          "Redwood",
+          "Eucalyptus"
+        ],
+        "correct_answer": "Redwood",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_024",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "Which tree produces nuts that squirrels love?",
+        "options": [
+          "Pine",
+          "Oak",
+          "Maple",
+          "Birch"
+        ],
+        "correct_answer": "Oak",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_025",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree is known for its white bark?",
+        "options": [
+          "Oak",
+          "Birch",
+          "Pine",
+          "Maple"
+        ],
+        "correct_answer": "Birch",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_050",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What part of the tree takes in water?",
+        "options": [
+          "Leaves",
+          "Branches",
+          "Roots",
+          "Trunk"
+        ],
+        "correct_answer": "Roots",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_051",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What do we call the rings inside a tree trunk?",
+        "options": [
+          "Tree rings",
+          "Growth rings",
+          "Annual rings",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_052",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "Which tree loses its leaves in winter?",
+        "options": [
+          "Pine",
+          "Deciduous",
+          "Evergreen",
+          "Coniferous"
+        ],
+        "correct_answer": "Deciduous",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_067",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What do we call trees that keep their leaves year-round?",
+        "options": [
+          "Deciduous",
+          "Evergreen",
+          "Seasonal",
+          "Annual"
+        ],
+        "correct_answer": "Evergreen",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_068",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is bark?",
+        "options": [
+          "Tree's skin",
+          "Tree's leaves",
+          "Tree's roots",
+          "Tree's fruit"
+        ],
+        "correct_answer": "Tree's skin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_069",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What season do most trees lose their leaves?",
         "options": [
           "Spring",
           "Summer",
           "Fall",
           "Winter"
-        ],
-        "correct_answer": "Winter",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_117",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What do we call a violent spinning storm?",
-        "options": [
-          "Tsunami",
-          "Tornado",
-          "Blizzard",
-          "Thunderstorm"
-        ],
-        "correct_answer": "Tornado",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_118",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What forms when water vapor touches cold surfaces?",
-        "options": [
-          "Rain",
-          "Snow",
-          "Dew",
-          "Hail"
-        ],
-        "correct_answer": "Dew",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_119",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What do we call very light rain?",
-        "options": [
-          "Drizzle",
-          "Shower",
-          "Downpour",
-          "Sprinkle"
-        ],
-        "correct_answer": "Drizzle",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_120",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What causes wind?",
-        "options": [
-          "Trees moving",
-          "Air moving",
-          "Clouds moving",
-          "Rain falling"
-        ],
-        "correct_answer": "Air moving",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_121",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What do we call frozen rain that bounces?",
-        "options": [
-          "Snow",
-          "Sleet",
-          "Hail",
-          "Ice"
-        ],
-        "correct_answer": "Sleet",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_122",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What type of cloud is fluffy and white?",
-        "options": [
-          "Stratus",
-          "Cumulus",
-          "Cirrus",
-          "Nimbus"
-        ],
-        "correct_answer": "Cumulus",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_123",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What season comes after summer?",
-        "options": [
-          "Winter",
-          "Spring",
-          "Fall",
-          "Autumn"
         ],
         "correct_answer": "Fall",
         "difficulty": "easy",
@@ -13469,18 +14075,162 @@
         "subtopic": null
       },
       {
-        "id": "nat_124",
+        "id": "nat_077",
         "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do we call animals that are awake during the day?",
+        "subcategory": "Trees",
+        "question": "Which tree produces coconuts?",
         "options": [
-          "Nocturnal",
-          "Diurnal",
-          "Crepuscular",
-          "Active"
+          "Palm tree",
+          "Oak tree",
+          "Pine tree",
+          "Maple tree"
         ],
-        "correct_answer": "Diurnal",
+        "correct_answer": "Palm tree",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_078",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the trunk of a tree?",
+        "options": [
+          "The main stem",
+          "The roots",
+          "The leaves",
+          "The branches"
+        ],
+        "correct_answer": "The main stem",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_096",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What do trees give off that we need to breathe?",
+        "options": [
+          "Carbon dioxide",
+          "Oxygen",
+          "Nitrogen",
+          "Water vapor"
+        ],
+        "correct_answer": "Oxygen",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_097",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What part of the tree carries water up from the roots?",
+        "options": [
+          "Bark",
+          "Leaves",
+          "Trunk",
+          "Branches"
+        ],
+        "correct_answer": "Trunk",
         "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_098",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "Which tree is known for its bright fall colors?",
+        "options": [
+          "Pine",
+          "Maple",
+          "Palm",
+          "Cedar"
+        ],
+        "correct_answer": "Maple",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_099",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What do we call a tree that grows fruit?",
+        "options": [
+          "Fruit tree",
+          "Orchard tree",
+          "Food tree",
+          "Garden tree"
+        ],
+        "correct_answer": "Fruit tree",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_100",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What protects the tree trunk?",
+        "options": [
+          "Leaves",
+          "Bark",
+          "Roots",
+          "Branches"
+        ],
+        "correct_answer": "Bark",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_101",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "Which tree produces apples?",
+        "options": [
+          "Apple tree",
+          "Orange tree",
+          "Cherry tree",
+          "Peach tree"
+        ],
+        "correct_answer": "Apple tree",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_102",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What do we call the place where many trees grow together?",
+        "options": [
+          "Garden",
+          "Forest",
+          "Park",
+          "Yard"
+        ],
+        "correct_answer": "Forest",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_103",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What do trees need to grow tall and strong?",
+        "options": [
+          "Sunlight",
+          "Water",
+          "Good soil",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
@@ -13496,230 +14246,6 @@
           "Birch"
         ],
         "correct_answer": "Pine",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_126",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do rabbits primarily eat?",
-        "options": [
-          "Meat",
-          "Fish",
-          "Plants",
-          "Insects"
-        ],
-        "correct_answer": "Plants",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_127",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal is known for its ability to climb trees?",
-        "options": [
-          "Elephant",
-          "Monkey",
-          "Whale",
-          "Fish"
-        ],
-        "correct_answer": "Monkey",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_128",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do we call animals that lay eggs?",
-        "options": [
-          "Mammals",
-          "Oviparous",
-          "Viviparous",
-          "Carnivores"
-        ],
-        "correct_answer": "Oviparous",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_129",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal is known for its humps?",
-        "options": [
-          "Horse",
-          "Cow",
-          "Camel",
-          "Zebra"
-        ],
-        "correct_answer": "Camel",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_130",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do bees make in their hives?",
-        "options": [
-          "Milk",
-          "Honey",
-          "Eggs",
-          "Silk"
-        ],
-        "correct_answer": "Honey",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_131",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which bird is known for its colorful tail feathers?",
-        "options": [
-          "Eagle",
-          "Sparrow",
-          "Peacock",
-          "Crow"
-        ],
-        "correct_answer": "Peacock",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_132",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do we call a group of ants?",
-        "options": [
-          "Swarm",
-          "Colony",
-          "Hive",
-          "Pack"
-        ],
-        "correct_answer": "Colony",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_133",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do you call a baby deer?",
-        "options": [
-          "Cub",
-          "Fawn",
-          "Kid",
-          "Pup"
-        ],
-        "correct_answer": "Fawn",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_134",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal is known for its excellent memory?",
-        "options": [
-          "Dolphin",
-          "Elephant",
-          "Monkey",
-          "Dog"
-        ],
-        "correct_answer": "Elephant",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_135",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do you call a group of dolphins?",
-        "options": [
-          "School",
-          "Pod",
-          "Herd",
-          "Pack"
-        ],
-        "correct_answer": "Pod",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_136",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which bird is known for its beautiful singing?",
-        "options": [
-          "Crow",
-          "Owl",
-          "Nightingale",
-          "Eagle"
-        ],
-        "correct_answer": "Nightingale",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_137",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do butterflies start as?",
-        "options": [
-          "Eggs",
-          "Caterpillars",
-          "Chrysalis",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_138",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal is known for making honey?",
-        "options": [
-          "Wasp",
-          "Bee",
-          "Ant",
-          "Butterfly"
-        ],
-        "correct_answer": "Bee",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_139",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do you call a baby cow?",
-        "options": [
-          "Foal",
-          "Calf",
-          "Kid",
-          "Lamb"
-        ],
-        "correct_answer": "Calf",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -13773,150 +14299,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_143",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What do sunflowers turn to follow?",
-        "options": [
-          "The Moon",
-          "The Sun",
-          "The wind",
-          "Rain"
-        ],
-        "correct_answer": "The Sun",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_144",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What gives plants their green color?",
-        "options": [
-          "Water",
-          "Sunlight",
-          "Chlorophyll",
-          "Soil"
-        ],
-        "correct_answer": "Chlorophyll",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_145",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which plant is known for closing its leaves when touched?",
-        "options": [
-          "Rose",
-          "Daisy",
-          "Sensitive plant",
-          "Tulip"
-        ],
-        "correct_answer": "Sensitive plant",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_146",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What do we call a storm with rotating winds?",
-        "options": [
-          "Hurricane",
-          "Tornado",
-          "Blizzard",
-          "Both A and B"
-        ],
-        "correct_answer": "Both A and B",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_147",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What type of cloud looks like cotton balls?",
-        "options": [
-          "Stratus",
-          "Cirrus",
-          "Cumulus",
-          "Nimbus"
-        ],
-        "correct_answer": "Cumulus",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_148",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What do we call water droplets that form on grass in the morning?",
-        "options": [
-          "Rain",
-          "Dew",
-          "Frost",
-          "Mist"
-        ],
-        "correct_answer": "Dew",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_149",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which bird cannot fly but is an excellent swimmer?",
-        "options": [
-          "Duck",
-          "Swan",
-          "Penguin",
-          "Goose"
-        ],
-        "correct_answer": "Penguin",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_150",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do we call animals that sleep through the winter?",
-        "options": [
-          "Migrating",
-          "Hibernating",
-          "Resting",
-          "Sleeping"
-        ],
-        "correct_answer": "Hibernating",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_151",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal is known for its ability to hop?",
-        "options": [
-          "Deer",
-          "Rabbit",
-          "Squirrel",
-          "Mouse"
-        ],
-        "correct_answer": "Rabbit",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_152",
         "category": "Nature",
         "subcategory": "Trees",
@@ -13929,502 +14311,6 @@
         ],
         "correct_answer": "Both A and B",
         "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_153",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What do bees collect from flowers to make honey?",
-        "options": [
-          "Water",
-          "Pollen",
-          "Nectar",
-          "Seeds"
-        ],
-        "correct_answer": "Nectar",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_154",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How many hearts does an octopus have?",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
-        "correct_answer": "3",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_155",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What color is a giraffe's tongue?",
-        "options": [
-          "Pink",
-          "Red",
-          "Blue",
-          "Purple"
-        ],
-        "correct_answer": "Blue",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_156",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How many noses does a slug have?",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
-        "correct_answer": "4",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_157",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is a group of flamingos called?",
-        "options": [
-          "Flock",
-          "Flamboyance",
-          "Flight",
-          "Flutter"
-        ],
-        "correct_answer": "Flamboyance",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_158",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How many bones are in a shark's body?",
-        "options": [
-          "Over 200",
-          "About 100",
-          "Zero",
-          "50"
-        ],
-        "correct_answer": "Zero",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_159",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the collective name for a group of pandas?",
-        "options": [
-          "Embarrassment",
-          "Awkwardness",
-          "Cuddle",
-          "Tumble"
-        ],
-        "correct_answer": "Embarrassment",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_160",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "How many colors are in a rainbow?",
-        "options": [
-          "5",
-          "6",
-          "7",
-          "8"
-        ],
-        "correct_answer": "7",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_161",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What do we call frozen water?",
-        "options": [
-          "Steam",
-          "Ice",
-          "Snow",
-          "Vapor"
-        ],
-        "correct_answer": "Ice",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_162",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do we call a baby dog?",
-        "options": [
-          "Kitten",
-          "Puppy",
-          "Cub",
-          "Foal"
-        ],
-        "correct_answer": "Puppy",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_163",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What do we call a baby cat?",
-        "options": [
-          "Puppy",
-          "Kitten",
-          "Cub",
-          "Joey"
-        ],
-        "correct_answer": "Kitten",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_164",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the fastest bird in the world?",
-        "options": [
-          "Eagle",
-          "Falcon",
-          "Peregrine falcon",
-          "Hawk"
-        ],
-        "correct_answer": "Peregrine falcon",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_165",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the largest species of bear?",
-        "options": [
-          "Polar bear",
-          "Grizzly bear",
-          "Kodiak bear",
-          "Black bear"
-        ],
-        "correct_answer": "Polar bear",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_166",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the only mammal capable of true flight?",
-        "options": [
-          "Bat",
-          "Flying squirrel",
-          "Sugar glider",
-          "Flying lemur"
-        ],
-        "correct_answer": "Bat",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_167",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is a group of crows called?",
-        "options": [
-          "A murder",
-          "A flock",
-          "A gaggle",
-          "A pack"
-        ],
-        "correct_answer": "A murder",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_168",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal has the longest gestation period?",
-        "options": [
-          "African elephant",
-          "Blue whale",
-          "Giraffe",
-          "Rhinoceros"
-        ],
-        "correct_answer": "African elephant",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_169",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the fastest swimming fish?",
-        "options": [
-          "Sailfish",
-          "Marlin",
-          "Tuna",
-          "Swordfish"
-        ],
-        "correct_answer": "Sailfish",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_170",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the largest living reptile?",
-        "options": [
-          "Saltwater crocodile",
-          "Komodo dragon",
-          "Anaconda",
-          "Leatherback sea turtle"
-        ],
-        "correct_answer": "Saltwater crocodile",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_171",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which bird is known for its elaborate tail display?",
-        "options": [
-          "Peacock",
-          "Pheasant",
-          "Turkey",
-          "Ostrich"
-        ],
-        "correct_answer": "Peacock",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_172",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the only continent without native reptiles?",
-        "options": [
-          "Antarctica",
-          "Europe",
-          "Australia",
-          "North America"
-        ],
-        "correct_answer": "Antarctica",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_173",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is a baby kangaroo called?",
-        "options": [
-          "Joey",
-          "Cub",
-          "Pup",
-          "Kit"
-        ],
-        "correct_answer": "Joey",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_174",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal can sleep standing up?",
-        "options": [
-          "Horse",
-          "Cow",
-          "Giraffe",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_175",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the largest living bird by wingspan?",
-        "options": [
-          "Wandering albatross",
-          "Andean condor",
-          "California condor",
-          "Golden eagle"
-        ],
-        "correct_answer": "Wandering albatross",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_176",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What color is a polar bear's skin?",
-        "options": [
-          "Black",
-          "White",
-          "Pink",
-          "Gray"
-        ],
-        "correct_answer": "Black",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_177",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which mammal has the most powerful bite?",
-        "options": [
-          "Hippopotamus",
-          "Lion",
-          "Tiger",
-          "Grizzly bear"
-        ],
-        "correct_answer": "Hippopotamus",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_178",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the study of weather called?",
-        "options": [
-          "Meteorology",
-          "Climatology",
-          "Geology",
-          "Astronomy"
-        ],
-        "correct_answer": "Meteorology",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_179",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What instrument measures air pressure?",
-        "options": [
-          "Barometer",
-          "Thermometer",
-          "Hygrometer",
-          "Anemometer"
-        ],
-        "correct_answer": "Barometer",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_180",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is a rapidly rotating column of air that touches the ground called?",
-        "options": [
-          "Tornado",
-          "Hurricane",
-          "Cyclone",
-          "Typhoon"
-        ],
-        "correct_answer": "Tornado",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_181",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What scale measures tornado intensity?",
-        "options": [
-          "Enhanced Fujita Scale",
-          "Richter Scale",
-          "Saffir-Simpson Scale",
-          "Beaufort Scale"
-        ],
-        "correct_answer": "Enhanced Fujita Scale",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_182",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which plant is known for tracking the sun's movement?",
-        "options": [
-          "Sunflower",
-          "Daisy",
-          "Tulip",
-          "Rose"
-        ],
-        "correct_answer": "Sunflower",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_183",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the fastest-growing plant?",
-        "options": [
-          "Bamboo",
-          "Kudzu",
-          "Water hyacinth",
-          "Algae"
-        ],
-        "correct_answer": "Bamboo",
-        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -14461,38 +14347,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_186",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the only venomous primate?",
-        "options": [
-          "Slow loris",
-          "Howler monkey",
-          "Lemur",
-          "Tarsier"
-        ],
-        "correct_answer": "Slow loris",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_187",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What instrument measures humidity?",
-        "options": [
-          "Hygrometer",
-          "Barometer",
-          "Thermometer",
-          "Anemometer"
-        ],
-        "correct_answer": "Hygrometer",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_188",
         "category": "Nature",
         "subcategory": "Trees",
@@ -14504,54 +14358,6 @@
           "Fir"
         ],
         "correct_answer": "Larch",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_189",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the largest species of penguin?",
-        "options": [
-          "Emperor penguin",
-          "King penguin",
-          "Gentoo penguin",
-          "Adélie penguin"
-        ],
-        "correct_answer": "Emperor penguin",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_190",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the rotating column of air over water called?",
-        "options": [
-          "Waterspout",
-          "Tornado",
-          "Hurricane",
-          "Cyclone"
-        ],
-        "correct_answer": "Waterspout",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_191",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the process by which plants release water vapor?",
-        "options": [
-          "Transpiration",
-          "Photosynthesis",
-          "Respiration",
-          "Germination"
-        ],
-        "correct_answer": "Transpiration",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -14569,294 +14375,6 @@
         ],
         "correct_answer": "Maple",
         "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_193",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is a group of whales called?",
-        "options": [
-          "Pod",
-          "School",
-          "Herd",
-          "Pack"
-        ],
-        "correct_answer": "Pod",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_194",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal has three hearts?",
-        "options": [
-          "Octopus",
-          "Squid",
-          "Whale",
-          "Elephant"
-        ],
-        "correct_answer": "Octopus",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_195",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the most venomous fish in the world?",
-        "options": [
-          "Stonefish",
-          "Pufferfish",
-          "Lionfish",
-          "Stingray"
-        ],
-        "correct_answer": "Stonefish",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_196",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How long is the gestation period for an African elephant?",
-        "options": [
-          "22 months",
-          "18 months",
-          "12 months",
-          "15 months"
-        ],
-        "correct_answer": "22 months",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_197",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which bird can fly backwards?",
-        "options": [
-          "Hummingbird",
-          "Woodpecker",
-          "Swift",
-          "Kingfisher"
-        ],
-        "correct_answer": "Hummingbird",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_198",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal has the highest blood pressure?",
-        "options": [
-          "Giraffe",
-          "Elephant",
-          "Whale",
-          "Horse"
-        ],
-        "correct_answer": "Giraffe",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_199",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How many chambers does a fish's heart have?",
-        "options": [
-          "2",
-          "3",
-          "4",
-          "1"
-        ],
-        "correct_answer": "2",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_200",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal has the longest migration route?",
-        "options": [
-          "Arctic tern",
-          "Monarch butterfly",
-          "Gray whale",
-          "Caribou"
-        ],
-        "correct_answer": "Arctic tern",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_201",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the only marsupial native to North America?",
-        "options": [
-          "Opossum",
-          "Kangaroo rat",
-          "Flying squirrel",
-          "Raccoon"
-        ],
-        "correct_answer": "Opossum",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_202",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How many eyes does a honeybee have?",
-        "options": [
-          "5",
-          "2",
-          "6",
-          "8"
-        ],
-        "correct_answer": "5",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_203",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which primate is known for having the most complex social structure?",
-        "options": [
-          "Chimpanzee",
-          "Gorilla",
-          "Orangutan",
-          "Baboon"
-        ],
-        "correct_answer": "Chimpanzee",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_204",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the smallest mammal in the world by weight?",
-        "options": [
-          "Etruscan shrew",
-          "Pygmy shrew",
-          "Bumblebee bat",
-          "Pygmy mouse"
-        ],
-        "correct_answer": "Bumblebee bat",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_205",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal has a tongue longer than its body?",
-        "options": [
-          "Chameleon",
-          "Anteater",
-          "Giraffe",
-          "Frog"
-        ],
-        "correct_answer": "Chameleon",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_206",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the lifespan of a mayfly?",
-        "options": [
-          "24 hours",
-          "1 week",
-          "1 month",
-          "3 days"
-        ],
-        "correct_answer": "24 hours",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_207",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal can survive the longest without water?",
-        "options": [
-          "Kangaroo rat",
-          "Camel",
-          "Desert tortoise",
-          "Jerboa"
-        ],
-        "correct_answer": "Kangaroo rat",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_208",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the name of the phenomenon when rain freezes before hitting the ground?",
-        "options": [
-          "Sleet",
-          "Hail",
-          "Freezing rain",
-          "Graupel"
-        ],
-        "correct_answer": "Sleet",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_209",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the most common gas in Earth's atmosphere?",
-        "options": [
-          "Nitrogen",
-          "Oxygen",
-          "Carbon dioxide",
-          "Argon"
-        ],
-        "correct_answer": "Nitrogen",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_210",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is a haboob?",
-        "options": [
-          "A dust storm",
-          "A type of cloud",
-          "A wind pattern",
-          "A rain phenomenon"
-        ],
-        "correct_answer": "A dust storm",
-        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -14941,150 +14459,6 @@
         "subtopic": null
       },
       {
-        "id": "nat_216",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which plant can eat insects?",
-        "options": [
-          "Venus flytrap",
-          "Cactus",
-          "Fern",
-          "Moss"
-        ],
-        "correct_answer": "Venus flytrap",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_217",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which plant takes the longest to bloom?",
-        "options": [
-          "Puya raimondii",
-          "Agave",
-          "Bamboo",
-          "Century plant"
-        ],
-        "correct_answer": "Puya raimondii",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_218",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What percentage of Earth's oxygen is produced by ocean plants?",
-        "options": [
-          "70%",
-          "50%",
-          "30%",
-          "90%"
-        ],
-        "correct_answer": "70%",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_219",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "Which animal has rectangular pupils?",
-        "options": [
-          "Goat",
-          "Cat",
-          "Horse",
-          "Deer"
-        ],
-        "correct_answer": "Goat",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_220",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the collective noun for a group of flamingos?",
-        "options": [
-          "Flamboyance",
-          "Flock",
-          "Colony",
-          "Parade"
-        ],
-        "correct_answer": "Flamboyance",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_221",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "How many species of penguin exist in the world?",
-        "options": [
-          "18",
-          "12",
-          "25",
-          "30"
-        ],
-        "correct_answer": "18",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_222",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the term for snow that has been compacted and recrystallized?",
-        "options": [
-          "Firn",
-          "Névé",
-          "Glacier ice",
-          "Powder"
-        ],
-        "correct_answer": "Firn",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_223",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is a downburst in meteorological terms?",
-        "options": [
-          "Strong downward wind from thunderstorm",
-          "Tornado formation",
-          "Hurricane eye",
-          "Blizzard condition"
-        ],
-        "correct_answer": "Strong downward wind from thunderstorm",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_224",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What causes a whiteout in winter weather?",
-        "options": [
-          "Blowing snow reducing visibility to near zero",
-          "Heavy fog",
-          "Ice crystals",
-          "Cloud cover"
-        ],
-        "correct_answer": "Blowing snow reducing visibility to near zero",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "nat_225",
         "category": "Nature",
         "subcategory": "Trees",
@@ -15113,70 +14487,6 @@
         ],
         "correct_answer": "Mangrove",
         "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_227",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "Which plant is known as the 'corpse flower' due to its smell?",
-        "options": [
-          "Titan arum",
-          "Rafflesia",
-          "Skunk cabbage",
-          "Dragon arum"
-        ],
-        "correct_answer": "Titan arum",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_228",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the smallest flowering plant in the world?",
-        "options": [
-          "Wolffia (watermeal)",
-          "Baby's tears",
-          "Pearlwort",
-          "Duckweed"
-        ],
-        "correct_answer": "Wolffia (watermeal)",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_229",
-        "category": "Nature",
-        "subcategory": "Weather",
-        "question": "What is the scientific name for the study of weather?",
-        "options": [
-          "Meteorology",
-          "Climatology",
-          "Atmospheric science",
-          "Hydrology"
-        ],
-        "correct_answer": "Meteorology",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "nat_230",
-        "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the only mammal that can fly?",
-        "options": [
-          "Bat",
-          "Flying squirrel",
-          "Sugar glider",
-          "Flying lemur"
-        ],
-        "correct_answer": "Bat",
-        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
@@ -15503,326 +14813,886 @@
         "difficulty": "hard"
       },
       {
-        "id": "nat_261",
+        "id": "nat_231",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the national flower of the United States?",
+        "subcategory": "Trees",
+        "question": "What tree is known for producing sweet sap used in syrup production in spring?",
         "options": [
-          "Rose",
-          "Tulip",
-          "Daisy",
-          "Sunflower"
+          "Sugar maple",
+          "Black maple",
+          "Red maple",
+          "Silver maple"
         ],
-        "correct_answer": "Rose",
+        "correct_answer": "Sugar maple",
         "difficulty": "easy"
       },
       {
-        "id": "nat_262",
+        "id": "nat_234",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What flower is associated with the Netherlands?",
+        "subcategory": "Trees",
+        "question": "What is the term for trees that retain their needles year-round?",
         "options": [
-          "Tulip",
-          "Rose",
-          "Lily",
-          "Carnation"
+          "Coniferous evergreens",
+          "Deciduous",
+          "Broadleaf",
+          "Tropical"
         ],
-        "correct_answer": "Tulip",
+        "correct_answer": "Coniferous evergreens",
         "difficulty": "easy"
       },
       {
-        "id": "nat_263",
+        "id": "nat_235",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What plant is aloe vera used from?",
+        "subcategory": "Trees",
+        "question": "What tropical tree produces cacao beans for chocolate?",
         "options": [
-          "Aloe plant",
-          "Cactus",
-          "Succulent",
-          "Fern"
+          "Cacao tree (Theobroma cacao)",
+          "Coffee tree",
+          "Rubber tree",
+          "Banana tree"
         ],
-        "correct_answer": "Aloe plant",
+        "correct_answer": "Cacao tree (Theobroma cacao)",
         "difficulty": "easy"
       },
       {
-        "id": "nat_264",
+        "id": "nat_237",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What type of plant is bamboo?",
+        "subcategory": "Trees",
+        "question": "What tree has bark that naturally peels in papery layers?",
         "options": [
-          "Grass",
-          "Tree",
-          "Shrub",
-          "Vine"
+          "Birch",
+          "Sycamore",
+          "Eucalyptus",
+          "All of the above"
         ],
-        "correct_answer": "Grass",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_265",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What flower is the symbol of remembrance for veterans?",
-        "options": [
-          "Poppy",
-          "Rose",
-          "Lily",
-          "Daisy"
-        ],
-        "correct_answer": "Poppy",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_266",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What plant produces vanilla flavoring?",
-        "options": [
-          "Vanilla orchid",
-          "Vanilla bean plant",
-          "Vanilla vine",
-          "Vanilla tree"
-        ],
-        "correct_answer": "Vanilla orchid",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_269",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is lavender commonly used for?",
-        "options": [
-          "Aromatherapy and relaxation",
-          "Cooking only",
-          "Medicine only",
-          "Dye production"
-        ],
-        "correct_answer": "Aromatherapy and relaxation",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_270",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What flower blooms in spring and is associated with Easter?",
-        "options": [
-          "Lily",
-          "Rose",
-          "Tulip",
-          "Daisy"
-        ],
-        "correct_answer": "Lily",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_271",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What carnivorous plant is native to the Carolinas?",
-        "options": [
-          "Venus flytrap",
-          "Pitcher plant",
-          "Sundew",
-          "Butterwort"
-        ],
-        "correct_answer": "Venus flytrap",
+        "correct_answer": "All of the above",
         "difficulty": "medium"
       },
       {
-        "id": "nat_272",
+        "id": "nat_238",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the national flower of Japan?",
+        "subcategory": "Trees",
+        "question": "What is the state tree of California?",
         "options": [
-          "Cherry blossom",
-          "Chrysanthemum",
-          "Lotus",
-          "Plum blossom"
+          "Coast redwood",
+          "Giant sequoia",
+          "Douglas fir",
+          "Joshua tree"
         ],
-        "correct_answer": "Cherry blossom",
+        "correct_answer": "Coast redwood",
         "difficulty": "medium"
       },
       {
-        "id": "nat_273",
+        "id": "nat_245",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What flower bulb was so valuable it caused a market crash in 17th century Netherlands?",
+        "subcategory": "Trees",
+        "question": "What African tree can store thousands of gallons of water in its trunk?",
         "options": [
-          "Tulip",
-          "Daffodil",
-          "Hyacinth",
-          "Crocus"
+          "Baobab",
+          "Acacia",
+          "Marula",
+          "Fever tree"
         ],
-        "correct_answer": "Tulip",
+        "correct_answer": "Baobab",
         "difficulty": "medium"
       },
       {
-        "id": "nat_274",
+        "id": "nat_255",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the term for plants that complete their life cycle in two years?",
+        "subcategory": "Trees",
+        "question": "What wood is traditionally used for violin bows?",
         "options": [
-          "Biennials",
-          "Annuals",
-          "Perennials",
-          "Ephemerals"
+          "Pernambuco",
+          "Ebony",
+          "Rosewood",
+          "Maple"
         ],
-        "correct_answer": "Biennials",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_275",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What plant genus includes poison ivy, poison oak, and poison sumac?",
-        "options": [
-          "Toxicodendron",
-          "Rhus",
-          "Urtica",
-          "Hedera"
-        ],
-        "correct_answer": "Toxicodendron",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_276",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the world's most expensive spice by weight?",
-        "options": [
-          "Saffron",
-          "Vanilla",
-          "Cardamom",
-          "Cinnamon"
-        ],
-        "correct_answer": "Saffron",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_277",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What flower is the symbol of the fleur-de-lis?",
-        "options": [
-          "Iris",
-          "Lily",
-          "Orchid",
-          "Lotus"
-        ],
-        "correct_answer": "Iris",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_278",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What plant produces the psychoactive compound in cannabis?",
-        "options": [
-          "THC (tetrahydrocannabinol)",
-          "CBD",
-          "Hemp",
-          "Marijuana"
-        ],
-        "correct_answer": "THC (tetrahydrocannabinol)",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_279",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the process by which pollen is transferred to fertilize plants?",
-        "options": [
-          "Pollination",
-          "Germination",
-          "Fertilization",
-          "Propagation"
-        ],
-        "correct_answer": "Pollination",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_280",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What desert plant can live for over 200 years and only blooms once before dying?",
-        "options": [
-          "Century plant (agave)",
-          "Joshua tree",
-          "Barrel cactus",
-          "Saguaro cactus"
-        ],
-        "correct_answer": "Century plant (agave)",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_281",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the scientific term for the opening on leaves that allows gas exchange?",
-        "options": [
-          "Stomata",
-          "Lenticels",
-          "Cuticle",
-          "Epidermis"
-        ],
-        "correct_answer": "Stomata",
+        "correct_answer": "Pernambuco",
         "difficulty": "hard"
       },
       {
-        "id": "nat_282",
+        "id": "nat_003",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What flower produces opium?",
+        "subcategory": "Weather",
+        "question": "What type of cloud produces thunderstorms?",
         "options": [
-          "Opium poppy (Papaver somniferum)",
-          "Corn poppy",
-          "Oriental poppy",
-          "Iceland poppy"
+          "Cirrus",
+          "Stratus",
+          "Cumulus",
+          "Cumulonimbus"
         ],
-        "correct_answer": "Opium poppy (Papaver somniferum)",
-        "difficulty": "hard"
+        "correct_answer": "Cumulonimbus",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
-        "id": "nat_283",
+        "id": "nat_006",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the term for plants that grow on other plants without being parasitic?",
+        "subcategory": "Weather",
+        "question": "What instrument measures atmospheric pressure?",
         "options": [
-          "Epiphytes",
-          "Parasites",
-          "Saprophytes",
-          "Lithophytes"
+          "Thermometer",
+          "Barometer",
+          "Hygrometer",
+          "Anemometer"
         ],
-        "correct_answer": "Epiphytes",
-        "difficulty": "hard"
+        "correct_answer": "Barometer",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
-        "id": "nat_284",
+        "id": "nat_009",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What rare parasitic flower is known as the 'corpse flower' for its smell?",
+        "subcategory": "Weather",
+        "question": "What causes ocean tides?",
         "options": [
-          "Rafflesia",
-          "Amorphophallus titanum",
-          "Stapelia",
-          "Aristolochia"
+          "Wind",
+          "Moon's gravity",
+          "Earth's rotation",
+          "Temperature changes"
         ],
-        "correct_answer": "Rafflesia",
-        "difficulty": "hard"
+        "correct_answer": "Moon's gravity",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
-        "id": "nat_285",
+        "id": "nat_031",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What is the phenomenon where some plants flower only after exposure to cold temperatures?",
+        "subcategory": "Weather",
+        "question": "What causes lightning?",
         "options": [
-          "Vernalization",
-          "Photoperiodism",
-          "Stratification",
-          "Dormancy"
+          "Wind",
+          "Rain",
+          "Electrical discharge",
+          "Temperature change"
         ],
-        "correct_answer": "Vernalization",
-        "difficulty": "hard"
+        "correct_answer": "Electrical discharge",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_032",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the center of a hurricane called?",
+        "options": [
+          "Core",
+          "Eye",
+          "Center",
+          "Middle"
+        ],
+        "correct_answer": "Eye",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_033",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What instrument measures wind speed?",
+        "options": [
+          "Barometer",
+          "Thermometer",
+          "Anemometer",
+          "Hygrometer"
+        ],
+        "correct_answer": "Anemometer",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_034",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What type of cloud produces rain?",
+        "options": [
+          "Cirrus",
+          "Cumulus",
+          "Stratus",
+          "Nimbus"
+        ],
+        "correct_answer": "Nimbus",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_035",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is frozen rain called?",
+        "options": [
+          "Snow",
+          "Sleet",
+          "Hail",
+          "Ice"
+        ],
+        "correct_answer": "Sleet",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_036",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What causes the greenhouse effect?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "correct_answer": "Carbon dioxide",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_037",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the hottest layer of the atmosphere?",
+        "options": [
+          "Troposphere",
+          "Stratosphere",
+          "Mesosphere",
+          "Thermosphere"
+        ],
+        "correct_answer": "Thermosphere",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_038",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the Beaufort scale used to measure?",
+        "options": [
+          "Temperature",
+          "Wind speed",
+          "Rainfall",
+          "Humidity"
+        ],
+        "correct_answer": "Wind speed",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_039",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is dew point?",
+        "options": [
+          "Highest temperature",
+          "Lowest temperature",
+          "Temperature at which dew forms",
+          "Average temperature"
+        ],
+        "correct_answer": "Temperature at which dew forms",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_058",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What forms when water vapor cools in the sky?",
+        "options": [
+          "Rain",
+          "Snow",
+          "Clouds",
+          "Hail"
+        ],
+        "correct_answer": "Clouds",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_059",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do we call frozen raindrops?",
+        "options": [
+          "Snow",
+          "Sleet",
+          "Hail",
+          "Ice"
+        ],
+        "correct_answer": "Hail",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_060",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What causes thunder?",
+        "options": [
+          "Wind",
+          "Rain",
+          "Lightning",
+          "Clouds"
+        ],
+        "correct_answer": "Lightning",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_061",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the hottest season?",
+        "options": [
+          "Spring",
+          "Summer",
+          "Fall",
+          "Winter"
+        ],
+        "correct_answer": "Summer",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_062",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is precipitation?",
+        "options": [
+          "Wind",
+          "Temperature",
+          "Water falling from sky",
+          "Humidity"
+        ],
+        "correct_answer": "Water falling from sky",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_072",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What instrument measures temperature?",
+        "options": [
+          "Barometer",
+          "Thermometer",
+          "Anemometer",
+          "Hygrometer"
+        ],
+        "correct_answer": "Thermometer",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_073",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is humidity?",
+        "options": [
+          "Temperature",
+          "Wind speed",
+          "Water in the air",
+          "Air pressure"
+        ],
+        "correct_answer": "Water in the air",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_081",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What season comes after winter?",
+        "options": [
+          "Summer",
+          "Fall",
+          "Spring",
+          "Autumn"
+        ],
+        "correct_answer": "Spring",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_082",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is wind?",
+        "options": [
+          "Moving water",
+          "Moving air",
+          "Moving clouds",
+          "Moving rain"
+        ],
+        "correct_answer": "Moving air",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_114",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do we call water that falls from clouds?",
+        "options": [
+          "Dew",
+          "Fog",
+          "Precipitation",
+          "Moisture"
+        ],
+        "correct_answer": "Precipitation",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_115",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What makes rainbows appear?",
+        "options": [
+          "Rain and sunshine",
+          "Wind and clouds",
+          "Snow and ice",
+          "Thunder and lightning"
+        ],
+        "correct_answer": "Rain and sunshine",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_116",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What season has the shortest days?",
+        "options": [
+          "Spring",
+          "Summer",
+          "Fall",
+          "Winter"
+        ],
+        "correct_answer": "Winter",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_117",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do we call a violent spinning storm?",
+        "options": [
+          "Tsunami",
+          "Tornado",
+          "Blizzard",
+          "Thunderstorm"
+        ],
+        "correct_answer": "Tornado",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_118",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What forms when water vapor touches cold surfaces?",
+        "options": [
+          "Rain",
+          "Snow",
+          "Dew",
+          "Hail"
+        ],
+        "correct_answer": "Dew",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_119",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do we call very light rain?",
+        "options": [
+          "Drizzle",
+          "Shower",
+          "Downpour",
+          "Sprinkle"
+        ],
+        "correct_answer": "Drizzle",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_120",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What causes wind?",
+        "options": [
+          "Trees moving",
+          "Air moving",
+          "Clouds moving",
+          "Rain falling"
+        ],
+        "correct_answer": "Air moving",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_121",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do we call frozen rain that bounces?",
+        "options": [
+          "Snow",
+          "Sleet",
+          "Hail",
+          "Ice"
+        ],
+        "correct_answer": "Sleet",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_122",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What type of cloud is fluffy and white?",
+        "options": [
+          "Stratus",
+          "Cumulus",
+          "Cirrus",
+          "Nimbus"
+        ],
+        "correct_answer": "Cumulus",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_123",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What season comes after summer?",
+        "options": [
+          "Winter",
+          "Spring",
+          "Fall",
+          "Autumn"
+        ],
+        "correct_answer": "Fall",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_146",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do we call a storm with rotating winds?",
+        "options": [
+          "Hurricane",
+          "Tornado",
+          "Blizzard",
+          "Both A and B"
+        ],
+        "correct_answer": "Both A and B",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_147",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What type of cloud looks like cotton balls?",
+        "options": [
+          "Stratus",
+          "Cirrus",
+          "Cumulus",
+          "Nimbus"
+        ],
+        "correct_answer": "Cumulus",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_148",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do we call water droplets that form on grass in the morning?",
+        "options": [
+          "Rain",
+          "Dew",
+          "Frost",
+          "Mist"
+        ],
+        "correct_answer": "Dew",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_160",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "How many colors are in a rainbow?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct_answer": "7",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_161",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do we call frozen water?",
+        "options": [
+          "Steam",
+          "Ice",
+          "Snow",
+          "Vapor"
+        ],
+        "correct_answer": "Ice",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_178",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the study of weather called?",
+        "options": [
+          "Meteorology",
+          "Climatology",
+          "Geology",
+          "Astronomy"
+        ],
+        "correct_answer": "Meteorology",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_179",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What instrument measures air pressure?",
+        "options": [
+          "Barometer",
+          "Thermometer",
+          "Hygrometer",
+          "Anemometer"
+        ],
+        "correct_answer": "Barometer",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_180",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is a rapidly rotating column of air that touches the ground called?",
+        "options": [
+          "Tornado",
+          "Hurricane",
+          "Cyclone",
+          "Typhoon"
+        ],
+        "correct_answer": "Tornado",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_181",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What scale measures tornado intensity?",
+        "options": [
+          "Enhanced Fujita Scale",
+          "Richter Scale",
+          "Saffir-Simpson Scale",
+          "Beaufort Scale"
+        ],
+        "correct_answer": "Enhanced Fujita Scale",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_187",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What instrument measures humidity?",
+        "options": [
+          "Hygrometer",
+          "Barometer",
+          "Thermometer",
+          "Anemometer"
+        ],
+        "correct_answer": "Hygrometer",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_190",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the rotating column of air over water called?",
+        "options": [
+          "Waterspout",
+          "Tornado",
+          "Hurricane",
+          "Cyclone"
+        ],
+        "correct_answer": "Waterspout",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_208",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the name of the phenomenon when rain freezes before hitting the ground?",
+        "options": [
+          "Sleet",
+          "Hail",
+          "Freezing rain",
+          "Graupel"
+        ],
+        "correct_answer": "Sleet",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_209",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the most common gas in Earth's atmosphere?",
+        "options": [
+          "Nitrogen",
+          "Oxygen",
+          "Carbon dioxide",
+          "Argon"
+        ],
+        "correct_answer": "Nitrogen",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_210",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is a haboob?",
+        "options": [
+          "A dust storm",
+          "A type of cloud",
+          "A wind pattern",
+          "A rain phenomenon"
+        ],
+        "correct_answer": "A dust storm",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_222",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the term for snow that has been compacted and recrystallized?",
+        "options": [
+          "Firn",
+          "Névé",
+          "Glacier ice",
+          "Powder"
+        ],
+        "correct_answer": "Firn",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_223",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is a downburst in meteorological terms?",
+        "options": [
+          "Strong downward wind from thunderstorm",
+          "Tornado formation",
+          "Hurricane eye",
+          "Blizzard condition"
+        ],
+        "correct_answer": "Strong downward wind from thunderstorm",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_224",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What causes a whiteout in winter weather?",
+        "options": [
+          "Blowing snow reducing visibility to near zero",
+          "Heavy fog",
+          "Ice crystals",
+          "Cloud cover"
+        ],
+        "correct_answer": "Blowing snow reducing visibility to near zero",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_229",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the scientific name for the study of weather?",
+        "options": [
+          "Meteorology",
+          "Climatology",
+          "Atmospheric science",
+          "Hydrology"
+        ],
+        "correct_answer": "Meteorology",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_286",
@@ -15965,132 +15835,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "nat_231",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What tree is known for producing sweet sap used in syrup production in spring?",
-        "options": [
-          "Sugar maple",
-          "Black maple",
-          "Red maple",
-          "Silver maple"
-        ],
-        "correct_answer": "Sugar maple",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_234",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What is the term for trees that retain their needles year-round?",
-        "options": [
-          "Coniferous evergreens",
-          "Deciduous",
-          "Broadleaf",
-          "Tropical"
-        ],
-        "correct_answer": "Coniferous evergreens",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_235",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What tropical tree produces cacao beans for chocolate?",
-        "options": [
-          "Cacao tree (Theobroma cacao)",
-          "Coffee tree",
-          "Rubber tree",
-          "Banana tree"
-        ],
-        "correct_answer": "Cacao tree (Theobroma cacao)",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_237",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What tree has bark that naturally peels in papery layers?",
-        "options": [
-          "Birch",
-          "Sycamore",
-          "Eucalyptus",
-          "All of the above"
-        ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_238",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What is the state tree of California?",
-        "options": [
-          "Coast redwood",
-          "Giant sequoia",
-          "Douglas fir",
-          "Joshua tree"
-        ],
-        "correct_answer": "Coast redwood",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_245",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What African tree can store thousands of gallons of water in its trunk?",
-        "options": [
-          "Baobab",
-          "Acacia",
-          "Marula",
-          "Fever tree"
-        ],
-        "correct_answer": "Baobab",
-        "difficulty": "medium"
-      },
-      {
-        "id": "nat_255",
-        "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What wood is traditionally used for violin bows?",
-        "options": [
-          "Pernambuco",
-          "Ebony",
-          "Rosewood",
-          "Maple"
-        ],
-        "correct_answer": "Pernambuco",
-        "difficulty": "hard"
-      },
-      {
-        "id": "nat_267",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What aquatic plant has leaves so large they can support the weight of a small child?",
-        "options": [
-          "Victoria amazonica (giant water lily)",
-          "Lotus",
-          "Water hyacinth",
-          "Cattail"
-        ],
-        "correct_answer": "Victoria amazonica (giant water lily)",
-        "difficulty": "easy"
-      },
-      {
-        "id": "nat_268",
-        "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What flowering plant is used to make tequila?",
-        "options": [
-          "Blue agave",
-          "Aloe vera",
-          "Prickly pear",
-          "Century plant"
-        ],
-        "correct_answer": "Blue agave",
-        "difficulty": "easy"
-      },
-      {
         "id": "nat_288",
         "category": "Nature",
         "subcategory": "Weather",
@@ -16159,6 +15903,262 @@
         ],
         "correct_answer": "Williwaw",
         "difficulty": "hard"
+      },
+      {
+        "id": "nat_012",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "How many legs does a lobster have?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "correct_answer": "10",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_016",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "Which marine animal is particularly known for its rapid color-changing ability?",
+        "options": [
+          "Cuttlefish",
+          "Dolphin",
+          "Seal",
+          "Penguin"
+        ],
+        "correct_answer": "Cuttlefish",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_041",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "How many legs does a crab have?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "correct_answer": "10",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_042",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "What do you call a group of fish?",
+        "options": [
+          "Flock",
+          "Herd",
+          "School",
+          "Pack"
+        ],
+        "correct_answer": "School",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_066",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "Which marine mammal is known for its tusks?",
+        "options": [
+          "Walrus",
+          "Narwhal",
+          "Sea lion",
+          "Dugong"
+        ],
+        "correct_answer": "Walrus",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_087",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "What do we call animals that eat fish?",
+        "options": [
+          "Herbivores",
+          "Carnivores",
+          "Piscivores",
+          "Omnivores"
+        ],
+        "correct_answer": "Piscivores",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_093",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "What do penguins use their wings for?",
+        "options": [
+          "Flying",
+          "Swimming",
+          "Walking",
+          "Fighting"
+        ],
+        "correct_answer": "Swimming",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_135",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "What do you call a group of dolphins?",
+        "options": [
+          "School",
+          "Pod",
+          "Herd",
+          "Pack"
+        ],
+        "correct_answer": "Pod",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_154",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "How many hearts does an octopus have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_answer": "3",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_158",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "How many bones are in a shark's body?",
+        "options": [
+          "Over 200",
+          "About 100",
+          "Zero",
+          "50"
+        ],
+        "correct_answer": "Zero",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_169",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "What is the fastest swimming fish?",
+        "options": [
+          "Sailfish",
+          "Marlin",
+          "Tuna",
+          "Swordfish"
+        ],
+        "correct_answer": "Sailfish",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_189",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "What is the largest species of penguin?",
+        "options": [
+          "Emperor penguin",
+          "King penguin",
+          "Gentoo penguin",
+          "Adélie penguin"
+        ],
+        "correct_answer": "Emperor penguin",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_193",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "What is a group of whales called?",
+        "options": [
+          "Pod",
+          "School",
+          "Herd",
+          "Pack"
+        ],
+        "correct_answer": "Pod",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_195",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "What is the most venomous fish in the world?",
+        "options": [
+          "Stonefish",
+          "Pufferfish",
+          "Lionfish",
+          "Stingray"
+        ],
+        "correct_answer": "Stonefish",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_199",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "How many chambers does a fish's heart have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correct_answer": "2",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "nat_221",
+        "category": "Nature",
+        "subcategory": "Oceans & Marine Life",
+        "question": "How many species of penguin exist in the world?",
+        "options": [
+          "18",
+          "12",
+          "25",
+          "30"
+        ],
+        "correct_answer": "18",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "History": [

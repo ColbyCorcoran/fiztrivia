@@ -1,0 +1,4628 @@
+{
+  "expansion_packs": {
+    "pixar": [
+      {
+        "id": "ent_301",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the clownfish father in 'Finding Nemo'?",
+        "options": [
+          "Marlin",
+          "Nemo",
+          "Gill",
+          "Bubbles"
+        ],
+        "correct_answer": "Marlin",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_302",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the toy cowboy in Toy Story?",
+        "options": [
+          "Buzz Lightyear",
+          "Woody",
+          "Rex",
+          "Mr. Potato Head"
+        ],
+        "correct_answer": "Woody",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_303",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the rat in Ratatouille?",
+        "options": [
+          "Remy",
+          "Linguini",
+          "Gusteau",
+          "Skinner"
+        ],
+        "correct_answer": "Remy",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_304",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "In Monsters, Inc., what powers the city?",
+        "options": [
+          "Electricity",
+          "Screams",
+          "Laughter",
+          "Both screams and laughter"
+        ],
+        "correct_answer": "Both screams and laughter",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_305",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the garbage robot in WALL-E?",
+        "options": [
+          "EVE",
+          "WALL-E",
+          "AUTO",
+          "MO"
+        ],
+        "correct_answer": "WALL-E",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_306",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the pizza restaurant in Toy Story?",
+        "options": [
+          "Pizza Palace",
+          "Pizza Planet",
+          "Pizza Place",
+          "Pizza Paradise"
+        ],
+        "correct_answer": "Pizza Planet",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_307",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "In Cars, what is Lightning McQueen's number?",
+        "options": [
+          "86",
+          "95",
+          "99",
+          "43"
+        ],
+        "correct_answer": "95",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_308",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "In Up, what does Carl use to make his house fly?",
+        "options": [
+          "Helicopters",
+          "Balloons",
+          "Rockets",
+          "Magic"
+        ],
+        "correct_answer": "Balloons",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_309",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the college Mike and Sully attend?",
+        "options": [
+          "Monsters University",
+          "Scare University",
+          "Fear Tech",
+          "Monsters Community College"
+        ],
+        "correct_answer": "Monsters University",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_310",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "In Inside Out, what are the five emotions?",
+        "options": [
+          "Joy, Sadness, Anger, Fear, Disgust",
+          "Happy, Sad, Mad, Scared, Gross",
+          "Joy, Sorrow, Rage, Terror, Revulsion",
+          "Glee, Melancholy, Fury, Panic, Nausea"
+        ],
+        "correct_answer": "Joy, Sadness, Anger, Fear, Disgust",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_311",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "In Coco, what is Miguel's family business?",
+        "options": [
+          "Music",
+          "Shoemaking",
+          "Cooking",
+          "Painting"
+        ],
+        "correct_answer": "Shoemaking",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_312",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the villain in Toy Story 3?",
+        "options": [
+          "Sid",
+          "Lotso",
+          "Zurg",
+          "Stinky Pete"
+        ],
+        "correct_answer": "Lotso",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_313",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the main emotion that controls Riley's personality in Inside Out?",
+        "options": [
+          "Joy",
+          "Sadness",
+          "Anger",
+          "Disgust"
+        ],
+        "correct_answer": "Joy",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_314",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What is the name of the daycare in Toy Story 3?",
+        "options": [
+          "Sunny Side Up",
+          "Sunnyside",
+          "Sunny Day",
+          "Sunshine"
+        ],
+        "correct_answer": "Sunnyside",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_315",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What type of car is Lightning McQueen?",
+        "options": [
+          "Stock car",
+          "Formula 1",
+          "NASCAR",
+          "Race car"
+        ],
+        "correct_answer": "Stock car",
+        "difficulty": "medium",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_316",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Woody and Buzz?",
+        "options": [
+          "Toy Story",
+          "Turning Red",
+          "Finding Nemo",
+          "Luca"
+        ],
+        "correct_answer": "Toy Story",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_317",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Lightning McQueen?",
+        "options": [
+          "Cars",
+          "Inside Out",
+          "Up",
+          "Incredibles 2"
+        ],
+        "correct_answer": "Cars",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_318",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Sully and Mike?",
+        "options": [
+          "Monsters Inc.",
+          "Cars 2",
+          "Coco",
+          "Inside Out"
+        ],
+        "correct_answer": "Monsters Inc.",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_319",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Eve?",
+        "options": [
+          "WALL-E",
+          "Cars",
+          "The Good Dinosaur",
+          "Up"
+        ],
+        "correct_answer": "WALL-E",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_320",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Carl and Russell?",
+        "options": [
+          "Up",
+          "Onward",
+          "Finding Nemo",
+          "Toy Story"
+        ],
+        "correct_answer": "Up",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_321",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Miguel?",
+        "options": [
+          "Coco",
+          "Inside Out",
+          "Toy Story 2",
+          "Onward"
+        ],
+        "correct_answer": "Coco",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_322",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Ian and Barley?",
+        "options": [
+          "Onward",
+          "Brave",
+          "Toy Story 3",
+          "The Good Dinosaur"
+        ],
+        "correct_answer": "Onward",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_323",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Joe Gardner?",
+        "options": [
+          "Soul",
+          "Toy Story 3",
+          "The Good Dinosaur",
+          "Onward"
+        ],
+        "correct_answer": "Soul",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      },
+      {
+        "id": "ent_324",
+        "category": "Entertainment",
+        "subcategory": "Animation",
+        "question": "What Pixar movie featured Mei Lee?",
+        "options": [
+          "Turning Red",
+          "A Bug's Life",
+          "Soul",
+          "Toy Story 3"
+        ],
+        "correct_answer": "Turning Red",
+        "difficulty": "easy",
+        "topic": "Pixar",
+        "subtopic": null
+      }
+    ],
+    "star_wars": [
+      {
+        "id": "ent_325",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who is Luke Skywalker's father?",
+        "options": [
+          "Obi-Wan Kenobi",
+          "Han Solo",
+          "Darth Vader",
+          "Emperor Palpatine"
+        ],
+        "correct_answer": "Darth Vader",
+        "difficulty": "easy",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_326",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What color is Mace Windu's lightsaber?",
+        "options": [
+          "Blue",
+          "Green",
+          "Purple",
+          "Red"
+        ],
+        "correct_answer": "Purple",
+        "difficulty": "medium",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_327",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who said 'Do or do not, there is no try'?",
+        "options": [
+          "Obi-Wan Kenobi",
+          "Yoda",
+          "Luke Skywalker",
+          "Qui-Gon Jinn"
+        ],
+        "correct_answer": "Yoda",
+        "difficulty": "easy",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_328",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who is the bounty hunter that captured Han Solo?",
+        "options": [
+          "Boba Fett",
+          "Jango Fett",
+          "Greedo",
+          "Cad Bane"
+        ],
+        "correct_answer": "Boba Fett",
+        "difficulty": "medium",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_329",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the Wookiee homeworld?",
+        "options": [
+          "Kashyyyk",
+          "Coruscant",
+          "Tatooine",
+          "Endor"
+        ],
+        "correct_answer": "Kashyyyk",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_330",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of Boba Fett's ship?",
+        "options": [
+          "Slave I",
+          "Slave II",
+          "Firespray",
+          "Seismic Charge"
+        ],
+        "correct_answer": "Slave I",
+        "difficulty": "medium",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_331",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What color is C-3PO's arm in The Force Awakens?",
+        "options": [
+          "Gold",
+          "Silver",
+          "Red",
+          "Black"
+        ],
+        "correct_answer": "Red",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_332",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is Baby Yoda's real name?",
+        "options": [
+          "Grogu",
+          "Yoda Jr.",
+          "Baby",
+          "Greeno"
+        ],
+        "correct_answer": "Grogu",
+        "difficulty": "medium",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_333",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is Mando's real name in The Mandalorian?",
+        "options": [
+          "Din Djarin",
+          "Jango Fett",
+          "Boba Fett",
+          "Mando Solo"
+        ],
+        "correct_answer": "Din Djarin",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_334",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What was Finn's stormtrooper number?",
+        "options": [
+          "FN-2187",
+          "TK-421",
+          "CT-2187",
+          "FN-1138"
+        ],
+        "correct_answer": "FN-2187",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_335",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What planet is Coruscant known as?",
+        "options": [
+          "The Republic Capital",
+          "The Imperial Center",
+          "The Galactic Capital",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_336",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What odds does C-3PO give for successfully navigating an asteroid field?",
+        "options": [
+          "3,720 to 1",
+          "3,000 to 1",
+          "5,000 to 1",
+          "10,000 to 1"
+        ],
+        "correct_answer": "3,720 to 1",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_337",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What planet was destroyed by the Death Star in A New Hope?",
+        "options": [
+          "Alderaan",
+          "Naboo",
+          "Coruscant",
+          "Tatooine"
+        ],
+        "correct_answer": "Alderaan",
+        "difficulty": "medium",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_338",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the forest moon where the Ewoks live?",
+        "options": [
+          "Endor",
+          "Yavin",
+          "Dagobah",
+          "Coruscant"
+        ],
+        "correct_answer": "Endor",
+        "difficulty": "medium",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_339",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of Obi-Wan's master?",
+        "options": [
+          "Qui-Gon Jinn",
+          "Mace Windu",
+          "Yoda",
+          "Count Dooku"
+        ],
+        "correct_answer": "Qui-Gon Jinn",
+        "difficulty": "medium",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_340",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of Han Solo's co-pilot?",
+        "options": [
+          "Chewbacca",
+          "R2-D2",
+          "C-3PO",
+          "Lando"
+        ],
+        "correct_answer": "Chewbacca",
+        "difficulty": "easy",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_341",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the Clone Wars' first major battle?",
+        "options": [
+          "Battle of Geonosis",
+          "Battle of Christophsis",
+          "Battle of Kamino",
+          "Battle of Ryloth"
+        ],
+        "correct_answer": "Battle of Geonosis",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_342",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who trained Count Dooku in the Sith ways?",
+        "options": [
+          "Darth Sidious",
+          "Darth Plagueis",
+          "Darth Maul",
+          "Darth Vader"
+        ],
+        "correct_answer": "Darth Sidious",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_343",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the Mandalorian's ship called in the Disney+ series?",
+        "options": [
+          "Razor Crest",
+          "Slave I",
+          "Ghost",
+          "Millennium Falcon"
+        ],
+        "correct_answer": "Razor Crest",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_344",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Which planet is the original home of the Chiss species?",
+        "options": [
+          "Csilla",
+          "Coruscant",
+          "Kamino",
+          "Ryloth"
+        ],
+        "correct_answer": "Csilla",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_345",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who designed the Death Star's superlaser?",
+        "options": [
+          "Galen Erso",
+          "Wilhuff Tarkin",
+          "Orson Krennic",
+          "Poggle the Lesser"
+        ],
+        "correct_answer": "Galen Erso",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_346",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the formal name for Order 66?",
+        "options": [
+          "Contingency Order 66",
+          "Execute Order 66",
+          "Protocol 66",
+          "Emergency Order 66"
+        ],
+        "correct_answer": "Contingency Order 66",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_347",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Which Jedi Master discovered Anakin Skywalker?",
+        "options": [
+          "Qui-Gon Jinn",
+          "Obi-Wan Kenobi",
+          "Mace Windu",
+          "Yoda"
+        ],
+        "correct_answer": "Qui-Gon Jinn",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_348",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What species is Admiral Ackbar?",
+        "options": [
+          "Mon Calamari",
+          "Quarren",
+          "Sullustan",
+          "Twi'lek"
+        ],
+        "correct_answer": "Mon Calamari",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_349",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the original Sith homeworld?",
+        "options": [
+          "Korriban",
+          "Dromund Kaas",
+          "Ziost",
+          "Moraband"
+        ],
+        "correct_answer": "Korriban",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_350",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who originally built C-3PO?",
+        "options": [
+          "Anakin Skywalker",
+          "Luke Skywalker",
+          "Owen Lars",
+          "Watto"
+        ],
+        "correct_answer": "Anakin Skywalker",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_351",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Who captured Han Solo in carbonite?",
+        "options": [
+          "Boba Fett",
+          "Jango Fett",
+          "IG-88",
+          "Bossk"
+        ],
+        "correct_answer": "Boba Fett",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_352",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of Jabba's sail barge?",
+        "options": [
+          "Khetanna",
+          "Hutt Cruiser",
+          "Desert Palace",
+          "Tatooine Yacht"
+        ],
+        "correct_answer": "Khetanna",
+        "difficulty": "hard",
+        "topic": "Star Wars",
+        "subtopic": null
+      }
+    ],
+    "marvel": [
+      {
+        "id": "ent_353",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "How many Infinity Stones are there?",
+        "options": [
+          "Four",
+          "Five",
+          "Six",
+          "Seven"
+        ],
+        "correct_answer": "Six",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_354",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Thor's hammer?",
+        "options": [
+          "Stormbreaker",
+          "Mjolnir",
+          "Gungnir",
+          "Hofund"
+        ],
+        "correct_answer": "Mjolnir",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_355",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "Who created the character Spider-Man?",
+        "options": [
+          "Stan Lee",
+          "Jack Kirby",
+          "Steve Ditko",
+          "Stan Lee and Steve Ditko"
+        ],
+        "correct_answer": "Stan Lee and Steve Ditko",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_356",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "Who is Peter Parker's best friend in the MCU?",
+        "options": [
+          "Harry Osborn",
+          "Ned Leeds",
+          "Flash Thompson",
+          "Miles Morales"
+        ],
+        "correct_answer": "Ned Leeds",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_357",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Thor's home realm called?",
+        "options": [
+          "Asgard",
+          "Midgard",
+          "Valhalla",
+          "Olympus"
+        ],
+        "correct_answer": "Asgard",
+        "difficulty": "easy",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_358",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Black Widow's real name?",
+        "options": [
+          "Natasha Romanoff",
+          "Wanda Maximoff",
+          "Carol Danvers",
+          "Pepper Potts"
+        ],
+        "correct_answer": "Natasha Romanoff",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_359",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the Hulk's real name?",
+        "options": [
+          "Bruce Banner",
+          "Peter Parker",
+          "Tony Stark",
+          "Steve Rogers"
+        ],
+        "correct_answer": "Bruce Banner",
+        "difficulty": "easy",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_360",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What does S.W.O.R.D. stand for?",
+        "options": [
+          "Sentient World Observation and Response Department",
+          "Strategic Warfare Operations and Rescue Division",
+          "Super Weapon Operations Research Division",
+          "Sentient Weapon Observation Response Division"
+        ],
+        "correct_answer": "Sentient Weapon Observation Response Division",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_361",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Doctor Strange's real name?",
+        "options": [
+          "Stephen Strange",
+          "Steven Rogers",
+          "Tony Stark",
+          "Bruce Banner"
+        ],
+        "correct_answer": "Stephen Strange",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_362",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the AI that replaces JARVIS?",
+        "options": [
+          "FRIDAY",
+          "KAREN",
+          "EDITH",
+          "VERONICA"
+        ],
+        "correct_answer": "FRIDAY",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_363",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Tony Stark's daughter?",
+        "options": [
+          "Morgan Stark",
+          "Pepper Stark",
+          "Maria Stark",
+          "Mary Stark"
+        ],
+        "correct_answer": "Morgan Stark",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_364",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What does TVA stand for in Loki?",
+        "options": [
+          "Time Variance Authority",
+          "Time Vortex Agency",
+          "Temporal Variance Authority",
+          "Time Variable Agency"
+        ],
+        "correct_answer": "Time Variance Authority",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_365",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Hawkeye's real name?",
+        "options": [
+          "Clint Barton",
+          "Jeremy Renner",
+          "Brock Rumlow",
+          "Scott Lang"
+        ],
+        "correct_answer": "Clint Barton",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_366",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the dwarf who made Thanos's gauntlet?",
+        "options": [
+          "Eitri",
+          "Durgan",
+          "Brokkr",
+          "Alviss"
+        ],
+        "correct_answer": "Eitri",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_367",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Peter Quill's ship named after?",
+        "options": [
+          "Alyssa Milano",
+          "Madonna",
+          "Cindy Crawford",
+          "Christie Brinkley"
+        ],
+        "correct_answer": "Alyssa Milano",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_368",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What billionaire makes a cameo in Iron Man 2?",
+        "options": [
+          "Bill Gates",
+          "Elon Musk",
+          "Jeff Bezos",
+          "Mark Cuban"
+        ],
+        "correct_answer": "Elon Musk",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_369",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What protocol does Tony Stark enact in Iron Man 3?",
+        "options": [
+          "House Party Protocol",
+          "Clean Slate Protocol",
+          "Emergency Protocol",
+          "Avengers Protocol"
+        ],
+        "correct_answer": "Clean Slate Protocol",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_370",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What are the names of Wanda's children?",
+        "options": [
+          "Billy and Tommy",
+          "Peter and Paul",
+          "James and John",
+          "Luke and Mark"
+        ],
+        "correct_answer": "Billy and Tommy",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_371",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the AI that helps Spider-Man?",
+        "options": [
+          "FRIDAY",
+          "KAREN",
+          "EDITH",
+          "JARVIS"
+        ],
+        "correct_answer": "KAREN",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_372",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Spider-Man's real name?",
+        "options": [
+          "Peter Parker",
+          "Miles Morales",
+          "Ben Reilly",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_373",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the blue cube in the first Avengers movie?",
+        "options": [
+          "Tesseract",
+          "Cosmic Cube",
+          "Space Stone",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_374",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the Wakandan herb that gives Black Panther his powers?",
+        "options": [
+          "Heart-Shaped Herb",
+          "Vibranium Plant",
+          "Power Plant",
+          "Panther Herb"
+        ],
+        "correct_answer": "Heart-Shaped Herb",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_375",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Spider-Man's newspaper?",
+        "options": [
+          "Daily Bugle",
+          "Daily Planet",
+          "Gotham Gazette",
+          "Star City News"
+        ],
+        "correct_answer": "Daily Bugle",
+        "difficulty": "easy",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_376",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the X-Men's school?",
+        "options": [
+          "Xavier's School for Gifted Youngsters",
+          "Mutant Academy",
+          "Xavier Institute",
+          "School for Gifted Children"
+        ],
+        "correct_answer": "Xavier's School for Gifted Youngsters",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_377",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Spider-Man's love interest?",
+        "options": [
+          "Mary Jane Watson",
+          "Gwen Stacy",
+          "Black Cat",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_378",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the Fantastic Four's building?",
+        "options": [
+          "Fantastic Building",
+          "Baxter Building",
+          "Four Tower",
+          "Marvel Building"
+        ],
+        "correct_answer": "Baxter Building",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_379",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Iron Man's AI assistant?",
+        "options": [
+          "JARVIS",
+          "FRIDAY",
+          "EDITH",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_380",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the X-Men's leader?",
+        "options": [
+          "Professor X",
+          "Cyclops",
+          "Wolverine",
+          "Storm"
+        ],
+        "correct_answer": "Professor X",
+        "difficulty": "easy",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_381",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Deadpool's real name?",
+        "options": [
+          "Wade Wilson",
+          "Frank Castle",
+          "Logan Howlett",
+          "Scott Summers"
+        ],
+        "correct_answer": "Wade Wilson",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_382",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "Which Infinity Stone is hidden on Vormir?",
+        "options": [
+          "Soul Stone",
+          "Reality Stone",
+          "Power Stone",
+          "Time Stone"
+        ],
+        "correct_answer": "Soul Stone",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_383",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "Who created Ultron in the MCU?",
+        "options": [
+          "Tony Stark and Bruce Banner",
+          "Reed Richards",
+          "Hank Pym",
+          "Victor Von Doom"
+        ],
+        "correct_answer": "Tony Stark and Bruce Banner",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_384",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What are Black Panther's elite female bodyguards called?",
+        "options": [
+          "Dora Milaje",
+          "Wakandan Guard",
+          "Panther Guard",
+          "Royal Guard"
+        ],
+        "correct_answer": "Dora Milaje",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_385",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "Who is Peter Quill's celestial father?",
+        "options": [
+          "Ego",
+          "Yondu",
+          "J'son",
+          "Star-Lord Sr."
+        ],
+        "correct_answer": "Ego",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_386",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What police force protects Xandar?",
+        "options": [
+          "Nova Corps",
+          "Starforce",
+          "Ravagers",
+          "Kree Empire"
+        ],
+        "correct_answer": "Nova Corps",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_387",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Doctor Strange's Sanctum address?",
+        "options": [
+          "177A Bleecker Street",
+          "221B Baker Street",
+          "1407 Graymalkin Lane",
+          "890 Fifth Avenue"
+        ],
+        "correct_answer": "177A Bleecker Street",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_388",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Scarlet Witch's real name?",
+        "options": [
+          "Wanda Maximoff",
+          "Jean Grey",
+          "Ororo Munroe",
+          "Emma Frost"
+        ],
+        "correct_answer": "Wanda Maximoff",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_389",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What organization preceded S.H.I.E.L.D.?",
+        "options": [
+          "S.S.R.",
+          "C.I.A.",
+          "F.B.I.",
+          "O.S.S."
+        ],
+        "correct_answer": "S.S.R.",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_390",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What AI replaced JARVIS?",
+        "options": [
+          "FRIDAY",
+          "EDITH",
+          "KAREN",
+          "HELEN"
+        ],
+        "correct_answer": "FRIDAY",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_391",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What cosmic entity devours planets?",
+        "options": [
+          "Galactus",
+          "Dormammu",
+          "Eternity",
+          "Death"
+        ],
+        "correct_answer": "Galactus",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_392",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Captain America?",
+        "options": [
+          "Steve Rogers",
+          "Tony Stark",
+          "Peter Parker",
+          "Bruce Banner"
+        ],
+        "correct_answer": "Steve Rogers",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_393",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Wolverine?",
+        "options": [
+          "Logan",
+          "Victor Creed",
+          "Scott Summers",
+          "Hank McCoy"
+        ],
+        "correct_answer": "Logan",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_394",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Daredevil?",
+        "options": [
+          "Matt Murdock",
+          "Frank Castle",
+          "Luke Cage",
+          "Danny Rand"
+        ],
+        "correct_answer": "Matt Murdock",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      },
+      {
+        "id": "ent_395",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Thor?",
+        "options": [
+          "Thor Odinson",
+          "Thorel Borson",
+          "Thorjrin Baldur",
+          "Odin Borson"
+        ],
+        "correct_answer": "Thor Odinson",
+        "difficulty": "hard",
+        "topic": "Marvel",
+        "subtopic": null
+      }
+    ],
+    "dc": [
+      {
+        "id": "ent_396",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Superman's weakness?",
+        "options": [
+          "Magic",
+          "Kryptonite",
+          "Red sunlight",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_397",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Wonder Woman's home island called?",
+        "options": [
+          "Paradise Island",
+          "Themyscira",
+          "Amazon Island",
+          "Diana's Island"
+        ],
+        "correct_answer": "Themyscira",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_398",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the Daily Planet's editor-in-chief?",
+        "options": [
+          "J. Jonah Jameson",
+          "Perry White",
+          "Robbie Robertson",
+          "Norman Osborn"
+        ],
+        "correct_answer": "Perry White",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_399",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What color represents Green Lantern's weakness?",
+        "options": [
+          "Yellow",
+          "Orange",
+          "Red",
+          "Purple"
+        ],
+        "correct_answer": "Yellow",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_400",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Batman's butler?",
+        "options": [
+          "Alfred Pennyworth",
+          "Geoffrey Butler",
+          "Winston Servant",
+          "James Alfred"
+        ],
+        "correct_answer": "Alfred Pennyworth",
+        "difficulty": "easy",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_401",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "Who is the fastest man alive in DC Comics?",
+        "options": [
+          "Superman",
+          "The Flash",
+          "Green Lantern",
+          "Aquaman"
+        ],
+        "correct_answer": "The Flash",
+        "difficulty": "easy",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_402",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Superman's home planet?",
+        "options": [
+          "Krypton",
+          "Kandor",
+          "Kryptonia",
+          "Kyrros"
+        ],
+        "correct_answer": "Krypton",
+        "difficulty": "easy",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_403",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Green Lantern's power source?",
+        "options": [
+          "Ring",
+          "Lantern",
+          "Willpower",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_404",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Batman's sidekick?",
+        "options": [
+          "Robin",
+          "Nightwing",
+          "Red Hood",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_405",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Superman's father?",
+        "options": [
+          "Jor-El",
+          "Zor-El",
+          "Kal-El",
+          "Lor-El"
+        ],
+        "correct_answer": "Jor-El",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_406",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Batman's vehicle?",
+        "options": [
+          "Batmobile",
+          "Bat-car",
+          "Dark Knight Car",
+          "Gotham Mobile"
+        ],
+        "correct_answer": "Batmobile",
+        "difficulty": "easy",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_407",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Cyborg's real name?",
+        "options": [
+          "Victor Stone",
+          "Vincent Steel",
+          "Victor Steele",
+          "Vincent Stone"
+        ],
+        "correct_answer": "Victor Stone",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_408",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the Joker's girlfriend?",
+        "options": [
+          "Poison Ivy",
+          "Catwoman",
+          "Harley Quinn",
+          "Talia al Ghul"
+        ],
+        "correct_answer": "Harley Quinn",
+        "difficulty": "easy",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_409",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of the Daily Planet photographer?",
+        "options": [
+          "Jimmy Olsen",
+          "Peter Parker",
+          "Eddie Brock",
+          "J. Jonah Jameson"
+        ],
+        "correct_answer": "Jimmy Olsen",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_410",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Superman's dog?",
+        "options": [
+          "Krypto",
+          "Super Dog",
+          "Ace",
+          "Rex"
+        ],
+        "correct_answer": "Krypto",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_411",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Green Lantern's oath?",
+        "options": [
+          "Green Lantern Oath",
+          "Lantern's Creed",
+          "Ring Bearer's Oath",
+          "Guardian's Pledge"
+        ],
+        "correct_answer": "Green Lantern Oath",
+        "difficulty": "medium",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_412",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the name of Wonder Woman's invisible jet?",
+        "options": [
+          "Invisible Plane",
+          "Wonder Jet",
+          "Invisible Jet",
+          "Amazon Aircraft"
+        ],
+        "correct_answer": "Invisible Jet",
+        "difficulty": "easy",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_413",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Superman?",
+        "options": [
+          "Clark Kent",
+          "Bruce Wayne",
+          "Barry Allen",
+          "Oliver Queen"
+        ],
+        "correct_answer": "Clark Kent",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_414",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Green Lantern?",
+        "options": [
+          "Hal Jordan",
+          "Oliver Queen",
+          "Ray Palmer",
+          "Victor Stone"
+        ],
+        "correct_answer": "Hal Jordan",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_415",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Wonder Woman?",
+        "options": [
+          "Diana Prince",
+          "Barbara Gordon",
+          "Selina Kyle",
+          "Pamela Isley"
+        ],
+        "correct_answer": "Diana Prince",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_416",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Green Arrow?",
+        "options": [
+          "Oliver Queen",
+          "Bruce Wayne",
+          "Barry Allen",
+          "Hal Jordan"
+        ],
+        "correct_answer": "Oliver Queen",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_417",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is the real name of Aquaman?",
+        "options": [
+          "Arthur Curry",
+          "Barry Allen",
+          "Hal Jordan",
+          "Oliver Queen"
+        ],
+        "correct_answer": "Arthur Curry",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_418",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Hawkman's real name?",
+        "options": [
+          "Carter Hall",
+          "Katar Hol",
+          "Shiera Hall",
+          "Kendra Saunders"
+        ],
+        "correct_answer": "Carter Hall",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_419",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Constantine's real name?",
+        "options": [
+          "John Constantine",
+          "Jason Blood",
+          "Tim Hunter",
+          "Felix Faust"
+        ],
+        "correct_answer": "John Constantine",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_420",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Swamp Thing's real name?",
+        "options": [
+          "Alec Holland",
+          "Alex Holland",
+          "Alan Holland",
+          "Abby Holland"
+        ],
+        "correct_answer": "Alec Holland",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      },
+      {
+        "id": "ent_421",
+        "category": "Entertainment",
+        "subcategory": "Action/Adventure",
+        "question": "What is Lobo's real name?",
+        "options": [
+          "Lobo",
+          "Lucius",
+          "Logan",
+          "Lars"
+        ],
+        "correct_answer": "Lobo",
+        "difficulty": "hard",
+        "topic": "DC",
+        "subtopic": null
+      }
+    ],
+    "the_office": [
+      {
+        "id": "ent_422",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What does Michael Scott burn his foot on?",
+        "options": [
+          "A grill",
+          "Hot pavement",
+          "A George Foreman grill",
+          "A campfire"
+        ],
+        "correct_answer": "A George Foreman grill",
+        "difficulty": "medium",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_423",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is Dwight Schrute's middle name?",
+        "options": [
+          "Kurt",
+          "Klaus",
+          "Karl",
+          "Kenneth"
+        ],
+        "correct_answer": "Kurt",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_424",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What does Pam's art teacher call her art?",
+        "options": [
+          "Beautiful",
+          "Motel art",
+          "Inspiring",
+          "Commercial"
+        ],
+        "correct_answer": "Motel art",
+        "difficulty": "medium",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_425",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of the Scranton branch's biggest client?",
+        "options": [
+          "Dunmore",
+          "Lackawanna County",
+          "Prince Family Paper",
+          "Vance Refrigeration"
+        ],
+        "correct_answer": "Lackawanna County",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_426",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of Jan's candle company?",
+        "options": [
+          "Serenity by Jan",
+          "Tranquility by Jan",
+          "Peace by Jan",
+          "Calm by Jan"
+        ],
+        "correct_answer": "Serenity by Jan",
+        "difficulty": "medium",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_427",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of Pam and Jim's first child?",
+        "options": [
+          "Cece",
+          "Phillip",
+          "James",
+          "Pamela"
+        ],
+        "correct_answer": "Cece",
+        "difficulty": "medium",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_428",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of the documentary crew's cameraman?",
+        "options": [
+          "Brian",
+          "Boom guy",
+          "Steve",
+          "Unknown"
+        ],
+        "correct_answer": "Brian",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_429",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of Michael's movie?",
+        "options": [
+          "Threat Level Midnight",
+          "Agent Michael Scarn",
+          "Threat Level Zero",
+          "Secret Agent Man"
+        ],
+        "correct_answer": "Threat Level Midnight",
+        "difficulty": "medium",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_430",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What does Todd Packer sell?",
+        "options": [
+          "Paper",
+          "Office supplies",
+          "Printing supplies",
+          "Computers"
+        ],
+        "correct_answer": "Printing supplies",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_431",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is Stanley's favorite day?",
+        "options": [
+          "Friday",
+          "Pretzel Day",
+          "Casual Friday",
+          "Pay day"
+        ],
+        "correct_answer": "Pretzel Day",
+        "difficulty": "medium",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_432",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of the bar that the staff often visits after work?",
+        "options": [
+          "Poor Richard's",
+          "Dunder Tavern",
+          "The Scranton Pub",
+          "Chili's"
+        ],
+        "correct_answer": "Poor Richard's",
+        "difficulty": "medium",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_433",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of Michael Scott's paper company?",
+        "options": [
+          "Michael Scott Paper Company",
+          "Scott's Paper",
+          "Scranton Paper Co",
+          "Michael's Best Paper"
+        ],
+        "correct_answer": "Michael Scott Paper Company",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_434",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of Dwight's beet farm?",
+        "options": [
+          "Schrute Farms",
+          "Dwight's Beets",
+          "Pennsylvania Beet Farm",
+          "Battle Creek Farms"
+        ],
+        "correct_answer": "Schrute Farms",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_435",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is Jim's full name?",
+        "options": [
+          "James Duncan Halpert",
+          "James David Halpert",
+          "James Dwight Halpert",
+          "James Daniel Halpert"
+        ],
+        "correct_answer": "James Duncan Halpert",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_436",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is Kevin's band called?",
+        "options": [
+          "Scrantonicity",
+          "Kevin and the Zits",
+          "The Finer Things",
+          "Dundie Band"
+        ],
+        "correct_answer": "Scrantonicity",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_437",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What does Dwight grow at Schrute Farms besides beets?",
+        "options": [
+          "Mose",
+          "Hemp",
+          "Corn",
+          "Soybeans"
+        ],
+        "correct_answer": "Hemp",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_438",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of Pam's art school?",
+        "options": [
+          "Pratt Institute",
+          "Art Institute",
+          "Parsons",
+          "SVA"
+        ],
+        "correct_answer": "Pratt Institute",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_439",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is Stanley's puzzle addiction?",
+        "options": [
+          "Daily crosswords",
+          "Sudoku",
+          "Word searches",
+          "Cryptograms"
+        ],
+        "correct_answer": "Daily crosswords",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_440",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is Todd Packer's middle name?",
+        "options": [
+          "Franklin",
+          "Frederick",
+          "Francis",
+          "Finley"
+        ],
+        "correct_answer": "Franklin",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_441",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is Meredith's official job title?",
+        "options": [
+          "Supplier Relations",
+          "Accounting",
+          "Customer Service",
+          "Human Resources"
+        ],
+        "correct_answer": "Supplier Relations",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      },
+      {
+        "id": "ent_442",
+        "category": "Entertainment",
+        "subcategory": "Drama/Comedy",
+        "question": "What is the name of Michael's improv group?",
+        "options": [
+          "The Fun Police",
+          "Threat Level Midnight",
+          "Michael and Company",
+          "Scrantonicity"
+        ],
+        "correct_answer": "The Fun Police",
+        "difficulty": "hard",
+        "topic": "The Office",
+        "subtopic": null
+      }
+    ],
+    "harry_potter": [
+      {
+        "id": "lit_301",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Which house at Hogwarts does Harry Potter belong to?",
+        "options": [
+          "Slytherin",
+          "Hufflepuff",
+          "Ravenclaw",
+          "Gryffindor"
+        ],
+        "correct_answer": "Gryffindor",
+        "difficulty": "easy",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_302",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of the three-headed dog guarding the Philosopher's Stone?",
+        "options": [
+          "Fluffy",
+          "Fang",
+          "Norbert",
+          "Buckbeak"
+        ],
+        "correct_answer": "Fluffy",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_303",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who is the Potions master at Hogwarts during Harry's first year?",
+        "options": [
+          "Professor McGonagall",
+          "Professor Snape",
+          "Professor Flitwick",
+          "Professor Sprout"
+        ],
+        "correct_answer": "Professor Snape",
+        "difficulty": "easy",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_304",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What platform do students take to board the Hogwarts Express?",
+        "options": [
+          "Platform 9",
+          "Platform 9 3/4",
+          "Platform 10",
+          "Platform 8 3/4"
+        ],
+        "correct_answer": "Platform 9 3/4",
+        "difficulty": "easy",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_305",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is Voldemort's real name?",
+        "options": [
+          "Tom Marvolo Riddle",
+          "Thomas Riddle Jr.",
+          "Timothy Riddleton",
+          "Tomas Marvolo"
+        ],
+        "correct_answer": "Tom Marvolo Riddle",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_306",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What are the four Hogwarts houses?",
+        "options": [
+          "Gryffindor, Slytherin, Ravenclaw, Hufflepuff",
+          "Thunderbird, Wampus, Horned Serpent, Pukwudgie",
+          "Gryffindor, Slytherin, Thunderbird, Hufflepuff",
+          "Thunderbird, Hufflepuff, Slytherin, Pukwudgie"
+        ],
+        "correct_answer": "Gryffindor, Slytherin, Ravenclaw, Hufflepuff",
+        "difficulty": "easy",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_307",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What does the spell 'Expecto Patronum' do?",
+        "options": [
+          "Unlocks doors",
+          "Creates light",
+          "Repels Dementors",
+          "Levitates objects"
+        ],
+        "correct_answer": "Repels Dementors",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_308",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What magical creature can only be seen by those who have witnessed death?",
+        "options": [
+          "Thestrals",
+          "Dementors",
+          "Hippogriffs",
+          "Centaurs"
+        ],
+        "correct_answer": "Thestrals",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_309",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is Severus Snape's Patronus?",
+        "options": [
+          "A stag",
+          "A doe",
+          "A wolf",
+          "A snake"
+        ],
+        "correct_answer": "A doe",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_310",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who is the head of Hufflepuff House?",
+        "options": [
+          "Professor McGonagall",
+          "Professor Snape",
+          "Professor Sprout",
+          "Professor Flitwick"
+        ],
+        "correct_answer": "Professor Sprout",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_311",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What are the names of Harry's children?",
+        "options": [
+          "James, Albus, and Lily",
+          "Ron, Hermione, and Ginny",
+          "Sirius, Remus, and Luna",
+          "Fred, George, and Molly"
+        ],
+        "correct_answer": "James, Albus, and Lily",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_312",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of the driver of the Knight Bus?",
+        "options": [
+          "Ernie Prang",
+          "Stan Shunpike",
+          "Tom Riddle",
+          "Barty Crouch"
+        ],
+        "correct_answer": "Ernie Prang",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_313",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who impersonates Mad-Eye Moody in Harry's fourth year?",
+        "options": [
+          "Barty Crouch Jr.",
+          "Peter Pettigrew",
+          "Lucius Malfoy",
+          "Bellatrix Lestrange"
+        ],
+        "correct_answer": "Barty Crouch Jr.",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_314",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What plant does Harry eat to breathe underwater?",
+        "options": [
+          "Mandrake",
+          "Gillyweed",
+          "Bubotuber",
+          "Devil's Snare"
+        ],
+        "correct_answer": "Gillyweed",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_315",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "How does Harry catch his first Golden Snitch?",
+        "options": [
+          "With his hand",
+          "With his mouth",
+          "With his broom",
+          "It falls in his lap"
+        ],
+        "correct_answer": "With his mouth",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_316",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What does the Mirror of Erised show?",
+        "options": [
+          "The future",
+          "The past",
+          "Your deepest desire",
+          "Your fears"
+        ],
+        "correct_answer": "Your deepest desire",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_317",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What are the three Unforgivable Curses?",
+        "options": [
+          "Avada Kedavra, Crucio, Imperio",
+          "Expelliarmus, Stupefy, Petrificus",
+          "Sectumsempra, Diffindo, Incendio",
+          "Lumos, Nox, Alohomora"
+        ],
+        "correct_answer": "Avada Kedavra, Crucio, Imperio",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_318",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of the Weasley family home?",
+        "options": [
+          "The Burrow",
+          "The Hole",
+          "The Den",
+          "The Nest"
+        ],
+        "correct_answer": "The Burrow",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_319",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What does the spell 'Lumos' do?",
+        "options": [
+          "Unlocks doors",
+          "Creates light",
+          "Levitates objects",
+          "Disarms opponents"
+        ],
+        "correct_answer": "Creates light",
+        "difficulty": "easy",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_320",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of Hagrid's dragon?",
+        "options": [
+          "Norbert",
+          "Norberta",
+          "Both A and B",
+          "Charlie"
+        ],
+        "correct_answer": "Both A and B",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_321",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What house is Luna Lovegood in?",
+        "options": [
+          "Gryffindor",
+          "Hufflepuff",
+          "Ravenclaw",
+          "Slytherin"
+        ],
+        "correct_answer": "Ravenclaw",
+        "difficulty": "medium",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_322",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of the Hogwarts poltergeist?",
+        "options": [
+          "Peeves",
+          "Nearly Headless Nick",
+          "The Fat Lady",
+          "Moaning Myrtle"
+        ],
+        "correct_answer": "Peeves",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_323",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the core of Harry Potter's wand?",
+        "options": [
+          "Dragon heartstring",
+          "Phoenix feather",
+          "Unicorn hair",
+          "Veela hair"
+        ],
+        "correct_answer": "Phoenix feather",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_324",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the street location of the Leaky Cauldron?",
+        "options": [
+          "Diagon Alley",
+          "Charing Cross Road",
+          "Knockturn Alley",
+          "Grimmauld Place"
+        ],
+        "correct_answer": "Charing Cross Road",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_325",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What type of dragon did Harry face in the Triwizard Tournament?",
+        "options": [
+          "Hungarian Horntail",
+          "Chinese Fireball",
+          "Common Welsh Green",
+          "Norwegian Ridgeback"
+        ],
+        "correct_answer": "Hungarian Horntail",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_326",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of Sirius Black's house-elf?",
+        "options": [
+          "Dobby",
+          "Kreacher",
+          "Winky",
+          "Griphook"
+        ],
+        "correct_answer": "Kreacher",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_327",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the maximum speed of a Firebolt broomstick?",
+        "options": [
+          "130 mph",
+          "140 mph",
+          "150 mph",
+          "160 mph"
+        ],
+        "correct_answer": "150 mph",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_328",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What incantation reveals invisible ink?",
+        "options": [
+          "Aparecium",
+          "Revelio",
+          "Specialis Revelio",
+          "Homenum Revelio"
+        ],
+        "correct_answer": "Aparecium",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_329",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the name of Voldemort's snake?",
+        "options": [
+          "Nagini",
+          "Basilisk",
+          "Aragog",
+          "Fluffy"
+        ],
+        "correct_answer": "Nagini",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_330",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What magical device is used to review memories?",
+        "options": [
+          "Pensieve",
+          "Time-Turner",
+          "Remembrall",
+          "Foe-Glass"
+        ],
+        "correct_answer": "Pensieve",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_331",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Who impersonated Mad-Eye Moody in Goblet of Fire?",
+        "options": [
+          "Barty Crouch Jr.",
+          "Peter Pettigrew",
+          "Bellatrix Lestrange",
+          "Lucius Malfoy"
+        ],
+        "correct_answer": "Barty Crouch Jr.",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_332",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "What is the visitor's entrance code for the Ministry of Magic?",
+        "options": [
+          "62442",
+          "MAGIC",
+          "92442",
+          "54321"
+        ],
+        "correct_answer": "62442",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      },
+      {
+        "id": "lit_333",
+        "category": "Literature",
+        "subcategory": "Fantasy Literature",
+        "question": "Which Department at the Ministry studies love and emotion?",
+        "options": [
+          "Department of Mysteries",
+          "Department of Love",
+          "Unspeakable Division",
+          "Emotion Research"
+        ],
+        "correct_answer": "Department of Mysteries",
+        "difficulty": "hard",
+        "topic": "Harry Potter",
+        "subtopic": null
+      }
+    ],
+    "pokemon": [
+      {
+        "id": "tec_301",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "How many original starter Pokémon are there?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "correct_answer": "3",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_302",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What does Charmander evolve into?",
+        "options": [
+          "Charmeleon",
+          "Charizard",
+          "Charcoal",
+          "Chamander"
+        ],
+        "correct_answer": "Charmeleon",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_303",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the final evolution of Squirtle?",
+        "options": [
+          "Wartortle",
+          "Blastoise",
+          "Psyduck",
+          "Golduck"
+        ],
+        "correct_answer": "Blastoise",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_304",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which Pokémon is known as the Mouse Pokémon?",
+        "options": [
+          "Rattata",
+          "Pikachu",
+          "Raichu",
+          "Sandshrew"
+        ],
+        "correct_answer": "Pikachu",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_305",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is super effective against Water-type Pokémon?",
+        "options": [
+          "Fire",
+          "Ice",
+          "Grass",
+          "Rock"
+        ],
+        "correct_answer": "Grass",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_306",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which Pokémon is known for sleeping most of the time?",
+        "options": [
+          "Slowpoke",
+          "Snorlax",
+          "Slakoth",
+          "Drowzee"
+        ],
+        "correct_answer": "Snorlax",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_307",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What does Eevee need to evolve into Vaporeon?",
+        "options": [
+          "Fire Stone",
+          "Water Stone",
+          "Thunder Stone",
+          "Leaf Stone"
+        ],
+        "correct_answer": "Water Stone",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_308",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What Pokémon is number 150 in the Pokédex?",
+        "options": [
+          "Mew",
+          "Mewtwo",
+          "Articuno",
+          "Zapdos"
+        ],
+        "correct_answer": "Mewtwo",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_309",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What region do the original Pokémon games take place in?",
+        "options": [
+          "Johto",
+          "Hoenn",
+          "Kanto",
+          "Sinnoh"
+        ],
+        "correct_answer": "Kanto",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_310",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What happens when you use a Moon Stone on Clefairy?",
+        "options": [
+          "It evolves into Clefable",
+          "It learns new moves",
+          "Nothing happens",
+          "It becomes shiny"
+        ],
+        "correct_answer": "It evolves into Clefable",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_311",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which gym leader uses Electric-type Pokémon in the original games?",
+        "options": [
+          "Brock",
+          "Misty",
+          "Lt. Surge",
+          "Erika"
+        ],
+        "correct_answer": "Lt. Surge",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_312",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type of Pokémon is Geodude?",
+        "options": [
+          "Rock",
+          "Ground",
+          "Rock/Ground",
+          "Steel"
+        ],
+        "correct_answer": "Rock/Ground",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_313",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which Pokémon evolves into Alakazam?",
+        "options": [
+          "Abra",
+          "Kadabra",
+          "Machop",
+          "Gastly"
+        ],
+        "correct_answer": "Kadabra",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_314",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What is the signature move of Pikachu?",
+        "options": [
+          "Thunder",
+          "Thunderbolt",
+          "Thunder Shock",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_315",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "How many original Pokémon were there in Generation 1?",
+        "options": [
+          "150",
+          "151",
+          "152",
+          "200"
+        ],
+        "correct_answer": "151",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_316",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Jigglypuff?",
+        "options": [
+          "Normal",
+          "Fairy",
+          "Normal/Fairy",
+          "Psychic"
+        ],
+        "correct_answer": "Normal/Fairy",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_317",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What does Magnemite evolve into?",
+        "options": [
+          "Magneton",
+          "Electrode",
+          "Voltorb",
+          "Magnezone"
+        ],
+        "correct_answer": "Magneton",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_318",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which Pokémon has the ability to transform into any other Pokémon?",
+        "options": [
+          "Mew",
+          "Ditto",
+          "Zoroark",
+          "Arceus"
+        ],
+        "correct_answer": "Ditto",
+        "difficulty": "easy",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_319",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What badge do you get from defeating Brock?",
+        "options": [
+          "Boulder Badge",
+          "Rock Badge",
+          "Stone Badge",
+          "Earth Badge"
+        ],
+        "correct_answer": "Boulder Badge",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_320",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "Which Pokémon is known as the Flame Pokémon?",
+        "options": [
+          "Charmander",
+          "Charmeleon",
+          "Charizard",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_321",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Charizard?",
+        "options": [
+          "Fire/Flying",
+          "Fire/Dragon",
+          "Dragon",
+          "Fire"
+        ],
+        "correct_answer": "Fire/Flying",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_322",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Blastoise?",
+        "options": [
+          "Water",
+          "Water/Steel",
+          "Ice",
+          "Steel"
+        ],
+        "correct_answer": "Water",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_323",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Venusaur?",
+        "options": [
+          "Grass/Poison",
+          "Grass",
+          "Poison",
+          "Bug"
+        ],
+        "correct_answer": "Grass/Poison",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_324",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Machamp?",
+        "options": [
+          "Fighting",
+          "Fighting/Rock",
+          "Rock",
+          "Normal"
+        ],
+        "correct_answer": "Fighting",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_325",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Golem?",
+        "options": [
+          "Rock/Ground",
+          "Rock",
+          "Ground",
+          "Steel"
+        ],
+        "correct_answer": "Rock/Ground",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_326",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Lapras?",
+        "options": [
+          "Water/Ice",
+          "Water",
+          "Ice",
+          "Dragon"
+        ],
+        "correct_answer": "Water/Ice",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_327",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Snorlax?",
+        "options": [
+          "Normal",
+          "Normal/Fighting",
+          "Fighting",
+          "Rock"
+        ],
+        "correct_answer": "Normal",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_328",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Dragonite?",
+        "options": [
+          "Dragon/Flying",
+          "Dragon/Water",
+          "Dragon",
+          "Water"
+        ],
+        "correct_answer": "Dragon/Flying",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_329",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Mewtwo?",
+        "options": [
+          "Psychic",
+          "Psychic/Fighting",
+          "Fighting",
+          "Steel"
+        ],
+        "correct_answer": "Psychic",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_330",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Mew?",
+        "options": [
+          "Psychic",
+          "Psychic/Fairy",
+          "Fairy",
+          "Normal"
+        ],
+        "correct_answer": "Psychic",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_331",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Lugia?",
+        "options": [
+          "Psychic/Flying",
+          "Water/Flying",
+          "Psychic",
+          "Water"
+        ],
+        "correct_answer": "Psychic/Flying",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      },
+      {
+        "id": "tec_332",
+        "category": "Technology",
+        "subcategory": "Video Games",
+        "question": "What type is Ho-Oh?",
+        "options": [
+          "Fire/Flying",
+          "Fire/Dragon",
+          "Dragon",
+          "Fire"
+        ],
+        "correct_answer": "Fire/Flying",
+        "difficulty": "hard",
+        "topic": "Pokémon",
+        "subtopic": null
+      }
+    ],
+    "sports": {
+      "american_football": [
+        {
+          "id": "spt_301",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is a safety worth in football?",
+          "options": [
+            "1 point",
+            "2 points",
+            "3 points",
+            "6 points"
+          ],
+          "correct_answer": "2 points",
+          "difficulty": "medium",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_302",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What trophy is awarded to the Super Bowl winner?",
+          "options": [
+            "Lombardi Trophy",
+            "Stanley Cup",
+            "Commissioner's Trophy",
+            "Larry O'Brien Trophy"
+          ],
+          "correct_answer": "Lombardi Trophy",
+          "difficulty": "medium",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_303",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many yards must a team advance to get a first down?",
+          "options": [
+            "5",
+            "8",
+            "10",
+            "15"
+          ],
+          "correct_answer": "10",
+          "difficulty": "easy",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_304",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many Super Bowls have the New England Patriots won?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correct_answer": "6",
+          "difficulty": "medium",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_305",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is a sack in football?",
+          "options": [
+            "Dropping the ball",
+            "Tackling the quarterback",
+            "Intercepting a pass",
+            "Fumbling"
+          ],
+          "correct_answer": "Tackling the quarterback",
+          "difficulty": "easy",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_306",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many points is a touchdown and extra point worth?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correct_answer": "7",
+          "difficulty": "easy",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_307",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How long is an NFL football field from end zone to end zone?",
+          "options": [
+            "100 yards",
+            "120 yards",
+            "90 yards",
+            "110 yards"
+          ],
+          "correct_answer": "100 yards",
+          "difficulty": "easy",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_308",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What NFL team is known as 'America's Team'?",
+          "options": [
+            "Dallas Cowboys",
+            "Green Bay Packers",
+            "New York Giants",
+            "Chicago Bears"
+          ],
+          "correct_answer": "Dallas Cowboys",
+          "difficulty": "medium",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_309",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the offensive line position in the center called?",
+          "options": [
+            "Center",
+            "Guard",
+            "Tackle",
+            "Tight end"
+          ],
+          "correct_answer": "Center",
+          "difficulty": "medium",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_310",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Who has thrown the most touchdown passes in NFL history?",
+          "options": [
+            "Tom Brady",
+            "Peyton Manning",
+            "Drew Brees",
+            "Brett Favre"
+          ],
+          "correct_answer": "Tom Brady",
+          "difficulty": "medium",
+          "topic": "American Football",
+          "subtopic": null
+        },
+        {
+          "id": "spt_311",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is a quarterback sack?",
+          "options": [
+            "Tackling the QB behind the line of scrimmage",
+            "Intercepting a pass",
+            "Fumbling the ball",
+            "Missing a field goal"
+          ],
+          "correct_answer": "Tackling the QB behind the line of scrimmage",
+          "difficulty": "medium",
+          "topic": "American Football",
+          "subtopic": null
+        }
+      ],
+      "baseball": [
+        {
+          "id": "spt_312",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many strikes does a batter get before they're out?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct_answer": "3",
+          "difficulty": "easy",
+          "topic": "Baseball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_313",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is it called when a batter hits the ball over the fence?",
+          "options": [
+            "Grand slam",
+            "Home run",
+            "Triple",
+            "Double"
+          ],
+          "correct_answer": "Home run",
+          "difficulty": "easy",
+          "topic": "Baseball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_314",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the distance between bases in baseball?",
+          "options": [
+            "80 feet",
+            "85 feet",
+            "90 feet",
+            "95 feet"
+          ],
+          "correct_answer": "90 feet",
+          "difficulty": "medium",
+          "topic": "Baseball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_315",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What does RBI stand for?",
+          "options": [
+            "Runs Batted In",
+            "Runs Before Inning",
+            "Really Big Impact",
+            "Runs Base Interval"
+          ],
+          "correct_answer": "Runs Batted In",
+          "difficulty": "easy",
+          "topic": "Baseball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_316",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the World Series?",
+          "options": [
+            "Baseball championship",
+            "Soccer tournament",
+            "Basketball finals",
+            "Tennis event"
+          ],
+          "correct_answer": "Baseball championship",
+          "difficulty": "easy",
+          "topic": "Baseball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_317",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is it called when you hit the ball and run all the bases?",
+          "options": [
+            "Triple",
+            "Double",
+            "Home run",
+            "Single"
+          ],
+          "correct_answer": "Home run",
+          "difficulty": "easy",
+          "topic": "Baseball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_318",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the name of the championship series in Major League Baseball?",
+          "options": [
+            "World Series",
+            "Championship Series",
+            "MLB Finals",
+            "Grand Slam"
+          ],
+          "correct_answer": "World Series",
+          "difficulty": "easy",
+          "topic": "Baseball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_319",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the position of the player who stands behind home plate?",
+          "options": [
+            "Catcher",
+            "Pitcher",
+            "First baseman",
+            "Shortstop"
+          ],
+          "correct_answer": "Catcher",
+          "difficulty": "easy",
+          "topic": "Baseball",
+          "subtopic": null
+        }
+      ],
+      "basketball": [
+        {
+          "id": "spt_320",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many players are on a basketball team on the court at one time?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correct_answer": "5",
+          "difficulty": "easy",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_321",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What does NBA stand for?",
+          "options": [
+            "National Basketball Association",
+            "North American Basketball Association",
+            "National Basketball Alliance",
+            "New Basketball Association"
+          ],
+          "correct_answer": "National Basketball Association",
+          "difficulty": "easy",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_322",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the diameter of a basketball hoop in inches?",
+          "options": [
+            "16",
+            "18",
+            "20",
+            "22"
+          ],
+          "correct_answer": "18",
+          "difficulty": "medium",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_323",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many fouls does it take to foul out in NBA?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correct_answer": "6",
+          "difficulty": "medium",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_324",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the shot clock in NBA basketball?",
+          "options": [
+            "20 seconds",
+            "24 seconds",
+            "30 seconds",
+            "35 seconds"
+          ],
+          "correct_answer": "24 seconds",
+          "difficulty": "medium",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_325",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the three-point line distance in the NBA?",
+          "options": [
+            "23 feet 9 inches",
+            "24 feet",
+            "22 feet",
+            "25 feet"
+          ],
+          "correct_answer": "23 feet 9 inches",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_326",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many teams are in the NBA?",
+          "options": [
+            "28",
+            "30",
+            "32",
+            "34"
+          ],
+          "correct_answer": "30",
+          "difficulty": "medium",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_327",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the width of a basketball court?",
+          "options": [
+            "50 feet",
+            "55 feet",
+            "60 feet",
+            "65 feet"
+          ],
+          "correct_answer": "50 feet",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_328",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Who holds the NBA record for most career assists?",
+          "options": [
+            "Magic Johnson",
+            "John Stockton",
+            "Steve Nash",
+            "Chris Paul"
+          ],
+          "correct_answer": "John Stockton",
+          "difficulty": "medium",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_329",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Who holds the record for most points in a single NBA game?",
+          "options": [
+            "Wilt Chamberlain",
+            "Kobe Bryant",
+            "Michael Jordan",
+            "LeBron James"
+          ],
+          "correct_answer": "Wilt Chamberlain",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_330",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Who was the first player to be drafted straight from high school to the NBA in the modern era?",
+          "options": [
+            "Moses Malone",
+            "Darryl Dawkins",
+            "Bill Willoughby",
+            "Shawn Kemp"
+          ],
+          "correct_answer": "Moses Malone",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_331",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the height of the basketball rim from the floor?",
+          "options": [
+            "10 feet",
+            "9.5 feet",
+            "10.5 feet",
+            "9 feet"
+          ],
+          "correct_answer": "10 feet",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_332",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What year was the three-point line introduced to the NBA?",
+          "options": [
+            "1979",
+            "1980",
+            "1978",
+            "1981"
+          ],
+          "correct_answer": "1979",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_333",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Which player has the most NBA Finals MVP awards?",
+          "options": [
+            "Michael Jordan",
+            "LeBron James",
+            "Magic Johnson",
+            "Shaquille O'Neal"
+          ],
+          "correct_answer": "Michael Jordan",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_334",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the maximum number of players on an NBA roster during the regular season?",
+          "options": [
+            "15",
+            "12",
+            "18",
+            "20"
+          ],
+          "correct_answer": "15",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_335",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Who holds the record for most rebounds in a single NBA game?",
+          "options": [
+            "Wilt Chamberlain",
+            "Bill Russell",
+            "Dennis Rodman",
+            "Shaquille O'Neal"
+          ],
+          "correct_answer": "Wilt Chamberlain",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_336",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Which team drafted Michael Jordan?",
+          "options": [
+            "Chicago Bulls",
+            "Portland Trail Blazers",
+            "Houston Rockets",
+            "Philadelphia 76ers"
+          ],
+          "correct_answer": "Chicago Bulls",
+          "difficulty": "hard",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_337",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many points is a free throw worth?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "correct_answer": "1",
+          "difficulty": "easy",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_338",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is a double-double in basketball?",
+          "options": [
+            "10+ in two stat categories",
+            "20 points",
+            "Two consecutive wins",
+            "Double overtime"
+          ],
+          "correct_answer": "10+ in two stat categories",
+          "difficulty": "medium",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_339",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the regulation height of a basketball hoop in feet?",
+          "options": [
+            "10 feet",
+            "9 feet",
+            "11 feet",
+            "12 feet"
+          ],
+          "correct_answer": "10 feet",
+          "difficulty": "easy",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_340",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Who holds the NBA record for most career points?",
+          "options": [
+            "LeBron James",
+            "Kareem Abdul-Jabbar",
+            "Michael Jordan",
+            "Kobe Bryant"
+          ],
+          "correct_answer": "LeBron James",
+          "difficulty": "medium",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_341",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Which team did Michael Jordan play for during most of his career?",
+          "options": [
+            "Chicago Bulls",
+            "Washington Wizards",
+            "Los Angeles Lakers",
+            "Boston Celtics"
+          ],
+          "correct_answer": "Chicago Bulls",
+          "difficulty": "easy",
+          "topic": "Basketball",
+          "subtopic": null
+        },
+        {
+          "id": "spt_342",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Which player is known as 'The Greek Freak'?",
+          "options": [
+            "Giannis Antetokounmpo",
+            "Nikola Jokić",
+            "Luka Dončić",
+            "Kristaps Porziņģis"
+          ],
+          "correct_answer": "Giannis Antetokounmpo",
+          "difficulty": "medium",
+          "topic": "Basketball",
+          "subtopic": null
+        }
+      ],
+      "golf": [
+        {
+          "id": "spt_343",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What is the standard number of holes in a round of golf?",
+          "options": [
+            "16",
+            "18",
+            "20",
+            "22"
+          ],
+          "correct_answer": "18",
+          "difficulty": "easy",
+          "topic": "Golf",
+          "subtopic": null
+        },
+        {
+          "id": "spt_344",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What is the term for three strokes under par?",
+          "options": [
+            "Eagle",
+            "Albatross",
+            "Condor",
+            "Ostrich"
+          ],
+          "correct_answer": "Albatross",
+          "difficulty": "medium",
+          "topic": "Golf",
+          "subtopic": null
+        },
+        {
+          "id": "spt_345",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What is one stroke over par called?",
+          "options": [
+            "Birdie",
+            "Eagle",
+            "Bogey",
+            "Double bogey"
+          ],
+          "correct_answer": "Bogey",
+          "difficulty": "easy",
+          "topic": "Golf",
+          "subtopic": null
+        },
+        {
+          "id": "spt_346",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What is the first shot on each hole called?",
+          "options": [
+            "Drive",
+            "Tee shot",
+            "Opening shot",
+            "First shot"
+          ],
+          "correct_answer": "Tee shot",
+          "difficulty": "easy",
+          "topic": "Golf",
+          "subtopic": null
+        },
+        {
+          "id": "spt_347",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What is the rough in golf?",
+          "options": [
+            "The green",
+            "The fairway",
+            "Tall grass areas",
+            "Sand traps"
+          ],
+          "correct_answer": "Tall grass areas",
+          "difficulty": "medium",
+          "topic": "Golf",
+          "subtopic": null
+        },
+        {
+          "id": "spt_348",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What do you use to hit the ball on the green?",
+          "options": [
+            "Driver",
+            "Iron",
+            "Putter",
+            "Wedge"
+          ],
+          "correct_answer": "Putter",
+          "difficulty": "easy",
+          "topic": "Golf",
+          "subtopic": null
+        },
+        {
+          "id": "spt_349",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What are the four big golf tournaments called?",
+          "options": [
+            "The Majors",
+            "The Grand Slam",
+            "The Championship Tour",
+            "The Elite Four"
+          ],
+          "correct_answer": "The Majors",
+          "difficulty": "medium",
+          "topic": "Golf",
+          "subtopic": null
+        },
+        {
+          "id": "spt_350",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What is a hole-in-one also called?",
+          "options": [
+            "Ace",
+            "Perfect shot",
+            "Eagle",
+            "Albatross"
+          ],
+          "correct_answer": "Ace",
+          "difficulty": "medium",
+          "topic": "Golf",
+          "subtopic": null
+        }
+      ],
+      "hockey": [
+        {
+          "id": "spt_351",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many periods are in a regulation hockey game?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct_answer": "3",
+          "difficulty": "easy",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_352",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the term for when a team has more players on the ice due to a penalty?",
+          "options": [
+            "Power play",
+            "Penalty kill",
+            "Short-handed",
+            "Man advantage"
+          ],
+          "correct_answer": "Power play",
+          "difficulty": "medium",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_353",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is a hat trick in hockey?",
+          "options": [
+            "Three goals by one player",
+            "Three assists",
+            "Three penalties",
+            "Three saves"
+          ],
+          "correct_answer": "Three goals by one player",
+          "difficulty": "easy",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_354",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is icing in hockey?",
+          "options": [
+            "Freezing the puck",
+            "Shooting from your zone past the goal line",
+            "A type of penalty",
+            "A celebration"
+          ],
+          "correct_answer": "Shooting from your zone past the goal line",
+          "difficulty": "medium",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_355",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How thick is a hockey puck?",
+          "options": [
+            "1/2 inch",
+            "3/4 inch",
+            "1 inch",
+            "1 1/4 inches"
+          ],
+          "correct_answer": "1 inch",
+          "difficulty": "hard",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_356",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is a power play in hockey?",
+          "options": [
+            "A strong shot",
+            "Playing with extra players",
+            "A special move",
+            "A type of goal"
+          ],
+          "correct_answer": "Playing with extra players",
+          "difficulty": "medium",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_357",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What do hockey players use to hit the puck?",
+          "options": [
+            "Stick",
+            "Bat",
+            "Racket",
+            "Club"
+          ],
+          "correct_answer": "Stick",
+          "difficulty": "easy",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_358",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the playing surface in hockey?",
+          "options": [
+            "Grass",
+            "Court",
+            "Ice",
+            "Field"
+          ],
+          "correct_answer": "Ice",
+          "difficulty": "easy",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_359",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What line divides the ice into two halves?",
+          "options": [
+            "Center red line",
+            "Blue line",
+            "Goal line",
+            "Faceoff line"
+          ],
+          "correct_answer": "Center red line",
+          "difficulty": "medium",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_360",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the blue line used for in hockey?",
+          "options": [
+            "Marks the offensive/defensive zones",
+            "Goal line",
+            "Center line",
+            "Penalty box boundary"
+          ],
+          "correct_answer": "Marks the offensive/defensive zones",
+          "difficulty": "hard",
+          "topic": "Hockey",
+          "subtopic": null
+        },
+        {
+          "id": "spt_361",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the trapezoid area behind the goal used for?",
+          "options": [
+            "Restricting goalie puck handling",
+            "Penalty shots",
+            "Face-offs",
+            "Icing calls"
+          ],
+          "correct_answer": "Restricting goalie puck handling",
+          "difficulty": "hard",
+          "topic": "Hockey",
+          "subtopic": null
+        }
+      ],
+      "olympics": [
+        {
+          "id": "spt_362",
+          "category": "Sports",
+          "subcategory": "International Competition",
+          "question": "What do the five Olympic rings represent?",
+          "options": [
+            "Five sports",
+            "Five continents",
+            "Five countries",
+            "Five seasons"
+          ],
+          "correct_answer": "Five continents",
+          "difficulty": "medium",
+          "topic": "Olympics",
+          "subtopic": null
+        },
+        {
+          "id": "spt_363",
+          "category": "Sports",
+          "subcategory": "International Competition",
+          "question": "How often are the Winter Olympics held?",
+          "options": [
+            "Every 2 years",
+            "Every 4 years",
+            "Every 6 years",
+            "Every 8 years"
+          ],
+          "correct_answer": "Every 4 years",
+          "difficulty": "easy",
+          "topic": "Olympics",
+          "subtopic": null
+        },
+        {
+          "id": "spt_364",
+          "category": "Sports",
+          "subcategory": "International Competition",
+          "question": "Where did the Olympics start?",
+          "options": [
+            "Rome",
+            "Greece",
+            "Egypt",
+            "China"
+          ],
+          "correct_answer": "Greece",
+          "difficulty": "easy",
+          "topic": "Olympics",
+          "subtopic": null
+        },
+        {
+          "id": "spt_365",
+          "category": "Sports",
+          "subcategory": "International Competition",
+          "question": "Which country hosted the 2008 Summer Olympics?",
+          "options": [
+            "China",
+            "Greece",
+            "United Kingdom",
+            "Brazil"
+          ],
+          "correct_answer": "China",
+          "difficulty": "medium",
+          "topic": "Olympics",
+          "subtopic": null
+        },
+        {
+          "id": "spt_366",
+          "category": "Sports",
+          "subcategory": "International Competition",
+          "question": "Who is the most decorated Olympian of all time?",
+          "options": [
+            "Michael Phelps",
+            "Usain Bolt",
+            "Simone Biles",
+            "Larisa Latynina"
+          ],
+          "correct_answer": "Michael Phelps",
+          "difficulty": "medium",
+          "topic": "Olympics",
+          "subtopic": null
+        },
+        {
+          "id": "spt_367",
+          "category": "Sports",
+          "subcategory": "International Competition",
+          "question": "Which city has hosted the Summer Olympics three times?",
+          "options": [
+            "London",
+            "Paris",
+            "Los Angeles",
+            "Athens"
+          ],
+          "correct_answer": "London",
+          "difficulty": "hard",
+          "topic": "Olympics",
+          "subtopic": null
+        }
+      ],
+      "soccer": [
+        {
+          "id": "spt_368",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How long is each half in a soccer match?",
+          "options": [
+            "40 minutes",
+            "45 minutes",
+            "50 minutes",
+            "55 minutes"
+          ],
+          "correct_answer": "45 minutes",
+          "difficulty": "easy",
+          "topic": "Soccer",
+          "subtopic": null
+        },
+        {
+          "id": "spt_369",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "How many substitutions are allowed in a soccer match?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correct_answer": "5",
+          "difficulty": "medium",
+          "topic": "Soccer",
+          "subtopic": null
+        },
+        {
+          "id": "spt_370",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is the most prestigious soccer tournament in the world?",
+          "options": [
+            "UEFA Champions League",
+            "FIFA World Cup",
+            "Copa America",
+            "European Championship"
+          ],
+          "correct_answer": "FIFA World Cup",
+          "difficulty": "easy",
+          "topic": "Soccer",
+          "subtopic": null
+        },
+        {
+          "id": "spt_371",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is it called when a player uses their head to play the ball?",
+          "options": [
+            "Heading",
+            "Header",
+            "Head ball",
+            "All of the above"
+          ],
+          "correct_answer": "All of the above",
+          "difficulty": "easy",
+          "topic": "Soccer",
+          "subtopic": null
+        },
+        {
+          "id": "spt_372",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "Which country hosted the 2014 FIFA World Cup?",
+          "options": [
+            "Brazil",
+            "South Africa",
+            "Russia",
+            "Germany"
+          ],
+          "correct_answer": "Brazil",
+          "difficulty": "medium",
+          "topic": "Soccer",
+          "subtopic": null
+        },
+        {
+          "id": "spt_373",
+          "category": "Sports",
+          "subcategory": "Team Sports",
+          "question": "What is stoppage time in soccer?",
+          "options": [
+            "Extra time added for delays",
+            "Halftime break",
+            "Penalty shootout time",
+            "Water break"
+          ],
+          "correct_answer": "Extra time added for delays",
+          "difficulty": "medium",
+          "topic": "Soccer",
+          "subtopic": null
+        }
+      ],
+      "tennis": [
+        {
+          "id": "spt_374",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What is it called when a match is tied 40-40?",
+          "options": [
+            "Match point",
+            "Deuce",
+            "Advantage",
+            "Set point"
+          ],
+          "correct_answer": "Deuce",
+          "difficulty": "medium",
+          "topic": "Tennis",
+          "subtopic": null
+        },
+        {
+          "id": "spt_375",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What is the scoring system in tennis?",
+          "options": [
+            "0, 15, 30, 40",
+            "1, 2, 3, 4",
+            "5, 10, 15, 20",
+            "0, 10, 20, 30"
+          ],
+          "correct_answer": "0, 15, 30, 40",
+          "difficulty": "medium",
+          "topic": "Tennis",
+          "subtopic": null
+        },
+        {
+          "id": "spt_376",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "What surface is the French Open played on?",
+          "options": [
+            "Grass",
+            "Hard court",
+            "Clay",
+            "Carpet"
+          ],
+          "correct_answer": "Clay",
+          "difficulty": "medium",
+          "topic": "Tennis",
+          "subtopic": null
+        },
+        {
+          "id": "spt_377",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "How many games must a player win to win a set?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correct_answer": "6",
+          "difficulty": "medium",
+          "topic": "Tennis",
+          "subtopic": null
+        },
+        {
+          "id": "spt_378",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "How many sets do women play in Grand Slams?",
+          "options": [
+            "Best of 3",
+            "Best of 5",
+            "Exactly 3",
+            "Exactly 5"
+          ],
+          "correct_answer": "Best of 3",
+          "difficulty": "medium",
+          "topic": "Tennis",
+          "subtopic": null
+        },
+        {
+          "id": "spt_379",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "Which female tennis player has won the most Grand Slam singles titles?",
+          "options": [
+            "Margaret Court",
+            "Serena Williams",
+            "Steffi Graf",
+            "Martina Navratilova"
+          ],
+          "correct_answer": "Margaret Court",
+          "difficulty": "hard",
+          "topic": "Tennis",
+          "subtopic": null
+        },
+        {
+          "id": "spt_380",
+          "category": "Sports",
+          "subcategory": "Individual Sports",
+          "question": "Which male player has won the most Grand Slam singles titles?",
+          "options": [
+            "Novak Djokovic",
+            "Rafael Nadal",
+            "Roger Federer",
+            "Pete Sampras"
+          ],
+          "correct_answer": "Novak Djokovic",
+          "difficulty": "medium",
+          "topic": "Tennis",
+          "subtopic": null
+        }
+      ]
+    }
+  }
+}

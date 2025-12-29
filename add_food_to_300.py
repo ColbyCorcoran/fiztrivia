@@ -1,505 +1,276 @@
+#!/usr/bin/env python3
+"""
+Add 22 Food questions to reach 300 total
+Prioritize smallest subcategories for balance
+"""
+
 import json
 
-# Load database
-with open('Fiz/Resources/questions.json', 'r') as f:
-    data = json.load(f)
+def add_food_questions():
+    # Load current database
+    with open('Fiz/Resources/questions.json', 'r') as f:
+        data = json.load(f)
 
-# 50 new Food questions (foo_251 to foo_300)
-# Distribution: Ingredients (10), Dishes (8), Famous Chefs/Restaurants (6),
-# Cuisines (5), Beverages (5), Cooking Techniques (4), Baking (4),
-# Desserts (4), Food History (2), Sauces & Condiments (2)
-# Emphasis on hard/medium difficulty
+    food_questions = data['categories']['Food']
+    
+    print(f"Current Food questions: {len(food_questions)}")
+    print(f"Adding 22 questions (foo_279 to foo_300)")
+    print()
+    print("Distribution strategy:")
+    print("  Sauces & Condiments: +7 (8 → 15)")
+    print("  Food History: +6 (10 → 16)")
+    print("  Desserts: +4 (18 → 22)")
+    print("  Beverages: +2 (21 → 23)")
+    print("  Cuisines: +2 (21 → 23)")
+    print("  Cooking Techniques: +1 (22 → 23)")
+    print()
 
-new_questions = [
-    # Ingredients (10 questions) - foo_251-260
-    {
-        "id": "foo_251",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What is the world's most expensive spice by weight?",
-        "options": ["Saffron", "Vanilla", "Cardamom", "Cinnamon"],
-        "correct_answer": "Saffron",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_252",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "Which type of rice is traditionally used in risotto?",
-        "options": ["Arborio", "Basmati", "Jasmine", "Wild rice"],
-        "correct_answer": "Arborio",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_253",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What is tahini made from?",
-        "options": ["Sesame seeds", "Chickpeas", "Sunflower seeds", "Almonds"],
-        "correct_answer": "Sesame seeds",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_254",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "Which vegetable is also known as aubergine?",
-        "options": ["Eggplant", "Zucchini", "Squash", "Cucumber"],
-        "correct_answer": "Eggplant",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_255",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What type of fish are anchovies?",
-        "options": ["Small saltwater fish", "Freshwater fish", "Shellfish", "Crustaceans"],
-        "correct_answer": "Small saltwater fish",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_256",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "Which grain is used to make polenta?",
-        "options": ["Cornmeal", "Wheat", "Rice", "Barley"],
-        "correct_answer": "Cornmeal",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_257",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What is the main ingredient in kimchi?",
-        "options": ["Napa cabbage", "Radish", "Cucumber", "Bean sprouts"],
-        "correct_answer": "Napa cabbage",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_258",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "Which nut is technically a legume?",
-        "options": ["Peanut", "Almond", "Cashew", "Walnut"],
-        "correct_answer": "Peanut",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_259",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What is capers?",
-        "options": ["Pickled flower buds", "A type of olive", "Pickled onions", "A spice"],
-        "correct_answer": "Pickled flower buds",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_260",
-        "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "Which fruit is dried to make prunes?",
-        "options": ["Plums", "Apricots", "Dates", "Figs"],
-        "correct_answer": "Plums",
-        "difficulty": "medium"
-    },
+    # NEW UNIQUE QUESTIONS (avoiding duplicates)
+    new_questions = [
+        # SAUCES & CONDIMENTS (7 questions) - foo_279-285
+        {
+            "id": "foo_279",
+            "category": "Food",
+            "subcategory": "Sauces & Condiments",
+            "question": "What is the main ingredient in traditional pesto sauce?",
+            "options": ["Basil", "Parsley", "Oregano", "Cilantro"],
+            "correct_answer": "Basil",
+            "difficulty": "medium"
+        },
+        {
+            "id": "foo_280",
+            "category": "Food",
+            "subcategory": "Sauces & Condiments",
+            "question": "Which French mother sauce is made with a white roux and milk?",
+            "options": ["Béchamel", "Velouté", "Espagnole", "Hollandaise"],
+            "correct_answer": "Béchamel",
+            "difficulty": "hard"
+        },
+        {
+            "id": "foo_281",
+            "category": "Food",
+            "subcategory": "Sauces & Condiments",
+            "question": "What condiment is made from fermented soybeans?",
+            "options": ["Soy sauce", "Worcestershire sauce", "Fish sauce", "Hot sauce"],
+            "correct_answer": "Soy sauce",
+            "difficulty": "easy"
+        },
+        {
+            "id": "foo_282",
+            "category": "Food",
+            "subcategory": "Sauces & Condiments",
+            "question": "What is the primary ingredient in aioli?",
+            "options": ["Garlic", "Lemon", "Egg", "Mustard"],
+            "correct_answer": "Garlic",
+            "difficulty": "medium"
+        },
+        {
+            "id": "foo_283",
+            "category": "Food",
+            "subcategory": "Sauces & Condiments",
+            "question": "Which sauce is traditionally served with eggs Benedict?",
+            "options": ["Hollandaise", "Béarnaise", "Béchamel", "Mornay"],
+            "correct_answer": "Hollandaise",
+            "difficulty": "hard"
+        },
+        {
+            "id": "foo_284",
+            "category": "Food",
+            "subcategory": "Sauces & Condiments",
+            "question": "What is the main ingredient in tartar sauce?",
+            "options": ["Mayonnaise", "Sour cream", "Yogurt", "Cream cheese"],
+            "correct_answer": "Mayonnaise",
+            "difficulty": "easy"
+        },
+        {
+            "id": "foo_285",
+            "category": "Food",
+            "subcategory": "Sauces & Condiments",
+            "question": "What Asian condiment is made from chili peppers and fermented beans?",
+            "options": ["Sambal oelek", "Hoisin sauce", "Oyster sauce", "Teriyaki sauce"],
+            "correct_answer": "Sambal oelek",
+            "difficulty": "hard"
+        },
 
-    # Dishes (8 questions) - foo_261-268
-    {
-        "id": "foo_261",
-        "category": "Food",
-        "subcategory": "Dishes",
-        "question": "What is the main ingredient in the Middle Eastern dish falafel?",
-        "options": ["Chickpeas", "Lentils", "Beans", "Rice"],
-        "correct_answer": "Chickpeas",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_262",
-        "category": "Food",
-        "subcategory": "Dishes",
-        "question": "What type of pasta is shaped like small rice grains?",
-        "options": ["Orzo", "Penne", "Fusilli", "Farfalle"],
-        "correct_answer": "Orzo",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_263",
-        "category": "Food",
-        "subcategory": "Dishes",
-        "question": "What is the primary ingredient in the Japanese dish tempura?",
-        "options": ["Battered and fried seafood or vegetables", "Raw fish", "Rice", "Noodles"],
-        "correct_answer": "Battered and fried seafood or vegetables",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_264",
-        "category": "Food",
-        "subcategory": "Dishes",
-        "question": "Which Indian bread is traditionally baked in a tandoor oven?",
-        "options": ["Naan", "Chapati", "Paratha", "Roti"],
-        "correct_answer": "Naan",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_265",
-        "category": "Food",
-        "subcategory": "Dishes",
-        "question": "What is the main protein in the Spanish dish paella?",
-        "options": ["Seafood and/or chicken", "Beef", "Pork", "Lamb"],
-        "correct_answer": "Seafood and/or chicken",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_266",
-        "category": "Food",
-        "subcategory": "Dishes",
-        "question": "What type of cheese is traditionally used in Greek salad?",
-        "options": ["Feta", "Mozzarella", "Cheddar", "Gouda"],
-        "correct_answer": "Feta",
-        "difficulty": "easy"
-    },
-    {
-        "id": "foo_267",
-        "category": "Food",
-        "subcategory": "Dishes",
-        "question": "Which Vietnamese soup is traditionally made with beef or chicken broth?",
-        "options": ["Pho", "Ramen", "Udon", "Tom yum"],
-        "correct_answer": "Pho",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_268",
-        "category": "Food",
-        "subcategory": "Dishes",
-        "question": "What is the main ingredient in the Scottish dish haggis?",
-        "options": ["Sheep's offal", "Beef", "Chicken", "Fish"],
-        "correct_answer": "Sheep's offal",
-        "difficulty": "hard"
-    },
+        # FOOD HISTORY (6 questions) - foo_286-291
+        {
+            "id": "foo_286",
+            "category": "Food",
+            "subcategory": "Food History",
+            "question": "In what century was the tomato introduced to Europe from the Americas?",
+            "options": ["16th century", "15th century", "17th century", "14th century"],
+            "correct_answer": "16th century",
+            "difficulty": "hard"
+        },
+        {
+            "id": "foo_287",
+            "category": "Food",
+            "subcategory": "Food History",
+            "question": "What food was originally called 'alligator pear'?",
+            "options": ["Avocado", "Mango", "Papaya", "Kiwi"],
+            "correct_answer": "Avocado",
+            "difficulty": "medium"
+        },
+        {
+            "id": "foo_288",
+            "category": "Food",
+            "subcategory": "Food History",
+            "question": "Which ancient civilization first cultivated chocolate?",
+            "options": ["Maya", "Aztec", "Inca", "Egyptian"],
+            "correct_answer": "Maya",
+            "difficulty": "hard"
+        },
+        {
+            "id": "foo_289",
+            "category": "Food",
+            "subcategory": "Food History",
+            "question": "What was the first vegetable grown in space in 1995?",
+            "options": ["Potato", "Lettuce", "Carrot", "Tomato"],
+            "correct_answer": "Potato",
+            "difficulty": "hard"
+        },
+        {
+            "id": "foo_290",
+            "category": "Food",
+            "subcategory": "Food History",
+            "question": "Which European country first popularized French fries?",
+            "options": ["Belgium", "France", "Netherlands", "Germany"],
+            "correct_answer": "Belgium",
+            "difficulty": "medium"
+        },
+        {
+            "id": "foo_291",
+            "category": "Food",
+            "subcategory": "Food History",
+            "question": "What was the first food eaten on the moon by astronauts?",
+            "options": ["Freeze-dried fruit", "Tang", "Space ice cream", "Crackers"],
+            "correct_answer": "Freeze-dried fruit",
+            "difficulty": "hard"
+        },
 
-    # Famous Chefs/Restaurants (6 questions) - foo_269-274
-    {
-        "id": "foo_269",
-        "category": "Food",
-        "subcategory": "Famous Chefs/Restaurants",
-        "question": "Which chef is known for the quote 'Bam!'?",
-        "options": ["Emeril Lagasse", "Gordon Ramsay", "Bobby Flay", "Wolfgang Puck"],
-        "correct_answer": "Emeril Lagasse",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_270",
-        "category": "Food",
-        "subcategory": "Famous Chefs/Restaurants",
-        "question": "Who is the host of 'Hell's Kitchen'?",
-        "options": ["Gordon Ramsay", "Jamie Oliver", "Anthony Bourdain", "Alton Brown"],
-        "correct_answer": "Gordon Ramsay",
-        "difficulty": "easy"
-    },
-    {
-        "id": "foo_271",
-        "category": "Food",
-        "subcategory": "Famous Chefs/Restaurants",
-        "question": "Which chef is known for molecular gastronomy and the restaurant elBulli?",
-        "options": ["Ferran Adrià", "Heston Blumenthal", "Grant Achatz", "Thomas Keller"],
-        "correct_answer": "Ferran Adrià",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_272",
-        "category": "Food",
-        "subcategory": "Famous Chefs/Restaurants",
-        "question": "Which city is home to the most Michelin-starred restaurants?",
-        "options": ["Tokyo", "Paris", "New York", "London"],
-        "correct_answer": "Tokyo",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_273",
-        "category": "Food",
-        "subcategory": "Famous Chefs/Restaurants",
-        "question": "Who wrote the bestselling kitchen memoir 'Kitchen Confidential'?",
-        "options": ["Anthony Bourdain", "Gordon Ramsay", "Marco Pierre White", "Eric Ripert"],
-        "correct_answer": "Anthony Bourdain",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_274",
-        "category": "Food",
-        "subcategory": "Famous Chefs/Restaurants",
-        "question": "Which chef owns the Fat Duck restaurant in England?",
-        "options": ["Heston Blumenthal", "Gordon Ramsay", "Jamie Oliver", "Marco Pierre White"],
-        "correct_answer": "Heston Blumenthal",
-        "difficulty": "hard"
-    },
+        # DESSERTS (4 questions) - foo_292-295
+        {
+            "id": "foo_292",
+            "category": "Food",
+            "subcategory": "Desserts",
+            "question": "What Italian dessert features layers of coffee-soaked ladyfingers and mascarpone?",
+            "options": ["Tiramisu", "Panna cotta", "Cannoli", "Zabaglione"],
+            "correct_answer": "Tiramisu",
+            "difficulty": "medium"
+        },
+        {
+            "id": "foo_293",
+            "category": "Food",
+            "subcategory": "Desserts",
+            "question": "What is the main flavoring in a traditional crème brûlée?",
+            "options": ["Vanilla", "Chocolate", "Coffee", "Caramel"],
+            "correct_answer": "Vanilla",
+            "difficulty": "medium"
+        },
+        {
+            "id": "foo_294",
+            "category": "Food",
+            "subcategory": "Desserts",
+            "question": "What French pastry is made with choux dough and filled with cream?",
+            "options": ["Éclair", "Croissant", "Macaron", "Tart"],
+            "correct_answer": "Éclair",
+            "difficulty": "hard"
+        },
+        {
+            "id": "foo_295",
+            "category": "Food",
+            "subcategory": "Desserts",
+            "question": "What dessert is traditionally served flambéed with rum or brandy?",
+            "options": ["Bananas Foster", "Crêpes Suzette", "Cherries Jubilee", "All of the above"],
+            "correct_answer": "All of the above",
+            "difficulty": "hard"
+        },
 
-    # Cuisines (5 questions) - foo_275-279
-    {
-        "id": "foo_275",
-        "category": "Food",
-        "subcategory": "Cuisines",
-        "question": "What is the staple grain in Ethiopian cuisine?",
-        "options": ["Teff", "Rice", "Wheat", "Corn"],
-        "correct_answer": "Teff",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_276",
-        "category": "Food",
-        "subcategory": "Cuisines",
-        "question": "Which cuisine is known for using the 'five-spice' powder?",
-        "options": ["Chinese", "Indian", "Thai", "Korean"],
-        "correct_answer": "Chinese",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_277",
-        "category": "Food",
-        "subcategory": "Cuisines",
-        "question": "What is the traditional cooking pot used in Moroccan cuisine?",
-        "options": ["Tagine", "Wok", "Paella pan", "Dutch oven"],
-        "correct_answer": "Tagine",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_278",
-        "category": "Food",
-        "subcategory": "Cuisines",
-        "question": "Which country's cuisine features the dish bibimbap?",
-        "options": ["Korea", "Japan", "China", "Vietnam"],
-        "correct_answer": "Korea",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_279",
-        "category": "Food",
-        "subcategory": "Cuisines",
-        "question": "What is the main herb used in pesto sauce?",
-        "options": ["Basil", "Parsley", "Cilantro", "Oregano"],
-        "correct_answer": "Basil",
-        "difficulty": "easy"
-    },
+        # BEVERAGES (2 questions) - foo_296-297
+        {
+            "id": "foo_296",
+            "category": "Food",
+            "subcategory": "Beverages",
+            "question": "What type of tea is fully oxidized?",
+            "options": ["Black tea", "Green tea", "White tea", "Oolong tea"],
+            "correct_answer": "Black tea",
+            "difficulty": "medium"
+        },
+        {
+            "id": "foo_297",
+            "category": "Food",
+            "subcategory": "Beverages",
+            "question": "What is the main spirit in a Moscow Mule cocktail?",
+            "options": ["Vodka", "Rum", "Gin", "Whiskey"],
+            "correct_answer": "Vodka",
+            "difficulty": "hard"
+        },
 
-    # Beverages (5 questions) - foo_280-284
-    {
-        "id": "foo_280",
-        "category": "Food",
-        "subcategory": "Beverages",
-        "question": "What type of tea is fermented and aged?",
-        "options": ["Pu-erh", "Green tea", "Black tea", "White tea"],
-        "correct_answer": "Pu-erh",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_281",
-        "category": "Food",
-        "subcategory": "Beverages",
-        "question": "What is the primary ingredient in kombucha?",
-        "options": ["Tea", "Coffee", "Fruit juice", "Milk"],
-        "correct_answer": "Tea",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_282",
-        "category": "Food",
-        "subcategory": "Beverages",
-        "question": "Which country is the world's largest producer of coffee?",
-        "options": ["Brazil", "Colombia", "Ethiopia", "Vietnam"],
-        "correct_answer": "Brazil",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_283",
-        "category": "Food",
-        "subcategory": "Beverages",
-        "question": "What is the main difference between ale and lager beer?",
-        "options": ["Fermentation temperature", "Grain type", "Hops variety", "Alcohol content"],
-        "correct_answer": "Fermentation temperature",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_284",
-        "category": "Food",
-        "subcategory": "Beverages",
-        "question": "What plant is tequila made from?",
-        "options": ["Agave", "Cactus", "Corn", "Sugar cane"],
-        "correct_answer": "Agave",
-        "difficulty": "medium"
-    },
+        # CUISINES (2 questions) - foo_298-299
+        {
+            "id": "foo_298",
+            "category": "Food",
+            "subcategory": "Cuisines",
+            "question": "What is the national dish of Spain made with rice, saffron, and seafood?",
+            "options": ["Paella", "Risotto", "Jambalaya", "Biryani"],
+            "correct_answer": "Paella",
+            "difficulty": "medium"
+        },
+        {
+            "id": "foo_299",
+            "category": "Food",
+            "subcategory": "Cuisines",
+            "question": "What Japanese dish consists of battered and deep-fried seafood or vegetables?",
+            "options": ["Tempura", "Teriyaki", "Katsu", "Yakitori"],
+            "correct_answer": "Tempura",
+            "difficulty": "easy"
+        },
 
-    # Cooking Techniques (4 questions) - foo_285-288
-    {
-        "id": "foo_285",
-        "category": "Food",
-        "subcategory": "Cooking Techniques",
-        "question": "What cooking technique involves cooking food in a small amount of fat over high heat?",
-        "options": ["Sautéing", "Braising", "Poaching", "Steaming"],
-        "correct_answer": "Sautéing",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_286",
-        "category": "Food",
-        "subcategory": "Cooking Techniques",
-        "question": "What is the term for cooking food slowly in liquid at low temperature?",
-        "options": ["Braising", "Grilling", "Roasting", "Frying"],
-        "correct_answer": "Braising",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_287",
-        "category": "Food",
-        "subcategory": "Cooking Techniques",
-        "question": "What is the French term for 'cooked under pressure'?",
-        "options": ["Sous vide", "En papillote", "Au gratin", "Flambé"],
-        "correct_answer": "Sous vide",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_288",
-        "category": "Food",
-        "subcategory": "Cooking Techniques",
-        "question": "What does it mean to 'blanch' a vegetable?",
-        "options": ["Briefly boil then plunge in ice water", "Grill until charred", "Roast at high heat", "Steam until soft"],
-        "correct_answer": "Briefly boil then plunge in ice water",
-        "difficulty": "hard"
-    },
+        # COOKING TECHNIQUES (1 question) - foo_300
+        {
+            "id": "foo_300",
+            "category": "Food",
+            "subcategory": "Cooking Techniques",
+            "question": "What cooking method involves cooking food slowly in liquid at low temperatures?",
+            "options": ["Braising", "Sautéing", "Grilling", "Broiling"],
+            "correct_answer": "Braising",
+            "difficulty": "medium"
+        }
+    ]
 
-    # Baking (4 questions) - foo_289-292
-    {
-        "id": "foo_289",
-        "category": "Food",
-        "subcategory": "Baking",
-        "question": "What ingredient makes baked goods rise?",
-        "options": ["Baking powder or yeast", "Sugar", "Butter", "Eggs"],
-        "correct_answer": "Baking powder or yeast",
-        "difficulty": "easy"
-    },
-    {
-        "id": "foo_290",
-        "category": "Food",
-        "subcategory": "Baking",
-        "question": "What is the protein in flour that gives bread its structure?",
-        "options": ["Gluten", "Starch", "Fiber", "Albumin"],
-        "correct_answer": "Gluten",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_291",
-        "category": "Food",
-        "subcategory": "Baking",
-        "question": "What is a 'roux' used for in baking and cooking?",
-        "options": ["Thickening sauces", "Leavening cakes", "Sweetening desserts", "Coloring pastries"],
-        "correct_answer": "Thickening sauces",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_292",
-        "category": "Food",
-        "subcategory": "Baking",
-        "question": "What temperature should egg whites be at for optimal meringue?",
-        "options": ["Room temperature", "Cold", "Warm", "Hot"],
-        "correct_answer": "Room temperature",
-        "difficulty": "hard"
-    },
+    # Add new questions
+    food_questions.extend(new_questions)
 
-    # Desserts (4 questions) - foo_293-296
-    {
-        "id": "foo_293",
-        "category": "Food",
-        "subcategory": "Desserts",
-        "question": "What is the main flavoring in tiramisu?",
-        "options": ["Coffee", "Chocolate", "Vanilla", "Almond"],
-        "correct_answer": "Coffee",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_294",
-        "category": "Food",
-        "subcategory": "Desserts",
-        "question": "Which French dessert is made of choux pastry filled with cream?",
-        "options": ["Éclair", "Macaron", "Crêpe", "Tarte"],
-        "correct_answer": "Éclair",
-        "difficulty": "medium"
-    },
-    {
-        "id": "foo_295",
-        "category": "Food",
-        "subcategory": "Desserts",
-        "question": "What is the primary ingredient in traditional Turkish delight?",
-        "options": ["Sugar and starch", "Honey and nuts", "Chocolate", "Fruit puree"],
-        "correct_answer": "Sugar and starch",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_296",
-        "category": "Food",
-        "subcategory": "Desserts",
-        "question": "What type of pastry is used to make baklava?",
-        "options": ["Phyllo", "Puff pastry", "Choux", "Shortcrust"],
-        "correct_answer": "Phyllo",
-        "difficulty": "hard"
-    },
+    # Save updated database
+    with open('Fiz/Resources/questions.json', 'w') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
-    # Food History (2 questions) - foo_297-298
-    {
-        "id": "foo_297",
-        "category": "Food",
-        "subcategory": "Food History",
-        "question": "Which ancient civilization is credited with inventing pizza?",
-        "options": ["Ancient Rome", "Ancient Greece", "Ancient Egypt", "Ancient Persia"],
-        "correct_answer": "Ancient Rome",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_298",
-        "category": "Food",
-        "subcategory": "Food History",
-        "question": "What vegetable was originally purple before selective breeding?",
-        "options": ["Carrot", "Potato", "Onion", "Corn"],
-        "correct_answer": "Carrot",
-        "difficulty": "hard"
-    },
+    print(f"✓ Added 22 new Food questions")
+    print(f"\nNew Food total: {len(food_questions)} questions")
 
-    # Sauces & Condiments (2 questions) - foo_299-300
-    {
-        "id": "foo_299",
-        "category": "Food",
-        "subcategory": "Sauces & Condiments",
-        "question": "What are the five 'mother sauces' in French cuisine?",
-        "options": ["Béchamel, Velouté, Espagnole, Hollandaise, Tomato", "Marinara, Alfredo, Pesto, Carbonara, Bolognese", "Soy, Teriyaki, Hoisin, Oyster, Fish sauce", "Ketchup, Mustard, Mayo, BBQ, Ranch"],
-        "correct_answer": "Béchamel, Velouté, Espagnole, Hollandaise, Tomato",
-        "difficulty": "hard"
-    },
-    {
-        "id": "foo_300",
-        "category": "Food",
-        "subcategory": "Sauces & Condiments",
-        "question": "What ingredient gives Worcestershire sauce its distinctive flavor?",
-        "options": ["Anchovies", "Soy sauce", "Vinegar", "Molasses"],
-        "correct_answer": "Anchovies",
-        "difficulty": "hard"
-    }
-]
+    # Show breakdown
+    print("\nBreakdown by subcategory:")
+    subcats = {}
+    for q in food_questions:
+        subcat = q['subcategory']
+        if subcat not in subcats:
+            subcats[subcat] = 0
+        subcats[subcat] += 1
 
-# Add new questions to Food category
-data['categories']['Food'].extend(new_questions)
+    for subcat in sorted(subcats.keys()):
+        print(f"  {subcat}: {subcats[subcat]} questions")
 
-# Save
-with open('Fiz/Resources/questions.json', 'w') as f:
-    json.dump(data, f, indent=2)
+    # Show difficulty breakdown
+    print("\nBreakdown by difficulty:")
+    diffs = {'easy': 0, 'medium': 0, 'hard': 0}
+    for q in food_questions:
+        diffs[q['difficulty']] += 1
 
-print(f"✅ Added {len(new_questions)} Food questions")
-print(f"New range: foo_251 to foo_300")
-print(f"\nDistribution:")
-print(f"  Ingredients: 10 questions")
-print(f"  Dishes: 8 questions")
-print(f"  Famous Chefs/Restaurants: 6 questions")
-print(f"  Cuisines: 5 questions")
-print(f"  Beverages: 5 questions")
-print(f"  Cooking Techniques: 4 questions")
-print(f"  Baking: 4 questions")
-print(f"  Desserts: 4 questions")
-print(f"  Food History: 2 questions")
-print(f"  Sauces & Condiments: 2 questions")
-print(f"\nTotal Food questions: {len(data['categories']['Food'])}")
+    for diff in ['easy', 'medium', 'hard']:
+        pct = (diffs[diff] / len(food_questions)) * 100
+        print(f"  {diff.capitalize()}: {diffs[diff]} ({pct:.1f}%)")
+
+    print("\n✓ Food category complete: 300/300 questions")
+
+if __name__ == "__main__":
+    add_food_questions()

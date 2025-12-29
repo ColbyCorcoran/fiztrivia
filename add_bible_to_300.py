@@ -1,492 +1,375 @@
+#!/usr/bin/env python3
+"""
+Add 34 Bible questions to reach 300 total
+Prioritize smallest subcategories: Bible Trivia, Bible Languages, Biblical History, Biblical Theology
+Emphasize easy and medium questions
+"""
+
 import json
 
-# Load existing questions
+# Load database
 with open('Fiz/Resources/questions.json', 'r') as f:
     data = json.load(f)
 
-# New Bible questions (bib_251 to bib_300) - 50 questions
-# Distribution: Old Testament (20), New Testament (15), Biblical History (5),
-# Bible Trivia (4), Biblical Theology (3), Biblical Languages (3)
-# Emphasis on hard/medium difficulty
+print(f"Current Bible questions: {len(data['categories']['Bible'])}")
+print(f"Adding 34 questions (bib_267 to bib_300)")
+print()
+print("Distribution strategy:")
+print("  Bible Trivia: +15 (3 → 18)")
+print("  Bible Languages: +10 (13 → 23)")
+print("  Biblical History: +5 (20 → 25)")
+print("  Biblical Theology: +4 (18 → 22)")
+print()
+print("Difficulty emphasis: +25 easy, +9 medium (already have enough hard)")
+print()
 
+# 34 new Bible questions (bib_267 to bib_300)
 new_questions = [
-    # Old Testament (20 questions) - bib_251-270
-    {
-        "id": "bib_251",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which book of the Bible contains the story of the Tower of Babel?",
-        "options": ["Genesis", "Exodus", "Numbers", "Deuteronomy"],
-        "correct_answer": "Genesis",
-        "difficulty": "hard"
-    },
-    {
-        "id": "bib_252",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What did Esau sell to Jacob for a bowl of stew?",
-        "options": ["His birthright", "His cattle", "His land", "His servants"],
-        "correct_answer": "His birthright",
-        "difficulty": "medium"
-    },
-    {
-        "id": "bib_253",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "How many times did Naaman dip himself in the Jordan River to be healed?",
-        "options": ["7", "3", "10", "12"],
-        "correct_answer": "7",
-        "difficulty": "hard"
-    },
-    {
-        "id": "bib_254",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which prophetess was the only female judge of Israel mentioned in the Bible?",
-        "options": ["Deborah", "Miriam", "Huldah", "Esther"],
-        "correct_answer": "Deborah",
-        "difficulty": "hard"
-    },
-    {
-        "id": "bib_255",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What did Lot's wife turn into when she looked back at Sodom?",
-        "options": ["A pillar of salt", "Stone", "Dust", "Ashes"],
-        "correct_answer": "A pillar of salt",
-        "difficulty": "medium"
-    },
-    {
-        "id": "bib_256",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which king had a dream about a statue made of different materials?",
-        "options": ["Nebuchadnezzar", "Belshazzar", "Darius", "Cyrus"],
-        "correct_answer": "Nebuchadnezzar",
-        "difficulty": "hard"
-    },
-    {
-        "id": "bib_257",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What was the name of Ruth's mother-in-law?",
-        "options": ["Naomi", "Rachel", "Leah", "Hannah"],
-        "correct_answer": "Naomi",
-        "difficulty": "medium"
-    },
-    {
-        "id": "bib_258",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which prophet confronted King Ahab about killing Naboth for his vineyard?",
-        "options": ["Elijah", "Elisha", "Isaiah", "Jeremiah"],
-        "correct_answer": "Elijah",
-        "difficulty": "hard"
-    },
-    {
-        "id": "bib_259",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "How many sons of Jesse did Samuel see before anointing David as king?",
-        "options": ["7", "6", "8", "5"],
-        "correct_answer": "7",
-        "difficulty": "hard"
-    },
-    {
-        "id": "bib_260",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What material was the Ark of the Covenant made of?",
-        "options": ["Acacia wood overlaid with gold", "Cedar wood", "Pure gold", "Bronze"],
-        "correct_answer": "Acacia wood overlaid with gold",
-        "difficulty": "hard"
-    },
-    {
-        "id": "bib_261",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which book of poetry contains the phrase 'For everything there is a season'?",
-        "options": ["Ecclesiastes", "Proverbs", "Psalms", "Song of Solomon"],
-        "correct_answer": "Ecclesiastes",
-        "difficulty": "medium"
-    },
-    {
-        "id": "bib_262",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What did the Israelites use to mark their doorposts during the final plague in Egypt?",
-        "options": ["Lamb's blood", "Oil", "Red paint", "Ashes"],
-        "correct_answer": "Lamb's blood",
-        "difficulty": "medium"
-    },
-    {
-        "id": "bib_263",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which prophet was taken up to heaven in a whirlwind?",
-        "options": ["Elijah", "Elisha", "Enoch", "Moses"],
-        "correct_answer": "Elijah",
-        "difficulty": "medium"
-    },
-    {
-        "id": "bib_264",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "How many years did the Israelites wander in the wilderness?",
-        "options": ["40", "30", "50", "70"],
-        "correct_answer": "40",
-        "difficulty": "medium"
-    },
-    {
-        "id": "bib_265",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which son of David tried to overthrow him as king?",
-        "options": ["Absalom", "Solomon", "Adonijah", "Amnon"],
-        "correct_answer": "Absalom",
-        "difficulty": "hard"
-    },
-    {
-        "id": "bib_266",
-        "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What was the name of the garden where Adam and Eve lived?",
-        "options": ["Eden", "Gethsemane", "Olivet", "Paradise"],
-        "correct_answer": "Eden",
-        "difficulty": "easy"
-    },
+    # BIBLE TRIVIA (15 questions: 10 easy, 5 medium)
     {
         "id": "bib_267",
         "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which book contains the story of Job's suffering and faith?",
-        "options": ["Job", "Psalms", "Ecclesiastes", "Proverbs"],
-        "correct_answer": "Job",
+        "subcategory": "Bible Trivia",
+        "question": "How many books are in the New Testament?",
+        "options": ["27", "39", "66", "24"],
+        "correct_answer": "27",
         "difficulty": "easy"
     },
     {
         "id": "bib_268",
         "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What sign did God give Noah that He would never flood the earth again?",
-        "options": ["A rainbow", "A dove", "A cloud", "Lightning"],
-        "correct_answer": "A rainbow",
+        "subcategory": "Bible Trivia",
+        "question": "How many books are in the Old Testament?",
+        "options": ["39", "27", "66", "46"],
+        "correct_answer": "39",
         "difficulty": "easy"
     },
     {
         "id": "bib_269",
         "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "Which priest's sons were killed by God for offering unauthorized fire?",
-        "options": ["Aaron", "Eli", "Samuel", "Zadok"],
-        "correct_answer": "Aaron",
-        "difficulty": "hard"
+        "subcategory": "Bible Trivia",
+        "question": "How many days and nights did it rain during the flood?",
+        "options": ["40", "7", "100", "365"],
+        "correct_answer": "40",
+        "difficulty": "easy"
     },
     {
         "id": "bib_270",
         "category": "Bible",
-        "subcategory": "Old Testament",
-        "question": "What did Solomon ask God for when given the opportunity to request anything?",
-        "options": ["Wisdom", "Wealth", "Long life", "Victory in battle"],
-        "correct_answer": "Wisdom",
-        "difficulty": "medium"
+        "subcategory": "Bible Trivia",
+        "question": "How many disciples did Jesus have?",
+        "options": ["12", "10", "7", "24"],
+        "correct_answer": "12",
+        "difficulty": "easy"
     },
-
-    # New Testament (15 questions) - bib_271-285
     {
         "id": "bib_271",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "On which mountain did Jesus deliver the Sermon on the Mount?",
-        "options": ["Mount of Beatitudes", "Mount Sinai", "Mount Hermon", "Mount Tabor"],
-        "correct_answer": "Mount of Beatitudes",
-        "difficulty": "hard"
+        "subcategory": "Bible Trivia",
+        "question": "What is the shortest book in the Bible by number of verses?",
+        "options": ["2 John", "3 John", "Obadiah", "Jude"],
+        "correct_answer": "2 John",
+        "difficulty": "medium"
     },
     {
         "id": "bib_272",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "What was the name of the high priest who questioned Jesus before his crucifixion?",
-        "options": ["Caiaphas", "Annas", "Nicodemus", "Gamaliel"],
-        "correct_answer": "Caiaphas",
-        "difficulty": "hard"
+        "subcategory": "Bible Trivia",
+        "question": "What is the longest book in the Bible by number of chapters?",
+        "options": ["Psalms", "Genesis", "Isaiah", "Jeremiah"],
+        "correct_answer": "Psalms",
+        "difficulty": "easy"
     },
     {
         "id": "bib_273",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "Which Gospel was written by a physician?",
-        "options": ["Luke", "Matthew", "Mark", "John"],
-        "correct_answer": "Luke",
-        "difficulty": "hard"
+        "subcategory": "Bible Trivia",
+        "question": "How many commandments did God give to Moses?",
+        "options": ["10", "7", "12", "613"],
+        "correct_answer": "10",
+        "difficulty": "easy"
     },
     {
         "id": "bib_274",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "How many lepers did Jesus heal, but only one returned to thank Him?",
-        "options": ["10", "7", "12", "5"],
+        "subcategory": "Bible Trivia",
+        "question": "How many plagues did God send upon Egypt?",
+        "options": ["10", "7", "12", "40"],
         "correct_answer": "10",
-        "difficulty": "medium"
+        "difficulty": "easy"
     },
     {
         "id": "bib_275",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "What was the name of the man Jesus raised from the dead in Bethany?",
-        "options": ["Lazarus", "Jairus", "Nicodemus", "Joseph"],
-        "correct_answer": "Lazarus",
+        "subcategory": "Bible Trivia",
+        "question": "How many sons did Jacob have?",
+        "options": ["12", "10", "7", "13"],
+        "correct_answer": "12",
         "difficulty": "medium"
     },
     {
         "id": "bib_276",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "Which disciple doubted Jesus' resurrection until he saw Him?",
-        "options": ["Thomas", "Peter", "Philip", "Nathanael"],
-        "correct_answer": "Thomas",
+        "subcategory": "Bible Trivia",
+        "question": "How many chapters are in the book of Revelation?",
+        "options": ["22", "12", "28", "40"],
+        "correct_answer": "22",
         "difficulty": "medium"
     },
     {
         "id": "bib_277",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "What was the occupation of Matthew before becoming a disciple?",
-        "options": ["Tax collector", "Fisherman", "Carpenter", "Physician"],
-        "correct_answer": "Tax collector",
+        "subcategory": "Bible Trivia",
+        "question": "What is the middle book of the Bible?",
+        "options": ["Psalms", "Proverbs", "Micah", "Romans"],
+        "correct_answer": "Psalms",
         "difficulty": "medium"
     },
     {
         "id": "bib_278",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "Which book of the New Testament has only one chapter?",
-        "options": ["Philemon", "Jude", "2 John", "3 John"],
-        "correct_answer": "Philemon",
-        "difficulty": "hard"
+        "subcategory": "Bible Trivia",
+        "question": "How many people were on Noah's ark?",
+        "options": ["8", "6", "10", "12"],
+        "correct_answer": "8",
+        "difficulty": "easy"
     },
     {
         "id": "bib_279",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "What was the name of the island where John wrote the book of Revelation?",
-        "options": ["Patmos", "Cyprus", "Crete", "Malta"],
-        "correct_answer": "Patmos",
-        "difficulty": "hard"
+        "subcategory": "Bible Trivia",
+        "question": "How many books of the Bible are named after women?",
+        "options": ["2", "1", "3", "4"],
+        "correct_answer": "2",
+        "difficulty": "medium"
     },
     {
         "id": "bib_280",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "Which woman is mentioned as a seller of purple cloth in the book of Acts?",
-        "options": ["Lydia", "Priscilla", "Phoebe", "Dorcas"],
-        "correct_answer": "Lydia",
-        "difficulty": "hard"
+        "subcategory": "Bible Trivia",
+        "question": "How many Gospels are in the New Testament?",
+        "options": ["4", "3", "5", "7"],
+        "correct_answer": "4",
+        "difficulty": "easy"
     },
     {
         "id": "bib_281",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "How many days after His resurrection did Jesus ascend into heaven?",
-        "options": ["40", "30", "50", "7"],
+        "subcategory": "Bible Trivia",
+        "question": "How many years did the Israelites wander in the wilderness?",
+        "options": ["40", "30", "70", "400"],
         "correct_answer": "40",
-        "difficulty": "hard"
+        "difficulty": "easy"
     },
+
+    # BIBLE LANGUAGES (10 questions: 7 easy, 3 medium)
     {
         "id": "bib_282",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "What parable did Jesus tell about a father and his two sons?",
-        "options": ["The Prodigal Son", "The Good Samaritan", "The Lost Sheep", "The Sower"],
-        "correct_answer": "The Prodigal Son",
-        "difficulty": "medium"
+        "subcategory": "Bible Languages",
+        "question": "What language was most of the Old Testament originally written in?",
+        "options": ["Hebrew", "Greek", "Aramaic", "Latin"],
+        "correct_answer": "Hebrew",
+        "difficulty": "easy"
     },
     {
         "id": "bib_283",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "Which two disciples were brothers and fishermen?",
-        "options": ["Peter and Andrew", "James and John", "Matthew and Thomas", "Philip and Bartholomew"],
-        "correct_answer": "Peter and Andrew",
-        "difficulty": "medium"
+        "subcategory": "Bible Languages",
+        "question": "What language was most of the New Testament originally written in?",
+        "options": ["Greek", "Hebrew", "Aramaic", "Latin"],
+        "correct_answer": "Greek",
+        "difficulty": "easy"
     },
     {
         "id": "bib_284",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "What language was most of the New Testament originally written in?",
-        "options": ["Greek", "Hebrew", "Aramaic", "Latin"],
-        "correct_answer": "Greek",
-        "difficulty": "hard"
+        "subcategory": "Bible Languages",
+        "question": "What does 'Amen' mean?",
+        "options": ["So be it", "Praise God", "Holy", "Forever"],
+        "correct_answer": "So be it",
+        "difficulty": "easy"
     },
     {
         "id": "bib_285",
         "category": "Bible",
-        "subcategory": "New Testament",
-        "question": "Who was released instead of Jesus during Pilate's trial?",
-        "options": ["Barabbas", "Simon", "Judas", "Ananias"],
-        "correct_answer": "Barabbas",
-        "difficulty": "medium"
+        "subcategory": "Bible Languages",
+        "question": "What does 'Hallelujah' mean?",
+        "options": ["Praise the Lord", "God is good", "Blessed be", "Holy is He"],
+        "correct_answer": "Praise the Lord",
+        "difficulty": "easy"
     },
-
-    # Biblical History (5 questions) - bib_286-290
     {
         "id": "bib_286",
         "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "What year is traditionally given for the fall of Jerusalem to Babylon?",
-        "options": ["586 BC", "722 BC", "70 AD", "135 AD"],
-        "correct_answer": "586 BC",
-        "difficulty": "hard"
+        "subcategory": "Bible Languages",
+        "question": "What does the name 'Jesus' mean?",
+        "options": ["The Lord saves", "Son of God", "Messiah", "King of kings"],
+        "correct_answer": "The Lord saves",
+        "difficulty": "medium"
     },
     {
         "id": "bib_287",
         "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "Which empire conquered the Northern Kingdom of Israel in 722 BC?",
-        "options": ["Assyrian Empire", "Babylonian Empire", "Persian Empire", "Greek Empire"],
-        "correct_answer": "Assyrian Empire",
-        "difficulty": "hard"
+        "subcategory": "Bible Languages",
+        "question": "What does 'Emmanuel' mean?",
+        "options": ["God with us", "Mighty God", "Prince of Peace", "Wonderful Counselor"],
+        "correct_answer": "God with us",
+        "difficulty": "easy"
     },
     {
         "id": "bib_288",
         "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "How many years did the Babylonian exile last?",
-        "options": ["70", "40", "50", "100"],
-        "correct_answer": "70",
-        "difficulty": "hard"
+        "subcategory": "Bible Languages",
+        "question": "What does 'Messiah' mean?",
+        "options": ["Anointed One", "Savior", "King", "Lord"],
+        "correct_answer": "Anointed One",
+        "difficulty": "medium"
     },
     {
         "id": "bib_289",
         "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "Which Roman emperor destroyed the Second Temple in Jerusalem in 70 AD?",
-        "options": ["Titus", "Nero", "Vespasian", "Hadrian"],
-        "correct_answer": "Titus",
-        "difficulty": "hard"
+        "subcategory": "Bible Languages",
+        "question": "What does 'Sabbath' mean?",
+        "options": ["Rest", "Worship", "Holy", "Seventh"],
+        "correct_answer": "Rest",
+        "difficulty": "easy"
     },
     {
         "id": "bib_290",
         "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "What was the name of the Jewish revolt against Rome that occurred in 66-73 AD?",
-        "options": ["First Jewish-Roman War", "Bar Kokhba Revolt", "Maccabean Revolt", "Hasmonean Rebellion"],
-        "correct_answer": "First Jewish-Roman War",
-        "difficulty": "hard"
+        "subcategory": "Bible Languages",
+        "question": "What does 'Selah' mean in the Psalms?",
+        "options": ["Pause/Reflect", "Sing", "Praise", "Forever"],
+        "correct_answer": "Pause/Reflect",
+        "difficulty": "medium"
     },
-
-    # Bible Trivia (4 questions) - bib_291-294
     {
         "id": "bib_291",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
-        "question": "Which book of the Bible does not mention the word 'God'?",
-        "options": ["Esther", "Ruth", "Song of Solomon", "Obadiah"],
-        "correct_answer": "Esther",
-        "difficulty": "hard"
+        "subcategory": "Bible Languages",
+        "question": "What does 'Hosanna' mean?",
+        "options": ["Save now", "Praise God", "Holy", "King"],
+        "correct_answer": "Save now",
+        "difficulty": "easy"
     },
+
+    # BIBLICAL HISTORY (5 questions: 4 easy, 1 medium)
     {
         "id": "bib_292",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
-        "question": "How many chapters are in the book of Genesis?",
-        "options": ["50", "40", "66", "27"],
-        "correct_answer": "50",
-        "difficulty": "hard"
+        "subcategory": "Biblical History",
+        "question": "What empire conquered Judah and destroyed the temple in 586 BC?",
+        "options": ["Babylonian", "Assyrian", "Persian", "Greek"],
+        "correct_answer": "Babylonian",
+        "difficulty": "easy"
     },
     {
         "id": "bib_293",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
-        "question": "Which book of the Bible is the shortest?",
-        "options": ["2 John", "3 John", "Philemon", "Obadiah"],
-        "correct_answer": "2 John",
-        "difficulty": "hard"
+        "subcategory": "Biblical History",
+        "question": "What empire conquered the Northern Kingdom of Israel in 722 BC?",
+        "options": ["Assyrian", "Babylonian", "Persian", "Egyptian"],
+        "correct_answer": "Assyrian",
+        "difficulty": "medium"
     },
     {
         "id": "bib_294",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
-        "question": "How many psalms are in the book of Psalms?",
-        "options": ["150", "100", "120", "200"],
-        "correct_answer": "150",
-        "difficulty": "medium"
+        "subcategory": "Biblical History",
+        "question": "What empire allowed the Jews to return from exile?",
+        "options": ["Persian", "Babylonian", "Greek", "Roman"],
+        "correct_answer": "Persian",
+        "difficulty": "easy"
     },
-
-    # Biblical Theology (3 questions) - bib_295-297
     {
         "id": "bib_295",
         "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "What does the term 'Trinity' refer to in Christian theology?",
-        "options": ["Father, Son, and Holy Spirit", "Three patriarchs", "Three kingdoms", "Three covenants"],
-        "correct_answer": "Father, Son, and Holy Spirit",
-        "difficulty": "medium"
+        "subcategory": "Biblical History",
+        "question": "What empire ruled over Israel during the time of Jesus?",
+        "options": ["Roman", "Greek", "Persian", "Babylonian"],
+        "correct_answer": "Roman",
+        "difficulty": "easy"
     },
     {
         "id": "bib_296",
         "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "What is the term for God becoming human in Jesus Christ?",
-        "options": ["Incarnation", "Transfiguration", "Ascension", "Resurrection"],
-        "correct_answer": "Incarnation",
-        "difficulty": "hard"
+        "subcategory": "Biblical History",
+        "question": "What city was the capital of the United Kingdom under David and Solomon?",
+        "options": ["Jerusalem", "Samaria", "Bethlehem", "Hebron"],
+        "correct_answer": "Jerusalem",
+        "difficulty": "easy"
     },
+
+    # BIBLICAL THEOLOGY (4 questions: 4 easy)
     {
         "id": "bib_297",
         "category": "Bible",
         "subcategory": "Biblical Theology",
-        "question": "What does 'justification by faith' mean in Christian theology?",
-        "options": ["Being declared righteous through belief", "Proving one's worthiness", "Earning salvation", "Following the law"],
-        "correct_answer": "Being declared righteous through belief",
-        "difficulty": "hard"
+        "question": "What is the Great Commandment according to Jesus?",
+        "options": ["Love God and love your neighbor", "Do not kill", "Keep the Sabbath", "Honor your parents"],
+        "correct_answer": "Love God and love your neighbor",
+        "difficulty": "easy"
     },
-
-    # Biblical Languages (3 questions) - bib_298-300
     {
         "id": "bib_298",
         "category": "Bible",
-        "subcategory": "Biblical Languages",
-        "question": "What does 'Hallelujah' mean?",
-        "options": ["Praise the Lord", "God is good", "Amen", "Peace"],
-        "correct_answer": "Praise the Lord",
-        "difficulty": "medium"
+        "subcategory": "Biblical Theology",
+        "question": "What does justification by faith mean?",
+        "options": ["Being made right with God through faith", "Works-based salvation", "Baptismal regeneration", "Penance for sins"],
+        "correct_answer": "Being made right with God through faith",
+        "difficulty": "easy"
     },
     {
         "id": "bib_299",
         "category": "Bible",
-        "subcategory": "Biblical Languages",
-        "question": "What does 'Emmanuel' or 'Immanuel' mean?",
-        "options": ["God with us", "God saves", "God is mighty", "God is holy"],
-        "correct_answer": "God with us",
-        "difficulty": "medium"
+        "subcategory": "Biblical Theology",
+        "question": "What is grace according to the Bible?",
+        "options": ["Unmerited favor from God", "Earned blessing", "Good works", "Religious rituals"],
+        "correct_answer": "Unmerited favor from God",
+        "difficulty": "easy"
     },
     {
         "id": "bib_300",
         "category": "Bible",
-        "subcategory": "Biblical Languages",
-        "question": "What does 'Abba' mean in Aramaic?",
-        "options": ["Father", "Lord", "Master", "Teacher"],
-        "correct_answer": "Father",
-        "difficulty": "hard"
+        "subcategory": "Biblical Theology",
+        "question": "What does it mean to be born again?",
+        "options": ["Spiritual rebirth through faith in Christ", "Physical rebirth", "Baptism only", "Good deeds"],
+        "correct_answer": "Spiritual rebirth through faith in Christ",
+        "difficulty": "easy"
     }
 ]
 
-# Add new questions to Bible category
+# Add new questions
 data['categories']['Bible'].extend(new_questions)
 
-# Save updated database
+# Save
 with open('Fiz/Resources/questions.json', 'w') as f:
-    json.dump(data, f, indent=2)
+    json.dump(data, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Added {len(new_questions)} Bible questions")
-print(f"New range: bib_251 to bib_300")
-print(f"\nDistribution:")
-print(f"  Old Testament: 20 questions (emphasis on hard/medium)")
-print(f"  New Testament: 15 questions (emphasis on hard/medium)")
-print(f"  Biblical History: 5 questions (all hard)")
-print(f"  Bible Trivia: 4 questions (hard/medium)")
-print(f"  Biblical Theology: 3 questions (hard/medium)")
-print(f"  Biblical Languages: 3 questions (medium/hard)")
-print(f"\nTotal Bible questions: {len(data['categories']['Bible'])}")
+print(f"✓ Added {len(new_questions)} new Bible questions")
+print(f"\nNew Bible total: {len(data['categories']['Bible'])} questions")
+
+# Show breakdown
+print("\nBreakdown by subcategory:")
+subcats = {}
+for q in data['categories']['Bible']:
+    subcat = q['subcategory']
+    if subcat not in subcats:
+        subcats[subcat] = 0
+    subcats[subcat] += 1
+
+for subcat in sorted(subcats.keys()):
+    print(f"  {subcat}: {subcats[subcat]} questions")
+
+# Show difficulty breakdown
+print("\nBreakdown by difficulty:")
+diffs = {'easy': 0, 'medium': 0, 'hard': 0}
+for q in data['categories']['Bible']:
+    diffs[q['difficulty']] += 1
+
+for diff in ['easy', 'medium', 'hard']:
+    pct = (diffs[diff] / len(data['categories']['Bible'])) * 100
+    print(f"  {diff.capitalize()}: {diffs[diff]} ({pct:.1f}%)")
+
+print("\n✓ Bible category complete: 300/300 questions")

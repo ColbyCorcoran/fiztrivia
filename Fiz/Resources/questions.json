@@ -19208,7 +19208,968 @@
         "subtopic": null
       }
     ],
-    "Art": [],
+    "Art": [
+      {
+        "id": "art_001",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+          "Leonardo da Vinci",
+          "Michelangelo",
+          "Raphael",
+          "Donatello"
+        ],
+        "correct_answer": "Leonardo da Vinci",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_002",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Starry Night'?",
+        "options": [
+          "Vincent van Gogh",
+          "Claude Monet",
+          "Pablo Picasso",
+          "Salvador Dalí"
+        ],
+        "correct_answer": "Vincent van Gogh",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_003",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted the ceiling of the Sistine Chapel?",
+        "options": [
+          "Michelangelo",
+          "Leonardo da Vinci",
+          "Raphael",
+          "Donatello"
+        ],
+        "correct_answer": "Michelangelo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_004",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who is famous for his melting clocks painting 'The Persistence of Memory'?",
+        "options": [
+          "Salvador Dalí",
+          "Pablo Picasso",
+          "René Magritte",
+          "Joan Miró"
+        ],
+        "correct_answer": "Salvador Dalí",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_005",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Scream'?",
+        "options": [
+          "Edvard Munch",
+          "Vincent van Gogh",
+          "Paul Gauguin",
+          "Henri Matisse"
+        ],
+        "correct_answer": "Edvard Munch",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_006",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Guernica'?",
+        "options": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró",
+          "Georges Braque"
+        ],
+        "correct_answer": "Pablo Picasso",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_007",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who cut off part of his own ear?",
+        "options": [
+          "Vincent van Gogh",
+          "Paul Gauguin",
+          "Henri de Toulouse-Lautrec",
+          "Édouard Manet"
+        ],
+        "correct_answer": "Vincent van Gogh",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_008",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Last Supper'?",
+        "options": [
+          "Leonardo da Vinci",
+          "Michelangelo",
+          "Raphael",
+          "Caravaggio"
+        ],
+        "correct_answer": "Leonardo da Vinci",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_009",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Girl with a Pearl Earring'?",
+        "options": [
+          "Johannes Vermeer",
+          "Rembrandt",
+          "Frans Hals",
+          "Jan Steen"
+        ],
+        "correct_answer": "Johannes Vermeer",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_010",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted numerous water lily paintings?",
+        "options": [
+          "Claude Monet",
+          "Pierre-Auguste Renoir",
+          "Edgar Degas",
+          "Camille Pissarro"
+        ],
+        "correct_answer": "Claude Monet",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_011",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Birth of Venus'?",
+        "options": [
+          "Sandro Botticelli",
+          "Leonardo da Vinci",
+          "Raphael",
+          "Titian"
+        ],
+        "correct_answer": "Sandro Botticelli",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_012",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who is known for his Campbell's Soup Cans artwork?",
+        "options": [
+          "Andy Warhol",
+          "Roy Lichtenstein",
+          "Jackson Pollock",
+          "Keith Haring"
+        ],
+        "correct_answer": "Andy Warhol",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_013",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'American Gothic'?",
+        "options": [
+          "Grant Wood",
+          "Edward Hopper",
+          "Norman Rockwell",
+          "Andrew Wyeth"
+        ],
+        "correct_answer": "Grant Wood",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_014",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who was a famous Mexican painter known for her self-portraits?",
+        "options": [
+          "Frida Kahlo",
+          "Diego Rivera",
+          "Leonora Carrington",
+          "Rufino Tamayo"
+        ],
+        "correct_answer": "Frida Kahlo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_015",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Night Watch'?",
+        "options": [
+          "Rembrandt",
+          "Johannes Vermeer",
+          "Frans Hals",
+          "Pieter Bruegel"
+        ],
+        "correct_answer": "Rembrandt",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_016",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who is known for drip painting technique?",
+        "options": [
+          "Jackson Pollock",
+          "Willem de Kooning",
+          "Mark Rothko",
+          "Franz Kline"
+        ],
+        "correct_answer": "Jackson Pollock",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_017",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Kiss'?",
+        "options": [
+          "Gustav Klimt",
+          "Edvard Munch",
+          "Egon Schiele",
+          "Oskar Kokoschka"
+        ],
+        "correct_answer": "Gustav Klimt",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_018",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Las Meninas'?",
+        "options": [
+          "Diego Velázquez",
+          "Francisco Goya",
+          "El Greco",
+          "Bartolomé Murillo"
+        ],
+        "correct_answer": "Diego Velázquez",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_019",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who created the sculpture 'David' (Renaissance)?",
+        "options": [
+          "Michelangelo",
+          "Donatello",
+          "Leonardo da Vinci",
+          "Bernini"
+        ],
+        "correct_answer": "Michelangelo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_020",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Creation of Adam'?",
+        "options": [
+          "Michelangelo",
+          "Leonardo da Vinci",
+          "Raphael",
+          "Titian"
+        ],
+        "correct_answer": "Michelangelo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_021",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Garden of Earthly Delights'?",
+        "options": [
+          "Hieronymus Bosch",
+          "Pieter Bruegel",
+          "Jan van Eyck",
+          "Albrecht Dürer"
+        ],
+        "correct_answer": "Hieronymus Bosch",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_022",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who was Frida Kahlo's husband, also a famous muralist?",
+        "options": [
+          "Diego Rivera",
+          "David Alfaro Siqueiros",
+          "José Clemente Orozco",
+          "Rufino Tamayo"
+        ],
+        "correct_answer": "Diego Rivera",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_023",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Christina's World'?",
+        "options": [
+          "Andrew Wyeth",
+          "Edward Hopper",
+          "Grant Wood",
+          "Thomas Hart Benton"
+        ],
+        "correct_answer": "Andrew Wyeth",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_024",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The School of Athens'?",
+        "options": [
+          "Raphael",
+          "Michelangelo",
+          "Leonardo da Vinci",
+          "Botticelli"
+        ],
+        "correct_answer": "Raphael",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_025",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Impression, Sunrise' which gave Impressionism its name?",
+        "options": [
+          "Claude Monet",
+          "Pierre-Auguste Renoir",
+          "Edgar Degas",
+          "Camille Pissarro"
+        ],
+        "correct_answer": "Claude Monet",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_026",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Great Wave off Kanagawa'?",
+        "options": [
+          "Katsushika Hokusai",
+          "Utagawa Hiroshige",
+          "Kitagawa Utamaro",
+          "Ando Hiroshige"
+        ],
+        "correct_answer": "Katsushika Hokusai",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_027",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Nighthawks'?",
+        "options": [
+          "Edward Hopper",
+          "Grant Wood",
+          "Andrew Wyeth",
+          "Georgia O'Keeffe"
+        ],
+        "correct_answer": "Edward Hopper",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_028",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Arnolfini Portrait'?",
+        "options": [
+          "Jan van Eyck",
+          "Rogier van der Weyden",
+          "Hans Memling",
+          "Hieronymus Bosch"
+        ],
+        "correct_answer": "Jan van Eyck",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_029",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Olympia' which caused scandal in 1865?",
+        "options": [
+          "Édouard Manet",
+          "Gustave Courbet",
+          "Edgar Degas",
+          "Paul Cézanne"
+        ],
+        "correct_answer": "Édouard Manet",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_030",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'A Sunday Afternoon on the Island of La Grande Jatte'?",
+        "options": [
+          "Georges Seurat",
+          "Paul Signac",
+          "Camille Pissarro",
+          "Claude Monet"
+        ],
+        "correct_answer": "Georges Seurat",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_031",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Swing'?",
+        "options": [
+          "Jean-Honoré Fragonard",
+          "François Boucher",
+          "Antoine Watteau",
+          "Nicolas Poussin"
+        ],
+        "correct_answer": "Jean-Honoré Fragonard",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_032",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Where Do We Come From? What Are We? Where Are We Going?'?",
+        "options": [
+          "Paul Gauguin",
+          "Vincent van Gogh",
+          "Paul Cézanne",
+          "Henri Rousseau"
+        ],
+        "correct_answer": "Paul Gauguin",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_033",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Raft of the Medusa'?",
+        "options": [
+          "Théodore Géricault",
+          "Eugène Delacroix",
+          "Jacques-Louis David",
+          "Jean-Auguste-Dominique Ingres"
+        ],
+        "correct_answer": "Théodore Géricault",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_034",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who is known for painting ballet dancers?",
+        "options": [
+          "Edgar Degas",
+          "Pierre-Auguste Renoir",
+          "Mary Cassatt",
+          "Berthe Morisot"
+        ],
+        "correct_answer": "Edgar Degas",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_035",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Third of May 1808'?",
+        "options": [
+          "Francisco Goya",
+          "Diego Velázquez",
+          "El Greco",
+          "Francisco de Zurbarán"
+        ],
+        "correct_answer": "Francisco Goya",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_036",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Son of Man' featuring a man with a green apple?",
+        "options": [
+          "René Magritte",
+          "Salvador Dalí",
+          "Max Ernst",
+          "Giorgio de Chirico"
+        ],
+        "correct_answer": "René Magritte",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_037",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Hay Wain'?",
+        "options": [
+          "John Constable",
+          "J.M.W. Turner",
+          "Thomas Gainsborough",
+          "Joshua Reynolds"
+        ],
+        "correct_answer": "John Constable",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_038",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Liberty Leading the People'?",
+        "options": [
+          "Eugène Delacroix",
+          "Théodore Géricault",
+          "Jacques-Louis David",
+          "Jean-François Millet"
+        ],
+        "correct_answer": "Eugène Delacroix",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_039",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Fighting Temeraire'?",
+        "options": [
+          "J.M.W. Turner",
+          "John Constable",
+          "William Blake",
+          "Thomas Lawrence"
+        ],
+        "correct_answer": "J.M.W. Turner",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_040",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Card Players'?",
+        "options": [
+          "Paul Cézanne",
+          "Vincent van Gogh",
+          "Paul Gauguin",
+          "Henri de Toulouse-Lautrec"
+        ],
+        "correct_answer": "Paul Cézanne",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_041",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Ambassadors' featuring a distorted skull?",
+        "options": [
+          "Hans Holbein the Younger",
+          "Albrecht Dürer",
+          "Lucas Cranach",
+          "Hans Memling"
+        ],
+        "correct_answer": "Hans Holbein the Younger",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_042",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Las Hilanderas' (The Spinners)?",
+        "options": [
+          "Diego Velázquez",
+          "Francisco Goya",
+          "Bartolomé Murillo",
+          "José de Ribera"
+        ],
+        "correct_answer": "Diego Velázquez",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_043",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Hunters in the Snow'?",
+        "options": [
+          "Pieter Bruegel the Elder",
+          "Hieronymus Bosch",
+          "Jan van Eyck",
+          "Pieter Bruegel the Younger"
+        ],
+        "correct_answer": "Pieter Bruegel the Elder",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_044",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Blind Leading the Blind'?",
+        "options": [
+          "Pieter Bruegel the Elder",
+          "Hieronymus Bosch",
+          "Jan Steen",
+          "Frans Hals"
+        ],
+        "correct_answer": "Pieter Bruegel the Elder",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_045",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Death of Marat'?",
+        "options": [
+          "Jacques-Louis David",
+          "Eugène Delacroix",
+          "Jean-Auguste-Dominique Ingres",
+          "Théodore Géricault"
+        ],
+        "correct_answer": "Jacques-Louis David",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_046",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Turkish Bath'?",
+        "options": [
+          "Jean-Auguste-Dominique Ingres",
+          "Jacques-Louis David",
+          "Eugène Delacroix",
+          "Théodore Chassériau"
+        ],
+        "correct_answer": "Jean-Auguste-Dominique Ingres",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_047",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Apotheosis of Homer'?",
+        "options": [
+          "Jean-Auguste-Dominique Ingres",
+          "Jacques-Louis David",
+          "Nicolas Poussin",
+          "Charles Le Brun"
+        ],
+        "correct_answer": "Jean-Auguste-Dominique Ingres",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_048",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Oxbow'?",
+        "options": [
+          "Thomas Cole",
+          "Frederic Edwin Church",
+          "Albert Bierstadt",
+          "Asher Brown Durand"
+        ],
+        "correct_answer": "Thomas Cole",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_049",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Watson and the Shark'?",
+        "options": [
+          "John Singleton Copley",
+          "Benjamin West",
+          "Gilbert Stuart",
+          "Charles Willson Peale"
+        ],
+        "correct_answer": "John Singleton Copley",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_050",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Resurrection' fresco in Sansepolcro?",
+        "options": [
+          "Piero della Francesca",
+          "Masaccio",
+          "Fra Angelico",
+          "Paolo Uccello"
+        ],
+        "correct_answer": "Piero della Francesca",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_051",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Flagellation of Christ' with perfect linear perspective?",
+        "options": [
+          "Piero della Francesca",
+          "Masaccio",
+          "Paolo Uccello",
+          "Andrea Mantegna"
+        ],
+        "correct_answer": "Piero della Francesca",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_052",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Rokeby Venus'?",
+        "options": [
+          "Diego Velázquez",
+          "Titian",
+          "Giorgione",
+          "Peter Paul Rubens"
+        ],
+        "correct_answer": "Diego Velázquez",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_053",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Tempest' (La Tempesta)?",
+        "options": [
+          "Giorgione",
+          "Titian",
+          "Tintoretto",
+          "Veronese"
+        ],
+        "correct_answer": "Giorgione",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_054",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Tribute Money' fresco?",
+        "options": [
+          "Masaccio",
+          "Giotto",
+          "Fra Angelico",
+          "Piero della Francesca"
+        ],
+        "correct_answer": "Masaccio",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_055",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Nightmare'?",
+        "options": [
+          "Henry Fuseli",
+          "William Blake",
+          "John Henry Fuseli",
+          "James Barry"
+        ],
+        "correct_answer": "Henry Fuseli",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_056",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Naked Maja' and 'The Clothed Maja'?",
+        "options": [
+          "Francisco Goya",
+          "Diego Velázquez",
+          "El Greco",
+          "Bartolomé Murillo"
+        ],
+        "correct_answer": "Francisco Goya",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_057",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Fall of Icarus' (attributed)?",
+        "options": [
+          "Pieter Bruegel the Elder",
+          "Hieronymus Bosch",
+          "Jan van Eyck",
+          "Rogier van der Weyden"
+        ],
+        "correct_answer": "Pieter Bruegel the Elder",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_058",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'Saturn Devouring His Son'?",
+        "options": [
+          "Francisco Goya",
+          "Peter Paul Rubens",
+          "Caravaggio",
+          "José de Ribera"
+        ],
+        "correct_answer": "Francisco Goya",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_059",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Conspiracy of Claudius Civilis'?",
+        "options": [
+          "Rembrandt",
+          "Frans Hals",
+          "Johannes Vermeer",
+          "Jan Steen"
+        ],
+        "correct_answer": "Rembrandt",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_060",
+        "category": "Art",
+        "subcategory": "Famous Painters",
+        "question": "Who painted 'The Sleeping Gypsy'?",
+        "options": [
+          "Henri Rousseau",
+          "Paul Gauguin",
+          "Henri Matisse",
+          "André Derain"
+        ],
+        "correct_answer": "Henri Rousseau",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      }
+    ],
     "Geography": [
       {
         "id": "geo_001",

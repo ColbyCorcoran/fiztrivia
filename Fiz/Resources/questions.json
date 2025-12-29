@@ -355,7 +355,7 @@
         "id": "ent_026",
         "category": "Entertainment",
         "subcategory": "The Office",
-        "question": "What does Pam's art teacher call her art?",
+        "question": "What does Gil call Pam's art at her art show?",
         "options": [
           "Beautiful",
           "Motel art",
@@ -2967,20 +2967,6 @@
           "Foe-Glass"
         ],
         "correct_answer": "Pensieve",
-        "difficulty": "hard"
-      },
-      {
-        "id": "ent_221",
-        "category": "Entertainment",
-        "subcategory": "Harry Potter",
-        "question": "Who impersonated Mad-Eye Moody in Goblet of Fire?",
-        "options": [
-          "Barty Crouch Jr.",
-          "Peter Pettigrew",
-          "Bellatrix Lestrange",
-          "Lucius Malfoy"
-        ],
-        "correct_answer": "Barty Crouch Jr.",
         "difficulty": "hard"
       },
       {
@@ -10662,7 +10648,7 @@
       {
         "id": "bib_267",
         "category": "Bible",
-        "subcategory": "Biblical Theology",
+        "subcategory": "New Testament",
         "question": "What are the first four books of the New Testament called?",
         "options": [
           "The Gospels",
@@ -13280,20 +13266,6 @@
         "difficulty": "hard"
       },
       {
-        "id": "his_150",
-        "category": "History",
-        "subcategory": "Church History",
-        "question": "Who was the apostle to the Gentiles?",
-        "options": [
-          "Peter",
-          "Paul",
-          "John",
-          "James"
-        ],
-        "correct_answer": "Paul",
-        "difficulty": "easy"
-      },
-      {
         "id": "his_151",
         "category": "History",
         "subcategory": "Church History",
@@ -13502,20 +13474,6 @@
         ],
         "correct_answer": "John Wycliffe",
         "difficulty": "hard"
-      },
-      {
-        "id": "his_167",
-        "category": "History",
-        "subcategory": "Church History",
-        "question": "What were the first four books of the New Testament called?",
-        "options": [
-          "Epistles",
-          "Gospels",
-          "Acts",
-          "Revelations"
-        ],
-        "correct_answer": "Gospels",
-        "difficulty": "easy"
       },
       {
         "id": "his_168",
@@ -18087,7 +18045,7 @@
         "id": "sci_261",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "What is an acid with a pH less than?",
+        "question": "An acid has a pH less than what value?",
         "options": [
           "7",
           "5",
@@ -24581,20 +24539,6 @@
           "Insects"
         ],
         "correct_answer": "Plants",
-        "difficulty": "easy"
-      },
-      {
-        "id": "ear_132",
-        "category": "Earth",
-        "subcategory": "Animals",
-        "question": "Which animal is known for its ability to climb trees?",
-        "options": [
-          "Elephant",
-          "Monkey",
-          "Whale",
-          "Fish"
-        ],
-        "correct_answer": "Monkey",
         "difficulty": "easy"
       },
       {

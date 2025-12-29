@@ -34,6 +34,7 @@ The app uses **MVVM (Model-View-ViewModel)** architecture with SwiftUI and follo
 8. **Single Category Mode**: Optional focused gameplay on subcategories within a single category
 9. **Privacy-First Analytics**: Opt-out by default PostHog integration with user consent management
 10. **iOS Version Adaptability**: Native iOS 26 glass buttons with iOS 18 fallback styling
+11. **Adaptive Question Display**: Questions display inline by default, but automatically switch to scrollable modal for Dynamic Type sizes of .accessibility3 and above, ensuring content remains readable for users with large text preferences
 
 ### State Management Flow
 ```
@@ -130,6 +131,11 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - **SettingsView**: Navigation hub with personalization and game settings sections
 - **PersonalizationSettingsView**: Username editing, app icon selection, haptic toggles, analytics consent
 - **GameSettingsView**: Difficulty mode selection, single-category mode, progress tracking, statistics
+
+**Shared Question Components**:
+- **QuestionContentView** (`QuestionContentView.swift`): Shared question display component used in both inline and modal contexts. Displays category header, question text, and answer button grid with callback-based answer selection.
+- **ResultContentView** (`ResultContentView.swift`): Shared result display component for correct/incorrect feedback. Shows Fiz mascot, personalized messages, and correct answer. Consistent presentation across inline and modal modes.
+- **QuestionModalView** (`QuestionModalView.swift`): Modal wrapper for question presentation with large Dynamic Type. Includes ScrollView for accessibility with large text sizes. Prevents dismissal during result display and handles graceful fallback.
 
 ### Difficulty System
 
@@ -232,6 +238,7 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 6. **Pull-to-Spin Interaction**: Enhanced engagement through gesture controls
 7. **Grammar-Aware Text**: Proper singular/plural handling ("1 correct answer" vs "2 correct answers")
 8. **iOS Version Adaptability**: Native iOS 26 features with graceful fallbacks
+9. **Dynamic Type Adaptive Modals**: Conditional modal presentation based on user's text size preference for enhanced accessibility with large text
 
 ### Development Notes
 
@@ -267,12 +274,15 @@ Fiz/
 ├── ViewModels/
 │   └── GameViewModel.swift      # Core game logic and state (230 lines)
 ├── Views/
-│   ├── CategoryWheelView.swift  # Main single-screen game interface (1,052 lines)
-│   ├── LeaderboardView.swift    # Achievement history display (199 lines)
-│   ├── SettingsView.swift       # Settings navigation hub (78 lines)
-│   ├── GameSettingsView.swift   # Game-specific settings (259 lines)
-│   ├── PersonalizationSettingsView.swift # Profile & app icon (149 lines)
-│   └── OnboardingView.swift     # First-time setup (144 lines)
+│   ├── CategoryWheelView.swift  # Main single-screen game interface with adaptive modal
+│   ├── QuestionContentView.swift # Shared question rendering component
+│   ├── ResultContentView.swift  # Shared result rendering component
+│   ├── QuestionModalView.swift  # Modal wrapper for large text accessibility
+│   ├── LeaderboardView.swift    # Achievement history display
+│   ├── SettingsView.swift       # Settings navigation hub
+│   ├── GameSettingsView.swift   # Game-specific settings
+│   ├── PersonalizationSettingsView.swift # Profile & app icon
+│   └── OnboardingView.swift     # First-time setup
 ├── Utils/
 │   ├── FizColors.swift          # Color palette & hex utilities
 │   ├── ButtonStyles.swift       # iOS 26 glass button styles

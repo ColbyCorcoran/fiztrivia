@@ -39,7 +39,7 @@ struct GameModesSettingsView: View {
                             }
                             Picker("", selection: $localSelectedCategory) {
                                 Text("Select...").tag(nil as TriviaCategory?)
-                                ForEach(TriviaCategory.allCases, id: \.self) { category in
+                                ForEach(CategorySelectionManager.shared.selectedCategories.sorted(by: { $0.rawValue < $1.rawValue }), id: \.self) { category in
                                     HStack {
                                         Image(systemName: category.icon)
                                         Text(category.rawValue)

@@ -835,3 +835,99 @@ class AppIconManager: ObservableObject {
         }
     }
 }
+
+// MARK: - Category Selection Manager
+class CategorySelectionManager: ObservableObject {
+    private static let selectedCategoriesKey = "selected_categories"
+
+    @Published var selectedCategories: Set<TriviaCategory> = []
+
+    static let shared = CategorySelectionManager()
+    static let minimumCategories = 4
+    static let maximumCategories = 9
+
+    private init() {
+        loadSettings()
+    }
+
+    private func loadSettings() {
+        if let data = UserDefaults.standard.data(forKey: Self.selectedCategoriesKey),
+           let decodedStrings = try? JSONDecoder().decode(Set<String>.self, from: data) {
+            selectedCategories = Set(decodedStrings.compactMap { TriviaCategory(rawValue: $0) })
+
+            // Validate count - reset if invalid
+            if selectedCategories.count < Self.minimumCategories || selectedCategories.isEmpty {
+                setDefaultSelection()
+            }
+        } else {
+            setDefaultSelection()
+        }
+    }
+
+    private func saveSettings() {
+        let categoryStrings = Set(selectedCategories.map { $0.rawValue })
+        if let encoded = try? JSONEncoder().encode(categoryStrings) {
+            UserDefaults.standard.set(encoded, forKey: Self.selectedCategoriesKey)
+        }
+    }
+
+    func toggleCategory(_ category: TriviaCategory) -> Bool {
+        if selectedCategories.contains(category) {
+            // Deselecting - check minimum
+            if selectedCategories.count > Self.minimumCategories {
+                // Check if this is the active single-category mode category
+                if SingleCategoryModeManager.shared.isEnabled &&
+                   SingleCategoryModeManager.shared.selectedCategory == category {
+                    return false // Cannot deselect active category
+                }
+
+                selectedCategories.remove(category)
+                saveSettings()
+                return true
+            } else {
+                return false // Cannot go below minimum
+            }
+        } else {
+            // Selecting - check maximum
+            if selectedCategories.count < Self.maximumCategories {
+                selectedCategories.insert(category)
+                saveSettings()
+                return true
+            } else {
+                return false // At maximum
+            }
+        }
+    }
+
+    func isSelected(_ category: TriviaCategory) -> Bool {
+        return selectedCategories.contains(category)
+    }
+
+    func canToggle(_ category: TriviaCategory) -> Bool {
+        if selectedCategories.contains(category) {
+            return selectedCategories.count > Self.minimumCategories
+        } else {
+            return selectedCategories.count < Self.maximumCategories
+        }
+    }
+
+    private func setDefaultSelection() {
+        // Default: Core 7 reorganized categories + Geography + Art
+        selectedCategories = [
+            .entertainment,
+            .sports,
+            .bible,
+            .history,
+            .science,
+            .nature,
+            .food,
+            .geography,
+            .art
+        ]
+        saveSettings()
+    }
+
+    func resetToDefault() {
+        setDefaultSelection()
+    }
+}

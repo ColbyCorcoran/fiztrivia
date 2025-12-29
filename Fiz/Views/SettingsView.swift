@@ -76,6 +76,13 @@ struct SettingsView: View {
                                 // subtitle: "Casual, Normal, or Difficult"
                             )
                         }
+                        NavigationLink(destination: CategorySelectionSettingsView()) {
+                            SettingsRow(
+                                icon: "square.grid.3x3",
+                                iconColor: .fizOrange,
+                                title: "Category Selection"
+                            )
+                        }
                         NavigationLink(destination: GameModesSettingsView(gameViewModel: gameViewModel)) {
                             SettingsRow(
                                 icon: "square.grid.2x2",

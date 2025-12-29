@@ -24,6 +24,7 @@ struct CategoryWheelView: View {
     @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
+    @StateObject private var categorySelectionManager = CategorySelectionManager.shared
     @StateObject private var popupDurationManager = PopupDurationManager.shared
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
@@ -82,9 +83,14 @@ struct CategoryWheelView: View {
                 return nil
             }
         } else {
-            // Default mode: show main categories, filtering out completed ones
+            // Default mode: show selected categories only, filtering out completed ones
             return TriviaCategory.allCases.compactMap { category in
-                // Only include categories that have unanswered questions
+                // Filter by selected categories FIRST
+                guard categorySelectionManager.isSelected(category) else {
+                    return nil
+                }
+
+                // Then filter by completion status
                 if !answeredQuestionsManager.areAllCategoryQuestionsAnswered(category.rawValue, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty) {
                     return WheelSegmentData(
                         name: category.rawValue,

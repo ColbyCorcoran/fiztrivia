@@ -19,6 +19,7 @@
 		B66F02D12F006EE2007B0E79 /* HapticsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C72F006EE2007B0E79 /* HapticsSettingsView.swift */; };
 		B66F02D22F006EE2007B0E79 /* GameModesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C52F006EE2007B0E79 /* GameModesSettingsView.swift */; };
 		B66F02D42F02EDD8007B0E79 /* questions_expansions.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D32F02EDD8007B0E79 /* questions_expansions.json */; };
+		B66F02D62F0345F0007B0E79 /* CategorySelectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */; };
 		B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */; };
 		B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A772EBD2A5400C2A449 /* questions.json */; };
 		B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */; };
@@ -83,6 +84,7 @@
 		B66F02C82F006EE2007B0E79 /* PopupDurationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDurationSettingsView.swift; sourceTree = "<group>"; };
 		B66F02C92F006EE2007B0E79 /* UsernameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameSettingsView.swift; sourceTree = "<group>"; };
 		B66F02D32F02EDD8007B0E79 /* questions_expansions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_expansions.json; sourceTree = "<group>"; };
+		B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionSettingsView.swift; sourceTree = "<group>"; };
 		B66F14D42E4B7DF200C426E5 /* Fiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14E32E4B7DF400C426E5 /* FizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +162,7 @@
 				B66F02C72F006EE2007B0E79 /* HapticsSettingsView.swift */,
 				B66F02C82F006EE2007B0E79 /* PopupDurationSettingsView.swift */,
 				B66F02C92F006EE2007B0E79 /* UsernameSettingsView.swift */,
+				B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 				B68C5A932EBD2BDB00C2A449 /* OnboardingView.swift in Sources */,
 				B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */,
 				B66F02CB2F006EE2007B0E79 /* GameProgressSettingsView.swift in Sources */,
+				B66F02D62F0345F0007B0E79 /* CategorySelectionSettingsView.swift in Sources */,
 				B66F02CC2F006EE2007B0E79 /* AppIconSettingsView.swift in Sources */,
 				B66F02CD2F006EE2007B0E79 /* UsernameSettingsView.swift in Sources */,
 				B66F02CE2F006EE2007B0E79 /* DifficultySettingsView.swift in Sources */,
@@ -643,7 +647,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.Fiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -678,7 +682,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.Fiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

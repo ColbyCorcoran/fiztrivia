@@ -5924,6 +5924,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "mus_061",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade is often called the 'Golden Age of Rock and Roll'?",
+        "options": [
+          "1950s",
+          "1960s",
+          "1970s",
+          "1980s"
+        ],
+        "correct_answer": "1950s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_062",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which era of classical music did Mozart compose in?",
+        "options": [
+          "Classical",
+          "Baroque",
+          "Romantic",
+          "Modern"
+        ],
+        "correct_answer": "Classical",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_063",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What music genre originated in New Orleans in the early 1900s?",
+        "options": [
+          "Jazz",
+          "Blues",
+          "Country",
+          "Rock"
+        ],
+        "correct_answer": "Jazz",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_064",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which decade saw the rise of disco music?",
+        "options": [
+          "1970s",
+          "1960s",
+          "1980s",
+          "1990s"
+        ],
+        "correct_answer": "1970s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_065",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What era of classical music did Johann Sebastian Bach compose in?",
+        "options": [
+          "Baroque",
+          "Classical",
+          "Romantic",
+          "Renaissance"
+        ],
+        "correct_answer": "Baroque",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_066",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which decade is known for grunge music?",
+        "options": [
+          "1990s",
+          "1980s",
+          "2000s",
+          "1970s"
+        ],
+        "correct_answer": "1990s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_067",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What genre emerged in the Bronx in the 1970s?",
+        "options": [
+          "Hip-hop",
+          "Punk",
+          "New Wave",
+          "Disco"
+        ],
+        "correct_answer": "Hip-hop",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_068",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which classical era focused on emotional expression?",
+        "options": [
+          "Romantic",
+          "Baroque",
+          "Classical",
+          "Modern"
+        ],
+        "correct_answer": "Romantic",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_069",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the British Invasion?",
+        "options": [
+          "1960s",
+          "1950s",
+          "1970s",
+          "1980s"
+        ],
+        "correct_answer": "1960s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_070",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which musical movement started in Jamaica in the late 1960s?",
+        "options": [
+          "Reggae",
+          "Ska",
+          "Dub",
+          "Calypso"
+        ],
+        "correct_answer": "Reggae",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_071",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade is known for punk rock?",
+        "options": [
+          "1970s",
+          "1960s",
+          "1980s",
+          "1990s"
+        ],
+        "correct_answer": "1970s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_072",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which era saw the development of the symphony orchestra?",
+        "options": [
+          "Classical",
+          "Baroque",
+          "Romantic",
+          "Renaissance"
+        ],
+        "correct_answer": "Classical",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_073",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the rise of MTV and music videos?",
+        "options": [
+          "1980s",
+          "1970s",
+          "1990s",
+          "2000s"
+        ],
+        "correct_answer": "1980s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_074",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which genre developed in the Mississippi Delta?",
+        "options": [
+          "Blues",
+          "Jazz",
+          "Gospel",
+          "Country"
+        ],
+        "correct_answer": "Blues",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_075",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the Woodstock festival?",
+        "options": [
+          "1960s",
+          "1950s",
+          "1970s",
+          "1980s"
+        ],
+        "correct_answer": "1960s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_076",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which musical era preceded the Baroque period?",
+        "options": [
+          "Renaissance",
+          "Medieval",
+          "Classical",
+          "Romantic"
+        ],
+        "correct_answer": "Renaissance",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_077",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade is known for the Seattle grunge scene?",
+        "options": [
+          "1990s",
+          "1980s",
+          "2000s",
+          "1970s"
+        ],
+        "correct_answer": "1990s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_078",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which genre combines elements of blues, gospel, and jazz?",
+        "options": [
+          "Soul",
+          "Funk",
+          "Disco",
+          "R&B"
+        ],
+        "correct_answer": "Soul",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_079",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the birth of rock and roll?",
+        "options": [
+          "1950s",
+          "1940s",
+          "1960s",
+          "1970s"
+        ],
+        "correct_answer": "1950s",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_080",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which classical composer is known for the Romantic era?",
+        "options": [
+          "Beethoven (late period)",
+          "Mozart",
+          "Bach",
+          "Vivaldi"
+        ],
+        "correct_answer": "Beethoven (late period)",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_081",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What musical movement emerged in response to disco in the late 1970s?",
+        "options": [
+          "Punk rock",
+          "New Wave",
+          "Grunge",
+          "Alternative rock"
+        ],
+        "correct_answer": "Punk rock",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_082",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which decade saw the development of bebop jazz?",
+        "options": [
+          "1940s",
+          "1930s",
+          "1950s",
+          "1960s"
+        ],
+        "correct_answer": "1940s",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_083",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What era is characterized by ornate musical decoration and figured bass?",
+        "options": [
+          "Baroque",
+          "Classical",
+          "Romantic",
+          "Renaissance"
+        ],
+        "correct_answer": "Baroque",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_084",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which musical movement began in Detroit in the 1960s?",
+        "options": [
+          "Motown",
+          "Memphis Soul",
+          "Chicago Blues",
+          "Philadelphia Soul"
+        ],
+        "correct_answer": "Motown",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_085",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the rise of electronic dance music (EDM)?",
+        "options": [
+          "2000s-2010s",
+          "1990s",
+          "1980s",
+          "2020s"
+        ],
+        "correct_answer": "2000s-2010s",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_086",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which jazz era featured Miles Davis' 'Kind of Blue'?",
+        "options": [
+          "Cool jazz/Modal jazz (late 1950s)",
+          "Bebop",
+          "Swing",
+          "Free jazz"
+        ],
+        "correct_answer": "Cool jazz/Modal jazz (late 1950s)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_087",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What musical movement emphasized simplicity and repetition?",
+        "options": [
+          "Minimalism",
+          "Impressionism",
+          "Expressionism",
+          "Serialism"
+        ],
+        "correct_answer": "Minimalism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_088",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which decade saw the birth of techno music in Detroit?",
+        "options": [
+          "1980s",
+          "1970s",
+          "1990s",
+          "2000s"
+        ],
+        "correct_answer": "1980s",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_089",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What era in classical music featured composers like Debussy?",
+        "options": [
+          "Impressionism",
+          "Romanticism",
+          "Modernism",
+          "Expressionism"
+        ],
+        "correct_answer": "Impressionism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_090",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which musical movement emerged in the UK in the late 1970s?",
+        "options": [
+          "New Wave",
+          "Britpop",
+          "Shoegaze",
+          "Trip-hop"
+        ],
+        "correct_answer": "New Wave",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_091",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the golden age of swing music?",
+        "options": [
+          "1930s-1940s",
+          "1920s",
+          "1950s",
+          "1940s-1950s"
+        ],
+        "correct_answer": "1930s-1940s",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_092",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which genre emerged from Jamaican ska and rocksteady?",
+        "options": [
+          "Reggae",
+          "Dub",
+          "Dancehall",
+          "Ragga"
+        ],
+        "correct_answer": "Reggae",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_093",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What musical era featured the development of opera?",
+        "options": [
+          "Baroque",
+          "Renaissance",
+          "Classical",
+          "Romantic"
+        ],
+        "correct_answer": "Baroque",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_094",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which decade saw the rise of alternative rock?",
+        "options": [
+          "1990s",
+          "1980s",
+          "2000s",
+          "1970s"
+        ],
+        "correct_answer": "1990s",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_095",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What genre developed in Chicago in the 1980s?",
+        "options": [
+          "House music",
+          "Techno",
+          "Garage",
+          "Trance"
+        ],
+        "correct_answer": "House music",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_096",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which classical period emphasized balance and clarity?",
+        "options": [
+          "Classical (1750-1820)",
+          "Baroque",
+          "Romantic",
+          "Modern"
+        ],
+        "correct_answer": "Classical (1750-1820)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_097",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the British punk movement?",
+        "options": [
+          "1970s",
+          "1960s",
+          "1980s",
+          "1990s"
+        ],
+        "correct_answer": "1970s",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_098",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which genre combined punk and reggae?",
+        "options": [
+          "Ska punk/Two-tone",
+          "Punk funk",
+          "Post-punk",
+          "No wave"
+        ],
+        "correct_answer": "Ska punk/Two-tone",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_099",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What musical movement emphasized emotional intensity and nationalism?",
+        "options": [
+          "Romanticism",
+          "Impressionism",
+          "Expressionism",
+          "Nationalism"
+        ],
+        "correct_answer": "Romanticism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_100",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which decade saw the development of trip-hop?",
+        "options": [
+          "1990s",
+          "1980s",
+          "2000s",
+          "2010s"
+        ],
+        "correct_answer": "1990s",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_101",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which compositional technique did Arnold Schoenberg develop?",
+        "options": [
+          "Twelve-tone technique",
+          "Serialism",
+          "Minimalism",
+          "Chance music"
+        ],
+        "correct_answer": "Twelve-tone technique",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_102",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What year is generally considered the start of the Baroque period?",
+        "options": [
+          "1600",
+          "1550",
+          "1650",
+          "1700"
+        ],
+        "correct_answer": "1600",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_103",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which movement emphasized atonality and dissonance in the early 20th century?",
+        "options": [
+          "Second Viennese School",
+          "Impressionism",
+          "Minimalism",
+          "Futurism"
+        ],
+        "correct_answer": "Second Viennese School",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_104",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the development of free jazz?",
+        "options": [
+          "1960s",
+          "1950s",
+          "1970s",
+          "1940s"
+        ],
+        "correct_answer": "1960s",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_105",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which musical movement was led by Karlheinz Stockhausen?",
+        "options": [
+          "Electronic/Musique concrète",
+          "Minimalism",
+          "Serialism",
+          "Chance music"
+        ],
+        "correct_answer": "Electronic/Musique concrète",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_106",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What era featured the development of the concerto grosso?",
+        "options": [
+          "Baroque",
+          "Classical",
+          "Renaissance",
+          "Romantic"
+        ],
+        "correct_answer": "Baroque",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_107",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which decade saw the Canterbury scene in progressive rock?",
+        "options": [
+          "1970s",
+          "1960s",
+          "1980s",
+          "1990s"
+        ],
+        "correct_answer": "1970s",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_108",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What musical movement emphasized indeterminacy and chance?",
+        "options": [
+          "Aleatoric music (John Cage)",
+          "Minimalism",
+          "Serialism",
+          "Expressionism"
+        ],
+        "correct_answer": "Aleatoric music (John Cage)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_109",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which genre emerged from the UK's early 1990s rave scene?",
+        "options": [
+          "Jungle/Drum and bass",
+          "Dubstep",
+          "Grime",
+          "UK Garage"
+        ],
+        "correct_answer": "Jungle/Drum and bass",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_110",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What year did bebop jazz emerge?",
+        "options": [
+          "1940s (around 1945)",
+          "1930s",
+          "1950s",
+          "1960s"
+        ],
+        "correct_answer": "1940s (around 1945)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_111",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which movement featured prepared piano and extended techniques?",
+        "options": [
+          "Experimental music (John Cage era)",
+          "Minimalism",
+          "Impressionism",
+          "Serialism"
+        ],
+        "correct_answer": "Experimental music (John Cage era)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_112",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the development of krautrock in Germany?",
+        "options": [
+          "1970s",
+          "1960s",
+          "1980s",
+          "1990s"
+        ],
+        "correct_answer": "1970s",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_113",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which classical technique uses all 12 chromatic pitches equally?",
+        "options": [
+          "Serialism/Dodecaphony",
+          "Atonality",
+          "Bitonality",
+          "Polytonality"
+        ],
+        "correct_answer": "Serialism/Dodecaphony",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_114",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What musical movement featured Terry Riley and Steve Reich?",
+        "options": [
+          "Minimalism",
+          "Serialism",
+          "Experimental",
+          "Postmodernism"
+        ],
+        "correct_answer": "Minimalism",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_115",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which decade saw the Madchester scene?",
+        "options": [
+          "Late 1980s-early 1990s",
+          "1980s",
+          "1990s",
+          "2000s"
+        ],
+        "correct_answer": "Late 1980s-early 1990s",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_116",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What era featured the development of the basso continuo?",
+        "options": [
+          "Baroque",
+          "Renaissance",
+          "Classical",
+          "Medieval"
+        ],
+        "correct_answer": "Baroque",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_117",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which movement emphasized whole-tone scales and exotic sounds?",
+        "options": [
+          "Impressionism (Debussy)",
+          "Romanticism",
+          "Expressionism",
+          "Modernism"
+        ],
+        "correct_answer": "Impressionism (Debussy)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_118",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What decade saw the development of no wave in New York?",
+        "options": [
+          "Late 1970s",
+          "Early 1980s",
+          "Late 1960s",
+          "Early 1970s"
+        ],
+        "correct_answer": "Late 1970s",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_119",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "Which genre emerged from UK garage in the early 2000s?",
+        "options": [
+          "Dubstep",
+          "Grime",
+          "Bassline",
+          "2-step"
+        ],
+        "correct_answer": "Dubstep",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "mus_120",
+        "category": "Music",
+        "subcategory": "Music History & Eras",
+        "question": "What musical philosophy emphasized total serialism?",
+        "options": [
+          "Integral serialism (Boulez)",
+          "Twelve-tone technique",
+          "Minimalism",
+          "Aleatoric music"
+        ],
+        "correct_answer": "Integral serialism (Boulez)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Technology": [

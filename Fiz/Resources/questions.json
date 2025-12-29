@@ -21128,6 +21128,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "art_121",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'David' during the Renaissance?",
+        "options": [
+          "Michelangelo",
+          "Donatello",
+          "Leonardo da Vinci",
+          "Bernini"
+        ],
+        "correct_answer": "Michelangelo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_122",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Thinker'?",
+        "options": [
+          "Auguste Rodin",
+          "Camille Claudel",
+          "Antoine Bourdelle",
+          "Aristide Maillol"
+        ],
+        "correct_answer": "Auguste Rodin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_123",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What famous statue stands in New York Harbor?",
+        "options": [
+          "Statue of Liberty",
+          "David",
+          "Christ the Redeemer",
+          "The Thinker"
+        ],
+        "correct_answer": "Statue of Liberty",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_124",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who designed the Statue of Liberty?",
+        "options": [
+          "Frédéric Auguste Bartholdi",
+          "Gustave Eiffel",
+          "Auguste Rodin",
+          "Jean-Antoine Houdon"
+        ],
+        "correct_answer": "Frédéric Auguste Bartholdi",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_125",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What material is the Statue of Liberty primarily made of?",
+        "options": [
+          "Copper",
+          "Bronze",
+          "Iron",
+          "Steel"
+        ],
+        "correct_answer": "Copper",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_126",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Kiss'?",
+        "options": [
+          "Auguste Rodin",
+          "Antonio Canova",
+          "Constantin Brâncuși",
+          "Camille Claudel"
+        ],
+        "correct_answer": "Auguste Rodin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_127",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What ancient Greek statue is missing its arms?",
+        "options": [
+          "Venus de Milo",
+          "Nike of Samothrace",
+          "Laocoön",
+          "Aphrodite of Knidos"
+        ],
+        "correct_answer": "Venus de Milo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_128",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Gates of Hell'?",
+        "options": [
+          "Auguste Rodin",
+          "Lorenzo Ghiberti",
+          "Andrea Pisano",
+          "Donatello"
+        ],
+        "correct_answer": "Auguste Rodin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_129",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What is the famous Christ statue in Rio de Janeiro called?",
+        "options": [
+          "Christ the Redeemer",
+          "Christ the King",
+          "Sacred Heart",
+          "Cristo Rey"
+        ],
+        "correct_answer": "Christ the Redeemer",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_130",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created the famous Mount Rushmore sculptures?",
+        "options": [
+          "Gutzon Borglum",
+          "Augustus Saint-Gaudens",
+          "Daniel Chester French",
+          "Lorado Taft"
+        ],
+        "correct_answer": "Gutzon Borglum",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_131",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What is the study of carving or engraving called?",
+        "options": [
+          "Glyptics",
+          "Casting",
+          "Modeling",
+          "Assemblage"
+        ],
+        "correct_answer": "Glyptics",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_132",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted the Pietà in St. Peter's Basilica?",
+        "options": [
+          "Michelangelo",
+          "Bernini",
+          "Donatello",
+          "Giambologna"
+        ],
+        "correct_answer": "Michelangelo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_133",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What material did ancient Greeks primarily use for sculpture?",
+        "options": [
+          "Marble",
+          "Bronze",
+          "Clay",
+          "Wood"
+        ],
+        "correct_answer": "Marble",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_134",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created the 'Balloon Dog' sculptures?",
+        "options": [
+          "Jeff Koons",
+          "Damien Hirst",
+          "Takashi Murakami",
+          "Anish Kapoor"
+        ],
+        "correct_answer": "Jeff Koons",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_135",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What is bronze primarily made of?",
+        "options": [
+          "Copper and tin",
+          "Iron and carbon",
+          "Copper and zinc",
+          "Gold and silver"
+        ],
+        "correct_answer": "Copper and tin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_136",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Little Mermaid' in Copenhagen?",
+        "options": [
+          "Edvard Eriksen",
+          "Bertel Thorvaldsen",
+          "Bjørn Nørgaard",
+          "Jens Adolf Jerichau"
+        ],
+        "correct_answer": "Edvard Eriksen",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_137",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What process uses wax that is melted away?",
+        "options": [
+          "Lost-wax casting",
+          "Sand casting",
+          "Die casting",
+          "Investment casting"
+        ],
+        "correct_answer": "Lost-wax casting",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_138",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created mobiles (moving sculptures)?",
+        "options": [
+          "Alexander Calder",
+          "Jean Tinguely",
+          "Naum Gabo",
+          "László Moholy-Nagy"
+        ],
+        "correct_answer": "Alexander Calder",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_139",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What famous Egyptian sculpture has a lion's body?",
+        "options": [
+          "Great Sphinx of Giza",
+          "Nefertiti Bust",
+          "Rosetta Stone",
+          "Abu Simbel"
+        ],
+        "correct_answer": "Great Sphinx of Giza",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_140",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted the lions in London's Trafalgar Square?",
+        "options": [
+          "Edwin Landseer",
+          "John Flaxman",
+          "Francis Chantrey",
+          "Richard Westmacott"
+        ],
+        "correct_answer": "Edwin Landseer",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_141",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'Ecstasy of Saint Teresa'?",
+        "options": [
+          "Gian Lorenzo Bernini",
+          "Alessandro Algardi",
+          "Francesco Borromini",
+          "Pietro da Cortona"
+        ],
+        "correct_answer": "Gian Lorenzo Bernini",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_142",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What is the tallest statue in the world (as of 2024)?",
+        "options": [
+          "Statue of Unity (India)",
+          "Spring Temple Buddha (China)",
+          "Statue of Liberty (USA)",
+          "Christ the Redeemer (Brazil)"
+        ],
+        "correct_answer": "Statue of Unity (India)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_143",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'Bird in Space'?",
+        "options": [
+          "Constantin Brâncuși",
+          "Jean Arp",
+          "Barbara Hepworth",
+          "Henry Moore"
+        ],
+        "correct_answer": "Constantin Brâncuși",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_144",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Burghers of Calais'?",
+        "options": [
+          "Auguste Rodin",
+          "Camille Claudel",
+          "Antoine Bourdelle",
+          "Charles Despiau"
+        ],
+        "correct_answer": "Auguste Rodin",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_145",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What is the name of Michelangelo's unfinished sculptures that appear to emerge from stone?",
+        "options": [
+          "Prisoners/Slaves",
+          "David",
+          "Pietà",
+          "Moses"
+        ],
+        "correct_answer": "Prisoners/Slaves",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_146",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created the 'Unique Forms of Continuity in Space'?",
+        "options": [
+          "Umberto Boccioni",
+          "Giacomo Balla",
+          "Carlo Carrà",
+          "Gino Severini"
+        ],
+        "correct_answer": "Umberto Boccioni",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_147",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created works with holes, like 'Reclining Figure'?",
+        "options": [
+          "Henry Moore",
+          "Barbara Hepworth",
+          "Jean Arp",
+          "Naum Gabo"
+        ],
+        "correct_answer": "Henry Moore",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_148",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted the 'Manneken Pis' in Brussels?",
+        "options": [
+          "Jérôme Duquesnoy",
+          "François Duquesnoy",
+          "Artus Quellinus",
+          "Lucas Faydherbe"
+        ],
+        "correct_answer": "Jérôme Duquesnoy",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_149",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What sculpture technique involves building up material?",
+        "options": [
+          "Modeling/Additive",
+          "Carving/Subtractive",
+          "Casting",
+          "Assemblage"
+        ],
+        "correct_answer": "Modeling/Additive",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_150",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'L.O.V.E.' (the raised middle finger sculpture in Milan)?",
+        "options": [
+          "Maurizio Cattelan",
+          "Piero Manzoni",
+          "Michelangelo Pistoletto",
+          "Jannis Kounellis"
+        ],
+        "correct_answer": "Maurizio Cattelan",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_151",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor worked primarily with marble and created 'Psyche Revived by Cupid's Kiss'?",
+        "options": [
+          "Antonio Canova",
+          "Bertel Thorvaldsen",
+          "Jean-Antoine Houdon",
+          "Étienne Maurice Falconet"
+        ],
+        "correct_answer": "Antonio Canova",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_152",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'Cloud Gate' (The Bean) in Chicago?",
+        "options": [
+          "Anish Kapoor",
+          "Richard Serra",
+          "Jeff Koons",
+          "Claes Oldenburg"
+        ],
+        "correct_answer": "Anish Kapoor",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_153",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What is the process of creating a sculpture by removing material called?",
+        "options": [
+          "Carving/Subtractive",
+          "Modeling/Additive",
+          "Casting",
+          "Welding"
+        ],
+        "correct_answer": "Carving/Subtractive",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_154",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Age of Bronze'?",
+        "options": [
+          "Auguste Rodin",
+          "Camille Claudel",
+          "Antoine Bourdelle",
+          "Émile Antoine Bourdelle"
+        ],
+        "correct_answer": "Auguste Rodin",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_155",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which ancient sculpture depicts a father and sons being attacked?",
+        "options": [
+          "Laocoön and His Sons",
+          "The Farnese Bull",
+          "Hercules and Antaeus",
+          "The Rape of the Sabines"
+        ],
+        "correct_answer": "Laocoön and His Sons",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_156",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created the bronze doors called 'Gates of Paradise'?",
+        "options": [
+          "Lorenzo Ghiberti",
+          "Andrea Pisano",
+          "Donatello",
+          "Luca della Robbia"
+        ],
+        "correct_answer": "Lorenzo Ghiberti",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_157",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Rape of Proserpina'?",
+        "options": [
+          "Gian Lorenzo Bernini",
+          "Antonio Canova",
+          "Giambologna",
+          "Alessandro Algardi"
+        ],
+        "correct_answer": "Gian Lorenzo Bernini",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_158",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created 'Spiral Jetty' in Utah's Great Salt Lake?",
+        "options": [
+          "Robert Smithson",
+          "Michael Heizer",
+          "Walter De Maria",
+          "Nancy Holt"
+        ],
+        "correct_answer": "Robert Smithson",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_159",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'Puppy', a giant flower-covered dog sculpture?",
+        "options": [
+          "Jeff Koons",
+          "Claes Oldenburg",
+          "Takashi Murakami",
+          "Damien Hirst"
+        ],
+        "correct_answer": "Jeff Koons",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_160",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What sculpture depicts Winged Victory?",
+        "options": [
+          "Nike of Samothrace",
+          "Venus de Milo",
+          "Athena Parthenos",
+          "Apollo Belvedere"
+        ],
+        "correct_answer": "Nike of Samothrace",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_161",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Walking Man' (L'Homme qui marche)?",
+        "options": [
+          "Alberto Giacometti",
+          "Auguste Rodin",
+          "Henry Moore",
+          "Constantin Brâncuși"
+        ],
+        "correct_answer": "Alberto Giacometti",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_162",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created 'Tilted Arc' that was controversially removed?",
+        "options": [
+          "Richard Serra",
+          "Carl Andre",
+          "Donald Judd",
+          "Dan Flavin"
+        ],
+        "correct_answer": "Richard Serra",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_163",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'Fountain', the famous urinal artwork?",
+        "options": [
+          "Marcel Duchamp",
+          "Man Ray",
+          "Francis Picabia",
+          "Hans Arp"
+        ],
+        "correct_answer": "Marcel Duchamp",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_164",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "What is the term for a sculpture that is the negative space?",
+        "options": [
+          "Counter-relief or void",
+          "Assemblage",
+          "Bas-relief",
+          "High relief"
+        ],
+        "correct_answer": "Counter-relief or void",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_165",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'Charging Bull' on Wall Street?",
+        "options": [
+          "Arturo Di Modica",
+          "Kristen Visbal",
+          "Auguste Rodin",
+          "Jeff Koons"
+        ],
+        "correct_answer": "Arturo Di Modica",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_166",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created 'Column of the Infinite'?",
+        "options": [
+          "Constantin Brâncuși",
+          "Naum Gabo",
+          "Antoine Pevsner",
+          "Vladimir Tatlin"
+        ],
+        "correct_answer": "Constantin Brâncuși",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_167",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'One and Three Chairs' (conceptual sculpture)?",
+        "options": [
+          "Joseph Kosuth",
+          "Sol LeWitt",
+          "Lawrence Weiner",
+          "Robert Morris"
+        ],
+        "correct_answer": "Joseph Kosuth",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_168",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created kinetic sculptures powered by water?",
+        "options": [
+          "Jean Tinguely",
+          "Alexander Calder",
+          "Naum Gabo",
+          "George Rickey"
+        ],
+        "correct_answer": "Jean Tinguely",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_169",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Veiled Virgin'?",
+        "options": [
+          "Giovanni Strazza",
+          "Antonio Corradini",
+          "Giuseppe Sanmartino",
+          "Antonio Canova"
+        ],
+        "correct_answer": "Giovanni Strazza",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_170",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which minimalist sculptor created 'Equivalent VIII' (the bricks)?",
+        "options": [
+          "Carl Andre",
+          "Donald Judd",
+          "Dan Flavin",
+          "Robert Morris"
+        ],
+        "correct_answer": "Carl Andre",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_171",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'Sky Mirror' in Nottingham and New York?",
+        "options": [
+          "Anish Kapoor",
+          "Richard Serra",
+          "Jeff Koons",
+          "Antony Gormley"
+        ],
+        "correct_answer": "Anish Kapoor",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_172",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created 'Angel of the North' in England?",
+        "options": [
+          "Antony Gormley",
+          "Henry Moore",
+          "Barbara Hepworth",
+          "Anthony Caro"
+        ],
+        "correct_answer": "Antony Gormley",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_173",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who sculpted 'The Veiled Christ' with translucent marble veil?",
+        "options": [
+          "Giuseppe Sanmartino",
+          "Antonio Corradini",
+          "Giovanni Strazza",
+          "Antonio Canova"
+        ],
+        "correct_answer": "Giuseppe Sanmartino",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_174",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created 'The Monument to Balzac'?",
+        "options": [
+          "Auguste Rodin",
+          "Antoine Bourdelle",
+          "Aristide Maillol",
+          "Charles Despiau"
+        ],
+        "correct_answer": "Auguste Rodin",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_175",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'Merzbau', an evolving sculptural installation?",
+        "options": [
+          "Kurt Schwitters",
+          "Marcel Duchamp",
+          "Hans Arp",
+          "Max Ernst"
+        ],
+        "correct_answer": "Kurt Schwitters",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_176",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created 'Double Negative' by removing 240,000 tons of rock?",
+        "options": [
+          "Michael Heizer",
+          "Robert Smithson",
+          "Walter De Maria",
+          "Nancy Holt"
+        ],
+        "correct_answer": "Michael Heizer",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_177",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'House' (a concrete cast of a Victorian house's interior)?",
+        "options": [
+          "Rachel Whiteread",
+          "Anish Kapoor",
+          "Antony Gormley",
+          "Cornelia Parker"
+        ],
+        "correct_answer": "Rachel Whiteread",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_178",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created 'The Physical Impossibility of Death'?",
+        "options": [
+          "Damien Hirst",
+          "Jeff Koons",
+          "Maurizio Cattelan",
+          "Takashi Murakami"
+        ],
+        "correct_answer": "Damien Hirst",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_179",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Who created 'The Spire' (Monument of Light) in Dublin?",
+        "options": [
+          "Ian Ritchie",
+          "Norman Foster",
+          "Richard Rogers",
+          "Santiago Calatrava"
+        ],
+        "correct_answer": "Ian Ritchie",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_180",
+        "category": "Art",
+        "subcategory": "Sculpture",
+        "question": "Which sculptor created 'The Lightning Field' in New Mexico?",
+        "options": [
+          "Walter De Maria",
+          "Robert Smithson",
+          "Michael Heizer",
+          "Nancy Holt"
+        ],
+        "correct_answer": "Walter De Maria",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Geography": [

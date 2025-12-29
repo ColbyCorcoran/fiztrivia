@@ -20168,6 +20168,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "art_061",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which art movement is characterized by small brush strokes and light?",
+        "options": [
+          "Impressionism",
+          "Cubism",
+          "Surrealism",
+          "Abstract Expressionism"
+        ],
+        "correct_answer": "Impressionism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_062",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured melting clocks and dreamlike imagery?",
+        "options": [
+          "Surrealism",
+          "Cubism",
+          "Dadaism",
+          "Futurism"
+        ],
+        "correct_answer": "Surrealism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_063",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement broke objects into geometric shapes?",
+        "options": [
+          "Cubism",
+          "Impressionism",
+          "Fauvism",
+          "Expressionism"
+        ],
+        "correct_answer": "Cubism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_064",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What does 'Renaissance' mean?",
+        "options": [
+          "Rebirth",
+          "Enlightenment",
+          "Revolution",
+          "Discovery"
+        ],
+        "correct_answer": "Rebirth",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_065",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement used bright, wild colors and was named after 'wild beasts'?",
+        "options": [
+          "Fauvism",
+          "Cubism",
+          "Expressionism",
+          "Surrealism"
+        ],
+        "correct_answer": "Fauvism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_066",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What art period came before the Renaissance?",
+        "options": [
+          "Medieval/Gothic",
+          "Baroque",
+          "Rococo",
+          "Neoclassical"
+        ],
+        "correct_answer": "Medieval/Gothic",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_067",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured drip painting and large canvases?",
+        "options": [
+          "Abstract Expressionism",
+          "Cubism",
+          "Pop Art",
+          "Minimalism"
+        ],
+        "correct_answer": "Abstract Expressionism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_068",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement used everyday objects like soup cans as art subjects?",
+        "options": [
+          "Pop Art",
+          "Dadaism",
+          "Surrealism",
+          "Minimalism"
+        ],
+        "correct_answer": "Pop Art",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_069",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What period is Michelangelo associated with?",
+        "options": [
+          "Renaissance",
+          "Baroque",
+          "Medieval",
+          "Neoclassical"
+        ],
+        "correct_answer": "Renaissance",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_070",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement rejected traditional art and embraced absurdity?",
+        "options": [
+          "Dadaism",
+          "Surrealism",
+          "Futurism",
+          "Constructivism"
+        ],
+        "correct_answer": "Dadaism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_071",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What art period followed the Renaissance?",
+        "options": [
+          "Baroque",
+          "Rococo",
+          "Neoclassical",
+          "Romantic"
+        ],
+        "correct_answer": "Baroque",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_072",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement focused on depicting modern life and leisure activities?",
+        "options": [
+          "Impressionism",
+          "Realism",
+          "Romanticism",
+          "Neoclassicism"
+        ],
+        "correct_answer": "Impressionism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_073",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What does 'art nouveau' mean in English?",
+        "options": [
+          "New art",
+          "Modern art",
+          "Young art",
+          "Fresh art"
+        ],
+        "correct_answer": "New art",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_074",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement emphasized emotion over reason?",
+        "options": [
+          "Romanticism",
+          "Neoclassicism",
+          "Realism",
+          "Naturalism"
+        ],
+        "correct_answer": "Romanticism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_075",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What period features ornate decoration and drama?",
+        "options": [
+          "Baroque",
+          "Renaissance",
+          "Gothic",
+          "Rococo"
+        ],
+        "correct_answer": "Baroque",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_076",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement tried to depict reality exactly as it appears?",
+        "options": [
+          "Realism",
+          "Romanticism",
+          "Impressionism",
+          "Symbolism"
+        ],
+        "correct_answer": "Realism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_077",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What century was the Renaissance?",
+        "options": [
+          "14th-17th century",
+          "12th-14th century",
+          "18th-19th century",
+          "10th-12th century"
+        ],
+        "correct_answer": "14th-17th century",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_078",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured simplified forms and primary colors?",
+        "options": [
+          "De Stijl",
+          "Bauhaus",
+          "Constructivism",
+          "Suprematism"
+        ],
+        "correct_answer": "De Stijl",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_079",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What period emphasized reason and classical ideals?",
+        "options": [
+          "Neoclassicism",
+          "Romanticism",
+          "Baroque",
+          "Rococo"
+        ],
+        "correct_answer": "Neoclassicism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_080",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement emphasized speed, technology, and motion?",
+        "options": [
+          "Futurism",
+          "Cubism",
+          "Constructivism",
+          "Dadaism"
+        ],
+        "correct_answer": "Futurism",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_081",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Where did the Renaissance begin?",
+        "options": [
+          "Florence, Italy",
+          "Rome, Italy",
+          "Paris, France",
+          "Venice, Italy"
+        ],
+        "correct_answer": "Florence, Italy",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_082",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement used dots of pure color (pointillism)?",
+        "options": [
+          "Neo-Impressionism",
+          "Impressionism",
+          "Fauvism",
+          "Divisionism"
+        ],
+        "correct_answer": "Neo-Impressionism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_083",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Who founded the Bauhaus school?",
+        "options": [
+          "Walter Gropius",
+          "Le Corbusier",
+          "Ludwig Mies van der Rohe",
+          "Frank Lloyd Wright"
+        ],
+        "correct_answer": "Walter Gropius",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_084",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What year did the Impressionist movement begin (first exhibition)?",
+        "options": [
+          "1874",
+          "1880",
+          "1865",
+          "1890"
+        ],
+        "correct_answer": "1874",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_085",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement preceded Impressionism in France?",
+        "options": [
+          "Realism",
+          "Romanticism",
+          "Neoclassicism",
+          "Symbolism"
+        ],
+        "correct_answer": "Realism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_086",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What does 'Rococo' art typically depict?",
+        "options": [
+          "Playful, ornate aristocratic life",
+          "Religious scenes",
+          "Heroic battles",
+          "Working-class struggles"
+        ],
+        "correct_answer": "Playful, ornate aristocratic life",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_087",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement was founded by André Breton?",
+        "options": [
+          "Surrealism",
+          "Dadaism",
+          "Futurism",
+          "Cubism"
+        ],
+        "correct_answer": "Surrealism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_088",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What was the Ashcan School known for depicting?",
+        "options": [
+          "Gritty urban American life",
+          "Abstract forms",
+          "European landscapes",
+          "Religious imagery"
+        ],
+        "correct_answer": "Gritty urban American life",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_089",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which Russian art movement featured geometric abstraction?",
+        "options": [
+          "Constructivism",
+          "Suprematism",
+          "Futurism",
+          "Rayonism"
+        ],
+        "correct_answer": "Constructivism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_090",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What movement did Gustave Courbet lead?",
+        "options": [
+          "Realism",
+          "Impressionism",
+          "Romanticism",
+          "Naturalism"
+        ],
+        "correct_answer": "Realism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_091",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured artists like Rothko and Newman?",
+        "options": [
+          "Color Field painting",
+          "Abstract Expressionism",
+          "Pop Art",
+          "Minimalism"
+        ],
+        "correct_answer": "Color Field painting",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_092",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What art movement emerged in 1960s Britain and America celebrating popular culture?",
+        "options": [
+          "Pop Art",
+          "Op Art",
+          "Minimalism",
+          "Conceptual Art"
+        ],
+        "correct_answer": "Pop Art",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_093",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which Pre-Raphaelite Brotherhood founder painted 'Ophelia'?",
+        "options": [
+          "John Everett Millais",
+          "Dante Gabriel Rossetti",
+          "William Holman Hunt",
+          "Ford Madox Brown"
+        ],
+        "correct_answer": "John Everett Millais",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_094",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What movement did Kazimir Malevich found?",
+        "options": [
+          "Suprematism",
+          "Constructivism",
+          "Rayonism",
+          "Cubo-Futurism"
+        ],
+        "correct_answer": "Suprematism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_095",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement emphasized the unconscious mind and dreams?",
+        "options": [
+          "Surrealism",
+          "Symbolism",
+          "Expressionism",
+          "Dadaism"
+        ],
+        "correct_answer": "Surrealism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_096",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What was the Barbizon School known for?",
+        "options": [
+          "Landscape painting",
+          "Portraiture",
+          "Still life",
+          "Historical scenes"
+        ],
+        "correct_answer": "Landscape painting",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_097",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured Kandinsky and Marc?",
+        "options": [
+          "Der Blaue Reiter (The Blue Rider)",
+          "Die Brücke (The Bridge)",
+          "Bauhaus",
+          "Expressionism"
+        ],
+        "correct_answer": "Der Blaue Reiter (The Blue Rider)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_098",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What Italian movement rejected the past and celebrated modernity?",
+        "options": [
+          "Futurism",
+          "Metaphysical painting",
+          "Arte Povera",
+          "Novecento Italiano"
+        ],
+        "correct_answer": "Futurism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_099",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement was characterized by optical illusions?",
+        "options": [
+          "Op Art",
+          "Pop Art",
+          "Kinetic Art",
+          "Minimalism"
+        ],
+        "correct_answer": "Op Art",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_100",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What movement did Giorgio de Chirico pioneer?",
+        "options": [
+          "Metaphysical painting",
+          "Surrealism",
+          "Futurism",
+          "Arte Povera"
+        ],
+        "correct_answer": "Metaphysical painting",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_101",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which Mannerist painter created elongated figures like 'View of Toledo'?",
+        "options": [
+          "El Greco",
+          "Parmigianino",
+          "Pontormo",
+          "Bronzino"
+        ],
+        "correct_answer": "El Greco",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_102",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What year was the Armory Show in New York introducing modern art?",
+        "options": [
+          "1913",
+          "1910",
+          "1920",
+          "1905"
+        ],
+        "correct_answer": "1913",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_103",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured Umberto Boccioni's 'Unique Forms of Continuity in Space'?",
+        "options": [
+          "Futurism",
+          "Cubism",
+          "Constructivism",
+          "Vorticism"
+        ],
+        "correct_answer": "Futurism",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_104",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Who wrote the 'Futurist Manifesto' in 1909?",
+        "options": [
+          "Filippo Tommaso Marinetti",
+          "Umberto Boccioni",
+          "Giacomo Balla",
+          "Carlo Carrà"
+        ],
+        "correct_answer": "Filippo Tommaso Marinetti",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_105",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which Fauvist artist painted 'The Joy of Life'?",
+        "options": [
+          "Henri Matisse",
+          "André Derain",
+          "Maurice de Vlaminck",
+          "Raoul Dufy"
+        ],
+        "correct_answer": "Henri Matisse",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_106",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What German Expressionist group was founded in Dresden in 1905?",
+        "options": [
+          "Die Brücke (The Bridge)",
+          "Der Blaue Reiter",
+          "Neue Sachlichkeit",
+          "November Group"
+        ],
+        "correct_answer": "Die Brücke (The Bridge)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_107",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured Christo and Jeanne-Claude's wrapped buildings?",
+        "options": [
+          "Environmental Art/Land Art",
+          "Conceptual Art",
+          "Installation Art",
+          "Performance Art"
+        ],
+        "correct_answer": "Environmental Art/Land Art",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_108",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Who painted 'Black Square', a key Suprematist work?",
+        "options": [
+          "Kazimir Malevich",
+          "El Lissitzky",
+          "Alexander Rodchenko",
+          "Vladimir Tatlin"
+        ],
+        "correct_answer": "Kazimir Malevich",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_109",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which art movement was centered at Black Mountain College?",
+        "options": [
+          "Abstract Expressionism",
+          "Color Field",
+          "Pop Art",
+          "Minimalism"
+        ],
+        "correct_answer": "Abstract Expressionism",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_110",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What movement did Theo van Doesburg co-found?",
+        "options": [
+          "De Stijl",
+          "Bauhaus",
+          "Constructivism",
+          "Suprematism"
+        ],
+        "correct_answer": "De Stijl",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_111",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which Symbolist painter created 'The Isle of the Dead'?",
+        "options": [
+          "Arnold Böcklin",
+          "Gustave Moreau",
+          "Odilon Redon",
+          "Pierre Puvis de Chavannes"
+        ],
+        "correct_answer": "Arnold Böcklin",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_112",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What year did the Salon des Refusés first exhibit rejected works?",
+        "options": [
+          "1863",
+          "1874",
+          "1855",
+          "1880"
+        ],
+        "correct_answer": "1863",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_113",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured Carl Andre's floor sculptures?",
+        "options": [
+          "Minimalism",
+          "Conceptual Art",
+          "Post-Minimalism",
+          "Process Art"
+        ],
+        "correct_answer": "Minimalism",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_114",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Who founded Orphism (Orphic Cubism)?",
+        "options": [
+          "Robert Delaunay",
+          "Sonia Delaunay",
+          "Francis Picabia",
+          "Fernand Léger"
+        ],
+        "correct_answer": "Robert Delaunay",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_115",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement featured Yves Klein's monochrome blue paintings?",
+        "options": [
+          "Nouveau Réalisme",
+          "Zero Group",
+          "Fluxus",
+          "Arte Povera"
+        ],
+        "correct_answer": "Nouveau Réalisme",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_116",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What was the Neue Sachlichkeit movement in English?",
+        "options": [
+          "New Objectivity",
+          "New Realism",
+          "New Vision",
+          "New Clarity"
+        ],
+        "correct_answer": "New Objectivity",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_117",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which movement did Piet Mondrian help establish?",
+        "options": [
+          "De Stijl",
+          "Bauhaus",
+          "Suprematism",
+          "Constructivism"
+        ],
+        "correct_answer": "De Stijl",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_118",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Who wrote 'Concerning the Spiritual in Art'?",
+        "options": [
+          "Wassily Kandinsky",
+          "Piet Mondrian",
+          "Kazimir Malevich",
+          "Paul Klee"
+        ],
+        "correct_answer": "Wassily Kandinsky",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_119",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "Which Viennese Secessionist designed the Secession Building?",
+        "options": [
+          "Joseph Maria Olbrich",
+          "Gustav Klimt",
+          "Otto Wagner",
+          "Josef Hoffmann"
+        ],
+        "correct_answer": "Joseph Maria Olbrich",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_120",
+        "category": "Art",
+        "subcategory": "Art History & Movements",
+        "question": "What movement featured Hans Arp's organic abstract forms?",
+        "options": [
+          "Dadaism and later Surrealism",
+          "Cubism",
+          "Futurism",
+          "Constructivism"
+        ],
+        "correct_answer": "Dadaism and later Surrealism",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Geography": [

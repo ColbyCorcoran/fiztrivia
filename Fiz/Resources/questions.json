@@ -829,7 +829,9 @@
           "Lasso"
         ],
         "correct_answer": "Whip",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_053",
@@ -843,7 +845,9 @@
           "Yellow"
         ],
         "correct_answer": "Red",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_054",
@@ -857,7 +861,9 @@
           "Prehistoric Park"
         ],
         "correct_answer": "Jurassic Park",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_055",
@@ -871,7 +877,9 @@
           "008"
         ],
         "correct_answer": "007",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_056",
@@ -885,7 +893,9 @@
           "The Jolly Roger"
         ],
         "correct_answer": "The Black Pearl",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_057",
@@ -899,7 +909,9 @@
           "Tom Hardy"
         ],
         "correct_answer": "Tom Cruise",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_058",
@@ -913,7 +925,9 @@
           "Big Blue"
         ],
         "correct_answer": "Bruce",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_059",
@@ -927,7 +941,9 @@
           "Karl Vreski"
         ],
         "correct_answer": "Hans Gruber",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_060",
@@ -941,7 +957,9 @@
           "T-3000"
         ],
         "correct_answer": "T-800",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_061",
@@ -955,7 +973,9 @@
           "Dwayne Johnson"
         ],
         "correct_answer": "Keanu Reeves",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_062",
@@ -969,7 +989,9 @@
           "Peter Parker"
         ],
         "correct_answer": "Bruce Banner",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_063",
@@ -983,7 +1005,9 @@
           "Lead"
         ],
         "correct_answer": "Kryptonite",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_064",
@@ -997,7 +1021,9 @@
           "Red Skull"
         ],
         "correct_answer": "Thanos",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_065",
@@ -1011,7 +1037,9 @@
           "Jarnbjorn"
         ],
         "correct_answer": "Mjolnir",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_066",
@@ -1025,7 +1053,9 @@
           "Betty Brant"
         ],
         "correct_answer": "Mary Jane Watson",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_067",
@@ -1039,7 +1069,9 @@
           "Silent Mary"
         ],
         "correct_answer": "Black Pearl",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_068",
@@ -1053,7 +1085,9 @@
           "George Clooney"
         ],
         "correct_answer": "Matt Damon",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_069",
@@ -1067,7 +1101,9 @@
           "Mazda RX-7"
         ],
         "correct_answer": "Dodge Charger",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_070",
@@ -1081,7 +1117,9 @@
           "Indiana Jones and the Kingdom of the Crystal Skull"
         ],
         "correct_answer": "Indiana Jones and the Last Crusade",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_071",
@@ -1095,7 +1133,9 @@
           "The Machines"
         ],
         "correct_answer": "The Architect",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_072",
@@ -1109,7 +1149,9 @@
           "Isla Pena"
         ],
         "correct_answer": "Isla Nublar",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_073",
@@ -1123,7 +1165,9 @@
           "Daniel Craig"
         ],
         "correct_answer": "Sean Connery",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_074",
@@ -1137,7 +1181,9 @@
           "Blackbeard"
         ],
         "correct_answer": "Captain Barbossa",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_075",
@@ -1151,7 +1197,9 @@
           "San Francisco"
         ],
         "correct_answer": "Los Angeles",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_076",
@@ -1165,7 +1213,9 @@
           "Marcus Wright"
         ],
         "correct_answer": "John Connor",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_077",
@@ -1179,7 +1229,9 @@
           "Bodyguard"
         ],
         "correct_answer": "Assassin",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_078",
@@ -1193,7 +1245,9 @@
           "Promethium"
         ],
         "correct_answer": "Kryptonite",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_079",
@@ -1207,7 +1261,9 @@
           "Atlantis"
         ],
         "correct_answer": "Wakanda",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_080",
@@ -1221,7 +1277,9 @@
           "Avengers: Infinity War"
         ],
         "correct_answer": "The Avengers (2012)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_081",
@@ -1235,7 +1293,9 @@
           "Amazon Isle"
         ],
         "correct_answer": "Themyscira",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_082",
@@ -1249,7 +1309,9 @@
           "Jim Lee and Frank Miller"
         ],
         "correct_answer": "Bob Kane and Bill Finger",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_083",
@@ -1263,7 +1325,9 @@
           "Rescue"
         ],
         "correct_answer": "Iron Man suit",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_084",
@@ -1277,7 +1341,9 @@
           "1977"
         ],
         "correct_answer": "1979",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_085",
@@ -1291,7 +1357,9 @@
           "Jean-Pierre Jeunet"
         ],
         "correct_answer": "Ridley Scott",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_086",
@@ -1305,7 +1373,9 @@
           "The Collective"
         ],
         "correct_answer": "The Syndicate",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_087",
@@ -1319,7 +1389,9 @@
           "China"
         ],
         "correct_answer": "Scotland",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_088",
@@ -1333,7 +1405,9 @@
           "Masrani Global"
         ],
         "correct_answer": "InGen",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_089",
@@ -1347,7 +1421,9 @@
           "Carrie Fisher"
         ],
         "correct_answer": "Sigourney Weaver",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_090",
@@ -1361,7 +1437,9 @@
           "The Grid"
         ],
         "correct_answer": "The Construct",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_091",
@@ -1375,7 +1453,9 @@
           "Iosef Tarasov"
         ],
         "correct_answer": "The High Table",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_092",
@@ -1389,7 +1469,9 @@
           "Walter Donovan"
         ],
         "correct_answer": "Henry Jones Sr.",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_093",
@@ -1403,7 +1485,9 @@
           "Osiris"
         ],
         "correct_answer": "Nebuchadnezzar",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_094",
@@ -1417,7 +1501,9 @@
           "Dr. Henry Wu"
         ],
         "correct_answer": "Dr. Ian Malcolm",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_095",
@@ -1431,7 +1517,9 @@
           "Goldfinger"
         ],
         "correct_answer": "Casino Royale",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_096",
@@ -1445,7 +1533,9 @@
           "Medusa"
         ],
         "correct_answer": "Calypso",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_097",
@@ -1459,7 +1549,9 @@
           "Chrysler Building"
         ],
         "correct_answer": "Nakatomi Plaza",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_098",
@@ -1473,7 +1565,9 @@
           "2035"
         ],
         "correct_answer": "2029",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_099",
@@ -1487,7 +1581,9 @@
           "Anna"
         ],
         "correct_answer": "Helen",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_100",
@@ -1501,7 +1597,9 @@
           "Rann"
         ],
         "correct_answer": "Krypton",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_101",
@@ -1515,7 +1613,9 @@
           "Quantum Gate"
         ],
         "correct_answer": "Quantum Tunnel",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_102",
@@ -1529,7 +1629,9 @@
           "Harriet Quinn"
         ],
         "correct_answer": "Harleen Quinzel",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_103",
@@ -1543,7 +1645,9 @@
           "Gas Town"
         ],
         "correct_answer": "The Wasteland",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_104",
@@ -1557,7 +1661,9 @@
           "Covenant"
         ],
         "correct_answer": "Nostromo",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_105",
@@ -1571,7 +1677,9 @@
           "Paul Greengrass"
         ],
         "correct_answer": "David Webb",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_106",
@@ -1585,7 +1693,9 @@
           "Agent Stasiak"
         ],
         "correct_answer": "Special Agent Bilkins",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_107",
@@ -1599,7 +1709,9 @@
           "Zazu"
         ],
         "correct_answer": "Mufasa",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_108",
@@ -1613,7 +1725,9 @@
           "Water"
         ],
         "correct_answer": "Ice and snow",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_109",
@@ -1627,7 +1741,9 @@
           "Farquaad"
         ],
         "correct_answer": "Shrek",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_110",
@@ -1641,7 +1757,9 @@
           "Sina"
         ],
         "correct_answer": "Maui",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_111",
@@ -1655,7 +1773,9 @@
           "Genie"
         ],
         "correct_answer": "Magic carpet",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_112",
@@ -1669,7 +1789,9 @@
           "Jafar"
         ],
         "correct_answer": "Ursula",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_113",
@@ -1683,7 +1805,9 @@
           "Tai Lung"
         ],
         "correct_answer": "Po",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_114",
@@ -1697,7 +1821,9 @@
           "Stormfly"
         ],
         "correct_answer": "Toothless",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_115",
@@ -1711,7 +1837,9 @@
           "Balthazar Bratt"
         ],
         "correct_answer": "Vector",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_116",
@@ -1725,7 +1853,9 @@
           "Orange"
         ],
         "correct_answer": "Yellow",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_117",
@@ -1739,7 +1869,9 @@
           "Rapunzel"
         ],
         "correct_answer": "Belle",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_118",
@@ -1753,7 +1885,9 @@
           "Cat"
         ],
         "correct_answer": "Rat",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_119",
@@ -1767,7 +1901,9 @@
           "Balloon house"
         ],
         "correct_answer": "Carl's house",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_120",
@@ -1781,7 +1917,9 @@
           "Andy"
         ],
         "correct_answer": "Woody",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_121",
@@ -1795,7 +1933,9 @@
           "Merida"
         ],
         "correct_answer": "Rapunzel",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_122",
@@ -1809,7 +1949,9 @@
           "Bear"
         ],
         "correct_answer": "Deer",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_123",
@@ -1823,7 +1965,9 @@
           "Bruce"
         ],
         "correct_answer": "Dory",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_124",
@@ -1837,7 +1981,9 @@
           "Doc Hudson"
         ],
         "correct_answer": "Lightning McQueen",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_125",
@@ -1851,7 +1997,9 @@
           "Cruella"
         ],
         "correct_answer": "Mother Gothel",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_126",
@@ -1865,7 +2013,9 @@
           "Horton"
         ],
         "correct_answer": "Dumbo",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_127",
@@ -1879,7 +2029,9 @@
           "Gusteau"
         ],
         "correct_answer": "Linguini",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_128",
@@ -1893,7 +2045,9 @@
           "Yao"
         ],
         "correct_answer": "Mushu",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_129",
@@ -1907,7 +2061,9 @@
           "No-Face"
         ],
         "correct_answer": "Yubaba",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_130",
@@ -1921,7 +2077,9 @@
           "2000"
         ],
         "correct_answer": "1995",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_131",
@@ -1935,7 +2093,9 @@
           "Marshmallow"
         ],
         "correct_answer": "Sven",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_132",
@@ -1949,7 +2109,9 @@
           "Maui"
         ],
         "correct_answer": "Motunui",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_133",
@@ -1963,7 +2125,9 @@
           "Zazu"
         ],
         "correct_answer": "Scar",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_134",
@@ -1977,7 +2141,9 @@
           "The French Laundry"
         ],
         "correct_answer": "Gusteau's",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_135",
@@ -1991,7 +2157,9 @@
           "Shrekshire"
         ],
         "correct_answer": "Duloc",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_136",
@@ -2005,7 +2173,9 @@
           "Makoto Shinkai"
         ],
         "correct_answer": "Hayao Miyazaki",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_137",
@@ -2019,7 +2189,9 @@
           "Charles"
         ],
         "correct_answer": "Russell",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_138",
@@ -2033,7 +2205,9 @@
           "Colette Tatou"
         ],
         "correct_answer": "Auguste Gusteau",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_139",
@@ -2047,7 +2221,9 @@
           "Tigress"
         ],
         "correct_answer": "Master Shifu",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_140",
@@ -2061,7 +2237,9 @@
           "Neo Tokyo"
         ],
         "correct_answer": "San Fransokyo",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_141",
@@ -2075,7 +2253,9 @@
           "Ingerman"
         ],
         "correct_answer": "Haddock",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_142",
@@ -2089,7 +2269,9 @@
           "Cassim"
         ],
         "correct_answer": "Jafar",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_143",
@@ -2103,7 +2285,9 @@
           "A rose"
         ],
         "correct_answer": "A seedling",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_144",
@@ -2117,7 +2301,9 @@
           "Agrabah"
         ],
         "correct_answer": "Corona",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_145",
@@ -2131,7 +2317,9 @@
           "Papá Julio"
         ],
         "correct_answer": "Ernesto de la Cruz",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_146",
@@ -2145,7 +2333,9 @@
           "Kyoto Animation"
         ],
         "correct_answer": "Studio Ghibli",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_147",
@@ -2159,7 +2349,9 @@
           "Elasticity"
         ],
         "correct_answer": "Super speed",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_148",
@@ -2173,7 +2365,9 @@
           "Queen Grimhilde"
         ],
         "correct_answer": "Maleficent",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_149",
@@ -2187,7 +2381,9 @@
           "Mayor"
         ],
         "correct_answer": "Police officer",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_150",
@@ -2201,7 +2397,9 @@
           "The Ocean's Gift"
         ],
         "correct_answer": "Maui's fishhook",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_151",
@@ -2215,7 +2413,9 @@
           "None of the above"
         ],
         "correct_answer": "None of the above",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_152",
@@ -2229,7 +2429,9 @@
           "2012"
         ],
         "correct_answer": "2014",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_153",
@@ -2243,7 +2445,9 @@
           "Web-Slinger"
         ],
         "correct_answer": "Spider-Man",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_154",
@@ -2257,7 +2461,9 @@
           "Colette"
         ],
         "correct_answer": "Anton Ego",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_155",
@@ -2271,7 +2477,9 @@
           "Boh"
         ],
         "correct_answer": "Sen",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_156",
@@ -2285,7 +2493,9 @@
           "Master Shifu"
         ],
         "correct_answer": "Lord Shen",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_157",
@@ -2299,7 +2509,9 @@
           "Long live the king"
         ],
         "correct_answer": "No worries",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_158",
@@ -2313,7 +2525,9 @@
           "Atlantica"
         ],
         "correct_answer": "Arendelle",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_159",
@@ -2327,7 +2541,9 @@
           "Alpha"
         ],
         "correct_answer": "Kevin",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_160",
@@ -2341,7 +2557,9 @@
           "Pua"
         ],
         "correct_answer": "Tamatoa",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_161",
@@ -2355,7 +2573,9 @@
           "Monstrous Nightmare"
         ],
         "correct_answer": "Night Fury",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_162",
@@ -2369,7 +2589,9 @@
           "Emotion Station"
         ],
         "correct_answer": "Headquarters",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_163",
@@ -2383,7 +2605,9 @@
           "Piano"
         ],
         "correct_answer": "Guitar",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_164",
@@ -2397,7 +2621,9 @@
           "Gypsy"
         ],
         "correct_answer": "Atta",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_165",
@@ -2411,7 +2637,9 @@
           "Predator plague"
         ],
         "correct_answer": "Night Howler serum",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_166",
@@ -2425,7 +2653,9 @@
           "Knick Knack"
         ],
         "correct_answer": "The Adventures of André and Wally B.",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_167",
@@ -2439,7 +2669,9 @@
           "Eugene Flynn"
         ],
         "correct_answer": "Eugene Fitzherbert",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_168",
@@ -2453,7 +2685,9 @@
           "Tadashi"
         ],
         "correct_answer": "Yokai",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_169",
@@ -2467,7 +2701,9 @@
           "Colette"
         ],
         "correct_answer": "Auguste Gusteau",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_170",
@@ -2481,7 +2717,9 @@
           "Kuzco"
         ],
         "correct_answer": "Yzma",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_171",
@@ -2495,7 +2733,9 @@
           "Radishes"
         ],
         "correct_answer": "Corn",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_172",
@@ -2509,7 +2749,9 @@
           "The Grind"
         ],
         "correct_answer": "Central Perk",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_173",
@@ -2523,7 +2765,9 @@
           "Leonardo DiCaprio"
         ],
         "correct_answer": "Tom Hanks",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_174",
@@ -2537,7 +2781,9 @@
           "Saul Goodman"
         ],
         "correct_answer": "Walter White",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_175",
@@ -2551,7 +2797,9 @@
           "The Ale House"
         ],
         "correct_answer": "MacLaren's Pub",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_176",
@@ -2565,7 +2813,9 @@
           "Adam Scott"
         ],
         "correct_answer": "Chris Pratt",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_177",
@@ -2579,7 +2829,9 @@
           "97"
         ],
         "correct_answer": "99",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_178",
@@ -2593,7 +2845,9 @@
           "Christopher Nolan"
         ],
         "correct_answer": "Frank Darabont",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_179",
@@ -2607,7 +2861,9 @@
           "The Belchers"
         ],
         "correct_answer": "Pritchett-Dunphy-Tucker",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_180",
@@ -2621,7 +2877,9 @@
           "B.J. Novak"
         ],
         "correct_answer": "Steve Carell",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_181",
@@ -2635,7 +2893,9 @@
           "Rock Academy"
         ],
         "correct_answer": "School of Rock",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_182",
@@ -2649,7 +2909,9 @@
           "Johnny Depp"
         ],
         "correct_answer": "Leonardo DiCaprio",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_183",
@@ -2663,7 +2925,9 @@
           "D'oh!"
         ],
         "correct_answer": "Bazinga!",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_184",
@@ -2677,7 +2941,9 @@
           "Joe Pesci"
         ],
         "correct_answer": "James Gandolfini",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_185",
@@ -2691,7 +2957,9 @@
           "Boston"
         ],
         "correct_answer": "New York City",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_186",
@@ -2705,7 +2973,9 @@
           "James Caan"
         ],
         "correct_answer": "Marlon Brando",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_187",
@@ -2719,7 +2989,9 @@
           "Office Depot"
         ],
         "correct_answer": "Wernham Hogg",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_188",
@@ -2733,7 +3005,9 @@
           "Gwyneth Paltrow"
         ],
         "correct_answer": "Reese Witherspoon",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_189",
@@ -2747,7 +3021,9 @@
           "Gilmore Town"
         ],
         "correct_answer": "Stars Hollow",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_190",
@@ -2761,7 +3037,9 @@
           "Ed Helms"
         ],
         "correct_answer": "Rainn Wilson",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_191",
@@ -2775,7 +3053,9 @@
           "Jessica Hecht"
         ],
         "correct_answer": "Anna Gunn",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_192",
@@ -2789,7 +3069,9 @@
           "Adam Scott"
         ],
         "correct_answer": "Nick Offerman",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_193",
@@ -2803,7 +3085,9 @@
           "USS Titanic"
         ],
         "correct_answer": "RMS Titanic",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_194",
@@ -2817,7 +3101,9 @@
           "Julie"
         ],
         "correct_answer": "Emily",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_195",
@@ -2831,7 +3117,9 @@
           "2005"
         ],
         "correct_answer": "2008",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_196",
@@ -2845,7 +3133,9 @@
           "A screwdriver"
         ],
         "correct_answer": "A rock hammer",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_197",
@@ -2859,7 +3149,9 @@
           "Community Development"
         ],
         "correct_answer": "Parks and Recreation Department",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_198",
@@ -2873,7 +3165,9 @@
           "Banker"
         ],
         "correct_answer": "P.L.E.A.S.E.",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_199",
@@ -2887,7 +3181,9 @@
           "Michael Scott Paper Company"
         ],
         "correct_answer": "Sabre",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_200",
@@ -2901,7 +3197,9 @@
           "Newman"
         ],
         "correct_answer": "Cosmo Kramer",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_201",
@@ -2915,7 +3213,9 @@
           "Sandra Corleone"
         ],
         "correct_answer": "Kay Adams",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_202",
@@ -2929,7 +3229,9 @@
           "The Rock"
         ],
         "correct_answer": "Die Hard",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_203",
@@ -2943,7 +3245,9 @@
           "Mr. White"
         ],
         "correct_answer": "Heisenberg",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_204",
@@ -2957,7 +3261,9 @@
           "Koothrappali"
         ],
         "correct_answer": "Hofstadter",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_205",
@@ -2971,7 +3277,9 @@
           "Cooper & Associates"
         ],
         "correct_answer": "Sterling Cooper",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_206",
@@ -2985,7 +3293,9 @@
           "Carol"
         ],
         "correct_answer": "Ursula",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_207",
@@ -2999,7 +3309,9 @@
           "Folsom Prison"
         ],
         "correct_answer": "Shawshank State Penitentiary",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_208",
@@ -3013,7 +3325,9 @@
           "Coca-Cola"
         ],
         "correct_answer": "Apple",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_209",
@@ -3027,7 +3341,9 @@
           "Party Cruise"
         ],
         "correct_answer": "Captain Jack",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_210",
@@ -3041,7 +3357,9 @@
           "Banana Bay"
         ],
         "correct_answer": "Bluth's Original Frozen Banana Stand",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_211",
@@ -3055,7 +3373,9 @@
           "Shawn"
         ],
         "correct_answer": "Gen",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_212",
@@ -3069,7 +3389,9 @@
           "Money"
         ],
         "correct_answer": "Unknown",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_213",
@@ -3083,7 +3405,9 @@
           "McKinley Prep"
         ],
         "correct_answer": "William McKinley High School",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_214",
@@ -3097,7 +3421,9 @@
           "Engineering"
         ],
         "correct_answer": "Mathematics",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_215",
@@ -3111,7 +3437,9 @@
           "Stella Zinman"
         ],
         "correct_answer": "Tracy McConnell",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_216",
@@ -3125,7 +3453,9 @@
           "FOX"
         ],
         "correct_answer": "NBC",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_217",
@@ -3139,7 +3469,9 @@
           "Acappella Express"
         ],
         "correct_answer": "Here Comes Treble",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_218",
@@ -3153,7 +3485,9 @@
           "Dr. Christopher Moltisanti"
         ],
         "correct_answer": "Dr. Jennifer Melfi",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_219",
@@ -3167,7 +3501,9 @@
           "1996"
         ],
         "correct_answer": "1994",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_220",
@@ -3181,7 +3517,9 @@
           "The Chicken Shack"
         ],
         "correct_answer": "Los Pollos Hermanos",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_221",
@@ -3195,7 +3533,9 @@
           "Boyd Red"
         ],
         "correct_answer": "Ellis Boyd Redding",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_222",
@@ -3209,7 +3549,9 @@
           "Apartment 15"
         ],
         "correct_answer": "Apartment 20",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_223",
@@ -3223,7 +3565,9 @@
           "Man o' War"
         ],
         "correct_answer": "Khartoum",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_224",
@@ -3237,7 +3581,9 @@
           "Knope Candy"
         ],
         "correct_answer": "Sweetums Nutriyums",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_225",
@@ -3251,7 +3597,9 @@
           "Scrantonicity"
         ],
         "correct_answer": "The Finer Things Club",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_226",
@@ -3265,7 +3613,9 @@
           "Dr. Peter Lorre"
         ],
         "correct_answer": "Dr. Martin van Nostrand",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_227",
@@ -3279,7 +3629,9 @@
           "Robin Shine"
         ],
         "correct_answer": "Robin Sparkles",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_228",
@@ -3293,7 +3645,9 @@
           "The Cooper Show"
         ],
         "correct_answer": "Fun with Flags",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_229",
@@ -3307,7 +3661,9 @@
           "Charles"
         ],
         "correct_answer": "Kevin",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_230",
@@ -3321,7 +3677,9 @@
           "Winston"
         ],
         "correct_answer": "Lucky Strike",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_231",
@@ -3335,7 +3693,9 @@
           "Magician"
         ],
         "correct_answer": "Analrapist (Analyst/Therapist)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_232",
@@ -3349,7 +3709,9 @@
           "85"
         ],
         "correct_answer": "75",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_233",
@@ -3363,7 +3725,9 @@
           "Scarn Identity"
         ],
         "correct_answer": "Threat Level Midnight",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_234",
@@ -3377,7 +3741,9 @@
           "Yale"
         ],
         "correct_answer": "MIT",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_235",
@@ -3391,7 +3757,9 @@
           "Marsellus Wallace"
         ],
         "correct_answer": "Butch Coolidge",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_236",
@@ -3405,7 +3773,9 @@
           "Michael"
         ],
         "correct_answer": "Francis",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_237",
@@ -3419,7 +3789,9 @@
           "Simon Tam"
         ],
         "correct_answer": "Malcolm Reynolds",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_238",
@@ -3433,7 +3805,9 @@
           "USS Defiant"
         ],
         "correct_answer": "USS Enterprise",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_239",
@@ -3447,7 +3821,9 @@
           "Enterprise"
         ],
         "correct_answer": "Rocinante",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_240",
@@ -3461,7 +3837,9 @@
           "Polyphemus"
         ],
         "correct_answer": "Pandora",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_241",
@@ -3475,7 +3853,9 @@
           "Phone Booth"
         ],
         "correct_answer": "DeLorean",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_242",
@@ -3489,7 +3869,9 @@
           "Carrie Fisher"
         ],
         "correct_answer": "Mark Hamill",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_243",
@@ -3503,7 +3885,9 @@
           "Michael"
         ],
         "correct_answer": "E.T.",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_244",
@@ -3517,7 +3901,9 @@
           "Balder"
         ],
         "correct_answer": "Loki",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_245",
@@ -3531,7 +3917,9 @@
           "Sonic Screwdriver"
         ],
         "correct_answer": "TARDIS",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_246",
@@ -3545,7 +3933,9 @@
           "Din"
         ],
         "correct_answer": "Grogu",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_247",
@@ -3559,7 +3949,9 @@
           "Carrie-Anne Moss"
         ],
         "correct_answer": "Laurence Fishburne",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_248",
@@ -3573,7 +3965,9 @@
           "Return of the Jedi"
         ],
         "correct_answer": "A New Hope",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_249",
@@ -3587,7 +3981,9 @@
           "The Upside Down"
         ],
         "correct_answer": "Demogorgon",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_250",
@@ -3601,7 +3997,9 @@
           "Titans"
         ],
         "correct_answer": "Jaegers",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_251",
@@ -3615,7 +4013,9 @@
           "Chris Pine"
         ],
         "correct_answer": "William Shatner",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_252",
@@ -3629,7 +4029,9 @@
           "Jotunheim"
         ],
         "correct_answer": "Asgard",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_253",
@@ -3643,7 +4045,9 @@
           "99 mph"
         ],
         "correct_answer": "88 mph",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_254",
@@ -3657,7 +4061,9 @@
           "Drax"
         ],
         "correct_answer": "Star-Lord",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_255",
@@ -3671,7 +4077,9 @@
           "Zachary Quinto"
         ],
         "correct_answer": "Leonard Nimoy",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_256",
@@ -3685,7 +4093,9 @@
           "Secret Service"
         ],
         "correct_answer": "Men in Black",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_257",
@@ -3699,7 +4109,9 @@
           "Red"
         ],
         "correct_answer": "Green",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_258",
@@ -3713,7 +4125,9 @@
           "Replicators"
         ],
         "correct_answer": "Cylons",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_259",
@@ -3727,7 +4141,9 @@
           "Endor"
         ],
         "correct_answer": "Tatooine",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_260",
@@ -3741,7 +4157,9 @@
           "The Monster Hunter"
         ],
         "correct_answer": "The White Wolf",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_261",
@@ -3755,7 +4173,9 @@
           "The Void"
         ],
         "correct_answer": "The Upside Down",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_262",
@@ -3769,7 +4189,9 @@
           "Qo'noS"
         ],
         "correct_answer": "Vulcan",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_263",
@@ -3783,7 +4205,9 @@
           "1885"
         ],
         "correct_answer": "1955",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_264",
@@ -3797,7 +4221,9 @@
           "Rocinante"
         ],
         "correct_answer": "Serenity",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_265",
@@ -3811,7 +4237,9 @@
           "Robot 9"
         ],
         "correct_answer": "The Iron Giant",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_266",
@@ -3825,7 +4253,9 @@
           "Paz Vizsla"
         ],
         "correct_answer": "Din Djarin",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_267",
@@ -3839,7 +4269,9 @@
           "Steven Spielberg"
         ],
         "correct_answer": "Luc Besson",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_268",
@@ -3853,7 +4285,9 @@
           "Bossk"
         ],
         "correct_answer": "Boba Fett",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_269",
@@ -3867,7 +4301,9 @@
           "VIKI"
         ],
         "correct_answer": "HAL 9000",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_270",
@@ -3881,7 +4317,9 @@
           "Earth"
         ],
         "correct_answer": "Gallifrey",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_271",
@@ -3895,7 +4333,9 @@
           "Frontier Land"
         ],
         "correct_answer": "Westworld",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_272",
@@ -3909,7 +4349,9 @@
           "Rodriguez"
         ],
         "correct_answer": "Sanchez",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_273",
@@ -3923,7 +4365,9 @@
           "Kathryn Janeway"
         ],
         "correct_answer": "Jean-Luc Picard",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_274",
@@ -3937,7 +4381,9 @@
           "The Tesseract"
         ],
         "correct_answer": "The Power Stone",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_275",
@@ -3951,7 +4397,9 @@
           "Temporal anomaly"
         ],
         "correct_answer": "Alien blood",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_276",
@@ -3965,7 +4413,9 @@
           "The Steam Time Machine"
         ],
         "correct_answer": "The Jules Verne Train",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_277",
@@ -3979,7 +4429,9 @@
           "Kryptonite"
         ],
         "correct_answer": "Unobtanium",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_278",
@@ -3993,7 +4445,9 @@
           "Jupiter"
         ],
         "correct_answer": "TMA-1",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_279",
@@ -4007,7 +4461,9 @@
           "Reactor"
         ],
         "correct_answer": "Thermal exhaust port",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_280",
@@ -4021,7 +4477,9 @@
           "Tokyo"
         ],
         "correct_answer": "Los Angeles",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_281",
@@ -4035,7 +4493,9 @@
           "Jason Momoa"
         ],
         "correct_answer": "Henry Cavill",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_282",
@@ -4049,7 +4509,9 @@
           "JARVIS"
         ],
         "correct_answer": "TARS",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_283",
@@ -4063,7 +4525,9 @@
           "Karen Gillan"
         ],
         "correct_answer": "Zoe Saldana",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_284",
@@ -4077,7 +4541,9 @@
           "Mon Mothma"
         ],
         "correct_answer": "Shmi Skywalker",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_285",
@@ -4091,7 +4557,9 @@
           "Godzillas"
         ],
         "correct_answer": "Kaiju",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_286",
@@ -4105,7 +4573,9 @@
           "Ceres"
         ],
         "correct_answer": "Eros",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_287",
@@ -4119,7 +4589,9 @@
           "1984"
         ],
         "correct_answer": "1983",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_288",
@@ -4133,7 +4605,9 @@
           "Seek out new life"
         ],
         "correct_answer": "Non-interference with less advanced civilizations",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_289",
@@ -4147,7 +4621,9 @@
           "Brown"
         ],
         "correct_answer": "Smith",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_290",
@@ -4161,7 +4637,9 @@
           "Elijah"
         ],
         "correct_answer": "Emmett",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_291",
@@ -4175,7 +4653,9 @@
           "Columbia"
         ],
         "correct_answer": "Galactica",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_292",
@@ -4189,7 +4669,9 @@
           "Dolores"
         ],
         "correct_answer": "Rehoboam",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_293",
@@ -4203,7 +4685,9 @@
           "Moraband"
         ],
         "correct_answer": "Korriban",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_294",
@@ -4217,7 +4701,9 @@
           "Inigo Montoya"
         ],
         "correct_answer": "Count Rugen",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_295",
@@ -4231,7 +4717,9 @@
           "Sonic Screwdriver"
         ],
         "correct_answer": "TARDIS",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_296",
@@ -4245,7 +4733,9 @@
           "Light, Dark, Fire, Water, Earth"
         ],
         "correct_answer": "Earth, Fire, Water, Wind, Love",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_297",
@@ -4259,7 +4749,9 @@
           "Greetings"
         ],
         "correct_answer": "Live long and prosper",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_298",
@@ -4273,7 +4765,9 @@
           "Cooper Station"
         ],
         "correct_answer": "Miller's Planet",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_299",
@@ -4287,7 +4781,9 @@
           "Agent Z"
         ],
         "correct_answer": "Agent J",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "ent_300",
@@ -4301,7 +4797,9 @@
           "Eytukan"
         ],
         "correct_answer": "Neytiri",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Literature": [
@@ -8278,7 +8776,9 @@
           "New England Patriots"
         ],
         "correct_answer": "Dallas Cowboys",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_163",
@@ -8292,7 +8792,9 @@
           "Walter Camp Trophy"
         ],
         "correct_answer": "College Football Playoff National Championship Trophy",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_164",
@@ -8306,7 +8808,9 @@
           "Quad back"
         ],
         "correct_answer": "Quarterback",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_165",
@@ -8320,7 +8824,9 @@
           "Red"
         ],
         "correct_answer": "Yellow",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_166",
@@ -8334,7 +8840,9 @@
           "4"
         ],
         "correct_answer": "5",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_167",
@@ -8348,7 +8856,9 @@
           "Technical"
         ],
         "correct_answer": "And-one",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_168",
@@ -8362,7 +8872,9 @@
           "0"
         ],
         "correct_answer": "1",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_169",
@@ -8376,7 +8888,9 @@
           "Philadelphia 76ers"
         ],
         "correct_answer": "New York Knicks",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_170",
@@ -8390,7 +8904,9 @@
           "Carrying"
         ],
         "correct_answer": "Traveling",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_172",
@@ -8404,7 +8920,9 @@
           "Pen"
         ],
         "correct_answer": "Bullpen",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_173",
@@ -8418,7 +8936,9 @@
           "Second base"
         ],
         "correct_answer": "Home plate",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_174",
@@ -8432,7 +8952,9 @@
           "Fly ball"
         ],
         "correct_answer": "Home run",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_175",
@@ -8446,7 +8968,9 @@
           "6"
         ],
         "correct_answer": "3",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_176",
@@ -8460,7 +8984,9 @@
           "Tennessee Titans"
         ],
         "correct_answer": "Buffalo Bills",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_177",
@@ -8474,7 +9000,9 @@
           "48 (Aaron Rodgers)"
         ],
         "correct_answer": "54 (Drew Brees)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_178",
@@ -8488,7 +9016,9 @@
           "Princeton"
         ],
         "correct_answer": "Yale",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_179",
@@ -8502,7 +9032,9 @@
           "Wildcat"
         ],
         "correct_answer": "Shotgun formation",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_180",
@@ -8516,7 +9048,9 @@
           "O.J. Simpson"
         ],
         "correct_answer": "Eric Dickerson",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_181",
@@ -8530,7 +9064,9 @@
           "Handoff"
         ],
         "correct_answer": "Lateral",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_182",
@@ -8544,7 +9080,9 @@
           "Minnesota Vikings"
         ],
         "correct_answer": "Chicago Bears",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_183",
@@ -8558,7 +9096,9 @@
           "Dwight Howard (30)"
         ],
         "correct_answer": "Wilt Chamberlain (55)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_184",
@@ -8572,7 +9112,9 @@
           "Box-and-one"
         ],
         "correct_answer": "Zone defense",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_185",
@@ -8586,7 +9128,9 @@
           "Denver Nuggets"
         ],
         "correct_answer": "Toronto Raptors",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_186",
@@ -8600,7 +9144,9 @@
           "24 inches"
         ],
         "correct_answer": "18 inches",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_187",
@@ -8614,7 +9160,9 @@
           "UCLA"
         ],
         "correct_answer": "Duke",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_188",
@@ -8628,7 +9176,9 @@
           "Baseball pass"
         ],
         "correct_answer": "Bounce pass",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_189",
@@ -8642,7 +9192,9 @@
           "20 seconds"
         ],
         "correct_answer": "24 seconds",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_190",
@@ -8656,7 +9208,9 @@
           "Sinker"
         ],
         "correct_answer": "Slider",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_191",
@@ -8670,7 +9224,9 @@
           "Alex Rodriguez (696)"
         ],
         "correct_answer": "Barry Bonds (762)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_192",
@@ -8684,7 +9240,9 @@
           "FIP"
         ],
         "correct_answer": "ERA (Earned Run Average)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_194",
@@ -8698,7 +9256,9 @@
           "Obstruction"
         ],
         "correct_answer": "Offside",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_195",
@@ -8712,7 +9272,9 @@
           "Bayern Munich"
         ],
         "correct_answer": "Real Madrid",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_196",
@@ -8726,7 +9288,9 @@
           "Combo block"
         ],
         "correct_answer": "Trap block",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_197",
@@ -8740,7 +9304,9 @@
           "Earl Campbell"
         ],
         "correct_answer": "O.J. Simpson",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_198",
@@ -8754,7 +9320,9 @@
           "Four defensive linemen"
         ],
         "correct_answer": "Middle linebacker dropping deep into coverage",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_199",
@@ -8768,7 +9336,9 @@
           "Dallas Cowboys"
         ],
         "correct_answer": "Green Bay Packers",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_200",
@@ -8782,7 +9352,9 @@
           "0-150"
         ],
         "correct_answer": "0-50",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_201",
@@ -8796,7 +9368,9 @@
           "Boston Celtics (68)"
         ],
         "correct_answer": "Golden State Warriors (73)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_202",
@@ -8810,7 +9384,9 @@
           "BPM"
         ],
         "correct_answer": "PER (Player Efficiency Rating)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_203",
@@ -8824,7 +9400,9 @@
           "New Jersey Nets"
         ],
         "correct_answer": "Charlotte Hornets",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_204",
@@ -8838,7 +9416,9 @@
           "35 points"
         ],
         "correct_answer": "31 points",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_205",
@@ -8852,7 +9432,9 @@
           "Rick Barry (89.3%)"
         ],
         "correct_answer": "Stephen Curry (90.7%)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_206",
@@ -8866,7 +9448,9 @@
           "A .150 batting average"
         ],
         "correct_answer": "A .200 batting average",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_207",
@@ -8880,7 +9464,9 @@
           "Whitey Ford"
         ],
         "correct_answer": "Don Larsen",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_208",
@@ -8894,7 +9480,9 @@
           "Base Awarded Batting In Park"
         ],
         "correct_answer": "Batting Average on Balls In Play",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_209",
@@ -8908,7 +9496,9 @@
           "Michel Platini"
         ],
         "correct_answer": "Diego Maradona",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_210",
@@ -8922,7 +9512,9 @@
           "A fullback who becomes a striker"
         ],
         "correct_answer": "A striker who drops deep to create space",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_212",
@@ -8936,7 +9528,9 @@
           "Match point"
         ],
         "correct_answer": "Deuce",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_213",
@@ -8950,7 +9544,9 @@
           "Carpet"
         ],
         "correct_answer": "Clay",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_214",
@@ -8964,7 +9560,9 @@
           "5"
         ],
         "correct_answer": "15",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_215",
@@ -8978,7 +9576,9 @@
           "Let"
         ],
         "correct_answer": "Ace",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_217",
@@ -8992,7 +9592,9 @@
           "36"
         ],
         "correct_answer": "18",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_219",
@@ -9006,7 +9608,9 @@
           "Marker"
         ],
         "correct_answer": "Tee",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_221",
@@ -9020,7 +9624,9 @@
           "Tee box"
         ],
         "correct_answer": "Green",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_222",
@@ -9034,7 +9640,9 @@
           "6"
         ],
         "correct_answer": "4",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_223",
@@ -9048,7 +9656,9 @@
           "9"
         ],
         "correct_answer": "8",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_224",
@@ -9062,7 +9672,9 @@
           "Rod"
         ],
         "correct_answer": "Spear",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_225",
@@ -9076,7 +9688,9 @@
           "300 meters"
         ],
         "correct_answer": "400 meters",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_226",
@@ -9090,7 +9704,9 @@
           "Freestyle"
         ],
         "correct_answer": "Backstroke",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_227",
@@ -9104,7 +9720,9 @@
           "75 meters"
         ],
         "correct_answer": "50 meters",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_228",
@@ -9118,7 +9736,9 @@
           "Breaststroke"
         ],
         "correct_answer": "Butterfly",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_229",
@@ -9132,7 +9752,9 @@
           "Pete Sampras (14)"
         ],
         "correct_answer": "Novak Djokovic (24)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_230",
@@ -9146,7 +9768,9 @@
           "155.3 mph (Ivo Karlović)"
         ],
         "correct_answer": "163.7 mph (Sam Groth)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_233",
@@ -9160,7 +9784,9 @@
           "Great Britain"
         ],
         "correct_answer": "United States",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_234",
@@ -9174,7 +9800,9 @@
           "Center mark"
         ],
         "correct_answer": "Singles sideline",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_235",
@@ -9188,7 +9816,9 @@
           "8"
         ],
         "correct_answer": "6",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_236",
@@ -9202,7 +9832,9 @@
           "Venus Cup"
         ],
         "correct_answer": "Billie Jean King Cup",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_238",
@@ -9216,7 +9848,9 @@
           "Ace"
         ],
         "correct_answer": "Albatross",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_239",
@@ -9230,7 +9864,9 @@
           "Ben Hogan (9)"
         ],
         "correct_answer": "Jack Nicklaus (18)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_240",
@@ -9244,7 +9880,9 @@
           "Assistant"
         ],
         "correct_answer": "Caddie",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_242",
@@ -9258,7 +9896,9 @@
           "Birdie"
         ],
         "correct_answer": "Bogey",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_243",
@@ -9272,7 +9912,9 @@
           "Pinehurst"
         ],
         "correct_answer": "St. Andrews",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_244",
@@ -9286,7 +9928,9 @@
           "Solheim Cup"
         ],
         "correct_answer": "Ryder Cup",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_245",
@@ -9300,7 +9944,9 @@
           "Asafa Powell (9.72s)"
         ],
         "correct_answer": "Usain Bolt (9.58s)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_246",
@@ -9314,7 +9960,9 @@
           "12"
         ],
         "correct_answer": "10",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_247",
@@ -9328,7 +9976,9 @@
           "Triple jump"
         ],
         "correct_answer": "Pole vault",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_248",
@@ -9342,7 +9992,9 @@
           "3000-meter hurdles"
         ],
         "correct_answer": "400-meter hurdles",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_249",
@@ -9356,7 +10008,9 @@
           "Ryan Lochte (6)"
         ],
         "correct_answer": "Michael Phelps (23)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_250",
@@ -9370,7 +10024,9 @@
           "Mixed relay"
         ],
         "correct_answer": "Individual medley",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_251",
@@ -9384,7 +10040,9 @@
           "12"
         ],
         "correct_answer": "8",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_252",
@@ -9398,7 +10056,9 @@
           "Breaststroke, butterfly, backstroke, freestyle"
         ],
         "correct_answer": "Butterfly, backstroke, breaststroke, freestyle",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_253",
@@ -9412,7 +10072,9 @@
           "4 hours 54 minutes (Federer vs Roddick, 2009)"
         ],
         "correct_answer": "11 hours 5 minutes (Isner vs Mahut, 2010)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_254",
@@ -9426,7 +10088,9 @@
           "Grand Slam performance only"
         ],
         "correct_answer": "Points earned in tournaments over 52 weeks",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_255",
@@ -9440,7 +10104,9 @@
           "Chris Evert"
         ],
         "correct_answer": "Steffi Graf",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_256",
@@ -9454,7 +10120,9 @@
           "5"
         ],
         "correct_answer": "3",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_257",
@@ -9468,7 +10136,9 @@
           "Australian Open (2019)"
         ],
         "correct_answer": "French Open (2022)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_258",
@@ -9482,7 +10152,9 @@
           "Net serve"
         ],
         "correct_answer": "Let",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_259",
@@ -9496,7 +10168,9 @@
           "63"
         ],
         "correct_answer": "62",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_260",
@@ -9510,7 +10184,9 @@
           "Wind speed"
         ],
         "correct_answer": "Green speed",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_261",
@@ -9524,7 +10200,9 @@
           "Tom Watson"
         ],
         "correct_answer": "Jack Nicklaus",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_262",
@@ -9538,7 +10216,9 @@
           "Top 80 plus ties"
         ],
         "correct_answer": "Top 70 plus ties",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_264",
@@ -9552,7 +10232,9 @@
           "2-iron"
         ],
         "correct_answer": "3-wood",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_265",
@@ -9566,7 +10248,9 @@
           "1:59:40 (Eliud Kipchoge - unofficial)"
         ],
         "correct_answer": "2:00:35 (Eliud Kipchoge)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_266",
@@ -9580,7 +10264,9 @@
           "18 pounds"
         ],
         "correct_answer": "16 pounds",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_267",
@@ -9594,7 +10280,9 @@
           "Brittney Reese (7.31m)"
         ],
         "correct_answer": "Galina Chistyakova (7.52m)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_268",
@@ -9608,7 +10296,9 @@
           "47.17 seconds (Kyle Chalmers)"
         ],
         "correct_answer": "46.86 seconds (Pan Zhanle)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_269",
@@ -9622,7 +10312,9 @@
           "Not required for any stroke"
         ],
         "correct_answer": "Required for butterfly and breaststroke turns",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_270",
@@ -9636,7 +10328,9 @@
           "2.5 meters"
         ],
         "correct_answer": "2 meters (minimum)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_272",
@@ -9650,7 +10344,9 @@
           "Five values"
         ],
         "correct_answer": "Five continents",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_273",
@@ -9664,7 +10360,9 @@
           "Platinum"
         ],
         "correct_answer": "Gold",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_274",
@@ -9678,7 +10376,9 @@
           "Rome, Italy"
         ],
         "correct_answer": "Athens, Greece",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_275",
@@ -9692,7 +10392,9 @@
           "Veni, Vidi, Vici"
         ],
         "correct_answer": "Citius, Altius, Fortius",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_276",
@@ -9706,7 +10408,9 @@
           "Every 3 years"
         ],
         "correct_answer": "Every 4 years",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_278",
@@ -9720,7 +10424,9 @@
           "Africa"
         ],
         "correct_answer": "Americas",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_279",
@@ -9734,7 +10440,9 @@
           "Colonial Games"
         ],
         "correct_answer": "Commonwealth Games",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_280",
@@ -9748,7 +10456,9 @@
           "Great Britain"
         ],
         "correct_answer": "United States",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_282",
@@ -9762,7 +10472,9 @@
           "Athens"
         ],
         "correct_answer": "London",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_283",
@@ -9776,7 +10488,9 @@
           "35"
         ],
         "correct_answer": "33",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_284",
@@ -9790,7 +10504,9 @@
           "Sacred flame"
         ],
         "correct_answer": "Olympic flame",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_285",
@@ -9804,7 +10520,9 @@
           "Carl Lewis (9)"
         ],
         "correct_answer": "Michael Phelps (23)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_286",
@@ -9818,7 +10536,9 @@
           "Just Fontaine (13)"
         ],
         "correct_answer": "Miroslav Klose (16)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_287",
@@ -9832,7 +10552,9 @@
           "Italy"
         ],
         "correct_answer": "Uruguay",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_288",
@@ -9846,7 +10568,9 @@
           "16"
         ],
         "correct_answer": "32",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_289",
@@ -9860,7 +10584,9 @@
           "IBA"
         ],
         "correct_answer": "FIBA",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_290",
@@ -9874,7 +10600,9 @@
           "Big Bash"
         ],
         "correct_answer": "ICC Cricket World Cup",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_291",
@@ -9888,7 +10616,9 @@
           "European Rugby Cup"
         ],
         "correct_answer": "Rugby World Cup",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_292",
@@ -9902,7 +10632,9 @@
           "Seoul"
         ],
         "correct_answer": "Moscow",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_293",
@@ -9916,7 +10648,9 @@
           "17"
         ],
         "correct_answer": "18",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_294",
@@ -9930,7 +10664,9 @@
           "Panama"
         ],
         "correct_answer": "Philippines",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_295",
@@ -9944,7 +10680,9 @@
           "1928 Amsterdam"
         ],
         "correct_answer": "1912 Stockholm",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_296",
@@ -9958,7 +10696,9 @@
           "1956 Melbourne"
         ],
         "correct_answer": "1936 Berlin",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_297",
@@ -9972,7 +10712,9 @@
           "Just Fontaine (France, 1958)"
         ],
         "correct_answer": "Fabienne Humm (Switzerland, 3 minutes)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_298",
@@ -9986,7 +10728,9 @@
           "Victory Cup"
         ],
         "correct_answer": "FIFA World Cup Trophy",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_299",
@@ -10000,7 +10744,9 @@
           "Cuba"
         ],
         "correct_answer": "Japan",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_300",
@@ -10014,7 +10760,9 @@
           "8"
         ],
         "correct_answer": "6",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_162",
@@ -10028,7 +10776,9 @@
           "The sideline"
         ],
         "correct_answer": "The yard line where the ball is placed for the next play",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_171",
@@ -10042,7 +10792,9 @@
           "The coach's box"
         ],
         "correct_answer": "The dirt or gravel area before the outfield wall",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_193",
@@ -10056,7 +10808,9 @@
           "A corner kick"
         ],
         "correct_answer": "Kicking the ball through an opponent's legs",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_220",
@@ -10070,7 +10824,9 @@
           "A fumble recovery"
         ],
         "correct_answer": "An interception returned for a touchdown",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_277",
@@ -10084,7 +10840,9 @@
           "Three penalties in one period"
         ],
         "correct_answer": "Scoring three goals in one game by one player",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_216",
@@ -10098,7 +10856,9 @@
           "15 points"
         ],
         "correct_answer": "7 points",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_218",
@@ -10112,7 +10872,9 @@
           "A type of putt"
         ],
         "correct_answer": "A do-over shot (informal)",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_231",
@@ -10126,7 +10888,9 @@
           "The sideline area"
         ],
         "correct_answer": "The non-volley zone near the net",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_232",
@@ -10140,7 +10904,9 @@
           "A challenge to a call"
         ],
         "correct_answer": "A point that if won, breaks the opponent's serve",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_237",
@@ -10154,7 +10920,9 @@
           "Replay from tee"
         ],
         "correct_answer": "One-stroke penalty and drop behind hazard",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_241",
@@ -10168,7 +10936,9 @@
           "A golfer who plays once a year"
         ],
         "correct_answer": "A golfer with a handicap of zero",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_263",
@@ -10182,7 +10952,9 @@
           "Worn by caddies at major tournaments"
         ],
         "correct_answer": "Awarded to The Masters champion",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_271",
@@ -10196,7 +10968,9 @@
           "Five founding nations"
         ],
         "correct_answer": "Unity of five continents",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_281",
@@ -10210,7 +10984,9 @@
           "50 km"
         ],
         "correct_answer": "42.195 km",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "spt_211",
@@ -10224,7 +11000,9 @@
           "A serve after a fault"
         ],
         "correct_answer": "A serve that touches the net but lands in the service box",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Science": [
@@ -10544,7 +11322,9 @@
           "Orange"
         ],
         "correct_answer": "Red",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_021",
@@ -10558,7 +11338,9 @@
           "One"
         ],
         "correct_answer": "Four",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_022",
@@ -10572,7 +11354,9 @@
           "Planets"
         ],
         "correct_answer": "Comets",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_023",
@@ -10954,7 +11738,9 @@
           "Volcanic activity"
         ],
         "correct_answer": "Solar wind interacting with Earth's magnetosphere",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_047",
@@ -10968,7 +11754,9 @@
           "Black hole"
         ],
         "correct_answer": "Red giant",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_048",
@@ -10982,7 +11770,9 @@
           "Quasar"
         ],
         "correct_answer": "Nova",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_049",
@@ -11348,7 +12138,9 @@
           "BOSS Great Wall"
         ],
         "correct_answer": "Hercules-Corona Borealis Great Wall",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_072",
@@ -11362,7 +12154,9 @@
           "Kepler Space Telescope"
         ],
         "correct_answer": "James Webb Space Telescope",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_073",
@@ -11376,7 +12170,9 @@
           "Minimum mass for nuclear fusion"
         ],
         "correct_answer": "Maximum mass of a white dwarf star",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_074",
@@ -11390,7 +12186,9 @@
           "Gravitational lensing"
         ],
         "correct_answer": "Radial velocity method",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_075",
@@ -11404,7 +12202,9 @@
           "Solstice"
         ],
         "correct_answer": "Aphelion",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_076",
@@ -11914,7 +12714,9 @@
           "Anthocyanin"
         ],
         "correct_answer": "Chlorophyll",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_108",
@@ -11928,7 +12730,9 @@
           "Pancreas"
         ],
         "correct_answer": "Kidney",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_109",
@@ -12422,7 +13226,9 @@
           "Recessive"
         ],
         "correct_answer": "Homozygous",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_140",
@@ -12436,7 +13242,9 @@
           "Natural immunity"
         ],
         "correct_answer": "Acquired immunity",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_141",
@@ -12594,7 +13402,9 @@
           "Golgi apparatus"
         ],
         "correct_answer": "Lysosome",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_151",
@@ -12976,7 +13786,9 @@
           "Vinegar"
         ],
         "correct_answer": "Table salt",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_175",
@@ -13502,7 +14314,9 @@
           "Deposition"
         ],
         "correct_answer": "Sublimation",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_208",
@@ -13772,7 +14586,9 @@
           "1.6 × 10²³"
         ],
         "correct_answer": "6.022 × 10²³",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_225",
@@ -13786,7 +14602,9 @@
           "Adiabatic"
         ],
         "correct_answer": "Exothermic",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_226",
@@ -14968,7 +15786,9 @@
           "Heisenberg uncertainty principle"
         ],
         "correct_answer": "Law of conservation of energy",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "sci_300",
@@ -14982,7 +15802,9 @@
           "Pascal"
         ],
         "correct_answer": "Newton",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Nature": [
@@ -17030,7 +17852,9 @@
           "Sunflower"
         ],
         "correct_answer": "Rose",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_262",
@@ -17044,7 +17868,9 @@
           "Carnation"
         ],
         "correct_answer": "Tulip",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_263",
@@ -17058,7 +17884,9 @@
           "Fern"
         ],
         "correct_answer": "Aloe plant",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_264",
@@ -17072,7 +17900,9 @@
           "Vine"
         ],
         "correct_answer": "Grass",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_265",
@@ -17086,7 +17916,9 @@
           "Daisy"
         ],
         "correct_answer": "Poppy",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_266",
@@ -17100,7 +17932,9 @@
           "Vanilla tree"
         ],
         "correct_answer": "Vanilla orchid",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_269",
@@ -17114,7 +17948,9 @@
           "Dye production"
         ],
         "correct_answer": "Aromatherapy and relaxation",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_270",
@@ -17128,7 +17964,9 @@
           "Daisy"
         ],
         "correct_answer": "Lily",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_271",
@@ -17142,7 +17980,9 @@
           "Butterwort"
         ],
         "correct_answer": "Venus flytrap",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_272",
@@ -17156,7 +17996,9 @@
           "Plum blossom"
         ],
         "correct_answer": "Cherry blossom",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_273",
@@ -17170,7 +18012,9 @@
           "Crocus"
         ],
         "correct_answer": "Tulip",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_274",
@@ -17184,7 +18028,9 @@
           "Ephemerals"
         ],
         "correct_answer": "Biennials",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_275",
@@ -17198,7 +18044,9 @@
           "Hedera"
         ],
         "correct_answer": "Toxicodendron",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_276",
@@ -17212,7 +18060,9 @@
           "Cinnamon"
         ],
         "correct_answer": "Saffron",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_277",
@@ -17226,7 +18076,9 @@
           "Lotus"
         ],
         "correct_answer": "Iris",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_278",
@@ -17240,7 +18092,9 @@
           "Marijuana"
         ],
         "correct_answer": "THC (tetrahydrocannabinol)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_279",
@@ -17254,7 +18108,9 @@
           "Propagation"
         ],
         "correct_answer": "Pollination",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_280",
@@ -17268,7 +18124,9 @@
           "Saguaro cactus"
         ],
         "correct_answer": "Century plant (agave)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_281",
@@ -17282,7 +18140,9 @@
           "Epidermis"
         ],
         "correct_answer": "Stomata",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_282",
@@ -17296,7 +18156,9 @@
           "Iceland poppy"
         ],
         "correct_answer": "Opium poppy (Papaver somniferum)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_283",
@@ -17310,7 +18172,9 @@
           "Lithophytes"
         ],
         "correct_answer": "Epiphytes",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_284",
@@ -17324,7 +18188,9 @@
           "Aristolochia"
         ],
         "correct_answer": "Rafflesia",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_285",
@@ -17338,7 +18204,9 @@
           "Dormancy"
         ],
         "correct_answer": "Vernalization",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_267",
@@ -17352,7 +18220,9 @@
           "Cattail"
         ],
         "correct_answer": "Victoria amazonica (giant water lily)",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_268",
@@ -17366,7 +18236,9 @@
           "Century plant"
         ],
         "correct_answer": "Blue agave",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_001",
@@ -17988,7 +18860,9 @@
           "Eucalyptus"
         ],
         "correct_answer": "Coast redwood",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_233",
@@ -18002,7 +18876,9 @@
           "Japanese maple"
         ],
         "correct_answer": "Sugar maple",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_236",
@@ -18016,7 +18892,9 @@
           "Baobab"
         ],
         "correct_answer": "Bristlecone pine",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_239",
@@ -18030,7 +18908,9 @@
           "Citrus tree"
         ],
         "correct_answer": "Olive tree",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_240",
@@ -18044,7 +18924,9 @@
           "Osmosis"
         ],
         "correct_answer": "Transpiration",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_241",
@@ -18058,7 +18940,9 @@
           "Lotus tree"
         ],
         "correct_answer": "Bodhi tree (fig)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_242",
@@ -18072,7 +18956,9 @@
           "Lodgepole pine"
         ],
         "correct_answer": "Stone pine",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_243",
@@ -18086,7 +18972,9 @@
           "Bay tree"
         ],
         "correct_answer": "Cinnamon tree",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_244",
@@ -18100,7 +18988,9 @@
           "Maple"
         ],
         "correct_answer": "Cherry blossom (sakura)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_246",
@@ -18114,7 +19004,9 @@
           "Birch"
         ],
         "correct_answer": "Ash or maple",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_247",
@@ -18128,7 +19020,9 @@
           "Pecan tree"
         ],
         "correct_answer": "Chestnut tree",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_248",
@@ -18142,7 +19036,9 @@
           "Willow"
         ],
         "correct_answer": "Bamboo (technically grass but tree-like)",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_249",
@@ -18156,7 +19052,9 @@
           "Live oak"
         ],
         "correct_answer": "Cork oak",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_250",
@@ -18170,7 +19068,9 @@
           "Cedar tree"
         ],
         "correct_answer": "Boswellia tree",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_251",
@@ -18184,7 +19084,9 @@
           "Taxodium distichum"
         ],
         "correct_answer": "Sequoiadendron giganteum",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_252",
@@ -18198,7 +19100,9 @@
           "Pine bark beetle"
         ],
         "correct_answer": "Emerald ash borer",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_253",
@@ -18212,7 +19116,9 @@
           "Silviculture"
         ],
         "correct_answer": "Dendrochronology",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_254",
@@ -18226,7 +19132,9 @@
           "Bunya pine"
         ],
         "correct_answer": "Wollemi pine",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_256",
@@ -18240,7 +19148,9 @@
           "Poppy tree"
         ],
         "correct_answer": "Cinchona tree",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_257",
@@ -18254,7 +19164,9 @@
           "Polygamous"
         ],
         "correct_answer": "Monoecious",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_258",
@@ -18268,7 +19180,9 @@
           "Monkey puzzle"
         ],
         "correct_answer": "Dawn redwood",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_259",
@@ -18282,7 +19196,9 @@
           "Fagaceae"
         ],
         "correct_answer": "Meliaceae",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_260",
@@ -18296,7 +19212,9 @@
           "Reproductive pulsing"
         ],
         "correct_answer": "Masting",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_231",
@@ -18310,7 +19228,9 @@
           "Silver maple"
         ],
         "correct_answer": "Sugar maple",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_234",
@@ -18324,7 +19244,9 @@
           "Tropical"
         ],
         "correct_answer": "Coniferous evergreens",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_235",
@@ -18338,7 +19260,9 @@
           "Banana tree"
         ],
         "correct_answer": "Cacao tree (Theobroma cacao)",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_237",
@@ -18352,7 +19276,9 @@
           "All of the above"
         ],
         "correct_answer": "All of the above",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_238",
@@ -18366,7 +19292,9 @@
           "Joshua tree"
         ],
         "correct_answer": "Coast redwood",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_245",
@@ -18380,7 +19308,9 @@
           "Fever tree"
         ],
         "correct_answer": "Baobab",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_255",
@@ -18394,7 +19324,9 @@
           "Maple"
         ],
         "correct_answer": "Pernambuco",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_003",
@@ -19192,7 +20124,9 @@
           "Ice"
         ],
         "correct_answer": "Hail or sleet",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_287",
@@ -19206,7 +20140,9 @@
           "Cyclone"
         ],
         "correct_answer": "Waterspout",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_289",
@@ -19220,7 +20156,9 @@
           "Condensation point"
         ],
         "correct_answer": "Dew point",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_290",
@@ -19234,7 +20172,9 @@
           "Volcanic ash"
         ],
         "correct_answer": "Solar wind particles interacting with Earth's atmosphere",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_294",
@@ -19248,7 +20188,9 @@
           "Desiccation"
         ],
         "correct_answer": "Drought",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_295",
@@ -19262,7 +20204,9 @@
           "Vapor"
         ],
         "correct_answer": "Virga",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_296",
@@ -19276,7 +20220,9 @@
           "A dust storm"
         ],
         "correct_answer": "A widespread, long-lived windstorm",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_297",
@@ -19290,7 +20236,9 @@
           "Reflection of moonlight"
         ],
         "correct_answer": "Electrical discharge in the atmosphere",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_298",
@@ -19304,7 +20252,9 @@
           "Crepuscular ray"
         ],
         "correct_answer": "Parhelion",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_299",
@@ -19318,7 +20268,9 @@
           "Thermosphere"
         ],
         "correct_answer": "Stratosphere",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_288",
@@ -19332,7 +20284,9 @@
           "Subsidence"
         ],
         "correct_answer": "Temperature inversion",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_291",
@@ -19346,7 +20300,9 @@
           "Nimbus"
         ],
         "correct_answer": "Cirrus",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_292",
@@ -19360,7 +20316,9 @@
           "Core"
         ],
         "correct_answer": "Vortex",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_293",
@@ -19374,7 +20332,9 @@
           "Thermocline"
         ],
         "correct_answer": "Front",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_300",
@@ -19388,7 +20348,9 @@
           "Williwaw"
         ],
         "correct_answer": "Williwaw",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_012",
@@ -19658,7 +20620,9 @@
           "Arctic Ocean"
         ],
         "correct_answer": "Pacific Ocean",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_302",
@@ -19672,7 +20636,9 @@
           "Sperm whale"
         ],
         "correct_answer": "Blue whale",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_303",
@@ -19686,7 +20652,9 @@
           "Butterflyfish"
         ],
         "correct_answer": "Clownfish",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_304",
@@ -19700,7 +20668,9 @@
           "Spiracle"
         ],
         "correct_answer": "Blowhole",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_305",
@@ -19714,7 +20684,9 @@
           "Cub"
         ],
         "correct_answer": "Pup",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_307",
@@ -19728,7 +20700,9 @@
           "Ocean currents only"
         ],
         "correct_answer": "Earth's magnetic field",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_308",
@@ -19742,7 +20716,9 @@
           "Keratin"
         ],
         "correct_answer": "Calcium carbonate",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_309",
@@ -19756,7 +20732,9 @@
           "4"
         ],
         "correct_answer": "5",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_310",
@@ -19770,7 +20748,9 @@
           "All of the above"
         ],
         "correct_answer": "All of the above",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_311",
@@ -19784,7 +20764,9 @@
           "Swordfish"
         ],
         "correct_answer": "Sailfish",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_313",
@@ -19798,7 +20780,9 @@
           "Shells"
         ],
         "correct_answer": "Coral",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_314",
@@ -19812,7 +20796,9 @@
           "50%"
         ],
         "correct_answer": "71%",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_315",
@@ -19826,7 +20812,9 @@
           "Puerto Rico Trench"
         ],
         "correct_answer": "Mariana Trench",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_316",
@@ -19840,7 +20828,9 @@
           "Humboldt Current"
         ],
         "correct_answer": "Gulf Stream",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_317",
@@ -19854,7 +20844,9 @@
           "Limnology"
         ],
         "correct_answer": "Oceanography",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_318",
@@ -19868,7 +20860,9 @@
           "Sea lion"
         ],
         "correct_answer": "Sea otter",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_319",
@@ -19882,7 +20876,9 @@
           "Camouflage ability"
         ],
         "correct_answer": "Production of light through chemical reactions",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_320",
@@ -19896,7 +20892,9 @@
           "Minke whale"
         ],
         "correct_answer": "Humpback whale",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_321",
@@ -19910,7 +20908,9 @@
           "Competition"
         ],
         "correct_answer": "Mutualism",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_322",
@@ -19924,7 +20924,9 @@
           "Seal"
         ],
         "correct_answer": "Dolphin",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_323",
@@ -19938,7 +20940,9 @@
           "Cone snail"
         ],
         "correct_answer": "Box jellyfish",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_324",
@@ -19952,7 +20956,9 @@
           "Chemical signals"
         ],
         "correct_answer": "Echolocation clicks and whistles",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_325",
@@ -19966,7 +20972,9 @@
           "Electric ray"
         ],
         "correct_answer": "Manta ray",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_326",
@@ -19980,7 +20988,9 @@
           "Whale shark"
         ],
         "correct_answer": "Giant squid",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_327",
@@ -19994,7 +21004,9 @@
           "1,500 meters"
         ],
         "correct_answer": "3,688 meters",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_328",
@@ -20008,7 +21020,9 @@
           "Crustaceans"
         ],
         "correct_answer": "Seagrass and aquatic plants",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_329",
@@ -20022,7 +21036,9 @@
           "All of the above"
         ],
         "correct_answer": "All of the above",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_330",
@@ -20036,7 +21052,9 @@
           "Abyssopelagic zone"
         ],
         "correct_answer": "Epipelagic zone",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_332",
@@ -20050,7 +21068,9 @@
           "Balaenoptera musculus"
         ],
         "correct_answer": "Orcinus orca",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_333",
@@ -20064,7 +21084,9 @@
           "10,000 meters"
         ],
         "correct_answer": "6,000 meters",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_334",
@@ -20078,7 +21100,9 @@
           "Coral mortality"
         ],
         "correct_answer": "Coral bleaching",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_335",
@@ -20092,7 +21116,9 @@
           "Minke whale"
         ],
         "correct_answer": "Gray whale",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_336",
@@ -20106,7 +21132,9 @@
           "Bacteria"
         ],
         "correct_answer": "Plankton",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_337",
@@ -20120,7 +21148,9 @@
           "Bubble circle feeding"
         ],
         "correct_answer": "Bubble net feeding",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_338",
@@ -20134,7 +21164,9 @@
           "Tuna"
         ],
         "correct_answer": "Ocean sunfish (Mola mola)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_339",
@@ -20148,7 +21180,9 @@
           "Kermadec Trench"
         ],
         "correct_answer": "Challenger Deep in the Mariana Trench",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_340",
@@ -20162,7 +21196,9 @@
           "50 years"
         ],
         "correct_answer": "400+ years",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_341",
@@ -20176,7 +21212,9 @@
           "All of the above"
         ],
         "correct_answer": "All of the above",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_342",
@@ -20190,7 +21228,9 @@
           "Manatees"
         ],
         "correct_answer": "Cetaceans (whales, dolphins, porpoises)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_343",
@@ -20204,7 +21244,9 @@
           "Halocline"
         ],
         "correct_answer": "Upwelling",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_344",
@@ -20218,7 +21260,9 @@
           "Orca"
         ],
         "correct_answer": "Narwhal",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_306",
@@ -20232,7 +21276,9 @@
           "Walrus"
         ],
         "correct_answer": "Sea otter",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_331",
@@ -20246,7 +21292,9 @@
           "Abyssopelagic zone"
         ],
         "correct_answer": "Mesopelagic zone",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "nat_312",
@@ -20260,7 +21308,9 @@
           "Amphidromous"
         ],
         "correct_answer": "Diadromous",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "History": [
@@ -24532,7 +25582,9 @@
           "Saint James"
         ],
         "correct_answer": "Saint Peter",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_272",
@@ -24546,7 +25598,9 @@
           "Epiphany"
         ],
         "correct_answer": "Easter",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_275",
@@ -24560,7 +25614,9 @@
           "The Crusades"
         ],
         "correct_answer": "The Great Schism",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_276",
@@ -24574,7 +25630,9 @@
           "Martin Luther"
         ],
         "correct_answer": "John Wycliffe",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_278",
@@ -24588,7 +25646,9 @@
           "Diocletian"
         ],
         "correct_answer": "Constantine",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_279",
@@ -24602,7 +25662,9 @@
           "Peace of Augsburg"
         ],
         "correct_answer": "Peace of Westphalia",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_281",
@@ -24616,7 +25678,9 @@
           "Nestorianism"
         ],
         "correct_answer": "Arianism",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_282",
@@ -24630,7 +25694,9 @@
           "Pope Leo IX"
         ],
         "correct_answer": "Pope Urban II",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_283",
@@ -24644,7 +25710,9 @@
           "Treaty of Westphalia"
         ],
         "correct_answer": "Peace of Augsburg",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_284",
@@ -24658,7 +25726,9 @@
           "Ambrose"
         ],
         "correct_answer": "Augustine of Hippo",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_285",
@@ -24672,7 +25742,9 @@
           "Clericis Laicos"
         ],
         "correct_answer": "Decet Romanum Pontificem",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_287",
@@ -24686,7 +25758,9 @@
           "Council of Basel"
         ],
         "correct_answer": "Council of Trent",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_288",
@@ -24700,7 +25774,9 @@
           "Hoplites"
         ],
         "correct_answer": "Knights",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_289",
@@ -24714,7 +25790,9 @@
           "Religious authority"
         ],
         "correct_answer": "Land ownership and loyalty",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_290",
@@ -24728,7 +25806,9 @@
           "Aqueduct"
         ],
         "correct_answer": "Moat",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_292",
@@ -24742,7 +25822,9 @@
           "A famine"
         ],
         "correct_answer": "A devastating plague",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_294",
@@ -24756,7 +25838,9 @@
           "Pilgrimages"
         ],
         "correct_answer": "Crusades",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_295",
@@ -24770,7 +25854,9 @@
           "Marie Antoinette"
         ],
         "correct_answer": "Joan of Arc",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_297",
@@ -24784,7 +25870,9 @@
           "Province"
         ],
         "correct_answer": "Manor",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_298",
@@ -24798,7 +25886,9 @@
           "Cooperatives"
         ],
         "correct_answer": "Guilds",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_300",
@@ -24812,7 +25902,9 @@
           "Huns"
         ],
         "correct_answer": "Norsemen",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_270",
@@ -24826,7 +25918,9 @@
           "Anglicanism"
         ],
         "correct_answer": "Anabaptism",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_273",
@@ -24840,7 +25934,9 @@
           "A monastic reform"
         ],
         "correct_answer": "A religious revival in America",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_274",
@@ -24854,7 +25950,9 @@
           "Wycliffe Bible"
         ],
         "correct_answer": "Tyndale Bible",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_277",
@@ -24868,7 +25966,9 @@
           "Anglican"
         ],
         "correct_answer": "Reformed/Presbyterian",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_280",
@@ -24882,7 +25982,9 @@
           "Crusades"
         ],
         "correct_answer": "Enforcing Catholic orthodoxy",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_286",
@@ -24896,7 +25998,9 @@
           "Montanism"
         ],
         "correct_answer": "Manichaeism",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_291",
@@ -24910,7 +26014,9 @@
           "Halberd"
         ],
         "correct_answer": "Longbow",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_293",
@@ -24924,7 +26030,9 @@
           "Sharecropping"
         ],
         "correct_answer": "Serfdom",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_296",
@@ -24938,7 +26046,9 @@
           "Gatehouse"
         ],
         "correct_answer": "Keep",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_299",
@@ -24952,7 +26062,9 @@
           "Halberd"
         ],
         "correct_answer": "Flail",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_271",
@@ -24966,7 +26078,9 @@
           "Septuagint"
         ],
         "correct_answer": "Gutenberg Bible",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_073",
@@ -24980,7 +26094,9 @@
           "Carthusian Order"
         ],
         "correct_answer": "Franciscan Order",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "his_075",
@@ -24994,7 +26110,9 @@
           "1453"
         ],
         "correct_answer": "1054",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Bible": [
@@ -29266,7 +30384,9 @@
           "40"
         ],
         "correct_answer": "22",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_279",
@@ -29280,7 +30400,9 @@
           "4"
         ],
         "correct_answer": "2",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_280",
@@ -29294,7 +30416,9 @@
           "7"
         ],
         "correct_answer": "4",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_283",
@@ -29308,7 +30432,9 @@
           "Latin"
         ],
         "correct_answer": "Greek",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_286",
@@ -29322,7 +30448,9 @@
           "King of kings"
         ],
         "correct_answer": "The Lord saves",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_288",
@@ -29336,7 +30464,9 @@
           "Lord"
         ],
         "correct_answer": "Anointed One",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_289",
@@ -29350,7 +30480,9 @@
           "Seventh"
         ],
         "correct_answer": "Rest",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_290",
@@ -29364,7 +30496,9 @@
           "Forever"
         ],
         "correct_answer": "Pause/Reflect",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_292",
@@ -29378,7 +30512,9 @@
           "Greek"
         ],
         "correct_answer": "Babylonian",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_293",
@@ -29392,7 +30528,9 @@
           "Egyptian"
         ],
         "correct_answer": "Assyrian",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_294",
@@ -29406,7 +30544,9 @@
           "Roman"
         ],
         "correct_answer": "Persian",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_295",
@@ -29420,7 +30560,9 @@
           "Babylonian"
         ],
         "correct_answer": "Roman",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_296",
@@ -29434,7 +30576,9 @@
           "Hebron"
         ],
         "correct_answer": "Jerusalem",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_297",
@@ -29448,7 +30592,9 @@
           "Honor your parents"
         ],
         "correct_answer": "Love God and love your neighbor",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_298",
@@ -29462,7 +30608,9 @@
           "Penance for sins"
         ],
         "correct_answer": "Being made right with God through faith",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_299",
@@ -29476,7 +30624,9 @@
           "Religious rituals"
         ],
         "correct_answer": "Unmerited favor from God",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_300",
@@ -29490,7 +30640,9 @@
           "Good deeds"
         ],
         "correct_answer": "Spiritual rebirth through faith in Christ",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_267",
@@ -29504,7 +30656,9 @@
           "Dove"
         ],
         "correct_answer": "Donkey",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_268",
@@ -29518,7 +30672,9 @@
           "Nothing"
         ],
         "correct_answer": "A stone",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_270",
@@ -29532,7 +30688,9 @@
           "Sparrow"
         ],
         "correct_answer": "Raven",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_271",
@@ -29546,7 +30704,9 @@
           "12"
         ],
         "correct_answer": "3",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_273",
@@ -29560,7 +30720,9 @@
           "12 loaves and 2 fish"
         ],
         "correct_answer": "5 loaves and 2 fish",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_274",
@@ -29574,7 +30736,9 @@
           "50"
         ],
         "correct_answer": "20",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_281",
@@ -29588,7 +30752,9 @@
           "Blue"
         ],
         "correct_answer": "Purple",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_287",
@@ -29602,7 +30768,9 @@
           "King"
         ],
         "correct_answer": "God",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_291",
@@ -29616,7 +30784,9 @@
           "Deceiver"
         ],
         "correct_answer": "Lord of the flies",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_278",
@@ -29630,7 +30800,9 @@
           "Honey"
         ],
         "correct_answer": "Manna",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_282",
@@ -29644,7 +30816,9 @@
           "Father"
         ],
         "correct_answer": "Teacher",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_284",
@@ -29658,7 +30832,9 @@
           "All answers are correct"
         ],
         "correct_answer": "All answers are correct",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_269",
@@ -29672,7 +30848,9 @@
           "Haggai"
         ],
         "correct_answer": "Nehemiah",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_275",
@@ -29686,7 +30864,9 @@
           "Thomas"
         ],
         "correct_answer": "Matthew",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_277",
@@ -29700,7 +30880,9 @@
           "Deborah"
         ],
         "correct_answer": "Anna",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_285",
@@ -29714,7 +30896,9 @@
           "Prophet"
         ],
         "correct_answer": "Helper/Comforter",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "bib_272",
@@ -29728,7 +30912,9 @@
           "Delilah"
         ],
         "correct_answer": "The Bible doesn't give her a name",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Food": [
@@ -34192,7 +35378,9 @@
           "Hollandaise"
         ],
         "correct_answer": "Béchamel",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_281",
@@ -34206,7 +35394,9 @@
           "Hot sauce"
         ],
         "correct_answer": "Soy sauce",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_282",
@@ -34220,7 +35410,9 @@
           "Mustard"
         ],
         "correct_answer": "Garlic",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_283",
@@ -34234,7 +35426,9 @@
           "Mornay"
         ],
         "correct_answer": "Hollandaise",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_284",
@@ -34248,7 +35442,9 @@
           "Cream cheese"
         ],
         "correct_answer": "Mayonnaise",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_285",
@@ -34262,7 +35458,9 @@
           "Teriyaki sauce"
         ],
         "correct_answer": "Sambal oelek",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_286",
@@ -34276,7 +35474,9 @@
           "14th century"
         ],
         "correct_answer": "16th century",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_287",
@@ -34290,7 +35490,9 @@
           "Kiwi"
         ],
         "correct_answer": "Avocado",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_288",
@@ -34304,7 +35506,9 @@
           "Egyptian"
         ],
         "correct_answer": "Maya",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_289",
@@ -34318,7 +35522,9 @@
           "Tomato"
         ],
         "correct_answer": "Potato",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_290",
@@ -34332,7 +35538,9 @@
           "Germany"
         ],
         "correct_answer": "Belgium",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_291",
@@ -34346,7 +35554,9 @@
           "Crackers"
         ],
         "correct_answer": "Freeze-dried fruit",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_295",
@@ -34360,7 +35570,9 @@
           "All of the above"
         ],
         "correct_answer": "All of the above",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_296",
@@ -34374,7 +35586,9 @@
           "Oolong tea"
         ],
         "correct_answer": "Black tea",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_297",
@@ -34388,7 +35602,9 @@
           "Whiskey"
         ],
         "correct_answer": "Vodka",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_298",
@@ -34402,7 +35618,9 @@
           "Biryani"
         ],
         "correct_answer": "Paella",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_292",
@@ -34416,7 +35634,9 @@
           "Gugelhupf"
         ],
         "correct_answer": "Apple strudel",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_293",
@@ -34430,7 +35650,9 @@
           "Arroz con leche"
         ],
         "correct_answer": "Crema catalana",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_294",
@@ -34444,7 +35666,9 @@
           "Sfogliatelle"
         ],
         "correct_answer": "Cannoli",
-        "difficulty": "medium"
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_299",
@@ -34458,7 +35682,9 @@
           "Souvlaki"
         ],
         "correct_answer": "Dolmades",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_300",
@@ -34472,7 +35698,9 @@
           "Poaching"
         ],
         "correct_answer": "Sweating (étuver)",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       },
       {
         "id": "foo_279",
@@ -34486,7 +35714,9 @@
           "Sambal"
         ],
         "correct_answer": "Harissa",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ]
   }

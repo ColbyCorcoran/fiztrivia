@@ -13219,6 +13219,986 @@
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "nat_232",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the tallest species of tree in the world?",
+        "options": [
+          "Coast redwood",
+          "Giant sequoia",
+          "Douglas fir",
+          "Eucalyptus"
+        ],
+        "correct_answer": "Coast redwood",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_233",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What type of tree produces maple syrup?",
+        "options": [
+          "Sugar maple",
+          "Red maple",
+          "Silver maple",
+          "Japanese maple"
+        ],
+        "correct_answer": "Sugar maple",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_236",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the oldest known living tree species?",
+        "options": [
+          "Bristlecone pine",
+          "Ginkgo",
+          "Redwood",
+          "Baobab"
+        ],
+        "correct_answer": "Bristlecone pine",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_239",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree produces the fruit that olives come from?",
+        "options": [
+          "Olive tree",
+          "Fig tree",
+          "Date palm",
+          "Citrus tree"
+        ],
+        "correct_answer": "Olive tree",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_240",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the scientific name for the process trees use to transport water?",
+        "options": [
+          "Transpiration",
+          "Photosynthesis",
+          "Respiration",
+          "Osmosis"
+        ],
+        "correct_answer": "Transpiration",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_241",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree is sacred in Buddhism?",
+        "options": [
+          "Bodhi tree (fig)",
+          "Banyan tree",
+          "Sal tree",
+          "Lotus tree"
+        ],
+        "correct_answer": "Bodhi tree (fig)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_242",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What coniferous tree is known for its edible pine nuts?",
+        "options": [
+          "Stone pine",
+          "White pine",
+          "Scots pine",
+          "Lodgepole pine"
+        ],
+        "correct_answer": "Stone pine",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_243",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree produces the spice cinnamon from its bark?",
+        "options": [
+          "Cinnamon tree",
+          "Nutmeg tree",
+          "Clove tree",
+          "Bay tree"
+        ],
+        "correct_answer": "Cinnamon tree",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_244",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the national tree of Japan?",
+        "options": [
+          "Cherry blossom (sakura)",
+          "Bamboo",
+          "Pine",
+          "Maple"
+        ],
+        "correct_answer": "Cherry blossom (sakura)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_246",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What wood is traditionally used to make baseball bats?",
+        "options": [
+          "Ash or maple",
+          "Oak",
+          "Pine",
+          "Birch"
+        ],
+        "correct_answer": "Ash or maple",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_247",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree produces chestnuts?",
+        "options": [
+          "Chestnut tree",
+          "Walnut tree",
+          "Hickory tree",
+          "Pecan tree"
+        ],
+        "correct_answer": "Chestnut tree",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_248",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the fastest-growing tree species?",
+        "options": [
+          "Bamboo (technically grass but tree-like)",
+          "Eucalyptus",
+          "Poplar",
+          "Willow"
+        ],
+        "correct_answer": "Bamboo (technically grass but tree-like)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_249",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree is cork harvested from?",
+        "options": [
+          "Cork oak",
+          "White oak",
+          "Red oak",
+          "Live oak"
+        ],
+        "correct_answer": "Cork oak",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_250",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree produces the aromatic resin frankincense?",
+        "options": [
+          "Boswellia tree",
+          "Myrrh tree",
+          "Balsam tree",
+          "Cedar tree"
+        ],
+        "correct_answer": "Boswellia tree",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_251",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the scientific name for the giant sequoia?",
+        "options": [
+          "Sequoiadendron giganteum",
+          "Sequoia sempervirens",
+          "Metasequoia glyptostroboides",
+          "Taxodium distichum"
+        ],
+        "correct_answer": "Sequoiadendron giganteum",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_252",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree disease has devastated ash trees in North America?",
+        "options": [
+          "Emerald ash borer",
+          "Dutch elm disease",
+          "Chestnut blight",
+          "Pine bark beetle"
+        ],
+        "correct_answer": "Emerald ash borer",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_253",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the term for the study of tree rings?",
+        "options": [
+          "Dendrochronology",
+          "Dendrology",
+          "Xylology",
+          "Silviculture"
+        ],
+        "correct_answer": "Dendrochronology",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_254",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What endangered tree species is native only to Wollemi National Park in Australia?",
+        "options": [
+          "Wollemi pine",
+          "Huon pine",
+          "Kauri pine",
+          "Bunya pine"
+        ],
+        "correct_answer": "Wollemi pine",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_256",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree produces the alkaloid quinine used to treat malaria?",
+        "options": [
+          "Cinchona tree",
+          "Willow tree",
+          "Coca tree",
+          "Poppy tree"
+        ],
+        "correct_answer": "Cinchona tree",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_257",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the term for trees that have both male and female flowers on the same tree?",
+        "options": [
+          "Monoecious",
+          "Dioecious",
+          "Hermaphroditic",
+          "Polygamous"
+        ],
+        "correct_answer": "Monoecious",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_258",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What living fossil tree was thought extinct until rediscovered in China in 1941?",
+        "options": [
+          "Dawn redwood",
+          "Ginkgo",
+          "Wollemi pine",
+          "Monkey puzzle"
+        ],
+        "correct_answer": "Dawn redwood",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_259",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree family includes mahogany and teak?",
+        "options": [
+          "Meliaceae",
+          "Fabaceae",
+          "Lauraceae",
+          "Fagaceae"
+        ],
+        "correct_answer": "Meliaceae",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_260",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the phenomenon where trees synchronize their mast years for seed production?",
+        "options": [
+          "Masting",
+          "Seeding synchrony",
+          "Fruiting cycle",
+          "Reproductive pulsing"
+        ],
+        "correct_answer": "Masting",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_261",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the national flower of the United States?",
+        "options": [
+          "Rose",
+          "Tulip",
+          "Daisy",
+          "Sunflower"
+        ],
+        "correct_answer": "Rose",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_262",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower is associated with the Netherlands?",
+        "options": [
+          "Tulip",
+          "Rose",
+          "Lily",
+          "Carnation"
+        ],
+        "correct_answer": "Tulip",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_263",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant is aloe vera used from?",
+        "options": [
+          "Aloe plant",
+          "Cactus",
+          "Succulent",
+          "Fern"
+        ],
+        "correct_answer": "Aloe plant",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_264",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What type of plant is bamboo?",
+        "options": [
+          "Grass",
+          "Tree",
+          "Shrub",
+          "Vine"
+        ],
+        "correct_answer": "Grass",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_265",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower is the symbol of remembrance for veterans?",
+        "options": [
+          "Poppy",
+          "Rose",
+          "Lily",
+          "Daisy"
+        ],
+        "correct_answer": "Poppy",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_266",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant produces vanilla flavoring?",
+        "options": [
+          "Vanilla orchid",
+          "Vanilla bean plant",
+          "Vanilla vine",
+          "Vanilla tree"
+        ],
+        "correct_answer": "Vanilla orchid",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_269",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is lavender commonly used for?",
+        "options": [
+          "Aromatherapy and relaxation",
+          "Cooking only",
+          "Medicine only",
+          "Dye production"
+        ],
+        "correct_answer": "Aromatherapy and relaxation",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_270",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower blooms in spring and is associated with Easter?",
+        "options": [
+          "Lily",
+          "Rose",
+          "Tulip",
+          "Daisy"
+        ],
+        "correct_answer": "Lily",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_271",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What carnivorous plant is native to the Carolinas?",
+        "options": [
+          "Venus flytrap",
+          "Pitcher plant",
+          "Sundew",
+          "Butterwort"
+        ],
+        "correct_answer": "Venus flytrap",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_272",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the national flower of Japan?",
+        "options": [
+          "Cherry blossom",
+          "Chrysanthemum",
+          "Lotus",
+          "Plum blossom"
+        ],
+        "correct_answer": "Cherry blossom",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_273",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower bulb was so valuable it caused a market crash in 17th century Netherlands?",
+        "options": [
+          "Tulip",
+          "Daffodil",
+          "Hyacinth",
+          "Crocus"
+        ],
+        "correct_answer": "Tulip",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_274",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the term for plants that complete their life cycle in two years?",
+        "options": [
+          "Biennials",
+          "Annuals",
+          "Perennials",
+          "Ephemerals"
+        ],
+        "correct_answer": "Biennials",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_275",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant genus includes poison ivy, poison oak, and poison sumac?",
+        "options": [
+          "Toxicodendron",
+          "Rhus",
+          "Urtica",
+          "Hedera"
+        ],
+        "correct_answer": "Toxicodendron",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_276",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the world's most expensive spice by weight?",
+        "options": [
+          "Saffron",
+          "Vanilla",
+          "Cardamom",
+          "Cinnamon"
+        ],
+        "correct_answer": "Saffron",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_277",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower is the symbol of the fleur-de-lis?",
+        "options": [
+          "Iris",
+          "Lily",
+          "Orchid",
+          "Lotus"
+        ],
+        "correct_answer": "Iris",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_278",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What plant produces the psychoactive compound in cannabis?",
+        "options": [
+          "THC (tetrahydrocannabinol)",
+          "CBD",
+          "Hemp",
+          "Marijuana"
+        ],
+        "correct_answer": "THC (tetrahydrocannabinol)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_279",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the process by which pollen is transferred to fertilize plants?",
+        "options": [
+          "Pollination",
+          "Germination",
+          "Fertilization",
+          "Propagation"
+        ],
+        "correct_answer": "Pollination",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_280",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What desert plant can live for over 200 years and only blooms once before dying?",
+        "options": [
+          "Century plant (agave)",
+          "Joshua tree",
+          "Barrel cactus",
+          "Saguaro cactus"
+        ],
+        "correct_answer": "Century plant (agave)",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_281",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the scientific term for the opening on leaves that allows gas exchange?",
+        "options": [
+          "Stomata",
+          "Lenticels",
+          "Cuticle",
+          "Epidermis"
+        ],
+        "correct_answer": "Stomata",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_282",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flower produces opium?",
+        "options": [
+          "Opium poppy (Papaver somniferum)",
+          "Corn poppy",
+          "Oriental poppy",
+          "Iceland poppy"
+        ],
+        "correct_answer": "Opium poppy (Papaver somniferum)",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_283",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the term for plants that grow on other plants without being parasitic?",
+        "options": [
+          "Epiphytes",
+          "Parasites",
+          "Saprophytes",
+          "Lithophytes"
+        ],
+        "correct_answer": "Epiphytes",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_284",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What rare parasitic flower is known as the 'corpse flower' for its smell?",
+        "options": [
+          "Rafflesia",
+          "Amorphophallus titanum",
+          "Stapelia",
+          "Aristolochia"
+        ],
+        "correct_answer": "Rafflesia",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_285",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the phenomenon where some plants flower only after exposure to cold temperatures?",
+        "options": [
+          "Vernalization",
+          "Photoperiodism",
+          "Stratification",
+          "Dormancy"
+        ],
+        "correct_answer": "Vernalization",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_286",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What do you call frozen rain?",
+        "options": [
+          "Hail or sleet",
+          "Snow",
+          "Frost",
+          "Ice"
+        ],
+        "correct_answer": "Hail or sleet",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_287",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is a tornado over water called?",
+        "options": [
+          "Waterspout",
+          "Hurricane",
+          "Typhoon",
+          "Cyclone"
+        ],
+        "correct_answer": "Waterspout",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_289",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the term for the temperature at which air becomes saturated and dew forms?",
+        "options": [
+          "Dew point",
+          "Frost point",
+          "Saturation point",
+          "Condensation point"
+        ],
+        "correct_answer": "Dew point",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_290",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What causes the aurora borealis (northern lights)?",
+        "options": [
+          "Solar wind particles interacting with Earth's atmosphere",
+          "Ice crystals in the atmosphere",
+          "Pollution",
+          "Volcanic ash"
+        ],
+        "correct_answer": "Solar wind particles interacting with Earth's atmosphere",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_294",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is a long period of abnormally low rainfall called?",
+        "options": [
+          "Drought",
+          "Dry spell",
+          "Aridity",
+          "Desiccation"
+        ],
+        "correct_answer": "Drought",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_295",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the term for rain that evaporates before reaching the ground?",
+        "options": [
+          "Virga",
+          "Drizzle",
+          "Mist",
+          "Vapor"
+        ],
+        "correct_answer": "Virga",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_296",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is a derecho?",
+        "options": [
+          "A widespread, long-lived windstorm",
+          "A type of tornado",
+          "A tropical cyclone",
+          "A dust storm"
+        ],
+        "correct_answer": "A widespread, long-lived windstorm",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_297",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What phenomenon causes 'St. Elmo's Fire'?",
+        "options": [
+          "Electrical discharge in the atmosphere",
+          "Ball lightning",
+          "Aurora",
+          "Reflection of moonlight"
+        ],
+        "correct_answer": "Electrical discharge in the atmosphere",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_298",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the scientific name for a sun dog (parhelion)?",
+        "options": [
+          "Parhelion",
+          "Halo",
+          "Sun pillar",
+          "Crepuscular ray"
+        ],
+        "correct_answer": "Parhelion",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_299",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What layer of the atmosphere contains the ozone layer?",
+        "options": [
+          "Stratosphere",
+          "Troposphere",
+          "Mesosphere",
+          "Thermosphere"
+        ],
+        "correct_answer": "Stratosphere",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_231",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree is known for producing sweet sap used in syrup production in spring?",
+        "options": [
+          "Sugar maple",
+          "Black maple",
+          "Red maple",
+          "Silver maple"
+        ],
+        "correct_answer": "Sugar maple",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_234",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the term for trees that retain their needles year-round?",
+        "options": [
+          "Coniferous evergreens",
+          "Deciduous",
+          "Broadleaf",
+          "Tropical"
+        ],
+        "correct_answer": "Coniferous evergreens",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_235",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tropical tree produces cacao beans for chocolate?",
+        "options": [
+          "Cacao tree (Theobroma cacao)",
+          "Coffee tree",
+          "Rubber tree",
+          "Banana tree"
+        ],
+        "correct_answer": "Cacao tree (Theobroma cacao)",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_237",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What tree has bark that naturally peels in papery layers?",
+        "options": [
+          "Birch",
+          "Sycamore",
+          "Eucalyptus",
+          "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_238",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What is the state tree of California?",
+        "options": [
+          "Coast redwood",
+          "Giant sequoia",
+          "Douglas fir",
+          "Joshua tree"
+        ],
+        "correct_answer": "Coast redwood",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_245",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What African tree can store thousands of gallons of water in its trunk?",
+        "options": [
+          "Baobab",
+          "Acacia",
+          "Marula",
+          "Fever tree"
+        ],
+        "correct_answer": "Baobab",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_255",
+        "category": "Nature",
+        "subcategory": "Trees",
+        "question": "What wood is traditionally used for violin bows?",
+        "options": [
+          "Pernambuco",
+          "Ebony",
+          "Rosewood",
+          "Maple"
+        ],
+        "correct_answer": "Pernambuco",
+        "difficulty": "hard"
+      },
+      {
+        "id": "nat_267",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What aquatic plant has leaves so large they can support the weight of a small child?",
+        "options": [
+          "Victoria amazonica (giant water lily)",
+          "Lotus",
+          "Water hyacinth",
+          "Cattail"
+        ],
+        "correct_answer": "Victoria amazonica (giant water lily)",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_268",
+        "category": "Nature",
+        "subcategory": "Plants & Flowers",
+        "question": "What flowering plant is used to make tequila?",
+        "options": [
+          "Blue agave",
+          "Aloe vera",
+          "Prickly pear",
+          "Century plant"
+        ],
+        "correct_answer": "Blue agave",
+        "difficulty": "easy"
+      },
+      {
+        "id": "nat_288",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the phenomenon where warm air traps cooler air near the surface?",
+        "options": [
+          "Temperature inversion",
+          "Thermal",
+          "Convection",
+          "Subsidence"
+        ],
+        "correct_answer": "Temperature inversion",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_291",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What are wispy, high-altitude clouds made of ice crystals called?",
+        "options": [
+          "Cirrus",
+          "Cumulus",
+          "Stratus",
+          "Nimbus"
+        ],
+        "correct_answer": "Cirrus",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_292",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the rotating column of air at the center of a tornado called?",
+        "options": [
+          "Vortex",
+          "Eye",
+          "Funnel",
+          "Core"
+        ],
+        "correct_answer": "Vortex",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_293",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is the boundary between two air masses of different temperatures called?",
+        "options": [
+          "Front",
+          "Jet stream",
+          "Pressure gradient",
+          "Thermocline"
+        ],
+        "correct_answer": "Front",
+        "difficulty": "medium"
+      },
+      {
+        "id": "nat_300",
+        "category": "Nature",
+        "subcategory": "Weather",
+        "question": "What is a sudden, violent windstorm in mountainous areas called?",
+        "options": [
+          "Foehn wind",
+          "Katabatic wind",
+          "Chinook",
+          "Williwaw"
+        ],
+        "correct_answer": "Williwaw",
+        "difficulty": "hard"
       }
     ],
     "History": [

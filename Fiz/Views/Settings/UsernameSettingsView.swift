@@ -5,6 +5,11 @@ struct UsernameSettingsView: View {
     @State private var editedUsername: String = ""
     @State private var isEditingUsername = false
 
+    private var backgroundGradient: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+    }
+
     var body: some View {
         Form {
             Section(footer: Text("Your username is used to personalize messages throughout the app.")) {
@@ -43,6 +48,8 @@ struct UsernameSettingsView: View {
                 }
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(backgroundGradient)
         .navigationTitle("Username")
         .navigationBarTitleDisplayMode(.large)
     }

@@ -3,6 +3,11 @@ import SwiftUI
 struct AnalyticsSettingsView: View {
     @StateObject private var analyticsManager = AnalyticsManager.shared
 
+    private var backgroundGradient: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+    }
+
     var body: some View {
         Form {
             Section(footer: Text("Help improve Fiz by sharing anonymous usage data. We only track which features you use - no personal information, location, or question answers are collected.")) {
@@ -19,6 +24,8 @@ struct AnalyticsSettingsView: View {
                 .accessibilityHint("Enable or disable anonymous analytics")
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(backgroundGradient)
         .navigationTitle("Analytics")
         .navigationBarTitleDisplayMode(.large)
     }

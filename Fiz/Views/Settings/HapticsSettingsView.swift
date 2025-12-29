@@ -3,6 +3,11 @@ import SwiftUI
 struct HapticsSettingsView: View {
     @StateObject private var hapticSettingsManager = HapticSettingsManager.shared
 
+    private var backgroundGradient: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+    }
+
     var body: some View {
         Form {
             Section(footer: Text("Haptic feedback provides tactile responses when you interact with the app.")) {
@@ -13,6 +18,8 @@ struct HapticsSettingsView: View {
                 .accessibilityHint("Enable or disable haptic feedback")
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(backgroundGradient)
         .navigationTitle("Haptics")
         .navigationBarTitleDisplayMode(.large)
     }

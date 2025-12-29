@@ -4,6 +4,11 @@ struct GameProgressSettingsView: View {
     @Bindable var gameViewModel: GameViewModel
     @State private var showingResetAlert = false
 
+    private var backgroundGradient: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+    }
+
     var body: some View {
         Form {
             Section(footer: Text("Track your progress through the question database.")) {
@@ -44,6 +49,8 @@ struct GameProgressSettingsView: View {
                 }
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(backgroundGradient)
         .navigationTitle("Game Progress")
         .navigationBarTitleDisplayMode(.large)
     }

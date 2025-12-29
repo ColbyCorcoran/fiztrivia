@@ -5,6 +5,11 @@ struct QuestionHistoryView: View {
     @Environment(\.modelContext) private var modelContext
     @Query(sort: [SortDescriptor(\QuestionHistoryEntry.timestamp, order: .reverse)]) private var historyEntries: [QuestionHistoryEntry]
 
+    private var backgroundGradient: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+    }
+
     var body: some View {
         Group {
             if historyEntries.isEmpty {
@@ -16,9 +21,11 @@ struct QuestionHistoryView: View {
                     }
                     .onDelete(perform: deleteEntries)
                 }
+                .scrollContentBackground(.hidden)
                 .listStyle(.insetGrouped)
             }
         }
+        .background(backgroundGradient)
         .navigationTitle("Question History")
         .navigationBarTitleDisplayMode(.large)
         .toolbar {
@@ -56,14 +63,6 @@ struct QuestionHistoryView: View {
             Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(
-            LinearGradient(
-                colors: [Color.fizBackground, Color.fizBackgroundSecondary],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-            .ignoresSafeArea()
-        )
     }
 
     private func deleteEntries(at offsets: IndexSet) {

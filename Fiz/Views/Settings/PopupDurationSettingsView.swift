@@ -3,6 +3,11 @@ import SwiftUI
 struct PopupDurationSettingsView: View {
     @StateObject private var popupDurationManager = PopupDurationManager.shared
 
+    private var backgroundGradient: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+    }
+
     var body: some View {
         Form {
             Section(footer: Text("Control how long answer popups are displayed. Shorter durations allow for faster trivia gameplay. Use Question History to review answers later.")) {
@@ -33,6 +38,8 @@ struct PopupDurationSettingsView: View {
                 }
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(backgroundGradient)
         .navigationTitle("Answer Popup Duration")
         .navigationBarTitleDisplayMode(.large)
     }

@@ -4,6 +4,11 @@ struct AppIconSettingsView: View {
     @StateObject private var appIconManager = AppIconManager.shared
     @Environment(\.sizeCategory) private var sizeCategory
 
+    private var backgroundGradient: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+    }
+
     // Adaptive grid columns based on accessibility size
     private var iconGridColumns: [GridItem] {
         if sizeCategory.isAccessibilitySize {
@@ -54,6 +59,8 @@ struct AppIconSettingsView: View {
                 .padding(.vertical, 8)
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(backgroundGradient)
         .navigationTitle("App Icon")
         .navigationBarTitleDisplayMode(.large)
     }

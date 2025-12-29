@@ -6,6 +6,11 @@ struct GameModesSettingsView: View {
     @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
+
+    private var backgroundGradient: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+    }
     @State private var showingStreakAlert = false
     @State private var pendingModeChange: Bool? = nil
     @State private var previousModeValue: Bool? = nil
@@ -61,6 +66,8 @@ struct GameModesSettingsView: View {
                 }
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(backgroundGradient)
         .navigationTitle("Game Modes")
         .navigationBarTitleDisplayMode(.large)
         .alert("Save Current Streak?", isPresented: $showingStreakAlert) {

@@ -5,20 +5,13 @@ struct SettingsView: View {
     @Environment(\.sizeCategory) private var sizeCategory
     
     private var backgroundGradient: some View {
-        LinearGradient(
-            colors: [Color.fizBackground, Color.fizBackgroundSecondary],
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
-        .ignoresSafeArea()
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
     }
 
     var body: some View {
-        ZStack{
-            backgroundGradient
-            
-            NavigationStack {
-                Form {
+        NavigationStack {
+            Form {
                     // Question History - TOP (standalone, no section header)
                     NavigationLink(destination: QuestionHistoryView()) {
                         SettingsRow(
@@ -28,9 +21,6 @@ struct SettingsView: View {
                             // subtitle: "Review answered questions"
                         )
                     }
-                    .listRowBackground(
-                        Rectangle().fill(.ultraThinMaterial)
-                    )
 
                     // Personalization Section
                     Section("Personalization") {
@@ -42,9 +32,6 @@ struct SettingsView: View {
                                 // subtitle: "Change your display name"
                             )
                         }
-                        .listRowBackground(
-                            Rectangle().fill(.ultraThinMaterial)
-                        )
                         NavigationLink(destination: AppIconSettingsView()) {
                             SettingsRow(
                                 icon: "app.badge",
@@ -53,9 +40,6 @@ struct SettingsView: View {
                                 // subtitle: "Choose your favorite Fiz"
                             )
                         }
-                        .listRowBackground(
-                            Rectangle().fill(.ultraThinMaterial)
-                        )
                         NavigationLink(destination: HapticsSettingsView()) {
                             SettingsRow(
                                 icon: "hand.tap.fill",
@@ -64,9 +48,6 @@ struct SettingsView: View {
                                 // subtitle: "Tactile feedback settings"
                             )
                         }
-                        .listRowBackground(
-                            Rectangle().fill(.ultraThinMaterial)
-                        )
                         NavigationLink(destination: PopupDurationSettingsView()) {
                             SettingsRow(
                                 icon: "timer",
@@ -75,9 +56,6 @@ struct SettingsView: View {
                                 // subtitle: "Control result display timing"
                             )
                         }
-                        .listRowBackground(
-                            Rectangle().fill(.ultraThinMaterial)
-                        )
                         NavigationLink(destination: AnalyticsSettingsView()) {
                             SettingsRow(
                                 icon: "chart.bar.fill",
@@ -86,13 +64,7 @@ struct SettingsView: View {
                                 // subtitle: "Anonymous usage data sharing"
                             )
                         }
-                        .listRowBackground(
-                            Rectangle().fill(.ultraThinMaterial)
-                        )
                     }
-                    .listRowBackground(
-                        Rectangle().fill(.ultraThinMaterial)
-                    )
 
                     // Game Settings Section
                     Section("Game Settings") {
@@ -104,9 +76,6 @@ struct SettingsView: View {
                                 // subtitle: "Casual, Normal, or Difficult"
                             )
                         }
-                        .listRowBackground(
-                            Rectangle().fill(.ultraThinMaterial)
-                        )
                         NavigationLink(destination: GameModesSettingsView(gameViewModel: gameViewModel)) {
                             SettingsRow(
                                 icon: "square.grid.2x2",
@@ -115,9 +84,6 @@ struct SettingsView: View {
                                 // subtitle: "Single category focus mode"
                             )
                         }
-                        .listRowBackground(
-                            Rectangle().fill(.ultraThinMaterial)
-                        )
                         NavigationLink(destination: GameProgressSettingsView(gameViewModel: gameViewModel)) {
                             SettingsRow(
                                 icon: "chart.line.uptrend.xyaxis",
@@ -126,13 +92,7 @@ struct SettingsView: View {
                                 // subtitle: "Stats and reset options"
                             )
                         }
-                        .listRowBackground(
-                            Rectangle().fill(.ultraThinMaterial)
-                        )
                     }
-                    .listRowBackground(
-                        Rectangle().fill(.ultraThinMaterial)
-                    )
 
                     // Version footer at bottom of scroll
                     Section {
@@ -143,8 +103,9 @@ struct SettingsView: View {
                             .listRowBackground(Color.clear)
                     }
                 }
-                .scrollContentBackground(.hidden)
-                .listStyle(.insetGrouped)
+//                .scrollContentBackground(.hidden)
+//                .background(backgroundGradient)
+//                .listStyle(.insetGrouped)
                 .navigationTitle("Settings")
                 .navigationBarTitleDisplayMode(.large)
                 .toolbar {
@@ -160,8 +121,6 @@ struct SettingsView: View {
                 }
             }
         }
-        
-    }
 
     private var appVersion: String {
         if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {

@@ -5963,22 +5963,6 @@
         "subtopic": null
       },
       {
-        "id": "geo_032",
-        "category": "Geography",
-        "subcategory": "World Geography",
-        "question": "Which ocean is the largest?",
-        "options": [
-          "Pacific",
-          "Atlantic",
-          "Indian",
-          "Arctic"
-        ],
-        "correct_answer": "Pacific",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "geo_033",
         "category": "Geography",
         "subcategory": "World Geography",
@@ -6059,22 +6043,6 @@
         "subtopic": null
       },
       {
-        "id": "geo_038",
-        "category": "Geography",
-        "subcategory": "World Geography",
-        "question": "What is the world's largest island?",
-        "options": [
-          "Greenland",
-          "New Guinea",
-          "Borneo",
-          "Madagascar"
-        ],
-        "correct_answer": "Greenland",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "geo_039",
         "category": "Geography",
         "subcategory": "World Geography",
@@ -6118,22 +6086,6 @@
           "Crete"
         ],
         "correct_answer": "Sicily",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "geo_042",
-        "category": "Geography",
-        "subcategory": "World Geography",
-        "question": "Which waterfall has the greatest single drop?",
-        "options": [
-          "Angel Falls",
-          "Niagara Falls",
-          "Victoria Falls",
-          "Iguazu Falls"
-        ],
-        "correct_answer": "Angel Falls",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -10262,6 +10214,54 @@
           "Library of Constantinople"
         ],
         "correct_answer": "Library of Celsus",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_301",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the capital of Argentina?",
+        "options": [
+          "Buenos Aires",
+          "Santiago",
+          "Montevideo",
+          "Lima"
+        ],
+        "correct_answer": "Buenos Aires",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_302",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the capital of Poland?",
+        "options": [
+          "Warsaw",
+          "Krakow",
+          "Gdansk",
+          "Wroclaw"
+        ],
+        "correct_answer": "Warsaw",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_303",
+        "category": "Geography",
+        "subcategory": "World Geography",
+        "question": "What is the world's largest archipelago by number of islands?",
+        "options": [
+          "Indonesia",
+          "Philippines",
+          "Japan",
+          "Greece"
+        ],
+        "correct_answer": "Indonesia",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null

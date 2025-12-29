@@ -18246,6 +18246,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "tec_264",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who is credited with inventing the light bulb?",
+        "options": [
+          "Thomas Edison",
+          "Nikola Tesla",
+          "Benjamin Franklin",
+          "Alexander Graham Bell"
+        ],
+        "correct_answer": "Thomas Edison",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_265",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the telephone?",
+        "options": [
+          "Alexander Graham Bell",
+          "Thomas Edison",
+          "Guglielmo Marconi",
+          "Samuel Morse"
+        ],
+        "correct_answer": "Alexander Graham Bell",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_266",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the printing press?",
+        "options": [
+          "Johannes Gutenberg",
+          "Benjamin Franklin",
+          "William Caxton",
+          "Johann Fust"
+        ],
+        "correct_answer": "Johannes Gutenberg",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_267",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who is credited with inventing the World Wide Web?",
+        "options": [
+          "Tim Berners-Lee",
+          "Bill Gates",
+          "Steve Jobs",
+          "Vint Cerf"
+        ],
+        "correct_answer": "Tim Berners-Lee",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_268",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the airplane?",
+        "options": [
+          "Wright Brothers",
+          "Charles Lindbergh",
+          "Amelia Earhart",
+          "Leonardo da Vinci"
+        ],
+        "correct_answer": "Wright Brothers",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_269",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the steam engine (improved version)?",
+        "options": [
+          "James Watt",
+          "George Stephenson",
+          "Robert Fulton",
+          "Thomas Newcomen"
+        ],
+        "correct_answer": "James Watt",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_270",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the theory of evolution by natural selection?",
+        "options": [
+          "Charles Darwin",
+          "Gregor Mendel",
+          "Louis Pasteur",
+          "Alfred Wallace"
+        ],
+        "correct_answer": "Charles Darwin",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_271",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the telegraph?",
+        "options": [
+          "Samuel Morse",
+          "Alexander Graham Bell",
+          "Thomas Edison",
+          "Nikola Tesla"
+        ],
+        "correct_answer": "Samuel Morse",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_272",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the radio?",
+        "options": [
+          "Guglielmo Marconi",
+          "Nikola Tesla",
+          "Heinrich Hertz",
+          "Lee de Forest"
+        ],
+        "correct_answer": "Guglielmo Marconi",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_273",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who discovered penicillin?",
+        "options": [
+          "Alexander Fleming",
+          "Louis Pasteur",
+          "Jonas Salk",
+          "Edward Jenner"
+        ],
+        "correct_answer": "Alexander Fleming",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_274",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the automobile (first practical car)?",
+        "options": [
+          "Karl Benz",
+          "Henry Ford",
+          "Gottlieb Daimler",
+          "Rudolf Diesel"
+        ],
+        "correct_answer": "Karl Benz",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_275",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented dynamite?",
+        "options": [
+          "Alfred Nobel",
+          "Albert Einstein",
+          "Marie Curie",
+          "Dmitri Mendeleev"
+        ],
+        "correct_answer": "Alfred Nobel",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_276",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the phonograph?",
+        "options": [
+          "Thomas Edison",
+          "Alexander Graham Bell",
+          "Emile Berliner",
+          "Guglielmo Marconi"
+        ],
+        "correct_answer": "Thomas Edison",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_277",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the first successful vaccine (smallpox)?",
+        "options": [
+          "Edward Jenner",
+          "Louis Pasteur",
+          "Jonas Salk",
+          "Alexander Fleming"
+        ],
+        "correct_answer": "Edward Jenner",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_278",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the mechanical television?",
+        "options": [
+          "John Logie Baird",
+          "Philo Farnsworth",
+          "Vladimir Zworykin",
+          "Charles Jenkins"
+        ],
+        "correct_answer": "John Logie Baird",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_279",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the safety elevator?",
+        "options": [
+          "Elisha Otis",
+          "Alexander Miles",
+          "Werner von Siemens",
+          "Frank Sprague"
+        ],
+        "correct_answer": "Elisha Otis",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_280",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the cotton gin?",
+        "options": [
+          "Eli Whitney",
+          "Cyrus McCormick",
+          "John Deere",
+          "James Hargreaves"
+        ],
+        "correct_answer": "Eli Whitney",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_281",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented vulcanized rubber?",
+        "options": [
+          "Charles Goodyear",
+          "John Dunlop",
+          "Benjamin Franklin",
+          "Thomas Hancock"
+        ],
+        "correct_answer": "Charles Goodyear",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_282",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the sewing machine?",
+        "options": [
+          "Elias Howe",
+          "Isaac Singer",
+          "Barthélemy Thimonnier",
+          "Walter Hunt"
+        ],
+        "correct_answer": "Elias Howe",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_283",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the Kodak camera?",
+        "options": [
+          "George Eastman",
+          "Louis Daguerre",
+          "Joseph Niepce",
+          "William Fox"
+        ],
+        "correct_answer": "George Eastman",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_284",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the first airplane flight by the Wright Brothers?",
+        "options": [
+          "1903",
+          "1900",
+          "1905",
+          "1910"
+        ],
+        "correct_answer": "1903",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_285",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the transistor?",
+        "options": [
+          "Bardeen, Brattain, and Shockley",
+          "Jack Kilby",
+          "Robert Noyce",
+          "Gordon Moore"
+        ],
+        "correct_answer": "Bardeen, Brattain, and Shockley",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_286",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the microwave oven?",
+        "options": [
+          "Percy Spencer",
+          "John Gorrie",
+          "Willis Carrier",
+          "Clarence Birdseye"
+        ],
+        "correct_answer": "Percy Spencer",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_287",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the first commercial computer UNIVAC introduced?",
+        "options": [
+          "1951",
+          "1946",
+          "1955",
+          "1960"
+        ],
+        "correct_answer": "1951",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_288",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the first electronic computer ENIAC?",
+        "options": [
+          "Eckert and Mauchly",
+          "Alan Turing",
+          "John von Neumann",
+          "Konrad Zuse"
+        ],
+        "correct_answer": "Eckert and Mauchly",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_289",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the integrated circuit (microchip)?",
+        "options": [
+          "Jack Kilby and Robert Noyce",
+          "Gordon Moore",
+          "William Shockley",
+          "John Bardeen"
+        ],
+        "correct_answer": "Jack Kilby and Robert Noyce",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_290",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the first telephone patent filed?",
+        "options": [
+          "1876",
+          "1875",
+          "1880",
+          "1870"
+        ],
+        "correct_answer": "1876",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_291",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the battery (voltaic pile)?",
+        "options": [
+          "Alessandro Volta",
+          "Benjamin Franklin",
+          "Michael Faraday",
+          "Luigi Galvani"
+        ],
+        "correct_answer": "Alessandro Volta",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_292",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the diesel engine?",
+        "options": [
+          "Rudolf Diesel",
+          "Karl Benz",
+          "Gottlieb Daimler",
+          "Nicolaus Otto"
+        ],
+        "correct_answer": "Rudolf Diesel",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_293",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the laser?",
+        "options": [
+          "Theodore Maiman",
+          "Charles Townes",
+          "Arthur Schawlow",
+          "Gordon Gould"
+        ],
+        "correct_answer": "Theodore Maiman",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_294",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year did Alexander Fleming discover penicillin?",
+        "options": [
+          "1928",
+          "1920",
+          "1935",
+          "1945"
+        ],
+        "correct_answer": "1928",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_295",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the first practical refrigerator?",
+        "options": [
+          "Jacob Perkins",
+          "John Gorrie",
+          "Carl von Linde",
+          "Willis Carrier"
+        ],
+        "correct_answer": "Jacob Perkins",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_296",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the barcode?",
+        "options": [
+          "Norman Woodland and Bernard Silver",
+          "George Laurer",
+          "David Collins",
+          "Alan Haberman"
+        ],
+        "correct_answer": "Norman Woodland and Bernard Silver",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_297",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the X-ray machine?",
+        "options": [
+          "Wilhelm Röntgen",
+          "Marie Curie",
+          "Henri Becquerel",
+          "Ernest Rutherford"
+        ],
+        "correct_answer": "Wilhelm Röntgen",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_298",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the first successful airplane flight?",
+        "options": [
+          "1903",
+          "1900",
+          "1905",
+          "1910"
+        ],
+        "correct_answer": "1903",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_299",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the pneumatic tire?",
+        "options": [
+          "John Dunlop",
+          "Charles Goodyear",
+          "Robert Thomson",
+          "André Michelin"
+        ],
+        "correct_answer": "John Dunlop",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_300",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the Polaroid camera?",
+        "options": [
+          "Edwin Land",
+          "George Eastman",
+          "Louis Daguerre",
+          "Harold Edgerton"
+        ],
+        "correct_answer": "Edwin Land",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_301",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the jet engine?",
+        "options": [
+          "Frank Whittle and Hans von Ohain",
+          "Igor Sikorsky",
+          "Charles Lindbergh",
+          "Wernher von Braun"
+        ],
+        "correct_answer": "Frank Whittle and Hans von Ohain",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_302",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the ballpoint pen?",
+        "options": [
+          "László Bíró",
+          "Lewis Waterman",
+          "George Parker",
+          "John Loud"
+        ],
+        "correct_answer": "László Bíró",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_303",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the incandescent light bulb (commercial version)?",
+        "options": [
+          "Thomas Edison",
+          "Joseph Swan",
+          "Humphry Davy",
+          "Warren de la Rue"
+        ],
+        "correct_answer": "Thomas Edison",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_304",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the first mechanical computer (Analytical Engine)?",
+        "options": [
+          "Charles Babbage",
+          "Ada Lovelace",
+          "Alan Turing",
+          "John von Neumann"
+        ],
+        "correct_answer": "Charles Babbage",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_305",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the transistor invented at Bell Labs?",
+        "options": [
+          "1947",
+          "1945",
+          "1950",
+          "1952"
+        ],
+        "correct_answer": "1947",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_306",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the hovercraft?",
+        "options": [
+          "Christopher Cockerell",
+          "Igor Sikorsky",
+          "Howard Hughes",
+          "Barnes Wallis"
+        ],
+        "correct_answer": "Christopher Cockerell",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_307",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the first programmable computer (Z3)?",
+        "options": [
+          "Konrad Zuse",
+          "Alan Turing",
+          "John von Neumann",
+          "Claude Shannon"
+        ],
+        "correct_answer": "Konrad Zuse",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_308",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the integrated circuit patented?",
+        "options": [
+          "1959",
+          "1955",
+          "1960",
+          "1965"
+        ],
+        "correct_answer": "1959",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_309",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the electron microscope?",
+        "options": [
+          "Ernst Ruska and Max Knoll",
+          "Wilhelm Röntgen",
+          "Robert Hooke",
+          "Antonie van Leeuwenhoek"
+        ],
+        "correct_answer": "Ernst Ruska and Max Knoll",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_310",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the polio vaccine?",
+        "options": [
+          "Jonas Salk",
+          "Albert Sabin",
+          "Edward Jenner",
+          "Louis Pasteur"
+        ],
+        "correct_answer": "Jonas Salk",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_311",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the World Wide Web invented?",
+        "options": [
+          "1989",
+          "1991",
+          "1985",
+          "1993"
+        ],
+        "correct_answer": "1989",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_312",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the television (electronic version)?",
+        "options": [
+          "Philo Farnsworth",
+          "John Logie Baird",
+          "Vladimir Zworykin",
+          "Charles Jenkins"
+        ],
+        "correct_answer": "Philo Farnsworth",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_313",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the cyclotron particle accelerator?",
+        "options": [
+          "Ernest Lawrence",
+          "Robert Oppenheimer",
+          "Enrico Fermi",
+          "J. Robert Van de Graaff"
+        ],
+        "correct_answer": "Ernest Lawrence",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_314",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the Turing machine concept?",
+        "options": [
+          "Alan Turing",
+          "John von Neumann",
+          "Claude Shannon",
+          "Alonzo Church"
+        ],
+        "correct_answer": "Alan Turing",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_315",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year did the first satellite Sputnik launch?",
+        "options": [
+          "1957",
+          "1955",
+          "1960",
+          "1961"
+        ],
+        "correct_answer": "1957",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_316",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the first successful helicopter?",
+        "options": [
+          "Igor Sikorsky",
+          "Paul Cornu",
+          "Louis Breguet",
+          "Juan de la Cierva"
+        ],
+        "correct_answer": "Igor Sikorsky",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_317",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the scanning tunneling microscope?",
+        "options": [
+          "Gerd Binnig and Heinrich Rohrer",
+          "Ernst Ruska",
+          "Richard Feynman",
+          "Max Knoll"
+        ],
+        "correct_answer": "Gerd Binnig and Heinrich Rohrer",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_318",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the first heart transplant performed?",
+        "options": [
+          "1967",
+          "1965",
+          "1970",
+          "1972"
+        ],
+        "correct_answer": "1967",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_319",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the first programmable loom (Jacquard loom)?",
+        "options": [
+          "Joseph Marie Jacquard",
+          "Eli Whitney",
+          "James Hargreaves",
+          "Samuel Crompton"
+        ],
+        "correct_answer": "Joseph Marie Jacquard",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_320",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented fiber optics for telecommunications?",
+        "options": [
+          "Charles Kao",
+          "Theodore Maiman",
+          "Gordon Gould",
+          "Robert Noyce"
+        ],
+        "correct_answer": "Charles Kao",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_321",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "What year was the first synthetic plastic (Bakelite) created?",
+        "options": [
+          "1907",
+          "1900",
+          "1910",
+          "1920"
+        ],
+        "correct_answer": "1907",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_322",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the MRI scanner?",
+        "options": [
+          "Raymond Damadian",
+          "Paul Lauterbur",
+          "Peter Mansfield",
+          "Felix Bloch"
+        ],
+        "correct_answer": "Raymond Damadian",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_323",
+        "category": "Technology",
+        "subcategory": "Inventions",
+        "question": "Who invented the first practical typewriter?",
+        "options": [
+          "Christopher Latham Sholes",
+          "Charles Thurber",
+          "Pellegrino Turri",
+          "William Burt"
+        ],
+        "correct_answer": "Christopher Latham Sholes",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Art": [],

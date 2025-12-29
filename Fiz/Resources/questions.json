@@ -15366,6 +15366,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "tec_084",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'OS' stand for?",
+        "options": [
+          "Operating System",
+          "Online Service",
+          "Open Source",
+          "Output System"
+        ],
+        "correct_answer": "Operating System",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_085",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company makes Windows?",
+        "options": [
+          "Microsoft",
+          "Apple",
+          "Google",
+          "IBM"
+        ],
+        "correct_answer": "Microsoft",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_086",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'USB' stand for?",
+        "options": [
+          "Universal Serial Bus",
+          "United System Bus",
+          "Universal Storage Base",
+          "Uniform Serial Buffer"
+        ],
+        "correct_answer": "Universal Serial Bus",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_087",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company makes macOS?",
+        "options": [
+          "Apple",
+          "Microsoft",
+          "Google",
+          "Dell"
+        ],
+        "correct_answer": "Apple",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_088",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the most common file format for documents?",
+        "options": [
+          "PDF",
+          "DOCX",
+          "TXT",
+          "RTF"
+        ],
+        "correct_answer": "PDF",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_089",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'RAM' stand for?",
+        "options": [
+          "Random Access Memory",
+          "Read Access Memory",
+          "Rapid Application Module",
+          "Remote Access Manager"
+        ],
+        "correct_answer": "Random Access Memory",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_090",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which key combination is used to copy on most computers?",
+        "options": [
+          "Ctrl+C (Cmd+C on Mac)",
+          "Ctrl+V",
+          "Ctrl+X",
+          "Ctrl+Z"
+        ],
+        "correct_answer": "Ctrl+C (Cmd+C on Mac)",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_091",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'CPU' stand for?",
+        "options": [
+          "Central Processing Unit",
+          "Computer Processing Unit",
+          "Central Program Unit",
+          "Core Processing Unit"
+        ],
+        "correct_answer": "Central Processing Unit",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_092",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the default file extension for Microsoft Word documents?",
+        "options": [
+          ".docx",
+          ".pdf",
+          ".txt",
+          ".doc"
+        ],
+        "correct_answer": ".docx",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_093",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which browser is made by Google?",
+        "options": [
+          "Chrome",
+          "Firefox",
+          "Safari",
+          "Edge"
+        ],
+        "correct_answer": "Chrome",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_094",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'PDF' stand for?",
+        "options": [
+          "Portable Document Format",
+          "Personal Document File",
+          "Public Data Format",
+          "Print Document File"
+        ],
+        "correct_answer": "Portable Document Format",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_095",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which operating system uses a penguin as its mascot?",
+        "options": [
+          "Linux",
+          "Windows",
+          "macOS",
+          "Unix"
+        ],
+        "correct_answer": "Linux",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_096",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'GB' stand for in storage capacity?",
+        "options": [
+          "Gigabyte",
+          "Giant Byte",
+          "Global Bit",
+          "Giga Bit"
+        ],
+        "correct_answer": "Gigabyte",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_097",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which key is used to delete text in front of the cursor?",
+        "options": [
+          "Delete",
+          "Backspace",
+          "Enter",
+          "Escape"
+        ],
+        "correct_answer": "Delete",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_098",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is Microsoft's spreadsheet software called?",
+        "options": [
+          "Excel",
+          "Word",
+          "PowerPoint",
+          "Access"
+        ],
+        "correct_answer": "Excel",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_099",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'WiFi' allow devices to do?",
+        "options": [
+          "Connect to internet wirelessly",
+          "Transfer files",
+          "Charge batteries",
+          "Display graphics"
+        ],
+        "correct_answer": "Connect to internet wirelessly",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_100",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company created Photoshop?",
+        "options": [
+          "Adobe",
+          "Microsoft",
+          "Apple",
+          "Corel"
+        ],
+        "correct_answer": "Adobe",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_101",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the brain of the computer called?",
+        "options": [
+          "CPU",
+          "RAM",
+          "Hard Drive",
+          "Motherboard"
+        ],
+        "correct_answer": "CPU",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_102",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does pressing Ctrl+Z do?",
+        "options": [
+          "Undo",
+          "Redo",
+          "Cut",
+          "Copy"
+        ],
+        "correct_answer": "Undo",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_103",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which file format is used for images with transparency?",
+        "options": [
+          "PNG",
+          "JPEG",
+          "BMP",
+          "GIF"
+        ],
+        "correct_answer": "PNG",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_104",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What year was the first iPhone released?",
+        "options": [
+          "2007",
+          "2005",
+          "2008",
+          "2006"
+        ],
+        "correct_answer": "2007",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_105",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which programming language is known for its use in web development alongside HTML and CSS?",
+        "options": [
+          "JavaScript",
+          "Python",
+          "Java",
+          "C++"
+        ],
+        "correct_answer": "JavaScript",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_106",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'SSD' stand for?",
+        "options": [
+          "Solid State Drive",
+          "Super Speed Drive",
+          "System Storage Device",
+          "Secondary Storage Disk"
+        ],
+        "correct_answer": "Solid State Drive",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_107",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company developed the Python programming language?",
+        "options": [
+          "Guido van Rossum (individual)",
+          "Google",
+          "Microsoft",
+          "Oracle"
+        ],
+        "correct_answer": "Guido van Rossum (individual)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_108",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the default port number for HTTP?",
+        "options": [
+          "80",
+          "443",
+          "8080",
+          "21"
+        ],
+        "correct_answer": "80",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_109",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which Linux distribution is known for its ease of use for beginners?",
+        "options": [
+          "Ubuntu",
+          "Arch Linux",
+          "Gentoo",
+          "Slackware"
+        ],
+        "correct_answer": "Ubuntu",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_110",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'BIOS' stand for?",
+        "options": [
+          "Basic Input/Output System",
+          "Binary Input/Output System",
+          "Boot Initialization Operating System",
+          "Base Integrated Operating System"
+        ],
+        "correct_answer": "Basic Input/Output System",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_111",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which programming language is primarily used for iOS app development?",
+        "options": [
+          "Swift",
+          "Java",
+          "Kotlin",
+          "C#"
+        ],
+        "correct_answer": "Swift",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_112",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the maximum amount of data a standard dual-layer DVD can hold?",
+        "options": [
+          "8.5 GB",
+          "4.7 GB",
+          "9.4 GB",
+          "7.0 GB"
+        ],
+        "correct_answer": "8.5 GB",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_113",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company acquired GitHub in 2018?",
+        "options": [
+          "Microsoft",
+          "Google",
+          "Amazon",
+          "Facebook"
+        ],
+        "correct_answer": "Microsoft",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_114",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'GUI' stand for?",
+        "options": [
+          "Graphical User Interface",
+          "General User Interface",
+          "Global User Integration",
+          "Graphic Unified Interface"
+        ],
+        "correct_answer": "Graphical User Interface",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_115",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which file system is commonly used by modern Windows installations?",
+        "options": [
+          "NTFS",
+          "FAT32",
+          "exFAT",
+          "ext4"
+        ],
+        "correct_answer": "NTFS",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_116",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the name of Apple's voice assistant?",
+        "options": [
+          "Siri",
+          "Alexa",
+          "Cortana",
+          "Google Assistant"
+        ],
+        "correct_answer": "Siri",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_117",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company created the Java programming language?",
+        "options": [
+          "Sun Microsystems",
+          "Oracle",
+          "Microsoft",
+          "IBM"
+        ],
+        "correct_answer": "Sun Microsystems",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_118",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'API' stand for?",
+        "options": [
+          "Application Programming Interface",
+          "Advanced Program Integration",
+          "Automated Process Interface",
+          "Application Process Indicator"
+        ],
+        "correct_answer": "Application Programming Interface",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_119",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which cloud storage service is owned by Microsoft?",
+        "options": [
+          "OneDrive",
+          "Google Drive",
+          "Dropbox",
+          "iCloud"
+        ],
+        "correct_answer": "OneDrive",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_120",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the binary representation of the decimal number 8?",
+        "options": [
+          "1000",
+          "1001",
+          "0111",
+          "1010"
+        ],
+        "correct_answer": "1000",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_121",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which version control system does GitHub use?",
+        "options": [
+          "Git",
+          "SVN",
+          "Mercurial",
+          "CVS"
+        ],
+        "correct_answer": "Git",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_122",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'DNS' stand for?",
+        "options": [
+          "Domain Name System",
+          "Digital Network Service",
+          "Data Name Server",
+          "Domain Network System"
+        ],
+        "correct_answer": "Domain Name System",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_123",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which Adobe software is used for video editing?",
+        "options": [
+          "Premiere Pro",
+          "Photoshop",
+          "Illustrator",
+          "After Effects"
+        ],
+        "correct_answer": "Premiere Pro",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_124",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What was the first commercially available computer with a GUI?",
+        "options": [
+          "Xerox Alto",
+          "Apple Macintosh",
+          "Commodore Amiga",
+          "IBM PC"
+        ],
+        "correct_answer": "Xerox Alto",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_125",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which sorting algorithm has the best average-case time complexity?",
+        "options": [
+          "Merge Sort and Quick Sort (O(n log n))",
+          "Bubble Sort",
+          "Insertion Sort",
+          "Selection Sort"
+        ],
+        "correct_answer": "Merge Sort and Quick Sort (O(n log n))",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_126",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'POSIX' stand for?",
+        "options": [
+          "Portable Operating System Interface",
+          "Personal Operating System Index",
+          "Public Open Source Interface Exchange",
+          "Protected Operating System Interface X"
+        ],
+        "correct_answer": "Portable Operating System Interface",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_127",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which computer scientist created the World Wide Web?",
+        "options": [
+          "Tim Berners-Lee",
+          "Vint Cerf",
+          "Robert Kahn",
+          "Marc Andreessen"
+        ],
+        "correct_answer": "Tim Berners-Lee",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_128",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the maximum theoretical transfer speed of USB 3.0?",
+        "options": [
+          "5 Gbps",
+          "10 Gbps",
+          "480 Mbps",
+          "12 Mbps"
+        ],
+        "correct_answer": "5 Gbps",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_129",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company developed the first commercial microprocessor?",
+        "options": [
+          "Intel",
+          "AMD",
+          "Motorola",
+          "IBM"
+        ],
+        "correct_answer": "Intel",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_130",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'RISC' stand for in computer architecture?",
+        "options": [
+          "Reduced Instruction Set Computer",
+          "Rapid Integrated System Computer",
+          "Remote Instruction Set Computing",
+          "Refined Internal System Core"
+        ],
+        "correct_answer": "Reduced Instruction Set Computer",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_131",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Who is credited with creating the C programming language?",
+        "options": [
+          "Dennis Ritchie",
+          "Ken Thompson",
+          "Brian Kernighan",
+          "Bjarne Stroustrup"
+        ],
+        "correct_answer": "Dennis Ritchie",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_132",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the hexadecimal representation of the decimal number 255?",
+        "options": [
+          "FF",
+          "F0",
+          "FE",
+          "100"
+        ],
+        "correct_answer": "FF",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_133",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company created the first commercially successful personal computer?",
+        "options": [
+          "Commodore (PET)",
+          "Apple",
+          "IBM",
+          "Tandy"
+        ],
+        "correct_answer": "Commodore (PET)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_134",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'RAID' stand for in data storage?",
+        "options": [
+          "Redundant Array of Independent Disks",
+          "Rapid Access Integrated Drive",
+          "Remote Array of Interconnected Devices",
+          "Reliable Array of Internal Disks"
+        ],
+        "correct_answer": "Redundant Array of Independent Disks",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_135",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which programming paradigm does Haskell primarily use?",
+        "options": [
+          "Functional",
+          "Object-oriented",
+          "Procedural",
+          "Logic"
+        ],
+        "correct_answer": "Functional",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_136",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What was the first computer virus to spread 'in the wild'?",
+        "options": [
+          "Elk Cloner",
+          "Morris Worm",
+          "Brain",
+          "Michelangelo"
+        ],
+        "correct_answer": "Elk Cloner",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_137",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which company manufactured the 6502 processor used in early Apple computers?",
+        "options": [
+          "MOS Technology",
+          "Intel",
+          "Motorola",
+          "Zilog"
+        ],
+        "correct_answer": "MOS Technology",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_138",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'CUDA' stand for in NVIDIA's parallel computing platform?",
+        "options": [
+          "Compute Unified Device Architecture",
+          "Central Unit Data Acceleration",
+          "Core Unified Development Architecture",
+          "Compute Universal Driver API"
+        ],
+        "correct_answer": "Compute Unified Device Architecture",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_139",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Who invented the computer mouse?",
+        "options": [
+          "Douglas Engelbart",
+          "Steve Jobs",
+          "Bill Gates",
+          "Alan Kay"
+        ],
+        "correct_answer": "Douglas Engelbart",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_140",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What is the default port for HTTPS?",
+        "options": [
+          "443",
+          "80",
+          "8080",
+          "22"
+        ],
+        "correct_answer": "443",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_141",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Which operating system was developed at Bell Labs?",
+        "options": [
+          "Unix",
+          "Linux",
+          "MS-DOS",
+          "Windows NT"
+        ],
+        "correct_answer": "Unix",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_142",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "What does 'LLVM' stand for?",
+        "options": [
+          "Low Level Virtual Machine",
+          "Linux Level Virtual Manager",
+          "Linked Library Virtual Module",
+          "Local Language Verification Model"
+        ],
+        "correct_answer": "Low Level Virtual Machine",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_143",
+        "category": "Technology",
+        "subcategory": "Computers & Software",
+        "question": "Who developed the first compiler for a programming language?",
+        "options": [
+          "Grace Hopper",
+          "Ada Lovelace",
+          "Alan Turing",
+          "John von Neumann"
+        ],
+        "correct_answer": "Grace Hopper",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Art": [],

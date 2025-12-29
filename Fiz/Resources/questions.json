@@ -23048,6 +23048,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "art_241",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What does 'SLR' stand for in cameras?",
+        "options": [
+          "Single-Lens Reflex",
+          "Standard Light Recorder",
+          "Simple Lens Reflector",
+          "Special Light Refractor"
+        ],
+        "correct_answer": "Single-Lens Reflex",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_242",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What does 'ISO' measure in photography?",
+        "options": [
+          "Light sensitivity",
+          "Shutter speed",
+          "Aperture size",
+          "Focal length"
+        ],
+        "correct_answer": "Light sensitivity",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_243",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the opening that controls light in a camera called?",
+        "options": [
+          "Aperture",
+          "Shutter",
+          "Lens",
+          "Sensor"
+        ],
+        "correct_answer": "Aperture",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_244",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who invented the first practical photographic process?",
+        "options": [
+          "Louis Daguerre",
+          "William Fox Talbot",
+          "Nicéphore Niépce",
+          "George Eastman"
+        ],
+        "correct_answer": "Louis Daguerre",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_245",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What does 'f-stop' refer to?",
+        "options": [
+          "Aperture size",
+          "Shutter speed",
+          "ISO setting",
+          "White balance"
+        ],
+        "correct_answer": "Aperture size",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_246",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What type of photography captures very small subjects up close?",
+        "options": [
+          "Macro photography",
+          "Landscape photography",
+          "Portrait photography",
+          "Street photography"
+        ],
+        "correct_answer": "Macro photography",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_247",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What famous photograph shows a sailor kissing a nurse in Times Square?",
+        "options": [
+          "V-J Day in Times Square",
+          "Migrant Mother",
+          "Afghan Girl",
+          "Tank Man"
+        ],
+        "correct_answer": "V-J Day in Times Square",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_248",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What does 'DSLR' stand for?",
+        "options": [
+          "Digital Single-Lens Reflex",
+          "Digital Standard Light Recorder",
+          "Direct Single-Lens Reflector",
+          "Digital Simple Lens Refractor"
+        ],
+        "correct_answer": "Digital Single-Lens Reflex",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_249",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Migrant Mother'?",
+        "options": [
+          "Dorothea Lange",
+          "Walker Evans",
+          "Margaret Bourke-White",
+          "Gordon Parks"
+        ],
+        "correct_answer": "Dorothea Lange",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_250",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the rule that divides a frame into nine parts?",
+        "options": [
+          "Rule of thirds",
+          "Golden ratio",
+          "Rule of fifths",
+          "Symmetry rule"
+        ],
+        "correct_answer": "Rule of thirds",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_251",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What type of lens makes objects appear closer?",
+        "options": [
+          "Telephoto lens",
+          "Wide-angle lens",
+          "Fish-eye lens",
+          "Macro lens"
+        ],
+        "correct_answer": "Telephoto lens",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_252",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Afghan Girl' for National Geographic?",
+        "options": [
+          "Steve McCurry",
+          "Annie Leibovitz",
+          "Sebastião Salgado",
+          "James Nachtwey"
+        ],
+        "correct_answer": "Steve McCurry",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_253",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What does RAW format preserve in digital photography?",
+        "options": [
+          "All original data without compression",
+          "Compressed image data",
+          "Only color information",
+          "Only brightness data"
+        ],
+        "correct_answer": "All original data without compression",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_254",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the art of taking self-portraits called?",
+        "options": [
+          "Self-portraiture/Selfie",
+          "Auto-photography",
+          "Mirror photography",
+          "Solo imaging"
+        ],
+        "correct_answer": "Self-portraiture/Selfie",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_255",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who founded Magnum Photos agency?",
+        "options": [
+          "Robert Capa and others",
+          "Henri Cartier-Bresson alone",
+          "Steve McCurry",
+          "Sebastião Salgado"
+        ],
+        "correct_answer": "Robert Capa and others",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_256",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What company created the first mass-market camera?",
+        "options": [
+          "Kodak",
+          "Canon",
+          "Nikon",
+          "Leica"
+        ],
+        "correct_answer": "Kodak",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_257",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the speed at which the shutter opens and closes called?",
+        "options": [
+          "Shutter speed",
+          "Aperture",
+          "ISO",
+          "Exposure"
+        ],
+        "correct_answer": "Shutter speed",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_258",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What type of photography captures celestial objects?",
+        "options": [
+          "Astrophotography",
+          "Aerial photography",
+          "Underwater photography",
+          "Night photography"
+        ],
+        "correct_answer": "Astrophotography",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_259",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who is known for black and white landscape photography of Yosemite?",
+        "options": [
+          "Ansel Adams",
+          "Edward Weston",
+          "Minor White",
+          "Paul Strand"
+        ],
+        "correct_answer": "Ansel Adams",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_260",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the term for blurry background in photos?",
+        "options": [
+          "Bokeh",
+          "Vignette",
+          "Grain",
+          "Noise"
+        ],
+        "correct_answer": "Bokeh",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_261",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'The Steerage' in 1907?",
+        "options": [
+          "Alfred Stieglitz",
+          "Edward Steichen",
+          "Paul Strand",
+          "Alvin Langdon Coburn"
+        ],
+        "correct_answer": "Alfred Stieglitz",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_262",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What year was the first photograph taken?",
+        "options": [
+          "1826 or 1827",
+          "1839",
+          "1850",
+          "1800"
+        ],
+        "correct_answer": "1826 or 1827",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_263",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who invented the calotype process?",
+        "options": [
+          "William Fox Talbot",
+          "Louis Daguerre",
+          "Nicéphore Niépce",
+          "George Eastman"
+        ],
+        "correct_answer": "William Fox Talbot",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_264",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is Henri Cartier-Bresson's famous concept?",
+        "options": [
+          "The decisive moment",
+          "The golden hour",
+          "Straight photography",
+          "Pictorialism"
+        ],
+        "correct_answer": "The decisive moment",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_265",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Moonrise, Hernandez, New Mexico'?",
+        "options": [
+          "Ansel Adams",
+          "Edward Weston",
+          "Minor White",
+          "Imogen Cunningham"
+        ],
+        "correct_answer": "Ansel Adams",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_266",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What does 'bokeh' come from?",
+        "options": [
+          "Japanese word for blur",
+          "German lens term",
+          "French artistic term",
+          "Latin for light"
+        ],
+        "correct_answer": "Japanese word for blur",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_267",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who founded the Photo-Secession movement?",
+        "options": [
+          "Alfred Stieglitz",
+          "Edward Steichen",
+          "Gertrude Käsebier",
+          "Clarence H. White"
+        ],
+        "correct_answer": "Alfred Stieglitz",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_268",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the Zone System developed by Ansel Adams?",
+        "options": [
+          "Technique for exposure and development",
+          "Composition method",
+          "Lens selection guide",
+          "Camera focusing system"
+        ],
+        "correct_answer": "Technique for exposure and development",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_269",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed nudes including 'Nude, 1936'?",
+        "options": [
+          "Edward Weston",
+          "Man Ray",
+          "Helmut Newton",
+          "Robert Mapplethorpe"
+        ],
+        "correct_answer": "Edward Weston",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_270",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What war photographer co-founded Magnum Photos?",
+        "options": [
+          "Robert Capa",
+          "Henri Cartier-Bresson",
+          "David Seymour",
+          "George Rodger"
+        ],
+        "correct_answer": "Robert Capa",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_271",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who created surrealist photographs like 'Le Violon d'Ingres'?",
+        "options": [
+          "Man Ray",
+          "László Moholy-Nagy",
+          "André Kertész",
+          "Brassaï"
+        ],
+        "correct_answer": "Man Ray",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_272",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the first permanent photograph called?",
+        "options": [
+          "View from the Window at Le Gras",
+          "The Steerage",
+          "Boulevard du Temple",
+          "The Horse in Motion"
+        ],
+        "correct_answer": "View from the Window at Le Gras",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_273",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed the construction of the Empire State Building?",
+        "options": [
+          "Lewis Hine",
+          "Margaret Bourke-White",
+          "Berenice Abbott",
+          "Walker Evans"
+        ],
+        "correct_answer": "Lewis Hine",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_274",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What movement emphasized photography as fine art?",
+        "options": [
+          "Pictorialism",
+          "Straight photography",
+          "New Objectivity",
+          "Surrealism"
+        ],
+        "correct_answer": "Pictorialism",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_275",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Tank Man' during Tiananmen Square?",
+        "options": [
+          "Jeff Widener (and others)",
+          "James Nachtwey",
+          "Don McCullin",
+          "Larry Burrows"
+        ],
+        "correct_answer": "Jeff Widener (and others)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_276",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the name for very long exposure photography?",
+        "options": [
+          "Long exposure/Bulb mode",
+          "Time-lapse",
+          "HDR",
+          "Bracketing"
+        ],
+        "correct_answer": "Long exposure/Bulb mode",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_277",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who created the 'Family of Man' exhibition?",
+        "options": [
+          "Edward Steichen",
+          "Alfred Stieglitz",
+          "John Szarkowski",
+          "Beaumont Newhall"
+        ],
+        "correct_answer": "Edward Steichen",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_278",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What camera company created the first 35mm camera?",
+        "options": [
+          "Leica",
+          "Nikon",
+          "Canon",
+          "Kodak"
+        ],
+        "correct_answer": "Leica",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_279",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed Paris streets at night?",
+        "options": [
+          "Brassaï",
+          "Henri Cartier-Bresson",
+          "Robert Doisneau",
+          "Eugène Atget"
+        ],
+        "correct_answer": "Brassaï",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_280",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the process of lightening parts of a print called?",
+        "options": [
+          "Dodging",
+          "Burning",
+          "Bleaching",
+          "Washing"
+        ],
+        "correct_answer": "Dodging",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_281",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who created 'Pepper No. 30' in 1930?",
+        "options": [
+          "Edward Weston",
+          "Ansel Adams",
+          "Paul Strand",
+          "Imogen Cunningham"
+        ],
+        "correct_answer": "Edward Weston",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_282",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the Daguerreotype process based on?",
+        "options": [
+          "Silver-plated copper",
+          "Paper negatives",
+          "Glass plates",
+          "Film emulsion"
+        ],
+        "correct_answer": "Silver-plated copper",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_283",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Dunes, Oceano' series?",
+        "options": [
+          "Edward Weston",
+          "Ansel Adams",
+          "Minor White",
+          "Brett Weston"
+        ],
+        "correct_answer": "Edward Weston",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_284",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What photography movement did August Sander represent?",
+        "options": [
+          "New Objectivity (Neue Sachlichkeit)",
+          "Pictorialism",
+          "Surrealism",
+          "Constructivism"
+        ],
+        "correct_answer": "New Objectivity (Neue Sachlichkeit)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_285",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who created 'The Americans' photo book?",
+        "options": [
+          "Robert Frank",
+          "Walker Evans",
+          "Garry Winogrand",
+          "Lee Friedlander"
+        ],
+        "correct_answer": "Robert Frank",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_286",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the wet collodion process?",
+        "options": [
+          "Glass plate negative process",
+          "Paper negative process",
+          "Metal plate process",
+          "Film development process"
+        ],
+        "correct_answer": "Glass plate negative process",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_287",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Identical Twins, Roselle, New Jersey'?",
+        "options": [
+          "Diane Arbus",
+          "Mary Ellen Mark",
+          "Sally Mann",
+          "Nan Goldin"
+        ],
+        "correct_answer": "Diane Arbus",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_288",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What movement did Paul Strand's 'Abstraction, Porch Shadows' represent?",
+        "options": [
+          "Straight photography/Modernism",
+          "Pictorialism",
+          "Surrealism",
+          "Documentary"
+        ],
+        "correct_answer": "Straight photography/Modernism",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_289",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who created photograms without a camera?",
+        "options": [
+          "Man Ray and László Moholy-Nagy",
+          "Alfred Stieglitz",
+          "Edward Steichen",
+          "Ansel Adams"
+        ],
+        "correct_answer": "Man Ray and László Moholy-Nagy",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_290",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the platinum print process known for?",
+        "options": [
+          "Archival permanence and tonal range",
+          "Fast processing",
+          "Color accuracy",
+          "Low cost"
+        ],
+        "correct_answer": "Archival permanence and tonal range",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_291",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Hands, Rebecca, New Mexico, 1957'?",
+        "options": [
+          "Paul Strand",
+          "Ansel Adams",
+          "Edward Weston",
+          "Minor White"
+        ],
+        "correct_answer": "Paul Strand",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_292",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the term for combining multiple negatives?",
+        "options": [
+          "Composite/Combination printing",
+          "Double exposure",
+          "Solarization",
+          "Photomontage"
+        ],
+        "correct_answer": "Composite/Combination printing",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_293",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who created 'The Pond-Moonlight' (1904)?",
+        "options": [
+          "Edward Steichen",
+          "Alfred Stieglitz",
+          "Gertrude Käsebier",
+          "Clarence H. White"
+        ],
+        "correct_answer": "Edward Steichen",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_294",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the Sabattier effect?",
+        "options": [
+          "Partial reversal/Solarization",
+          "Double exposure",
+          "Color shift",
+          "Grain increase"
+        ],
+        "correct_answer": "Partial reversal/Solarization",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_295",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Cotton Mill Girl' (1908)?",
+        "options": [
+          "Lewis Hine",
+          "Jacob Riis",
+          "Walker Evans",
+          "Dorothea Lange"
+        ],
+        "correct_answer": "Lewis Hine",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_296",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What camera did Ansel Adams primarily use?",
+        "options": [
+          "Large format view camera",
+          "35mm Leica",
+          "Medium format Hasselblad",
+          "Twin-lens reflex"
+        ],
+        "correct_answer": "Large format view camera",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_297",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who created the 'Equivalents' cloud photographs?",
+        "options": [
+          "Alfred Stieglitz",
+          "Minor White",
+          "Ansel Adams",
+          "Edward Weston"
+        ],
+        "correct_answer": "Alfred Stieglitz",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_298",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the gum bichromate process?",
+        "options": [
+          "Pigment printing process",
+          "Silver-based process",
+          "Digital process",
+          "Instant film process"
+        ],
+        "correct_answer": "Pigment printing process",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_299",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "Who photographed 'Paris de Nuit' in the 1930s?",
+        "options": [
+          "Brassaï",
+          "André Kertész",
+          "Robert Doisneau",
+          "Henri Cartier-Bresson"
+        ],
+        "correct_answer": "Brassaï",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "art_300",
+        "category": "Art",
+        "subcategory": "Photography",
+        "question": "What is the cyanotype process known for?",
+        "options": [
+          "Blue color/blueprint process",
+          "Red color",
+          "Black and white",
+          "Color photography"
+        ],
+        "correct_answer": "Blue color/blueprint process",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Geography": [

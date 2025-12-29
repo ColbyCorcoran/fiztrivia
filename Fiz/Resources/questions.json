@@ -17286,6 +17286,966 @@
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
+      },
+      {
+        "id": "tec_204",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who founded Apple along with Steve Wozniak?",
+        "options": [
+          "Steve Jobs",
+          "Bill Gates",
+          "Tim Cook",
+          "Mark Zuckerberg"
+        ],
+        "correct_answer": "Steve Jobs",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_205",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company is known for the search engine that shares its name?",
+        "options": [
+          "Google",
+          "Yahoo",
+          "Bing",
+          "DuckDuckGo"
+        ],
+        "correct_answer": "Google",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_206",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who is the founder of Facebook?",
+        "options": [
+          "Mark Zuckerberg",
+          "Elon Musk",
+          "Jack Dorsey",
+          "Jeff Bezos"
+        ],
+        "correct_answer": "Mark Zuckerberg",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_207",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company makes the iPhone?",
+        "options": [
+          "Apple",
+          "Samsung",
+          "Google",
+          "Microsoft"
+        ],
+        "correct_answer": "Apple",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_208",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who is the current CEO of Apple (as of 2024)?",
+        "options": [
+          "Tim Cook",
+          "Steve Jobs",
+          "Jony Ive",
+          "Craig Federighi"
+        ],
+        "correct_answer": "Tim Cook",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_209",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company owns Instagram?",
+        "options": [
+          "Meta (Facebook)",
+          "Google",
+          "Twitter",
+          "Snapchat"
+        ],
+        "correct_answer": "Meta (Facebook)",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_210",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who founded Amazon?",
+        "options": [
+          "Jeff Bezos",
+          "Elon Musk",
+          "Bill Gates",
+          "Larry Page"
+        ],
+        "correct_answer": "Jeff Bezos",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_211",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company makes the Galaxy smartphones?",
+        "options": [
+          "Samsung",
+          "Apple",
+          "Google",
+          "Huawei"
+        ],
+        "correct_answer": "Samsung",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_212",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who co-founded Microsoft with Paul Allen?",
+        "options": [
+          "Bill Gates",
+          "Steve Jobs",
+          "Larry Ellison",
+          "Mark Zuckerberg"
+        ],
+        "correct_answer": "Bill Gates",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_213",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company is known for electric cars and SpaceX?",
+        "options": [
+          "Tesla (cars) and SpaceX are both Elon Musk companies",
+          "Ford",
+          "General Motors",
+          "Toyota"
+        ],
+        "correct_answer": "Tesla (cars) and SpaceX are both Elon Musk companies",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_214",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What is Google's parent company called?",
+        "options": [
+          "Alphabet",
+          "Meta",
+          "Google Inc.",
+          "Android"
+        ],
+        "correct_answer": "Alphabet",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_215",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company created the Android operating system?",
+        "options": [
+          "Google",
+          "Apple",
+          "Microsoft",
+          "Samsung"
+        ],
+        "correct_answer": "Google",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_216",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who is the CEO of Tesla and SpaceX?",
+        "options": [
+          "Elon Musk",
+          "Jeff Bezos",
+          "Tim Cook",
+          "Mark Zuckerberg"
+        ],
+        "correct_answer": "Elon Musk",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_217",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company makes the Surface laptop?",
+        "options": [
+          "Microsoft",
+          "Apple",
+          "Dell",
+          "HP"
+        ],
+        "correct_answer": "Microsoft",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_218",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What was Facebook renamed to in 2021?",
+        "options": [
+          "Meta",
+          "Horizon",
+          "Oculus",
+          "Portal"
+        ],
+        "correct_answer": "Meta",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_219",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company owns YouTube?",
+        "options": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Meta"
+        ],
+        "correct_answer": "Google",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_220",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who founded Tesla Motors?",
+        "options": [
+          "Martin Eberhard and Marc Tarpenning (Elon Musk joined early)",
+          "Elon Musk",
+          "Jeff Bezos",
+          "Larry Page"
+        ],
+        "correct_answer": "Martin Eberhard and Marc Tarpenning (Elon Musk joined early)",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_221",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company makes the Kindle e-reader?",
+        "options": [
+          "Amazon",
+          "Apple",
+          "Google",
+          "Barnes & Noble"
+        ],
+        "correct_answer": "Amazon",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_222",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What is Microsoft's cloud computing service called?",
+        "options": [
+          "Azure",
+          "AWS",
+          "Google Cloud",
+          "iCloud"
+        ],
+        "correct_answer": "Azure",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_223",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company acquired LinkedIn in 2016?",
+        "options": [
+          "Microsoft",
+          "Google",
+          "Facebook",
+          "Amazon"
+        ],
+        "correct_answer": "Microsoft",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_224",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What year was Apple founded?",
+        "options": [
+          "1976",
+          "1975",
+          "1977",
+          "1980"
+        ],
+        "correct_answer": "1976",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_225",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company did Google acquire to enter the smartphone market?",
+        "options": [
+          "Android Inc.",
+          "Motorola",
+          "HTC",
+          "LG"
+        ],
+        "correct_answer": "Android Inc.",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_226",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who are the co-founders of Google?",
+        "options": [
+          "Larry Page and Sergey Brin",
+          "Mark Zuckerberg and Dustin Moskovitz",
+          "Bill Gates and Paul Allen",
+          "Steve Jobs and Steve Wozniak"
+        ],
+        "correct_answer": "Larry Page and Sergey Brin",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_227",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What year did Amazon go public?",
+        "options": [
+          "1997",
+          "1995",
+          "1999",
+          "2000"
+        ],
+        "correct_answer": "1997",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_228",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company acquired WhatsApp for $19 billion?",
+        "options": [
+          "Facebook (now Meta)",
+          "Google",
+          "Microsoft",
+          "Apple"
+        ],
+        "correct_answer": "Facebook (now Meta)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_229",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What was the original name of Apple's tablet before 'iPad'?",
+        "options": [
+          "iPad was the original name",
+          "iSlate",
+          "iTablet",
+          "Newton"
+        ],
+        "correct_answer": "iPad was the original name",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_230",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company developed the first commercially available smartphone?",
+        "options": [
+          "IBM (Simon Personal Communicator)",
+          "Apple",
+          "Nokia",
+          "BlackBerry"
+        ],
+        "correct_answer": "IBM (Simon Personal Communicator)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_231",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What is Amazon's cloud computing service called?",
+        "options": [
+          "AWS (Amazon Web Services)",
+          "Azure",
+          "Google Cloud",
+          "Amazon Cloud"
+        ],
+        "correct_answer": "AWS (Amazon Web Services)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_232",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company was formerly known as 'BackRub'?",
+        "options": [
+          "Google",
+          "Yahoo",
+          "Bing",
+          "Ask Jeeves"
+        ],
+        "correct_answer": "Google",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_233",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who was the first employee of Microsoft?",
+        "options": [
+          "Steve Ballmer (first business manager, not first employee - actually Bob Wallace)",
+          "Bill Gates",
+          "Paul Allen",
+          "Steve Jobs"
+        ],
+        "correct_answer": "Steve Ballmer (first business manager, not first employee - actually Bob Wallace)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_234",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company owns Oculus VR?",
+        "options": [
+          "Meta (Facebook)",
+          "Google",
+          "Microsoft",
+          "Sony"
+        ],
+        "correct_answer": "Meta (Facebook)",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_235",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What year was Microsoft founded?",
+        "options": [
+          "1975",
+          "1976",
+          "1980",
+          "1981"
+        ],
+        "correct_answer": "1975",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_236",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company created the first web browser with a graphical interface?",
+        "options": [
+          "Netscape",
+          "Microsoft",
+          "Apple",
+          "Google"
+        ],
+        "correct_answer": "Netscape",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_237",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who succeeded Steve Jobs as Apple CEO?",
+        "options": [
+          "Tim Cook",
+          "Jony Ive",
+          "Phil Schiller",
+          "Craig Federighi"
+        ],
+        "correct_answer": "Tim Cook",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_238",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company was originally called 'Cadabra'?",
+        "options": [
+          "Amazon",
+          "Google",
+          "Yahoo",
+          "eBay"
+        ],
+        "correct_answer": "Amazon",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_239",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What does 'IBM' stand for?",
+        "options": [
+          "International Business Machines",
+          "Internet Business Machines",
+          "Integrated Business Modules",
+          "International Banking Machines"
+        ],
+        "correct_answer": "International Business Machines",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_240",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company acquired Beats Electronics in 2014?",
+        "options": [
+          "Apple",
+          "Google",
+          "Microsoft",
+          "Amazon"
+        ],
+        "correct_answer": "Apple",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_241",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who founded Oracle Corporation?",
+        "options": [
+          "Larry Ellison",
+          "Larry Page",
+          "Bill Gates",
+          "Steve Jobs"
+        ],
+        "correct_answer": "Larry Ellison",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_242",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company's motto was 'Don't be evil'?",
+        "options": [
+          "Google",
+          "Apple",
+          "Microsoft",
+          "Facebook"
+        ],
+        "correct_answer": "Google",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_243",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What year was Tesla Motors founded?",
+        "options": [
+          "2003",
+          "2000",
+          "2005",
+          "2008"
+        ],
+        "correct_answer": "2003",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_244",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company did Elon Musk co-found that later became PayPal?",
+        "options": [
+          "X.com",
+          "Confinity",
+          "eBay",
+          "Venmo"
+        ],
+        "correct_answer": "X.com",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_245",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What was the stock price of Apple when it went public in 1980?",
+        "options": [
+          "$22 per share",
+          "$15 per share",
+          "$30 per share",
+          "$10 per share"
+        ],
+        "correct_answer": "$22 per share",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_246",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company did Microsoft acquire for $26.2 billion in 2016?",
+        "options": [
+          "LinkedIn",
+          "GitHub",
+          "Skype",
+          "Nokia"
+        ],
+        "correct_answer": "LinkedIn",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_247",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who was the first CEO of Google?",
+        "options": [
+          "Eric Schmidt",
+          "Larry Page",
+          "Sergey Brin",
+          "Sundar Pichai"
+        ],
+        "correct_answer": "Eric Schmidt",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_248",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What was the code name for Apple's first Macintosh project?",
+        "options": [
+          "Annie",
+          "Lisa",
+          "Sara",
+          "Bicycle"
+        ],
+        "correct_answer": "Annie",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_249",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company did Facebook acquire along with WhatsApp in 2014?",
+        "options": [
+          "Oculus VR",
+          "Instagram",
+          "Messenger",
+          "Giphy"
+        ],
+        "correct_answer": "Oculus VR",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_250",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What was the original name of Yahoo?",
+        "options": [
+          "Jerry and David's Guide to the World Wide Web",
+          "Yahoo Search",
+          "WebCrawler",
+          "David's Directory"
+        ],
+        "correct_answer": "Jerry and David's Guide to the World Wide Web",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_251",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company did Google acquire for $12.5 billion in 2011?",
+        "options": [
+          "Motorola Mobility",
+          "Nest",
+          "YouTube",
+          "Waze"
+        ],
+        "correct_answer": "Motorola Mobility",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_252",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who was the original founder of Tesla (before Elon Musk)?",
+        "options": [
+          "Martin Eberhard and Marc Tarpenning",
+          "Elon Musk",
+          "JB Straubel",
+          "Ian Wright"
+        ],
+        "correct_answer": "Martin Eberhard and Marc Tarpenning",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_253",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What year did Google go public?",
+        "options": [
+          "2004",
+          "2000",
+          "2006",
+          "2002"
+        ],
+        "correct_answer": "2004",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_254",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company created the first personal computer?",
+        "options": [
+          "MITS (Altair 8800)",
+          "Apple",
+          "IBM",
+          "Commodore"
+        ],
+        "correct_answer": "MITS (Altair 8800)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_255",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What was Amazon's first product sold online?",
+        "options": [
+          "A book",
+          "Electronics",
+          "Toys",
+          "Music CDs"
+        ],
+        "correct_answer": "A book",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_256",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company did Microsoft acquire for $7.5 billion in 2020?",
+        "options": [
+          "ZeniMax Media (Bethesda)",
+          "Activision Blizzard",
+          "LinkedIn",
+          "GitHub"
+        ],
+        "correct_answer": "ZeniMax Media (Bethesda)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_257",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who was the first investor in Facebook?",
+        "options": [
+          "Peter Thiel",
+          "Mark Zuckerberg",
+          "Sean Parker",
+          "Eduardo Saverin"
+        ],
+        "correct_answer": "Peter Thiel",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_258",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What was the valuation of Facebook when it went public in 2012?",
+        "options": [
+          "$104 billion",
+          "$50 billion",
+          "$200 billion",
+          "$75 billion"
+        ],
+        "correct_answer": "$104 billion",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_259",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company developed the first commercial GUI operating system?",
+        "options": [
+          "Xerox (Xerox Alto)",
+          "Apple",
+          "Microsoft",
+          "IBM"
+        ],
+        "correct_answer": "Xerox (Xerox Alto)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_260",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What year did Netflix shift from DVD rentals to streaming?",
+        "options": [
+          "2007",
+          "2005",
+          "2010",
+          "2008"
+        ],
+        "correct_answer": "2007",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_261",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which tech company was founded in a garage in Palo Alto?",
+        "options": [
+          "Hewlett-Packard (HP)",
+          "Apple",
+          "Google",
+          "Amazon"
+        ],
+        "correct_answer": "Hewlett-Packard (HP)",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_262",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "What was Twitter's IPO price per share in 2013?",
+        "options": [
+          "$26",
+          "$20",
+          "$30",
+          "$35"
+        ],
+        "correct_answer": "$26",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_263",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Which company did Amazon acquire for $13.7 billion in 2017?",
+        "options": [
+          "Whole Foods",
+          "Zappos",
+          "Twitch",
+          "Ring"
+        ],
+        "correct_answer": "Whole Foods",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
       }
     ],
     "Art": [],

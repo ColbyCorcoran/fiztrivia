@@ -189,17 +189,13 @@ struct FoodSubcategory: TriviaSubcategory {
     let color: String
 
     static let ingredients = FoodSubcategory(name: "Ingredients", icon: "carrot.fill", color: "#F7B500")
-    static let dishes = FoodSubcategory(name: "Dishes", icon: "fork.knife", color: "#FF7F0F")
-    static let famousChefs = FoodSubcategory(name: "Famous Chefs/Restaurants", icon: "person.3.fill", color: "#8E44AD")
-    static let baking = FoodSubcategory(name: "Baking", icon: "birthday.cake.fill", color: "#3498DB")
-    static let cookingTechniques = FoodSubcategory(name: "Cooking Techniques", icon: "flame.fill", color: "#1ABC9C")
-    static let cuisines = FoodSubcategory(name: "Cuisines", icon: "globe", color: "#2ECC71")
-    static let beverages = FoodSubcategory(name: "Beverages", icon: "cup.and.saucer.fill", color: "#E91E63")
-    static let desserts = FoodSubcategory(name: "Desserts", icon: "star.fill", color: "#9C27B0")
-    static let foodHistory = FoodSubcategory(name: "Food History", icon: "clock.fill", color: "#FF5722")
-    static let saucesCondiments = FoodSubcategory(name: "Sauces & Condiments", icon: "drop.fill", color: "#795548")
+    static let bakingDesserts = FoodSubcategory(name: "Baking & Desserts", icon: "birthday.cake.fill", color: "#FF7F0F")
+    static let cooking = FoodSubcategory(name: "Cooking", icon: "flame.fill", color: "#8E44AD")
+    static let foodHistory = FoodSubcategory(name: "Food History", icon: "clock.fill", color: "#3498DB")
+    static let dishesCuisines = FoodSubcategory(name: "Dishes & Cuisines", icon: "fork.knife", color: "#1ABC9C")
+    static let beverages = FoodSubcategory(name: "Beverages", icon: "cup.and.saucer.fill", color: "#2ECC71")
 
-    static let all: [FoodSubcategory] = [ingredients, dishes, famousChefs, baking, cookingTechniques, cuisines, beverages, desserts, foodHistory, saucesCondiments]
+    static let all: [FoodSubcategory] = [ingredients, bakingDesserts, cooking, foodHistory, dishesCuisines, beverages]
 }
 
 // MARK: - Literature Subcategories

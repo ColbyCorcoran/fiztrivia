@@ -1100,7 +1100,7 @@ class CategorySelectionManager: ObservableObject {
     }
 
     private func setDefaultSelection() {
-        // Default: Core 7 reorganized categories + Geography + Art
+        // Default: All 12 categories enabled
         selectedCategories = [
             .entertainment,
             .sports,
@@ -1109,8 +1109,11 @@ class CategorySelectionManager: ObservableObject {
             .science,
             .nature,
             .food,
+            .music,
+            .technology,
+            .art,
             .geography,
-            .art
+            .literature
         ]
         saveSettings()
     }

@@ -10,10 +10,12 @@ class GameViewModel {
     var wheelRotation: Double = 0
     var isSpinning = false
     var showCompletionCelebration = false
-    
+    var showSingleCategoryCompletionAlert = false
+
     private var usedQuestions: Set<String> = []
     private let difficultyManager = DifficultyManager.shared
     private let answeredQuestionsManager = AnsweredQuestionsManager.shared
+    private let singleCategoryManager = SingleCategoryModeManager.shared
     
     init() {
         loadQuestions()
@@ -197,6 +199,17 @@ class GameViewModel {
     }
     
     private func checkForCompletion() {
+        // Check for single category mode completion first
+        if singleCategoryManager.isEnabled,
+           let selectedCategory = singleCategoryManager.selectedCategory,
+           answeredQuestionsManager.areAllCategoryQuestionsAnswered(selectedCategory.rawValue, in: questions, difficultyMode: difficultyManager.selectedDifficulty) {
+            print("🎉 Single category (\(selectedCategory.rawValue)) completed! Showing alert.")
+            showSingleCategoryCompletionAlert = true
+            HapticManager.shared.correctAnswerEffect()
+            return
+        }
+
+        // Check for overall completion (all questions in all categories)
         if answeredQuestionsManager.areAllQuestionsAnswered(in: questions, difficultyMode: difficultyManager.selectedDifficulty) {
             print("🎉 All questions completed! Showing celebration.")
             showCompletionCelebration = true

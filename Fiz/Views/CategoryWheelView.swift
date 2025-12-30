@@ -183,6 +183,29 @@ struct CategoryWheelView: View {
                 completionCelebrationOverlay
             }
         }
+        .alert("All Questions Completed! 🎉", isPresented: $gameViewModel.showSingleCategoryCompletionAlert) {
+            Button("Change Game Mode") {
+                HapticManager.shared.buttonTapEffect()
+                gameViewModel.showSingleCategoryCompletionAlert = false
+                gameViewModel.showSettings()
+            }
+
+            Button("Return to Regular Mode") {
+                HapticManager.shared.buttonTapEffect()
+                singleCategoryManager.setModeEnabled(false)
+                gameViewModel.showSingleCategoryCompletionAlert = false
+            }
+
+            Button("Cancel", role: .cancel) {
+                gameViewModel.showSingleCategoryCompletionAlert = false
+            }
+        } message: {
+            if let category = singleCategoryManager.selectedCategory {
+                Text("You've completed all questions in \(category.rawValue) for \(difficultyManager.selectedDifficulty.rawValue) mode.\n\nSwitch to a different category, return to regular mode, or change your game settings.")
+            } else {
+                Text("You've completed all questions for your selected game mode.\n\nSwitch to a different category, return to regular mode, or change your game settings.")
+            }
+        }
         .sheet(isPresented: $showingQuestionModal, onDismiss: handleModalDismiss) {
             if let question = currentQuestion {
                 QuestionModalView(

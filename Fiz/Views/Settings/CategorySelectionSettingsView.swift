@@ -38,8 +38,8 @@ struct CategorySelectionSettingsView: View {
                                 // Determine which alert to show
                                 if categoryManager.selectedCategories.contains(category) {
                                     // Trying to deselect but can't
-                                    if SingleCategoryModeManager.shared.isEnabled &&
-                                       SingleCategoryModeManager.shared.selectedCategory == category {
+                                    if GameModeManager.shared.isSingleCategoryMode &&
+                                       GameModeManager.shared.selectedCategory == category {
                                         showActiveCategoryAlert = true
                                     } else {
                                         showMinimumAlert = true

@@ -15,7 +15,7 @@ class GameViewModel {
     private var usedQuestions: Set<String> = []
     private let difficultyManager = DifficultyManager.shared
     private let answeredQuestionsManager = AnsweredQuestionsManager.shared
-    private let singleCategoryManager = SingleCategoryModeManager.shared
+    private let gameModeManager = GameModeManager.shared
     private let phobiaManager = PhobiaExclusionManager.shared
 
     init() {
@@ -153,9 +153,9 @@ class GameViewModel {
                 let gameMode: String
                 let categoryName: String?
 
-                if singleCategoryManager.isEnabled {
+                if gameModeManager.isSingleCategoryMode {
                     gameMode = "Single Category"
-                    categoryName = singleCategoryManager.selectedCategory?.rawValue
+                    categoryName = gameModeManager.selectedCategory?.rawValue
                 } else {
                     gameMode = "Regular"
                     categoryName = nil
@@ -219,8 +219,8 @@ class GameViewModel {
     
     private func checkForCompletion() {
         // Check for single category mode completion first
-        if singleCategoryManager.isEnabled,
-           let selectedCategory = singleCategoryManager.selectedCategory,
+        if gameModeManager.isSingleCategoryMode,
+           let selectedCategory = gameModeManager.selectedCategory,
            answeredQuestionsManager.areAllCategoryQuestionsAnswered(selectedCategory.rawValue, in: questions, difficultyMode: difficultyManager.selectedDifficulty) {
             print("🎉 Single category (\(selectedCategory.rawValue)) completed! Showing alert.")
             showSingleCategoryCompletionAlert = true

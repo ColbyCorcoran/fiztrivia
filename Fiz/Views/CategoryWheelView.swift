@@ -23,7 +23,7 @@ struct CategoryWheelView: View {
     var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var difficultyManager = DifficultyManager.shared
-    @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
+    @StateObject private var gameModeManager = GameModeManager.shared
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
     @StateObject private var categorySelectionManager = CategorySelectionManager.shared
     @StateObject private var popupDurationManager = PopupDurationManager.shared
@@ -72,13 +72,13 @@ struct CategoryWheelView: View {
 
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
-        if singleCategoryManager.isEnabled, singleCategoryManager.selectedCategory != nil {
+        if gameModeManager.isSingleCategoryMode, gameModeManager.selectedCategory != nil {
             // Get subcategories for the selected category, filtering out those with no remaining questions
-            let subcategories = singleCategoryManager.getSubcategoriesForSelectedCategory(from: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty)
+            let subcategories = gameModeManager.getSubcategoriesForSelectedCategory(from: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty)
 
             return subcategories.compactMap { subcategory in
                 // Only include subcategories that have unanswered questions
-                if singleCategoryManager.hasQuestionsRemaining(for: subcategory.name, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty, answeredManager: answeredQuestionsManager) {
+                if gameModeManager.hasQuestionsRemaining(for: subcategory.name, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty, answeredManager: answeredQuestionsManager) {
                     return WheelSegmentData(
                         name: subcategory.name,
                         icon: subcategory.icon,
@@ -198,7 +198,7 @@ struct CategoryWheelView: View {
 
             Button("Return to Regular Mode") {
                 HapticManager.shared.buttonTapEffect()
-                singleCategoryManager.setModeEnabled(false)
+                gameModeManager.setMode(.regular)
                 gameViewModel.showSingleCategoryCompletionAlert = false
             }
 
@@ -206,7 +206,7 @@ struct CategoryWheelView: View {
                 gameViewModel.showSingleCategoryCompletionAlert = false
             }
         } message: {
-            if let category = singleCategoryManager.selectedCategory {
+            if let category = gameModeManager.selectedCategory {
                 Text("You've completed all questions in \(category.rawValue) for \(difficultyManager.selectedDifficulty.rawValue) mode.\n\nSwitch to a different category, return to regular mode, or change your game settings.")
             } else {
                 Text("You've completed all questions for your selected game mode.\n\nSwitch to a different category, return to regular mode, or change your game settings.")
@@ -309,9 +309,9 @@ struct CategoryWheelView: View {
                     // Right side: Mode indicator (if applicable) and streak badge
                     HStack(spacing: 8) {
                     // Game mode indicator - only show for non-regular modes
-                    if singleCategoryManager.isEnabled {
+                    if !gameModeManager.isRegularMode {
                         HStack(spacing: 4) {
-                            Image(systemName: "circle.grid.cross.left.filled")
+                            Image(systemName: gameModeManager.selectedMode.icon)
                                 .font(.caption)
                             Text("Mode")
                                 .font(.system(size: 14))
@@ -440,7 +440,11 @@ struct CategoryWheelView: View {
     }
 
     private func questionAreaWithCalculatedSpacing(geometry: GeometryProxy) -> some View {
-        let toolbarHeight: CGFloat = 50 * sizeCategory.conservativeScaleFactor
+        // Calculate actual toolbar height based on what's visible
+        let buttonRowHeight: CGFloat = 44 + 10 + 15  // height (44) + top padding (10) + bottom padding (15) = 69pt
+        let taglineRowHeight: CGFloat = sizeCategory < .accessibilityMedium ? (32 + 4) : 0  // height (32) + top padding (4) when visible
+        let toolbarHeight = buttonRowHeight + taglineRowHeight
+
         let questionAreaHeight: CGFloat = 300 * sizeCategory.conservativeScaleFactor
         let wheelTopY = geometry.size.height - 325  // Wheel center (height - 100) minus radius (225)
         let safeZoneHeight = wheelTopY - toolbarHeight
@@ -811,8 +815,8 @@ struct CategoryWheelView: View {
         guard !wheelSegments.isEmpty else {
             print("No wheel segments available - all categories completed!")
             // Show notification that all questions are answered
-            let modeDescription = singleCategoryManager.isEnabled
-                ? (singleCategoryManager.selectedCategory?.rawValue ?? "this category")
+            let modeDescription = gameModeManager.isSingleCategoryMode
+                ? (gameModeManager.selectedCategory?.rawValue ?? "this category")
                 : "all categories"
             noQuestionsMessage = "🎉 You've completed all questions in \(modeDescription) for \(difficultyManager.selectedDifficulty.rawValue) mode!"
             withAnimation {
@@ -835,7 +839,7 @@ struct CategoryWheelView: View {
         // Filter questions based on mode
         var filteredQuestions: [TriviaQuestion]
 
-        if singleCategoryManager.isEnabled, let subcategoryName = selectedSegment.subcategory {
+        if gameModeManager.isSingleCategoryMode, let subcategoryName = selectedSegment.subcategory {
             // Single Category Mode: filter by subcategory
             filteredQuestions = gameViewModel.questions.filter { question in
                 question.subcategory == subcategoryName &&
@@ -844,7 +848,7 @@ struct CategoryWheelView: View {
             }
 
             // Set the main category for display purposes
-            if let mainCategory = singleCategoryManager.selectedCategory {
+            if let mainCategory = gameModeManager.selectedCategory {
                 gameViewModel.gameSession.selectedCategory = mainCategory
             }
         } else {
@@ -941,7 +945,7 @@ struct CategoryWheelView: View {
         }
 
         // Check for completion (subcategory in Single Category Mode, or category in Default Mode)
-        if singleCategoryManager.isEnabled,
+        if gameModeManager.isSingleCategoryMode,
            let subcategory = questionSubcategory,
            answeredQuestionsManager.areAllSubcategoryQuestionsAnswered(subcategory, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty) {
             // Show toast notification for subcategory completion
@@ -966,7 +970,7 @@ struct CategoryWheelView: View {
                     completedSubcategoryName = ""
                 }
             }
-        } else if !singleCategoryManager.isEnabled,
+        } else if gameModeManager.isRegularMode,
                   let selectedCategory = gameViewModel.gameSession.selectedCategory,
                   answeredQuestionsManager.areAllCategoryQuestionsAnswered(selectedCategory.rawValue, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty) {
             // Show toast notification for category completion (Default Mode)
@@ -1157,7 +1161,7 @@ struct CategoryWheelView: View {
                         .animation(.easeInOut(duration: 0.8).delay(0.4), value: gameViewModel.showCompletionCelebration)
 
                     // Different messages for single category vs all categories
-                    if singleCategoryManager.isEnabled, let category = singleCategoryManager.selectedCategory {
+                    if gameModeManager.isSingleCategoryMode, let category = gameModeManager.selectedCategory {
                         Text("You've answered all \(category.rawValue) questions in \(difficultyManager.selectedDifficulty.rawValue) mode!")
                             .font(.title2)
                             .foregroundColor(.white.opacity(0.9))
@@ -1203,7 +1207,7 @@ struct CategoryWheelView: View {
                     .padding(.horizontal, 32)
 
                     // Settings button for Single Category Mode
-                    if singleCategoryManager.isEnabled {
+                    if gameModeManager.isSingleCategoryMode {
                         Button(action: {
                             HapticManager.shared.buttonTapEffect()
                             gameViewModel.showCompletionCelebration = false

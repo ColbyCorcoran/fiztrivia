@@ -4,6 +4,7 @@ struct SettingsView: View {
     @Bindable var gameViewModel: GameViewModel
     var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
+    @StateObject private var gameModeManager = GameModeManager.shared
     @Environment(\.sizeCategory) private var sizeCategory
 
     @State private var swipeTranslation: CGFloat = 0
@@ -97,7 +98,7 @@ struct SettingsView: View {
                         }
                         NavigationLink(destination: GameModesSettingsView(gameViewModel: gameViewModel)) {
                             SettingsRow(
-                                icon: "circle.grid.cross.left.filled",
+                                icon: gameModeManager.selectedMode.icon,
                                 iconColor: .fizOrange,
                                 title: "Game Modes"
                                 // subtitle: "Single category focus mode"

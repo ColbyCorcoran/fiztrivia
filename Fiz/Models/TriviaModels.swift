@@ -65,21 +65,18 @@ enum TriviaCategory: String, CaseIterable {
 
     var color: String {
         switch self {
-        // SATURATED (Primary/Secondary Colors)
-        case .sports: return "#E63946"             // Red - energy, competition
-        case .entertainment: return "#FFD60A"      // Yellow - bright, fun
-        case .science: return "#0077B6"            // Blue - logic, precision
-        case .food: return "#FF6B35"               // Orange - appetite, warmth
-        case .nature: return "#2D6A4F"             // Green - natural (unchanged)
-        case .bible: return "#7209B7"              // Purple - royalty, spirituality
-
-        // DESATURATED (Pastel Colors)
-        case .art: return "#FF8FA3"                // Coral - creative, soft
-        case .history: return "#C9ADA7"            // Gold - aged, classic
-        case .technology: return "#90E0EF"         // Cyan - modern, digital
-        case .geography: return "#A68A64"          // Tan - earth tones
-        case .music: return "#52B788"              // Mint - calm, harmony
-        case .literature: return "#B8A0D9"         // Lavender - refined, literary
+        case .sports:       return "#FED766"  // Coral/Orange-Red
+        case .entertainment: return "#FFB627"  // Golden Yellow
+        case .science:      return "#FF69EB"  // Navy Blue
+        case .food:         return "#ED6A5A"  // Vibrant Orange
+        case .nature:       return "#00A878"  // Teal/Green
+        case .bible:        return "#7B2CBF"  // Rich Purple
+        case .art:          return "#65549F"  // Pink
+        case .history:      return "#90BEDE"  // Burgundy/Maroon
+        case .technology:   return "#48CAE4"  // Sky Blue
+        case .geography:    return "#FE5E41"  // Muted Teal
+        case .music:        return "#C3F73A"  // Sage Green
+        case .literature:   return "#F6839C"  // Cherry Red
         }
     }
 
@@ -438,6 +435,45 @@ struct Phobia: Codable, Identifiable, Equatable {
     }
 }
 
+// MARK: - Game Mode Enum
+enum GameMode: String, CaseIterable, Codable, Identifiable {
+    case regular = "Regular"
+    case singleCategory = "Single Category"
+    // Future modes ready to uncomment:
+    // case singleTopic = "Single Topic"
+    // case seasonal = "Seasonal"
+
+    var id: String { rawValue }
+
+    var description: String {
+        switch self {
+        case .regular:
+            return "Mix of all selected categories"
+        case .singleCategory:
+            return "Focus on one category's subcategories"
+        // Future:
+        // case .singleTopic:
+        //     return "Focus on questions from a specific topic"
+        // case .seasonal:
+        //     return "Special themed trivia experience"
+        }
+    }
+
+    var icon: String {
+        switch self {
+        case .regular:
+            return "circle.grid.cross.left.filled"
+        case .singleCategory:
+            return "circle.grid.cross.up.filled"
+        // Future:
+        // case .singleTopic:
+        //     return "circle.grid.cross.right.filled"
+        // case .seasonal:
+        //     return "circle.grid.cross.down.filled"
+        }
+    }
+}
+
 // MARK: - Persistent Streak Manager
 class StreakPersistenceManager {
     private static let streakKey = "current_streak"
@@ -593,45 +629,162 @@ class AnsweredQuestionsManager: ObservableObject {
     }
 }
 
-// MARK: - Single Category Mode Manager
-class SingleCategoryModeManager: ObservableObject {
-    private static let modeEnabledKey = "single_category_mode_enabled"
-    private static let selectedCategoryKey = "single_category_mode_selected_category"
+// MARK: - Game Mode Manager
+class GameModeManager: ObservableObject {
+    private static let selectedModeKey = "selected_game_mode"
+    private static let selectedCategoryKey = "game_mode_selected_category"
+    // Future keys ready:
+    // private static let selectedTopicKey = "game_mode_selected_topic"
+    // private static let seasonalThemeKey = "game_mode_seasonal_theme"
 
-    @Published var isEnabled: Bool = false
-    @Published var selectedCategory: TriviaCategory?
+    @Published var selectedMode: GameMode = .regular
 
-    static let shared = SingleCategoryModeManager()
+    // Mode-specific settings
+    @Published var selectedCategory: TriviaCategory? = nil
+    // Future settings ready:
+    // @Published var selectedTopic: String? = nil
+    // @Published var seasonalTheme: String? = nil
+
+    static let shared = GameModeManager()
 
     private init() {
+        migrateFromLegacyStorage()
         loadSettings()
+        validateAndFixInvalidState()
     }
 
-    private func loadSettings() {
-        isEnabled = UserDefaults.standard.bool(forKey: Self.modeEnabledKey)
+    // MARK: - Migration
 
+    private func migrateFromLegacyStorage() {
+        let legacyModeKey = "single_category_mode_enabled"
+        let legacyCategoryKey = "single_category_mode_selected_category"
+
+        if UserDefaults.standard.object(forKey: legacyModeKey) != nil {
+            let wasEnabled = UserDefaults.standard.bool(forKey: legacyModeKey)
+
+            if wasEnabled {
+                // Migrate to new system
+                UserDefaults.standard.set(GameMode.singleCategory.rawValue, forKey: Self.selectedModeKey)
+
+                // Migrate category selection
+                if let categoryString = UserDefaults.standard.string(forKey: legacyCategoryKey) {
+                    UserDefaults.standard.set(categoryString, forKey: Self.selectedCategoryKey)
+                }
+            } else {
+                UserDefaults.standard.set(GameMode.regular.rawValue, forKey: Self.selectedModeKey)
+            }
+
+            // Clean up legacy keys
+            UserDefaults.standard.removeObject(forKey: legacyModeKey)
+            UserDefaults.standard.removeObject(forKey: legacyCategoryKey)
+
+            print("Migrated from SingleCategoryModeManager to GameModeManager")
+        }
+    }
+
+    // MARK: - Persistence
+
+    private func loadSettings() {
+        // Load selected mode
+        if let modeString = UserDefaults.standard.string(forKey: Self.selectedModeKey),
+           let mode = GameMode(rawValue: modeString) {
+            selectedMode = mode
+        }
+
+        // Load mode-specific settings
         if let categoryString = UserDefaults.standard.string(forKey: Self.selectedCategoryKey),
            let category = TriviaCategory(rawValue: categoryString) {
             selectedCategory = category
         }
     }
 
-    func setModeEnabled(_ enabled: Bool) {
-        isEnabled = enabled
-        UserDefaults.standard.set(enabled, forKey: Self.modeEnabledKey)
-    }
+    private func saveSettings() {
+        UserDefaults.standard.set(selectedMode.rawValue, forKey: Self.selectedModeKey)
 
-    func setSelectedCategory(_ category: TriviaCategory?) {
-        selectedCategory = category
-        if let category = category {
+        if let category = selectedCategory {
             UserDefaults.standard.set(category.rawValue, forKey: Self.selectedCategoryKey)
         } else {
             UserDefaults.standard.removeObject(forKey: Self.selectedCategoryKey)
         }
     }
 
-    func getSubcategoriesForSelectedCategory(from questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> [any TriviaSubcategory] {
-        guard let category = selectedCategory else { return [] }
+    // MARK: - Validation
+
+    private func validateAndFixInvalidState() {
+        var isValid = true
+
+        switch selectedMode {
+        case .regular:
+            // Regular mode is always valid
+            isValid = true
+        case .singleCategory:
+            // Single Category requires a selected category
+            if selectedCategory == nil {
+                isValid = false
+                print("⚠️ Invalid state detected: Single Category mode without category selection")
+            }
+        // Future modes:
+        // case .singleTopic:
+        //     if selectedTopic == nil {
+        //         isValid = false
+        //     }
+        // case .seasonal:
+        //     // Seasonal mode might always be valid
+        //     isValid = true
+        }
+
+        // If invalid, reset to regular mode
+        if !isValid {
+            print("🔄 Resetting to Regular mode due to invalid state")
+            selectedMode = .regular
+            selectedCategory = nil
+            saveSettings()
+        }
+    }
+
+    // MARK: - Public Methods
+
+    func setMode(_ mode: GameMode) {
+        selectedMode = mode
+
+        // Clear settings for other modes when switching
+        if mode != .singleCategory {
+            selectedCategory = nil
+        }
+
+        saveSettings()
+    }
+
+    func setSelectedCategory(_ category: TriviaCategory?) {
+        selectedCategory = category
+        saveSettings()
+    }
+
+    // MARK: - Computed Properties for Compatibility
+
+    // For backward compatibility with existing code
+    var isRegularMode: Bool {
+        return selectedMode == .regular
+    }
+
+    var isSingleCategoryMode: Bool {
+        return selectedMode == .singleCategory
+    }
+
+    // Future:
+    // var isSingleTopicMode: Bool {
+    //     return selectedMode == .singleTopic
+    // }
+
+    // MARK: - Wheel Segment Logic
+
+    func getSubcategoriesForSelectedCategory(from questions: [TriviaQuestion],
+                                            difficultyMode: DifficultyMode)
+        -> [any TriviaSubcategory] {
+        guard selectedMode == .singleCategory,
+              let category = selectedCategory else {
+            return []
+        }
 
         // Get all unique subcategories from the question database for this category
         let subcategoryNames = Set(questions.filter { $0.category == category.rawValue }.compactMap { $0.subcategory })
@@ -669,7 +822,10 @@ class SingleCategoryModeManager: ObservableObject {
         return subcategories
     }
 
-    func hasQuestionsRemaining(for subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode, answeredManager: AnsweredQuestionsManager) -> Bool {
+    func hasQuestionsRemaining(for subcategory: String,
+                              in questions: [TriviaQuestion],
+                              difficultyMode: DifficultyMode,
+                              answeredManager: AnsweredQuestionsManager) -> Bool {
         let subcategoryQuestions = questions.filter { question in
             question.subcategory == subcategory &&
             difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
@@ -898,8 +1054,8 @@ class CategorySelectionManager: ObservableObject {
             // Deselecting - check minimum
             if selectedCategories.count > Self.minimumCategories {
                 // Check if this is the active single-category mode category
-                if SingleCategoryModeManager.shared.isEnabled &&
-                   SingleCategoryModeManager.shared.selectedCategory == category {
+                if GameModeManager.shared.isSingleCategoryMode &&
+                   GameModeManager.shared.selectedCategory == category {
                     return false // Cannot deselect active category
                 }
 

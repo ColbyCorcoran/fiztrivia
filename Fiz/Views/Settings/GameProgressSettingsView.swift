@@ -2,7 +2,7 @@ import SwiftUI
 
 struct GameProgressSettingsView: View {
     @Bindable var gameViewModel: GameViewModel
-    @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
+    @StateObject private var gameModeManager = GameModeManager.shared
     @State private var showingResetAlert = false
 
     private var backgroundGradient: some View {
@@ -32,8 +32,8 @@ struct GameProgressSettingsView: View {
             }
 
             // Category-Specific Section (only shown when Single Category Mode is enabled)
-            if singleCategoryManager.isEnabled,
-               let selectedCategory = singleCategoryManager.selectedCategory {
+            if gameModeManager.isSingleCategoryMode,
+               let selectedCategory = gameModeManager.selectedCategory {
 
                 Section(header: Text("\(selectedCategory.rawValue) Questions")) {
                     let categoryProgress = gameViewModel.getCategoryProgress(selectedCategory)

@@ -19,7 +19,7 @@ struct LeaderboardView: View {
     private var recentEntries: [LeaderboardEntry] {
         Array(leaderboardEntries.prefix(15))
     }
-    
+
     var body: some View {
         ZStack {
             LinearGradient(
@@ -203,7 +203,15 @@ struct LeaderboardRow: View {
         default: return "💯" // 15+
         }
     }
-    
+
+    private func icon(for gameMode: String) -> String {
+        if let mode = GameMode(rawValue: gameMode) {
+            return mode.icon
+        }
+        // Fallback to regular mode icon
+        return GameMode.regular.icon
+    }
+
     var body: some View {
         HStack(spacing: 15) {
             // Rank
@@ -225,7 +233,7 @@ struct LeaderboardRow: View {
                 // Game mode badge
                 if entry.gameMode != "Regular" {
                     HStack(spacing: 4) {
-                        Image(systemName: "circle.grid.cross.left.filled")
+                        Image(systemName: icon(for: entry.gameMode))
                             .font(.system(size: 10))
                         if let category = entry.categoryName {
                             Text("\(entry.gameMode): \(category)")

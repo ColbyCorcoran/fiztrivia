@@ -3,36 +3,64 @@ import SwiftData
 
 struct GameModesSettingsView: View {
     @Bindable var gameViewModel: GameViewModel
-    @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
+    @StateObject private var gameModeManager = GameModeManager.shared
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
+    @Environment(\.dismiss) private var dismiss
+
+    @State private var showingStreakAlert = false
+    @State private var showingIncompleteSelectionAlert = false
+    @State private var pendingMode: GameMode?
+    @State private var previousMode: GameMode = .regular
+    @State private var pendingCategory: TriviaCategory?
+    @State private var previousCategory: TriviaCategory?
+    @State private var localSelectedMode: GameMode = .regular
+    @State private var localSelectedCategory: TriviaCategory? = nil
+    @State private var isInitialLoad = true
+    @State private var isApplyingChanges = false
 
     private var backgroundGradient: some View {
         Color(.systemGroupedBackground)
             .ignoresSafeArea()
     }
-    @State private var showingStreakAlert = false
-    @State private var pendingModeChange: Bool? = nil
-    @State private var previousModeValue: Bool? = nil
-    @State private var pendingCategoryChange: TriviaCategory? = nil
-    @State private var previousCategory: TriviaCategory? = nil
-    @State private var localModeEnabled: Bool = false
-    @State private var localSelectedCategory: TriviaCategory? = nil
-    @State private var isInitialLoad: Bool = true
-    @State private var isApplyingChanges: Bool = false
+
+    // Check if current selection is complete and valid
+    private var isSelectionComplete: Bool {
+        switch localSelectedMode {
+        case .regular:
+            return true
+        case .singleCategory:
+            return localSelectedCategory != nil
+        // Future modes:
+        // case .singleTopic:
+        //     return localSelectedTopic != nil
+        // case .seasonal:
+        //     return true
+        }
+    }
 
     var body: some View {
         Form {
-            Section(footer: Text("Focus on questions from a single category. The wheel will show subcategories instead of all categories.")) {
-                Toggle("Single Category Mode", isOn: $localModeEnabled)
-                    .onChange(of: localModeEnabled) { oldValue, newValue in
-                        handleModeChange(from: oldValue, to: newValue)
-                    }
+            // Game Mode Selection Section
+            Section(header: Text("Select Game Mode"),
+                    footer: Text("Choose how you want to play trivia. Switching modes will reset your current streak.")) {
+                ForEach(GameMode.allCases) { mode in
+                    GameModeRow(
+                        mode: mode,
+                        isSelected: localSelectedMode == mode,
+                        onSelect: {
+                            handleModeSelection(mode)
+                        }
+                    )
+                }
+            }
 
-                if localModeEnabled {
+            // Conditional Settings Based on Selected Mode
+            if localSelectedMode == .singleCategory {
+                Section(header: Text("Category Settings"),
+                        footer: Text("Select which category to focus on. The wheel will show subcategories instead of all categories.")) {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack {
-                            // Hide label at accessibility sizes to reduce cramping
                             if !sizeCategory.isAccessibilitySize {
                                 Text("Selected Category")
                                 Spacer()
@@ -65,11 +93,35 @@ struct GameModesSettingsView: View {
                     }
                 }
             }
+
+            // Future: Single Topic settings section would go here
+            // if localSelectedMode == .singleTopic { ... }
+
+            // Future: Seasonal settings section would go here
+            // if localSelectedMode == .seasonal { ... }
         }
         .scrollContentBackground(.hidden)
         .background(backgroundGradient)
         .navigationTitle("Game Modes")
         .navigationBarTitleDisplayMode(.large)
+        .navigationBarBackButtonHidden(!isSelectionComplete)
+        .toolbar {
+            if !isSelectionComplete {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
+                        showingIncompleteSelectionAlert = true
+                    }) {
+                        Image(systemName: "chevron.left")
+                            .font(.body.weight(.semibold))
+                    }
+                }
+            }
+        }
+        .alert("Selection Required", isPresented: $showingIncompleteSelectionAlert) {
+            Button("OK", role: .cancel) { }
+        } message: {
+            Text("Please select a category before leaving, or switch back to Regular mode.")
+        }
         .alert("Save Current Streak?", isPresented: $showingStreakAlert) {
             Button("Cancel", role: .cancel) {
                 handleAlertCancel()
@@ -85,45 +137,37 @@ struct GameModesSettingsView: View {
         }
         .onAppear {
             isInitialLoad = true
-            localModeEnabled = singleCategoryManager.isEnabled
-            localSelectedCategory = singleCategoryManager.selectedCategory
+            localSelectedMode = gameModeManager.selectedMode
+            localSelectedCategory = gameModeManager.selectedCategory
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 isInitialLoad = false
             }
         }
     }
 
-    private func handleAlertCancel() {
-        if let previousMode = previousModeValue {
-            localModeEnabled = previousMode
-            previousModeValue = nil
-        }
+    // MARK: - Event Handlers
 
-        if let previousCat = previousCategory {
-            localSelectedCategory = previousCat
-            previousCategory = nil
-        }
-
-        pendingModeChange = nil
-        pendingCategoryChange = nil
-    }
-
-    private func handleModeChange(from oldValue: Bool, to newValue: Bool) {
+    private func handleModeSelection(_ mode: GameMode) {
         guard !isInitialLoad && !isApplyingChanges else { return }
+        guard mode != localSelectedMode else { return }
 
         if gameViewModel.gameSession.currentStreak > 0 {
-            previousModeValue = oldValue
-            pendingModeChange = newValue
+            previousMode = localSelectedMode
+            pendingMode = mode
             DispatchQueue.main.async {
                 self.showingStreakAlert = true
             }
         } else {
-            singleCategoryManager.setModeEnabled(newValue)
-            if !newValue {
-                singleCategoryManager.setSelectedCategory(nil)
+            gameModeManager.setMode(mode)
+            localSelectedMode = mode
+
+            // Clear settings for other modes
+            if mode != .singleCategory {
+                gameModeManager.setSelectedCategory(nil)
                 localSelectedCategory = nil
-                AnalyticsManager.shared.trackSingleCategoryModeDisabled()
             }
+
+            AnalyticsManager.shared.trackSettingChanged(setting: "game_mode", value: mode.rawValue)
         }
     }
 
@@ -132,33 +176,39 @@ struct GameModesSettingsView: View {
 
         if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil && oldValue != newValue {
             previousCategory = oldValue
-            pendingCategoryChange = newValue
+            pendingCategory = newValue
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 self.showingStreakAlert = true
             }
         } else {
-            singleCategoryManager.setSelectedCategory(newValue)
+            gameModeManager.setSelectedCategory(newValue)
             if let category = newValue {
-                AnalyticsManager.shared.trackSingleCategoryModeEnabled(category: category.rawValue)
+                AnalyticsManager.shared.trackSettingChanged(setting: "single_category_selected", value: category.rawValue)
             }
         }
+    }
+
+    private func handleAlertCancel() {
+        if let pending = pendingMode {
+            localSelectedMode = previousMode
+            pendingMode = nil
+        }
+
+        if let previousCat = previousCategory {
+            localSelectedCategory = previousCat
+            previousCategory = nil
+        }
+
+        pendingCategory = nil
     }
 
     private func applyPendingChanges(saveStreak: Bool) {
         isApplyingChanges = true
 
         if saveStreak && gameViewModel.gameSession.currentStreak > 0 {
-            // Capture CURRENT mode/category before applying changes
-            let gameMode: String
-            let categoryName: String?
-
-            if singleCategoryManager.isEnabled {
-                gameMode = "Single Category"
-                categoryName = singleCategoryManager.selectedCategory?.rawValue
-            } else {
-                gameMode = "Regular"
-                categoryName = nil
-            }
+            // Save streak with current mode info
+            let gameMode = gameModeManager.selectedMode.rawValue
+            let categoryName = gameModeManager.selectedCategory?.rawValue
 
             let entry = LeaderboardEntry(
                 streak: gameViewModel.gameSession.currentStreak,
@@ -170,38 +220,87 @@ struct GameModesSettingsView: View {
 
             do {
                 try modelContext.save()
-                print("Saved streak to leaderboard: \(gameViewModel.gameSession.currentStreak) (\(gameMode)\(categoryName.map { " - \($0)" } ?? ""))")
+                print("Saved streak: \(gameViewModel.gameSession.currentStreak) (\(gameMode)\(categoryName.map { " - \($0)" } ?? ""))")
             } catch {
                 print("Failed to save streak: \(error)")
             }
         }
 
+        // Reset streak
         gameViewModel.gameSession.currentStreak = 0
         StreakPersistenceManager.clearCurrentStreak()
 
-        if let modeChange = pendingModeChange {
-            singleCategoryManager.setModeEnabled(modeChange)
-            if !modeChange {
-                singleCategoryManager.setSelectedCategory(nil)
+        // Apply pending mode change
+        if let newMode = pendingMode {
+            gameModeManager.setMode(newMode)
+            localSelectedMode = newMode
+
+            if newMode != .singleCategory {
+                gameModeManager.setSelectedCategory(nil)
+                localSelectedCategory = nil
             }
-            pendingModeChange = nil
+
+            pendingMode = nil
         }
 
-        if let categoryChange = pendingCategoryChange {
-            singleCategoryManager.setSelectedCategory(categoryChange)
-            pendingCategoryChange = nil
+        // Apply pending category change
+        if let newCategory = pendingCategory {
+            gameModeManager.setSelectedCategory(newCategory)
+            localSelectedCategory = newCategory
+            pendingCategory = nil
         }
 
-        previousModeValue = nil
+        previousMode = localSelectedMode
         previousCategory = nil
 
         HapticManager.shared.buttonTapEffect()
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-            self.localModeEnabled = self.singleCategoryManager.isEnabled
-            self.localSelectedCategory = self.singleCategoryManager.selectedCategory
             self.isApplyingChanges = false
         }
+    }
+}
+
+// MARK: - Game Mode Row Component
+
+struct GameModeRow: View {
+    let mode: GameMode
+    let isSelected: Bool
+    let onSelect: () -> Void
+
+    var body: some View {
+        Button(action: onSelect) {
+            HStack(spacing: 12) {
+                Image(systemName: mode.icon)
+                    .font(.title3)
+                    .foregroundColor(.fizOrange)
+                    .frame(width: 28)
+
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(mode.rawValue)
+                        .font(.body)
+                        .foregroundColor(.primary)
+
+                    Text(mode.description)
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+
+                Spacer()
+
+                if isSelected {
+                    Image(systemName: "checkmark.circle.fill")
+                        .font(.title3)
+                        .foregroundColor(.fizOrange)
+                } else {
+                    Image(systemName: "circle")
+                        .font(.title3)
+                        .foregroundColor(.secondary.opacity(0.3))
+                }
+            }
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
     }
 }
 

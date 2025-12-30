@@ -34,13 +34,13 @@ struct TriviaQuestion: Codable, Identifiable {
 
 enum TriviaCategory: String, CaseIterable {
     case entertainment = "Entertainment"
-    case literature = "Literature"
+    case sports = "Sports"
     case music = "Music"
     case technology = "Technology"
     case art = "Art"
     case geography = "Geography"
-    case sports = "Sports"
     case science = "Science"
+    case literature = "Literature"
     case nature = "Nature"
     case history = "History"
     case bible = "Bible"
@@ -49,13 +49,13 @@ enum TriviaCategory: String, CaseIterable {
     var icon: String {
         switch self {
         case .entertainment: return "movieclapper.fill"
-        case .literature: return "book.fill"
+        case .sports: return "tennisball.fill"
         case .music: return "music.note"
         case .technology: return "laptopcomputer"
         case .art: return "paintpalette.fill"
         case .geography: return "map.fill"
-        case .sports: return "tennisball.fill"
         case .science: return "atom"
+        case .literature: return "book.fill"
         case .nature: return "leaf.fill"
         case .history: return "building.columns.fill"
         case .bible: return "text.book.closed.fill"
@@ -65,18 +65,28 @@ enum TriviaCategory: String, CaseIterable {
 
     var color: String {
         switch self {
-        case .sports:       return "#FED766"  // Coral/Orange-Red
-        case .entertainment: return "#FFB627"  // Golden Yellow
-        case .science:      return "#FF69EB"  // Navy Blue
-        case .food:         return "#ED6A5A"  // Vibrant Orange
-        case .nature:       return "#00A878"  // Teal/Green
-        case .bible:        return "#7B2CBF"  // Rich Purple
-        case .art:          return "#65549F"  // Pink
-        case .history:      return "#90BEDE"  // Burgundy/Maroon
-        case .technology:   return "#48CAE4"  // Sky Blue
-        case .geography:    return "#FE5E41"  // Muted Teal
-        case .music:        return "#C3F73A"  // Sage Green
-        case .literature:   return "#F6839C"  // Cherry Red
+        case .entertainment: return "#F7B500"  // Gold (LOCKED)
+        case .sports:        return "#FF7F0F"  // Orange (LOCKED)
+        case .music:         return "#2ECC71"  // Green
+        case .technology:    return "#3498DB"  // Blue
+        case .art:           return "#8E44AD"  // Purple
+        case .geography:     return "#E91E63"  // Red
+        case .science:       return "#F7B500"  // Gold
+        case .literature:    return "#FF7F0F"  // Orange
+        case .nature:        return "#2ECC71"  // Green (LOCKED)
+        case .history:       return "#3498DB"  // Blue (LOCKED)
+        case .bible:         return "#8E44AD"  // Purple (LOCKED)
+        case .food:          return "#E91E63"  // Red (LOCKED)
+        }
+    }
+
+    // Helper to identify locked categories (never change color)
+    var isColorLocked: Bool {
+        switch self {
+        case .entertainment, .sports, .bible, .history, .nature, .food:
+            return true
+        case .literature, .music, .technology, .art, .geography, .science:
+            return false
         }
     }
 

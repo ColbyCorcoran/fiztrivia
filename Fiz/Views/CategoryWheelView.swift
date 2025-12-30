@@ -72,11 +72,14 @@ struct CategoryWheelView: View {
 
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
+        // First, create segments with base colors
+        let baseSegments: [WheelSegmentData]
+
         if gameModeManager.isSingleCategoryMode, gameModeManager.selectedCategory != nil {
             // Get subcategories for the selected category, filtering out those with no remaining questions
             let subcategories = gameModeManager.getSubcategoriesForSelectedCategory(from: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty)
 
-            return subcategories.compactMap { subcategory in
+            baseSegments = subcategories.compactMap { subcategory in
                 // Only include subcategories that have unanswered questions
                 if gameModeManager.hasQuestionsRemaining(for: subcategory.name, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty, answeredManager: answeredQuestionsManager) {
                     return WheelSegmentData(
@@ -90,7 +93,7 @@ struct CategoryWheelView: View {
             }
         } else {
             // Default mode: show selected categories only, filtering out completed ones
-            return TriviaCategory.allCases.compactMap { category in
+            baseSegments = TriviaCategory.allCases.compactMap { category in
                 // Filter by selected categories FIRST
                 guard categorySelectionManager.isSelected(category) else {
                     return nil
@@ -108,11 +111,181 @@ struct CategoryWheelView: View {
                 return nil
             }
         }
+
+        // Apply smart color assignment to avoid duplicates/adjacency
+        // Build segments iteratively to track assigned colors
+        var smartSegments: [WheelSegmentData] = []
+        var assignedColors: [String] = []
+
+        for (index, segment) in baseSegments.enumerated() {
+            let smartColorHex = smartColor(
+                for: segment,
+                at: index,
+                totalSegments: baseSegments.count,
+                allSegments: baseSegments,
+                assignedColors: assignedColors
+            )
+
+            smartSegments.append(WheelSegmentData(
+                name: segment.name,
+                icon: segment.icon,
+                color: smartColorHex,
+                subcategory: segment.subcategory
+            ))
+
+            assignedColors.append(smartColorHex)
+        }
+
+        return smartSegments
     }
 
     private var segmentAngle: Double {
         let count = wheelSegments.count
         return count > 0 ? 360.0 / Double(count) : 0
+    }
+
+    // MARK: - Smart Color Assignment
+    private func smartColor(
+        for segment: WheelSegmentData,
+        at index: Int,
+        totalSegments: Int,
+        allSegments: [WheelSegmentData],
+        assignedColors: [String]
+    ) -> String {
+        // For subcategory mode, just use the segment's color
+        guard segment.subcategory == nil else {
+            return segment.color
+        }
+
+        // Get the category for this segment
+        guard let category = TriviaCategory(rawValue: segment.name) else {
+            return segment.color
+        }
+
+        // If it's a locked category, always use its specific color
+        if category.isColorLocked {
+            return category.color
+        }
+
+        // For flexible categories, apply smart logic based on number of segments
+        let colorPalette = [
+            "#F7B500",  // Gold
+            "#FF7F0F",  // Orange
+            "#8E44AD",  // Purple
+            "#3498DB",  // Blue
+            "#2ECC71",  // Green
+            "#E91E63"   // Pink
+        ]
+
+        if totalSegments <= 6 {
+            // 2-6 categories: Ensure NO duplicate colors
+            return assignUniqueColor(
+                category: category,
+                currentIndex: index,
+                allSegments: allSegments,
+                assignedColors: assignedColors,
+                palette: colorPalette
+            )
+        } else {
+            // 7-12 categories: Avoid adjacent same colors
+            return assignNonAdjacentColor(
+                for: index,
+                category: category,
+                totalSegments: totalSegments,
+                allSegments: allSegments,
+                assignedColors: assignedColors,
+                palette: colorPalette
+            )
+        }
+    }
+
+    private func assignUniqueColor(
+        category: TriviaCategory,
+        currentIndex: Int,
+        allSegments: [WheelSegmentData],
+        assignedColors: [String],
+        palette: [String]
+    ) -> String {
+        // Colors already assigned to previous segments
+        var usedColors = Set(assignedColors)
+
+        // Also reserve colors needed by locked categories that come after this one
+        for i in (currentIndex + 1)..<allSegments.count {
+            if let futureCat = TriviaCategory(rawValue: allSegments[i].name),
+               futureCat.isColorLocked {
+                usedColors.insert(futureCat.color)
+            }
+        }
+
+        // Try to use the category's static color first if it's not used/reserved
+        if !usedColors.contains(category.color) {
+            return category.color
+        }
+
+        // Find first color in palette not already used or reserved
+        for color in palette {
+            if !usedColors.contains(color) {
+                return color
+            }
+        }
+
+        // Fallback: use default color (shouldn't happen with 6 colors and ≤6 categories)
+        return category.color
+    }
+
+    private func assignNonAdjacentColor(
+        for index: Int,
+        category: TriviaCategory,
+        totalSegments: Int,
+        allSegments: [WheelSegmentData],
+        assignedColors: [String],
+        palette: [String]
+    ) -> String {
+        let usedColors = Set(assignedColors)
+        var adjacentColors: Set<String> = []
+
+        // Get previous segment's color (it's already been assigned)
+        let prevIndex = (index - 1 + totalSegments) % totalSegments
+        if prevIndex < assignedColors.count && prevIndex >= 0 {
+            adjacentColors.insert(assignedColors[prevIndex])
+        }
+
+        // Get next segment's color if it's a locked category (we know its future color)
+        let nextIndex = (index + 1) % totalSegments
+        if nextIndex < allSegments.count {
+            if let nextCat = TriviaCategory(rawValue: allSegments[nextIndex].name),
+               nextCat.isColorLocked {
+                adjacentColors.insert(nextCat.color)
+            }
+        }
+
+        // STRATEGY: Maximize color variety while avoiding adjacency
+        // Priority 1: Use category's static color if unused and not adjacent (most predictable)
+        if !usedColors.contains(category.color) && !adjacentColors.contains(category.color) {
+            return category.color
+        }
+
+        // Priority 2: Find any other unused color that's not adjacent (maximize variety)
+        for color in palette {
+            if !usedColors.contains(color) && !adjacentColors.contains(color) {
+                return color
+            }
+        }
+
+        // Priority 3: Use category's static color if not adjacent (even if used, better than random)
+        if !adjacentColors.contains(category.color) {
+            return category.color
+        }
+
+        // Priority 4: Find any color that's not adjacent (last resort)
+        for color in palette {
+            if !adjacentColors.contains(color) {
+                return color
+            }
+        }
+
+        // Final fallback (should never reach here)
+        return category.color
     }
 
     // MARK: - Dynamic Type & Accessibility

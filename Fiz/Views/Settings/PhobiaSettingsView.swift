@@ -103,14 +103,14 @@ struct PhobiaSettingsView: View {
         showingConfirmation = true
 
         HapticManager.shared.buttonTapEffect()
-        AnalyticsManager.shared.trackSettingChanged(setting: "phobia_filter_added", value: result.phobia.term)
+        AnalyticsManager.shared.trackPhobiaFilterAdded(totalFilterCount: phobiaManager.phobias.count)
     }
 
     private func deletePhobia(at offsets: IndexSet) {
         for index in offsets {
             let phobia = phobiaManager.phobias[index]
             phobiaManager.removePhobia(phobia)
-            AnalyticsManager.shared.trackSettingChanged(setting: "phobia_filter_removed", value: phobia.term)
+            AnalyticsManager.shared.trackPhobiaFilterRemoved(remainingFilterCount: phobiaManager.phobias.count)
         }
         HapticManager.shared.buttonTapEffect()
     }

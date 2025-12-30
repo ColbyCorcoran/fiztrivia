@@ -14,7 +14,10 @@ struct HapticsSettingsView: View {
             Section(footer: Text("Haptic feedback provides tactile responses when you interact with the app.")) {
                 Toggle("Haptic Feedback", isOn: Binding(
                     get: { hapticSettingsManager.isHapticEnabled },
-                    set: { hapticSettingsManager.setHapticEnabled($0) }
+                    set: { newValue in
+                        hapticSettingsManager.setHapticEnabled(newValue)
+                        AnalyticsManager.shared.trackHapticFeedbackToggled(enabled: newValue)
+                    }
                 ))
                 .accessibilityHint("Enable or disable haptic feedback")
             }
@@ -22,7 +25,10 @@ struct HapticsSettingsView: View {
             Section(footer: Text("Swipe left/right on the main screen to navigate between Leaderboard, Main Wheel, and Settings. Swipe gestures only work when no question is active.")) {
                 Toggle("Swipe Navigation", isOn: Binding(
                     get: { swipeNavigationManager.isSwipeNavigationEnabled },
-                    set: { swipeNavigationManager.setSwipeNavigationEnabled($0) }
+                    set: { newValue in
+                        swipeNavigationManager.setSwipeNavigationEnabled(newValue)
+                        AnalyticsManager.shared.trackSwipeNavigationToggled(enabled: newValue)
+                    }
                 ))
                 .accessibilityHint("Enable or disable swipe navigation between screens")
             }

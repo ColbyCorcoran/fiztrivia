@@ -17,7 +17,11 @@ struct PopupDurationSettingsView: View {
                     Slider(
                         value: Binding(
                             get: { popupDurationManager.correctPopupDuration },
-                            set: { popupDurationManager.setCorrectPopupDuration($0) }
+                            set: { newValue in
+                                popupDurationManager.setCorrectPopupDuration(newValue)
+                                let isCustom = abs(newValue - 1.5) > 0.01  // Default is 1.5s
+                                AnalyticsManager.shared.trackPopupDurationChanged(popupType: "correct", duration: newValue, isCustom: isCustom)
+                            }
                         ),
                         in: 0.5...5.0,
                         step: 0.5
@@ -30,7 +34,11 @@ struct PopupDurationSettingsView: View {
                     Slider(
                         value: Binding(
                             get: { popupDurationManager.incorrectPopupDuration },
-                            set: { popupDurationManager.setIncorrectPopupDuration($0) }
+                            set: { newValue in
+                                popupDurationManager.setIncorrectPopupDuration(newValue)
+                                let isCustom = abs(newValue - 3.0) > 0.01  // Default is 3.0s
+                                AnalyticsManager.shared.trackPopupDurationChanged(popupType: "incorrect", duration: newValue, isCustom: isCustom)
+                            }
                         ),
                         in: 0.5...5.0,
                         step: 0.5

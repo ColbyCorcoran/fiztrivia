@@ -200,10 +200,17 @@ struct GameModesSettingsView: View {
         }
 
         pendingCategory = nil
+
+        // Track streak save decision: cancelled
+        AnalyticsManager.shared.trackStreakSaveDecision(action: "cancelled", streakValue: gameViewModel.gameSession.currentStreak)
     }
 
     private func applyPendingChanges(saveStreak: Bool) {
         isApplyingChanges = true
+
+        // Track streak save decision
+        let action = saveStreak ? "saved" : "discarded"
+        AnalyticsManager.shared.trackStreakSaveDecision(action: action, streakValue: gameViewModel.gameSession.currentStreak)
 
         if saveStreak && gameViewModel.gameSession.currentStreak > 0 {
             // Save streak with current mode info

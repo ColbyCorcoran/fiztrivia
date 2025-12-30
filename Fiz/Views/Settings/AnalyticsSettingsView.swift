@@ -14,10 +14,12 @@ struct AnalyticsSettingsView: View {
                 Toggle("Share Anonymous Analytics", isOn: Binding(
                     get: { analyticsManager.isAnalyticsEnabled },
                     set: { newValue in
-                        analyticsManager.setAnalyticsEnabled(newValue)
                         if newValue {
-                            // Track that analytics was enabled
-                            analyticsManager.trackSettingChanged(setting: "analytics", value: "enabled")
+                            analyticsManager.setAnalyticsEnabled(true)
+                            analyticsManager.trackAnalyticsEnabled()
+                        } else {
+                            analyticsManager.trackAnalyticsDisabled()
+                            analyticsManager.setAnalyticsEnabled(false)
                         }
                     }
                 ))

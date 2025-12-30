@@ -144,6 +144,13 @@ class GameViewModel {
         if answer == question.correctAnswer {
             gameSession.answerState = .correct
             gameSession.currentStreak += 1
+
+            // Track streak milestones (10, 25, 50, 100)
+            let milestones = [10, 25, 50, 100]
+            if milestones.contains(gameSession.currentStreak) {
+                AnalyticsManager.shared.trackStreakMilestoneReached(streakValue: gameSession.currentStreak)
+            }
+
             HapticManager.shared.correctAnswerEffect()
         } else {
             gameSession.answerState = .incorrect
@@ -172,11 +179,18 @@ class GameViewModel {
                 do {
                     try context.save()
                     print("Automatically saved streak to leaderboard: \(gameSession.currentStreak)")
-                    
+
+                    // Track streak saved to leaderboard
+                    AnalyticsManager.shared.trackStreakSavedToLeaderboard(
+                        streakValue: gameSession.currentStreak,
+                        gameMode: gameMode,
+                        category: categoryName
+                    )
+
                     // Clear the persistent streak since it's now saved to leaderboard
                     gameSession.currentStreak = 0
                     StreakPersistenceManager.clearCurrentStreak()
-                    
+
                 } catch {
                     print("Failed to auto-save streak: \(error)")
                     // Still reset the streak even if save failed

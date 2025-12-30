@@ -31,6 +31,7 @@ struct AppIconSettingsView: View {
                         Button(action: {
                             HapticManager.shared.buttonTapEffect()
                             appIconManager.setIcon(icon)
+                            AnalyticsManager.shared.trackAppIconChanged(iconName: icon.rawValue)
                         }) {
                             VStack(spacing: 8) {
                                 Image(icon.previewImageName)

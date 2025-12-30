@@ -62,8 +62,10 @@ struct UsernameSettingsView: View {
     private func saveUsername() {
         let trimmedName = editedUsername.trimmingCharacters(in: .whitespacesAndNewlines)
         if !trimmedName.isEmpty {
+            let hadPreviousUsername = !userManager.username.isEmpty && userManager.username != "Player"
             userManager.updateUsername(trimmedName)
             HapticManager.shared.buttonTapEffect()
+            AnalyticsManager.shared.trackUsernameUpdated(hadPreviousUsername: hadPreviousUsername)
         }
         isEditingUsername = false
         editedUsername = ""

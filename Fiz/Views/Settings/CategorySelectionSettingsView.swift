@@ -60,6 +60,7 @@ struct CategorySelectionSettingsView: View {
                 Button(action: {
                     categoryManager.resetToDefault()
                     HapticManager.shared.buttonTapEffect()
+                    AnalyticsManager.shared.trackCategorySelectionReset()
                 }) {
                     HStack {
                         Image(systemName: "arrow.counterclockwise")

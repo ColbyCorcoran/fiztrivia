@@ -68,8 +68,10 @@ struct GameProgressSettingsView: View {
                 .alert("Reset Progress", isPresented: $showingResetAlert) {
                     Button("Cancel", role: .cancel) { }
                     Button("Reset", role: .destructive) {
+                        let totalCleared = gameViewModel.getAnsweredQuestionsCount()
                         gameViewModel.resetAllProgress()
                         HapticManager.shared.buttonTapEffect()
+                        AnalyticsManager.shared.trackProgressResetConfirmed(totalQuestionsCleared: totalCleared)
                     }
                 } message: {
                     Text("This will reset all answered questions and allow you to play them again. This action cannot be undone.")

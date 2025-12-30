@@ -124,11 +124,13 @@ struct OnboardingView: View {
         
         HapticManager.shared.buttonTapEffect()
         userManager.saveUsername(trimmedName)
+        AnalyticsManager.shared.trackOnboardingCompleted(hasUsername: true)
     }
-    
+
     private func skipOnboarding() {
         HapticManager.shared.buttonTapEffect()
         userManager.saveUsername("Player")
+        AnalyticsManager.shared.trackOnboardingSkipped()
     }
 }
 

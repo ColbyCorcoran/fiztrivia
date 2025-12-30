@@ -293,42 +293,45 @@ struct CategoryWheelView: View {
             .padding(.bottom, 15)
             .frame(height: 44)
 
-            // Tagline and streak counter line
-            HStack {
-                // Tagline - hide at extreme accessibility sizes to save space
-                if !sizeCategory.shouldUseCompactLayout {
-                    Text(userManager.personalizedTagline)
-                        .font(.system(size: 18, weight: .medium))
-                        .foregroundColor(.secondary)
-                        .minimumScaleFactor(0.85)
-                }
+            // Tagline and streak counter line - hide entire row at accessibility sizes
+            if sizeCategory < .accessibilityMedium {
+                HStack {
+                    // Tagline - hide at extreme accessibility sizes to save space
+                    if !sizeCategory.shouldUseCompactLayout {
+                        Text(userManager.personalizedTagline)
+                            .font(.system(size: 18, weight: .medium))
+                            .foregroundColor(.secondary)
+                            .minimumScaleFactor(0.85)
+                    }
 
-                Spacer()
+                    Spacer()
 
-                // Right side: Mode indicator (if applicable) and streak badge
-                HStack(spacing: 8) {
+                    // Right side: Mode indicator (if applicable) and streak badge
+                    HStack(spacing: 8) {
                     // Game mode indicator - only show for non-regular modes
                     if singleCategoryManager.isEnabled {
-                        HStack(spacing: 3) {
-                            Image(systemName: "square.grid.2x2")
-                                .font(.system(size: 9))
+                        HStack(spacing: 4) {
+                            Image(systemName: "circle.grid.cross.left.filled")
+                                .font(.caption)
                             Text("Mode")
-                                .font(.system(size: 11))
-                                .fontWeight(.medium)
+                                .font(.system(size: 14))
+                                .fontWeight(.semibold)
+                                .minimumScaleFactor(0.9)
+                                .lineLimit(1)
                         }
-                        .padding(.horizontal, 6)
-                        .padding(.vertical, 3)
-                        .background(Color.fizOrange.opacity(0.2))
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(Color.fizOrange.opacity(0.15))
                         .foregroundColor(Color.fizOrange)
-                        .cornerRadius(6)
+                        .cornerRadius(8)
                     }
 
                     // Streak badge
                     HStack(spacing: 4) {
                         Text("🔥")
-                            .font(sizeCategory >= .accessibilityMedium ? .body : .caption)
+                            .font(.caption)
                         Text("\(gameViewModel.gameSession.currentStreak)")
-                            .font(sizeCategory >= .accessibilityMedium ? .body : .system(size: 14))
+                            .font(.system(size: 14))
                             .fontWeight(.semibold)
                             .minimumScaleFactor(0.9)
                             .lineLimit(1)
@@ -338,11 +341,12 @@ struct CategoryWheelView: View {
                     .padding(.vertical, 4)
                     .background(Color.fizTeal.opacity(0.15))
                     .cornerRadius(8)
+                    }
                 }
+                .padding(.horizontal, 15)
+                .padding(.top, 4)
+                .frame(height: 32)
             }
-            .padding(.horizontal, 20)
-            .padding(.top, 4)
-            .frame(height: 32)
         }
     }
     
@@ -413,7 +417,6 @@ struct CategoryWheelView: View {
                 }
 
                 let distance = value.translation.width
-                let velocity = value.predictedEndTranslation.width - value.translation.width
 
                 // Check threshold: 120pt minimum distance
                 if abs(distance) > 120 {
@@ -1234,6 +1237,21 @@ struct WheelSegment: View {
         360.0 / Double(totalSegments)
     }
 
+    private var iconSize: CGFloat {
+        switch totalSegments {
+        case 0...7:
+            return 45  // 2-7 categories: keep current size
+        case 8...9:
+            return 40  // 8-9 categories: slightly smaller
+        case 10...11:
+            return 35  // 10-11 categories: medium reduction
+        case 12:
+            return 30  // 12 categories: most compact
+        default:
+            return 45  // Fallback to original size
+        }
+    }
+
     private var startAngle: Double {
         Double(index) * segmentAngle
     }
@@ -1276,7 +1294,7 @@ struct WheelSegment: View {
 
             // Category/Subcategory icon - larger and radially oriented
             Image(systemName: segmentData.icon)
-                .font(.system(size: 45))
+                .font(.system(size: iconSize))
                 .foregroundColor(.black.opacity(0.75))
                 .rotationEffect(.degrees(startAngle + segmentAngle/2)) // Rotate so bottom points to center
                 .position(
@@ -1285,7 +1303,7 @@ struct WheelSegment: View {
                 )
                 .overlay(
                         Image(systemName: segmentData.icon)
-                            .font(.system(size: 45))
+                            .font(.system(size: iconSize))
                             .foregroundColor(Color.fizBackground.opacity(0.5))
                             .blur(radius: 1)
                             .offset(x: -1, y: -1)

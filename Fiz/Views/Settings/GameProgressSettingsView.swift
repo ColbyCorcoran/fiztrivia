@@ -2,6 +2,7 @@ import SwiftUI
 
 struct GameProgressSettingsView: View {
     @Bindable var gameViewModel: GameViewModel
+    @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
     @State private var showingResetAlert = false
 
     private var backgroundGradient: some View {
@@ -11,7 +12,9 @@ struct GameProgressSettingsView: View {
 
     var body: some View {
         Form {
-            Section(footer: Text("Track your progress through the question database.")) {
+            // Entire Database Section
+            Section(header: Text("Entire Database"),
+                    footer: Text("Track your progress through the question database, excluding any filtered questions.")) {
                 HStack {
                     Text("Questions Answered")
                     Spacer()
@@ -25,6 +28,30 @@ struct GameProgressSettingsView: View {
                     let progress = Double(gameViewModel.getAnsweredQuestionsCount()) / Double(max(gameViewModel.getTotalQuestionsCount(), 1))
                     Text("\(Int(progress * 100))%")
                         .foregroundColor(.secondary)
+                }
+            }
+
+            // Category-Specific Section (only shown when Single Category Mode is enabled)
+            if singleCategoryManager.isEnabled,
+               let selectedCategory = singleCategoryManager.selectedCategory {
+
+                Section(header: Text("\(selectedCategory.rawValue) Questions")) {
+                    let categoryProgress = gameViewModel.getCategoryProgress(selectedCategory)
+
+                    HStack {
+                        Text("Questions Answered")
+                        Spacer()
+                        Text("\(categoryProgress.answered) / \(categoryProgress.total)")
+                            .foregroundColor(.secondary)
+                    }
+
+                    HStack {
+                        Text("Completion")
+                        Spacer()
+                        let progress = Double(categoryProgress.answered) / Double(max(categoryProgress.total, 1))
+                        Text("\(Int(progress * 100))%")
+                            .foregroundColor(.secondary)
+                    }
                 }
             }
 

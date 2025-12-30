@@ -16,7 +16,8 @@ class GameViewModel {
     private let difficultyManager = DifficultyManager.shared
     private let answeredQuestionsManager = AnsweredQuestionsManager.shared
     private let singleCategoryManager = SingleCategoryModeManager.shared
-    
+    private let phobiaManager = PhobiaExclusionManager.shared
+
     init() {
         loadQuestions()
     }
@@ -118,10 +119,11 @@ class GameViewModel {
         guard let category = gameSession.selectedCategory else { return }
         
         let categoryQuestions = questions.filter { question in
-            question.category == category.rawValue && 
+            question.category == category.rawValue &&
             !usedQuestions.contains(question.id) &&
             !answeredQuestionsManager.isQuestionAnswered(question.id) &&
-            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty)
+            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty) &&
+            !phobiaManager.isQuestionExcluded(question.id)
         }
         
         guard let randomQuestion = categoryQuestions.randomElement() else {
@@ -244,11 +246,17 @@ class GameViewModel {
     }
     
     func getTotalQuestionsCount() -> Int {
-        return questions.filter { difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: $0.difficulty) }.count
+        return questions.filter {
+            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: $0.difficulty) &&
+            !phobiaManager.isQuestionExcluded($0.id)
+        }.count
     }
-    
+
     func getAnsweredQuestionsCount() -> Int {
-        let availableQuestions = questions.filter { difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: $0.difficulty) }
+        let availableQuestions = questions.filter {
+            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: $0.difficulty) &&
+            !phobiaManager.isQuestionExcluded($0.id)
+        }
         return availableQuestions.filter { answeredQuestionsManager.isQuestionAnswered($0.id) }.count
     }
     

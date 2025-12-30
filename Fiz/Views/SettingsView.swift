@@ -44,6 +44,14 @@ struct SettingsView: View {
                                 // subtitle: "Choose your favorite Fiz"
                             )
                         }
+                        NavigationLink(destination: PhobiaSettingsView()) {
+                            SettingsRow(
+                                icon: "eye.slash",
+                                iconColor: .fizTeal,
+                                title: "Phobia Filters"
+                                // subtitle: "Exclude topics you'd like to avoid"
+                            )
+                        }
                         NavigationLink(destination: HapticsSettingsView()) {
                             SettingsRow(
                                 icon: "hand.tap.fill",
@@ -82,14 +90,14 @@ struct SettingsView: View {
                         }
                         NavigationLink(destination: CategorySelectionSettingsView()) {
                             SettingsRow(
-                                icon: "square.grid.3x3",
+                                icon: "chart.pie",
                                 iconColor: .fizOrange,
                                 title: "Category Selection"
                             )
                         }
                         NavigationLink(destination: GameModesSettingsView(gameViewModel: gameViewModel)) {
                             SettingsRow(
-                                icon: "square.grid.2x2",
+                                icon: "circle.grid.cross.left.filled",
                                 iconColor: .fizOrange,
                                 title: "Game Modes"
                                 // subtitle: "Single category focus mode"

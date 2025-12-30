@@ -65,18 +65,21 @@ enum TriviaCategory: String, CaseIterable {
 
     var color: String {
         switch self {
-        case .entertainment: return "#FFD700"      // Bright Gold
-        case .literature: return "#7B2CBF"         // Deep Purple
-        case .music: return "#EF476F"              // Hot Pink/Red
-        case .technology: return "#0096C7"         // Electric Blue
-        case .art: return "#FF6B6B"                // Coral Red
-        case .geography: return "#06D6A0"          // Bright Teal
-        case .sports: return "#FF8500"             // Vivid Orange
-        case .science: return "#00B4D8"            // Cyan
-        case .nature: return "#2D6A4F"             // Forest Green
-        case .history: return "#B08968"            // Bronze/Tan
-        case .bible: return "#9D4EDD"              // Royal Purple
-        case .food: return "#FF006E"               // Magenta
+        // SATURATED (Primary/Secondary Colors)
+        case .sports: return "#E63946"             // Red - energy, competition
+        case .entertainment: return "#FFD60A"      // Yellow - bright, fun
+        case .science: return "#0077B6"            // Blue - logic, precision
+        case .food: return "#FF6B35"               // Orange - appetite, warmth
+        case .nature: return "#2D6A4F"             // Green - natural (unchanged)
+        case .bible: return "#7209B7"              // Purple - royalty, spirituality
+
+        // DESATURATED (Pastel Colors)
+        case .art: return "#FF8FA3"                // Coral - creative, soft
+        case .history: return "#C9ADA7"            // Gold - aged, classic
+        case .technology: return "#90E0EF"         // Cyan - modern, digital
+        case .geography: return "#A68A64"          // Tan - earth tones
+        case .music: return "#52B788"              // Mint - calm, harmony
+        case .literature: return "#B8A0D9"         // Lavender - refined, literary
         }
     }
 
@@ -101,7 +104,7 @@ struct EntertainmentSubcategory: TriviaSubcategory {
 
     static let animation = EntertainmentSubcategory(name: "Animation", icon: "film.stack.fill", color: "#F7B500")
     static let sciFiFantasy = EntertainmentSubcategory(name: "Sci-Fi/Fantasy", icon: "sparkles", color: "#FF7F0F")
-    static let actionAdventure = EntertainmentSubcategory(name: "Action/Adventure", icon: "bolt.fill", color: "#8E44AD")
+    static let actionAdventure = EntertainmentSubcategory(name: "Action/Adventure", icon: "figure.run", color: "#8E44AD")
     static let dramaComedy = EntertainmentSubcategory(name: "Drama/Comedy", icon: "theatermasks.fill", color: "#3498DB")
 
     static let all: [EntertainmentSubcategory] = [animation, sciFiFantasy, actionAdventure, dramaComedy]
@@ -117,7 +120,7 @@ struct SportsSubcategory: TriviaSubcategory {
     static let individualSports = SportsSubcategory(name: "Individual Sports", icon: "figure.tennis", color: "#FF7F0F")
     static let internationalCompetition = SportsSubcategory(name: "International Competition", icon: "medal.fill", color: "#8E44AD")
     static let extremeActionSports = SportsSubcategory(name: "Extreme & Action Sports", icon: "figure.snowboarding", color: "#3498DB")
-    static let sportsHistoryRecords = SportsSubcategory(name: "Sports History & Records", icon: "books.vertical.fill", color: "#1ABC9C")
+    static let sportsHistoryRecords = SportsSubcategory(name: "Sports History & Records", icon: "trophy.fill", color: "#1ABC9C")
     static let athletesBiography = SportsSubcategory(name: "Athletes & Biography", icon: "person.2.fill", color: "#2ECC71")
 
     static let all: [SportsSubcategory] = [teamSports, individualSports, internationalCompetition, extremeActionSports, sportsHistoryRecords, athletesBiography]
@@ -129,10 +132,10 @@ struct BibleSubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let bibleTrivia = BibleSubcategory(name: "Bible Trivia", icon: "questionmark.circle.fill", color: "#F7B500")
-    static let biblicalHistory = BibleSubcategory(name: "Biblical History", icon: "building.columns.fill", color: "#FF7F0F")
-    static let biblicalTheology = BibleSubcategory(name: "Biblical Theology", icon: "lightbulb.fill", color: "#8E44AD")
-    static let bibleLanguages = BibleSubcategory(name: "Bible Languages", icon: "textformat.abc", color: "#3498DB")
+    static let bibleTrivia = BibleSubcategory(name: "Bible Trivia", icon: "text.book.closed.fill", color: "#F7B500")
+    static let biblicalHistory = BibleSubcategory(name: "Biblical History", icon: "clock.arrow.circlepath", color: "#FF7F0F")
+    static let biblicalTheology = BibleSubcategory(name: "Biblical Theology", icon: "text.magnifyingglass", color: "#8E44AD")
+    static let bibleLanguages = BibleSubcategory(name: "Bible Languages", icon: "pencil.and.scribble", color: "#3498DB")
 
     static let all: [BibleSubcategory] = [bibleTrivia, biblicalHistory, biblicalTheology, bibleLanguages]
 }
@@ -143,10 +146,10 @@ struct HistorySubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let modernHistory = HistorySubcategory(name: "Modern History", icon: "airplane.departure", color: "#F7B500")
+    static let modernHistory = HistorySubcategory(name: "Modern History", icon: "building.fill", color: "#F7B500")
     static let ancientHistory = HistorySubcategory(name: "Ancient History", icon: "building.columns.fill", color: "#FF7F0F")
     static let medievalHistory = HistorySubcategory(name: "Medieval History", icon: "shield.lefthalf.filled", color: "#8E44AD")
-    static let churchHistory = HistorySubcategory(name: "Church History", icon: "building.fill", color: "#3498DB")
+    static let churchHistory = HistorySubcategory(name: "Church History", icon: "text.book.closed.fill", color: "#3498DB")
 
     static let all: [HistorySubcategory] = [modernHistory, ancientHistory, medievalHistory, churchHistory]
 }
@@ -160,7 +163,7 @@ struct ScienceSubcategory: TriviaSubcategory {
     static let biology = ScienceSubcategory(name: "Biology", icon: "leaf.fill", color: "#F7B500")
     static let chemistry = ScienceSubcategory(name: "Chemistry", icon: "flask.fill", color: "#FF7F0F")
     static let physics = ScienceSubcategory(name: "Physics", icon: "atom", color: "#8E44AD")
-    static let astronomy = ScienceSubcategory(name: "Astronomy", icon: "sparkles", color: "#3498DB")
+    static let astronomy = ScienceSubcategory(name: "Astronomy", icon: "moon.stars.fill", color: "#3498DB")
 
     static let all: [ScienceSubcategory] = [biology, chemistry, physics, astronomy]
 }
@@ -188,8 +191,8 @@ struct FoodSubcategory: TriviaSubcategory {
 
     static let ingredients = FoodSubcategory(name: "Ingredients", icon: "carrot.fill", color: "#F7B500")
     static let bakingDesserts = FoodSubcategory(name: "Baking & Desserts", icon: "birthday.cake.fill", color: "#FF7F0F")
-    static let cooking = FoodSubcategory(name: "Cooking", icon: "flame.fill", color: "#8E44AD")
-    static let foodHistory = FoodSubcategory(name: "Food History", icon: "clock.fill", color: "#3498DB")
+    static let cooking = FoodSubcategory(name: "Cooking", icon: "cooktop.fill", color: "#8E44AD")
+    static let foodHistory = FoodSubcategory(name: "Food History", icon: "clock.arrow.circlepath", color: "#3498DB")
     static let dishesCuisines = FoodSubcategory(name: "Dishes & Cuisines", icon: "fork.knife", color: "#1ABC9C")
     static let beverages = FoodSubcategory(name: "Beverages", icon: "cup.and.saucer.fill", color: "#2ECC71")
 
@@ -218,10 +221,10 @@ struct MusicSubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let historyEras = MusicSubcategory(name: "History & Eras", icon: "clock.fill", color: "#F7B500")
+    static let historyEras = MusicSubcategory(name: "History & Eras", icon: "clock.arrow.circlepath", color: "#F7B500")
     static let musiciansBands = MusicSubcategory(name: "Musicians & Bands", icon: "guitars.fill", color: "#FF7F0F")
     static let awardsRecords = MusicSubcategory(name: "Awards & Records", icon: "trophy.fill", color: "#8E44AD")
-    static let instrumentsTheory = MusicSubcategory(name: "Instruments & Theory", icon: "pianokeys.fill", color: "#3498DB")
+    static let instrumentsTheory = MusicSubcategory(name: "Instruments & Theory", icon: "music.quarternote.3", color: "#3498DB")
     static let filmTV = MusicSubcategory(name: "Film & TV", icon: "music.note.tv.fill", color: "#1ABC9C")
 
     static let all: [MusicSubcategory] = [historyEras, musiciansBands, awardsRecords, instrumentsTheory, filmTV]
@@ -250,8 +253,8 @@ struct ArtSubcategory: TriviaSubcategory {
 
     static let famousPainters = ArtSubcategory(name: "Famous Painters", icon: "paintbrush.fill", color: "#F7B500")
     static let artHistoryMovements = ArtSubcategory(name: "Art History & Movements", icon: "clock.arrow.circlepath", color: "#FF7F0F")
-    static let sculpture = ArtSubcategory(name: "Sculpture", icon: "square.3d.down.right.fill", color: "#8E44AD")
-    static let architecture = ArtSubcategory(name: "Architecture", icon: "building.columns.fill", color: "#3498DB")
+    static let sculpture = ArtSubcategory(name: "Sculpture", icon: "person.bust.fill", color: "#8E44AD")
+    static let architecture = ArtSubcategory(name: "Architecture", icon: "building.fill", color: "#3498DB")
     static let photography = ArtSubcategory(name: "Photography", icon: "camera.fill", color: "#1ABC9C")
 
     static let all: [ArtSubcategory] = [famousPainters, artHistoryMovements, sculpture, architecture, photography]
@@ -263,7 +266,7 @@ struct GeographySubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let usGeography = GeographySubcategory(name: "U.S. Geography", icon: "flag.fill", color: "#F7B500")
+    static let usGeography = GeographySubcategory(name: "U.S. Geography", icon: "mappin", color: "#F7B500")
     static let worldGeography = GeographySubcategory(name: "World Geography", icon: "globe", color: "#FF7F0F")
     static let flags = GeographySubcategory(name: "Flags", icon: "flag.2.crossed.fill", color: "#8E44AD")
     static let landmarksMonuments = GeographySubcategory(name: "Landmarks & Monuments", icon: "building.2.fill", color: "#3498DB")
@@ -420,6 +423,21 @@ class UserManager: ObservableObject {
     }
 }
 
+// MARK: - Phobia Data Model
+struct Phobia: Codable, Identifiable, Equatable {
+    let id: String
+    let term: String                      // User-entered phobia term (e.g., "snakes")
+    var excludedQuestionIds: Set<String>  // IDs of questions to exclude
+    let dateAdded: Date
+
+    init(term: String, excludedQuestionIds: Set<String> = []) {
+        self.id = UUID().uuidString
+        self.term = term
+        self.excludedQuestionIds = excludedQuestionIds
+        self.dateAdded = Date()
+    }
+}
+
 // MARK: - Persistent Streak Manager
 class StreakPersistenceManager {
     private static let streakKey = "current_streak"
@@ -508,16 +526,18 @@ class AnsweredQuestionsManager: ObservableObject {
     func getAnsweredCountForCategory(_ category: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
         let categoryQuestions = questions.filter { question in
             question.category == category &&
-            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
         }
-        
+
         return categoryQuestions.filter { answeredQuestionIds.contains($0.id) }.count
     }
-    
+
     func getTotalQuestionsForCategory(_ category: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
         return questions.filter { question in
             question.category == category &&
-            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
         }.count
     }
     
@@ -529,7 +549,8 @@ class AnsweredQuestionsManager: ObservableObject {
     func areAllCategoryQuestionsAnswered(_ category: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Bool {
         let categoryQuestions = questions.filter { question in
             question.category == category &&
-            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
         }
 
         if categoryQuestions.isEmpty {
@@ -542,7 +563,8 @@ class AnsweredQuestionsManager: ObservableObject {
     func getAnsweredCountForSubcategory(_ subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
         let subcategoryQuestions = questions.filter { question in
             question.subcategory == subcategory &&
-            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
         }
 
         return subcategoryQuestions.filter { answeredQuestionIds.contains($0.id) }.count
@@ -551,14 +573,16 @@ class AnsweredQuestionsManager: ObservableObject {
     func getTotalQuestionsForSubcategory(_ subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
         return questions.filter { question in
             question.subcategory == subcategory &&
-            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
         }.count
     }
 
     func areAllSubcategoryQuestionsAnswered(_ subcategory: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Bool {
         let subcategoryQuestions = questions.filter { question in
             question.subcategory == subcategory &&
-            difficultyMode.shouldInclude(questionDifficulty: question.difficulty)
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
         }
 
         if subcategoryQuestions.isEmpty {
@@ -841,8 +865,8 @@ class CategorySelectionManager: ObservableObject {
     @Published var selectedCategories: Set<TriviaCategory> = []
 
     static let shared = CategorySelectionManager()
-    static let minimumCategories = 4
-    static let maximumCategories = 9
+    static let minimumCategories = 2
+    static let maximumCategories = 12
 
     private init() {
         loadSettings()
@@ -954,5 +978,124 @@ class SwipeNavigationManager: ObservableObject {
     func setSwipeNavigationEnabled(_ enabled: Bool) {
         isSwipeNavigationEnabled = enabled
         UserDefaults.standard.set(enabled, forKey: Self.swipeNavigationEnabledKey)
+    }
+}
+
+// MARK: - Phobia Exclusion Manager
+class PhobiaExclusionManager: ObservableObject {
+    private static let phobiasKey = "user_phobias"
+
+    @Published var phobias: [Phobia] = []
+
+    static let shared = PhobiaExclusionManager()
+
+    // Predefined synonym dictionary for common phobias
+    private let phobiaSynonyms: [String: [String]] = [
+        "snake": ["snake", "serpent", "cobra", "python", "viper", "boa", "anaconda",
+                  "reptile", "slither", "constrictor", "rattlesnake", "copperhead"],
+        "spider": ["spider", "arachnid", "tarantula", "web", "eight-legged", "daddy long legs"],
+        "height": ["height", "tall", "cliff", "skyscraper", "altitude", "elevation",
+                   "mountain", "tower", "high-rise"],
+        "blood": ["blood", "bleeding", "hemorrhage", "vampire", "transfusion"],
+        "needle": ["needle", "injection", "syringe", "shot", "vaccine"],
+        "dog": ["dog", "canine", "puppy", "hound", "retriever", "terrier"],
+        "clown": ["clown", "jester", "circus"],
+        "ocean": ["ocean", "sea", "deep water", "shark", "whale", "dolphin"],
+        "flying": ["fly", "flight", "airplane", "aircraft", "aviation", "pilot"],
+        "crowd": ["crowd", "crowded", "audience", "mass", "gathering"]
+    ]
+
+    private init() {
+        loadPhobias()
+    }
+
+    // MARK: - Persistence
+
+    private func loadPhobias() {
+        if let data = UserDefaults.standard.data(forKey: Self.phobiasKey),
+           let decoded = try? JSONDecoder().decode([Phobia].self, from: data) {
+            phobias = decoded
+        }
+    }
+
+    private func savePhobias() {
+        if let encoded = try? JSONEncoder().encode(phobias) {
+            UserDefaults.standard.set(encoded, forKey: Self.phobiasKey)
+        }
+    }
+
+    // MARK: - Public Methods
+
+    func addPhobia(term: String, in questions: [TriviaQuestion]) -> (phobia: Phobia, excludedCount: Int) {
+        let normalizedTerm = term.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+        let searchTerms = getSearchTerms(for: normalizedTerm)
+        let excludedIds = scanForMatches(searchTerms: searchTerms, in: questions)
+
+        let phobia = Phobia(term: normalizedTerm, excludedQuestionIds: excludedIds)
+        phobias.append(phobia)
+        savePhobias()
+
+        return (phobia, excludedIds.count)
+    }
+
+    func removePhobia(_ phobia: Phobia) {
+        phobias.removeAll { $0.id == phobia.id }
+        savePhobias()
+    }
+
+    func isQuestionExcluded(_ questionId: String) -> Bool {
+        return phobias.contains { $0.excludedQuestionIds.contains(questionId) }
+    }
+
+    func getTotalExcludedCount() -> Int {
+        let allExcluded = phobias.flatMap { $0.excludedQuestionIds }
+        return Set(allExcluded).count // Remove duplicates
+    }
+
+    // MARK: - Private Helpers
+
+    private func getSearchTerms(for term: String) -> [String] {
+        // Check if term matches a common phobia in dictionary
+        if let synonyms = phobiaSynonyms[term] {
+            return synonyms
+        }
+
+        // Check if term is a substring of any dictionary key
+        for (key, synonyms) in phobiaSynonyms {
+            if term.contains(key) || key.contains(term) {
+                return synonyms
+            }
+        }
+
+        // Not a common phobia - use exact term only
+        return [term]
+    }
+
+    private func scanForMatches(searchTerms: [String], in questions: [TriviaQuestion]) -> Set<String> {
+        var matchedIds = Set<String>()
+
+        for question in questions {
+            // Collect all searchable text from question
+            var searchableText = [question.question.lowercased()]
+            searchableText.append(contentsOf: question.options.map { $0.lowercased() })
+            searchableText.append(question.correctAnswer.lowercased())
+
+            if let subcategory = question.subcategory {
+                searchableText.append(subcategory.lowercased())
+            }
+
+            // Check if any search term matches any searchable text (substring)
+            let matches = searchTerms.contains { searchTerm in
+                searchableText.contains { text in
+                    text.contains(searchTerm)
+                }
+            }
+
+            if matches {
+                matchedIds.insert(question.id)
+            }
+        }
+
+        return matchedIds
     }
 }

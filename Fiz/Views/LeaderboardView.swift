@@ -39,6 +39,7 @@ struct LeaderboardView: View {
                             .font(.title3.weight(.semibold))
                     }
                     .glassButtonStyle()
+                    .controlSize(.large)
                     .tint(.fizTeal)
                     .triviaAccessibility(
                         label: "Return to game",
@@ -224,7 +225,7 @@ struct LeaderboardRow: View {
                 // Game mode badge
                 if entry.gameMode != "Regular" {
                     HStack(spacing: 4) {
-                        Image(systemName: "square.grid.2x2")
+                        Image(systemName: "circle.grid.cross.left.filled")
                             .font(.system(size: 10))
                         if let category = entry.categoryName {
                             Text("\(entry.gameMode): \(category)")
@@ -235,10 +236,10 @@ struct LeaderboardRow: View {
                         }
                     }
                     .padding(.horizontal, 6)
-                    .padding(.vertical, 2)
-                    .background(Color.fizOrange.opacity(0.2))
+                    .padding(.vertical, 4)
+                    .background(Color.fizOrange.opacity(0.15))
                     .foregroundColor(Color.fizOrange)
-                    .cornerRadius(4)
+                    .cornerRadius(8)
                 }
             }
 

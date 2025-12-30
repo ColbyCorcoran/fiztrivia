@@ -24,7 +24,7 @@ struct GameModesSettingsView: View {
     var body: some View {
         Form {
             Section(footer: Text("Focus on questions from a single category. The wheel will show subcategories instead of all categories.")) {
-                Toggle("Enable Single Category Mode", isOn: $localModeEnabled)
+                Toggle("Single Category Mode", isOn: $localModeEnabled)
                     .onChange(of: localModeEnabled) { oldValue, newValue in
                         handleModeChange(from: oldValue, to: newValue)
                     }

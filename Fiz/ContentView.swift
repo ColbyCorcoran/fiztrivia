@@ -46,8 +46,7 @@ struct ContentView: View {
                     .zIndex(gameViewModel.gameState == .settings ? 1 : 0)
             }
         }
-        .animation(.interactiveSpring(response: 0.3, dampingFraction: 0.8), value: gameViewModel.gameState)
-        .animation(.interactiveSpring(response: 0.3, dampingFraction: 0.8), value: dragOffset)
+        .animation(.easeInOut(duration: 0.3), value: gameViewModel.gameState)
     }
 
     private func calculateLeaderboardOffset(screenWidth: CGFloat) -> CGFloat {

@@ -129,14 +129,12 @@ struct BibleSubcategory: TriviaSubcategory {
     let icon: String
     let color: String
 
-    static let oldTestament = BibleSubcategory(name: "Old Testament", icon: "scroll.fill", color: "#F7B500")
-    static let newTestament = BibleSubcategory(name: "New Testament", icon: "flame.fill", color: "#FF7F0F")
-    static let bibleTrivia = BibleSubcategory(name: "Bible Trivia", icon: "questionmark.circle.fill", color: "#8E44AD")
-    static let biblicalHistory = BibleSubcategory(name: "Biblical History", icon: "building.columns.fill", color: "#3498DB")
-    static let biblicalTheology = BibleSubcategory(name: "Biblical Theology", icon: "lightbulb.fill", color: "#1ABC9C")
-    static let bibleLanguages = BibleSubcategory(name: "Bible Languages", icon: "textformat.abc", color: "#2ECC71")
+    static let bibleTrivia = BibleSubcategory(name: "Bible Trivia", icon: "questionmark.circle.fill", color: "#F7B500")
+    static let biblicalHistory = BibleSubcategory(name: "Biblical History", icon: "building.columns.fill", color: "#FF7F0F")
+    static let biblicalTheology = BibleSubcategory(name: "Biblical Theology", icon: "lightbulb.fill", color: "#8E44AD")
+    static let bibleLanguages = BibleSubcategory(name: "Bible Languages", icon: "textformat.abc", color: "#3498DB")
 
-    static let all: [BibleSubcategory] = [oldTestament, newTestament, bibleTrivia, biblicalHistory, biblicalTheology, bibleLanguages]
+    static let all: [BibleSubcategory] = [bibleTrivia, biblicalHistory, biblicalTheology, bibleLanguages]
 }
 
 // MARK: - History Subcategories

@@ -65,18 +65,18 @@ enum TriviaCategory: String, CaseIterable {
 
     var color: String {
         switch self {
-        case .entertainment: return "#F7B500"      // Gold
-        case .literature: return "#9B59B6"         // Purple
-        case .music: return "#E74C3C"              // Red
-        case .technology: return "#3498DB"         // Blue
-        case .art: return "#F39C12"                // Orange
-        case .geography: return "#16A085"          // Teal
-        case .sports: return "#E67E22"             // Darker Orange
-        case .science: return "#1ABC9C"            // Turquoise
-        case .nature: return "#2ECC71"             // Green
-        case .history: return "#5DADE2"            // Light Blue
-        case .bible: return "#8E44AD"              // Dark Purple
-        case .food: return "#E91E63"               // Pink
+        case .entertainment: return "#FFD700"      // Bright Gold
+        case .literature: return "#7B2CBF"         // Deep Purple
+        case .music: return "#EF476F"              // Hot Pink/Red
+        case .technology: return "#0096C7"         // Electric Blue
+        case .art: return "#FF6B6B"                // Coral Red
+        case .geography: return "#06D6A0"          // Bright Teal
+        case .sports: return "#FF8500"             // Vivid Orange
+        case .science: return "#00B4D8"            // Cyan
+        case .nature: return "#2D6A4F"             // Forest Green
+        case .history: return "#B08968"            // Bronze/Tan
+        case .bible: return "#9D4EDD"              // Royal Purple
+        case .food: return "#FF006E"               // Magenta
         }
     }
 

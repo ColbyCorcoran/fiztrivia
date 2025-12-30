@@ -299,21 +299,40 @@ struct CategoryWheelView: View {
 
                 Spacer()
 
-                // Streak badge
-                HStack(spacing: 4) {
-                    Text("🔥")
-                        .font(sizeCategory >= .accessibilityMedium ? .body : .caption)
-                    Text("\(gameViewModel.gameSession.currentStreak)")
-                        .font(sizeCategory >= .accessibilityMedium ? .body : .system(size: 14))
-                        .fontWeight(.semibold)
-                        .minimumScaleFactor(0.9)
-                        .lineLimit(1)
-                        .foregroundColor(Color.fizTeal)
+                // Right side: Mode indicator (if applicable) and streak badge
+                HStack(spacing: 8) {
+                    // Game mode indicator - only show for non-regular modes
+                    if singleCategoryManager.isEnabled {
+                        HStack(spacing: 3) {
+                            Image(systemName: "square.grid.2x2")
+                                .font(.system(size: 9))
+                            Text("Mode")
+                                .font(.system(size: 11))
+                                .fontWeight(.medium)
+                        }
+                        .padding(.horizontal, 6)
+                        .padding(.vertical, 3)
+                        .background(Color.fizOrange.opacity(0.2))
+                        .foregroundColor(Color.fizOrange)
+                        .cornerRadius(6)
+                    }
+
+                    // Streak badge
+                    HStack(spacing: 4) {
+                        Text("🔥")
+                            .font(sizeCategory >= .accessibilityMedium ? .body : .caption)
+                        Text("\(gameViewModel.gameSession.currentStreak)")
+                            .font(sizeCategory >= .accessibilityMedium ? .body : .system(size: 14))
+                            .fontWeight(.semibold)
+                            .minimumScaleFactor(0.9)
+                            .lineLimit(1)
+                            .foregroundColor(Color.fizTeal)
+                    }
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 4)
+                    .background(Color.fizTeal.opacity(0.15))
+                    .cornerRadius(8)
                 }
-                .padding(.horizontal, 8)
-                .padding(.vertical, 4)
-                .background(Color.fizTeal.opacity(0.15))
-                .cornerRadius(8)
             }
             .padding(.horizontal, 20)
             .padding(.top, 4)

@@ -20,6 +20,8 @@
 		B66F02D22F006EE2007B0E79 /* GameModesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C52F006EE2007B0E79 /* GameModesSettingsView.swift */; };
 		B66F02D42F02EDD8007B0E79 /* questions_expansions.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D32F02EDD8007B0E79 /* questions_expansions.json */; };
 		B66F02D62F0345F0007B0E79 /* CategorySelectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */; };
+		B66F02D92F0420DC007B0E79 /* sports_expansion_pack.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D82F0420DC007B0E79 /* sports_expansion_pack.json */; };
+		B66F02DA2F0420DC007B0E79 /* bible_expansion_pack.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D72F0420DC007B0E79 /* bible_expansion_pack.json */; };
 		B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */; };
 		B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A772EBD2A5400C2A449 /* questions.json */; };
 		B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */; };
@@ -85,6 +87,8 @@
 		B66F02C92F006EE2007B0E79 /* UsernameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameSettingsView.swift; sourceTree = "<group>"; };
 		B66F02D32F02EDD8007B0E79 /* questions_expansions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_expansions.json; sourceTree = "<group>"; };
 		B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionSettingsView.swift; sourceTree = "<group>"; };
+		B66F02D72F0420DC007B0E79 /* bible_expansion_pack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bible_expansion_pack.json; sourceTree = "<group>"; };
+		B66F02D82F0420DC007B0E79 /* sports_expansion_pack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sports_expansion_pack.json; sourceTree = "<group>"; };
 		B66F14D42E4B7DF200C426E5 /* Fiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14E32E4B7DF400C426E5 /* FizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +236,8 @@
 			children = (
 				B68C5A772EBD2A5400C2A449 /* questions.json */,
 				B66F02D32F02EDD8007B0E79 /* questions_expansions.json */,
+				B66F02D72F0420DC007B0E79 /* bible_expansion_pack.json */,
+				B66F02D82F0420DC007B0E79 /* sports_expansion_pack.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -408,6 +414,8 @@
 				B6B0E3782EC5075F007873A8 /* AppIcon-NewHighScore.png in Resources */,
 				B6B0E3792EC5075F007873A8 /* AppIcon-Leaderboard@2x.png in Resources */,
 				B6B0E37A2EC5075F007873A8 /* AppIcon-HappySmirk@3x.png in Resources */,
+				B66F02D92F0420DC007B0E79 /* sports_expansion_pack.json in Resources */,
+				B66F02DA2F0420DC007B0E79 /* bible_expansion_pack.json in Resources */,
 				B6B0E37B2EC5075F007873A8 /* AppIcon-NewHighScore@2x.png in Resources */,
 				B6B0E37C2EC5075F007873A8 /* AppIcon-RegularPose@3x.png in Resources */,
 				B6B0E37D2EC5075F007873A8 /* AppIcon-HappySmirk@2x.png in Resources */,

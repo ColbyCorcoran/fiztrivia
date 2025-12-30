@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var gameViewModel = GameViewModel()
     @StateObject private var userManager = UserManager.shared
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
+    @StateObject private var onboardingManager = OnboardingManager.shared
     @State private var dragOffset: CGFloat = 0
 
     var body: some View {
@@ -23,6 +24,13 @@ struct ContentView: View {
             }
         }
         .animation(.easeInOut(duration: 0.3), value: userManager.hasCompletedOnboarding)
+        .sheet(isPresented: $onboardingManager.shouldShowSecondaryOnboarding) {
+            SecondaryOnboardingView()
+                .interactiveDismissDisabled(false)
+                .onAppear {
+                    AnalyticsManager.shared.trackSecondaryOnboardingViewed()
+                }
+        }
     }
 
     private var gameView: some View {

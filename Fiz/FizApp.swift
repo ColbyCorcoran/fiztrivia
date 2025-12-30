@@ -11,6 +11,7 @@ import SwiftData
 @main
 struct FizApp: App {
     @Environment(\.scenePhase) private var scenePhase
+    @StateObject private var onboardingManager = OnboardingManager.shared
 
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
@@ -34,7 +35,11 @@ struct FizApp: App {
         .onChange(of: scenePhase) { oldPhase, newPhase in
             switch newPhase {
             case .active:
+                // Track analytics
                 AnalyticsManager.shared.trackAppOpened()
+
+                // Increment launch count for secondary onboarding
+                onboardingManager.incrementLaunchCount()
             case .background:
                 AnalyticsManager.shared.trackAppBackgrounded()
             case .inactive:

@@ -1321,3 +1321,117 @@ class PhobiaExclusionManager: ObservableObject {
         return matchedIds
     }
 }
+
+// MARK: - Onboarding Manager
+class OnboardingManager: ObservableObject {
+    private static let launchCountKey = "app_launch_count"
+    private static let firstLaunchDateKey = "first_launch_date"
+    private static let hasSeenSecondaryOnboardingKey = "has_seen_secondary_onboarding"
+    private static let secondaryOnboardingVersionKey = "secondary_onboarding_version"
+    private static let onboardingDismissedKey = "onboarding_dismissed_permanently"
+
+    @Published var launchCount: Int = 0
+    @Published var shouldShowSecondaryOnboarding: Bool = false
+
+    static let shared = OnboardingManager()
+
+    // Trigger thresholds
+    static let launchThreshold = 15  // Show after 15 launches
+    static let dayThreshold = 5      // OR after 5 days
+    static let currentOnboardingVersion = 1
+
+    private init() {
+        loadSettings()
+    }
+
+    private func loadSettings() {
+        // Load launch count
+        launchCount = UserDefaults.standard.integer(forKey: Self.launchCountKey)
+
+        // Set first launch date if not set
+        if UserDefaults.standard.object(forKey: Self.firstLaunchDateKey) == nil {
+            UserDefaults.standard.set(Date(), forKey: Self.firstLaunchDateKey)
+        }
+
+        // Check if should show secondary onboarding
+        updateSecondaryOnboardingStatus()
+    }
+
+    func incrementLaunchCount() {
+        launchCount += 1
+        UserDefaults.standard.set(launchCount, forKey: Self.launchCountKey)
+        updateSecondaryOnboardingStatus()
+    }
+
+    private func updateSecondaryOnboardingStatus() {
+        // Don't show if already seen this version
+        let hasSeenCurrentVersion = UserDefaults.standard.integer(forKey: Self.hasSeenSecondaryOnboardingKey) >= Self.currentOnboardingVersion
+
+        // Don't show if permanently dismissed
+        let isPermanentlyDismissed = UserDefaults.standard.bool(forKey: Self.onboardingDismissedKey)
+
+        if hasSeenCurrentVersion || isPermanentlyDismissed {
+            shouldShowSecondaryOnboarding = false
+            return
+        }
+
+        // Check launch threshold
+        if launchCount >= Self.launchThreshold {
+            shouldShowSecondaryOnboarding = true
+            return
+        }
+
+        // Check day threshold
+        if let firstLaunchDate = UserDefaults.standard.object(forKey: Self.firstLaunchDateKey) as? Date {
+            let daysSinceFirstLaunch = Calendar.current.dateComponents([.day], from: firstLaunchDate, to: Date()).day ?? 0
+            if daysSinceFirstLaunch >= Self.dayThreshold {
+                shouldShowSecondaryOnboarding = true
+                return
+            }
+        }
+
+        shouldShowSecondaryOnboarding = false
+    }
+
+    func markSecondaryOnboardingAsShown() {
+        UserDefaults.standard.set(Self.currentOnboardingVersion, forKey: Self.hasSeenSecondaryOnboardingKey)
+        shouldShowSecondaryOnboarding = false
+    }
+
+    func dismissSecondaryOnboardingPermanently() {
+        UserDefaults.standard.set(true, forKey: Self.onboardingDismissedKey)
+        shouldShowSecondaryOnboarding = false
+    }
+
+    func forceShowSecondaryOnboarding() {
+        // For testing or "Feature Tour" button
+        shouldShowSecondaryOnboarding = true
+    }
+
+    func resetOnboardingForTesting() {
+        // Debugging/testing method
+        UserDefaults.standard.removeObject(forKey: Self.launchCountKey)
+        UserDefaults.standard.removeObject(forKey: Self.firstLaunchDateKey)
+        UserDefaults.standard.removeObject(forKey: Self.hasSeenSecondaryOnboardingKey)
+        UserDefaults.standard.removeObject(forKey: Self.onboardingDismissedKey)
+        launchCount = 0
+        shouldShowSecondaryOnboarding = false
+        loadSettings()
+    }
+
+    // Debug info
+    func getDebugInfo() -> String {
+        let firstLaunchDate = UserDefaults.standard.object(forKey: Self.firstLaunchDateKey) as? Date ?? Date()
+        let daysSinceFirstLaunch = Calendar.current.dateComponents([.day], from: firstLaunchDate, to: Date()).day ?? 0
+        let hasSeenVersion = UserDefaults.standard.integer(forKey: Self.hasSeenSecondaryOnboardingKey)
+        let isDismissed = UserDefaults.standard.bool(forKey: Self.onboardingDismissedKey)
+
+        return """
+        Launch Count: \(launchCount)/\(Self.launchThreshold)
+        Days Since Install: \(daysSinceFirstLaunch)/\(Self.dayThreshold)
+        Has Seen Version: \(hasSeenVersion)
+        Is Dismissed: \(isDismissed)
+        Should Show: \(shouldShowSecondaryOnboarding)
+        """
+    }
+}

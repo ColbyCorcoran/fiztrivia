@@ -5,6 +5,7 @@ struct SettingsView: View {
     var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @StateObject private var gameModeManager = GameModeManager.shared
+    @StateObject private var onboardingManager = OnboardingManager.shared
     @Environment(\.sizeCategory) private var sizeCategory
 
     @State private var swipeTranslation: CGFloat = 0
@@ -26,6 +27,20 @@ struct SettingsView: View {
                             // subtitle: "Review answered questions"
                         )
                     }
+
+                    // Feature Tour (standalone)
+                    Button(action: {
+                        onboardingManager.forceShowSecondaryOnboarding()
+                        AnalyticsManager.shared.trackFeatureTourManuallyOpened()
+                        HapticManager.shared.buttonTapEffect()
+                    }) {
+                        SettingsRow(
+                            icon: "star.circle.fill",
+                            iconColor: .fizOrange,
+                            title: "Feature Tour"
+                        )
+                    }
+                    .buttonStyle(.plain)
 
                     // Personalization Section
                     Section("Personalization") {

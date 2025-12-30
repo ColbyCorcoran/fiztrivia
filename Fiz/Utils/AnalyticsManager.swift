@@ -111,6 +111,44 @@ class AnalyticsManager: ObservableObject {
         PostHogSDK.shared.capture("onboarding_skipped")
     }
 
+    // MARK: - Secondary Onboarding Events
+
+    func trackSecondaryOnboardingViewed() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("secondary_onboarding_viewed")
+    }
+
+    func trackSecondaryOnboardingPageViewed(page: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("secondary_onboarding_page_viewed", properties: [
+            "page": page
+        ])
+    }
+
+    func trackSecondaryOnboardingCompleted() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("secondary_onboarding_completed")
+    }
+
+    func trackSecondaryOnboardingSkipped(atPage page: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("secondary_onboarding_skipped", properties: [
+            "page": page
+        ])
+    }
+
+    func trackSecondaryOnboardingDismissed(atPage page: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("secondary_onboarding_dismissed_permanently", properties: [
+            "page": page
+        ])
+    }
+
+    func trackFeatureTourManuallyOpened() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("feature_tour_manually_opened")
+    }
+
     // MARK: - Personalization Events
 
     func trackUsernameUpdated(hadPreviousUsername: Bool) {

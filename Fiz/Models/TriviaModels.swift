@@ -935,3 +935,30 @@ class CategorySelectionManager: ObservableObject {
         setDefaultSelection()
     }
 }
+
+// MARK: - Swipe Navigation Manager
+class SwipeNavigationManager: ObservableObject {
+    private static let swipeNavigationEnabledKey = "swipe_navigation_enabled"
+
+    @Published var isSwipeNavigationEnabled: Bool = false
+
+    static let shared = SwipeNavigationManager()
+
+    private init() {
+        loadSettings()
+    }
+
+    private func loadSettings() {
+        // Default to false (opt-in for accessibility)
+        if UserDefaults.standard.object(forKey: Self.swipeNavigationEnabledKey) != nil {
+            isSwipeNavigationEnabled = UserDefaults.standard.bool(forKey: Self.swipeNavigationEnabledKey)
+        } else {
+            isSwipeNavigationEnabled = false
+        }
+    }
+
+    func setSwipeNavigationEnabled(_ enabled: Bool) {
+        isSwipeNavigationEnabled = enabled
+        UserDefaults.standard.set(enabled, forKey: Self.swipeNavigationEnabledKey)
+    }
+}

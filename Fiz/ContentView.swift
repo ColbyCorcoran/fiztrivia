@@ -11,7 +11,9 @@ import SwiftData
 struct ContentView: View {
     @State private var gameViewModel = GameViewModel()
     @StateObject private var userManager = UserManager.shared
-    
+    @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
+    @State private var dragOffset: CGFloat = 0
+
     var body: some View {
         Group {
             if !userManager.hasCompletedOnboarding {
@@ -22,22 +24,93 @@ struct ContentView: View {
         }
         .animation(.easeInOut(duration: 0.3), value: userManager.hasCompletedOnboarding)
     }
-    
+
     private var gameView: some View {
-        Group {
-            switch gameViewModel.gameState {
-            case .selectingCategory:
-                CategoryWheelView(gameViewModel: gameViewModel)
-                
-            case .leaderboard:
-                LeaderboardView(gameViewModel: gameViewModel)
-                
-            case .settings:
-                SettingsView(gameViewModel: gameViewModel)
+        GeometryReader { geometry in
+            ZStack {
+                // Leaderboard (left page)
+                LeaderboardView(gameViewModel: gameViewModel, onSwipe: handleSwipe)
+                    .offset(x: calculateLeaderboardOffset(screenWidth: geometry.size.width))
+                    .opacity(gameViewModel.gameState == .leaderboard ? 1 : 0.3)
+                    .zIndex(gameViewModel.gameState == .leaderboard ? 1 : 0)
+
+                // Main wheel (center page)
+                CategoryWheelView(gameViewModel: gameViewModel, onSwipe: handleSwipe)
+                    .offset(x: calculateMainOffset(screenWidth: geometry.size.width))
+                    .zIndex(gameViewModel.gameState == .selectingCategory ? 1 : 0)
+
+                // Settings (right page)
+                SettingsView(gameViewModel: gameViewModel, onSwipe: handleSwipe)
+                    .offset(x: calculateSettingsOffset(screenWidth: geometry.size.width))
+                    .opacity(gameViewModel.gameState == .settings ? 1 : 0.3)
+                    .zIndex(gameViewModel.gameState == .settings ? 1 : 0)
             }
         }
-        .animation(.easeInOut(duration: 0.3), value: gameViewModel.gameState)
+        .animation(.interactiveSpring(response: 0.3, dampingFraction: 0.8), value: gameViewModel.gameState)
+        .animation(.interactiveSpring(response: 0.3, dampingFraction: 0.8), value: dragOffset)
     }
+
+    private func calculateLeaderboardOffset(screenWidth: CGFloat) -> CGFloat {
+        switch gameViewModel.gameState {
+        case .leaderboard:
+            return dragOffset
+        case .selectingCategory:
+            return -screenWidth + dragOffset
+        case .settings:
+            return -screenWidth * 2 + dragOffset
+        }
+    }
+
+    private func calculateMainOffset(screenWidth: CGFloat) -> CGFloat {
+        switch gameViewModel.gameState {
+        case .leaderboard:
+            return screenWidth + dragOffset
+        case .selectingCategory:
+            return dragOffset
+        case .settings:
+            return -screenWidth + dragOffset
+        }
+    }
+
+    private func calculateSettingsOffset(screenWidth: CGFloat) -> CGFloat {
+        switch gameViewModel.gameState {
+        case .leaderboard:
+            return screenWidth * 2 + dragOffset
+        case .selectingCategory:
+            return screenWidth + dragOffset
+        case .settings:
+            return dragOffset
+        }
+    }
+
+    private func handleSwipe(_ direction: SwipeDirection, translation: CGFloat) {
+        guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+
+        if translation == 0 {
+            // Swipe completed - update state
+            switch (gameViewModel.gameState, direction) {
+            case (.selectingCategory, .right):
+                gameViewModel.gameState = .leaderboard
+            case (.selectingCategory, .left):
+                gameViewModel.gameState = .settings
+            case (.leaderboard, .left):
+                gameViewModel.gameState = .selectingCategory
+            case (.settings, .right):
+                gameViewModel.gameState = .selectingCategory
+            default:
+                break
+            }
+            dragOffset = 0
+        } else {
+            // Update drag offset for interactive preview
+            dragOffset = translation
+        }
+    }
+}
+
+enum SwipeDirection {
+    case left
+    case right
 }
 
 #Preview {

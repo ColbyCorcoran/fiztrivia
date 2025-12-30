@@ -20,12 +20,14 @@ struct WheelSegmentData: Hashable {
 
 struct CategoryWheelView: View {
     @Bindable var gameViewModel: GameViewModel
+    var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var singleCategoryManager = SingleCategoryModeManager.shared
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
     @StateObject private var categorySelectionManager = CategorySelectionManager.shared
     @StateObject private var popupDurationManager = PopupDurationManager.shared
+    @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
     @Query(sort: [SortDescriptor(\LeaderboardEntry.streak, order: .reverse)]) private var leaderboardEntries: [LeaderboardEntry]
@@ -63,6 +65,10 @@ struct CategoryWheelView: View {
     // No questions available notification
     @State private var showingNoQuestionsToast = false
     @State private var noQuestionsMessage = ""
+
+    // Swipe navigation state
+    @State private var swipeStartX: CGFloat = 0
+    @State private var swipeTranslation: CGFloat = 0
 
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
@@ -378,6 +384,56 @@ struct CategoryWheelView: View {
         .frame(height: 300 * sizeCategory.conservativeScaleFactor)
         .frame(maxWidth: .infinity)
         .padding(.horizontal, 16)
+        .gesture(questionAreaSwipeGesture)
+    }
+
+    private var questionAreaSwipeGesture: some Gesture {
+        DragGesture()
+            .onChanged { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled,
+                      !showingQuestion,
+                      !showingResult,
+                      !gameViewModel.isSpinning,
+                      !navigationButtonsDisabled else {
+                    return
+                }
+
+                swipeTranslation = value.translation.width
+                onSwipe?(.left, swipeTranslation)
+            }
+            .onEnded { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled,
+                      !showingQuestion,
+                      !showingResult,
+                      !gameViewModel.isSpinning,
+                      !navigationButtonsDisabled else {
+                    swipeTranslation = 0
+                    onSwipe?(.left, 0)
+                    return
+                }
+
+                let distance = value.translation.width
+                let velocity = value.predictedEndTranslation.width - value.translation.width
+
+                // Check threshold: 120pt minimum distance
+                if abs(distance) > 120 {
+                    // Determine direction
+                    if distance > 0 {
+                        // Swipe right -> Leaderboard
+                        HapticManager.shared.lightImpact()
+                        onSwipe?(.right, 0)
+                    } else {
+                        // Swipe left -> Settings
+                        HapticManager.shared.lightImpact()
+                        onSwipe?(.left, 0)
+                    }
+                } else {
+                    // Didn't meet threshold - spring back
+                    onSwipe?(.left, 0)
+                }
+
+                swipeTranslation = 0
+            }
     }
 
     private func questionAreaWithCalculatedSpacing(geometry: GeometryProxy) -> some View {

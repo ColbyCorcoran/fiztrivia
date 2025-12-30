@@ -2,8 +2,12 @@ import SwiftUI
 
 struct SettingsView: View {
     @Bindable var gameViewModel: GameViewModel
+    var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
+    @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @Environment(\.sizeCategory) private var sizeCategory
-    
+
+    @State private var swipeTranslation: CGFloat = 0
+
     private var backgroundGradient: some View {
         Color(.systemGroupedBackground)
             .ignoresSafeArea()
@@ -44,8 +48,8 @@ struct SettingsView: View {
                             SettingsRow(
                                 icon: "hand.tap.fill",
                                 iconColor: .fizTeal,
-                                title: "Haptics"
-                                // subtitle: "Tactile feedback settings"
+                                title: "Interaction"
+                                // subtitle: "Haptics and swipe navigation"
                             )
                         }
                         NavigationLink(destination: PopupDurationSettingsView()) {
@@ -126,8 +130,40 @@ struct SettingsView: View {
                         .tint(.fizTeal)
                     }
                 }
+                .gesture(settingsSwipeGesture)
             }
         }
+
+    private var settingsSwipeGesture: some Gesture {
+        DragGesture()
+            .onChanged { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+
+                swipeTranslation = value.translation.width
+                onSwipe?(.right, swipeTranslation)
+            }
+            .onEnded { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled else {
+                    swipeTranslation = 0
+                    onSwipe?(.right, 0)
+                    return
+                }
+
+                let distance = value.translation.width
+
+                // Check threshold: 120pt minimum distance
+                // From settings, only swipe right goes back to main
+                if distance > 120 {
+                    HapticManager.shared.lightImpact()
+                    onSwipe?(.right, 0)
+                } else {
+                    // Didn't meet threshold - spring back
+                    onSwipe?(.right, 0)
+                }
+
+                swipeTranslation = 0
+            }
+    }
 
     private var appVersion: String {
         if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {

@@ -3,7 +3,9 @@ import SwiftData
 
 struct LeaderboardView: View {
     @Bindable var gameViewModel: GameViewModel
+    var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
+    @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
     @Query(sort: [
@@ -11,6 +13,8 @@ struct LeaderboardView: View {
         SortDescriptor(\LeaderboardEntry.date, order: .reverse)
     ])
     private var leaderboardEntries: [LeaderboardEntry]
+
+    @State private var swipeTranslation: CGFloat = 0
     
     private var recentEntries: [LeaderboardEntry] {
         Array(leaderboardEntries.prefix(15))
@@ -24,7 +28,7 @@ struct LeaderboardView: View {
                 endPoint: .bottomTrailing
             )
             .ignoresSafeArea()
-            
+
             VStack(spacing: 0) {
                 // Top toolbar - checkmark visible at ALL sizes
                 HStack {
@@ -131,6 +135,38 @@ struct LeaderboardView: View {
                 .padding(.vertical, 20)
             }
         }
+        .gesture(leaderboardSwipeGesture)
+    }
+
+    private var leaderboardSwipeGesture: some Gesture {
+        DragGesture()
+            .onChanged { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+
+                swipeTranslation = value.translation.width
+                onSwipe?(.left, swipeTranslation)
+            }
+            .onEnded { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled else {
+                    swipeTranslation = 0
+                    onSwipe?(.left, 0)
+                    return
+                }
+
+                let distance = value.translation.width
+
+                // Check threshold: 120pt minimum distance
+                // From leaderboard, only swipe left goes back to main
+                if distance < -120 {
+                    HapticManager.shared.lightImpact()
+                    onSwipe?(.left, 0)
+                } else {
+                    // Didn't meet threshold - spring back
+                    onSwipe?(.left, 0)
+                }
+
+                swipeTranslation = 0
+            }
     }
 }
 

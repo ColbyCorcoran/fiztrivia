@@ -1027,6 +1027,7 @@ class AppIconManager: ObservableObject {
 // MARK: - Category Selection Manager
 class CategorySelectionManager: ObservableObject {
     private static let selectedCategoriesKey = "selected_categories"
+    private static let customDefaultCategoriesKey = "custom_default_categories"
 
     @Published var selectedCategories: Set<TriviaCategory> = []
 
@@ -1099,9 +1100,10 @@ class CategorySelectionManager: ObservableObject {
         }
     }
 
-    private func setDefaultSelection() {
-        // Default: All 12 categories enabled
-        selectedCategories = [
+    // MARK: - Factory Default
+    private var factoryDefault: Set<TriviaCategory> {
+        // Factory default: All 12 categories enabled
+        return [
             .entertainment,
             .sports,
             .bible,
@@ -1115,11 +1117,62 @@ class CategorySelectionManager: ObservableObject {
             .geography,
             .literature
         ]
+    }
+
+    private func setDefaultSelection() {
+        selectedCategories = factoryDefault
         saveSettings()
     }
 
-    func resetToDefault() {
+    // MARK: - Custom Default Management
+
+    /// Check if user has saved a custom default
+    func hasCustomDefault() -> Bool {
+        return UserDefaults.standard.data(forKey: Self.customDefaultCategoriesKey) != nil
+    }
+
+    /// Save current selection as user's custom default
+    func saveCurrentAsDefault() {
+        let categoryStrings = Set(selectedCategories.map { $0.rawValue })
+        if let encoded = try? JSONEncoder().encode(categoryStrings) {
+            UserDefaults.standard.set(encoded, forKey: Self.customDefaultCategoriesKey)
+        }
+    }
+
+    /// Save current selection as default only if it differs from factory default
+    /// Used for onboarding flow
+    func saveCurrentAsDefaultIfDifferent() {
+        if selectedCategories != factoryDefault {
+            saveCurrentAsDefault()
+        }
+    }
+
+    /// Reset to user's custom default (or factory default if no custom saved)
+    func resetToMyDefault() {
+        if let data = UserDefaults.standard.data(forKey: Self.customDefaultCategoriesKey),
+           let decodedStrings = try? JSONDecoder().decode(Set<String>.self, from: data) {
+            selectedCategories = Set(decodedStrings.compactMap { TriviaCategory(rawValue: $0) })
+
+            // Validate count - fall back to factory if invalid
+            if selectedCategories.count < Self.minimumCategories || selectedCategories.isEmpty {
+                setDefaultSelection()
+            } else {
+                saveSettings()
+            }
+        } else {
+            // No custom default - fall back to factory
+            setDefaultSelection()
+        }
+    }
+
+    /// Reset to factory default (all 12 categories)
+    func resetToFactoryDefault() {
         setDefaultSelection()
+    }
+
+    /// Legacy method - now resets to user's custom default
+    func resetToDefault() {
+        resetToMyDefault()
     }
 }
 

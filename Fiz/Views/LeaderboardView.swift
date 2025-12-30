@@ -173,9 +173,9 @@ struct LeaderboardRow: View {
             Text(rankIcon)
                 .font(isTopThree ? .title2 : .headline)
                 .frame(width: 40)
-            
+
             // Streak
-            VStack(alignment: .leading, spacing: 2) {
+            VStack(alignment: .leading, spacing: 4) {
                 Text("\(entry.streak) correct answer\(entry.streak == 1 ? "" : "s")")
                     .font(.headline)
                     .fontWeight(.semibold)
@@ -184,8 +184,28 @@ struct LeaderboardRow: View {
                 Text(entry.date, format: .dateTime.month().day().year())
                     .font(.caption)
                     .foregroundColor(.secondary)
+
+                // Game mode badge
+                if entry.gameMode != "Regular" {
+                    HStack(spacing: 4) {
+                        Image(systemName: "square.grid.2x2")
+                            .font(.system(size: 10))
+                        if let category = entry.categoryName {
+                            Text("\(entry.gameMode): \(category)")
+                                .font(.caption2)
+                        } else {
+                            Text(entry.gameMode)
+                                .font(.caption2)
+                        }
+                    }
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 2)
+                    .background(Color.fizOrange.opacity(0.2))
+                    .foregroundColor(Color.fizOrange)
+                    .cornerRadius(4)
+                }
             }
-            
+
             Spacer()
 
             // Dynamic streak icon based on achievement level

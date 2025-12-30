@@ -147,7 +147,24 @@ class GameViewModel {
             gameSession.answerState = .incorrect
             // Save the current streak before resetting if it's > 0
             if gameSession.currentStreak > 0, let context = modelContext {
-                let entry = LeaderboardEntry(streak: gameSession.currentStreak, date: Date())
+                // Determine game mode and category for this streak
+                let gameMode: String
+                let categoryName: String?
+
+                if singleCategoryManager.isEnabled {
+                    gameMode = "Single Category"
+                    categoryName = singleCategoryManager.selectedCategory?.rawValue
+                } else {
+                    gameMode = "Regular"
+                    categoryName = nil
+                }
+
+                let entry = LeaderboardEntry(
+                    streak: gameSession.currentStreak,
+                    date: Date(),
+                    gameMode: gameMode,
+                    categoryName: categoryName
+                )
                 context.insert(entry)
                 
                 do {

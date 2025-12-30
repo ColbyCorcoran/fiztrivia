@@ -148,12 +148,29 @@ struct GameModesSettingsView: View {
         isApplyingChanges = true
 
         if saveStreak && gameViewModel.gameSession.currentStreak > 0 {
-            let entry = LeaderboardEntry(streak: gameViewModel.gameSession.currentStreak, date: Date())
+            // Capture CURRENT mode/category before applying changes
+            let gameMode: String
+            let categoryName: String?
+
+            if singleCategoryManager.isEnabled {
+                gameMode = "Single Category"
+                categoryName = singleCategoryManager.selectedCategory?.rawValue
+            } else {
+                gameMode = "Regular"
+                categoryName = nil
+            }
+
+            let entry = LeaderboardEntry(
+                streak: gameViewModel.gameSession.currentStreak,
+                date: Date(),
+                gameMode: gameMode,
+                categoryName: categoryName
+            )
             modelContext.insert(entry)
 
             do {
                 try modelContext.save()
-                print("Saved streak to leaderboard: \(gameViewModel.gameSession.currentStreak)")
+                print("Saved streak to leaderboard: \(gameViewModel.gameSession.currentStreak) (\(gameMode)\(categoryName.map { " - \($0)" } ?? ""))")
             } catch {
                 print("Failed to save streak: \(error)")
             }

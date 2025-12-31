@@ -1343,12 +1343,8 @@ class PhobiaExclusionManager: ObservableObject {
             let newCount = newExcludedIds.count
 
             if previousCount != newCount {
-                // Update the phobia with new excluded IDs
-                phobias[i] = Phobia(
-                    id: phobia.id,
-                    term: phobia.term,
-                    excludedQuestionIds: newExcludedIds
-                )
+                // Update the phobia's excluded question IDs
+                phobias[i].excludedQuestionIds = newExcludedIds
 
                 totalNewExclusions += (newCount - previousCount)
                 phobiasUpdated = true

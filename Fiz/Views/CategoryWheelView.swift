@@ -25,6 +25,7 @@ struct CategoryWheelView: View {
     @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var gameModeManager = GameModeManager.shared
     @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
+    @StateObject private var phobiaManager = PhobiaExclusionManager.shared
     @StateObject private var categorySelectionManager = CategorySelectionManager.shared
     @StateObject private var popupDurationManager = PopupDurationManager.shared
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared

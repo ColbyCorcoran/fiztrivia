@@ -21,8 +21,8 @@ struct StoreView: View {
                 // Background gradient
                 LinearGradient(
                     gradient: Gradient(colors: [
-                        Color(hex: "F5E6D3"),
-                        Color(hex: "E8D4BB")
+                        Color.fizBackground,
+                        Color.fizBackgroundSecondary
                     ]),
                     startPoint: .topLeading,
                     endPoint: .bottomTrailing
@@ -33,18 +33,18 @@ struct StoreView: View {
                     VStack(spacing: 20) {
                         // Header
                         VStack(spacing: 8) {
-                            Image(systemName: "shippingbox.fill")
+                            Image(systemName: "bag")
                                 .font(.system(size: 50))
-                                .foregroundColor(Color(hex: "D97639"))
+                                .foregroundColor(.fizOrange)
 
                             Text("Expansion Packs")
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
-                                .foregroundColor(Color(hex: "8B4513"))
+                                .foregroundColor(.fizBrown)
 
                             Text("Unlock new topics and questions")
                                 .font(.subheadline)
-                                .foregroundColor(Color(hex: "8B4513").opacity(0.7))
+                                .foregroundColor(.fizBrown.opacity(0.7))
                         }
                         .padding(.top, 20)
 
@@ -54,7 +54,7 @@ struct StoreView: View {
                                 .padding(40)
                         } else if expansionManager.availablePacks.isEmpty {
                             Text("No expansion packs available")
-                                .foregroundColor(Color(hex: "8B4513").opacity(0.6))
+                                .foregroundColor(.fizBrown.opacity(0.6))
                                 .padding(40)
                         } else {
                             ForEach(expansionManager.availablePacks) { pack in
@@ -85,7 +85,7 @@ struct StoreView: View {
                         }) {
                             Text("Restore Purchases")
                                 .font(.footnote)
-                                .foregroundColor(Color(hex: "8B4513").opacity(0.7))
+                                .foregroundColor(.fizBrown.opacity(0.7))
                         }
                         .padding(.top, 10)
                         .padding(.bottom, 30)
@@ -99,7 +99,7 @@ struct StoreView: View {
                     Button("Done") {
                         dismiss()
                     }
-                    .foregroundColor(Color(hex: "D97639"))
+                    .foregroundColor(.fizOrange)
                 }
             }
             .alert("Purchases Restored", isPresented: $showingRestoreAlert) {
@@ -174,18 +174,18 @@ struct ExpansionPackCard: View {
             HStack(spacing: 12) {
                 Image(systemName: pack.icon)
                     .font(.system(size: 32))
-                    .foregroundColor(Color(hex: "D97639"))
+                    .foregroundColor(.fizOrange)
                     .frame(width: 50, height: 50)
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text(pack.packName)
                         .font(.title2)
                         .fontWeight(.bold)
-                        .foregroundColor(Color(hex: "8B4513"))
+                        .foregroundColor(.fizBrown)
 
                     Text("\(pack.questionCount) questions")
                         .font(.subheadline)
-                        .foregroundColor(Color(hex: "8B4513").opacity(0.7))
+                        .foregroundColor(.fizBrown.opacity(0.7))
                 }
 
                 Spacer()
@@ -201,14 +201,14 @@ struct ExpansionPackCard: View {
                     Text(product.displayPrice)
                         .font(.title3)
                         .fontWeight(.bold)
-                        .foregroundColor(Color(hex: "D97639"))
+                        .foregroundColor(.fizOrange)
                 }
             }
 
             // Description
             Text(pack.packDescription)
                 .font(.body)
-                .foregroundColor(Color(hex: "8B4513").opacity(0.8))
+                .foregroundColor(.fizBrown.opacity(0.8))
                 .fixedSize(horizontal: false, vertical: true)
 
             // Subtopics
@@ -216,7 +216,7 @@ struct ExpansionPackCard: View {
                 Text("Subtopics:")
                     .font(.caption)
                     .fontWeight(.semibold)
-                    .foregroundColor(Color(hex: "8B4513"))
+                    .foregroundColor(.fizBrown)
 
                 // Debug: Show count
                 if pack.subtopics.isEmpty {
@@ -234,7 +234,7 @@ struct ExpansionPackCard: View {
                             Text(subtopic)
                                 .font(.caption)
                                 .fontWeight(.medium)
-                                .foregroundColor(Color(hex: "8B4513"))
+                                .foregroundColor(.fizBrown)
                                 .multilineTextAlignment(.center)
                                 .lineLimit(2)
                                 .frame(maxWidth: .infinity, minHeight: 44, alignment: .center)
@@ -242,7 +242,7 @@ struct ExpansionPackCard: View {
                                 .padding(.vertical, 8)
                                 .background(
                                     RoundedRectangle(cornerRadius: 8)
-                                        .fill(Color(hex: "D97639").opacity(0.15))
+                                        .fill(Color.fizOrange.opacity(0.15))
                                 )
                         }
                     }
@@ -264,8 +264,8 @@ struct ExpansionPackCard: View {
                             .font(.headline)
                             .frame(maxWidth: .infinity)
                             .padding()
-                            .background(Color(hex: "8B4513").opacity(0.2))
-                            .foregroundColor(Color(hex: "8B4513"))
+                            .background(Color.fizBrown.opacity(0.2))
+                            .foregroundColor(.fizBrown)
                             .cornerRadius(12)
                     }
                 } else {
@@ -277,7 +277,7 @@ struct ExpansionPackCard: View {
                         .font(.headline)
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(Color(hex: "D97639"))
+                        .background(Color.fizOrange)
                         .foregroundColor(.white)
                         .cornerRadius(12)
                     }
@@ -304,7 +304,7 @@ struct ExpansionPackCard: View {
                     .font(.headline)
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(isPurchasing ? Color.gray : Color(hex: "D97639"))
+                    .background(isPurchasing ? Color.gray : Color.fizOrange)
                     .foregroundColor(.white)
                     .cornerRadius(12)
                 }
@@ -313,7 +313,7 @@ struct ExpansionPackCard: View {
                 // Free preview note
                 Text("Includes \(pack.freePreviewCount) free preview questions")
                     .font(.caption)
-                    .foregroundColor(Color(hex: "8B4513").opacity(0.6))
+                    .foregroundColor(.fizBrown.opacity(0.6))
                     .padding(.top, 4)
             }
         }
@@ -361,7 +361,7 @@ struct DifficultyPill: View {
             Text(difficulty)
                 .font(.caption)
         }
-        .foregroundColor(Color(hex: "8B4513").opacity(0.7))
+        .foregroundColor(.fizBrown.opacity(0.7))
     }
 }
 

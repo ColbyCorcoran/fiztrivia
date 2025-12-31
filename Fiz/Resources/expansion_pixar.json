@@ -1,0 +1,1453 @@
+{
+  "packId": "com.fiz.pack.pixar",
+  "packName": "Pixar",
+  "packDescription": "Explore the world of Pixar Animation Studios with 500 questions covering Toy Story, Finding Nemo, The Incredibles, Inside Out, and all your favorite Pixar films.",
+  "subtopics": [
+    "Toy Story",
+    "Finding Nemo/Dory",
+    "The Incredibles",
+    "Monsters Inc",
+    "Cars",
+    "Up",
+    "Inside Out",
+    "Coco",
+    "Other Films"
+  ],
+  "questionCount": 89,
+  "freePreviewCount": 9,
+  "difficulty": {
+    "easy": 32,
+    "medium": 38,
+    "hard": 10
+  },
+  "price": 2.99,
+  "icon": "sparkles",
+  "freePreviewQuestions": [
+    {
+      "id": "dsn_preview_002",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Toy Story', what is the name of Andy's favorite toy?",
+      "options": [
+        "Woody",
+        "Buzz Lightyear",
+        "Rex",
+        "Slinky Dog"
+      ],
+      "correct_answer": "Woody",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_014",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Toy Story', what is Buzz Lightyear's catchphrase?",
+      "options": [
+        "To infinity and beyond",
+        "You've got a friend in me",
+        "Reach for the sky",
+        "There's a snake in my boot"
+      ],
+      "correct_answer": "To infinity and beyond",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_015",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of Lightning McQueen's best friend in 'Cars'?",
+      "options": [
+        "Mater",
+        "Doc Hudson",
+        "Sally",
+        "Luigi"
+      ],
+      "correct_answer": "Mater",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_016",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Inside Out', what are the five emotions?",
+      "options": [
+        "Joy, Sadness, Anger, Fear, Disgust",
+        "Happy, Sad, Mad, Scared, Grossed Out",
+        "Love, Hate, Fear, Joy, Anger",
+        "None"
+      ],
+      "correct_answer": "Joy, Sadness, Anger, Fear, Disgust",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_017",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the superhero family in 'The Incredibles'?",
+      "options": [
+        "The Parrs",
+        "The Supers",
+        "The Incredibles",
+        "The Powers"
+      ],
+      "correct_answer": "The Parrs",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_preview_018",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Finding Nemo', what is Nemo's dad's name?",
+      "options": [
+        "Marlin",
+        "Bruce",
+        "Gill",
+        "Crush"
+      ],
+      "correct_answer": "Marlin",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_019",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the cooking critic in 'Ratatouille'?",
+      "options": [
+        "Anton Ego",
+        "Gusteau",
+        "Skinner",
+        "Colette"
+      ],
+      "correct_answer": "Anton Ego",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_preview_020",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Coco', what is Miguel's dream?",
+      "options": [
+        "To be a musician",
+        "To be a dancer",
+        "To be a painter",
+        "To be a singer"
+      ],
+      "correct_answer": "To be a musician",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_021",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What type of car is Lightning McQueen?",
+      "options": [
+        "Race car",
+        "Sports car",
+        "Sedan",
+        "Truck"
+      ],
+      "correct_answer": "Race car",
+      "difficulty": "easy"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "dsn_paid_002",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Finding Nemo', what type of fish is Dory?",
+      "options": [
+        "Blue Tang",
+        "Clownfish",
+        "Angelfish",
+        "Butterflyfish"
+      ],
+      "correct_answer": "Blue Tang",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_007",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the rat in 'Ratatouille' who dreams of being a chef?",
+      "options": [
+        "Remy",
+        "Linguini",
+        "Emile",
+        "Django"
+      ],
+      "correct_answer": "Remy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_013",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Monsters, Inc.', what powers the city of Monstropolis?",
+      "options": [
+        "Children's screams",
+        "Laughter",
+        "Electricity",
+        "Nuclear power"
+      ],
+      "correct_answer": "Children's screams",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_019",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the villain in 'The Incredibles'?",
+      "options": [
+        "Syndrome",
+        "The Underminer",
+        "Screenslaver",
+        "Bomb Voyage"
+      ],
+      "correct_answer": "Syndrome",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_025",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Up', what country does Carl want to visit?",
+      "options": [
+        "Paradise Falls, South America",
+        "Australia",
+        "Africa",
+        "Antarctica"
+      ],
+      "correct_answer": "Paradise Falls, South America",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_123",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is Woody's catchphrase in 'Toy Story'?",
+      "options": [
+        "There's a snake in my boot",
+        "To infinity and beyond",
+        "Reach for the sky",
+        "You've got a friend in me"
+      ],
+      "correct_answer": "There's a snake in my boot",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_124",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the daycare in 'Toy Story 3'?",
+      "options": [
+        "Sunnyside Daycare",
+        "Rainbow Daycare",
+        "Butterfly Daycare",
+        "Happy Times Daycare"
+      ],
+      "correct_answer": "Sunnyside Daycare",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_125",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who is the villain in 'Toy Story 3'?",
+      "options": [
+        "Lotso (Lots-o'-Huggin' Bear)",
+        "Woody",
+        "Buzz",
+        "Rex"
+      ],
+      "correct_answer": "Lotso (Lots-o'-Huggin' Bear)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_126",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Finding Nemo', where does Marlin live?",
+      "options": [
+        "Great Barrier Reef",
+        "Caribbean",
+        "Atlantic",
+        "Pacific"
+      ],
+      "correct_answer": "Great Barrier Reef",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_127",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the address Dory remembers?",
+      "options": [
+        "P. Sherman, 42 Wallaby Way, Sydney",
+        "123 Ocean Drive",
+        "456 Coral Street",
+        "789 Reef Road"
+      ],
+      "correct_answer": "P. Sherman, 42 Wallaby Way, Sydney",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_128",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'The Incredibles', what is Mr. Incredible's real name?",
+      "options": [
+        "Bob Parr",
+        "Helen Parr",
+        "Dash Parr",
+        "Jack-Jack Parr"
+      ],
+      "correct_answer": "Bob Parr",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_129",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is Elastigirl's real name?",
+      "options": [
+        "Helen Parr",
+        "Bob Parr",
+        "Violet Parr",
+        "Edna Mode"
+      ],
+      "correct_answer": "Helen Parr",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_130",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who says 'No capes!'?",
+      "options": [
+        "Edna Mode",
+        "Mr. Incredible",
+        "Syndrome",
+        "Frozone"
+      ],
+      "correct_answer": "Edna Mode",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_131",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Cars', where is the big race held?",
+      "options": [
+        "Los Angeles",
+        "Radiator Springs",
+        "Tokyo",
+        "Paris"
+      ],
+      "correct_answer": "Los Angeles",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_132",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What number is Lightning McQueen?",
+      "options": [
+        "95",
+        "43",
+        "86",
+        "51"
+      ],
+      "correct_answer": "95",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_133",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Ratatouille', where is the restaurant located?",
+      "options": [
+        "Paris",
+        "Rome",
+        "New York",
+        "London"
+      ],
+      "correct_answer": "Paris",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_134",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is Remy's brother's name?",
+      "options": [
+        "Emile",
+        "Linguini",
+        "Django",
+        "Skinner"
+      ],
+      "correct_answer": "Emile",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_135",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'WALL-E', what does WALL-E stand for?",
+      "options": [
+        "Waste Allocation Load Lifter - Earth class",
+        "Wonder And Love Life Everyday",
+        "Work All Life Long Eternally",
+        "None"
+      ],
+      "correct_answer": "Waste Allocation Load Lifter - Earth class",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_136",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What plant does WALL-E find?",
+      "options": [
+        "A seedling",
+        "A flower",
+        "A tree",
+        "A weed"
+      ],
+      "correct_answer": "A seedling",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_137",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Up', what does Carl sell before he retires?",
+      "options": [
+        "Balloons",
+        "Ice cream",
+        "Toys",
+        "Books"
+      ],
+      "correct_answer": "Balloons",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_138",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of Carl's wife?",
+      "options": [
+        "Ellie",
+        "Ruth",
+        "Dug",
+        "Kevin"
+      ],
+      "correct_answer": "Ellie",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_139",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What type of bird is Kevin?",
+      "options": [
+        "Exotic bird/snipe",
+        "Parrot",
+        "Eagle",
+        "Hummingbird"
+      ],
+      "correct_answer": "Exotic bird/snipe",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_140",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Toy Story', who is Andy's favorite toy?",
+      "options": [
+        "Woody",
+        "Buzz",
+        "Rex",
+        "Slinky"
+      ],
+      "correct_answer": "Woody",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_141",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What kind of dinosaur is Rex?",
+      "options": [
+        "T-Rex",
+        "Velociraptor",
+        "Triceratops",
+        "Stegosaurus"
+      ],
+      "correct_answer": "T-Rex",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_142",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Monsters, Inc.', what is Sully's full name?",
+      "options": [
+        "James P. Sullivan",
+        "Mike Wazowski",
+        "Randall Boggs",
+        "Henry J. Waternoose"
+      ],
+      "correct_answer": "James P. Sullivan",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_143",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is Mike Wazowski's girlfriend's name?",
+      "options": [
+        "Celia",
+        "Sully",
+        "Boo",
+        "Roz"
+      ],
+      "correct_answer": "Celia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_144",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Finding Dory', what is Dory looking for?",
+      "options": [
+        "Her parents",
+        "Nemo",
+        "Marlin",
+        "Her home"
+      ],
+      "correct_answer": "Her parents",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_145",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Brave', what is Merida's weapon of choice?",
+      "options": [
+        "Bow and arrow",
+        "Sword",
+        "Axe",
+        "Staff"
+      ],
+      "correct_answer": "Bow and arrow",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_146",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What does Merida's mother turn into?",
+      "options": [
+        "Bear",
+        "Wolf",
+        "Lion",
+        "Eagle"
+      ],
+      "correct_answer": "Bear",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_147",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Inside Out', who is the main character?",
+      "options": [
+        "Riley",
+        "Joy",
+        "Sadness",
+        "Anger"
+      ],
+      "correct_answer": "Riley",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_148",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What sport does Riley play?",
+      "options": [
+        "Hockey",
+        "Soccer",
+        "Basketball",
+        "Baseball"
+      ],
+      "correct_answer": "Hockey",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_149",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Coco', what is forbidden in Miguel's family?",
+      "options": [
+        "Music",
+        "Dancing",
+        "Singing",
+        "Painting"
+      ],
+      "correct_answer": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_150",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of Miguel's spirit guide dog?",
+      "options": [
+        "Dante",
+        "Pepita",
+        "H\u00e9ctor",
+        "Ernesto"
+      ],
+      "correct_answer": "Dante",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_151",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'The Good Dinosaur', what is Arlo?",
+      "options": [
+        "Apatosaurus",
+        "T-Rex",
+        "Triceratops",
+        "Stegosaurus"
+      ],
+      "correct_answer": "Apatosaurus",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_152",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Cars 2', where does Lightning compete?",
+      "options": [
+        "World Grand Prix (multiple countries)",
+        "USA",
+        "Japan only",
+        "Italy only"
+      ],
+      "correct_answer": "World Grand Prix (multiple countries)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_153",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What year was 'Toy Story' released?",
+      "options": [
+        "1995",
+        "1996",
+        "1994",
+        "1997"
+      ],
+      "correct_answer": "1995",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_154",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who directed 'Toy Story'?",
+      "options": [
+        "John Lasseter",
+        "Pete Docter",
+        "Andrew Stanton",
+        "Brad Bird"
+      ],
+      "correct_answer": "John Lasseter",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_155",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Toy Story 2', what is Woody's origin?",
+      "options": [
+        "1950s TV show Woody's Roundup",
+        "1960s movie series",
+        "1940s radio show",
+        "Modern toy line"
+      ],
+      "correct_answer": "1950s TV show Woody's Roundup",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_156",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who is the prospector in 'Toy Story 2'?",
+      "options": [
+        "Stinky Pete",
+        "Woody",
+        "Bullseye",
+        "Jessie"
+      ],
+      "correct_answer": "Stinky Pete",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_157",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Finding Nemo', what happened to Nemo's mother?",
+      "options": [
+        "Eaten by barracuda",
+        "Lost at sea",
+        "Caught by humans",
+        "Still alive"
+      ],
+      "correct_answer": "Eaten by barracuda",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_158",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the dentist in 'Finding Nemo'?",
+      "options": [
+        "P. Sherman",
+        "Dr. Fish",
+        "Dr. Ocean",
+        "None"
+      ],
+      "correct_answer": "P. Sherman",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_159",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'The Incredibles', what was the name of Mr. Incredible's robot enemy?",
+      "options": [
+        "The Omnidroid",
+        "Syndrome's Bot",
+        "The Destroyer",
+        "The Super Bot"
+      ],
+      "correct_answer": "The Omnidroid",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_160",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is Syndrome's real name?",
+      "options": [
+        "Buddy Pine",
+        "Bob Parr",
+        "Winston Deavor",
+        "None"
+      ],
+      "correct_answer": "Buddy Pine",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_161",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Cars', what town does Lightning McQueen get stranded in?",
+      "options": [
+        "Radiator Springs",
+        "Carburetor County",
+        "Motor City",
+        "Rev-N-Go"
+      ],
+      "correct_answer": "Radiator Springs",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_162",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who is Lightning McQueen's sponsor?",
+      "options": [
+        "Rust-eze",
+        "Dinoco",
+        "Piston Cup",
+        "Allinol"
+      ],
+      "correct_answer": "Rust-eze",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_163",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Ratatouille', what is Chef Gusteau's motto?",
+      "options": [
+        "Anyone can cook",
+        "Food is love",
+        "Passion creates perfection",
+        "Cook with heart"
+      ],
+      "correct_answer": "Anyone can cook",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_164",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who is the head chef when Remy arrives?",
+      "options": [
+        "Skinner",
+        "Gusteau",
+        "Linguini",
+        "Colette"
+      ],
+      "correct_answer": "Skinner",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_165",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'WALL-E', what is EVE's purpose?",
+      "options": [
+        "To find plant life",
+        "To clean Earth",
+        "To find WALL-E",
+        "To return to space"
+      ],
+      "correct_answer": "To find plant life",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_166",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the ship in 'WALL-E'?",
+      "options": [
+        "Axiom",
+        "Ark",
+        "Exodus",
+        "Genesis"
+      ],
+      "correct_answer": "Axiom",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_167",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Up', who is the villain?",
+      "options": [
+        "Charles Muntz",
+        "Carl",
+        "Russell",
+        "Kevin"
+      ],
+      "correct_answer": "Charles Muntz",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_168",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is Doug's special collar ability?",
+      "options": [
+        "Translates thoughts to speech",
+        "Controls birds",
+        "GPS tracking",
+        "None"
+      ],
+      "correct_answer": "Translates thoughts to speech",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_169",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Brave', how many brothers does Merida have?",
+      "options": [
+        "3 (triplets)",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct_answer": "3 (triplets)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_170",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What are the triplets' names?",
+      "options": [
+        "Harris, Hubert, and Hamish",
+        "Harry, Herbert, and Harold",
+        "Hugh, Henry, and Hank",
+        "None"
+      ],
+      "correct_answer": "Harris, Hubert, and Hamish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_171",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Inside Out', where do Riley and her family move?",
+      "options": [
+        "San Francisco",
+        "New York",
+        "Los Angeles",
+        "Chicago"
+      ],
+      "correct_answer": "San Francisco",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_172",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What happens when Joy and Sadness get lost?",
+      "options": [
+        "They can't reach Headquarters",
+        "Riley stops feeling",
+        "Riley gets angry",
+        "Riley cries"
+      ],
+      "correct_answer": "They can't reach Headquarters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_173",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Coco', who is the famous musician Miguel admires?",
+      "options": [
+        "Ernesto de la Cruz",
+        "H\u00e9ctor",
+        "Imelda",
+        "Dante"
+      ],
+      "correct_answer": "Ernesto de la Cruz",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_174",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the family business in 'Coco'?",
+      "options": [
+        "Shoemaking",
+        "Music",
+        "Cooking",
+        "Painting"
+      ],
+      "correct_answer": "Shoemaking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_175",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who actually wrote the songs in 'Coco'?",
+      "options": [
+        "H\u00e9ctor",
+        "Ernesto",
+        "Miguel",
+        "Imelda"
+      ],
+      "correct_answer": "H\u00e9ctor",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_176",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Toy Story 4', what is the name of the new toy Bonnie makes?",
+      "options": [
+        "Forky",
+        "Sporky",
+        "Knifey",
+        "Spoony"
+      ],
+      "correct_answer": "Forky",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_177",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who is the villain in 'Toy Story 4'?",
+      "options": [
+        "Gabby Gabby",
+        "Forky",
+        "Duke Caboom",
+        "Bo Peep"
+      ],
+      "correct_answer": "Gabby Gabby",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_178",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Soul', what is Joe Gardner's passion?",
+      "options": [
+        "Jazz music",
+        "Teaching",
+        "Cooking",
+        "Painting"
+      ],
+      "correct_answer": "Jazz music",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_179",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the 'Great Before' in 'Soul'?",
+      "options": [
+        "Where souls get personalities",
+        "Heaven",
+        "Earth",
+        "The Great Beyond"
+      ],
+      "correct_answer": "Where souls get personalities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_180",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Luca', what are Luca and Alberto?",
+      "options": [
+        "Sea monsters",
+        "Humans",
+        "Fish",
+        "Mermaids"
+      ],
+      "correct_answer": "Sea monsters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_181",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Where is 'Luca' set?",
+      "options": [
+        "Italian Riviera",
+        "France",
+        "Greece",
+        "Spain"
+      ],
+      "correct_answer": "Italian Riviera",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_182",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Turning Red', what animal does Mei turn into?",
+      "options": [
+        "Red panda",
+        "Fox",
+        "Cat",
+        "Bear"
+      ],
+      "correct_answer": "Red panda",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_183",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What boy band is Mei obsessed with?",
+      "options": [
+        "4*Town",
+        "5*City",
+        "6*Village",
+        "7*Country"
+      ],
+      "correct_answer": "4*Town",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_184",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Lightyear', what is Buzz's mission?",
+      "options": [
+        "Return home after stranding crew",
+        "Defeat Zurg",
+        "Save the galaxy",
+        "Find Andy"
+      ],
+      "correct_answer": "Return home after stranding crew",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_185",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who is Sox in 'Lightyear'?",
+      "options": [
+        "Robotic cat companion",
+        "Villain",
+        "Zurg's sidekick",
+        "Buzz's rival"
+      ],
+      "correct_answer": "Robotic cat companion",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_186",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Elemental', what are the four elements?",
+      "options": [
+        "Fire, Water, Earth, Air",
+        "Fire, Ice, Earth, Wind",
+        "Fire, Water, Metal, Wood",
+        "None"
+      ],
+      "correct_answer": "Fire, Water, Earth, Air",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_187",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Onward', what are the two brothers trying to do?",
+      "options": [
+        "Bring their father back for a day",
+        "Find treasure",
+        "Save their town",
+        "Go on an adventure"
+      ],
+      "correct_answer": "Bring their father back for a day",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_188",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who was the first character Pixar ever animated?",
+      "options": [
+        "Andr\u00e9 and Wally B.",
+        "Luxo Jr.",
+        "Tin Toy",
+        "Red's Dream"
+      ],
+      "correct_answer": "Andr\u00e9 and Wally B.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_189",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What was Pixar's first feature film?",
+      "options": [
+        "Toy Story (1995)",
+        "A Bug's Life",
+        "Monsters, Inc.",
+        "Finding Nemo"
+      ],
+      "correct_answer": "Toy Story (1995)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_190",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who directed 'Inside Out'?",
+      "options": [
+        "Pete Docter",
+        "John Lasseter",
+        "Andrew Stanton",
+        "Brad Bird"
+      ],
+      "correct_answer": "Pete Docter",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_191",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who directed 'WALL-E'?",
+      "options": [
+        "Andrew Stanton",
+        "Pete Docter",
+        "Brad Bird",
+        "Lee Unkrich"
+      ],
+      "correct_answer": "Andrew Stanton",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_192",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who directed 'Up'?",
+      "options": [
+        "Pete Docter and Bob Peterson",
+        "Andrew Stanton",
+        "Brad Bird",
+        "John Lasseter"
+      ],
+      "correct_answer": "Pete Docter and Bob Peterson",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_193",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What Pixar film won the first Academy Award for Best Animated Feature?",
+      "options": [
+        "Finding Nemo",
+        "Monsters, Inc.",
+        "Toy Story",
+        "The Incredibles"
+      ],
+      "correct_answer": "Finding Nemo",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_194",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "Who composed the music for 'Up', 'Inside Out', and 'Coco'?",
+      "options": [
+        "Michael Giacchino",
+        "Randy Newman",
+        "Thomas Newman",
+        "John Williams"
+      ],
+      "correct_answer": "Michael Giacchino",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_195",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the Pizza Planet truck's significance?",
+      "options": [
+        "Easter egg in most Pixar films",
+        "Important plot device",
+        "Toy Story exclusive",
+        "None"
+      ],
+      "correct_answer": "Easter egg in most Pixar films",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_196",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What short film is shown before 'Coco'?",
+      "options": [
+        "Olaf's Frozen Adventure (theatrical)/Dante's Lunch (home)",
+        "Piper",
+        "Lava",
+        "Bao"
+      ],
+      "correct_answer": "Olaf's Frozen Adventure (theatrical)/Dante's Lunch (home)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_197",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What year did Disney acquire Pixar?",
+      "options": [
+        "2006",
+        "2000",
+        "2010",
+        "1995"
+      ],
+      "correct_answer": "2006",
+      "difficulty": "hard"
+    }
+  ]
+}

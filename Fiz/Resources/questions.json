@@ -28945,7 +28945,7 @@
         "id": "spt_009",
         "category": "Sports",
         "subcategory": "Team Sports",
-        "question": "What is it called when a player scores three goals in one match?",
+        "question": "In hockey, what is it called when a player scores three goals in one match?",
         "options": [
           "Goal rush",
           "Triple",
@@ -28993,7 +28993,7 @@
         "id": "spt_013",
         "category": "Sports",
         "subcategory": "Team Sports",
-        "question": "How many downs does a team get to advance 10 yards?",
+        "question": "In football, how many downs does a team get to advance 10 yards?",
         "options": [
           "6",
           "3",
@@ -29025,7 +29025,7 @@
         "id": "spt_015",
         "category": "Sports",
         "subcategory": "Team Sports",
-        "question": "How many points is a field goal worth?",
+        "question": "In football, how many points is a field goal worth?",
         "options": [
           "2",
           "3",
@@ -29089,7 +29089,7 @@
         "id": "spt_022",
         "category": "Sports",
         "subcategory": "Team Sports",
-        "question": "What is it called when the defense catches a pass?",
+        "question": "In football, what is it called when the defense catches a pass?",
         "options": [
           "Block",
           "Interception",
@@ -29185,7 +29185,7 @@
         "id": "spt_031",
         "category": "Sports",
         "subcategory": "Team Sports",
-        "question": "What position does the player who snaps the ball play?",
+        "question": "In football, what position does the player who snaps the ball play?",
         "options": [
           "Guard",
           "Quarterback",
@@ -29201,7 +29201,7 @@
         "id": "spt_032",
         "category": "Sports",
         "subcategory": "Team Sports",
-        "question": "How many strikes result in a strikeout?",
+        "question": "In baseball, how many strikes result in a strikeout?",
         "options": [
           "5",
           "3",
@@ -29313,7 +29313,7 @@
         "id": "spt_041",
         "category": "Sports",
         "subcategory": "Team Sports",
-        "question": "How many players from each team are on the field during a play?",
+        "question": "In boxing, how many players from each team are on the field during a play?",
         "options": [
           "11",
           "10",
@@ -29658,7 +29658,7 @@
         ],
         "correct_answer": "Hole-in-one",
         "difficulty": "easy",
-        "topic": "Tennis",
+        "topic": "Golf",
         "subtopic": null
       },
       {
@@ -29706,7 +29706,7 @@
         ],
         "correct_answer": "The putting surface",
         "difficulty": "easy",
-        "topic": "Tennis",
+        "topic": "Golf",
         "subtopic": null
       },
       {
@@ -29777,7 +29777,7 @@
         "id": "spt_111",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What is the grass area you're supposed to hit from called?",
+        "question": "In golf, what is the grass area you're supposed to hit from called?",
         "options": [
           "Tee box",
           "Rough",
@@ -29809,7 +29809,7 @@
         "id": "spt_113",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "Which tournament is played on grass courts?",
+        "question": "In tennis, which tournament is played on grass courts?",
         "options": [
           "Wimbledon",
           "French Open",
@@ -29850,7 +29850,7 @@
         ],
         "correct_answer": "The mowed area between tee and green",
         "difficulty": "easy",
-        "topic": "Tennis",
+        "topic": "Golf",
         "subtopic": null
       },
       {
@@ -29882,7 +29882,7 @@
         ],
         "correct_answer": "Grass",
         "difficulty": "medium",
-        "topic": "Basketball",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -29937,7 +29937,7 @@
         "id": "spt_121",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What is the term for the area of short grass around the green?",
+        "question": "In golf, what is the term for the area of short grass around the green?",
         "options": [
           "Fairway",
           "Collar",
@@ -29953,7 +29953,7 @@
         "id": "spt_123",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What surface is the US Open played on?",
+        "question": "In tennis, what surface is the US Open played on?",
         "options": [
           "Hard court",
           "Grass",
@@ -29962,7 +29962,7 @@
         ],
         "correct_answer": "Hard court",
         "difficulty": "medium",
-        "topic": "Basketball",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -29994,14 +29994,14 @@
         ],
         "correct_answer": "Grass, clay, or hard court",
         "difficulty": "medium",
-        "topic": "Basketball",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
         "id": "spt_126",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What is it called when both players have won 6 games each?",
+        "question": "In tennis, what is it called when both players have won 6 games each?",
         "options": [
           "Set point",
           "Deuce",
@@ -30026,7 +30026,7 @@
         ],
         "correct_answer": "Hard court",
         "difficulty": "medium",
-        "topic": "Basketball",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -30122,7 +30122,7 @@
         ],
         "correct_answer": "Winning 6-0",
         "difficulty": "hard",
-        "topic": "Baseball",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -30193,7 +30193,7 @@
         "id": "spt_138",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What is the area between the baseline and service line called?",
+        "question": "In tennis, what is the area between the baseline and service line called?",
         "options": [
           "The alley",
           "The box",
@@ -30202,7 +30202,7 @@
         ],
         "correct_answer": "No man's land",
         "difficulty": "hard",
-        "topic": "Basketball",
+        "topic": "Tennis",
         "subtopic": null
       },
       {
@@ -30577,7 +30577,7 @@
         "id": "spt_212",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What is the score called when both players have won 40 points?",
+        "question": "In tennis, what is the score called when both players have won 40 points?",
         "options": [
           "Match point",
           "Deuce",
@@ -30593,7 +30593,7 @@
         "id": "spt_213",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "On which surface is the French Open played?",
+        "question": "In tennis, on which surface is the French Open played?",
         "options": [
           "Grass",
           "Carpet",
@@ -30602,7 +30602,7 @@
         ],
         "correct_answer": "Clay",
         "difficulty": "easy",
-        "topic": "Basketball",
+        "topic": "Tennis",
         "subtopic": null
       },
       {

@@ -691,7 +691,7 @@
       "options": [
         "Dante",
         "Pepita",
-        "H\u00e9ctor",
+        "Héctor",
         "Ernesto"
       ],
       "correct_answer": "Dante",
@@ -1058,7 +1058,7 @@
       "question": "In 'Coco', who is the famous musician Miguel admires?",
       "options": [
         "Ernesto de la Cruz",
-        "H\u00e9ctor",
+        "Héctor",
         "Imelda",
         "Dante"
       ],
@@ -1089,12 +1089,12 @@
       "subtopic": "Pixar",
       "question": "Who actually wrote the songs in 'Coco'?",
       "options": [
-        "H\u00e9ctor",
+        "Héctor",
         "Ernesto",
         "Miguel",
         "Imelda"
       ],
-      "correct_answer": "H\u00e9ctor",
+      "correct_answer": "Héctor",
       "difficulty": "medium"
     },
     {
@@ -1297,12 +1297,12 @@
       "subtopic": "Pixar",
       "question": "Who was the first character Pixar ever animated?",
       "options": [
-        "Andr\u00e9 and Wally B.",
+        "André and Wally B.",
         "Luxo Jr.",
         "Tin Toy",
         "Red's Dream"
       ],
-      "correct_answer": "Andr\u00e9 and Wally B.",
+      "correct_answer": "André and Wally B.",
       "difficulty": "hard"
     },
     {
@@ -1753,5 +1753,6 @@
       "correct_answer": "Turning Red",
       "difficulty": "easy"
     }
-  ]
+  ],
+  "isPublished": false
 }

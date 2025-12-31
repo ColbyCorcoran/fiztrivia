@@ -1633,6 +1633,7 @@ struct ExpansionPack: Codable, Identifiable {
     let difficulty: DifficultyBreakdown
     let price: Double
     let icon: String  // SF Symbol for pack (e.g., "wand.and.stars")
+    let isPublished: Bool  // Whether pack should appear in UI (default: true for backward compatibility)
     let freePreviewQuestions: [TriviaQuestion]
     let paidQuestions: [TriviaQuestion]
 
@@ -1641,7 +1642,7 @@ struct ExpansionPack: Codable, Identifiable {
     }
 
     private enum CodingKeys: String, CodingKey {
-        case packId, packName, packDescription, subtopics, questionCount, freePreviewCount, difficulty, price, icon, freePreviewQuestions, paidQuestions
+        case packId, packName, packDescription, subtopics, questionCount, freePreviewCount, difficulty, price, icon, isPublished, freePreviewQuestions, paidQuestions
     }
 
     init(from decoder: Decoder) throws {
@@ -1657,6 +1658,8 @@ struct ExpansionPack: Codable, Identifiable {
         self.difficulty = try container.decode(DifficultyBreakdown.self, forKey: .difficulty)
         self.price = try container.decode(Double.self, forKey: .price)
         self.icon = try container.decode(String.self, forKey: .icon)
+        // Default to true for backward compatibility with existing packs
+        self.isPublished = try container.decodeIfPresent(Bool.self, forKey: .isPublished) ?? true
         self.freePreviewQuestions = try container.decode([TriviaQuestion].self, forKey: .freePreviewQuestions)
         self.paidQuestions = try container.decode([TriviaQuestion].self, forKey: .paidQuestions)
     }
@@ -1689,7 +1692,8 @@ class ExpansionPackManager: ObservableObject {
     func loadAvailablePacks() {
         availablePacks = []
 
-        // Scan Resources folder for expansion_*.json files
+        // Scan Resources folder for expansion_*.json files (only published packs)
+        // Draft packs should use draft_*.json naming convention
         guard let resourcePath = Bundle.main.resourcePath else {
             print("Could not find resource path")
             return
@@ -1707,15 +1711,20 @@ class ExpansionPackManager: ObservableObject {
                 if let data = try? Data(contentsOf: URL(fileURLWithPath: filePath)) {
                     let decoder = JSONDecoder()
                     if let pack = try? decoder.decode(ExpansionPack.self, from: data) {
-                        availablePacks.append(pack)
-                        print("Loaded expansion pack: \(pack.packName)")
+                        // Only add packs that are marked as published
+                        if pack.isPublished {
+                            availablePacks.append(pack)
+                            print("Loaded expansion pack: \(pack.packName)")
+                        } else {
+                            print("Skipping unpublished pack: \(pack.packName)")
+                        }
                     } else {
                         print("Failed to decode expansion pack: \(fileName)")
                     }
                 }
             }
 
-            print("Loaded \(availablePacks.count) expansion packs")
+            print("Loaded \(availablePacks.count) published expansion packs")
         } catch {
             print("Error loading expansion packs: \(error)")
         }

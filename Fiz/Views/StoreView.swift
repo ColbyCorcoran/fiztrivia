@@ -204,26 +204,28 @@ struct ExpansionPackCard: View {
             Text(pack.packDescription)
                 .font(.body)
                 .foregroundColor(Color(hex: "8B4513").opacity(0.8))
-                .lineLimit(3)
+                .fixedSize(horizontal: false, vertical: true)
 
             // Subtopics
             VStack(alignment: .leading, spacing: 6) {
                 Text("Subtopics:")
                     .font(.caption)
                     .fontWeight(.semibold)
-                    .foregroundColor(Color(hex: "8B4513").opacity(0.7))
+                    .foregroundColor(Color(hex: "8B4513"))
 
                 FlowLayout(spacing: 6) {
                     ForEach(pack.subtopics, id: \.self) { subtopic in
                         Text(subtopic)
                             .font(.caption)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 4)
-                            .background(Color(hex: "D97639").opacity(0.2))
+                            .fontWeight(.medium)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 6)
+                            .background(Color(hex: "D97639").opacity(0.15))
                             .foregroundColor(Color(hex: "8B4513"))
-                            .cornerRadius(6)
+                            .cornerRadius(8)
                     }
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
             }
 
             // Difficulty breakdown

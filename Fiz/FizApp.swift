@@ -12,6 +12,7 @@ import SwiftData
 struct FizApp: App {
     @Environment(\.scenePhase) private var scenePhase
     @StateObject private var onboardingManager = OnboardingManager.shared
+    @StateObject private var whatsNewManager = WhatsNewManager.shared
 
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([

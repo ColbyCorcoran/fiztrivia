@@ -1327,7 +1327,6 @@ class OnboardingManager: ObservableObject {
     private static let launchCountKey = "app_launch_count"
     private static let firstLaunchDateKey = "first_launch_date"
     private static let hasSeenSecondaryOnboardingKey = "has_seen_secondary_onboarding"
-    private static let secondaryOnboardingVersionKey = "secondary_onboarding_version"
     private static let onboardingDismissedKey = "onboarding_dismissed_permanently"
 
     @Published var launchCount: Int = 0
@@ -1338,7 +1337,6 @@ class OnboardingManager: ObservableObject {
     // Trigger thresholds
     static let launchThreshold = 15  // Show after 15 launches
     static let dayThreshold = 5      // OR after 5 days
-    static let currentOnboardingVersion = 1
 
     private init() {
         loadSettings()
@@ -1364,13 +1362,13 @@ class OnboardingManager: ObservableObject {
     }
 
     private func updateSecondaryOnboardingStatus() {
-        // Don't show if already seen this version
-        let hasSeenCurrentVersion = UserDefaults.standard.integer(forKey: Self.hasSeenSecondaryOnboardingKey) >= Self.currentOnboardingVersion
+        // Don't show if already seen (ONE TIME EVER)
+        let hasSeenOnboarding = UserDefaults.standard.bool(forKey: Self.hasSeenSecondaryOnboardingKey)
 
         // Don't show if permanently dismissed
         let isPermanentlyDismissed = UserDefaults.standard.bool(forKey: Self.onboardingDismissedKey)
 
-        if hasSeenCurrentVersion || isPermanentlyDismissed {
+        if hasSeenOnboarding || isPermanentlyDismissed {
             shouldShowSecondaryOnboarding = false
             return
         }
@@ -1394,7 +1392,7 @@ class OnboardingManager: ObservableObject {
     }
 
     func markSecondaryOnboardingAsShown() {
-        UserDefaults.standard.set(Self.currentOnboardingVersion, forKey: Self.hasSeenSecondaryOnboardingKey)
+        UserDefaults.standard.set(true, forKey: Self.hasSeenSecondaryOnboardingKey)
         shouldShowSecondaryOnboarding = false
     }
 
@@ -1423,15 +1421,97 @@ class OnboardingManager: ObservableObject {
     func getDebugInfo() -> String {
         let firstLaunchDate = UserDefaults.standard.object(forKey: Self.firstLaunchDateKey) as? Date ?? Date()
         let daysSinceFirstLaunch = Calendar.current.dateComponents([.day], from: firstLaunchDate, to: Date()).day ?? 0
-        let hasSeenVersion = UserDefaults.standard.integer(forKey: Self.hasSeenSecondaryOnboardingKey)
+        let hasSeenOnboarding = UserDefaults.standard.bool(forKey: Self.hasSeenSecondaryOnboardingKey)
         let isDismissed = UserDefaults.standard.bool(forKey: Self.onboardingDismissedKey)
 
         return """
         Launch Count: \(launchCount)/\(Self.launchThreshold)
         Days Since Install: \(daysSinceFirstLaunch)/\(Self.dayThreshold)
-        Has Seen Version: \(hasSeenVersion)
+        Has Seen Onboarding: \(hasSeenOnboarding)
         Is Dismissed: \(isDismissed)
         Should Show: \(shouldShowSecondaryOnboarding)
         """
     }
+}
+
+// MARK: - What's New Manager
+class WhatsNewManager: ObservableObject {
+    private static let lastSeenVersionKey = "last_seen_app_version"
+
+    @Published var shouldShowWhatsNew: Bool = false
+    @Published var currentUpdate: WhatsNewUpdate?
+
+    static let shared = WhatsNewManager()
+
+    // Define updates here - add new ones when you push updates
+    private let updates: [WhatsNewUpdate] = [
+        // Example for when you add expansions:
+        // WhatsNewUpdate(
+        //     version: "1.1.0",
+        //     title: "Question Expansions!",
+        //     features: [
+        //         WhatsNewFeature(icon: "purchased.circle.fill", title: "Expansion Packs", description: "Purchase themed question packs to expand your trivia library"),
+        //         WhatsNewFeature(icon: "star.fill", title: "Premium Categories", description: "Access exclusive categories like Movies, TV Shows, and more")
+        //     ]
+        // )
+    ]
+
+    private init() {
+        checkForNewVersion()
+    }
+
+    private func checkForNewVersion() {
+        guard let currentVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else {
+            return
+        }
+
+        let lastSeenVersion = UserDefaults.standard.string(forKey: Self.lastSeenVersionKey)
+
+        // First launch ever or version changed
+        if lastSeenVersion != currentVersion {
+            // Find update for this version
+            if let update = updates.first(where: { $0.version == currentVersion }) {
+                currentUpdate = update
+                shouldShowWhatsNew = true
+            } else {
+                // No update defined for this version - just mark as seen
+                markCurrentVersionAsSeen()
+            }
+        }
+    }
+
+    func markCurrentVersionAsSeen() {
+        if let currentVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+            UserDefaults.standard.set(currentVersion, forKey: Self.lastSeenVersionKey)
+        }
+        shouldShowWhatsNew = false
+    }
+
+    func forceShowWhatsNew() {
+        // For testing - show the most recent update
+        if let latestUpdate = updates.first {
+            currentUpdate = latestUpdate
+            shouldShowWhatsNew = true
+        }
+    }
+
+    func resetForTesting() {
+        UserDefaults.standard.removeObject(forKey: Self.lastSeenVersionKey)
+        checkForNewVersion()
+    }
+}
+
+// MARK: - What's New Models
+struct WhatsNewUpdate: Identifiable {
+    let id = UUID()
+    let version: String
+    let title: String
+    let features: [WhatsNewFeature]
+}
+
+struct WhatsNewFeature: Identifiable {
+    let id = UUID()
+    let icon: String
+    let title: String
+    let description: String
 }

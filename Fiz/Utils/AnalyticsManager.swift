@@ -149,6 +149,29 @@ class AnalyticsManager: ObservableObject {
         PostHogSDK.shared.capture("feature_tour_manually_opened")
     }
 
+    // MARK: - What's New Events
+
+    func trackWhatsNewViewed(version: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("whats_new_viewed", properties: [
+            "version": version
+        ])
+    }
+
+    func trackWhatsNewCompleted(version: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("whats_new_completed", properties: [
+            "version": version
+        ])
+    }
+
+    func trackWhatsNewDismissed(version: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("whats_new_dismissed", properties: [
+            "version": version
+        ])
+    }
+
     // MARK: - Personalization Events
 
     func trackUsernameUpdated(hadPreviousUsername: Bool) {

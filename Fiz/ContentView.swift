@@ -13,6 +13,7 @@ struct ContentView: View {
     @StateObject private var userManager = UserManager.shared
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @StateObject private var onboardingManager = OnboardingManager.shared
+    @StateObject private var whatsNewManager = WhatsNewManager.shared
     @State private var dragOffset: CGFloat = 0
 
     var body: some View {
@@ -30,6 +31,15 @@ struct ContentView: View {
                 .onAppear {
                     AnalyticsManager.shared.trackSecondaryOnboardingViewed()
                 }
+        }
+        .sheet(isPresented: $whatsNewManager.shouldShowWhatsNew) {
+            if let update = whatsNewManager.currentUpdate {
+                WhatsNewView(update: update)
+                    .interactiveDismissDisabled(false)
+                    .onAppear {
+                        AnalyticsManager.shared.trackWhatsNewViewed(version: update.version)
+                    }
+            }
         }
     }
 

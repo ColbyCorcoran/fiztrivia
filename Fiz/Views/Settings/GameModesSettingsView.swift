@@ -269,7 +269,7 @@ struct GameModesSettingsView: View {
     }
 
     private func handleAlertCancel() {
-        if let pending = pendingMode {
+        if pendingMode != nil {
             localSelectedMode = previousMode
             pendingMode = nil
         }

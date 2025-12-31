@@ -337,7 +337,6 @@ enum GameState {
     case selectingCategory
     case leaderboard
     case settings
-    case gameModeSettings
 }
 
 enum AnswerState {

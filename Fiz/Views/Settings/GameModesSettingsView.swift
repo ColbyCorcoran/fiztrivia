@@ -190,18 +190,17 @@ struct GameModesSettingsView: View {
         .background(backgroundGradient)
         .navigationTitle("Game Modes")
         .navigationBarTitleDisplayMode(.large)
+        .navigationBarBackButtonHidden(!isSelectionComplete)
         .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                Button("Done") {
-                    if isSelectionComplete {
-                        // Selection is complete, dismiss the view
-                        gameViewModel.gameState = .selectingCategory
-                    } else {
-                        // Selection incomplete, show alert
+            if !isSelectionComplete {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
                         showingIncompleteSelectionAlert = true
+                    }) {
+                        Image(systemName: "chevron.left")
+                            .font(.body.weight(.semibold))
                     }
                 }
-                .fontWeight(.semibold)
             }
         }
         .alert("Selection Required", isPresented: $showingIncompleteSelectionAlert) {

@@ -549,8 +549,7 @@ struct CategoryWheelView: View {
             Button("Maybe Later") {
                 HapticManager.shared.buttonTapEffect()
                 gameViewModel.showPreviewPackCompletionAlert = false
-                // Navigate directly to Game Modes Settings
-                gameViewModel.showGameModeSettings()
+                gameViewModel.showSettings()
             }
         } message: {
             if let packId = gameViewModel.completedPreviewPackId,

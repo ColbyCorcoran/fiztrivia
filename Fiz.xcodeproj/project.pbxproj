@@ -26,6 +26,9 @@
 		B66F02F02F05742A007B0E79 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02EF2F05742A007B0E79 /* StoreManager.swift */; };
 		B66F02F22F057440007B0E79 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02F12F057440007B0E79 /* StoreView.swift */; };
 		B66F02F42F057461007B0E79 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = B66F02F32F057461007B0E79 /* Configuration.storekit */; };
+		B66F03072F05A34E007B0E79 /* DiscountCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F03062F05A34E007B0E79 /* DiscountCodeManager.swift */; };
+		B66F03082F05A34E007B0E79 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F03052F05A34E007B0E79 /* CartManager.swift */; };
+		B66F030A2F05A356007B0E79 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F03092F05A356007B0E79 /* CartView.swift */; };
 		B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */; };
 		B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A772EBD2A5400C2A449 /* questions.json */; };
 		B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A7A2EBD2A5400C2A449 /* AccessibilityHelpers.swift */; };
@@ -97,6 +100,9 @@
 		B66F02EF2F05742A007B0E79 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
 		B66F02F12F057440007B0E79 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		B66F02F32F057461007B0E79 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		B66F03052F05A34E007B0E79 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		B66F03062F05A34E007B0E79 /* DiscountCodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCodeManager.swift; sourceTree = "<group>"; };
+		B66F03092F05A356007B0E79 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B66F14D42E4B7DF200C426E5 /* Fiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14E32E4B7DF400C426E5 /* FizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F14ED2E4B7DF400C426E5 /* FizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -267,6 +273,8 @@
 				B68C5A7C2EBD2A5400C2A449 /* HapticManager.swift */,
 				B6B0E35D2EC501BA007873A8 /* AnalyticsManager.swift */,
 				B66F02EF2F05742A007B0E79 /* StoreManager.swift */,
+				B66F03052F05A34E007B0E79 /* CartManager.swift */,
+				B66F03062F05A34E007B0E79 /* DiscountCodeManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -294,6 +302,7 @@
 				B66F02DD2F04BE1C007B0E79 /* SecondaryOnboardingView.swift */,
 				B66F02DE2F04BE1C007B0E79 /* WhatsNewView.swift */,
 				B66F02F12F057440007B0E79 /* StoreView.swift */,
+				B66F03092F05A356007B0E79 /* CartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -480,6 +489,8 @@
 				B66F02B72EFC370C007B0E79 /* QuestionModalView.swift in Sources */,
 				B66F02B82EFC370C007B0E79 /* QuestionContentView.swift in Sources */,
 				B66F02B92EFC370C007B0E79 /* ResultContentView.swift in Sources */,
+				B66F03072F05A34E007B0E79 /* DiscountCodeManager.swift in Sources */,
+				B66F03082F05A34E007B0E79 /* CartManager.swift in Sources */,
 				B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */,
 				B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */,
 				B68C5A902EBD2BCF00C2A449 /* GameViewModel.swift in Sources */,
@@ -494,6 +505,7 @@
 				B66F02CB2F006EE2007B0E79 /* GameProgressSettingsView.swift in Sources */,
 				B66F02D62F0345F0007B0E79 /* CategorySelectionSettingsView.swift in Sources */,
 				B66F02CC2F006EE2007B0E79 /* AppIconSettingsView.swift in Sources */,
+				B66F030A2F05A356007B0E79 /* CartView.swift in Sources */,
 				B66F02CD2F006EE2007B0E79 /* UsernameSettingsView.swift in Sources */,
 				B66F02CE2F006EE2007B0E79 /* DifficultySettingsView.swift in Sources */,
 				B66F02CF2F006EE2007B0E79 /* AnalyticsSettingsView.swift in Sources */,

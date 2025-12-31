@@ -12,7 +12,9 @@ struct StoreView: View {
     @Environment(\.dismiss) var dismiss
     @StateObject private var storeManager = StoreManager.shared
     @StateObject private var expansionManager = ExpansionPackManager.shared
+    @StateObject private var cartManager = CartManager.shared
     @State private var showingRestoreAlert = false
+    @State private var showingCart = false
     @State private var purchasingPackId: String?
 
     var body: some View {
@@ -33,7 +35,7 @@ struct StoreView: View {
                     VStack(spacing: 20) {
                         // Header
                         VStack(spacing: 8) {
-                            Image(systemName: "bag")
+                            Image(systemName: "rectangle.stack.badge.plus")
                                 .font(.system(size: 50))
                                 .foregroundColor(.fizOrange)
 
@@ -95,6 +97,27 @@ struct StoreView: View {
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                // Cart button with count
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
+                        HapticManager.shared.buttonTapEffect()
+                        showingCart = true
+                    }) {
+                        HStack(spacing: 4) {
+                            Image(systemName: "bag")
+                                .font(.body.weight(.semibold))
+
+                            if cartManager.itemCount > 0 {
+                                Text("(\(cartManager.itemCount) \(cartManager.itemCount == 1 ? "Pack" : "Packs"))")
+                                    .font(.caption)
+                                    .fontWeight(.medium)
+                            }
+                        }
+                    }
+                    .tint(.fizOrange)
+                }
+
+                // Done button
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
                         dismiss()
@@ -104,6 +127,9 @@ struct StoreView: View {
                     }
                     .tint(.fizOrange)
                 }
+            }
+            .sheet(isPresented: $showingCart) {
+                CartView()
             }
             .alert("Purchases Restored", isPresented: $showingRestoreAlert) {
                 Button("OK", role: .cancel) { }
@@ -155,6 +181,7 @@ struct ExpansionPackCard: View {
 
     @StateObject private var storeManager = StoreManager.shared
     @StateObject private var expansionManager = ExpansionPackManager.shared
+    @StateObject private var cartManager = CartManager.shared
 
     private var isPurchased: Bool {
         expansionManager.isPurchased(packId: pack.packId)
@@ -189,22 +216,26 @@ struct ExpansionPackCard: View {
                     Text("\(pack.questionCount) questions")
                         .font(.subheadline)
                         .foregroundColor(.fizBrown.opacity(0.7))
+
+                    // Always show price for unpurchased packs
+                    if !isPurchased {
+                        Text(product?.displayPrice ?? String(format: "$%.2f", pack.price))
+                            .font(.title3)
+                            .fontWeight(.bold)
+                            .foregroundColor(.fizOrange)
+                            .padding(.top, 2)
+                    }
                 }
 
                 Spacer()
 
-                // Price or status badge
+                // Status badge for purchased packs
                 if isPurchased {
                     if isInstalled {
                         StatusBadge(text: "Installed", color: .green)
                     } else {
                         StatusBadge(text: "Owned", color: .blue)
                     }
-                } else if let product = product {
-                    Text(product.displayPrice)
-                        .font(.title3)
-                        .fontWeight(.bold)
-                        .foregroundColor(.fizOrange)
                 }
             }
 
@@ -286,32 +317,27 @@ struct ExpansionPackCard: View {
                     }
                 }
             } else {
+                let inCart = cartManager.isInCart(packId: pack.packId)
+
                 Button(action: {
-                    Task {
-                        await onPurchase()
+                    HapticManager.shared.buttonTapEffect()
+                    if inCart {
+                        cartManager.removeFromCart(packId: pack.packId)
+                    } else {
+                        cartManager.addToCart(packId: pack.packId)
                     }
                 }) {
                     HStack {
-                        if isPurchasing {
-                            ProgressView()
-                                .progressViewStyle(CircularProgressViewStyle(tint: .white))
-                        } else {
-                            Image(systemName: "cart.fill")
-                            if let product = product {
-                                Text("Purchase for \(product.displayPrice)")
-                            } else {
-                                Text("Purchase")
-                            }
-                        }
+                        Image(systemName: inCart ? "checkmark.circle.fill" : "bag.badge.plus")
+                        Text(inCart ? "Added to Bag" : "Add to Bag")
                     }
                     .font(.headline)
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(isPurchasing ? Color.gray : Color.fizOrange)
+                    .background(inCart ? Color.fizTeal : Color.fizOrange)
                     .foregroundColor(.white)
                     .cornerRadius(12)
                 }
-                .disabled(isPurchasing)
 
                 // Free preview note
                 Text("Includes \(pack.freePreviewCount) free preview questions")

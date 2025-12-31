@@ -65,21 +65,13 @@ struct ContentView: View {
             }
         }
         .animation(.easeInOut(duration: 0.3), value: gameViewModel.gameState)
-        .sheet(isPresented: Binding(
-            get: { gameViewModel.gameState == .gameModeSettings },
-            set: { if !$0 { gameViewModel.gameState = .selectingCategory } }
-        )) {
-            NavigationStack {
-                GameModesSettingsView(gameViewModel: gameViewModel)
-            }
-        }
     }
 
     private func calculateLeaderboardOffset(screenWidth: CGFloat) -> CGFloat {
         switch gameViewModel.gameState {
         case .leaderboard:
             return 0
-        case .selectingCategory, .gameModeSettings:
+        case .selectingCategory:
             return -screenWidth
         case .settings:
             return -screenWidth * 2
@@ -90,7 +82,7 @@ struct ContentView: View {
         switch gameViewModel.gameState {
         case .leaderboard:
             return screenWidth
-        case .selectingCategory, .gameModeSettings:
+        case .selectingCategory:
             return 0
         case .settings:
             return -screenWidth
@@ -101,7 +93,7 @@ struct ContentView: View {
         switch gameViewModel.gameState {
         case .leaderboard:
             return screenWidth * 2
-        case .selectingCategory, .gameModeSettings:
+        case .selectingCategory:
             return screenWidth
         case .settings:
             return 0

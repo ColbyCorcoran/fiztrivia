@@ -249,10 +249,6 @@ class GameViewModel {
         gameState = .settings
     }
 
-    func showGameModeSettings() {
-        gameState = .gameModeSettings
-    }
-
 
     var randomCongratulatoryMessage: String {
         return UserManager.shared.personalizedCongratulatoryMessage()

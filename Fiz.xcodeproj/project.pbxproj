@@ -147,6 +147,11 @@
 			path = "Expansion Packs";
 			sourceTree = "<group>";
 		};
+		B66F03002F0580BA007B0E79 /* Preview Packs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Packs";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +260,7 @@
 		B68C5A792EBD2A5400C2A449 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B66F03002F0580BA007B0E79 /* Preview Packs */,
 				B66F02F52F0577EE007B0E79 /* Expansion Packs */,
 				B68C5A772EBD2A5400C2A449 /* questions.json */,
 				B66F02D32F02EDD8007B0E79 /* questions_expansions.json */,
@@ -338,6 +344,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B66F02F52F0577EE007B0E79 /* Expansion Packs */,
+				B66F03002F0580BA007B0E79 /* Preview Packs */,
 			);
 			name = Fiz;
 			packageProductDependencies = (

@@ -2,6 +2,15 @@ import Foundation
 import SwiftData
 import UIKit
 
+// MARK: - Notification Names
+
+extension Notification.Name {
+    /// Posted when expansion packs are installed or uninstalled
+    static let expansionPacksChanged = Notification.Name("expansionPacksChanged")
+}
+
+// MARK: - Models
+
 struct TriviaQuestion: Codable, Identifiable {
     let id: String
     let category: String
@@ -1314,6 +1323,49 @@ class PhobiaExclusionManager: ObservableObject {
         return Set(allExcluded).count // Remove duplicates
     }
 
+    /// Rescans all existing phobias against the current question list.
+    /// Call this whenever new questions are added (e.g., expansion pack installed).
+    /// Returns total count of newly excluded questions across all phobias.
+    @discardableResult
+    func rescanAllPhobias(in questions: [TriviaQuestion]) -> Int {
+        guard !phobias.isEmpty else { return 0 }
+
+        var totalNewExclusions = 0
+        var phobiasUpdated = false
+
+        for i in 0..<phobias.count {
+            let phobia = phobias[i]
+            let searchTerms = getSearchTerms(for: phobia.term)
+            let newExcludedIds = scanForMatches(searchTerms: searchTerms, in: questions)
+
+            // Check if new questions were excluded
+            let previousCount = phobia.excludedQuestionIds.count
+            let newCount = newExcludedIds.count
+
+            if previousCount != newCount {
+                // Update the phobia with new excluded IDs
+                phobias[i] = Phobia(
+                    id: phobia.id,
+                    term: phobia.term,
+                    excludedQuestionIds: newExcludedIds
+                )
+
+                totalNewExclusions += (newCount - previousCount)
+                phobiasUpdated = true
+
+                print("Phobia '\(phobia.term)': \(previousCount) → \(newCount) excluded questions (+\(newCount - previousCount))")
+            }
+        }
+
+        // Save if any phobias were updated
+        if phobiasUpdated {
+            savePhobias()
+            print("✅ Rescanned \(phobias.count) phobia(s), found \(totalNewExclusions) new exclusions")
+        }
+
+        return totalNewExclusions
+    }
+
     // MARK: - Private Helpers
 
     private func getSearchTerms(for term: String) -> [String] {
@@ -1706,11 +1758,17 @@ class ExpansionPackManager: ObservableObject {
         }
         installedPackIds.insert(packId)
         saveInstalledPacks()
+
+        // Notify that expansion packs changed (triggers question reload & phobia rescan)
+        NotificationCenter.default.post(name: .expansionPacksChanged, object: nil)
     }
 
     func uninstallPack(packId: String) {
         installedPackIds.remove(packId)
         saveInstalledPacks()
+
+        // Notify that expansion packs changed (triggers question reload & phobia rescan)
+        NotificationCenter.default.post(name: .expansionPacksChanged, object: nil)
     }
 
     private func saveInstalledPacks() {

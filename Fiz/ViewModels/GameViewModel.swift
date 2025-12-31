@@ -20,6 +20,19 @@ class GameViewModel {
 
     init() {
         loadQuestions()
+
+        // Listen for expansion pack changes to reload questions and rescan phobia filters
+        NotificationCenter.default.addObserver(
+            forName: .expansionPacksChanged,
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            self?.loadQuestions()
+        }
+    }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
     func loadQuestions() {
@@ -75,6 +88,9 @@ class GameViewModel {
 
             questions = allQuestions
             print("Successfully loaded \(questions.count) questions from database (including \(expansionQuestions.count) expansion questions)")
+
+            // Rescan phobia filters to catch any new questions (e.g., from newly installed expansion packs)
+            phobiaManager.rescanAllPhobias(in: allQuestions)
 
         } catch {
             print("Failed to parse JSON: \(error)")

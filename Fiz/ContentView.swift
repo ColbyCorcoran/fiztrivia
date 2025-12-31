@@ -14,7 +14,6 @@ struct ContentView: View {
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @StateObject private var onboardingManager = OnboardingManager.shared
     @StateObject private var whatsNewManager = WhatsNewManager.shared
-    @State private var dragOffset: CGFloat = 0
 
     var body: some View {
         Group {
@@ -71,57 +70,51 @@ struct ContentView: View {
     private func calculateLeaderboardOffset(screenWidth: CGFloat) -> CGFloat {
         switch gameViewModel.gameState {
         case .leaderboard:
-            return dragOffset
+            return 0
         case .selectingCategory:
-            return -screenWidth + dragOffset
+            return -screenWidth
         case .settings:
-            return -screenWidth * 2 + dragOffset
+            return -screenWidth * 2
         }
     }
 
     private func calculateMainOffset(screenWidth: CGFloat) -> CGFloat {
         switch gameViewModel.gameState {
         case .leaderboard:
-            return screenWidth + dragOffset
+            return screenWidth
         case .selectingCategory:
-            return dragOffset
+            return 0
         case .settings:
-            return -screenWidth + dragOffset
+            return -screenWidth
         }
     }
 
     private func calculateSettingsOffset(screenWidth: CGFloat) -> CGFloat {
         switch gameViewModel.gameState {
         case .leaderboard:
-            return screenWidth * 2 + dragOffset
+            return screenWidth * 2
         case .selectingCategory:
-            return screenWidth + dragOffset
+            return screenWidth
         case .settings:
-            return dragOffset
+            return 0
         }
     }
 
-    private func handleSwipe(_ direction: SwipeDirection, translation: CGFloat) {
+    private func handleSwipe(_ direction: SwipeDirection) {
         guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
-        if translation == 0 {
-            // Swipe completed - update state
-            switch (gameViewModel.gameState, direction) {
-            case (.selectingCategory, .right):
-                gameViewModel.gameState = .leaderboard
-            case (.selectingCategory, .left):
-                gameViewModel.gameState = .settings
-            case (.leaderboard, .left):
-                gameViewModel.gameState = .selectingCategory
-            case (.settings, .right):
-                gameViewModel.gameState = .selectingCategory
-            default:
-                break
-            }
-            dragOffset = 0
-        } else {
-            // Update drag offset for interactive preview
-            dragOffset = translation
+        // Instant state change - no preview, no lag
+        switch (gameViewModel.gameState, direction) {
+        case (.selectingCategory, .right):
+            gameViewModel.gameState = .leaderboard
+        case (.selectingCategory, .left):
+            gameViewModel.gameState = .settings
+        case (.leaderboard, .left):
+            gameViewModel.gameState = .selectingCategory
+        case (.settings, .right):
+            gameViewModel.gameState = .selectingCategory
+        default:
+            break
         }
     }
 }

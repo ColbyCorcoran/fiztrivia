@@ -3,7 +3,7 @@ import SwiftData
 
 struct LeaderboardView: View {
     @Bindable var gameViewModel: GameViewModel
-    var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
+    var onSwipe: ((SwipeDirection) -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @Environment(\.modelContext) private var modelContext
@@ -140,33 +140,19 @@ struct LeaderboardView: View {
     }
 
     private var leaderboardSwipeGesture: some Gesture {
-        DragGesture()
-            .onChanged { value in
+        DragGesture(minimumDistance: 50)
+            .onEnded { value in
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
-                swipeTranslation = value.translation.width
-                onSwipe?(.left, swipeTranslation)
-            }
-            .onEnded { value in
-                guard swipeNavigationManager.isSwipeNavigationEnabled else {
-                    swipeTranslation = 0
-                    onSwipe?(.left, 0)
-                    return
-                }
-
                 let distance = value.translation.width
+                let velocity = value.predictedEndTranslation.width
 
-                // Check threshold: 120pt minimum distance
                 // From leaderboard, only swipe left goes back to main
-                if distance < -120 {
+                // Lower threshold: 50pt minimum, or fast velocity
+                if distance < -50 || velocity < -100 {
                     HapticManager.shared.lightImpact()
-                    onSwipe?(.left, 0)
-                } else {
-                    // Didn't meet threshold - spring back
-                    onSwipe?(.left, 0)
+                    onSwipe?(.left)
                 }
-
-                swipeTranslation = 0
             }
     }
 }

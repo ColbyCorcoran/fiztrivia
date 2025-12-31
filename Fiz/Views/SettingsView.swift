@@ -2,7 +2,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @Bindable var gameViewModel: GameViewModel
-    var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
+    var onSwipe: ((SwipeDirection) -> Void)? = nil
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @StateObject private var gameModeManager = GameModeManager.shared
     @StateObject private var onboardingManager = OnboardingManager.shared
@@ -159,33 +159,19 @@ struct SettingsView: View {
         }
 
     private var settingsSwipeGesture: some Gesture {
-        DragGesture()
-            .onChanged { value in
+        DragGesture(minimumDistance: 50)
+            .onEnded { value in
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
-                swipeTranslation = value.translation.width
-                onSwipe?(.right, swipeTranslation)
-            }
-            .onEnded { value in
-                guard swipeNavigationManager.isSwipeNavigationEnabled else {
-                    swipeTranslation = 0
-                    onSwipe?(.right, 0)
-                    return
-                }
-
                 let distance = value.translation.width
+                let velocity = value.predictedEndTranslation.width
 
-                // Check threshold: 120pt minimum distance
                 // From settings, only swipe right goes back to main
-                if distance > 120 {
+                // Lower threshold: 50pt minimum, or fast velocity
+                if distance > 50 || velocity > 100 {
                     HapticManager.shared.lightImpact()
-                    onSwipe?(.right, 0)
-                } else {
-                    // Didn't meet threshold - spring back
-                    onSwipe?(.right, 0)
+                    onSwipe?(.right)
                 }
-
-                swipeTranslation = 0
             }
     }
 

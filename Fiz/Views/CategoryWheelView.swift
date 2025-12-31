@@ -20,7 +20,7 @@ struct WheelSegmentData: Hashable {
 
 struct CategoryWheelView: View {
     @Bindable var gameViewModel: GameViewModel
-    var onSwipe: ((SwipeDirection, CGFloat) -> Void)? = nil
+    var onSwipe: ((SwipeDirection) -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var gameModeManager = GameModeManager.shared
@@ -610,50 +610,32 @@ struct CategoryWheelView: View {
     }
 
     private var questionAreaSwipeGesture: some Gesture {
-        DragGesture()
-            .onChanged { value in
-                guard swipeNavigationManager.isSwipeNavigationEnabled,
-                      !showingQuestion,
-                      !showingResult,
-                      !gameViewModel.isSpinning,
-                      !navigationButtonsDisabled else {
-                    return
-                }
-
-                swipeTranslation = value.translation.width
-                onSwipe?(.left, swipeTranslation)
-            }
+        DragGesture(minimumDistance: 50)
             .onEnded { value in
                 guard swipeNavigationManager.isSwipeNavigationEnabled,
                       !showingQuestion,
                       !showingResult,
                       !gameViewModel.isSpinning,
                       !navigationButtonsDisabled else {
-                    swipeTranslation = 0
-                    onSwipe?(.left, 0)
                     return
                 }
 
                 let distance = value.translation.width
+                let velocity = value.predictedEndTranslation.width
 
-                // Check threshold: 120pt minimum distance
-                if abs(distance) > 120 {
-                    // Determine direction
+                // Lower threshold for better responsiveness: 50pt minimum
+                // Also consider velocity for faster swipes
+                if abs(distance) > 50 || abs(velocity) > 100 {
                     if distance > 0 {
                         // Swipe right -> Leaderboard
                         HapticManager.shared.lightImpact()
-                        onSwipe?(.right, 0)
+                        onSwipe?(.right)
                     } else {
                         // Swipe left -> Settings
                         HapticManager.shared.lightImpact()
-                        onSwipe?(.left, 0)
+                        onSwipe?(.left)
                     }
-                } else {
-                    // Didn't meet threshold - spring back
-                    onSwipe?(.left, 0)
                 }
-
-                swipeTranslation = 0
             }
     }
 

@@ -97,54 +97,106 @@ struct GameModesSettingsView: View {
 
             // Single Topic Settings
             if localSelectedMode == .singleTopic {
-                Section(header: Text("Topic Settings"),
-                        footer: Text("Select which expansion pack topic to focus on. The wheel will show subtopics from that pack. Only installed packs are available.")) {
-                    VStack(alignment: .leading, spacing: 8) {
-                        HStack {
-                            if !sizeCategory.isAccessibilitySize {
-                                Text("Selected Topic")
-                                Spacer()
-                            }
-                            Picker("", selection: $localSelectedTopic) {
-                                Text("Select...").tag(nil as String?)
-                                ForEach(ExpansionPackManager.shared.availablePacks.filter { ExpansionPackManager.shared.isInstalled(packId: $0.packId) }, id: \.packId) { pack in
-                                    HStack {
-                                        Image(systemName: pack.icon)
+                // Get available packs for Single Topic Mode
+                let availablePacks = ExpansionPackManager.shared.getAvailableTopicsForSingleTopicMode()
+                let installedPacks = availablePacks.filter { ExpansionPackManager.shared.isInstalled(packId: $0.packId) }
+                let previewPacks = availablePacks.filter { ExpansionPackManager.shared.hasOnlyPreviews(packId: $0.packId) }
+
+                // Purchased & Installed Packs
+                if !installedPacks.isEmpty {
+                    Section(header: Text("Purchased & Installed Packs")) {
+                        ForEach(installedPacks, id: \.packId) { pack in
+                            Button(action: {
+                                handleTopicSelection(pack.packId)
+                            }) {
+                                HStack(spacing: 12) {
+                                    Image(systemName: pack.icon)
+                                        .font(.title3)
+                                        .foregroundColor(.fizOrange)
+                                        .frame(width: 28)
+
+                                    VStack(alignment: .leading, spacing: 2) {
                                         Text(pack.packName)
+                                            .font(.body)
+                                            .foregroundColor(.primary)
+
+                                        Text("\(pack.questionCount) questions")
+                                            .font(.caption)
+                                            .foregroundColor(.secondary)
                                     }
-                                    .tag(pack.packId as String?)
+
+                                    Spacer()
+
+                                    if localSelectedTopic == pack.packId {
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .font(.title3)
+                                            .foregroundColor(.fizOrange)
+                                    }
                                 }
+                                .contentShape(Rectangle())
                             }
-                            .pickerStyle(MenuPickerStyle())
-                            .onChange(of: localSelectedTopic) { oldValue, newValue in
-                                handleTopicChange(from: oldValue, to: newValue)
+                            .buttonStyle(.plain)
+                        }
+                    }
+                }
+
+                // Free Previews
+                if !previewPacks.isEmpty {
+                    Section(header: Text("Free Previews"),
+                            footer: Text("Try these topics before purchasing. Preview questions are included for free!")) {
+                        ForEach(previewPacks, id: \.packId) { pack in
+                            Button(action: {
+                                handleTopicSelection(pack.packId)
+                            }) {
+                                HStack(spacing: 12) {
+                                    Image(systemName: pack.icon)
+                                        .font(.title3)
+                                        .foregroundColor(.fizOrange)
+                                        .frame(width: 28)
+
+                                    VStack(alignment: .leading, spacing: 2) {
+                                        Text(pack.packName)
+                                            .font(.body)
+                                            .foregroundColor(.primary)
+
+                                        Text("\(pack.freePreviewCount) preview questions")
+                                            .font(.caption)
+                                            .foregroundColor(.secondary)
+                                    }
+
+                                    Spacer()
+
+                                    if localSelectedTopic == pack.packId {
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .font(.title3)
+                                            .foregroundColor(.fizOrange)
+                                    }
+                                }
+                                .contentShape(Rectangle())
                             }
+                            .buttonStyle(.plain)
                         }
+                    }
+                }
 
-                        if let selectedTopicId = localSelectedTopic,
-                           let selectedPack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == selectedTopicId }) {
-                            Text("Wheel will show \(selectedPack.packName) subtopics")
-                                .font(.caption)
-                                .foregroundColor(.secondary)
-                        } else {
-                            Text("Select a topic to begin")
-                                .font(.caption)
-                                .foregroundColor(.orange)
-                        }
+                // No packs available
+                if availablePacks.isEmpty {
+                    Section(header: Text("Topic Settings"),
+                            footer: Text("No expansion packs available. Visit the Store to browse and purchase expansion packs!")) {
+                        Text("No topics available")
+                            .font(.body)
+                            .foregroundColor(.secondary)
+                    }
+                }
 
-                        // Show installed packs count
-                        let installedCount = ExpansionPackManager.shared.availablePacks.filter { ExpansionPackManager.shared.isInstalled(packId: $0.packId) }.count
-                        if installedCount == 0 {
-                            Text("No expansion packs installed. Visit the Store to purchase and install packs.")
-                                .font(.caption)
-                                .foregroundColor(.orange)
-                                .padding(.top, 4)
-                        } else {
-                            Text("\(installedCount) pack\(installedCount == 1 ? "" : "s") installed")
-                                .font(.caption)
-                                .foregroundColor(.secondary)
-                                .padding(.top, 4)
-                        }
+                // Selection prompt
+                if localSelectedTopic == nil && !availablePacks.isEmpty {
+                    Section {
+                        Text("Select a topic above to begin")
+                            .font(.caption)
+                            .foregroundColor(.orange)
+                            .frame(maxWidth: .infinity, alignment: .center)
+                            .listRowBackground(Color.clear)
                     }
                 }
             }
@@ -248,6 +300,32 @@ struct GameModesSettingsView: View {
             if let category = newValue {
                 AnalyticsManager.shared.trackSettingChanged(setting: "single_category_selected", value: category.rawValue)
             }
+        }
+    }
+
+    private func handleTopicSelection(_ packId: String) {
+        guard !isInitialLoad && !isApplyingChanges else { return }
+
+        // If user taps already selected topic, do nothing
+        if localSelectedTopic == packId {
+            HapticManager.shared.buttonTapEffect()
+            return
+        }
+
+        let oldValue = localSelectedTopic
+        let newValue = packId
+
+        if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil {
+            // Save old value temporarily
+            localSelectedTopic = newValue // Update UI immediately
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                self.showingStreakAlert = true
+            }
+        } else {
+            localSelectedTopic = newValue
+            gameModeManager.setSelectedTopic(newValue)
+            AnalyticsManager.shared.trackSettingChanged(setting: "single_topic_selected", value: newValue)
+            HapticManager.shared.buttonTapEffect()
         }
     }
 

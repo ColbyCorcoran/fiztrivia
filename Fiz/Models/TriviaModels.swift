@@ -758,10 +758,10 @@ class GameModeManager: ObservableObject {
                 isValid = false
                 print("⚠️ Invalid state detected: Single Topic mode without topic selection")
             } else {
-                // Verify the topic is still purchased and installed
-                if !ExpansionPackManager.shared.isInstalled(packId: selectedTopic!) {
+                // Verify the topic is still available (installed OR has previews)
+                if !ExpansionPackManager.shared.isAvailableForSingleTopicMode(packId: selectedTopic!) {
                     isValid = false
-                    print("⚠️ Invalid state detected: Selected topic is not installed")
+                    print("⚠️ Invalid state detected: Selected topic is not available")
                 }
             }
         // Future modes:
@@ -1800,6 +1800,46 @@ class ExpansionPackManager: ObservableObject {
             isPurchased(packId: pack.packId) &&
             pack.allQuestions.contains { $0.category == category.rawValue }
         }
+    }
+
+    // MARK: - Single Topic Mode Support
+
+    /// Checks if a pack is available for Single Topic Mode (either installed OR has free previews)
+    func isAvailableForSingleTopicMode(packId: String) -> Bool {
+        guard let pack = availablePacks.first(where: { $0.packId == packId }) else {
+            return false
+        }
+        // Available if installed OR has preview questions
+        return isInstalled(packId: packId) || !pack.freePreviewQuestions.isEmpty
+    }
+
+    /// Returns all packs available for Single Topic Mode (installed packs + packs with previews)
+    func getAvailableTopicsForSingleTopicMode() -> [ExpansionPack] {
+        return availablePacks.filter { pack in
+            isInstalled(packId: pack.packId) || !pack.freePreviewQuestions.isEmpty
+        }
+    }
+
+    /// Returns questions for a specific topic based on install state
+    /// - If installed: returns all questions (previews + paid)
+    /// - If not installed: returns only free preview questions
+    func getQuestionsForTopic(packId: String) -> [TriviaQuestion] {
+        guard let pack = availablePacks.first(where: { $0.packId == packId }) else {
+            return []
+        }
+
+        if isInstalled(packId: packId) {
+            // User has full pack installed
+            return pack.allQuestions
+        } else {
+            // User only has preview access
+            return pack.freePreviewQuestions
+        }
+    }
+
+    /// Checks if user only has preview access to a pack (not purchased/installed)
+    func hasOnlyPreviews(packId: String) -> Bool {
+        return !isInstalled(packId: packId) && isAvailableForSingleTopicMode(packId: packId)
     }
 
     // MARK: - Testing Helpers

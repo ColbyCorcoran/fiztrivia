@@ -73,6 +73,10 @@ struct CategoryWheelView: View {
     // Store modal presentation
     @State private var showingStore = false
 
+    // Preview pack completion alert
+    @State private var showingPreviewCompletionAlert = false
+    @State private var completedPreviewPackId = ""
+
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
         // First, create segments with base colors
@@ -406,6 +410,28 @@ struct CategoryWheelView: View {
                 Text("You've completed all questions in \(category.rawValue) for \(difficultyManager.selectedDifficulty.rawValue) mode.\n\nSwitch to a different category, return to regular mode, or change your game settings.")
             } else {
                 Text("You've completed all questions for your selected game mode.\n\nSwitch to a different category, return to regular mode, or change your game settings.")
+            }
+        }
+        .alert("Preview Pack Completed! 🎉", isPresented: $gameViewModel.showPreviewPackCompletionAlert) {
+            Button("Buy Full Pack") {
+                HapticManager.shared.buttonTapEffect()
+                gameViewModel.showPreviewPackCompletionAlert = false
+                // Open Store view
+                showingStore = true
+            }
+
+            Button("Maybe Later") {
+                HapticManager.shared.buttonTapEffect()
+                gameViewModel.showPreviewPackCompletionAlert = false
+                // Navigate to Game Modes Settings
+                gameViewModel.showSettings()
+            }
+        } message: {
+            if let packId = gameViewModel.completedPreviewPackId,
+               let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == packId }) {
+                Text("You've completed all \(pack.freePreviewCount) preview questions for \(pack.packName)!\n\nEnjoy the preview? Unlock \(pack.questionCount - pack.freePreviewCount) more questions for $\(String(format: "%.2f", pack.price)).\n\nYou can also switch to a different topic or return to regular mode in Game Modes Settings.")
+            } else {
+                Text("You've completed all preview questions for this pack!\n\nYou can purchase the full pack or switch to a different game mode in settings.")
             }
         }
         .sheet(isPresented: $showingQuestionModal, onDismiss: handleModalDismiss) {

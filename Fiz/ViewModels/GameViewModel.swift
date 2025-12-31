@@ -11,6 +11,8 @@ class GameViewModel {
     var isSpinning = false
     var showCompletionCelebration = false
     var showSingleCategoryCompletionAlert = false
+    var showPreviewPackCompletionAlert = false
+    var completedPreviewPackId: String?
 
     private var usedQuestions: Set<String> = []
     private let difficultyManager = DifficultyManager.shared
@@ -257,7 +259,31 @@ class GameViewModel {
     }
     
     private func checkForCompletion() {
-        // Check for single category mode completion first
+        // Check for preview pack completion in Single Topic Mode (highest priority)
+        if gameModeManager.isSingleTopicMode,
+           let selectedTopic = gameModeManager.selectedTopic,
+           ExpansionPackManager.shared.hasOnlyPreviews(packId: selectedTopic) {
+
+            // Count questions from this topic that match difficulty and aren't excluded by phobias
+            let topicQuestions = questions.filter { question in
+                question.topic == selectedTopic &&
+                difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty) &&
+                !phobiaManager.isQuestionExcluded(question.id)
+            }
+
+            // Check if all topic questions are answered
+            let allAnswered = topicQuestions.allSatisfy { answeredQuestionsManager.isQuestionAnswered($0.id) }
+
+            if allAnswered && !topicQuestions.isEmpty {
+                print("🎉 Preview pack (\(selectedTopic)) completed! Showing upgrade prompt.")
+                completedPreviewPackId = selectedTopic
+                showPreviewPackCompletionAlert = true
+                HapticManager.shared.correctAnswerEffect()
+                return
+            }
+        }
+
+        // Check for single category mode completion
         if gameModeManager.isSingleCategoryMode,
            let selectedCategory = gameModeManager.selectedCategory,
            answeredQuestionsManager.areAllCategoryQuestionsAnswered(selectedCategory.rawValue, in: questions, difficultyMode: difficultyManager.selectedDifficulty) {

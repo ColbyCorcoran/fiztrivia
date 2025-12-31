@@ -8,6 +8,7 @@ struct QuestionContentView: View {
     let selectedCategory: TriviaCategory?
     let onAnswerSelected: (String) -> Void
     @Environment(\.sizeCategory) private var sizeCategory
+    @StateObject private var gameModeManager = GameModeManager.shared
 
     // Adaptive grid: single column at accessibility sizes, 2 columns otherwise
     private var answerColumns: [GridItem] {
@@ -21,26 +22,51 @@ struct QuestionContentView: View {
     var body: some View {
         VStack(spacing: 16) {
             VStack(spacing: 8) {
-                // Show category with subcategory underneath
+                // Header: Show pack name + subtopic in Single Topic Mode, otherwise category + subcategory
                 VStack(spacing: 2) {
-                    // Main category
-                    if let category = selectedCategory {
-                        HStack(spacing: 6) {
-                            Image(systemName: category.icon)
-                                .font(.title2)
-                            Text(category.rawValue)
-                                .font(.body)
-                                .fontWeight(.semibold)
-                        }
-                        .foregroundColor(.secondary)
-                    }
+                    if gameModeManager.isSingleTopicMode {
+                        // Single Topic Mode: Show pack name and subtopic
+                        if let topicId = question.topic,
+                           let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == topicId }) {
+                            // Pack name (main header)
+                            HStack(spacing: 6) {
+                                Image(systemName: pack.icon)
+                                    .font(.title2)
+                                Text(pack.packName)
+                                    .font(.body)
+                                    .fontWeight(.semibold)
+                            }
+                            .foregroundColor(.secondary)
 
-                    // Subcategory (smaller, underneath)
-                    if let subcategory = question.subcategory {
-                        Text(subcategory)
-                            .font(.caption)
-                            .fontWeight(.medium)
-                            .foregroundColor(.secondary.opacity(0.7))
+                            // Subtopic (smaller, underneath)
+                            if let subtopic = question.subtopic {
+                                Text(subtopic)
+                                    .font(.caption)
+                                    .fontWeight(.medium)
+                                    .foregroundColor(.secondary.opacity(0.7))
+                            }
+                        }
+                    } else {
+                        // Regular/Single Category Mode: Show category and subcategory
+                        // Main category
+                        if let category = selectedCategory {
+                            HStack(spacing: 6) {
+                                Image(systemName: category.icon)
+                                    .font(.title2)
+                                Text(category.rawValue)
+                                    .font(.body)
+                                    .fontWeight(.semibold)
+                            }
+                            .foregroundColor(.secondary)
+                        }
+
+                        // Subcategory (smaller, underneath)
+                        if let subcategory = question.subcategory {
+                            Text(subcategory)
+                                .font(.caption)
+                                .fontWeight(.medium)
+                                .foregroundColor(.secondary.opacity(0.7))
+                        }
                     }
                 }
 

@@ -13,11 +13,11 @@
     "Coco",
     "Other Films"
   ],
-  "questionCount": 89,
+  "questionCount": 108,
   "freePreviewCount": 9,
   "difficulty": {
-    "easy": 32,
-    "medium": 38,
+    "easy": 46,
+    "medium": 43,
     "hard": 10
   },
   "price": 2.99,
@@ -1448,6 +1448,310 @@
       ],
       "correct_answer": "2006",
       "difficulty": "hard"
+    },
+    {
+      "id": "pxr_paid_198",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What is the name of the toy cowboy in Toy Story?",
+      "options": [
+        "Buzz Lightyear",
+        "Woody",
+        "Rex",
+        "Mr. Potato Head"
+      ],
+      "correct_answer": "Woody",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_199",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What is the name of the rat in Ratatouille?",
+      "options": [
+        "Remy",
+        "Linguini",
+        "Gusteau",
+        "Skinner"
+      ],
+      "correct_answer": "Remy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_200",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "In Monsters, Inc., what powers the city?",
+      "options": [
+        "Electricity",
+        "Screams",
+        "Laughter",
+        "Both screams and laughter"
+      ],
+      "correct_answer": "Both screams and laughter",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pxr_paid_201",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What is the name of the garbage robot in WALL-E?",
+      "options": [
+        "EVE",
+        "WALL-E",
+        "AUTO",
+        "MO"
+      ],
+      "correct_answer": "WALL-E",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_202",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What is the name of the pizza restaurant in Toy Story?",
+      "options": [
+        "Pizza Palace",
+        "Pizza Planet",
+        "Pizza Place",
+        "Pizza Paradise"
+      ],
+      "correct_answer": "Pizza Planet",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pxr_paid_203",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "In Cars, what is Lightning McQueen's number?",
+      "options": [
+        "86",
+        "95",
+        "99",
+        "43"
+      ],
+      "correct_answer": "95",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pxr_paid_204",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "In Up, what does Carl use to make his house fly?",
+      "options": [
+        "Helicopters",
+        "Balloons",
+        "Rockets",
+        "Magic"
+      ],
+      "correct_answer": "Balloons",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_205",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What is the name of the college Mike and Sully attend?",
+      "options": [
+        "Monsters University",
+        "Scare University",
+        "Fear Tech",
+        "Monsters Community College"
+      ],
+      "correct_answer": "Monsters University",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_206",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "In Coco, what is Miguel's family business?",
+      "options": [
+        "Music",
+        "Shoemaking",
+        "Cooking",
+        "Painting"
+      ],
+      "correct_answer": "Shoemaking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pxr_paid_207",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What is the name of the main emotion that controls Riley's personality in Inside Out?",
+      "options": [
+        "Joy",
+        "Sadness",
+        "Anger",
+        "Disgust"
+      ],
+      "correct_answer": "Joy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pxr_paid_208",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Woody and Buzz?",
+      "options": [
+        "Toy Story",
+        "Turning Red",
+        "Finding Nemo",
+        "Luca"
+      ],
+      "correct_answer": "Toy Story",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_209",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Lightning McQueen?",
+      "options": [
+        "Cars",
+        "Inside Out",
+        "Up",
+        "Incredibles 2"
+      ],
+      "correct_answer": "Cars",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_210",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Sully and Mike?",
+      "options": [
+        "Monsters Inc.",
+        "Cars 2",
+        "Coco",
+        "Inside Out"
+      ],
+      "correct_answer": "Monsters Inc.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_211",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Eve?",
+      "options": [
+        "WALL-E",
+        "Cars",
+        "The Good Dinosaur",
+        "Up"
+      ],
+      "correct_answer": "WALL-E",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_212",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Carl and Russell?",
+      "options": [
+        "Up",
+        "Onward",
+        "Finding Nemo",
+        "Toy Story"
+      ],
+      "correct_answer": "Up",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_213",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Miguel?",
+      "options": [
+        "Coco",
+        "Inside Out",
+        "Toy Story 2",
+        "Onward"
+      ],
+      "correct_answer": "Coco",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_214",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Ian and Barley?",
+      "options": [
+        "Onward",
+        "Brave",
+        "Toy Story 3",
+        "The Good Dinosaur"
+      ],
+      "correct_answer": "Onward",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_215",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Joe Gardner?",
+      "options": [
+        "Soul",
+        "Toy Story 3",
+        "The Good Dinosaur",
+        "Onward"
+      ],
+      "correct_answer": "Soul",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pxr_paid_216",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pixar",
+      "subtopic": null,
+      "question": "What Pixar movie featured Mei Lee?",
+      "options": [
+        "Turning Red",
+        "A Bug's Life",
+        "Soul",
+        "Toy Story 3"
+      ],
+      "correct_answer": "Turning Red",
+      "difficulty": "easy"
     }
   ]
 }

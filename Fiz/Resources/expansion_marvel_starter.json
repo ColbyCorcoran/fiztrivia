@@ -1,0 +1,713 @@
+{
+  "packId": "com.fiz.pack.marvel",
+  "packName": "Marvel",
+  "packDescription": "Test your knowledge of the Marvel Cinematic Universe and comic book heroes.",
+  "subtopics": [
+    "MCU Films",
+    "Avengers",
+    "Characters",
+    "Villains",
+    "Comics",
+    "Powers"
+  ],
+  "questionCount": 43,
+  "freePreviewCount": 0,
+  "difficulty": {
+    "easy": 4,
+    "medium": 15,
+    "hard": 24
+  },
+  "price": 2.99,
+  "icon": "shield",
+  "freePreviewQuestions": [],
+  "paidQuestions": [
+    {
+      "id": "ent_353",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "How many Infinity Stones are there?",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correct_answer": "Six",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_354",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Thor's hammer?",
+      "options": [
+        "Stormbreaker",
+        "Mjolnir",
+        "Gungnir",
+        "Hofund"
+      ],
+      "correct_answer": "Mjolnir",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_355",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "Who created the character Spider-Man?",
+      "options": [
+        "Stan Lee",
+        "Jack Kirby",
+        "Steve Ditko",
+        "Stan Lee and Steve Ditko"
+      ],
+      "correct_answer": "Stan Lee and Steve Ditko",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_356",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "Who is Peter Parker's best friend in the MCU?",
+      "options": [
+        "Harry Osborn",
+        "Ned Leeds",
+        "Flash Thompson",
+        "Miles Morales"
+      ],
+      "correct_answer": "Ned Leeds",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_357",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Thor's home realm called?",
+      "options": [
+        "Asgard",
+        "Midgard",
+        "Valhalla",
+        "Olympus"
+      ],
+      "correct_answer": "Asgard",
+      "difficulty": "easy",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_358",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Black Widow's real name?",
+      "options": [
+        "Natasha Romanoff",
+        "Wanda Maximoff",
+        "Carol Danvers",
+        "Pepper Potts"
+      ],
+      "correct_answer": "Natasha Romanoff",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_359",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the Hulk's real name?",
+      "options": [
+        "Bruce Banner",
+        "Peter Parker",
+        "Tony Stark",
+        "Steve Rogers"
+      ],
+      "correct_answer": "Bruce Banner",
+      "difficulty": "easy",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_360",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What does S.W.O.R.D. stand for?",
+      "options": [
+        "Sentient World Observation and Response Department",
+        "Strategic Warfare Operations and Rescue Division",
+        "Super Weapon Operations Research Division",
+        "Sentient Weapon Observation Response Division"
+      ],
+      "correct_answer": "Sentient Weapon Observation Response Division",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_361",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Doctor Strange's real name?",
+      "options": [
+        "Stephen Strange",
+        "Steven Rogers",
+        "Tony Stark",
+        "Bruce Banner"
+      ],
+      "correct_answer": "Stephen Strange",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_362",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the AI that replaces JARVIS?",
+      "options": [
+        "FRIDAY",
+        "KAREN",
+        "EDITH",
+        "VERONICA"
+      ],
+      "correct_answer": "FRIDAY",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_363",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Tony Stark's daughter?",
+      "options": [
+        "Morgan Stark",
+        "Pepper Stark",
+        "Maria Stark",
+        "Mary Stark"
+      ],
+      "correct_answer": "Morgan Stark",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_364",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What does TVA stand for in Loki?",
+      "options": [
+        "Time Variance Authority",
+        "Time Vortex Agency",
+        "Temporal Variance Authority",
+        "Time Variable Agency"
+      ],
+      "correct_answer": "Time Variance Authority",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_365",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Hawkeye's real name?",
+      "options": [
+        "Clint Barton",
+        "Jeremy Renner",
+        "Brock Rumlow",
+        "Scott Lang"
+      ],
+      "correct_answer": "Clint Barton",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_366",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the dwarf who made Thanos's gauntlet?",
+      "options": [
+        "Eitri",
+        "Durgan",
+        "Brokkr",
+        "Alviss"
+      ],
+      "correct_answer": "Eitri",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_367",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Peter Quill's ship named after?",
+      "options": [
+        "Alyssa Milano",
+        "Madonna",
+        "Cindy Crawford",
+        "Christie Brinkley"
+      ],
+      "correct_answer": "Alyssa Milano",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_368",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What billionaire makes a cameo in Iron Man 2?",
+      "options": [
+        "Bill Gates",
+        "Elon Musk",
+        "Jeff Bezos",
+        "Mark Cuban"
+      ],
+      "correct_answer": "Elon Musk",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_369",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What protocol does Tony Stark enact in Iron Man 3?",
+      "options": [
+        "House Party Protocol",
+        "Clean Slate Protocol",
+        "Emergency Protocol",
+        "Avengers Protocol"
+      ],
+      "correct_answer": "Clean Slate Protocol",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_370",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What are the names of Wanda's children?",
+      "options": [
+        "Billy and Tommy",
+        "Peter and Paul",
+        "James and John",
+        "Luke and Mark"
+      ],
+      "correct_answer": "Billy and Tommy",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_371",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the AI that helps Spider-Man?",
+      "options": [
+        "FRIDAY",
+        "KAREN",
+        "EDITH",
+        "JARVIS"
+      ],
+      "correct_answer": "KAREN",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_372",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Spider-Man's real name?",
+      "options": [
+        "Peter Parker",
+        "Miles Morales",
+        "Ben Reilly",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_373",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the blue cube in the first Avengers movie?",
+      "options": [
+        "Tesseract",
+        "Cosmic Cube",
+        "Space Stone",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_374",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the Wakandan herb that gives Black Panther his powers?",
+      "options": [
+        "Heart-Shaped Herb",
+        "Vibranium Plant",
+        "Power Plant",
+        "Panther Herb"
+      ],
+      "correct_answer": "Heart-Shaped Herb",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_375",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Spider-Man's newspaper?",
+      "options": [
+        "Daily Bugle",
+        "Daily Planet",
+        "Gotham Gazette",
+        "Star City News"
+      ],
+      "correct_answer": "Daily Bugle",
+      "difficulty": "easy",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_376",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the X-Men's school?",
+      "options": [
+        "Xavier's School for Gifted Youngsters",
+        "Mutant Academy",
+        "Xavier Institute",
+        "School for Gifted Children"
+      ],
+      "correct_answer": "Xavier's School for Gifted Youngsters",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_377",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Spider-Man's love interest?",
+      "options": [
+        "Mary Jane Watson",
+        "Gwen Stacy",
+        "Black Cat",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_378",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the Fantastic Four's building?",
+      "options": [
+        "Fantastic Building",
+        "Baxter Building",
+        "Four Tower",
+        "Marvel Building"
+      ],
+      "correct_answer": "Baxter Building",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_379",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Iron Man's AI assistant?",
+      "options": [
+        "JARVIS",
+        "FRIDAY",
+        "EDITH",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_380",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the X-Men's leader?",
+      "options": [
+        "Professor X",
+        "Cyclops",
+        "Wolverine",
+        "Storm"
+      ],
+      "correct_answer": "Professor X",
+      "difficulty": "easy",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_381",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Deadpool's real name?",
+      "options": [
+        "Wade Wilson",
+        "Frank Castle",
+        "Logan Howlett",
+        "Scott Summers"
+      ],
+      "correct_answer": "Wade Wilson",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_382",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "Which Infinity Stone is hidden on Vormir?",
+      "options": [
+        "Soul Stone",
+        "Reality Stone",
+        "Power Stone",
+        "Time Stone"
+      ],
+      "correct_answer": "Soul Stone",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_383",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "Who created Ultron in the MCU?",
+      "options": [
+        "Tony Stark and Bruce Banner",
+        "Reed Richards",
+        "Hank Pym",
+        "Victor Von Doom"
+      ],
+      "correct_answer": "Tony Stark and Bruce Banner",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_384",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What are Black Panther's elite female bodyguards called?",
+      "options": [
+        "Dora Milaje",
+        "Wakandan Guard",
+        "Panther Guard",
+        "Royal Guard"
+      ],
+      "correct_answer": "Dora Milaje",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_385",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "Who is Peter Quill's celestial father?",
+      "options": [
+        "Ego",
+        "Yondu",
+        "J'son",
+        "Star-Lord Sr."
+      ],
+      "correct_answer": "Ego",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_386",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What police force protects Xandar?",
+      "options": [
+        "Nova Corps",
+        "Starforce",
+        "Ravagers",
+        "Kree Empire"
+      ],
+      "correct_answer": "Nova Corps",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_387",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Doctor Strange's Sanctum address?",
+      "options": [
+        "177A Bleecker Street",
+        "221B Baker Street",
+        "1407 Graymalkin Lane",
+        "890 Fifth Avenue"
+      ],
+      "correct_answer": "177A Bleecker Street",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_388",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Scarlet Witch's real name?",
+      "options": [
+        "Wanda Maximoff",
+        "Jean Grey",
+        "Ororo Munroe",
+        "Emma Frost"
+      ],
+      "correct_answer": "Wanda Maximoff",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_389",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What organization preceded S.H.I.E.L.D.?",
+      "options": [
+        "S.S.R.",
+        "C.I.A.",
+        "F.B.I.",
+        "O.S.S."
+      ],
+      "correct_answer": "S.S.R.",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_390",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What AI replaced JARVIS?",
+      "options": [
+        "FRIDAY",
+        "EDITH",
+        "KAREN",
+        "HELEN"
+      ],
+      "correct_answer": "FRIDAY",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_391",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What cosmic entity devours planets?",
+      "options": [
+        "Galactus",
+        "Dormammu",
+        "Eternity",
+        "Death"
+      ],
+      "correct_answer": "Galactus",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_392",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Captain America?",
+      "options": [
+        "Steve Rogers",
+        "Tony Stark",
+        "Peter Parker",
+        "Bruce Banner"
+      ],
+      "correct_answer": "Steve Rogers",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_393",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Wolverine?",
+      "options": [
+        "Logan",
+        "Victor Creed",
+        "Scott Summers",
+        "Hank McCoy"
+      ],
+      "correct_answer": "Logan",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_394",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Daredevil?",
+      "options": [
+        "Matt Murdock",
+        "Frank Castle",
+        "Luke Cage",
+        "Danny Rand"
+      ],
+      "correct_answer": "Matt Murdock",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    },
+    {
+      "id": "ent_395",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Thor?",
+      "options": [
+        "Thor Odinson",
+        "Thorel Borson",
+        "Thorjrin Baldur",
+        "Odin Borson"
+      ],
+      "correct_answer": "Thor Odinson",
+      "difficulty": "hard",
+      "topic": "Marvel",
+      "subtopic": null
+    }
+  ]
+}

@@ -11,12 +11,12 @@
     "Types & Evolution",
     "Regions & Locations"
   ],
-  "questionCount": 500,
+  "questionCount": 518,
   "freePreviewCount": 50,
   "difficulty": {
-    "easy": 188,
-    "medium": 225,
-    "hard": 87
+    "easy": 175,
+    "medium": 210,
+    "hard": 83
   },
   "price": 2.99,
   "icon": "star.circle.fill",
@@ -8021,6 +8021,294 @@
         "Pok\u00e9mon Mansion"
       ],
       "correct_answer": "Cerulean Cave/Unknown Dungeon",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_451",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "How many original starter Pok\u00e9mon are there?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct_answer": "3",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_452",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What does Charmander evolve into?",
+      "options": [
+        "Charmeleon",
+        "Charizard",
+        "Charcoal",
+        "Chamander"
+      ],
+      "correct_answer": "Charmeleon",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_453",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "Which Pok\u00e9mon is known for sleeping most of the time?",
+      "options": [
+        "Slowpoke",
+        "Snorlax",
+        "Slakoth",
+        "Drowzee"
+      ],
+      "correct_answer": "Snorlax",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_454",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What does Eevee need to evolve into Vaporeon?",
+      "options": [
+        "Fire Stone",
+        "Water Stone",
+        "Thunder Stone",
+        "Leaf Stone"
+      ],
+      "correct_answer": "Water Stone",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_455",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What region do the original Pok\u00e9mon games take place in?",
+      "options": [
+        "Johto",
+        "Hoenn",
+        "Kanto",
+        "Sinnoh"
+      ],
+      "correct_answer": "Kanto",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_456",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What happens when you use a Moon Stone on Clefairy?",
+      "options": [
+        "It evolves into Clefable",
+        "It learns new moves",
+        "Nothing happens",
+        "It becomes shiny"
+      ],
+      "correct_answer": "It evolves into Clefable",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_457",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "Which gym leader uses Electric-type Pok\u00e9mon in the original games?",
+      "options": [
+        "Brock",
+        "Misty",
+        "Lt. Surge",
+        "Erika"
+      ],
+      "correct_answer": "Lt. Surge",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_458",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What type of Pok\u00e9mon is Geodude?",
+      "options": [
+        "Rock",
+        "Ground",
+        "Rock/Ground",
+        "Steel"
+      ],
+      "correct_answer": "Rock/Ground",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_459",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "Which Pok\u00e9mon evolves into Alakazam?",
+      "options": [
+        "Abra",
+        "Kadabra",
+        "Machop",
+        "Gastly"
+      ],
+      "correct_answer": "Kadabra",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_460",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What is the signature move of Pikachu?",
+      "options": [
+        "Thunder",
+        "Thunderbolt",
+        "Thunder Shock",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_461",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "How many original Pok\u00e9mon were there in Generation 1?",
+      "options": [
+        "150",
+        "151",
+        "152",
+        "200"
+      ],
+      "correct_answer": "151",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_462",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What does Magnemite evolve into?",
+      "options": [
+        "Magneton",
+        "Electrode",
+        "Voltorb",
+        "Magnezone"
+      ],
+      "correct_answer": "Magneton",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_463",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "Which Pok\u00e9mon has the ability to transform into any other Pok\u00e9mon?",
+      "options": [
+        "Mew",
+        "Ditto",
+        "Zoroark",
+        "Arceus"
+      ],
+      "correct_answer": "Ditto",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_464",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What badge do you get from defeating Brock?",
+      "options": [
+        "Boulder Badge",
+        "Rock Badge",
+        "Stone Badge",
+        "Earth Badge"
+      ],
+      "correct_answer": "Boulder Badge",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_465",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What type is Blastoise?",
+      "options": [
+        "Water",
+        "Water/Steel",
+        "Ice",
+        "Steel"
+      ],
+      "correct_answer": "Water",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_466",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What type is Machamp?",
+      "options": [
+        "Fighting",
+        "Fighting/Rock",
+        "Rock",
+        "Normal"
+      ],
+      "correct_answer": "Fighting",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_467",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What type is Golem?",
+      "options": [
+        "Rock/Ground",
+        "Rock",
+        "Ground",
+        "Steel"
+      ],
+      "correct_answer": "Rock/Ground",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_468",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pok\u00e9mon",
+      "subtopic": null,
+      "question": "What type is Ho-Oh?",
+      "options": [
+        "Fire/Flying",
+        "Fire/Dragon",
+        "Dragon",
+        "Fire"
+      ],
+      "correct_answer": "Fire/Flying",
       "difficulty": "hard"
     }
   ]

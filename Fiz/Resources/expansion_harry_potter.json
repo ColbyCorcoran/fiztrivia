@@ -11,12 +11,12 @@
     "Magical Creatures",
     "Wizarding World"
   ],
-  "questionCount": 500,
+  "questionCount": 529,
   "freePreviewCount": 50,
   "difficulty": {
-    "easy": 188,
-    "medium": 225,
-    "hard": 87
+    "easy": 160,
+    "medium": 223,
+    "hard": 96
   },
   "price": 2.99,
   "icon": "wand.and.stars",
@@ -8022,6 +8022,470 @@
       ],
       "correct_answer": "House-elf",
       "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_487",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "Which house at Hogwarts does Harry Potter belong to?",
+      "options": [
+        "Slytherin",
+        "Hufflepuff",
+        "Ravenclaw",
+        "Gryffindor"
+      ],
+      "correct_answer": "Gryffindor",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_488",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the name of the three-headed dog guarding the Philosopher's Stone?",
+      "options": [
+        "Fluffy",
+        "Fang",
+        "Norbert",
+        "Buckbeak"
+      ],
+      "correct_answer": "Fluffy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_489",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "Who is the Potions master at Hogwarts during Harry's first year?",
+      "options": [
+        "Professor McGonagall",
+        "Professor Snape",
+        "Professor Flitwick",
+        "Professor Sprout"
+      ],
+      "correct_answer": "Professor Snape",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_490",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What platform do students take to board the Hogwarts Express?",
+      "options": [
+        "Platform 9",
+        "Platform 9 3/4",
+        "Platform 10",
+        "Platform 8 3/4"
+      ],
+      "correct_answer": "Platform 9 3/4",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_491",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is Voldemort's real name?",
+      "options": [
+        "Tom Marvolo Riddle",
+        "Thomas Riddle Jr.",
+        "Timothy Riddleton",
+        "Tomas Marvolo"
+      ],
+      "correct_answer": "Tom Marvolo Riddle",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_492",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What are the four Hogwarts houses?",
+      "options": [
+        "Gryffindor, Slytherin, Ravenclaw, Hufflepuff",
+        "Thunderbird, Wampus, Horned Serpent, Pukwudgie",
+        "Gryffindor, Slytherin, Thunderbird, Hufflepuff",
+        "Thunderbird, Hufflepuff, Slytherin, Pukwudgie"
+      ],
+      "correct_answer": "Gryffindor, Slytherin, Ravenclaw, Hufflepuff",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_493",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What does the spell 'Expecto Patronum' do?",
+      "options": [
+        "Unlocks doors",
+        "Creates light",
+        "Repels Dementors",
+        "Levitates objects"
+      ],
+      "correct_answer": "Repels Dementors",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_494",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What magical creature can only be seen by those who have witnessed death?",
+      "options": [
+        "Thestrals",
+        "Dementors",
+        "Hippogriffs",
+        "Centaurs"
+      ],
+      "correct_answer": "Thestrals",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_495",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "Who is the head of Hufflepuff House?",
+      "options": [
+        "Professor McGonagall",
+        "Professor Snape",
+        "Professor Sprout",
+        "Professor Flitwick"
+      ],
+      "correct_answer": "Professor Sprout",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_496",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What are the names of Harry's children?",
+      "options": [
+        "James, Albus, and Lily",
+        "Ron, Hermione, and Ginny",
+        "Sirius, Remus, and Luna",
+        "Fred, George, and Molly"
+      ],
+      "correct_answer": "James, Albus, and Lily",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_497",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the name of the driver of the Knight Bus?",
+      "options": [
+        "Ernie Prang",
+        "Stan Shunpike",
+        "Tom Riddle",
+        "Barty Crouch"
+      ],
+      "correct_answer": "Ernie Prang",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_498",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "Who impersonates Mad-Eye Moody in Harry's fourth year?",
+      "options": [
+        "Barty Crouch Jr.",
+        "Peter Pettigrew",
+        "Lucius Malfoy",
+        "Bellatrix Lestrange"
+      ],
+      "correct_answer": "Barty Crouch Jr.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_499",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What plant does Harry eat to breathe underwater?",
+      "options": [
+        "Mandrake",
+        "Gillyweed",
+        "Bubotuber",
+        "Devil's Snare"
+      ],
+      "correct_answer": "Gillyweed",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_500",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "How does Harry catch his first Golden Snitch?",
+      "options": [
+        "With his hand",
+        "With his mouth",
+        "With his broom",
+        "It falls in his lap"
+      ],
+      "correct_answer": "With his mouth",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_501",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What does the Mirror of Erised show?",
+      "options": [
+        "The future",
+        "The past",
+        "Your deepest desire",
+        "Your fears"
+      ],
+      "correct_answer": "Your deepest desire",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_502",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the name of the Weasley family home?",
+      "options": [
+        "The Burrow",
+        "The Hole",
+        "The Den",
+        "The Nest"
+      ],
+      "correct_answer": "The Burrow",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_503",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the name of Hagrid's dragon?",
+      "options": [
+        "Norbert",
+        "Norberta",
+        "Both A and B",
+        "Charlie"
+      ],
+      "correct_answer": "Both A and B",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_504",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What house is Luna Lovegood in?",
+      "options": [
+        "Gryffindor",
+        "Hufflepuff",
+        "Ravenclaw",
+        "Slytherin"
+      ],
+      "correct_answer": "Ravenclaw",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_505",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the name of the Hogwarts poltergeist?",
+      "options": [
+        "Peeves",
+        "Nearly Headless Nick",
+        "The Fat Lady",
+        "Moaning Myrtle"
+      ],
+      "correct_answer": "Peeves",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_506",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the street location of the Leaky Cauldron?",
+      "options": [
+        "Diagon Alley",
+        "Charing Cross Road",
+        "Knockturn Alley",
+        "Grimmauld Place"
+      ],
+      "correct_answer": "Charing Cross Road",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_507",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What type of dragon did Harry face in the Triwizard Tournament?",
+      "options": [
+        "Hungarian Horntail",
+        "Chinese Fireball",
+        "Common Welsh Green",
+        "Norwegian Ridgeback"
+      ],
+      "correct_answer": "Hungarian Horntail",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_508",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the name of Sirius Black's house-elf?",
+      "options": [
+        "Dobby",
+        "Kreacher",
+        "Winky",
+        "Griphook"
+      ],
+      "correct_answer": "Kreacher",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_509",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the maximum speed of a Firebolt broomstick?",
+      "options": [
+        "130 mph",
+        "140 mph",
+        "150 mph",
+        "160 mph"
+      ],
+      "correct_answer": "150 mph",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_510",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What incantation reveals invisible ink?",
+      "options": [
+        "Aparecium",
+        "Revelio",
+        "Specialis Revelio",
+        "Homenum Revelio"
+      ],
+      "correct_answer": "Aparecium",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_511",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the name of Voldemort's snake?",
+      "options": [
+        "Nagini",
+        "Basilisk",
+        "Aragog",
+        "Fluffy"
+      ],
+      "correct_answer": "Nagini",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_512",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What magical device is used to review memories?",
+      "options": [
+        "Pensieve",
+        "Time-Turner",
+        "Remembrall",
+        "Foe-Glass"
+      ],
+      "correct_answer": "Pensieve",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_513",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "Who impersonated Mad-Eye Moody in Goblet of Fire?",
+      "options": [
+        "Barty Crouch Jr.",
+        "Peter Pettigrew",
+        "Bellatrix Lestrange",
+        "Lucius Malfoy"
+      ],
+      "correct_answer": "Barty Crouch Jr.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_514",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "What is the visitor's entrance code for the Ministry of Magic?",
+      "options": [
+        "62442",
+        "MAGIC",
+        "92442",
+        "54321"
+      ],
+      "correct_answer": "62442",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_515",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": null,
+      "question": "Which Department at the Ministry studies love and emotion?",
+      "options": [
+        "Department of Mysteries",
+        "Department of Love",
+        "Unspeakable Division",
+        "Emotion Research"
+      ],
+      "correct_answer": "Department of Mysteries",
+      "difficulty": "hard"
     }
   ]
 }

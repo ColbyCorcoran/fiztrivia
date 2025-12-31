@@ -10,12 +10,12 @@
     "Locations",
     "Trivia"
   ],
-  "questionCount": 300,
+  "questionCount": 312,
   "freePreviewCount": 30,
   "difficulty": {
-    "easy": 100,
-    "medium": 140,
-    "hard": 60
+    "easy": 82,
+    "medium": 133,
+    "hard": 67
   },
   "price": 1.99,
   "icon": "briefcase.fill",
@@ -4821,6 +4821,198 @@
       ],
       "correct_answer": "Office dynamics and relationships",
       "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_276",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What does Michael Scott burn his foot on?",
+      "options": [
+        "A grill",
+        "Hot pavement",
+        "A George Foreman grill",
+        "A campfire"
+      ],
+      "correct_answer": "A George Foreman grill",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_277",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What does Pam's art teacher call her art?",
+      "options": [
+        "Beautiful",
+        "Motel art",
+        "Inspiring",
+        "Commercial"
+      ],
+      "correct_answer": "Motel art",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_278",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What is the name of the Scranton branch's biggest client?",
+      "options": [
+        "Dunmore",
+        "Lackawanna County",
+        "Prince Family Paper",
+        "Vance Refrigeration"
+      ],
+      "correct_answer": "Lackawanna County",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_279",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What is the name of the documentary crew's cameraman?",
+      "options": [
+        "Brian",
+        "Boom guy",
+        "Steve",
+        "Unknown"
+      ],
+      "correct_answer": "Brian",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_280",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What does Todd Packer sell?",
+      "options": [
+        "Paper",
+        "Office supplies",
+        "Printing supplies",
+        "Computers"
+      ],
+      "correct_answer": "Printing supplies",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_281",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What is the name of the bar that the staff often visits after work?",
+      "options": [
+        "Poor Richard's",
+        "Dunder Tavern",
+        "The Scranton Pub",
+        "Chili's"
+      ],
+      "correct_answer": "Poor Richard's",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_282",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What is the name of Michael Scott's paper company?",
+      "options": [
+        "Michael Scott Paper Company",
+        "Scott's Paper",
+        "Scranton Paper Co",
+        "Michael's Best Paper"
+      ],
+      "correct_answer": "Michael Scott Paper Company",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_283",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What does Dwight grow at Schrute Farms besides beets?",
+      "options": [
+        "Mose",
+        "Hemp",
+        "Corn",
+        "Soybeans"
+      ],
+      "correct_answer": "Hemp",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_284",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What is the name of Pam's art school?",
+      "options": [
+        "Pratt Institute",
+        "Art Institute",
+        "Parsons",
+        "SVA"
+      ],
+      "correct_answer": "Pratt Institute",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_285",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What is Stanley's puzzle addiction?",
+      "options": [
+        "Daily crosswords",
+        "Sudoku",
+        "Word searches",
+        "Cryptograms"
+      ],
+      "correct_answer": "Daily crosswords",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_286",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What is Todd Packer's middle name?",
+      "options": [
+        "Franklin",
+        "Frederick",
+        "Francis",
+        "Finley"
+      ],
+      "correct_answer": "Franklin",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_287",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": null,
+      "question": "What is Meredith's official job title?",
+      "options": [
+        "Supplier Relations",
+        "Accounting",
+        "Customer Service",
+        "Human Resources"
+      ],
+      "correct_answer": "Supplier Relations",
+      "difficulty": "hard"
     }
   ]
 }

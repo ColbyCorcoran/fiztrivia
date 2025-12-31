@@ -33,11 +33,12 @@ struct ContentView: View {
                 }
         }
         .sheet(isPresented: $whatsNewManager.shouldShowWhatsNew) {
-            if let update = whatsNewManager.currentUpdate {
-                WhatsNewView(update: update)
+            if !whatsNewManager.updatesToShow.isEmpty {
+                WhatsNewView(updates: whatsNewManager.updatesToShow)
                     .interactiveDismissDisabled(false)
                     .onAppear {
-                        AnalyticsManager.shared.trackWhatsNewViewed(version: update.version)
+                        let latestVersion = whatsNewManager.updatesToShow.first?.version ?? ""
+                        AnalyticsManager.shared.trackWhatsNewViewed(version: latestVersion)
                     }
             }
         }

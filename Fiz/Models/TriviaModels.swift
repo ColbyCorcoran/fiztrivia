@@ -1439,13 +1439,28 @@ class WhatsNewManager: ObservableObject {
     private static let lastSeenVersionKey = "last_seen_app_version"
 
     @Published var shouldShowWhatsNew: Bool = false
-    @Published var currentUpdate: WhatsNewUpdate?
+    @Published var updatesToShow: [WhatsNewUpdate] = []
 
     static let shared = WhatsNewManager()
 
-    // Define updates here - add new ones when you push updates
+    // Define updates here - add new ones at the TOP when you push updates
+    // Updates are shown in order: newest first
     private let updates: [WhatsNewUpdate] = [
         // Example for when you add expansions:
+        // WhatsNewUpdate(
+        //     version: "1.3.0",
+        //     title: "New Feature Name",
+        //     features: [
+        //         WhatsNewFeature(icon: "star.fill", title: "Feature Title", description: "Feature description")
+        //     ]
+        // ),
+        // WhatsNewUpdate(
+        //     version: "1.2.0",
+        //     title: "Previous Update",
+        //     features: [
+        //         WhatsNewFeature(icon: "sparkles", title: "Old Feature", description: "This will show below v1.3")
+        //     ]
+        // ),
         // WhatsNewUpdate(
         //     version: "1.1.0",
         //     title: "Question Expansions!",
@@ -1469,9 +1484,10 @@ class WhatsNewManager: ObservableObject {
 
         // First launch ever or version changed
         if lastSeenVersion != currentVersion {
-            // Find update for this version
-            if let update = updates.first(where: { $0.version == currentVersion }) {
-                currentUpdate = update
+            // Check if current version has an update defined
+            if updates.contains(where: { $0.version == currentVersion }) {
+                // Show all available updates (running changelog)
+                updatesToShow = updates
                 shouldShowWhatsNew = true
             } else {
                 // No update defined for this version - just mark as seen
@@ -1485,12 +1501,13 @@ class WhatsNewManager: ObservableObject {
             UserDefaults.standard.set(currentVersion, forKey: Self.lastSeenVersionKey)
         }
         shouldShowWhatsNew = false
+        updatesToShow = []
     }
 
     func forceShowWhatsNew() {
-        // For testing - show the most recent update
-        if let latestUpdate = updates.first {
-            currentUpdate = latestUpdate
+        // For testing - show all updates
+        if !updates.isEmpty {
+            updatesToShow = updates
             shouldShowWhatsNew = true
         }
     }

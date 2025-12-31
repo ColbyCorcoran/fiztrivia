@@ -104,13 +104,16 @@ class StoreManager: ObservableObject {
 
     // MARK: - Restore Purchases
 
-    func restorePurchases() async {
+    func restorePurchases() async -> Bool {
         do {
             try await AppStore.sync()
             await updatePurchasedProducts()
+            print("✅ Purchases restored successfully")
+            return true
         } catch {
             errorMessage = "Failed to restore purchases: \(error.localizedDescription)"
-            print("Error restoring purchases: \(error)")
+            print("❌ Error restoring purchases: \(error)")
+            return false
         }
     }
 

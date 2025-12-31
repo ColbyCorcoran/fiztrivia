@@ -77,8 +77,10 @@ struct StoreView: View {
                         // Restore Purchases Button
                         Button(action: {
                             Task {
-                                await storeManager.restorePurchases()
-                                showingRestoreAlert = true
+                                let success = await storeManager.restorePurchases()
+                                if success {
+                                    showingRestoreAlert = true
+                                }
                             }
                         }) {
                             Text("Restore Purchases")

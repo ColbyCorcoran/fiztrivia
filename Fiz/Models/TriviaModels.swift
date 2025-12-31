@@ -449,8 +449,8 @@ struct Phobia: Codable, Identifiable, Equatable {
 enum GameMode: String, CaseIterable, Codable, Identifiable {
     case regular = "Regular"
     case singleCategory = "Single Category"
+    case singleTopic = "Single Topic"
     // Future modes ready to uncomment:
-    // case singleTopic = "Single Topic"
     // case seasonal = "Seasonal"
 
     var id: String { rawValue }
@@ -461,9 +461,9 @@ enum GameMode: String, CaseIterable, Codable, Identifiable {
             return "Mix of all selected categories"
         case .singleCategory:
             return "Focus on one category's subcategories"
+        case .singleTopic:
+            return "Focus on questions from a specific topic"
         // Future:
-        // case .singleTopic:
-        //     return "Focus on questions from a specific topic"
         // case .seasonal:
         //     return "Special themed trivia experience"
         }
@@ -475,9 +475,9 @@ enum GameMode: String, CaseIterable, Codable, Identifiable {
             return "circle.grid.cross.left.filled"
         case .singleCategory:
             return "circle.grid.cross.up.filled"
+        case .singleTopic:
+            return "shippingbox.fill"
         // Future:
-        // case .singleTopic:
-        //     return "circle.grid.cross.right.filled"
         // case .seasonal:
         //     return "circle.grid.cross.down.filled"
         }
@@ -643,16 +643,16 @@ class AnsweredQuestionsManager: ObservableObject {
 class GameModeManager: ObservableObject {
     private static let selectedModeKey = "selected_game_mode"
     private static let selectedCategoryKey = "game_mode_selected_category"
+    private static let selectedTopicKey = "game_mode_selected_topic"
     // Future keys ready:
-    // private static let selectedTopicKey = "game_mode_selected_topic"
     // private static let seasonalThemeKey = "game_mode_seasonal_theme"
 
     @Published var selectedMode: GameMode = .regular
 
     // Mode-specific settings
     @Published var selectedCategory: TriviaCategory? = nil
+    @Published var selectedTopic: String? = nil // Topic packId (e.g., "com.fiz.pack.harry_potter")
     // Future settings ready:
-    // @Published var selectedTopic: String? = nil
     // @Published var seasonalTheme: String? = nil
 
     static let shared = GameModeManager()
@@ -706,6 +706,10 @@ class GameModeManager: ObservableObject {
            let category = TriviaCategory(rawValue: categoryString) {
             selectedCategory = category
         }
+
+        if let topicString = UserDefaults.standard.string(forKey: Self.selectedTopicKey) {
+            selectedTopic = topicString
+        }
     }
 
     private func saveSettings() {
@@ -715,6 +719,12 @@ class GameModeManager: ObservableObject {
             UserDefaults.standard.set(category.rawValue, forKey: Self.selectedCategoryKey)
         } else {
             UserDefaults.standard.removeObject(forKey: Self.selectedCategoryKey)
+        }
+
+        if let topic = selectedTopic {
+            UserDefaults.standard.set(topic, forKey: Self.selectedTopicKey)
+        } else {
+            UserDefaults.standard.removeObject(forKey: Self.selectedTopicKey)
         }
     }
 
@@ -733,11 +743,19 @@ class GameModeManager: ObservableObject {
                 isValid = false
                 print("⚠️ Invalid state detected: Single Category mode without category selection")
             }
+        case .singleTopic:
+            // Single Topic requires a selected topic
+            if selectedTopic == nil {
+                isValid = false
+                print("⚠️ Invalid state detected: Single Topic mode without topic selection")
+            } else {
+                // Verify the topic is still purchased and installed
+                if !ExpansionPackManager.shared.isInstalled(packId: selectedTopic!) {
+                    isValid = false
+                    print("⚠️ Invalid state detected: Selected topic is not installed")
+                }
+            }
         // Future modes:
-        // case .singleTopic:
-        //     if selectedTopic == nil {
-        //         isValid = false
-        //     }
         // case .seasonal:
         //     // Seasonal mode might always be valid
         //     isValid = true
@@ -748,6 +766,7 @@ class GameModeManager: ObservableObject {
             print("🔄 Resetting to Regular mode due to invalid state")
             selectedMode = .regular
             selectedCategory = nil
+            selectedTopic = nil
             saveSettings()
         }
     }
@@ -761,12 +780,20 @@ class GameModeManager: ObservableObject {
         if mode != .singleCategory {
             selectedCategory = nil
         }
+        if mode != .singleTopic {
+            selectedTopic = nil
+        }
 
         saveSettings()
     }
 
     func setSelectedCategory(_ category: TriviaCategory?) {
         selectedCategory = category
+        saveSettings()
+    }
+
+    func setSelectedTopic(_ topicPackId: String?) {
+        selectedTopic = topicPackId
         saveSettings()
     }
 
@@ -781,12 +808,25 @@ class GameModeManager: ObservableObject {
         return selectedMode == .singleCategory
     }
 
-    // Future:
-    // var isSingleTopicMode: Bool {
-    //     return selectedMode == .singleTopic
-    // }
+    var isSingleTopicMode: Bool {
+        return selectedMode == .singleTopic
+    }
 
     // MARK: - Wheel Segment Logic
+
+    func getSubtopicsForSelectedTopic() -> [String] {
+        guard selectedMode == .singleTopic,
+              let topicPackId = selectedTopic else {
+            return []
+        }
+
+        // Get the expansion pack for this topic
+        if let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == topicPackId }) {
+            return pack.subtopics
+        }
+
+        return []
+    }
 
     func getSubcategoriesForSelectedCategory(from questions: [TriviaQuestion],
                                             difficultyMode: DifficultyMode)

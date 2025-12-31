@@ -78,7 +78,27 @@ struct CategoryWheelView: View {
         // First, create segments with base colors
         let baseSegments: [WheelSegmentData]
 
-        if gameModeManager.isSingleCategoryMode, gameModeManager.selectedCategory != nil {
+        if gameModeManager.isSingleTopicMode, gameModeManager.selectedTopic != nil {
+            // Get subtopics for the selected expansion pack
+            let subtopics = gameModeManager.getSubtopicsForSelectedTopic()
+
+            // Get the pack to access its icon/color
+            let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == gameModeManager.selectedTopic })
+            let packIcon = pack?.icon ?? "star.fill"
+
+            // Create simple color palette for subtopics (cycling through colors)
+            let subtopicColors = ["D97639", "8B4513", "CD853F", "DAA520", "B8860B", "D2691E"]
+
+            baseSegments = subtopics.enumerated().map { index, subtopic in
+                let colorIndex = index % subtopicColors.count
+                return WheelSegmentData(
+                    name: subtopic,
+                    icon: packIcon,
+                    color: subtopicColors[colorIndex],
+                    subcategory: subtopic // Using subcategory field to store subtopic
+                )
+            }
+        } else if gameModeManager.isSingleCategoryMode, gameModeManager.selectedCategory != nil {
             // Get subcategories for the selected category, filtering out those with no remaining questions
             let subcategories = gameModeManager.getSubcategoriesForSelectedCategory(from: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty)
 
@@ -1037,7 +1057,24 @@ struct CategoryWheelView: View {
         // Filter questions based on mode
         var filteredQuestions: [TriviaQuestion]
 
-        if gameModeManager.isSingleCategoryMode, let subcategoryName = selectedSegment.subcategory {
+        if gameModeManager.isSingleTopicMode, let subtopicName = selectedSegment.subcategory {
+            // Single Topic Mode: filter by topic and subtopic
+            guard let topicPackId = gameModeManager.selectedTopic else {
+                print("No topic selected for Single Topic Mode")
+                navigationButtonsDisabled = false
+                return
+            }
+
+            filteredQuestions = gameViewModel.questions.filter { question in
+                question.topic == topicPackId &&
+                question.subtopic == subtopicName &&
+                !answeredQuestionsManager.isQuestionAnswered(question.id) &&
+                difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty)
+            }
+
+            // Set selectedCategory to nil for topic mode (or could set to the question's category)
+            gameViewModel.gameSession.selectedCategory = nil
+        } else if gameModeManager.isSingleCategoryMode, let subcategoryName = selectedSegment.subcategory {
             // Single Category Mode: filter by subcategory
             filteredQuestions = gameViewModel.questions.filter { question in
                 question.subcategory == subcategoryName &&

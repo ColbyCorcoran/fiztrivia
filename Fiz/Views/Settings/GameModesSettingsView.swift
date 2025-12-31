@@ -16,6 +16,7 @@ struct GameModesSettingsView: View {
     @State private var previousCategory: TriviaCategory?
     @State private var localSelectedMode: GameMode = .regular
     @State private var localSelectedCategory: TriviaCategory? = nil
+    @State private var localSelectedTopic: String? = nil
     @State private var isInitialLoad = true
     @State private var isApplyingChanges = false
 
@@ -31,9 +32,9 @@ struct GameModesSettingsView: View {
             return true
         case .singleCategory:
             return localSelectedCategory != nil
+        case .singleTopic:
+            return localSelectedTopic != nil
         // Future modes:
-        // case .singleTopic:
-        //     return localSelectedTopic != nil
         // case .seasonal:
         //     return true
         }
@@ -94,8 +95,59 @@ struct GameModesSettingsView: View {
                 }
             }
 
-            // Future: Single Topic settings section would go here
-            // if localSelectedMode == .singleTopic { ... }
+            // Single Topic Settings
+            if localSelectedMode == .singleTopic {
+                Section(header: Text("Topic Settings"),
+                        footer: Text("Select which expansion pack topic to focus on. The wheel will show subtopics from that pack. Only installed packs are available.")) {
+                    VStack(alignment: .leading, spacing: 8) {
+                        HStack {
+                            if !sizeCategory.isAccessibilitySize {
+                                Text("Selected Topic")
+                                Spacer()
+                            }
+                            Picker("", selection: $localSelectedTopic) {
+                                Text("Select...").tag(nil as String?)
+                                ForEach(ExpansionPackManager.shared.availablePacks.filter { ExpansionPackManager.shared.isInstalled(packId: $0.packId) }, id: \.packId) { pack in
+                                    HStack {
+                                        Image(systemName: pack.icon)
+                                        Text(pack.packName)
+                                    }
+                                    .tag(pack.packId as String?)
+                                }
+                            }
+                            .pickerStyle(MenuPickerStyle())
+                            .onChange(of: localSelectedTopic) { oldValue, newValue in
+                                handleTopicChange(from: oldValue, to: newValue)
+                            }
+                        }
+
+                        if let selectedTopicId = localSelectedTopic,
+                           let selectedPack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == selectedTopicId }) {
+                            Text("Wheel will show \(selectedPack.packName) subtopics")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                        } else {
+                            Text("Select a topic to begin")
+                                .font(.caption)
+                                .foregroundColor(.orange)
+                        }
+
+                        // Show installed packs count
+                        let installedCount = ExpansionPackManager.shared.availablePacks.filter { ExpansionPackManager.shared.isInstalled(packId: $0.packId) }.count
+                        if installedCount == 0 {
+                            Text("No expansion packs installed. Visit the Store to purchase and install packs.")
+                                .font(.caption)
+                                .foregroundColor(.orange)
+                                .padding(.top, 4)
+                        } else {
+                            Text("\(installedCount) pack\(installedCount == 1 ? "" : "s") installed")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                                .padding(.top, 4)
+                        }
+                    }
+                }
+            }
 
             // Future: Seasonal settings section would go here
             // if localSelectedMode == .seasonal { ... }
@@ -120,7 +172,13 @@ struct GameModesSettingsView: View {
         .alert("Selection Required", isPresented: $showingIncompleteSelectionAlert) {
             Button("OK", role: .cancel) { }
         } message: {
-            Text("Please select a category before leaving, or switch back to Regular mode.")
+            if localSelectedMode == .singleCategory {
+                Text("Please select a category before leaving, or switch back to Regular mode.")
+            } else if localSelectedMode == .singleTopic {
+                Text("Please select a topic before leaving, or switch back to Regular mode.")
+            } else {
+                Text("Please complete your selection before leaving.")
+            }
         }
         .alert("Save Current Streak?", isPresented: $showingStreakAlert) {
             Button("Cancel", role: .cancel) {
@@ -139,6 +197,7 @@ struct GameModesSettingsView: View {
             isInitialLoad = true
             localSelectedMode = gameModeManager.selectedMode
             localSelectedCategory = gameModeManager.selectedCategory
+            localSelectedTopic = gameModeManager.selectedTopic
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 isInitialLoad = false
             }
@@ -166,6 +225,10 @@ struct GameModesSettingsView: View {
                 gameModeManager.setSelectedCategory(nil)
                 localSelectedCategory = nil
             }
+            if mode != .singleTopic {
+                gameModeManager.setSelectedTopic(nil)
+                localSelectedTopic = nil
+            }
 
             AnalyticsManager.shared.trackSettingChanged(setting: "game_mode", value: mode.rawValue)
         }
@@ -184,6 +247,23 @@ struct GameModesSettingsView: View {
             gameModeManager.setSelectedCategory(newValue)
             if let category = newValue {
                 AnalyticsManager.shared.trackSettingChanged(setting: "single_category_selected", value: category.rawValue)
+            }
+        }
+    }
+
+    private func handleTopicChange(from oldValue: String?, to newValue: String?) {
+        guard !isInitialLoad && !isApplyingChanges else { return }
+
+        if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil && oldValue != newValue {
+            // For now, just show alert without tracking previous topic
+            // Could add pendingTopic state if needed
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                self.showingStreakAlert = true
+            }
+        } else {
+            gameModeManager.setSelectedTopic(newValue)
+            if let topicPackId = newValue {
+                AnalyticsManager.shared.trackSettingChanged(setting: "single_topic_selected", value: topicPackId)
             }
         }
     }
@@ -245,6 +325,10 @@ struct GameModesSettingsView: View {
             if newMode != .singleCategory {
                 gameModeManager.setSelectedCategory(nil)
                 localSelectedCategory = nil
+            }
+            if newMode != .singleTopic {
+                gameModeManager.setSelectedTopic(nil)
+                localSelectedTopic = nil
             }
 
             pendingMode = nil

@@ -27,33 +27,37 @@ class GameViewModel {
             print("Failed to find questions.json file")
             return
         }
-        
+
         do {
             let data = try Data(contentsOf: url)
             let jsonObject = try JSONSerialization.jsonObject(with: data, options: [])
-            
+
             guard let jsonDict = jsonObject as? [String: Any],
                   let categories = jsonDict["categories"] as? [String: [[String: Any]]] else {
                 print("Invalid JSON structure")
                 return
             }
-            
+
             var allQuestions: [TriviaQuestion] = []
-            
+
             for (categoryName, categoryQuestions) in categories {
                 for questionDict in categoryQuestions {
                     if let question = questionDict["question"] as? String,
                        let options = questionDict["options"] as? [String],
                        let correctAnswer = questionDict["correct_answer"] as? String {
-                        
+
                         let id = questionDict["id"] as? String
                         let subcategory = questionDict["subcategory"] as? String
                         let difficulty = questionDict["difficulty"] as? String ?? "Medium"
-                        
+                        let topic = questionDict["topic"] as? String
+                        let subtopic = questionDict["subtopic"] as? String
+
                         let triviaQuestion = TriviaQuestion(
                             id: id,
                             category: categoryName,
                             subcategory: subcategory,
+                            topic: topic,
+                            subtopic: subtopic,
                             question: question,
                             options: options,
                             correctAnswer: correctAnswer,
@@ -63,10 +67,15 @@ class GameViewModel {
                     }
                 }
             }
-            
+
+            // Add expansion pack questions (free previews + installed packs)
+            let expansionQuestions = ExpansionPackManager.shared.getFreePreviewQuestions() +
+                                   ExpansionPackManager.shared.getInstalledQuestions()
+            allQuestions.append(contentsOf: expansionQuestions)
+
             questions = allQuestions
-            print("Successfully loaded \(questions.count) questions from database")
-            
+            print("Successfully loaded \(questions.count) questions from database (including \(expansionQuestions.count) expansion questions)")
+
         } catch {
             print("Failed to parse JSON: \(error)")
             createSampleQuestions()

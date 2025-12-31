@@ -563,6 +563,7 @@ struct CategoryWheelView: View {
         }
         .sheet(isPresented: $showingStore) {
             StoreView()
+                .presentationDragIndicator(.visible)
         }
     }
     

@@ -105,7 +105,6 @@ struct StoreView: View {
                     .tint(.fizOrange)
                 }
             }
-            .presentationDragIndicator(.visible)
             .alert("Purchases Restored", isPresented: $showingRestoreAlert) {
                 Button("OK", role: .cancel) { }
             } message: {

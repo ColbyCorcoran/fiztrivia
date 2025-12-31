@@ -1700,7 +1700,7 @@ class ExpansionPackManager: ObservableObject {
     }
 
     func installPack(packId: String) {
-        guard isPurchased(packId) else {
+        guard isPurchased(packId: packId) else {
             print("Cannot install pack that is not purchased: \(packId)")
             return
         }
@@ -1743,7 +1743,7 @@ class ExpansionPackManager: ObservableObject {
 
     func getPurchasedPacks(for category: TriviaCategory) -> [ExpansionPack] {
         return availablePacks.filter { pack in
-            isPurchased(pack.packId) &&
+            isPurchased(packId: pack.packId) &&
             pack.allQuestions.contains { $0.category == category.rawValue }
         }
     }

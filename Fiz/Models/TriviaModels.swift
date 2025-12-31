@@ -1532,3 +1532,187 @@ struct WhatsNewFeature: Identifiable {
     let title: String
     let description: String
 }
+
+// MARK: - Expansion Pack Models
+struct ExpansionPack: Codable, Identifiable {
+    let id: String  // Same as packId
+    let packId: String  // e.g., "com.fiz.pack.harry_potter"
+    let packName: String  // "Harry Potter"
+    let packDescription: String
+    let subtopics: [String]  // ["Characters", "Spells", "Locations", "Books", "Movies", "Trivia"]
+    let questionCount: Int
+    let freePreviewCount: Int
+    let difficulty: DifficultyBreakdown
+    let price: Double
+    let icon: String  // SF Symbol for pack (e.g., "wand.and.stars")
+    let freePreviewQuestions: [TriviaQuestion]
+    let paidQuestions: [TriviaQuestion]
+
+    var allQuestions: [TriviaQuestion] {
+        return freePreviewQuestions + paidQuestions
+    }
+
+    private enum CodingKeys: String, CodingKey {
+        case packId, packName, packDescription, subtopics, questionCount, freePreviewCount, difficulty, price, icon, freePreviewQuestions, paidQuestions
+    }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let packId = try container.decode(String.self, forKey: .packId)
+        self.id = packId
+        self.packId = packId
+        self.packName = try container.decode(String.self, forKey: .packName)
+        self.packDescription = try container.decode(String.self, forKey: .packDescription)
+        self.subtopics = try container.decode([String].self, forKey: .subtopics)
+        self.questionCount = try container.decode(Int.self, forKey: .questionCount)
+        self.freePreviewCount = try container.decode(Int.self, forKey: .freePreviewCount)
+        self.difficulty = try container.decode(DifficultyBreakdown.self, forKey: .difficulty)
+        self.price = try container.decode(Double.self, forKey: .price)
+        self.icon = try container.decode(String.self, forKey: .icon)
+        self.freePreviewQuestions = try container.decode([TriviaQuestion].self, forKey: .freePreviewQuestions)
+        self.paidQuestions = try container.decode([TriviaQuestion].self, forKey: .paidQuestions)
+    }
+}
+
+struct DifficultyBreakdown: Codable {
+    let easy: Int
+    let medium: Int
+    let hard: Int
+}
+
+// MARK: - Expansion Pack Manager
+class ExpansionPackManager: ObservableObject {
+    static let shared = ExpansionPackManager()
+
+    private static let purchasedPacksKey = "purchased_expansion_packs"
+    private static let installedPacksKey = "installed_expansion_packs"
+
+    @Published var availablePacks: [ExpansionPack] = []
+    @Published var purchasedPackIds: Set<String> = []
+    @Published var installedPackIds: Set<String> = []
+
+    private init() {
+        loadPurchasedPacks()
+        loadInstalledPacks()
+        loadAvailablePacks()
+    }
+
+    // MARK: - Load Available Packs
+    func loadAvailablePacks() {
+        availablePacks = []
+
+        // Scan Resources folder for expansion_*.json files
+        guard let resourcePath = Bundle.main.resourcePath else {
+            print("Could not find resource path")
+            return
+        }
+
+        let fileManager = FileManager.default
+
+        do {
+            let resourceContents = try fileManager.contentsOfDirectory(atPath: resourcePath)
+            let expansionFiles = resourceContents.filter { $0.hasPrefix("expansion_") && $0.hasSuffix(".json") }
+
+            for fileName in expansionFiles {
+                let filePath = (resourcePath as NSString).appendingPathComponent(fileName)
+
+                if let data = try? Data(contentsOf: URL(fileURLWithPath: filePath)) {
+                    let decoder = JSONDecoder()
+                    if let pack = try? decoder.decode(ExpansionPack.self, from: data) {
+                        availablePacks.append(pack)
+                        print("Loaded expansion pack: \(pack.packName)")
+                    } else {
+                        print("Failed to decode expansion pack: \(fileName)")
+                    }
+                }
+            }
+
+            print("Loaded \(availablePacks.count) expansion packs")
+        } catch {
+            print("Error loading expansion packs: \(error)")
+        }
+    }
+
+    // MARK: - Purchase Management
+    func isPurchased(packId: String) -> Bool {
+        return purchasedPackIds.contains(packId)
+    }
+
+    func unlockPack(packId: String) {
+        purchasedPackIds.insert(packId)
+        savePurchasedPacks()
+    }
+
+    private func savePurchasedPacks() {
+        let array = Array(purchasedPackIds)
+        UserDefaults.standard.set(array, forKey: Self.purchasedPacksKey)
+    }
+
+    private func loadPurchasedPacks() {
+        if let array = UserDefaults.standard.array(forKey: Self.purchasedPacksKey) as? [String] {
+            purchasedPackIds = Set(array)
+        }
+    }
+
+    // MARK: - Install Management
+    func isInstalled(packId: String) -> Bool {
+        return installedPackIds.contains(packId)
+    }
+
+    func installPack(packId: String) {
+        guard isPurchased(packId) else {
+            print("Cannot install pack that is not purchased: \(packId)")
+            return
+        }
+        installedPackIds.insert(packId)
+        saveInstalledPacks()
+    }
+
+    func uninstallPack(packId: String) {
+        installedPackIds.remove(packId)
+        saveInstalledPacks()
+    }
+
+    private func saveInstalledPacks() {
+        let array = Array(installedPackIds)
+        UserDefaults.standard.set(array, forKey: Self.installedPacksKey)
+    }
+
+    private func loadInstalledPacks() {
+        if let array = UserDefaults.standard.array(forKey: Self.installedPacksKey) as? [String] {
+            installedPackIds = Set(array)
+        }
+    }
+
+    // MARK: - Question Access
+    func getInstalledQuestions() -> [TriviaQuestion] {
+        var allQuestions: [TriviaQuestion] = []
+        for pack in availablePacks where installedPackIds.contains(pack.packId) {
+            allQuestions.append(contentsOf: pack.allQuestions)
+        }
+        return allQuestions
+    }
+
+    func getFreePreviewQuestions() -> [TriviaQuestion] {
+        var allQuestions: [TriviaQuestion] = []
+        for pack in availablePacks {
+            allQuestions.append(contentsOf: pack.freePreviewQuestions)
+        }
+        return allQuestions
+    }
+
+    func getPurchasedPacks(for category: TriviaCategory) -> [ExpansionPack] {
+        return availablePacks.filter { pack in
+            isPurchased(pack.packId) &&
+            pack.allQuestions.contains { $0.category == category.rawValue }
+        }
+    }
+
+    // MARK: - Testing Helpers
+    func resetForTesting() {
+        UserDefaults.standard.removeObject(forKey: Self.purchasedPacksKey)
+        UserDefaults.standard.removeObject(forKey: Self.installedPacksKey)
+        purchasedPackIds = []
+        installedPackIds = []
+    }
+}

@@ -1,0 +1,349 @@
+{
+  "packId": "com.fiz.pack.harry_potter",
+  "packName": "Harry Potter",
+  "packDescription": "Dive deep into the wizarding world with 500 questions covering characters, spells, locations, and magical lore from the beloved Harry Potter series.",
+  "subtopics": ["Characters", "Spells", "Locations", "Books", "Movies", "Trivia"],
+  "questionCount": 500,
+  "freePreviewCount": 50,
+  "difficulty": {
+    "easy": 150,
+    "medium": 250,
+    "hard": 100
+  },
+  "price": 2.99,
+  "icon": "wand.and.stars",
+  "freePreviewQuestions": [
+    {
+      "id": "hp_preview_001",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "What is the name of Harry Potter's owl?",
+      "options": ["Hedwig", "Errol", "Pigwidgeon", "Crookshanks"],
+      "correct_answer": "Hedwig",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_preview_002",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Books",
+      "question": "What platform at King's Cross Station do students use to board the Hogwarts Express?",
+      "options": ["Platform 9¾", "Platform 10", "Platform 9½", "Platform 13"],
+      "correct_answer": "Platform 9¾",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_preview_003",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Spells",
+      "question": "What spell is used to summon objects?",
+      "options": ["Accio", "Wingardium Leviosa", "Expecto Patronum", "Lumos"],
+      "correct_answer": "Accio",
+      "difficulty": "easy"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "hp_paid_001",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "What is Hermione Granger's patronus?",
+      "options": ["Otter", "Cat", "Dog", "Horse"],
+      "correct_answer": "Otter",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_002",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Locations",
+      "question": "What is the name of the pub that serves as the entrance to Diagon Alley?",
+      "options": ["The Leaky Cauldron", "The Three Broomsticks", "The Hog's Head", "The Prancing Pony"],
+      "correct_answer": "The Leaky Cauldron",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_003",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Spells",
+      "question": "What is the incantation for the Patronus Charm?",
+      "options": ["Expecto Patronum", "Expelliarmus", "Protego", "Stupefy"],
+      "correct_answer": "Expecto Patronum",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_004",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Books",
+      "question": "In which book does Dumbledore die?",
+      "options": ["Half-Blood Prince", "Order of the Phoenix", "Deathly Hallows", "Goblet of Fire"],
+      "correct_answer": "Half-Blood Prince",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_005",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "What is the name of Neville Longbottom's toad?",
+      "options": ["Trevor", "Scabbers", "Fang", "Norbert"],
+      "correct_answer": "Trevor",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_006",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Trivia",
+      "question": "What are the three Deathly Hallows?",
+      "options": ["Elder Wand, Resurrection Stone, Invisibility Cloak", "Elder Wand, Philosopher's Stone, Time Turner", "Sword of Gryffindor, Resurrection Stone, Cloak", "Elder Wand, Horcrux, Invisibility Cloak"],
+      "correct_answer": "Elder Wand, Resurrection Stone, Invisibility Cloak",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_007",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Movies",
+      "question": "Who directed the first two Harry Potter films?",
+      "options": ["Chris Columbus", "Alfonso Cuarón", "David Yates", "Mike Newell"],
+      "correct_answer": "Chris Columbus",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_008",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Locations",
+      "question": "What is the name of the Weasley family home?",
+      "options": ["The Burrow", "Grimmauld Place", "Shell Cottage", "Spinner's End"],
+      "correct_answer": "The Burrow",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_009",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "What position does Harry play on the Gryffindor Quidditch team?",
+      "options": ["Seeker", "Chaser", "Beater", "Keeper"],
+      "correct_answer": "Seeker",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_010",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Spells",
+      "question": "What spell is used to disarm an opponent?",
+      "options": ["Expelliarmus", "Stupefy", "Petrificus Totalus", "Impedimenta"],
+      "correct_answer": "Expelliarmus",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_011",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Trivia",
+      "question": "How many Horcruxes did Voldemort create?",
+      "options": ["7", "6", "8", "5"],
+      "correct_answer": "7",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_012",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "What is Professor McGonagall's first name?",
+      "options": ["Minerva", "Molly", "Marlene", "Millicent"],
+      "correct_answer": "Minerva",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_013",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Locations",
+      "question": "What is the name of the wizarding prison?",
+      "options": ["Azkaban", "Nurmengard", "Alcatraz", "The Tower"],
+      "correct_answer": "Azkaban",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_014",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Books",
+      "question": "Who wrote 'A History of Magic'?",
+      "options": ["Bathilda Bagshot", "Newt Scamander", "Gilderoy Lockhart", "Rita Skeeter"],
+      "correct_answer": "Bathilda Bagshot",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_015",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "What is the name of Hagrid's three-headed dog?",
+      "options": ["Fluffy", "Fang", "Norbert", "Aragog"],
+      "correct_answer": "Fluffy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_016",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Spells",
+      "question": "What spell is used to create a shield charm?",
+      "options": ["Protego", "Expecto Patronum", "Impedimenta", "Repello"],
+      "correct_answer": "Protego",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_017",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Movies",
+      "question": "Who played Hermione Granger in the films?",
+      "options": ["Emma Watson", "Emma Stone", "Emily Blunt", "Emma Roberts"],
+      "correct_answer": "Emma Watson",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_018",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Trivia",
+      "question": "What form does Harry's Patronus take?",
+      "options": ["Stag", "Doe", "Phoenix", "Horse"],
+      "correct_answer": "Stag",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_019",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "What is Voldemort's real name?",
+      "options": ["Tom Marvolo Riddle", "Tom Morfin Riddle", "Thomas Riddle", "Tom Salazar Riddle"],
+      "correct_answer": "Tom Marvolo Riddle",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_020",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Locations",
+      "question": "What is the name of the wizarding bank?",
+      "options": ["Gringotts", "Borgin and Burkes", "Flourish and Blotts", "Ollivanders"],
+      "correct_answer": "Gringotts",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_021",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Books",
+      "question": "In which house was Cedric Diggory?",
+      "options": ["Hufflepuff", "Ravenclaw", "Gryffindor", "Slytherin"],
+      "correct_answer": "Hufflepuff",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_022",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Spells",
+      "question": "What is the spell to unlock doors?",
+      "options": ["Alohomora", "Colloportus", "Bombarda", "Reducto"],
+      "correct_answer": "Alohomora",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_023",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "What does S.P.E.W. stand for?",
+      "options": ["Society for the Promotion of Elfish Welfare", "Society for the Protection of Elfish Welfare", "Students Promoting Elfish Welfare", "Society for the Prevention of Elfish Wickedness"],
+      "correct_answer": "Society for the Promotion of Elfish Welfare",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_024",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Trivia",
+      "question": "What creature guards the entrance to the Gryffindor common room?",
+      "options": ["The Fat Lady (portrait)", "A gargoyle", "A sphinx", "A griffin"],
+      "correct_answer": "The Fat Lady (portrait)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_025",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Movies",
+      "question": "Which actor played Albus Dumbledore after Richard Harris?",
+      "options": ["Michael Gambon", "Ian McKellen", "Christopher Lee", "Anthony Hopkins"],
+      "correct_answer": "Michael Gambon",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_026",
+      "category": "Literature",
+      "subcategory": "Fantasy Literature",
+      "topic": "Harry Potter",
+      "subtopic": "Locations",
+      "question": "What is the name of the village near Hogwarts that students can visit?",
+      "options": ["Hogsmeade", "Godric's Hollow", "Little Whinging", "Ottery St. Catchpole"],
+      "correct_answer": "Hogsmeade",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_027",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "Harry Potter",
+      "subtopic": "Characters",
+      "question": "Who kills Professor Dumbledore?",
+      "options": ["Severus Snape", "Draco Malfoy", "Bellatrix Lestrange", "Voldemort"],
+      "correct_answer": "Severus Snape",
+      "difficulty": "medium"
+    }
+  ]
+}

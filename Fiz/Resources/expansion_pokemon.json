@@ -1,0 +1,349 @@
+{
+  "packId": "com.fiz.pack.pokemon",
+  "packName": "Pokémon",
+  "packDescription": "Test your knowledge of the Pokémon universe with 500 questions spanning all generations, games, anime, and trading cards.",
+  "subtopics": ["Gen 1-3", "Gen 4-6", "Gen 7-9", "Games", "Anime", "Cards"],
+  "questionCount": 500,
+  "freePreviewCount": 50,
+  "difficulty": {
+    "easy": 200,
+    "medium": 200,
+    "hard": 100
+  },
+  "price": 2.99,
+  "icon": "star.circle.fill",
+  "freePreviewQuestions": [
+    {
+      "id": "pkm_preview_001",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "What is Pikachu's evolved form?",
+      "options": ["Raichu", "Pichu", "Pikachu-EX", "Zapdos"],
+      "correct_answer": "Raichu",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_preview_002",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Games",
+      "question": "What are the three starter Pokémon in Pokémon Red and Blue?",
+      "options": ["Bulbasaur, Charmander, Squirtle", "Pikachu, Eevee, Meowth", "Chikorita, Cyndaquil, Totodile", "Treecko, Torchic, Mudkip"],
+      "correct_answer": "Bulbasaur, Charmander, Squirtle",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_preview_003",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Anime",
+      "question": "What is the name of Ash Ketchum's hometown?",
+      "options": ["Pallet Town", "Viridian City", "Pewter City", "Cerulean City"],
+      "correct_answer": "Pallet Town",
+      "difficulty": "easy"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "pkm_paid_001",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "What type is super effective against Dragon-type Pokémon?",
+      "options": ["Dragon", "Fire", "Water", "Grass"],
+      "correct_answer": "Dragon",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_002",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Anime",
+      "question": "Who is the leader of Team Rocket that Ash frequently encounters?",
+      "options": ["Jessie and James", "Giovanni", "Archer", "Maxie"],
+      "correct_answer": "Jessie and James",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_003",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Gen 4-6",
+      "question": "What generation introduced Fairy-type Pokémon?",
+      "options": ["Generation 6", "Generation 5", "Generation 7", "Generation 4"],
+      "correct_answer": "Generation 6",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_004",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "What Pokémon is number 001 in the National Pokédex?",
+      "options": ["Bulbasaur", "Pikachu", "Charmander", "Squirtle"],
+      "correct_answer": "Bulbasaur",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_005",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Games",
+      "question": "In which region does Pokémon Gold and Silver take place?",
+      "options": ["Johto", "Kanto", "Hoenn", "Sinnoh"],
+      "correct_answer": "Johto",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_006",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Cards",
+      "question": "What is the rarest card rarity in the Pokémon TCG?",
+      "options": ["Secret Rare", "Ultra Rare", "Rare Holo", "Common"],
+      "correct_answer": "Secret Rare",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_007",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "What is the highest evolution of Eevee introduced in Generation 1?",
+      "options": ["Vaporeon, Jolteon, Flareon", "Espeon, Umbreon", "Leafeon, Glaceon", "Sylveon"],
+      "correct_answer": "Vaporeon, Jolteon, Flareon",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_008",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Anime",
+      "question": "What Pokémon does Ash receive from Professor Oak?",
+      "options": ["Pikachu", "Charmander", "Bulbasaur", "Squirtle"],
+      "correct_answer": "Pikachu",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_009",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Gen 4-6",
+      "question": "What is the name of the Pokémon region in Pokémon Diamond and Pearl?",
+      "options": ["Sinnoh", "Hoenn", "Unova", "Kalos"],
+      "correct_answer": "Sinnoh",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_010",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "What Pokémon is known as the 'Legendary Bird of Ice'?",
+      "options": ["Articuno", "Zapdos", "Moltres", "Lugia"],
+      "correct_answer": "Articuno",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_011",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Games",
+      "question": "What item is used to evolve certain Pokémon through trading?",
+      "options": ["Evolution Stone", "Rare Candy", "Master Ball", "Exp. Share"],
+      "correct_answer": "Evolution Stone",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_012",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Anime",
+      "question": "What is the name of Brock's signature Pokémon?",
+      "options": ["Onix", "Geodude", "Vulpix", "Crobat"],
+      "correct_answer": "Onix",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_013",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Gen 7-9",
+      "question": "Which generation introduced the Alola region?",
+      "options": ["Generation 7", "Generation 6", "Generation 8", "Generation 9"],
+      "correct_answer": "Generation 7",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_014",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "What Pokémon evolves into Gyarados?",
+      "options": ["Magikarp", "Goldeen", "Tentacool", "Horsea"],
+      "correct_answer": "Magikarp",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_015",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Cards",
+      "question": "What type of energy card is used for Electric-type Pokémon?",
+      "options": ["Lightning Energy", "Electric Energy", "Thunder Energy", "Volt Energy"],
+      "correct_answer": "Lightning Energy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_016",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Anime",
+      "question": "What is Team Rocket's motto in the English dub?",
+      "options": ["To protect the world from devastation", "To steal all Pokémon", "To rule the world", "To capture Pikachu"],
+      "correct_answer": "To protect the world from devastation",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_017",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "How many Gym Badges must you collect to challenge the Pokémon League?",
+      "options": ["8", "6", "10", "12"],
+      "correct_answer": "8",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_018",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Gen 4-6",
+      "question": "What is the name of the mythical Pokémon that can learn any TM?",
+      "options": ["Mew", "Mewtwo", "Celebi", "Jirachi"],
+      "correct_answer": "Mew",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_019",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Games",
+      "question": "What type is Charizard?",
+      "options": ["Fire/Flying", "Fire/Dragon", "Fire", "Flying/Dragon"],
+      "correct_answer": "Fire/Flying",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_020",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Anime",
+      "question": "Which Pokémon does Misty primarily use in battles?",
+      "options": ["Staryu and Starmie", "Psyduck", "Goldeen", "Horsea"],
+      "correct_answer": "Staryu and Starmie",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_021",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Gen 7-9",
+      "question": "What mechanic was introduced in Generation 8 for Pokémon battles?",
+      "options": ["Dynamax", "Mega Evolution", "Z-Moves", "Tera Types"],
+      "correct_answer": "Dynamax",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_022",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "What color is a shiny Charizard?",
+      "options": ["Black", "Blue", "Red", "Gold"],
+      "correct_answer": "Black",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_023",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Cards",
+      "question": "What does 'HP' stand for on a Pokémon card?",
+      "options": ["Hit Points", "Health Power", "Hero Points", "High Power"],
+      "correct_answer": "Hit Points",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_024",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Anime",
+      "question": "What is the name of Professor Oak's grandson and Ash's rival?",
+      "options": ["Gary Oak", "Blue Oak", "Green Oak", "Paul"],
+      "correct_answer": "Gary Oak",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_paid_025",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Gen 4-6",
+      "question": "What is the signature move of Lucario?",
+      "options": ["Aura Sphere", "Close Combat", "Dragon Pulse", "Flash Cannon"],
+      "correct_answer": "Aura Sphere",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_026",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Pokémon",
+      "subtopic": "Gen 1-3",
+      "question": "What Pokémon is known as the 'Genetic Pokémon'?",
+      "options": ["Mewtwo", "Mew", "Ditto", "Porygon"],
+      "correct_answer": "Mewtwo",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_027",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "Pokémon",
+      "subtopic": "Games",
+      "question": "What is the most powerful Poké Ball in the games?",
+      "options": ["Master Ball", "Ultra Ball", "Great Ball", "Quick Ball"],
+      "correct_answer": "Master Ball",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "packId": "com.fiz.pack.disney",
+  "packName": "Disney",
+  "packDescription": "Explore the magical world of Disney with 500 questions covering animated classics, Pixar films, theme parks, beloved characters, and iconic songs.",
+  "subtopics": ["Animated Classics", "Pixar", "Live Action", "Parks", "Characters", "Songs"],
+  "questionCount": 500,
+  "freePreviewCount": 50,
+  "difficulty": {
+    "easy": 200,
+    "medium": 200,
+    "hard": 100
+  },
+  "price": 2.99,
+  "icon": "sparkles",
+  "freePreviewQuestions": [
+    {
+      "id": "dsn_preview_001",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of Simba's father in 'The Lion King'?",
+      "options": ["Mufasa", "Scar", "Rafiki", "Zazu"],
+      "correct_answer": "Mufasa",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_002",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Toy Story', what is the name of Andy's favorite toy?",
+      "options": ["Woody", "Buzz Lightyear", "Rex", "Slinky Dog"],
+      "correct_answer": "Woody",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_003",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Which song from 'Frozen' became a worldwide hit?",
+      "options": ["Let It Go", "Do You Want to Build a Snowman?", "Love Is an Open Door", "For the First Time in Forever"],
+      "correct_answer": "Let It Go",
+      "difficulty": "easy"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "dsn_paid_001",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of Ariel's fish friend in 'The Little Mermaid'?",
+      "options": ["Flounder", "Sebastian", "Scuttle", "Max"],
+      "correct_answer": "Flounder",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_002",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Finding Nemo', what type of fish is Dory?",
+      "options": ["Blue Tang", "Clownfish", "Angelfish", "Butterflyfish"],
+      "correct_answer": "Blue Tang",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_003",
+      "category": "Geography",
+      "subcategory": "Landmarks & Monuments",
+      "topic": "Disney",
+      "subtopic": "Parks",
+      "question": "In which year did Disneyland open in California?",
+      "options": ["1955", "1950", "1960", "1965"],
+      "correct_answer": "1955",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_004",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What are the names of Cinderella's stepsisters?",
+      "options": ["Anastasia and Drizella", "Prudence and Primrose", "Gertrude and Griselda", "Beatrice and Bertha"],
+      "correct_answer": "Anastasia and Drizella",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_005",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Which song won the Oscar for Best Original Song from 'The Lion King'?",
+      "options": ["Can You Feel the Love Tonight", "Circle of Life", "Hakuna Matata", "Be Prepared"],
+      "correct_answer": "Can You Feel the Love Tonight",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_006",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of Belle's father in 'Beauty and the Beast'?",
+      "options": ["Maurice", "Gaston", "Lumière", "Cogsworth"],
+      "correct_answer": "Maurice",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_007",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the rat in 'Ratatouille' who dreams of being a chef?",
+      "options": ["Remy", "Linguini", "Emile", "Django"],
+      "correct_answer": "Remy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_008",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who played Jack Sparrow in 'Pirates of the Caribbean'?",
+      "options": ["Johnny Depp", "Orlando Bloom", "Geoffrey Rush", "Bill Nighy"],
+      "correct_answer": "Johnny Depp",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_009",
+      "category": "Geography",
+      "subcategory": "Landmarks & Monuments",
+      "topic": "Disney",
+      "subtopic": "Parks",
+      "question": "Which Disney park features the 'Spaceship Earth' geodesic sphere?",
+      "options": ["Epcot", "Magic Kingdom", "Hollywood Studios", "Animal Kingdom"],
+      "correct_answer": "Epcot",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_010",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the name of Mulan's dragon companion?",
+      "options": ["Mushu", "Cri-Kee", "Khan", "Shan Yu"],
+      "correct_answer": "Mushu",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_011",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Who sang 'A Whole New World' from 'Aladdin'?",
+      "options": ["Peabo Bryson and Regina Belle", "Elton John and Céline Dion", "Kenny Loggins and Stevie Nicks", "Phil Collins and Tina Turner"],
+      "correct_answer": "Peabo Bryson and Regina Belle",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_012",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "How many dwarfs are there in 'Snow White'?",
+      "options": ["7", "5", "6", "8"],
+      "correct_answer": "7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_013",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Monsters, Inc.', what powers the city of Monstropolis?",
+      "options": ["Children's screams", "Laughter", "Electricity", "Nuclear power"],
+      "correct_answer": "Children's screams",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_014",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "In which movie does a magical nanny arrive via umbrella?",
+      "options": ["Mary Poppins", "Bedknobs and Broomsticks", "The Sound of Music", "Nanny McPhee"],
+      "correct_answer": "Mary Poppins",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_015",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "topic": "Disney",
+      "subtopic": "Parks",
+      "question": "Which Disney park opened in Tokyo in 1983?",
+      "options": ["Tokyo Disneyland", "DisneySea", "Tokyo Disney Resort", "Universal Studios Japan"],
+      "correct_answer": "Tokyo Disneyland",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_016",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the name of Pocahontas's raccoon companion?",
+      "options": ["Meeko", "Flit", "Percy", "Redfeather"],
+      "correct_answer": "Meeko",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_017",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "What song does Elsa sing while building her ice palace?",
+      "options": ["Let It Go", "Into the Unknown", "Show Yourself", "For the First Time in Forever"],
+      "correct_answer": "Let It Go",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_018",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of the prince in 'Sleeping Beauty'?",
+      "options": ["Prince Phillip", "Prince Charming", "Prince Eric", "Prince Adam"],
+      "correct_answer": "Prince Phillip",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_019",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "What is the name of the villain in 'The Incredibles'?",
+      "options": ["Syndrome", "The Underminer", "Screenslaver", "Bomb Voyage"],
+      "correct_answer": "Syndrome",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_020",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Which Disney live-action remake was released in 2019 featuring a photorealistic lion?",
+      "options": ["The Lion King", "Aladdin", "Dumbo", "The Jungle Book"],
+      "correct_answer": "The Lion King",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_021",
+      "category": "Geography",
+      "subcategory": "Landmarks & Monuments",
+      "topic": "Disney",
+      "subtopic": "Parks",
+      "question": "What is the iconic castle at the center of Magic Kingdom?",
+      "options": ["Cinderella Castle", "Sleeping Beauty Castle", "Beast's Castle", "Elsa's Ice Palace"],
+      "correct_answer": "Cinderella Castle",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_022",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What type of animal is Bambi?",
+      "options": ["White-tailed deer", "Rabbit", "Skunk", "Owl"],
+      "correct_answer": "White-tailed deer",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_023",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Which Disney movie features the song 'Under the Sea'?",
+      "options": ["The Little Mermaid", "Finding Nemo", "Moana", "Lilo & Stitch"],
+      "correct_answer": "The Little Mermaid",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_024",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What does Rapunzel use as a weapon in 'Tangled'?",
+      "options": ["A frying pan", "Her hair", "A sword", "A bow and arrow"],
+      "correct_answer": "A frying pan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_025",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Pixar",
+      "question": "In 'Up', what country does Carl want to visit?",
+      "options": ["Paradise Falls, South America", "Australia", "Africa", "Antarctica"],
+      "correct_answer": "Paradise Falls, South America",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_026",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What sport is featured in 'The Mighty Ducks'?",
+      "options": ["Ice hockey", "Baseball", "Basketball", "Soccer"],
+      "correct_answer": "Ice hockey",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_027",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the name of Aladdin's monkey?",
+      "options": ["Abu", "Iago", "Rajah", "Jafar"],
+      "correct_answer": "Abu",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "packId": "com.fiz.pack.the_office",
+  "packName": "The Office",
+  "packDescription": "That's what she said! Dive into Dunder Mifflin with 300 questions about characters, episodes, iconic quotes, and memorable moments from The Office.",
+  "subtopics": ["Characters", "Episodes", "Quotes", "Relationships", "Locations", "Trivia"],
+  "questionCount": 300,
+  "freePreviewCount": 30,
+  "difficulty": {
+    "easy": 100,
+    "medium": 140,
+    "hard": 60
+  },
+  "price": 1.99,
+  "icon": "briefcase.fill",
+  "freePreviewQuestions": [
+    {
+      "id": "off_preview_001",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Characters",
+      "question": "What is Michael Scott's favorite phrase?",
+      "options": ["That's what she said", "Bazinga", "How you doin'?", "Suit up"],
+      "correct_answer": "That's what she said",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_preview_002",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Locations",
+      "question": "In which city is Dunder Mifflin Scranton located?",
+      "options": ["Scranton, Pennsylvania", "Buffalo, New York", "Albany, New York", "Stamford, Connecticut"],
+      "correct_answer": "Scranton, Pennsylvania",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_preview_003",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Relationships",
+      "question": "Who does Jim Halpert marry?",
+      "options": ["Pam Beesly", "Karen Filippelli", "Katy Moore", "Angela Martin"],
+      "correct_answer": "Pam Beesly",
+      "difficulty": "easy"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "off_paid_001",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Characters",
+      "question": "What is Dwight Schrute's middle name?",
+      "options": ["Kurt", "Karl", "Kevin", "Kenneth"],
+      "correct_answer": "Kurt",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_002",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Episodes",
+      "question": "What episode features Michael grilling his foot on a George Foreman grill?",
+      "options": ["The Injury", "Stress Relief", "Fun Run", "Casino Night"],
+      "correct_answer": "The Injury",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_003",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Quotes",
+      "question": "Who said 'I am Beyoncé, always'?",
+      "options": ["Michael Scott", "Kelly Kapoor", "Andy Bernard", "Ryan Howard"],
+      "correct_answer": "Michael Scott",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_004",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Trivia",
+      "question": "What is the name of the company newsletter?",
+      "options": ["The Finer Things Club", "Dundie Awards", "The Fun Run Times", "The Dunder Mifflin Infinity"],
+      "correct_answer": "The Finer Things Club",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_005",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Characters",
+      "question": "What does Kevin Malone do in his free time?",
+      "options": ["Plays in a band", "Paints", "Writes novels", "Teaches karate"],
+      "correct_answer": "Plays in a band",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_006",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Relationships",
+      "question": "Who is Angela Martin in a relationship with for most of the series?",
+      "options": ["Dwight and Andy (at different times)", "Kevin", "Oscar", "Ryan"],
+      "correct_answer": "Dwight and Andy (at different times)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_007",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Locations",
+      "question": "What is the name of the bar where the office workers hang out?",
+      "options": ["Poor Richard's", "Chili's", "Applebee's", "The Ale House"],
+      "correct_answer": "Poor Richard's",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_008",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Episodes",
+      "question": "In which episode does Jim propose to Pam?",
+      "options": ["Niagara", "Casino Night", "Beach Games", "Company Picnic"],
+      "correct_answer": "Niagara",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_009",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Characters",
+      "question": "What is Stanley Hudson's favorite day?",
+      "options": ["Pretzel Day", "Pizza Friday", "Taco Tuesday", "Donut Day"],
+      "correct_answer": "Pretzel Day",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_010",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Quotes",
+      "question": "Who said 'I'm not superstitious, but I am a little stitious'?",
+      "options": ["Michael Scott", "Dwight Schrute", "Jim Halpert", "Creed Bratton"],
+      "correct_answer": "Michael Scott",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_011",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Trivia",
+      "question": "What is the name of Michael's screenplay?",
+      "options": ["Threat Level Midnight", "Agent Michael Scarn", "The Office Manager", "The Dundies"],
+      "correct_answer": "Threat Level Midnight",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_012",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Characters",
+      "question": "What is Creed's job at Dunder Mifflin?",
+      "options": ["Quality Assurance", "Accountant", "Salesman", "Warehouse worker"],
+      "correct_answer": "Quality Assurance",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_013",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Episodes",
+      "question": "What episode features the Dundie Awards?",
+      "options": ["The Dundies", "Casino Night", "Office Olympics", "The Dinner Party"],
+      "correct_answer": "The Dundies",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_014",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Relationships",
+      "question": "Who does Michael Scott end up with?",
+      "options": ["Holly Flax", "Jan Levinson", "Carol Stills", "Helene Beesly"],
+      "correct_answer": "Holly Flax",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_015",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Locations",
+      "question": "Where does Michael buy his suits?",
+      "options": ["MISSterious", "Men's Wearhouse", "Burlington Coat Factory", "JCPenney"],
+      "correct_answer": "MISSterious",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_016",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Characters",
+      "question": "What instrument does Andy Bernard play?",
+      "options": ["Banjo", "Guitar", "Piano", "Harmonica"],
+      "correct_answer": "Banjo",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_017",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Quotes",
+      "question": "Who said 'Bears. Beets. Battlestar Galactica'?",
+      "options": ["Jim Halpert (impersonating Dwight)", "Dwight Schrute", "Michael Scott", "Andy Bernard"],
+      "correct_answer": "Jim Halpert (impersonating Dwight)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_018",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Trivia",
+      "question": "What is the name of Angela's cat that Dwight kills?",
+      "options": ["Sprinkles", "Mr. Ash", "Princess Lady", "Garbage"],
+      "correct_answer": "Sprinkles",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_019",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Episodes",
+      "question": "In 'Dinner Party', what does Michael serve for dinner?",
+      "options": ["Osso buco", "Spaghetti", "Chicken", "Pizza"],
+      "correct_answer": "Osso buco",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_020",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Characters",
+      "question": "What is Phyllis's maiden name?",
+      "options": ["Lapin", "Vance", "Smith", "Martin"],
+      "correct_answer": "Lapin",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_021",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Relationships",
+      "question": "Who does Ryan Howard date?",
+      "options": ["Kelly Kapoor", "Pam Beesly", "Erin Hannon", "Angela Martin"],
+      "correct_answer": "Kelly Kapoor",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_022",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Quotes",
+      "question": "What does Dwight say when he becomes interim regional manager?",
+      "options": ["I am now the regional manager", "Bow down to your new leader", "I have the power", "Fear me"],
+      "correct_answer": "I am now the regional manager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_023",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Trivia",
+      "question": "What is the name of the office building owner?",
+      "options": ["Bob Vance", "David Wallace", "Charles Miner", "Robert California"],
+      "correct_answer": "Bob Vance",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_024",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Characters",
+      "question": "What is Toby Flenderson's job title?",
+      "options": ["Human Resources", "Accountant", "Salesman", "Receptionist"],
+      "correct_answer": "Human Resources",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_025",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Episodes",
+      "question": "Which episode features Jim and Pam's wedding?",
+      "options": ["Niagara (Parts 1 & 2)", "Goodbye, Toby", "Company Picnic", "The Merger"],
+      "correct_answer": "Niagara (Parts 1 & 2)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_026",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Locations",
+      "question": "What is the name of Dwight's beet farm?",
+      "options": ["Schrute Farms", "Dwight's Beets", "The Beet Farm", "Shrute Beet Co."],
+      "correct_answer": "Schrute Farms",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_027",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "The Office",
+      "subtopic": "Trivia",
+      "question": "What does Jim put Dwight's stapler in?",
+      "options": ["Jello", "Pudding", "Ice", "A box"],
+      "correct_answer": "Jello",
+      "difficulty": "easy"
+    }
+  ]
+}

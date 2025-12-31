@@ -1,7 +1,7 @@
 {
   "packId": "com.fiz.pack.harry_potter",
   "packName": "Harry Potter",
-  "packDescription": "Dive deep into the wizarding world with 500 questions covering characters, spells, locations, and magical lore from the beloved Harry Potter series.",
+  "packDescription": "Dive deep into the wizarding world with 500+ questions covering characters, spells, locations, and magical lore from the beloved Harry Potter series.",
   "subtopics": [
     "Characters",
     "Spells & Magic",
@@ -29,9 +29,9 @@
       "subtopic": "Characters",
       "question": "What is the name of Harry Potter's owl?",
       "options": [
-        "Hedwig",
         "Errol",
         "Pigwidgeon",
+        "Hedwig",
         "Crookshanks"
       ],
       "correct_answer": "Hedwig",
@@ -45,12 +45,12 @@
       "subtopic": "Books",
       "question": "What platform at King's Cross Station do students use to board the Hogwarts Express?",
       "options": [
-        "Platform 9\u00be",
         "Platform 10",
-        "Platform 9\u00bd",
+        "Platform 9½",
+        "Platform 9¾",
         "Platform 13"
       ],
-      "correct_answer": "Platform 9\u00be",
+      "correct_answer": "Platform 9¾",
       "difficulty": "easy"
     },
     {
@@ -61,9 +61,9 @@
       "subtopic": "Spells",
       "question": "What spell is used to summon objects?",
       "options": [
-        "Accio",
         "Wingardium Leviosa",
         "Expecto Patronum",
+        "Accio",
         "Lumos"
       ],
       "correct_answer": "Accio",
@@ -77,9 +77,9 @@
       "subtopic": "Characters",
       "question": "What house is Harry Potter in?",
       "options": [
-        "Gryffindor",
         "Slytherin",
         "Ravenclaw",
+        "Gryffindor",
         "Hufflepuff"
       ],
       "correct_answer": "Gryffindor",
@@ -93,9 +93,9 @@
       "subtopic": "Characters",
       "question": "Who is the headmaster of Hogwarts?",
       "options": [
-        "Albus Dumbledore",
         "Minerva McGonagall",
         "Severus Snape",
+        "Albus Dumbledore",
         "Filius Flitwick"
       ],
       "correct_answer": "Albus Dumbledore",
@@ -109,9 +109,9 @@
       "subtopic": "Characters",
       "question": "What is Ron Weasley's rat's name?",
       "options": [
-        "Scabbers",
         "Trevor",
         "Fang",
+        "Scabbers",
         "Crookshanks"
       ],
       "correct_answer": "Scabbers",
@@ -125,9 +125,9 @@
       "subtopic": "Characters",
       "question": "Who is Harry's godfather?",
       "options": [
-        "Sirius Black",
         "Remus Lupin",
         "James Potter",
+        "Sirius Black",
         "Arthur Weasley"
       ],
       "correct_answer": "Sirius Black",
@@ -141,9 +141,9 @@
       "subtopic": "Characters",
       "question": "What is Draco Malfoy's house?",
       "options": [
-        "Slytherin",
         "Gryffindor",
         "Ravenclaw",
+        "Slytherin",
         "Hufflepuff"
       ],
       "correct_answer": "Slytherin",
@@ -157,9 +157,9 @@
       "subtopic": "Characters",
       "question": "Who is the Half-Blood Prince?",
       "options": [
-        "Severus Snape",
         "Tom Riddle",
         "Albus Dumbledore",
+        "Severus Snape",
         "Horace Slughorn"
       ],
       "correct_answer": "Severus Snape",
@@ -173,9 +173,9 @@
       "subtopic": "Characters",
       "question": "What are Voldemort's followers called?",
       "options": [
-        "Death Eaters",
         "Dark Wizards",
         "Slytherins",
+        "Death Eaters",
         "The Dark Army"
       ],
       "correct_answer": "Death Eaters",
@@ -189,9 +189,9 @@
       "subtopic": "Spells & Magic",
       "question": "What spell produces light from a wand?",
       "options": [
-        "Lumos",
         "Nox",
         "Incendio",
+        "Lumos",
         "Expecto Patronum"
       ],
       "correct_answer": "Lumos",
@@ -205,9 +205,9 @@
       "subtopic": "Spells & Magic",
       "question": "What spell extinguishes wand light?",
       "options": [
-        "Nox",
         "Lumos",
         "Finite",
+        "Nox",
         "Protego"
       ],
       "correct_answer": "Nox",
@@ -221,10 +221,10 @@
       "subtopic": "Spells & Magic",
       "question": "What are the three Unforgivable Curses?",
       "options": [
-        "Avada Kedavra, Crucio, Imperio",
         "Expelliarmus, Stupefy, Protego",
         "Sectumsempra, Crucio, Imperio",
-        "Avada Kedavra, Sectumsempra, Crucio"
+        "Avada Kedavra, Sectumsempra, Crucio",
+        "Avada Kedavra, Crucio, Imperio"
       ],
       "correct_answer": "Avada Kedavra, Crucio, Imperio",
       "difficulty": "medium"
@@ -237,10 +237,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell is used to levitate objects?",
       "options": [
-        "Wingardium Leviosa",
         "Accio",
         "Mobiliarbus",
-        "Locomotor"
+        "Locomotor",
+        "Wingardium Leviosa"
       ],
       "correct_answer": "Wingardium Leviosa",
       "difficulty": "easy"
@@ -253,10 +253,10 @@
       "subtopic": "Spells & Magic",
       "question": "What does the spell 'Riddikulus' do?",
       "options": [
-        "Defeats a Boggart",
         "Creates a shield",
         "Summons objects",
-        "Disarms opponent"
+        "Disarms opponent",
+        "Defeats a Boggart"
       ],
       "correct_answer": "Defeats a Boggart",
       "difficulty": "medium"
@@ -269,10 +269,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell repairs broken objects?",
       "options": [
-        "Reparo",
         "Episkey",
         "Finite",
-        "Oculus Reparo"
+        "Oculus Reparo",
+        "Reparo"
       ],
       "correct_answer": "Reparo",
       "difficulty": "easy"
@@ -285,10 +285,10 @@
       "subtopic": "Spells & Magic",
       "question": "What is the Killing Curse?",
       "options": [
-        "Avada Kedavra",
         "Crucio",
         "Sectumsempra",
-        "Morsmordre"
+        "Morsmordre",
+        "Avada Kedavra"
       ],
       "correct_answer": "Avada Kedavra",
       "difficulty": "easy"
@@ -301,10 +301,10 @@
       "subtopic": "Spells & Magic",
       "question": "What does 'Obliviate' do?",
       "options": [
-        "Erases memories",
         "Creates fire",
         "Summons objects",
-        "Stuns opponent"
+        "Stuns opponent",
+        "Erases memories"
       ],
       "correct_answer": "Erases memories",
       "difficulty": "medium"
@@ -317,10 +317,10 @@
       "subtopic": "Hogwarts",
       "question": "How many houses are there at Hogwarts?",
       "options": [
-        "4",
         "3",
         "5",
-        "6"
+        "6",
+        "4"
       ],
       "correct_answer": "4",
       "difficulty": "easy"
@@ -333,10 +333,10 @@
       "subtopic": "Hogwarts",
       "question": "Who is the Gryffindor house ghost?",
       "options": [
-        "Nearly Headless Nick",
         "The Bloody Baron",
         "The Grey Lady",
-        "The Fat Friar"
+        "The Fat Friar",
+        "Nearly Headless Nick"
       ],
       "correct_answer": "Nearly Headless Nick",
       "difficulty": "medium"
@@ -349,10 +349,10 @@
       "subtopic": "Hogwarts",
       "question": "What subject does Professor Snape teach?",
       "options": [
-        "Potions (then Defense)",
         "Transfiguration",
         "Charms",
-        "Herbology"
+        "Herbology",
+        "Potions (then Defense)"
       ],
       "correct_answer": "Potions (then Defense)",
       "difficulty": "easy"
@@ -365,10 +365,10 @@
       "subtopic": "Hogwarts",
       "question": "What does the Sorting Hat do?",
       "options": [
-        "Sorts students into houses",
         "Grants wishes",
         "Teaches spells",
-        "Protects the castle"
+        "Protects the castle",
+        "Sorts students into houses"
       ],
       "correct_answer": "Sorts students into houses",
       "difficulty": "easy"
@@ -381,10 +381,10 @@
       "subtopic": "Hogwarts",
       "question": "Who teaches Transfiguration?",
       "options": [
-        "Minerva McGonagall",
         "Filius Flitwick",
         "Pomona Sprout",
-        "Severus Snape"
+        "Severus Snape",
+        "Minerva McGonagall"
       ],
       "correct_answer": "Minerva McGonagall",
       "difficulty": "easy"
@@ -397,10 +397,10 @@
       "subtopic": "Hogwarts",
       "question": "What is Hogwarts' motto?",
       "options": [
-        "Draco Dormiens Nunquam Titillandus",
         "Wingardium Leviosa",
         "Expecto Patronum",
-        "Accio Firebolt"
+        "Accio Firebolt",
+        "Draco Dormiens Nunquam Titillandus"
       ],
       "correct_answer": "Draco Dormiens Nunquam Titillandus",
       "difficulty": "hard"
@@ -621,8 +621,8 @@
       "subtopic": "Movies",
       "question": "Who composed the Harry Potter film scores?",
       "options": [
-        "John Williams (first 3), others",
         "Hans Zimmer",
+        "John Williams (first 3), others",
         "Howard Shore",
         "Danny Elfman"
       ],
@@ -637,8 +637,8 @@
       "subtopic": "Movies",
       "question": "Who played Lord Voldemort?",
       "options": [
-        "Ralph Fiennes",
         "Alan Rickman",
+        "Ralph Fiennes",
         "Gary Oldman",
         "Jason Isaacs"
       ],
@@ -653,8 +653,8 @@
       "subtopic": "Movies",
       "question": "What year was the first film released?",
       "options": [
-        "2001",
         "2000",
+        "2001",
         "2002",
         "1999"
       ],
@@ -669,8 +669,8 @@
       "subtopic": "Magical Creatures",
       "question": "What creature guards Gringotts?",
       "options": [
-        "Dragon",
         "Basilisk",
+        "Dragon",
         "Cerberus",
         "Grindylow"
       ],
@@ -685,8 +685,8 @@
       "subtopic": "Magical Creatures",
       "question": "What is a house-elf?",
       "options": [
-        "Magical servant creature",
         "Goblin relative",
+        "Magical servant creature",
         "Dark creature",
         "Forest dweller"
       ],
@@ -701,8 +701,8 @@
       "subtopic": "Magical Creatures",
       "question": "What creature is in the Chamber of Secrets?",
       "options": [
-        "Basilisk",
         "Dragon",
+        "Basilisk",
         "Acromantula",
         "Hippogriff"
       ],
@@ -717,8 +717,8 @@
       "subtopic": "Magical Creatures",
       "question": "What is Buckbeak?",
       "options": [
-        "Hippogriff",
         "Dragon",
+        "Hippogriff",
         "Phoenix",
         "Thestral"
       ],
@@ -733,8 +733,8 @@
       "subtopic": "Magical Creatures",
       "question": "What are Dementors?",
       "options": [
-        "Soul-sucking dark creatures",
         "Death Eaters",
+        "Soul-sucking dark creatures",
         "Ghosts",
         "Vampires"
       ],
@@ -749,8 +749,8 @@
       "subtopic": "Wizarding World",
       "question": "What is the wizarding newspaper called?",
       "options": [
-        "Daily Prophet",
         "Quibbler",
+        "Daily Prophet",
         "Evening Prophet",
         "Wizard Times"
       ],
@@ -765,8 +765,8 @@
       "subtopic": "Wizarding World",
       "question": "What sport do wizards play on broomsticks?",
       "options": [
-        "Quidditch",
         "Wizardball",
+        "Quidditch",
         "Broomball",
         "Skyball"
       ],
@@ -781,8 +781,8 @@
       "subtopic": "Wizarding World",
       "question": "What is the wizarding government called?",
       "options": [
-        "Ministry of Magic",
         "Wizengamot",
+        "Ministry of Magic",
         "Magical Congress",
         "Order of Merlin"
       ],
@@ -797,8 +797,8 @@
       "subtopic": "Wizarding World",
       "question": "How many points is catching the Golden Snitch worth?",
       "options": [
-        "150",
         "100",
+        "150",
         "200",
         "50"
       ],
@@ -813,8 +813,8 @@
       "subtopic": "Wizarding World",
       "question": "What are non-magical people called?",
       "options": [
-        "Muggles",
         "Squibs",
+        "Muggles",
         "Mundanes",
         "Nomaj"
       ],
@@ -831,10 +831,10 @@
       "subtopic": "Characters",
       "question": "What is Hermione's cat's name?",
       "options": [
-        "Crookshanks",
         "Scabbers",
         "Trevor",
-        "Fang"
+        "Fang",
+        "Crookshanks"
       ],
       "correct_answer": "Crookshanks",
       "difficulty": "easy"
@@ -847,10 +847,10 @@
       "subtopic": "Characters",
       "question": "Who are Harry's best friends?",
       "options": [
-        "Ron and Hermione",
         "Neville and Luna",
         "Fred and George",
-        "Dean and Seamus"
+        "Dean and Seamus",
+        "Ron and Hermione"
       ],
       "correct_answer": "Ron and Hermione",
       "difficulty": "easy"
@@ -863,10 +863,10 @@
       "subtopic": "Characters",
       "question": "What is Luna Lovegood's house?",
       "options": [
-        "Ravenclaw",
         "Gryffindor",
         "Hufflepuff",
-        "Slytherin"
+        "Slytherin",
+        "Ravenclaw"
       ],
       "correct_answer": "Ravenclaw",
       "difficulty": "easy"
@@ -879,10 +879,10 @@
       "subtopic": "Characters",
       "question": "Who is the Potions Master at Hogwarts?",
       "options": [
-        "Severus Snape",
         "Horace Slughorn",
         "Minerva McGonagall",
-        "Remus Lupin"
+        "Remus Lupin",
+        "Severus Snape"
       ],
       "correct_answer": "Severus Snape",
       "difficulty": "easy"
@@ -895,10 +895,10 @@
       "subtopic": "Characters",
       "question": "What is Ginny Weasley's full first name?",
       "options": [
-        "Ginevra",
         "Virginia",
         "Geneva",
-        "Guinevere"
+        "Guinevere",
+        "Ginevra"
       ],
       "correct_answer": "Ginevra",
       "difficulty": "easy"
@@ -911,10 +911,10 @@
       "subtopic": "Characters",
       "question": "Who is the Care of Magical Creatures teacher?",
       "options": [
-        "Rubeus Hagrid",
         "Silvanus Kettleburn",
         "Wilhelmina Grubbly-Plank",
-        "Remus Lupin"
+        "Remus Lupin",
+        "Rubeus Hagrid"
       ],
       "correct_answer": "Rubeus Hagrid",
       "difficulty": "easy"
@@ -927,10 +927,10 @@
       "subtopic": "Characters",
       "question": "What is Cho Chang's house?",
       "options": [
-        "Ravenclaw",
         "Gryffindor",
         "Hufflepuff",
-        "Slytherin"
+        "Slytherin",
+        "Ravenclaw"
       ],
       "correct_answer": "Ravenclaw",
       "difficulty": "easy"
@@ -943,10 +943,10 @@
       "subtopic": "Characters",
       "question": "Who is Fred Weasley's twin?",
       "options": [
-        "George",
         "Percy",
         "Ron",
-        "Charlie"
+        "Charlie",
+        "George"
       ],
       "correct_answer": "George",
       "difficulty": "easy"
@@ -959,10 +959,10 @@
       "subtopic": "Characters",
       "question": "Who is the author of the Harry Potter books?",
       "options": [
-        "J.K. Rowling",
         "J.R.R. Tolkien",
         "C.S. Lewis",
-        "Roald Dahl"
+        "Roald Dahl",
+        "J.K. Rowling"
       ],
       "correct_answer": "J.K. Rowling",
       "difficulty": "easy"
@@ -975,10 +975,10 @@
       "subtopic": "Characters",
       "question": "What is Dumbledore's first name?",
       "options": [
-        "Albus",
         "Aberforth",
         "Albert",
-        "Alfred"
+        "Alfred",
+        "Albus"
       ],
       "correct_answer": "Albus",
       "difficulty": "easy"
@@ -991,10 +991,10 @@
       "subtopic": "Characters",
       "question": "Who is Hermione's love interest?",
       "options": [
-        "Ron Weasley",
         "Harry Potter",
         "Viktor Krum",
-        "Draco Malfoy"
+        "Draco Malfoy",
+        "Ron Weasley"
       ],
       "correct_answer": "Ron Weasley",
       "difficulty": "easy"
@@ -1007,10 +1007,10 @@
       "subtopic": "Characters",
       "question": "What is Neville's grandmother called?",
       "options": [
-        "Augusta Longbottom",
         "Griselda Longbottom",
         "Muriel Longbottom",
-        "Enid Longbottom"
+        "Enid Longbottom",
+        "Augusta Longbottom"
       ],
       "correct_answer": "Augusta Longbottom",
       "difficulty": "medium"
@@ -1023,10 +1023,10 @@
       "subtopic": "Characters",
       "question": "Who kills Bellatrix Lestrange?",
       "options": [
-        "Molly Weasley",
         "Hermione Granger",
         "Ginny Weasley",
-        "Neville Longbottom"
+        "Neville Longbottom",
+        "Molly Weasley"
       ],
       "correct_answer": "Molly Weasley",
       "difficulty": "easy"
@@ -1039,10 +1039,10 @@
       "subtopic": "Characters",
       "question": "What does Harry name his children?",
       "options": [
-        "James, Albus, Lily",
         "Ron, Hermione, Ginny",
         "Sirius, James, Lily",
-        "Fred, George, Ginny"
+        "Fred, George, Ginny",
+        "James, Albus, Lily"
       ],
       "correct_answer": "James, Albus, Lily",
       "difficulty": "medium"
@@ -1055,10 +1055,10 @@
       "subtopic": "Characters",
       "question": "Who is the Divination teacher?",
       "options": [
-        "Sybill Trelawney",
         "Firenze",
         "Wilhelmina Grubbly-Plank",
-        "Pomona Sprout"
+        "Pomona Sprout",
+        "Sybill Trelawney"
       ],
       "correct_answer": "Sybill Trelawney",
       "difficulty": "easy"
@@ -1071,10 +1071,10 @@
       "subtopic": "Characters",
       "question": "What is Hagrid's first name?",
       "options": [
-        "Rubeus",
         "Robart",
         "Richard",
-        "Robert"
+        "Robert",
+        "Rubeus"
       ],
       "correct_answer": "Rubeus",
       "difficulty": "easy"
@@ -1087,10 +1087,10 @@
       "subtopic": "Characters",
       "question": "Who is the Herbology teacher?",
       "options": [
-        "Pomona Sprout",
         "Minerva McGonagall",
         "Septima Vector",
-        "Aurora Sinistra"
+        "Aurora Sinistra",
+        "Pomona Sprout"
       ],
       "correct_answer": "Pomona Sprout",
       "difficulty": "easy"
@@ -1103,10 +1103,10 @@
       "subtopic": "Characters",
       "question": "What is Percy Weasley's middle name?",
       "options": [
-        "Ignatius",
         "Arthur",
         "William",
-        "Charles"
+        "Charles",
+        "Ignatius"
       ],
       "correct_answer": "Ignatius",
       "difficulty": "medium"
@@ -1119,10 +1119,10 @@
       "subtopic": "Characters",
       "question": "Who is the Charms teacher?",
       "options": [
-        "Filius Flitwick",
         "Severus Snape",
         "Remus Lupin",
-        "Alastor Moody"
+        "Alastor Moody",
+        "Filius Flitwick"
       ],
       "correct_answer": "Filius Flitwick",
       "difficulty": "easy"
@@ -1135,10 +1135,10 @@
       "subtopic": "Characters",
       "question": "What is Voldemort's mother's name?",
       "options": [
-        "Merope Gaunt",
         "Bellatrix Black",
         "Narcissa Malfoy",
-        "Rowena Ravenclaw"
+        "Rowena Ravenclaw",
+        "Merope Gaunt"
       ],
       "correct_answer": "Merope Gaunt",
       "difficulty": "medium"
@@ -1151,10 +1151,10 @@
       "subtopic": "Characters",
       "question": "Who is Sirius Black's brother?",
       "options": [
-        "Regulus",
         "Remus",
         "Rodolphus",
-        "Rabastan"
+        "Rabastan",
+        "Regulus"
       ],
       "correct_answer": "Regulus",
       "difficulty": "medium"
@@ -1167,10 +1167,10 @@
       "subtopic": "Characters",
       "question": "What is Ron's Patronus?",
       "options": [
-        "Jack Russell Terrier",
         "Otter",
         "Stag",
-        "Horse"
+        "Horse",
+        "Jack Russell Terrier"
       ],
       "correct_answer": "Jack Russell Terrier",
       "difficulty": "medium"
@@ -1183,10 +1183,10 @@
       "subtopic": "Characters",
       "question": "Who becomes Head of Gryffindor after McGonagall?",
       "options": [
-        "Not explicitly stated",
         "Neville Longbottom",
         "Hermione Granger",
-        "Harry Potter"
+        "Harry Potter",
+        "Not explicitly stated"
       ],
       "correct_answer": "Not explicitly stated",
       "difficulty": "hard"
@@ -1199,10 +1199,10 @@
       "subtopic": "Characters",
       "question": "What is Lupin's first name?",
       "options": [
-        "Remus",
         "Romulus",
         "Richard",
-        "Robert"
+        "Robert",
+        "Remus"
       ],
       "correct_answer": "Remus",
       "difficulty": "easy"
@@ -1215,10 +1215,10 @@
       "subtopic": "Characters",
       "question": "Who is Tonks' mother?",
       "options": [
-        "Andromeda Black",
         "Bellatrix Lestrange",
         "Narcissa Malfoy",
-        "Walburga Black"
+        "Walburga Black",
+        "Andromeda Black"
       ],
       "correct_answer": "Andromeda Black",
       "difficulty": "medium"
@@ -1231,10 +1231,10 @@
       "subtopic": "Characters",
       "question": "What is Moaning Myrtle's full name?",
       "options": [
-        "Myrtle Warren",
         "Myrtle Henderson",
         "Myrtle Evans",
-        "Myrtle Smith"
+        "Myrtle Smith",
+        "Myrtle Warren"
       ],
       "correct_answer": "Myrtle Warren",
       "difficulty": "medium"
@@ -1247,10 +1247,10 @@
       "subtopic": "Characters",
       "question": "Who is Barty Crouch Jr.'s godfather?",
       "options": [
-        "Not mentioned",
         "Albus Dumbledore",
         "Igor Karkaroff",
-        "Cornelius Fudge"
+        "Cornelius Fudge",
+        "Not mentioned"
       ],
       "correct_answer": "Not mentioned",
       "difficulty": "hard"
@@ -1263,10 +1263,10 @@
       "subtopic": "Characters",
       "question": "What is Snape's mother's maiden name?",
       "options": [
-        "Prince",
         "Snape",
         "Evans",
-        "Potter"
+        "Potter",
+        "Prince"
       ],
       "correct_answer": "Prince",
       "difficulty": "medium"
@@ -1279,10 +1279,10 @@
       "subtopic": "Characters",
       "question": "Who is the centaur Divination teacher?",
       "options": [
-        "Firenze",
         "Bane",
         "Ronan",
-        "Magorian"
+        "Magorian",
+        "Firenze"
       ],
       "correct_answer": "Firenze",
       "difficulty": "easy"
@@ -1295,10 +1295,10 @@
       "subtopic": "Characters",
       "question": "What is Griphook?",
       "options": [
-        "Goblin",
         "House-elf",
         "Wizard",
-        "Dwarf"
+        "Dwarf",
+        "Goblin"
       ],
       "correct_answer": "Goblin",
       "difficulty": "easy"
@@ -1311,10 +1311,10 @@
       "subtopic": "Characters",
       "question": "What is Dumbledore's full name?",
       "options": [
-        "Albus Percival Wulfric Brian Dumbledore",
         "Albus Severus Dumbledore",
         "Albus Sirius Dumbledore",
-        "Albus James Dumbledore"
+        "Albus James Dumbledore",
+        "Albus Percival Wulfric Brian Dumbledore"
       ],
       "correct_answer": "Albus Percival Wulfric Brian Dumbledore",
       "difficulty": "medium"
@@ -1327,10 +1327,10 @@
       "subtopic": "Characters",
       "question": "Who are the Marauders?",
       "options": [
-        "James, Sirius, Remus, Peter",
         "Harry, Ron, Hermione, Neville",
         "Fred, George, Lee Jordan",
-        "Draco, Crabbe, Goyle"
+        "Draco, Crabbe, Goyle",
+        "James, Sirius, Remus, Peter"
       ],
       "correct_answer": "James, Sirius, Remus, Peter",
       "difficulty": "medium"
@@ -1343,10 +1343,10 @@
       "subtopic": "Characters",
       "question": "What was James Potter's nickname?",
       "options": [
-        "Prongs",
         "Padfoot",
         "Moony",
-        "Wormtail"
+        "Wormtail",
+        "Prongs"
       ],
       "correct_answer": "Prongs",
       "difficulty": "medium"
@@ -1359,10 +1359,10 @@
       "subtopic": "Characters",
       "question": "What was Sirius Black's nickname?",
       "options": [
-        "Padfoot",
         "Prongs",
         "Moony",
-        "Wormtail"
+        "Wormtail",
+        "Padfoot"
       ],
       "correct_answer": "Padfoot",
       "difficulty": "medium"
@@ -1375,10 +1375,10 @@
       "subtopic": "Characters",
       "question": "What was Remus Lupin's nickname?",
       "options": [
-        "Moony",
         "Prongs",
         "Padfoot",
-        "Wormtail"
+        "Wormtail",
+        "Moony"
       ],
       "correct_answer": "Moony",
       "difficulty": "medium"
@@ -1391,10 +1391,10 @@
       "subtopic": "Characters",
       "question": "What was Peter Pettigrew's nickname?",
       "options": [
-        "Wormtail",
         "Prongs",
         "Padfoot",
-        "Moony"
+        "Moony",
+        "Wormtail"
       ],
       "correct_answer": "Wormtail",
       "difficulty": "medium"
@@ -1407,10 +1407,10 @@
       "subtopic": "Characters",
       "question": "Who is the Grey Lady?",
       "options": [
-        "Helena Ravenclaw",
         "Moaning Myrtle",
         "Rowena Ravenclaw",
-        "Sybill Trelawney"
+        "Sybill Trelawney",
+        "Helena Ravenclaw"
       ],
       "correct_answer": "Helena Ravenclaw",
       "difficulty": "medium"
@@ -1423,10 +1423,10 @@
       "subtopic": "Characters",
       "question": "Who is the Bloody Baron?",
       "options": [
-        "Slytherin house ghost",
         "Gryffindor house ghost",
         "Ravenclaw house ghost",
-        "Hufflepuff house ghost"
+        "Hufflepuff house ghost",
+        "Slytherin house ghost"
       ],
       "correct_answer": "Slytherin house ghost",
       "difficulty": "medium"
@@ -1439,10 +1439,10 @@
       "subtopic": "Characters",
       "question": "Who is the Fat Friar?",
       "options": [
-        "Hufflepuff house ghost",
         "Gryffindor house ghost",
         "Ravenclaw house ghost",
-        "Slytherin house ghost"
+        "Slytherin house ghost",
+        "Hufflepuff house ghost"
       ],
       "correct_answer": "Hufflepuff house ghost",
       "difficulty": "medium"
@@ -1455,10 +1455,10 @@
       "subtopic": "Characters",
       "question": "What is Tonks' first name?",
       "options": [
-        "Nymphadora",
         "Andromeda",
         "Bellatrix",
-        "Narcissa"
+        "Narcissa",
+        "Nymphadora"
       ],
       "correct_answer": "Nymphadora",
       "difficulty": "medium"
@@ -1471,10 +1471,10 @@
       "subtopic": "Characters",
       "question": "Who founded Gryffindor house?",
       "options": [
-        "Godric Gryffindor",
         "Rowena Ravenclaw",
         "Helga Hufflepuff",
-        "Salazar Slytherin"
+        "Salazar Slytherin",
+        "Godric Gryffindor"
       ],
       "correct_answer": "Godric Gryffindor",
       "difficulty": "easy"
@@ -1487,10 +1487,10 @@
       "subtopic": "Characters",
       "question": "Who founded Slytherin house?",
       "options": [
-        "Salazar Slytherin",
         "Godric Gryffindor",
         "Rowena Ravenclaw",
-        "Helga Hufflepuff"
+        "Helga Hufflepuff",
+        "Salazar Slytherin"
       ],
       "correct_answer": "Salazar Slytherin",
       "difficulty": "easy"
@@ -1503,10 +1503,10 @@
       "subtopic": "Characters",
       "question": "Who founded Ravenclaw house?",
       "options": [
-        "Rowena Ravenclaw",
         "Godric Gryffindor",
         "Helga Hufflepuff",
-        "Salazar Slytherin"
+        "Salazar Slytherin",
+        "Rowena Ravenclaw"
       ],
       "correct_answer": "Rowena Ravenclaw",
       "difficulty": "easy"
@@ -1519,10 +1519,10 @@
       "subtopic": "Characters",
       "question": "Who founded Hufflepuff house?",
       "options": [
-        "Helga Hufflepuff",
         "Godric Gryffindor",
         "Rowena Ravenclaw",
-        "Salazar Slytherin"
+        "Salazar Slytherin",
+        "Helga Hufflepuff"
       ],
       "correct_answer": "Helga Hufflepuff",
       "difficulty": "easy"
@@ -1535,10 +1535,10 @@
       "subtopic": "Characters",
       "question": "What is Fleur Delacour's heritage?",
       "options": [
-        "Part-Veela",
         "Part-Giant",
         "Pure-Blood",
-        "Metamorphmagus"
+        "Metamorphmagus",
+        "Part-Veela"
       ],
       "correct_answer": "Part-Veela",
       "difficulty": "medium"
@@ -1551,10 +1551,10 @@
       "subtopic": "Characters",
       "question": "Who does Fleur marry?",
       "options": [
-        "Bill Weasley",
         "Charlie Weasley",
         "Percy Weasley",
-        "Viktor Krum"
+        "Viktor Krum",
+        "Bill Weasley"
       ],
       "correct_answer": "Bill Weasley",
       "difficulty": "medium"
@@ -1567,10 +1567,10 @@
       "subtopic": "Characters",
       "question": "What is Hermione's Patronus?",
       "options": [
-        "Otter",
         "Cat",
         "Dog",
-        "Horse"
+        "Horse",
+        "Otter"
       ],
       "correct_answer": "Otter",
       "difficulty": "easy"
@@ -1583,10 +1583,10 @@
       "subtopic": "Characters",
       "question": "What is Lupin's Patronus?",
       "options": [
-        "Wolf",
         "Stag",
         "Doe",
-        "Hare"
+        "Hare",
+        "Wolf"
       ],
       "correct_answer": "Wolf",
       "difficulty": "medium"
@@ -1599,10 +1599,10 @@
       "subtopic": "Characters",
       "question": "What is Snape's Patronus?",
       "options": [
-        "Doe",
         "Stag",
         "Snake",
-        "Bat"
+        "Bat",
+        "Doe"
       ],
       "correct_answer": "Doe",
       "difficulty": "medium"
@@ -1615,10 +1615,10 @@
       "subtopic": "Characters",
       "question": "What is Dumbledore's Patronus?",
       "options": [
-        "Phoenix",
         "Stag",
         "Lion",
-        "Eagle"
+        "Eagle",
+        "Phoenix"
       ],
       "correct_answer": "Phoenix",
       "difficulty": "medium"
@@ -1631,10 +1631,10 @@
       "subtopic": "Characters",
       "question": "What is McGonagall's Patronus?",
       "options": [
-        "Cat",
         "Lion",
         "Owl",
-        "Horse"
+        "Horse",
+        "Cat"
       ],
       "correct_answer": "Cat",
       "difficulty": "medium"
@@ -1647,10 +1647,10 @@
       "subtopic": "Characters",
       "question": "What is Cho Chang's Patronus?",
       "options": [
-        "Swan",
         "Rabbit",
         "Horse",
-        "Otter"
+        "Otter",
+        "Swan"
       ],
       "correct_answer": "Swan",
       "difficulty": "medium"
@@ -1663,10 +1663,10 @@
       "subtopic": "Characters",
       "question": "What is Ginny's Patronus?",
       "options": [
-        "Horse",
         "Otter",
         "Cat",
-        "Dog"
+        "Dog",
+        "Horse"
       ],
       "correct_answer": "Horse",
       "difficulty": "medium"
@@ -1679,10 +1679,10 @@
       "subtopic": "Characters",
       "question": "What is Luna's Patronus?",
       "options": [
-        "Hare",
         "Rabbit",
         "Fox",
-        "Owl"
+        "Owl",
+        "Hare"
       ],
       "correct_answer": "Hare",
       "difficulty": "medium"
@@ -1695,10 +1695,10 @@
       "subtopic": "Characters",
       "question": "Who is Draco's mother?",
       "options": [
-        "Narcissa Malfoy",
         "Bellatrix Lestrange",
         "Andromeda Tonks",
-        "Walburga Black"
+        "Walburga Black",
+        "Narcissa Malfoy"
       ],
       "correct_answer": "Narcissa Malfoy",
       "difficulty": "medium"
@@ -1711,10 +1711,10 @@
       "subtopic": "Characters",
       "question": "Who is Draco's father?",
       "options": [
-        "Lucius Malfoy",
         "Abraxas Malfoy",
         "Rodolphus Lestrange",
-        "Antonin Dolohov"
+        "Antonin Dolohov",
+        "Lucius Malfoy"
       ],
       "correct_answer": "Lucius Malfoy",
       "difficulty": "easy"
@@ -1727,10 +1727,10 @@
       "subtopic": "Characters",
       "question": "What is Crabbe's first name?",
       "options": [
-        "Vincent",
         "Gregory",
         "Draco",
-        "Blaise"
+        "Blaise",
+        "Vincent"
       ],
       "correct_answer": "Vincent",
       "difficulty": "medium"
@@ -1743,10 +1743,10 @@
       "subtopic": "Characters",
       "question": "What is Goyle's first name?",
       "options": [
-        "Gregory",
         "Vincent",
         "Draco",
-        "Blaise"
+        "Blaise",
+        "Gregory"
       ],
       "correct_answer": "Gregory",
       "difficulty": "medium"
@@ -1759,10 +1759,10 @@
       "subtopic": "Characters",
       "question": "Who does Harry marry?",
       "options": [
-        "Ginny Weasley",
         "Cho Chang",
         "Hermione Granger",
-        "Luna Lovegood"
+        "Luna Lovegood",
+        "Ginny Weasley"
       ],
       "correct_answer": "Ginny Weasley",
       "difficulty": "easy"
@@ -1775,10 +1775,10 @@
       "subtopic": "Characters",
       "question": "Who does Hermione marry?",
       "options": [
-        "Ron Weasley",
         "Harry Potter",
         "Viktor Krum",
-        "Draco Malfoy"
+        "Draco Malfoy",
+        "Ron Weasley"
       ],
       "correct_answer": "Ron Weasley",
       "difficulty": "easy"
@@ -1791,10 +1791,10 @@
       "subtopic": "Characters",
       "question": "Who is Cedric Diggory's father?",
       "options": [
-        "Amos Diggory",
         "Arthur Weasley",
         "Lucius Malfoy",
-        "Xenophilius Lovegood"
+        "Xenophilius Lovegood",
+        "Amos Diggory"
       ],
       "correct_answer": "Amos Diggory",
       "difficulty": "medium"
@@ -1807,10 +1807,10 @@
       "subtopic": "Characters",
       "question": "What is Seamus Finnigan's talent?",
       "options": [
-        "Making things explode",
         "Quidditch",
         "Herbology",
-        "Divination"
+        "Divination",
+        "Making things explode"
       ],
       "correct_answer": "Making things explode",
       "difficulty": "medium"
@@ -1823,10 +1823,10 @@
       "subtopic": "Characters",
       "question": "Who does Neville marry?",
       "options": [
-        "Hannah Abbott",
         "Luna Lovegood",
         "Ginny Weasley",
-        "Cho Chang"
+        "Cho Chang",
+        "Hannah Abbott"
       ],
       "correct_answer": "Hannah Abbott",
       "difficulty": "medium"
@@ -1839,10 +1839,10 @@
       "subtopic": "Characters",
       "question": "Who does Luna marry?",
       "options": [
-        "Rolf Scamander",
         "Neville Longbottom",
         "Dean Thomas",
-        "Seamus Finnigan"
+        "Seamus Finnigan",
+        "Rolf Scamander"
       ],
       "correct_answer": "Rolf Scamander",
       "difficulty": "medium"
@@ -1855,10 +1855,10 @@
       "subtopic": "Characters",
       "question": "What is Dean Thomas' talent?",
       "options": [
-        "Drawing/Art",
         "Quidditch",
         "Herbology",
-        "Divination"
+        "Divination",
+        "Drawing/Art"
       ],
       "correct_answer": "Drawing/Art",
       "difficulty": "medium"
@@ -1871,10 +1871,10 @@
       "subtopic": "Characters",
       "question": "Who is Lavender Brown's love interest?",
       "options": [
-        "Ron Weasley (briefly)",
         "Harry Potter",
         "Seamus Finnigan",
-        "Dean Thomas"
+        "Dean Thomas",
+        "Ron Weasley (briefly)"
       ],
       "correct_answer": "Ron Weasley (briefly)",
       "difficulty": "medium"
@@ -1887,10 +1887,10 @@
       "subtopic": "Characters",
       "question": "What are Voldemort's snake's name?",
       "options": [
-        "Nagini",
         "Basilisk",
         "Fang",
-        "Norbert"
+        "Norbert",
+        "Nagini"
       ],
       "correct_answer": "Nagini",
       "difficulty": "easy"
@@ -1903,10 +1903,10 @@
       "subtopic": "Characters",
       "question": "What is Dumbledore's brother's name?",
       "options": [
-        "Aberforth",
         "Albert",
         "Alfred",
-        "Augustus"
+        "Augustus",
+        "Aberforth"
       ],
       "correct_answer": "Aberforth",
       "difficulty": "hard"
@@ -1919,10 +1919,10 @@
       "subtopic": "Characters",
       "question": "What is Neville's parents' fate?",
       "options": [
-        "Tortured into insanity",
         "Killed by Voldemort",
         "Disappeared",
-        "Imprisoned in Azkaban"
+        "Imprisoned in Azkaban",
+        "Tortured into insanity"
       ],
       "correct_answer": "Tortured into insanity",
       "difficulty": "hard"
@@ -1935,10 +1935,10 @@
       "subtopic": "Characters",
       "question": "Who tortured the Longbottoms?",
       "options": [
-        "Bellatrix, Barty Crouch Jr., and others",
         "Voldemort",
         "Lucius Malfoy",
-        "Peter Pettigrew"
+        "Peter Pettigrew",
+        "Bellatrix, Barty Crouch Jr., and others"
       ],
       "correct_answer": "Bellatrix, Barty Crouch Jr., and others",
       "difficulty": "hard"
@@ -1951,10 +1951,10 @@
       "subtopic": "Characters",
       "question": "What is the name of Harry's grandfather?",
       "options": [
-        "Fleamont Potter",
         "James Potter Sr.",
         "Henry Potter",
-        "Charlus Potter"
+        "Charlus Potter",
+        "Fleamont Potter"
       ],
       "correct_answer": "Fleamont Potter",
       "difficulty": "hard"
@@ -1967,10 +1967,10 @@
       "subtopic": "Characters",
       "question": "What is Slughorn's first name?",
       "options": [
-        "Horace",
         "Horatio",
         "Herbert",
-        "Harold"
+        "Harold",
+        "Horace"
       ],
       "correct_answer": "Horace",
       "difficulty": "medium"
@@ -1983,10 +1983,10 @@
       "subtopic": "Characters",
       "question": "Who killed Remus Lupin?",
       "options": [
-        "Antonin Dolohov",
         "Bellatrix Lestrange",
         "Fenrir Greyback",
-        "Voldemort"
+        "Voldemort",
+        "Antonin Dolohov"
       ],
       "correct_answer": "Antonin Dolohov",
       "difficulty": "hard"
@@ -1999,10 +1999,10 @@
       "subtopic": "Characters",
       "question": "Who killed Tonks?",
       "options": [
-        "Bellatrix Lestrange",
         "Antonin Dolohov",
         "Fenrir Greyback",
-        "Voldemort"
+        "Voldemort",
+        "Bellatrix Lestrange"
       ],
       "correct_answer": "Bellatrix Lestrange",
       "difficulty": "hard"
@@ -2015,10 +2015,10 @@
       "subtopic": "Characters",
       "question": "What is Filch's first name?",
       "options": [
-        "Argus",
         "Augustus",
         "Albert",
-        "Arthur"
+        "Arthur",
+        "Argus"
       ],
       "correct_answer": "Argus",
       "difficulty": "medium"
@@ -2031,10 +2031,10 @@
       "subtopic": "Characters",
       "question": "What is Mrs. Norris?",
       "options": [
-        "Cat",
         "Owl",
         "Rat",
-        "Toad"
+        "Toad",
+        "Cat"
       ],
       "correct_answer": "Cat",
       "difficulty": "easy"
@@ -2047,10 +2047,10 @@
       "subtopic": "Characters",
       "question": "Who killed Hedwig?",
       "options": [
-        "Death Eater",
         "Voldemort",
         "Bellatrix",
-        "Snape"
+        "Snape",
+        "Death Eater"
       ],
       "correct_answer": "Death Eater",
       "difficulty": "hard"
@@ -2063,10 +2063,10 @@
       "subtopic": "Characters",
       "question": "Who killed Mad-Eye Moody?",
       "options": [
-        "Voldemort",
         "Bellatrix Lestrange",
         "Severus Snape",
-        "Antonin Dolohov"
+        "Antonin Dolohov",
+        "Voldemort"
       ],
       "correct_answer": "Voldemort",
       "difficulty": "hard"
@@ -2079,10 +2079,10 @@
       "subtopic": "Characters",
       "question": "Who killed Fred Weasley?",
       "options": [
-        "Augustus Rookwood",
         "Bellatrix Lestrange",
         "Antonin Dolohov",
-        "Fenrir Greyback"
+        "Fenrir Greyback",
+        "Augustus Rookwood"
       ],
       "correct_answer": "Augustus Rookwood",
       "difficulty": "hard"
@@ -2095,10 +2095,10 @@
       "subtopic": "Characters",
       "question": "Who killed Dobby?",
       "options": [
-        "Bellatrix Lestrange",
         "Lucius Malfoy",
         "Voldemort",
-        "Wormtail"
+        "Wormtail",
+        "Bellatrix Lestrange"
       ],
       "correct_answer": "Bellatrix Lestrange",
       "difficulty": "medium"
@@ -2111,10 +2111,10 @@
       "subtopic": "Characters",
       "question": "What is Voldemort's father's name?",
       "options": [
-        "Tom Riddle Sr.",
         "Tom Riddle Jr.",
         "Marvolo Gaunt",
-        "Morfin Gaunt"
+        "Morfin Gaunt",
+        "Tom Riddle Sr."
       ],
       "correct_answer": "Tom Riddle Sr.",
       "difficulty": "medium"
@@ -2127,10 +2127,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates fire?",
       "options": [
-        "Incendio",
         "Aguamenti",
         "Lumos",
-        "Protego"
+        "Protego",
+        "Incendio"
       ],
       "correct_answer": "Incendio",
       "difficulty": "easy"
@@ -2143,10 +2143,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates water?",
       "options": [
-        "Aguamenti",
         "Incendio",
         "Finite",
-        "Protego"
+        "Protego",
+        "Aguamenti"
       ],
       "correct_answer": "Aguamenti",
       "difficulty": "easy"
@@ -2159,10 +2159,10 @@
       "subtopic": "Spells & Magic",
       "question": "What is the Freezing Charm?",
       "options": [
-        "Glacius",
         "Incendio",
         "Aguamenti",
-        "Protego"
+        "Protego",
+        "Glacius"
       ],
       "correct_answer": "Glacius",
       "difficulty": "medium"
@@ -2175,10 +2175,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell locks doors?",
       "options": [
-        "Colloportus",
         "Alohomora",
         "Protego",
-        "Finite"
+        "Finite",
+        "Colloportus"
       ],
       "correct_answer": "Colloportus",
       "difficulty": "easy"
@@ -2191,10 +2191,10 @@
       "subtopic": "Spells & Magic",
       "question": "What is the Stunning Spell?",
       "options": [
-        "Stupefy",
         "Expelliarmus",
         "Protego",
-        "Impedimenta"
+        "Impedimenta",
+        "Stupefy"
       ],
       "correct_answer": "Stupefy",
       "difficulty": "easy"
@@ -2207,10 +2207,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell causes pain (Cruciatus Curse)?",
       "options": [
-        "Crucio",
         "Avada Kedavra",
         "Imperio",
-        "Sectumsempra"
+        "Sectumsempra",
+        "Crucio"
       ],
       "correct_answer": "Crucio",
       "difficulty": "easy"
@@ -2223,10 +2223,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell controls victims (Imperius Curse)?",
       "options": [
-        "Imperio",
         "Crucio",
         "Avada Kedavra",
-        "Confundus"
+        "Confundus",
+        "Imperio"
       ],
       "correct_answer": "Imperio",
       "difficulty": "easy"
@@ -2239,10 +2239,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell reveals invisible ink?",
       "options": [
-        "Aparecium",
         "Revelio",
         "Specialis Revelio",
-        "Homenum Revelio"
+        "Homenum Revelio",
+        "Aparecium"
       ],
       "correct_answer": "Aparecium",
       "difficulty": "medium"
@@ -2255,10 +2255,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell banishes a Boggart?",
       "options": [
-        "Riddikulus",
         "Expecto Patronum",
         "Stupefy",
-        "Protego"
+        "Protego",
+        "Riddikulus"
       ],
       "correct_answer": "Riddikulus",
       "difficulty": "easy"
@@ -2271,10 +2271,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell reveals human presence?",
       "options": [
-        "Homenum Revelio",
         "Revelio",
         "Aparecium",
-        "Specialis Revelio"
+        "Specialis Revelio",
+        "Homenum Revelio"
       ],
       "correct_answer": "Homenum Revelio",
       "difficulty": "medium"
@@ -2287,10 +2287,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates a corporeal Patronus?",
       "options": [
-        "Expecto Patronum",
         "Riddikulus",
         "Protego",
-        "Expelliarmus"
+        "Expelliarmus",
+        "Expecto Patronum"
       ],
       "correct_answer": "Expecto Patronum",
       "difficulty": "easy"
@@ -2303,10 +2303,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell summons the Dark Mark?",
       "options": [
-        "Morsmordre",
         "Avada Kedavra",
         "Crucio",
-        "Protego"
+        "Protego",
+        "Morsmordre"
       ],
       "correct_answer": "Morsmordre",
       "difficulty": "medium"
@@ -2319,10 +2319,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell erases memories?",
       "options": [
-        "Obliviate",
         "Confundus",
         "Imperio",
-        "Stupefy"
+        "Stupefy",
+        "Obliviate"
       ],
       "correct_answer": "Obliviate",
       "difficulty": "easy"
@@ -2335,10 +2335,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell confuses people?",
       "options": [
-        "Confundus",
         "Obliviate",
         "Imperio",
-        "Stupefy"
+        "Stupefy",
+        "Confundus"
       ],
       "correct_answer": "Confundus",
       "difficulty": "medium"
@@ -2351,10 +2351,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell slows someone down?",
       "options": [
-        "Impedimenta",
         "Stupefy",
         "Protego",
-        "Finite"
+        "Finite",
+        "Impedimenta"
       ],
       "correct_answer": "Impedimenta",
       "difficulty": "easy"
@@ -2367,10 +2367,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell petrifies victims?",
       "options": [
-        "Petrificus Totalus",
         "Stupefy",
         "Impedimenta",
-        "Protego"
+        "Protego",
+        "Petrificus Totalus"
       ],
       "correct_answer": "Petrificus Totalus",
       "difficulty": "easy"
@@ -2383,10 +2383,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell ends other spells?",
       "options": [
-        "Finite Incantatem",
         "Protego",
         "Stupefy",
-        "Expelliarmus"
+        "Expelliarmus",
+        "Finite Incantatem"
       ],
       "correct_answer": "Finite Incantatem",
       "difficulty": "medium"
@@ -2399,10 +2399,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell multiplies objects?",
       "options": [
-        "Geminio",
         "Engorgio",
         "Reducio",
-        "Evanesco"
+        "Evanesco",
+        "Geminio"
       ],
       "correct_answer": "Geminio",
       "difficulty": "medium"
@@ -2415,10 +2415,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell enlarges objects?",
       "options": [
-        "Engorgio",
         "Reducio",
         "Geminio",
-        "Evanesco"
+        "Evanesco",
+        "Engorgio"
       ],
       "correct_answer": "Engorgio",
       "difficulty": "easy"
@@ -2431,10 +2431,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell shrinks objects?",
       "options": [
-        "Reducio",
         "Engorgio",
         "Geminio",
-        "Evanesco"
+        "Evanesco",
+        "Reducio"
       ],
       "correct_answer": "Reducio",
       "difficulty": "easy"
@@ -2447,10 +2447,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell vanishes objects?",
       "options": [
-        "Evanesco",
         "Reducio",
         "Geminio",
-        "Reparo"
+        "Reparo",
+        "Evanesco"
       ],
       "correct_answer": "Evanesco",
       "difficulty": "medium"
@@ -2463,10 +2463,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell summons a snake?",
       "options": [
-        "Serpensortia",
         "Avis",
         "Vermillious",
-        "Morsmordre"
+        "Morsmordre",
+        "Serpensortia"
       ],
       "correct_answer": "Serpensortia",
       "difficulty": "medium"
@@ -2479,10 +2479,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell summons birds?",
       "options": [
-        "Avis",
         "Serpensortia",
         "Vermillious",
-        "Aguamenti"
+        "Aguamenti",
+        "Avis"
       ],
       "correct_answer": "Avis",
       "difficulty": "medium"
@@ -2495,10 +2495,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell produces sparks?",
       "options": [
-        "Vermillious",
         "Incendio",
         "Lumos",
-        "Morsmordre"
+        "Morsmordre",
+        "Vermillious"
       ],
       "correct_answer": "Vermillious",
       "difficulty": "medium"
@@ -2511,10 +2511,10 @@
       "subtopic": "Spells & Magic",
       "question": "What is a memory charm?",
       "options": [
-        "Obliviate",
         "Legilimens",
         "Occlumens",
-        "Confundus"
+        "Confundus",
+        "Obliviate"
       ],
       "correct_answer": "Obliviate",
       "difficulty": "easy"
@@ -2527,10 +2527,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell reveals hidden objects?",
       "options": [
-        "Specialis Revelio",
         "Revelio",
         "Aparecium",
-        "Homenum Revelio"
+        "Homenum Revelio",
+        "Specialis Revelio"
       ],
       "correct_answer": "Specialis Revelio",
       "difficulty": "medium"
@@ -2543,10 +2543,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates a protective barrier?",
       "options": [
-        "Protego Totalum",
         "Protego",
         "Protego Maxima",
-        "Fianto Duri"
+        "Fianto Duri",
+        "Protego Totalum"
       ],
       "correct_answer": "Protego Totalum",
       "difficulty": "medium"
@@ -2559,10 +2559,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell strengthens barriers?",
       "options": [
-        "Fianto Duri",
         "Protego",
         "Repello",
-        "Protego Totalum"
+        "Protego Totalum",
+        "Fianto Duri"
       ],
       "correct_answer": "Fianto Duri",
       "difficulty": "hard"
@@ -2575,10 +2575,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell repels enemies?",
       "options": [
-        "Repello",
         "Protego",
         "Stupefy",
-        "Impedimenta"
+        "Impedimenta",
+        "Repello"
       ],
       "correct_answer": "Repello",
       "difficulty": "medium"
@@ -2591,10 +2591,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell causes deep cuts?",
       "options": [
-        "Sectumsempra",
         "Crucio",
         "Diffindo",
-        "Confringo"
+        "Confringo",
+        "Sectumsempra"
       ],
       "correct_answer": "Sectumsempra",
       "difficulty": "medium"
@@ -2607,10 +2607,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell cuts objects?",
       "options": [
-        "Diffindo",
         "Sectumsempra",
         "Reducto",
-        "Confringo"
+        "Confringo",
+        "Diffindo"
       ],
       "correct_answer": "Diffindo",
       "difficulty": "medium"
@@ -2623,10 +2623,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell blasts objects apart?",
       "options": [
-        "Reducto",
         "Bombarda",
         "Confringo",
-        "Expulso"
+        "Expulso",
+        "Reducto"
       ],
       "correct_answer": "Reducto",
       "difficulty": "medium"
@@ -2639,10 +2639,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates explosions?",
       "options": [
-        "Bombarda",
         "Reducto",
         "Confringo",
-        "Expulso"
+        "Expulso",
+        "Bombarda"
       ],
       "correct_answer": "Bombarda",
       "difficulty": "medium"
@@ -2655,10 +2655,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates cursed fire?",
       "options": [
-        "Fiendfyre",
         "Incendio",
         "Confringo",
-        "Bombarda"
+        "Bombarda",
+        "Fiendfyre"
       ],
       "correct_answer": "Fiendfyre",
       "difficulty": "hard"
@@ -2671,10 +2671,10 @@
       "subtopic": "Spells & Magic",
       "question": "What is the Blasting Curse?",
       "options": [
-        "Confringo",
         "Bombarda",
         "Reducto",
-        "Expulso"
+        "Expulso",
+        "Confringo"
       ],
       "correct_answer": "Confringo",
       "difficulty": "medium"
@@ -2687,10 +2687,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell makes things fly away?",
       "options": [
-        "Depulso",
         "Accio",
         "Wingardium Leviosa",
-        "Expulso"
+        "Expulso",
+        "Depulso"
       ],
       "correct_answer": "Depulso",
       "difficulty": "medium"
@@ -2703,10 +2703,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates a whip of fire?",
       "options": [
-        "Flagrante",
         "Incendio",
         "Confringo",
-        "Fiendfyre"
+        "Fiendfyre",
+        "Flagrante"
       ],
       "correct_answer": "Flagrante",
       "difficulty": "hard"
@@ -2719,10 +2719,10 @@
       "subtopic": "Spells & Magic",
       "question": "What spell heals minor injuries?",
       "options": [
-        "Episkey",
         "Vulnera Sanentur",
         "Tergeo",
-        "Reparo"
+        "Reparo",
+        "Episkey"
       ],
       "correct_answer": "Episkey",
       "difficulty": "medium"
@@ -2735,8 +2735,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell heals serious injuries?",
       "options": [
-        "Vulnera Sanentur",
         "Episkey",
+        "Vulnera Sanentur",
         "Tergeo",
         "Reparo"
       ],
@@ -2751,8 +2751,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell cleans things?",
       "options": [
-        "Tergeo",
         "Scourgify",
+        "Tergeo",
         "Reparo",
         "Evanesco"
       ],
@@ -2767,8 +2767,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell cleans extensively?",
       "options": [
-        "Scourgify",
         "Tergeo",
+        "Scourgify",
         "Reparo",
         "Evanesco"
       ],
@@ -2783,8 +2783,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell packs trunks?",
       "options": [
-        "Pack",
         "Mobiliarbus",
+        "Pack",
         "Locomotor",
         "Accio"
       ],
@@ -2799,8 +2799,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell moves trees?",
       "options": [
-        "Mobiliarbus",
         "Locomotor",
+        "Mobiliarbus",
         "Accio",
         "Depulso"
       ],
@@ -2815,8 +2815,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell levitates objects directionally?",
       "options": [
-        "Locomotor",
         "Wingardium Leviosa",
+        "Locomotor",
         "Accio",
         "Mobiliarbus"
       ],
@@ -2831,8 +2831,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell silences people?",
       "options": [
-        "Silencio",
         "Muffliato",
+        "Silencio",
         "Langlock",
         "Stupefy"
       ],
@@ -2847,8 +2847,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates a buzzing in ears?",
       "options": [
-        "Muffliato",
         "Silencio",
+        "Muffliato",
         "Sonorus",
         "Quietus"
       ],
@@ -2863,8 +2863,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell amplifies voice?",
       "options": [
-        "Sonorus",
         "Quietus",
+        "Sonorus",
         "Muffliato",
         "Silencio"
       ],
@@ -2879,8 +2879,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell quiets voice?",
       "options": [
-        "Quietus",
         "Sonorus",
+        "Quietus",
         "Silencio",
         "Muffliato"
       ],
@@ -2895,8 +2895,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell glues tongue to roof of mouth?",
       "options": [
-        "Langlock",
         "Silencio",
+        "Langlock",
         "Muffliato",
         "Stupefy"
       ],
@@ -2911,8 +2911,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates a bandage?",
       "options": [
-        "Ferula",
         "Episkey",
+        "Ferula",
         "Tergeo",
         "Reparo"
       ],
@@ -2927,8 +2927,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell conjures a stretcher?",
       "options": [
-        "Mobilicorpus",
         "Locomotor",
+        "Mobilicorpus",
         "Ferula",
         "Rennervate"
       ],
@@ -2943,8 +2943,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell revives from stunning?",
       "options": [
-        "Rennervate",
         "Enervate",
+        "Rennervate",
         "Episkey",
         "Finite"
       ],
@@ -2959,8 +2959,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates rope?",
       "options": [
-        "Incarcerous",
         "Ferula",
+        "Incarcerous",
         "Conjunctivitis",
         "Oppugno"
       ],
@@ -2975,8 +2975,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell attacks with conjured objects?",
       "options": [
-        "Oppugno",
         "Incarcerous",
+        "Oppugno",
         "Confringo",
         "Expulso"
       ],
@@ -2991,8 +2991,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell tickles?",
       "options": [
-        "Rictusempra",
         "Tarantallegra",
+        "Rictusempra",
         "Titillando",
         "Stupefy"
       ],
@@ -3007,8 +3007,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell forces dancing?",
       "options": [
-        "Tarantallegra",
         "Rictusempra",
+        "Tarantallegra",
         "Titillando",
         "Imperio"
       ],
@@ -3023,8 +3023,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates darkness?",
       "options": [
-        "Peruvian Instant Darkness Powder (item not spell)",
         "Nox",
+        "Peruvian Instant Darkness Powder (item not spell)",
         "Obscuro",
         "Tenebris"
       ],
@@ -3039,8 +3039,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell blindfolds?",
       "options": [
-        "Obscuro",
         "Nox",
+        "Obscuro",
         "Conjunctivitis",
         "Stupefy"
       ],
@@ -3055,8 +3055,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell hurts eyes?",
       "options": [
-        "Conjunctivitis Curse",
         "Obscuro",
+        "Conjunctivitis Curse",
         "Crucio",
         "Sectumsempra"
       ],
@@ -3071,8 +3071,8 @@
       "subtopic": "Spells & Magic",
       "question": "What is Legilimency?",
       "options": [
-        "Reading minds",
         "Memory charm",
+        "Reading minds",
         "Protective charm",
         "Healing spell"
       ],
@@ -3087,8 +3087,8 @@
       "subtopic": "Spells & Magic",
       "question": "What is Occlumency?",
       "options": [
-        "Blocking mind reading",
         "Reading minds",
+        "Blocking mind reading",
         "Memory charm",
         "Invisibility"
       ],
@@ -3103,8 +3103,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell creates a Fidelius Charm?",
       "options": [
-        "Fidelius (complex charm)",
         "Protego",
+        "Fidelius (complex charm)",
         "Protego Totalum",
         "Fianto Duri"
       ],
@@ -3119,8 +3119,8 @@
       "subtopic": "Spells & Magic",
       "question": "What makes an Unbreakable Vow binding?",
       "options": [
-        "Magic binding on life",
         "Wands",
+        "Magic binding on life",
         "Blood",
         "Intent"
       ],
@@ -3135,8 +3135,8 @@
       "subtopic": "Spells & Magic",
       "question": "What spell counters Avada Kedavra?",
       "options": [
-        "None (no direct counter)",
         "Protego",
+        "None (no direct counter)",
         "Expelliarmus",
         "Finite"
       ],
@@ -3151,8 +3151,8 @@
       "subtopic": "Spells & Magic",
       "question": "What potion grants luck?",
       "options": [
-        "Felix Felicis",
         "Veritaserum",
+        "Felix Felicis",
         "Polyjuice",
         "Amortentia"
       ],
@@ -3167,8 +3167,8 @@
       "subtopic": "Spells & Magic",
       "question": "What potion reveals truth?",
       "options": [
-        "Veritaserum",
         "Felix Felicis",
+        "Veritaserum",
         "Polyjuice",
         "Amortentia"
       ],
@@ -3183,8 +3183,8 @@
       "subtopic": "Hogwarts",
       "question": "What are Hogwarts' house colors for Gryffindor?",
       "options": [
-        "Red and Gold",
         "Blue and Bronze",
+        "Red and Gold",
         "Yellow and Black",
         "Green and Silver"
       ],
@@ -3199,8 +3199,8 @@
       "subtopic": "Hogwarts",
       "question": "What are Slytherin's house colors?",
       "options": [
-        "Green and Silver",
         "Red and Gold",
+        "Green and Silver",
         "Blue and Bronze",
         "Yellow and Black"
       ],
@@ -3215,8 +3215,8 @@
       "subtopic": "Hogwarts",
       "question": "What are Ravenclaw's house colors?",
       "options": [
-        "Blue and Bronze",
         "Red and Gold",
+        "Blue and Bronze",
         "Green and Silver",
         "Yellow and Black"
       ],
@@ -3231,8 +3231,8 @@
       "subtopic": "Hogwarts",
       "question": "What are Hufflepuff's house colors?",
       "options": [
-        "Yellow and Black",
         "Red and Gold",
+        "Yellow and Black",
         "Green and Silver",
         "Blue and Bronze"
       ],
@@ -3247,8 +3247,8 @@
       "subtopic": "Hogwarts",
       "question": "What is Gryffindor's mascot?",
       "options": [
-        "Lion",
         "Snake",
+        "Lion",
         "Eagle",
         "Badger"
       ],
@@ -3263,8 +3263,8 @@
       "subtopic": "Hogwarts",
       "question": "What is Slytherin's mascot?",
       "options": [
-        "Snake",
         "Lion",
+        "Snake",
         "Eagle",
         "Badger"
       ],
@@ -3279,8 +3279,8 @@
       "subtopic": "Hogwarts",
       "question": "What is Ravenclaw's mascot?",
       "options": [
-        "Eagle",
         "Lion",
+        "Eagle",
         "Snake",
         "Badger"
       ],
@@ -3295,8 +3295,8 @@
       "subtopic": "Hogwarts",
       "question": "What is Hufflepuff's mascot?",
       "options": [
-        "Badger",
         "Lion",
+        "Badger",
         "Snake",
         "Eagle"
       ],
@@ -3311,8 +3311,8 @@
       "subtopic": "Hogwarts",
       "question": "How do students get to Hogwarts?",
       "options": [
-        "Hogwarts Express",
         "Portkey",
+        "Hogwarts Express",
         "Floo Powder",
         "Apparition"
       ],
@@ -3327,8 +3327,8 @@
       "subtopic": "Hogwarts",
       "question": "What station does the Hogwarts Express leave from?",
       "options": [
-        "King's Cross",
         "Paddington",
+        "King's Cross",
         "Victoria",
         "Waterloo"
       ],
@@ -3343,8 +3343,8 @@
       "subtopic": "Hogwarts",
       "question": "What are the moving staircases called?",
       "options": [
-        "Moving staircases",
         "Magic stairs",
+        "Moving staircases",
         "Shifting steps",
         "Wandering ways"
       ],
@@ -3359,8 +3359,8 @@
       "subtopic": "Hogwarts",
       "question": "What subjects are taught at Hogwarts?",
       "options": [
-        "Many including Potions, Charms, etc",
         "Only magic",
+        "Many including Potions, Charms, etc",
         "Only Defense",
         "Reading and Math"
       ],
@@ -3375,8 +3375,8 @@
       "subtopic": "Hogwarts",
       "question": "Who is the caretaker?",
       "options": [
-        "Argus Filch",
         "Rubeus Hagrid",
+        "Argus Filch",
         "Albus Dumbledore",
         "Severus Snape"
       ],
@@ -3391,8 +3391,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the school nurse's name?",
       "options": [
-        "Madam Pomfrey",
         "Madam Hooch",
+        "Madam Pomfrey",
         "Madam Pince",
         "Madam Rosmerta"
       ],
@@ -3407,8 +3407,8 @@
       "subtopic": "Hogwarts",
       "question": "Who is the librarian?",
       "options": [
-        "Madam Pince",
         "Madam Pomfrey",
+        "Madam Pince",
         "Madam Hooch",
         "Madam Rosmerta"
       ],
@@ -3423,8 +3423,8 @@
       "subtopic": "Hogwarts",
       "question": "Who is the flying instructor?",
       "options": [
-        "Madam Hooch",
         "Madam Pomfrey",
+        "Madam Hooch",
         "Madam Pince",
         "Madam Rosmerta"
       ],
@@ -3439,8 +3439,8 @@
       "subtopic": "Hogwarts",
       "question": "What year do students start Hogwarts?",
       "options": [
-        "Age 11 (First Year)",
         "Age 10",
+        "Age 11 (First Year)",
         "Age 12",
         "Age 13"
       ],
@@ -3455,8 +3455,8 @@
       "subtopic": "Hogwarts",
       "question": "How many years do students attend?",
       "options": [
-        "7 years",
         "5 years",
+        "7 years",
         "6 years",
         "8 years"
       ],
@@ -3471,8 +3471,8 @@
       "subtopic": "Hogwarts",
       "question": "What are O.W.L.s?",
       "options": [
-        "Ordinary Wizarding Levels (exams)",
         "Owls (birds)",
+        "Ordinary Wizarding Levels (exams)",
         "Magical creatures",
         "Spells"
       ],
@@ -3487,8 +3487,8 @@
       "subtopic": "Hogwarts",
       "question": "What are N.E.W.T.s?",
       "options": [
-        "Nastily Exhausting Wizarding Tests",
         "Newts (creatures)",
+        "Nastily Exhausting Wizarding Tests",
         "Advanced spells",
         "Potions"
       ],
@@ -3503,8 +3503,8 @@
       "subtopic": "Hogwarts",
       "question": "Where is the Gryffindor common room?",
       "options": [
-        "Tower",
         "Dungeon",
+        "Tower",
         "Ground floor",
         "Basement"
       ],
@@ -3519,8 +3519,8 @@
       "subtopic": "Hogwarts",
       "question": "Where is the Slytherin common room?",
       "options": [
-        "Dungeon",
         "Tower",
+        "Dungeon",
         "Ground floor",
         "Upper floor"
       ],
@@ -3535,8 +3535,8 @@
       "subtopic": "Hogwarts",
       "question": "What must you say to enter Gryffindor common room?",
       "options": [
-        "Password to portrait",
         "Riddle answer",
+        "Password to portrait",
         "Tap barrels",
         "Just knock"
       ],
@@ -3551,8 +3551,8 @@
       "subtopic": "Hogwarts",
       "question": "How do you enter the Ravenclaw common room?",
       "options": [
-        "Answer a riddle",
         "Password",
+        "Answer a riddle",
         "Tap pattern",
         "Just knock"
       ],
@@ -3567,8 +3567,8 @@
       "subtopic": "Hogwarts",
       "question": "How do you enter the Hufflepuff common room?",
       "options": [
-        "Tap barrels in pattern",
         "Password",
+        "Tap barrels in pattern",
         "Answer riddle",
         "Just knock"
       ],
@@ -3583,8 +3583,8 @@
       "subtopic": "Hogwarts",
       "question": "How do you enter the Slytherin common room?",
       "options": [
-        "Password to wall",
         "Answer riddle",
+        "Password to wall",
         "Tap barrels",
         "Just knock"
       ],
@@ -3599,8 +3599,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the Room of Requirement?",
       "options": [
-        "Room that appears when needed",
         "Dumbledore's office",
+        "Room that appears when needed",
         "Library",
         "Great Hall"
       ],
@@ -3615,8 +3615,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the Chamber of Secrets?",
       "options": [
-        "Hidden chamber under school",
         "Dumbledore's office",
+        "Hidden chamber under school",
         "Secret library",
         "Forbidden Forest"
       ],
@@ -3631,8 +3631,8 @@
       "subtopic": "Hogwarts",
       "question": "Where is the Astronomy Tower?",
       "options": [
-        "Highest tower",
         "Lowest dungeon",
+        "Highest tower",
         "Middle floor",
         "East wing"
       ],
@@ -3647,8 +3647,8 @@
       "subtopic": "Hogwarts",
       "question": "What is in the Forbidden Forest?",
       "options": [
-        "Dangerous magical creatures",
         "Nothing",
+        "Dangerous magical creatures",
         "Treasure",
         "Classroom"
       ],
@@ -3663,8 +3663,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the name of the Hogwarts gamekeeper?",
       "options": [
-        "Rubeus Hagrid",
         "Argus Filch",
+        "Rubeus Hagrid",
         "Severus Snape",
         "Remus Lupin"
       ],
@@ -3679,8 +3679,8 @@
       "subtopic": "Hogwarts",
       "question": "What does Dumbledore's office password change to?",
       "options": [
-        "Various candy names",
         "Always same",
+        "Various candy names",
         "Random words",
         "Never changes"
       ],
@@ -3695,8 +3695,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the Whomping Willow?",
       "options": [
-        "Violent tree on grounds",
         "Peaceful tree",
+        "Violent tree on grounds",
         "Magical plant",
         "Building"
       ],
@@ -3711,8 +3711,8 @@
       "subtopic": "Hogwarts",
       "question": "What stops the Whomping Willow?",
       "options": [
-        "Pressing a knot",
         "Saying a spell",
+        "Pressing a knot",
         "Flying over it",
         "Nothing"
       ],
@@ -3727,8 +3727,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the Shrieking Shack?",
       "options": [
-        "Abandoned building (thought haunted)",
         "Hagrid's hut",
+        "Abandoned building (thought haunted)",
         "Dumbledore's house",
         "Shop"
       ],
@@ -3743,8 +3743,8 @@
       "subtopic": "Hogwarts",
       "question": "What connects the Whomping Willow to the Shrieking Shack?",
       "options": [
-        "Secret tunnel",
         "Above ground path",
+        "Secret tunnel",
         "Portkey",
         "Nothing"
       ],
@@ -3759,8 +3759,8 @@
       "subtopic": "Hogwarts",
       "question": "What subject does Lupin teach?",
       "options": [
-        "Defense Against Dark Arts",
         "Potions",
+        "Defense Against Dark Arts",
         "Transfiguration",
         "Charms"
       ],
@@ -3775,8 +3775,8 @@
       "subtopic": "Hogwarts",
       "question": "What subject does Trelawney teach?",
       "options": [
-        "Divination",
         "Astronomy",
+        "Divination",
         "Ancient Runes",
         "Arithmancy"
       ],
@@ -3791,8 +3791,8 @@
       "subtopic": "Hogwarts",
       "question": "What subject does Firenze teach?",
       "options": [
-        "Divination",
         "Astronomy",
+        "Divination",
         "Herbology",
         "Care of Magical Creatures"
       ],
@@ -3807,8 +3807,8 @@
       "subtopic": "Hogwarts",
       "question": "What subject does Sinistra teach?",
       "options": [
-        "Astronomy",
         "Divination",
+        "Astronomy",
         "Ancient Runes",
         "Arithmancy"
       ],
@@ -3823,8 +3823,8 @@
       "subtopic": "Hogwarts",
       "question": "What subject does Vector teach?",
       "options": [
-        "Arithmancy",
         "Ancient Runes",
+        "Arithmancy",
         "Astronomy",
         "Divination"
       ],
@@ -3839,8 +3839,8 @@
       "subtopic": "Hogwarts",
       "question": "What subject does Babbling teach?",
       "options": [
-        "Ancient Runes",
         "Arithmancy",
+        "Ancient Runes",
         "Astronomy",
         "Divination"
       ],
@@ -3855,8 +3855,8 @@
       "subtopic": "Hogwarts",
       "question": "Who teaches History of Magic?",
       "options": [
-        "Professor Binns (ghost)",
         "Professor McGonagall",
+        "Professor Binns (ghost)",
         "Professor Flitwick",
         "Professor Snape"
       ],
@@ -3871,8 +3871,8 @@
       "subtopic": "Hogwarts",
       "question": "What is special about Professor Binns?",
       "options": [
-        "He's a ghost",
         "He's a centaur",
+        "He's a ghost",
         "He's a werewolf",
         "He's a vampire"
       ],
@@ -3887,8 +3887,8 @@
       "subtopic": "Hogwarts",
       "question": "What creatures pull the Hogwarts carriages?",
       "options": [
-        "Thestrals",
         "Horses",
+        "Thestrals",
         "Hippogriffs",
         "Dragons"
       ],
@@ -3903,8 +3903,8 @@
       "subtopic": "Hogwarts",
       "question": "Who can see Thestrals?",
       "options": [
-        "Those who've witnessed death",
         "Everyone",
+        "Those who've witnessed death",
         "No one",
         "Only teachers"
       ],
@@ -3919,8 +3919,8 @@
       "subtopic": "Hogwarts",
       "question": "What does McGonagall transform into?",
       "options": [
-        "Tabby cat",
         "Lion",
+        "Tabby cat",
         "Dog",
         "Owl"
       ],
@@ -3935,8 +3935,8 @@
       "subtopic": "Hogwarts",
       "question": "What is an Animagus?",
       "options": [
-        "Wizard who transforms into animal",
         "Magical creature",
+        "Wizard who transforms into animal",
         "Spell",
         "Potion"
       ],
@@ -3951,8 +3951,8 @@
       "subtopic": "Hogwarts",
       "question": "Do Animagi need to register?",
       "options": [
-        "Yes, with Ministry",
         "No",
+        "Yes, with Ministry",
         "Only sometimes",
         "Only if caught"
       ],
@@ -3967,8 +3967,8 @@
       "subtopic": "Hogwarts",
       "question": "What is Slughorn's club called?",
       "options": [
-        "Slug Club",
         "Potions Club",
+        "Slug Club",
         "Elite Club",
         "Slytherin Club"
       ],
@@ -3983,8 +3983,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the exact number of Hogwarts students?",
       "options": [
-        "About 1000 (not exact)",
         "500",
+        "About 1000 (not exact)",
         "2000",
         "Varies"
       ],
@@ -3999,8 +3999,8 @@
       "subtopic": "Hogwarts",
       "question": "When was Hogwarts founded?",
       "options": [
-        "Around 990 AD",
         "1000 AD",
+        "Around 990 AD",
         "900 AD",
         "1100 AD"
       ],
@@ -4015,8 +4015,8 @@
       "subtopic": "Hogwarts",
       "question": "What is Hogwarts' location hidden by?",
       "options": [
-        "Muggle-Repelling Charms",
         "Invisibility",
+        "Muggle-Repelling Charms",
         "Underground",
         "Portkeys"
       ],
@@ -4031,8 +4031,8 @@
       "subtopic": "Hogwarts",
       "question": "What do Muggles see instead of Hogwarts?",
       "options": [
-        "Ruins with danger signs",
         "Nothing",
+        "Ruins with danger signs",
         "Normal school",
         "Forest"
       ],
@@ -4047,8 +4047,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the Latin motto translation?",
       "options": [
-        "Never Tickle a Sleeping Dragon",
         "Always Be Brave",
+        "Never Tickle a Sleeping Dragon",
         "Magic Forever",
         "Learn and Grow"
       ],
@@ -4063,8 +4063,8 @@
       "subtopic": "Hogwarts",
       "question": "Who built the Chamber of Secrets?",
       "options": [
-        "Salazar Slytherin",
         "Godric Gryffindor",
+        "Salazar Slytherin",
         "Rowena Ravenclaw",
         "Helga Hufflepuff"
       ],
@@ -4079,8 +4079,8 @@
       "subtopic": "Hogwarts",
       "question": "What is the Marauder's Map?",
       "options": [
-        "Magical map of Hogwarts",
         "Treasure map",
+        "Magical map of Hogwarts",
         "Book",
         "Spell"
       ],
@@ -4095,8 +4095,8 @@
       "subtopic": "Hogwarts",
       "question": "Who created the Marauder's Map?",
       "options": [
-        "Moony, Wormtail, Padfoot, Prongs",
         "Dumbledore",
+        "Moony, Wormtail, Padfoot, Prongs",
         "Fred and George",
         "Harry"
       ],
@@ -4111,8 +4111,8 @@
       "subtopic": "Hogwarts",
       "question": "How do you close the Marauder's Map?",
       "options": [
-        "Mischief Managed",
         "Alohomora",
+        "Mischief Managed",
         "Nox",
         "Close Map"
       ],
@@ -4127,8 +4127,8 @@
       "subtopic": "Hogwarts",
       "question": "How do you open the Marauder's Map?",
       "options": [
-        "I solemnly swear I am up to no good",
         "Alohomora",
+        "I solemnly swear I am up to no good",
         "Lumos",
         "Open"
       ],
@@ -4143,8 +4143,8 @@
       "subtopic": "Books & Plot",
       "question": "What is the first Harry Potter book?",
       "options": [
-        "Philosopher's/Sorcerer's Stone",
         "Chamber of Secrets",
+        "Philosopher's/Sorcerer's Stone",
         "Prisoner of Azkaban",
         "Goblet of Fire"
       ],
@@ -4159,8 +4159,8 @@
       "subtopic": "Books & Plot",
       "question": "What is the second book?",
       "options": [
-        "Chamber of Secrets",
         "Philosopher's Stone",
+        "Chamber of Secrets",
         "Prisoner of Azkaban",
         "Goblet of Fire"
       ],
@@ -4175,8 +4175,8 @@
       "subtopic": "Books & Plot",
       "question": "What is the third book?",
       "options": [
-        "Prisoner of Azkaban",
         "Goblet of Fire",
+        "Prisoner of Azkaban",
         "Order of Phoenix",
         "Half-Blood Prince"
       ],
@@ -4191,8 +4191,8 @@
       "subtopic": "Books & Plot",
       "question": "What is the fourth book?",
       "options": [
-        "Goblet of Fire",
         "Order of Phoenix",
+        "Goblet of Fire",
         "Half-Blood Prince",
         "Deathly Hallows"
       ],
@@ -4207,8 +4207,8 @@
       "subtopic": "Books & Plot",
       "question": "What is the fifth book?",
       "options": [
-        "Order of the Phoenix",
         "Half-Blood Prince",
+        "Order of the Phoenix",
         "Deathly Hallows",
         "Goblet of Fire"
       ],
@@ -4223,8 +4223,8 @@
       "subtopic": "Books & Plot",
       "question": "What is the sixth book?",
       "options": [
-        "Half-Blood Prince",
         "Deathly Hallows",
+        "Half-Blood Prince",
         "Order of Phoenix",
         "Goblet of Fire"
       ],
@@ -4239,8 +4239,8 @@
       "subtopic": "Books & Plot",
       "question": "What is the seventh book?",
       "options": [
-        "Deathly Hallows",
         "Half-Blood Prince",
+        "Deathly Hallows",
         "Order of Phoenix",
         "Cursed Child"
       ],
@@ -4255,8 +4255,8 @@
       "subtopic": "Books & Plot",
       "question": "What is Harry's scar shaped like?",
       "options": [
-        "Lightning bolt",
         "Circle",
+        "Lightning bolt",
         "Star",
         "Crescent"
       ],
@@ -4271,8 +4271,8 @@
       "subtopic": "Books & Plot",
       "question": "Where did Harry live before Hogwarts?",
       "options": [
-        "Cupboard under the stairs",
         "Attic",
+        "Cupboard under the stairs",
         "Garage",
         "Basement"
       ],
@@ -4287,8 +4287,8 @@
       "subtopic": "Books & Plot",
       "question": "Who are Harry's aunt and uncle?",
       "options": [
-        "Vernon and Petunia Dursley",
         "Arthur and Molly Weasley",
+        "Vernon and Petunia Dursley",
         "James and Lily Potter",
         "Lucius and Narcissa Malfoy"
       ],
@@ -4303,8 +4303,8 @@
       "subtopic": "Books & Plot",
       "question": "What is Harry's cousin's name?",
       "options": [
-        "Dudley",
         "Vernon",
+        "Dudley",
         "Derek",
         "Dennis"
       ],
@@ -4319,8 +4319,8 @@
       "subtopic": "Books & Plot",
       "question": "What does Harry get for his 11th birthday?",
       "options": [
-        "Letter from Hogwarts (and Hagrid)",
         "Cake",
+        "Letter from Hogwarts (and Hagrid)",
         "Owl",
         "Wand"
       ],
@@ -4335,8 +4335,8 @@
       "subtopic": "Books & Plot",
       "question": "Who rescues Harry from the Dursleys?",
       "options": [
-        "Hagrid",
         "Dumbledore",
+        "Hagrid",
         "Ron",
         "Hermione"
       ],
@@ -4351,8 +4351,8 @@
       "subtopic": "Books & Plot",
       "question": "What does Harry buy in Diagon Alley?",
       "options": [
-        "School supplies, wand, owl",
         "Just wand",
+        "School supplies, wand, owl",
         "Just books",
         "Just robes"
       ],
@@ -4367,8 +4367,8 @@
       "subtopic": "Books & Plot",
       "question": "What is hidden in Gringotts?",
       "options": [
-        "Philosopher's Stone (initially)",
         "Sword",
+        "Philosopher's Stone (initially)",
         "Treasure",
         "Books"
       ],
@@ -4383,8 +4383,8 @@
       "subtopic": "Books & Plot",
       "question": "What protects the Philosopher's Stone?",
       "options": [
-        "Various magical protections",
         "Just Fluffy",
+        "Various magical protections",
         "Nothing",
         "Dumbledore alone"
       ],
@@ -4399,8 +4399,8 @@
       "subtopic": "Books & Plot",
       "question": "Who tries to steal the Stone?",
       "options": [
-        "Quirrell/Voldemort",
         "Snape",
+        "Quirrell/Voldemort",
         "Malfoy",
         "Lockhart"
       ],
@@ -4415,8 +4415,8 @@
       "subtopic": "Books & Plot",
       "question": "What creature is in the girls' bathroom?",
       "options": [
-        "Basilisk (Chamber)",
         "Troll (first book)",
+        "Basilisk (Chamber)",
         "Ghost",
         "Cat"
       ],
@@ -4431,8 +4431,8 @@
       "subtopic": "Books & Plot",
       "question": "What is Tom Riddle's diary?",
       "options": [
-        "Horcrux",
         "Regular diary",
+        "Horcrux",
         "Spellbook",
         "Map"
       ],
@@ -4447,8 +4447,8 @@
       "subtopic": "Books & Plot",
       "question": "How does Harry destroy the diary?",
       "options": [
-        "Basilisk fang",
         "Sword",
+        "Basilisk fang",
         "Spell",
         "Fire"
       ],
@@ -4463,8 +4463,8 @@
       "subtopic": "Books & Plot",
       "question": "Who is the Prisoner of Azkaban?",
       "options": [
-        "Sirius Black",
         "Lupin",
+        "Sirius Black",
         "Peter Pettigrew",
         "Snape"
       ],
@@ -4479,8 +4479,8 @@
       "subtopic": "Books & Plot",
       "question": "Who is really the traitor?",
       "options": [
-        "Peter Pettigrew",
         "Sirius",
+        "Peter Pettigrew",
         "Lupin",
         "Snape"
       ],
@@ -4495,8 +4495,8 @@
       "subtopic": "Books & Plot",
       "question": "What is Sirius' animagus form?",
       "options": [
-        "Dog",
         "Cat",
+        "Dog",
         "Rat",
         "Stag"
       ],
@@ -4511,8 +4511,8 @@
       "subtopic": "Books & Plot",
       "question": "What is the Triwizard Tournament?",
       "options": [
-        "Magical competition",
         "Quidditch match",
+        "Magical competition",
         "Exam",
         "Duel"
       ],
@@ -4527,8 +4527,8 @@
       "subtopic": "Books & Plot",
       "question": "Who puts Harry's name in the Goblet?",
       "options": [
-        "Barty Crouch Jr.",
         "Voldemort",
+        "Barty Crouch Jr.",
         "Malfoy",
         "Karkaroff"
       ],
@@ -4543,8 +4543,8 @@
       "subtopic": "Books & Plot",
       "question": "Who wins the Triwizard Tournament?",
       "options": [
-        "Harry and Cedric tie",
         "Harry alone",
+        "Harry and Cedric tie",
         "Cedric alone",
         "Krum"
       ],
@@ -4559,8 +4559,8 @@
       "subtopic": "Books & Plot",
       "question": "Who dies in the graveyard?",
       "options": [
-        "Cedric Diggory",
         "Barty Crouch Sr.",
+        "Cedric Diggory",
         "Mad-Eye Moody",
         "Dumbledore"
       ],
@@ -4575,8 +4575,8 @@
       "subtopic": "Books & Plot",
       "question": "What brings Voldemort back?",
       "options": [
-        "Dark ritual with Harry's blood",
         "Horcruxes",
+        "Dark ritual with Harry's blood",
         "Philosopher's Stone",
         "Elder Wand"
       ],
@@ -4591,8 +4591,8 @@
       "subtopic": "Books & Plot",
       "question": "What organization does Dumbledore reform?",
       "options": [
-        "Order of the Phoenix",
         "Ministry",
+        "Order of the Phoenix",
         "Hogwarts staff",
         "Aurors"
       ],
@@ -4607,8 +4607,8 @@
       "subtopic": "Books & Plot",
       "question": "Who teaches Defense in book 5?",
       "options": [
-        "Dolores Umbridge",
         "Snape",
+        "Dolores Umbridge",
         "Lupin",
         "Moody"
       ],
@@ -4623,8 +4623,8 @@
       "subtopic": "Books & Plot",
       "question": "What is Dumbledore's Army?",
       "options": [
-        "Student defense group",
         "Order of Phoenix",
+        "Student defense group",
         "Quidditch team",
         "Ministry group"
       ],
@@ -4639,8 +4639,8 @@
       "subtopic": "Books & Plot",
       "question": "Who betrays Dumbledore's Army?",
       "options": [
-        "Marietta Edgecombe",
         "Cho Chang",
+        "Marietta Edgecombe",
         "Zacharias Smith",
         "Michael Corner"
       ],
@@ -4655,9 +4655,9 @@
       "subtopic": "Books & Plot",
       "question": "What does Harry see in the Department of Mysteries?",
       "options": [
-        "Prophecy about him and Voldemort",
         "Deathly Hallows",
         "Horcruxes",
+        "Prophecy about him and Voldemort",
         "Elder Wand"
       ],
       "correct_answer": "Prophecy about him and Voldemort",
@@ -4671,9 +4671,9 @@
       "subtopic": "Books & Plot",
       "question": "Who dies at the Ministry?",
       "options": [
-        "Sirius Black",
         "Lupin",
         "Mad-Eye",
+        "Sirius Black",
         "Dumbledore"
       ],
       "correct_answer": "Sirius Black",
@@ -4687,9 +4687,9 @@
       "subtopic": "Books & Plot",
       "question": "What does the prophecy say?",
       "options": [
-        "Neither can live while other survives",
         "Harry will defeat Voldemort",
         "Voldemort will win",
+        "Neither can live while other survives",
         "Dumbledore will die"
       ],
       "correct_answer": "Neither can live while other survives",
@@ -4703,9 +4703,9 @@
       "subtopic": "Books & Plot",
       "question": "Whose textbook does Harry use?",
       "options": [
-        "Snape's old textbook",
         "Slughorn's",
         "Hermione's",
+        "Snape's old textbook",
         "Ron's"
       ],
       "correct_answer": "Snape's old textbook",
@@ -4719,9 +4719,9 @@
       "subtopic": "Books & Plot",
       "question": "What are Horcruxes?",
       "options": [
-        "Objects containing soul fragments",
         "Dark spells",
         "Magical creatures",
+        "Objects containing soul fragments",
         "Potions"
       ],
       "correct_answer": "Objects containing soul fragments",
@@ -4735,9 +4735,9 @@
       "subtopic": "Books & Plot",
       "question": "How many Horcruxes did Voldemort make?",
       "options": [
-        "7 (intended 6, Harry accident)",
         "6",
         "8",
+        "7 (intended 6, Harry accident)",
         "5"
       ],
       "correct_answer": "7 (intended 6, Harry accident)",
@@ -4751,9 +4751,9 @@
       "subtopic": "Books & Plot",
       "question": "What is the locket Horcrux?",
       "options": [
-        "Salazar Slytherin's locket",
         "Rowena's diadem",
         "Hufflepuff's cup",
+        "Salazar Slytherin's locket",
         "Ring"
       ],
       "correct_answer": "Salazar Slytherin's locket",
@@ -4767,9 +4767,9 @@
       "subtopic": "Books & Plot",
       "question": "What is the cup Horcrux?",
       "options": [
-        "Helga Hufflepuff's cup",
         "Slytherin's locket",
         "Ravenclaw's diadem",
+        "Helga Hufflepuff's cup",
         "Ring"
       ],
       "correct_answer": "Helga Hufflepuff's cup",
@@ -4783,9 +4783,9 @@
       "subtopic": "Books & Plot",
       "question": "What is the diadem Horcrux?",
       "options": [
-        "Rowena Ravenclaw's diadem",
         "Helga's cup",
         "Slytherin's locket",
+        "Rowena Ravenclaw's diadem",
         "Ring"
       ],
       "correct_answer": "Rowena Ravenclaw's diadem",
@@ -4799,9 +4799,9 @@
       "subtopic": "Books & Plot",
       "question": "What is Marvolo Gaunt's ring?",
       "options": [
-        "Horcrux with Resurrection Stone",
         "Just a Horcrux",
         "Deathly Hallow only",
+        "Horcrux with Resurrection Stone",
         "Regular ring"
       ],
       "correct_answer": "Horcrux with Resurrection Stone",
@@ -4815,9 +4815,9 @@
       "subtopic": "Books & Plot",
       "question": "What living Horcrux exists?",
       "options": [
-        "Nagini and Harry",
         "Just Harry",
         "Just Nagini",
+        "Nagini and Harry",
         "None"
       ],
       "correct_answer": "Nagini and Harry",
@@ -4831,9 +4831,9 @@
       "subtopic": "Books & Plot",
       "question": "How does Dumbledore die?",
       "options": [
-        "Snape kills him (planned)",
         "Falls from tower",
         "Draco kills him",
+        "Snape kills him (planned)",
         "Voldemort kills him"
       ],
       "correct_answer": "Snape kills him (planned)",
@@ -4847,9 +4847,9 @@
       "subtopic": "Books & Plot",
       "question": "Why did Snape kill Dumbledore?",
       "options": [
-        "Dumbledore asked him to",
         "Evil",
         "Accident",
+        "Dumbledore asked him to",
         "Draco forced him"
       ],
       "correct_answer": "Dumbledore asked him to",
@@ -4863,9 +4863,9 @@
       "subtopic": "Books & Plot",
       "question": "What are the Deathly Hallows?",
       "options": [
-        "Elder Wand, Resurrection Stone, Cloak",
         "Horcruxes",
         "Spells",
+        "Elder Wand, Resurrection Stone, Cloak",
         "Three brothers"
       ],
       "correct_answer": "Elder Wand, Resurrection Stone, Cloak",
@@ -4879,9 +4879,9 @@
       "subtopic": "Books & Plot",
       "question": "Who owns the Invisibility Cloak?",
       "options": [
-        "Harry (inherited)",
         "Dumbledore",
         "James Potter",
+        "Harry (inherited)",
         "Death"
       ],
       "correct_answer": "Harry (inherited)",
@@ -4895,9 +4895,9 @@
       "subtopic": "Books & Plot",
       "question": "Who owned the Elder Wand?",
       "options": [
-        "Many (Dumbledore, then Draco, then Harry)",
         "Just Dumbledore",
         "Just Voldemort",
+        "Many (Dumbledore, then Draco, then Harry)",
         "Grindelwald"
       ],
       "correct_answer": "Many (Dumbledore, then Draco, then Harry)",
@@ -4911,9 +4911,9 @@
       "subtopic": "Books & Plot",
       "question": "What happens to the Elder Wand?",
       "options": [
-        "Harry breaks it (movie) or hides it (book)",
         "Voldemort gets it",
         "Dumbledore keeps it",
+        "Harry breaks it (movie) or hides it (book)",
         "Destroyed"
       ],
       "correct_answer": "Harry breaks it (movie) or hides it (book)",
@@ -4927,9 +4927,9 @@
       "subtopic": "Books & Plot",
       "question": "Who are the three brothers?",
       "options": [
-        "Peverell brothers",
         "Potter brothers",
         "Weasley brothers",
+        "Peverell brothers",
         "Marauders"
       ],
       "correct_answer": "Peverell brothers",
@@ -4943,9 +4943,9 @@
       "subtopic": "Books & Plot",
       "question": "What is the Battle of Hogwarts?",
       "options": [
-        "Final battle against Voldemort",
         "Quidditch match",
         "Triwizard Tournament",
+        "Final battle against Voldemort",
         "Duel"
       ],
       "correct_answer": "Final battle against Voldemort",
@@ -4959,9 +4959,9 @@
       "subtopic": "Books & Plot",
       "question": "Who kills Voldemort?",
       "options": [
-        "His own curse rebounds (Harry's wand)",
         "Harry",
         "Neville",
+        "His own curse rebounds (Harry's wand)",
         "Snape"
       ],
       "correct_answer": "His own curse rebounds (Harry's wand)",
@@ -4975,9 +4975,9 @@
       "subtopic": "Books & Plot",
       "question": "Who kills Nagini?",
       "options": [
-        "Neville with Gryffindor's sword",
         "Harry",
         "Ron",
+        "Neville with Gryffindor's sword",
         "Hermione"
       ],
       "correct_answer": "Neville with Gryffindor's sword",
@@ -4991,9 +4991,9 @@
       "subtopic": "Books & Plot",
       "question": "What is the epilogue?",
       "options": [
-        "19 years later",
         "10 years later",
         "5 years later",
+        "19 years later",
         "1 year later"
       ],
       "correct_answer": "19 years later",
@@ -5007,12 +5007,12 @@
       "subtopic": "Books & Plot",
       "question": "Where is the epilogue set?",
       "options": [
-        "King's Cross Platform 9\u00be",
         "Hogwarts",
         "Burrow",
+        "King's Cross Platform 9¾",
         "Grimmauld Place"
       ],
-      "correct_answer": "King's Cross Platform 9\u00be",
+      "correct_answer": "King's Cross Platform 9¾",
       "difficulty": "medium"
     },
     {
@@ -5023,9 +5023,9 @@
       "subtopic": "Books & Plot",
       "question": "What does Harry name his second son?",
       "options": [
-        "Albus Severus",
         "James Sirius",
         "Ron Rubeus",
+        "Albus Severus",
         "Fred George"
       ],
       "correct_answer": "Albus Severus",
@@ -5039,9 +5039,9 @@
       "subtopic": "Books & Plot",
       "question": "What does Harry say to Albus Severus?",
       "options": [
-        "You were named after two brave men",
         "Be brave",
         "Good luck",
+        "You were named after two brave men",
         "See you at Christmas"
       ],
       "correct_answer": "You were named after two brave men",
@@ -5055,9 +5055,9 @@
       "subtopic": "Books & Plot",
       "question": "Who wrote the Harry Potter books?",
       "options": [
-        "J.K. Rowling",
         "J.R.R. Tolkien",
         "C.S. Lewis",
+        "J.K. Rowling",
         "Philip Pullman"
       ],
       "correct_answer": "J.K. Rowling",
@@ -5071,9 +5071,9 @@
       "subtopic": "Books & Plot",
       "question": "When was the first book published?",
       "options": [
-        "1997",
         "1998",
         "1999",
+        "1997",
         "2000"
       ],
       "correct_answer": "1997",
@@ -5087,9 +5087,9 @@
       "subtopic": "Books & Plot",
       "question": "When was the last book published?",
       "options": [
-        "2007",
         "2008",
         "2006",
+        "2007",
         "2005"
       ],
       "correct_answer": "2007",
@@ -5103,9 +5103,9 @@
       "subtopic": "Books & Plot",
       "question": "What is Cursed Child?",
       "options": [
-        "Stage play (epilogue sequel)",
         "8th book",
         "Movie",
+        "Stage play (epilogue sequel)",
         "Spinoff"
       ],
       "correct_answer": "Stage play (epilogue sequel)",
@@ -5119,9 +5119,9 @@
       "subtopic": "Books & Plot",
       "question": "What is Fantastic Beasts?",
       "options": [
-        "Spinoff series",
         "Harry Potter sequel",
         "Prequel book",
+        "Spinoff series",
         "Documentary"
       ],
       "correct_answer": "Spinoff series",
@@ -5135,9 +5135,9 @@
       "subtopic": "Books & Plot",
       "question": "Who is Newt Scamander?",
       "options": [
-        "Magizoologist (Fantastic Beasts)",
         "Hogwarts teacher",
         "Harry's friend",
+        "Magizoologist (Fantastic Beasts)",
         "Auror"
       ],
       "correct_answer": "Magizoologist (Fantastic Beasts)",
@@ -5151,9 +5151,9 @@
       "subtopic": "Books & Plot",
       "question": "What does Harry do for a living?",
       "options": [
-        "Head of Auror Office",
         "Teacher",
         "Minister",
+        "Head of Auror Office",
         "Quidditch player"
       ],
       "correct_answer": "Head of Auror Office",
@@ -5167,9 +5167,9 @@
       "subtopic": "Books & Plot",
       "question": "What does Hermione do for a living?",
       "options": [
-        "Minister for Magic",
         "Teacher",
         "Healer",
+        "Minister for Magic",
         "Auror"
       ],
       "correct_answer": "Minister for Magic",
@@ -5183,9 +5183,9 @@
       "subtopic": "Books & Plot",
       "question": "What is the exact wording of the prophecy?",
       "options": [
-        "The one with power to vanquish...",
         "Harry will defeat Voldemort",
         "Neither can live",
+        "The one with power to vanquish...",
         "Boy who lived"
       ],
       "correct_answer": "The one with power to vanquish...",
@@ -5199,9 +5199,9 @@
       "subtopic": "Books & Plot",
       "question": "Who made the prophecy?",
       "options": [
-        "Sybill Trelawney",
         "Dumbledore",
         "Firenze",
+        "Sybill Trelawney",
         "Unknown seer"
       ],
       "correct_answer": "Sybill Trelawney",
@@ -5215,9 +5215,9 @@
       "subtopic": "Books & Plot",
       "question": "Who heard the prophecy?",
       "options": [
-        "Dumbledore and Snape (partial)",
         "Just Dumbledore",
         "Everyone",
+        "Dumbledore and Snape (partial)",
         "Harry"
       ],
       "correct_answer": "Dumbledore and Snape (partial)",
@@ -5231,9 +5231,9 @@
       "subtopic": "Books & Plot",
       "question": "What made Harry the chosen one?",
       "options": [
-        "Voldemort's choice",
         "Prophecy itself",
         "Dumbledore",
+        "Voldemort's choice",
         "Random"
       ],
       "correct_answer": "Voldemort's choice",
@@ -5247,9 +5247,9 @@
       "subtopic": "Books & Plot",
       "question": "Could Neville have been the chosen one?",
       "options": [
-        "Yes, fit prophecy too",
         "No",
         "Maybe",
+        "Yes, fit prophecy too",
         "Unknown"
       ],
       "correct_answer": "Yes, fit prophecy too",
@@ -5263,9 +5263,9 @@
       "subtopic": "Books & Plot",
       "question": "What protected Harry as a baby?",
       "options": [
-        "Lily's sacrificial love",
         "Dumbledore's spell",
         "Prophecy",
+        "Lily's sacrificial love",
         "Elder Wand"
       ],
       "correct_answer": "Lily's sacrificial love",
@@ -5279,9 +5279,9 @@
       "subtopic": "Books & Plot",
       "question": "What is the significance of Harry's blood?",
       "options": [
-        "Contains Lily's protection",
         "Makes him special",
         "Nothing",
+        "Contains Lily's protection",
         "Makes Horcruxes"
       ],
       "correct_answer": "Contains Lily's protection",
@@ -5295,9 +5295,9 @@
       "subtopic": "Books & Plot",
       "question": "Why did Voldemort take Harry's blood?",
       "options": [
-        "Overcome Lily's protection",
         "Make Horcrux",
         "Get power",
+        "Overcome Lily's protection",
         "Ritual"
       ],
       "correct_answer": "Overcome Lily's protection",
@@ -5311,9 +5311,9 @@
       "subtopic": "Books & Plot",
       "question": "What keeps Harry alive in the forest?",
       "options": [
-        "Lily's protection in Voldemort's veins",
         "Elder Wand allegiance",
         "Horcrux link",
+        "Lily's protection in Voldemort's veins",
         "Dumbledore's plan"
       ],
       "correct_answer": "Lily's protection in Voldemort's veins",
@@ -5327,9 +5327,9 @@
       "subtopic": "Books & Plot",
       "question": "Who truly owns the Elder Wand?",
       "options": [
-        "Harry (disarmed Draco)",
         "Dumbledore",
         "Voldemort",
+        "Harry (disarmed Draco)",
         "Draco"
       ],
       "correct_answer": "Harry (disarmed Draco)",
@@ -5343,9 +5343,9 @@
       "subtopic": "Books & Plot",
       "question": "Why didn't the Elder Wand kill Harry?",
       "options": [
-        "Harry was true master",
         "Lily's protection",
         "Horcrux link",
+        "Harry was true master",
         "Dumbledore's plan"
       ],
       "correct_answer": "Harry was true master",
@@ -5359,9 +5359,9 @@
       "subtopic": "Books & Plot",
       "question": "What happened when Voldemort tried to kill Harry in the forest?",
       "options": [
-        "Destroyed Horcrux in Harry",
         "Harry died",
         "Nothing",
+        "Destroyed Horcrux in Harry",
         "Voldemort died"
       ],
       "correct_answer": "Destroyed Horcrux in Harry",
@@ -5375,9 +5375,9 @@
       "subtopic": "Books & Plot",
       "question": "What is King's Cross (limbo)?",
       "options": [
-        "Meeting place with Dumbledore",
         "Train station",
         "Heaven",
+        "Meeting place with Dumbledore",
         "Purgatory"
       ],
       "correct_answer": "Meeting place with Dumbledore",
@@ -5391,9 +5391,9 @@
       "subtopic": "Books & Plot",
       "question": "What choice does Harry make in limbo?",
       "options": [
-        "Return to life",
         "Die",
         "Stay",
+        "Return to life",
         "Fight"
       ],
       "correct_answer": "Return to life",
@@ -5407,9 +5407,9 @@
       "subtopic": "Books & Plot",
       "question": "What is the symbol of the Deathly Hallows?",
       "options": [
-        "Triangle, circle, line",
         "Skull",
         "Snake",
+        "Triangle, circle, line",
         "Wand"
       ],
       "correct_answer": "Triangle, circle, line",
@@ -5423,9 +5423,9 @@
       "subtopic": "Movies",
       "question": "Who played Harry Potter?",
       "options": [
-        "Daniel Radcliffe",
         "Rupert Grint",
         "Tom Felton",
+        "Daniel Radcliffe",
         "Matthew Lewis"
       ],
       "correct_answer": "Daniel Radcliffe",
@@ -5439,9 +5439,9 @@
       "subtopic": "Movies",
       "question": "Who played Hermione Granger?",
       "options": [
-        "Emma Watson",
         "Emma Stone",
         "Emily Blunt",
+        "Emma Watson",
         "Emma Roberts"
       ],
       "correct_answer": "Emma Watson",
@@ -5455,9 +5455,9 @@
       "subtopic": "Movies",
       "question": "Who played Dumbledore first?",
       "options": [
-        "Richard Harris",
         "Michael Gambon",
         "Ian McKellen",
+        "Richard Harris",
         "Patrick Stewart"
       ],
       "correct_answer": "Richard Harris",
@@ -5471,9 +5471,9 @@
       "subtopic": "Movies",
       "question": "Who played Dumbledore after Richard Harris?",
       "options": [
-        "Michael Gambon",
         "Ian McKellen",
         "Christopher Lee",
+        "Michael Gambon",
         "Patrick Stewart"
       ],
       "correct_answer": "Michael Gambon",
@@ -5487,9 +5487,9 @@
       "subtopic": "Movies",
       "question": "Who played Severus Snape?",
       "options": [
-        "Alan Rickman",
         "Gary Oldman",
         "Ralph Fiennes",
+        "Alan Rickman",
         "Jason Isaacs"
       ],
       "correct_answer": "Alan Rickman",
@@ -5503,9 +5503,9 @@
       "subtopic": "Movies",
       "question": "Who played Voldemort?",
       "options": [
-        "Ralph Fiennes",
         "Alan Rickman",
         "Gary Oldman",
+        "Ralph Fiennes",
         "Jason Isaacs"
       ],
       "correct_answer": "Ralph Fiennes",
@@ -5519,9 +5519,9 @@
       "subtopic": "Movies",
       "question": "Who played Sirius Black?",
       "options": [
-        "Gary Oldman",
         "Alan Rickman",
         "Ralph Fiennes",
+        "Gary Oldman",
         "David Thewlis"
       ],
       "correct_answer": "Gary Oldman",
@@ -5535,9 +5535,9 @@
       "subtopic": "Movies",
       "question": "Who played Lupin?",
       "options": [
-        "David Thewlis",
         "Gary Oldman",
         "Alan Rickman",
+        "David Thewlis",
         "Timothy Spall"
       ],
       "correct_answer": "David Thewlis",
@@ -5551,9 +5551,9 @@
       "subtopic": "Movies",
       "question": "Who played Hagrid?",
       "options": [
-        "Robbie Coltrane",
         "John Hurt",
         "Brendan Gleeson",
+        "Robbie Coltrane",
         "Jim Broadbent"
       ],
       "correct_answer": "Robbie Coltrane",
@@ -5567,9 +5567,9 @@
       "subtopic": "Movies",
       "question": "Who played McGonagall?",
       "options": [
-        "Maggie Smith",
         "Julie Walters",
         "Helen McCrory",
+        "Maggie Smith",
         "Emma Thompson"
       ],
       "correct_answer": "Maggie Smith",
@@ -5583,9 +5583,9 @@
       "subtopic": "Movies",
       "question": "Who played Molly Weasley?",
       "options": [
-        "Julie Walters",
         "Maggie Smith",
         "Emma Thompson",
+        "Julie Walters",
         "Helena Bonham Carter"
       ],
       "correct_answer": "Julie Walters",
@@ -5599,9 +5599,9 @@
       "subtopic": "Movies",
       "question": "Who played Bellatrix Lestrange?",
       "options": [
-        "Helena Bonham Carter",
         "Emma Thompson",
         "Julie Walters",
+        "Helena Bonham Carter",
         "Helen McCrory"
       ],
       "correct_answer": "Helena Bonham Carter",
@@ -5615,9 +5615,9 @@
       "subtopic": "Movies",
       "question": "Who played Draco Malfoy?",
       "options": [
-        "Tom Felton",
         "Daniel Radcliffe",
         "Rupert Grint",
+        "Tom Felton",
         "Matthew Lewis"
       ],
       "correct_answer": "Tom Felton",
@@ -5631,9 +5631,9 @@
       "subtopic": "Movies",
       "question": "Who played Luna Lovegood?",
       "options": [
-        "Evanna Lynch",
         "Emma Watson",
         "Bonnie Wright",
+        "Evanna Lynch",
         "Katie Leung"
       ],
       "correct_answer": "Evanna Lynch",
@@ -5647,9 +5647,9 @@
       "subtopic": "Movies",
       "question": "Who played Ginny Weasley?",
       "options": [
-        "Bonnie Wright",
         "Emma Watson",
         "Evanna Lynch",
+        "Bonnie Wright",
         "Katie Leung"
       ],
       "correct_answer": "Bonnie Wright",
@@ -5663,9 +5663,9 @@
       "subtopic": "Movies",
       "question": "Who played Neville Longbottom?",
       "options": [
-        "Matthew Lewis",
         "Tom Felton",
         "James Phelps",
+        "Matthew Lewis",
         "Oliver Phelps"
       ],
       "correct_answer": "Matthew Lewis",
@@ -5679,9 +5679,9 @@
       "subtopic": "Movies",
       "question": "What year was the last film released?",
       "options": [
-        "2011",
         "2010",
         "2012",
+        "2011",
         "2009"
       ],
       "correct_answer": "2011",
@@ -5695,9 +5695,9 @@
       "subtopic": "Movies",
       "question": "Who composed the main Harry Potter theme?",
       "options": [
-        "John Williams",
         "Hans Zimmer",
         "Howard Shore",
+        "John Williams",
         "Alexandre Desplat"
       ],
       "correct_answer": "John Williams",
@@ -5711,9 +5711,9 @@
       "subtopic": "Movies",
       "question": "Who directed the first two films?",
       "options": [
-        "Chris Columbus",
-        "Alfonso Cuar\u00f3n",
+        "Alfonso Cuarón",
         "David Yates",
+        "Chris Columbus",
         "Mike Newell"
       ],
       "correct_answer": "Chris Columbus",
@@ -5727,12 +5727,12 @@
       "subtopic": "Movies",
       "question": "Who directed Prisoner of Azkaban?",
       "options": [
-        "Alfonso Cuar\u00f3n",
         "Chris Columbus",
         "David Yates",
+        "Alfonso Cuarón",
         "Mike Newell"
       ],
-      "correct_answer": "Alfonso Cuar\u00f3n",
+      "correct_answer": "Alfonso Cuarón",
       "difficulty": "medium"
     },
     {
@@ -5743,9 +5743,9 @@
       "subtopic": "Movies",
       "question": "Who directed Goblet of Fire?",
       "options": [
-        "Mike Newell",
-        "Alfonso Cuar\u00f3n",
+        "Alfonso Cuarón",
         "David Yates",
+        "Mike Newell",
         "Chris Columbus"
       ],
       "correct_answer": "Mike Newell",
@@ -5759,9 +5759,9 @@
       "subtopic": "Movies",
       "question": "Who directed the last four films?",
       "options": [
-        "David Yates",
-        "Alfonso Cuar\u00f3n",
+        "Alfonso Cuarón",
         "Mike Newell",
+        "David Yates",
         "Chris Columbus"
       ],
       "correct_answer": "David Yates",
@@ -5775,9 +5775,9 @@
       "subtopic": "Movies",
       "question": "Who played Mad-Eye Moody?",
       "options": [
-        "Brendan Gleeson",
         "John Hurt",
         "Robbie Coltrane",
+        "Brendan Gleeson",
         "Jim Broadbent"
       ],
       "correct_answer": "Brendan Gleeson",
@@ -5791,9 +5791,9 @@
       "subtopic": "Movies",
       "question": "Who played Lucius Malfoy?",
       "options": [
-        "Jason Isaacs",
         "Ralph Fiennes",
         "Alan Rickman",
+        "Jason Isaacs",
         "Gary Oldman"
       ],
       "correct_answer": "Jason Isaacs",
@@ -5807,9 +5807,9 @@
       "subtopic": "Movies",
       "question": "Who played Umbridge?",
       "options": [
-        "Imelda Staunton",
         "Emma Thompson",
         "Julie Walters",
+        "Imelda Staunton",
         "Maggie Smith"
       ],
       "correct_answer": "Imelda Staunton",
@@ -5823,9 +5823,9 @@
       "subtopic": "Movies",
       "question": "Who played Slughorn?",
       "options": [
-        "Jim Broadbent",
         "John Hurt",
         "Brendan Gleeson",
+        "Jim Broadbent",
         "Robbie Coltrane"
       ],
       "correct_answer": "Jim Broadbent",
@@ -5839,9 +5839,9 @@
       "subtopic": "Movies",
       "question": "Who played Lockhart?",
       "options": [
-        "Kenneth Branagh",
         "Hugh Grant",
         "Colin Firth",
+        "Kenneth Branagh",
         "Jude Law"
       ],
       "correct_answer": "Kenneth Branagh",
@@ -5855,9 +5855,9 @@
       "subtopic": "Movies",
       "question": "Who played Quirrell?",
       "options": [
-        "Ian Hart",
         "John Hurt",
         "Richard Harris",
+        "Ian Hart",
         "Kenneth Branagh"
       ],
       "correct_answer": "Ian Hart",
@@ -5871,9 +5871,9 @@
       "subtopic": "Movies",
       "question": "Who played Peter Pettigrew?",
       "options": [
-        "Timothy Spall",
         "David Thewlis",
         "Gary Oldman",
+        "Timothy Spall",
         "Alan Rickman"
       ],
       "correct_answer": "Timothy Spall",
@@ -5887,9 +5887,9 @@
       "subtopic": "Movies",
       "question": "Who played Tonks?",
       "options": [
-        "Natalia Tena",
         "Helena Bonham Carter",
         "Helen McCrory",
+        "Natalia Tena",
         "Julie Walters"
       ],
       "correct_answer": "Natalia Tena",
@@ -5903,9 +5903,9 @@
       "subtopic": "Movies",
       "question": "Who played Bill Weasley?",
       "options": [
-        "Domhnall Gleeson",
         "Brendan Gleeson",
         "James Phelps",
+        "Domhnall Gleeson",
         "Oliver Phelps"
       ],
       "correct_answer": "Domhnall Gleeson",
@@ -5919,12 +5919,12 @@
       "subtopic": "Movies",
       "question": "Who played Fleur Delacour?",
       "options": [
-        "Cl\u00e9mence Po\u00e9sy",
         "Natalia Tena",
         "Katie Leung",
+        "Clémence Poésy",
         "Evanna Lynch"
       ],
-      "correct_answer": "Cl\u00e9mence Po\u00e9sy",
+      "correct_answer": "Clémence Poésy",
       "difficulty": "medium"
     },
     {
@@ -5935,9 +5935,9 @@
       "subtopic": "Movies",
       "question": "Who played Cho Chang?",
       "options": [
-        "Katie Leung",
         "Evanna Lynch",
-        "Cl\u00e9mence Po\u00e9sy",
+        "Clémence Poésy",
+        "Katie Leung",
         "Bonnie Wright"
       ],
       "correct_answer": "Katie Leung",
@@ -5951,9 +5951,9 @@
       "subtopic": "Movies",
       "question": "Who played Cedric Diggory?",
       "options": [
-        "Robert Pattinson",
         "Henry Cavill",
         "Tom Hiddleston",
+        "Robert Pattinson",
         "Eddie Redmayne"
       ],
       "correct_answer": "Robert Pattinson",
@@ -5967,9 +5967,9 @@
       "subtopic": "Movies",
       "question": "Who played young Tom Riddle?",
       "options": [
-        "Christian Coulson (then Ralph Fiennes)",
         "Hero Fiennes-Tiffin",
         "Frank Dillane",
+        "Christian Coulson (then Ralph Fiennes)",
         "Various actors"
       ],
       "correct_answer": "Christian Coulson (then Ralph Fiennes)",
@@ -5983,9 +5983,9 @@
       "subtopic": "Movies",
       "question": "Who played the Grey Lady?",
       "options": [
-        "Kelly Macdonald",
         "Evanna Lynch",
         "Helen McCrory",
+        "Kelly Macdonald",
         "Natalia Tena"
       ],
       "correct_answer": "Kelly Macdonald",
@@ -5999,9 +5999,9 @@
       "subtopic": "Movies",
       "question": "Who played Grindelwald in the films?",
       "options": [
-        "Johnny Depp then Mads Mikkelsen",
         "Colin Farrell",
         "Jude Law",
+        "Johnny Depp then Mads Mikkelsen",
         "Ralph Fiennes"
       ],
       "correct_answer": "Johnny Depp then Mads Mikkelsen",
@@ -6015,9 +6015,9 @@
       "subtopic": "Movies",
       "question": "Who plays young Dumbledore (Fantastic Beasts)?",
       "options": [
-        "Jude Law",
         "Michael Gambon",
         "Richard Harris",
+        "Jude Law",
         "Colin Firth"
       ],
       "correct_answer": "Jude Law",
@@ -6031,9 +6031,9 @@
       "subtopic": "Movies",
       "question": "Who plays Newt Scamander?",
       "options": [
-        "Eddie Redmayne",
         "Robert Pattinson",
         "Tom Hiddleston",
+        "Eddie Redmayne",
         "Benedict Cumberbatch"
       ],
       "correct_answer": "Eddie Redmayne",
@@ -6047,9 +6047,9 @@
       "subtopic": "Movies",
       "question": "What spell is used most by Harry in the films?",
       "options": [
-        "Expelliarmus",
         "Stupefy",
         "Protego",
+        "Expelliarmus",
         "Expecto Patronum"
       ],
       "correct_answer": "Expelliarmus",
@@ -6063,9 +6063,9 @@
       "subtopic": "Movies",
       "question": "What is different between books and films?",
       "options": [
-        "Many details omitted/changed",
         "Nothing",
         "Everything",
+        "Many details omitted/changed",
         "Just endings"
       ],
       "correct_answer": "Many details omitted/changed",
@@ -6079,9 +6079,9 @@
       "subtopic": "Movies",
       "question": "Which book was split into two films?",
       "options": [
-        "Deathly Hallows",
         "Order of Phoenix",
         "Goblet of Fire",
+        "Deathly Hallows",
         "Half-Blood Prince"
       ],
       "correct_answer": "Deathly Hallows",
@@ -6095,9 +6095,9 @@
       "subtopic": "Movies",
       "question": "What studio produced the films?",
       "options": [
-        "Warner Bros.",
         "Universal",
         "Disney",
+        "Warner Bros.",
         "Paramount"
       ],
       "correct_answer": "Warner Bros.",
@@ -6111,9 +6111,9 @@
       "subtopic": "Movies",
       "question": "Where were the films primarily made?",
       "options": [
-        "United Kingdom",
         "United States",
         "Ireland",
+        "United Kingdom",
         "Australia"
       ],
       "correct_answer": "United Kingdom",
@@ -6127,9 +6127,9 @@
       "subtopic": "Movies",
       "question": "Who played Barty Crouch Jr.?",
       "options": [
-        "David Tennant",
         "Tom Hiddleston",
         "Benedict Cumberbatch",
+        "David Tennant",
         "Eddie Redmayne"
       ],
       "correct_answer": "David Tennant",
@@ -6143,9 +6143,9 @@
       "subtopic": "Movies",
       "question": "Who played Cornelius Fudge?",
       "options": [
-        "Robert Hardy",
         "John Hurt",
         "Jim Broadbent",
+        "Robert Hardy",
         "Kenneth Branagh"
       ],
       "correct_answer": "Robert Hardy",
@@ -6159,9 +6159,9 @@
       "subtopic": "Movies",
       "question": "Who played Scrimgeour?",
       "options": [
-        "Bill Nighy",
         "John Hurt",
         "Ralph Fiennes",
+        "Bill Nighy",
         "Brendan Gleeson"
       ],
       "correct_answer": "Bill Nighy",
@@ -6175,9 +6175,9 @@
       "subtopic": "Movies",
       "question": "Who played Nearly Headless Nick?",
       "options": [
-        "John Cleese",
         "John Hurt",
         "Robbie Coltrane",
+        "John Cleese",
         "Kenneth Branagh"
       ],
       "correct_answer": "John Cleese",
@@ -6191,9 +6191,9 @@
       "subtopic": "Movies",
       "question": "Who played Moaning Myrtle?",
       "options": [
-        "Shirley Henderson",
         "Emma Thompson",
         "Imelda Staunton",
+        "Shirley Henderson",
         "Julie Walters"
       ],
       "correct_answer": "Shirley Henderson",
@@ -6207,9 +6207,9 @@
       "subtopic": "Movies",
       "question": "Who composed the music for the later films?",
       "options": [
-        "Nicholas Hooper, Alexandre Desplat",
         "John Williams only",
         "Hans Zimmer",
+        "Nicholas Hooper, Alexandre Desplat",
         "Howard Shore"
       ],
       "correct_answer": "Nicholas Hooper, Alexandre Desplat",
@@ -6223,9 +6223,9 @@
       "subtopic": "Movies",
       "question": "What is Hedwig's Theme?",
       "options": [
-        "Main musical theme",
         "A spell",
         "A location",
+        "Main musical theme",
         "A character"
       ],
       "correct_answer": "Main musical theme",
@@ -6239,9 +6239,9 @@
       "subtopic": "Movies",
       "question": "What was the original U.S. title change?",
       "options": [
-        "Sorcerer's Stone instead of Philosopher's",
         "Wizard's Stone",
         "Magic Stone",
+        "Sorcerer's Stone instead of Philosopher's",
         "No change"
       ],
       "correct_answer": "Sorcerer's Stone instead of Philosopher's",
@@ -6255,9 +6255,9 @@
       "subtopic": "Movies",
       "question": "How much did the film series gross?",
       "options": [
-        "Over $7 billion",
         "Over $5 billion",
         "Over $10 billion",
+        "Over $7 billion",
         "Over $3 billion"
       ],
       "correct_answer": "Over $7 billion",
@@ -6271,9 +6271,9 @@
       "subtopic": "Movies",
       "question": "Where is the Harry Potter studio tour?",
       "options": [
-        "Leavesden, UK",
         "London",
         "Edinburgh",
+        "Leavesden, UK",
         "Dublin"
       ],
       "correct_answer": "Leavesden, UK",
@@ -6287,9 +6287,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is a Hippogriff?",
       "options": [
-        "Half horse, half eagle",
         "Half lion, half eagle",
         "Horse with wings",
+        "Half horse, half eagle",
         "Dragon type"
       ],
       "correct_answer": "Half horse, half eagle",
@@ -6303,9 +6303,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is Fawkes?",
       "options": [
-        "Phoenix",
         "Dragon",
         "Hippogriff",
+        "Phoenix",
         "Owl"
       ],
       "correct_answer": "Phoenix",
@@ -6319,9 +6319,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is a Basilisk?",
       "options": [
-        "Giant serpent",
         "Dragon",
         "Snake",
+        "Giant serpent",
         "Lizard"
       ],
       "correct_answer": "Giant serpent",
@@ -6335,9 +6335,9 @@
       "subtopic": "Magical Creatures",
       "question": "How do you kill a Basilisk?",
       "options": [
-        "Gryffindor's sword or rooster crow",
         "Magic",
         "Fire",
+        "Gryffindor's sword or rooster crow",
         "Nothing"
       ],
       "correct_answer": "Gryffindor's sword or rooster crow",
@@ -6351,9 +6351,9 @@
       "subtopic": "Magical Creatures",
       "question": "What do Dementors do?",
       "options": [
-        "Suck out happiness/souls",
         "Kill",
         "Guard",
+        "Suck out happiness/souls",
         "Haunt"
       ],
       "correct_answer": "Suck out happiness/souls",
@@ -6367,9 +6367,9 @@
       "subtopic": "Magical Creatures",
       "question": "What are Thestrals?",
       "options": [
-        "Winged horses (visible after witnessing death)",
         "Dragons",
         "Unicorns",
+        "Winged horses (visible after witnessing death)",
         "Pegasus"
       ],
       "correct_answer": "Winged horses (visible after witnessing death)",
@@ -6383,9 +6383,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is a Boggart?",
       "options": [
-        "Shape-shifter (shows fears)",
         "Ghost",
         "Monster",
+        "Shape-shifter (shows fears)",
         "Demon"
       ],
       "correct_answer": "Shape-shifter (shows fears)",
@@ -6399,9 +6399,9 @@
       "subtopic": "Magical Creatures",
       "question": "What are house-elves?",
       "options": [
-        "Magical servants",
         "Goblins",
         "Wizards",
+        "Magical servants",
         "Creatures"
       ],
       "correct_answer": "Magical servants",
@@ -6415,9 +6415,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is Kreacher?",
       "options": [
-        "House-elf",
         "Goblin",
         "Wizard",
+        "House-elf",
         "Ghost"
       ],
       "correct_answer": "House-elf",
@@ -6431,9 +6431,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is Aragog?",
       "options": [
-        "Giant spider (Acromantula)",
         "Dragon",
         "Basilisk",
+        "Giant spider (Acromantula)",
         "Snake"
       ],
       "correct_answer": "Giant spider (Acromantula)",
@@ -6447,9 +6447,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is Nagini?",
       "options": [
-        "Voldemort's snake/Horcrux",
         "Basilisk",
         "Dragon",
+        "Voldemort's snake/Horcrux",
         "Regular snake"
       ],
       "correct_answer": "Voldemort's snake/Horcrux",
@@ -6463,9 +6463,9 @@
       "subtopic": "Magical Creatures",
       "question": "What are goblins?",
       "options": [
-        "Magical creatures (run Gringotts)",
         "House-elves",
         "Dwarves",
+        "Magical creatures (run Gringotts)",
         "Wizards"
       ],
       "correct_answer": "Magical creatures (run Gringotts)",
@@ -6479,9 +6479,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is Fluffy?",
       "options": [
-        "Three-headed dog",
         "Dragon",
         "Hippogriff",
+        "Three-headed dog",
         "Giant spider"
       ],
       "correct_answer": "Three-headed dog",
@@ -6495,9 +6495,9 @@
       "subtopic": "Magical Creatures",
       "question": "What puts Fluffy to sleep?",
       "options": [
-        "Music",
         "Spells",
         "Food",
+        "Music",
         "Nothing"
       ],
       "correct_answer": "Music",
@@ -6511,9 +6511,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is a Patronus?",
       "options": [
-        "Protective spirit animal",
         "Spell",
         "Creature",
+        "Protective spirit animal",
         "Ghost"
       ],
       "correct_answer": "Protective spirit animal",
@@ -6527,9 +6527,9 @@
       "subtopic": "Magical Creatures",
       "question": "What are centaurs?",
       "options": [
-        "Half human, half horse",
         "Unicorns",
         "Horses",
+        "Half human, half horse",
         "Mythical beasts"
       ],
       "correct_answer": "Half human, half horse",
@@ -6543,9 +6543,9 @@
       "subtopic": "Magical Creatures",
       "question": "What is a Phoenix's special ability?",
       "options": [
-        "Rebirth from ashes",
         "Fire",
         "Flight",
+        "Rebirth from ashes",
         "Healing tears"
       ],
       "correct_answer": "Rebirth from ashes",
@@ -6559,9 +6559,9 @@
       "subtopic": "Magical Creatures",
       "question": "What do Phoenix tears do?",
       "options": [
-        "Heal wounds",
         "Kill",
         "Magic",
+        "Heal wounds",
         "Nothing"
       ],
       "correct_answer": "Heal wounds",
@@ -8031,10 +8031,10 @@
       "subtopic": null,
       "question": "Which house at Hogwarts does Harry Potter belong to?",
       "options": [
+        "Gryffindor",
         "Slytherin",
         "Hufflepuff",
-        "Ravenclaw",
-        "Gryffindor"
+        "Ravenclaw"
       ],
       "correct_answer": "Gryffindor",
       "difficulty": "easy"
@@ -8063,8 +8063,8 @@
       "subtopic": null,
       "question": "Who is the Potions master at Hogwarts during Harry's first year?",
       "options": [
-        "Professor McGonagall",
         "Professor Snape",
+        "Professor McGonagall",
         "Professor Flitwick",
         "Professor Sprout"
       ],
@@ -8079,8 +8079,8 @@
       "subtopic": null,
       "question": "What platform do students take to board the Hogwarts Express?",
       "options": [
-        "Platform 9",
         "Platform 9 3/4",
+        "Platform 9",
         "Platform 10",
         "Platform 8 3/4"
       ],
@@ -8127,9 +8127,9 @@
       "subtopic": null,
       "question": "What does the spell 'Expecto Patronum' do?",
       "options": [
+        "Repels Dementors",
         "Unlocks doors",
         "Creates light",
-        "Repels Dementors",
         "Levitates objects"
       ],
       "correct_answer": "Repels Dementors",
@@ -8159,9 +8159,9 @@
       "subtopic": null,
       "question": "Who is the head of Hufflepuff House?",
       "options": [
+        "Professor Sprout",
         "Professor McGonagall",
         "Professor Snape",
-        "Professor Sprout",
         "Professor Flitwick"
       ],
       "correct_answer": "Professor Sprout",
@@ -8223,8 +8223,8 @@
       "subtopic": null,
       "question": "What plant does Harry eat to breathe underwater?",
       "options": [
-        "Mandrake",
         "Gillyweed",
+        "Mandrake",
         "Bubotuber",
         "Devil's Snare"
       ],
@@ -8239,8 +8239,8 @@
       "subtopic": null,
       "question": "How does Harry catch his first Golden Snitch?",
       "options": [
-        "With his hand",
         "With his mouth",
+        "With his hand",
         "With his broom",
         "It falls in his lap"
       ],
@@ -8255,9 +8255,9 @@
       "subtopic": null,
       "question": "What does the Mirror of Erised show?",
       "options": [
+        "Your deepest desire",
         "The future",
         "The past",
-        "Your deepest desire",
         "Your fears"
       ],
       "correct_answer": "Your deepest desire",
@@ -8289,8 +8289,8 @@
       "options": [
         "Norbert",
         "Norberta",
-        "Both A and B",
-        "Charlie"
+        "Charlie",
+        "Both A and B"
       ],
       "correct_answer": "Both A and B",
       "difficulty": "medium"
@@ -8303,9 +8303,9 @@
       "subtopic": null,
       "question": "What house is Luna Lovegood in?",
       "options": [
+        "Ravenclaw",
         "Gryffindor",
         "Hufflepuff",
-        "Ravenclaw",
         "Slytherin"
       ],
       "correct_answer": "Ravenclaw",
@@ -8335,8 +8335,8 @@
       "subtopic": null,
       "question": "What is the street location of the Leaky Cauldron?",
       "options": [
-        "Diagon Alley",
         "Charing Cross Road",
+        "Diagon Alley",
         "Knockturn Alley",
         "Grimmauld Place"
       ],
@@ -8367,8 +8367,8 @@
       "subtopic": null,
       "question": "What is the name of Sirius Black's house-elf?",
       "options": [
-        "Dobby",
         "Kreacher",
+        "Dobby",
         "Winky",
         "Griphook"
       ],
@@ -8383,9 +8383,9 @@
       "subtopic": null,
       "question": "What is the maximum speed of a Firebolt broomstick?",
       "options": [
+        "150 mph",
         "130 mph",
         "140 mph",
-        "150 mph",
         "160 mph"
       ],
       "correct_answer": "150 mph",

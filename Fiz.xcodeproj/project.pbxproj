@@ -20,18 +20,11 @@
 		B66F02D22F006EE2007B0E79 /* GameModesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C52F006EE2007B0E79 /* GameModesSettingsView.swift */; };
 		B66F02D42F02EDD8007B0E79 /* questions_expansions.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D32F02EDD8007B0E79 /* questions_expansions.json */; };
 		B66F02D62F0345F0007B0E79 /* CategorySelectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */; };
-		B66F02D92F0420DC007B0E79 /* sports_expansion_pack.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D82F0420DC007B0E79 /* sports_expansion_pack.json */; };
-		B66F02DA2F0420DC007B0E79 /* bible_expansion_pack.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D72F0420DC007B0E79 /* bible_expansion_pack.json */; };
 		B66F02DC2F043F6E007B0E79 /* PhobiaSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DB2F043F6E007B0E79 /* PhobiaSettingsView.swift */; };
 		B66F02DF2F04BE1C007B0E79 /* SecondaryOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DD2F04BE1C007B0E79 /* SecondaryOnboardingView.swift */; };
 		B66F02E02F04BE1C007B0E79 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DE2F04BE1C007B0E79 /* WhatsNewView.swift */; };
-		B66F02E82F057417007B0E79 /* expansion_80s_trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E12F057417007B0E79 /* expansion_80s_trivia.json */; };
 		B66F02E92F057417007B0E79 /* expansion_marvel_starter.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E42F057417007B0E79 /* expansion_marvel_starter.json */; };
-		B66F02EA2F057417007B0E79 /* expansion_pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E62F057417007B0E79 /* expansion_pokemon.json */; };
-		B66F02EB2F057417007B0E79 /* expansion_harry_potter.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E32F057417007B0E79 /* expansion_harry_potter.json */; };
-		B66F02EC2F057417007B0E79 /* expansion_disney.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E22F057417007B0E79 /* expansion_disney.json */; };
 		B66F02ED2F057417007B0E79 /* expansion_pixar.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E52F057417007B0E79 /* expansion_pixar.json */; };
-		B66F02EE2F057417007B0E79 /* expansion_the_office.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E72F057417007B0E79 /* expansion_the_office.json */; };
 		B66F02F02F05742A007B0E79 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02EF2F05742A007B0E79 /* StoreManager.swift */; };
 		B66F02F22F057440007B0E79 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02F12F057440007B0E79 /* StoreView.swift */; };
 		B66F02F42F057461007B0E79 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = B66F02F32F057461007B0E79 /* Configuration.storekit */; };
@@ -100,18 +93,11 @@
 		B66F02C92F006EE2007B0E79 /* UsernameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameSettingsView.swift; sourceTree = "<group>"; };
 		B66F02D32F02EDD8007B0E79 /* questions_expansions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_expansions.json; sourceTree = "<group>"; };
 		B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionSettingsView.swift; sourceTree = "<group>"; };
-		B66F02D72F0420DC007B0E79 /* bible_expansion_pack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bible_expansion_pack.json; sourceTree = "<group>"; };
-		B66F02D82F0420DC007B0E79 /* sports_expansion_pack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sports_expansion_pack.json; sourceTree = "<group>"; };
 		B66F02DB2F043F6E007B0E79 /* PhobiaSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhobiaSettingsView.swift; sourceTree = "<group>"; };
 		B66F02DD2F04BE1C007B0E79 /* SecondaryOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryOnboardingView.swift; sourceTree = "<group>"; };
 		B66F02DE2F04BE1C007B0E79 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
-		B66F02E12F057417007B0E79 /* expansion_80s_trivia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_80s_trivia.json; sourceTree = "<group>"; };
-		B66F02E22F057417007B0E79 /* expansion_disney.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_disney.json; sourceTree = "<group>"; };
-		B66F02E32F057417007B0E79 /* expansion_harry_potter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_harry_potter.json; sourceTree = "<group>"; };
 		B66F02E42F057417007B0E79 /* expansion_marvel_starter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_marvel_starter.json; sourceTree = "<group>"; };
 		B66F02E52F057417007B0E79 /* expansion_pixar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_pixar.json; sourceTree = "<group>"; };
-		B66F02E62F057417007B0E79 /* expansion_pokemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_pokemon.json; sourceTree = "<group>"; };
-		B66F02E72F057417007B0E79 /* expansion_the_office.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_the_office.json; sourceTree = "<group>"; };
 		B66F02EF2F05742A007B0E79 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
 		B66F02F12F057440007B0E79 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		B66F02F32F057461007B0E79 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
@@ -154,6 +140,14 @@
 		B6B0E3772EC5075F007873A8 /* AppIcon-RegularPose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-RegularPose@3x.png"; sourceTree = "<group>"; };
 		B6E1CF712ED7B1380021D4B3 /* QuestionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B66F02F52F0577EE007B0E79 /* Expansion Packs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Expansion Packs";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B66F14D12E4B7DF200C426E5 /* Frameworks */ = {
@@ -261,17 +255,11 @@
 		B68C5A792EBD2A5400C2A449 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B66F02F52F0577EE007B0E79 /* Expansion Packs */,
 				B68C5A772EBD2A5400C2A449 /* questions.json */,
 				B66F02D32F02EDD8007B0E79 /* questions_expansions.json */,
-				B66F02D72F0420DC007B0E79 /* bible_expansion_pack.json */,
-				B66F02D82F0420DC007B0E79 /* sports_expansion_pack.json */,
-				B66F02E12F057417007B0E79 /* expansion_80s_trivia.json */,
-				B66F02E22F057417007B0E79 /* expansion_disney.json */,
-				B66F02E32F057417007B0E79 /* expansion_harry_potter.json */,
 				B66F02E42F057417007B0E79 /* expansion_marvel_starter.json */,
 				B66F02E52F057417007B0E79 /* expansion_pixar.json */,
-				B66F02E62F057417007B0E79 /* expansion_pokemon.json */,
-				B66F02E72F057417007B0E79 /* expansion_the_office.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -347,6 +335,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B66F02F52F0577EE007B0E79 /* Expansion Packs */,
 			);
 			name = Fiz;
 			packageProductDependencies = (
@@ -451,17 +442,10 @@
 				B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */,
 				B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */,
 				B6B0E3782EC5075F007873A8 /* AppIcon-NewHighScore.png in Resources */,
-				B66F02E82F057417007B0E79 /* expansion_80s_trivia.json in Resources */,
 				B66F02E92F057417007B0E79 /* expansion_marvel_starter.json in Resources */,
-				B66F02EA2F057417007B0E79 /* expansion_pokemon.json in Resources */,
-				B66F02EB2F057417007B0E79 /* expansion_harry_potter.json in Resources */,
-				B66F02EC2F057417007B0E79 /* expansion_disney.json in Resources */,
 				B66F02ED2F057417007B0E79 /* expansion_pixar.json in Resources */,
-				B66F02EE2F057417007B0E79 /* expansion_the_office.json in Resources */,
 				B6B0E3792EC5075F007873A8 /* AppIcon-Leaderboard@2x.png in Resources */,
 				B6B0E37A2EC5075F007873A8 /* AppIcon-HappySmirk@3x.png in Resources */,
-				B66F02D92F0420DC007B0E79 /* sports_expansion_pack.json in Resources */,
-				B66F02DA2F0420DC007B0E79 /* bible_expansion_pack.json in Resources */,
 				B6B0E37B2EC5075F007873A8 /* AppIcon-NewHighScore@2x.png in Resources */,
 				B6B0E37C2EC5075F007873A8 /* AppIcon-RegularPose@3x.png in Resources */,
 				B6B0E37D2EC5075F007873A8 /* AppIcon-HappySmirk@2x.png in Resources */,

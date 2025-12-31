@@ -1,121 +1,106 @@
 #!/usr/bin/env python3
-"""Analyze correct answer position distribution across all questions"""
-import json
+"""
+Analyze answer option distribution in expansion pack files.
+Shows how often each option slot (A, B, C, D) is the correct answer.
+"""
 
-def main():
-    with open('Fiz/Resources/questions.json', 'r') as f:
+import json
+from collections import Counter
+
+def analyze_expansion_pack(json_file):
+    with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    # Overall statistics
-    total_questions = 0
-    position_counts = {'A': 0, 'B': 0, 'C': 0, 'D': 0}
+    pack_name = data.get('packName', 'Unknown')
 
-    # Category breakdown
-    category_stats = {}
+    # Combine all questions (free preview + paid)
+    all_questions = data.get('freePreviewQuestions', []) + data.get('paidQuestions', [])
 
-    for category_name, questions in data['categories'].items():
-        cat_positions = {'A': 0, 'B': 0, 'C': 0, 'D': 0}
+    total = len(all_questions)
+    slot_counts = Counter()
 
-        for q in questions:
-            total_questions += 1
+    for q in all_questions:
+        options = q.get('options', [])
+        correct_answer = q.get('correct_answer', '')
 
-            # Find position of correct answer
-            correct_answer = q['correct_answer']
-            options = q['options']
+        if not options or not correct_answer:
+            continue
 
-            try:
-                position_index = options.index(correct_answer)
-                position_letter = ['A', 'B', 'C', 'D'][position_index]
+        try:
+            correct_index = options.index(correct_answer)
+            slot_letter = ['A', 'B', 'C', 'D'][correct_index]
+            slot_counts[slot_letter] += 1
+        except (ValueError, IndexError):
+            print(f"⚠️  Warning: Correct answer not found for question {q.get('id', 'UNKNOWN')}")
 
-                position_counts[position_letter] += 1
-                cat_positions[position_letter] += 1
-            except (ValueError, IndexError) as e:
-                print(f"ERROR: {q['id']} - correct answer not in options: {correct_answer}")
+    return pack_name, total, slot_counts
 
-        category_stats[category_name] = {
-            'total': len(questions),
-            'positions': cat_positions
-        }
+def print_distribution(pack_name, total, slot_counts):
+    print(f"\n{'=' * 80}")
+    print(f"Pack: {pack_name}")
+    print(f"Total Questions: {total}")
+    print(f"{'=' * 80}")
 
-    # Print overall statistics
-    print("="*80)
-    print("OVERALL ANSWER DISTRIBUTION")
-    print("="*80)
-    print(f"Total questions analyzed: {total_questions}")
-    print()
+    if total == 0:
+        print("No questions found!")
+        return
 
-    print("Correct answer position:")
-    for pos in ['A', 'B', 'C', 'D']:
-        count = position_counts[pos]
-        percentage = (count / total_questions * 100) if total_questions > 0 else 0
-        ideal = 25.0
-        diff = percentage - ideal
-        print(f"  Position {pos}: {count:4d} questions ({percentage:5.1f}%) [{'+'if diff > 0 else ''}{diff:+5.1f}% from ideal 25%]")
+    for slot in ['A', 'B', 'C', 'D']:
+        count = slot_counts.get(slot, 0)
+        percentage = (count / total * 100) if total > 0 else 0
 
-    print()
-    print("="*80)
-    print("CATEGORY BREAKDOWN")
-    print("="*80)
+        # Color code based on how far from ideal (25%)
+        status = ""
+        if percentage > 40:
+            status = " ⚠️  TOO HIGH!"
+        elif percentage < 15:
+            status = " ⚠️  TOO LOW!"
+        elif percentage > 30:
+            status = " ⚠️  High"
+        elif percentage < 20:
+            status = " ⚠️  Low"
+        else:
+            status = " ✅"
 
-    for category in sorted(category_stats.keys()):
-        stats = category_stats[category]
-        total = stats['total']
-        positions = stats['positions']
+        bar_length = int(percentage / 2)  # Scale to 50 chars max
+        bar = '█' * bar_length
 
-        print(f"\n{category} ({total} questions):")
-        for pos in ['A', 'B', 'C', 'D']:
-            count = positions[pos]
-            percentage = (count / total * 100) if total > 0 else 0
-            ideal = 25.0
-            diff = percentage - ideal
+        print(f"  Slot {slot}: {count:4d} ({percentage:5.1f}%) {bar}{status}")
 
-            # Visual indicator of bias
-            if abs(diff) > 10:
-                indicator = "⚠️  SEVERE BIAS"
-            elif abs(diff) > 5:
-                indicator = "⚠️  BIAS"
-            else:
-                indicator = "✓"
+    print(f"{'=' * 80}")
 
-            print(f"  {pos}: {count:3d} ({percentage:5.1f}%) [{'+'if diff > 0 else ''}{diff:+5.1f}%] {indicator}")
+def main():
+    expansion_files = [
+        '/Users/colbycorcoran/Documents/App Development/Fiz/Fiz/Resources/Expansion Packs/expansion_harry_potter.json',
+        '/Users/colbycorcoran/Documents/App Development/Fiz/Fiz/Resources/Expansion Packs/expansion_pokemon.json',
+        '/Users/colbycorcoran/Documents/App Development/Fiz/Fiz/Resources/Expansion Packs/expansion_80s_trivia.json',
+        '/Users/colbycorcoran/Documents/App Development/Fiz/Fiz/Resources/Expansion Packs/expansion_disney.json',
+        '/Users/colbycorcoran/Documents/App Development/Fiz/Fiz/Resources/Expansion Packs/expansion_the_office.json',
+    ]
 
-    print()
-    print("="*80)
+    print("Analyzing answer option distribution in expansion packs...")
+
+    all_results = []
+
+    for file_path in expansion_files:
+        try:
+            pack_name, total, slot_counts = analyze_expansion_pack(file_path)
+            all_results.append((pack_name, total, slot_counts))
+            print_distribution(pack_name, total, slot_counts)
+        except FileNotFoundError:
+            print(f"\n⚠️  File not found: {file_path}")
+        except Exception as e:
+            print(f"\n❌  Error processing {file_path}: {e}")
+
+    # Summary
+    print(f"\n{'=' * 80}")
     print("SUMMARY")
-    print("="*80)
+    print(f"{'=' * 80}")
 
-    # Find most biased categories
-    most_biased = []
-    for category, stats in category_stats.items():
-        total = stats['total']
-        positions = stats['positions']
+    for pack_name, total, slot_counts in all_results:
+        slot_a_pct = (slot_counts.get('A', 0) / total * 100) if total > 0 else 0
+        status = "✅ Balanced" if 20 <= slot_a_pct <= 30 else "⚠️  NEEDS BALANCING"
+        print(f"{pack_name:30s} - Total: {total:4d} - Slot A: {slot_a_pct:5.1f}% {status}")
 
-        # Calculate max deviation from 25%
-        max_deviation = 0
-        for pos in ['A', 'B', 'C', 'D']:
-            percentage = (positions[pos] / total * 100) if total > 0 else 0
-            deviation = abs(percentage - 25.0)
-            if deviation > max_deviation:
-                max_deviation = deviation
-
-        most_biased.append((category, max_deviation))
-
-    most_biased.sort(key=lambda x: x[1], reverse=True)
-
-    print("\nMost biased categories (by max deviation from 25%):")
-    for i, (cat, dev) in enumerate(most_biased[:5], 1):
-        print(f"  {i}. {cat}: {dev:.1f}% deviation")
-
-    print()
-    overall_bias = max(abs((position_counts[pos] / total_questions * 100) - 25.0) for pos in ['A', 'B', 'C', 'D'])
-    print(f"Overall database bias: {overall_bias:.1f}% (max deviation from 25%)")
-
-    if overall_bias > 10:
-        print("  Status: ⚠️  SEVERE - Needs redistribution")
-    elif overall_bias > 5:
-        print("  Status: ⚠️  MODERATE - Should be redistributed")
-    else:
-        print("  Status: ✓ ACCEPTABLE - Within 5% of ideal")
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

@@ -476,7 +476,7 @@ enum GameMode: String, CaseIterable, Codable, Identifiable {
         case .singleCategory:
             return "circle.grid.cross.up.filled"
         case .singleTopic:
-            return "shippingbox.fill"
+            return "circle.grid.cross.right.filled"
         // Future:
         // case .seasonal:
         //     return "circle.grid.cross.down.filled"

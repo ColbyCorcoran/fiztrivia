@@ -474,7 +474,7 @@ struct CategoryWheelView: View {
                     HapticManager.shared.buttonTapEffect()
                     showingStore = true
                 }) {
-                    Image(systemName: "shippingbox.fill")
+                    Image(systemName: "bag")
                         .font(.title3.weight(.semibold))
                 }
                 .glassButtonStyle()

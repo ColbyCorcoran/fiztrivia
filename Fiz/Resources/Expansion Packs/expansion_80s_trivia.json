@@ -28,8 +28,8 @@
       "subtopic": "Movies",
       "question": "In 'Back to the Future', what speed must the DeLorean reach to time travel?",
       "options": [
-        "88 mph",
         "100 mph",
+        "88 mph",
         "75 mph",
         "65 mph"
       ],
@@ -44,8 +44,8 @@
       "subtopic": "Music",
       "question": "What year was Michael Jackson's 'Thriller' album released?",
       "options": [
-        "1982",
         "1984",
+        "1982",
         "1980",
         "1986"
       ],
@@ -60,8 +60,8 @@
       "subtopic": "TV Shows",
       "question": "What was the name of the bar in 'Cheers'?",
       "options": [
-        "Cheers",
         "Melville's",
+        "Cheers",
         "Gary's Tavern",
         "The Bull & Finch"
       ],
@@ -73,8 +73,8 @@
       "subtopic": "Movies",
       "question": "What year was 'The Breakfast Club' released?",
       "options": [
-        "1985",
         "1984",
+        "1985",
         "1986",
         "1987"
       ],
@@ -89,8 +89,8 @@
       "subtopic": "Movies",
       "question": "Who played Marty McFly in 'Back to the Future'?",
       "options": [
-        "Michael J. Fox",
         "Eric Stoltz",
+        "Michael J. Fox",
         "Tom Cruise",
         "Matthew Broderick"
       ],
@@ -105,8 +105,8 @@
       "subtopic": "Movies",
       "question": "What is E.T.'s favorite candy?",
       "options": [
-        "Reese's Pieces",
         "M&Ms",
+        "Reese's Pieces",
         "Skittles",
         "Smarties"
       ],
@@ -121,8 +121,8 @@
       "subtopic": "Movies",
       "question": "Who says 'I'll be back' in 'The Terminator'?",
       "options": [
-        "Arnold Schwarzenegger",
         "Sylvester Stallone",
+        "Arnold Schwarzenegger",
         "Bruce Willis",
         "Chuck Norris"
       ],
@@ -137,8 +137,8 @@
       "subtopic": "Movies",
       "question": "What sport is featured in 'The Karate Kid'?",
       "options": [
-        "Karate",
         "Kung Fu",
+        "Karate",
         "Judo",
         "Taekwondo"
       ],
@@ -153,8 +153,8 @@
       "subtopic": "Movies",
       "question": "Who directed 'Raiders of the Lost Ark'?",
       "options": [
-        "Steven Spielberg",
         "George Lucas",
+        "Steven Spielberg",
         "James Cameron",
         "Robert Zemeckis"
       ],
@@ -169,8 +169,8 @@
       "subtopic": "Movies",
       "question": "What candy company is featured in 'The Goonies'?",
       "options": [
-        "Baby Ruth",
         "Snickers",
+        "Baby Ruth",
         "Milky Way",
         "Three Musketeers"
       ],
@@ -267,7 +267,7 @@
       "options": [
         "Bon Jovi",
         "Def Leppard",
-        "M\u00f6tley Cr\u00fce",
+        "Mötley Crüe",
         "Poison"
       ],
       "correct_answer": "Bon Jovi",
@@ -329,9 +329,9 @@
       "subtopic": "TV Shows",
       "question": "Who was the main character in 'Miami Vice'?",
       "options": [
+        "Both Crockett and Tubbs",
         "Sonny Crockett",
         "Ricardo Tubbs",
-        "Both Crockett and Tubbs",
         "Frank Furillo"
       ],
       "correct_answer": "Both Crockett and Tubbs",
@@ -393,10 +393,10 @@
       "subtopic": "TV Shows",
       "question": "Who was the bartender in 'Cheers'?",
       "options": [
-        "Sam Malone",
         "Woody Boyd",
         "Coach",
-        "Frasier Crane"
+        "Frasier Crane",
+        "Sam Malone"
       ],
       "correct_answer": "Sam Malone",
       "difficulty": "easy",
@@ -409,10 +409,10 @@
       "subtopic": "TV Shows",
       "question": "What car was featured in 'Knight Rider'?",
       "options": [
-        "KITT (Pontiac Firebird)",
         "General Lee",
         "DeLorean",
-        "Corvette"
+        "Corvette",
+        "KITT (Pontiac Firebird)"
       ],
       "correct_answer": "KITT (Pontiac Firebird)",
       "difficulty": "easy",
@@ -425,10 +425,10 @@
       "subtopic": "TV Shows",
       "question": "Who played MacGyver?",
       "options": [
-        "Richard Dean Anderson",
         "Tom Selleck",
         "Bruce Willis",
-        "Don Johnson"
+        "Don Johnson",
+        "Richard Dean Anderson"
       ],
       "correct_answer": "Richard Dean Anderson",
       "difficulty": "medium",
@@ -441,10 +441,10 @@
       "subtopic": "Pop Culture",
       "question": "What was the most popular video game console of the 80s?",
       "options": [
-        "Nintendo Entertainment System",
         "Atari 2600",
         "Sega Master System",
-        "ColecoVision"
+        "ColecoVision",
+        "Nintendo Entertainment System"
       ],
       "correct_answer": "Nintendo Entertainment System",
       "difficulty": "easy",
@@ -457,10 +457,10 @@
       "subtopic": "Pop Culture",
       "question": "What puzzle became a craze in the 80s?",
       "options": [
-        "Rubik's Cube",
         "Crosswords",
         "Sudoku",
-        "Jigsaw puzzles"
+        "Jigsaw puzzles",
+        "Rubik's Cube"
       ],
       "correct_answer": "Rubik's Cube",
       "difficulty": "easy",
@@ -473,10 +473,10 @@
       "subtopic": "Pop Culture",
       "question": "What doll line competed with Barbie in the 80s?",
       "options": [
-        "Cabbage Patch Kids",
         "Bratz",
         "American Girl",
-        "Monster High"
+        "Monster High",
+        "Cabbage Patch Kids"
       ],
       "correct_answer": "Cabbage Patch Kids",
       "difficulty": "easy",
@@ -489,10 +489,10 @@
       "subtopic": "Pop Culture",
       "question": "What fashion accessory was popularized by Madonna?",
       "options": [
-        "Lace gloves and bangles",
         "Leg warmers",
         "Shoulder pads",
-        "Scrunchies"
+        "Scrunchies",
+        "Lace gloves and bangles"
       ],
       "correct_answer": "Lace gloves and bangles",
       "difficulty": "medium",
@@ -505,10 +505,10 @@
       "subtopic": "Pop Culture",
       "question": "What was the first music video on MTV?",
       "options": [
-        "Video Killed the Radio Star",
         "Billie Jean",
         "Like a Virgin",
-        "Take On Me"
+        "Take On Me",
+        "Video Killed the Radio Star"
       ],
       "correct_answer": "Video Killed the Radio Star",
       "difficulty": "medium",
@@ -521,10 +521,10 @@
       "subtopic": "Pop Culture",
       "question": "What arcade game featured Pac-Man?",
       "options": [
-        "Pac-Man",
         "Donkey Kong",
         "Space Invaders",
-        "Galaga"
+        "Galaga",
+        "Pac-Man"
       ],
       "correct_answer": "Pac-Man",
       "difficulty": "easy",
@@ -537,10 +537,10 @@
       "subtopic": "Sports",
       "question": "Who won the most NBA championships in the 80s?",
       "options": [
-        "Lakers and Celtics",
         "Bulls",
         "Pistons",
-        "76ers"
+        "76ers",
+        "Lakers and Celtics"
       ],
       "correct_answer": "Lakers and Celtics",
       "difficulty": "medium",
@@ -553,9 +553,9 @@
       "subtopic": "Sports",
       "question": "What boxer became youngest heavyweight champion in 1986?",
       "options": [
-        "Mike Tyson",
         "Muhammad Ali",
         "George Foreman",
+        "Mike Tyson",
         "Larry Holmes"
       ],
       "correct_answer": "Mike Tyson",
@@ -569,9 +569,9 @@
       "subtopic": "Sports",
       "question": "Where were the 1984 Summer Olympics held?",
       "options": [
-        "Los Angeles",
         "Seoul",
         "Moscow",
+        "Los Angeles",
         "Barcelona"
       ],
       "correct_answer": "Los Angeles",
@@ -585,9 +585,9 @@
       "subtopic": "Sports",
       "question": "Who was the dominant tennis player in the 80s?",
       "options": [
-        "Multiple (McEnroe, Lendl, Borg)",
         "Just McEnroe",
         "Just Borg",
+        "Multiple (McEnroe, Lendl, Borg)",
         "Just Connors"
       ],
       "correct_answer": "Multiple (McEnroe, Lendl, Borg)",
@@ -601,9 +601,9 @@
       "subtopic": "History",
       "question": "What major wall fell in 1989?",
       "options": [
-        "Berlin Wall",
         "Great Wall",
         "Hadrian's Wall",
+        "Berlin Wall",
         "Western Wall"
       ],
       "correct_answer": "Berlin Wall",
@@ -617,9 +617,9 @@
       "subtopic": "History",
       "question": "What space shuttle disaster occurred in 1986?",
       "options": [
-        "Challenger",
         "Columbia",
         "Discovery",
+        "Challenger",
         "Atlantis"
       ],
       "correct_answer": "Challenger",
@@ -633,9 +633,9 @@
       "subtopic": "History",
       "question": "Who became UK Prime Minister in 1979?",
       "options": [
-        "Margaret Thatcher",
         "Tony Blair",
         "John Major",
+        "Margaret Thatcher",
         "James Callaghan"
       ],
       "correct_answer": "Margaret Thatcher",
@@ -649,9 +649,9 @@
       "subtopic": "History",
       "question": "What major nuclear accident happened in 1986?",
       "options": [
-        "Chernobyl",
         "Three Mile Island",
         "Fukushima",
+        "Chernobyl",
         "Windscale"
       ],
       "correct_answer": "Chernobyl",
@@ -670,10 +670,10 @@
       "subtopic": "Movies",
       "question": "Who played Indiana Jones in 'Raiders of the Lost Ark'?",
       "options": [
-        "Harrison Ford",
         "Tom Selleck",
         "Kurt Russell",
-        "Mel Gibson"
+        "Mel Gibson",
+        "Harrison Ford"
       ],
       "correct_answer": "Harrison Ford",
       "difficulty": "easy"
@@ -686,10 +686,10 @@
       "subtopic": "Music",
       "question": "Which band performed 'Sweet Child O' Mine'?",
       "options": [
-        "Guns N' Roses",
         "Bon Jovi",
         "Def Leppard",
-        "M\u00f6tley Cr\u00fce"
+        "Mötley Crüe",
+        "Guns N' Roses"
       ],
       "correct_answer": "Guns N' Roses",
       "difficulty": "medium"
@@ -702,10 +702,10 @@
       "subtopic": "TV Shows",
       "question": "What was the name of the Tanner family's dog in 'Full House'?",
       "options": [
-        "Comet",
         "Buddy",
         "Max",
-        "Shadow"
+        "Shadow",
+        "Comet"
       ],
       "correct_answer": "Comet",
       "difficulty": "hard"
@@ -718,10 +718,10 @@
       "subtopic": "Sports",
       "question": "Which team won Super Bowl XX in 1986?",
       "options": [
-        "Chicago Bears",
         "New York Giants",
         "San Francisco 49ers",
-        "Miami Dolphins"
+        "Miami Dolphins",
+        "Chicago Bears"
       ],
       "correct_answer": "Chicago Bears",
       "difficulty": "hard"
@@ -734,10 +734,10 @@
       "subtopic": "History",
       "question": "What year did the Berlin Wall fall?",
       "options": [
-        "1989",
         "1987",
         "1985",
-        "1991"
+        "1991",
+        "1989"
       ],
       "correct_answer": "1989",
       "difficulty": "medium"
@@ -750,10 +750,10 @@
       "subtopic": "Movies",
       "question": "In 'The Breakfast Club', how many students are in detention?",
       "options": [
-        "5",
         "4",
         "6",
-        "3"
+        "3",
+        "5"
       ],
       "correct_answer": "5",
       "difficulty": "medium"
@@ -766,10 +766,10 @@
       "subtopic": "Pop Culture",
       "question": "What music video channel launched in 1981?",
       "options": [
-        "MTV",
         "VH1",
         "BET",
-        "CMT"
+        "CMT",
+        "MTV"
       ],
       "correct_answer": "MTV",
       "difficulty": "easy"
@@ -782,10 +782,10 @@
       "subtopic": "TV Shows",
       "question": "Who shot J.R. Ewing in 'Dallas'?",
       "options": [
-        "Kristin Shepard",
         "Sue Ellen Ewing",
         "Cliff Barnes",
-        "Bobby Ewing"
+        "Bobby Ewing",
+        "Kristin Shepard"
       ],
       "correct_answer": "Kristin Shepard",
       "difficulty": "hard"
@@ -798,10 +798,10 @@
       "subtopic": "Sports",
       "question": "Which country hosted the 1988 Summer Olympics?",
       "options": [
-        "South Korea",
         "United States",
         "Soviet Union",
-        "Japan"
+        "Japan",
+        "South Korea"
       ],
       "correct_answer": "South Korea",
       "difficulty": "medium"
@@ -814,10 +814,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the killer doll in the 1988 horror film?",
       "options": [
-        "Chucky",
         "Freddy",
         "Jason",
-        "Michael"
+        "Michael",
+        "Chucky"
       ],
       "correct_answer": "Chucky",
       "difficulty": "easy"
@@ -830,10 +830,10 @@
       "subtopic": "Music",
       "question": "Which artist sang 'Like a Virgin'?",
       "options": [
-        "Madonna",
         "Cyndi Lauper",
         "Whitney Houston",
-        "Janet Jackson"
+        "Janet Jackson",
+        "Madonna"
       ],
       "correct_answer": "Madonna",
       "difficulty": "easy"
@@ -846,10 +846,10 @@
       "subtopic": "TV Shows",
       "question": "What was ALF's real name on his home planet?",
       "options": [
-        "Gordon Shumway",
         "Willie Tanner",
         "Brian Shumway",
-        "Max Wright"
+        "Max Wright",
+        "Gordon Shumway"
       ],
       "correct_answer": "Gordon Shumway",
       "difficulty": "hard"
@@ -862,10 +862,10 @@
       "subtopic": "History",
       "question": "Who was the U.S. President for most of the 1980s?",
       "options": [
-        "Ronald Reagan",
         "Jimmy Carter",
         "George H.W. Bush",
-        "Gerald Ford"
+        "Gerald Ford",
+        "Ronald Reagan"
       ],
       "correct_answer": "Ronald Reagan",
       "difficulty": "easy"
@@ -879,9 +879,9 @@
       "question": "What was the name of the arcade game in 'TRON'?",
       "options": [
         "TRON",
-        "Space Paranoids",
         "Discs of TRON",
-        "Light Cycles"
+        "Light Cycles",
+        "Space Paranoids"
       ],
       "correct_answer": "Space Paranoids",
       "difficulty": "hard"
@@ -894,10 +894,10 @@
       "subtopic": "Music",
       "question": "What was Prince's 1984 hit movie and album?",
       "options": [
-        "Purple Rain",
         "Sign o' the Times",
         "1999",
-        "Controversy"
+        "Controversy",
+        "Purple Rain"
       ],
       "correct_answer": "Purple Rain",
       "difficulty": "easy"
@@ -910,10 +910,10 @@
       "subtopic": "TV Shows",
       "question": "What was the name of the van in 'The A-Team'?",
       "options": [
-        "The A-Team Van (GMC Vandura)",
         "Mystery Machine",
         "Scooby Van",
-        "The Battle Bus"
+        "The Battle Bus",
+        "The A-Team Van (GMC Vandura)"
       ],
       "correct_answer": "The A-Team Van (GMC Vandura)",
       "difficulty": "medium"
@@ -926,10 +926,10 @@
       "subtopic": "Sports",
       "question": "Which boxer did Mike Tyson defeat to become the youngest heavyweight champion?",
       "options": [
-        "Trevor Berbick",
         "Larry Holmes",
         "Michael Spinks",
-        "Tony Tucker"
+        "Tony Tucker",
+        "Trevor Berbick"
       ],
       "correct_answer": "Trevor Berbick",
       "difficulty": "hard"
@@ -942,10 +942,10 @@
       "subtopic": "Pop Culture",
       "question": "What toy line featured transforming robots?",
       "options": [
-        "Transformers",
         "GoBots",
         "Voltron",
-        "Robotech"
+        "Robotech",
+        "Transformers"
       ],
       "correct_answer": "Transformers",
       "difficulty": "easy"
@@ -958,10 +958,10 @@
       "subtopic": "Music",
       "question": "Which band released the album 'Appetite for Destruction'?",
       "options": [
-        "Guns N' Roses",
         "Metallica",
         "AC/DC",
-        "Van Halen"
+        "Van Halen",
+        "Guns N' Roses"
       ],
       "correct_answer": "Guns N' Roses",
       "difficulty": "medium"
@@ -974,10 +974,10 @@
       "subtopic": "History",
       "question": "What space shuttle tragically exploded in 1986?",
       "options": [
-        "Challenger",
         "Columbia",
         "Discovery",
-        "Atlantis"
+        "Atlantis",
+        "Challenger"
       ],
       "correct_answer": "Challenger",
       "difficulty": "medium"
@@ -990,10 +990,10 @@
       "subtopic": "TV Shows",
       "question": "What was the name of the red car in 'Knight Rider'?",
       "options": [
-        "KITT",
         "Herbie",
         "The General Lee",
-        "Christine"
+        "Christine",
+        "KITT"
       ],
       "correct_answer": "KITT",
       "difficulty": "easy"
@@ -1006,10 +1006,10 @@
       "subtopic": "Movies",
       "question": "Who directed 'E.T. the Extra-Terrestrial'?",
       "options": [
-        "Steven Spielberg",
         "George Lucas",
         "Robert Zemeckis",
-        "James Cameron"
+        "James Cameron",
+        "Steven Spielberg"
       ],
       "correct_answer": "Steven Spielberg",
       "difficulty": "easy"
@@ -1022,10 +1022,10 @@
       "subtopic": "Pop Culture",
       "question": "What dance move was popularized by Michael Jackson?",
       "options": [
-        "Moonwalk",
         "Robot",
         "Electric Slide",
-        "Cabbage Patch"
+        "Cabbage Patch",
+        "Moonwalk"
       ],
       "correct_answer": "Moonwalk",
       "difficulty": "easy"
@@ -1038,10 +1038,10 @@
       "subtopic": "Sports",
       "question": "Which NHL team won the most Stanley Cups in the 1980s?",
       "options": [
-        "Edmonton Oilers",
         "New York Islanders",
         "Calgary Flames",
-        "Montreal Canadiens"
+        "Montreal Canadiens",
+        "Edmonton Oilers"
       ],
       "correct_answer": "Edmonton Oilers",
       "difficulty": "hard"
@@ -1054,10 +1054,10 @@
       "subtopic": "TV Shows",
       "question": "What was the occupation of the main character in 'MacGyver'?",
       "options": [
-        "Secret agent/Problem solver",
         "Police detective",
         "Doctor",
-        "Lawyer"
+        "Lawyer",
+        "Secret agent/Problem solver"
       ],
       "correct_answer": "Secret agent/Problem solver",
       "difficulty": "easy"
@@ -1070,10 +1070,10 @@
       "subtopic": "Movies",
       "question": "In 'Ghostbusters', what is the name of their containment unit failure?",
       "options": [
-        "Total protonic reversal",
         "Ectoplasmic cascade",
         "Paranormal breakdown",
-        "Ghost overflow"
+        "Ghost overflow",
+        "Total protonic reversal"
       ],
       "correct_answer": "Total protonic reversal",
       "difficulty": "hard"
@@ -1086,10 +1086,10 @@
       "subtopic": "Pop Culture",
       "question": "What handheld gaming console was released by Nintendo in 1989?",
       "options": [
-        "Game Boy",
         "Game Gear",
         "Atari Lynx",
-        "TurboExpress"
+        "TurboExpress",
+        "Game Boy"
       ],
       "correct_answer": "Game Boy",
       "difficulty": "easy"
@@ -1102,10 +1102,10 @@
       "subtopic": "Movies",
       "question": "Who played the Terminator in the 1984 film?",
       "options": [
-        "Arnold Schwarzenegger",
         "Sylvester Stallone",
         "Jean-Claude Van Damme",
-        "Dolph Lundgren"
+        "Dolph Lundgren",
+        "Arnold Schwarzenegger"
       ],
       "correct_answer": "Arnold Schwarzenegger",
       "difficulty": "easy"
@@ -1118,10 +1118,10 @@
       "subtopic": "Movies",
       "question": "What color are Dorothy's slippers in 'The Wizard of Oz'?",
       "options": [
-        "Ruby red",
         "Silver",
         "Gold",
-        "Blue"
+        "Blue",
+        "Ruby red"
       ],
       "correct_answer": "Ruby red",
       "difficulty": "easy"
@@ -1134,10 +1134,10 @@
       "subtopic": "Movies",
       "question": "In 'Top Gun', what is Maverick's real name?",
       "options": [
-        "Pete Mitchell",
         "Tom Cruise",
         "Nick Bradshaw",
-        "Mike Metcalf"
+        "Mike Metcalf",
+        "Pete Mitchell"
       ],
       "correct_answer": "Pete Mitchell",
       "difficulty": "easy"
@@ -1150,10 +1150,10 @@
       "subtopic": "Movies",
       "question": "What do the Ghostbusters use to catch ghosts?",
       "options": [
-        "Proton packs",
         "Laser guns",
         "Ghost traps only",
-        "Ectoplasm nets"
+        "Ectoplasm nets",
+        "Proton packs"
       ],
       "correct_answer": "Proton packs",
       "difficulty": "easy"
@@ -1166,10 +1166,10 @@
       "subtopic": "Movies",
       "question": "In 'Ferris Bueller's Day Off', what city does Ferris explore?",
       "options": [
-        "Chicago",
         "New York",
         "Los Angeles",
-        "San Francisco"
+        "San Francisco",
+        "Chicago"
       ],
       "correct_answer": "Chicago",
       "difficulty": "easy"
@@ -1182,10 +1182,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the hotel in 'The Shining'?",
       "options": [
-        "The Overlook Hotel",
         "The Stanley Hotel",
         "The Grand Hotel",
-        "The Mountain View"
+        "The Mountain View",
+        "The Overlook Hotel"
       ],
       "correct_answer": "The Overlook Hotel",
       "difficulty": "easy"
@@ -1198,10 +1198,10 @@
       "subtopic": "Movies",
       "question": "In 'Dirty Dancing', what is Baby's real name?",
       "options": [
-        "Frances",
         "Jennifer",
         "Lisa",
-        "Penny"
+        "Penny",
+        "Frances"
       ],
       "correct_answer": "Frances",
       "difficulty": "easy"
@@ -1214,10 +1214,10 @@
       "subtopic": "Movies",
       "question": "What year does Marty McFly travel back to in 'Back to the Future'?",
       "options": [
-        "1955",
         "1885",
         "1985",
-        "1965"
+        "1965",
+        "1955"
       ],
       "correct_answer": "1955",
       "difficulty": "easy"
@@ -1230,10 +1230,10 @@
       "subtopic": "Movies",
       "question": "Who plays Ellen Ripley in 'Aliens'?",
       "options": [
-        "Sigourney Weaver",
         "Jamie Lee Curtis",
         "Linda Hamilton",
-        "Kathleen Turner"
+        "Kathleen Turner",
+        "Sigourney Weaver"
       ],
       "correct_answer": "Sigourney Weaver",
       "difficulty": "easy"
@@ -1246,10 +1246,10 @@
       "subtopic": "Movies",
       "question": "In 'The Princess Bride', what is the giant's name?",
       "options": [
-        "Fezzik",
         "Inigo",
         "Vizzini",
-        "Westley"
+        "Westley",
+        "Fezzik"
       ],
       "correct_answer": "Fezzik",
       "difficulty": "easy"
@@ -1262,10 +1262,10 @@
       "subtopic": "Movies",
       "question": "What sport is featured in 'Bull Durham'?",
       "options": [
-        "Baseball",
         "Basketball",
         "Football",
-        "Hockey"
+        "Hockey",
+        "Baseball"
       ],
       "correct_answer": "Baseball",
       "difficulty": "easy"
@@ -1278,10 +1278,10 @@
       "subtopic": "Movies",
       "question": "In 'Die Hard', where does the action take place?",
       "options": [
-        "Nakatomi Plaza",
         "Empire State Building",
         "Willis Tower",
-        "Trump Tower"
+        "Trump Tower",
+        "Nakatomi Plaza"
       ],
       "correct_answer": "Nakatomi Plaza",
       "difficulty": "easy"
@@ -1294,10 +1294,10 @@
       "subtopic": "Movies",
       "question": "What is Rambo's first name?",
       "options": [
-        "John",
         "Frank",
         "Jack",
-        "James"
+        "James",
+        "John"
       ],
       "correct_answer": "John",
       "difficulty": "easy"
@@ -1310,10 +1310,10 @@
       "subtopic": "Movies",
       "question": "In 'Beetlejuice', how many times must you say his name?",
       "options": [
-        "3",
         "2",
         "5",
-        "1"
+        "1",
+        "3"
       ],
       "correct_answer": "3",
       "difficulty": "easy"
@@ -1326,10 +1326,10 @@
       "subtopic": "Movies",
       "question": "What creature is Elliott's friend in 'E.T.'?",
       "options": [
-        "Alien",
         "Robot",
         "Ghost",
-        "Monster"
+        "Monster",
+        "Alien"
       ],
       "correct_answer": "Alien",
       "difficulty": "easy"
@@ -1342,10 +1342,10 @@
       "subtopic": "Movies",
       "question": "In 'Rain Man', what city do the brothers travel to?",
       "options": [
-        "Los Angeles",
         "Las Vegas",
         "New York",
-        "Miami"
+        "Miami",
+        "Los Angeles"
       ],
       "correct_answer": "Los Angeles",
       "difficulty": "easy"
@@ -1358,10 +1358,10 @@
       "subtopic": "Movies",
       "question": "Who directed 'The Shining'?",
       "options": [
-        "Stanley Kubrick",
         "Steven Spielberg",
         "Alfred Hitchcock",
-        "Martin Scorsese"
+        "Martin Scorsese",
+        "Stanley Kubrick"
       ],
       "correct_answer": "Stanley Kubrick",
       "difficulty": "easy"
@@ -1374,10 +1374,10 @@
       "subtopic": "Movies",
       "question": "What decade does 'Stand By Me' take place in?",
       "options": [
-        "1950s",
         "1960s",
         "1970s",
-        "1940s"
+        "1940s",
+        "1950s"
       ],
       "correct_answer": "1950s",
       "difficulty": "easy"
@@ -1390,10 +1390,10 @@
       "subtopic": "Movies",
       "question": "In 'Footloose', what is banned in the town?",
       "options": [
-        "Dancing",
         "Music",
         "Movies",
-        "Sports"
+        "Sports",
+        "Dancing"
       ],
       "correct_answer": "Dancing",
       "difficulty": "easy"
@@ -1406,10 +1406,10 @@
       "subtopic": "Movies",
       "question": "What is the name of Indiana Jones' father?",
       "options": [
-        "Henry",
         "Marcus",
         "Walter",
-        "Harold"
+        "Harold",
+        "Henry"
       ],
       "correct_answer": "Henry",
       "difficulty": "easy"
@@ -1422,10 +1422,10 @@
       "subtopic": "Movies",
       "question": "In 'Gremlins', what should you never do after midnight?",
       "options": [
-        "Feed them",
         "Water them",
         "Touch them",
-        "Look at them"
+        "Look at them",
+        "Feed them"
       ],
       "correct_answer": "Feed them",
       "difficulty": "easy"
@@ -1438,10 +1438,10 @@
       "subtopic": "Movies",
       "question": "Who plays Venkman in 'Ghostbusters'?",
       "options": [
-        "Bill Murray",
         "Dan Aykroyd",
         "Harold Ramis",
-        "Ernie Hudson"
+        "Ernie Hudson",
+        "Bill Murray"
       ],
       "correct_answer": "Bill Murray",
       "difficulty": "easy"
@@ -1454,10 +1454,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the arcade in 'The Last Starfighter'?",
       "options": [
-        "Starlite Starbrite Trailer Park",
         "Starlight Arcade",
         "Galaxy Games",
-        "Space Station"
+        "Space Station",
+        "Starlite Starbrite Trailer Park"
       ],
       "correct_answer": "Starlite Starbrite Trailer Park",
       "difficulty": "easy"
@@ -1470,10 +1470,10 @@
       "subtopic": "Movies",
       "question": "In 'Blade Runner', what year is the film set in?",
       "options": [
-        "2019",
         "2029",
         "2039",
-        "2009"
+        "2009",
+        "2019"
       ],
       "correct_answer": "2019",
       "difficulty": "medium"
@@ -1486,10 +1486,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the computer in 'WarGames'?",
       "options": [
-        "WOPR (Joshua)",
         "HAL 9000",
         "MOTHER",
-        "MCP"
+        "MCP",
+        "WOPR (Joshua)"
       ],
       "correct_answer": "WOPR (Joshua)",
       "difficulty": "medium"
@@ -1502,10 +1502,10 @@
       "subtopic": "Movies",
       "question": "In 'The Empire Strikes Back', what planet is the rebel base on?",
       "options": [
-        "Hoth",
         "Dagobah",
         "Tatooine",
-        "Endor"
+        "Endor",
+        "Hoth"
       ],
       "correct_answer": "Hoth",
       "difficulty": "medium"
@@ -1518,10 +1518,10 @@
       "subtopic": "Movies",
       "question": "Who composed the score for 'E.T. the Extra-Terrestrial'?",
       "options": [
-        "John Williams",
         "Hans Zimmer",
         "Jerry Goldsmith",
-        "James Horner"
+        "James Horner",
+        "John Williams"
       ],
       "correct_answer": "John Williams",
       "difficulty": "medium"
@@ -1534,10 +1534,10 @@
       "subtopic": "Movies",
       "question": "In 'The Lost Boys', what are the vampires hiding as?",
       "options": [
-        "Bikers",
         "Surfers",
         "College students",
-        "Business people"
+        "Business people",
+        "Bikers"
       ],
       "correct_answer": "Bikers",
       "difficulty": "medium"
@@ -1550,10 +1550,10 @@
       "subtopic": "Movies",
       "question": "What is Goose's real name in 'Top Gun'?",
       "options": [
-        "Nick Bradshaw",
         "Tom Kazansky",
         "Bill Cortell",
-        "Mike Metcalf"
+        "Mike Metcalf",
+        "Nick Bradshaw"
       ],
       "correct_answer": "Nick Bradshaw",
       "difficulty": "medium"
@@ -1566,10 +1566,10 @@
       "subtopic": "Movies",
       "question": "In 'Big', what machine grants Josh's wish?",
       "options": [
-        "Zoltar",
         "The Wizard",
         "Magic Mirror",
-        "Fortune Teller"
+        "Fortune Teller",
+        "Zoltar"
       ],
       "correct_answer": "Zoltar",
       "difficulty": "medium"
@@ -1582,10 +1582,10 @@
       "subtopic": "Movies",
       "question": "What year was 'The Terminator' released?",
       "options": [
-        "1984",
         "1985",
         "1983",
-        "1986"
+        "1986",
+        "1984"
       ],
       "correct_answer": "1984",
       "difficulty": "medium"
@@ -1598,10 +1598,10 @@
       "subtopic": "Movies",
       "question": "In 'Scarface', what is Tony Montana's nickname?",
       "options": [
-        "Scarface",
         "The Boss",
         "The King",
-        "El Jefe"
+        "El Jefe",
+        "Scarface"
       ],
       "correct_answer": "Scarface",
       "difficulty": "medium"
@@ -1614,10 +1614,10 @@
       "subtopic": "Movies",
       "question": "What is the ship's name in 'Aliens'?",
       "options": [
-        "Sulaco",
         "Nostromo",
         "Sevastopol",
-        "Prometheus"
+        "Prometheus",
+        "Sulaco"
       ],
       "correct_answer": "Sulaco",
       "difficulty": "medium"
@@ -1630,10 +1630,10 @@
       "subtopic": "Movies",
       "question": "In 'Indiana Jones and the Temple of Doom', what are the stones called?",
       "options": [
-        "Sankara Stones",
         "Infinity Stones",
         "Sacred Gems",
-        "Temple Crystals"
+        "Temple Crystals",
+        "Sankara Stones"
       ],
       "correct_answer": "Sankara Stones",
       "difficulty": "medium"
@@ -1646,10 +1646,10 @@
       "subtopic": "Movies",
       "question": "Who directed 'Blue Velvet'?",
       "options": [
-        "David Lynch",
         "Brian De Palma",
         "Martin Scorsese",
-        "Francis Ford Coppola"
+        "Francis Ford Coppola",
+        "David Lynch"
       ],
       "correct_answer": "David Lynch",
       "difficulty": "medium"
@@ -1662,10 +1662,10 @@
       "subtopic": "Movies",
       "question": "In 'The Breakfast Club', what does John Bender receive for lunch?",
       "options": [
-        "Nothing (pixie sticks and Coke)",
         "A sandwich",
         "Pizza",
-        "Cafeteria food"
+        "Cafeteria food",
+        "Nothing (pixie sticks and Coke)"
       ],
       "correct_answer": "Nothing (pixie sticks and Coke)",
       "difficulty": "medium"
@@ -1678,10 +1678,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the planet Ripley crashes on in 'Aliens'?",
       "options": [
-        "LV-426 (Acheron)",
         "LV-223",
         "Fiorina 161",
-        "Sevastopol"
+        "Sevastopol",
+        "LV-426 (Acheron)"
       ],
       "correct_answer": "LV-426 (Acheron)",
       "difficulty": "medium"
@@ -1694,10 +1694,10 @@
       "subtopic": "Movies",
       "question": "In 'Platoon', who plays Sergeant Barnes?",
       "options": [
-        "Tom Berenger",
         "Willem Dafoe",
         "Charlie Sheen",
-        "Forest Whitaker"
+        "Forest Whitaker",
+        "Tom Berenger"
       ],
       "correct_answer": "Tom Berenger",
       "difficulty": "medium"
@@ -1710,10 +1710,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the villain in 'RoboCop'?",
       "options": [
-        "Clarence Boddicker",
         "Dick Jones",
         "Bob Morton",
-        "ED-209"
+        "ED-209",
+        "Clarence Boddicker"
       ],
       "correct_answer": "Clarence Boddicker",
       "difficulty": "medium"
@@ -1726,10 +1726,10 @@
       "subtopic": "Movies",
       "question": "In 'The Untouchables', who plays Al Capone?",
       "options": [
-        "Robert De Niro",
         "Sean Connery",
         "Kevin Costner",
-        "Andy Garcia"
+        "Andy Garcia",
+        "Robert De Niro"
       ],
       "correct_answer": "Robert De Niro",
       "difficulty": "medium"
@@ -1742,10 +1742,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the high school in 'Fast Times at Ridgemont High'?",
       "options": [
-        "Ridgemont High",
         "Shermer High",
         "Rydell High",
-        "West Beverly"
+        "West Beverly",
+        "Ridgemont High"
       ],
       "correct_answer": "Ridgemont High",
       "difficulty": "medium"
@@ -1758,10 +1758,10 @@
       "subtopic": "Movies",
       "question": "In 'An American Werewolf in London', what pub do they visit?",
       "options": [
-        "The Slaughtered Lamb",
         "The Wolf's Head",
         "The Full Moon",
-        "The Howling Dog"
+        "The Howling Dog",
+        "The Slaughtered Lamb"
       ],
       "correct_answer": "The Slaughtered Lamb",
       "difficulty": "medium"
@@ -1774,10 +1774,10 @@
       "subtopic": "Movies",
       "question": "What year was 'Blade Runner' released?",
       "options": [
-        "1982",
         "1981",
         "1983",
-        "1984"
+        "1984",
+        "1982"
       ],
       "correct_answer": "1982",
       "difficulty": "medium"
@@ -1790,10 +1790,10 @@
       "subtopic": "Movies",
       "question": "In 'The Thing', where is the research station located?",
       "options": [
-        "Antarctica",
         "Arctic",
         "Alaska",
-        "Siberia"
+        "Siberia",
+        "Antarctica"
       ],
       "correct_answer": "Antarctica",
       "difficulty": "medium"
@@ -1806,10 +1806,10 @@
       "subtopic": "Movies",
       "question": "Who directed 'Full Metal Jacket'?",
       "options": [
-        "Stanley Kubrick",
         "Oliver Stone",
         "Francis Ford Coppola",
-        "Martin Scorsese"
+        "Martin Scorsese",
+        "Stanley Kubrick"
       ],
       "correct_answer": "Stanley Kubrick",
       "difficulty": "medium"
@@ -1822,10 +1822,10 @@
       "subtopic": "Movies",
       "question": "In 'The Goonies', what is the pirate's name?",
       "options": [
-        "One-Eyed Willy",
         "Black Beard",
         "Captain Hook",
-        "Long John Silver"
+        "Long John Silver",
+        "One-Eyed Willy"
       ],
       "correct_answer": "One-Eyed Willy",
       "difficulty": "medium"
@@ -1838,10 +1838,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the corporation in 'Aliens'?",
       "options": [
-        "Weyland-Yutani",
         "Tyrell Corporation",
         "Cyberdyne Systems",
-        "Omni Consumer Products"
+        "Omni Consumer Products",
+        "Weyland-Yutani"
       ],
       "correct_answer": "Weyland-Yutani",
       "difficulty": "medium"
@@ -1854,10 +1854,10 @@
       "subtopic": "Movies",
       "question": "In 'Beverly Hills Cop', what is Axel Foley's badge number?",
       "options": [
-        "N/A (Detroit badge 4073)",
         "007",
         "1234",
-        "5678"
+        "5678",
+        "N/A (Detroit badge 4073)"
       ],
       "correct_answer": "N/A (Detroit badge 4073)",
       "difficulty": "medium"
@@ -1870,10 +1870,10 @@
       "subtopic": "Movies",
       "question": "Who plays the villainous Hans Gruber in 'Die Hard'?",
       "options": [
-        "Alan Rickman",
         "Jeremy Irons",
         "Gary Oldman",
-        "Christopher Walken"
+        "Christopher Walken",
+        "Alan Rickman"
       ],
       "correct_answer": "Alan Rickman",
       "difficulty": "medium"
@@ -1886,10 +1886,10 @@
       "subtopic": "Movies",
       "question": "In 'Escape from New York', what year is it set in?",
       "options": [
-        "1997",
         "1999",
         "2000",
-        "1995"
+        "1995",
+        "1997"
       ],
       "correct_answer": "1997",
       "difficulty": "medium"
@@ -1902,10 +1902,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the bar in 'Cocktail'?",
       "options": [
-        "Multiple (changes bars)",
         "Flanagan's",
         "The Roadhouse",
-        "The Korova Milk Bar"
+        "The Korova Milk Bar",
+        "Multiple (changes bars)"
       ],
       "correct_answer": "Multiple (changes bars)",
       "difficulty": "medium"
@@ -1918,10 +1918,10 @@
       "subtopic": "Movies",
       "question": "In 'License to Kill', where does most of the action take place?",
       "options": [
-        "Mexico and fictional Isthmus",
         "London",
         "Russia",
-        "Hong Kong"
+        "Hong Kong",
+        "Mexico and fictional Isthmus"
       ],
       "correct_answer": "Mexico and fictional Isthmus",
       "difficulty": "medium"
@@ -1934,10 +1934,10 @@
       "subtopic": "Movies",
       "question": "Who plays Sarah Connor in 'The Terminator'?",
       "options": [
-        "Linda Hamilton",
         "Sigourney Weaver",
         "Jamie Lee Curtis",
-        "Kathleen Turner"
+        "Kathleen Turner",
+        "Linda Hamilton"
       ],
       "correct_answer": "Linda Hamilton",
       "difficulty": "medium"
@@ -1950,10 +1950,10 @@
       "subtopic": "Movies",
       "question": "In 'Blade Runner', what is the name of the replicant manufacturer?",
       "options": [
-        "Tyrell Corporation",
         "Weyland-Yutani",
         "Cyberdyne Systems",
-        "OmniCorp"
+        "OmniCorp",
+        "Tyrell Corporation"
       ],
       "correct_answer": "Tyrell Corporation",
       "difficulty": "hard"
@@ -1966,10 +1966,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the replicant that Deckard retires first in 'Blade Runner'?",
       "options": [
-        "Zhora",
         "Pris",
         "Roy",
-        "Leon"
+        "Leon",
+        "Zhora"
       ],
       "correct_answer": "Zhora",
       "difficulty": "hard"
@@ -1982,10 +1982,10 @@
       "subtopic": "Movies",
       "question": "In 'The Running Man', what year is the film set in?",
       "options": [
-        "2017-2019",
         "2025",
         "2030",
-        "2015"
+        "2015",
+        "2017-2019"
       ],
       "correct_answer": "2017-2019",
       "difficulty": "hard"
@@ -1998,10 +1998,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the spaceship in 'Flight of the Navigator'?",
       "options": [
-        "Trimaxion Drone Ship",
         "Jupiter 2",
         "Serenity",
-        "Millennium Falcon"
+        "Millennium Falcon",
+        "Trimaxion Drone Ship"
       ],
       "correct_answer": "Trimaxion Drone Ship",
       "difficulty": "hard"
@@ -2014,10 +2014,10 @@
       "subtopic": "Movies",
       "question": "In 'RoboCop', what is Murphy's first name?",
       "options": [
-        "Alex",
         "John",
         "James",
-        "Robert"
+        "Robert",
+        "Alex"
       ],
       "correct_answer": "Alex",
       "difficulty": "hard"
@@ -2030,10 +2030,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the corporation in 'RoboCop'?",
       "options": [
-        "Omni Consumer Products (OCP)",
         "Weyland-Yutani",
         "Cyberdyne",
-        "Tyrell Corp"
+        "Tyrell Corp",
+        "Omni Consumer Products (OCP)"
       ],
       "correct_answer": "Omni Consumer Products (OCP)",
       "difficulty": "hard"
@@ -2046,10 +2046,10 @@
       "subtopic": "Movies",
       "question": "In 'The Fly', what are the telepods called?",
       "options": [
-        "Telepods",
         "Teleporters",
         "Transfer chambers",
-        "Quantum gates"
+        "Quantum gates",
+        "Telepods"
       ],
       "correct_answer": "Telepods",
       "difficulty": "hard"
@@ -2062,10 +2062,10 @@
       "subtopic": "Movies",
       "question": "What is the name of Roy Batty's girlfriend in 'Blade Runner'?",
       "options": [
-        "Pris",
         "Zhora",
         "Rachel",
-        "Mary"
+        "Mary",
+        "Pris"
       ],
       "correct_answer": "Pris",
       "difficulty": "hard"
@@ -2078,10 +2078,10 @@
       "subtopic": "Movies",
       "question": "In 'Predator', what country are they in?",
       "options": [
-        "Fictional Central American country (Val Verde)",
         "Guatemala",
         "Colombia",
-        "Nicaragua"
+        "Nicaragua",
+        "Fictional Central American country (Val Verde)"
       ],
       "correct_answer": "Fictional Central American country (Val Verde)",
       "difficulty": "hard"
@@ -2094,10 +2094,10 @@
       "subtopic": "Movies",
       "question": "What is the name of the android in 'Aliens'?",
       "options": [
-        "Bishop",
         "Ash",
         "David",
-        "Walter"
+        "Walter",
+        "Bishop"
       ],
       "correct_answer": "Bishop",
       "difficulty": "hard"
@@ -2110,10 +2110,10 @@
       "subtopic": "Movies",
       "question": "In 'They Live', what do the special sunglasses reveal?",
       "options": [
-        "Subliminal messages and aliens",
         "Hidden treasures",
         "The future",
-        "Ghosts"
+        "Ghosts",
+        "Subliminal messages and aliens"
       ],
       "correct_answer": "Subliminal messages and aliens",
       "difficulty": "hard"
@@ -2126,8 +2126,8 @@
       "subtopic": "Movies",
       "question": "What is the Nostromo's registration number in 'Alien' (though 1979)?",
       "options": [
-        "180286",
         "052881",
+        "180286",
         "061979",
         "092482"
       ],
@@ -2142,8 +2142,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Sweet Dreams (Are Made of This)'?",
       "options": [
-        "Eurythmics",
         "Depeche Mode",
+        "Eurythmics",
         "The Cure",
         "New Order"
       ],
@@ -2158,8 +2158,8 @@
       "subtopic": "Music",
       "question": "What band sang 'I Want to Know What Love Is'?",
       "options": [
-        "Foreigner",
         "Journey",
+        "Foreigner",
         "REO Speedwagon",
         "Styx"
       ],
@@ -2174,8 +2174,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'I Love Rock 'n' Roll'?",
       "options": [
-        "Joan Jett & the Blackhearts",
         "Pat Benatar",
+        "Joan Jett & the Blackhearts",
         "Heart",
         "The Runaways"
       ],
@@ -2190,8 +2190,8 @@
       "subtopic": "Music",
       "question": "What band performed 'Africa'?",
       "options": [
-        "Toto",
         "Asia",
+        "Toto",
         "Boston",
         "Kansas"
       ],
@@ -2206,8 +2206,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Wake Me Up Before You Go-Go'?",
       "options": [
-        "Wham!",
         "Duran Duran",
+        "Wham!",
         "Culture Club",
         "Spandau Ballet"
       ],
@@ -2222,8 +2222,8 @@
       "subtopic": "Music",
       "question": "What singer had hits with 'Careless Whisper' and 'Faith'?",
       "options": [
-        "George Michael",
         "Phil Collins",
+        "George Michael",
         "Lionel Richie",
         "Billy Joel"
       ],
@@ -2238,8 +2238,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Total Eclipse of the Heart'?",
       "options": [
-        "Bonnie Tyler",
         "Pat Benatar",
+        "Bonnie Tyler",
         "Stevie Nicks",
         "Heart"
       ],
@@ -2254,8 +2254,8 @@
       "subtopic": "Music",
       "question": "What band performed 'Hungry Like the Wolf'?",
       "options": [
-        "Duran Duran",
         "Spandau Ballet",
+        "Duran Duran",
         "A Flock of Seagulls",
         "The Human League"
       ],
@@ -2270,8 +2270,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'Eye of the Tiger'?",
       "options": [
-        "Survivor",
         "Journey",
+        "Survivor",
         "Foreigner",
         "Boston"
       ],
@@ -2286,8 +2286,8 @@
       "subtopic": "Music",
       "question": "What artist sang 'When Doves Cry'?",
       "options": [
-        "Prince",
         "Michael Jackson",
+        "Prince",
         "Lionel Richie",
         "Stevie Wonder"
       ],
@@ -2302,8 +2302,8 @@
       "subtopic": "Music",
       "question": "Who performed 'Karma Chameleon'?",
       "options": [
-        "Culture Club",
         "Wham!",
+        "Culture Club",
         "Duran Duran",
         "The Eurythmics"
       ],
@@ -2318,8 +2318,8 @@
       "subtopic": "Music",
       "question": "What band sang 'With or Without You'?",
       "options": [
-        "U2",
         "R.E.M.",
+        "U2",
         "The Police",
         "INXS"
       ],
@@ -2334,8 +2334,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'Jesse's Girl'?",
       "options": [
-        "Rick Springfield",
         "John Cougar Mellencamp",
+        "Rick Springfield",
         "Bryan Adams",
         "Bruce Springsteen"
       ],
@@ -2350,8 +2350,8 @@
       "subtopic": "Music",
       "question": "What group performed 'Don't You (Forget About Me)'?",
       "options": [
-        "Simple Minds",
         "The Psychedelic Furs",
+        "Simple Minds",
         "OMD",
         "Echo & the Bunnymen"
       ],
@@ -2366,8 +2366,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Time After Time'?",
       "options": [
-        "Cyndi Lauper",
         "Madonna",
+        "Cyndi Lauper",
         "Whitney Houston",
         "Janet Jackson"
       ],
@@ -2382,8 +2382,8 @@
       "subtopic": "Music",
       "question": "What band had a hit with 'Separate Ways'?",
       "options": [
-        "Journey",
         "Foreigner",
+        "Journey",
         "REO Speedwagon",
         "Styx"
       ],
@@ -2398,8 +2398,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Billie Jean'?",
       "options": [
-        "Michael Jackson",
         "Prince",
+        "Michael Jackson",
         "Lionel Richie",
         "Stevie Wonder"
       ],
@@ -2414,8 +2414,8 @@
       "subtopic": "Music",
       "question": "What artist performed 'Into the Groove'?",
       "options": [
-        "Madonna",
         "Cyndi Lauper",
+        "Madonna",
         "Janet Jackson",
         "Whitney Houston"
       ],
@@ -2430,8 +2430,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'Don't Stop Believin''?",
       "options": [
-        "Journey",
         "Foreigner",
+        "Journey",
         "Boston",
         "Kansas"
       ],
@@ -2446,8 +2446,8 @@
       "subtopic": "Music",
       "question": "What band sang 'Walk Like an Egyptian'?",
       "options": [
-        "The Bangles",
         "The Go-Go's",
+        "The Bangles",
         "The B-52's",
         "Blondie"
       ],
@@ -2462,8 +2462,8 @@
       "subtopic": "Music",
       "question": "Who performed 'Beat It'?",
       "options": [
-        "Michael Jackson",
         "Prince",
+        "Michael Jackson",
         "Billy Idol",
         "Rick James"
       ],
@@ -2478,8 +2478,8 @@
       "subtopic": "Music",
       "question": "What group sang 'Whip It'?",
       "options": [
-        "Devo",
         "The B-52's",
+        "Devo",
         "Talking Heads",
         "The Cars"
       ],
@@ -2494,8 +2494,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'I Ran (So Far Away)'?",
       "options": [
-        "A Flock of Seagulls",
         "Duran Duran",
+        "A Flock of Seagulls",
         "The Human League",
         "Soft Cell"
       ],
@@ -2510,8 +2510,8 @@
       "subtopic": "Music",
       "question": "What was Bon Jovi's first #1 hit?",
       "options": [
-        "You Give Love a Bad Name",
         "Livin' on a Prayer",
+        "You Give Love a Bad Name",
         "Wanted Dead or Alive",
         "Bad Medicine"
       ],
@@ -2526,8 +2526,8 @@
       "subtopic": "Music",
       "question": "Which artist released 'She's a Beauty' in 1983?",
       "options": [
-        "The Tubes",
         "The Cars",
+        "The Tubes",
         "Talking Heads",
         "Devo"
       ],
@@ -2542,8 +2542,8 @@
       "subtopic": "Music",
       "question": "What year did 'Thriller' become the best-selling album?",
       "options": [
-        "1983",
         "1982",
+        "1983",
         "1984",
         "1985"
       ],
@@ -2558,8 +2558,8 @@
       "subtopic": "Music",
       "question": "Who sang 'What's Love Got to Do with It'?",
       "options": [
-        "Tina Turner",
         "Whitney Houston",
+        "Tina Turner",
         "Pat Benatar",
         "Chaka Khan"
       ],
@@ -2574,8 +2574,8 @@
       "subtopic": "Music",
       "question": "What band performed 'Hold Me Now'?",
       "options": [
-        "Thompson Twins",
         "Tears for Fears",
+        "Thompson Twins",
         "Spandau Ballet",
         "ABC"
       ],
@@ -2590,8 +2590,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'Everybody Wants to Rule the World'?",
       "options": [
-        "Tears for Fears",
         "Duran Duran",
+        "Tears for Fears",
         "Simple Minds",
         "The Human League"
       ],
@@ -2606,8 +2606,8 @@
       "subtopic": "Music",
       "question": "What artist released 'Lucky Star' in 1984?",
       "options": [
-        "Madonna",
         "Cyndi Lauper",
+        "Madonna",
         "Janet Jackson",
         "Whitney Houston"
       ],
@@ -2622,8 +2622,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Mr. Roboto'?",
       "options": [
-        "Styx",
         "Journey",
+        "Styx",
         "Foreigner",
         "Boston"
       ],
@@ -2638,8 +2638,8 @@
       "subtopic": "Music",
       "question": "What group performed 'Come On Eileen'?",
       "options": [
-        "Dexys Midnight Runners",
         "The Boomtown Rats",
+        "Dexys Midnight Runners",
         "Men at Work",
         "Madness"
       ],
@@ -2654,8 +2654,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'Jessie's Girl'?",
       "options": [
-        "Rick Springfield",
         "Billy Idol",
+        "Rick Springfield",
         "Bryan Adams",
         "John Cougar"
       ],
@@ -2670,8 +2670,8 @@
       "subtopic": "Music",
       "question": "What band sang 'You Spin Me Round (Like a Record)'?",
       "options": [
-        "Dead or Alive",
         "Frankie Goes to Hollywood",
+        "Dead or Alive",
         "Culture Club",
         "Wham!"
       ],
@@ -2686,8 +2686,8 @@
       "subtopic": "Music",
       "question": "Who performed 'Down Under'?",
       "options": [
-        "Men at Work",
         "INXS",
+        "Men at Work",
         "Midnight Oil",
         "Air Supply"
       ],
@@ -2702,8 +2702,8 @@
       "subtopic": "Music",
       "question": "What artist released 'Let's Dance' in 1983?",
       "options": [
-        "David Bowie",
         "Prince",
+        "David Bowie",
         "Billy Idol",
         "Adam Ant"
       ],
@@ -2718,8 +2718,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Sledgehammer'?",
       "options": [
-        "Peter Gabriel",
         "Phil Collins",
+        "Peter Gabriel",
         "Genesis",
         "Sting"
       ],
@@ -2734,8 +2734,8 @@
       "subtopic": "Music",
       "question": "What band had a hit with 'Voices Carry'?",
       "options": [
-        "'Til Tuesday",
         "The Bangles",
+        "'Til Tuesday",
         "The Go-Go's",
         "Missing Persons"
       ],
@@ -2750,8 +2750,8 @@
       "subtopic": "Music",
       "question": "Who performed 'Here I Go Again'?",
       "options": [
-        "Whitesnake",
         "Def Leppard",
+        "Whitesnake",
         "Scorpions",
         "Europe"
       ],
@@ -2766,8 +2766,8 @@
       "subtopic": "Music",
       "question": "What group sang 'Tainted Love'?",
       "options": [
-        "Soft Cell",
         "Depeche Mode",
+        "Soft Cell",
         "New Order",
         "Pet Shop Boys"
       ],
@@ -2782,8 +2782,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'In the Air Tonight'?",
       "options": [
-        "Phil Collins",
         "Peter Gabriel",
+        "Phil Collins",
         "Sting",
         "Bryan Ferry"
       ],
@@ -2798,8 +2798,8 @@
       "subtopic": "Music",
       "question": "What band performed 'The Safety Dance'?",
       "options": [
-        "Men Without Hats",
         "Devo",
+        "Men Without Hats",
         "The B-52's",
         "Talking Heads"
       ],
@@ -2814,8 +2814,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Our House'?",
       "options": [
-        "Madness",
         "The Specials",
+        "Madness",
         "The Selecter",
         "Bad Manners"
       ],
@@ -2830,8 +2830,8 @@
       "subtopic": "Music",
       "question": "What artist released 'Dancing in the Dark' in 1984?",
       "options": [
-        "Bruce Springsteen",
         "Bob Seger",
+        "Bruce Springsteen",
         "John Cougar",
         "Tom Petty"
       ],
@@ -2846,8 +2846,8 @@
       "subtopic": "Music",
       "question": "Who performed 'Money for Nothing'?",
       "options": [
-        "Dire Straits",
         "The Police",
+        "Dire Straits",
         "U2",
         "Genesis"
       ],
@@ -2862,8 +2862,8 @@
       "subtopic": "Music",
       "question": "What band sang 'She Drives Me Crazy'?",
       "options": [
-        "Fine Young Cannibals",
         "Culture Club",
+        "Fine Young Cannibals",
         "Tears for Fears",
         "Spandau Ballet"
       ],
@@ -2878,8 +2878,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'Shout'?",
       "options": [
-        "Tears for Fears",
         "Simple Minds",
+        "Tears for Fears",
         "Duran Duran",
         "INXS"
       ],
@@ -2894,8 +2894,8 @@
       "subtopic": "Music",
       "question": "What group performed 'Once in a Lifetime'?",
       "options": [
-        "Talking Heads",
         "The B-52's",
+        "Talking Heads",
         "Devo",
         "The Cars"
       ],
@@ -2910,8 +2910,8 @@
       "subtopic": "Music",
       "question": "Who sang 'The Final Countdown'?",
       "options": [
-        "Europe",
         "Whitesnake",
+        "Europe",
         "Scorpions",
         "Def Leppard"
       ],
@@ -2926,8 +2926,8 @@
       "subtopic": "Music",
       "question": "What band had a hit with 'Owner of a Lonely Heart'?",
       "options": [
-        "Yes",
         "Asia",
+        "Yes",
         "Genesis",
         "ELO"
       ],
@@ -2942,8 +2942,8 @@
       "subtopic": "Music",
       "question": "Who performed 'Heaven Is a Place on Earth'?",
       "options": [
-        "Belinda Carlisle",
         "Debbie Gibson",
+        "Belinda Carlisle",
         "Tiffany",
         "Paula Abdul"
       ],
@@ -2958,8 +2958,8 @@
       "subtopic": "Music",
       "question": "What artist sang 'Physical'?",
       "options": [
-        "Olivia Newton-John",
         "Pat Benatar",
+        "Olivia Newton-John",
         "Joan Jett",
         "Heart"
       ],
@@ -2974,8 +2974,8 @@
       "subtopic": "Music",
       "question": "Who had a hit with 'Relax'?",
       "options": [
-        "Frankie Goes to Hollywood",
         "Culture Club",
+        "Frankie Goes to Hollywood",
         "Wham!",
         "Duran Duran"
       ],
@@ -2990,10 +2990,10 @@
       "subtopic": "Music",
       "question": "What band performed 'Jump'?",
       "options": [
-        "Van Halen",
         "Def Leppard",
+        "Van Halen",
         "Bon Jovi",
-        "M\u00f6tley Cr\u00fce"
+        "Mötley Crüe"
       ],
       "correct_answer": "Van Halen",
       "difficulty": "medium"
@@ -3006,8 +3006,8 @@
       "subtopic": "Music",
       "question": "Who sang 'Just Like Heaven'?",
       "options": [
-        "The Cure",
         "Depeche Mode",
+        "The Cure",
         "New Order",
         "The Smiths"
       ],
@@ -3022,8 +3022,8 @@
       "subtopic": "Music",
       "question": "What was Depeche Mode's first album released in the U.S.?",
       "options": [
-        "Speak & Spell",
         "A Broken Frame",
+        "Speak & Spell",
         "Construction Time Again",
         "Some Great Reward"
       ],
@@ -3038,8 +3038,8 @@
       "subtopic": "Music",
       "question": "Which R.E.M. album was released in 1987?",
       "options": [
-        "Document",
         "Murmur",
+        "Document",
         "Reckoning",
         "Green"
       ],
@@ -3054,8 +3054,8 @@
       "subtopic": "Music",
       "question": "What year did The Smiths release 'The Queen Is Dead'?",
       "options": [
-        "1986",
         "1985",
+        "1986",
         "1987",
         "1984"
       ],
@@ -3070,8 +3070,8 @@
       "subtopic": "Music",
       "question": "Who produced Def Leppard's 'Hysteria'?",
       "options": [
-        "Mutt Lange",
         "Bob Rock",
+        "Mutt Lange",
         "Rick Rubin",
         "Eddie Kramer"
       ],
@@ -3086,8 +3086,8 @@
       "subtopic": "Music",
       "question": "What was New Order's best-selling single?",
       "options": [
-        "Blue Monday",
         "Bizarre Love Triangle",
+        "Blue Monday",
         "True Faith",
         "Regret"
       ],
@@ -3102,8 +3102,8 @@
       "subtopic": "Music",
       "question": "Which Talking Heads album featured 'Once in a Lifetime'?",
       "options": [
-        "Remain in Light",
         "Speaking in Tongues",
+        "Remain in Light",
         "Fear of Music",
         "Little Creatures"
       ],
@@ -3118,8 +3118,8 @@
       "subtopic": "Music",
       "question": "What year did The Cure release 'Disintegration'?",
       "options": [
-        "1989",
         "1987",
+        "1989",
         "1988",
         "1986"
       ],
@@ -3134,8 +3134,8 @@
       "subtopic": "Music",
       "question": "Who was the original lead singer of Van Halen who left in 1985?",
       "options": [
-        "David Lee Roth",
         "Sammy Hagar",
+        "David Lee Roth",
         "Gary Cherone",
         "Eddie Van Halen"
       ],
@@ -3150,8 +3150,8 @@
       "subtopic": "Music",
       "question": "What was Metallica's first major label release?",
       "options": [
-        "...And Justice for All",
         "Master of Puppets",
+        "...And Justice for All",
         "Ride the Lightning",
         "Kill 'Em All"
       ],
@@ -3166,8 +3166,8 @@
       "subtopic": "Music",
       "question": "Which album featured 'Sweet Child O' Mine'?",
       "options": [
-        "Appetite for Destruction",
         "Use Your Illusion I",
+        "Appetite for Destruction",
         "Use Your Illusion II",
         "Lies"
       ],
@@ -3182,8 +3182,8 @@
       "subtopic": "Music",
       "question": "What year was Run-D.M.C.'s 'Walk This Way' with Aerosmith released?",
       "options": [
-        "1986",
         "1985",
+        "1986",
         "1987",
         "1984"
       ],
@@ -3198,8 +3198,8 @@
       "subtopic": "Music",
       "question": "Who was the drummer for The Police?",
       "options": [
-        "Stewart Copeland",
         "Phil Collins",
+        "Stewart Copeland",
         "Bill Bruford",
         "Terry Bozzio"
       ],
@@ -3214,8 +3214,8 @@
       "subtopic": "TV Shows",
       "question": "What was the name of the bar where everybody knows your name?",
       "options": [
-        "Cheers",
         "The Bronze",
+        "Cheers",
         "MacLaren's",
         "Paddy's"
       ],
@@ -3230,8 +3230,8 @@
       "subtopic": "TV Shows",
       "question": "Who was the wisecracking helicopter pilot in 'Magnum P.I.'?",
       "options": [
-        "T.C.",
         "Rick",
+        "T.C.",
         "Higgins",
         "Mac"
       ],
@@ -3246,8 +3246,8 @@
       "subtopic": "TV Shows",
       "question": "What show featured the Huxtable family?",
       "options": [
-        "The Cosby Show",
         "Family Matters",
+        "The Cosby Show",
         "The Fresh Prince",
         "A Different World"
       ],
@@ -3262,8 +3262,8 @@
       "subtopic": "TV Shows",
       "question": "In 'The Golden Girls', where did the ladies live?",
       "options": [
-        "Miami",
         "New York",
+        "Miami",
         "Los Angeles",
         "Chicago"
       ],
@@ -3278,8 +3278,8 @@
       "subtopic": "TV Shows",
       "question": "What was the name of the crime-fighting car in 'Knight Rider'?",
       "options": [
-        "KITT",
         "Herbie",
+        "KITT",
         "General Lee",
         "Christine"
       ],
@@ -3294,8 +3294,8 @@
       "subtopic": "TV Shows",
       "question": "Who played the lead role in 'Murder, She Wrote'?",
       "options": [
-        "Angela Lansbury",
         "Betty White",
+        "Angela Lansbury",
         "Bea Arthur",
         "Rue McClanahan"
       ],
@@ -3310,8 +3310,8 @@
       "subtopic": "TV Shows",
       "question": "What show featured the Seaver family?",
       "options": [
-        "Growing Pains",
         "Family Ties",
+        "Growing Pains",
         "Who's the Boss?",
         "The Wonder Years"
       ],
@@ -3326,8 +3326,8 @@
       "subtopic": "TV Shows",
       "question": "In 'The A-Team', what was B.A. Baracus afraid of?",
       "options": [
-        "Flying",
         "Water",
+        "Flying",
         "Heights",
         "Snakes"
       ],
@@ -3342,8 +3342,8 @@
       "subtopic": "TV Shows",
       "question": "What sitcom featured Alex P. Keaton?",
       "options": [
-        "Family Ties",
         "Growing Pains",
+        "Family Ties",
         "The Wonder Years",
         "Who's the Boss?"
       ],
@@ -3358,8 +3358,8 @@
       "subtopic": "TV Shows",
       "question": "Who was the boss of 'Who's the Boss?'?",
       "options": [
-        "Angela",
         "Tony",
+        "Angela",
         "Mona",
         "Samantha"
       ],
@@ -3374,8 +3374,8 @@
       "subtopic": "TV Shows",
       "question": "What show featured twins living in San Francisco?",
       "options": [
-        "Full House",
         "Sister, Sister",
+        "Full House",
         "The Parent Trap",
         "Double Trouble"
       ],
@@ -3390,8 +3390,8 @@
       "subtopic": "TV Shows",
       "question": "In 'Alf', what planet was ALF from?",
       "options": [
-        "Melmac",
         "Krypton",
+        "Melmac",
         "Vulcan",
         "Mars"
       ],
@@ -3406,8 +3406,8 @@
       "subtopic": "TV Shows",
       "question": "What was the name of the PI in 'Magnum P.I.'?",
       "options": [
-        "Thomas Magnum",
         "Rick Magnum",
+        "Thomas Magnum",
         "Jonathan Magnum",
         "Jim Magnum"
       ],
@@ -3422,8 +3422,8 @@
       "subtopic": "TV Shows",
       "question": "Who played J.R. Ewing in 'Dallas'?",
       "options": [
-        "Larry Hagman",
         "Patrick Duffy",
+        "Larry Hagman",
         "Steve Kanaly",
         "Ken Kercheval"
       ],
@@ -3438,8 +3438,8 @@
       "subtopic": "TV Shows",
       "question": "What show featured Balki Bartokomous?",
       "options": [
-        "Perfect Strangers",
         "Bosom Buddies",
+        "Perfect Strangers",
         "Three's Company",
         "Newhart"
       ],
@@ -3454,8 +3454,8 @@
       "subtopic": "TV Shows",
       "question": "In 'Different Strokes', what was Arnold's catchphrase?",
       "options": [
-        "Whatchu talkin' bout Willis?",
         "Did I do that?",
+        "Whatchu talkin' bout Willis?",
         "How you doin'?",
         "Dy-no-mite!"
       ],
@@ -3470,8 +3470,8 @@
       "subtopic": "TV Shows",
       "question": "What show was set in the fictional town of Cabot Cove?",
       "options": [
-        "Murder, She Wrote",
         "Matlock",
+        "Murder, She Wrote",
         "Diagnosis: Murder",
         "Columbo"
       ],
@@ -3486,8 +3486,8 @@
       "subtopic": "TV Shows",
       "question": "What show featured Jessica Tate and Chester Tate?",
       "options": [
-        "Soap",
         "Dynasty",
+        "Soap",
         "Dallas",
         "Falcon Crest"
       ],
@@ -3502,8 +3502,8 @@
       "subtopic": "TV Shows",
       "question": "What show featured the Tanner family and their alien houseguest?",
       "options": [
-        "ALF",
         "Mork & Mindy",
+        "ALF",
         "Out of This World",
         "3rd Rock from the Sun"
       ],
@@ -3518,8 +3518,8 @@
       "subtopic": "TV Shows",
       "question": "In 'Miami Vice', who were the two main detectives?",
       "options": [
-        "Crockett and Tubbs",
         "Starsky and Hutch",
+        "Crockett and Tubbs",
         "Simon and Simon",
         "Hardcastle and McCormick"
       ],
@@ -3534,8 +3534,8 @@
       "subtopic": "TV Shows",
       "question": "What year did 'The Cosby Show' premiere?",
       "options": [
-        "1984",
         "1983",
+        "1984",
         "1985",
         "1982"
       ],
@@ -3550,8 +3550,8 @@
       "subtopic": "TV Shows",
       "question": "In 'Moonlighting', who played Maddie Hayes?",
       "options": [
-        "Cybill Shepherd",
         "Stephanie Zimbalist",
+        "Cybill Shepherd",
         "Sharon Gless",
         "Linda Evans"
       ],
@@ -5022,9 +5022,9 @@
       "subtopic": "Pop Culture",
       "question": "What year was the Macintosh computer introduced?",
       "options": [
-        "1984",
         "1983",
         "1985",
+        "1984",
         "1986"
       ],
       "correct_answer": "1984",
@@ -5038,9 +5038,9 @@
       "subtopic": "Pop Culture",
       "question": "What was the original retail price of a Cabbage Patch Kid?",
       "options": [
-        "$30-$40",
         "$20",
         "$50",
+        "$30-$40",
         "$10"
       ],
       "correct_answer": "$30-$40",
@@ -5054,9 +5054,9 @@
       "subtopic": "Pop Culture",
       "question": "What year did the Iran-Contra affair become public?",
       "options": [
-        "1986",
         "1985",
         "1987",
+        "1986",
         "1984"
       ],
       "correct_answer": "1986",
@@ -5070,9 +5070,9 @@
       "subtopic": "Sports",
       "question": "What boxer was known as 'Iron Mike'?",
       "options": [
-        "Mike Tyson",
         "Mike Weaver",
         "Michael Spinks",
+        "Mike Tyson",
         "Mike McCallum"
       ],
       "correct_answer": "Mike Tyson",
@@ -5086,9 +5086,9 @@
       "subtopic": "Sports",
       "question": "What team won the most Super Bowls in the 1980s?",
       "options": [
-        "San Francisco 49ers",
         "Washington Redskins",
         "New York Giants",
+        "San Francisco 49ers",
         "Chicago Bears"
       ],
       "correct_answer": "San Francisco 49ers",
@@ -5102,9 +5102,9 @@
       "subtopic": "Sports",
       "question": "Who won the most NBA MVP awards in the 1980s?",
       "options": [
-        "Larry Bird and Magic Johnson (tied)",
         "Michael Jordan",
         "Kareem Abdul-Jabbar",
+        "Larry Bird and Magic Johnson (tied)",
         "Moses Malone"
       ],
       "correct_answer": "Larry Bird and Magic Johnson (tied)",
@@ -5118,9 +5118,9 @@
       "subtopic": "Sports",
       "question": "What Canadian hockey player was known as 'The Great One'?",
       "options": [
-        "Wayne Gretzky",
         "Mario Lemieux",
         "Mark Messier",
+        "Wayne Gretzky",
         "Bobby Orr"
       ],
       "correct_answer": "Wayne Gretzky",
@@ -5134,12 +5134,12 @@
       "subtopic": "Sports",
       "question": "What tennis player won Wimbledon five consecutive times in the 80s?",
       "options": [
-        "Bj\u00f6rn Borg (actually ended in 1980)",
         "John McEnroe",
         "Boris Becker",
+        "Björn Borg (actually ended in 1980)",
         "Ivan Lendl"
       ],
-      "correct_answer": "Bj\u00f6rn Borg (actually ended in 1980)",
+      "correct_answer": "Björn Borg (actually ended in 1980)",
       "difficulty": "easy"
     },
     {
@@ -5150,9 +5150,9 @@
       "subtopic": "Sports",
       "question": "What team did Michael Jordan play for in the 1980s?",
       "options": [
-        "Chicago Bulls",
         "Washington Wizards",
         "Los Angeles Lakers",
+        "Chicago Bulls",
         "Boston Celtics"
       ],
       "correct_answer": "Chicago Bulls",
@@ -5166,9 +5166,9 @@
       "subtopic": "Sports",
       "question": "What runner broke the 4-minute mile barrier for women in the 80s?",
       "options": [
-        "No woman has broken 4 minutes",
         "Mary Slaney",
         "Zola Budd",
+        "No woman has broken 4 minutes",
         "Paula Ivan"
       ],
       "correct_answer": "No woman has broken 4 minutes",
@@ -5182,9 +5182,9 @@
       "subtopic": "Sports",
       "question": "What team won the first Super Bowl of the 1980s?",
       "options": [
-        "Pittsburgh Steelers (Super Bowl XIV)",
         "Oakland Raiders",
         "San Francisco 49ers",
+        "Pittsburgh Steelers (Super Bowl XIV)",
         "Washington Redskins"
       ],
       "correct_answer": "Pittsburgh Steelers (Super Bowl XIV)",
@@ -5198,9 +5198,9 @@
       "subtopic": "Sports",
       "question": "Who was the dominant figure skater who won Olympic gold in 1984?",
       "options": [
-        "Scott Hamilton (men), Katarina Witt (women)",
         "Brian Boitano",
         "Dorothy Hamill",
+        "Scott Hamilton (men), Katarina Witt (women)",
         "Peggy Fleming"
       ],
       "correct_answer": "Scott Hamilton (men), Katarina Witt (women)",
@@ -5214,9 +5214,9 @@
       "subtopic": "Sports",
       "question": "What baseball team won the World Series in 1986?",
       "options": [
-        "New York Mets",
         "Boston Red Sox",
         "Los Angeles Dodgers",
+        "New York Mets",
         "Oakland Athletics"
       ],
       "correct_answer": "New York Mets",
@@ -5230,9 +5230,9 @@
       "subtopic": "Sports",
       "question": "Who was the NBA Finals MVP in 1987?",
       "options": [
-        "Magic Johnson",
         "Larry Bird",
         "Kareem Abdul-Jabbar",
+        "Magic Johnson",
         "Isiah Thomas"
       ],
       "correct_answer": "Magic Johnson",
@@ -5246,9 +5246,9 @@
       "subtopic": "Sports",
       "question": "What country hosted the 1988 Summer Olympics?",
       "options": [
-        "South Korea",
         "United States",
         "Soviet Union",
+        "South Korea",
         "Japan"
       ],
       "correct_answer": "South Korea",
@@ -5262,9 +5262,9 @@
       "subtopic": "Sports",
       "question": "Who won the Heisman Trophy in 1985?",
       "options": [
-        "Bo Jackson",
         "Herschel Walker",
         "Doug Flutie",
+        "Bo Jackson",
         "Barry Sanders"
       ],
       "correct_answer": "Bo Jackson",
@@ -5278,9 +5278,9 @@
       "subtopic": "Sports",
       "question": "What NFL team was known as 'The Monsters of the Midway'?",
       "options": [
-        "Chicago Bears",
         "Green Bay Packers",
         "Detroit Lions",
+        "Chicago Bears",
         "Minnesota Vikings"
       ],
       "correct_answer": "Chicago Bears",
@@ -5294,9 +5294,9 @@
       "subtopic": "Sports",
       "question": "Who was the tennis player known for his fiery temper?",
       "options": [
-        "John McEnroe",
         "Jimmy Connors",
-        "Bj\u00f6rn Borg",
+        "Björn Borg",
+        "John McEnroe",
         "Ivan Lendl"
       ],
       "correct_answer": "John McEnroe",
@@ -5310,9 +5310,9 @@
       "subtopic": "Sports",
       "question": "What year did the Edmonton Oilers win their first Stanley Cup?",
       "options": [
-        "1984",
         "1983",
         "1985",
+        "1984",
         "1982"
       ],
       "correct_answer": "1984",
@@ -5326,9 +5326,9 @@
       "subtopic": "Sports",
       "question": "Who was the NBA's all-time leading scorer when he retired in 1989?",
       "options": [
-        "Kareem Abdul-Jabbar",
         "Wilt Chamberlain",
         "Michael Jordan",
+        "Kareem Abdul-Jabbar",
         "Larry Bird"
       ],
       "correct_answer": "Kareem Abdul-Jabbar",
@@ -5342,9 +5342,9 @@
       "subtopic": "Sports",
       "question": "What horse won the Triple Crown in 1978 (close to 80s)?",
       "options": [
-        "Affirmed",
         "Seattle Slew",
         "Secretariat",
+        "Affirmed",
         "Citation"
       ],
       "correct_answer": "Affirmed",
@@ -5358,9 +5358,9 @@
       "subtopic": "Sports",
       "question": "Who won the first official women's marathon at the 1984 Olympics?",
       "options": [
-        "Joan Benoit",
         "Grete Waitz",
         "Ingrid Kristiansen",
+        "Joan Benoit",
         "Rosa Mota"
       ],
       "correct_answer": "Joan Benoit",
@@ -5374,9 +5374,9 @@
       "subtopic": "Sports",
       "question": "What team did Wayne Gretzky get traded to in 1988?",
       "options": [
-        "Los Angeles Kings",
         "New York Rangers",
         "St. Louis Blues",
+        "Los Angeles Kings",
         "Edmonton Oilers"
       ],
       "correct_answer": "Los Angeles Kings",
@@ -5390,9 +5390,9 @@
       "subtopic": "Sports",
       "question": "Who won the Wimbledon men's singles in 1985?",
       "options": [
-        "Boris Becker",
         "John McEnroe",
         "Ivan Lendl",
+        "Boris Becker",
         "Mats Wilander"
       ],
       "correct_answer": "Boris Becker",
@@ -5406,9 +5406,9 @@
       "subtopic": "Sports",
       "question": "What year did the Chicago Bears win Super Bowl XX?",
       "options": [
-        "1986",
         "1985",
         "1987",
+        "1986",
         "1984"
       ],
       "correct_answer": "1986",
@@ -5422,9 +5422,9 @@
       "subtopic": "Sports",
       "question": "Who was the first pick in the 1984 NBA Draft?",
       "options": [
-        "Hakeem Olajuwon",
         "Michael Jordan",
         "Sam Bowie",
+        "Hakeem Olajuwon",
         "Charles Barkley"
       ],
       "correct_answer": "Hakeem Olajuwon",
@@ -5438,9 +5438,9 @@
       "subtopic": "Sports",
       "question": "What year did Ben Johnson win (and lose) Olympic gold for the 100m?",
       "options": [
-        "1988",
         "1987",
         "1986",
+        "1988",
         "1984"
       ],
       "correct_answer": "1988",
@@ -5454,9 +5454,9 @@
       "subtopic": "Sports",
       "question": "Who won the Masters Tournament in 1986 at age 46?",
       "options": [
-        "Jack Nicklaus",
         "Arnold Palmer",
         "Tom Watson",
+        "Jack Nicklaus",
         "Gary Player"
       ],
       "correct_answer": "Jack Nicklaus",
@@ -5470,9 +5470,9 @@
       "subtopic": "Sports",
       "question": "What team won the NBA championship in 1989?",
       "options": [
-        "Detroit Pistons",
         "Los Angeles Lakers",
         "Boston Celtics",
+        "Detroit Pistons",
         "Chicago Bulls"
       ],
       "correct_answer": "Detroit Pistons",
@@ -5486,9 +5486,9 @@
       "subtopic": "Sports",
       "question": "Who was the NFL MVP in 1984?",
       "options": [
-        "Dan Marino",
         "Joe Montana",
         "Walter Payton",
+        "Dan Marino",
         "Eric Dickerson"
       ],
       "correct_answer": "Dan Marino",
@@ -5502,9 +5502,9 @@
       "subtopic": "Sports",
       "question": "What year did Magic Johnson win his first NBA championship?",
       "options": [
-        "1980",
         "1982",
         "1985",
+        "1980",
         "1987"
       ],
       "correct_answer": "1980",
@@ -5518,9 +5518,9 @@
       "subtopic": "Sports",
       "question": "Who won the heavyweight boxing title from Larry Holmes in 1985?",
       "options": [
-        "Michael Spinks",
         "Mike Tyson",
         "Tim Witherspoon",
+        "Michael Spinks",
         "Tony Tubbs"
       ],
       "correct_answer": "Michael Spinks",
@@ -5534,9 +5534,9 @@
       "subtopic": "Sports",
       "question": "What team won the World Series in 1989?",
       "options": [
-        "Oakland Athletics",
         "San Francisco Giants",
         "Los Angeles Dodgers",
+        "Oakland Athletics",
         "Toronto Blue Jays"
       ],
       "correct_answer": "Oakland Athletics",
@@ -5550,9 +5550,9 @@
       "subtopic": "Sports",
       "question": "Who was the first gymnast to score a perfect 10 at the Olympics?",
       "options": [
-        "Nadia Comaneci (1976, not 80s)",
         "Mary Lou Retton",
         "Olga Korbut",
+        "Nadia Comaneci (1976, not 80s)",
         "Simone Biles"
       ],
       "correct_answer": "Nadia Comaneci (1976, not 80s)",
@@ -5566,9 +5566,9 @@
       "subtopic": "Sports",
       "question": "What year did Mary Decker trip and fall in the Olympics?",
       "options": [
-        "1984",
         "1988",
         "1980",
+        "1984",
         "1982"
       ],
       "correct_answer": "1984",
@@ -5582,9 +5582,9 @@
       "subtopic": "Sports",
       "question": "Who won the NBA championship in 1981?",
       "options": [
-        "Boston Celtics",
         "Los Angeles Lakers",
         "Philadelphia 76ers",
+        "Boston Celtics",
         "Houston Rockets"
       ],
       "correct_answer": "Boston Celtics",
@@ -5598,9 +5598,9 @@
       "subtopic": "Sports",
       "question": "What year did the New York Islanders win their first Stanley Cup?",
       "options": [
-        "1980",
         "1981",
         "1982",
+        "1980",
         "1983"
       ],
       "correct_answer": "1980",
@@ -5614,9 +5614,9 @@
       "subtopic": "Sports",
       "question": "Who was the World Series MVP in 1988?",
       "options": [
-        "Orel Hershiser",
         "Kirk Gibson",
         "Dennis Eckersley",
+        "Orel Hershiser",
         "Jose Canseco"
       ],
       "correct_answer": "Orel Hershiser",
@@ -5630,9 +5630,9 @@
       "subtopic": "Sports",
       "question": "What was Wayne Gretzky's point total in the 1985-86 season?",
       "options": [
-        "215 points",
         "200 points",
         "212 points",
+        "215 points",
         "220 points"
       ],
       "correct_answer": "215 points",
@@ -5646,9 +5646,9 @@
       "subtopic": "Sports",
       "question": "Who was the first woman to run a sub-4-minute mile?",
       "options": [
-        "No woman has run sub-4 (Mary Slaney 4:16)",
         "Mary Decker",
         "Zola Budd",
+        "No woman has run sub-4 (Mary Slaney 4:16)",
         "Paula Ivan"
       ],
       "correct_answer": "No woman has run sub-4 (Mary Slaney 4:16)",
@@ -5662,9 +5662,9 @@
       "subtopic": "Sports",
       "question": "What year did Martina Navratilova win the Grand Slam?",
       "options": [
-        "Never won calendar Grand Slam",
         "1983",
         "1984",
+        "Never won calendar Grand Slam",
         "1987"
       ],
       "correct_answer": "Never won calendar Grand Slam",
@@ -5678,9 +5678,9 @@
       "subtopic": "Sports",
       "question": "Who was the NBA Finals MVP when the 76ers won in 1983?",
       "options": [
-        "Moses Malone",
         "Julius Erving",
         "Andrew Toney",
+        "Moses Malone",
         "Maurice Cheeks"
       ],
       "correct_answer": "Moses Malone",
@@ -5694,9 +5694,9 @@
       "subtopic": "Sports",
       "question": "What was the score of Super Bowl XX?",
       "options": [
-        "46-10",
         "38-9",
         "35-21",
+        "46-10",
         "44-3"
       ],
       "correct_answer": "46-10",
@@ -5710,9 +5710,9 @@
       "subtopic": "Sports",
       "question": "Who won the Stanley Cup Finals MVP in 1984?",
       "options": [
-        "Mark Messier",
         "Wayne Gretzky",
         "Grant Fuhr",
+        "Mark Messier",
         "Glenn Anderson"
       ],
       "correct_answer": "Mark Messier",
@@ -5726,9 +5726,9 @@
       "subtopic": "Sports",
       "question": "What year did Carl Lewis win four gold medals at the Olympics?",
       "options": [
-        "1984",
         "1988",
         "1992",
+        "1984",
         "1980"
       ],
       "correct_answer": "1984",
@@ -5742,9 +5742,9 @@
       "subtopic": "History",
       "question": "What volcano erupted in Washington State in 1980?",
       "options": [
-        "Mount St. Helens",
         "Mount Rainier",
         "Mount Hood",
+        "Mount St. Helens",
         "Mount Shasta"
       ],
       "correct_answer": "Mount St. Helens",
@@ -5758,9 +5758,9 @@
       "subtopic": "History",
       "question": "What year did Prince Charles marry Lady Diana Spencer?",
       "options": [
-        "1981",
         "1980",
         "1982",
+        "1981",
         "1983"
       ],
       "correct_answer": "1981",
@@ -5774,9 +5774,9 @@
       "subtopic": "History",
       "question": "What nuclear accident occurred in 1986?",
       "options": [
-        "Chernobyl",
         "Three Mile Island",
         "Fukushima",
+        "Chernobyl",
         "Windscale"
       ],
       "correct_answer": "Chernobyl",
@@ -5790,9 +5790,9 @@
       "subtopic": "History",
       "question": "What space shuttle exploded in 1986?",
       "options": [
-        "Challenger",
         "Columbia",
         "Discovery",
+        "Challenger",
         "Atlantis"
       ],
       "correct_answer": "Challenger",
@@ -5806,9 +5806,9 @@
       "subtopic": "History",
       "question": "Who was the British Prime Minister during most of the 1980s?",
       "options": [
-        "Margaret Thatcher",
         "Tony Blair",
         "John Major",
+        "Margaret Thatcher",
         "James Callaghan"
       ],
       "correct_answer": "Margaret Thatcher",
@@ -5822,9 +5822,9 @@
       "subtopic": "History",
       "question": "What year did the Iran-Iraq War begin?",
       "options": [
-        "1980",
         "1981",
         "1982",
+        "1980",
         "1979"
       ],
       "correct_answer": "1980",
@@ -5838,9 +5838,9 @@
       "subtopic": "History",
       "question": "What major earthquake hit San Francisco in 1989?",
       "options": [
-        "Loma Prieta earthquake",
         "San Andreas earthquake",
         "Northridge earthquake",
+        "Loma Prieta earthquake",
         "Long Beach earthquake"
       ],
       "correct_answer": "Loma Prieta earthquake",
@@ -5854,9 +5854,9 @@
       "subtopic": "History",
       "question": "Who became Soviet leader in 1985?",
       "options": [
-        "Mikhail Gorbachev",
         "Leonid Brezhnev",
         "Yuri Andropov",
+        "Mikhail Gorbachev",
         "Boris Yeltsin"
       ],
       "correct_answer": "Mikhail Gorbachev",
@@ -5870,9 +5870,9 @@
       "subtopic": "History",
       "question": "What country invaded Afghanistan in 1979 (continued into 80s)?",
       "options": [
-        "Soviet Union",
         "United States",
         "Pakistan",
+        "Soviet Union",
         "Iran"
       ],
       "correct_answer": "Soviet Union",
@@ -5886,9 +5886,9 @@
       "subtopic": "History",
       "question": "What major oil spill occurred in 1989?",
       "options": [
-        "Exxon Valdez",
         "Deepwater Horizon",
         "Amoco Cadiz",
+        "Exxon Valdez",
         "Torrey Canyon"
       ],
       "correct_answer": "Exxon Valdez",
@@ -5902,9 +5902,9 @@
       "subtopic": "History",
       "question": "Who attempted to assassinate President Reagan in 1981?",
       "options": [
-        "John Hinckley Jr.",
         "Lee Harvey Oswald",
         "James Earl Ray",
+        "John Hinckley Jr.",
         "Sirhan Sirhan"
       ],
       "correct_answer": "John Hinckley Jr.",
@@ -5918,9 +5918,9 @@
       "subtopic": "History",
       "question": "What year did the Falklands War occur?",
       "options": [
-        "1982",
         "1983",
         "1981",
+        "1982",
         "1984"
       ],
       "correct_answer": "1982",
@@ -5934,9 +5934,9 @@
       "subtopic": "History",
       "question": "Who was elected Pope in 1978?",
       "options": [
-        "Pope John Paul II",
         "Pope Benedict XVI",
         "Pope Paul VI",
+        "Pope John Paul II",
         "Pope John Paul I"
       ],
       "correct_answer": "Pope John Paul II",
@@ -5950,9 +5950,9 @@
       "subtopic": "History",
       "question": "What natural disaster struck Mexico City in 1985?",
       "options": [
-        "Earthquake",
         "Hurricane",
         "Volcano eruption",
+        "Earthquake",
         "Tsunami"
       ],
       "correct_answer": "Earthquake",
@@ -5966,9 +5966,9 @@
       "subtopic": "History",
       "question": "What dictator was overthrown in the Philippines in 1986?",
       "options": [
-        "Ferdinand Marcos",
         "Manuel Noriega",
         "Augusto Pinochet",
+        "Ferdinand Marcos",
         "Saddam Hussein"
       ],
       "correct_answer": "Ferdinand Marcos",
@@ -5982,9 +5982,9 @@
       "subtopic": "History",
       "question": "What year did the Iran hostage crisis end?",
       "options": [
-        "1981",
         "1980",
         "1982",
+        "1981",
         "1979"
       ],
       "correct_answer": "1981",
@@ -5998,9 +5998,9 @@
       "subtopic": "History",
       "question": "Who was Vice President under Ronald Reagan?",
       "options": [
-        "George H.W. Bush",
         "Dan Quayle",
         "Walter Mondale",
+        "George H.W. Bush",
         "Nelson Rockefeller"
       ],
       "correct_answer": "George H.W. Bush",
@@ -6014,9 +6014,9 @@
       "subtopic": "History",
       "question": "What year did the Space Shuttle program begin?",
       "options": [
-        "1981",
         "1980",
         "1982",
+        "1981",
         "1979"
       ],
       "correct_answer": "1981",
@@ -6030,12 +6030,12 @@
       "subtopic": "History",
       "question": "Who shot Pope John Paul II in 1981?",
       "options": [
-        "Mehmet Ali A\u011fca",
         "Lee Harvey Oswald",
         "John Hinckley Jr.",
+        "Mehmet Ali Ağca",
         "Mark David Chapman"
       ],
-      "correct_answer": "Mehmet Ali A\u011fca",
+      "correct_answer": "Mehmet Ali Ağca",
       "difficulty": "medium"
     },
     {
@@ -6046,9 +6046,9 @@
       "subtopic": "History",
       "question": "What was Gorbachev's policy of openness called?",
       "options": [
-        "Glasnost",
         "Perestroika",
         "Detente",
+        "Glasnost",
         "Solidarity"
       ],
       "correct_answer": "Glasnost",
@@ -6062,9 +6062,9 @@
       "subtopic": "History",
       "question": "What year did the Lockerbie bombing occur?",
       "options": [
-        "1988",
         "1987",
         "1989",
+        "1988",
         "1986"
       ],
       "correct_answer": "1988",
@@ -6078,9 +6078,9 @@
       "subtopic": "History",
       "question": "Who was the leader of Libya during the 1980s?",
       "options": [
-        "Muammar Gaddafi",
         "Hosni Mubarak",
         "Saddam Hussein",
+        "Muammar Gaddafi",
         "Hafez al-Assad"
       ],
       "correct_answer": "Muammar Gaddafi",
@@ -6094,9 +6094,9 @@
       "subtopic": "History",
       "question": "What year did the stock market crash on 'Black Monday'?",
       "options": [
-        "1987",
         "1986",
         "1988",
+        "1987",
         "1989"
       ],
       "correct_answer": "1987",
@@ -6110,9 +6110,9 @@
       "subtopic": "History",
       "question": "Who was the leader of Iraq during the Iran-Iraq War?",
       "options": [
-        "Saddam Hussein",
         "Muammar Gaddafi",
         "Ayatollah Khomeini",
+        "Saddam Hussein",
         "Hafez al-Assad"
       ],
       "correct_answer": "Saddam Hussein",
@@ -6126,9 +6126,9 @@
       "subtopic": "History",
       "question": "What was Gorbachev's policy of economic restructuring called?",
       "options": [
-        "Perestroika",
         "Glasnost",
         "Detente",
+        "Perestroika",
         "New Economic Policy"
       ],
       "correct_answer": "Perestroika",
@@ -6142,9 +6142,9 @@
       "subtopic": "History",
       "question": "What year did the Bhopal disaster occur in India?",
       "options": [
-        "1984",
         "1985",
         "1983",
+        "1984",
         "1986"
       ],
       "correct_answer": "1984",
@@ -6158,9 +6158,9 @@
       "subtopic": "History",
       "question": "Who was the first woman on the Supreme Court (appointed 1981)?",
       "options": [
-        "Sandra Day O'Connor",
         "Ruth Bader Ginsburg",
         "Sonia Sotomayor",
+        "Sandra Day O'Connor",
         "Elena Kagan"
       ],
       "correct_answer": "Sandra Day O'Connor",
@@ -6174,9 +6174,9 @@
       "subtopic": "History",
       "question": "Who became the first African-American Miss America in 1984?",
       "options": [
-        "Vanessa Williams",
         "Suzette Charles",
         "Debbye Turner",
+        "Vanessa Williams",
         "Marjorie Vincent"
       ],
       "correct_answer": "Vanessa Williams",
@@ -6190,12 +6190,12 @@
       "subtopic": "History",
       "question": "Who was the leader of Poland's Solidarity movement?",
       "options": [
-        "Lech Wa\u0142\u0119sa",
         "Wojciech Jaruzelski",
-        "V\u00e1clav Havel",
+        "Václav Havel",
+        "Lech Wałęsa",
         "Mikhail Gorbachev"
       ],
-      "correct_answer": "Lech Wa\u0142\u0119sa",
+      "correct_answer": "Lech Wałęsa",
       "difficulty": "medium"
     },
     {
@@ -6206,9 +6206,9 @@
       "subtopic": "History",
       "question": "What year did the U.S. invade Grenada?",
       "options": [
-        "1983",
         "1984",
         "1982",
+        "1983",
         "1985"
       ],
       "correct_answer": "1983",
@@ -6222,9 +6222,9 @@
       "subtopic": "History",
       "question": "Who was the Democratic nominee for President in 1984?",
       "options": [
-        "Walter Mondale",
         "Michael Dukakis",
         "Gary Hart",
+        "Walter Mondale",
         "Jesse Jackson"
       ],
       "correct_answer": "Walter Mondale",
@@ -6238,9 +6238,9 @@
       "subtopic": "History",
       "question": "What year did martial law end in Poland?",
       "options": [
-        "1983",
         "1984",
         "1982",
+        "1983",
         "1985"
       ],
       "correct_answer": "1983",
@@ -6254,9 +6254,9 @@
       "subtopic": "History",
       "question": "Who was the Prime Minister of India when Indira Gandhi was assassinated?",
       "options": [
-        "She was PM when assassinated",
         "Rajiv Gandhi",
         "Morarji Desai",
+        "She was PM when assassinated",
         "V.P. Singh"
       ],
       "correct_answer": "She was PM when assassinated",
@@ -6270,9 +6270,9 @@
       "subtopic": "History",
       "question": "What year was Pan Am Flight 103 bombed over Lockerbie?",
       "options": [
-        "1988",
         "1987",
         "1989",
+        "1988",
         "1986"
       ],
       "correct_answer": "1988",
@@ -6286,9 +6286,9 @@
       "subtopic": "History",
       "question": "Who became President of South Africa in 1989?",
       "options": [
-        "F.W. de Klerk",
         "P.W. Botha",
         "Nelson Mandela",
+        "F.W. de Klerk",
         "Desmond Tutu"
       ],
       "correct_answer": "F.W. de Klerk",
@@ -6302,9 +6302,9 @@
       "subtopic": "History",
       "question": "What was the name of Reagan's Strategic Defense Initiative?",
       "options": [
-        "Star Wars",
         "Iron Dome",
         "Patriot Shield",
+        "Star Wars",
         "Space Shield"
       ],
       "correct_answer": "Star Wars",
@@ -6318,9 +6318,9 @@
       "subtopic": "History",
       "question": "What year did the Rainbow Warrior bombing occur?",
       "options": [
-        "1985",
         "1984",
         "1986",
+        "1985",
         "1987"
       ],
       "correct_answer": "1985",
@@ -6334,9 +6334,9 @@
       "subtopic": "History",
       "question": "Who was the first artificial heart recipient in 1982?",
       "options": [
-        "Barney Clark",
         "William Schroeder",
         "Murray Haydon",
+        "Barney Clark",
         "Jack Burcham"
       ],
       "correct_answer": "Barney Clark",
@@ -6350,9 +6350,9 @@
       "subtopic": "History",
       "question": "What year did the U.S.S.R. boycott the Summer Olympics?",
       "options": [
-        "1984",
         "1980",
         "1988",
+        "1984",
         "1976"
       ],
       "correct_answer": "1984",
@@ -6366,9 +6366,9 @@
       "subtopic": "History",
       "question": "Who was the National Security Advisor involved in Iran-Contra?",
       "options": [
-        "John Poindexter",
         "Oliver North",
         "Robert McFarlane",
+        "John Poindexter",
         "Caspar Weinberger"
       ],
       "correct_answer": "John Poindexter",
@@ -6382,9 +6382,9 @@
       "subtopic": "History",
       "question": "What year did the Achille Lauro hijacking occur?",
       "options": [
-        "1985",
         "1986",
         "1984",
+        "1985",
         "1987"
       ],
       "correct_answer": "1985",
@@ -6398,9 +6398,9 @@
       "subtopic": "History",
       "question": "Who was the first female cosmonaut to walk in space (1984)?",
       "options": [
-        "Svetlana Savitskaya",
         "Valentina Tereshkova",
         "Sally Ride",
+        "Svetlana Savitskaya",
         "Kathryn Sullivan"
       ],
       "correct_answer": "Svetlana Savitskaya",
@@ -6414,9 +6414,9 @@
       "subtopic": "History",
       "question": "What year did the USS Vincennes shoot down Iran Air Flight 655?",
       "options": [
-        "1988",
         "1987",
         "1989",
+        "1988",
         "1986"
       ],
       "correct_answer": "1988",

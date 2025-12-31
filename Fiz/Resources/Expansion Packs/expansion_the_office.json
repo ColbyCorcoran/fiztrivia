@@ -1,7 +1,7 @@
 {
   "packId": "com.fiz.pack.the_office",
   "packName": "The Office",
-  "packDescription": "That's what she said! Dive into Dunder Mifflin with 300 questions about characters, episodes, iconic quotes, and memorable moments from The Office.",
+  "packDescription": "That's what she said! Dive into Dunder Mifflin with 300+ questions about characters, episodes, iconic quotes, and memorable moments from The Office.",
   "subtopics": [
     "Characters",
     "Episodes",
@@ -28,10 +28,10 @@
       "subtopic": "Characters",
       "question": "What is Michael Scott's favorite phrase?",
       "options": [
-        "That's what she said",
         "Bazinga",
         "How you doin'?",
-        "Suit up"
+        "Suit up",
+        "That's what she said"
       ],
       "correct_answer": "That's what she said",
       "difficulty": "easy"
@@ -42,12 +42,12 @@
       "subcategory": "Drama/Comedy",
       "topic": "The Office",
       "subtopic": "Locations",
-      "question": "In which city is Dunder Mifflin Scranton located?",
+      "question": "In which city is the show's main Dunder Mifflin branch located?",
       "options": [
-        "Scranton, Pennsylvania",
         "Buffalo, New York",
         "Albany, New York",
-        "Stamford, Connecticut"
+        "Stamford, Connecticut",
+        "Scranton, Pennsylvania"
       ],
       "correct_answer": "Scranton, Pennsylvania",
       "difficulty": "easy"
@@ -60,10 +60,10 @@
       "subtopic": "Relationships",
       "question": "Who does Jim Halpert marry?",
       "options": [
-        "Pam Beesly",
         "Karen Filippelli",
         "Katy Moore",
-        "Angela Martin"
+        "Angela Martin",
+        "Pam Beesly"
       ],
       "correct_answer": "Pam Beesly",
       "difficulty": "easy"
@@ -76,10 +76,10 @@
       "subtopic": "Characters",
       "question": "What is Dwight's job title at Dunder Mifflin?",
       "options": [
-        "Assistant (to the) Regional Manager",
         "Regional Manager",
         "Assistant Regional Manager",
-        "Sales Representative"
+        "Sales Representative",
+        "Assistant (to the) Regional Manager"
       ],
       "correct_answer": "Assistant (to the) Regional Manager",
       "difficulty": "easy"
@@ -92,10 +92,10 @@
       "subtopic": "Trivia",
       "question": "What product does Dunder Mifflin sell?",
       "options": [
-        "Paper",
         "Office supplies",
         "Printers",
-        "Furniture"
+        "Furniture",
+        "Paper"
       ],
       "correct_answer": "Paper",
       "difficulty": "easy"
@@ -106,12 +106,12 @@
       "subcategory": "Drama/Comedy",
       "topic": "The Office",
       "subtopic": "Episodes",
-      "question": "What event do Jim and Pam get married at?",
+      "question": "Where do Jim and Pam get married?",
       "options": [
-        "Niagara Falls",
         "The Office",
         "Schrute Farms",
-        "Poor Richard's"
+        "Poor Richard's",
+        "Niagara Falls"
       ],
       "correct_answer": "Niagara Falls",
       "difficulty": "easy"
@@ -124,10 +124,10 @@
       "subtopic": "Episodes",
       "question": "What charity event does Michael organize?",
       "options": [
-        "Fun Run for rabies",
         "Walk for diabetes",
         "Run for cancer",
-        "Bike for MS"
+        "Bike for MS",
+        "Fun Run for rabies"
       ],
       "correct_answer": "Fun Run for rabies",
       "difficulty": "easy"
@@ -140,9 +140,9 @@
       "subtopic": "Characters",
       "question": "What is Ryan's entry-level position?",
       "options": [
-        "Temp",
         "Sales associate",
         "Receptionist",
+        "Temp",
         "Accountant"
       ],
       "correct_answer": "Temp",
@@ -156,9 +156,9 @@
       "subtopic": "Trivia",
       "question": "What color is the stapler Jim puts in Jello?",
       "options": [
-        "Red",
         "Blue",
         "Black",
+        "Red",
         "Gray"
       ],
       "correct_answer": "Red",
@@ -172,9 +172,9 @@
       "subtopic": "Relationships",
       "question": "Who are Jim and Pam's children?",
       "options": [
-        "Cecelia and Philip",
         "Michael and Pam Jr.",
         "James and Pamela",
+        "Cecelia and Philip",
         "John and Jane"
       ],
       "correct_answer": "Cecelia and Philip",
@@ -188,9 +188,9 @@
       "subtopic": "Quotes",
       "question": "What does Dwight say about identity theft?",
       "options": [
-        "Identity theft is not a joke, Jim!",
         "Don't steal identities",
         "Identity theft is serious",
+        "Identity theft is not a joke, Jim!",
         "That's illegal, Jim"
       ],
       "correct_answer": "Identity theft is not a joke, Jim!",
@@ -204,9 +204,9 @@
       "subtopic": "Episodes",
       "question": "What does Jim sell to Dwight from the vending machine?",
       "options": [
-        "His own desk items",
         "Candy",
         "Soda",
+        "His own desk items",
         "Office supplies"
       ],
       "correct_answer": "His own desk items",
@@ -220,9 +220,9 @@
       "subtopic": "Characters",
       "question": "What is Michael's catchphrase when excited?",
       "options": [
-        "That's what she said",
         "Boom! Roasted!",
         "I love this",
+        "That's what she said",
         "Perfect"
       ],
       "correct_answer": "That's what she said",
@@ -236,9 +236,9 @@
       "subtopic": "Trivia",
       "question": "What food does Kevin famously spill?",
       "options": [
-        "Chili",
         "Soup",
         "Coffee",
+        "Chili",
         "Pizza"
       ],
       "correct_answer": "Chili",
@@ -252,8 +252,8 @@
       "subtopic": "Locations",
       "question": "What is Dwight's family business?",
       "options": [
-        "Schrute Farms",
         "Beet Co.",
+        "Schrute Farms",
         "Farm Fresh",
         "Country Acres"
       ],
@@ -268,8 +268,8 @@
       "subtopic": "Relationships",
       "question": "Who does Michael end up marrying?",
       "options": [
-        "Holly Flax",
         "Jan Levinson",
+        "Holly Flax",
         "Carol Stills",
         "Donna Newton"
       ],
@@ -284,8 +284,8 @@
       "subtopic": "Episodes",
       "question": "What type of event are the Dundies?",
       "options": [
-        "Office awards ceremony",
         "Company party",
+        "Office awards ceremony",
         "Sales competition",
         "Team building"
       ],
@@ -300,8 +300,8 @@
       "subtopic": "Characters",
       "question": "What is Dwight's title that he insists on?",
       "options": [
-        "Assistant Regional Manager",
         "Regional Manager",
+        "Assistant Regional Manager",
         "Assistant to the Regional Manager",
         "Senior Sales Associate"
       ],
@@ -316,8 +316,8 @@
       "subtopic": "Quotes",
       "question": "What does Jim say when impersonating Dwight?",
       "options": [
-        "Question: What kind of bear is best?",
         "I am Dwight",
+        "Question: What kind of bear is best?",
         "Fact: I am the best",
         "Bears are dangerous"
       ],
@@ -332,8 +332,8 @@
       "subtopic": "Trivia",
       "question": "What is the name of Michael's movie script?",
       "options": [
-        "Threat Level Midnight",
         "Agent Scarn",
+        "Threat Level Midnight",
         "The Office Manager",
         "Michael's Mission"
       ],
@@ -348,8 +348,8 @@
       "subtopic": "Episodes",
       "question": "What does Dwight set on fire in 'Stress Relief'?",
       "options": [
-        "The office",
         "His desk",
+        "The office",
         "The warehouse",
         "The break room"
       ],
@@ -364,8 +364,8 @@
       "subtopic": "Characters",
       "question": "What is Andy's college catchphrase?",
       "options": [
-        "Go Big Red",
         "Ivy League pride",
+        "Go Big Red",
         "Cornell forever",
         "Remember the Nard Dog"
       ],
@@ -510,10 +510,10 @@
       "subtopic": "Characters",
       "question": "What is Dwight Schrute's middle name?",
       "options": [
-        "Kurt",
         "Karl",
         "Kevin",
-        "Kenneth"
+        "Kenneth",
+        "Kurt"
       ],
       "correct_answer": "Kurt",
       "difficulty": "hard"
@@ -526,10 +526,10 @@
       "subtopic": "Episodes",
       "question": "What episode features Michael grilling his foot on a George Foreman grill?",
       "options": [
-        "The Injury",
         "Stress Relief",
         "Fun Run",
-        "Casino Night"
+        "Casino Night",
+        "The Injury"
       ],
       "correct_answer": "The Injury",
       "difficulty": "medium"
@@ -540,12 +540,12 @@
       "subcategory": "Drama/Comedy",
       "topic": "The Office",
       "subtopic": "Quotes",
-      "question": "Who said 'I am Beyonc\u00e9, always'?",
+      "question": "Who said 'I am Beyoncé, always'?",
       "options": [
-        "Michael Scott",
         "Kelly Kapoor",
         "Andy Bernard",
-        "Ryan Howard"
+        "Ryan Howard",
+        "Michael Scott"
       ],
       "correct_answer": "Michael Scott",
       "difficulty": "medium"
@@ -558,12 +558,12 @@
       "subtopic": "Trivia",
       "question": "What is the name of the company newsletter?",
       "options": [
-        "The Finer Things Club",
         "Dundie Awards",
         "The Fun Run Times",
-        "The Dunder Mifflin Infinity"
+        "The Dunder Mifflin Infinity",
+        "Dunder Mifflin Employee Newsletter"
       ],
-      "correct_answer": "The Finer Things Club",
+      "correct_answer": "Dunder Mifflin Employee Newsletter",
       "difficulty": "hard"
     },
     {
@@ -574,10 +574,10 @@
       "subtopic": "Characters",
       "question": "What does Kevin Malone do in his free time?",
       "options": [
-        "Plays in a band",
         "Paints",
         "Writes novels",
-        "Teaches karate"
+        "Teaches karate",
+        "Plays in a band"
       ],
       "correct_answer": "Plays in a band",
       "difficulty": "medium"
@@ -590,10 +590,10 @@
       "subtopic": "Relationships",
       "question": "Who is Angela Martin in a relationship with for most of the series?",
       "options": [
-        "Dwight and Andy (at different times)",
         "Kevin",
         "Oscar",
-        "Ryan"
+        "Ryan",
+        "Dwight and Andy (at different times)"
       ],
       "correct_answer": "Dwight and Andy (at different times)",
       "difficulty": "easy"
@@ -606,10 +606,10 @@
       "subtopic": "Locations",
       "question": "What is the name of the bar where the office workers hang out?",
       "options": [
-        "Poor Richard's",
         "Chili's",
         "Applebee's",
-        "The Ale House"
+        "The Ale House",
+        "Poor Richard's"
       ],
       "correct_answer": "Poor Richard's",
       "difficulty": "medium"
@@ -622,10 +622,10 @@
       "subtopic": "Episodes",
       "question": "In which episode does Jim propose to Pam?",
       "options": [
-        "Niagara",
         "Casino Night",
         "Beach Games",
-        "Company Picnic"
+        "Company Picnic",
+        "Niagara"
       ],
       "correct_answer": "Niagara",
       "difficulty": "medium"
@@ -638,10 +638,10 @@
       "subtopic": "Characters",
       "question": "What is Stanley Hudson's favorite day?",
       "options": [
-        "Pretzel Day",
         "Pizza Friday",
         "Taco Tuesday",
-        "Donut Day"
+        "Donut Day",
+        "Pretzel Day"
       ],
       "correct_answer": "Pretzel Day",
       "difficulty": "easy"
@@ -654,10 +654,10 @@
       "subtopic": "Quotes",
       "question": "Who said 'I'm not superstitious, but I am a little stitious'?",
       "options": [
-        "Michael Scott",
         "Dwight Schrute",
         "Jim Halpert",
-        "Creed Bratton"
+        "Creed Bratton",
+        "Michael Scott"
       ],
       "correct_answer": "Michael Scott",
       "difficulty": "easy"
@@ -670,10 +670,10 @@
       "subtopic": "Trivia",
       "question": "What is the name of Michael's screenplay?",
       "options": [
-        "Threat Level Midnight",
         "Agent Michael Scarn",
         "The Office Manager",
-        "The Dundies"
+        "The Dundies",
+        "Threat Level Midnight"
       ],
       "correct_answer": "Threat Level Midnight",
       "difficulty": "medium"
@@ -686,10 +686,10 @@
       "subtopic": "Characters",
       "question": "What is Creed's job at Dunder Mifflin?",
       "options": [
-        "Quality Assurance",
         "Accountant",
         "Salesman",
-        "Warehouse worker"
+        "Warehouse worker",
+        "Quality Assurance"
       ],
       "correct_answer": "Quality Assurance",
       "difficulty": "hard"
@@ -702,10 +702,10 @@
       "subtopic": "Episodes",
       "question": "What episode features the Dundie Awards?",
       "options": [
-        "The Dundies",
         "Casino Night",
         "Office Olympics",
-        "The Dinner Party"
+        "The Dinner Party",
+        "The Dundies"
       ],
       "correct_answer": "The Dundies",
       "difficulty": "easy"
@@ -718,10 +718,10 @@
       "subtopic": "Relationships",
       "question": "Who does Michael Scott end up with?",
       "options": [
-        "Holly Flax",
         "Jan Levinson",
         "Carol Stills",
-        "Helene Beesly"
+        "Helene Beesly",
+        "Holly Flax"
       ],
       "correct_answer": "Holly Flax",
       "difficulty": "easy"
@@ -734,10 +734,10 @@
       "subtopic": "Locations",
       "question": "Where does Michael buy his suits?",
       "options": [
-        "MISSterious",
         "Men's Wearhouse",
         "Burlington Coat Factory",
-        "JCPenney"
+        "JCPenney",
+        "MISSterious"
       ],
       "correct_answer": "MISSterious",
       "difficulty": "hard"
@@ -750,10 +750,10 @@
       "subtopic": "Characters",
       "question": "What instrument does Andy Bernard play?",
       "options": [
-        "Banjo",
         "Guitar",
         "Piano",
-        "Harmonica"
+        "Harmonica",
+        "Banjo"
       ],
       "correct_answer": "Banjo",
       "difficulty": "medium"
@@ -766,10 +766,10 @@
       "subtopic": "Quotes",
       "question": "Who said 'Bears. Beets. Battlestar Galactica'?",
       "options": [
-        "Jim Halpert (impersonating Dwight)",
         "Dwight Schrute",
         "Michael Scott",
-        "Andy Bernard"
+        "Andy Bernard",
+        "Jim Halpert (impersonating Dwight)"
       ],
       "correct_answer": "Jim Halpert (impersonating Dwight)",
       "difficulty": "easy"
@@ -782,10 +782,10 @@
       "subtopic": "Trivia",
       "question": "What is the name of Angela's cat that Dwight kills?",
       "options": [
-        "Sprinkles",
         "Mr. Ash",
         "Princess Lady",
-        "Garbage"
+        "Garbage",
+        "Sprinkles"
       ],
       "correct_answer": "Sprinkles",
       "difficulty": "medium"
@@ -798,10 +798,10 @@
       "subtopic": "Episodes",
       "question": "In 'Dinner Party', what does Michael serve for dinner?",
       "options": [
-        "Osso buco",
         "Spaghetti",
         "Chicken",
-        "Pizza"
+        "Pizza",
+        "Osso buco"
       ],
       "correct_answer": "Osso buco",
       "difficulty": "hard"
@@ -814,10 +814,10 @@
       "subtopic": "Characters",
       "question": "What is Phyllis's maiden name?",
       "options": [
-        "Lapin",
         "Vance",
         "Smith",
-        "Martin"
+        "Martin",
+        "Lapin"
       ],
       "correct_answer": "Lapin",
       "difficulty": "hard"
@@ -830,10 +830,10 @@
       "subtopic": "Relationships",
       "question": "Who does Ryan Howard date?",
       "options": [
-        "Kelly Kapoor",
         "Pam Beesly",
         "Erin Hannon",
-        "Angela Martin"
+        "Angela Martin",
+        "Kelly Kapoor"
       ],
       "correct_answer": "Kelly Kapoor",
       "difficulty": "easy"
@@ -846,10 +846,10 @@
       "subtopic": "Quotes",
       "question": "What does Dwight say when he becomes interim regional manager?",
       "options": [
-        "I am now the regional manager",
         "Bow down to your new leader",
         "I have the power",
-        "Fear me"
+        "Fear me",
+        "I am now the regional manager"
       ],
       "correct_answer": "I am now the regional manager",
       "difficulty": "medium"
@@ -862,10 +862,10 @@
       "subtopic": "Trivia",
       "question": "What is the name of the office building owner?",
       "options": [
-        "Bob Vance",
         "David Wallace",
         "Charles Miner",
-        "Robert California"
+        "Robert California",
+        "Bob Vance"
       ],
       "correct_answer": "Bob Vance",
       "difficulty": "hard"
@@ -878,10 +878,10 @@
       "subtopic": "Characters",
       "question": "What is Toby Flenderson's job title?",
       "options": [
-        "Human Resources",
         "Accountant",
         "Salesman",
-        "Receptionist"
+        "Receptionist",
+        "Human Resources"
       ],
       "correct_answer": "Human Resources",
       "difficulty": "easy"
@@ -894,10 +894,10 @@
       "subtopic": "Episodes",
       "question": "Which episode features Jim and Pam's wedding?",
       "options": [
-        "Niagara (Parts 1 & 2)",
         "Goodbye, Toby",
         "Company Picnic",
-        "The Merger"
+        "The Merger",
+        "Niagara (Parts 1 & 2)"
       ],
       "correct_answer": "Niagara (Parts 1 & 2)",
       "difficulty": "easy"
@@ -910,10 +910,10 @@
       "subtopic": "Locations",
       "question": "What is the name of Dwight's beet farm?",
       "options": [
-        "Schrute Farms",
         "Dwight's Beets",
         "The Beet Farm",
-        "Shrute Beet Co."
+        "Shrute Beet Co.",
+        "Schrute Farms"
       ],
       "correct_answer": "Schrute Farms",
       "difficulty": "easy"
@@ -926,10 +926,10 @@
       "subtopic": "Characters",
       "question": "What is the name of Jim and Pam's first child?",
       "options": [
-        "Cecelia (Cece)",
         "Philip",
         "Michael",
-        "Pam Jr."
+        "Pam Jr.",
+        "Cecelia (Cece)"
       ],
       "correct_answer": "Cecelia (Cece)",
       "difficulty": "medium"
@@ -942,10 +942,10 @@
       "subtopic": "Quotes",
       "question": "Complete Michael's quote: 'I'm not superstitious, but I am...'",
       "options": [
-        "a little stitious",
         "very cautious",
         "slightly nervous",
-        "somewhat worried"
+        "somewhat worried",
+        "a little stitious"
       ],
       "correct_answer": "a little stitious",
       "difficulty": "easy"
@@ -958,10 +958,10 @@
       "subtopic": "Episodes",
       "question": "What does Michael burn his foot on in 'The Injury'?",
       "options": [
-        "A George Foreman grill",
         "Hot coals",
         "A candle",
-        "Boiling water"
+        "Boiling water",
+        "A George Foreman grill"
       ],
       "correct_answer": "A George Foreman grill",
       "difficulty": "easy"
@@ -974,10 +974,10 @@
       "subtopic": "Trivia",
       "question": "What is the name of the security guard at Dunder Mifflin?",
       "options": [
-        "Hank",
         "Frank",
         "Larry",
-        "Bob"
+        "Bob",
+        "Hank"
       ],
       "correct_answer": "Hank",
       "difficulty": "hard"
@@ -990,10 +990,10 @@
       "subtopic": "Characters",
       "question": "What is Pam's maiden name?",
       "options": [
-        "Beesly",
         "Halpert",
         "Martin",
-        "Vance"
+        "Vance",
+        "Beesly"
       ],
       "correct_answer": "Beesly",
       "difficulty": "easy"
@@ -1006,10 +1006,10 @@
       "subtopic": "Relationships",
       "question": "Who does Kelly Kapoor date on and off throughout the series?",
       "options": [
-        "Ryan Howard",
         "Darryl Philbin",
         "Toby Flenderson",
-        "Gabe Lewis"
+        "Gabe Lewis",
+        "Ryan Howard"
       ],
       "correct_answer": "Ryan Howard",
       "difficulty": "easy"
@@ -1022,10 +1022,10 @@
       "subtopic": "Locations",
       "question": "In what state is Dunder Mifflin Scranton located?",
       "options": [
-        "Pennsylvania",
         "New York",
         "New Jersey",
-        "Delaware"
+        "Delaware",
+        "Pennsylvania"
       ],
       "correct_answer": "Pennsylvania",
       "difficulty": "easy"
@@ -1038,10 +1038,10 @@
       "subtopic": "Quotes",
       "question": "What does Dwight grow on his farm?",
       "options": [
-        "Beets",
         "Corn",
         "Wheat",
-        "Potatoes"
+        "Potatoes",
+        "Beets"
       ],
       "correct_answer": "Beets",
       "difficulty": "easy"
@@ -1054,10 +1054,10 @@
       "subtopic": "Episodes",
       "question": "What reality show does Michael watch religiously?",
       "options": [
-        "Survivor",
         "The Bachelor",
         "American Idol",
-        "The Apprentice"
+        "The Apprentice",
+        "Survivor"
       ],
       "correct_answer": "Survivor",
       "difficulty": "medium"
@@ -1070,10 +1070,10 @@
       "subtopic": "Trivia",
       "question": "What is Creed's last name?",
       "options": [
-        "Bratton",
         "Palmer",
         "Malone",
-        "Hudson"
+        "Hudson",
+        "Bratton"
       ],
       "correct_answer": "Bratton",
       "difficulty": "medium"
@@ -1086,10 +1086,10 @@
       "subtopic": "Relationships",
       "question": "Who does Andy get engaged to before Erin?",
       "options": [
-        "Angela",
         "Jessica",
         "Karen",
-        "Katy"
+        "Katy",
+        "Angela"
       ],
       "correct_answer": "Angela",
       "difficulty": "medium"
@@ -1102,10 +1102,10 @@
       "subtopic": "Locations",
       "question": "What company owns Dunder Mifflin by the end of the series?",
       "options": [
-        "Sabre",
         "Staples",
         "Office Depot",
-        "Initech"
+        "Initech",
+        "Sabre"
       ],
       "correct_answer": "Sabre",
       "difficulty": "hard"
@@ -1118,10 +1118,10 @@
       "subtopic": "Quotes",
       "question": "What is Kevin's famous chili incident?",
       "options": [
-        "He spills it all over the floor",
         "He burns his tongue",
         "He adds too much salt",
-        "He forgets to cook it"
+        "He forgets to cook it",
+        "He spills it all over the floor"
       ],
       "correct_answer": "He spills it all over the floor",
       "difficulty": "medium"
@@ -1134,10 +1134,10 @@
       "subtopic": "Episodes",
       "question": "What award does Michael give to Ryan at the Dundies?",
       "options": [
-        "Hottest in the Office",
         "Best Dressed",
         "Rookie of the Year",
-        "Cutest Smile"
+        "Cutest Smile",
+        "Hottest in the Office"
       ],
       "correct_answer": "Hottest in the Office",
       "difficulty": "hard"
@@ -1150,10 +1150,10 @@
       "subtopic": "Trivia",
       "question": "What is the name of Jan's candle company?",
       "options": [
-        "Serenity by Jan",
         "Jan's Candles",
         "Levinson Lights",
-        "Peaceful Candles"
+        "Peaceful Candles",
+        "Serenity by Jan"
       ],
       "correct_answer": "Serenity by Jan",
       "difficulty": "hard"
@@ -1166,10 +1166,10 @@
       "subtopic": "Characters",
       "question": "What college did Andy Bernard attend?",
       "options": [
-        "Cornell",
         "Harvard",
         "Yale",
-        "Princeton"
+        "Princeton",
+        "Cornell"
       ],
       "correct_answer": "Cornell",
       "difficulty": "medium"
@@ -1182,10 +1182,10 @@
       "subtopic": "Relationships",
       "question": "Who does Michael date that works at the Scranton school system?",
       "options": [
-        "Carol Stills",
         "Holly Flax",
         "Jan Levinson",
-        "Donna Newton"
+        "Donna Newton",
+        "Carol Stills"
       ],
       "correct_answer": "Carol Stills",
       "difficulty": "hard"
@@ -1198,10 +1198,10 @@
       "subtopic": "Locations",
       "question": "What city does Jim transfer to temporarily?",
       "options": [
-        "Stamford",
         "Utica",
         "Buffalo",
-        "New York City"
+        "New York City",
+        "Stamford"
       ],
       "correct_answer": "Stamford",
       "difficulty": "medium"
@@ -1214,10 +1214,10 @@
       "subtopic": "Quotes",
       "question": "What does Dwight say is the highest form of respect?",
       "options": [
-        "Imitation",
         "Fear",
         "Obedience",
-        "Loyalty"
+        "Loyalty",
+        "Imitation"
       ],
       "correct_answer": "Imitation",
       "difficulty": "hard"
@@ -1230,10 +1230,10 @@
       "subtopic": "Episodes",
       "question": "What prank does Jim pull on Dwight with a vending machine?",
       "options": [
-        "Fills it with Dwight's desk items",
         "Locks him inside",
         "Steals his money",
-        "Replaces snacks with beets"
+        "Replaces snacks with beets",
+        "Fills it with Dwight's desk items"
       ],
       "correct_answer": "Fills it with Dwight's desk items",
       "difficulty": "hard"
@@ -1246,10 +1246,10 @@
       "subtopic": "Trivia",
       "question": "What is the name of Phyllis's husband?",
       "options": [
-        "Bob Vance, Vance Refrigeration",
         "Stan Hudson",
         "Frank Martin",
-        "Roy Anderson"
+        "Roy Anderson",
+        "Bob Vance, Vance Refrigeration"
       ],
       "correct_answer": "Bob Vance, Vance Refrigeration",
       "difficulty": "medium"
@@ -1262,10 +1262,10 @@
       "subtopic": "Characters",
       "question": "What is Meredith's job at Dunder Mifflin?",
       "options": [
-        "Supplier Relations",
         "Accountant",
         "Sales",
-        "Receptionist"
+        "Receptionist",
+        "Supplier Relations"
       ],
       "correct_answer": "Supplier Relations",
       "difficulty": "hard"
@@ -1278,10 +1278,10 @@
       "subtopic": "Relationships",
       "question": "What is the name of Jim's previous girlfriend before Pam?",
       "options": [
-        "Karen Filippelli",
         "Katy Moore",
         "Amy Adams",
-        "Katie Morgan"
+        "Katie Morgan",
+        "Karen Filippelli"
       ],
       "correct_answer": "Karen Filippelli",
       "difficulty": "medium"
@@ -1294,10 +1294,10 @@
       "subtopic": "Locations",
       "question": "Where does Michael move at the end of his time on the show?",
       "options": [
-        "Colorado",
         "Florida",
         "California",
-        "Texas"
+        "Texas",
+        "Colorado"
       ],
       "correct_answer": "Colorado",
       "difficulty": "medium"
@@ -1310,10 +1310,10 @@
       "subtopic": "Quotes",
       "question": "What does Michael say after 'That's what...'?",
       "options": [
-        "she said",
         "he said",
         "I said",
-        "they said"
+        "they said",
+        "she said"
       ],
       "correct_answer": "she said",
       "difficulty": "easy"
@@ -1326,10 +1326,10 @@
       "subtopic": "Episodes",
       "question": "In 'Casino Night', who does Jim confess his feelings to?",
       "options": [
-        "Pam",
         "Karen",
         "Kelly",
-        "Erin"
+        "Erin",
+        "Pam"
       ],
       "correct_answer": "Pam",
       "difficulty": "easy"
@@ -1342,10 +1342,10 @@
       "subtopic": "Trivia",
       "question": "What does Dwight keep in his desk for emergencies?",
       "options": [
-        "Weapons and survival gear",
         "Candy",
         "Office supplies",
-        "Legal documents"
+        "Legal documents",
+        "Weapons and survival gear"
       ],
       "correct_answer": "Weapons and survival gear",
       "difficulty": "medium"
@@ -1358,10 +1358,10 @@
       "subtopic": "Characters",
       "question": "What is Angela's last name?",
       "options": [
-        "Martin",
         "Kinsey",
         "Flax",
-        "Vance"
+        "Vance",
+        "Martin"
       ],
       "correct_answer": "Martin",
       "difficulty": "easy"
@@ -1374,10 +1374,10 @@
       "subtopic": "Relationships",
       "question": "Who does Erin date before Andy?",
       "options": [
-        "Gabe Lewis",
         "Pete Miller",
         "Darryl Philbin",
-        "Kevin Malone"
+        "Kevin Malone",
+        "Gabe Lewis"
       ],
       "correct_answer": "Gabe Lewis",
       "difficulty": "medium"
@@ -1390,10 +1390,10 @@
       "subtopic": "Locations",
       "question": "What restaurant does Michael take his dates to?",
       "options": [
-        "Chili's",
         "Applebee's",
         "TGI Friday's",
-        "Olive Garden"
+        "Olive Garden",
+        "Chili's"
       ],
       "correct_answer": "Chili's",
       "difficulty": "medium"
@@ -1406,10 +1406,10 @@
       "subtopic": "Quotes",
       "question": "What does Michael say when he wants everyone to gather?",
       "options": [
-        "Conference room, five minutes",
         "Meeting now",
         "Everyone here",
-        "Office meeting"
+        "Office meeting",
+        "Conference room, five minutes"
       ],
       "correct_answer": "Conference room, five minutes",
       "difficulty": "easy"
@@ -1422,10 +1422,10 @@
       "subtopic": "Episodes",
       "question": "What does Michael eat for breakfast in 'The Injury'?",
       "options": [
-        "Bacon cooked on a George Foreman grill",
         "Pancakes",
         "Cereal",
-        "Nothing"
+        "Nothing",
+        "Bacon cooked on a George Foreman grill"
       ],
       "correct_answer": "Bacon cooked on a George Foreman grill",
       "difficulty": "medium"
@@ -1438,10 +1438,10 @@
       "subtopic": "Trivia",
       "question": "What is Dwight's cousin's name?",
       "options": [
-        "Mose",
         "Zeke",
         "Jeb",
-        "Luke"
+        "Luke",
+        "Mose"
       ],
       "correct_answer": "Mose",
       "difficulty": "hard"
@@ -1454,10 +1454,10 @@
       "subtopic": "Characters",
       "question": "What is Oscar's last name?",
       "options": [
-        "Martinez",
         "Nunez",
         "Garcia",
-        "Ramirez"
+        "Ramirez",
+        "Martinez"
       ],
       "correct_answer": "Martinez",
       "difficulty": "hard"
@@ -1470,10 +1470,10 @@
       "subtopic": "Relationships",
       "question": "Who has a brief romance with Pam's mother?",
       "options": [
-        "Michael Scott",
         "Bob Vance",
         "David Wallace",
-        "Roy Anderson"
+        "Roy Anderson",
+        "Michael Scott"
       ],
       "correct_answer": "Michael Scott",
       "difficulty": "medium"
@@ -1486,10 +1486,10 @@
       "subtopic": "Locations",
       "question": "What floor is the Dunder Mifflin office on?",
       "options": [
-        "2nd floor",
         "1st floor",
         "3rd floor",
-        "Ground floor"
+        "Ground floor",
+        "2nd floor"
       ],
       "correct_answer": "2nd floor",
       "difficulty": "hard"
@@ -1502,10 +1502,10 @@
       "subtopic": "Quotes",
       "question": "What does Jim say is his favorite prank on Dwight?",
       "options": [
-        "Putting his stapler in Jello",
         "Moving his desk",
         "Impersonating him",
-        "Stealing his phone"
+        "Stealing his phone",
+        "Putting his stapler in Jello"
       ],
       "correct_answer": "Putting his stapler in Jello",
       "difficulty": "easy"
@@ -1518,10 +1518,10 @@
       "subtopic": "Episodes",
       "question": "What is the name of the episode where Michael hosts a dinner party?",
       "options": [
-        "Dinner Party",
         "The Dinner",
         "Party Planning",
-        "Michael's Party"
+        "Michael's Party",
+        "Dinner Party"
       ],
       "correct_answer": "Dinner Party",
       "difficulty": "easy"
@@ -1534,10 +1534,10 @@
       "subtopic": "Trivia",
       "question": "What board game does Michael want to get patented?",
       "options": [
-        "Somehow I Manage",
         "Michael Scott's Fun Run",
         "Threat Level Midnight",
-        "Dunder Mifflin Infinity"
+        "Dunder Mifflin Infinity",
+        "Somehow I Manage"
       ],
       "correct_answer": "Somehow I Manage",
       "difficulty": "hard"
@@ -1550,10 +1550,10 @@
       "subtopic": "Characters",
       "question": "What does Ryan go to business school for?",
       "options": [
-        "MBA",
         "Marketing degree",
         "Accounting degree",
-        "Law degree"
+        "Law degree",
+        "MBA"
       ],
       "correct_answer": "MBA",
       "difficulty": "medium"
@@ -1566,10 +1566,10 @@
       "subtopic": "Relationships",
       "question": "What is the name of Roy's brother?",
       "options": [
-        "Kenny",
         "Terry",
         "Larry",
-        "Bobby"
+        "Bobby",
+        "Kenny"
       ],
       "correct_answer": "Kenny",
       "difficulty": "hard"
@@ -1582,10 +1582,10 @@
       "subtopic": "Locations",
       "question": "What is the name of the Scranton business park?",
       "options": [
-        "Scranton Business Park",
         "Dunder Mifflin Plaza",
         "Office Park North",
-        "Corporate Center"
+        "Corporate Center",
+        "Scranton Business Park"
       ],
       "correct_answer": "Scranton Business Park",
       "difficulty": "hard"
@@ -1598,10 +1598,10 @@
       "subtopic": "Quotes",
       "question": "What does Dwight say about beets?",
       "options": [
-        "Bears, beets, Battlestar Galactica",
         "Beets are the best",
         "I love beets",
-        "Beets, bears, battle"
+        "Beets, bears, battle",
+        "Bears, beets, Battlestar Galactica"
       ],
       "correct_answer": "Bears, beets, Battlestar Galactica",
       "difficulty": "easy"
@@ -1614,10 +1614,10 @@
       "subtopic": "Episodes",
       "question": "What does Michael do during the Office Olympics?",
       "options": [
-        "Closes a sale",
         "Participates in events",
         "Judges competitions",
-        "Skips work"
+        "Skips work",
+        "Closes a sale"
       ],
       "correct_answer": "Closes a sale",
       "difficulty": "medium"
@@ -1630,8 +1630,8 @@
       "subtopic": "Trivia",
       "question": "What song does Andy sing at the end of the series?",
       "options": [
-        "I Will Remember You",
         "Closing Time",
+        "I Will Remember You",
         "Don't Stop Believin'",
         "Lean on Me"
       ],
@@ -1646,8 +1646,8 @@
       "subtopic": "Characters",
       "question": "What is Darryl's job initially?",
       "options": [
-        "Warehouse foreman",
         "Sales representative",
+        "Warehouse foreman",
         "Accountant",
         "Regional manager"
       ],
@@ -1662,8 +1662,8 @@
       "subtopic": "Relationships",
       "question": "Who does Toby have a crush on?",
       "options": [
-        "Pam",
         "Erin",
+        "Pam",
         "Angela",
         "Kelly"
       ],
@@ -1678,8 +1678,8 @@
       "subtopic": "Locations",
       "question": "Where does Toby move to temporarily?",
       "options": [
-        "Costa Rica",
         "Mexico",
+        "Costa Rica",
         "Hawaii",
         "Florida"
       ],
@@ -1694,8 +1694,8 @@
       "subtopic": "Quotes",
       "question": "What does Michael say about Wayne Gretzky?",
       "options": [
-        "You miss 100% of the shots you don't take",
         "Be like Wayne",
+        "You miss 100% of the shots you don't take",
         "Skate to where the puck is going",
         "The Great One"
       ],
@@ -1710,8 +1710,8 @@
       "subtopic": "Characters",
       "question": "What is the name of the CEO of Dunder Mifflin?",
       "options": [
-        "David Wallace",
         "Charles Miner",
+        "David Wallace",
         "Robert California",
         "Jo Bennett"
       ],
@@ -1726,8 +1726,8 @@
       "subtopic": "Episodes",
       "question": "What does Dwight do to get fire safety taken seriously?",
       "options": [
-        "Starts a real fire",
         "Sets off the sprinklers",
+        "Starts a real fire",
         "Triggers the alarm",
         "Locks the doors"
       ],
@@ -1742,8 +1742,8 @@
       "subtopic": "Quotes",
       "question": "What does Andy call his anger management problem?",
       "options": [
-        "Anger management issues",
         "The Nard Dog rage",
+        "Anger management issues",
         "Drew's problem",
         "Cornell temper"
       ],
@@ -1758,8 +1758,8 @@
       "subtopic": "Relationships",
       "question": "Who does Oscar have an affair with?",
       "options": [
-        "The Senator",
         "Kevin",
+        "The Senator",
         "Gil",
         "Andy"
       ],
@@ -1774,8 +1774,8 @@
       "subtopic": "Locations",
       "question": "What branch does Karen transfer to?",
       "options": [
-        "Utica",
         "Stamford",
+        "Utica",
         "Albany",
         "Buffalo"
       ],
@@ -1790,8 +1790,8 @@
       "subtopic": "Trivia",
       "question": "What does Michael name his book?",
       "options": [
-        "Somehow I Manage",
         "The Michael Scott Story",
+        "Somehow I Manage",
         "Managing People",
         "Leadership Secrets"
       ],
@@ -1806,8 +1806,8 @@
       "subtopic": "Characters",
       "question": "What is Erin's real first name?",
       "options": [
-        "Kelly",
         "Erin",
+        "Kelly",
         "Susan",
         "Jennifer"
       ],
@@ -1822,8 +1822,8 @@
       "subtopic": "Episodes",
       "question": "What is the CPR dummy's name in 'Stress Relief'?",
       "options": [
-        "Annie",
         "Rosie",
+        "Annie",
         "Betty",
         "Sally"
       ],
@@ -1838,8 +1838,8 @@
       "subtopic": "Quotes",
       "question": "What does Stanley say about work on Pretzel Day?",
       "options": [
-        "I wake up every morning in a bed that's too small",
         "It's the best day",
+        "I wake up every morning in a bed that's too small",
         "I love my job",
         "Finally something good"
       ],
@@ -1852,10 +1852,10 @@
       "subcategory": "Drama/Comedy",
       "topic": "The Office",
       "subtopic": "Relationships",
-      "question": "What is the name of Pam's ex-fianc\u00e9?",
+      "question": "What is the name of Pam's ex-fiancé?",
       "options": [
-        "Roy Anderson",
         "Bob Anderson",
+        "Roy Anderson",
         "Matt Anderson",
         "Dave Anderson"
       ],
@@ -1870,8 +1870,8 @@
       "subtopic": "Locations",
       "question": "Where do Jim and Pam move after getting married?",
       "options": [
-        "Austin, Texas (temporarily)",
         "Colorado",
+        "Austin, Texas (temporarily)",
         "Philadelphia",
         "New York"
       ],
@@ -1886,8 +1886,8 @@
       "subtopic": "Trivia",
       "question": "What is the Finer Things Club?",
       "options": [
-        "A book club started by Oscar and Pam",
         "A wine tasting group",
+        "A book club started by Oscar and Pam",
         "A cooking class",
         "An art appreciation society"
       ],
@@ -1902,8 +1902,8 @@
       "subtopic": "Characters",
       "question": "What is Kelly Kapoor's job?",
       "options": [
-        "Customer Service Representative",
         "Sales",
+        "Customer Service Representative",
         "Accounting",
         "Receptionist"
       ],
@@ -1918,8 +1918,8 @@
       "subtopic": "Episodes",
       "question": "What game show does Michael appear on?",
       "options": [
-        "None, he auditions but doesn't appear",
         "Jeopardy",
+        "None, he auditions but doesn't appear",
         "Wheel of Fortune",
         "Family Feud"
       ],
@@ -1934,8 +1934,8 @@
       "subtopic": "Quotes",
       "question": "What does Creed say when asked about Halloween?",
       "options": [
-        "It's Halloween? That's really good timing",
         "I love Halloween",
+        "It's Halloween? That's really good timing",
         "What's Halloween?",
         "I don't celebrate"
       ],
@@ -1950,8 +1950,8 @@
       "subtopic": "Relationships",
       "question": "Who is Phyllis married to?",
       "options": [
-        "Bob Vance",
         "Stan Vance",
+        "Bob Vance",
         "Jim Vance",
         "Robert Vance"
       ],
@@ -1966,8 +1966,8 @@
       "subtopic": "Locations",
       "question": "What warehouse club does Michael love?",
       "options": [
-        "Costco",
         "Sam's Club",
+        "Costco",
         "BJ's",
         "Warehouse Direct"
       ],
@@ -1982,8 +1982,8 @@
       "subtopic": "Trivia",
       "question": "What does Michael call his condo?",
       "options": [
-        "His sanctuary",
         "The palace",
+        "His sanctuary",
         "Casa de Scott",
         "Michael's manor"
       ],
@@ -1998,8 +1998,8 @@
       "subtopic": "Characters",
       "question": "Who becomes regional manager after Michael leaves?",
       "options": [
-        "Andy Bernard (then others)",
         "Jim Halpert",
+        "Andy Bernard (then others)",
         "Dwight Schrute",
         "Nellie Bertram"
       ],
@@ -2014,8 +2014,8 @@
       "subtopic": "Episodes",
       "question": "What does Pam do at the beach in 'Beach Games'?",
       "options": [
-        "Walks on hot coals",
         "Goes swimming",
+        "Walks on hot coals",
         "Builds sandcastles",
         "Plays volleyball"
       ],
@@ -2030,8 +2030,8 @@
       "subtopic": "Quotes",
       "question": "What does Kevin say about his chili?",
       "options": [
-        "The trick is to undercook the onions",
         "It's a family recipe",
+        "The trick is to undercook the onions",
         "Secret ingredient is love",
         "Made with fresh tomatoes"
       ],
@@ -2046,8 +2046,8 @@
       "subtopic": "Relationships",
       "question": "What is the name of Michael's former boss and girlfriend?",
       "options": [
-        "Jan Levinson",
         "Carol Stills",
+        "Jan Levinson",
         "Donna Newton",
         "Holly Flax"
       ],
@@ -2062,8 +2062,8 @@
       "subtopic": "Locations",
       "question": "What city is Dunder Mifflin's corporate office in?",
       "options": [
-        "New York City",
         "Scranton",
+        "New York City",
         "Philadelphia",
         "Buffalo"
       ],
@@ -2078,8 +2078,8 @@
       "subtopic": "Trivia",
       "question": "What does Dwight sell at Schrute Farms?",
       "options": [
-        "Beets and bed & breakfast stays",
         "Just beets",
+        "Beets and bed & breakfast stays",
         "Vegetables",
         "Farm equipment"
       ],
@@ -2094,8 +2094,8 @@
       "subtopic": "Characters",
       "question": "What is Gabe's full name?",
       "options": [
-        "Gabriel Susan Lewis",
         "Gabriel Scott Lewis",
+        "Gabriel Susan Lewis",
         "Gabriel James Lewis",
         "Gabe Lewis"
       ],
@@ -2110,8 +2110,8 @@
       "subtopic": "Episodes",
       "question": "What does Michael accidentally do at Phyllis's wedding?",
       "options": [
-        "Introduces himself as father of the bride",
         "Spills wine",
+        "Introduces himself as father of the bride",
         "Trips",
         "Gives wrong speech"
       ],
@@ -2126,8 +2126,8 @@
       "subtopic": "Quotes",
       "question": "What does Dwight say about his perfect crime?",
       "options": [
-        "I break into Tiffany's at midnight",
         "I steal the chandelier",
+        "I break into Tiffany's at midnight",
         "I take the diamonds",
         "I escape through the roof"
       ],
@@ -2142,8 +2142,8 @@
       "subtopic": "Relationships",
       "question": "Who does Darryl date from the office?",
       "options": [
-        "Val",
         "Kelly",
+        "Val",
         "Erin",
         "Meredith"
       ],
@@ -2158,8 +2158,8 @@
       "subtopic": "Locations",
       "question": "What city does Jim start a sports marketing company in?",
       "options": [
-        "Philadelphia",
         "New York City",
+        "Philadelphia",
         "Boston",
         "Baltimore"
       ],
@@ -2174,8 +2174,8 @@
       "subtopic": "Trivia",
       "question": "What is the name of Dwight's porcupine?",
       "options": [
-        "Henrietta",
         "Spike",
+        "Henrietta",
         "Needles",
         "Pointy"
       ],
@@ -2190,8 +2190,8 @@
       "subtopic": "Characters",
       "question": "What is Nellie's nationality?",
       "options": [
-        "British",
         "American",
+        "British",
         "Australian",
         "Canadian"
       ],
@@ -2206,8 +2206,8 @@
       "subtopic": "Episodes",
       "question": "What video does Andy make with his friends?",
       "options": [
-        "A lip dub to 'Nobody But Me'",
         "A music video",
+        "A lip dub to 'Nobody But Me'",
         "A comedy sketch",
         "An office tour"
       ],
@@ -2223,9 +2223,9 @@
       "question": "What does Angela say about her cats?",
       "options": [
         "I have too many cats",
+        "Save Bandit",
         "Cats are better than people",
-        "I love all my cats",
-        "Save Bandit"
+        "I love all my cats"
       ],
       "correct_answer": "Save Bandit",
       "difficulty": "medium"
@@ -2238,8 +2238,8 @@
       "subtopic": "Relationships",
       "question": "What is the name of Angela's son?",
       "options": [
-        "Philip",
         "Dwight Jr.",
+        "Philip",
         "Michael",
         "Phillip Schrute"
       ],
@@ -2254,8 +2254,8 @@
       "subtopic": "Locations",
       "question": "Where does Andy go to anger management?",
       "options": [
-        "A facility outside Scranton",
         "Scranton Hospital",
+        "A facility outside Scranton",
         "New York",
         "Philadelphia"
       ],
@@ -2270,8 +2270,8 @@
       "subtopic": "Trivia",
       "question": "What does Robert California say about the office?",
       "options": [
-        "There's the f***ing lizard king",
         "I'm the CEO",
+        "There's the f***ing lizard king",
         "This place is perfect",
         "Everyone here is great"
       ],
@@ -2286,8 +2286,8 @@
       "subtopic": "Characters",
       "question": "What is Pete's nickname?",
       "options": [
-        "Plop",
         "Pete the Temp",
+        "Plop",
         "New Jim",
         "Young Gun"
       ],
@@ -2302,8 +2302,8 @@
       "subtopic": "Episodes",
       "question": "What does Michael do during his last Dundies?",
       "options": [
-        "Gives awards and says goodbye",
         "Cancels them",
+        "Gives awards and says goodbye",
         "Lets Dwight host",
         "Makes Jim host"
       ],
@@ -2318,8 +2318,8 @@
       "subtopic": "Quotes",
       "question": "What does Jim say to Pam when he proposes?",
       "options": [
-        "I can't help it, I'm totally in love with you",
         "Will you marry me?",
+        "I can't help it, I'm totally in love with you",
         "You're my best friend",
         "I love you"
       ],
@@ -2334,8 +2334,8 @@
       "subtopic": "Relationships",
       "question": "Who is Meredith's son?",
       "options": [
-        "Jake",
         "Sam",
+        "Jake",
         "Josh",
         "Luke"
       ],
@@ -2350,8 +2350,8 @@
       "subtopic": "Locations",
       "question": "What restaurant do they go to for 'Benihana Christmas'?",
       "options": [
-        "Benihana",
         "Hibachi House",
+        "Benihana",
         "Tokyo Grill",
         "Samurai Steakhouse"
       ],
@@ -2366,8 +2366,8 @@
       "subtopic": "Trivia",
       "question": "What does Michael name his hypothetical son?",
       "options": [
-        "Michael Scarn",
         "Little Michael",
+        "Michael Scarn",
         "Michael Jr.",
         "Threat Level"
       ],
@@ -2382,8 +2382,8 @@
       "subtopic": "Characters",
       "question": "What is Clark's nickname?",
       "options": [
-        "Dwight Jr.",
         "New Dwight",
+        "Dwight Jr.",
         "Mini Dwight",
         "Clark Kent"
       ],
@@ -2398,8 +2398,8 @@
       "subtopic": "Episodes",
       "question": "What does Michael do during 'Product Recall'?",
       "options": [
-        "Handles a scandal about obscene watermarks",
         "Recalls products",
+        "Handles a scandal about obscene watermarks",
         "Fires someone",
         "Quits his job"
       ],
@@ -2414,8 +2414,8 @@
       "subtopic": "Quotes",
       "question": "What does Pam say about being an artist?",
       "options": [
-        "There's a lot of beauty in ordinary things",
         "I love to paint",
+        "There's a lot of beauty in ordinary things",
         "Art is my passion",
         "I'm not very good"
       ],
@@ -2430,8 +2430,8 @@
       "subtopic": "Relationships",
       "question": "Who does Jim date before Karen?",
       "options": [
-        "Katy Moore",
         "Amy Adams",
+        "Katy Moore",
         "Brenda",
         "Jessica"
       ],
@@ -2446,8 +2446,8 @@
       "subtopic": "Locations",
       "question": "What is the name of the company that buys Dunder Mifflin?",
       "options": [
-        "Sabre",
         "Staples",
+        "Sabre",
         "PaperPro",
         "Office Max"
       ],
@@ -2462,8 +2462,8 @@
       "subtopic": "Trivia",
       "question": "What does Dwight claim about his blood?",
       "options": [
-        "I have the blood of kings",
         "I have O-negative blood",
+        "I have the blood of kings",
         "My blood is superior",
         "I can donate to anyone"
       ],
@@ -2478,8 +2478,8 @@
       "subtopic": "Episodes",
       "question": "What does Michael do when he finds out he hit Meredith?",
       "options": [
-        "Organizes a Fun Run",
         "Calls 911",
+        "Organizes a Fun Run",
         "Hides",
         "Blames Dwight"
       ],
@@ -2494,8 +2494,8 @@
       "subtopic": "Characters",
       "question": "What is Pam's favorite yogurt flavor?",
       "options": [
-        "Mixed berry",
         "Vanilla",
+        "Mixed berry",
         "Strawberry",
         "Peach"
       ],
@@ -2510,8 +2510,8 @@
       "subtopic": "Trivia",
       "question": "What color are the walls in the office?",
       "options": [
-        "Beige/cream",
         "White",
+        "Beige/cream",
         "Gray",
         "Blue"
       ],
@@ -2526,8 +2526,8 @@
       "subtopic": "Quotes",
       "question": "What does Michael say he wants people to be afraid of?",
       "options": [
-        "How much they love him",
         "His power",
+        "How much they love him",
         "Losing their jobs",
         "His anger"
       ],
@@ -2542,8 +2542,8 @@
       "subtopic": "Relationships",
       "question": "Who does Darryl's daughter call him?",
       "options": [
-        "Darryl",
         "Daddy",
+        "Darryl",
         "Dad",
         "Papa"
       ],
@@ -2558,8 +2558,8 @@
       "subtopic": "Locations",
       "question": "What mall do they visit in the show?",
       "options": [
-        "Steamtown Mall",
         "Scranton Mall",
+        "Steamtown Mall",
         "Valley View",
         "Marketplace"
       ],
@@ -2574,8 +2574,8 @@
       "subtopic": "Characters",
       "question": "What does Dwight keep at his desk?",
       "options": [
-        "Weapons and tools",
         "Snacks",
+        "Weapons and tools",
         "Books",
         "Photos"
       ],
@@ -2590,8 +2590,8 @@
       "subtopic": "Episodes",
       "question": "What does Michael carve during 'Moroccan Christmas'?",
       "options": [
-        "Ice sculptures",
         "A turkey",
+        "Ice sculptures",
         "Nothing",
         "Decorations"
       ],
@@ -2606,8 +2606,8 @@
       "subtopic": "Trivia",
       "question": "What does Jim sell to Dwight for magic beans?",
       "options": [
-        "A telescope (for magic beans story)",
         "His desk",
+        "A telescope (for magic beans story)",
         "Office supplies",
         "Nothing"
       ],
@@ -2622,8 +2622,8 @@
       "subtopic": "Quotes",
       "question": "What does Kevin say when talking simply?",
       "options": [
-        "Why waste time say lot word when few word do trick",
         "Keep it simple",
+        "Why waste time say lot word when few word do trick",
         "Less is more",
         "Short and sweet"
       ],
@@ -2638,8 +2638,8 @@
       "subtopic": "Relationships",
       "question": "What is Angela's cat's name that Michael kills?",
       "options": [
-        "None, Dwight kills Sprinkles",
         "Princess Lady",
+        "None, Dwight kills Sprinkles",
         "Garbage",
         "Bandit"
       ],
@@ -2654,8 +2654,8 @@
       "subtopic": "Characters",
       "question": "What does Andy do when stressed?",
       "options": [
-        "Punches walls",
         "Yells",
+        "Punches walls",
         "Cries",
         "Leaves"
       ],
@@ -2670,8 +2670,8 @@
       "subtopic": "Episodes",
       "question": "What does Jim do on his first day back from Stamford?",
       "options": [
-        "Wears a tuxedo",
         "Brings bagels",
+        "Wears a tuxedo",
         "Does nothing special",
         "Pranks Dwight"
       ],
@@ -2686,8 +2686,8 @@
       "subtopic": "Locations",
       "question": "What country does Toby go to?",
       "options": [
-        "Costa Rica",
         "Mexico",
+        "Costa Rica",
         "Peru",
         "Colombia"
       ],
@@ -2702,8 +2702,8 @@
       "subtopic": "Trivia",
       "question": "What logo is on the Dunder Mifflin paper?",
       "options": [
-        "Lighthouse",
         "Tree",
+        "Lighthouse",
         "Building",
         "Mountain"
       ],
@@ -2718,8 +2718,8 @@
       "subtopic": "Quotes",
       "question": "What does Dwight say about Jim?",
       "options": [
-        "He's my best friend",
         "I hate him",
+        "He's my best friend",
         "He's okay",
         "He's annoying"
       ],
@@ -2734,8 +2734,8 @@
       "subtopic": "Characters",
       "question": "What does Meredith do at the company picnic?",
       "options": [
-        "Flashes people",
         "Plays volleyball",
+        "Flashes people",
         "Gets drunk",
         "Leaves early"
       ],
@@ -2750,8 +2750,8 @@
       "subtopic": "Relationships",
       "question": "Who kisses Oscar during 'Gay Witch Hunt'?",
       "options": [
-        "Michael",
         "Dwight",
+        "Michael",
         "Andy",
         "Kevin"
       ],
@@ -2766,10 +2766,10 @@
       "subtopic": "Episodes",
       "question": "What sport does the office play at the beach?",
       "options": [
-        "Sumo wrestling, coal walk",
         "Volleyball",
         "Football",
-        "Soccer"
+        "Soccer",
+        "Sumo wrestling, coal walk"
       ],
       "correct_answer": "Sumo wrestling, coal walk",
       "difficulty": "medium"
@@ -2782,10 +2782,10 @@
       "subtopic": "Trivia",
       "question": "What is the office building's address?",
       "options": [
-        "1725 Slough Avenue",
         "123 Main Street",
         "456 Paper Lane",
-        "789 Office Road"
+        "789 Office Road",
+        "1725 Slough Avenue"
       ],
       "correct_answer": "1725 Slough Avenue",
       "difficulty": "hard"
@@ -2798,10 +2798,10 @@
       "subtopic": "Characters",
       "question": "What is Kevin's band called?",
       "options": [
-        "Scrantonicity (actually that's Kevin's band)",
         "The Office Band",
         "Kevin and the Zits",
-        "Accountants Rock"
+        "Accountants Rock",
+        "Scrantonicity (actually that's Kevin's band)"
       ],
       "correct_answer": "Scrantonicity (actually that's Kevin's band)",
       "difficulty": "easy"
@@ -2814,9 +2814,9 @@
       "subtopic": "Episodes",
       "question": "What does Pam do before becoming a saleswoman?",
       "options": [
-        "Receptionist and Office Administrator",
         "Just receptionist",
         "Sales from the start",
+        "Receptionist and Office Administrator",
         "Secretary"
       ],
       "correct_answer": "Receptionist and Office Administrator",
@@ -2830,9 +2830,9 @@
       "subtopic": "Trivia",
       "question": "What state is Scranton in?",
       "options": [
-        "Pennsylvania",
         "New York",
         "Ohio",
+        "Pennsylvania",
         "New Jersey"
       ],
       "correct_answer": "Pennsylvania",
@@ -2846,9 +2846,9 @@
       "subtopic": "Quotes",
       "question": "What does Stanley love about Pretzel Day?",
       "options": [
-        "It's the best day of the year",
         "Free food",
         "Break from work",
+        "It's the best day of the year",
         "No meetings"
       ],
       "correct_answer": "It's the best day of the year",
@@ -2862,9 +2862,9 @@
       "subtopic": "Locations",
       "question": "What bar do office workers frequent?",
       "options": [
-        "Poor Richard's",
         "Chili's",
         "The Ale House",
+        "Poor Richard's",
         "O'Malley's"
       ],
       "correct_answer": "Poor Richard's",
@@ -2878,9 +2878,9 @@
       "subtopic": "Relationships",
       "question": "Who are Jim's groomsmen?",
       "options": [
-        "Dwight and others",
         "Just Dwight",
         "Michael and Dwight",
+        "Dwight and others",
         "His brothers"
       ],
       "correct_answer": "Dwight and others",
@@ -2894,9 +2894,9 @@
       "subtopic": "Characters",
       "question": "What is Oscar's ethnicity?",
       "options": [
-        "Mexican-American",
         "Puerto Rican",
         "Cuban",
+        "Mexican-American",
         "Spanish"
       ],
       "correct_answer": "Mexican-American",
@@ -2910,9 +2910,9 @@
       "subtopic": "Episodes",
       "question": "What happens at Phyllis's wedding?",
       "options": [
-        "Michael tries to take over",
         "It goes smoothly",
         "Jim proposes",
+        "Michael tries to take over",
         "Fight breaks out"
       ],
       "correct_answer": "Michael tries to take over",
@@ -2926,9 +2926,9 @@
       "subtopic": "Trivia",
       "question": "What floor is the office on?",
       "options": [
-        "Second floor",
         "First floor",
         "Third floor",
+        "Second floor",
         "Ground floor"
       ],
       "correct_answer": "Second floor",
@@ -2942,9 +2942,9 @@
       "subtopic": "Quotes",
       "question": "What does Pam say about being engaged to Roy?",
       "options": [
-        "It was a long engagement",
         "It was perfect",
         "It was short",
+        "It was a long engagement",
         "It was complicated"
       ],
       "correct_answer": "It was a long engagement",
@@ -2958,9 +2958,9 @@
       "subtopic": "Locations",
       "question": "Where does Michael go on a date with Pam's mom?",
       "options": [
-        "Various places including her house",
         "Chili's",
         "His condo",
+        "Various places including her house",
         "Restaurant"
       ],
       "correct_answer": "Various places including her house",
@@ -2974,9 +2974,9 @@
       "subtopic": "Relationships",
       "question": "Who does Kevin have a crush on?",
       "options": [
-        "Stacy (Lynn in deleted scenes)",
         "Pam",
         "Erin",
+        "Stacy (Lynn in deleted scenes)",
         "Kelly"
       ],
       "correct_answer": "Stacy (Lynn in deleted scenes)",
@@ -2990,9 +2990,9 @@
       "subtopic": "Characters",
       "question": "What is Andy's nickname for himself?",
       "options": [
-        "The Nard Dog",
         "Big Tuna",
         "King Andy",
+        "The Nard Dog",
         "The Bern"
       ],
       "correct_answer": "The Nard Dog",
@@ -3006,9 +3006,9 @@
       "subtopic": "Episodes",
       "question": "What does Michael do during 'Business School'?",
       "options": [
-        "Attends Pam's art show",
         "Goes to Ryan's class",
         "Skips work",
+        "Attends Pam's art show",
         "Has a meeting"
       ],
       "correct_answer": "Attends Pam's art show",
@@ -3022,9 +3022,9 @@
       "subtopic": "Trivia",
       "question": "What is the company's main competitor?",
       "options": [
-        "Staples",
         "Office Depot",
         "Office Max",
+        "Staples",
         "Paper Source"
       ],
       "correct_answer": "Staples",
@@ -3038,9 +3038,9 @@
       "subtopic": "Quotes",
       "question": "What does Jim say about Dwight?",
       "options": [
-        "He's my best friend (sarcastically at times)",
         "He's annoying",
         "I hate him",
+        "He's my best friend (sarcastically at times)",
         "He's okay"
       ],
       "correct_answer": "He's my best friend (sarcastically at times)",
@@ -3054,9 +3054,9 @@
       "subtopic": "Locations",
       "question": "Where is corporate headquarters?",
       "options": [
-        "New York City",
         "Philadelphia",
         "Scranton",
+        "New York City",
         "Pittsburgh"
       ],
       "correct_answer": "New York City",
@@ -3070,9 +3070,9 @@
       "subtopic": "Relationships",
       "question": "Who is Stanley's wife?",
       "options": [
-        "Teri (then Cynthia)",
         "Phyllis",
         "Teri only",
+        "Teri (then Cynthia)",
         "Not shown"
       ],
       "correct_answer": "Teri (then Cynthia)",
@@ -3086,9 +3086,9 @@
       "subtopic": "Characters",
       "question": "What does Creed do?",
       "options": [
-        "Quality Assurance (supposedly)",
         "Sales",
         "Warehouse",
+        "Quality Assurance (supposedly)",
         "IT"
       ],
       "correct_answer": "Quality Assurance (supposedly)",
@@ -3102,9 +3102,9 @@
       "subtopic": "Episodes",
       "question": "What event does Michael organize for charity?",
       "options": [
-        "Rabies Awareness Fun Run",
         "Cancer walk",
         "Heart disease run",
+        "Rabies Awareness Fun Run",
         "Diabetes fundraiser"
       ],
       "correct_answer": "Rabies Awareness Fun Run",
@@ -3118,9 +3118,9 @@
       "subtopic": "Trivia",
       "question": "What is Jim's prank with nicknames?",
       "options": [
-        "Calls Jim 'Big Tuna'",
         "Calls Dwight names",
         "Pranks Andy",
+        "Calls Jim 'Big Tuna'",
         "Renames everyone"
       ],
       "correct_answer": "Calls Jim 'Big Tuna'",
@@ -3134,9 +3134,9 @@
       "subtopic": "Characters",
       "question": "What is Erin's personality like?",
       "options": [
-        "Cheerful and naive",
         "Serious",
         "Grumpy",
+        "Cheerful and naive",
         "Sarcastic"
       ],
       "correct_answer": "Cheerful and naive",
@@ -3150,9 +3150,9 @@
       "subtopic": "Episodes",
       "question": "What does Dwight do as safety officer?",
       "options": [
-        "Conducts fire drills",
         "Nothing",
         "Inspections",
+        "Conducts fire drills",
         "Reports"
       ],
       "correct_answer": "Conducts fire drills",
@@ -3166,9 +3166,9 @@
       "subtopic": "Locations",
       "question": "What restaurant chain appears?",
       "options": [
-        "Chili's",
         "Applebee's",
         "TGI Friday's",
+        "Chili's",
         "Red Lobster"
       ],
       "correct_answer": "Chili's",
@@ -3182,9 +3182,9 @@
       "subtopic": "Relationships",
       "question": "Who does Meredith have relationships with?",
       "options": [
-        "Various people including suppliers",
         "Nobody",
         "Just one person",
+        "Various people including suppliers",
         "Warehouse workers"
       ],
       "correct_answer": "Various people including suppliers",
@@ -3198,9 +3198,9 @@
       "subtopic": "Trivia",
       "question": "What is the office known for?",
       "options": [
-        "Paper sales and antics",
         "Being boring",
         "High sales",
+        "Paper sales and antics",
         "Professional environment"
       ],
       "correct_answer": "Paper sales and antics",
@@ -3214,9 +3214,9 @@
       "subtopic": "Characters",
       "question": "What does Phyllis do?",
       "options": [
-        "Sales",
         "Accounting",
         "Reception",
+        "Sales",
         "HR"
       ],
       "correct_answer": "Sales",
@@ -3230,9 +3230,9 @@
       "subtopic": "Episodes",
       "question": "What happens during Secret Santa?",
       "options": [
-        "Various gift exchanges and drama",
         "Perfect exchange",
         "Nobody participates",
+        "Various gift exchanges and drama",
         "Michael ruins it"
       ],
       "correct_answer": "Various gift exchanges and drama",
@@ -3246,9 +3246,9 @@
       "subtopic": "Characters",
       "question": "What is Roy's job?",
       "options": [
-        "Warehouse worker",
         "Sales",
         "Delivery",
+        "Warehouse worker",
         "Management"
       ],
       "correct_answer": "Warehouse worker",
@@ -3262,9 +3262,9 @@
       "subtopic": "Trivia",
       "question": "What does the documentary crew film?",
       "options": [
-        "The office daily life",
         "Just meetings",
         "Sales calls",
+        "The office daily life",
         "Warehouse"
       ],
       "correct_answer": "The office daily life",
@@ -3278,9 +3278,9 @@
       "subtopic": "Episodes",
       "question": "What happens at beach day?",
       "options": [
-        "Team building and competitions",
         "Swimming",
         "Volleyball",
+        "Team building and competitions",
         "Relaxing"
       ],
       "correct_answer": "Team building and competitions",
@@ -3294,9 +3294,9 @@
       "subtopic": "Locations",
       "question": "Where does Pam attend art school?",
       "options": [
-        "New York City",
         "Scranton",
         "Philadelphia",
+        "New York City",
         "Pittsburgh"
       ],
       "correct_answer": "New York City",
@@ -3310,9 +3310,9 @@
       "subtopic": "Relationships",
       "question": "Who has an office romance?",
       "options": [
-        "Multiple couples",
         "Just Jim and Pam",
         "Nobody",
+        "Multiple couples",
         "Only Angela and Dwight"
       ],
       "correct_answer": "Multiple couples",
@@ -3326,9 +3326,9 @@
       "subtopic": "Characters",
       "question": "What is Darryl's role?",
       "options": [
-        "Warehouse foreman then sales",
         "Just warehouse",
         "Just sales",
+        "Warehouse foreman then sales",
         "Management"
       ],
       "correct_answer": "Warehouse foreman then sales",
@@ -3342,9 +3342,9 @@
       "subtopic": "Trivia",
       "question": "What is a recurring office tradition?",
       "options": [
-        "Dundies and parties",
         "Just meetings",
         "Sales competitions",
+        "Dundies and parties",
         "Training"
       ],
       "correct_answer": "Dundies and parties",
@@ -3358,9 +3358,9 @@
       "subtopic": "Episodes",
       "question": "What does Michael care about most?",
       "options": [
-        "Being liked and loved",
         "Sales numbers",
         "Being professional",
+        "Being liked and loved",
         "Following rules"
       ],
       "correct_answer": "Being liked and loved",
@@ -3374,9 +3374,9 @@
       "subtopic": "Quotes",
       "question": "What is Dwight's attitude?",
       "options": [
-        "Intense and loyal",
         "Relaxed",
         "Lazy",
+        "Intense and loyal",
         "Indifferent"
       ],
       "correct_answer": "Intense and loyal",
@@ -3390,9 +3390,9 @@
       "subtopic": "Characters",
       "question": "What does Kelly work in?",
       "options": [
-        "Customer service",
         "Sales",
         "Accounting",
+        "Customer service",
         "Reception"
       ],
       "correct_answer": "Customer service",
@@ -3406,9 +3406,9 @@
       "subtopic": "Locations",
       "question": "What city is Jim's company in?",
       "options": [
-        "Philadelphia",
         "New York",
         "Scranton",
+        "Philadelphia",
         "Boston"
       ],
       "correct_answer": "Philadelphia",
@@ -3422,9 +3422,9 @@
       "subtopic": "Relationships",
       "question": "Who does Andy date?",
       "options": [
-        "Erin and Angela",
         "Just Erin",
         "Just Angela",
+        "Erin and Angela",
         "Nobody"
       ],
       "correct_answer": "Erin and Angela",
@@ -3438,9 +3438,9 @@
       "subtopic": "Trivia",
       "question": "What is Michael's greatest fear?",
       "options": [
-        "Being unloved/alone",
         "Failure",
         "Being fired",
+        "Being unloved/alone",
         "Public speaking"
       ],
       "correct_answer": "Being unloved/alone",
@@ -3454,9 +3454,9 @@
       "subtopic": "Episodes",
       "question": "What happens at the Christmas party?",
       "options": [
-        "Various holiday celebrations",
         "Nothing special",
         "Just gifts",
+        "Various holiday celebrations",
         "Boring party"
       ],
       "correct_answer": "Various holiday celebrations",
@@ -3470,9 +3470,9 @@
       "subtopic": "Characters",
       "question": "What is Jim known for?",
       "options": [
-        "Pranks and sales",
         "Just pranks",
         "Just sales",
+        "Pranks and sales",
         "Being boring"
       ],
       "correct_answer": "Pranks and sales",
@@ -3486,9 +3486,9 @@
       "subtopic": "Quotes",
       "question": "What does Michael say about management?",
       "options": [
-        "Friend first boss second",
         "Boss always",
         "Professional only",
+        "Friend first boss second",
         "Strict rules"
       ],
       "correct_answer": "Friend first boss second",
@@ -3502,9 +3502,9 @@
       "subtopic": "Trivia",
       "question": "What is the office dynamic?",
       "options": [
-        "Family-like with conflicts",
         "Very professional",
         "Hostile",
+        "Family-like with conflicts",
         "Boring"
       ],
       "correct_answer": "Family-like with conflicts",
@@ -3518,9 +3518,9 @@
       "subtopic": "Episodes",
       "question": "What does Jim do for Pam?",
       "options": [
-        "Many romantic gestures",
         "Nothing special",
         "Just dates",
+        "Many romantic gestures",
         "Minimal effort"
       ],
       "correct_answer": "Many romantic gestures",
@@ -3534,9 +3534,9 @@
       "subtopic": "Locations",
       "question": "Where do office events happen?",
       "options": [
-        "The office and local venues",
         "Just the office",
         "Just restaurants",
+        "The office and local venues",
         "Hotels"
       ],
       "correct_answer": "The office and local venues",
@@ -3550,9 +3550,9 @@
       "subtopic": "Relationships",
       "question": "Who gets married in the show?",
       "options": [
-        "Multiple couples",
         "Just Jim and Pam",
         "Nobody",
+        "Multiple couples",
         "One couple"
       ],
       "correct_answer": "Multiple couples",
@@ -3566,9 +3566,9 @@
       "subtopic": "Characters",
       "question": "What is Michael's dream?",
       "options": [
-        "To be loved and successful",
         "Just success",
         "Just love",
+        "To be loved and successful",
         "Retirement"
       ],
       "correct_answer": "To be loved and successful",
@@ -3582,9 +3582,9 @@
       "subtopic": "Characters",
       "question": "What does Michael wear to work sometimes?",
       "options": [
-        "A suit or casual clothes",
         "Always a suit",
         "Always casual",
+        "A suit or casual clothes",
         "Uniform"
       ],
       "correct_answer": "A suit or casual clothes",
@@ -3598,9 +3598,9 @@
       "subtopic": "Episodes",
       "question": "What does Pam fail at in art school?",
       "options": [
-        "She doesn't fail, she quits",
         "Painting",
         "Drawing",
+        "She doesn't fail, she quits",
         "Sculpting"
       ],
       "correct_answer": "She doesn't fail, she quits",
@@ -3614,9 +3614,9 @@
       "subtopic": "Trivia",
       "question": "What is the Party Planning Committee?",
       "options": [
-        "Group that plans office parties",
         "Sales team",
         "Management group",
+        "Group that plans office parties",
         "Social club"
       ],
       "correct_answer": "Group that plans office parties",
@@ -3630,9 +3630,9 @@
       "subtopic": "Quotes",
       "question": "What does Dwight say about being a salesman?",
       "options": [
-        "He's the best",
         "It's okay",
         "He hates it",
+        "He's the best",
         "It's boring"
       ],
       "correct_answer": "He's the best",
@@ -3646,9 +3646,9 @@
       "subtopic": "Locations",
       "question": "Where does Jan live?",
       "options": [
-        "New York then Scranton area",
         "Just New York",
         "Just Scranton",
+        "New York then Scranton area",
         "Philadelphia"
       ],
       "correct_answer": "New York then Scranton area",
@@ -3662,9 +3662,9 @@
       "subtopic": "Relationships",
       "question": "Who does Michael date seriously?",
       "options": [
-        "Jan and Holly mainly",
         "Just Jan",
         "Just Holly",
+        "Jan and Holly mainly",
         "Many people"
       ],
       "correct_answer": "Jan and Holly mainly",
@@ -3678,9 +3678,9 @@
       "subtopic": "Characters",
       "question": "What is Andy's anger issue?",
       "options": [
-        "Anger management problems",
         "No issues",
         "Depression",
+        "Anger management problems",
         "Anxiety"
       ],
       "correct_answer": "Anger management problems",
@@ -3694,9 +3694,9 @@
       "subtopic": "Episodes",
       "question": "What happens in 'Dinner Party'?",
       "options": [
-        "Awkward dinner at Michael and Jan's",
         "Nice dinner",
         "Restaurant dinner",
+        "Awkward dinner at Michael and Jan's",
         "Office party"
       ],
       "correct_answer": "Awkward dinner at Michael and Jan's",
@@ -3710,9 +3710,9 @@
       "subtopic": "Trivia",
       "question": "What is Schrute Farms?",
       "options": [
-        "Dwight's beet farm and B&B",
         "Just a farm",
         "Just B&B",
+        "Dwight's beet farm and B&B",
         "Restaurant"
       ],
       "correct_answer": "Dwight's beet farm and B&B",
@@ -3726,9 +3726,9 @@
       "subtopic": "Quotes",
       "question": "What does Jim say about working there?",
       "options": [
-        "It's just a job for now",
         "It's his dream",
         "He loves it",
+        "It's just a job for now",
         "He hates it"
       ],
       "correct_answer": "It's just a job for now",
@@ -3742,9 +3742,9 @@
       "subtopic": "Characters",
       "question": "What does Ryan do after business school?",
       "options": [
-        "Gets promoted then fails",
         "Succeeds",
         "Quits",
+        "Gets promoted then fails",
         "Stays temp"
       ],
       "correct_answer": "Gets promoted then fails",
@@ -3758,9 +3758,9 @@
       "subtopic": "Episodes",
       "question": "What happens during 'Casino Night'?",
       "options": [
-        "Jim confesses to Pam",
         "Gambling",
         "Fighting",
+        "Jim confesses to Pam",
         "Firing"
       ],
       "correct_answer": "Jim confesses to Pam",
@@ -3774,9 +3774,9 @@
       "subtopic": "Trivia",
       "question": "What is the warehouse crew like?",
       "options": [
-        "Separate from office",
         "Integrated",
         "Hostile",
+        "Separate from office",
         "Friendly"
       ],
       "correct_answer": "Separate from office",
@@ -3790,9 +3790,9 @@
       "subtopic": "Relationships",
       "question": "Who does Toby like?",
       "options": [
-        "Pam",
         "Erin",
         "Angela",
+        "Pam",
         "Kelly"
       ],
       "correct_answer": "Pam",
@@ -3806,9 +3806,9 @@
       "subtopic": "Locations",
       "question": "Where does the company picnic happen?",
       "options": [
-        "A park",
         "The office",
         "Beach",
+        "A park",
         "Restaurant"
       ],
       "correct_answer": "A park",
@@ -3822,9 +3822,9 @@
       "subtopic": "Characters",
       "question": "What does Meredith's job involve?",
       "options": [
-        "Supplier relations",
         "Sales",
         "Accounting",
+        "Supplier relations",
         "Reception"
       ],
       "correct_answer": "Supplier relations",
@@ -3838,9 +3838,9 @@
       "subtopic": "Episodes",
       "question": "What happens in 'The Injury'?",
       "options": [
-        "Michael burns his foot",
         "Someone gets hurt",
         "Fire",
+        "Michael burns his foot",
         "Accident"
       ],
       "correct_answer": "Michael burns his foot",
@@ -3854,9 +3854,9 @@
       "subtopic": "Quotes",
       "question": "What does Michael say about bankruptcy?",
       "options": [
-        "I declare bankruptcy!",
         "It's bad",
         "Never",
+        "I declare bankruptcy!",
         "Avoid it"
       ],
       "correct_answer": "I declare bankruptcy!",
@@ -3870,9 +3870,9 @@
       "subtopic": "Trivia",
       "question": "What is Michael's management style?",
       "options": [
-        "Unconventional and personal",
         "By the book",
         "Strict",
+        "Unconventional and personal",
         "Lazy"
       ],
       "correct_answer": "Unconventional and personal",
@@ -3886,9 +3886,9 @@
       "subtopic": "Relationships",
       "question": "Who has workplace affairs?",
       "options": [
-        "Several people",
         "Nobody",
         "One person",
+        "Several people",
         "Everyone"
       ],
       "correct_answer": "Several people",
@@ -3902,9 +3902,9 @@
       "subtopic": "Characters",
       "question": "What is Gabe's role?",
       "options": [
-        "Sabre coordinator",
         "Sales",
         "HR",
+        "Sabre coordinator",
         "Management"
       ],
       "correct_answer": "Sabre coordinator",
@@ -3918,9 +3918,9 @@
       "subtopic": "Episodes",
       "question": "What happens in 'Stress Relief'?",
       "options": [
-        "Fire drill chaos and CPR",
         "Relaxation",
         "Meditation",
+        "Fire drill chaos and CPR",
         "Vacation"
       ],
       "correct_answer": "Fire drill chaos and CPR",
@@ -4830,9 +4830,9 @@
       "subtopic": null,
       "question": "What does Michael Scott burn his foot on?",
       "options": [
+        "A George Foreman grill",
         "A grill",
         "Hot pavement",
-        "A George Foreman grill",
         "A campfire"
       ],
       "correct_answer": "A George Foreman grill",
@@ -4846,8 +4846,8 @@
       "subtopic": null,
       "question": "What does Pam's art teacher call her art?",
       "options": [
-        "Beautiful",
         "Motel art",
+        "Beautiful",
         "Inspiring",
         "Commercial"
       ],
@@ -4862,8 +4862,8 @@
       "subtopic": null,
       "question": "What is the name of the Scranton branch's biggest client?",
       "options": [
-        "Dunmore",
         "Lackawanna County",
+        "Dunmore",
         "Prince Family Paper",
         "Vance Refrigeration"
       ],
@@ -4894,9 +4894,9 @@
       "subtopic": null,
       "question": "What does Todd Packer sell?",
       "options": [
+        "Printing supplies",
         "Paper",
         "Office supplies",
-        "Printing supplies",
         "Computers"
       ],
       "correct_answer": "Printing supplies",
@@ -4942,8 +4942,8 @@
       "subtopic": null,
       "question": "What does Dwight grow at Schrute Farms besides beets?",
       "options": [
-        "Mose",
         "Hemp",
+        "Mose",
         "Corn",
         "Soybeans"
       ],

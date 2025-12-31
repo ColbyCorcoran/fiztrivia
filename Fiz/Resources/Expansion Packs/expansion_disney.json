@@ -1,7 +1,7 @@
 {
   "packId": "com.fiz.pack.disney",
   "packName": "Disney",
-  "packDescription": "Explore the magical world of Disney with 500 questions covering animated classics, Pixar films, theme parks, beloved characters, and iconic songs.",
+  "packDescription": "Explore the magical world of Disney with 500 questions covering animated classics, live action media, theme parks, beloved characters, and iconic songs.",
   "subtopics": [
     "Animated Classics",
     "Live Action",
@@ -235,8 +235,8 @@
       "subtopic": "Characters",
       "question": "What is Donald Duck's nephew trio called?",
       "options": [
-        "Huey, Dewey, and Louie",
         "Larry, Curly, and Moe",
+        "Huey, Dewey, and Louie",
         "Tom, Dick, and Harry",
         "None"
       ],
@@ -251,8 +251,8 @@
       "subtopic": "Characters",
       "question": "What is Goofy's son's name?",
       "options": [
-        "Max",
         "Goofy Jr.",
+        "Max",
         "Pete",
         "PJ"
       ],
@@ -267,8 +267,8 @@
       "subtopic": "Characters",
       "question": "What color are Mickey Mouse's shoes?",
       "options": [
-        "Yellow",
         "Red",
+        "Yellow",
         "Black",
         "White"
       ],
@@ -283,8 +283,8 @@
       "subtopic": "Characters",
       "question": "What type of animal is Dumbo?",
       "options": [
-        "Elephant",
         "Mouse",
+        "Elephant",
         "Lion",
         "Tiger"
       ],
@@ -299,8 +299,8 @@
       "subtopic": "Characters",
       "question": "What is the name of Winnie the Pooh's donkey friend?",
       "options": [
-        "Eeyore",
         "Tigger",
+        "Eeyore",
         "Piglet",
         "Rabbit"
       ],
@@ -315,8 +315,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Circle of Life'?",
       "options": [
-        "The Lion King",
         "Tarzan",
+        "The Lion King",
         "The Jungle Book",
         "Brother Bear"
       ],
@@ -331,8 +331,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Be Our Guest'?",
       "options": [
-        "Beauty and the Beast",
         "Aladdin",
+        "Beauty and the Beast",
         "The Little Mermaid",
         "Tangled"
       ],
@@ -347,8 +347,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'You're Welcome'?",
       "options": [
-        "Moana",
         "Frozen",
+        "Moana",
         "Encanto",
         "Raya"
       ],
@@ -363,8 +363,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'How Far I'll Go'?",
       "options": [
-        "Moana",
         "Frozen 2",
+        "Moana",
         "Tangled",
         "Brave"
       ],
@@ -379,8 +379,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Part of Your World'?",
       "options": [
-        "The Little Mermaid",
         "Moana",
+        "The Little Mermaid",
         "Frozen",
         "Pocahontas"
       ],
@@ -395,8 +395,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'We Don't Talk About Bruno'?",
       "options": [
-        "Encanto",
         "Coco",
+        "Encanto",
         "Moana",
         "Raya"
       ],
@@ -411,8 +411,8 @@
       "subtopic": "Songs",
       "question": "Who composed the music for 'The Lion King'?",
       "options": [
-        "Elton John and Hans Zimmer",
         "Alan Menken",
+        "Elton John and Hans Zimmer",
         "Phil Collins",
         "Randy Newman"
       ],
@@ -427,8 +427,8 @@
       "subtopic": "Parks",
       "question": "What is the tallest structure in Disney World?",
       "options": [
-        "Expedition Everest",
         "Cinderella Castle",
+        "Expedition Everest",
         "Space Mountain",
         "Tower of Terror"
       ],
@@ -443,9 +443,9 @@
       "subtopic": "Parks",
       "question": "Which park has the Tree of Life?",
       "options": [
-        "Animal Kingdom",
         "Magic Kingdom",
         "Epcot",
+        "Animal Kingdom",
         "Hollywood Studios"
       ],
       "correct_answer": "Animal Kingdom",
@@ -459,9 +459,9 @@
       "subtopic": "Parks",
       "question": "How many parks are at Walt Disney World?",
       "options": [
-        "4",
         "2",
         "6",
+        "4",
         "8"
       ],
       "correct_answer": "4",
@@ -475,9 +475,9 @@
       "subtopic": "Parks",
       "question": "What is the name of the nighttime show at Magic Kingdom?",
       "options": [
-        "Happily Ever After/Enchantment",
         "Fantasmic",
         "Illuminations",
+        "Happily Ever After/Enchantment",
         "World of Color"
       ],
       "correct_answer": "Happily Ever After/Enchantment",
@@ -491,9 +491,9 @@
       "subtopic": "Parks",
       "question": "Which attraction takes you through a haunted mansion?",
       "options": [
-        "The Haunted Mansion",
         "Tower of Terror",
         "Space Mountain",
+        "The Haunted Mansion",
         "Pirates of the Caribbean"
       ],
       "correct_answer": "The Haunted Mansion",
@@ -507,9 +507,9 @@
       "subtopic": "Parks",
       "question": "What year did Walt Disney World open?",
       "options": [
-        "1971",
         "1955",
         "1982",
+        "1971",
         "1995"
       ],
       "correct_answer": "1971",
@@ -523,9 +523,9 @@
       "subtopic": "Parks",
       "question": "Which Disney park opened first in Europe?",
       "options": [
-        "Disneyland Paris",
         "Tokyo Disneyland",
         "Hong Kong Disneyland",
+        "Disneyland Paris",
         "Shanghai Disneyland"
       ],
       "correct_answer": "Disneyland Paris",
@@ -539,9 +539,9 @@
       "subtopic": "Parks",
       "question": "What is the main street at Disneyland called?",
       "options": [
-        "Main Street U.S.A.",
         "Hollywood Boulevard",
         "Sunset Boulevard",
+        "Main Street U.S.A.",
         "Mickey Avenue"
       ],
       "correct_answer": "Main Street U.S.A.",
@@ -555,9 +555,9 @@
       "subtopic": "Live Action",
       "question": "Which actress played Belle in the live-action 'Beauty and the Beast'?",
       "options": [
-        "Emma Watson",
         "Emma Stone",
         "Emily Blunt",
+        "Emma Watson",
         "Anne Hathaway"
       ],
       "correct_answer": "Emma Watson",
@@ -571,9 +571,9 @@
       "subtopic": "Live Action",
       "question": "Who directed 'The Jungle Book' (2016)?",
       "options": [
-        "Jon Favreau",
         "Tim Burton",
         "Kenneth Branagh",
+        "Jon Favreau",
         "Guy Ritchie"
       ],
       "correct_answer": "Jon Favreau",
@@ -587,9 +587,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the prince in 'The Little Mermaid'?",
       "options": [
-        "Prince Eric",
         "Prince Phillip",
         "Prince Charming",
+        "Prince Eric",
         "Prince Adam"
       ],
       "correct_answer": "Prince Eric",
@@ -603,9 +603,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Tiana's dream in 'The Princess and the Frog'?",
       "options": [
-        "To own a restaurant",
         "To marry a prince",
         "To be famous",
+        "To own a restaurant",
         "To travel the world"
       ],
       "correct_answer": "To own a restaurant",
@@ -619,9 +619,9 @@
       "subtopic": "Characters",
       "question": "What is Pluto's species?",
       "options": [
-        "Dog",
         "Cat",
         "Mouse",
+        "Dog",
         "Duck"
       ],
       "correct_answer": "Dog",
@@ -635,10 +635,10 @@
       "subtopic": "Characters",
       "question": "What color is Donald Duck?",
       "options": [
-        "White",
         "Blue",
         "Yellow",
-        "Orange"
+        "Orange",
+        "White"
       ],
       "correct_answer": "White",
       "difficulty": "easy"
@@ -651,10 +651,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Just Around the Riverbend'?",
       "options": [
-        "Pocahontas",
         "Moana",
         "The Little Mermaid",
-        "Frozen"
+        "Frozen",
+        "Pocahontas"
       ],
       "correct_answer": "Pocahontas",
       "difficulty": "easy"
@@ -667,10 +667,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'I'll Make a Man Out of You'?",
       "options": [
-        "Mulan",
         "Hercules",
         "Tarzan",
-        "Aladdin"
+        "Aladdin",
+        "Mulan"
       ],
       "correct_answer": "Mulan",
       "difficulty": "easy"
@@ -683,10 +683,10 @@
       "subtopic": "Live Action",
       "question": "Who plays Simba in the 2019 Lion King?",
       "options": [
-        "Donald Glover",
-        "Beyonc\u00e9",
+        "Beyoncé",
         "Seth Rogen",
-        "Billy Eichner"
+        "Billy Eichner",
+        "Donald Glover"
       ],
       "correct_answer": "Donald Glover",
       "difficulty": "easy"
@@ -699,12 +699,12 @@
       "subtopic": "Live Action",
       "question": "Who plays Nala in the 2019 Lion King?",
       "options": [
-        "Beyonc\u00e9",
         "Donald Glover",
         "Chiwetel Ejiofor",
-        "Alfre Woodard"
+        "Alfre Woodard",
+        "Beyoncé"
       ],
-      "correct_answer": "Beyonc\u00e9",
+      "correct_answer": "Beyoncé",
       "difficulty": "easy"
     },
     {
@@ -715,10 +715,10 @@
       "subtopic": "Parks",
       "question": "What is the name of the nighttime spectacular at Disneyland?",
       "options": [
-        "Fantasmic/Fireworks shows",
         "World of Color",
         "Happily Ever After",
-        "Illuminations"
+        "Illuminations",
+        "Fantasmic/Fireworks shows"
       ],
       "correct_answer": "Fantasmic/Fireworks shows",
       "difficulty": "easy"
@@ -731,10 +731,10 @@
       "subtopic": "Animated Classics",
       "question": "What is the first rule of being a Disney Princess?",
       "options": [
-        "There is no official rule",
         "Must sing",
         "Must have magic",
-        "Must marry a prince"
+        "Must marry a prince",
+        "There is no official rule"
       ],
       "correct_answer": "There is no official rule",
       "difficulty": "easy"
@@ -747,10 +747,10 @@
       "subtopic": "Characters",
       "question": "What is the name of the robot in 'Meet the Robinsons'?",
       "options": [
-        "Carl",
         "Lewis",
         "Wilbur",
-        "Bowler Hat Guy"
+        "Bowler Hat Guy",
+        "Carl"
       ],
       "correct_answer": "Carl",
       "difficulty": "easy"
@@ -763,10 +763,10 @@
       "subtopic": "Live Action",
       "question": "Which Disney Channel movie featured a teen basketball player and a singing prodigy?",
       "options": [
-        "High School Musical",
         "Camp Rock",
         "Teen Beach Movie",
-        "Lemonade Mouth"
+        "Lemonade Mouth",
+        "High School Musical"
       ],
       "correct_answer": "High School Musical",
       "difficulty": "easy"
@@ -779,10 +779,10 @@
       "subtopic": "Live Action",
       "question": "Who played Mary Poppins in the original 1964 film?",
       "options": [
-        "Julie Andrews",
         "Emily Blunt",
         "Angela Lansbury",
-        "Hayley Mills"
+        "Hayley Mills",
+        "Julie Andrews"
       ],
       "correct_answer": "Julie Andrews",
       "difficulty": "easy"
@@ -795,10 +795,10 @@
       "subtopic": "Parks",
       "question": "What is Main Street U.S.A. based on?",
       "options": [
-        "Walt Disney's hometown (Marceline, MO)",
         "New York City",
         "Chicago",
-        "San Francisco"
+        "San Francisco",
+        "Walt Disney's hometown (Marceline, MO)"
       ],
       "correct_answer": "Walt Disney's hometown (Marceline, MO)",
       "difficulty": "easy"
@@ -811,12 +811,12 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Strangers Like Me'?",
       "options": [
-        "Tarzan",
         "The Jungle Book",
         "Brother Bear",
-        "Pocahontas"
+        "Pocahontas",
+        "Tarzan"
       ],
-      "correct_answer": "Strangers Like Me",
+      "correct_answer": "Tarzan",
       "difficulty": "easy"
     }
   ],
@@ -829,9 +829,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of Ariel's fish friend in 'The Little Mermaid'?",
       "options": [
-        "Flounder",
         "Sebastian",
         "Scuttle",
+        "Flounder",
         "Max"
       ],
       "correct_answer": "Flounder",
@@ -845,9 +845,9 @@
       "subtopic": "Parks",
       "question": "In which year did Disneyland open in California?",
       "options": [
-        "1955",
         "1950",
         "1960",
+        "1955",
         "1965"
       ],
       "correct_answer": "1955",
@@ -861,9 +861,9 @@
       "subtopic": "Characters",
       "question": "What are the names of Cinderella's stepsisters?",
       "options": [
-        "Anastasia and Drizella",
         "Prudence and Primrose",
         "Gertrude and Griselda",
+        "Anastasia and Drizella",
         "Beatrice and Bertha"
       ],
       "correct_answer": "Anastasia and Drizella",
@@ -877,9 +877,9 @@
       "subtopic": "Songs",
       "question": "Which song won the Oscar for Best Original Song from 'The Lion King'?",
       "options": [
-        "Can You Feel the Love Tonight",
         "Circle of Life",
         "Hakuna Matata",
+        "Can You Feel the Love Tonight",
         "Be Prepared"
       ],
       "correct_answer": "Can You Feel the Love Tonight",
@@ -893,9 +893,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of Belle's father in 'Beauty and the Beast'?",
       "options": [
-        "Maurice",
         "Gaston",
-        "Lumi\u00e8re",
+        "Lumière",
+        "Maurice",
         "Cogsworth"
       ],
       "correct_answer": "Maurice",
@@ -909,9 +909,9 @@
       "subtopic": "Parks",
       "question": "Which Disney park features the 'Spaceship Earth' geodesic sphere?",
       "options": [
-        "Epcot",
         "Magic Kingdom",
         "Hollywood Studios",
+        "Epcot",
         "Animal Kingdom"
       ],
       "correct_answer": "Epcot",
@@ -925,9 +925,9 @@
       "subtopic": "Characters",
       "question": "What is the name of Mulan's dragon companion?",
       "options": [
-        "Mushu",
         "Cri-Kee",
         "Khan",
+        "Mushu",
         "Shan Yu"
       ],
       "correct_answer": "Mushu",
@@ -941,9 +941,9 @@
       "subtopic": "Songs",
       "question": "Who sang 'A Whole New World' from 'Aladdin'?",
       "options": [
-        "Peabo Bryson and Regina Belle",
-        "Elton John and C\u00e9line Dion",
+        "Elton John and Céline Dion",
         "Kenny Loggins and Stevie Nicks",
+        "Peabo Bryson and Regina Belle",
         "Phil Collins and Tina Turner"
       ],
       "correct_answer": "Peabo Bryson and Regina Belle",
@@ -957,9 +957,9 @@
       "subtopic": "Animated Classics",
       "question": "How many dwarfs are there in 'Snow White'?",
       "options": [
-        "7",
         "5",
         "6",
+        "7",
         "8"
       ],
       "correct_answer": "7",
@@ -973,9 +973,9 @@
       "subtopic": "Live Action",
       "question": "In which movie does a magical nanny arrive via umbrella?",
       "options": [
-        "Mary Poppins",
         "Bedknobs and Broomsticks",
         "The Sound of Music",
+        "Mary Poppins",
         "Nanny McPhee"
       ],
       "correct_answer": "Mary Poppins",
@@ -989,9 +989,9 @@
       "subtopic": "Parks",
       "question": "Which Disney park opened in Tokyo in 1983?",
       "options": [
-        "Tokyo Disneyland",
         "DisneySea",
         "Tokyo Disney Resort",
+        "Tokyo Disneyland",
         "Universal Studios Japan"
       ],
       "correct_answer": "Tokyo Disneyland",
@@ -1005,9 +1005,9 @@
       "subtopic": "Characters",
       "question": "What is the name of Pocahontas's raccoon companion?",
       "options": [
-        "Meeko",
         "Flit",
         "Percy",
+        "Meeko",
         "Redfeather"
       ],
       "correct_answer": "Meeko",
@@ -1021,9 +1021,9 @@
       "subtopic": "Songs",
       "question": "What song does Elsa sing while building her ice palace?",
       "options": [
-        "Let It Go",
         "Into the Unknown",
         "Show Yourself",
+        "Let It Go",
         "For the First Time in Forever"
       ],
       "correct_answer": "Let It Go",
@@ -1037,9 +1037,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the prince in 'Sleeping Beauty'?",
       "options": [
-        "Prince Phillip",
         "Prince Charming",
         "Prince Eric",
+        "Prince Phillip",
         "Prince Adam"
       ],
       "correct_answer": "Prince Phillip",
@@ -1053,9 +1053,9 @@
       "subtopic": "Live Action",
       "question": "Which Disney live-action remake was released in 2019 featuring a photorealistic lion?",
       "options": [
-        "The Lion King",
         "Aladdin",
         "Dumbo",
+        "The Lion King",
         "The Jungle Book"
       ],
       "correct_answer": "The Lion King",
@@ -1069,9 +1069,9 @@
       "subtopic": "Parks",
       "question": "What is the iconic castle at the center of Magic Kingdom?",
       "options": [
-        "Cinderella Castle",
         "Sleeping Beauty Castle",
         "Beast's Castle",
+        "Cinderella Castle",
         "Elsa's Ice Palace"
       ],
       "correct_answer": "Cinderella Castle",
@@ -1085,9 +1085,9 @@
       "subtopic": "Characters",
       "question": "What type of animal is Bambi?",
       "options": [
-        "White-tailed deer",
         "Rabbit",
         "Skunk",
+        "White-tailed deer",
         "Owl"
       ],
       "correct_answer": "White-tailed deer",
@@ -1101,9 +1101,9 @@
       "subtopic": "Songs",
       "question": "Which Disney movie features the song 'Under the Sea'?",
       "options": [
-        "The Little Mermaid",
         "Finding Nemo",
         "Moana",
+        "The Little Mermaid",
         "Lilo & Stitch"
       ],
       "correct_answer": "The Little Mermaid",
@@ -1117,9 +1117,9 @@
       "subtopic": "Animated Classics",
       "question": "What does Rapunzel use as a weapon in 'Tangled'?",
       "options": [
-        "A frying pan",
         "Her hair",
         "A sword",
+        "A frying pan",
         "A bow and arrow"
       ],
       "correct_answer": "A frying pan",
@@ -1133,9 +1133,9 @@
       "subtopic": "Live Action",
       "question": "What sport is featured in 'The Mighty Ducks'?",
       "options": [
-        "Ice hockey",
         "Baseball",
         "Basketball",
+        "Ice hockey",
         "Soccer"
       ],
       "correct_answer": "Ice hockey",
@@ -1149,9 +1149,9 @@
       "subtopic": "Characters",
       "question": "What is the name of Aladdin's monkey?",
       "options": [
-        "Abu",
         "Iago",
         "Rajah",
+        "Abu",
         "Jafar"
       ],
       "correct_answer": "Abu",
@@ -1165,9 +1165,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is Snow White's true love?",
       "options": [
-        "The Prince",
         "The Huntsman",
         "Grumpy",
+        "The Prince",
         "Doc"
       ],
       "correct_answer": "The Prince",
@@ -1181,9 +1181,9 @@
       "subtopic": "Animated Classics",
       "question": "What fruit does the Evil Queen give Snow White?",
       "options": [
-        "Poisoned apple",
         "Poisoned pear",
         "Magic berry",
+        "Poisoned apple",
         "Cursed grape"
       ],
       "correct_answer": "Poisoned apple",
@@ -1197,9 +1197,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Cinderella', what time must she leave the ball?",
       "options": [
-        "Midnight",
         "11 PM",
         "Dawn",
+        "Midnight",
         "Sunset"
       ],
       "correct_answer": "Midnight",
@@ -1213,9 +1213,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the Beast's real name in 'Beauty and the Beast'?",
       "options": [
-        "Adam",
         "Maurice",
         "Gaston",
+        "Adam",
         "Philippe"
       ],
       "correct_answer": "Adam",
@@ -1229,9 +1229,9 @@
       "subtopic": "Animated Classics",
       "question": "What type of fish is Flounder?",
       "options": [
-        "Flounder/tropical fish",
         "Clownfish",
         "Angelfish",
+        "Flounder/tropical fish",
         "Goldfish"
       ],
       "correct_answer": "Flounder/tropical fish",
@@ -1245,9 +1245,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is Ariel's father in 'The Little Mermaid'?",
       "options": [
-        "King Triton",
         "King Neptune",
         "King Poseidon",
+        "King Triton",
         "King Aquarius"
       ],
       "correct_answer": "King Triton",
@@ -1261,9 +1261,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of Jasmine's father in 'Aladdin'?",
       "options": [
-        "The Sultan",
         "Jafar",
         "Razoul",
+        "The Sultan",
         "Cassim"
       ],
       "correct_answer": "The Sultan",
@@ -1277,9 +1277,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is the villain in 'Aladdin'?",
       "options": [
-        "Jafar",
         "Iago",
         "The Sultan",
+        "Jafar",
         "Razoul"
       ],
       "correct_answer": "Jafar",
@@ -1293,9 +1293,9 @@
       "subtopic": "Animated Classics",
       "question": "What animal is Rajah in 'Aladdin'?",
       "options": [
-        "Tiger",
         "Lion",
         "Panther",
+        "Tiger",
         "Leopard"
       ],
       "correct_answer": "Tiger",
@@ -1309,9 +1309,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'The Lion King', who is Simba's uncle?",
       "options": [
-        "Scar",
         "Mufasa",
         "Rafiki",
+        "Scar",
         "Zazu"
       ],
       "correct_answer": "Scar",
@@ -1325,9 +1325,9 @@
       "subtopic": "Animated Classics",
       "question": "What type of bird is Zazu?",
       "options": [
-        "Hornbill",
         "Toucan",
         "Parrot",
+        "Hornbill",
         "Eagle"
       ],
       "correct_answer": "Hornbill",
@@ -1341,9 +1341,9 @@
       "subtopic": "Animated Classics",
       "question": "Who raised Simba after Mufasa's death?",
       "options": [
-        "Timon and Pumbaa",
         "Rafiki",
         "Nala",
+        "Timon and Pumbaa",
         "Sarabi"
       ],
       "correct_answer": "Timon and Pumbaa",
@@ -1357,9 +1357,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Pocahontas's hummingbird friend named?",
       "options": [
-        "Flit",
         "Meeko",
         "Percy",
+        "Flit",
         "Wiggins"
       ],
       "correct_answer": "Flit",
@@ -1373,9 +1373,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is the villain in 'Pocahontas'?",
       "options": [
-        "Governor Ratcliffe",
         "John Smith",
         "Thomas",
+        "Governor Ratcliffe",
         "Kocoum"
       ],
       "correct_answer": "Governor Ratcliffe",
@@ -1389,9 +1389,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Esmeralda's goat named in 'The Hunchback of Notre Dame'?",
       "options": [
-        "Djali",
         "Phoebus",
         "Clopin",
+        "Djali",
         "Hugo"
       ],
       "correct_answer": "Djali",
@@ -1405,9 +1405,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Mulan', what is the name of the Hun leader?",
       "options": [
-        "Shan Yu",
         "Li Shang",
         "Chi-Fu",
+        "Shan Yu",
         "Yao"
       ],
       "correct_answer": "Shan Yu",
@@ -1421,9 +1421,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Hercules's father's name?",
       "options": [
-        "Zeus",
         "Hades",
         "Apollo",
+        "Zeus",
         "Poseidon"
       ],
       "correct_answer": "Zeus",
@@ -1437,9 +1437,9 @@
       "subtopic": "Animated Classics",
       "question": "Who trains Hercules to be a hero?",
       "options": [
-        "Philoctetes (Phil)",
         "Zeus",
         "Hades",
+        "Philoctetes (Phil)",
         "Pegasus"
       ],
       "correct_answer": "Philoctetes (Phil)",
@@ -1453,9 +1453,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Tarzan', what is the name of Tarzan's gorilla mother?",
       "options": [
-        "Kala",
         "Terk",
         "Tantor",
+        "Kala",
         "Kerchak"
       ],
       "correct_answer": "Kala",
@@ -1469,9 +1469,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the chameleon in 'Tangled'?",
       "options": [
-        "Pascal",
         "Maximus",
         "Flynn",
+        "Pascal",
         "Gothel"
       ],
       "correct_answer": "Pascal",
@@ -1485,9 +1485,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Flynn Rider's real name in 'Tangled'?",
       "options": [
-        "Eugene Fitzherbert",
         "Pascal",
         "Maximus",
+        "Eugene Fitzherbert",
         "Ryder"
       ],
       "correct_answer": "Eugene Fitzherbert",
@@ -1501,9 +1501,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Mother Gothel's motivation in 'Tangled'?",
       "options": [
-        "To stay young with Rapunzel's hair",
         "To be queen",
         "To be rich",
+        "To stay young with Rapunzel's hair",
         "To have power"
       ],
       "correct_answer": "To stay young with Rapunzel's hair",
@@ -1517,9 +1517,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the setting of 'Frozen'?",
       "options": [
-        "Arendelle",
         "Corona",
         "Atlantica",
+        "Arendelle",
         "Agrabah"
       ],
       "correct_answer": "Arendelle",
@@ -1533,9 +1533,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is Anna's sister in 'Frozen'?",
       "options": [
-        "Elsa",
         "Moana",
         "Rapunzel",
+        "Elsa",
         "Merida"
       ],
       "correct_answer": "Elsa",
@@ -1549,9 +1549,9 @@
       "subtopic": "Animated Classics",
       "question": "What type of magical power does Elsa have?",
       "options": [
-        "Ice and snow",
         "Fire",
         "Water",
+        "Ice and snow",
         "Wind"
       ],
       "correct_answer": "Ice and snow",
@@ -1565,9 +1565,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is the villain revealed at the end of 'Frozen'?",
       "options": [
-        "Prince Hans",
         "The Duke of Weselton",
         "Olaf",
+        "Prince Hans",
         "Kristoff"
       ],
       "correct_answer": "Prince Hans",
@@ -1581,9 +1581,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Moana's grandmother's name?",
       "options": [
-        "Tala",
         "Sina",
         "Moana",
+        "Tala",
         "Pua"
       ],
       "correct_answer": "Tala",
@@ -1597,9 +1597,9 @@
       "subtopic": "Animated Classics",
       "question": "What does Moana want to do?",
       "options": [
-        "Sail beyond the reef",
         "Stay on the island",
         "Become chief immediately",
+        "Sail beyond the reef",
         "Hunt"
       ],
       "correct_answer": "Sail beyond the reef",
@@ -1613,9 +1613,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Te Fiti in 'Moana'?",
       "options": [
-        "An island goddess",
         "The ocean",
         "A demigod",
+        "An island goddess",
         "A volcano"
       ],
       "correct_answer": "An island goddess",
@@ -1629,9 +1629,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Zootopia', what is Judy Hopps?",
       "options": [
-        "Rabbit police officer",
         "Fox con artist",
         "Sheep mayor",
+        "Rabbit police officer",
         "Lion police chief"
       ],
       "correct_answer": "Rabbit police officer",
@@ -1645,9 +1645,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Nick Wilde's species in 'Zootopia'?",
       "options": [
-        "Fox",
         "Rabbit",
         "Lion",
+        "Fox",
         "Otter"
       ],
       "correct_answer": "Fox",
@@ -1661,9 +1661,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Big Hero 6', what is Baymax?",
       "options": [
-        "Healthcare robot",
         "Superhero",
         "Villain",
+        "Healthcare robot",
         "Police officer"
       ],
       "correct_answer": "Healthcare robot",
@@ -1677,9 +1677,9 @@
       "subtopic": "Animated Classics",
       "question": "What city is 'Big Hero 6' set in?",
       "options": [
-        "San Fransokyo",
         "San Francisco",
         "Tokyo",
+        "San Fransokyo",
         "New York"
       ],
       "correct_answer": "San Fransokyo",
@@ -1693,9 +1693,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Wreck-It Ralph', what is Ralph's job?",
       "options": [
-        "Video game villain",
         "Video game hero",
         "Racer",
+        "Video game villain",
         "Game designer"
       ],
       "correct_answer": "Video game villain",
@@ -1709,9 +1709,9 @@
       "subtopic": "Animated Classics",
       "question": "What game does Vanellope von Schweetz live in?",
       "options": [
-        "Sugar Rush",
         "Fix-It Felix Jr.",
         "Hero's Duty",
+        "Sugar Rush",
         "Wreck-It Ralph"
       ],
       "correct_answer": "Sugar Rush",
@@ -1725,9 +1725,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is the villain in 'Wreck-It Ralph'?",
       "options": [
-        "King Candy/Turbo",
         "Ralph",
         "Felix",
+        "King Candy/Turbo",
         "Sour Bill"
       ],
       "correct_answer": "King Candy/Turbo",
@@ -1741,9 +1741,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Encanto', what is Mirabel's family gift?",
       "options": [
-        "She has no gift",
         "Super strength",
         "Shapeshifting",
+        "She has no gift",
         "Healing"
       ],
       "correct_answer": "She has no gift",
@@ -1757,9 +1757,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the magical house in 'Encanto'?",
       "options": [
-        "Casita",
         "Casa",
         "La Casa",
+        "Casita",
         "Encanto"
       ],
       "correct_answer": "Casita",
@@ -1773,9 +1773,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is the matriarch of the Madrigal family?",
       "options": [
-        "Abuela Alma",
         "Mirabel",
         "Isabela",
+        "Abuela Alma",
         "Julieta"
       ],
       "correct_answer": "Abuela Alma",
@@ -1789,9 +1789,9 @@
       "subtopic": "Animated Classics",
       "question": "What does Luisa's gift allow her to do in 'Encanto'?",
       "options": [
-        "Super strength",
         "Control weather",
         "Heal people",
+        "Super strength",
         "Talk to animals"
       ],
       "correct_answer": "Super strength",
@@ -1805,9 +1805,9 @@
       "subtopic": "Animated Classics",
       "question": "What year was 'Snow White' released?",
       "options": [
-        "1937",
         "1940",
         "1950",
+        "1937",
         "1955"
       ],
       "correct_answer": "1937",
@@ -1821,9 +1821,9 @@
       "subtopic": "Animated Classics",
       "question": "Which was Disney's first animated feature film?",
       "options": [
-        "Snow White and the Seven Dwarfs",
         "Pinocchio",
         "Fantasia",
+        "Snow White and the Seven Dwarfs",
         "Dumbo"
       ],
       "correct_answer": "Snow White and the Seven Dwarfs",
@@ -1837,9 +1837,9 @@
       "subtopic": "Animated Classics",
       "question": "What are the names of the three good fairies in 'Sleeping Beauty'?",
       "options": [
-        "Flora, Fauna, and Merryweather",
         "Faith, Hope, and Charity",
         "Grace, Joy, and Peace",
+        "Flora, Fauna, and Merryweather",
         "None"
       ],
       "correct_answer": "Flora, Fauna, and Merryweather",
@@ -1853,9 +1853,9 @@
       "subtopic": "Animated Classics",
       "question": "What color dress does Aurora wear most of the movie?",
       "options": [
-        "Blue (but fairies argue over pink vs blue)",
         "Pink",
         "Yellow",
+        "Blue (but fairies argue over pink vs blue)",
         "White"
       ],
       "correct_answer": "Blue (but fairies argue over pink vs blue)",
@@ -1869,9 +1869,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Beauty and the Beast', what is the name of Belle's horse?",
       "options": [
-        "Philippe",
         "Maurice",
         "Gaston",
+        "Philippe",
         "LeFou"
       ],
       "correct_answer": "Philippe",
@@ -1885,9 +1885,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is Gaston's sidekick?",
       "options": [
-        "LeFou",
         "Maurice",
-        "Lumi\u00e8re",
+        "Lumière",
+        "LeFou",
         "Cogsworth"
       ],
       "correct_answer": "LeFou",
@@ -1901,9 +1901,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Ursula's disguise name in 'The Little Mermaid'?",
       "options": [
-        "Vanessa",
         "Ariel",
         "Flotsam",
+        "Vanessa",
         "Jetsam"
       ],
       "correct_answer": "Vanessa",
@@ -1917,9 +1917,9 @@
       "subtopic": "Animated Classics",
       "question": "What are the names of Ursula's eel minions?",
       "options": [
-        "Flotsam and Jetsam",
         "Flounder and Sebastian",
         "Scuttle and Max",
+        "Flotsam and Jetsam",
         "Eric and Grimsby"
       ],
       "correct_answer": "Flotsam and Jetsam",
@@ -1933,9 +1933,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the cave in 'Aladdin'?",
       "options": [
-        "Cave of Wonders",
         "Cave of Treasures",
         "Magic Cave",
+        "Cave of Wonders",
         "Genie's Cave"
       ],
       "correct_answer": "Cave of Wonders",
@@ -1949,9 +1949,9 @@
       "subtopic": "Animated Classics",
       "question": "What does the Genie grant Aladdin as a freebie?",
       "options": [
-        "Getting out of the cave",
         "Becoming a prince",
         "Winning Jasmine",
+        "Getting out of the cave",
         "Defeating Jafar"
       ],
       "correct_answer": "Getting out of the cave",
@@ -1965,9 +1965,9 @@
       "subtopic": "Animated Classics",
       "question": "How many wishes does the Genie grant?",
       "options": [
-        "3",
         "Unlimited",
         "1",
+        "3",
         "5"
       ],
       "correct_answer": "3",
@@ -1981,9 +1981,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Simba's mother's name?",
       "options": [
-        "Sarabi",
         "Nala",
         "Sarafina",
+        "Sarabi",
         "Kiara"
       ],
       "correct_answer": "Sarabi",
@@ -1997,9 +1997,9 @@
       "subtopic": "Animated Classics",
       "question": "What type of animal is Timon?",
       "options": [
-        "Meerkat",
         "Warthog",
         "Mongoose",
+        "Meerkat",
         "Otter"
       ],
       "correct_answer": "Meerkat",
@@ -2013,9 +2013,9 @@
       "subtopic": "Animated Classics",
       "question": "What type of animal is Pumbaa?",
       "options": [
-        "Warthog",
         "Meerkat",
         "Boar",
+        "Warthog",
         "Pig"
       ],
       "correct_answer": "Warthog",
@@ -2029,9 +2029,9 @@
       "subtopic": "Animated Classics",
       "question": "Who does Nala want Simba to fight?",
       "options": [
-        "Scar",
         "Mufasa",
         "Rafiki",
+        "Scar",
         "Zazu"
       ],
       "correct_answer": "Scar",
@@ -2045,9 +2045,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Pocahontas', what is John Smith's profession?",
       "options": [
-        "Explorer/Soldier",
         "Farmer",
         "Hunter",
+        "Explorer/Soldier",
         "Merchant"
       ],
       "correct_answer": "Explorer/Soldier",
@@ -2061,9 +2061,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of Pocahontas's father?",
       "options": [
-        "Chief Powhatan",
         "Kekata",
         "Kocoum",
+        "Chief Powhatan",
         "Nakoma"
       ],
       "correct_answer": "Chief Powhatan",
@@ -2077,9 +2077,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is the archdeacon in 'The Hunchback of Notre Dame'?",
       "options": [
-        "The Archdeacon",
         "Frollo",
         "Phoebus",
+        "The Archdeacon",
         "Clopin"
       ],
       "correct_answer": "The Archdeacon",
@@ -2093,9 +2093,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Quasimodo's job?",
       "options": [
-        "Bell ringer",
         "Soldier",
         "Judge",
+        "Bell ringer",
         "Beggar"
       ],
       "correct_answer": "Bell ringer",
@@ -2109,9 +2109,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Hercules', who is the villain?",
       "options": [
-        "Hades",
         "Zeus",
         "Pain",
+        "Hades",
         "Panic"
       ],
       "correct_answer": "Hades",
@@ -2125,9 +2125,9 @@
       "subtopic": "Animated Classics",
       "question": "What are the names of Hades's minions?",
       "options": [
-        "Pain and Panic",
         "Fear and Loathing",
         "Anger and Sorrow",
+        "Pain and Panic",
         "None"
       ],
       "correct_answer": "Pain and Panic",
@@ -2141,9 +2141,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is Megara (Meg) working for initially?",
       "options": [
-        "Hades",
         "Zeus",
         "Hercules",
+        "Hades",
         "Philoctetes"
       ],
       "correct_answer": "Hades",
@@ -2157,9 +2157,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Mulan', what is the name of the matchmaker?",
       "options": [
-        "The Matchmaker",
         "Grandmother Fa",
         "Chi-Fu",
+        "The Matchmaker",
         "None"
       ],
       "correct_answer": "The Matchmaker",
@@ -2173,9 +2173,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is the Emperor of China in 'Mulan'?",
       "options": [
-        "The Emperor",
         "Li Shang",
         "Chi-Fu",
+        "The Emperor",
         "Shan Yu"
       ],
       "correct_answer": "The Emperor",
@@ -2189,9 +2189,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Tarzan', who is the villain?",
       "options": [
-        "Clayton",
         "Kerchak",
         "Terk",
+        "Clayton",
         "Tantor"
       ],
       "correct_answer": "Clayton",
@@ -2205,9 +2205,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Jane's father's name in 'Tarzan'?",
       "options": [
-        "Professor Porter",
         "Clayton",
         "Kerchak",
+        "Professor Porter",
         "Archimedes"
       ],
       "correct_answer": "Professor Porter",
@@ -2221,9 +2221,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'The Emperor's New Groove', what animal does Kuzco turn into?",
       "options": [
-        "Llama",
         "Alpaca",
         "Sheep",
+        "Llama",
         "Goat"
       ],
       "correct_answer": "Llama",
@@ -2237,9 +2237,9 @@
       "subtopic": "Animated Classics",
       "question": "Who turns Kuzco into a llama?",
       "options": [
-        "Yzma",
         "Kronk",
         "Pacha",
+        "Yzma",
         "Chicha"
       ],
       "correct_answer": "Yzma",
@@ -2253,9 +2253,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Lilo & Stitch', what is Stitch's experiment number?",
       "options": [
-        "626",
         "627",
         "625",
+        "626",
         "624"
       ],
       "correct_answer": "626",
@@ -2269,9 +2269,9 @@
       "subtopic": "Animated Classics",
       "question": "What is Lilo's sister's name?",
       "options": [
-        "Nani",
         "Stitch",
         "Pleakley",
+        "Nani",
         "Jumba"
       ],
       "correct_answer": "Nani",
@@ -2285,9 +2285,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Brother Bear', what does Kenai turn into?",
       "options": [
-        "Bear",
         "Moose",
         "Eagle",
+        "Bear",
         "Wolf"
       ],
       "correct_answer": "Bear",
@@ -2301,9 +2301,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Atlantis: The Lost Empire', what is Milo's profession?",
       "options": [
-        "Linguist/Cartographer",
         "Explorer",
         "Soldier",
+        "Linguist/Cartographer",
         "King"
       ],
       "correct_answer": "Linguist/Cartographer",
@@ -2317,9 +2317,9 @@
       "subtopic": "Animated Classics",
       "question": "Who is the leader of the expedition in 'Atlantis'?",
       "options": [
-        "Commander Rourke",
         "Milo",
         "Kida",
+        "Commander Rourke",
         "Helga"
       ],
       "correct_answer": "Commander Rourke",
@@ -2333,9 +2333,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Treasure Planet', what is Jim Hawkins looking for?",
       "options": [
-        "Treasure Planet",
         "Home",
         "His father",
+        "Treasure Planet",
         "A ship"
       ],
       "correct_answer": "Treasure Planet",
@@ -2349,9 +2349,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Frozen', what is Kristoff's job?",
       "options": [
-        "Ice harvester",
         "Prince",
         "Shopkeeper",
+        "Ice harvester",
         "Troll"
       ],
       "correct_answer": "Ice harvester",
@@ -2365,9 +2365,9 @@
       "subtopic": "Animated Classics",
       "question": "What are the rock trolls called in 'Frozen'?",
       "options": [
-        "Trolls/Hidden Folk",
         "Stone Giants",
         "Rock People",
+        "Trolls/Hidden Folk",
         "Earth Spirits"
       ],
       "correct_answer": "Trolls/Hidden Folk",
@@ -2381,9 +2381,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Frozen 2', what are the four spirits?",
       "options": [
-        "Earth, Fire, Water, Air",
         "Ice, Fire, Water, Earth",
         "Wind, Fire, Water, Stone",
+        "Earth, Fire, Water, Air",
         "None"
       ],
       "correct_answer": "Earth, Fire, Water, Air",
@@ -2397,9 +2397,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the salamander in 'Frozen 2'?",
       "options": [
-        "Bruni",
         "Gale",
         "Earth Giants",
+        "Bruni",
         "Nokk"
       ],
       "correct_answer": "Bruni",
@@ -2413,9 +2413,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Raya and the Last Dragon', what is Sisu?",
       "options": [
-        "The last dragon",
         "A warrior",
         "A princess",
+        "The last dragon",
         "A villain"
       ],
       "correct_answer": "The last dragon",
@@ -2429,9 +2429,9 @@
       "subtopic": "Animated Classics",
       "question": "What unites the lands in 'Raya'?",
       "options": [
-        "The Dragon Gem",
         "The river",
         "The mountain",
+        "The Dragon Gem",
         "The forest"
       ],
       "correct_answer": "The Dragon Gem",
@@ -2445,9 +2445,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the villain in 'The Black Cauldron'?",
       "options": [
-        "The Horned King",
         "The Evil Queen",
         "Maleficent",
+        "The Horned King",
         "Jafar"
       ],
       "correct_answer": "The Horned King",
@@ -2461,9 +2461,9 @@
       "subtopic": "Animated Classics",
       "question": "Which Disney Renaissance film was released first?",
       "options": [
-        "The Little Mermaid (1989)",
         "Beauty and the Beast",
         "Aladdin",
+        "The Little Mermaid (1989)",
         "The Lion King"
       ],
       "correct_answer": "The Little Mermaid (1989)",
@@ -2477,9 +2477,9 @@
       "subtopic": "Animated Classics",
       "question": "What animator is credited with the 'Nine Old Men'?",
       "options": [
-        "Walt Disney's core animators",
         "Modern Pixar team",
         "DreamWorks founders",
+        "Walt Disney's core animators",
         "None"
       ],
       "correct_answer": "Walt Disney's core animators",
@@ -2493,9 +2493,9 @@
       "subtopic": "Animated Classics",
       "question": "In 'Sleeping Beauty', how long does Aurora sleep?",
       "options": [
-        "100 years (until true love's kiss)",
         "50 years",
         "Forever",
+        "100 years (until true love's kiss)",
         "1 year"
       ],
       "correct_answer": "100 years (until true love's kiss)",
@@ -2509,9 +2509,9 @@
       "subtopic": "Animated Classics",
       "question": "What was Disney's first animated sequel released to theaters?",
       "options": [
-        "The Rescuers Down Under (1990)",
         "The Lion King 2",
         "Aladdin 2",
+        "The Rescuers Down Under (1990)",
         "Pocahontas 2"
       ],
       "correct_answer": "The Rescuers Down Under (1990)",
@@ -2525,9 +2525,9 @@
       "subtopic": "Animated Classics",
       "question": "Who directed 'The Lion King' (1994)?",
       "options": [
-        "Roger Allers and Rob Minkoff",
         "Ron Clements and John Musker",
         "Glen Keane",
+        "Roger Allers and Rob Minkoff",
         "Andreas Deja"
       ],
       "correct_answer": "Roger Allers and Rob Minkoff",
@@ -2541,9 +2541,9 @@
       "subtopic": "Animated Classics",
       "question": "What is the only Disney Princess with a tattoo?",
       "options": [
-        "Pocahontas",
         "Moana",
         "Mulan",
+        "Pocahontas",
         "None"
       ],
       "correct_answer": "Pocahontas",
@@ -2557,9 +2557,9 @@
       "subtopic": "Animated Classics",
       "question": "Which Disney film features the first Disney Princess to have a duet with a villain?",
       "options": [
-        "Rapunzel (Mother Gothel)",
         "Ariel (Ursula)",
         "Belle (Gaston)",
+        "Rapunzel (Mother Gothel)",
         "None"
       ],
       "correct_answer": "Rapunzel (Mother Gothel)",
@@ -2573,9 +2573,9 @@
       "subtopic": "Animated Classics",
       "question": "What year was 'Frozen' released?",
       "options": [
-        "2013",
         "2012",
         "2014",
+        "2013",
         "2015"
       ],
       "correct_answer": "2013",
@@ -2589,9 +2589,9 @@
       "subtopic": "Animated Classics",
       "question": "Which film holds the record for highest-grossing animated film ever?",
       "options": [
-        "Frozen 2 (before other releases)",
         "The Lion King (2019)",
         "Frozen",
+        "Frozen 2 (before other releases)",
         "Toy Story 4"
       ],
       "correct_answer": "Frozen 2 (before other releases)",
@@ -2605,9 +2605,9 @@
       "subtopic": "Animated Classics",
       "question": "Who voiced Rapunzel in 'Tangled'?",
       "options": [
-        "Mandy Moore",
         "Kristen Bell",
         "Idina Menzel",
+        "Mandy Moore",
         "Auli'i Cravalho"
       ],
       "correct_answer": "Mandy Moore",
@@ -2621,10 +2621,10 @@
       "subtopic": "Animated Classics",
       "question": "Who voiced Flynn Rider in 'Tangled'?",
       "options": [
-        "Zachary Levi",
         "Jonathan Groff",
         "Josh Gad",
-        "Alan Tudyk"
+        "Alan Tudyk",
+        "Zachary Levi"
       ],
       "correct_answer": "Zachary Levi",
       "difficulty": "hard"
@@ -2637,10 +2637,10 @@
       "subtopic": "Animated Classics",
       "question": "What is the only Disney animated film with a G rating in the 2000s?",
       "options": [
-        "Winnie the Pooh (2011)",
         "Frozen",
         "Tangled",
-        "Big Hero 6"
+        "Big Hero 6",
+        "Winnie the Pooh (2011)"
       ],
       "correct_answer": "Winnie the Pooh (2011)",
       "difficulty": "hard"
@@ -2653,10 +2653,10 @@
       "subtopic": "Animated Classics",
       "question": "Which Disney film was the first to use CGI extensively?",
       "options": [
-        "Beauty and the Beast (ballroom)",
         "The Lion King",
         "Aladdin",
-        "Pocahontas"
+        "Pocahontas",
+        "Beauty and the Beast (ballroom)"
       ],
       "correct_answer": "Beauty and the Beast (ballroom)",
       "difficulty": "hard"
@@ -2669,10 +2669,10 @@
       "subtopic": "Characters",
       "question": "Who is Mickey Mouse's pet dog?",
       "options": [
-        "Pluto",
         "Goofy",
         "Donald",
-        "Minnie"
+        "Minnie",
+        "Pluto"
       ],
       "correct_answer": "Pluto",
       "difficulty": "easy"
@@ -2685,10 +2685,10 @@
       "subtopic": "Characters",
       "question": "What color are Mickey Mouse's shorts?",
       "options": [
-        "Red",
         "Yellow",
         "Blue",
-        "Black"
+        "Black",
+        "Red"
       ],
       "correct_answer": "Red",
       "difficulty": "easy"
@@ -2701,10 +2701,10 @@
       "subtopic": "Characters",
       "question": "What is Donald Duck's middle name?",
       "options": [
-        "Fauntleroy",
         "Duck",
         "Donald",
-        "None"
+        "None",
+        "Fauntleroy"
       ],
       "correct_answer": "Fauntleroy",
       "difficulty": "easy"
@@ -2717,10 +2717,10 @@
       "subtopic": "Characters",
       "question": "Who is Donald Duck's girlfriend?",
       "options": [
-        "Daisy Duck",
         "Minnie Mouse",
         "Clarabelle Cow",
-        "None"
+        "None",
+        "Daisy Duck"
       ],
       "correct_answer": "Daisy Duck",
       "difficulty": "easy"
@@ -2733,10 +2733,10 @@
       "subtopic": "Characters",
       "question": "What is Goofy's profession in various shorts?",
       "options": [
-        "Varies (athlete, everyman, etc.)",
         "Farmer",
         "Detective",
-        "Teacher"
+        "Teacher",
+        "Varies (athlete, everyman, etc.)"
       ],
       "correct_answer": "Varies (athlete, everyman, etc.)",
       "difficulty": "easy"
@@ -2749,10 +2749,10 @@
       "subtopic": "Characters",
       "question": "What type of animal is Pete?",
       "options": [
-        "Cat",
         "Dog",
         "Mouse",
-        "Duck"
+        "Duck",
+        "Cat"
       ],
       "correct_answer": "Cat",
       "difficulty": "easy"
@@ -2765,10 +2765,10 @@
       "subtopic": "Characters",
       "question": "Who are Mickey's best friends?",
       "options": [
-        "Donald and Goofy",
         "Minnie and Pluto",
         "Chip and Dale",
-        "Huey, Dewey, and Louie"
+        "Huey, Dewey, and Louie",
+        "Donald and Goofy"
       ],
       "correct_answer": "Donald and Goofy",
       "difficulty": "easy"
@@ -2781,10 +2781,10 @@
       "subtopic": "Characters",
       "question": "What is Scrooge McDuck's defining characteristic?",
       "options": [
-        "Wealthy/loves money",
         "Athletic",
         "Musical",
-        "Magical"
+        "Magical",
+        "Wealthy/loves money"
       ],
       "correct_answer": "Wealthy/loves money",
       "difficulty": "easy"
@@ -2797,10 +2797,10 @@
       "subtopic": "Characters",
       "question": "What does Scrooge McDuck swim in?",
       "options": [
-        "Money/gold coins",
         "Water",
         "Diamonds",
-        "Oil"
+        "Oil",
+        "Money/gold coins"
       ],
       "correct_answer": "Money/gold coins",
       "difficulty": "easy"
@@ -2813,10 +2813,10 @@
       "subtopic": "Characters",
       "question": "Who is Chip and Dale's nemesis?",
       "options": [
-        "Donald Duck",
         "Mickey Mouse",
         "Pete",
-        "Goofy"
+        "Goofy",
+        "Donald Duck"
       ],
       "correct_answer": "Donald Duck",
       "difficulty": "easy"
@@ -2829,10 +2829,10 @@
       "subtopic": "Characters",
       "question": "What animal is Br'er Rabbit?",
       "options": [
-        "Rabbit",
         "Fox",
         "Bear",
-        "Mouse"
+        "Mouse",
+        "Rabbit"
       ],
       "correct_answer": "Rabbit",
       "difficulty": "easy"
@@ -2845,10 +2845,10 @@
       "subtopic": "Characters",
       "question": "Who are the two chipmunks in Disney?",
       "options": [
-        "Chip and Dale",
         "Huey and Dewey",
         "Tom and Jerry",
-        "Ren and Stimpy"
+        "Ren and Stimpy",
+        "Chip and Dale"
       ],
       "correct_answer": "Chip and Dale",
       "difficulty": "easy"
@@ -2861,10 +2861,10 @@
       "subtopic": "Characters",
       "question": "What is Tinker Bell's role?",
       "options": [
-        "Fairy who fixes things",
         "Princess",
         "Villain",
-        "Sidekick"
+        "Sidekick",
+        "Fairy who fixes things"
       ],
       "correct_answer": "Fairy who fixes things",
       "difficulty": "easy"
@@ -2877,10 +2877,10 @@
       "subtopic": "Characters",
       "question": "What color is Tinker Bell's dress?",
       "options": [
-        "Green",
         "Yellow",
         "Blue",
-        "Pink"
+        "Pink",
+        "Green"
       ],
       "correct_answer": "Green",
       "difficulty": "easy"
@@ -2893,10 +2893,10 @@
       "subtopic": "Characters",
       "question": "Who is Peter Pan's fairy companion?",
       "options": [
-        "Tinker Bell",
         "Flora",
         "Fauna",
-        "Merryweather"
+        "Merryweather",
+        "Tinker Bell"
       ],
       "correct_answer": "Tinker Bell",
       "difficulty": "easy"
@@ -2909,10 +2909,10 @@
       "subtopic": "Characters",
       "question": "Who is the villain in 'Peter Pan'?",
       "options": [
-        "Captain Hook",
         "Mr. Smee",
         "Tick-Tock Croc",
-        "Neverland"
+        "Neverland",
+        "Captain Hook"
       ],
       "correct_answer": "Captain Hook",
       "difficulty": "easy"
@@ -2925,10 +2925,10 @@
       "subtopic": "Characters",
       "question": "What animal follows Captain Hook?",
       "options": [
-        "Crocodile",
         "Shark",
         "Octopus",
-        "Whale"
+        "Whale",
+        "Crocodile"
       ],
       "correct_answer": "Crocodile",
       "difficulty": "easy"
@@ -2941,10 +2941,10 @@
       "subtopic": "Characters",
       "question": "Who is Winnie the Pooh's best friend?",
       "options": [
-        "Piglet",
         "Tigger",
         "Eeyore",
-        "Rabbit"
+        "Rabbit",
+        "Piglet"
       ],
       "correct_answer": "Piglet",
       "difficulty": "easy"
@@ -2957,10 +2957,10 @@
       "subtopic": "Characters",
       "question": "What does Winnie the Pooh love to eat?",
       "options": [
-        "Honey",
         "Berries",
         "Fish",
-        "Vegetables"
+        "Vegetables",
+        "Honey"
       ],
       "correct_answer": "Honey",
       "difficulty": "easy"
@@ -2973,10 +2973,10 @@
       "subtopic": "Characters",
       "question": "What is Tigger's catchphrase?",
       "options": [
-        "T-T-F-N (Ta-Ta For Now)",
         "Hoo-hoo-hoo-hoo!",
         "Oh, bother",
-        "None"
+        "None",
+        "T-T-F-N (Ta-Ta For Now)"
       ],
       "correct_answer": "T-T-F-N (Ta-Ta For Now)",
       "difficulty": "easy"
@@ -2989,10 +2989,10 @@
       "subtopic": "Characters",
       "question": "Who is Alice's cat in 'Alice in Wonderland'?",
       "options": [
-        "Dinah",
         "Cheshire",
         "Duchess",
-        "None"
+        "None",
+        "Dinah"
       ],
       "correct_answer": "Dinah",
       "difficulty": "easy"
@@ -3005,10 +3005,10 @@
       "subtopic": "Characters",
       "question": "What animal is the Cheshire Cat?",
       "options": [
-        "Cat",
         "Rabbit",
         "Mouse",
-        "Caterpillar"
+        "Caterpillar",
+        "Cat"
       ],
       "correct_answer": "Cat",
       "difficulty": "easy"
@@ -3021,10 +3021,10 @@
       "subtopic": "Characters",
       "question": "Who says 'Off with their heads!'?",
       "options": [
-        "Queen of Hearts",
         "King of Hearts",
         "Mad Hatter",
-        "Cheshire Cat"
+        "Cheshire Cat",
+        "Queen of Hearts"
       ],
       "correct_answer": "Queen of Hearts",
       "difficulty": "easy"
@@ -3037,10 +3037,10 @@
       "subtopic": "Characters",
       "question": "What is the White Rabbit always worried about?",
       "options": [
-        "Being late",
         "Being early",
         "Getting lost",
-        "Being hungry"
+        "Being hungry",
+        "Being late"
       ],
       "correct_answer": "Being late",
       "difficulty": "easy"
@@ -3069,10 +3069,10 @@
       "subtopic": "Characters",
       "question": "What is Pinocchio's father's name?",
       "options": [
-        "Geppetto",
         "Jiminy",
         "Stromboli",
-        "Honest John"
+        "Honest John",
+        "Geppetto"
       ],
       "correct_answer": "Geppetto",
       "difficulty": "easy"
@@ -3085,10 +3085,10 @@
       "subtopic": "Characters",
       "question": "Who is Pinocchio's conscience?",
       "options": [
-        "Jiminy Cricket",
         "Geppetto",
         "The Blue Fairy",
-        "Figaro"
+        "Figaro",
+        "Jiminy Cricket"
       ],
       "correct_answer": "Jiminy Cricket",
       "difficulty": "easy"
@@ -3101,10 +3101,10 @@
       "subtopic": "Characters",
       "question": "What happens when Pinocchio lies?",
       "options": [
-        "His nose grows",
         "He shrinks",
         "He turns blue",
-        "He cries"
+        "He cries",
+        "His nose grows"
       ],
       "correct_answer": "His nose grows",
       "difficulty": "easy"
@@ -3117,10 +3117,10 @@
       "subtopic": "Characters",
       "question": "When did Mickey Mouse first appear?",
       "options": [
-        "1928 (Steamboat Willie)",
         "1930",
         "1925",
-        "1935"
+        "1935",
+        "1928 (Steamboat Willie)"
       ],
       "correct_answer": "1928 (Steamboat Willie)",
       "difficulty": "medium"
@@ -3133,10 +3133,10 @@
       "subtopic": "Characters",
       "question": "What was Mickey Mouse's original name?",
       "options": [
-        "Mortimer Mouse",
         "Michael Mouse",
         "Martin Mouse",
-        "Maxwell Mouse"
+        "Maxwell Mouse",
+        "Mortimer Mouse"
       ],
       "correct_answer": "Mortimer Mouse",
       "difficulty": "medium"
@@ -3149,10 +3149,10 @@
       "subtopic": "Characters",
       "question": "Who created Mickey Mouse?",
       "options": [
-        "Walt Disney and Ub Iwerks",
         "Walt Disney alone",
         "Ub Iwerks alone",
-        "None"
+        "None",
+        "Walt Disney and Ub Iwerks"
       ],
       "correct_answer": "Walt Disney and Ub Iwerks",
       "difficulty": "medium"
@@ -3165,10 +3165,10 @@
       "subtopic": "Characters",
       "question": "What is Minnie Mouse's full name?",
       "options": [
-        "Minerva Mouse",
         "Minnie Mouse",
         "Wilhelmina Mouse",
-        "Mary Mouse"
+        "Mary Mouse",
+        "Minerva Mouse"
       ],
       "correct_answer": "Minerva Mouse",
       "difficulty": "medium"
@@ -3181,10 +3181,10 @@
       "subtopic": "Characters",
       "question": "What are the names of Donald Duck's nephews?",
       "options": [
-        "Huey, Dewey, and Louie",
         "Larry, Curly, and Moe",
         "Tom, Dick, and Harry",
-        "None"
+        "None",
+        "Huey, Dewey, and Louie"
       ],
       "correct_answer": "Huey, Dewey, and Louie",
       "difficulty": "medium"
@@ -3197,10 +3197,10 @@
       "subtopic": "Characters",
       "question": "Who is the mother of Huey, Dewey, and Louie?",
       "options": [
-        "Della Duck",
         "Daisy Duck",
         "Dumbella Duck",
-        "None"
+        "None",
+        "Della Duck"
       ],
       "correct_answer": "Della Duck",
       "difficulty": "medium"
@@ -3213,10 +3213,10 @@
       "subtopic": "Characters",
       "question": "What is Scrooge McDuck's nephew's name?",
       "options": [
-        "Donald Duck",
         "Ludwig Von Drake",
         "Gladstone Gander",
-        "Fethry Duck"
+        "Fethry Duck",
+        "Donald Duck"
       ],
       "correct_answer": "Donald Duck",
       "difficulty": "medium"
@@ -3229,10 +3229,10 @@
       "subtopic": "Characters",
       "question": "Who is the richest duck in Duckburg?",
       "options": [
-        "Scrooge McDuck",
         "Donald Duck",
         "Gladstone Gander",
-        "Flintheart Glomgold"
+        "Flintheart Glomgold",
+        "Scrooge McDuck"
       ],
       "correct_answer": "Scrooge McDuck",
       "difficulty": "medium"
@@ -3261,10 +3261,10 @@
       "subtopic": "Characters",
       "question": "What group do Chip and Dale belong to in some series?",
       "options": [
-        "Rescue Rangers",
         "Duck Tales",
         "Goof Troop",
-        "None"
+        "None",
+        "Rescue Rangers"
       ],
       "correct_answer": "Rescue Rangers",
       "difficulty": "medium"
@@ -3277,10 +3277,10 @@
       "subtopic": "Characters",
       "question": "What is unique about Dumbo?",
       "options": [
-        "He can fly with his ears",
         "He talks",
         "He's invisible",
-        "He's magical"
+        "He's magical",
+        "He can fly with his ears"
       ],
       "correct_answer": "He can fly with his ears",
       "difficulty": "medium"
@@ -3293,10 +3293,10 @@
       "subtopic": "Characters",
       "question": "What is Dumbo's real name?",
       "options": [
-        "Jumbo Jr.",
         "Dumbo",
         "Timothy",
-        "None"
+        "None",
+        "Jumbo Jr."
       ],
       "correct_answer": "Jumbo Jr.",
       "difficulty": "medium"
@@ -3309,10 +3309,10 @@
       "subtopic": "Characters",
       "question": "What animal is Timothy in 'Dumbo'?",
       "options": [
-        "Mouse",
         "Elephant",
         "Bird",
-        "Crow"
+        "Crow",
+        "Mouse"
       ],
       "correct_answer": "Mouse",
       "difficulty": "medium"
@@ -3325,10 +3325,10 @@
       "subtopic": "Characters",
       "question": "What is Stitch's primary function?",
       "options": [
-        "Destroy/cause chaos",
         "Make friends",
         "Cook",
-        "Dance"
+        "Dance",
+        "Destroy/cause chaos"
       ],
       "correct_answer": "Destroy/cause chaos",
       "difficulty": "medium"
@@ -3341,10 +3341,10 @@
       "subtopic": "Characters",
       "question": "Who created Stitch?",
       "options": [
-        "Dr. Jumba Jookiba",
-        "Dr. H\u00e4msterviel",
+        "Dr. Hämsterviel",
         "Grand Councilwoman",
-        "None"
+        "None",
+        "Dr. Jumba Jookiba"
       ],
       "correct_answer": "Dr. Jumba Jookiba",
       "difficulty": "medium"
@@ -3357,10 +3357,10 @@
       "subtopic": "Characters",
       "question": "What is special about Figaro (Pinocchio's cat)?",
       "options": [
-        "He's Geppetto's pet",
         "He talks",
         "He's magical",
-        "He grants wishes"
+        "He grants wishes",
+        "He's Geppetto's pet"
       ],
       "correct_answer": "He's Geppetto's pet",
       "difficulty": "medium"
@@ -3373,10 +3373,10 @@
       "subtopic": "Characters",
       "question": "Who turned Pinocchio into a real boy?",
       "options": [
-        "The Blue Fairy",
         "Geppetto",
         "Jiminy Cricket",
-        "Stromboli"
+        "Stromboli",
+        "The Blue Fairy"
       ],
       "correct_answer": "The Blue Fairy",
       "difficulty": "medium"
@@ -3389,10 +3389,10 @@
       "subtopic": "Characters",
       "question": "What is the Blue Fairy's role?",
       "options": [
-        "Grants wishes/brings Pinocchio to life",
         "Pinocchio's mother",
         "A villain",
-        "A teacher"
+        "A teacher",
+        "Grants wishes/brings Pinocchio to life"
       ],
       "correct_answer": "Grants wishes/brings Pinocchio to life",
       "difficulty": "medium"
@@ -3405,10 +3405,10 @@
       "subtopic": "Characters",
       "question": "Who is the villain who captures Pinocchio?",
       "options": [
-        "Stromboli",
         "Honest John",
         "Lampwick",
-        "The Coachman"
+        "The Coachman",
+        "Stromboli"
       ],
       "correct_answer": "Stromboli",
       "difficulty": "medium"
@@ -3421,10 +3421,10 @@
       "subtopic": "Characters",
       "question": "Where does Pinocchio get swallowed?",
       "options": [
-        "Inside Monstro the whale",
         "Inside a shark",
         "In the ocean",
-        "None"
+        "None",
+        "Inside Monstro the whale"
       ],
       "correct_answer": "Inside Monstro the whale",
       "difficulty": "medium"
@@ -3437,10 +3437,10 @@
       "subtopic": "Characters",
       "question": "Who are Alice's companions in Wonderland?",
       "options": [
-        "White Rabbit, Cheshire Cat, Mad Hatter, etc.",
         "Only Cheshire Cat",
         "Only White Rabbit",
-        "None"
+        "None",
+        "White Rabbit, Cheshire Cat, Mad Hatter, etc."
       ],
       "correct_answer": "White Rabbit, Cheshire Cat, Mad Hatter, etc.",
       "difficulty": "medium"
@@ -3453,10 +3453,10 @@
       "subtopic": "Characters",
       "question": "What is the Mad Hatter's riddle?",
       "options": [
-        "Why is a raven like a writing desk?",
         "What is the meaning of life?",
         "Why is the sky blue?",
-        "None"
+        "None",
+        "Why is a raven like a writing desk?"
       ],
       "correct_answer": "Why is a raven like a writing desk?",
       "difficulty": "medium"
@@ -3469,10 +3469,10 @@
       "subtopic": "Characters",
       "question": "Who is the Caterpillar in 'Alice in Wonderland'?",
       "options": [
-        "Smoking caterpillar who asks 'Who are you?'",
         "Alice's friend",
         "The villain",
-        "A pet"
+        "A pet",
+        "Smoking caterpillar who asks 'Who are you?'"
       ],
       "correct_answer": "Smoking caterpillar who asks 'Who are you?'",
       "difficulty": "medium"
@@ -3485,10 +3485,10 @@
       "subtopic": "Characters",
       "question": "What do Tweedledee and Tweedledum do?",
       "options": [
-        "Tell Alice the Walrus and Carpenter story",
         "Fight each other",
         "Help the Queen",
-        "Drink tea"
+        "Drink tea",
+        "Tell Alice the Walrus and Carpenter story"
       ],
       "correct_answer": "Tell Alice the Walrus and Carpenter story",
       "difficulty": "medium"
@@ -3501,10 +3501,10 @@
       "subtopic": "Characters",
       "question": "Who is Winnie the Pooh's human friend?",
       "options": [
-        "Christopher Robin",
         "Roo",
         "Owl",
-        "Rabbit"
+        "Rabbit",
+        "Christopher Robin"
       ],
       "correct_answer": "Christopher Robin",
       "difficulty": "medium"
@@ -3517,10 +3517,10 @@
       "subtopic": "Characters",
       "question": "What is Eeyore always losing?",
       "options": [
-        "His tail",
         "His house",
         "His honey",
-        "His friends"
+        "His friends",
+        "His tail"
       ],
       "correct_answer": "His tail",
       "difficulty": "medium"
@@ -3533,10 +3533,10 @@
       "subtopic": "Characters",
       "question": "Who is Kanga's son?",
       "options": [
-        "Roo",
         "Tigger",
         "Piglet",
-        "Owl"
+        "Owl",
+        "Roo"
       ],
       "correct_answer": "Roo",
       "difficulty": "medium"
@@ -3549,10 +3549,10 @@
       "subtopic": "Characters",
       "question": "What is Rabbit's personality trait?",
       "options": [
-        "Organized/bossy",
         "Energetic",
         "Sad",
-        "Hungry"
+        "Hungry",
+        "Organized/bossy"
       ],
       "correct_answer": "Organized/bossy",
       "difficulty": "medium"
@@ -3565,10 +3565,10 @@
       "subtopic": "Characters",
       "question": "What does Owl claim to be good at?",
       "options": [
-        "Spelling and knowledge",
         "Flying",
         "Singing",
-        "Cooking"
+        "Cooking",
+        "Spelling and knowledge"
       ],
       "correct_answer": "Spelling and knowledge",
       "difficulty": "medium"
@@ -3581,10 +3581,10 @@
       "subtopic": "Characters",
       "question": "What animal is Br'er Fox?",
       "options": [
-        "Fox",
         "Rabbit",
         "Bear",
-        "Wolf"
+        "Wolf",
+        "Fox"
       ],
       "correct_answer": "Fox",
       "difficulty": "medium"
@@ -3597,10 +3597,10 @@
       "subtopic": "Characters",
       "question": "Who is Br'er Rabbit's other enemy?",
       "options": [
-        "Br'er Bear",
         "Br'er Fox only",
         "Br'er Wolf",
-        "None"
+        "None",
+        "Br'er Bear"
       ],
       "correct_answer": "Br'er Bear",
       "difficulty": "medium"
@@ -3613,10 +3613,10 @@
       "subtopic": "Characters",
       "question": "What was the first cartoon to feature sound?",
       "options": [
-        "Steamboat Willie",
         "Plane Crazy",
         "The Gallopin' Gaucho",
-        "Fantasia"
+        "Fantasia",
+        "Steamboat Willie"
       ],
       "correct_answer": "Steamboat Willie",
       "difficulty": "hard"
@@ -3629,10 +3629,10 @@
       "subtopic": "Characters",
       "question": "What was the original voice actor for Mickey Mouse?",
       "options": [
-        "Walt Disney",
         "Jim Cummings",
         "Wayne Allwine",
-        "Bret Iwan"
+        "Bret Iwan",
+        "Walt Disney"
       ],
       "correct_answer": "Walt Disney",
       "difficulty": "hard"
@@ -3645,10 +3645,10 @@
       "subtopic": "Characters",
       "question": "Who voices Mickey Mouse today (2020s)?",
       "options": [
-        "Bret Iwan",
         "Chris Diamantopoulos (some media)",
         "Wayne Allwine",
-        "Walt Disney"
+        "Walt Disney",
+        "Bret Iwan"
       ],
       "correct_answer": "Bret Iwan",
       "difficulty": "hard"
@@ -3661,10 +3661,10 @@
       "subtopic": "Characters",
       "question": "Who voices Minnie Mouse currently?",
       "options": [
-        "Kaitlyn Robrock",
         "Russi Taylor",
         "Tress MacNeille",
-        "April Winchell"
+        "April Winchell",
+        "Kaitlyn Robrock"
       ],
       "correct_answer": "Kaitlyn Robrock",
       "difficulty": "hard"
@@ -3677,10 +3677,10 @@
       "subtopic": "Characters",
       "question": "Who was the long-time voice of Minnie Mouse (1986-2019)?",
       "options": [
-        "Russi Taylor",
         "Kaitlyn Robrock",
         "Tress MacNeille",
-        "None"
+        "None",
+        "Russi Taylor"
       ],
       "correct_answer": "Russi Taylor",
       "difficulty": "hard"
@@ -3693,10 +3693,10 @@
       "subtopic": "Characters",
       "question": "What Disney character appeared in the most films?",
       "options": [
-        "Donald Duck",
         "Mickey Mouse",
         "Goofy",
-        "Pluto"
+        "Pluto",
+        "Donald Duck"
       ],
       "correct_answer": "Donald Duck",
       "difficulty": "hard"
@@ -3709,10 +3709,10 @@
       "subtopic": "Characters",
       "question": "Who is the original voice of Winnie the Pooh?",
       "options": [
-        "Sterling Holloway",
         "Jim Cummings",
         "Hal Smith",
-        "Paul Winchell"
+        "Paul Winchell",
+        "Sterling Holloway"
       ],
       "correct_answer": "Sterling Holloway",
       "difficulty": "hard"
@@ -3725,10 +3725,10 @@
       "subtopic": "Characters",
       "question": "Who voices Winnie the Pooh currently?",
       "options": [
-        "Jim Cummings",
         "Sterling Holloway",
         "Bud Luckey",
-        "None"
+        "None",
+        "Jim Cummings"
       ],
       "correct_answer": "Jim Cummings",
       "difficulty": "hard"
@@ -3741,10 +3741,10 @@
       "subtopic": "Characters",
       "question": "What year did Oswald the Lucky Rabbit debut?",
       "options": [
-        "1927",
         "1928",
         "1930",
-        "1925"
+        "1925",
+        "1927"
       ],
       "correct_answer": "1927",
       "difficulty": "hard"
@@ -3757,10 +3757,10 @@
       "subtopic": "Characters",
       "question": "What happened to Oswald the Lucky Rabbit rights?",
       "options": [
-        "Disney lost them, later reacquired",
         "Always owned by Disney",
         "Still not owned by Disney",
-        "None"
+        "None",
+        "Disney lost them, later reacquired"
       ],
       "correct_answer": "Disney lost them, later reacquired",
       "difficulty": "hard"
@@ -3773,10 +3773,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'A Dream Is a Wish Your Heart Makes'?",
       "options": [
-        "Cinderella",
         "Sleeping Beauty",
         "Snow White",
-        "Beauty and the Beast"
+        "Beauty and the Beast",
+        "Cinderella"
       ],
       "correct_answer": "Cinderella",
       "difficulty": "easy"
@@ -3789,10 +3789,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Someday My Prince Will Come'?",
       "options": [
-        "Snow White",
         "Cinderella",
         "Sleeping Beauty",
-        "The Little Mermaid"
+        "The Little Mermaid",
+        "Snow White"
       ],
       "correct_answer": "Snow White",
       "difficulty": "easy"
@@ -3805,10 +3805,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'When You Wish Upon a Star'?",
       "options": [
-        "Pinocchio",
         "Cinderella",
         "Peter Pan",
-        "Dumbo"
+        "Dumbo",
+        "Pinocchio"
       ],
       "correct_answer": "Pinocchio",
       "difficulty": "easy"
@@ -3821,10 +3821,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'I Wanna Be Like You'?",
       "options": [
-        "The Jungle Book",
         "The Lion King",
         "Tarzan",
-        "Brother Bear"
+        "Brother Bear",
+        "The Jungle Book"
       ],
       "correct_answer": "The Jungle Book",
       "difficulty": "easy"
@@ -3837,10 +3837,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'The Bare Necessities'?",
       "options": [
-        "The Jungle Book",
         "The Lion King",
         "Robin Hood",
-        "Brother Bear"
+        "Brother Bear",
+        "The Jungle Book"
       ],
       "correct_answer": "The Jungle Book",
       "difficulty": "easy"
@@ -3853,10 +3853,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'A Whole New World'?",
       "options": [
-        "Aladdin",
         "The Little Mermaid",
         "Beauty and the Beast",
-        "Pocahontas"
+        "Pocahontas",
+        "Aladdin"
       ],
       "correct_answer": "Aladdin",
       "difficulty": "easy"
@@ -3869,10 +3869,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Colors of the Wind'?",
       "options": [
-        "Pocahontas",
         "The Lion King",
         "Mulan",
-        "Moana"
+        "Moana",
+        "Pocahontas"
       ],
       "correct_answer": "Pocahontas",
       "difficulty": "easy"
@@ -3885,10 +3885,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Reflection'?",
       "options": [
-        "Mulan",
         "Pocahontas",
         "Moana",
-        "Brave"
+        "Brave",
+        "Mulan"
       ],
       "correct_answer": "Mulan",
       "difficulty": "easy"
@@ -3901,10 +3901,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'I'll Make a Man Out of You'?",
       "options": [
-        "Mulan",
         "Hercules",
         "Tarzan",
-        "Aladdin"
+        "Aladdin",
+        "Mulan"
       ],
       "correct_answer": "Mulan",
       "difficulty": "easy"
@@ -3917,10 +3917,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Go the Distance'?",
       "options": [
-        "Hercules",
         "Tarzan",
         "The Hunchback of Notre Dame",
-        "Mulan"
+        "Mulan",
+        "Hercules"
       ],
       "correct_answer": "Hercules",
       "difficulty": "easy"
@@ -3933,10 +3933,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Two Worlds'?",
       "options": [
-        "Tarzan",
         "The Lion King",
         "Brother Bear",
-        "The Jungle Book"
+        "The Jungle Book",
+        "Tarzan"
       ],
       "correct_answer": "Tarzan",
       "difficulty": "easy"
@@ -3949,10 +3949,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'You'll Be in My Heart'?",
       "options": [
-        "Tarzan",
         "The Lion King",
         "Pocahontas",
-        "Mulan"
+        "Mulan",
+        "Tarzan"
       ],
       "correct_answer": "Tarzan",
       "difficulty": "easy"
@@ -3965,10 +3965,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'God Help the Outcasts'?",
       "options": [
-        "The Hunchback of Notre Dame",
         "Beauty and the Beast",
         "Pocahontas",
-        "Mulan"
+        "Mulan",
+        "The Hunchback of Notre Dame"
       ],
       "correct_answer": "The Hunchback of Notre Dame",
       "difficulty": "easy"
@@ -3981,10 +3981,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'I See the Light'?",
       "options": [
-        "Tangled",
         "Frozen",
         "Moana",
-        "Brave"
+        "Brave",
+        "Tangled"
       ],
       "correct_answer": "Tangled",
       "difficulty": "easy"
@@ -3997,10 +3997,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Mother Knows Best'?",
       "options": [
-        "Tangled",
         "Brave",
         "Frozen",
-        "Moana"
+        "Moana",
+        "Tangled"
       ],
       "correct_answer": "Tangled",
       "difficulty": "easy"
@@ -4013,10 +4013,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Do You Want to Build a Snowman?'?",
       "options": [
-        "Frozen",
         "Tangled",
         "Brave",
-        "Moana"
+        "Moana",
+        "Frozen"
       ],
       "correct_answer": "Frozen",
       "difficulty": "easy"
@@ -4029,10 +4029,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'For the First Time in Forever'?",
       "options": [
-        "Frozen",
         "Tangled",
         "Moana",
-        "Brave"
+        "Brave",
+        "Frozen"
       ],
       "correct_answer": "Frozen",
       "difficulty": "easy"
@@ -4045,10 +4045,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Love Is an Open Door'?",
       "options": [
-        "Frozen",
         "Tangled",
         "Enchanted",
-        "Moana"
+        "Moana",
+        "Frozen"
       ],
       "correct_answer": "Frozen",
       "difficulty": "easy"
@@ -4061,10 +4061,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Into the Unknown'?",
       "options": [
-        "Frozen 2",
         "Frozen",
         "Moana",
-        "Raya"
+        "Raya",
+        "Frozen 2"
       ],
       "correct_answer": "Frozen 2",
       "difficulty": "easy"
@@ -4077,10 +4077,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Show Yourself'?",
       "options": [
-        "Frozen 2",
         "Frozen",
         "Tangled",
-        "Moana"
+        "Moana",
+        "Frozen 2"
       ],
       "correct_answer": "Frozen 2",
       "difficulty": "easy"
@@ -4093,10 +4093,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Surface Pressure'?",
       "options": [
-        "Encanto",
         "Moana",
         "Frozen 2",
-        "Raya"
+        "Raya",
+        "Encanto"
       ],
       "correct_answer": "Encanto",
       "difficulty": "easy"
@@ -4109,10 +4109,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'What Else Can I Do?'?",
       "options": [
-        "Encanto",
         "Moana",
         "Frozen",
-        "Tangled"
+        "Tangled",
+        "Encanto"
       ],
       "correct_answer": "Encanto",
       "difficulty": "easy"
@@ -4125,10 +4125,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Dos Oruguitas'?",
       "options": [
-        "Encanto",
         "Coco",
         "Moana",
-        "Raya"
+        "Raya",
+        "Encanto"
       ],
       "correct_answer": "Encanto",
       "difficulty": "easy"
@@ -4141,10 +4141,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Remember Me'?",
       "options": [
-        "Coco",
         "Encanto",
         "Moana",
-        "Frozen"
+        "Frozen",
+        "Coco"
       ],
       "correct_answer": "Coco",
       "difficulty": "easy"
@@ -4157,10 +4157,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Un Poco Loco'?",
       "options": [
-        "Coco",
         "Encanto",
         "The Three Caballeros",
-        "Saludos Amigos"
+        "Saludos Amigos",
+        "Coco"
       ],
       "correct_answer": "Coco",
       "difficulty": "easy"
@@ -4173,10 +4173,10 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Touch the Sky'?",
       "options": [
-        "Brave",
         "Tangled",
         "Frozen",
-        "Moana"
+        "Moana",
+        "Brave"
       ],
       "correct_answer": "Brave",
       "difficulty": "easy"
@@ -4189,10 +4189,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'The Little Mermaid'?",
       "options": [
-        "Alan Menken",
         "Elton John",
         "Phil Collins",
-        "Hans Zimmer"
+        "Hans Zimmer",
+        "Alan Menken"
       ],
       "correct_answer": "Alan Menken",
       "difficulty": "medium"
@@ -4205,10 +4205,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Beauty and the Beast'?",
       "options": [
-        "Alan Menken",
         "Elton John",
         "Hans Zimmer",
-        "Randy Newman"
+        "Randy Newman",
+        "Alan Menken"
       ],
       "correct_answer": "Alan Menken",
       "difficulty": "medium"
@@ -4221,10 +4221,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Aladdin'?",
       "options": [
-        "Alan Menken",
         "Elton John",
         "Phil Collins",
-        "Hans Zimmer"
+        "Hans Zimmer",
+        "Alan Menken"
       ],
       "correct_answer": "Alan Menken",
       "difficulty": "medium"
@@ -4237,10 +4237,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Pocahontas'?",
       "options": [
-        "Alan Menken",
         "Elton John",
         "Phil Collins",
-        "Hans Zimmer"
+        "Hans Zimmer",
+        "Alan Menken"
       ],
       "correct_answer": "Alan Menken",
       "difficulty": "medium"
@@ -4253,10 +4253,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'The Lion King' (1994)?",
       "options": [
-        "Elton John (songs) and Hans Zimmer (score)",
         "Alan Menken",
         "Phil Collins",
-        "Randy Newman"
+        "Randy Newman",
+        "Elton John (songs) and Hans Zimmer (score)"
       ],
       "correct_answer": "Elton John (songs) and Hans Zimmer (score)",
       "difficulty": "medium"
@@ -4269,10 +4269,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Tarzan'?",
       "options": [
-        "Phil Collins",
         "Elton John",
         "Alan Menken",
-        "Randy Newman"
+        "Randy Newman",
+        "Phil Collins"
       ],
       "correct_answer": "Phil Collins",
       "difficulty": "medium"
@@ -4285,10 +4285,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Mulan'?",
       "options": [
-        "Matthew Wilder and David Zippel",
         "Alan Menken",
         "Elton John",
-        "Phil Collins"
+        "Phil Collins",
+        "Matthew Wilder and David Zippel"
       ],
       "correct_answer": "Matthew Wilder and David Zippel",
       "difficulty": "medium"
@@ -4301,10 +4301,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Tangled'?",
       "options": [
-        "Alan Menken",
         "Kristen Anderson-Lopez and Robert Lopez",
         "Elton John",
-        "Phil Collins"
+        "Phil Collins",
+        "Alan Menken"
       ],
       "correct_answer": "Alan Menken",
       "difficulty": "medium"
@@ -4317,10 +4317,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Frozen'?",
       "options": [
-        "Kristen Anderson-Lopez and Robert Lopez",
         "Alan Menken",
         "Lin-Manuel Miranda",
-        "Phil Collins"
+        "Phil Collins",
+        "Kristen Anderson-Lopez and Robert Lopez"
       ],
       "correct_answer": "Kristen Anderson-Lopez and Robert Lopez",
       "difficulty": "medium"
@@ -4333,10 +4333,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Moana'?",
       "options": [
-        "Lin-Manuel Miranda (songs) and Mark Mancina (score)",
         "Alan Menken",
         "Elton John",
-        "Phil Collins"
+        "Phil Collins",
+        "Lin-Manuel Miranda (songs) and Mark Mancina (score)"
       ],
       "correct_answer": "Lin-Manuel Miranda (songs) and Mark Mancina (score)",
       "difficulty": "medium"
@@ -4349,10 +4349,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Encanto'?",
       "options": [
-        "Lin-Manuel Miranda",
         "Alan Menken",
         "Kristen Anderson-Lopez and Robert Lopez",
-        "Elton John"
+        "Elton John",
+        "Lin-Manuel Miranda"
       ],
       "correct_answer": "Lin-Manuel Miranda",
       "difficulty": "medium"
@@ -4365,10 +4365,10 @@
       "subtopic": "Songs",
       "question": "Who wrote the music for 'Coco'?",
       "options": [
-        "Kristen Anderson-Lopez, Robert Lopez, and Germaine Franco",
         "Lin-Manuel Miranda",
         "Alan Menken",
-        "Randy Newman"
+        "Randy Newman",
+        "Kristen Anderson-Lopez, Robert Lopez, and Germaine Franco"
       ],
       "correct_answer": "Kristen Anderson-Lopez, Robert Lopez, and Germaine Franco",
       "difficulty": "medium"
@@ -4381,10 +4381,10 @@
       "subtopic": "Songs",
       "question": "What song from 'The Little Mermaid' won an Oscar?",
       "options": [
-        "Under the Sea",
         "Part of Your World",
         "Kiss the Girl",
-        "Poor Unfortunate Souls"
+        "Poor Unfortunate Souls",
+        "Under the Sea"
       ],
       "correct_answer": "Under the Sea",
       "difficulty": "medium"
@@ -4397,10 +4397,10 @@
       "subtopic": "Songs",
       "question": "What song from 'Beauty and the Beast' won an Oscar?",
       "options": [
-        "Beauty and the Beast (title song)",
         "Be Our Guest",
         "Belle",
-        "Gaston"
+        "Gaston",
+        "Beauty and the Beast (title song)"
       ],
       "correct_answer": "Beauty and the Beast (title song)",
       "difficulty": "medium"
@@ -4413,10 +4413,10 @@
       "subtopic": "Songs",
       "question": "What song from 'Aladdin' won an Oscar?",
       "options": [
-        "A Whole New World",
         "Friend Like Me",
         "Arabian Nights",
-        "Prince Ali"
+        "Prince Ali",
+        "A Whole New World"
       ],
       "correct_answer": "A Whole New World",
       "difficulty": "medium"
@@ -4464,7 +4464,7 @@
         "Remember Me",
         "Un Poco Loco",
         "The World Es Mi Familia",
-        "Proud Coraz\u00f3n"
+        "Proud Corazón"
       ],
       "correct_answer": "Remember Me",
       "difficulty": "medium"
@@ -4848,7 +4848,7 @@
         "Keira Knightley",
         "Orlando Bloom",
         "Johnny Depp",
-        "Pen\u00e9lope Cruz"
+        "Penélope Cruz"
       ],
       "correct_answer": "Keira Knightley",
       "difficulty": "easy"
@@ -5168,7 +5168,7 @@
         "Paul Rudd",
         "Michael Douglas",
         "Evangeline Lilly",
-        "Michael Pe\u00f1a"
+        "Michael Peña"
       ],
       "correct_answer": "Paul Rudd",
       "difficulty": "hard"
@@ -6253,8 +6253,8 @@
       "subtopic": "Animated Classics",
       "question": "What year was 'The Princess and the Frog' released?",
       "options": [
-        "2009",
         "2010",
+        "2009",
         "2008",
         "2011"
       ],
@@ -6269,8 +6269,8 @@
       "subtopic": "Animated Classics",
       "question": "What city is 'The Princess and the Frog' set in?",
       "options": [
-        "New Orleans",
         "Los Angeles",
+        "New Orleans",
         "New York",
         "Atlanta"
       ],
@@ -6285,8 +6285,8 @@
       "subtopic": "Animated Classics",
       "question": "Who is Prince Naveen's valet in 'The Princess and the Frog'?",
       "options": [
-        "Lawrence",
         "Dr. Facilier",
+        "Lawrence",
         "Louis",
         "Ray"
       ],
@@ -6301,8 +6301,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the voodoo priestess in 'The Princess and the Frog'?",
       "options": [
-        "Mama Odie",
         "Dr. Facilier",
+        "Mama Odie",
         "Charlotte",
         "Tiana"
       ],
@@ -6317,8 +6317,8 @@
       "subtopic": "Animated Classics",
       "question": "In 'Tangled', how long is Rapunzel's hair?",
       "options": [
-        "70 feet",
         "50 feet",
+        "70 feet",
         "100 feet",
         "30 feet"
       ],
@@ -6333,8 +6333,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the kingdom in 'Tangled'?",
       "options": [
-        "Corona",
         "Arendelle",
+        "Corona",
         "DunBroch",
         "Agrabah"
       ],
@@ -6349,8 +6349,8 @@
       "subtopic": "Animated Classics",
       "question": "In 'Frozen', what is the name of the trading post owner?",
       "options": [
-        "Oaken",
         "Kristoff",
+        "Oaken",
         "Hans",
         "The Duke"
       ],
@@ -6365,8 +6365,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the snow monster in 'Frozen'?",
       "options": [
-        "Marshmallow",
         "Olaf",
+        "Marshmallow",
         "Sven",
         "Elsa"
       ],
@@ -6379,10 +6379,10 @@
       "subcategory": "Animation",
       "topic": "Disney",
       "subtopic": "Animated Classics",
-      "question": "In 'Moana', what is Te K\u0101?",
+      "question": "In 'Moana', what is Te Kā?",
       "options": [
-        "Te Fiti corrupted by losing her heart",
         "A separate villain",
+        "Te Fiti corrupted by losing her heart",
         "The ocean",
         "Maui's enemy"
       ],
@@ -6397,8 +6397,8 @@
       "subtopic": "Animated Classics",
       "question": "What is Maui's hook made of?",
       "options": [
-        "Unknown magical material",
         "Gold",
+        "Unknown magical material",
         "Bone",
         "Wood"
       ],
@@ -6413,8 +6413,8 @@
       "subtopic": "Animated Classics",
       "question": "Who directed 'The Princess and the Frog'?",
       "options": [
-        "Ron Clements and John Musker",
         "Chris Buck and Jennifer Lee",
+        "Ron Clements and John Musker",
         "Byron Howard and Rich Moore",
         "Don Hall and Chris Williams"
       ],
@@ -6429,8 +6429,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the pub in 'Tangled'?",
       "options": [
-        "The Snuggly Duckling",
         "The Prancing Pony",
+        "The Snuggly Duckling",
         "The Leaky Cauldron",
         "The Three Broomsticks"
       ],
@@ -6445,8 +6445,8 @@
       "subtopic": "Animated Classics",
       "question": "Who voices Chief Bogo in 'Zootopia'?",
       "options": [
-        "Idris Elba",
         "J.K. Simmons",
+        "Idris Elba",
         "Alan Tudyk",
         "Nate Torrence"
       ],
@@ -6461,8 +6461,8 @@
       "subtopic": "Animated Classics",
       "question": "What is Nick Wilde's middle name?",
       "options": [
-        "Piberius (P.)",
         "Patrick",
+        "Piberius (P.)",
         "Philip",
         "None"
       ],
@@ -6477,8 +6477,8 @@
       "subtopic": "Characters",
       "question": "What is Daisy Duck's signature color?",
       "options": [
-        "Pink/Purple",
         "Blue",
+        "Pink/Purple",
         "Yellow",
         "Red"
       ],
@@ -6493,8 +6493,8 @@
       "subtopic": "Characters",
       "question": "Who is Clarabelle Cow's boyfriend?",
       "options": [
-        "Horace Horsecollar",
         "Goofy",
+        "Horace Horsecollar",
         "Pete",
         "Mickey"
       ],
@@ -6509,8 +6509,8 @@
       "subtopic": "Characters",
       "question": "What instrument does Donald Duck often play?",
       "options": [
-        "Various (often causes trouble)",
         "Piano",
+        "Various (often causes trouble)",
         "Guitar",
         "Drums"
       ],
@@ -6525,8 +6525,8 @@
       "subtopic": "Characters",
       "question": "What is the name of Goofy's girlfriend?",
       "options": [
-        "Mrs. Donner/Clarabelle (varies)",
         "Minnie",
+        "Mrs. Donner/Clarabelle (varies)",
         "Daisy",
         "None consistent"
       ],
@@ -6541,8 +6541,8 @@
       "subtopic": "Characters",
       "question": "What type of animal is Clarabelle?",
       "options": [
-        "Cow",
         "Dog",
+        "Cow",
         "Cat",
         "Horse"
       ],
@@ -6557,8 +6557,8 @@
       "subtopic": "Characters",
       "question": "What type of animal is Horace Horsecollar?",
       "options": [
-        "Horse",
         "Cow",
+        "Horse",
         "Dog",
         "Donkey"
       ],
@@ -6573,8 +6573,8 @@
       "subtopic": "Characters",
       "question": "Who is the tallest of Mickey's friends?",
       "options": [
-        "Goofy",
         "Donald",
+        "Goofy",
         "Pete",
         "Pluto"
       ],
@@ -6589,8 +6589,8 @@
       "subtopic": "Characters",
       "question": "What color is Goofy's vest?",
       "options": [
-        "Orange/red",
         "Blue",
+        "Orange/red",
         "Green",
         "Yellow"
       ],
@@ -6605,8 +6605,8 @@
       "subtopic": "Characters",
       "question": "What is Pete's full name?",
       "options": [
-        "Peg-Leg Pete/Black Pete",
         "Peter Cat",
+        "Peg-Leg Pete/Black Pete",
         "Pete the Cat",
         "Big Pete"
       ],
@@ -6621,8 +6621,8 @@
       "subtopic": "Characters",
       "question": "What is the name of Pete's wife in 'Goof Troop'?",
       "options": [
-        "Peg",
         "Daisy",
+        "Peg",
         "Minnie",
         "Clarabelle"
       ],
@@ -6637,8 +6637,8 @@
       "subtopic": "Characters",
       "question": "What is the name of Pete's son?",
       "options": [
-        "P.J.",
         "Max",
+        "P.J.",
         "Goofy Jr.",
         "Bobby"
       ],
@@ -6653,8 +6653,8 @@
       "subtopic": "Characters",
       "question": "What year did Goofy first appear?",
       "options": [
-        "1932",
         "1928",
+        "1932",
         "1930",
         "1935"
       ],
@@ -6669,8 +6669,8 @@
       "subtopic": "Characters",
       "question": "What was Goofy originally called?",
       "options": [
-        "Dippy Dawg",
         "Goofy Goof",
+        "Dippy Dawg",
         "Silly Dog",
         "Happy Hound"
       ],
@@ -6685,8 +6685,8 @@
       "subtopic": "Characters",
       "question": "What is unique about Ludwig Von Drake?",
       "options": [
-        "Donald's uncle, scientist",
         "Donald's father",
+        "Donald's uncle, scientist",
         "Mickey's friend",
         "Goofy's cousin"
       ],
@@ -6701,8 +6701,8 @@
       "subtopic": "Characters",
       "question": "Who is Gladstone Gander?",
       "options": [
-        "Donald's lucky cousin",
         "Donald's uncle",
+        "Donald's lucky cousin",
         "Scrooge's rival",
         "Daisy's brother"
       ],
@@ -6717,8 +6717,8 @@
       "subtopic": "Characters",
       "question": "What is the name of Minnie's cat?",
       "options": [
-        "Figaro",
         "Pluto",
+        "Figaro",
         "Felix",
         "Garfield"
       ],
@@ -6733,8 +6733,8 @@
       "subtopic": "Characters",
       "question": "What year did Donald Duck first appear?",
       "options": [
-        "1934",
         "1928",
+        "1934",
         "1930",
         "1940"
       ],
@@ -6749,8 +6749,8 @@
       "subtopic": "Characters",
       "question": "Who was the original voice of Donald Duck?",
       "options": [
-        "Clarence Nash",
         "Walt Disney",
+        "Clarence Nash",
         "Tony Anselmo",
         "Bill Farmer"
       ],
@@ -6765,8 +6765,8 @@
       "subtopic": "Characters",
       "question": "Who voices Donald Duck currently?",
       "options": [
-        "Tony Anselmo",
         "Clarence Nash",
+        "Tony Anselmo",
         "Bill Farmer",
         "None"
       ],
@@ -6781,8 +6781,8 @@
       "subtopic": "Characters",
       "question": "Who voices Goofy currently?",
       "options": [
-        "Bill Farmer",
         "Tony Anselmo",
+        "Bill Farmer",
         "Jim Cummings",
         "Bret Iwan"
       ],
@@ -6797,8 +6797,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Almost There'?",
       "options": [
-        "The Princess and the Frog",
         "Tangled",
+        "The Princess and the Frog",
         "Frozen",
         "Moana"
       ],
@@ -6813,8 +6813,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Down in New Orleans'?",
       "options": [
-        "The Princess and the Frog",
         "The Aristocats",
+        "The Princess and the Frog",
         "Lady and the Tramp",
         "101 Dalmatians"
       ],
@@ -6829,8 +6829,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'When Will My Life Begin'?",
       "options": [
-        "Tangled",
         "Frozen",
+        "Tangled",
         "Moana",
         "Brave"
       ],
@@ -6845,8 +6845,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Try Everything'?",
       "options": [
-        "Zootopia",
         "Moana",
+        "Zootopia",
         "Frozen 2",
         "Ralph Breaks the Internet"
       ],
@@ -6861,8 +6861,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Shiny'?",
       "options": [
-        "Moana",
         "Frozen",
+        "Moana",
         "Zootopia",
         "Coco"
       ],
@@ -6877,12 +6877,12 @@
       "subtopic": "Songs",
       "question": "Which movie features 'The Next Right Thing'?",
       "options": [
-        "Frozen 2",
         "Frozen",
+        "Frozen 2",
         "Moana",
         "Tangled"
       ],
-      "correct_answer": "The Next Right Thing",
+      "correct_answer": "Frozen 2",
       "difficulty": "easy"
     },
     {
@@ -6893,8 +6893,8 @@
       "subtopic": "Songs",
       "question": "Who sang 'Try Everything' from Zootopia?",
       "options": [
-        "Shakira",
         "Idina Menzel",
+        "Shakira",
         "Auli'i Cravalho",
         "Kristen Bell"
       ],
@@ -6909,8 +6909,8 @@
       "subtopic": "Songs",
       "question": "Who composed the score for 'Tangled'?",
       "options": [
-        "Alan Menken",
         "Kristen Anderson-Lopez and Robert Lopez",
+        "Alan Menken",
         "Lin-Manuel Miranda",
         "Randy Newman"
       ],
@@ -6925,8 +6925,8 @@
       "subtopic": "Songs",
       "question": "Who wrote the songs for 'The Princess and the Frog'?",
       "options": [
-        "Randy Newman",
         "Alan Menken",
+        "Randy Newman",
         "Elton John",
         "Phil Collins"
       ],
@@ -6941,8 +6941,8 @@
       "subtopic": "Songs",
       "question": "What is the opening song of 'Frozen 2'?",
       "options": [
-        "All Is Found",
         "Into the Unknown",
+        "All Is Found",
         "Some Things Never Change",
         "Show Yourself"
       ],
@@ -6957,12 +6957,12 @@
       "subtopic": "Songs",
       "question": "What language is 'Vuelie' sung in (Frozen opening)?",
       "options": [
-        "South S\u00e1mi",
         "Norwegian",
+        "South Sámi",
         "Swedish",
         "Icelandic"
       ],
-      "correct_answer": "South S\u00e1mi",
+      "correct_answer": "South Sámi",
       "difficulty": "medium"
     },
     {
@@ -6973,8 +6973,8 @@
       "subtopic": "Songs",
       "question": "Who performs 'Lost in the Woods' in Frozen 2?",
       "options": [
-        "Jonathan Groff (Kristoff)",
         "Josh Gad (Olaf)",
+        "Jonathan Groff (Kristoff)",
         "Idina Menzel (Elsa)",
         "Kristen Bell (Anna)"
       ],
@@ -6989,8 +6989,8 @@
       "subtopic": "Songs",
       "question": "What Randy Newman song opens 'The Princess and the Frog'?",
       "options": [
-        "Down in New Orleans",
         "Almost There",
+        "Down in New Orleans",
         "Dig a Little Deeper",
         "When We're Human"
       ],
@@ -7005,8 +7005,8 @@
       "subtopic": "Songs",
       "question": "Who sings the end credits version of 'How Far I'll Go'?",
       "options": [
-        "Alessia Cara",
         "Auli'i Cravalho",
+        "Alessia Cara",
         "Lin-Manuel Miranda",
         "Dwayne Johnson"
       ],
@@ -7021,8 +7021,8 @@
       "subtopic": "Songs",
       "question": "What song did Idina Menzel and AURORA perform for Frozen 2?",
       "options": [
-        "Into the Unknown",
         "Show Yourself",
+        "Into the Unknown",
         "All Is Found",
         "The Next Right Thing"
       ],
@@ -7037,8 +7037,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Simba in the 2019 Lion King (voice)?",
       "options": [
+        "Beyoncé",
         "Donald Glover",
-        "Beyonc\u00e9",
         "James Earl Jones",
         "Chiwetel Ejiofor"
       ],
@@ -7053,9 +7053,9 @@
       "subtopic": "Live Action",
       "question": "Who plays Scar in the 2019 Lion King?",
       "options": [
-        "Chiwetel Ejiofor",
         "Donald Glover",
-        "Beyonc\u00e9",
+        "Chiwetel Ejiofor",
+        "Beyoncé",
         "Seth Rogen"
       ],
       "correct_answer": "Chiwetel Ejiofor",
@@ -7069,8 +7069,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Mufasa in the 2019 Lion King?",
       "options": [
-        "James Earl Jones",
         "Donald Glover",
+        "James Earl Jones",
         "Chiwetel Ejiofor",
         "Billy Eichner"
       ],
@@ -7085,8 +7085,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Jafar in the 2019 Aladdin?",
       "options": [
-        "Marwan Kenzari",
         "Will Smith",
+        "Marwan Kenzari",
         "Mena Massoud",
         "Nasim Pedrad"
       ],
@@ -7101,8 +7101,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Aladdin in the 2019 film?",
       "options": [
-        "Mena Massoud",
         "Will Smith",
+        "Mena Massoud",
         "Marwan Kenzari",
         "Navid Negahban"
       ],
@@ -7117,8 +7117,8 @@
       "subtopic": "Live Action",
       "question": "Who directed the 2019 Aladdin?",
       "options": [
-        "Guy Ritchie",
         "Jon Favreau",
+        "Guy Ritchie",
         "Bill Condon",
         "Kenneth Branagh"
       ],
@@ -7133,8 +7133,8 @@
       "subtopic": "Live Action",
       "question": "Who directed the 2019 Lion King?",
       "options": [
-        "Jon Favreau",
         "Guy Ritchie",
+        "Jon Favreau",
         "Tim Burton",
         "Kenneth Branagh"
       ],
@@ -7149,8 +7149,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Gaston in the 2017 Beauty and the Beast?",
       "options": [
-        "Luke Evans",
         "Dan Stevens",
+        "Luke Evans",
         "Josh Gad",
         "Kevin Kline"
       ],
@@ -7165,8 +7165,8 @@
       "subtopic": "Live Action",
       "question": "Who plays LeFou in the 2017 Beauty and the Beast?",
       "options": [
-        "Josh Gad",
         "Luke Evans",
+        "Josh Gad",
         "Dan Stevens",
         "Ewan McGregor"
       ],
@@ -7181,8 +7181,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Maurice in the 2017 Beauty and the Beast?",
       "options": [
-        "Kevin Kline",
         "Dan Stevens",
+        "Kevin Kline",
         "Luke Evans",
         "Ian McKellen"
       ],
@@ -7197,8 +7197,8 @@
       "subtopic": "Live Action",
       "question": "What year was the live-action Mulan released?",
       "options": [
-        "2020",
         "2019",
+        "2020",
         "2021",
         "2018"
       ],
@@ -7213,8 +7213,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Mulan in the 2020 film?",
       "options": [
-        "Yifei Liu",
         "Donnie Yen",
+        "Yifei Liu",
         "Jet Li",
         "Gong Li"
       ],
@@ -7229,8 +7229,8 @@
       "subtopic": "Parks",
       "question": "What is the iconic ride in Frontierland?",
       "options": [
-        "Big Thunder Mountain Railroad",
         "Splash Mountain",
+        "Big Thunder Mountain Railroad",
         "Space Mountain",
         "Matterhorn"
       ],
@@ -7245,8 +7245,8 @@
       "subtopic": "Parks",
       "question": "What land is the Haunted Mansion in at Magic Kingdom?",
       "options": [
-        "Liberty Square",
         "Fantasyland",
+        "Liberty Square",
         "Frontierland",
         "Adventureland"
       ],
@@ -7261,8 +7261,8 @@
       "subtopic": "Parks",
       "question": "What is the name of the spinning teacup ride?",
       "options": [
-        "Mad Tea Party",
         "Dumbo",
+        "Mad Tea Party",
         "Carousel",
         "Spinning Saucers"
       ],
@@ -7277,8 +7277,8 @@
       "subtopic": "Parks",
       "question": "What year did Space Mountain open at Disneyland?",
       "options": [
-        "1977",
         "1975",
+        "1977",
         "1980",
         "1971"
       ],
@@ -7293,8 +7293,8 @@
       "subtopic": "Parks",
       "question": "What year did the Matterhorn open?",
       "options": [
-        "1959",
         "1955",
+        "1959",
         "1965",
         "1971"
       ],
@@ -7309,8 +7309,8 @@
       "subtopic": "Parks",
       "question": "What was the first thrill ride at Disneyland?",
       "options": [
-        "Matterhorn Bobsleds",
         "Space Mountain",
+        "Matterhorn Bobsleds",
         "Big Thunder Mountain",
         "Splash Mountain"
       ],
@@ -7325,8 +7325,8 @@
       "subtopic": "Parks",
       "question": "What year did Indiana Jones Adventure open at Disneyland?",
       "options": [
-        "1995",
         "1990",
+        "1995",
         "2000",
         "1985"
       ],
@@ -7341,8 +7341,8 @@
       "subtopic": "Parks",
       "question": "What attraction did Splash Mountain replace at Disneyland?",
       "options": [
-        "None - it was new",
         "Bear Country",
+        "None - it was new",
         "America Sings area",
         "Frontierland expansion"
       ],
@@ -7357,8 +7357,8 @@
       "subtopic": "Live Action",
       "question": "Who directed 'Mary Poppins Returns'?",
       "options": [
-        "Rob Marshall",
         "Julie Andrews",
+        "Rob Marshall",
         "Emily Blunt",
         "Lin-Manuel Miranda"
       ],
@@ -7373,8 +7373,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Mary Poppins in 'Mary Poppins Returns'?",
       "options": [
-        "Emily Blunt",
         "Julie Andrews",
+        "Emily Blunt",
         "Meryl Streep",
         "Anne Hathaway"
       ],
@@ -7389,8 +7389,8 @@
       "subtopic": "Live Action",
       "question": "What is the name of the ship in 'Pirates of the Caribbean'?",
       "options": [
-        "The Black Pearl",
         "The Flying Dutchman",
+        "The Black Pearl",
         "The Interceptor",
         "The Queen Anne's Revenge"
       ],
@@ -7405,8 +7405,8 @@
       "subtopic": "Live Action",
       "question": "Which Disney Channel movie features a magical remote control?",
       "options": [
-        "Click (not Disney)/Pixel Perfect/other",
         "High School Musical",
+        "Click (not Disney)/Pixel Perfect/other",
         "Camp Rock",
         "None"
       ],
@@ -7421,8 +7421,8 @@
       "subtopic": "Live Action",
       "question": "Who stars in the 'Descendants' movies?",
       "options": [
-        "Dove Cameron, Sofia Carson, Cameron Boyce",
         "Zendaya",
+        "Dove Cameron, Sofia Carson, Cameron Boyce",
         "Selena Gomez",
         "Miley Cyrus"
       ],
@@ -7437,8 +7437,8 @@
       "subtopic": "Live Action",
       "question": "What year was the original 'Mary Poppins' released?",
       "options": [
-        "1964",
         "1960",
+        "1964",
         "1965",
         "1970"
       ],
@@ -7453,8 +7453,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Bert in the original 'Mary Poppins'?",
       "options": [
-        "Dick Van Dyke",
         "Julie Andrews",
+        "Dick Van Dyke",
         "David Tomlinson",
         "Ed Wynn"
       ],
@@ -7469,8 +7469,8 @@
       "subtopic": "Live Action",
       "question": "Which Disney movie features a flying car?",
       "options": [
-        "Chitty Chitty Bang (not Disney)/Flubber",
         "Herbie",
+        "Chitty Chitty Bang (not Disney)/Flubber",
         "Bedknobs and Broomsticks",
         "Mary Poppins"
       ],
@@ -7485,8 +7485,8 @@
       "subtopic": "Live Action",
       "question": "What is the name of the VW Beetle in Disney films?",
       "options": [
-        "Herbie",
         "Lightning",
+        "Herbie",
         "Mater",
         "Luigi"
       ],
@@ -7501,8 +7501,8 @@
       "subtopic": "Live Action",
       "question": "Who directed the 2015 'Cinderella'?",
       "options": [
-        "Kenneth Branagh",
         "Jon Favreau",
+        "Kenneth Branagh",
         "Bill Condon",
         "Guy Ritchie"
       ],
@@ -7517,8 +7517,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Cinderella in the 2015 film?",
       "options": [
-        "Lily James",
         "Emma Watson",
+        "Lily James",
         "Naomi Scott",
         "Elle Fanning"
       ],
@@ -7533,8 +7533,8 @@
       "subtopic": "Live Action",
       "question": "Who plays the Fairy Godmother in the 2015 Cinderella?",
       "options": [
-        "Helena Bonham Carter",
         "Emma Thompson",
+        "Helena Bonham Carter",
         "Julie Andrews",
         "Angela Lansbury"
       ],
@@ -7549,8 +7549,8 @@
       "subtopic": "Live Action",
       "question": "What year was 'Bedknobs and Broomsticks' released?",
       "options": [
-        "1971",
         "1964",
+        "1971",
         "1977",
         "1980"
       ],
@@ -7565,8 +7565,8 @@
       "subtopic": "Live Action",
       "question": "Who played the lead in 'Bedknobs and Broomsticks'?",
       "options": [
-        "Angela Lansbury",
         "Julie Andrews",
+        "Angela Lansbury",
         "Mary Poppins",
         "Emily Blunt"
       ],
@@ -7581,8 +7581,8 @@
       "subtopic": "Live Action",
       "question": "What is the name of the sequel to 'Alice in Wonderland' (2010)?",
       "options": [
-        "Alice Through the Looking Glass",
         "Alice Returns",
+        "Alice Through the Looking Glass",
         "Alice in Wonderland 2",
         "Return to Wonderland"
       ],
@@ -7597,8 +7597,8 @@
       "subtopic": "Live Action",
       "question": "Who directed 'Maleficent'?",
       "options": [
-        "Robert Stromberg",
         "Tim Burton",
+        "Robert Stromberg",
         "Jon Favreau",
         "Kenneth Branagh"
       ],
@@ -7613,8 +7613,8 @@
       "subtopic": "Live Action",
       "question": "What year did the first 'Pirates of the Caribbean' film release?",
       "options": [
-        "2003",
         "2001",
+        "2003",
         "2005",
         "2007"
       ],
@@ -7629,8 +7629,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Christopher Robin in the 2018 film?",
       "options": [
-        "Ewan McGregor",
         "Tom Hanks",
+        "Ewan McGregor",
         "Colin Firth",
         "Jim Cummings"
       ],
@@ -7645,8 +7645,8 @@
       "subtopic": "Live Action",
       "question": "What is the name of the 2016 live-action jungle film?",
       "options": [
-        "The Jungle Book",
         "Tarzan",
+        "The Jungle Book",
         "The Lion King",
         "Mowgli"
       ],
@@ -7661,8 +7661,8 @@
       "subtopic": "Live Action",
       "question": "Who plays Mowgli in the 2016 Jungle Book?",
       "options": [
-        "Neel Sethi",
         "Ben Kingsley",
+        "Neel Sethi",
         "Bill Murray",
         "Idris Elba"
       ],
@@ -7677,8 +7677,8 @@
       "subtopic": "Live Action",
       "question": "What was Disney's first major live-action film?",
       "options": [
-        "Treasure Island (1950)",
         "20,000 Leagues Under the Sea",
+        "Treasure Island (1950)",
         "Mary Poppins",
         "Old Yeller"
       ],
@@ -7693,8 +7693,8 @@
       "subtopic": "Live Action",
       "question": "Who directed the 2016 'Pete's Dragon'?",
       "options": [
-        "David Lowery",
         "Jon Favreau",
+        "David Lowery",
         "Kenneth Branagh",
         "Tim Burton"
       ],
@@ -7709,8 +7709,8 @@
       "subtopic": "Live Action",
       "question": "What year was the original 'Pete's Dragon' released?",
       "options": [
-        "1977",
         "1964",
+        "1977",
         "1980",
         "1971"
       ],
@@ -7725,8 +7725,8 @@
       "subtopic": "Live Action",
       "question": "Who voices Baloo in the 2016 Jungle Book?",
       "options": [
-        "Bill Murray",
         "Ben Kingsley",
+        "Bill Murray",
         "Idris Elba",
         "Christopher Walken"
       ],
@@ -7741,8 +7741,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the cricket in 'Mulan'?",
       "options": [
-        "Cri-Kee",
         "Mushu",
+        "Cri-Kee",
         "Khan",
         "Yao"
       ],
@@ -7757,8 +7757,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of Ariel's seagull friend?",
       "options": [
-        "Scuttle",
         "Flounder",
+        "Scuttle",
         "Sebastian",
         "Max"
       ],
@@ -7773,8 +7773,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the prince in 'Snow White'?",
       "options": [
-        "The Prince/Prince Florian",
         "Prince Charming",
+        "The Prince/Prince Florian",
         "Prince Phillip",
         "Prince Eric"
       ],
@@ -7789,8 +7789,8 @@
       "subtopic": "Animated Classics",
       "question": "What are the seven dwarfs' names?",
       "options": [
-        "Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, Dopey",
         "All of the above",
+        "Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, Dopey",
         "Various names",
         "Too many to list"
       ],
@@ -7805,8 +7805,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of the prince in 'Cinderella'?",
       "options": [
-        "Prince Charming",
         "Prince Henry",
+        "Prince Charming",
         "Prince Christopher",
         "Prince Edward"
       ],
@@ -7821,8 +7821,8 @@
       "subtopic": "Animated Classics",
       "question": "What is Cinderella's real name in the Disney version?",
       "options": [
-        "Cinderella/Ella",
         "Anastasia",
+        "Cinderella/Ella",
         "Drizella",
         "Belle"
       ],
@@ -7837,8 +7837,8 @@
       "subtopic": "Animated Classics",
       "question": "What is the name of Lady Tremaine?",
       "options": [
-        "Cinderella's stepmother",
         "Evil Queen",
+        "Cinderella's stepmother",
         "Maleficent",
         "Ursula"
       ],
@@ -7853,8 +7853,8 @@
       "subtopic": "Animated Classics",
       "question": "What was the first Disney film to use the Xerox process?",
       "options": [
-        "101 Dalmatians",
         "Sleeping Beauty",
+        "101 Dalmatians",
         "The Jungle Book",
         "The Aristocats"
       ],
@@ -7869,8 +7869,8 @@
       "subtopic": "Characters",
       "question": "What is the name of the Queen in 'Alice in Wonderland'?",
       "options": [
-        "Queen of Hearts",
         "Red Queen",
+        "Queen of Hearts",
         "White Queen",
         "Chess Queen"
       ],
@@ -7885,8 +7885,8 @@
       "subtopic": "Characters",
       "question": "What is the White Rabbit's job?",
       "options": [
-        "The Queen's herald/page",
         "Gardener",
+        "The Queen's herald/page",
         "Cook",
         "Knight"
       ],
@@ -7901,8 +7901,8 @@
       "subtopic": "Characters",
       "question": "Who are Alice's companions at the tea party?",
       "options": [
-        "Mad Hatter, March Hare, Dormouse",
         "White Rabbit, Cheshire Cat",
+        "Mad Hatter, March Hare, Dormouse",
         "Tweedledee, Tweedledum",
         "Caterpillar, Queen"
       ],
@@ -7917,8 +7917,8 @@
       "subtopic": "Characters",
       "question": "What does the Caterpillar ask Alice?",
       "options": [
-        "Who are you?",
         "Where are you going?",
+        "Who are you?",
         "What do you want?",
         "Why are you here?"
       ],
@@ -7933,8 +7933,8 @@
       "subtopic": "Songs",
       "question": "Who composed the music for 'Mary Poppins'?",
       "options": [
-        "Richard M. Sherman and Robert B. Sherman",
         "Alan Menken",
+        "Richard M. Sherman and Robert B. Sherman",
         "Elton John",
         "Randy Newman"
       ],
@@ -7949,8 +7949,8 @@
       "subtopic": "Songs",
       "question": "Which Disney movie features 'Supercalifragilisticexpialidocious'?",
       "options": [
-        "Mary Poppins",
         "Bedknobs and Broomsticks",
+        "Mary Poppins",
         "Chitty Chitty Bang Bang",
         "The Aristocats"
       ],
@@ -7965,8 +7965,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'A Spoonful of Sugar'?",
       "options": [
-        "Mary Poppins",
         "Alice in Wonderland",
+        "Mary Poppins",
         "Bedknobs and Broomsticks",
         "Winnie the Pooh"
       ],
@@ -7981,8 +7981,8 @@
       "subtopic": "Songs",
       "question": "Which movie features 'Zip-a-Dee-Doo-Dah'?",
       "options": [
-        "Song of the South",
         "The Aristocats",
+        "Song of the South",
         "Robin Hood",
         "The Jungle Book"
       ],
@@ -7997,8 +7997,8 @@
       "subtopic": "Parks",
       "question": "What year did Disneyland's Star Tours open?",
       "options": [
-        "1987 (before Disney owned Star Wars)",
         "1980",
+        "1987 (before Disney owned Star Wars)",
         "1990",
         "2000"
       ],
@@ -8013,8 +8013,8 @@
       "subtopic": "Parks",
       "question": "What is the oldest operating attraction at Disneyland?",
       "options": [
-        "Carousel (King Arthur Carrousel)",
         "Jungle Cruise",
+        "Carousel (King Arthur Carrousel)",
         "Peter Pan's Flight",
         "Dumbo"
       ],

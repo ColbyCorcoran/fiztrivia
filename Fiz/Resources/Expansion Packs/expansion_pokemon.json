@@ -11,12 +11,12 @@
     "Types & Evolution",
     "Regions & Locations"
   ],
-  "questionCount": 518,
-  "freePreviewCount": 50,
+  "questionCount": 525,
+  "freePreviewCount": 52,
   "difficulty": {
-    "easy": 175,
-    "medium": 210,
-    "hard": 83
+    "easy": 176,
+    "medium": 214,
+    "hard": 85
   },
   "price": 2.99,
   "icon": "circle.circle.fill",
@@ -819,6 +819,38 @@
         "Saffron City"
       ],
       "correct_answer": "Viridian City",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pkm_preview_051",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "com.fiz.pack.pokemon",
+      "subtopic": "Games",
+      "question": "In Pokémon Sword and Shield, what is the name of the Galar region's Champion?",
+      "options": [
+        "Steven Stone",
+        "Leon",
+        "Cynthia",
+        "Diantha"
+      ],
+      "correct_answer": "Leon",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_preview_052",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "com.fiz.pack.pokemon",
+      "subtopic": "Moves & Abilities",
+      "question": "Which move allows a Pokémon to heal itself while damaging the opponent?",
+      "options": [
+        "Drain Punch",
+        "Recover",
+        "Giga Drain",
+        "Wish"
+      ],
+      "correct_answer": "Giga Drain",
       "difficulty": "easy"
     }
   ],
@@ -8310,6 +8342,86 @@
       ],
       "correct_answer": "Fire/Flying",
       "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_469",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "com.fiz.pack.pokemon",
+      "subtopic": "Trainers & Characters",
+      "question": "What is the name of Team Rocket's leader in the games?",
+      "options": [
+        "Giovanni",
+        "Maxie",
+        "Cyrus",
+        "Ghetsis"
+      ],
+      "correct_answer": "Giovanni",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_470",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "com.fiz.pack.pokemon",
+      "subtopic": "Anime & Movies",
+      "question": "In Pokémon: The First Movie, what Pokémon does Mewtwo use to create clones?",
+      "options": [
+        "Alakazam",
+        "Hypno",
+        "Gengar",
+        "Mew"
+      ],
+      "correct_answer": "Mew",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_471",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "com.fiz.pack.pokemon",
+      "subtopic": "Types & Evolution",
+      "question": "What item is needed to evolve Eevee into Espeon or Umbreon?",
+      "options": [
+        "Moon Stone",
+        "High friendship and time of day",
+        "Sun Stone",
+        "Shiny Stone"
+      ],
+      "correct_answer": "High friendship and time of day",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pkm_paid_472",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "com.fiz.pack.pokemon",
+      "subtopic": "Regions & Locations",
+      "question": "Which Pokémon region is based on the Kalos region of France?",
+      "options": [
+        "Unova",
+        "Alola",
+        "Kalos",
+        "Galar"
+      ],
+      "correct_answer": "Kalos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_473",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "com.fiz.pack.pokemon",
+      "subtopic": "Pokémon Species",
+      "question": "What is the only Pokémon that can learn the move Sketch?",
+      "options": [
+        "Smeargle",
+        "Ditto",
+        "Mew",
+        "Arceus"
+      ],
+      "correct_answer": "Smeargle",
+      "difficulty": "medium"
     }
   ],
   "isPublished": true,

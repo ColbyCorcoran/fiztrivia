@@ -10,12 +10,12 @@
     "Locations",
     "Trivia"
   ],
-  "questionCount": 312,
-  "freePreviewCount": 30,
+  "questionCount": 325,
+  "freePreviewCount": 32,
   "difficulty": {
-    "easy": 82,
-    "medium": 133,
-    "hard": 67
+    "easy": 101,
+    "medium": 149,
+    "hard": 75
   },
   "price": 1.99,
   "icon": "briefcase.fill",
@@ -499,6 +499,38 @@
       ],
       "correct_answer": "Quabity assuance",
       "difficulty": "hard"
+    },
+    {
+      "id": "off_preview_031",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Characters",
+      "question": "What is Hide's full name?",
+      "options": [
+        "Hidetoshi Hasagawa",
+        "Hideki Tanaka",
+        "Hide Yamamoto",
+        "Hideo Sato"
+      ],
+      "correct_answer": "Hidetoshi Hasagawa",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_preview_032",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Locations",
+      "question": "What company is across from Dunder Mifflin in the office park?",
+      "options": [
+        "W.B. Jones Heating & Air",
+        "Vance Refrigeration",
+        "Michael Scott Paper Company",
+        "Harper Collins Publishing"
+      ],
+      "correct_answer": "Vance Refrigeration",
+      "difficulty": "medium"
     }
   ],
   "paidQuestions": [
@@ -5013,6 +5045,198 @@
       ],
       "correct_answer": "Supplier Relations",
       "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_288",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Trivia",
+      "question": "What is Nate's incorrect understanding about glasses?",
+      "options": [
+        "He thinks they're made of glass",
+        "He doesn't realize he needs them",
+        "He can't tell if he has them on or not",
+        "He thinks they make him invisible"
+      ],
+      "correct_answer": "He can't tell if he has them on or not",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_289",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Episodes",
+      "question": "In 'Cafe Disco,' what does Michael turn the old Michael Scott Paper Company office into?",
+      "options": [
+        "A lounge",
+        "A dance club",
+        "A quiet room",
+        "Storage"
+      ],
+      "correct_answer": "A dance club",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_290",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Characters",
+      "question": "What is Robert California's real name?",
+      "options": [
+        "Bob Kazamakis",
+        "Robert Anderson",
+        "Raymond Reddington",
+        "Richard California"
+      ],
+      "correct_answer": "Bob Kazamakis",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_291",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Quotes",
+      "question": "What does Clark say his middle name is?",
+      "options": [
+        "Danger",
+        "Duke",
+        "Green",
+        "Awesome"
+      ],
+      "correct_answer": "Duke",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_292",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Relationships",
+      "question": "Who does Oscar date from the warehouse?",
+      "options": [
+        "Darryl",
+        "Matt",
+        "Roy",
+        "Hide"
+      ],
+      "correct_answer": "Matt",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_293",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Episodes",
+      "question": "What does Pam fail at in 'WUPHF.com'?",
+      "options": [
+        "The sales call",
+        "Designing the logo",
+        "The art show",
+        "Office administrator duties"
+      ],
+      "correct_answer": "Office administrator duties",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_294",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Trivia",
+      "question": "What nickname does Michael give to the IT guy Sadiq?",
+      "options": [
+        "IT Guy",
+        "Tech Support",
+        "Lumbergh",
+        "Turban"
+      ],
+      "correct_answer": "Turban",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_295",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Locations",
+      "question": "What is the name of the investment banker who buys out Dunder Mifflin in season 9?",
+      "options": [
+        "David Wallace",
+        "Jan Levinson",
+        "Alan Brand",
+        "Charles Miner"
+      ],
+      "correct_answer": "Alan Brand",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_296",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Characters",
+      "question": "What sport does Val's boyfriend Brandon play?",
+      "options": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Hockey"
+      ],
+      "correct_answer": "Basketball",
+      "difficulty": "medium"
+    },
+    {
+      "id": "off_paid_297",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Quotes",
+      "question": "What does Nellie say is her favorite movie?",
+      "options": [
+        "Love Actually",
+        "Bridget Jones's Diary",
+        "The King's Speech",
+        "Sophie's Choice"
+      ],
+      "correct_answer": "Sophie's Choice",
+      "difficulty": "hard"
+    },
+    {
+      "id": "off_paid_298",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Relationships",
+      "question": "Who does Pete (Plop) have a crush on?",
+      "options": [
+        "Pam",
+        "Erin",
+        "Cathy",
+        "Nellie"
+      ],
+      "correct_answer": "Erin",
+      "difficulty": "easy"
+    },
+    {
+      "id": "off_paid_299",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "com.fiz.pack.the_office",
+      "subtopic": "Episodes",
+      "question": "In 'The Boat,' what does Andy discover about his family?",
+      "options": [
+        "His parents are divorcing",
+        "They sold the family boat",
+        "His father lost his job",
+        "His brother is getting married"
+      ],
+      "correct_answer": "They sold the family boat",
+      "difficulty": "medium"
     }
   ],
   "isPublished": true,

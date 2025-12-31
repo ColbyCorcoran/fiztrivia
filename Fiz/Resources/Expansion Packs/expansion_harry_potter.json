@@ -11,12 +11,12 @@
     "Magical Creatures",
     "Wizarding World"
   ],
-  "questionCount": 529,
-  "freePreviewCount": 50,
+  "questionCount": 550,
+  "freePreviewCount": 55,
   "difficulty": {
-    "easy": 160,
-    "medium": 223,
-    "hard": 96
+    "easy": 167,
+    "medium": 233,
+    "hard": 100
   },
   "price": 2.99,
   "icon": "wand.and.stars",
@@ -820,6 +820,86 @@
       ],
       "correct_answer": "Muggles",
       "difficulty": "easy"
+    },
+    {
+      "id": "hp_preview_051",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Spells & Magic",
+      "question": "What spell is used to unlock doors?",
+      "options": [
+        "Alohomora",
+        "Colloportus",
+        "Aparecium",
+        "Portus"
+      ],
+      "correct_answer": "Alohomora",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_preview_052",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Hogwarts",
+      "question": "What is the name of Dumbledore's phoenix?",
+      "options": [
+        "Buckbeak",
+        "Fawkes",
+        "Hedwig",
+        "Crookshanks"
+      ],
+      "correct_answer": "Fawkes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_preview_053",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Characters",
+      "question": "Who is the Half-Blood Prince?",
+      "options": [
+        "Severus Snape",
+        "Tom Riddle",
+        "Draco Malfoy",
+        "Albus Dumbledore"
+      ],
+      "correct_answer": "Severus Snape",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_preview_054",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Books & Plot",
+      "question": "What does Hermione use to attend multiple classes at once in Prisoner of Azkaban?",
+      "options": [
+        "Portkey",
+        "Floo Powder",
+        "Time-Turner",
+        "Apparition"
+      ],
+      "correct_answer": "Time-Turner",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_preview_055",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Magical Creatures",
+      "question": "What creature can only be seen by those who have witnessed death?",
+      "options": [
+        "Dementors",
+        "Thestrals",
+        "Boggarts",
+        "Grindylows"
+      ],
+      "correct_answer": "Thestrals",
+      "difficulty": "medium"
     }
   ],
   "paidQuestions": [
@@ -8485,6 +8565,262 @@
         "Emotion Research"
       ],
       "correct_answer": "Department of Mysteries",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_516",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Movies",
+      "question": "Who directed the first two Harry Potter films?",
+      "options": [
+        "Alfonso Cuarón",
+        "Chris Columbus",
+        "Mike Newell",
+        "David Yates"
+      ],
+      "correct_answer": "Chris Columbus",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_517",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Wizarding World",
+      "question": "What is the name of the wizarding prison?",
+      "options": [
+        "Azkaban",
+        "Nurmengard",
+        "The Tower",
+        "Grindelwald's Keep"
+      ],
+      "correct_answer": "Azkaban",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_518",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Characters",
+      "question": "What is Luna Lovegood's father's name?",
+      "options": [
+        "Xenophilius",
+        "Thaddeus",
+        "Cornelius",
+        "Amos"
+      ],
+      "correct_answer": "Xenophilius",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_519",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Spells & Magic",
+      "question": "What spell creates a Patronus?",
+      "options": [
+        "Expecto Patronum",
+        "Protego",
+        "Riddikulus",
+        "Lumos Maxima"
+      ],
+      "correct_answer": "Expecto Patronum",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_520",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Hogwarts",
+      "question": "What is the name of the Ravenclaw House ghost?",
+      "options": [
+        "The Fat Friar",
+        "The Bloody Baron",
+        "Nearly Headless Nick",
+        "The Grey Lady"
+      ],
+      "correct_answer": "The Grey Lady",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_521",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Books & Plot",
+      "question": "In which book does Sirius Black die?",
+      "options": [
+        "Goblet of Fire",
+        "Order of the Phoenix",
+        "Half-Blood Prince",
+        "Deathly Hallows"
+      ],
+      "correct_answer": "Order of the Phoenix",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_522",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Magical Creatures",
+      "question": "What type of dragon does Harry face in the Triwizard Tournament?",
+      "options": [
+        "Norwegian Ridgeback",
+        "Hungarian Horntail",
+        "Chinese Fireball",
+        "Swedish Short-Snout"
+      ],
+      "correct_answer": "Hungarian Horntail",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_523",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Movies",
+      "question": "Which Harry Potter film is the shortest in runtime?",
+      "options": [
+        "Sorcerer's Stone",
+        "Chamber of Secrets",
+        "Deathly Hallows Part 2",
+        "Prisoner of Azkaban"
+      ],
+      "correct_answer": "Deathly Hallows Part 2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_524",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Wizarding World",
+      "question": "What is the name of the wandmaker who makes Harry's wand?",
+      "options": [
+        "Gregorovitch",
+        "Ollivander",
+        "Antioch Peverell",
+        "Garrick"
+      ],
+      "correct_answer": "Ollivander",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_525",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Characters",
+      "question": "What is Neville Longbottom's toad named?",
+      "options": [
+        "Herman",
+        "Trevor",
+        "Arnold",
+        "Pigwidgeon"
+      ],
+      "correct_answer": "Trevor",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_526",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Spells & Magic",
+      "question": "What is the incantation for the Killing Curse?",
+      "options": [
+        "Crucio",
+        "Imperio",
+        "Avada Kedavra",
+        "Sectumsempra"
+      ],
+      "correct_answer": "Avada Kedavra",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_527",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Hogwarts",
+      "question": "What room at Hogwarts appears only when someone is in great need?",
+      "options": [
+        "The Trophy Room",
+        "The Astronomy Tower",
+        "The Room of Requirement",
+        "The Chamber of Secrets"
+      ],
+      "correct_answer": "The Room of Requirement",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_528",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Books & Plot",
+      "question": "What are the three Deathly Hallows?",
+      "options": [
+        "Wand, Stone, Cloak",
+        "Sword, Ring, Locket",
+        "Cup, Diadem, Snake",
+        "Book, Wand, Mirror"
+      ],
+      "correct_answer": "Wand, Stone, Cloak",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_529",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Magical Creatures",
+      "question": "What creature is Aragog?",
+      "options": [
+        "Basilisk",
+        "Acromantula",
+        "Werewolf",
+        "Hippogriff"
+      ],
+      "correct_answer": "Acromantula",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_530",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Movies",
+      "question": "Which actor plays Albus Dumbledore in the first two films?",
+      "options": [
+        "Michael Gambon",
+        "Richard Harris",
+        "Ian McKellen",
+        "Christopher Lee"
+      ],
+      "correct_answer": "Richard Harris",
+      "difficulty": "medium"
+    },
+    {
+      "id": "hp_paid_531",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Wizarding World",
+      "question": "What is the name of the goblin who helps Harry break into Gringotts?",
+      "options": [
+        "Griphook",
+        "Bogrod",
+        "Ragnok",
+        "Gornuk"
+      ],
+      "correct_answer": "Griphook",
       "difficulty": "hard"
     }
   ],

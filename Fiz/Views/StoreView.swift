@@ -233,9 +233,9 @@ struct ExpansionPackCard: View {
                                 .font(.caption)
                                 .fontWeight(.medium)
                                 .foregroundColor(Color(hex: "8B4513"))
-                                .multilineTextAlignment(.leading)
+                                .multilineTextAlignment(.center)
                                 .lineLimit(2)
-                                .frame(maxWidth: .infinity, minHeight: 44, alignment: .topLeading)
+                                .frame(maxWidth: .infinity, minHeight: 44, alignment: .center)
                                 .padding(.horizontal, 12)
                                 .padding(.vertical, 8)
                                 .background(

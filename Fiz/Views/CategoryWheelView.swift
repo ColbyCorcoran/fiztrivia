@@ -70,6 +70,9 @@ struct CategoryWheelView: View {
     @State private var swipeStartX: CGFloat = 0
     @State private var swipeTranslation: CGFloat = 0
 
+    // Store modal presentation
+    @State private var showingStore = false
+
     // Computed property for wheel segments
     private var wheelSegments: [WheelSegmentData] {
         // First, create segments with base colors
@@ -401,6 +404,9 @@ struct CategoryWheelView: View {
                 .interactiveDismissDisabled(true) // Cannot skip questions - must answer
             }
         }
+        .sheet(isPresented: $showingStore) {
+            StoreView()
+        }
     }
     
     private var backgroundGradient: some View {
@@ -440,7 +446,26 @@ struct CategoryWheelView: View {
                     hint: "View top scores",
                     traits: .isButton
                 )
-                
+
+
+                Spacer()
+
+                Button(action: {
+                    HapticManager.shared.buttonTapEffect()
+                    showingStore = true
+                }) {
+                    Image(systemName: "shippingbox.fill")
+                        .font(.title3.weight(.semibold))
+                }
+                .glassButtonStyle()
+                .tint(.fizOrange)
+                .disabled(navigationButtonsDisabled)
+                .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
+                .triviaAccessibility(
+                    label: "Store",
+                    hint: "Browse expansion packs",
+                    traits: .isButton
+                )
 
                 Spacer()
 

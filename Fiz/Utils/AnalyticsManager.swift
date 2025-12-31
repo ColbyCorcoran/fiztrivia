@@ -315,4 +315,47 @@ class AnalyticsManager: ObservableObject {
         }
         PostHogSDK.shared.capture("streak_saved_to_leaderboard", properties: properties)
     }
+
+    // MARK: - Expansion Pack Events
+
+    func trackStoreViewed() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("store_viewed")
+    }
+
+    func trackExpansionPackViewed(packId: String, packName: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("expansion_pack_viewed", properties: [
+            "pack_id": packId,
+            "pack_name": packName
+        ])
+    }
+
+    func trackExpansionPackPurchased(packId: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("expansion_pack_purchased", properties: [
+            "pack_id": packId
+        ])
+    }
+
+    func trackExpansionPackInstalled(packId: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("expansion_pack_installed", properties: [
+            "pack_id": packId
+        ])
+    }
+
+    func trackExpansionPackUninstalled(packId: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("expansion_pack_uninstalled", properties: [
+            "pack_id": packId
+        ])
+    }
+
+    func trackPurchasesRestored(packsRestored: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("purchases_restored", properties: [
+            "packs_restored": packsRestored
+        ])
+    }
 }

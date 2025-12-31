@@ -1,0 +1,132 @@
+{
+  "identifier" : "D8F8E7A3",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : true,
+      "internalID" : "6736890001",
+      "localizations" : [
+        {
+          "description" : "Dive deep into the wizarding world with 500 questions covering characters, spells, locations, and magical lore from the beloved Harry Potter series.",
+          "displayName" : "Harry Potter Expansion Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.harry_potter",
+      "referenceName" : "Harry Potter Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : true,
+      "internalID" : "6736890002",
+      "localizations" : [
+        {
+          "description" : "Test your knowledge of the Pokémon universe with 500 questions spanning all generations, games, anime, and trading cards.",
+          "displayName" : "Pokémon Expansion Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.pokemon",
+      "referenceName" : "Pokemon Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : true,
+      "internalID" : "6736890003",
+      "localizations" : [
+        {
+          "description" : "Relive the totally radical 1980s with 400 questions covering movies, music, TV shows, sports, and pop culture from the decade of excess.",
+          "displayName" : "80s Trivia Expansion Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.80s_trivia",
+      "referenceName" : "80s Trivia Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : true,
+      "internalID" : "6736890004",
+      "localizations" : [
+        {
+          "description" : "Explore the magical world of Disney with 500 questions covering animated classics, Pixar films, theme parks, beloved characters, and iconic songs.",
+          "displayName" : "Disney Expansion Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.disney",
+      "referenceName" : "Disney Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : true,
+      "internalID" : "6736890005",
+      "localizations" : [
+        {
+          "description" : "That's what she said! Dive into Dunder Mifflin with 300 questions about characters, episodes, iconic quotes, and memorable moments from The Office.",
+          "displayName" : "The Office Expansion Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.the_office",
+      "referenceName" : "The Office Pack",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

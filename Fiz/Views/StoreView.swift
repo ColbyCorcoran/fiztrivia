@@ -165,6 +165,9 @@ struct ExpansionPackCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
+            // Debug logging
+            let _ = print("📦 Pack: \(pack.packName), Subtopics: \(pack.subtopics)")
+
             // Header with icon and title
             HStack(spacing: 12) {
                 Image(systemName: pack.icon)
@@ -207,25 +210,41 @@ struct ExpansionPackCard: View {
                 .fixedSize(horizontal: false, vertical: true)
 
             // Subtopics
-            VStack(alignment: .leading, spacing: 6) {
+            VStack(alignment: .leading, spacing: 8) {
                 Text("Subtopics:")
                     .font(.caption)
                     .fontWeight(.semibold)
                     .foregroundColor(Color(hex: "8B4513"))
 
-                FlowLayout(spacing: 6) {
-                    ForEach(pack.subtopics, id: \.self) { subtopic in
-                        Text(subtopic)
-                            .font(.caption)
-                            .fontWeight(.medium)
-                            .padding(.horizontal, 10)
-                            .padding(.vertical, 6)
-                            .background(Color(hex: "D97639").opacity(0.15))
-                            .foregroundColor(Color(hex: "8B4513"))
-                            .cornerRadius(8)
+                // Debug: Show count
+                if pack.subtopics.isEmpty {
+                    Text("No subtopics available")
+                        .font(.caption)
+                        .foregroundColor(.red)
+                } else {
+                    // Simple wrapping layout with LazyVGrid
+                    let columns = [
+                        GridItem(.adaptive(minimum: 100, maximum: 160), spacing: 8)
+                    ]
+
+                    LazyVGrid(columns: columns, alignment: .leading, spacing: 8) {
+                        ForEach(pack.subtopics, id: \.self) { subtopic in
+                            Text(subtopic)
+                                .font(.caption)
+                                .fontWeight(.medium)
+                                .foregroundColor(Color(hex: "8B4513"))
+                                .multilineTextAlignment(.leading)
+                                .lineLimit(2)
+                                .frame(maxWidth: .infinity, minHeight: 44, alignment: .topLeading)
+                                .padding(.horizontal, 12)
+                                .padding(.vertical, 8)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .fill(Color(hex: "D97639").opacity(0.15))
+                                )
+                        }
                     }
                 }
-                .frame(maxWidth: .infinity, alignment: .leading)
             }
 
             // Difficulty breakdown

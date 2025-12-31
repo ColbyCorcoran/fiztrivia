@@ -296,7 +296,7 @@ final class LeaderboardEntry {
     var streak: Int
     var date: Date
     var id: UUID
-    var gameMode: String = "Regular" // "Regular", "Single Category", or "Single Topic" (future)
+    var gameMode: String = "Regular" // "Regular", "Single Category", or "Single Topic"
     var categoryName: String? = nil // Category name if in Single Category/Topic mode
 
     init(streak: Int, date: Date, gameMode: String = "Regular", categoryName: String? = nil) {
@@ -337,6 +337,7 @@ enum GameState {
     case selectingCategory
     case leaderboard
     case settings
+    case gameModeSettings
 }
 
 enum AnswerState {
@@ -577,7 +578,25 @@ class AnsweredQuestionsManager: ObservableObject {
         answeredQuestionIds.removeAll()
         saveAnsweredQuestions()
     }
-    
+
+    // MARK: - Topic Reset Methods
+
+    // Reset answered questions for a specific topic
+    func resetTopicProgress(_ topicId: String, in questions: [TriviaQuestion]) {
+        let topicQuestionIds = questions
+            .filter { $0.topic == topicId }
+            .map { $0.id }
+
+        answeredQuestionIds.subtract(topicQuestionIds)
+        saveAnsweredQuestions()
+    }
+
+    // Get count of answered questions for a topic (for reset confirmation)
+    func getResetCountForTopic(_ topicId: String, in questions: [TriviaQuestion]) -> Int {
+        let topicQuestionIds = Set(questions.filter { $0.topic == topicId }.map { $0.id })
+        return topicQuestionIds.intersection(answeredQuestionIds).count
+    }
+
     func getAnsweredCountForCategory(_ category: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
         let categoryQuestions = questions.filter { question in
             question.category == category &&
@@ -645,6 +664,43 @@ class AnsweredQuestionsManager: ObservableObject {
         }
 
         return subcategoryQuestions.allSatisfy { answeredQuestionIds.contains($0.id) }
+    }
+
+    // MARK: - Topic Completion Methods
+
+    // Check if all questions for a topic are answered
+    func areAllTopicQuestionsAnswered(_ topicId: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Bool {
+        let topicQuestions = questions.filter { question in
+            question.topic == topicId &&
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
+        }
+
+        if topicQuestions.isEmpty {
+            return true
+        }
+
+        return topicQuestions.allSatisfy { answeredQuestionIds.contains($0.id) }
+    }
+
+    // Get answered count for a topic
+    func getAnsweredCountForTopic(_ topicId: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
+        let topicQuestions = questions.filter { question in
+            question.topic == topicId &&
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
+        }
+
+        return topicQuestions.filter { answeredQuestionIds.contains($0.id) }.count
+    }
+
+    // Get total questions for a topic
+    func getTotalQuestionsForTopic(_ topicId: String, in questions: [TriviaQuestion], difficultyMode: DifficultyMode) -> Int {
+        return questions.filter { question in
+            question.topic == topicId &&
+            difficultyMode.shouldInclude(questionDifficulty: question.difficulty) &&
+            !PhobiaExclusionManager.shared.isQuestionExcluded(question.id)
+        }.count
     }
 }
 

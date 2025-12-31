@@ -4,6 +4,8 @@ import SwiftData
 struct GameModesSettingsView: View {
     @Bindable var gameViewModel: GameViewModel
     @StateObject private var gameModeManager = GameModeManager.shared
+    @StateObject private var answeredQuestionsManager = AnsweredQuestionsManager.shared
+    @StateObject private var difficultyManager = DifficultyManager.shared
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
     @Environment(\.dismiss) private var dismiss
@@ -19,6 +21,12 @@ struct GameModesSettingsView: View {
     @State private var localSelectedTopic: String? = nil
     @State private var isInitialLoad = true
     @State private var isApplyingChanges = false
+
+    // Reset functionality state
+    @State private var showingTopicResetAlert = false
+    @State private var topicToReset: String? = nil
+    @State private var topicResetCount: Int = 0
+    @State private var topicResetName: String = ""
 
     private var backgroundGradient: some View {
         Color(.systemGroupedBackground)
@@ -106,36 +114,99 @@ struct GameModesSettingsView: View {
                 if !installedPacks.isEmpty {
                     Section(header: Text("Purchased & Installed Packs")) {
                         ForEach(installedPacks, id: \.packId) { pack in
-                            Button(action: {
-                                handleTopicSelection(pack.packId)
-                            }) {
-                                HStack(spacing: 12) {
-                                    Image(systemName: pack.icon)
-                                        .font(.title3)
-                                        .foregroundColor(.fizOrange)
-                                        .frame(width: 28)
+                            let isCompleted = answeredQuestionsManager.areAllTopicQuestionsAnswered(
+                                pack.packId,
+                                in: gameViewModel.questions,
+                                difficultyMode: difficultyManager.selectedDifficulty
+                            )
+                            let answeredCount = answeredQuestionsManager.getAnsweredCountForTopic(
+                                pack.packId,
+                                in: gameViewModel.questions,
+                                difficultyMode: difficultyManager.selectedDifficulty
+                            )
+                            let totalCount = answeredQuestionsManager.getTotalQuestionsForTopic(
+                                pack.packId,
+                                in: gameViewModel.questions,
+                                difficultyMode: difficultyManager.selectedDifficulty
+                            )
 
-                                    VStack(alignment: .leading, spacing: 2) {
-                                        Text(pack.packName)
-                                            .font(.body)
-                                            .foregroundColor(.primary)
-
-                                        Text("\(pack.questionCount) questions")
-                                            .font(.caption)
-                                            .foregroundColor(.secondary)
+                            VStack(spacing: 0) {
+                                // Main pack row
+                                Button(action: {
+                                    if !isCompleted {
+                                        handleTopicSelection(pack.packId)
+                                    } else {
+                                        HapticManager.shared.notificationOccurred(type: .warning)
                                     }
-
-                                    Spacer()
-
-                                    if localSelectedTopic == pack.packId {
-                                        Image(systemName: "checkmark.circle.fill")
+                                }) {
+                                    HStack(spacing: 12) {
+                                        Image(systemName: pack.icon)
                                             .font(.title3)
-                                            .foregroundColor(.fizOrange)
+                                            .foregroundColor(isCompleted ? .secondary : .fizOrange)
+                                            .frame(width: 28)
+
+                                        VStack(alignment: .leading, spacing: 2) {
+                                            Text(pack.packName)
+                                                .font(.body)
+                                                .foregroundColor(isCompleted ? .secondary : .primary)
+                                                .strikethrough(isCompleted)
+
+                                            HStack(spacing: 4) {
+                                                Text("\(answeredCount)/\(totalCount) questions")
+                                                    .font(.caption)
+                                                    .foregroundColor(.secondary)
+
+                                                if isCompleted {
+                                                    Text("• Completed")
+                                                        .font(.caption)
+                                                        .foregroundColor(.fizTeal)
+                                                        .fontWeight(.semibold)
+                                                }
+                                            }
+                                        }
+
+                                        Spacer()
+
+                                        if localSelectedTopic == pack.packId && !isCompleted {
+                                            Image(systemName: "checkmark.circle.fill")
+                                                .font(.title3)
+                                                .foregroundColor(.fizOrange)
+                                        } else if isCompleted {
+                                            Image(systemName: "checkmark.circle.fill")
+                                                .font(.title3)
+                                                .foregroundColor(.fizTeal)
+                                        }
                                     }
+                                    .contentShape(Rectangle())
+                                    .opacity(isCompleted ? 0.6 : 1.0)
                                 }
-                                .contentShape(Rectangle())
+                                .buttonStyle(.plain)
+                                .disabled(isCompleted)
+
+                                // Reset button (only show if there are answered questions)
+                                if answeredCount > 0 {
+                                    Divider()
+                                        .padding(.leading, 40)
+
+                                    Button(action: {
+                                        topicToReset = pack.packId
+                                        topicResetName = pack.packName
+                                        topicResetCount = answeredCount
+                                        showingTopicResetAlert = true
+                                    }) {
+                                        HStack {
+                                            Image(systemName: "arrow.counterclockwise")
+                                                .font(.caption)
+                                            Text("Reset Progress")
+                                                .font(.caption)
+                                        }
+                                        .foregroundColor(.orange)
+                                        .padding(.vertical, 8)
+                                        .frame(maxWidth: .infinity)
+                                    }
+                                    .buttonStyle(.plain)
+                                }
                             }
-                            .buttonStyle(.plain)
                         }
                     }
                 }
@@ -145,36 +216,99 @@ struct GameModesSettingsView: View {
                     Section(header: Text("Free Previews"),
                             footer: Text("Try these topics before purchasing. Preview questions are included for free!")) {
                         ForEach(previewPacks, id: \.packId) { pack in
-                            Button(action: {
-                                handleTopicSelection(pack.packId)
-                            }) {
-                                HStack(spacing: 12) {
-                                    Image(systemName: pack.icon)
-                                        .font(.title3)
-                                        .foregroundColor(.fizOrange)
-                                        .frame(width: 28)
+                            let isCompleted = answeredQuestionsManager.areAllTopicQuestionsAnswered(
+                                pack.packId,
+                                in: gameViewModel.questions,
+                                difficultyMode: difficultyManager.selectedDifficulty
+                            )
+                            let answeredCount = answeredQuestionsManager.getAnsweredCountForTopic(
+                                pack.packId,
+                                in: gameViewModel.questions,
+                                difficultyMode: difficultyManager.selectedDifficulty
+                            )
+                            let totalCount = answeredQuestionsManager.getTotalQuestionsForTopic(
+                                pack.packId,
+                                in: gameViewModel.questions,
+                                difficultyMode: difficultyManager.selectedDifficulty
+                            )
 
-                                    VStack(alignment: .leading, spacing: 2) {
-                                        Text(pack.packName)
-                                            .font(.body)
-                                            .foregroundColor(.primary)
-
-                                        Text("\(pack.freePreviewCount) preview questions")
-                                            .font(.caption)
-                                            .foregroundColor(.secondary)
+                            VStack(spacing: 0) {
+                                // Main pack row
+                                Button(action: {
+                                    if !isCompleted {
+                                        handleTopicSelection(pack.packId)
+                                    } else {
+                                        HapticManager.shared.notificationOccurred(type: .warning)
                                     }
-
-                                    Spacer()
-
-                                    if localSelectedTopic == pack.packId {
-                                        Image(systemName: "checkmark.circle.fill")
+                                }) {
+                                    HStack(spacing: 12) {
+                                        Image(systemName: pack.icon)
                                             .font(.title3)
-                                            .foregroundColor(.fizOrange)
+                                            .foregroundColor(isCompleted ? .secondary : .fizOrange)
+                                            .frame(width: 28)
+
+                                        VStack(alignment: .leading, spacing: 2) {
+                                            Text(pack.packName)
+                                                .font(.body)
+                                                .foregroundColor(isCompleted ? .secondary : .primary)
+                                                .strikethrough(isCompleted)
+
+                                            HStack(spacing: 4) {
+                                                Text("\(answeredCount)/\(totalCount) preview questions")
+                                                    .font(.caption)
+                                                    .foregroundColor(.secondary)
+
+                                                if isCompleted {
+                                                    Text("• Completed")
+                                                        .font(.caption)
+                                                        .foregroundColor(.fizTeal)
+                                                        .fontWeight(.semibold)
+                                                }
+                                            }
+                                        }
+
+                                        Spacer()
+
+                                        if localSelectedTopic == pack.packId && !isCompleted {
+                                            Image(systemName: "checkmark.circle.fill")
+                                                .font(.title3)
+                                                .foregroundColor(.fizOrange)
+                                        } else if isCompleted {
+                                            Image(systemName: "checkmark.circle.fill")
+                                                .font(.title3)
+                                                .foregroundColor(.fizTeal)
+                                        }
                                     }
+                                    .contentShape(Rectangle())
+                                    .opacity(isCompleted ? 0.6 : 1.0)
                                 }
-                                .contentShape(Rectangle())
+                                .buttonStyle(.plain)
+                                .disabled(isCompleted)
+
+                                // Reset button (only show if there are answered questions)
+                                if answeredCount > 0 {
+                                    Divider()
+                                        .padding(.leading, 40)
+
+                                    Button(action: {
+                                        topicToReset = pack.packId
+                                        topicResetName = pack.packName
+                                        topicResetCount = answeredCount
+                                        showingTopicResetAlert = true
+                                    }) {
+                                        HStack {
+                                            Image(systemName: "arrow.counterclockwise")
+                                                .font(.caption)
+                                            Text("Reset Progress")
+                                                .font(.caption)
+                                        }
+                                        .foregroundColor(.orange)
+                                        .padding(.vertical, 8)
+                                        .frame(maxWidth: .infinity)
+                                    }
+                                    .buttonStyle(.plain)
+                                }
                             }
-                            .buttonStyle(.plain)
                         }
                     }
                 }
@@ -245,6 +379,35 @@ struct GameModesSettingsView: View {
         } message: {
             Text("You currently have a streak of \(gameViewModel.gameSession.currentStreak). Would you like to save it to the leaderboard before switching?")
         }
+        .alert("Reset \(topicResetName)?", isPresented: $showingTopicResetAlert) {
+            Button("Cancel", role: .cancel) {
+                topicToReset = nil
+                topicResetCount = 0
+                topicResetName = ""
+            }
+            Button("Reset", role: .destructive) {
+                if let packId = topicToReset {
+                    answeredQuestionsManager.resetTopicProgress(packId, in: gameViewModel.questions)
+                    HapticManager.shared.buttonTapEffect()
+
+                    AnalyticsManager.shared.trackSettingChanged(
+                        setting: "topic_progress_reset",
+                        value: packId
+                    )
+
+                    // Clear if this was the selected topic
+                    if localSelectedTopic == packId {
+                        localSelectedTopic = nil
+                        gameModeManager.setSelectedTopic(nil)
+                    }
+                }
+                topicToReset = nil
+                topicResetCount = 0
+                topicResetName = ""
+            }
+        } message: {
+            Text("This will reset \(topicResetCount) answered question\(topicResetCount == 1 ? "" : "s") for \(topicResetName). You'll be able to answer them again. This action cannot be undone.")
+        }
         .onAppear {
             isInitialLoad = true
             localSelectedMode = gameModeManager.selectedMode
@@ -305,6 +468,18 @@ struct GameModesSettingsView: View {
 
     private func handleTopicSelection(_ packId: String) {
         guard !isInitialLoad && !isApplyingChanges else { return }
+
+        // Check if pack is completed
+        let isCompleted = answeredQuestionsManager.areAllTopicQuestionsAnswered(
+            packId,
+            in: gameViewModel.questions,
+            difficultyMode: difficultyManager.selectedDifficulty
+        )
+
+        if isCompleted {
+            HapticManager.shared.notificationOccurred(type: .warning)
+            return
+        }
 
         // If user taps already selected topic, do nothing
         if localSelectedTopic == packId {

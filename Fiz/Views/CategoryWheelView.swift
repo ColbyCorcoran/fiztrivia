@@ -50,10 +50,11 @@ struct CategoryWheelView: View {
     @State private var dragStartAngle: Double = 0
     @State private var dragCurrentAngle: Double = 0
 
-    // Toast notification for subcategory/category completion
+    // Toast notification for subcategory/category/subtopic completion
     @State private var showingCompletionToast = false
     @State private var completedSubcategoryName = ""
     @State private var completedCategoryName = ""
+    @State private var completedSubtopicName = ""
 
     // New high score tracking
     @State private var achievedNewHighScore = false
@@ -447,11 +448,25 @@ struct CategoryWheelView: View {
             wheelLayer(geometry: geometry)
             homeBarGradient
 
-            // Toast notification for subcategory/category completion
+            // Toast notification for subcategory/category/subtopic completion
             if showingCompletionToast {
                 VStack {
                     Spacer()
-                    if !completedSubcategoryName.isEmpty {
+                    if !completedSubtopicName.isEmpty {
+                        VStack(spacing: 8) {
+                            Text("🎉 \(completedSubtopicName) Complete!")
+                                .font(.headline)
+                                .fontWeight(.bold)
+                            Text("This section has been removed from the wheel")
+                                .font(.subheadline)
+                        }
+                        .padding()
+                        .background(Color.black.opacity(0.8))
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding(.bottom, 200)
+                        .padding(.horizontal, 20)
+                    } else if !completedSubcategoryName.isEmpty {
                         VStack(spacing: 8) {
                             Text("🎉 \(completedSubcategoryName) Complete!")
                                 .font(.headline)
@@ -534,8 +549,8 @@ struct CategoryWheelView: View {
             Button("Maybe Later") {
                 HapticManager.shared.buttonTapEffect()
                 gameViewModel.showPreviewPackCompletionAlert = false
-                // Navigate to Game Modes Settings
-                gameViewModel.showSettings()
+                // Navigate directly to Game Modes Settings
+                gameViewModel.showGameModeSettings()
             }
         } message: {
             if let packId = gameViewModel.completedPreviewPackId,
@@ -1350,6 +1365,33 @@ struct CategoryWheelView: View {
                     completedCategoryName = ""
                 }
             }
+        } else if gameModeManager.isSingleTopicMode,
+                  let subtopic = currentQuestion?.subtopic,
+                  let topicId = gameModeManager.selectedTopic {
+            // Check for subtopic completion in Single Topic Mode
+            if areAllSubtopicQuestionsAnswered(subtopic: subtopic, topicId: topicId) {
+                completedSubtopicName = subtopic
+                completedSubcategoryName = ""
+                completedCategoryName = ""
+                withAnimation {
+                    showingCompletionToast = true
+                }
+
+                let questionsAnswered = getAnsweredCountForSubtopic(subtopic: subtopic, topicId: topicId)
+                AnalyticsManager.shared.trackCategoryCompleted(
+                    category: subtopic,
+                    difficultyMode: difficultyManager.selectedDifficulty.rawValue,
+                    questionsAnswered: questionsAnswered
+                )
+
+                // Auto-dismiss toast after 3 seconds
+                DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                    withAnimation {
+                        showingCompletionToast = false
+                        completedSubtopicName = ""
+                    }
+                }
+            }
         }
 
         // Show result
@@ -1404,6 +1446,34 @@ struct CategoryWheelView: View {
             answerResult = .unanswered
             navigationButtonsDisabled = false
         }
+    }
+
+    // MARK: - Subtopic Completion Helpers
+
+    private func areAllSubtopicQuestionsAnswered(subtopic: String, topicId: String) -> Bool {
+        let subtopicQuestions = gameViewModel.questions.filter { question in
+            question.topic == topicId &&
+            question.subtopic == subtopic &&
+            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty) &&
+            !phobiaManager.isQuestionExcluded(question.id)
+        }
+
+        if subtopicQuestions.isEmpty {
+            return true
+        }
+
+        return subtopicQuestions.allSatisfy { answeredQuestionsManager.isQuestionAnswered($0.id) }
+    }
+
+    private func getAnsweredCountForSubtopic(subtopic: String, topicId: String) -> Int {
+        let subtopicQuestions = gameViewModel.questions.filter { question in
+            question.topic == topicId &&
+            question.subtopic == subtopic &&
+            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty) &&
+            !phobiaManager.isQuestionExcluded(question.id)
+        }
+
+        return subtopicQuestions.filter { answeredQuestionsManager.isQuestionAnswered($0.id) }.count
     }
 
     private var newHighScoreToastView: some View {

@@ -8376,22 +8376,6 @@
       "difficulty": "hard"
     },
     {
-      "id": "pkm_paid_471",
-      "category": "Technology",
-      "subcategory": "Video Games",
-      "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Types & Evolution",
-      "question": "What item is needed to evolve Eevee into Espeon or Umbreon?",
-      "options": [
-        "Moon Stone",
-        "High friendship and time of day",
-        "Sun Stone",
-        "Shiny Stone"
-      ],
-      "correct_answer": "High friendship and time of day",
-      "difficulty": "medium"
-    },
-    {
       "id": "pkm_paid_472",
       "category": "Technology",
       "subcategory": "Video Games",
@@ -8408,19 +8392,35 @@
       "difficulty": "hard"
     },
     {
-      "id": "pkm_paid_473",
+      "id": "pkm_paid_474",
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
-      "question": "What is the only Pokémon that can learn the move Sketch?",
+      "subtopic": "Types & Evolution",
+      "question": "What item causes Porygon to evolve into Porygon2?",
       "options": [
-        "Smeargle",
-        "Ditto",
-        "Mew",
-        "Arceus"
+        "Up-Grade",
+        "Dubious Disc",
+        "Metal Coat",
+        "Dragon Scale"
       ],
-      "correct_answer": "Smeargle",
+      "correct_answer": "Up-Grade",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pkm_paid_475",
+      "category": "Technology",
+      "subcategory": "Video Games",
+      "topic": "com.fiz.pack.pokemon",
+      "subtopic": "Games",
+      "question": "What is the name of the player's mother in Pokémon Gold and Silver?",
+      "options": [
+        "Delia",
+        "Grace",
+        "She has no name",
+        "Johanna"
+      ],
+      "correct_answer": "She has no name",
       "difficulty": "medium"
     }
   ],

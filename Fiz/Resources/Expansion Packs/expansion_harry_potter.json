@@ -854,22 +854,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "hp_preview_053",
-      "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Characters",
-      "question": "Who is the Half-Blood Prince?",
-      "options": [
-        "Severus Snape",
-        "Tom Riddle",
-        "Draco Malfoy",
-        "Albus Dumbledore"
-      ],
-      "correct_answer": "Severus Snape",
-      "difficulty": "medium"
-    },
-    {
       "id": "hp_preview_054",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
@@ -886,20 +870,36 @@
       "difficulty": "easy"
     },
     {
-      "id": "hp_preview_055",
+      "id": "hp_preview_056",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Magical Creatures",
-      "question": "What creature can only be seen by those who have witnessed death?",
+      "subtopic": "Books & Plot",
+      "question": "What does Hermione give Harry for his birthday in Philosopher's Stone?",
       "options": [
-        "Dementors",
-        "Thestrals",
-        "Boggarts",
-        "Grindylows"
+        "A broomstick servicing kit",
+        "A book",
+        "A watch",
+        "Chocolate frogs"
       ],
-      "correct_answer": "Thestrals",
-      "difficulty": "medium"
+      "correct_answer": "A broomstick servicing kit",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_preview_057",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Characters",
+      "question": "What is the name of Dudley Dursley's gang leader friend?",
+      "options": [
+        "Malcolm",
+        "Piers",
+        "Dennis",
+        "Gordon"
+      ],
+      "correct_answer": "Piers",
+      "difficulty": "hard"
     }
   ],
   "paidQuestions": [
@@ -8616,22 +8616,6 @@
       "difficulty": "hard"
     },
     {
-      "id": "hp_paid_519",
-      "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Spells & Magic",
-      "question": "What spell creates a Patronus?",
-      "options": [
-        "Expecto Patronum",
-        "Protego",
-        "Riddikulus",
-        "Lumos Maxima"
-      ],
-      "correct_answer": "Expecto Patronum",
-      "difficulty": "easy"
-    },
-    {
       "id": "hp_paid_520",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
@@ -8661,22 +8645,6 @@
         "Deathly Hallows"
       ],
       "correct_answer": "Order of the Phoenix",
-      "difficulty": "medium"
-    },
-    {
-      "id": "hp_paid_522",
-      "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Magical Creatures",
-      "question": "What type of dragon does Harry face in the Triwizard Tournament?",
-      "options": [
-        "Norwegian Ridgeback",
-        "Hungarian Horntail",
-        "Chinese Fireball",
-        "Swedish Short-Snout"
-      ],
-      "correct_answer": "Hungarian Horntail",
       "difficulty": "medium"
     },
     {
@@ -8776,22 +8744,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "hp_paid_529",
-      "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Magical Creatures",
-      "question": "What creature is Aragog?",
-      "options": [
-        "Basilisk",
-        "Acromantula",
-        "Werewolf",
-        "Hippogriff"
-      ],
-      "correct_answer": "Acromantula",
-      "difficulty": "hard"
-    },
-    {
       "id": "hp_paid_530",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
@@ -8822,6 +8774,54 @@
       ],
       "correct_answer": "Griphook",
       "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_532",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Wizarding World",
+      "question": "What platform do you take to board the Hogwarts Express?",
+      "options": [
+        "Platform 8 3/4",
+        "Platform 9 3/4",
+        "Platform 10 3/4",
+        "Platform 7 3/4"
+      ],
+      "correct_answer": "Platform 9 3/4",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hp_paid_533",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Characters",
+      "question": "What form does Tonks's Patronus take after falling in love?",
+      "options": [
+        "Wolf",
+        "Otter",
+        "Doe",
+        "Jack Russell terrier"
+      ],
+      "correct_answer": "Wolf",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hp_paid_534",
+      "category": "Entertainment",
+      "subcategory": "Sci-Fi/Fantasy",
+      "topic": "com.fiz.pack.harry_potter",
+      "subtopic": "Movies",
+      "question": "What actress plays Luna Lovegood?",
+      "options": [
+        "Bonnie Wright",
+        "Evanna Lynch",
+        "Katie Leung",
+        "Clemence Poesy"
+      ],
+      "correct_answer": "Evanna Lynch",
+      "difficulty": "medium"
     }
   ],
   "isPublished": true,

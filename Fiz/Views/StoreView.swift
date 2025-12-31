@@ -96,12 +96,16 @@ struct StoreView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
+                    Button(action: {
                         dismiss()
+                    }) {
+                        Image(systemName: "checkmark")
+                            .font(.body.weight(.semibold))
                     }
-                    .foregroundColor(.fizOrange)
+                    .tint(.fizOrange)
                 }
             }
+            .presentationDragIndicator(.visible)
             .alert("Purchases Restored", isPresented: $showingRestoreAlert) {
                 Button("OK", role: .cancel) { }
             } message: {

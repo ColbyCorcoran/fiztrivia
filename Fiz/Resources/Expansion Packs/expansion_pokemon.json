@@ -8312,5 +8312,14 @@
       "difficulty": "hard"
     }
   ],
-  "isPublished": true
+  "isPublished": true,
+  "subtopicIcons": {
+    "Pokémon Species": "sparkles",
+    "Games": "gamecontroller.fill",
+    "Moves & Abilities": "bolt.fill",
+    "Trainers & Characters": "person.2.fill",
+    "Anime & Movies": "tv.fill",
+    "Types & Evolution": "arrow.triangle.2.circlepath",
+    "Regions & Locations": "map.fill"
+  }
 }

@@ -86,19 +86,18 @@ struct CategoryWheelView: View {
             // Get subtopics for the selected expansion pack
             let subtopics = gameModeManager.getSubtopicsForSelectedTopic()
 
-            // Get the pack to access its icon/color
+            // Get the pack to access its icons
             let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == gameModeManager.selectedTopic })
-            let packIcon = pack?.icon ?? "star.fill"
 
-            // Create simple color palette for subtopics (cycling through colors)
-            let subtopicColors = ["D97639", "8B4513", "CD853F", "DAA520", "B8860B", "D2691E"]
+            // Create segments with individual subtopic icons and placeholder colors
+            baseSegments = subtopics.map { subtopic in
+                // Use subtopic-specific icon if available, otherwise fall back to pack icon
+                let subtopicIcon = pack?.icon(for: subtopic) ?? "star.fill"
 
-            baseSegments = subtopics.enumerated().map { index, subtopic in
-                let colorIndex = index % subtopicColors.count
                 return WheelSegmentData(
                     name: subtopic,
-                    icon: packIcon,
-                    color: subtopicColors[colorIndex],
+                    icon: subtopicIcon,  // Individual subtopic icon
+                    color: "#FFFFFF",  // Placeholder - will be replaced by smart color logic
                     subcategory: subtopic // Using subcategory field to store subtopic
                 )
             }
@@ -112,7 +111,7 @@ struct CategoryWheelView: View {
                     return WheelSegmentData(
                         name: subcategory.name,
                         icon: subcategory.icon,
-                        color: subcategory.color,
+                        color: "#FFFFFF",  // Placeholder - will be replaced by smart color logic
                         subcategory: subcategory.name
                     )
                 }
@@ -179,22 +178,7 @@ struct CategoryWheelView: View {
         allSegments: [WheelSegmentData],
         assignedColors: [String]
     ) -> String {
-        // For subcategory mode, just use the segment's color
-        guard segment.subcategory == nil else {
-            return segment.color
-        }
-
-        // Get the category for this segment
-        guard let category = TriviaCategory(rawValue: segment.name) else {
-            return segment.color
-        }
-
-        // If it's a locked category, always use its specific color
-        if category.isColorLocked {
-            return category.color
-        }
-
-        // For flexible categories, apply smart logic based on number of segments
+        // Shared color palette for all segment types
         let colorPalette = [
             "#F7B500",  // Gold
             "#FF7F0F",  // Orange
@@ -204,6 +188,43 @@ struct CategoryWheelView: View {
             "#E91E63"   // Pink
         ]
 
+        // For subcategories and subtopics, always apply smart logic
+        if segment.subcategory != nil {
+            // Subcategories/subtopics are always flexible - use smart color assignment
+            if totalSegments <= 6 {
+                // 2-6 segments: Ensure NO duplicate colors
+                return assignUniqueColorForFlexible(
+                    currentIndex: index,
+                    allSegments: allSegments,
+                    assignedColors: assignedColors,
+                    palette: colorPalette,
+                    defaultColor: colorPalette[index % colorPalette.count]
+                )
+            } else {
+                // 7+ segments: Avoid adjacent same colors
+                return assignNonAdjacentColorForFlexible(
+                    for: index,
+                    totalSegments: totalSegments,
+                    allSegments: allSegments,
+                    assignedColors: assignedColors,
+                    palette: colorPalette,
+                    defaultColor: colorPalette[index % colorPalette.count]
+                )
+            }
+        }
+
+        // For categories, use existing logic
+        guard let category = TriviaCategory(rawValue: segment.name) else {
+            // Fallback: use palette cycling
+            return colorPalette[index % colorPalette.count]
+        }
+
+        // If it's a locked category, always use its specific color
+        if category.isColorLocked {
+            return category.color
+        }
+
+        // For flexible categories, apply smart logic based on number of segments
         if totalSegments <= 6 {
             // 2-6 categories: Ensure NO duplicate colors
             return assignUniqueColor(
@@ -313,6 +334,64 @@ struct CategoryWheelView: View {
 
         // Final fallback (should never reach here)
         return category.color
+    }
+
+    // MARK: - Flexible Segment Color Assignment (Subcategories & Subtopics)
+
+    private func assignUniqueColorForFlexible(
+        currentIndex: Int,
+        allSegments: [WheelSegmentData],
+        assignedColors: [String],
+        palette: [String],
+        defaultColor: String
+    ) -> String {
+        // Colors already assigned to previous segments
+        let usedColors = Set(assignedColors)
+
+        // Try to use a unique color from the palette
+        for color in palette {
+            if !usedColors.contains(color) {
+                return color
+            }
+        }
+
+        // Fallback: use default color (cycling through palette)
+        return defaultColor
+    }
+
+    private func assignNonAdjacentColorForFlexible(
+        for index: Int,
+        totalSegments: Int,
+        allSegments: [WheelSegmentData],
+        assignedColors: [String],
+        palette: [String],
+        defaultColor: String
+    ) -> String {
+        let usedColors = Set(assignedColors)
+        var adjacentColors: Set<String> = []
+
+        // Get previous segment's color (already assigned)
+        let prevIndex = (index - 1 + totalSegments) % totalSegments
+        if prevIndex < assignedColors.count && prevIndex >= 0 {
+            adjacentColors.insert(assignedColors[prevIndex])
+        }
+
+        // Priority 1: Find unused color that's not adjacent
+        for color in palette {
+            if !usedColors.contains(color) && !adjacentColors.contains(color) {
+                return color
+            }
+        }
+
+        // Priority 2: Find any color that's not adjacent (even if used)
+        for color in palette {
+            if !adjacentColors.contains(color) {
+                return color
+            }
+        }
+
+        // Fallback: use default color
+        return defaultColor
     }
 
     // MARK: - Dynamic Type & Accessibility

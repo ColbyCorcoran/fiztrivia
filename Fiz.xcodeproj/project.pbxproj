@@ -23,8 +23,6 @@
 		B66F02DC2F043F6E007B0E79 /* PhobiaSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DB2F043F6E007B0E79 /* PhobiaSettingsView.swift */; };
 		B66F02DF2F04BE1C007B0E79 /* SecondaryOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DD2F04BE1C007B0E79 /* SecondaryOnboardingView.swift */; };
 		B66F02E02F04BE1C007B0E79 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DE2F04BE1C007B0E79 /* WhatsNewView.swift */; };
-		B66F02E92F057417007B0E79 /* expansion_marvel_starter.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E42F057417007B0E79 /* expansion_marvel_starter.json */; };
-		B66F02ED2F057417007B0E79 /* expansion_pixar.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02E52F057417007B0E79 /* expansion_pixar.json */; };
 		B66F02F02F05742A007B0E79 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02EF2F05742A007B0E79 /* StoreManager.swift */; };
 		B66F02F22F057440007B0E79 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02F12F057440007B0E79 /* StoreView.swift */; };
 		B66F02F42F057461007B0E79 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = B66F02F32F057461007B0E79 /* Configuration.storekit */; };
@@ -96,8 +94,6 @@
 		B66F02DB2F043F6E007B0E79 /* PhobiaSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhobiaSettingsView.swift; sourceTree = "<group>"; };
 		B66F02DD2F04BE1C007B0E79 /* SecondaryOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryOnboardingView.swift; sourceTree = "<group>"; };
 		B66F02DE2F04BE1C007B0E79 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
-		B66F02E42F057417007B0E79 /* expansion_marvel_starter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_marvel_starter.json; sourceTree = "<group>"; };
-		B66F02E52F057417007B0E79 /* expansion_pixar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = expansion_pixar.json; sourceTree = "<group>"; };
 		B66F02EF2F05742A007B0E79 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
 		B66F02F12F057440007B0E79 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		B66F02F32F057461007B0E79 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
@@ -145,11 +141,6 @@
 		B66F02F52F0577EE007B0E79 /* Expansion Packs */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Expansion Packs";
-			sourceTree = "<group>";
-		};
-		B66F03002F0580BA007B0E79 /* Preview Packs */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Preview Packs";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -260,12 +251,9 @@
 		B68C5A792EBD2A5400C2A449 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B66F03002F0580BA007B0E79 /* Preview Packs */,
 				B66F02F52F0577EE007B0E79 /* Expansion Packs */,
 				B68C5A772EBD2A5400C2A449 /* questions.json */,
 				B66F02D32F02EDD8007B0E79 /* questions_expansions.json */,
-				B66F02E42F057417007B0E79 /* expansion_marvel_starter.json */,
-				B66F02E52F057417007B0E79 /* expansion_pixar.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -344,7 +332,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B66F02F52F0577EE007B0E79 /* Expansion Packs */,
-				B66F03002F0580BA007B0E79 /* Preview Packs */,
 			);
 			name = Fiz;
 			packageProductDependencies = (
@@ -449,8 +436,6 @@
 				B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */,
 				B68C5A8B2EBD2BB200C2A449 /* questions.json in Resources */,
 				B6B0E3782EC5075F007873A8 /* AppIcon-NewHighScore.png in Resources */,
-				B66F02E92F057417007B0E79 /* expansion_marvel_starter.json in Resources */,
-				B66F02ED2F057417007B0E79 /* expansion_pixar.json in Resources */,
 				B6B0E3792EC5075F007873A8 /* AppIcon-Leaderboard@2x.png in Resources */,
 				B6B0E37A2EC5075F007873A8 /* AppIcon-HappySmirk@3x.png in Resources */,
 				B6B0E37B2EC5075F007873A8 /* AppIcon-NewHighScore@2x.png in Resources */,

@@ -8488,5 +8488,14 @@
       "difficulty": "hard"
     }
   ],
-  "isPublished": true
+  "isPublished": true,
+  "subtopicIcons": {
+    "Characters": "person.3.fill",
+    "Spells & Magic": "wand.and.stars",
+    "Hogwarts": "building.2.fill",
+    "Books & Plot": "book.fill",
+    "Movies": "film.fill",
+    "Magical Creatures": "hare.fill",
+    "Wizarding World": "globe.europe.africa.fill"
+  }
 }

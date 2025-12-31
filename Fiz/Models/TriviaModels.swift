@@ -1634,6 +1634,7 @@ struct ExpansionPack: Codable, Identifiable {
     let price: Double
     let icon: String  // SF Symbol for pack (e.g., "wand.and.stars")
     let isPublished: Bool  // Whether pack should appear in UI (default: true for backward compatibility)
+    let subtopicIcons: [String: String]?  // Optional mapping of subtopic name → SF Symbol icon
     let freePreviewQuestions: [TriviaQuestion]
     let paidQuestions: [TriviaQuestion]
 
@@ -1641,8 +1642,13 @@ struct ExpansionPack: Codable, Identifiable {
         return freePreviewQuestions + paidQuestions
     }
 
+    /// Get icon for a specific subtopic, falling back to pack icon if not specified
+    func icon(for subtopic: String) -> String {
+        return subtopicIcons?[subtopic] ?? icon
+    }
+
     private enum CodingKeys: String, CodingKey {
-        case packId, packName, packDescription, subtopics, questionCount, freePreviewCount, difficulty, price, icon, isPublished, freePreviewQuestions, paidQuestions
+        case packId, packName, packDescription, subtopics, questionCount, freePreviewCount, difficulty, price, icon, isPublished, subtopicIcons, freePreviewQuestions, paidQuestions
     }
 
     init(from decoder: Decoder) throws {
@@ -1660,6 +1666,8 @@ struct ExpansionPack: Codable, Identifiable {
         self.icon = try container.decode(String.self, forKey: .icon)
         // Default to true for backward compatibility with existing packs
         self.isPublished = try container.decodeIfPresent(Bool.self, forKey: .isPublished) ?? true
+        // Optional subtopic icons (defaults to nil if not present)
+        self.subtopicIcons = try container.decodeIfPresent([String: String].self, forKey: .subtopicIcons)
         self.freePreviewQuestions = try container.decode([TriviaQuestion].self, forKey: .freePreviewQuestions)
         self.paidQuestions = try container.decode([TriviaQuestion].self, forKey: .paidQuestions)
     }

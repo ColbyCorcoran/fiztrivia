@@ -6423,5 +6423,13 @@
       "difficulty": "hard"
     }
   ],
-  "isPublished": true
+  "isPublished": true,
+  "subtopicIcons": {
+    "Movies": "film.fill",
+    "Music": "music.note",
+    "TV Shows": "tv.fill",
+    "Sports": "sportscourt.fill",
+    "History": "clock.arrow.circlepath",
+    "Pop Culture": "star.fill"
+  }
 }

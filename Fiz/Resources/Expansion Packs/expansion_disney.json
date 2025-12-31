@@ -8022,5 +8022,12 @@
       "difficulty": "hard"
     }
   ],
-  "isPublished": true
+  "isPublished": true,
+  "subtopicIcons": {
+    "Animated Classics": "sparkles",
+    "Live Action": "film.fill",
+    "Parks": "building.2.circle.fill",
+    "Characters": "theatermasks.fill",
+    "Songs": "music.note"
+  }
 }

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Fiz is a SwiftUI iOS application that provides an interactive trivia game experience. The app features a spinning wheel for category selection, inline question display, automatic streak tracking, personalized user experience, difficulty modes, single-category focus mode, runtime app icon customization, privacy-first analytics, and persistent leaderboard storage across 7 reorganized categories with detailed subcategory organization.
+Fiz is a SwiftUI iOS application that provides an interactive trivia game experience. The app features a spinning wheel for category selection, inline question display, automatic streak tracking, personalized user experience, difficulty modes, game mode system (Regular, Single Category, Single Topic), **IAP expansion packs** with topic-based gameplay, runtime app icon customization, privacy-first analytics, and persistent leaderboard storage across 12 categories with detailed subcategory organization.
 
 ## Build and Development Commands
 
@@ -31,10 +31,18 @@ The app uses **MVVM (Model-View-ViewModel)** architecture with SwiftUI and follo
 5. **Pull-to-Spin Gesture**: Enhanced interaction with drag-to-spin functionality
 6. **Personalized Experience**: Username-based messaging, onboarding flow, and runtime app icon customization
 7. **Difficulty Filtering**: Configurable question difficulty modes (Casual, Normal, Difficult)
-8. **Single Category Mode**: Optional focused gameplay on subcategories within a single category
-9. **Privacy-First Analytics**: Opt-out by default PostHog integration with user consent management
-10. **iOS Version Adaptability**: Native iOS 26 glass buttons with iOS 18 fallback styling
-11. **Adaptive Question Display**: Questions display inline by default, but automatically switch to scrollable modal for Dynamic Type sizes of .accessibility3 and above, ensuring content remains readable for users with large text preferences
+8. **Game Mode System**: Three distinct modes with mode-specific state management
+   - **Regular Mode**: Mix of all selected categories
+   - **Single Category Mode**: Focus on subcategories within one category
+   - **Single Topic Mode**: Focus on subtopics from purchased expansion packs
+9. **Expansion Pack System**: IAP-based topic packs with optional install/uninstall
+   - One-time purchases with Family Sharing support
+   - Free preview questions (10% per pack)
+   - Bundled in app (JSON files, not downloads)
+   - Seamless integration into existing categories
+10. **Privacy-First Analytics**: Opt-out by default PostHog integration with user consent management
+11. **iOS Version Adaptability**: Native iOS 26 glass buttons with iOS 18 fallback styling
+12. **Adaptive Question Display**: Questions display inline by default, but automatically switch to scrollable modal for Dynamic Type sizes of .accessibility3 and above, ensuring content remains readable for users with large text preferences
 
 ### State Management Flow
 ```
@@ -49,13 +57,16 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 ### Data Models
 
 **Core Models** (`TriviaModels.swift`):
-- `TriviaQuestion` - Individual trivia question with category, subcategory, options, correct answer, difficulty
-- `TriviaCategory` - Enum of 7 categories (Entertainment, Sports, Bible, History, Science, Earth, Food) with icons and colors
+- `TriviaQuestion` - Individual trivia question with category, subcategory, topic, subtopic, options, correct answer, difficulty
+- `TriviaCategory` - Enum of 12 categories (Entertainment, Sports, Music, Technology, Art, Geography, Science, Literature, Nature, History, Bible, Food) with icons and colors
 - `GameSession` - Current game state with persistent streak tracking
 - `LeaderboardEntry` - SwiftData model for persistent streak storage showing all achievements
 - `GameState` - Simplified navigation state enum (3 states)
 - `AnswerState` - Question result state (unanswered, correct, incorrect)
 - `DifficultyMode` - Question difficulty filtering (Casual, Normal, Difficult)
+- `GameMode` - Game mode enum (Regular, Single Category, Single Topic)
+- `ExpansionPack` - Expansion pack model with packId, packName, subtopics, questions, pricing
+- `DifficultyBreakdown` - Question distribution by difficulty level
 
 **Subcategory System**:
 - `TriviaSubcategory` - Protocol defining subcategory interface with name, icon, and color
@@ -66,42 +77,63 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - `DifficultyManager` - Persistent difficulty preference management
 - `StreakPersistenceManager` - Cross-session streak persistence
 - `AnsweredQuestionsManager` - Tracks answered questions across sessions with completion calculations
-- `SingleCategoryModeManager` - Manages single-category focus mode with subcategory filtering
+- `GameModeManager` - Manages game mode state (Regular, Single Category, Single Topic) with mode-specific settings
+- `ExpansionPackManager` - Manages expansion pack state (available, purchased, installed), loads pack JSONs
+- `StoreManager` - StoreKit 2 integration for IAP purchases, transaction verification, Family Sharing
 - `HapticSettingsManager` - User haptic feedback preferences
 - `AppIconManager` - Runtime app icon switching (6 variants: Correct, Regular Pose, Happy Smirk, Incorrect, Leaderboard, New High Score)
+- `AnalyticsManager` - Privacy-conscious PostHog analytics integration
 
 ### Question Database Structure
 
-**Current Database (as of last update): 2,107 total questions**
+**Current Database (as of last update): 2,107 base questions + expansion packs**
 
-**Reorganized Categories** (7 total categories):
-- **Entertainment** (307 questions): Harry Potter, Marvel, DC, Star Wars, Pokémon, Superheroes, Pixar, etc.
-- **Sports** (300 questions): Football, Basketball, Baseball, Tennis, Olympics, Hockey, Soccer, Golf
-- **Bible** (300 questions): Old Testament, New Testament, Biblical History, Biblical Theology, Biblical Languages, Bible Trivia
-- **History** (300 questions): Ancient, Medieval, Modern, Church History
-- **Science** (300 questions): Physics, Chemistry, Biology, Astronomy
-- **Earth** (300 questions): Animals, Geography, Weather, Plants, Trees
-- **Food** (300 questions): Ingredients, Dishes, Famous Chefs/Restaurants, Cuisines, Baking, Beverages, Desserts, Cooking Techniques, Food History, Sauces & Condiments
+**Main Categories** (12 total categories):
+- **Entertainment**: Animation, Sci-Fi/Fantasy, Action/Adventure, Drama/Comedy
+- **Sports**: Team Sports, Individual Sports, International Competition, Extreme & Action Sports, Sports History & Records, Athletes & Biography
+- **Music**: History & Eras, Musicians & Bands, Awards & Records, Instruments & Theory, Film & TV
+- **Technology**: Video Games, Computers & Software, Internet & Social Media, Tech Companies, Inventions
+- **Art**: Famous Painters, Art History & Movements, Sculpture, Architecture, Photography
+- **Geography**: U.S. Geography, World Geography, Flags, Landmarks & Monuments, Maps & Borders
+- **Science**: Biology, Chemistry, Physics, Astronomy
+- **Literature**: Fantasy Literature, Classic Literature, Modern Fiction, Poetry, Children's Books, Authors & Biography
+- **Nature**: Trees, Weather, Plants & Flowers, Animals & Wildlife, Oceans & Marine Life
+- **History**: Modern History, Ancient History, Medieval History, Church History
+- **Bible**: Bible Trivia, Biblical History, Biblical Theology, Bible Languages
+- **Food**: Ingredients, Baking & Desserts, Cooking, Food History, Dishes & Cuisines, Beverages
 
-**Question ID System**:
-- Entertainment: `ent_001` through `ent_307`
-- Sports: `spt_001` through `spt_326`
-- Bible: `bib_001` through `bib_327`
-- History: `his_001` through `his_314`
-- Science: `sci_001` through `sci_324`
-- Earth: `ear_001` through `ear_317`
-- Food: `foo_001` through `foo_307`
+**Expansion Packs** (5 launch packs):
+1. **Harry Potter** (500 questions, $2.99) - Subtopics: Characters, Spells, Locations, Books, Movies, Trivia
+2. **Pokémon** (500 questions, $2.99) - Subtopics: Gen 1-3, Gen 4-6, Gen 7-9, Games, Anime, Cards
+3. **80s Trivia** (400 questions, $2.99) - Subtopics: Movies, Music, TV Shows, Sports, History, Pop Culture
+4. **Disney** (500 questions, $2.99) - Subtopics: Animated Classics, Pixar, Live Action, Parks, Characters, Songs
+5. **The Office** (300 questions, $1.99) - Subtopics: Characters, Episodes, Quotes, Relationships, Locations, Trivia
 
-**Question Structure**:
+**Question Structure** (Base Questions):
 ```json
 {
   "id": "ent_001",
   "category": "Entertainment",
-  "subcategory": "Harry Potter",
+  "subcategory": "Animation",
   "question": "What is the name of Harry Potter's owl?",
   "options": ["Hedwig", "Errol", "Pigwidgeon", "Crookshanks"],
   "correct_answer": "Hedwig",
   "difficulty": "easy"
+}
+```
+
+**Question Structure** (Expansion Pack Questions):
+```json
+{
+  "id": "hp_001",
+  "category": "Entertainment",
+  "subcategory": "Sci-Fi/Fantasy",
+  "topic": "com.fiz.pack.harry_potter",
+  "subtopic": "Characters",
+  "question": "What is Hermione Granger's patronus?",
+  "options": ["Otter", "Cat", "Dog", "Horse"],
+  "correct_answer": "Otter",
+  "difficulty": "medium"
 }
 ```
 
@@ -130,7 +162,9 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - **LeaderboardView**: Shows ALL streak achievements (not just top unique) with fixed positioning
 - **SettingsView**: Navigation hub with personalization and game settings sections
 - **PersonalizationSettingsView**: Username editing, app icon selection, haptic toggles, analytics consent
-- **GameSettingsView**: Difficulty mode selection, single-category mode, progress tracking, statistics
+- **GameModesSettingsView**: Game mode selection (Regular, Single Category, Single Topic), mode-specific configuration
+- **StoreView**: Full-screen modal for browsing and purchasing expansion packs with beautiful card UI
+- **StoreManager**: StoreKit 2 implementation for IAP management, transaction verification, Family Sharing
 
 **Shared Question Components**:
 - **QuestionContentView** (`QuestionContentView.swift`): Shared question display component used in both inline and modal contexts. Displays category header, question text, and answer button grid with callback-based answer selection.
@@ -149,20 +183,27 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - Real-time question filtering in both `GameViewModel` and `CategoryWheelView`
 - Settings UI with descriptions for each difficulty mode
 
-### Single Category Mode
+### Game Mode System
+
+**Three Game Modes** (`GameMode` enum):
+1. **Regular Mode**: Mix of all selected categories (default)
+2. **Single Category Mode**: Focus on subcategories within one category
+3. **Single Topic Mode**: Focus on subtopics from purchased expansion packs
 
 **Features**:
-- Optional focus mode for practicing specific categories
-- Wheel displays subcategories instead of main categories when enabled
-- Category selection with remaining question counts
+- Mode-specific wheel configuration (categories, subcategories, or subtopics)
 - Streak preservation alerts when switching modes
-- Progress tracking per subcategory
+- Persistent mode selection across app launches
+- Progress tracking per mode
+- Category/topic selection with remaining question counts
+- Invalid state validation (e.g., ensures selected topic is still installed)
 
-**Implementation** (`SingleCategoryModeManager`):
-- Toggle for enabling/disabling single-category mode
-- Persistent selected category storage
-- Real-time question filtering by subcategory
-- Integration with answered questions tracking
+**Implementation** (`GameModeManager`):
+- Centralized game mode state management
+- Mode-specific settings persistence (selectedCategory, selectedTopic)
+- Real-time question filtering by mode
+- Automatic state validation and cleanup
+- Integration with ExpansionPackManager for topic mode
 
 ### Analytics Integration
 
@@ -269,10 +310,11 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 Fiz/
 ├── FizApp.swift                 # App entry point with SwiftData setup
 ├── ContentView.swift            # Root navigation controller
+├── Configuration.storekit       # StoreKit testing configuration
 ├── Models/
-│   └── TriviaModels.swift       # All data models, managers, enums (664 lines)
+│   └── TriviaModels.swift       # All data models, managers, enums
 ├── ViewModels/
-│   └── GameViewModel.swift      # Core game logic and state (230 lines)
+│   └── GameViewModel.swift      # Core game logic and state
 ├── Views/
 │   ├── CategoryWheelView.swift  # Main single-screen game interface with adaptive modal
 │   ├── QuestionContentView.swift # Shared question rendering component
@@ -280,51 +322,404 @@ Fiz/
 │   ├── QuestionModalView.swift  # Modal wrapper for large text accessibility
 │   ├── LeaderboardView.swift    # Achievement history display
 │   ├── SettingsView.swift       # Settings navigation hub
-│   ├── GameSettingsView.swift   # Game-specific settings
-│   ├── PersonalizationSettingsView.swift # Profile & app icon
-│   └── OnboardingView.swift     # First-time setup
+│   ├── StoreView.swift          # Expansion pack store UI
+│   ├── OnboardingView.swift     # First-time setup
+│   └── Settings/
+│       ├── GameModesSettingsView.swift # Game mode selection & configuration
+│       ├── PersonalizationSettingsView.swift # Profile & app icon
+│       └── [other settings views]
 ├── Utils/
 │   ├── FizColors.swift          # Color palette & hex utilities
 │   ├── ButtonStyles.swift       # iOS 26 glass button styles
 │   ├── HapticManager.swift      # Haptic feedback system
 │   ├── AnalyticsManager.swift   # PostHog integration
+│   ├── StoreManager.swift       # StoreKit 2 IAP integration
 │   └── AccessibilityHelpers.swift # Accessibility extensions
 └── Resources/
-    ├── questions.json           # Trivia database (19,729 lines)
-    ├── questions_backup_20251104_205250.json
-    └── questions_backup_20251112_161007.json
+    ├── questions.json           # Base trivia database
+    ├── expansion_harry_potter.json   # Harry Potter expansion pack
+    ├── expansion_pokemon.json        # Pokémon expansion pack
+    ├── expansion_80s_trivia.json     # 80s Trivia expansion pack
+    ├── expansion_disney.json         # Disney expansion pack
+    └── expansion_the_office.json     # The Office expansion pack
 ```
 
 ### Recent Major Updates
 
-**New Features Added**:
-1. **Single Category Mode** - Focus gameplay on subcategories within a single category
+**Expansion Pack System** (Latest):
+1. **IAP Integration** - StoreKit 2 with modern async/await, Family Sharing support
+2. **Store UI** - Beautiful scrollable store with pack cards, purchase flow, install/uninstall
+3. **Single Topic Mode** - New game mode focusing on expansion pack subtopics
+4. **Expansion Packs** - 5 launch packs with sample data (Harry Potter, Pokémon, 80s Trivia, Disney, The Office)
+5. **Free Previews** - 10% of questions in each pack available to all users
+6. **Game Mode Migration** - Replaced SingleCategoryModeManager with unified GameModeManager
+
+**Previous Features**:
+1. **Game Mode System** - Three modes (Regular, Single Category, Single Topic) with unified management
 2. **App Icon Customization** - Runtime switching between 6 icon variants
 3. **Privacy-First Analytics** - PostHog integration with opt-out by default
-4. **Enhanced Settings Architecture** - Split into PersonalizationSettingsView and GameSettingsView
+4. **Enhanced Settings Architecture** - Reorganized into GameModesSettingsView and PersonalizationSettingsView
 5. **iOS 26 Glass Buttons** - Native glass styling with iOS 18 fallbacks
 6. **Comprehensive Progress Tracking** - Detailed completion statistics per category/subcategory
 7. **Enhanced Subcategory System** - Protocol-based subcategory organization with icons and colors
 
-**New Manager Classes**:
+**Manager Classes Added**:
+- `ExpansionPackManager` - Expansion pack state and question management
+- `StoreManager` - StoreKit 2 IAP integration
+- `GameModeManager` - Unified game mode state management (replaced SingleCategoryModeManager)
+- `AnalyticsManager` - Privacy-conscious PostHog analytics
 - `AnsweredQuestionsManager` - Session-persistent question tracking
-- `SingleCategoryModeManager` - Single-category mode state management
 - `HapticSettingsManager` - User haptic feedback preferences
 - `AppIconManager` - Runtime app icon switching
-- `AnalyticsManager` - Privacy-conscious PostHog analytics
-
-**Enhanced Systems**:
-- **Difficulty Modes**: Simplified to Casual/Normal/Difficult for better UX
-- **Haptic Feedback**: Comprehensive system with celebration patterns
-- **Color System**: Hex-based palette with adaptive light/dark mode
-- **Button Styling**: Version-aware styling system
-- **Accessibility**: Enhanced VoiceOver support and motion preferences
 
 ### Removed Components
 - **MainMenuView.swift**: Deleted - no longer needed with single-screen design
 - **QuestionView.swift**: Deleted - questions now display inline
 - **ResultView.swift**: Deleted - results show inline with auto-clear
 - **Random Trivia category**: Removed - questions redistributed to proper categories
+- **SingleCategoryModeManager**: Migrated to unified GameModeManager
+
+---
+
+## Expansion Pack System
+
+### Architecture Overview
+
+The expansion pack system enables optional IAP topic packs that seamlessly integrate into the existing game. Each pack contains questions organized by **subtopics** that populate the wheel in Single Topic Mode.
+
+**Key Design Principles**:
+- **Bundled in App**: JSON files shipped with the app, not downloads
+- **Optional Install**: Users can uninstall packs they own to save space
+- **Free Previews**: 10% of questions in each pack available to all users
+- **Family Sharing**: One-time purchases shared across family members
+- **Cross-Category**: Topic questions can span multiple main categories
+
+### Data Architecture
+
+**ExpansionPack Model** (`TriviaModels.swift`):
+```swift
+struct ExpansionPack: Codable, Identifiable {
+    let packId: String  // "com.fiz.pack.harry_potter"
+    let packName: String
+    let packDescription: String
+    let subtopics: [String]  // ["Characters", "Spells", "Locations", ...]
+    let questionCount: Int
+    let freePreviewCount: Int
+    let difficulty: DifficultyBreakdown
+    let price: Double
+    let icon: String
+    let freePreviewQuestions: [TriviaQuestion]
+    let paidQuestions: [TriviaQuestion]
+}
+```
+
+**ExpansionPackManager** (`TriviaModels.swift`):
+- Loads all `expansion_*.json` files from bundle on init
+- Tracks purchased pack IDs (synced with StoreKit)
+- Tracks installed pack IDs (user preference, separate from purchase)
+- Provides questions based on purchase/install state
+- Persists state to UserDefaults
+
+**StoreManager** (`Utils/StoreManager.swift`):
+- StoreKit 2 async/await integration
+- Product loading and caching
+- Purchase flow with transaction verification
+- Transaction listener for Family Sharing
+- Restore purchases functionality
+- Automatic sync with ExpansionPackManager
+
+### Pack Structure
+
+**JSON File Format** (`expansion_[name].json`):
+```json
+{
+  "packId": "com.fiz.pack.harry_potter",
+  "packName": "Harry Potter",
+  "packDescription": "Dive deep into the wizarding world...",
+  "subtopics": ["Characters", "Spells", "Locations", "Books", "Movies", "Trivia"],
+  "questionCount": 500,
+  "freePreviewCount": 50,
+  "difficulty": {
+    "easy": 150,
+    "medium": 250,
+    "hard": 100
+  },
+  "price": 2.99,
+  "icon": "wand.and.stars",
+  "freePreviewQuestions": [...],  // 10% of total
+  "paidQuestions": [...]           // Remaining 90%
+}
+```
+
+**Question Tagging**:
+- All questions have `topic` (packId) and `subtopic` fields
+- Questions also have `category` and `subcategory` for proper categorization
+- Example: A Harry Potter question about wands would be:
+  - `category`: "Entertainment"
+  - `subcategory`: "Sci-Fi/Fantasy"
+  - `topic`: "com.fiz.pack.harry_potter"
+  - `subtopic`: "Spells"
+
+### User Flow
+
+**Purchase & Install**:
+1. User opens Store from CategoryWheelView
+2. Browses expansion packs with pricing
+3. Purchases pack via StoreKit 2
+4. Pack auto-installs after purchase
+5. Pack immediately available in Single Topic Mode
+
+**Playing in Single Topic Mode**:
+1. Navigate to Settings → Game Modes
+2. Select "Single Topic" mode
+3. Choose installed pack from picker
+4. Wheel displays pack's subtopics
+5. Questions filtered by topic AND subtopic
+
+**Managing Packs**:
+- **Uninstall**: Owned pack can be uninstalled to save space, questions removed from pool
+- **Reinstall**: Uninstalled pack can be reinstalled anytime (no repurchase)
+- **Restore Purchases**: Syncs purchase state across devices (Family Sharing)
+
+### Integration Points
+
+**GameViewModel**:
+- `loadQuestions()` includes expansion pack questions
+- Merges base questions + free previews + installed packs
+- Questions loaded once at app launch
+
+**CategoryWheelView**:
+- Wheel configuration changes based on game mode
+- Single Topic Mode: displays pack subtopics with pack icon
+- Question filtering by `topic` and `subtopic`
+
+**GameModeManager**:
+- Validates selected topic is still installed
+- Resets to Regular mode if topic becomes unavailable
+- Persists selected topic across launches
+
+**Analytics**:
+- Tracks store views, pack views, purchases
+- Tracks install/uninstall events
+- Tracks topic mode usage
+
+### StoreKit Configuration
+
+**Configuration.storekit** (for testing):
+- 5 non-consumable products
+- Family Sharing enabled
+- Matches pack pricing from JSONs
+
+**Production** (App Store Connect):
+- Create matching product IDs
+- Set actual pricing tiers
+- Enable Family Sharing
+- Add localized descriptions
+
+---
+
+## Adding New Expansion Packs Workflow
+
+Use this workflow when creating new expansion pack content.
+
+### Quick Command
+
+```
+Let's create a new expansion pack: [Pack Name] with [X] questions
+```
+
+### Step-by-Step Process
+
+#### **Phase 1: Pack Design (5 minutes)**
+
+1. **Define Pack Details**
+   - Pack name (e.g., "Star Wars")
+   - Pack ID format: `com.fiz.pack.[lowercase_name]`
+   - Target question count (200-500 recommended)
+   - Price point ($1.99 - $4.99 typical)
+   - SF Symbol icon name
+
+2. **Design Subtopics** (6-8 recommended)
+   - List specific subtopics that will populate the wheel
+   - Ensure good variety and coverage
+   - Examples:
+     - Star Wars: "Original Trilogy", "Prequels", "Sequels", "Characters", "Planets", "Vehicles"
+     - Marvel: "Avengers", "X-Men", "Spider-Man", "Villains", "MCU", "Comics"
+
+3. **Plan Category Distribution**
+   - Identify which main categories questions will use
+   - Tag with appropriate category/subcategory combinations
+   - Topics can span multiple categories (e.g., Star Wars uses Entertainment, Science, History)
+
+#### **Phase 2: Create JSON Structure (2 minutes)**
+
+1. **Create File**: `Fiz/Resources/expansion_[name].json`
+
+2. **Set Up Metadata**:
+```json
+{
+  "packId": "com.fiz.pack.[name]",
+  "packName": "[Display Name]",
+  "packDescription": "[One sentence description for Store UI]",
+  "subtopics": ["Sub 1", "Sub 2", "Sub 3", "Sub 4", "Sub 5", "Sub 6"],
+  "questionCount": 500,
+  "freePreviewCount": 50,
+  "difficulty": {
+    "easy": 150,
+    "medium": 250,
+    "hard": 100
+  },
+  "price": 2.99,
+  "icon": "sf.symbol.name",
+  "freePreviewQuestions": [],
+  "paidQuestions": []
+}
+```
+
+#### **Phase 3: Generate Questions (30-60 minutes for 500 questions)**
+
+1. **Review Existing Packs**
+   - Read sample questions from similar packs
+   - Note ID format, difficulty distribution, question styles
+
+2. **Generate Questions in Batches**
+   - Create 50-100 questions at a time
+   - Distribute across all subtopics evenly
+   - Follow difficulty targets (emphasize medium/hard)
+   - Use ID format: `[prefix]_[number]` (e.g., `hp_001`, `sw_042`)
+
+3. **Question Structure**:
+```json
+{
+  "id": "sw_001",
+  "category": "Entertainment",
+  "subcategory": "Sci-Fi/Fantasy",
+  "topic": "com.fiz.pack.star_wars",
+  "subtopic": "Original Trilogy",
+  "question": "What planet is Luke Skywalker from?",
+  "options": ["Tatooine", "Hoth", "Dagobah", "Endor"],
+  "correct_answer": "Tatooine",
+  "difficulty": "easy"
+}
+```
+
+4. **Content Guidelines**
+   - **Family-friendly**: No violence, sexual content, or graphic material
+   - **Factual**: Based on verifiable canon information
+   - **Varied**: Different question types and angles
+   - **Specific**: Detailed enough to avoid duplicates
+   - **No snakes or spiders**: Never include these topics
+
+5. **Split Free vs Paid**
+   - First 10% of questions → `freePreviewQuestions`
+   - Remaining 90% → `paidQuestions`
+   - Include variety of difficulty in free preview
+
+#### **Phase 4: StoreKit Configuration (2 minutes)**
+
+1. **Update Configuration.storekit**
+   - Add new product entry
+   - Set product ID matching pack ID
+   - Set display price
+   - Enable Family Sharing
+   - Add localized description
+
+2. **Example Entry**:
+```json
+{
+  "displayPrice": "2.99",
+  "familyShareable": true,
+  "internalID": "6736890006",
+  "localizations": [
+    {
+      "description": "[Pack description]",
+      "displayName": "[Pack Name] Expansion Pack",
+      "locale": "en_US"
+    }
+  ],
+  "productID": "com.fiz.pack.[name]",
+  "referenceName": "[Pack Name] Pack",
+  "type": "NonConsumable"
+}
+```
+
+#### **Phase 5: Testing & Verification (5 minutes)**
+
+1. **Validate JSON**
+   - Run Python validation script (if available)
+   - Check structure matches ExpansionPack model
+   - Verify question counts match metadata
+
+2. **Test in App**
+   - Launch app, check Store loads pack
+   - Verify pack card displays correctly
+   - Test "purchase" in sandbox (auto-installs)
+   - Enter Single Topic Mode, select pack
+   - Verify wheel shows subtopics
+   - Spin and answer questions from pack
+   - Verify uninstall/reinstall flow
+
+#### **Phase 6: Commit & Document (3 minutes)**
+
+1. **Commit Pack**:
+```bash
+git add Fiz/Resources/expansion_[name].json Fiz/Configuration.storekit
+git commit -m "Add [Pack Name] expansion pack
+
+New pack: [Pack Name] ([X] questions, $[price])
+Subtopics: [list]
+Difficulty: XE / YM / ZH
+Categories: [list of categories used]
+
+Ready for production IAP setup in App Store Connect"
+```
+
+2. **Update CLAUDE.md**
+   - Add pack to "Expansion Packs" list
+   - Update pack count in Project Overview
+   - Note in Recent Major Updates if significant
+
+### Quality Checklist
+
+Before marking pack complete:
+
+- ✅ JSON file validated and loads in app
+- ✅ All required fields present (packId, subtopics, questions, etc.)
+- ✅ Question count matches metadata
+- ✅ Free preview is exactly 10% of total
+- ✅ Difficulty distribution matches target
+- ✅ All questions have topic + subtopic fields
+- ✅ All questions use valid category/subcategory combinations
+- ✅ StoreKit configuration updated
+- ✅ Pack displays correctly in Store UI
+- ✅ Purchase/install flow tested
+- ✅ Single Topic Mode works with pack
+- ✅ Uninstall/reinstall tested
+- ✅ All questions follow content guidelines
+- ✅ Documentation updated
+
+### Pack Pricing Strategy
+
+**Recommended Pricing Tiers**:
+- **200-300 questions**: $1.99
+- **300-400 questions**: $2.99
+- **400-500 questions**: $3.99
+- **500+ questions**: $4.99
+
+**Special Considerations**:
+- Niche topics can command premium ($3.99-$4.99)
+- Broad appeal topics (Disney, Marvel) → standard pricing
+- Limited appeal (The Office) → lower pricing ($1.99)
+
+### Example Pack Ideas
+
+**Potential Future Packs**:
+- **Star Wars** (500q, $2.99): OT, Prequels, Sequels, Characters, Planets, Vehicles
+- **Marvel** (500q, $2.99): Avengers, X-Men, Spider-Man, Villains, MCU, Comics
+- **Lord of the Rings** (400q, $2.99): Fellowship, Races, Locations, Books, Movies, Lore
+- **Friends** (300q, $1.99): Characters, Episodes, Quotes, Relationships, Locations, Trivia
+- **Soccer/Football** (400q, $2.99): Players, Teams, World Cup, Leagues, History, Records
+- **90s Nostalgia** (400q, $2.99): Movies, Music, TV, Technology, Events, Culture
 
 ---
 

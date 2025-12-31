@@ -143,14 +143,14 @@ class StoreManager: ObservableObject {
     // MARK: - Transaction Listener
 
     private func listenForTransactions() -> Task<Void, Error> {
-        return Task.detached {
+        return Task {
             // Iterate through any transactions that don't come from a direct call to purchase()
             for await result in Transaction.updates {
                 do {
-                    let transaction = try self.checkVerified(result)
+                    let transaction = try checkVerified(result)
 
                     // Deliver products to the user
-                    await self.updatePurchasedProducts()
+                    await updatePurchasedProducts()
 
                     // Always finish a transaction
                     await transaction.finish()

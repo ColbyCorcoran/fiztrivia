@@ -2,7 +2,14 @@
   "packId": "com.fiz.pack.80s_trivia",
   "packName": "80s Trivia",
   "packDescription": "Relive the totally radical 1980s with 400 questions covering movies, music, TV shows, sports, and pop culture from the decade of excess.",
-  "subtopics": ["Movies", "Music", "TV Shows", "Sports", "History", "Pop Culture"],
+  "subtopics": [
+    "Movies",
+    "Music",
+    "TV Shows",
+    "Sports",
+    "History",
+    "Pop Culture"
+  ],
   "questionCount": 400,
   "freePreviewCount": 40,
   "difficulty": {
@@ -20,7 +27,12 @@
       "topic": "80s Trivia",
       "subtopic": "Movies",
       "question": "In 'Back to the Future', what speed must the DeLorean reach to time travel?",
-      "options": ["88 mph", "100 mph", "75 mph", "65 mph"],
+      "options": [
+        "88 mph",
+        "100 mph",
+        "75 mph",
+        "65 mph"
+      ],
       "correct_answer": "88 mph",
       "difficulty": "easy"
     },
@@ -31,7 +43,12 @@
       "topic": "80s Trivia",
       "subtopic": "Music",
       "question": "What year was Michael Jackson's 'Thriller' album released?",
-      "options": ["1982", "1984", "1980", "1986"],
+      "options": [
+        "1982",
+        "1984",
+        "1980",
+        "1986"
+      ],
       "correct_answer": "1982",
       "difficulty": "medium"
     },
@@ -42,9 +59,606 @@
       "topic": "80s Trivia",
       "subtopic": "TV Shows",
       "question": "What was the name of the bar in 'Cheers'?",
-      "options": ["Cheers", "Melville's", "Gary's Tavern", "The Bull & Finch"],
+      "options": [
+        "Cheers",
+        "Melville's",
+        "Gary's Tavern",
+        "The Bull & Finch"
+      ],
       "correct_answer": "Cheers",
       "difficulty": "easy"
+    },
+    {
+      "id": "80s_preview_004",
+      "subtopic": "Movies",
+      "question": "What year was 'The Breakfast Club' released?",
+      "options": [
+        "1985",
+        "1984",
+        "1986",
+        "1987"
+      ],
+      "correct_answer": "1985",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_005",
+      "subtopic": "Movies",
+      "question": "Who played Marty McFly in 'Back to the Future'?",
+      "options": [
+        "Michael J. Fox",
+        "Eric Stoltz",
+        "Tom Cruise",
+        "Matthew Broderick"
+      ],
+      "correct_answer": "Michael J. Fox",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_006",
+      "subtopic": "Movies",
+      "question": "What is E.T.'s favorite candy?",
+      "options": [
+        "Reese's Pieces",
+        "M&Ms",
+        "Skittles",
+        "Smarties"
+      ],
+      "correct_answer": "Reese's Pieces",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_007",
+      "subtopic": "Movies",
+      "question": "Who says 'I'll be back' in 'The Terminator'?",
+      "options": [
+        "Arnold Schwarzenegger",
+        "Sylvester Stallone",
+        "Bruce Willis",
+        "Chuck Norris"
+      ],
+      "correct_answer": "Arnold Schwarzenegger",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_008",
+      "subtopic": "Movies",
+      "question": "What sport is featured in 'The Karate Kid'?",
+      "options": [
+        "Karate",
+        "Kung Fu",
+        "Judo",
+        "Taekwondo"
+      ],
+      "correct_answer": "Karate",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_009",
+      "subtopic": "Movies",
+      "question": "Who directed 'Raiders of the Lost Ark'?",
+      "options": [
+        "Steven Spielberg",
+        "George Lucas",
+        "James Cameron",
+        "Robert Zemeckis"
+      ],
+      "correct_answer": "Steven Spielberg",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_010",
+      "subtopic": "Movies",
+      "question": "What candy company is featured in 'The Goonies'?",
+      "options": [
+        "Baby Ruth",
+        "Snickers",
+        "Milky Way",
+        "Three Musketeers"
+      ],
+      "correct_answer": "Baby Ruth",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_011",
+      "subtopic": "Movies",
+      "question": "Who are the main Ghostbusters?",
+      "options": [
+        "Venkman, Stantz, Spengler, Zeddemore",
+        "Just three guys",
+        "Five scientists",
+        "Government agents"
+      ],
+      "correct_answer": "Venkman, Stantz, Spengler, Zeddemore",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_012",
+      "subtopic": "Music",
+      "question": "Who sang 'Like a Prayer'?",
+      "options": [
+        "Madonna",
+        "Cyndi Lauper",
+        "Whitney Houston",
+        "Janet Jackson"
+      ],
+      "correct_answer": "Madonna",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_013",
+      "subtopic": "Music",
+      "question": "What band sang 'Don't Stop Believin''?",
+      "options": [
+        "Journey",
+        "Foreigner",
+        "Styx",
+        "REO Speedwagon"
+      ],
+      "correct_answer": "Journey",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_014",
+      "subtopic": "Music",
+      "question": "Who sang 'Take On Me'?",
+      "options": [
+        "A-ha",
+        "Duran Duran",
+        "Depeche Mode",
+        "The Cure"
+      ],
+      "correct_answer": "A-ha",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_015",
+      "subtopic": "Music",
+      "question": "What was Prince's hit album in 1984?",
+      "options": [
+        "Purple Rain",
+        "1999",
+        "Sign o' the Times",
+        "Controversy"
+      ],
+      "correct_answer": "Purple Rain",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_016",
+      "subtopic": "Music",
+      "question": "Who sang 'Livin' on a Prayer'?",
+      "options": [
+        "Bon Jovi",
+        "Def Leppard",
+        "M\u00f6tley Cr\u00fce",
+        "Poison"
+      ],
+      "correct_answer": "Bon Jovi",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_017",
+      "subtopic": "Music",
+      "question": "What band recorded 'Every Breath You Take'?",
+      "options": [
+        "The Police",
+        "U2",
+        "The Clash",
+        "R.E.M."
+      ],
+      "correct_answer": "The Police",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_018",
+      "subtopic": "Music",
+      "question": "Who sang 'Girls Just Want to Have Fun'?",
+      "options": [
+        "Cyndi Lauper",
+        "Madonna",
+        "Pat Benatar",
+        "Blondie"
+      ],
+      "correct_answer": "Cyndi Lauper",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_019",
+      "subtopic": "Music",
+      "question": "What year did Michael Jackson release 'Bad'?",
+      "options": [
+        "1987",
+        "1985",
+        "1988",
+        "1986"
+      ],
+      "correct_answer": "1987",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_020",
+      "subtopic": "TV Shows",
+      "question": "Who was the main character in 'Miami Vice'?",
+      "options": [
+        "Sonny Crockett",
+        "Ricardo Tubbs",
+        "Both Crockett and Tubbs",
+        "Frank Furillo"
+      ],
+      "correct_answer": "Both Crockett and Tubbs",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_021",
+      "subtopic": "TV Shows",
+      "question": "What was the Tanner family's address in 'Full House'?",
+      "options": [
+        "1882 Gerard Street",
+        "123 Main Street",
+        "456 Oak Avenue",
+        "789 Pine Road"
+      ],
+      "correct_answer": "1882 Gerard Street",
+      "difficulty": "hard",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_022",
+      "subtopic": "TV Shows",
+      "question": "Who played the A-Team's leader Hannibal?",
+      "options": [
+        "George Peppard",
+        "Mr. T",
+        "Dwight Schultz",
+        "Dirk Benedict"
+      ],
+      "correct_answer": "George Peppard",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_023",
+      "subtopic": "TV Shows",
+      "question": "What was the theme song for 'The Fresh Prince of Bel-Air' decade?",
+      "options": [
+        "Actually premiered in 1990",
+        "1989",
+        "1988",
+        "1987"
+      ],
+      "correct_answer": "Actually premiered in 1990",
+      "difficulty": "hard",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_024",
+      "subtopic": "TV Shows",
+      "question": "Who was the bartender in 'Cheers'?",
+      "options": [
+        "Sam Malone",
+        "Woody Boyd",
+        "Coach",
+        "Frasier Crane"
+      ],
+      "correct_answer": "Sam Malone",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_025",
+      "subtopic": "TV Shows",
+      "question": "What car was featured in 'Knight Rider'?",
+      "options": [
+        "KITT (Pontiac Firebird)",
+        "General Lee",
+        "DeLorean",
+        "Corvette"
+      ],
+      "correct_answer": "KITT (Pontiac Firebird)",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_026",
+      "subtopic": "TV Shows",
+      "question": "Who played MacGyver?",
+      "options": [
+        "Richard Dean Anderson",
+        "Tom Selleck",
+        "Bruce Willis",
+        "Don Johnson"
+      ],
+      "correct_answer": "Richard Dean Anderson",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_027",
+      "subtopic": "Pop Culture",
+      "question": "What was the most popular video game console of the 80s?",
+      "options": [
+        "Nintendo Entertainment System",
+        "Atari 2600",
+        "Sega Master System",
+        "ColecoVision"
+      ],
+      "correct_answer": "Nintendo Entertainment System",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_028",
+      "subtopic": "Pop Culture",
+      "question": "What puzzle became a craze in the 80s?",
+      "options": [
+        "Rubik's Cube",
+        "Crosswords",
+        "Sudoku",
+        "Jigsaw puzzles"
+      ],
+      "correct_answer": "Rubik's Cube",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_029",
+      "subtopic": "Pop Culture",
+      "question": "What doll line competed with Barbie in the 80s?",
+      "options": [
+        "Cabbage Patch Kids",
+        "Bratz",
+        "American Girl",
+        "Monster High"
+      ],
+      "correct_answer": "Cabbage Patch Kids",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_030",
+      "subtopic": "Pop Culture",
+      "question": "What fashion accessory was popularized by Madonna?",
+      "options": [
+        "Lace gloves and bangles",
+        "Leg warmers",
+        "Shoulder pads",
+        "Scrunchies"
+      ],
+      "correct_answer": "Lace gloves and bangles",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_031",
+      "subtopic": "Pop Culture",
+      "question": "What was the first music video on MTV?",
+      "options": [
+        "Video Killed the Radio Star",
+        "Billie Jean",
+        "Like a Virgin",
+        "Take On Me"
+      ],
+      "correct_answer": "Video Killed the Radio Star",
+      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_032",
+      "subtopic": "Pop Culture",
+      "question": "What arcade game featured Pac-Man?",
+      "options": [
+        "Pac-Man",
+        "Donkey Kong",
+        "Space Invaders",
+        "Galaga"
+      ],
+      "correct_answer": "Pac-Man",
+      "difficulty": "easy",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_033",
+      "subtopic": "Sports",
+      "question": "Who won the most NBA championships in the 80s?",
+      "options": [
+        "Lakers and Celtics",
+        "Bulls",
+        "Pistons",
+        "76ers"
+      ],
+      "correct_answer": "Lakers and Celtics",
+      "difficulty": "medium",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_034",
+      "subtopic": "Sports",
+      "question": "What boxer became youngest heavyweight champion in 1986?",
+      "options": [
+        "Mike Tyson",
+        "Muhammad Ali",
+        "George Foreman",
+        "Larry Holmes"
+      ],
+      "correct_answer": "Mike Tyson",
+      "difficulty": "easy",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_035",
+      "subtopic": "Sports",
+      "question": "Where were the 1984 Summer Olympics held?",
+      "options": [
+        "Los Angeles",
+        "Seoul",
+        "Moscow",
+        "Barcelona"
+      ],
+      "correct_answer": "Los Angeles",
+      "difficulty": "medium",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_036",
+      "subtopic": "Sports",
+      "question": "Who was the dominant tennis player in the 80s?",
+      "options": [
+        "Multiple (McEnroe, Lendl, Borg)",
+        "Just McEnroe",
+        "Just Borg",
+        "Just Connors"
+      ],
+      "correct_answer": "Multiple (McEnroe, Lendl, Borg)",
+      "difficulty": "medium",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_037",
+      "subtopic": "History",
+      "question": "What major wall fell in 1989?",
+      "options": [
+        "Berlin Wall",
+        "Great Wall",
+        "Hadrian's Wall",
+        "Western Wall"
+      ],
+      "correct_answer": "Berlin Wall",
+      "difficulty": "easy",
+      "category": "History",
+      "subcategory": "Modern History",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_038",
+      "subtopic": "History",
+      "question": "What space shuttle disaster occurred in 1986?",
+      "options": [
+        "Challenger",
+        "Columbia",
+        "Discovery",
+        "Atlantis"
+      ],
+      "correct_answer": "Challenger",
+      "difficulty": "easy",
+      "category": "History",
+      "subcategory": "Modern History",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_039",
+      "subtopic": "History",
+      "question": "Who became UK Prime Minister in 1979?",
+      "options": [
+        "Margaret Thatcher",
+        "Tony Blair",
+        "John Major",
+        "James Callaghan"
+      ],
+      "correct_answer": "Margaret Thatcher",
+      "difficulty": "medium",
+      "category": "History",
+      "subcategory": "Modern History",
+      "topic": "80s Trivia"
+    },
+    {
+      "id": "80s_preview_040",
+      "subtopic": "History",
+      "question": "What major nuclear accident happened in 1986?",
+      "options": [
+        "Chernobyl",
+        "Three Mile Island",
+        "Fukushima",
+        "Windscale"
+      ],
+      "correct_answer": "Chernobyl",
+      "difficulty": "easy",
+      "category": "History",
+      "subcategory": "Modern History",
+      "topic": "80s Trivia"
     }
   ],
   "paidQuestions": [
@@ -55,7 +669,12 @@
       "topic": "80s Trivia",
       "subtopic": "Movies",
       "question": "Who played Indiana Jones in 'Raiders of the Lost Ark'?",
-      "options": ["Harrison Ford", "Tom Selleck", "Kurt Russell", "Mel Gibson"],
+      "options": [
+        "Harrison Ford",
+        "Tom Selleck",
+        "Kurt Russell",
+        "Mel Gibson"
+      ],
       "correct_answer": "Harrison Ford",
       "difficulty": "easy"
     },
@@ -66,7 +685,12 @@
       "topic": "80s Trivia",
       "subtopic": "Music",
       "question": "Which band performed 'Sweet Child O' Mine'?",
-      "options": ["Guns N' Roses", "Bon Jovi", "Def Leppard", "Mötley Crüe"],
+      "options": [
+        "Guns N' Roses",
+        "Bon Jovi",
+        "Def Leppard",
+        "M\u00f6tley Cr\u00fce"
+      ],
       "correct_answer": "Guns N' Roses",
       "difficulty": "medium"
     },
@@ -77,7 +701,12 @@
       "topic": "80s Trivia",
       "subtopic": "TV Shows",
       "question": "What was the name of the Tanner family's dog in 'Full House'?",
-      "options": ["Comet", "Buddy", "Max", "Shadow"],
+      "options": [
+        "Comet",
+        "Buddy",
+        "Max",
+        "Shadow"
+      ],
       "correct_answer": "Comet",
       "difficulty": "hard"
     },
@@ -88,7 +717,12 @@
       "topic": "80s Trivia",
       "subtopic": "Sports",
       "question": "Which team won Super Bowl XX in 1986?",
-      "options": ["Chicago Bears", "New York Giants", "San Francisco 49ers", "Miami Dolphins"],
+      "options": [
+        "Chicago Bears",
+        "New York Giants",
+        "San Francisco 49ers",
+        "Miami Dolphins"
+      ],
       "correct_answer": "Chicago Bears",
       "difficulty": "hard"
     },
@@ -99,7 +733,12 @@
       "topic": "80s Trivia",
       "subtopic": "History",
       "question": "What year did the Berlin Wall fall?",
-      "options": ["1989", "1987", "1985", "1991"],
+      "options": [
+        "1989",
+        "1987",
+        "1985",
+        "1991"
+      ],
       "correct_answer": "1989",
       "difficulty": "medium"
     },
@@ -110,7 +749,12 @@
       "topic": "80s Trivia",
       "subtopic": "Movies",
       "question": "In 'The Breakfast Club', how many students are in detention?",
-      "options": ["5", "4", "6", "3"],
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
       "correct_answer": "5",
       "difficulty": "medium"
     },
@@ -121,7 +765,12 @@
       "topic": "80s Trivia",
       "subtopic": "Pop Culture",
       "question": "What music video channel launched in 1981?",
-      "options": ["MTV", "VH1", "BET", "CMT"],
+      "options": [
+        "MTV",
+        "VH1",
+        "BET",
+        "CMT"
+      ],
       "correct_answer": "MTV",
       "difficulty": "easy"
     },
@@ -132,7 +781,12 @@
       "topic": "80s Trivia",
       "subtopic": "TV Shows",
       "question": "Who shot J.R. Ewing in 'Dallas'?",
-      "options": ["Kristin Shepard", "Sue Ellen Ewing", "Cliff Barnes", "Bobby Ewing"],
+      "options": [
+        "Kristin Shepard",
+        "Sue Ellen Ewing",
+        "Cliff Barnes",
+        "Bobby Ewing"
+      ],
       "correct_answer": "Kristin Shepard",
       "difficulty": "hard"
     },
@@ -143,7 +797,12 @@
       "topic": "80s Trivia",
       "subtopic": "Sports",
       "question": "Which country hosted the 1988 Summer Olympics?",
-      "options": ["South Korea", "United States", "Soviet Union", "Japan"],
+      "options": [
+        "South Korea",
+        "United States",
+        "Soviet Union",
+        "Japan"
+      ],
       "correct_answer": "South Korea",
       "difficulty": "medium"
     },
@@ -154,7 +813,12 @@
       "topic": "80s Trivia",
       "subtopic": "Movies",
       "question": "What is the name of the killer doll in the 1988 horror film?",
-      "options": ["Chucky", "Freddy", "Jason", "Michael"],
+      "options": [
+        "Chucky",
+        "Freddy",
+        "Jason",
+        "Michael"
+      ],
       "correct_answer": "Chucky",
       "difficulty": "easy"
     },
@@ -165,7 +829,12 @@
       "topic": "80s Trivia",
       "subtopic": "Music",
       "question": "Which artist sang 'Like a Virgin'?",
-      "options": ["Madonna", "Cyndi Lauper", "Whitney Houston", "Janet Jackson"],
+      "options": [
+        "Madonna",
+        "Cyndi Lauper",
+        "Whitney Houston",
+        "Janet Jackson"
+      ],
       "correct_answer": "Madonna",
       "difficulty": "easy"
     },
@@ -176,7 +845,12 @@
       "topic": "80s Trivia",
       "subtopic": "TV Shows",
       "question": "What was ALF's real name on his home planet?",
-      "options": ["Gordon Shumway", "Willie Tanner", "Brian Shumway", "Max Wright"],
+      "options": [
+        "Gordon Shumway",
+        "Willie Tanner",
+        "Brian Shumway",
+        "Max Wright"
+      ],
       "correct_answer": "Gordon Shumway",
       "difficulty": "hard"
     },
@@ -187,7 +861,12 @@
       "topic": "80s Trivia",
       "subtopic": "History",
       "question": "Who was the U.S. President for most of the 1980s?",
-      "options": ["Ronald Reagan", "Jimmy Carter", "George H.W. Bush", "Gerald Ford"],
+      "options": [
+        "Ronald Reagan",
+        "Jimmy Carter",
+        "George H.W. Bush",
+        "Gerald Ford"
+      ],
       "correct_answer": "Ronald Reagan",
       "difficulty": "easy"
     },
@@ -198,7 +877,12 @@
       "topic": "80s Trivia",
       "subtopic": "Movies",
       "question": "What was the name of the arcade game in 'TRON'?",
-      "options": ["TRON", "Space Paranoids", "Discs of TRON", "Light Cycles"],
+      "options": [
+        "TRON",
+        "Space Paranoids",
+        "Discs of TRON",
+        "Light Cycles"
+      ],
       "correct_answer": "Space Paranoids",
       "difficulty": "hard"
     },
@@ -209,7 +893,12 @@
       "topic": "80s Trivia",
       "subtopic": "Music",
       "question": "What was Prince's 1984 hit movie and album?",
-      "options": ["Purple Rain", "Sign o' the Times", "1999", "Controversy"],
+      "options": [
+        "Purple Rain",
+        "Sign o' the Times",
+        "1999",
+        "Controversy"
+      ],
       "correct_answer": "Purple Rain",
       "difficulty": "easy"
     },
@@ -220,7 +909,12 @@
       "topic": "80s Trivia",
       "subtopic": "TV Shows",
       "question": "What was the name of the van in 'The A-Team'?",
-      "options": ["The A-Team Van (GMC Vandura)", "Mystery Machine", "Scooby Van", "The Battle Bus"],
+      "options": [
+        "The A-Team Van (GMC Vandura)",
+        "Mystery Machine",
+        "Scooby Van",
+        "The Battle Bus"
+      ],
       "correct_answer": "The A-Team Van (GMC Vandura)",
       "difficulty": "medium"
     },
@@ -231,7 +925,12 @@
       "topic": "80s Trivia",
       "subtopic": "Sports",
       "question": "Which boxer did Mike Tyson defeat to become the youngest heavyweight champion?",
-      "options": ["Trevor Berbick", "Larry Holmes", "Michael Spinks", "Tony Tucker"],
+      "options": [
+        "Trevor Berbick",
+        "Larry Holmes",
+        "Michael Spinks",
+        "Tony Tucker"
+      ],
       "correct_answer": "Trevor Berbick",
       "difficulty": "hard"
     },
@@ -242,7 +941,12 @@
       "topic": "80s Trivia",
       "subtopic": "Pop Culture",
       "question": "What toy line featured transforming robots?",
-      "options": ["Transformers", "GoBots", "Voltron", "Robotech"],
+      "options": [
+        "Transformers",
+        "GoBots",
+        "Voltron",
+        "Robotech"
+      ],
       "correct_answer": "Transformers",
       "difficulty": "easy"
     },
@@ -253,7 +957,12 @@
       "topic": "80s Trivia",
       "subtopic": "Music",
       "question": "Which band released the album 'Appetite for Destruction'?",
-      "options": ["Guns N' Roses", "Metallica", "AC/DC", "Van Halen"],
+      "options": [
+        "Guns N' Roses",
+        "Metallica",
+        "AC/DC",
+        "Van Halen"
+      ],
       "correct_answer": "Guns N' Roses",
       "difficulty": "medium"
     },
@@ -264,7 +973,12 @@
       "topic": "80s Trivia",
       "subtopic": "History",
       "question": "What space shuttle tragically exploded in 1986?",
-      "options": ["Challenger", "Columbia", "Discovery", "Atlantis"],
+      "options": [
+        "Challenger",
+        "Columbia",
+        "Discovery",
+        "Atlantis"
+      ],
       "correct_answer": "Challenger",
       "difficulty": "medium"
     },
@@ -275,7 +989,12 @@
       "topic": "80s Trivia",
       "subtopic": "TV Shows",
       "question": "What was the name of the red car in 'Knight Rider'?",
-      "options": ["KITT", "Herbie", "The General Lee", "Christine"],
+      "options": [
+        "KITT",
+        "Herbie",
+        "The General Lee",
+        "Christine"
+      ],
       "correct_answer": "KITT",
       "difficulty": "easy"
     },
@@ -286,7 +1005,12 @@
       "topic": "80s Trivia",
       "subtopic": "Movies",
       "question": "Who directed 'E.T. the Extra-Terrestrial'?",
-      "options": ["Steven Spielberg", "George Lucas", "Robert Zemeckis", "James Cameron"],
+      "options": [
+        "Steven Spielberg",
+        "George Lucas",
+        "Robert Zemeckis",
+        "James Cameron"
+      ],
       "correct_answer": "Steven Spielberg",
       "difficulty": "easy"
     },
@@ -297,7 +1021,12 @@
       "topic": "80s Trivia",
       "subtopic": "Pop Culture",
       "question": "What dance move was popularized by Michael Jackson?",
-      "options": ["Moonwalk", "Robot", "Electric Slide", "Cabbage Patch"],
+      "options": [
+        "Moonwalk",
+        "Robot",
+        "Electric Slide",
+        "Cabbage Patch"
+      ],
       "correct_answer": "Moonwalk",
       "difficulty": "easy"
     },
@@ -308,7 +1037,12 @@
       "topic": "80s Trivia",
       "subtopic": "Sports",
       "question": "Which NHL team won the most Stanley Cups in the 1980s?",
-      "options": ["Edmonton Oilers", "New York Islanders", "Calgary Flames", "Montreal Canadiens"],
+      "options": [
+        "Edmonton Oilers",
+        "New York Islanders",
+        "Calgary Flames",
+        "Montreal Canadiens"
+      ],
       "correct_answer": "Edmonton Oilers",
       "difficulty": "hard"
     },
@@ -319,7 +1053,12 @@
       "topic": "80s Trivia",
       "subtopic": "TV Shows",
       "question": "What was the occupation of the main character in 'MacGyver'?",
-      "options": ["Secret agent/Problem solver", "Police detective", "Doctor", "Lawyer"],
+      "options": [
+        "Secret agent/Problem solver",
+        "Police detective",
+        "Doctor",
+        "Lawyer"
+      ],
       "correct_answer": "Secret agent/Problem solver",
       "difficulty": "easy"
     },
@@ -330,7 +1069,12 @@
       "topic": "80s Trivia",
       "subtopic": "Movies",
       "question": "In 'Ghostbusters', what is the name of their containment unit failure?",
-      "options": ["Total protonic reversal", "Ectoplasmic cascade", "Paranormal breakdown", "Ghost overflow"],
+      "options": [
+        "Total protonic reversal",
+        "Ectoplasmic cascade",
+        "Paranormal breakdown",
+        "Ghost overflow"
+      ],
       "correct_answer": "Total protonic reversal",
       "difficulty": "hard"
     },
@@ -341,7 +1085,12 @@
       "topic": "80s Trivia",
       "subtopic": "Pop Culture",
       "question": "What handheld gaming console was released by Nintendo in 1989?",
-      "options": ["Game Boy", "Game Gear", "Atari Lynx", "TurboExpress"],
+      "options": [
+        "Game Boy",
+        "Game Gear",
+        "Atari Lynx",
+        "TurboExpress"
+      ],
       "correct_answer": "Game Boy",
       "difficulty": "easy"
     }

@@ -12,9 +12,9 @@
   "questionCount": 500,
   "freePreviewCount": 50,
   "difficulty": {
-    "easy": 184,
-    "medium": 192,
-    "hard": 74
+    "easy": 182,
+    "medium": 195,
+    "hard": 73
   },
   "price": 2.99,
   "icon": "sparkles",
@@ -273,22 +273,6 @@
         "White"
       ],
       "correct_answer": "Yellow",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_preview_026",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Characters",
-      "question": "Who is Chip's chipmunk partner?",
-      "options": [
-        "Dale",
-        "Gadget",
-        "Monterey Jack",
-        "Zipper"
-      ],
-      "correct_answer": "Dale",
       "difficulty": "easy"
     },
     {
@@ -564,22 +548,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "dsn_preview_044",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who played the Genie in the 2019 'Aladdin' remake?",
-      "options": [
-        "Will Smith",
-        "Robin Williams",
-        "Eddie Murphy",
-        "Jim Carrey"
-      ],
-      "correct_answer": "Will Smith",
-      "difficulty": "easy"
-    },
-    {
       "id": "dsn_preview_045",
       "category": "Entertainment",
       "subcategory": "Animation",
@@ -593,54 +561,6 @@
         "Anne Hathaway"
       ],
       "correct_answer": "Emma Watson",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_preview_046",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Which Marvel movie was the first in the MCU?",
-      "options": [
-        "Iron Man",
-        "Thor",
-        "Captain America",
-        "The Hulk"
-      ],
-      "correct_answer": "Iron Man",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_preview_047",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Black Panther in the MCU?",
-      "options": [
-        "Chadwick Boseman",
-        "Michael B. Jordan",
-        "Winston Duke",
-        "Daniel Kaluuya"
-      ],
-      "correct_answer": "Chadwick Boseman",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_preview_048",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Which Star Wars movie did Disney produce first?",
-      "options": [
-        "The Force Awakens",
-        "Rogue One",
-        "The Last Jedi",
-        "Solo"
-      ],
-      "correct_answer": "The Force Awakens",
       "difficulty": "easy"
     },
     {
@@ -658,22 +578,6 @@
       ],
       "correct_answer": "Jon Favreau",
       "difficulty": "medium"
-    },
-    {
-      "id": "dsn_preview_050",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Which Disney+ show features Wanda Maximoff?",
-      "options": [
-        "WandaVision",
-        "Loki",
-        "The Falcon and the Winter Soldier",
-        "Hawkeye"
-      ],
-      "correct_answer": "WandaVision",
-      "difficulty": "easy"
     },
     {
       "id": "dsn_preview_051",
@@ -818,6 +722,102 @@
       ],
       "correct_answer": "Fantasmic/Fireworks shows",
       "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_060",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the first rule of being a Disney Princess?",
+      "options": [
+        "There is no official rule",
+        "Must sing",
+        "Must have magic",
+        "Must marry a prince"
+      ],
+      "correct_answer": "There is no official rule",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_061",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the name of the robot in 'Meet the Robinsons'?",
+      "options": [
+        "Carl",
+        "Lewis",
+        "Wilbur",
+        "Bowler Hat Guy"
+      ],
+      "correct_answer": "Carl",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_062",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Which Disney Channel movie featured a teen basketball player and a singing prodigy?",
+      "options": [
+        "High School Musical",
+        "Camp Rock",
+        "Teen Beach Movie",
+        "Lemonade Mouth"
+      ],
+      "correct_answer": "High School Musical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_063",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who played Mary Poppins in the original 1964 film?",
+      "options": [
+        "Julie Andrews",
+        "Emily Blunt",
+        "Angela Lansbury",
+        "Hayley Mills"
+      ],
+      "correct_answer": "Julie Andrews",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_064",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Parks",
+      "question": "What is Main Street U.S.A. based on?",
+      "options": [
+        "Walt Disney's hometown (Marceline, MO)",
+        "New York City",
+        "Chicago",
+        "San Francisco"
+      ],
+      "correct_answer": "Walt Disney's hometown (Marceline, MO)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_065",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Which movie features 'Strangers Like Me'?",
+      "options": [
+        "Tarzan",
+        "The Jungle Book",
+        "Brother Bear",
+        "Pocahontas"
+      ],
+      "correct_answer": "Strangers Like Me",
+      "difficulty": "easy"
     }
   ],
   "paidQuestions": [
@@ -900,22 +900,6 @@
       ],
       "correct_answer": "Maurice",
       "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_008",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who played Jack Sparrow in 'Pirates of the Caribbean'?",
-      "options": [
-        "Johnny Depp",
-        "Orlando Bloom",
-        "Geoffrey Rush",
-        "Bill Nighy"
-      ],
-      "correct_answer": "Johnny Depp",
-      "difficulty": "easy"
     },
     {
       "id": "dsn_paid_009",
@@ -2454,22 +2438,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "dsn_paid_108",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Animated Classics",
-      "question": "Who was the voice of the Genie in the original 'Aladdin'?",
-      "options": [
-        "Robin Williams",
-        "Will Smith",
-        "Jim Carrey",
-        "Eddie Murphy"
-      ],
-      "correct_answer": "Robin Williams",
-      "difficulty": "hard"
-    },
-    {
       "id": "dsn_paid_109",
       "category": "Entertainment",
       "subcategory": "Animation",
@@ -3299,22 +3267,6 @@
         "None"
       ],
       "correct_answer": "Rescue Rangers",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_236",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Characters",
-      "question": "Who is the leader of the Rescue Rangers?",
-      "options": [
-        "Chip",
-        "Dale",
-        "Gadget",
-        "Monterey Jack"
-      ],
-      "correct_answer": "Chip",
       "difficulty": "medium"
     },
     {
@@ -4870,246 +4822,6 @@
       "difficulty": "hard"
     },
     {
-      "id": "dsn_paid_334",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Which Marvel hero uses a shield?",
-      "options": [
-        "Captain America",
-        "Iron Man",
-        "Thor",
-        "Hulk"
-      ],
-      "correct_answer": "Captain America",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_335",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Which Marvel hero uses a hammer?",
-      "options": [
-        "Thor",
-        "Iron Man",
-        "Hulk",
-        "Captain America"
-      ],
-      "correct_answer": "Thor",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_336",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who is Tony Stark?",
-      "options": [
-        "Iron Man",
-        "Captain America",
-        "Thor",
-        "Hulk"
-      ],
-      "correct_answer": "Iron Man",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_337",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who is Bruce Banner?",
-      "options": [
-        "The Hulk",
-        "Iron Man",
-        "Spider-Man",
-        "Thor"
-      ],
-      "correct_answer": "The Hulk",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_338",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who is Peter Parker?",
-      "options": [
-        "Spider-Man",
-        "Iron Man",
-        "Captain America",
-        "Thor"
-      ],
-      "correct_answer": "Spider-Man",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_339",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is the name of Thor's hammer?",
-      "options": [
-        "Mjolnir",
-        "Stormbreaker",
-        "Gungnir",
-        "Jarnbjorn"
-      ],
-      "correct_answer": "Mjolnir",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_340",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is Captain America's real name?",
-      "options": [
-        "Steve Rogers",
-        "Tony Stark",
-        "Bruce Banner",
-        "Peter Parker"
-      ],
-      "correct_answer": "Steve Rogers",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_341",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who directed the first Avengers movie?",
-      "options": [
-        "Joss Whedon",
-        "Jon Favreau",
-        "Russo Brothers",
-        "James Gunn"
-      ],
-      "correct_answer": "Joss Whedon",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_342",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is the Avengers' home base called?",
-      "options": [
-        "Avengers Tower/Compound",
-        "Stark Tower",
-        "SHIELD Headquarters",
-        "None"
-      ],
-      "correct_answer": "Avengers Tower/Compound",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_343",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who is the leader of SHIELD?",
-      "options": [
-        "Nick Fury",
-        "Phil Coulson",
-        "Maria Hill",
-        "Tony Stark"
-      ],
-      "correct_answer": "Nick Fury",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_344",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is Black Widow's real name?",
-      "options": [
-        "Natasha Romanoff",
-        "Wanda Maximoff",
-        "Carol Danvers",
-        "Hope van Dyne"
-      ],
-      "correct_answer": "Natasha Romanoff",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_345",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is Hawkeye's real name?",
-      "options": [
-        "Clint Barton",
-        "Steve Rogers",
-        "Tony Stark",
-        "Sam Wilson"
-      ],
-      "correct_answer": "Clint Barton",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_346",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Which Disney+ show features Grogu (Baby Yoda)?",
-      "options": [
-        "The Mandalorian",
-        "The Book of Boba Fett",
-        "Ahsoka",
-        "Andor"
-      ],
-      "correct_answer": "The Mandalorian",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_347",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who is the Mandalorian's real name?",
-      "options": [
-        "Din Djarin",
-        "Boba Fett",
-        "Jango Fett",
-        "Cobb Vanth"
-      ],
-      "correct_answer": "Din Djarin",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_348",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Captain Jack Sparrow?",
-      "options": [
-        "Johnny Depp",
-        "Orlando Bloom",
-        "Geoffrey Rush",
-        "Javier Bardem"
-      ],
-      "correct_answer": "Johnny Depp",
-      "difficulty": "easy"
-    },
-    {
       "id": "dsn_paid_349",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
@@ -5126,22 +4838,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "dsn_paid_350",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Will Turner in Pirates of the Caribbean?",
-      "options": [
-        "Orlando Bloom",
-        "Johnny Depp",
-        "Geoffrey Rush",
-        "Keira Knightley"
-      ],
-      "correct_answer": "Orlando Bloom",
-      "difficulty": "easy"
-    },
-    {
       "id": "dsn_paid_351",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
@@ -5155,38 +4851,6 @@
         "Pen\u00e9lope Cruz"
       ],
       "correct_answer": "Keira Knightley",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_352",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Which Star Wars trilogy did Disney produce?",
-      "options": [
-        "Sequel trilogy (7-9)",
-        "Original trilogy",
-        "Prequel trilogy",
-        "All of them"
-      ],
-      "correct_answer": "Sequel trilogy (7-9)",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_353",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who is Rey's grandfather?",
-      "options": [
-        "Emperor Palpatine",
-        "Luke Skywalker",
-        "Han Solo",
-        "Obi-Wan Kenobi"
-      ],
-      "correct_answer": "Emperor Palpatine",
       "difficulty": "easy"
     },
     {
@@ -5254,86 +4918,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "dsn_paid_358",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is the first film in the MCU?",
-      "options": [
-        "Iron Man (2008)",
-        "The Incredible Hulk",
-        "Thor",
-        "Captain America"
-      ],
-      "correct_answer": "Iron Man (2008)",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_359",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is the Infinity Saga's final film?",
-      "options": [
-        "Avengers: Endgame",
-        "Avengers: Infinity War",
-        "Spider-Man: Far From Home",
-        "Black Panther"
-      ],
-      "correct_answer": "Avengers: Endgame",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_360",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who snaps the Infinity Gauntlet in Endgame?",
-      "options": [
-        "Tony Stark",
-        "Thanos",
-        "Bruce Banner",
-        "Thor"
-      ],
-      "correct_answer": "Tony Stark",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_361",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is the name of Black Panther's home?",
-      "options": [
-        "Wakanda",
-        "Asgard",
-        "Sokovia",
-        "Latveria"
-      ],
-      "correct_answer": "Wakanda",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_362",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Black Widow?",
-      "options": [
-        "Scarlett Johansson",
-        "Brie Larson",
-        "Elizabeth Olsen",
-        "Zoe Saldana"
-      ],
-      "correct_answer": "Scarlett Johansson",
-      "difficulty": "medium"
-    },
-    {
       "id": "dsn_paid_363",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
@@ -5398,22 +4982,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "dsn_paid_367",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Captain Marvel?",
-      "options": [
-        "Brie Larson",
-        "Scarlett Johansson",
-        "Elizabeth Olsen",
-        "Zoe Saldana"
-      ],
-      "correct_answer": "Brie Larson",
-      "difficulty": "medium"
-    },
-    {
       "id": "dsn_paid_368",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
@@ -5427,38 +4995,6 @@
         "Dark Elf"
       ],
       "correct_answer": "Frost Giant",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_369",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who is Loki's real father?",
-      "options": [
-        "Laufey",
-        "Odin",
-        "Thor",
-        "Thanos"
-      ],
-      "correct_answer": "Laufey",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_370",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is Vision made from?",
-      "options": [
-        "Mind Stone and Vibranium",
-        "Soul Stone",
-        "Power Stone",
-        "Space Stone"
-      ],
-      "correct_answer": "Mind Stone and Vibranium",
       "difficulty": "medium"
     },
     {
@@ -5510,38 +5046,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "dsn_paid_374",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Captain Barbossa?",
-      "options": [
-        "Geoffrey Rush",
-        "Johnny Depp",
-        "Orlando Bloom",
-        "Bill Nighy"
-      ],
-      "correct_answer": "Geoffrey Rush",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_375",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Davy Jones?",
-      "options": [
-        "Bill Nighy",
-        "Geoffrey Rush",
-        "Johnny Depp",
-        "Javier Bardem"
-      ],
-      "correct_answer": "Bill Nighy",
-      "difficulty": "medium"
-    },
-    {
       "id": "dsn_paid_376",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
@@ -5574,38 +5078,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "dsn_paid_378",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who directed The Last Jedi?",
-      "options": [
-        "Rian Johnson",
-        "J.J. Abrams",
-        "George Lucas",
-        "Jon Favreau"
-      ],
-      "correct_answer": "Rian Johnson",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_379",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Finn in the Star Wars sequels?",
-      "options": [
-        "John Boyega",
-        "Oscar Isaac",
-        "Adam Driver",
-        "Daisy Ridley"
-      ],
-      "correct_answer": "John Boyega",
-      "difficulty": "medium"
-    },
-    {
       "id": "dsn_paid_380",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
@@ -5619,22 +5091,6 @@
         "Daisy Ridley"
       ],
       "correct_answer": "Oscar Isaac",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_381",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who plays Kylo Ren?",
-      "options": [
-        "Adam Driver",
-        "John Boyega",
-        "Oscar Isaac",
-        "Domhnall Gleeson"
-      ],
-      "correct_answer": "Adam Driver",
       "difficulty": "medium"
     },
     {
@@ -5686,54 +5142,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "dsn_paid_385",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is the highest-grossing film of all time?",
-      "options": [
-        "Avatar (2009, re-releases)",
-        "Avengers: Endgame",
-        "Titanic",
-        "Star Wars: The Force Awakens"
-      ],
-      "correct_answer": "Avatar (2009, re-releases)",
-      "difficulty": "hard"
-    },
-    {
-      "id": "dsn_paid_386",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is the highest-grossing superhero film?",
-      "options": [
-        "Avengers: Endgame",
-        "Avengers: Infinity War",
-        "The Avengers",
-        "Black Panther"
-      ],
-      "correct_answer": "Avengers: Endgame",
-      "difficulty": "hard"
-    },
-    {
-      "id": "dsn_paid_387",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What year did Disney acquire Marvel?",
-      "options": [
-        "2009",
-        "2006",
-        "2012",
-        "2015"
-      ],
-      "correct_answer": "2009",
-      "difficulty": "hard"
-    },
-    {
       "id": "dsn_paid_388",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
@@ -5747,38 +5155,6 @@
         "2006"
       ],
       "correct_answer": "2012",
-      "difficulty": "hard"
-    },
-    {
-      "id": "dsn_paid_389",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "Who created the Marvel Cinematic Universe?",
-      "options": [
-        "Kevin Feige",
-        "Stan Lee",
-        "Joss Whedon",
-        "Jon Favreau"
-      ],
-      "correct_answer": "Kevin Feige",
-      "difficulty": "hard"
-    },
-    {
-      "id": "dsn_paid_390",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "topic": "Disney",
-      "subtopic": "Live Action",
-      "question": "What is the title of the first MCU Disney+ series?",
-      "options": [
-        "WandaVision",
-        "The Falcon and the Winter Soldier",
-        "Loki",
-        "Hawkeye"
-      ],
-      "correct_answer": "WandaVision",
       "difficulty": "hard"
     },
     {
@@ -6115,22 +5491,6 @@
         "Magic Kingdom"
       ],
       "correct_answer": "Animal Kingdom",
-      "difficulty": "easy"
-    },
-    {
-      "id": "dsn_paid_412",
-      "category": "Geography",
-      "subcategory": "Landmarks & Monuments",
-      "topic": "Disney",
-      "subtopic": "Parks",
-      "question": "Which park features Star Wars: Galaxy's Edge?",
-      "options": [
-        "Hollywood Studios and Disneyland",
-        "Magic Kingdom",
-        "Epcot",
-        "Animal Kingdom"
-      ],
-      "correct_answer": "Hollywood Studios and Disneyland",
       "difficulty": "easy"
     },
     {
@@ -6531,22 +5891,6 @@
         "Animal Kingdom"
       ],
       "correct_answer": "Hollywood Studios and Disneyland",
-      "difficulty": "medium"
-    },
-    {
-      "id": "dsn_paid_438",
-      "category": "Geography",
-      "subcategory": "Landmarks & Monuments",
-      "topic": "Disney",
-      "subtopic": "Parks",
-      "question": "What is the name of the Star Wars hotel?",
-      "options": [
-        "Star Wars: Galactic Starcruiser",
-        "Star Wars Hotel",
-        "Batuu Resort",
-        "Galaxy Hotel"
-      ],
-      "correct_answer": "Star Wars: Galactic Starcruiser",
       "difficulty": "medium"
     },
     {
@@ -7075,22 +6419,6 @@
         "Don Hall and Chris Williams"
       ],
       "correct_answer": "Ron Clements and John Musker",
-      "difficulty": "hard"
-    },
-    {
-      "id": "dsn_paid_472",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "Disney",
-      "subtopic": "Animated Classics",
-      "question": "Who voiced Rapunzel's mother in 'Tangled'?",
-      "options": [
-        "Donna Murphy",
-        "Mandy Moore",
-        "Zachary Levi",
-        "Jeffrey Tambor"
-      ],
-      "correct_answer": "Donna Murphy",
       "difficulty": "hard"
     },
     {
@@ -8019,6 +7347,678 @@
         "Frontierland expansion"
       ],
       "correct_answer": "None - it was new",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_531",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who directed 'Mary Poppins Returns'?",
+      "options": [
+        "Rob Marshall",
+        "Julie Andrews",
+        "Emily Blunt",
+        "Lin-Manuel Miranda"
+      ],
+      "correct_answer": "Rob Marshall",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_532",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who plays Mary Poppins in 'Mary Poppins Returns'?",
+      "options": [
+        "Emily Blunt",
+        "Julie Andrews",
+        "Meryl Streep",
+        "Anne Hathaway"
+      ],
+      "correct_answer": "Emily Blunt",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_533",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What is the name of the ship in 'Pirates of the Caribbean'?",
+      "options": [
+        "The Black Pearl",
+        "The Flying Dutchman",
+        "The Interceptor",
+        "The Queen Anne's Revenge"
+      ],
+      "correct_answer": "The Black Pearl",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_534",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Which Disney Channel movie features a magical remote control?",
+      "options": [
+        "Click (not Disney)/Pixel Perfect/other",
+        "High School Musical",
+        "Camp Rock",
+        "None"
+      ],
+      "correct_answer": "Click (not Disney)/Pixel Perfect/other",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_535",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who stars in the 'Descendants' movies?",
+      "options": [
+        "Dove Cameron, Sofia Carson, Cameron Boyce",
+        "Zendaya",
+        "Selena Gomez",
+        "Miley Cyrus"
+      ],
+      "correct_answer": "Dove Cameron, Sofia Carson, Cameron Boyce",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_536",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What year was the original 'Mary Poppins' released?",
+      "options": [
+        "1964",
+        "1960",
+        "1965",
+        "1970"
+      ],
+      "correct_answer": "1964",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_537",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who plays Bert in the original 'Mary Poppins'?",
+      "options": [
+        "Dick Van Dyke",
+        "Julie Andrews",
+        "David Tomlinson",
+        "Ed Wynn"
+      ],
+      "correct_answer": "Dick Van Dyke",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_538",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Which Disney movie features a flying car?",
+      "options": [
+        "Chitty Chitty Bang (not Disney)/Flubber",
+        "Herbie",
+        "Bedknobs and Broomsticks",
+        "Mary Poppins"
+      ],
+      "correct_answer": "Chitty Chitty Bang (not Disney)/Flubber",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_539",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What is the name of the VW Beetle in Disney films?",
+      "options": [
+        "Herbie",
+        "Lightning",
+        "Mater",
+        "Luigi"
+      ],
+      "correct_answer": "Herbie",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_540",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who directed the 2015 'Cinderella'?",
+      "options": [
+        "Kenneth Branagh",
+        "Jon Favreau",
+        "Bill Condon",
+        "Guy Ritchie"
+      ],
+      "correct_answer": "Kenneth Branagh",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_541",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who plays Cinderella in the 2015 film?",
+      "options": [
+        "Lily James",
+        "Emma Watson",
+        "Naomi Scott",
+        "Elle Fanning"
+      ],
+      "correct_answer": "Lily James",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_542",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who plays the Fairy Godmother in the 2015 Cinderella?",
+      "options": [
+        "Helena Bonham Carter",
+        "Emma Thompson",
+        "Julie Andrews",
+        "Angela Lansbury"
+      ],
+      "correct_answer": "Helena Bonham Carter",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_543",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What year was 'Bedknobs and Broomsticks' released?",
+      "options": [
+        "1971",
+        "1964",
+        "1977",
+        "1980"
+      ],
+      "correct_answer": "1971",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_544",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who played the lead in 'Bedknobs and Broomsticks'?",
+      "options": [
+        "Angela Lansbury",
+        "Julie Andrews",
+        "Mary Poppins",
+        "Emily Blunt"
+      ],
+      "correct_answer": "Angela Lansbury",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_545",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What is the name of the sequel to 'Alice in Wonderland' (2010)?",
+      "options": [
+        "Alice Through the Looking Glass",
+        "Alice Returns",
+        "Alice in Wonderland 2",
+        "Return to Wonderland"
+      ],
+      "correct_answer": "Alice Through the Looking Glass",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_546",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who directed 'Maleficent'?",
+      "options": [
+        "Robert Stromberg",
+        "Tim Burton",
+        "Jon Favreau",
+        "Kenneth Branagh"
+      ],
+      "correct_answer": "Robert Stromberg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_547",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What year did the first 'Pirates of the Caribbean' film release?",
+      "options": [
+        "2003",
+        "2001",
+        "2005",
+        "2007"
+      ],
+      "correct_answer": "2003",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_548",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who plays Christopher Robin in the 2018 film?",
+      "options": [
+        "Ewan McGregor",
+        "Tom Hanks",
+        "Colin Firth",
+        "Jim Cummings"
+      ],
+      "correct_answer": "Ewan McGregor",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_549",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What is the name of the 2016 live-action jungle film?",
+      "options": [
+        "The Jungle Book",
+        "Tarzan",
+        "The Lion King",
+        "Mowgli"
+      ],
+      "correct_answer": "The Jungle Book",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_550",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who plays Mowgli in the 2016 Jungle Book?",
+      "options": [
+        "Neel Sethi",
+        "Ben Kingsley",
+        "Bill Murray",
+        "Idris Elba"
+      ],
+      "correct_answer": "Neel Sethi",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_551",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What was Disney's first major live-action film?",
+      "options": [
+        "Treasure Island (1950)",
+        "20,000 Leagues Under the Sea",
+        "Mary Poppins",
+        "Old Yeller"
+      ],
+      "correct_answer": "Treasure Island (1950)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_552",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who directed the 2016 'Pete's Dragon'?",
+      "options": [
+        "David Lowery",
+        "Jon Favreau",
+        "Kenneth Branagh",
+        "Tim Burton"
+      ],
+      "correct_answer": "David Lowery",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_553",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "What year was the original 'Pete's Dragon' released?",
+      "options": [
+        "1977",
+        "1964",
+        "1980",
+        "1971"
+      ],
+      "correct_answer": "1977",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_554",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "Disney",
+      "subtopic": "Live Action",
+      "question": "Who voices Baloo in the 2016 Jungle Book?",
+      "options": [
+        "Bill Murray",
+        "Ben Kingsley",
+        "Idris Elba",
+        "Christopher Walken"
+      ],
+      "correct_answer": "Bill Murray",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_555",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of the cricket in 'Mulan'?",
+      "options": [
+        "Cri-Kee",
+        "Mushu",
+        "Khan",
+        "Yao"
+      ],
+      "correct_answer": "Cri-Kee",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_556",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of Ariel's seagull friend?",
+      "options": [
+        "Scuttle",
+        "Flounder",
+        "Sebastian",
+        "Max"
+      ],
+      "correct_answer": "Scuttle",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_557",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of the prince in 'Snow White'?",
+      "options": [
+        "The Prince/Prince Florian",
+        "Prince Charming",
+        "Prince Phillip",
+        "Prince Eric"
+      ],
+      "correct_answer": "The Prince/Prince Florian",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_558",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What are the seven dwarfs' names?",
+      "options": [
+        "Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, Dopey",
+        "All of the above",
+        "Various names",
+        "Too many to list"
+      ],
+      "correct_answer": "Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, Dopey",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_559",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of the prince in 'Cinderella'?",
+      "options": [
+        "Prince Charming",
+        "Prince Henry",
+        "Prince Christopher",
+        "Prince Edward"
+      ],
+      "correct_answer": "Prince Charming",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_560",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is Cinderella's real name in the Disney version?",
+      "options": [
+        "Cinderella/Ella",
+        "Anastasia",
+        "Drizella",
+        "Belle"
+      ],
+      "correct_answer": "Cinderella/Ella",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_561",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What is the name of Lady Tremaine?",
+      "options": [
+        "Cinderella's stepmother",
+        "Evil Queen",
+        "Maleficent",
+        "Ursula"
+      ],
+      "correct_answer": "Cinderella's stepmother",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_562",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Animated Classics",
+      "question": "What was the first Disney film to use the Xerox process?",
+      "options": [
+        "101 Dalmatians",
+        "Sleeping Beauty",
+        "The Jungle Book",
+        "The Aristocats"
+      ],
+      "correct_answer": "101 Dalmatians",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dsn_paid_563",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the name of the Queen in 'Alice in Wonderland'?",
+      "options": [
+        "Queen of Hearts",
+        "Red Queen",
+        "White Queen",
+        "Chess Queen"
+      ],
+      "correct_answer": "Queen of Hearts",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_564",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the White Rabbit's job?",
+      "options": [
+        "The Queen's herald/page",
+        "Gardener",
+        "Cook",
+        "Knight"
+      ],
+      "correct_answer": "The Queen's herald/page",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_565",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "Who are Alice's companions at the tea party?",
+      "options": [
+        "Mad Hatter, March Hare, Dormouse",
+        "White Rabbit, Cheshire Cat",
+        "Tweedledee, Tweedledum",
+        "Caterpillar, Queen"
+      ],
+      "correct_answer": "Mad Hatter, March Hare, Dormouse",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_566",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What does the Caterpillar ask Alice?",
+      "options": [
+        "Who are you?",
+        "Where are you going?",
+        "What do you want?",
+        "Why are you here?"
+      ],
+      "correct_answer": "Who are you?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_567",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Who composed the music for 'Mary Poppins'?",
+      "options": [
+        "Richard M. Sherman and Robert B. Sherman",
+        "Alan Menken",
+        "Elton John",
+        "Randy Newman"
+      ],
+      "correct_answer": "Richard M. Sherman and Robert B. Sherman",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_568",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Which Disney movie features 'Supercalifragilisticexpialidocious'?",
+      "options": [
+        "Mary Poppins",
+        "Bedknobs and Broomsticks",
+        "Chitty Chitty Bang Bang",
+        "The Aristocats"
+      ],
+      "correct_answer": "Mary Poppins",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_569",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Which movie features 'A Spoonful of Sugar'?",
+      "options": [
+        "Mary Poppins",
+        "Alice in Wonderland",
+        "Bedknobs and Broomsticks",
+        "Winnie the Pooh"
+      ],
+      "correct_answer": "Mary Poppins",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_paid_570",
+      "category": "Music",
+      "subcategory": "Film & TV",
+      "topic": "Disney",
+      "subtopic": "Songs",
+      "question": "Which movie features 'Zip-a-Dee-Doo-Dah'?",
+      "options": [
+        "Song of the South",
+        "The Aristocats",
+        "Robin Hood",
+        "The Jungle Book"
+      ],
+      "correct_answer": "Song of the South",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_571",
+      "category": "Geography",
+      "subcategory": "Landmarks & Monuments",
+      "topic": "Disney",
+      "subtopic": "Parks",
+      "question": "What year did Disneyland's Star Tours open?",
+      "options": [
+        "1987 (before Disney owned Star Wars)",
+        "1980",
+        "1990",
+        "2000"
+      ],
+      "correct_answer": "1987 (before Disney owned Star Wars)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_paid_572",
+      "category": "Geography",
+      "subcategory": "Landmarks & Monuments",
+      "topic": "Disney",
+      "subtopic": "Parks",
+      "question": "What is the oldest operating attraction at Disneyland?",
+      "options": [
+        "Carousel (King Arthur Carrousel)",
+        "Jungle Cruise",
+        "Peter Pan's Flight",
+        "Dumbo"
+      ],
+      "correct_answer": "Carousel (King Arthur Carrousel)",
       "difficulty": "hard"
     }
   ]

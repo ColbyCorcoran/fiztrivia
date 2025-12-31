@@ -89,8 +89,13 @@ struct CategoryWheelView: View {
             // Get the pack to access its icons
             let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == gameModeManager.selectedTopic })
 
-            // Create segments with individual subtopic icons and placeholder colors
-            baseSegments = subtopics.map { subtopic in
+            // Create segments with individual subtopic icons, filtering out empty subtopics
+            baseSegments = subtopics.compactMap { subtopic in
+                // Only include subtopics that have unanswered questions
+                guard hasQuestionsForSubtopic(subtopic, topicPackId: gameModeManager.selectedTopic!) else {
+                    return nil
+                }
+
                 // Use subtopic-specific icon if available, otherwise fall back to pack icon
                 let subtopicIcon = pack?.icon(for: subtopic) ?? "star.fill"
 
@@ -307,6 +312,13 @@ struct CategoryWheelView: View {
             }
         }
 
+        // CRITICAL: Check wrap-around for last segment
+        // On a circular wheel, the last segment is adjacent to the first segment
+        if index == totalSegments - 1 && !assignedColors.isEmpty {
+            // Last segment is adjacent to first segment (index 0)
+            adjacentColors.insert(assignedColors[0])
+        }
+
         // STRATEGY: Maximize color variety while avoiding adjacency
         // Priority 1: Use category's static color if unused and not adjacent (most predictable)
         if !usedColors.contains(category.color) && !adjacentColors.contains(category.color) {
@@ -376,6 +388,13 @@ struct CategoryWheelView: View {
             adjacentColors.insert(assignedColors[prevIndex])
         }
 
+        // CRITICAL: Check wrap-around for last segment
+        // On a circular wheel, the last segment is adjacent to the first segment
+        if index == totalSegments - 1 && !assignedColors.isEmpty {
+            // Last segment is adjacent to first segment (index 0)
+            adjacentColors.insert(assignedColors[0])
+        }
+
         // Priority 1: Find unused color that's not adjacent
         for color in palette {
             if !usedColors.contains(color) && !adjacentColors.contains(color) {
@@ -392,6 +411,18 @@ struct CategoryWheelView: View {
 
         // Fallback: use default color
         return defaultColor
+    }
+
+    // MARK: - Question Filtering Helpers
+    private func hasQuestionsForSubtopic(_ subtopic: String, topicPackId: String) -> Bool {
+        let questions = gameViewModel.questions.filter { question in
+            question.topic == topicPackId &&
+            question.subtopic == subtopic &&
+            !answeredQuestionsManager.isQuestionAnswered(question.id) &&
+            difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty) &&
+            !phobiaManager.isQuestionExcluded(question.id)
+        }
+        return !questions.isEmpty
     }
 
     // MARK: - Dynamic Type & Accessibility

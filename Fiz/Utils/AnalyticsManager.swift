@@ -358,4 +358,21 @@ class AnalyticsManager: ObservableObject {
             "packs_restored": packsRestored
         ])
     }
+
+    // MARK: - Support & Legal Tracking
+
+    func trackFeatureRequestsOpened() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("feature_requests_opened")
+    }
+
+    func trackTermsOfServiceViewed() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("terms_of_service_viewed")
+    }
+
+    func trackContactSupportOpened() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("contact_support_opened")
+    }
 }

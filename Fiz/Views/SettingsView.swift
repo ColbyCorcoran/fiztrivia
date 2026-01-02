@@ -28,20 +28,6 @@ struct SettingsView: View {
                         )
                     }
 
-                    // Feature Tour (standalone)
-                    Button(action: {
-                        onboardingManager.forceShowSecondaryOnboarding()
-                        AnalyticsManager.shared.trackFeatureTourManuallyOpened()
-                        HapticManager.shared.buttonTapEffect()
-                    }) {
-                        SettingsRow(
-                            icon: "star.circle.fill",
-                            iconColor: .fizOrange,
-                            title: "Feature Tour"
-                        )
-                    }
-                    .buttonStyle(.plain)
-
                     // Personalization Section
                     Section("Personalization") {
                         NavigationLink(destination: UsernameSettingsView()) {
@@ -127,6 +113,68 @@ struct SettingsView: View {
                                 // subtitle: "Stats and reset options"
                             )
                         }
+                    }
+
+                    // Support & Legal Section
+                    Section("Support & Legal") {
+                        // Feature Requests & Bug Reports
+                        Button(action: {
+                            AnalyticsManager.shared.trackFeatureRequestsOpened()
+                            HapticManager.shared.buttonTapEffect()
+                            // TODO: Add URL/link for feature requests and bug reports
+                            // Example: Open URL to GitHub issues, Canny board, or email
+                        }) {
+                            SettingsRow(
+                                icon: "lightbulb.fill",
+                                iconColor: .fizBrown,
+                                title: "Feature Requests & Bug Reports"
+                            )
+                        }
+                        .buttonStyle(.plain)
+
+                        // Terms of Service & Privacy Policy
+                        Button(action: {
+                            AnalyticsManager.shared.trackTermsOfServiceViewed()
+                            HapticManager.shared.buttonTapEffect()
+                            // TODO: Add URL/link for Terms of Service and Privacy Policy
+                            // Example: Open URL to website or in-app WebView
+                        }) {
+                            SettingsRow(
+                                icon: "doc.text.fill",
+                                iconColor: .fizBrown,
+                                title: "Terms of Service & Privacy Policy"
+                            )
+                        }
+                        .buttonStyle(.plain)
+
+                        // Contact Support
+                        Button(action: {
+                            AnalyticsManager.shared.trackContactSupportOpened()
+                            HapticManager.shared.buttonTapEffect()
+                            // TODO: Add URL/link for contact support
+                            // Example: Open email composer or support URL
+                        }) {
+                            SettingsRow(
+                                icon: "envelope.fill",
+                                iconColor: .fizBrown,
+                                title: "Contact Support"
+                            )
+                        }
+                        .buttonStyle(.plain)
+
+                        // Feature Tour (moved from top)
+                        Button(action: {
+                            onboardingManager.forceShowSecondaryOnboarding()
+                            AnalyticsManager.shared.trackFeatureTourManuallyOpened()
+                            HapticManager.shared.buttonTapEffect()
+                        }) {
+                            SettingsRow(
+                                icon: "star.circle.fill",
+                                iconColor: .fizBrown,
+                                title: "Feature Tour"
+                            )
+                        }
+                        .buttonStyle(.plain)
                     }
 
                     // Version footer at bottom of scroll

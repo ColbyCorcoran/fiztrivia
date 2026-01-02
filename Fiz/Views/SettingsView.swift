@@ -7,6 +7,7 @@ struct SettingsView: View {
     @StateObject private var gameModeManager = GameModeManager.shared
     @StateObject private var onboardingManager = OnboardingManager.shared
     @Environment(\.sizeCategory) private var sizeCategory
+    @Environment(\.openURL) private var openURL
 
     @State private var swipeTranslation: CGFloat = 0
 
@@ -125,7 +126,7 @@ struct SettingsView: View {
                             // Example: Open URL to GitHub issues, Canny board, or email
                         }) {
                             SettingsRow(
-                                icon: "lightbulb.fill",
+                                icon: "ellipsis.message",
                                 iconColor: .fizBrown,
                                 title: "Feature Requests & Bug Reports"
                             )
@@ -151,8 +152,9 @@ struct SettingsView: View {
                         Button(action: {
                             AnalyticsManager.shared.trackContactSupportOpened()
                             HapticManager.shared.buttonTapEffect()
-                            // TODO: Add URL/link for contact support
-                            // Example: Open email composer or support URL
+                            if let url = URL(string: "mailto:woodsy.relics.6n@icloud.com?subject=Fiz%20Trivia%20Support") {
+                                openURL(url)
+                            }
                         }) {
                             SettingsRow(
                                 icon: "envelope.fill",
@@ -169,7 +171,7 @@ struct SettingsView: View {
                             HapticManager.shared.buttonTapEffect()
                         }) {
                             SettingsRow(
-                                icon: "star.circle.fill",
+                                icon: "lightbulb.fill",
                                 iconColor: .fizBrown,
                                 title: "Feature Tour"
                             )

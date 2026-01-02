@@ -22,6 +22,7 @@ struct CartView: View {
     @State private var showingSuccessAlert = false
     @State private var showingErrorAlert = false
     @State private var errorMessage = ""
+    @State private var showingClearBagAlert = false
 
     private var cartPacks: [ExpansionPack] {
         expansionManager.availablePacks.filter { cartManager.isInCart(packId: $0.packId) }
@@ -88,6 +89,20 @@ struct CartView: View {
             .navigationTitle("Shopping Bag")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                // Clear Bag button (leading)
+                if !cartPacks.isEmpty {
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        Button(action: {
+                            showingClearBagAlert = true
+                        }) {
+                            Text("Clear Bag")
+                                .font(.body)
+                        }
+                        .tint(.red)
+                    }
+                }
+
+                // Done button (trailing)
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
                         dismiss()
@@ -115,6 +130,17 @@ struct CartView: View {
                 Button("OK", role: .cancel) { }
             } message: {
                 Text(errorMessage)
+            }
+            .alert("Clear Shopping Bag?", isPresented: $showingClearBagAlert) {
+                Button("Cancel", role: .cancel) { }
+                Button("Clear Bag", role: .destructive) {
+                    HapticManager.shared.lightImpact()
+                    cartManager.clearCart()
+                    appliedDiscount = nil
+                    discountCodeInput = ""
+                }
+            } message: {
+                Text("This will remove all \(cartPacks.count) item\(cartPacks.count == 1 ? "" : "s") from your shopping bag.")
             }
         }
     }

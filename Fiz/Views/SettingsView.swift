@@ -122,8 +122,9 @@ struct SettingsView: View {
                         Button(action: {
                             AnalyticsManager.shared.trackFeatureRequestsOpened()
                             HapticManager.shared.buttonTapEffect()
-                            // TODO: Add URL/link for feature requests and bug reports
-                            // Example: Open URL to GitHub issues, Canny board, or email
+                            if let url = URL(string: "https://fiztrivia.userjot.com/board/feature-requests-bug-reports") {
+                                openURL(url)
+                            }
                         }) {
                             SettingsRow(
                                 icon: "ellipsis.message",

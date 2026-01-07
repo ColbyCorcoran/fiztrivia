@@ -47,7 +47,7 @@ struct QuestionContentView: View {
                             }
                         }
                     } else {
-                        // Regular/Single Category Mode: Show category and subcategory
+                        // Regular/Single Category Mode: Show category and topic/subcategory
                         // Main category
                         if let category = selectedCategory {
                             HStack(spacing: 6) {
@@ -60,8 +60,15 @@ struct QuestionContentView: View {
                             .foregroundColor(.secondary)
                         }
 
-                        // Subcategory (smaller, underneath)
-                        if let subcategory = question.subcategory {
+                        // Topic (if available) or Subcategory (smaller, underneath)
+                        // Prioritize topic display name for better context
+                        if let topicId = question.topic {
+                            let displayName = ExpansionPackManager.shared.getDisplayName(for: topicId)
+                            Text(displayName)
+                                .font(.caption)
+                                .fontWeight(.medium)
+                                .foregroundColor(.secondary.opacity(0.7))
+                        } else if let subcategory = question.subcategory {
                             Text(subcategory)
                                 .font(.caption)
                                 .fontWeight(.medium)

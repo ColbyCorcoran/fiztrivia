@@ -318,9 +318,10 @@ final class QuestionHistoryEntry {
     var timestamp: Date
     var category: String
     var subcategory: String?
+    var topic: String?  // Pack ID for expansion pack questions
     var id: UUID
 
-    init(questionId: String, questionText: String, correctAnswer: String, userAnswer: String, wasCorrect: Bool, category: String, subcategory: String?) {
+    init(questionId: String, questionText: String, correctAnswer: String, userAnswer: String, wasCorrect: Bool, category: String, subcategory: String?, topic: String? = nil) {
         self.questionId = questionId
         self.questionText = questionText
         self.correctAnswer = correctAnswer
@@ -329,6 +330,7 @@ final class QuestionHistoryEntry {
         self.timestamp = Date()
         self.category = category
         self.subcategory = subcategory
+        self.topic = topic
         self.id = UUID()
     }
 }
@@ -1912,6 +1914,69 @@ class ExpansionPackManager: ObservableObject {
     /// Checks if user only has preview access to a pack (not purchased/installed)
     func hasOnlyPreviews(packId: String) -> Bool {
         return !isInstalled(packId: packId) && isAvailableForSingleTopicMode(packId: packId)
+    }
+
+    // MARK: - Display Name Mapping
+
+    /// Maps topic/pack IDs to user-friendly display names
+    /// Includes existing packs, draft packs, and future pack IDs
+    private let topicDisplayNames: [String: String] = [
+        // Existing expansion packs
+        "com.fiz.pack.harry_potter": "Harry Potter",
+        "com.fiz.pack.pokemon": "Pokémon",
+        "com.fiz.pack.the_office": "The Office",
+        "com.fiz.pack.disney": "Disney",
+        "com.fiz.pack.80s_trivia": "80s Trivia",
+
+        // Draft expansion packs
+        "com.fiz.pack.marvel": "Marvel",
+        "com.fiz.pack.pixar": "Pixar",
+
+        // Future expansion packs - Sports
+        "com.fiz.pack.baseball": "Baseball",
+        "com.fiz.pack.basketball": "Basketball",
+        "com.fiz.pack.boxing": "Boxing",
+        "com.fiz.pack.football": "Football",
+        "com.fiz.pack.golf": "Golf",
+        "com.fiz.pack.hockey": "Hockey",
+        "com.fiz.pack.olympics": "Olympics",
+        "com.fiz.pack.soccer": "Soccer",
+        "com.fiz.pack.tennis": "Tennis",
+
+        // Future expansion packs - Other
+        "com.fiz.pack.dc": "DC",
+        "com.fiz.pack.star_wars": "Star Wars",
+    ]
+
+    /// Returns the user-friendly display name for a topic/pack ID
+    /// - Parameter topicId: The pack ID (e.g., "com.fiz.pack.harry_potter")
+    /// - Returns: Display name (e.g., "Harry Potter")
+    func getDisplayName(for topicId: String) -> String {
+        // First check if it's a loaded expansion pack (most reliable)
+        if let pack = availablePacks.first(where: { $0.packId == topicId }) {
+            return pack.packName
+        }
+
+        // Then check pre-defined display names (includes draft and future packs)
+        if let displayName = topicDisplayNames[topicId] {
+            return displayName
+        }
+
+        // Fallback: format the pack ID nicely
+        return formatPackId(topicId)
+    }
+
+    /// Formats a pack ID into a readable name as fallback
+    /// - Parameter packId: Pack ID like "com.fiz.pack.star_wars"
+    /// - Returns: Formatted name like "Star Wars"
+    private func formatPackId(_ packId: String) -> String {
+        // Strip "com.fiz.pack." prefix
+        let name = packId.replacingOccurrences(of: "com.fiz.pack.", with: "")
+        // Replace underscores with spaces and capitalize
+        return name.replacingOccurrences(of: "_", with: " ")
+            .split(separator: " ")
+            .map { $0.capitalized }
+            .joined(separator: " ")
     }
 
     // MARK: - Testing Helpers

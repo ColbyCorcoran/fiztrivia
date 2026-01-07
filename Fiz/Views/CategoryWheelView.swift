@@ -1304,7 +1304,8 @@ struct CategoryWheelView: View {
             userAnswer: answer,
             wasCorrect: isCorrect,
             category: question.category,
-            subcategory: question.subcategory
+            subcategory: question.subcategory,
+            topic: question.topic
         )
         modelContext.insert(historyEntry)
         do {

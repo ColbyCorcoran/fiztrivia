@@ -117,13 +117,23 @@ struct QuestionHistoryRow: View {
                 .foregroundColor(.primary)
                 .fixedSize(horizontal: false, vertical: true)
 
-            // Category and subcategory
+            // Category and topic/subcategory
             HStack(spacing: 6) {
                 Text(entry.category)
                     .font(.caption)
                     .foregroundColor(.secondary)
 
-                if let subcategory = entry.subcategory {
+                // Show topic display name if available, otherwise subcategory
+                if let topicId = entry.topic {
+                    Text("•")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+
+                    let displayName = ExpansionPackManager.shared.getDisplayName(for: topicId)
+                    Text(displayName)
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                } else if let subcategory = entry.subcategory {
                     Text("•")
                         .font(.caption)
                         .foregroundColor(.secondary)

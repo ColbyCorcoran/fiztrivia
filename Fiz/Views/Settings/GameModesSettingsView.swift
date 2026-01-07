@@ -524,80 +524,65 @@ private struct TopicPackRow: View {
             difficultyMode: difficultyManager.selectedDifficulty
         )
 
-        VStack(spacing: 0) {
-            // Main pack row
-            Button(action: {
-                if !isCompleted {
-                    onSelect()
-                } else {
-                    HapticManager.shared.warningFeedback()
+        // Show reset button if questions answered AND pack is NOT currently selected
+        let showResetButton = answeredCount > 0 && localSelectedTopic != pack.packId
+
+        // Main pack row
+        Button(action: {
+            if !isCompleted {
+                onSelect()
+            } else {
+                HapticManager.shared.warningFeedback()
+            }
+        }) {
+            HStack(spacing: 12) {
+                Image(systemName: pack.icon)
+                    .font(.title3)
+                    .foregroundColor(isCompleted ? .secondary : .fizOrange)
+                    .frame(width: 28)
+
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(pack.packName)
+                        .font(.body)
+                        .foregroundColor(isCompleted ? .secondary : .primary)
+                        .strikethrough(isCompleted)
+
+                    // Always show "answered" for preview questions
+                    Text("\(answeredCount) of \(totalCount) \(isPreview ? "preview " : "")questions answered")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
                 }
-            }) {
-                HStack(spacing: 12) {
-                    Image(systemName: pack.icon)
-                        .font(.title3)
-                        .foregroundColor(isCompleted ? .secondary : .fizOrange)
-                        .frame(width: 28)
 
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(pack.packName)
-                            .font(.body)
-                            .foregroundColor(isCompleted ? .secondary : .primary)
-                            .strikethrough(isCompleted)
+                Spacer()
 
-                        HStack(spacing: 4) {
-                            Text("\(answeredCount)/\(totalCount) \(isPreview ? "preview " : "")questions")
+                // Reset button (inline, trailing side) - only if not selected and has progress
+                if showResetButton {
+                    Button(action: {
+                        onReset(pack.packId, pack.packName, answeredCount)
+                    }) {
+                        VStack(spacing: 2) {
+                            Image(systemName: "arrow.counterclockwise")
                                 .font(.caption)
-                                .foregroundColor(.secondary)
-
-                            if isCompleted {
-                                Text("• Completed")
-                                    .font(.caption)
-                                    .foregroundColor(.fizTeal)
-                                    .fontWeight(.semibold)
-                            }
+                            Text("Reset")
+                                .font(.caption2)
                         }
+                        .foregroundColor(.orange)
                     }
-
-                    Spacer()
-
-                    if localSelectedTopic == pack.packId && !isCompleted {
-                        Image(systemName: "checkmark.circle.fill")
-                            .font(.title3)
-                            .foregroundColor(.fizOrange)
-                    } else if isCompleted {
-                        Image(systemName: "checkmark.circle.fill")
-                            .font(.title3)
-                            .foregroundColor(.fizTeal)
-                    }
+                    .buttonStyle(.plain)
                 }
-                .contentShape(Rectangle())
-                .opacity(isCompleted ? 0.6 : 1.0)
-            }
-            .buttonStyle(.plain)
-            .disabled(isCompleted)
 
-            // Reset button (only show if there are answered questions)
-            if answeredCount > 0 {
-                Divider()
-                    .padding(.leading, 40)
-
-                Button(action: {
-                    onReset(pack.packId, pack.packName, answeredCount)
-                }) {
-                    HStack {
-                        Image(systemName: "arrow.counterclockwise")
-                            .font(.caption)
-                        Text("Reset Progress")
-                            .font(.caption)
-                    }
-                    .foregroundColor(.orange)
-                    .padding(.vertical, 8)
-                    .frame(maxWidth: .infinity)
+                // Selection checkmark (only on selected, not on completed)
+                if localSelectedTopic == pack.packId && !isCompleted {
+                    Image(systemName: "checkmark.circle.fill")
+                        .font(.title3)
+                        .foregroundColor(.fizOrange)
                 }
-                .buttonStyle(.plain)
             }
+            .contentShape(Rectangle())
+            .opacity(isCompleted ? 0.6 : 1.0)
         }
+        .buttonStyle(.plain)
+        .disabled(isCompleted)
     }
 }
 

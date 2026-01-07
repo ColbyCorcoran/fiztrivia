@@ -1979,6 +1979,40 @@ class ExpansionPackManager: ObservableObject {
             .joined(separator: " ")
     }
 
+    // MARK: - Base Game Question Counting
+
+    /// Counts how many base game questions (from questions.json) have a specific topic
+    /// Used to calculate total free questions available (base + preview)
+    func countBaseGameQuestions(for packId: String) -> Int {
+        guard let url = Bundle.main.url(forResource: "questions", withExtension: "json") else {
+            return 0
+        }
+
+        do {
+            let data = try Data(contentsOf: url)
+            let jsonObject = try JSONSerialization.jsonObject(with: data, options: [])
+
+            guard let jsonDict = jsonObject as? [String: Any],
+                  let categories = jsonDict["categories"] as? [String: [[String: Any]]] else {
+                return 0
+            }
+
+            var count = 0
+            for (_, categoryQuestions) in categories {
+                for questionDict in categoryQuestions {
+                    if let topic = questionDict["topic"] as? String, topic == packId {
+                        count += 1
+                    }
+                }
+            }
+
+            return count
+        } catch {
+            print("Failed to count base game questions: \(error)")
+            return 0
+        }
+    }
+
     // MARK: - Testing Helpers
     func resetForTesting() {
         UserDefaults.standard.removeObject(forKey: Self.purchasedPacksKey)

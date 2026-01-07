@@ -358,23 +358,36 @@ struct ExpansionPackCard: View {
     // MARK: - Helper Methods
 
     /// Returns marketing-friendly text for free question count
-    /// Rounds to nearest 25/50 to account for base game questions with the same topic
+    /// Accounts for base game questions + preview questions, rounds DOWN for accuracy
     private func freeQuestionText(for pack: ExpansionPack) -> String {
-        let previewCount = pack.freePreviewCount
+        // Count base game questions with this topic (from questions.json)
+        let baseGameCount = expansionManager.countBaseGameQuestions(for: pack.packId)
 
-        // Round to friendly marketing numbers
-        switch previewCount {
-        case 0...12:
-            return "Try \(previewCount)+ questions free"
-        case 13...37:
-            return "Try 25+ questions free"
-        case 38...62:
-            return "Try 50+ questions free"
-        case 63...87:
-            return "Try 75+ questions free"
+        // Total free questions available = preview + base game
+        let totalFree = pack.freePreviewCount + baseGameCount
+
+        // Round DOWN to safe marketing tiers to avoid misleading
+        let roundedCount: Int
+        switch totalFree {
+        case 0...9:
+            roundedCount = totalFree  // Show exact for small numbers
+        case 10...24:
+            roundedCount = 10
+        case 25...39:
+            roundedCount = 25
+        case 40...49:
+            roundedCount = 40
+        case 50...59:
+            roundedCount = 50
+        case 60...74:
+            roundedCount = 60
+        case 75...99:
+            roundedCount = 75
         default:
-            return "Try 100+ questions free"
+            roundedCount = 100
         }
+
+        return "Try \(roundedCount)+ questions free"
     }
 }
 

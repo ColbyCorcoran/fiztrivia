@@ -183,13 +183,21 @@ class GameViewModel {
             gameSession.answerState = .incorrect
             // Save the current streak before resetting if it's > 0
             if gameSession.currentStreak > 0, let context = modelContext {
-                // Determine game mode and category for this streak
+                // Determine game mode and category/topic for this streak
                 let gameMode: String
                 let categoryName: String?
 
                 if gameModeManager.isSingleCategoryMode {
                     gameMode = "Single Category"
                     categoryName = gameModeManager.selectedCategory?.rawValue
+                } else if gameModeManager.isSingleTopicMode {
+                    gameMode = "Single Topic"
+                    // Get display name for the selected topic
+                    if let topicId = gameModeManager.selectedTopic {
+                        categoryName = ExpansionPackManager.shared.getDisplayName(for: topicId)
+                    } else {
+                        categoryName = nil
+                    }
                 } else {
                     gameMode = "Regular"
                     categoryName = nil

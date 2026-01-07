@@ -547,8 +547,8 @@ private struct TopicPackRow: View {
                         .foregroundColor(isCompleted ? .secondary : .primary)
                         .strikethrough(isCompleted)
 
-                    // Always show "answered" for preview questions
-                    Text("\(answeredCount) of \(totalCount) \(isPreview ? "preview " : "")questions answered")
+                    // Always show "answered" at the end
+                    Text("\(answeredCount)/\(totalCount) \(isPreview ? "preview " : "")questions answered")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }

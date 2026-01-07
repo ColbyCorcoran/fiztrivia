@@ -339,8 +339,8 @@ struct ExpansionPackCard: View {
                     .cornerRadius(12)
                 }
 
-                // Free preview note
-                Text("Includes \(pack.freePreviewCount) free preview questions")
+                // Free preview note with rounded count for marketing
+                Text(freeQuestionText(for: pack))
                     .font(.caption)
                     .foregroundColor(.fizBrown.opacity(0.6))
                     .padding(.top, 4)
@@ -352,6 +352,28 @@ struct ExpansionPackCard: View {
         .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
         .onAppear {
             AnalyticsManager.shared.trackExpansionPackViewed(packId: pack.packId, packName: pack.packName)
+        }
+    }
+
+    // MARK: - Helper Methods
+
+    /// Returns marketing-friendly text for free question count
+    /// Rounds to nearest 25/50 to account for base game questions with the same topic
+    private func freeQuestionText(for pack: ExpansionPack) -> String {
+        let previewCount = pack.freePreviewCount
+
+        // Round to friendly marketing numbers
+        switch previewCount {
+        case 0...12:
+            return "Try \(previewCount)+ questions free"
+        case 13...37:
+            return "Try 25+ questions free"
+        case 38...62:
+            return "Try 50+ questions free"
+        case 63...87:
+            return "Try 75+ questions free"
+        default:
+            return "Try 100+ questions free"
         }
     }
 }

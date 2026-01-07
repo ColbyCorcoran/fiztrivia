@@ -395,8 +395,24 @@ struct GameModesSettingsView: View {
 
         if saveStreak && gameViewModel.gameSession.currentStreak > 0 {
             // Save streak with current mode info
-            let gameMode = gameModeManager.selectedMode.rawValue
-            let categoryName = gameModeManager.selectedCategory?.rawValue
+            let gameMode: String
+            let categoryName: String?
+
+            if gameModeManager.isSingleCategoryMode {
+                gameMode = "Single Category"
+                categoryName = gameModeManager.selectedCategory?.rawValue
+            } else if gameModeManager.isSingleTopicMode {
+                gameMode = "Single Topic"
+                // Get display name for the selected topic
+                if let topicId = gameModeManager.selectedTopic {
+                    categoryName = ExpansionPackManager.shared.getDisplayName(for: topicId)
+                } else {
+                    categoryName = nil
+                }
+            } else {
+                gameMode = "Regular"
+                categoryName = nil
+            }
 
             let entry = LeaderboardEntry(
                 streak: gameViewModel.gameSession.currentStreak,

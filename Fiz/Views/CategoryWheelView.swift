@@ -1200,10 +1200,8 @@ struct CategoryWheelView: View {
             }
 
             filteredQuestions = gameViewModel.questions.filter { question in
-                // Include if topic matches AND (subtopic matches OR question has no subtopic)
-                // This allows base game questions without subtopics to appear in all subtopics
                 question.topic == topicPackId &&
-                (question.subtopic == subtopicName || question.subtopic == nil) &&
+                question.subtopic == subtopicName &&
                 !answeredQuestionsManager.isQuestionAnswered(question.id) &&
                 difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty)
             }
@@ -1455,7 +1453,7 @@ struct CategoryWheelView: View {
     private func areAllSubtopicQuestionsAnswered(subtopic: String, topicId: String) -> Bool {
         let subtopicQuestions = gameViewModel.questions.filter { question in
             question.topic == topicId &&
-            (question.subtopic == subtopic || question.subtopic == nil) &&
+            question.subtopic == subtopic &&
             difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty) &&
             !phobiaManager.isQuestionExcluded(question.id)
         }
@@ -1470,7 +1468,7 @@ struct CategoryWheelView: View {
     private func getAnsweredCountForSubtopic(subtopic: String, topicId: String) -> Int {
         let subtopicQuestions = gameViewModel.questions.filter { question in
             question.topic == topicId &&
-            (question.subtopic == subtopic || question.subtopic == nil) &&
+            question.subtopic == subtopic &&
             difficultyManager.selectedDifficulty.shouldInclude(questionDifficulty: question.difficulty) &&
             !phobiaManager.isQuestionExcluded(question.id)
         }

@@ -495,7 +495,7 @@
         "correct_answer": "Dunder Mifflin",
         "difficulty": "easy",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Trivia"
       },
       {
         "id": "ent_032",
@@ -511,7 +511,7 @@
         "correct_answer": "Jello",
         "difficulty": "easy",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Episodes"
       },
       {
         "id": "ent_033",
@@ -527,7 +527,7 @@
         "correct_answer": "Beets",
         "difficulty": "easy",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "ent_034",
@@ -543,7 +543,7 @@
         "correct_answer": "Halpert",
         "difficulty": "medium",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "ent_035",
@@ -559,7 +559,7 @@
         "correct_answer": "Chili",
         "difficulty": "medium",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "ent_036",
@@ -575,7 +575,7 @@
         "correct_answer": "Meredith",
         "difficulty": "medium",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Episodes"
       },
       {
         "id": "ent_037",
@@ -591,7 +591,7 @@
         "correct_answer": "Quality Assurance",
         "difficulty": "medium",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "ent_038",
@@ -607,7 +607,7 @@
         "correct_answer": "Bubble wrap",
         "difficulty": "hard",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Episodes"
       },
       {
         "id": "ent_039",
@@ -623,7 +623,7 @@
         "correct_answer": "Sprinkles",
         "difficulty": "hard",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "ent_040",
@@ -639,7 +639,7 @@
         "correct_answer": "Josh Porter",
         "difficulty": "hard",
         "topic": "com.fiz.pack.the_office",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "ent_041",
@@ -4817,7 +4817,7 @@
         "correct_answer": "Hedwig",
         "difficulty": "easy",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "lit_004",
@@ -4833,7 +4833,7 @@
         "correct_answer": "Expelliarmus",
         "difficulty": "medium",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Spells & Magic"
       },
       {
         "id": "lit_007",
@@ -4849,7 +4849,7 @@
         "correct_answer": "Time-Turner",
         "difficulty": "medium",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Wizarding World"
       },
       {
         "id": "lit_009",
@@ -4865,7 +4865,7 @@
         "correct_answer": "James and Lily",
         "difficulty": "easy",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "lit_011",
@@ -4881,7 +4881,7 @@
         "correct_answer": "Seeker",
         "difficulty": "easy",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Hogwarts"
       },
       {
         "id": "lit_016",
@@ -4897,7 +4897,7 @@
         "correct_answer": "A basilisk fang",
         "difficulty": "medium",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Wizarding World"
       },
       {
         "id": "lit_024",
@@ -4913,7 +4913,7 @@
         "correct_answer": "Jean",
         "difficulty": "hard",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "lit_025",
@@ -4929,7 +4929,7 @@
         "correct_answer": "Scabbers",
         "difficulty": "easy",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Characters"
       },
       {
         "id": "lit_030",
@@ -4945,7 +4945,7 @@
         "correct_answer": "Expecto Patronum",
         "difficulty": "hard",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Spells & Magic"
       },
       {
         "id": "lit_033",
@@ -4961,7 +4961,7 @@
         "correct_answer": "Beedle the Bard",
         "difficulty": "hard",
         "topic": "com.fiz.pack.harry_potter",
-        "subtopic": null
+        "subtopic": "Books & Plot"
       },
       {
         "id": "lit_034",
@@ -14421,7 +14421,7 @@
         "correct_answer": "Bulbasaur",
         "difficulty": "easy",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Pokémon Species"
       },
       {
         "id": "tec_002",
@@ -14437,7 +14437,7 @@
         "correct_answer": "Electric",
         "difficulty": "easy",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Types & Evolution"
       },
       {
         "id": "tec_005",
@@ -14453,7 +14453,7 @@
         "correct_answer": "All of the above",
         "difficulty": "easy",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Games"
       },
       {
         "id": "tec_009",
@@ -14469,7 +14469,7 @@
         "correct_answer": "Moltres",
         "difficulty": "medium",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Pokémon Species"
       },
       {
         "id": "tec_010",
@@ -14485,7 +14485,7 @@
         "correct_answer": "20",
         "difficulty": "medium",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Types & Evolution"
       },
       {
         "id": "tec_012",
@@ -14501,7 +14501,7 @@
         "correct_answer": "Water",
         "difficulty": "medium",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Types & Evolution"
       },
       {
         "id": "tec_014",
@@ -14517,7 +14517,7 @@
         "correct_answer": "Porygon",
         "difficulty": "hard",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Pokémon Species"
       },
       {
         "id": "tec_024",
@@ -14533,7 +14533,7 @@
         "correct_answer": "Jigglypuff",
         "difficulty": "easy",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Pokémon Species"
       },
       {
         "id": "tec_032",
@@ -14549,7 +14549,7 @@
         "correct_answer": "Ghost/Poison",
         "difficulty": "hard",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Types & Evolution"
       },
       {
         "id": "tec_033",
@@ -14565,7 +14565,7 @@
         "correct_answer": "Psychic",
         "difficulty": "hard",
         "topic": "com.fiz.pack.pokemon",
-        "subtopic": null
+        "subtopic": "Types & Evolution"
       },
       {
         "id": "tec_034",

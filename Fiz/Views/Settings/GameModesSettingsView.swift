@@ -528,62 +528,65 @@ private struct TopicPackRow: View {
         // This ensures completed packs show reset even if they're still "selected" in state
         let showResetButton = answeredCount > 0 && (localSelectedTopic != pack.packId || isCompleted)
 
-        // Main pack row
-        Button(action: {
-            if !isCompleted {
-                onSelect()
-            } else {
-                HapticManager.shared.warningFeedback()
-            }
-        }) {
-            HStack(spacing: 12) {
-                Image(systemName: pack.icon)
-                    .font(.title3)
-                    .foregroundColor(isCompleted ? .secondary : .fizOrange)
-                    .frame(width: 28)
-
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(pack.packName)
-                        .font(.body)
-                        .foregroundColor(isCompleted ? .secondary : .primary)
-                        .strikethrough(isCompleted)
-
-                    // Always show "answered" at the end
-                    Text("\(answeredCount)/\(totalCount) \(isPreview ? "preview " : "")questions answered")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
+        // Main pack row - split into two parts so reset button stays fully visible
+        HStack(spacing: 12) {
+            // Left side: Main selection button with opacity applied
+            Button(action: {
+                if !isCompleted {
+                    onSelect()
+                } else {
+                    HapticManager.shared.warningFeedback()
                 }
-
-                Spacer()
-
-                // Reset button (inline, trailing side) - only if not selected and has progress
-                if showResetButton {
-                    Button(action: {
-                        onReset(pack.packId, pack.packName, answeredCount)
-                    }) {
-                        VStack(spacing: 2) {
-                            Image(systemName: "arrow.counterclockwise")
-                                .font(.caption)
-                            Text("Reset")
-                                .font(.caption2)
-                        }
-                        .foregroundColor(.orange)
-                    }
-                    .buttonStyle(.plain)
-                }
-
-                // Selection checkmark (only on selected, not on completed)
-                if localSelectedTopic == pack.packId && !isCompleted {
-                    Image(systemName: "checkmark.circle.fill")
+            }) {
+                HStack(spacing: 12) {
+                    Image(systemName: pack.icon)
                         .font(.title3)
-                        .foregroundColor(.fizOrange)
+                        .foregroundColor(isCompleted ? .secondary : .fizOrange)
+                        .frame(width: 28)
+
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(pack.packName)
+                            .font(.body)
+                            .foregroundColor(isCompleted ? .secondary : .primary)
+                            .strikethrough(isCompleted)
+
+                        // Always show "answered" at the end
+                        Text("\(answeredCount)/\(totalCount) \(isPreview ? "preview " : "")questions answered")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+
+                    Spacer(minLength: 0)
+
+                    // Selection checkmark (only on selected, not on completed)
+                    if localSelectedTopic == pack.packId && !isCompleted {
+                        Image(systemName: "checkmark.circle.fill")
+                            .font(.title3)
+                            .foregroundColor(.fizOrange)
+                    }
                 }
+                .contentShape(Rectangle())
+                .opacity(isCompleted ? 0.6 : 1.0)
             }
-            .contentShape(Rectangle())
-            .opacity(isCompleted ? 0.6 : 1.0)
+            .buttonStyle(.plain)
+            .disabled(isCompleted)
+
+            // Right side: Reset button - stays fully opaque and clickable
+            if showResetButton {
+                Button(action: {
+                    onReset(pack.packId, pack.packName, answeredCount)
+                }) {
+                    VStack(spacing: 2) {
+                        Image(systemName: "arrow.counterclockwise")
+                            .font(.caption)
+                        Text("Reset")
+                            .font(.caption2)
+                    }
+                    .foregroundColor(.orange)
+                }
+                .buttonStyle(.plain)
+            }
         }
-        .buttonStyle(.plain)
-        .disabled(isCompleted)
     }
 }
 

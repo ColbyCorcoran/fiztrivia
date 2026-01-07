@@ -524,8 +524,9 @@ private struct TopicPackRow: View {
             difficultyMode: difficultyManager.selectedDifficulty
         )
 
-        // Show reset button if questions answered AND pack is NOT currently selected
-        let showResetButton = answeredCount > 0 && localSelectedTopic != pack.packId
+        // Show reset button if questions answered AND (pack is NOT currently selected OR is completed)
+        // This ensures completed packs show reset even if they're still "selected" in state
+        let showResetButton = answeredCount > 0 && (localSelectedTopic != pack.packId || isCompleted)
 
         // Main pack row
         Button(action: {

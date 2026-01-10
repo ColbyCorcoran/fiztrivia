@@ -128,7 +128,7 @@ struct SettingsView: View {
                         }) {
                             SettingsRow(
                                 icon: "ellipsis.message",
-                                iconColor: .fizGray,
+                                iconColor: .fizBrown,
                                 title: "Feature Requests & Bug Reports"
                             )
                         }
@@ -143,7 +143,7 @@ struct SettingsView: View {
                         }) {
                             SettingsRow(
                                 icon: "doc.text.fill",
-                                iconColor: .fizGray,
+                                iconColor: .fizBrown,
                                 title: "Terms of Service & Privacy Policy"
                             )
                         }
@@ -159,7 +159,7 @@ struct SettingsView: View {
                         }) {
                             SettingsRow(
                                 icon: "envelope.fill",
-                                iconColor: .fizGray,
+                                iconColor: .fizBrown,
                                 title: "Contact Support"
                             )
                         }
@@ -173,7 +173,7 @@ struct SettingsView: View {
                         }) {
                             SettingsRow(
                                 icon: "lightbulb.fill",
-                                iconColor: .fizGray,
+                                iconColor: .fizBrown,
                                 title: "Feature Tour"
                             )
                         }

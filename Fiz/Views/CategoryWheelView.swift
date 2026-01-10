@@ -626,7 +626,7 @@ struct CategoryWheelView: View {
                     HapticManager.shared.buttonTapEffect()
                     showingStore = true
                 }) {
-                    Image(systemName: "bag")
+                    Image(systemName: "rectangle.stack.badge.plus")
                         .font(.title3.weight(.semibold))
                 }
                 .glassButtonStyle()

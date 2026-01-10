@@ -130,6 +130,7 @@ struct StoreView: View {
             }
             .sheet(isPresented: $showingCart) {
                 CartView()
+                    .presentationDragIndicator(.visible)
             }
             .alert("Purchases Restored", isPresented: $showingRestoreAlert) {
                 Button("OK", role: .cancel) { }

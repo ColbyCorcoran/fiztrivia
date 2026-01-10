@@ -1285,21 +1285,7 @@ struct CategoryWheelView: View {
         let isCorrect = (answer == question.correctAnswer)
         if isCorrect {
             let potentialStreak = currentStreak + 1
-
-            // Get current game mode for comparison
-            let currentGameMode: String
-            if gameModeManager.isSingleCategoryMode {
-                currentGameMode = "Single Category"
-            } else if gameModeManager.isSingleTopicMode {
-                currentGameMode = "Single Topic"
-            } else {
-                currentGameMode = "Regular"
-            }
-
-            // Filter leaderboard entries for current game mode only
-            let modeEntries = leaderboardEntries.filter { $0.gameMode == currentGameMode }
-            let previousBest = modeEntries.first?.streak ?? 0
-
+            let previousBest = leaderboardEntries.first?.streak ?? 0
             if potentialStreak > previousBest {
                 achievedNewHighScore = true
                 newHighScoreValue = potentialStreak

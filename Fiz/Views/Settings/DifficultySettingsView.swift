@@ -39,7 +39,7 @@ struct DifficultySettingsView: View {
         }
         .scrollContentBackground(.hidden)
         .background(backgroundGradient)
-        .navigationTitle("Difficulty")
+        .navigationTitle("Game Difficulty")
         .navigationBarTitleDisplayMode(.large)
     }
 }

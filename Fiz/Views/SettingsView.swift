@@ -87,7 +87,7 @@ struct SettingsView: View {
                             SettingsRow(
                                 icon: "speedometer",
                                 iconColor: .fizOrange,
-                                title: "Difficulty"
+                                title: "Game Difficulty"
                                 // subtitle: "Casual, Normal, or Difficult"
                             )
                         }
@@ -138,11 +138,12 @@ struct SettingsView: View {
                         Button(action: {
                             AnalyticsManager.shared.trackTermsOfServiceViewed()
                             HapticManager.shared.buttonTapEffect()
-                            // TODO: Add URL/link for Terms of Service and Privacy Policy
-                            // Example: Open URL to website or in-app WebView
+                            if let url = URL(string: "https://github.com/ColbyCorcoran/fiztrivia/tree/main/Terms%20%26%20Privacy") {
+                                UIApplication.shared.open(url)
+                            }
                         }) {
                             SettingsRow(
-                                icon: "doc.text.fill",
+                                icon: "doc.text",
                                 iconColor: .fizBrown,
                                 title: "Terms of Service & Privacy Policy"
                             )
@@ -158,7 +159,7 @@ struct SettingsView: View {
                             }
                         }) {
                             SettingsRow(
-                                icon: "envelope.fill",
+                                icon: "envelope",
                                 iconColor: .fizBrown,
                                 title: "Contact Support"
                             )
@@ -172,7 +173,7 @@ struct SettingsView: View {
                             HapticManager.shared.buttonTapEffect()
                         }) {
                             SettingsRow(
-                                icon: "lightbulb.fill",
+                                icon: "lightbulb",
                                 iconColor: .fizBrown,
                                 title: "Feature Tour"
                             )

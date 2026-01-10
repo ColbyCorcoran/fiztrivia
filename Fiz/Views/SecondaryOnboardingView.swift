@@ -10,7 +10,8 @@ struct SecondaryOnboardingView: View {
         .difficulty,
         .categorySelection,
         .phobiaFilters,
-        .gameModes
+        .gameModes,
+        .expansionPacks
     ]
 
     private var isLastPage: Bool {
@@ -30,32 +31,40 @@ struct SecondaryOnboardingView: View {
             VStack(spacing: 0) {
                 // Header
                 HStack {
-                    Button(action: {
-                        showDontShowAgainConfirmation = true
-                    }) {
-                        Text("Don't show again")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }
+//                    Button(action: {
+//                        showDontShowAgainConfirmation = true
+//                    }) {
+//                        Text("Don't show again")
+//                            .font(.subheadline)
+//                            .foregroundColor(.secondary)
+//                    }
 
                     Spacer()
+                    
+                    
 
                     Button(action: skipOnboarding) {
-                        Text("Skip")
-                            .font(.headline)
-                            .foregroundColor(.fizOrange)
+                        Image(systemName: "xmark")
+                            .font(.title3.weight(.semibold))
                     }
+                    .glassButtonStyle()
+                    .tint(.fizOrange)
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 20)
                 .padding(.bottom, 10)
 
                 // Title
-                Text("What's New in Fiz")
+                Text("Key Fiz Features")
                     .font(.largeTitle.bold())
                     .foregroundColor(.primary)
                     .padding(.top, 10)
-                    .padding(.bottom, 20)
+                
+                // Subtitle
+                Text("Trivia, designed just for you")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    .padding(.top, 10)
 
                 // Feature cards carousel
                 TabView(selection: $currentPage) {
@@ -170,6 +179,7 @@ enum OnboardingFeature {
     case categorySelection
     case phobiaFilters
     case gameModes
+    case expansionPacks
 
     var icon: String {
         switch self {
@@ -181,12 +191,14 @@ enum OnboardingFeature {
             return "eye.slash.fill"
         case .gameModes:
             return "gamecontroller.fill"
+        case .expansionPacks:
+            return "rectangle.stack.badge.plus"
         }
     }
 
     var color: Color {
         switch self {
-        case .difficulty, .categorySelection, .gameModes:
+        case .difficulty, .categorySelection, .gameModes, .expansionPacks:
             return .fizOrange
         case .phobiaFilters:
             return .fizTeal
@@ -196,26 +208,30 @@ enum OnboardingFeature {
     var title: String {
         switch self {
         case .difficulty:
-            return "Find Your Perfect Challenge"
+            return "Find Your Perfect Challenge with Game Difficulty"
         case .categorySelection:
-            return "Choose Your Categories"
+            return "Pick What You Answer with Category Selection"
         case .phobiaFilters:
-            return "Stay Comfortable"
+            return "Stay Comfortable with Phobia Filters"
         case .gameModes:
-            return "Practice Makes Perfect"
+            return "Play Your Way with Game Modes"
+        case .expansionPacks:
+            return "Add More Questions with Expansion Packs"
         }
     }
 
     var description: String {
         switch self {
         case .difficulty:
-            return "Select Casual for easy questions, Normal for a mix, or Difficult for the ultimate trivia challenge."
+            return "Choose between Casual, Normal, or Difficult for your perfect trivia challenge."
         case .categorySelection:
-            return "Pick 2-12 categories for your wheel and save your favorites as your personal default."
+            return "Select 2-12 categories for your wheel to choose what questions you answer. Add or remove categories at any time, and save your favorites as your personal default for faster, easier access."
         case .phobiaFilters:
-            return "Exclude topics that make you uncomfortable. Your wellbeing matters to us."
+            return "Add Phobia Filters to exclude questions & topics that make you uncomfortable. Your wellbeing matters to us."
         case .gameModes:
-            return "Use Single Category Mode to focus on one topic and master it question by question."
+            return "Use Single Category Mode or Single Topic Mode to focus in and master that chosen area, question by question."
+        case .expansionPacks:
+            return "Purchase Expansion Packs from our Store to add more questions from your favorite topics to your game. Each available Expansion Pack includes free preview questions for all players, whether you purchase it or not!"
         }
     }
 }

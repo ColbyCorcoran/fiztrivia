@@ -515,6 +515,7 @@ struct CategoryWheelView: View {
                 completionCelebrationOverlay
             }
         }
+        .gesture(navigationSwipeGesture)
         .alert("All Questions Completed! 🎉", isPresented: $gameViewModel.showSingleCategoryCompletionAlert) {
             Button("Change Game Mode") {
                 HapticManager.shared.buttonTapEffect()
@@ -758,34 +759,53 @@ struct CategoryWheelView: View {
         .frame(height: 300 * sizeCategory.conservativeScaleFactor)
         .frame(maxWidth: .infinity)
         .padding(.horizontal, 16)
-        .gesture(questionAreaSwipeGesture)
     }
 
-    private var questionAreaSwipeGesture: some Gesture {
-        DragGesture(minimumDistance: 50)
+    private var navigationSwipeGesture: some Gesture {
+        DragGesture(minimumDistance: 30)
             .onEnded { value in
+                // Enhanced guards to prevent conflicts
                 guard swipeNavigationManager.isSwipeNavigationEnabled,
                       !showingQuestion,
                       !showingResult,
                       !gameViewModel.isSpinning,
-                      !navigationButtonsDisabled else {
+                      !navigationButtonsDisabled,
+                      !isDragging else {
                     return
                 }
 
-                let distance = value.translation.width
-                let velocity = value.predictedEndTranslation.width
+                let horizontalDistance = value.translation.width
+                let verticalDistance = value.translation.height
+                let horizontalVelocity = value.predictedEndTranslation.width
+                let verticalVelocity = value.predictedEndTranslation.height
 
-                // Lower threshold for better responsiveness: 50pt minimum
-                // Also consider velocity for faster swipes
-                if abs(distance) > 50 || abs(velocity) > 100 {
-                    if distance > 0 {
-                        // Swipe right -> Leaderboard
-                        HapticManager.shared.lightImpact()
-                        onSwipe?(.right)
-                    } else {
-                        // Swipe left -> Settings
-                        HapticManager.shared.lightImpact()
-                        onSwipe?(.left)
+                // Determine if this is primarily a horizontal or vertical swipe
+                let isHorizontal = abs(horizontalDistance) > abs(verticalDistance)
+
+                // Relaxed thresholds for smoother detection
+                // 30pt minimum OR 60pt/s velocity (down from 50pt / 100pt/s)
+                if isHorizontal {
+                    // Horizontal swipes (left/right)
+                    if abs(horizontalDistance) > 30 || abs(horizontalVelocity) > 60 {
+                        if horizontalDistance > 0 {
+                            // Swipe right -> Leaderboard
+                            HapticManager.shared.lightImpact()
+                            onSwipe?(.right)
+                        } else {
+                            // Swipe left -> Settings
+                            HapticManager.shared.lightImpact()
+                            onSwipe?(.left)
+                        }
+                    }
+                } else {
+                    // Vertical swipes (up/down)
+                    if abs(verticalDistance) > 30 || abs(verticalVelocity) > 60 {
+                        if verticalDistance < 0 {
+                            // Swipe up -> Store
+                            HapticManager.shared.lightImpact()
+                            showingStore = true
+                        }
+                        // Swipe down does nothing (reserved for future use)
                     }
                 }
             }

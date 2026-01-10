@@ -205,7 +205,6 @@ In the unlikely event of a security incident:
 Questions about this Privacy Policy should be directed to:
 - In-app: Settings → Support & Legal → Contact Support
 - Email: woodsy.relics.6n@icloud.com
-- In-app: Settings → Support & Legal → Feature Requests & Bug Reports
 
 ---
 

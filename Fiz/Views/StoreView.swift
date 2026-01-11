@@ -348,7 +348,7 @@ struct ExpansionPackCard: View {
             }
         }
         .padding()
-        .background(Color.white.opacity(0.8))
+        .background(Color(.secondarySystemBackground))
         .cornerRadius(16)
         .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
         .onAppear {

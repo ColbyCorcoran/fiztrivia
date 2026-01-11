@@ -194,8 +194,8 @@ struct LeaderboardRow: View {
         if let mode = GameMode(rawValue: gameMode) {
             return mode.icon
         }
-        // Fallback to regular mode icon
-        return GameMode.regular.icon
+        // Fallback to Multi-Category mode icon
+        return GameMode.multiCategory.icon
     }
 
     var body: some View {
@@ -217,7 +217,7 @@ struct LeaderboardRow: View {
                     .foregroundColor(.secondary)
 
                 // Game mode badge
-                if entry.gameMode != "Regular" {
+                if entry.gameMode != "Multi-Category" {
                     HStack(spacing: 4) {
                         Image(systemName: icon(for: entry.gameMode))
                             .font(.system(size: 10))

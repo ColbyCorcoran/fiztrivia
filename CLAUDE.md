@@ -32,7 +32,7 @@ The app uses **MVVM (Model-View-ViewModel)** architecture with SwiftUI and follo
 6. **Personalized Experience**: Username-based messaging, onboarding flow, and runtime app icon customization
 7. **Difficulty Filtering**: Configurable question difficulty modes (Casual, Normal, Difficult)
 8. **Game Mode System**: Three distinct modes with mode-specific state management
-   - **Regular Mode**: Mix of all selected categories
+   - **Multi-Category Mode**: Mix of all selected categories (with customizable category selection)
    - **Single Category Mode**: Focus on subcategories within one category
    - **Single Topic Mode**: Focus on subtopics from purchased expansion packs
 9. **Expansion Pack System**: IAP-based topic packs with optional install/uninstall
@@ -64,7 +64,7 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - `GameState` - Simplified navigation state enum (3 states)
 - `AnswerState` - Question result state (unanswered, correct, incorrect)
 - `DifficultyMode` - Question difficulty filtering (Casual, Normal, Difficult)
-- `GameMode` - Game mode enum (Regular, Single Category, Single Topic)
+- `GameMode` - Game mode enum (Multi-Category, Single Category, Single Topic)
 - `ExpansionPack` - Expansion pack model with packId, packName, subtopics, questions, pricing
 - `DifficultyBreakdown` - Question distribution by difficulty level
 
@@ -77,7 +77,7 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - `DifficultyManager` - Persistent difficulty preference management
 - `StreakPersistenceManager` - Cross-session streak persistence
 - `AnsweredQuestionsManager` - Tracks answered questions across sessions with completion calculations
-- `GameModeManager` - Manages game mode state (Regular, Single Category, Single Topic) with mode-specific settings
+- `GameModeManager` - Manages game mode state (Multi-Category, Single Category, Single Topic) with mode-specific settings
 - `ExpansionPackManager` - Manages expansion pack state (available, purchased, installed), loads pack JSONs
 - `StoreManager` - StoreKit 2 integration for IAP purchases, transaction verification, Family Sharing
 - `HapticSettingsManager` - User haptic feedback preferences
@@ -162,7 +162,7 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - **LeaderboardView**: Shows ALL streak achievements (not just top unique) with fixed positioning
 - **SettingsView**: Navigation hub with personalization and game settings sections
 - **PersonalizationSettingsView**: Username editing, app icon selection, haptic toggles, analytics consent
-- **GameModesSettingsView**: Game mode selection (Regular, Single Category, Single Topic), mode-specific configuration
+- **GameModesSettingsView**: Game mode selection (Multi-Category, Single Category, Single Topic), mode-specific configuration, category selection and management for Multi-Category mode
 - **StoreView**: Full-screen modal for browsing and purchasing expansion packs with beautiful card UI
 - **StoreManager**: StoreKit 2 implementation for IAP management, transaction verification, Family Sharing
 
@@ -186,7 +186,7 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 ### Game Mode System
 
 **Three Game Modes** (`GameMode` enum):
-1. **Regular Mode**: Mix of all selected categories (default)
+1. **Multi-Category Mode**: Mix of all selected categories (default) - includes category selection UI with 2-12 category picker, save/reset defaults
 2. **Single Category Mode**: Focus on subcategories within one category
 3. **Single Topic Mode**: Focus on subtopics from purchased expansion packs
 
@@ -355,13 +355,14 @@ Fiz/
 6. **Game Mode Migration** - Replaced SingleCategoryModeManager with unified GameModeManager
 
 **Previous Features**:
-1. **Game Mode System** - Three modes (Regular, Single Category, Single Topic) with unified management
-2. **App Icon Customization** - Runtime switching between 6 icon variants
-3. **Privacy-First Analytics** - PostHog integration with opt-out by default
-4. **Enhanced Settings Architecture** - Reorganized into GameModesSettingsView and PersonalizationSettingsView
-5. **iOS 26 Glass Buttons** - Native glass styling with iOS 18 fallbacks
-6. **Comprehensive Progress Tracking** - Detailed completion statistics per category/subcategory
-7. **Enhanced Subcategory System** - Protocol-based subcategory organization with icons and colors
+1. **Game Mode Consolidation** - Renamed Regular mode to Multi-Category, integrated category selection into GameModesSettingsView, mode indicator now visible for all modes
+2. **Game Mode System** - Three modes (Multi-Category, Single Category, Single Topic) with unified management
+3. **App Icon Customization** - Runtime switching between 6 icon variants
+4. **Privacy-First Analytics** - PostHog integration with opt-out by default
+5. **Enhanced Settings Architecture** - Reorganized into GameModesSettingsView and PersonalizationSettingsView
+6. **iOS 26 Glass Buttons** - Native glass styling with iOS 18 fallbacks
+7. **Comprehensive Progress Tracking** - Detailed completion statistics per category/subcategory
+8. **Enhanced Subcategory System** - Protocol-based subcategory organization with icons and colors
 
 **Manager Classes Added**:
 - `ExpansionPackManager` - Expansion pack state and question management
@@ -378,6 +379,7 @@ Fiz/
 - **ResultView.swift**: Deleted - results show inline with auto-clear
 - **Random Trivia category**: Removed - questions redistributed to proper categories
 - **SingleCategoryModeManager**: Migrated to unified GameModeManager
+- **CategorySelectionSettingsView**: Deleted - functionality integrated into GameModesSettingsView
 
 ---
 

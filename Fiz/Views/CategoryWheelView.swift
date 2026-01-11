@@ -125,7 +125,7 @@ struct CategoryWheelView: View {
                 return nil
             }
         } else {
-            // Default mode: show selected categories only, filtering out completed ones
+            // Multi-Category mode: show selected categories only, filtering out completed ones
             baseSegments = TriviaCategory.allCases.compactMap { category in
                 // Filter by selected categories FIRST
                 guard categorySelectionManager.isSelected(category) else {
@@ -523,9 +523,9 @@ struct CategoryWheelView: View {
                 gameViewModel.showSettings()
             }
 
-            Button("Return to Regular Mode") {
+            Button("Return to Multi-Category Mode") {
                 HapticManager.shared.buttonTapEffect()
-                gameModeManager.setMode(.regular)
+                gameModeManager.setMode(.multiCategory)
                 gameViewModel.showSingleCategoryCompletionAlert = false
             }
 
@@ -534,9 +534,9 @@ struct CategoryWheelView: View {
             }
         } message: {
             if let category = gameModeManager.selectedCategory {
-                Text("You've completed all questions in \(category.rawValue) for \(difficultyManager.selectedDifficulty.rawValue) mode.\n\nSwitch to a different category, return to regular mode, or change your game settings.")
+                Text("You've completed all questions in \(category.rawValue) for \(difficultyManager.selectedDifficulty.rawValue) mode.\n\nSwitch to a different category, return to Multi-Category mode, or change your game settings.")
             } else {
-                Text("You've completed all questions for your selected game mode.\n\nSwitch to a different category, return to regular mode, or change your game settings.")
+                Text("You've completed all questions for your selected game mode.\n\nSwitch to a different category, return to Multi-Category mode, or change your game settings.")
             }
         }
         .alert("Preview Pack Completed! 🎉", isPresented: $gameViewModel.showPreviewPackCompletionAlert) {
@@ -679,23 +679,21 @@ struct CategoryWheelView: View {
 
                     // Right side: Mode indicator (if applicable) and streak badge
                     HStack(spacing: 8) {
-                    // Game mode indicator - only show for non-regular modes
-                    if !gameModeManager.isRegularMode {
-                        HStack(spacing: 4) {
-                            Image(systemName: gameModeManager.selectedMode.icon)
-                                .font(.caption)
-                            Text("Mode")
-                                .font(.system(size: 14))
-                                .fontWeight(.semibold)
-                                .minimumScaleFactor(0.9)
-                                .lineLimit(1)
-                        }
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 4)
-                        .background(Color.fizOrange.opacity(0.15))
-                        .foregroundColor(Color.fizOrange)
-                        .cornerRadius(8)
+                    // Game mode indicator - always visible for all modes
+                    HStack(spacing: 4) {
+                        Image(systemName: gameModeManager.selectedMode.icon)
+                            .font(.caption)
+                        Text("Mode")
+                            .font(.system(size: 14))
+                            .fontWeight(.semibold)
+                            .minimumScaleFactor(0.9)
+                            .lineLimit(1)
                     }
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 4)
+                    .background(Color.fizOrange.opacity(0.15))
+                    .foregroundColor(Color.fizOrange)
+                    .cornerRadius(8)
 
                     // Streak badge
                     HStack(spacing: 4) {

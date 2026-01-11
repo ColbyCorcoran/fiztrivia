@@ -91,13 +91,6 @@ struct SettingsView: View {
                                 // subtitle: "Casual, Normal, or Difficult"
                             )
                         }
-                        NavigationLink(destination: CategorySelectionSettingsView()) {
-                            SettingsRow(
-                                icon: "chart.pie",
-                                iconColor: .fizOrange,
-                                title: "Category Selection"
-                            )
-                        }
                         NavigationLink(destination: GameModesSettingsView(gameViewModel: gameViewModel)) {
                             SettingsRow(
                                 icon: gameModeManager.selectedMode.icon,

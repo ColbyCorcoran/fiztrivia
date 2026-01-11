@@ -13,14 +13,21 @@ struct GameModesSettingsView: View {
     @State private var showingStreakAlert = false
     @State private var showingIncompleteSelectionAlert = false
     @State private var pendingMode: GameMode?
-    @State private var previousMode: GameMode = .regular
+    @State private var previousMode: GameMode = .multiCategory
     @State private var pendingCategory: TriviaCategory?
     @State private var previousCategory: TriviaCategory?
-    @State private var localSelectedMode: GameMode = .regular
+    @State private var localSelectedMode: GameMode = .multiCategory
     @State private var localSelectedCategory: TriviaCategory? = nil
     @State private var localSelectedTopic: String? = nil
     @State private var isInitialLoad = true
     @State private var isApplyingChanges = false
+
+    // Category selection state
+    @StateObject private var categoryManager = CategorySelectionManager.shared
+    @State private var showMaxReachedAlert = false
+    @State private var showMinimumAlert = false
+    @State private var showActiveCategoryAlert = false
+    @State private var confirmationMessage: String? = nil
 
     // Reset functionality state
     @State private var showingTopicResetAlert = false
@@ -36,7 +43,7 @@ struct GameModesSettingsView: View {
     // Check if current selection is complete and valid
     private var isSelectionComplete: Bool {
         switch localSelectedMode {
-        case .regular:
+        case .multiCategory:
             return true
         case .singleCategory:
             return localSelectedCategory != nil
@@ -49,7 +56,8 @@ struct GameModesSettingsView: View {
     }
 
     var body: some View {
-        Form {
+        ZStack {
+            Form {
             // Game Mode Selection Section
             Section(header: Text("Select Game Mode"),
                     footer: Text("Choose how you want to play trivia. Switching modes will reset your current streak.")) {
@@ -65,6 +73,98 @@ struct GameModesSettingsView: View {
             }
 
             // Conditional Settings Based on Selected Mode
+            if localSelectedMode == .multiCategory {
+                // Category count display
+                Section {
+                    HStack {
+                        Text("Selected Categories")
+                            .font(.headline)
+                        Spacer()
+                        Text("\(categoryManager.selectedCategories.count)/\(CategorySelectionManager.maximumCategories)")
+                            .font(.headline)
+                            .foregroundColor(categoryManager.selectedCategories.count >= CategorySelectionManager.maximumCategories ? .orange : .secondary)
+                    }
+                    .padding(.vertical, 4)
+                }
+
+                // Category toggle list
+                Section(footer: Text("Select \(CategorySelectionManager.minimumCategories)-\(CategorySelectionManager.maximumCategories) categories to appear on the wheel. Deselected categories will be hidden.")) {
+                    ForEach(TriviaCategory.allCases, id: \.self) { category in
+                        CategorySelectionRow(
+                            category: category,
+                            isSelected: categoryManager.isSelected(category),
+                            canToggle: categoryManager.canToggle(category),
+                            onToggle: {
+                                let success = categoryManager.toggleCategory(category)
+                                if !success {
+                                    // Determine which alert to show
+                                    if categoryManager.selectedCategories.contains(category) {
+                                        // Trying to deselect but can't
+                                        if GameModeManager.shared.isSingleCategoryMode &&
+                                           GameModeManager.shared.selectedCategory == category {
+                                            showActiveCategoryAlert = true
+                                        } else {
+                                            showMinimumAlert = true
+                                        }
+                                    } else {
+                                        showMaxReachedAlert = true
+                                    }
+                                    HapticManager.shared.incorrectAnswerEffect()
+                                } else {
+                                    HapticManager.shared.buttonTapEffect()
+                                }
+                            }
+                        )
+                    }
+                }
+
+                // Action buttons
+                Section {
+                    // Save current selection as user's custom default
+                    Button(action: {
+                        categoryManager.saveCurrentAsDefault()
+                        HapticManager.shared.buttonTapEffect()
+                        showConfirmation("Selection saved as your new default ✓")
+                    }) {
+                        HStack {
+                            Image(systemName: "bookmark.fill")
+                            Text("Save selection as my default")
+                        }
+                        .foregroundColor(.fizOrange)
+                    }
+
+                    // Reset to user's custom default (only shown if they have one saved)
+                    if categoryManager.hasCustomDefault() {
+                        Button(action: {
+                            categoryManager.resetToMyDefault()
+                            HapticManager.shared.buttonTapEffect()
+                            AnalyticsManager.shared.trackCategorySelectionReset()
+                            showConfirmation("Reset to your saved default ✓")
+                        }) {
+                            HStack {
+                                Image(systemName: "arrow.counterclockwise")
+                                Text("Reset to my default")
+                            }
+                            .foregroundColor(.fizOrange)
+                        }
+                    }
+
+                    // Reset to factory default (all 12 categories)
+                    Button(action: {
+                        categoryManager.resetToFactoryDefault()
+                        HapticManager.shared.buttonTapEffect()
+                        AnalyticsManager.shared.trackCategorySelectionReset()
+                        showConfirmation("Reset to original default ✓")
+                    }) {
+                        HStack {
+                            Image(systemName: "arrow.uturn.backward")
+                            Text("Reset to original default")
+                        }
+                        .foregroundColor(.fizOrange)
+                    }
+                }
+            }
+
             if localSelectedMode == .singleCategory {
                 Section(header: Text("Category Settings"),
                         footer: Text("Select which category to focus on. The wheel will show subcategories instead of all categories.")) {
@@ -185,9 +285,28 @@ struct GameModesSettingsView: View {
 
             // Future: Seasonal settings section would go here
             // if localSelectedMode == .seasonal { ... }
+            }
+            .scrollContentBackground(.hidden)
+            .background(backgroundGradient)
+
+            // Confirmation message overlay
+            if let message = confirmationMessage {
+                VStack {
+                    Spacer()
+                    Text(message)
+                        .font(.body)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 12)
+                        .background(Color.fizOrange)
+                        .cornerRadius(10)
+                        .shadow(radius: 5)
+                        .padding(.bottom, 80)
+                }
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+                .animation(.easeInOut(duration: 0.3), value: confirmationMessage)
+            }
         }
-        .scrollContentBackground(.hidden)
-        .background(backgroundGradient)
         .navigationTitle("Game Modes")
         .navigationBarTitleDisplayMode(.large)
         .navigationBarBackButtonHidden(!isSelectionComplete)
@@ -207,9 +326,9 @@ struct GameModesSettingsView: View {
             Button("OK", role: .cancel) { }
         } message: {
             if localSelectedMode == .singleCategory {
-                Text("Please select a category before leaving, or switch back to Regular mode.")
+                Text("Please select a category before leaving, or switch back to Multi-Category mode.")
             } else if localSelectedMode == .singleTopic {
-                Text("Please select a topic before leaving, or switch back to Regular mode.")
+                Text("Please select a topic before leaving, or switch back to Multi-Category mode.")
             } else {
                 Text("Please complete your selection before leaving.")
             }
@@ -255,6 +374,21 @@ struct GameModesSettingsView: View {
             }
         } message: {
             Text("This will reset \(topicResetCount) answered question\(topicResetCount == 1 ? "" : "s") for \(topicResetName). You'll be able to answer them again. This action cannot be undone.")
+        }
+        .alert("Maximum Reached", isPresented: $showMaxReachedAlert) {
+            Button("OK", role: .cancel) { }
+        } message: {
+            Text("You can select up to \(CategorySelectionManager.maximumCategories) categories. Deselect one to add another.")
+        }
+        .alert("Minimum Required", isPresented: $showMinimumAlert) {
+            Button("OK", role: .cancel) { }
+        } message: {
+            Text("You must have at least \(CategorySelectionManager.minimumCategories) categories selected for gameplay.")
+        }
+        .alert("Cannot Deselect", isPresented: $showActiveCategoryAlert) {
+            Button("OK", role: .cancel) { }
+        } message: {
+            Text("This category is currently active in Single Category Mode. Disable Single Category Mode first, or switch to a different category.")
         }
         .onAppear {
             isInitialLoad = true
@@ -410,7 +544,7 @@ struct GameModesSettingsView: View {
                     categoryName = nil
                 }
             } else {
-                gameMode = "Regular"
+                gameMode = "Multi-Category"
                 categoryName = nil
             }
 
@@ -465,6 +599,15 @@ struct GameModesSettingsView: View {
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             self.isApplyingChanges = false
+        }
+    }
+
+    private func showConfirmation(_ message: String) {
+        confirmationMessage = message
+
+        // Auto-dismiss after 2 seconds
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            confirmationMessage = nil
         }
     }
 }
@@ -603,6 +746,47 @@ private struct TopicPackRow: View {
                 .buttonStyle(.plain)
             }
         }
+    }
+}
+
+// MARK: - Category Selection Row Component
+
+struct CategorySelectionRow: View {
+    let category: TriviaCategory
+    let isSelected: Bool
+    let canToggle: Bool
+    let onToggle: () -> Void
+
+    @Environment(\.sizeCategory) private var sizeCategory
+
+    var body: some View {
+        Button(action: onToggle) {
+            HStack(spacing: 12) {
+                Image(systemName: category.icon)
+                    .font(.title2)
+                    .foregroundColor(Color(hex: category.color))
+                    .frame(width: 32)
+
+                Text(category.rawValue)
+                    .font(.body)
+                    .foregroundColor(.primary)
+
+                Spacer()
+
+                if isSelected {
+                    Image(systemName: "checkmark.circle.fill")
+                        .font(.title3)
+                        .foregroundColor(.fizOrange)
+                } else {
+                    Image(systemName: "circle")
+                        .font(.title3)
+                        .foregroundColor(.secondary.opacity(0.3))
+                }
+            }
+            .contentShape(Rectangle())
+            .opacity(canToggle || isSelected ? 1.0 : 0.5)
+        }
+        .buttonStyle(.plain)
     }
 }
 

@@ -458,7 +458,7 @@ struct Phobia: Codable, Identifiable, Equatable {
 
 // MARK: - Game Mode Enum
 enum GameMode: String, CaseIterable, Codable, Identifiable {
-    case regular = "Regular"
+    case multiCategory = "Multi-Category"
     case singleCategory = "Single Category"
     case singleTopic = "Single Topic"
     // Future modes ready to uncomment:
@@ -468,7 +468,7 @@ enum GameMode: String, CaseIterable, Codable, Identifiable {
 
     var description: String {
         switch self {
-        case .regular:
+        case .multiCategory:
             return "Mix of all selected categories"
         case .singleCategory:
             return "Focus on one category's subcategories"
@@ -482,7 +482,7 @@ enum GameMode: String, CaseIterable, Codable, Identifiable {
 
     var icon: String {
         switch self {
-        case .regular:
+        case .multiCategory:
             return "circle.grid.cross.left.filled"
         case .singleCategory:
             return "circle.grid.cross.up.filled"
@@ -713,7 +713,7 @@ class GameModeManager: ObservableObject {
     // Future keys ready:
     // private static let seasonalThemeKey = "game_mode_seasonal_theme"
 
-    @Published var selectedMode: GameMode = .regular
+    @Published var selectedMode: GameMode = .multiCategory
 
     // Mode-specific settings
     @Published var selectedCategory: TriviaCategory? = nil
@@ -747,7 +747,7 @@ class GameModeManager: ObservableObject {
                     UserDefaults.standard.set(categoryString, forKey: Self.selectedCategoryKey)
                 }
             } else {
-                UserDefaults.standard.set(GameMode.regular.rawValue, forKey: Self.selectedModeKey)
+                UserDefaults.standard.set(GameMode.multiCategory.rawValue, forKey: Self.selectedModeKey)
             }
 
             // Clean up legacy keys
@@ -827,10 +827,10 @@ class GameModeManager: ObservableObject {
         //     isValid = true
         }
 
-        // If invalid, reset to regular mode
+        // If invalid, reset to Multi-Category mode
         if !isValid {
-            print("🔄 Resetting to Regular mode due to invalid state")
-            selectedMode = .regular
+            print("🔄 Resetting to Multi-Category mode due to invalid state")
+            selectedMode = .multiCategory
             selectedCategory = nil
             selectedTopic = nil
             saveSettings()
@@ -866,8 +866,8 @@ class GameModeManager: ObservableObject {
     // MARK: - Computed Properties for Compatibility
 
     // For backward compatibility with existing code
-    var isRegularMode: Bool {
-        return selectedMode == .regular
+    var isMultiCategoryMode: Bool {
+        return selectedMode == .multiCategory
     }
 
     var isSingleCategoryMode: Bool {

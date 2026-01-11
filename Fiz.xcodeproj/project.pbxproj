@@ -19,7 +19,6 @@
 		B66F02D12F006EE2007B0E79 /* HapticsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C72F006EE2007B0E79 /* HapticsSettingsView.swift */; };
 		B66F02D22F006EE2007B0E79 /* GameModesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02C52F006EE2007B0E79 /* GameModesSettingsView.swift */; };
 		B66F02D42F02EDD8007B0E79 /* questions_expansions.json in Resources */ = {isa = PBXBuildFile; fileRef = B66F02D32F02EDD8007B0E79 /* questions_expansions.json */; };
-		B66F02D62F0345F0007B0E79 /* CategorySelectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */; };
 		B66F02DC2F043F6E007B0E79 /* PhobiaSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DB2F043F6E007B0E79 /* PhobiaSettingsView.swift */; };
 		B66F02DF2F04BE1C007B0E79 /* SecondaryOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DD2F04BE1C007B0E79 /* SecondaryOnboardingView.swift */; };
 		B66F02E02F04BE1C007B0E79 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F02DE2F04BE1C007B0E79 /* WhatsNewView.swift */; };
@@ -93,7 +92,6 @@
 		B66F02C82F006EE2007B0E79 /* PopupDurationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDurationSettingsView.swift; sourceTree = "<group>"; };
 		B66F02C92F006EE2007B0E79 /* UsernameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameSettingsView.swift; sourceTree = "<group>"; };
 		B66F02D32F02EDD8007B0E79 /* questions_expansions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_expansions.json; sourceTree = "<group>"; };
-		B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionSettingsView.swift; sourceTree = "<group>"; };
 		B66F02DB2F043F6E007B0E79 /* PhobiaSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhobiaSettingsView.swift; sourceTree = "<group>"; };
 		B66F02DD2F04BE1C007B0E79 /* SecondaryOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryOnboardingView.swift; sourceTree = "<group>"; };
 		B66F02DE2F04BE1C007B0E79 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 				B66F02C72F006EE2007B0E79 /* HapticsSettingsView.swift */,
 				B66F02C82F006EE2007B0E79 /* PopupDurationSettingsView.swift */,
 				B66F02C92F006EE2007B0E79 /* UsernameSettingsView.swift */,
-				B66F02D52F0345F0007B0E79 /* CategorySelectionSettingsView.swift */,
 				B66F02DB2F043F6E007B0E79 /* PhobiaSettingsView.swift */,
 			);
 			path = Settings;
@@ -503,7 +500,6 @@
 				B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */,
 				B66F02F22F057440007B0E79 /* StoreView.swift in Sources */,
 				B66F02CB2F006EE2007B0E79 /* GameProgressSettingsView.swift in Sources */,
-				B66F02D62F0345F0007B0E79 /* CategorySelectionSettingsView.swift in Sources */,
 				B66F02CC2F006EE2007B0E79 /* AppIconSettingsView.swift in Sources */,
 				B66F030A2F05A356007B0E79 /* CartView.swift in Sources */,
 				B66F02CD2F006EE2007B0E79 /* UsernameSettingsView.swift in Sources */,

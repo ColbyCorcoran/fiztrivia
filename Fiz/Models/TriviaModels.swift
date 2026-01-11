@@ -800,7 +800,7 @@ class GameModeManager: ObservableObject {
         var isValid = true
 
         switch selectedMode {
-        case .regular:
+        case .multiCategory:
             // Regular mode is always valid
             isValid = true
         case .singleCategory:

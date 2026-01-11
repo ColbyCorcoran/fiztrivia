@@ -4226,22 +4226,6 @@
         "subtopic": null
       },
       {
-        "id": "ent_265",
-        "category": "Entertainment",
-        "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the robot in The Iron Giant?",
-        "options": [
-          "The Giant",
-          "The Iron Giant",
-          "Robot 9",
-          "Iron Man"
-        ],
-        "correct_answer": "The Iron Giant",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "ent_266",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
@@ -28172,22 +28156,6 @@
         "subtopic": null
       },
       {
-        "id": "geo_264",
-        "category": "Geography",
-        "subcategory": "Landmarks & Monuments",
-        "question": "What year was the Eiffel Tower completed?",
-        "options": [
-          "1855",
-          "1876",
-          "1889",
-          "1901"
-        ],
-        "correct_answer": "1889",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "geo_265",
         "category": "Geography",
         "subcategory": "Landmarks & Monuments",
@@ -46452,22 +46420,6 @@
         "subtopic": null
       },
       {
-        "id": "his_207",
-        "category": "History",
-        "subcategory": "Modern History",
-        "question": "Who invented the telephone?",
-        "options": [
-          "Nikola Tesla",
-          "Benjamin Franklin",
-          "Alexander Graham Bell",
-          "Thomas Edison"
-        ],
-        "correct_answer": "Alexander Graham Bell",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "his_208",
         "category": "History",
         "subcategory": "Modern History",
@@ -46719,22 +46671,6 @@
           "HMS Beagle"
         ],
         "correct_answer": "HMS Beagle",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "his_224",
-        "category": "History",
-        "subcategory": "Modern History",
-        "question": "Who invented the printing press?",
-        "options": [
-          "Leonardo da Vinci",
-          "Galileo",
-          "Johannes Gutenberg",
-          "Isaac Newton"
-        ],
-        "correct_answer": "Johannes Gutenberg",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -50486,22 +50422,6 @@
         "subtopic": null
       },
       {
-        "id": "bib_339",
-        "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "Who was the first king of Israel?",
-        "options": [
-          "Saul",
-          "Solomon",
-          "Samuel",
-          "David"
-        ],
-        "correct_answer": "Saul",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "bib_340",
         "category": "Bible",
         "subcategory": "Biblical History",
@@ -51254,22 +51174,6 @@
         "subtopic": null
       },
       {
-        "id": "bib_387",
-        "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "What does 'amen' mean?",
-        "options": [
-          "Goodbye",
-          "Thank you",
-          "The end",
-          "So be it/truly"
-        ],
-        "correct_answer": "So be it/truly",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "bib_388",
         "category": "Bible",
         "subcategory": "Biblical Theology",
@@ -51974,54 +51878,6 @@
         "subtopic": null
       },
       {
-        "id": "bib_432",
-        "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Hosanna' mean?",
-        "options": [
-          "Amen",
-          "Save now",
-          "Hallelujah",
-          "Praise God"
-        ],
-        "correct_answer": "Save now",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "bib_433",
-        "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Rabbi' mean?",
-        "options": [
-          "King",
-          "Father",
-          "Priest",
-          "Teacher/Master"
-        ],
-        "correct_answer": "Teacher/Master",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "bib_434",
-        "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Maranatha' mean?",
-        "options": [
-          "Hallelujah",
-          "Our Lord, come!",
-          "Praise God",
-          "Amen"
-        ],
-        "correct_answer": "Our Lord, come!",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "bib_435",
         "category": "Bible",
         "subcategory": "Bible Languages",
@@ -52113,22 +51969,6 @@
           "LORD/I AM"
         ],
         "correct_answer": "LORD/I AM",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "bib_441",
-        "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Sabbath' mean?",
-        "options": [
-          "Day",
-          "Rest",
-          "Seventh",
-          "Holy"
-        ],
-        "correct_answer": "Rest",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -52230,22 +52070,6 @@
         "subtopic": null
       },
       {
-        "id": "bib_448",
-        "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Paraclete' mean?",
-        "options": [
-          "Teacher",
-          "Helper/Comforter/Advocate",
-          "Guide",
-          "Spirit"
-        ],
-        "correct_answer": "Helper/Comforter/Advocate",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
         "id": "bib_449",
         "category": "Bible",
         "subcategory": "Bible Languages",
@@ -52257,22 +52081,6 @@
           "Oil press"
         ],
         "correct_answer": "Oil press",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "bib_450",
-        "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Beelzebub' mean?",
-        "options": [
-          "Devil",
-          "Lord of the flies",
-          "Demon",
-          "Satan"
-        ],
-        "correct_answer": "Lord of the flies",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null

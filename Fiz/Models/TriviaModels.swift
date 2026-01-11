@@ -801,7 +801,7 @@ class GameModeManager: ObservableObject {
 
         switch selectedMode {
         case .multiCategory:
-            // Regular mode is always valid
+            // Multi-Category mode is always valid
             isValid = true
         case .singleCategory:
             // Single Category requires a selected category

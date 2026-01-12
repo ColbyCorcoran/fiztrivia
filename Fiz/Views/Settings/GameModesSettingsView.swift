@@ -58,22 +58,25 @@ struct GameModesSettingsView: View {
     var body: some View {
         ZStack {
             Form {
-            // Game Mode Selection Section
-            Section(header: Text("Select Game Mode"),
-                    footer: Text("Choose how you want to play trivia. Switching modes will reset your current streak.")) {
-                ForEach(GameMode.allCases) { mode in
-                    GameModeRow(
-                        mode: mode,
-                        isSelected: localSelectedMode == mode,
-                        onSelect: {
-                            handleModeSelection(mode)
+                Group {
+                    // Game Mode Selection Section
+                    Section(header: Text("Select Game Mode"),
+                            footer: Text("Choose how you want to play trivia. Switching modes will reset your current streak.")) {
+                        ForEach(GameMode.allCases) { mode in
+                            GameModeRow(
+                                mode: mode,
+                                isSelected: localSelectedMode == mode,
+                                onSelect: {
+                                    handleModeSelection(mode)
+                                }
+                            )
                         }
-                    )
+                    }
                 }
-            }
 
-            // Conditional Settings Based on Selected Mode
-            if localSelectedMode == .multiCategory {
+                // Conditional Settings Based on Selected Mode
+                Group {
+                    if localSelectedMode == .multiCategory {
                 // Category count display
                 Section {
                     HStack {
@@ -163,9 +166,11 @@ struct GameModesSettingsView: View {
                         .foregroundColor(.fizOrange)
                     }
                 }
-            }
+                    }
+                }
 
-            if localSelectedMode == .singleCategory {
+                Group {
+                    if localSelectedMode == .singleCategory {
                 Section(header: Text("Category Settings"),
                         footer: Text("Select which category to focus on. The wheel will show subcategories instead of all categories.")) {
                     VStack(alignment: .leading, spacing: 8) {
@@ -201,10 +206,12 @@ struct GameModesSettingsView: View {
                         }
                     }
                 }
-            }
+                    }
+                }
 
-            // Single Topic Settings
-            if localSelectedMode == .singleTopic {
+                // Single Topic Settings
+                Group {
+                    if localSelectedMode == .singleTopic {
                 // Get available packs for Single Topic Mode
                 let availablePacks = ExpansionPackManager.shared.getAvailableTopicsForSingleTopicMode()
                 let installedPacks = availablePacks.filter { ExpansionPackManager.shared.isInstalled(packId: $0.packId) }
@@ -281,10 +288,8 @@ struct GameModesSettingsView: View {
                             .listRowBackground(Color.clear)
                     }
                 }
-            }
-
-            // Future: Seasonal settings section would go here
-            // if localSelectedMode == .seasonal { ... }
+                    }
+                }
             }
             .scrollContentBackground(.hidden)
             .background(backgroundGradient)

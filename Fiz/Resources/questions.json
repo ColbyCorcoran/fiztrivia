@@ -12925,10 +12925,10 @@
         "options": [
           "Santana",
           "U2",
-          "Beyoncé and Michael Jackson (tied at 8)",
+          "Beyoncé and Michael Jackson",
           "Adele"
         ],
-        "correct_answer": "Beyoncé and Michael Jackson (tied at 8)",
+        "correct_answer": "Beyoncé and Michael Jackson",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -14366,9 +14366,9 @@
           "Raised sixth",
           "Lowered third",
           "Raised fourth",
-          "Lowered seventh scale degree"
+          "Lowered seventh"
         ],
-        "correct_answer": "Lowered seventh scale degree",
+        "correct_answer": "Lowered seventh",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -17419,14 +17419,14 @@
         "id": "tec_213",
         "category": "Technology",
         "subcategory": "Tech Companies",
-        "question": "Which company is known for electric cars and SpaceX?",
+        "question": "Which company is known for electric cars?",
         "options": [
           "Ford",
           "Toyota",
-          "Tesla (cars) and SpaceX are both Elon Musk companies",
+          "Tesla",
           "General Motors"
         ],
-        "correct_answer": "Tesla (cars) and SpaceX are both Elon Musk companies",
+        "correct_answer": "Tesla",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -17535,10 +17535,10 @@
         "options": [
           "Jeff Bezos",
           "Larry Page",
-          "Martin Eberhard and Marc Tarpenning (Elon Musk joined early)",
+          "Martin Eberhard and Marc Tarpenning",
           "Elon Musk"
         ],
-        "correct_answer": "Martin Eberhard and Marc Tarpenning (Elon Musk joined early)",
+        "correct_answer": "Martin Eberhard and Marc Tarpenning",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -18035,22 +18035,6 @@
           "Motorola Mobility"
         ],
         "correct_answer": "Motorola Mobility",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
-      },
-      {
-        "id": "tec_252",
-        "category": "Technology",
-        "subcategory": "Tech Companies",
-        "question": "Who was the original founder of Tesla (before Elon Musk)?",
-        "options": [
-          "JB Straubel",
-          "Martin Eberhard and Marc Tarpenning",
-          "Ian Wright",
-          "Elon Musk"
-        ],
-        "correct_answer": "Martin Eberhard and Marc Tarpenning",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -25634,11 +25618,11 @@
         "question": "Which country has the most international land borders?",
         "options": [
           "Germany",
-          "China and Russia (tied at 14)",
+          "China and Russia",
           "Brazil",
           "India"
         ],
-        "correct_answer": "China and Russia (tied at 14)",
+        "correct_answer": "China and Russia",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -26692,9 +26676,9 @@
           "Arkansas",
           "Kentucky",
           "Colorado",
-          "Tennessee and Missouri (tied at 8)"
+          "Tennessee and Missouri"
         ],
-        "correct_answer": "Tennessee and Missouri (tied at 8)",
+        "correct_answer": "Tennessee and Missouri",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -28019,7 +28003,7 @@
         "options": [
           "Trevi Fountain",
           "Fountain of Neptune",
-          "Fontana di Trevi",
+          "Fountain of the Sea",
           "Fountain of Four Rivers"
         ],
         "correct_answer": "Trevi Fountain",

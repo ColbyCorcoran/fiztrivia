@@ -1358,7 +1358,7 @@ struct CategoryWheelView: View {
                     completedSubcategoryName = ""
                 }
             }
-        } else if gameModeManager.isRegularMode,
+        } else if gameModeManager.isMultiCategoryMode,
                   let selectedCategory = gameViewModel.gameSession.selectedCategory,
                   answeredQuestionsManager.areAllCategoryQuestionsAnswered(selectedCategory.rawValue, in: gameViewModel.questions, difficultyMode: difficultyManager.selectedDifficulty) {
             // Show toast notification for category completion (Default Mode)

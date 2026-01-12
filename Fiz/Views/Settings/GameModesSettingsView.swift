@@ -97,26 +97,7 @@ struct GameModesSettingsView: View {
                             category: category,
                             isSelected: categoryManager.isSelected(category),
                             canToggle: categoryManager.canToggle(category),
-                            onToggle: {
-                                let success = categoryManager.toggleCategory(category)
-                                if !success {
-                                    // Determine which alert to show
-                                    if categoryManager.selectedCategories.contains(category) {
-                                        // Trying to deselect but can't
-                                        if GameModeManager.shared.isSingleCategoryMode &&
-                                           GameModeManager.shared.selectedCategory == category {
-                                            showActiveCategoryAlert = true
-                                        } else {
-                                            showMinimumAlert = true
-                                        }
-                                    } else {
-                                        showMaxReachedAlert = true
-                                    }
-                                    HapticManager.shared.incorrectAnswerEffect()
-                                } else {
-                                    HapticManager.shared.buttonTapEffect()
-                                }
-                            }
+                            onToggle: { handleCategoryToggle(category) }
                         )
                     }
                 }
@@ -407,6 +388,27 @@ struct GameModesSettingsView: View {
     }
 
     // MARK: - Event Handlers
+
+    private func handleCategoryToggle(_ category: TriviaCategory) {
+        let success = categoryManager.toggleCategory(category)
+        if !success {
+            // Determine which alert to show
+            if categoryManager.selectedCategories.contains(category) {
+                // Trying to deselect but can't
+                if GameModeManager.shared.isSingleCategoryMode &&
+                   GameModeManager.shared.selectedCategory == category {
+                    showActiveCategoryAlert = true
+                } else {
+                    showMinimumAlert = true
+                }
+            } else {
+                showMaxReachedAlert = true
+            }
+            HapticManager.shared.incorrectAnswerEffect()
+        } else {
+            HapticManager.shared.buttonTapEffect()
+        }
+    }
 
     private func handleModeSelection(_ mode: GameMode) {
         guard !isInitialLoad && !isApplyingChanges else { return }

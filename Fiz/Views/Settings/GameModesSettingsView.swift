@@ -55,222 +55,253 @@ struct GameModesSettingsView: View {
         }
     }
 
+    // MARK: - View Sections
+
+    @ViewBuilder
+    private var gameModeSelectionSection: some View {
+        Section(header: Text("Select Game Mode"),
+                footer: Text("Choose how you want to play trivia. Switching modes will reset your current streak.")) {
+            ForEach(GameMode.allCases) { mode in
+                GameModeRow(
+                    mode: mode,
+                    isSelected: localSelectedMode == mode,
+                    onSelect: {
+                        handleModeSelection(mode)
+                    }
+                )
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var multiCategorySettingsSection: some View {
+        if localSelectedMode == .multiCategory {
+            // Category count display
+            Section {
+                HStack {
+                    Text("Selected Categories")
+                        .font(.headline)
+                    Spacer()
+                    Text("\(categoryManager.selectedCategories.count)/\(CategorySelectionManager.maximumCategories)")
+                        .font(.headline)
+                        .foregroundColor(categoryManager.selectedCategories.count >= CategorySelectionManager.maximumCategories ? .orange : .secondary)
+                }
+                .padding(.vertical, 4)
+            }
+
+            categoryToggleSection
+
+            categoryActionButtonsSection
+        }
+    }
+
+    @ViewBuilder
+    private var categoryToggleSection: some View {
+        Section(footer: Text("Select \(CategorySelectionManager.minimumCategories)-\(CategorySelectionManager.maximumCategories) categories to appear on the wheel. Deselected categories will be hidden.")) {
+            ForEach(TriviaCategory.allCases, id: \.self) { category in
+                CategorySelectionRow(
+                    category: category,
+                    isSelected: categoryManager.isSelected(category),
+                    canToggle: categoryManager.canToggle(category),
+                    onToggle: { handleCategoryToggle(category) }
+                )
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var categoryActionButtonsSection: some View {
+        Section {
+            // Save current selection as user's custom default
+            Button(action: {
+                categoryManager.saveCurrentAsDefault()
+                HapticManager.shared.buttonTapEffect()
+                showConfirmation("Selection saved as your new default ✓")
+            }) {
+                HStack {
+                    Image(systemName: "bookmark.fill")
+                    Text("Save selection as my default")
+                }
+                .foregroundColor(.fizOrange)
+            }
+
+            // Reset to user's custom default (only shown if they have one saved)
+            if categoryManager.hasCustomDefault() {
+                Button(action: {
+                    categoryManager.resetToMyDefault()
+                    HapticManager.shared.buttonTapEffect()
+                    AnalyticsManager.shared.trackCategorySelectionReset()
+                    showConfirmation("Reset to your saved default ✓")
+                }) {
+                    HStack {
+                        Image(systemName: "arrow.counterclockwise")
+                        Text("Reset to my default")
+                    }
+                    .foregroundColor(.fizOrange)
+                }
+            }
+
+            // Reset to factory default (all 12 categories)
+            Button(action: {
+                categoryManager.resetToFactoryDefault()
+                HapticManager.shared.buttonTapEffect()
+                AnalyticsManager.shared.trackCategorySelectionReset()
+                showConfirmation("Reset to original default ✓")
+            }) {
+                HStack {
+                    Image(systemName: "arrow.uturn.backward")
+                    Text("Reset to original default")
+                }
+                .foregroundColor(.fizOrange)
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var singleCategorySettingsSection: some View {
+        if localSelectedMode == .singleCategory {
+            Section(header: Text("Category Settings"),
+                    footer: Text("Select which category to focus on. The wheel will show subcategories instead of all categories.")) {
+                VStack(alignment: .leading, spacing: 8) {
+                    HStack {
+                        if !sizeCategory.isAccessibilitySize {
+                            Text("Selected Category")
+                            Spacer()
+                        }
+                        Picker("", selection: $localSelectedCategory) {
+                            Text("Select...").tag(nil as TriviaCategory?)
+                            ForEach(CategorySelectionManager.shared.selectedCategories.sorted(by: { $0.rawValue < $1.rawValue }), id: \.self) { category in
+                                HStack {
+                                    Image(systemName: category.icon)
+                                    Text(category.rawValue)
+                                }
+                                .tag(category as TriviaCategory?)
+                            }
+                        }
+                        .pickerStyle(MenuPickerStyle())
+                        .onChange(of: localSelectedCategory) { oldValue, newValue in
+                            handleCategoryChange(from: oldValue, to: newValue)
+                        }
+                    }
+
+                    if let selectedCategory = localSelectedCategory {
+                        Text("Wheel will show \(selectedCategory.rawValue) subcategories")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    } else {
+                        Text("Select a category to begin")
+                            .font(.caption)
+                            .foregroundColor(.orange)
+                    }
+                }
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var singleTopicSettingsSection: some View {
+        if localSelectedMode == .singleTopic {
+            let availablePacks = ExpansionPackManager.shared.getAvailableTopicsForSingleTopicMode()
+            let installedPacks = availablePacks.filter { ExpansionPackManager.shared.isInstalled(packId: $0.packId) }
+            let previewPacks = availablePacks.filter { ExpansionPackManager.shared.hasOnlyPreviews(packId: $0.packId) }
+
+            installedPacksSection(installedPacks)
+            previewPacksSection(previewPacks)
+            emptyTopicStateSection(availablePacks)
+            topicSelectionPromptSection(availablePacks)
+        }
+    }
+
+    @ViewBuilder
+    private func installedPacksSection(_ installedPacks: [ExpansionPack]) -> some View {
+        if !installedPacks.isEmpty {
+            Section(header: Text("Purchased & Installed Packs")) {
+                ForEach(installedPacks, id: \.packId) { pack in
+                    TopicPackRow(
+                        pack: pack,
+                        isPreview: false,
+                        gameViewModel: gameViewModel,
+                        answeredQuestionsManager: answeredQuestionsManager,
+                        difficultyManager: difficultyManager,
+                        localSelectedTopic: localSelectedTopic,
+                        onSelect: {
+                            handleTopicSelection(pack.packId)
+                        },
+                        onReset: { packId, packName, count in
+                            topicToReset = packId
+                            topicResetName = packName
+                            topicResetCount = count
+                            showingTopicResetAlert = true
+                        }
+                    )
+                }
+            }
+        }
+    }
+
+    @ViewBuilder
+    private func previewPacksSection(_ previewPacks: [ExpansionPack]) -> some View {
+        if !previewPacks.isEmpty {
+            Section(header: Text("Free Previews"),
+                    footer: Text("Try these topics before purchasing. Preview questions are included for free!")) {
+                ForEach(previewPacks, id: \.packId) { pack in
+                    TopicPackRow(
+                        pack: pack,
+                        isPreview: true,
+                        gameViewModel: gameViewModel,
+                        answeredQuestionsManager: answeredQuestionsManager,
+                        difficultyManager: difficultyManager,
+                        localSelectedTopic: localSelectedTopic,
+                        onSelect: {
+                            handleTopicSelection(pack.packId)
+                        },
+                        onReset: { packId, packName, count in
+                            topicToReset = packId
+                            topicResetName = packName
+                            topicResetCount = count
+                            showingTopicResetAlert = true
+                        }
+                    )
+                }
+            }
+        }
+    }
+
+    @ViewBuilder
+    private func emptyTopicStateSection(_ availablePacks: [ExpansionPack]) -> some View {
+        if availablePacks.isEmpty {
+            Section(header: Text("Topic Settings"),
+                    footer: Text("No expansion packs available. Visit the Store to browse and purchase expansion packs!")) {
+                Text("No topics available")
+                    .font(.body)
+                    .foregroundColor(.secondary)
+            }
+        }
+    }
+
+    @ViewBuilder
+    private func topicSelectionPromptSection(_ availablePacks: [ExpansionPack]) -> some View {
+        if localSelectedTopic == nil && !availablePacks.isEmpty {
+            Section {
+                Text("Select a topic above to begin")
+                    .font(.caption)
+                    .foregroundColor(.orange)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .listRowBackground(Color.clear)
+            }
+        }
+    }
+
     var body: some View {
         ZStack {
             Form {
-                Group {
-                    // Game Mode Selection Section
-                    Section(header: Text("Select Game Mode"),
-                            footer: Text("Choose how you want to play trivia. Switching modes will reset your current streak.")) {
-                        ForEach(GameMode.allCases) { mode in
-                            GameModeRow(
-                                mode: mode,
-                                isSelected: localSelectedMode == mode,
-                                onSelect: {
-                                    handleModeSelection(mode)
-                                }
-                            )
-                        }
-                    }
-                }
+                gameModeSelectionSection
 
-                // Conditional Settings Based on Selected Mode
-                Group {
-                    if localSelectedMode == .multiCategory {
-                // Category count display
-                Section {
-                    HStack {
-                        Text("Selected Categories")
-                            .font(.headline)
-                        Spacer()
-                        Text("\(categoryManager.selectedCategories.count)/\(CategorySelectionManager.maximumCategories)")
-                            .font(.headline)
-                            .foregroundColor(categoryManager.selectedCategories.count >= CategorySelectionManager.maximumCategories ? .orange : .secondary)
-                    }
-                    .padding(.vertical, 4)
-                }
+                multiCategorySettingsSection
 
-                // Category toggle list
-                Section(footer: Text("Select \(CategorySelectionManager.minimumCategories)-\(CategorySelectionManager.maximumCategories) categories to appear on the wheel. Deselected categories will be hidden.")) {
-                    ForEach(TriviaCategory.allCases, id: \.self) { category in
-                        CategorySelectionRow(
-                            category: category,
-                            isSelected: categoryManager.isSelected(category),
-                            canToggle: categoryManager.canToggle(category),
-                            onToggle: { handleCategoryToggle(category) }
-                        )
-                    }
-                }
+                singleCategorySettingsSection
 
-                // Action buttons
-                Section {
-                    // Save current selection as user's custom default
-                    Button(action: {
-                        categoryManager.saveCurrentAsDefault()
-                        HapticManager.shared.buttonTapEffect()
-                        showConfirmation("Selection saved as your new default ✓")
-                    }) {
-                        HStack {
-                            Image(systemName: "bookmark.fill")
-                            Text("Save selection as my default")
-                        }
-                        .foregroundColor(.fizOrange)
-                    }
-
-                    // Reset to user's custom default (only shown if they have one saved)
-                    if categoryManager.hasCustomDefault() {
-                        Button(action: {
-                            categoryManager.resetToMyDefault()
-                            HapticManager.shared.buttonTapEffect()
-                            AnalyticsManager.shared.trackCategorySelectionReset()
-                            showConfirmation("Reset to your saved default ✓")
-                        }) {
-                            HStack {
-                                Image(systemName: "arrow.counterclockwise")
-                                Text("Reset to my default")
-                            }
-                            .foregroundColor(.fizOrange)
-                        }
-                    }
-
-                    // Reset to factory default (all 12 categories)
-                    Button(action: {
-                        categoryManager.resetToFactoryDefault()
-                        HapticManager.shared.buttonTapEffect()
-                        AnalyticsManager.shared.trackCategorySelectionReset()
-                        showConfirmation("Reset to original default ✓")
-                    }) {
-                        HStack {
-                            Image(systemName: "arrow.uturn.backward")
-                            Text("Reset to original default")
-                        }
-                        .foregroundColor(.fizOrange)
-                    }
-                }
-                    }
-                }
-
-                Group {
-                    if localSelectedMode == .singleCategory {
-                Section(header: Text("Category Settings"),
-                        footer: Text("Select which category to focus on. The wheel will show subcategories instead of all categories.")) {
-                    VStack(alignment: .leading, spacing: 8) {
-                        HStack {
-                            if !sizeCategory.isAccessibilitySize {
-                                Text("Selected Category")
-                                Spacer()
-                            }
-                            Picker("", selection: $localSelectedCategory) {
-                                Text("Select...").tag(nil as TriviaCategory?)
-                                ForEach(CategorySelectionManager.shared.selectedCategories.sorted(by: { $0.rawValue < $1.rawValue }), id: \.self) { category in
-                                    HStack {
-                                        Image(systemName: category.icon)
-                                        Text(category.rawValue)
-                                    }
-                                    .tag(category as TriviaCategory?)
-                                }
-                            }
-                            .pickerStyle(MenuPickerStyle())
-                            .onChange(of: localSelectedCategory) { oldValue, newValue in
-                                handleCategoryChange(from: oldValue, to: newValue)
-                            }
-                        }
-
-                        if let selectedCategory = localSelectedCategory {
-                            Text("Wheel will show \(selectedCategory.rawValue) subcategories")
-                                .font(.caption)
-                                .foregroundColor(.secondary)
-                        } else {
-                            Text("Select a category to begin")
-                                .font(.caption)
-                                .foregroundColor(.orange)
-                        }
-                    }
-                }
-                    }
-                }
-
-                // Single Topic Settings
-                Group {
-                    if localSelectedMode == .singleTopic {
-                // Get available packs for Single Topic Mode
-                let availablePacks = ExpansionPackManager.shared.getAvailableTopicsForSingleTopicMode()
-                let installedPacks = availablePacks.filter { ExpansionPackManager.shared.isInstalled(packId: $0.packId) }
-                let previewPacks = availablePacks.filter { ExpansionPackManager.shared.hasOnlyPreviews(packId: $0.packId) }
-
-                // Purchased & Installed Packs
-                if !installedPacks.isEmpty {
-                    Section(header: Text("Purchased & Installed Packs")) {
-                        ForEach(installedPacks, id: \.packId) { pack in
-                            TopicPackRow(
-                                pack: pack,
-                                isPreview: false,
-                                gameViewModel: gameViewModel,
-                                answeredQuestionsManager: answeredQuestionsManager,
-                                difficultyManager: difficultyManager,
-                                localSelectedTopic: localSelectedTopic,
-                                onSelect: {
-                                    handleTopicSelection(pack.packId)
-                                },
-                                onReset: { packId, packName, count in
-                                    topicToReset = packId
-                                    topicResetName = packName
-                                    topicResetCount = count
-                                    showingTopicResetAlert = true
-                                }
-                            )
-                        }
-                    }
-                }
-
-                // Free Previews
-                if !previewPacks.isEmpty {
-                    Section(header: Text("Free Previews"),
-                            footer: Text("Try these topics before purchasing. Preview questions are included for free!")) {
-                        ForEach(previewPacks, id: \.packId) { pack in
-                            TopicPackRow(
-                                pack: pack,
-                                isPreview: true,
-                                gameViewModel: gameViewModel,
-                                answeredQuestionsManager: answeredQuestionsManager,
-                                difficultyManager: difficultyManager,
-                                localSelectedTopic: localSelectedTopic,
-                                onSelect: {
-                                    handleTopicSelection(pack.packId)
-                                },
-                                onReset: { packId, packName, count in
-                                    topicToReset = packId
-                                    topicResetName = packName
-                                    topicResetCount = count
-                                    showingTopicResetAlert = true
-                                }
-                            )
-                        }
-                    }
-                }
-
-                // No packs available
-                if availablePacks.isEmpty {
-                    Section(header: Text("Topic Settings"),
-                            footer: Text("No expansion packs available. Visit the Store to browse and purchase expansion packs!")) {
-                        Text("No topics available")
-                            .font(.body)
-                            .foregroundColor(.secondary)
-                    }
-                }
-
-                // Selection prompt
-                if localSelectedTopic == nil && !availablePacks.isEmpty {
-                    Section {
-                        Text("Select a topic above to begin")
-                            .font(.caption)
-                            .foregroundColor(.orange)
-                            .frame(maxWidth: .infinity, alignment: .center)
-                            .listRowBackground(Color.clear)
-                    }
-                }
-                    }
-                }
+                singleTopicSettingsSection
             }
             .scrollContentBackground(.hidden)
             .background(backgroundGradient)

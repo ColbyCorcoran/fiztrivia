@@ -197,14 +197,14 @@
         "id": "ent_013",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What becomes Ant-Man in the MCU?",
+        "question": "What is Ant-Man's real name?",
         "options": [
           "Eric O'Grady",
           "Hank Pym",
           "Scott Lang",
-          "Darrin Cross"
+          "Both A and B"
         ],
-        "correct_answer": "Scott Lang",
+        "correct_answer": "Both A and B",
         "difficulty": "medium",
         "topic": "com.fiz.pack.marvel",
         "subtopic": null
@@ -253,7 +253,7 @@
           "Cheeseburgers"
         ],
         "correct_answer": "Cheeseburgers",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "topic": "com.fiz.pack.marvel",
         "subtopic": null
       },
@@ -317,7 +317,7 @@
           "Kara Danvers"
         ],
         "correct_answer": "Zatanna Zatara",
-        "difficulty": "easy",
+        "difficulty": "hard",
         "topic": "com.fiz.pack.dc",
         "subtopic": null
       },
@@ -783,6 +783,22 @@
         "correct_answer": "Sebulba",
         "difficulty": "hard",
         "topic": "com.fiz.pack.star_wars",
+        "subtopic": null
+      },
+      {
+        "id": "ent_050",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "Which cinematographer won Academy Awards for both 'Blade Runner 2049' and 'Dune', becoming known for his innovative use of practical lighting effects?",
+        "options": [
+          "Emmanuel Lubezki",
+          "Hoyte van Hoytema",
+          "Greig Fraser",
+          "Roger Deakins"
+        ],
+        "correct_answer": "Greig Fraser",
+        "difficulty": "hard",
+        "topic": null,
         "subtopic": null
       },
       {
@@ -4210,6 +4226,22 @@
         "subtopic": null
       },
       {
+        "id": "ent_265",
+        "category": "Entertainment",
+        "subcategory": "Sci-Fi/Fantasy",
+        "question": "What is the name of the robot in The Iron Giant?",
+        "options": [
+          "The Giant",
+          "The Iron Giant",
+          "Robot 9",
+          "Iron Man"
+        ],
+        "correct_answer": "The Iron Giant",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
         "id": "ent_266",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
@@ -5482,9 +5514,9 @@
         "question": "What is Kvothe's true name in 'The Kingkiller Chronicle'?",
         "options": [
           "Kote",
-          "Kvothe (his calling name)",
+          "All are names he uses",
           "Maedre",
-          "All are names he uses"
+          "Kvothe (his calling name)"
         ],
         "correct_answer": "All are names he uses",
         "difficulty": "hard",
@@ -11980,7 +12012,7 @@
         "question": "Which duo created the album 'Bridge Over Troubled Water'?",
         "options": [
           "Simon & Garfunkel",
-          "John Lennon & Paul McCartney",
+          "Hall & Oates",
           "The Everly Brothers",
           "Daryl Hall and John Oates"
         ],
@@ -12909,10 +12941,10 @@
         "options": [
           "Santana",
           "U2",
-          "Beyoncé and Michael Jackson",
+          "Beyoncé and Michael Jackson (tied at 8)",
           "Adele"
         ],
-        "correct_answer": "Beyoncé and Michael Jackson",
+        "correct_answer": "Beyoncé and Michael Jackson (tied at 8)",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -14350,9 +14382,9 @@
           "Raised sixth",
           "Lowered third",
           "Raised fourth",
-          "Lowered seventh"
+          "Lowered seventh scale degree"
         ],
-        "correct_answer": "Lowered seventh",
+        "correct_answer": "Lowered seventh scale degree",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -16811,14 +16843,14 @@
         "id": "tec_176",
         "category": "Technology",
         "subcategory": "Internet & Social Media",
-        "question": "What was the original name of the social media platform X before its rebrand?",
+        "question": "What was the original name of Twitter before rebranding to X?",
         "options": [
           "Chirp",
           "Twttr",
           "Tweet",
-          "Twitter"
+          "Twitter (it's now called X)"
         ],
-        "correct_answer": "Twitter",
+        "correct_answer": "Twitter (it's now called X)",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -17147,7 +17179,7 @@
         "id": "tec_197",
         "category": "Technology",
         "subcategory": "Internet & Social Media",
-        "question": "Which internet meme was designated a hate symbol?",
+        "question": "Which internet meme featuring a frog was designated a hate symbol?",
         "options": [
           "Pepe the Frog",
           "Nyan Cat",
@@ -17403,14 +17435,14 @@
         "id": "tec_213",
         "category": "Technology",
         "subcategory": "Tech Companies",
-        "question": "Which company is known for electric cars?",
+        "question": "Which company is known for electric cars and SpaceX?",
         "options": [
           "Ford",
           "Toyota",
-          "Tesla",
+          "Tesla (cars) and SpaceX are both Elon Musk companies",
           "General Motors"
         ],
-        "correct_answer": "Tesla",
+        "correct_answer": "Tesla (cars) and SpaceX are both Elon Musk companies",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -17519,10 +17551,10 @@
         "options": [
           "Jeff Bezos",
           "Larry Page",
-          "Martin Eberhard and Marc Tarpenning",
+          "Martin Eberhard and Marc Tarpenning (Elon Musk joined early)",
           "Elon Musk"
         ],
-        "correct_answer": "Martin Eberhard and Marc Tarpenning",
+        "correct_answer": "Martin Eberhard and Marc Tarpenning (Elon Musk joined early)",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -18019,6 +18051,22 @@
           "Motorola Mobility"
         ],
         "correct_answer": "Motorola Mobility",
+        "difficulty": "hard",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "tec_252",
+        "category": "Technology",
+        "subcategory": "Tech Companies",
+        "question": "Who was the original founder of Tesla (before Elon Musk)?",
+        "options": [
+          "JB Straubel",
+          "Martin Eberhard and Marc Tarpenning",
+          "Ian Wright",
+          "Elon Musk"
+        ],
+        "correct_answer": "Martin Eberhard and Marc Tarpenning",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -25602,11 +25650,11 @@
         "question": "Which country has the most international land borders?",
         "options": [
           "Germany",
-          "China and Russia",
+          "China and Russia (tied at 14)",
           "Brazil",
           "India"
         ],
-        "correct_answer": "China and Russia",
+        "correct_answer": "China and Russia (tied at 14)",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -26660,9 +26708,9 @@
           "Arkansas",
           "Kentucky",
           "Colorado",
-          "Tennessee and Missouri"
+          "Tennessee and Missouri (tied at 8)"
         ],
-        "correct_answer": "Tennessee and Missouri",
+        "correct_answer": "Tennessee and Missouri (tied at 8)",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -27987,7 +28035,7 @@
         "options": [
           "Trevi Fountain",
           "Fountain of Neptune",
-          "Fountain of the Sea",
+          "Fontana di Trevi",
           "Fountain of Four Rivers"
         ],
         "correct_answer": "Trevi Fountain",
@@ -28119,6 +28167,22 @@
           "Rome"
         ],
         "correct_answer": "Athens",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "geo_264",
+        "category": "Geography",
+        "subcategory": "Landmarks & Monuments",
+        "question": "What year was the Eiffel Tower completed?",
+        "options": [
+          "1855",
+          "1876",
+          "1889",
+          "1901"
+        ],
+        "correct_answer": "1889",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -35480,9 +35544,9 @@
           "Pollywogs",
           "Tadpoles",
           "Froglets",
-          "All of the above"
+          "Both A and C"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Both A and C",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -38151,10 +38215,10 @@
         "options": [
           "The fourth state of matter",
           "Ionized gas",
-          "A type of liquid",
-          "Both A and B"
+          "Both the fourth state of matter and ionized gas",
+          "A type of liquid"
         ],
-        "correct_answer": "Both A and B",
+        "correct_answer": "Both the fourth state of matter and ionized gas",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -43607,7 +43671,7 @@
         "id": "his_031",
         "category": "History",
         "subcategory": "Ancient History",
-        "question": "What sport did the first Olympic Games held in ancient Greece feature?",
+        "question": "What was the first Olympic Games held in ancient Greece?",
         "options": [
           "All athletic events",
           "Boxing",
@@ -45643,8 +45707,8 @@
         "options": [
           "A castle",
           "A large estate",
-          "A village",
-          "All of the above"
+          "All of the above",
+          "A village"
         ],
         "correct_answer": "A large estate",
         "difficulty": "medium",
@@ -46388,6 +46452,22 @@
         "subtopic": null
       },
       {
+        "id": "his_207",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "Who invented the telephone?",
+        "options": [
+          "Nikola Tesla",
+          "Benjamin Franklin",
+          "Alexander Graham Bell",
+          "Thomas Edison"
+        ],
+        "correct_answer": "Alexander Graham Bell",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
         "id": "his_208",
         "category": "History",
         "subcategory": "Modern History",
@@ -46639,6 +46719,22 @@
           "HMS Beagle"
         ],
         "correct_answer": "HMS Beagle",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "his_224",
+        "category": "History",
+        "subcategory": "Modern History",
+        "question": "Who invented the printing press?",
+        "options": [
+          "Leonardo da Vinci",
+          "Galileo",
+          "Johannes Gutenberg",
+          "Isaac Newton"
+        ],
+        "correct_answer": "Johannes Gutenberg",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -49662,9 +49758,9 @@
           "Shadrach, Meshach, and Abednego",
           "Hananiah, Mishael, and Azariah",
           "Belteshazzar, Shadrach, and Meshach",
-          "Both A and B"
+          "Both A and B are correct"
         ],
-        "correct_answer": "Both A and B",
+        "correct_answer": "Both A and B are correct",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -49948,9 +50044,9 @@
         "question": "What does 'Alpha and Omega' mean?",
         "options": [
           "Creator and Judge",
-          "Beginning and End",
+          "All answers are correct",
           "First and Last",
-          "All answers are correct"
+          "Beginning and End"
         ],
         "correct_answer": "All answers are correct",
         "difficulty": "easy",
@@ -50385,6 +50481,22 @@
           "Damascus"
         ],
         "correct_answer": "Nineveh",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "bib_339",
+        "category": "Bible",
+        "subcategory": "Biblical History",
+        "question": "Who was the first king of Israel?",
+        "options": [
+          "Saul",
+          "Solomon",
+          "Samuel",
+          "David"
+        ],
+        "correct_answer": "Saul",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -51142,6 +51254,22 @@
         "subtopic": null
       },
       {
+        "id": "bib_387",
+        "category": "Bible",
+        "subcategory": "Biblical Theology",
+        "question": "What does 'amen' mean?",
+        "options": [
+          "Goodbye",
+          "Thank you",
+          "The end",
+          "So be it/truly"
+        ],
+        "correct_answer": "So be it/truly",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
         "id": "bib_388",
         "category": "Bible",
         "subcategory": "Biblical Theology",
@@ -51181,7 +51309,7 @@
         "options": [
           "Eternal",
           "All-powerful",
-          "Present everywhere",
+          "Everywhere present",
           "All-knowing"
         ],
         "correct_answer": "All-powerful",
@@ -51196,7 +51324,7 @@
         "question": "What does 'omniscient' mean?",
         "options": [
           "Eternal",
-          "Present everywhere",
+          "Everywhere present",
           "All-knowing",
           "All-powerful"
         ],
@@ -51213,10 +51341,10 @@
         "options": [
           "All-powerful",
           "All-knowing",
-          "Present everywhere",
+          "Everywhere present",
           "Eternal"
         ],
-        "correct_answer": "Present everywhere",
+        "correct_answer": "Everywhere present",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -51846,6 +51974,54 @@
         "subtopic": null
       },
       {
+        "id": "bib_432",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Hosanna' mean?",
+        "options": [
+          "Amen",
+          "Save now",
+          "Hallelujah",
+          "Praise God"
+        ],
+        "correct_answer": "Save now",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "bib_433",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Rabbi' mean?",
+        "options": [
+          "King",
+          "Father",
+          "Priest",
+          "Teacher/Master"
+        ],
+        "correct_answer": "Teacher/Master",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "bib_434",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Maranatha' mean?",
+        "options": [
+          "Hallelujah",
+          "Our Lord, come!",
+          "Praise God",
+          "Amen"
+        ],
+        "correct_answer": "Our Lord, come!",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
         "id": "bib_435",
         "category": "Bible",
         "subcategory": "Bible Languages",
@@ -51937,6 +52113,22 @@
           "LORD/I AM"
         ],
         "correct_answer": "LORD/I AM",
+        "difficulty": "easy",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "bib_441",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Sabbath' mean?",
+        "options": [
+          "Day",
+          "Rest",
+          "Seventh",
+          "Holy"
+        ],
+        "correct_answer": "Rest",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -52038,6 +52230,22 @@
         "subtopic": null
       },
       {
+        "id": "bib_448",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Paraclete' mean?",
+        "options": [
+          "Teacher",
+          "Helper/Comforter/Advocate",
+          "Guide",
+          "Spirit"
+        ],
+        "correct_answer": "Helper/Comforter/Advocate",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
         "id": "bib_449",
         "category": "Bible",
         "subcategory": "Bible Languages",
@@ -52049,6 +52257,22 @@
           "Oil press"
         ],
         "correct_answer": "Oil press",
+        "difficulty": "medium",
+        "topic": null,
+        "subtopic": null
+      },
+      {
+        "id": "bib_450",
+        "category": "Bible",
+        "subcategory": "Bible Languages",
+        "question": "What does 'Beelzebub' mean?",
+        "options": [
+          "Devil",
+          "Lord of the flies",
+          "Demon",
+          "Satan"
+        ],
+        "correct_answer": "Lord of the flies",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null

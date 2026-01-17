@@ -1149,14 +1149,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Games",
-      "question": "What type is Charizard?",
+      "question": "What type is Ceruledge?",
       "options": [
         "Fire/Dragon",
-        "Fire/Flying",
+        "Fire/Ghost",
         "Fire",
-        "Flying/Dragon"
+        "Ghost/Dragon"
       ],
-      "correct_answer": "Fire/Flying",
+      "correct_answer": "Fire/Ghost",
       "difficulty": "medium"
     },
     {
@@ -6973,14 +6973,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Types & Evolution",
-      "question": "What type is super effective against Fire?",
+      "question": "What type is super effective against Electric?",
       "options": [
         "Grass",
         "Ice",
-        "Water/Ground/Rock",
-        "Electric"
+        "Ground",
+        "Psychic"
       ],
-      "correct_answer": "Water/Ground/Rock",
+      "correct_answer": "Ground",
       "difficulty": "easy"
     },
     {
@@ -7709,14 +7709,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Regions & Locations",
-      "question": "What region is Pokémon Red and Blue set in?",
+      "question": "What region is Pokémon Silver and Gold set in?",
       "options": [
         "Johto",
         "Hoenn",
         "Kanto",
         "Sinnoh"
       ],
-      "correct_answer": "Kanto",
+      "correct_answer": "Johto",
       "difficulty": "easy"
     },
     {
@@ -7725,14 +7725,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Regions & Locations",
-      "question": "What is the starting town in Pokémon Red and Blue?",
+      "question": "What is the starting town in Pokémon Ruby and Sapphire?",
       "options": [
         "New Bark Town",
         "Littleroot Town",
         "Pallet Town",
         "Twinleaf Town"
       ],
-      "correct_answer": "Pallet Town",
+      "correct_answer": "Littleroot Town",
       "difficulty": "easy"
     },
     {

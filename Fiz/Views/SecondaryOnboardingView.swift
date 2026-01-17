@@ -8,9 +8,8 @@ struct SecondaryOnboardingView: View {
 
     private let features: [OnboardingFeature] = [
         .difficulty,
-        .categorySelection,
-        .phobiaFilters,
         .gameModes,
+        .phobiaFilters,
         .expansionPacks
     ]
 
@@ -176,7 +175,6 @@ struct FeatureCardView: View {
 // MARK: - Onboarding Feature Model
 enum OnboardingFeature {
     case difficulty
-    case categorySelection
     case phobiaFilters
     case gameModes
     case expansionPacks
@@ -185,12 +183,10 @@ enum OnboardingFeature {
         switch self {
         case .difficulty:
             return "speedometer"
-        case .categorySelection:
-            return "chart.pie.fill"
         case .phobiaFilters:
             return "eye.slash.fill"
         case .gameModes:
-            return "gamecontroller.fill"
+            return "circle.grid.cross.left.filled"
         case .expansionPacks:
             return "rectangle.stack.badge.plus"
         }
@@ -198,7 +194,7 @@ enum OnboardingFeature {
 
     var color: Color {
         switch self {
-        case .difficulty, .categorySelection, .gameModes, .expansionPacks:
+        case .difficulty, .gameModes, .expansionPacks:
             return .fizOrange
         case .phobiaFilters:
             return .fizTeal
@@ -209,8 +205,6 @@ enum OnboardingFeature {
         switch self {
         case .difficulty:
             return "Find Your Perfect Challenge with Game Difficulty"
-        case .categorySelection:
-            return "Pick What You Answer with Category Selection"
         case .phobiaFilters:
             return "Stay Comfortable with Phobia Filters"
         case .gameModes:
@@ -224,12 +218,10 @@ enum OnboardingFeature {
         switch self {
         case .difficulty:
             return "Choose between Casual, Normal, or Difficult for your perfect trivia challenge."
-        case .categorySelection:
-            return "Select 2-12 categories for your wheel to choose what questions you answer. Add or remove categories at any time, and save your favorites as your personal default for faster, easier access."
         case .phobiaFilters:
             return "Add Phobia Filters to exclude questions & topics that make you uncomfortable. Your wellbeing matters to us."
         case .gameModes:
-            return "Use Single Category Mode or Single Topic Mode to focus in and master that chosen area, question by question."
+            return "Choose what questions to answer in Multi-Category Mode or use Single Category Mode and Single Topic Mode to focus in and master a specific area, question by question."
         case .expansionPacks:
             return "Purchase Expansion Packs from our Store to add more questions from your favorite topics to your game. Each available Expansion Pack includes free preview questions for all players, whether you purchase it or not!"
         }

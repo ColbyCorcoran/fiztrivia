@@ -3727,7 +3727,7 @@
       "options": [
         "Sterling Holloway",
         "Bud Luckey",
-        "None",
+        "No one",
         "Jim Cummings"
       ],
       "correct_answer": "Jim Cummings",
@@ -3899,14 +3899,14 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Which movie features 'I'll Make a Man Out of You'?",
+      "question": "Which movie features 'I Won’t Say (I’m in Love)'?",
       "options": [
         "Hercules",
         "Tarzan",
         "Aladdin",
         "Mulan"
       ],
-      "correct_answer": "Mulan",
+      "correct_answer": "Hercules",
       "difficulty": "easy"
     },
     {
@@ -5563,15 +5563,15 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "What year did Disneyland open?",
+      "question": "What year did Disneyland begin construction?",
       "options": [
-        "1955",
+        "1954",
         "1950",
         "1960",
         "1971"
       ],
-      "correct_answer": "1955",
-      "difficulty": "medium"
+      "correct_answer": "1954",
+      "difficulty": "hard"
     },
     {
       "id": "dsn_paid_418",
@@ -5579,15 +5579,15 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "What year did Walt Disney World open?",
+      "question": "What year did Walt Disney World begin construction?",
       "options": [
         "1971",
         "1955",
         "1982",
-        "1965"
+        "1967"
       ],
-      "correct_answer": "1971",
-      "difficulty": "medium"
+      "correct_answer": "1967",
+      "difficulty": "hard"
     },
     {
       "id": "dsn_paid_419",

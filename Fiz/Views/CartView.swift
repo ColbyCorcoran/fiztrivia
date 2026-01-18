@@ -210,7 +210,7 @@ struct CartView: View {
             }
         }
         .padding()
-        .background(Color.white.opacity(0.8))
+        .background(Color(.secondarySystemBackground))
         .cornerRadius(12)
     }
 
@@ -258,7 +258,7 @@ struct CartView: View {
             }
         }
         .padding()
-        .background(Color.white.opacity(0.8))
+        .background(Color(.secondarySystemBackground))
         .cornerRadius(12)
     }
 
@@ -401,7 +401,7 @@ struct CartItemRow: View {
             }
         }
         .padding()
-        .background(Color.white.opacity(0.8))
+        .background(Color(.secondarySystemBackground))
         .cornerRadius(12)
     }
 }

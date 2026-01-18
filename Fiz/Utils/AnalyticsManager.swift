@@ -6,7 +6,7 @@ class AnalyticsManager: ObservableObject {
     private static let analyticsEnabledKey = "analytics_enabled"
     private static let hasShownConsentKey = "analytics_consent_shown"
 
-    @Published var isAnalyticsEnabled: Bool = false
+    @Published var isAnalyticsEnabled: Bool = true
     @Published var hasShownConsent: Bool = false
 
     static let shared = AnalyticsManager()

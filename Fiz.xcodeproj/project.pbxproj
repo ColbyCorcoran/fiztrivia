@@ -41,6 +41,7 @@
 		B68C5A952EBD2BE300C2A449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A862EBD2A5400C2A449 /* ContentView.swift */; };
 		B68C5A962EBD2C8800C2A449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68C5A852EBD2A5400C2A449 /* Assets.xcassets */; };
 		B68C5A9B2EBD409B00C2A449 /* FizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C5A9A2EBD409B00C2A449 /* FizApp.swift */; };
+		B68C7EF52F1ECFE800B8C5C5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68C7EF42F1ECFE800B8C5C5 /* StoreKit.framework */; };
 		B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */; };
 		B6B0E35C2EC5018C007873A8 /* PostHog in Frameworks */ = {isa = PBXBuildFile; productRef = B6B0E35B2EC5018C007873A8 /* PostHog */; };
 		B6B0E35E2EC501BA007873A8 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0E35D2EC501BA007873A8 /* AnalyticsManager.swift */; };
@@ -120,6 +121,7 @@
 		B68C5A982EBD408200C2A449 /* FizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B68C5A992EBD409000C2A449 /* FizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizTests.swift; sourceTree = "<group>"; };
 		B68C5A9A2EBD409B00C2A449 /* FizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizApp.swift; sourceTree = "<group>"; };
+		B68C7EF42F1ECFE800B8C5C5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		B699B6012EBE4A79001AF50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B6B0E35D2EC501BA007873A8 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B0E35C2EC5018C007873A8 /* PostHog in Frameworks */,
+				B68C7EF52F1ECFE800B8C5C5 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +215,7 @@
 				B68C5A882EBD2A5400C2A449 /* Fiz */,
 				B68C5A742EBD2A4700C2A449 /* Fiz Tests */,
 				B68C5A722EBD2A2A00C2A449 /* Fiz UITests */,
+				B68C7EF32F1ECFE800B8C5C5 /* Frameworks */,
 				B66F14D52E4B7DF200C426E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -319,6 +323,14 @@
 				B68C5A9A2EBD409B00C2A449 /* FizApp.swift */,
 			);
 			path = Fiz;
+			sourceTree = "<group>";
+		};
+		B68C7EF32F1ECFE800B8C5C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B68C7EF42F1ECFE800B8C5C5 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -675,7 +687,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = Z5476SBJVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -710,7 +722,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = Z5476SBJVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

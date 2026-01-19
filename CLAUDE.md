@@ -40,7 +40,7 @@ The app uses **MVVM (Model-View-ViewModel)** architecture with SwiftUI and follo
    - Free preview questions (10% per pack)
    - Bundled in app (JSON files, not downloads)
    - Seamless integration into existing categories
-10. **Privacy-First Analytics**: Opt-out by default PostHog integration with user consent management
+10. **Privacy-First Analytics**: Opt-in by default PostHog integration with comprehensive event tracking and user consent management
 11. **iOS Version Adaptability**: Native iOS 26 glass buttons with iOS 18 fallback styling
 12. **Adaptive Question Display**: Questions display inline by default, but automatically switch to scrollable modal for Dynamic Type sizes of .accessibility3 and above, ensuring content remains readable for users with large text preferences
 
@@ -80,9 +80,11 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - `GameModeManager` - Manages game mode state (Multi-Category, Single Category, Single Topic) with mode-specific settings
 - `ExpansionPackManager` - Manages expansion pack state (available, purchased, installed), loads pack JSONs
 - `StoreManager` - StoreKit 2 integration for IAP purchases, transaction verification, Family Sharing
+- `CartManager` - Shopping cart state with add/remove/clear operations, subtotal/discount calculations
+- `DiscountCodeManager` - Discount code validation and discount calculation
 - `HapticSettingsManager` - User haptic feedback preferences
 - `AppIconManager` - Runtime app icon switching (6 variants: Correct, Regular Pose, Happy Smirk, Incorrect, Leaderboard, New High Score)
-- `AnalyticsManager` - Privacy-conscious PostHog analytics integration
+- `AnalyticsManager` - Privacy-conscious PostHog analytics integration with 57+ events
 
 ### Question Database Structure
 
@@ -164,7 +166,9 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 - **PersonalizationSettingsView**: Username editing, app icon selection, haptic toggles, analytics consent
 - **GameModesSettingsView**: Game mode selection (Multi-Category, Single Category, Single Topic), mode-specific configuration, category selection and management for Multi-Category mode
 - **StoreView**: Full-screen modal for browsing and purchasing expansion packs with beautiful card UI
+- **CartView**: Shopping cart with multi-pack checkout, discount codes, and price breakdown
 - **StoreManager**: StoreKit 2 implementation for IAP management, transaction verification, Family Sharing
+- **CartManager**: Shopping cart state management with add/remove/clear functionality
 
 **Shared Question Components**:
 - **QuestionContentView** (`QuestionContentView.swift`): Shared question display component used in both inline and modal contexts. Displays category header, question text, and answer button grid with callback-based answer selection.
@@ -208,20 +212,43 @@ App Launch → Onboarding (first time) → Category Wheel → Inline Question �
 ### Analytics Integration
 
 **PostHog Integration** (`AnalyticsManager`):
-- Privacy-first approach with opt-out by default
+- Privacy-first approach with opt-in by default (can be disabled anytime)
+- Comprehensive event tracking across 57+ events
 - User consent management with settings toggle
 - Data clearing on opt-out
 
-**Tracked Events**:
-- App lifecycle (opened, backgrounded)
-- Setting changes (difficulty, single-category mode)
-- Category completion milestones
-- Mode switching behavior
+**Event Categories** (57 total events):
+- **App Lifecycle** (2): app opened, backgrounded
+- **Onboarding** (8): completion, skipping, secondary onboarding flow, feature tour
+- **What's New** (3): viewed, completed, dismissed
+- **Settings & Personalization** (8): setting changes, username updates, app icon changes, haptic/swipe toggles
+- **Phobia Filters** (3): added, removed, cleared (count only, no terms)
+- **Game Modes** (4): category selection, mode changes, streak save decisions
+- **Gameplay** (4): question answered, category completed, streak milestones, leaderboard saves
+- **Progress** (1): progress reset
+- **Store - Browsing** (3): store viewed/dismissed, pack viewed
+- **Store - Cart Flow** (8): cart viewed, pack added/removed, cart cleared, checkout initiated/completed/failed
+- **Store - Discounts** (3): discount code applied/removed/invalid
+- **Store - Purchases** (4): pack purchased/installed/uninstalled, purchases restored
+- **Support & Legal** (3): feature requests, terms viewed, contact support
+
+**Critical Conversion Funnels**:
+- **Store to Purchase**: `store_viewed` → `pack_added_to_cart` → `cart_viewed` → `checkout_initiated` → `checkout_completed`
+- **Cart Abandonment**: `store_dismissed` with cart items tracking
+- **Discount Effectiveness**: Applied vs invalid codes, conversion impact
 
 **Privacy Features**:
-- Explicit user consent required
-- Clear opt-out mechanism in settings
+- Analytics enabled by default but can be disabled anytime in settings
+- Clear opt-out mechanism with instant effect
 - Data deletion on consent withdrawal
+- **Never collected**: usernames, question text/answers, specific phobia terms, leaderboard data
+- **Only collected**: Feature usage patterns, conversion metrics, aggregate gameplay statistics
+
+**Implementation**:
+- Comprehensive tracking in StoreView, CartView, GameViewModel
+- Question answered tracking (category, difficulty, result - no PII)
+- Full checkout flow instrumentation
+- Discount code performance monitoring
 
 ### Personalization System
 
@@ -311,6 +338,8 @@ Fiz/
 ├── FizApp.swift                 # App entry point with SwiftData setup
 ├── ContentView.swift            # Root navigation controller
 ├── Configuration.storekit       # StoreKit testing configuration
+├── CLAUDE.md                    # This file - project documentation and guidance
+├── ANALYTICS_LAUNCH_SUMMARY.md  # Comprehensive analytics documentation
 ├── Models/
 │   └── TriviaModels.swift       # All data models, managers, enums
 ├── ViewModels/
@@ -323,6 +352,7 @@ Fiz/
 │   ├── LeaderboardView.swift    # Achievement history display
 │   ├── SettingsView.swift       # Settings navigation hub
 │   ├── StoreView.swift          # Expansion pack store UI
+│   ├── CartView.swift           # Shopping cart with checkout flow
 │   ├── OnboardingView.swift     # First-time setup
 │   └── Settings/
 │       ├── GameModesSettingsView.swift # Game mode selection & configuration
@@ -346,29 +376,40 @@ Fiz/
 
 ### Recent Major Updates
 
-**Expansion Pack System** (Latest):
+**Analytics Launch Preparation** (January 19, 2026 - Latest):
+1. **Opt-In by Default** - Changed analytics from opt-out to opt-in by default for better data insights
+2. **Comprehensive Event Tracking** - Added 11 new events for store/cart conversion tracking (57 total events)
+3. **Conversion Funnel Tracking** - Full instrumentation of store → cart → checkout → purchase flow
+4. **Cart Abandonment Analytics** - Track when users browse/add items but don't complete purchase
+5. **Discount Code Analytics** - Monitor code usage, invalid attempts, conversion impact
+6. **Gameplay Tracking** - Question answered events (category, difficulty, result - no PII)
+7. **Legal Updates** - Updated Privacy Policy and Terms of Service for opt-in analytics
+8. **Launch Documentation** - Created comprehensive analytics guide (ANALYTICS_LAUNCH_SUMMARY.md)
+
+**Expansion Pack System**:
 1. **IAP Integration** - StoreKit 2 with modern async/await, Family Sharing support
 2. **Store UI** - Beautiful scrollable store with pack cards, purchase flow, install/uninstall
-3. **Single Topic Mode** - New game mode focusing on expansion pack subtopics
-4. **Expansion Packs** - 5 launch packs with sample data (Harry Potter, Pokémon, 80s Trivia, Disney, The Office)
-5. **Free Previews** - 10% of questions in each pack available to all users
-6. **Game Mode Migration** - Replaced SingleCategoryModeManager with unified GameModeManager
+3. **Cart System** - Shopping cart with discount codes, multi-pack checkout
+4. **Single Topic Mode** - New game mode focusing on expansion pack subtopics
+5. **Expansion Packs** - 5 launch packs with sample data (Harry Potter, Pokémon, 80s Trivia, Disney, The Office)
+6. **Free Previews** - 10% of questions in each pack available to all users
+7. **Game Mode Migration** - Replaced SingleCategoryModeManager with unified GameModeManager
 
 **Previous Features**:
-1. **Game Mode Consolidation** - Renamed Regular mode to Multi-Category, integrated category selection into GameModesSettingsView, mode indicator now visible for all modes
-2. **Game Mode System** - Three modes (Multi-Category, Single Category, Single Topic) with unified management
-3. **App Icon Customization** - Runtime switching between 6 icon variants
-4. **Privacy-First Analytics** - PostHog integration with opt-out by default
-5. **Enhanced Settings Architecture** - Reorganized into GameModesSettingsView and PersonalizationSettingsView
-6. **iOS 26 Glass Buttons** - Native glass styling with iOS 18 fallbacks
-7. **Comprehensive Progress Tracking** - Detailed completion statistics per category/subcategory
-8. **Enhanced Subcategory System** - Protocol-based subcategory organization with icons and colors
+1. **Game Mode Consolidation** - Renamed Regular mode to Multi-Category, integrated category selection into GameModesSettingsView
+2. **App Icon Customization** - Runtime switching between 6 icon variants
+3. **Enhanced Settings Architecture** - Reorganized into GameModesSettingsView and PersonalizationSettingsView
+4. **iOS 26 Glass Buttons** - Native glass styling with iOS 18 fallbacks
+5. **Comprehensive Progress Tracking** - Detailed completion statistics per category/subcategory
+6. **Enhanced Subcategory System** - Protocol-based subcategory organization with icons and colors
 
 **Manager Classes Added**:
 - `ExpansionPackManager` - Expansion pack state and question management
 - `StoreManager` - StoreKit 2 IAP integration
+- `CartManager` - Shopping cart state management with add/remove/clear
+- `DiscountCodeManager` - Discount code validation and calculations
 - `GameModeManager` - Unified game mode state management (replaced SingleCategoryModeManager)
-- `AnalyticsManager` - Privacy-conscious PostHog analytics
+- `AnalyticsManager` - Privacy-conscious PostHog analytics (57+ events)
 - `AnsweredQuestionsManager` - Session-persistent question tracking
 - `HapticSettingsManager` - User haptic feedback preferences
 - `AppIconManager` - Runtime app icon switching
@@ -501,9 +542,12 @@ struct ExpansionPack: Codable, Identifiable {
 - Persists selected topic across launches
 
 **Analytics**:
-- Tracks store views, pack views, purchases
-- Tracks install/uninstall events
-- Tracks topic mode usage
+- Comprehensive store and cart conversion tracking
+- Full checkout flow instrumentation (initiated, completed, failed)
+- Pack browsing and cart abandonment metrics
+- Discount code usage and effectiveness
+- Install/uninstall event tracking
+- Topic mode usage patterns
 
 ### StoreKit Configuration
 

@@ -11321,14 +11321,14 @@
         "id": "mus_110",
         "category": "Music",
         "subcategory": "History & Eras",
-        "question": "What year did bebop jazz emerge?",
+        "question": "What decade did bebop jazz emerge?",
         "options": [
           "1930s",
-          "1940s (around 1945)",
+          "1940s",
           "1960s",
           "1950s"
         ],
-        "correct_answer": "1940s (around 1945)",
+        "correct_answer": "1940s",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -23343,12 +23343,12 @@
         "subcategory": "Photography",
         "question": "What year was the first photograph taken?",
         "options": [
-          "1826 or 1827",
+          "1826",
           "1839",
           "1850",
           "1800"
         ],
-        "correct_answer": "1826 or 1827",
+        "correct_answer": "1826",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -30481,7 +30481,7 @@
         "id": "spt_160",
         "category": "Sports",
         "subcategory": "International Competition",
-        "question": "What year were the first modern Olympics?",
+        "question": "What year were the first modern Olympics held?",
         "options": [
           "1880",
           "1896",
@@ -45495,7 +45495,7 @@
         "id": "his_151",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "In what year did the Norman Conquest of England occur?",
+        "question": "What year did the Norman Conquest of England occur?",
         "options": [
           "1154",
           "1066",
@@ -50749,10 +50749,10 @@
         "options": [
           "380 AD",
           "325 AD",
-          "313 AD (Edict of Milan)",
+          "313 AD",
           "300 AD"
         ],
-        "correct_answer": "313 AD (Edict of Milan)",
+        "correct_answer": "313 AD",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null

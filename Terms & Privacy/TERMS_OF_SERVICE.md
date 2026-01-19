@@ -49,9 +49,9 @@ Users agree to:
 
 ## 6. Analytics
 
-**Optional Tracking:** PostHog analytics can be enabled or disabled in settings. Analytics are opt-out by default.
+**Optional Tracking:** PostHog analytics are enabled by default to help improve the app, but can be disabled at any time in settings.
 
-**Collected Data:** Feature usage, performance metrics, and non-identifying patterns only when enabled.
+**Collected Data:** Feature usage, performance metrics, and non-identifying patterns only. No personal information or game content is ever collected.
 
 **Protected Data:** Question answers, game progress, username, and personal preferences remain private and are never collected.
 

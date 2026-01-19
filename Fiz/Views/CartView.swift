@@ -67,6 +67,11 @@ struct CartView: View {
                                     onRemove: {
                                         HapticManager.shared.lightImpact()
                                         cartManager.removeFromCart(packId: pack.packId)
+                                        AnalyticsManager.shared.trackPackRemovedFromCart(
+                                            packId: pack.packId,
+                                            packName: pack.packName,
+                                            totalItemsRemaining: cartManager.itemCount
+                                        )
                                     }
                                 )
                             }
@@ -135,12 +140,17 @@ struct CartView: View {
                 Button("Cancel", role: .cancel) { }
                 Button("Clear Bag", role: .destructive) {
                     HapticManager.shared.lightImpact()
+                    let itemsCleared = cartPacks.count
                     cartManager.clearCart()
                     appliedDiscount = nil
                     discountCodeInput = ""
+                    AnalyticsManager.shared.trackCartCleared(itemsCleared: itemsCleared)
                 }
             } message: {
                 Text("This will remove all \(cartPacks.count) item\(cartPacks.count == 1 ? "" : "s") from your shopping bag.")
+            }
+            .onAppear {
+                AnalyticsManager.shared.trackCartViewed(itemCount: cartPacks.count)
             }
         }
     }
@@ -294,8 +304,14 @@ struct CartView: View {
 
         if let code = discountManager.validateCode(discountCodeInput) {
             appliedDiscount = code
+            let discountAmount = discountManager.calculateDiscount(code: code, subtotal: subtotal)
+            AnalyticsManager.shared.trackDiscountCodeApplied(
+                codeType: discountManager.getDiscountDescription(code: code),
+                discountAmount: discountAmount
+            )
             print("✅ Applied discount: \(code.description)")
         } else {
+            AnalyticsManager.shared.trackDiscountCodeInvalid()
             showingInvalidCodeAlert = true
         }
     }
@@ -304,9 +320,17 @@ struct CartView: View {
         HapticManager.shared.lightImpact()
         appliedDiscount = nil
         discountCodeInput = ""
+        AnalyticsManager.shared.trackDiscountCodeRemoved()
     }
 
     private func purchaseAll() async {
+        // Track checkout initiated
+        AnalyticsManager.shared.trackCheckoutInitiated(
+            itemCount: cartPacks.count,
+            subtotal: subtotal,
+            hasDiscount: appliedDiscount != nil
+        )
+
         isPurchasing = true
 
         var successCount = 0
@@ -334,6 +358,14 @@ struct CartView: View {
         if successCount == cartPacks.count {
             // All successful
             HapticManager.shared.correctAnswerEffect()
+
+            // Track successful checkout
+            AnalyticsManager.shared.trackCheckoutCompleted(
+                itemCount: cartPacks.count,
+                total: total,
+                hadDiscount: appliedDiscount != nil
+            )
+
             cartManager.clearCart()
             appliedDiscount = nil
             discountCodeInput = ""
@@ -341,6 +373,13 @@ struct CartView: View {
         } else if successCount > 0 {
             // Partial success
             errorMessage = "Successfully purchased \(successCount) pack(s). Failed: \(failedPacks.joined(separator: ", "))"
+
+            // Track partial failure
+            AnalyticsManager.shared.trackCheckoutFailed(
+                itemCount: cartPacks.count,
+                failureReason: "partial_failure"
+            )
+
             // Remove successful items from cart
             for pack in cartPacks {
                 if expansionManager.isPurchased(packId: pack.packId) {
@@ -351,6 +390,13 @@ struct CartView: View {
         } else {
             // All failed
             errorMessage = "Failed to purchase packs. Please try again."
+
+            // Track complete failure
+            AnalyticsManager.shared.trackCheckoutFailed(
+                itemCount: cartPacks.count,
+                failureReason: "all_failed"
+            )
+
             showingErrorAlert = true
         }
     }

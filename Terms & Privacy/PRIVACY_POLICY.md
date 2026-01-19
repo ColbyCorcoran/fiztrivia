@@ -42,9 +42,9 @@ The following data is stored locally on your device using Apple's SwiftData fram
 
 ### Analytics (Optional)
 
-**Opt-Out by Default:** Analytics are disabled unless you explicitly enable them in settings.
+**Opt-In by Default:** Analytics are enabled by default to help us improve the app, but you can disable them at any time in settings. No personal information or game content is ever collected.
 
-**When Enabled, PostHog Collects:**
+**PostHog Collects:**
 - App opens and backgrounding events
 - Feature interactions (button taps, settings changes)
 - Category completion milestones

@@ -141,6 +141,11 @@ struct StoreView: View {
         .onAppear {
             AnalyticsManager.shared.trackStoreViewed()
         }
+        .onDisappear {
+            // Track store dismissal with cart context
+            let hadItems = cartManager.itemCount > 0
+            AnalyticsManager.shared.trackStoreDismissed(hadItemsInCart: hadItems, cartItemCount: cartManager.itemCount)
+        }
     }
 
     private func purchasePack(_ pack: ExpansionPack) async {
@@ -324,8 +329,17 @@ struct ExpansionPackCard: View {
                     HapticManager.shared.buttonTapEffect()
                     if inCart {
                         cartManager.removeFromCart(packId: pack.packId)
+                        AnalyticsManager.shared.trackPackRemovedFromCart(
+                            packId: pack.packId,
+                            packName: pack.packName,
+                            totalItemsRemaining: cartManager.itemCount
+                        )
                     } else {
                         cartManager.addToCart(packId: pack.packId)
+                        AnalyticsManager.shared.trackPackAddedToCart(
+                            packId: pack.packId,
+                            packName: pack.packName
+                        )
                     }
                 }) {
                     HStack {

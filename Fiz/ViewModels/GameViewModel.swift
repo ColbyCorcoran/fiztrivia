@@ -164,11 +164,30 @@ class GameViewModel {
     
     func selectAnswer(_ answer: String, modelContext: ModelContext? = nil) {
         guard let question = gameSession.currentQuestion else { return }
-        
+
         usedQuestions.insert(question.id)
         answeredQuestionsManager.markQuestionAnswered(question.id)
-        
-        if answer == question.correctAnswer {
+
+        let isCorrect = answer == question.correctAnswer
+
+        // Track question answered (no PII, just category/difficulty/result)
+        let gameMode: String
+        if gameModeManager.isSingleCategoryMode {
+            gameMode = "Single Category"
+        } else if gameModeManager.isSingleTopicMode {
+            gameMode = "Single Topic"
+        } else {
+            gameMode = "Multi-Category"
+        }
+
+        AnalyticsManager.shared.trackQuestionAnswered(
+            isCorrect: isCorrect,
+            category: question.category,
+            difficulty: question.difficulty,
+            gameMode: gameMode
+        )
+
+        if isCorrect {
             gameSession.answerState = .correct
             gameSession.currentStreak += 1
 

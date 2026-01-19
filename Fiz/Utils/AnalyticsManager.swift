@@ -18,7 +18,13 @@ class AnalyticsManager: ObservableObject {
 
     private func loadSettings() {
         hasShownConsent = UserDefaults.standard.bool(forKey: Self.hasShownConsentKey)
-        isAnalyticsEnabled = UserDefaults.standard.bool(forKey: Self.analyticsEnabledKey)
+
+        // Opt-in by default - if key doesn't exist (first launch), enable analytics
+        if let savedValue = UserDefaults.standard.object(forKey: Self.analyticsEnabledKey) as? Bool {
+            isAnalyticsEnabled = savedValue
+        } else {
+            isAnalyticsEnabled = true  // Default to enabled for new users
+        }
     }
 
     private func configurePostHog() {
@@ -33,9 +39,11 @@ class AnalyticsManager: ObservableObject {
 
         PostHogSDK.shared.setup(config)
 
-        // Opt out by default until user enables
+        // Apply user's analytics preference
         if !isAnalyticsEnabled {
             PostHogSDK.shared.optOut()
+        } else {
+            PostHogSDK.shared.optIn()
         }
     }
 
@@ -278,11 +286,32 @@ class AnalyticsManager: ObservableObject {
 
     // MARK: - Game Mode Events
 
+    func trackGameModeChanged(newMode: String, previousMode: String?) {
+        guard isAnalyticsEnabled else { return }
+        var properties: [String: Any] = ["new_mode": newMode]
+        if let previousMode = previousMode {
+            properties["previous_mode"] = previousMode
+        }
+        PostHogSDK.shared.capture("game_mode_changed", properties: properties)
+    }
+
     func trackStreakSaveDecision(action: String, streakValue: Int) {
         guard isAnalyticsEnabled else { return }
         PostHogSDK.shared.capture("streak_save_decision", properties: [
             "action": action,
             "streak_value": streakValue
+        ])
+    }
+
+    // MARK: - Gameplay Events
+
+    func trackQuestionAnswered(isCorrect: Bool, category: String, difficulty: String, gameMode: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("question_answered", properties: [
+            "is_correct": isCorrect,
+            "category": category,
+            "difficulty": difficulty,
+            "game_mode": gameMode
         ])
     }
 
@@ -323,6 +352,14 @@ class AnalyticsManager: ObservableObject {
         PostHogSDK.shared.capture("store_viewed")
     }
 
+    func trackStoreDismissed(hadItemsInCart: Bool, cartItemCount: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("store_dismissed", properties: [
+            "had_items_in_cart": hadItemsInCart,
+            "cart_item_count": cartItemCount
+        ])
+    }
+
     func trackExpansionPackViewed(packId: String, packName: String) {
         guard isAnalyticsEnabled else { return }
         PostHogSDK.shared.capture("expansion_pack_viewed", properties: [
@@ -357,6 +394,83 @@ class AnalyticsManager: ObservableObject {
         PostHogSDK.shared.capture("purchases_restored", properties: [
             "packs_restored": packsRestored
         ])
+    }
+
+    // MARK: - Cart Events
+
+    func trackCartViewed(itemCount: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("cart_viewed", properties: [
+            "item_count": itemCount
+        ])
+    }
+
+    func trackPackAddedToCart(packId: String, packName: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("pack_added_to_cart", properties: [
+            "pack_id": packId,
+            "pack_name": packName
+        ])
+    }
+
+    func trackPackRemovedFromCart(packId: String, packName: String, totalItemsRemaining: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("pack_removed_from_cart", properties: [
+            "pack_id": packId,
+            "pack_name": packName,
+            "total_items_remaining": totalItemsRemaining
+        ])
+    }
+
+    func trackCartCleared(itemsCleared: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("cart_cleared", properties: [
+            "items_cleared": itemsCleared
+        ])
+    }
+
+    func trackCheckoutInitiated(itemCount: Int, subtotal: Double, hasDiscount: Bool) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("checkout_initiated", properties: [
+            "item_count": itemCount,
+            "subtotal": subtotal,
+            "has_discount": hasDiscount
+        ])
+    }
+
+    func trackCheckoutCompleted(itemCount: Int, total: Double, hadDiscount: Bool) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("checkout_completed", properties: [
+            "item_count": itemCount,
+            "total": total,
+            "had_discount": hadDiscount
+        ])
+    }
+
+    func trackCheckoutFailed(itemCount: Int, failureReason: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("checkout_failed", properties: [
+            "item_count": itemCount,
+            "failure_reason": failureReason
+        ])
+    }
+
+    func trackDiscountCodeApplied(codeType: String, discountAmount: Double) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("discount_code_applied", properties: [
+            "code_type": codeType,
+            "discount_amount": discountAmount
+        ])
+    }
+
+    func trackDiscountCodeRemoved() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("discount_code_removed")
+    }
+
+    func trackDiscountCodeInvalid() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("discount_code_invalid")
     }
 
     // MARK: - Support & Legal Tracking

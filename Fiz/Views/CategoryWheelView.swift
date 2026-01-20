@@ -627,11 +627,18 @@ struct CategoryWheelView: View {
                     HapticManager.shared.buttonTapEffect()
                     showingStore = true
                 }) {
-                    HStack(spacing: 6) {
+                    if sizeCategory.isAccessibilityCategory {
+                        // At accessibility sizes, show icon only
                         Image(systemName: "rectangle.stack.badge.plus")
-                        Text("Expansion Packs")
+                            .font(.body.weight(.semibold))
+                    } else {
+                        // At normal sizes, show icon + text
+                        HStack(spacing: 6) {
+                            Image(systemName: "rectangle.stack.badge.plus")
+                            Text("Expansion Packs")
+                        }
+                        .font(.body.weight(.semibold))
                     }
-                    .font(.title3.weight(.semibold))
                 }
                 .modifier(ExpansionPacksButtonStyle())
                 .disabled(navigationButtonsDisabled)

@@ -23,6 +23,8 @@ struct CartView: View {
     @State private var showingErrorAlert = false
     @State private var errorMessage = ""
     @State private var showingClearBagAlert = false
+    @State private var showingCheckoutWarning = false
+    @State private var purchaseProgress: Int = 0
 
     private var cartPacks: [ExpansionPack] {
         expansionManager.availablePacks.filter { cartManager.isInCart(packId: $0.packId) }
@@ -124,12 +126,31 @@ struct CartView: View {
             } message: {
                 Text("The discount code '\(discountCodeInput)' is not valid.")
             }
+            .alert("Ready to Purchase?", isPresented: $showingCheckoutWarning) {
+                Button("Cancel", role: .cancel) { }
+                Button("Continue") {
+                    Task {
+                        await purchaseAll()
+                    }
+                }
+            } message: {
+                if cartPacks.count > 1 {
+                    Text("You'll be prompted \(cartPacks.count) times by the App Store to complete your purchase (once for each pack). This is normal for multiple pack purchases.")
+                } else {
+                    Text("You'll be prompted once by the App Store to complete your purchase.")
+                }
+            }
             .alert("Purchase Complete!", isPresented: $showingSuccessAlert) {
                 Button("OK") {
                     dismiss()
                 }
             } message: {
-                Text("Your expansion packs have been purchased and installed successfully!")
+                let packCount = purchaseProgress
+                if packCount > 1 {
+                    Text("All \(packCount) expansion packs have been purchased and installed! They're now part of the game and ready to play in Single Topic Mode.")
+                } else {
+                    Text("Your expansion pack has been purchased and installed! It's now part of the game and ready to play in Single Topic Mode.")
+                }
             }
             .alert("Purchase Failed", isPresented: $showingErrorAlert) {
                 Button("OK", role: .cancel) { }
@@ -274,14 +295,17 @@ struct CartView: View {
 
     private var purchaseButton: some View {
         Button(action: {
-            Task {
-                await purchaseAll()
-            }
+            showingCheckoutWarning = true
         }) {
             HStack {
                 if isPurchasing {
                     ProgressView()
                         .progressViewStyle(CircularProgressViewStyle(tint: .white))
+                    if cartPacks.count > 1 {
+                        Text("Purchasing \(purchaseProgress) of \(cartPacks.count)...")
+                    } else {
+                        Text("Purchasing...")
+                    }
                 } else {
                     Image(systemName: "cart.fill")
                     Text("Purchase All (\(cartPacks.count) \(cartPacks.count == 1 ? "item" : "items"))")
@@ -332,12 +356,15 @@ struct CartView: View {
         )
 
         isPurchasing = true
+        purchaseProgress = 0
 
         var successCount = 0
         var failedPacks: [String] = []
 
         // Purchase each pack sequentially
-        for pack in cartPacks {
+        for (index, pack) in cartPacks.enumerated() {
+            purchaseProgress = index + 1
+
             guard let product = storeManager.product(for: pack.packId) else {
                 failedPacks.append(pack.packName)
                 continue

@@ -627,7 +627,7 @@ struct CategoryWheelView: View {
                     HapticManager.shared.buttonTapEffect()
                     showingStore = true
                 }) {
-                    Image(systemName: "rectangle.stack.badge.plus")
+                    Label("Expansion Packs", systemImage: "rectangle.stack.badge.plus")
                         .font(.title3.weight(.semibold))
                 }
                 .glassButtonStyle()
@@ -635,7 +635,7 @@ struct CategoryWheelView: View {
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
                 .triviaAccessibility(
-                    label: "Store",
+                    label: "Expansion Packs Store",
                     hint: "Browse expansion packs",
                     traits: .isButton
                 )

@@ -10,6 +10,7 @@ struct SettingsView: View {
     @Environment(\.openURL) private var openURL
 
     @State private var swipeTranslation: CGFloat = 0
+    @State private var showingStore = false
 
     private var backgroundGradient: some View {
         Color(.systemGroupedBackground)
@@ -27,6 +28,47 @@ struct SettingsView: View {
                             title: "Question History"
                             // subtitle: "Review answered questions"
                         )
+                    }
+
+                    // Store - Expansion Packs
+                    Button(action: {
+                        HapticManager.shared.buttonTapEffect()
+                        showingStore = true
+                    }) {
+                        SettingsRow(
+                            icon: "rectangle.stack.badge.plus",
+                            iconColor: .fizOrange,
+                            title: "Expansion Packs"
+                        )
+                    }
+                    .buttonStyle(.plain)
+
+                    // Game Settings Section
+                    Section("Game Settings") {
+                        NavigationLink(destination: DifficultySettingsView()) {
+                            SettingsRow(
+                                icon: "speedometer",
+                                iconColor: .fizOrange,
+                                title: "Game Difficulty"
+                                // subtitle: "Casual, Normal, or Difficult"
+                            )
+                        }
+                        NavigationLink(destination: GameModesSettingsView(gameViewModel: gameViewModel)) {
+                            SettingsRow(
+                                icon: gameModeManager.selectedMode.icon,
+                                iconColor: .fizOrange,
+                                title: "Game Modes"
+                                // subtitle: "Single category focus mode"
+                            )
+                        }
+                        NavigationLink(destination: GameProgressSettingsView(gameViewModel: gameViewModel)) {
+                            SettingsRow(
+                                icon: "chart.line.uptrend.xyaxis",
+                                iconColor: .fizOrange,
+                                title: "Game Progress"
+                                // subtitle: "Stats and reset options"
+                            )
+                        }
                     }
 
                     // Personalization Section
@@ -77,34 +119,6 @@ struct SettingsView: View {
                                 iconColor: .fizTeal,
                                 title: "Analytics"
                                 // subtitle: "Anonymous usage data sharing"
-                            )
-                        }
-                    }
-
-                    // Game Settings Section
-                    Section("Game Settings") {
-                        NavigationLink(destination: DifficultySettingsView()) {
-                            SettingsRow(
-                                icon: "speedometer",
-                                iconColor: .fizOrange,
-                                title: "Game Difficulty"
-                                // subtitle: "Casual, Normal, or Difficult"
-                            )
-                        }
-                        NavigationLink(destination: GameModesSettingsView(gameViewModel: gameViewModel)) {
-                            SettingsRow(
-                                icon: gameModeManager.selectedMode.icon,
-                                iconColor: .fizOrange,
-                                title: "Game Modes"
-                                // subtitle: "Single category focus mode"
-                            )
-                        }
-                        NavigationLink(destination: GameProgressSettingsView(gameViewModel: gameViewModel)) {
-                            SettingsRow(
-                                icon: "chart.line.uptrend.xyaxis",
-                                iconColor: .fizOrange,
-                                title: "Game Progress"
-                                // subtitle: "Stats and reset options"
                             )
                         }
                     }
@@ -200,6 +214,10 @@ struct SettingsView: View {
                     }
                 }
                 .gesture(settingsSwipeGesture)
+                .sheet(isPresented: $showingStore) {
+                    StoreView()
+                        .presentationDragIndicator(.visible)
+                }
             }
         }
 

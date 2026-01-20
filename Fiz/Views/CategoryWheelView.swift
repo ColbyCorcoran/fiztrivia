@@ -627,11 +627,13 @@ struct CategoryWheelView: View {
                     HapticManager.shared.buttonTapEffect()
                     showingStore = true
                 }) {
-                    Label("Expansion Packs", systemImage: "rectangle.stack.badge.plus")
-                        .font(.title3.weight(.semibold))
+                    HStack(spacing: 6) {
+                        Image(systemName: "rectangle.stack.badge.plus")
+                        Text("Expansion Packs")
+                    }
+                    .font(.title3.weight(.semibold))
                 }
-                .glassButtonStyle()
-                .tint(.fizOrange)
+                .modifier(ExpansionPacksButtonStyle())
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
                 .triviaAccessibility(
@@ -1768,6 +1770,25 @@ struct Triangle: Shape {
         path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
         path.closeSubpath()
         return path
+    }
+}
+
+// MARK: - Expansion Packs Button Style
+
+struct ExpansionPacksButtonStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 26, *) {
+            content
+                .buttonStyle(.glass)
+                .buttonBorderShape(.capsule)
+                .tint(.fizOrange)
+        } else {
+            content
+                .buttonStyle(.plain)
+                .foregroundColor(.fizOrange)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 8)
+        }
     }
 }
 

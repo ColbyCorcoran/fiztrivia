@@ -440,12 +440,11 @@ struct CategoryWheelView: View {
     }
 
     // iPad detection helper
-    // On iPad: both horizontal AND vertical size classes are .regular
-    // On iPhone portrait: horizontal = .compact, vertical = .regular
-    // On iPhone landscape: horizontal = .regular, vertical = .compact
-    // Therefore, checking BOTH are .regular reliably detects iPad
+    // For iPhone-only apps running on iPad, size classes don't reliably detect iPad
+    // (app can run in compatibility mode or zoomed mode with different size classes)
+    // UIDevice.current.userInterfaceIdiom is the only reliable way to detect iPad hardware
     private var isRunningOnIPad: Bool {
-        horizontalSizeClass == .regular && verticalSizeClass == .regular
+        UIDevice.current.userInterfaceIdiom == .pad
     }
 
     var body: some View {
@@ -1303,9 +1302,12 @@ struct CategoryWheelView: View {
             withAnimation(.easeInOut(duration: 0.3)) {
                 showingQuestion = true
 
-                // Show modal if using large text size
+                // Show modal if on iPad or using large text size
                 if shouldUseModalPresentation {
+                    print("📱 Using modal presentation - iPad: \(isRunningOnIPad), Large text: \(sizeCategory.shouldUseModalQuestions)")
                     showingQuestionModal = true
+                } else {
+                    print("📱 Using inline presentation")
                 }
             }
         }

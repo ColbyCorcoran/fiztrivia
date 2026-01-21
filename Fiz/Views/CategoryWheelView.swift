@@ -446,6 +446,15 @@ struct CategoryWheelView: View {
         return isIPad
     }
 
+    // Wheel sizing - larger on iPad to fill the extra screen space
+    private var wheelSize: CGFloat {
+        isRunningOnIPad ? 700 : 450
+    }
+
+    private var wheelRadius: CGFloat {
+        wheelSize / 2
+    }
+
     var body: some View {
         GeometryReader { geometry in
             mainContentView(geometry: geometry)
@@ -836,7 +845,7 @@ struct CategoryWheelView: View {
         let toolbarHeight = buttonRowHeight + taglineRowHeight
 
         let questionAreaHeight: CGFloat = 300 * sizeCategory.conservativeScaleFactor
-        let wheelTopY = geometry.size.height - 325  // Wheel center (height - 100) minus radius (225)
+        let wheelTopY = geometry.size.height - 100 - wheelRadius  // Wheel center (height - 100) minus dynamic radius
         let safeZoneHeight = wheelTopY - toolbarHeight
         let topPadding = (safeZoneHeight - questionAreaHeight) / 2  // Center questionArea in safe zone
 
@@ -1004,7 +1013,7 @@ struct CategoryWheelView: View {
     private var wheelShadow: some View {
         Circle()
             .fill(Color.fizBrown.opacity(0.25))
-            .frame(width: 450, height: 450)
+            .frame(width: wheelSize, height: wheelSize)
             .blur(radius: 15)
             .offset(y: 8)
     }
@@ -1019,7 +1028,7 @@ struct CategoryWheelView: View {
                 )
             }
         }
-        .frame(width: 450, height: 450)
+        .frame(width: wheelSize, height: wheelSize)
         .rotationEffect(.degrees(gameViewModel.wheelRotation + dragRotation))
         .animation(.easeOut(duration: AccessibilitySettings.adjustedAnimationDuration(3.0)), value: gameViewModel.wheelRotation)
         .gesture(wheelDragGesture)

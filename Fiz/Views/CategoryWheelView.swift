@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 // MARK: - Wheel Segment Data
 struct WheelSegmentData: Hashable {
@@ -429,10 +430,12 @@ struct CategoryWheelView: View {
 
     // MARK: - Dynamic Type & Accessibility
     // Questions display inline for normal text sizes, but switch to modal
-    // for accessibility text sizes (.accessibility3+) to prevent
+    // for accessibility text sizes (.accessibility3+) or on iPad to prevent
     // content from being hidden behind the wheel
     private var shouldUseModalPresentation: Bool {
-        sizeCategory.shouldUseModalQuestions
+        // Use modal on iPad (wheel gets too large for inline questions)
+        // or at large accessibility text sizes
+        UIDevice.current.userInterfaceIdiom == .pad || sizeCategory.shouldUseModalQuestions
     }
 
     var body: some View {

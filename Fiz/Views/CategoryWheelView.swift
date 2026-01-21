@@ -31,8 +31,6 @@ struct CategoryWheelView: View {
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
-    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
-    @Environment(\.verticalSizeClass) private var verticalSizeClass
     @Query(sort: [SortDescriptor(\LeaderboardEntry.streak, order: .reverse)]) private var leaderboardEntries: [LeaderboardEntry]
 
     // New state management for inline questions/results
@@ -440,29 +438,11 @@ struct CategoryWheelView: View {
     }
 
     // iPad detection helper
-    // For iPhone-only apps running on iPad:
-    // - UIDevice.current.userInterfaceIdiom returns .phone (compatibility mode)
-    // - UIScreen.main.bounds returns iPhone window size (not actual screen)
-    // - Size classes are unreliable (vary by iPad size and display mode)
-    // Solution: Check nativeBounds (actual physical screen in pixels)
+    // Now that iPad is a supported destination (TARGETED_DEVICE_FAMILY = "1,2"),
+    // UIDevice properly reports .pad when running on iPad hardware
     private var isRunningOnIPad: Bool {
-        let bounds = UIScreen.main.bounds
-        let nativeBounds = UIScreen.main.nativeBounds
-        let scale = UIScreen.main.scale
-
-        // Calculate actual screen dimensions in points from native pixels
-        let actualWidth = nativeBounds.width / scale
-        let actualHeight = nativeBounds.height / scale
-        let largestDimension = max(actualWidth, actualHeight)
-
-        // iPads have at least 1024 points in their largest dimension
-        // Largest iPhone Pro Max has 932 points
-        let isIPad = largestDimension >= 1000
-
-        print("📱 Bounds: \(bounds.width) x \(bounds.height)")
-        print("📱 Native: \(nativeBounds.width) x \(nativeBounds.height) px, scale: \(scale)")
-        print("📱 Actual screen: \(actualWidth) x \(actualHeight) points, iPad: \(isIPad)")
-
+        let isIPad = UIDevice.current.userInterfaceIdiom == .pad
+        print("📱 Device idiom: \(UIDevice.current.userInterfaceIdiom == .pad ? "iPad" : "iPhone")")
         return isIPad
     }
 

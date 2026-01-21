@@ -1,6 +1,5 @@
 import SwiftUI
 import SwiftData
-import UIKit
 
 // MARK: - Wheel Segment Data
 struct WheelSegmentData: Hashable {
@@ -32,6 +31,8 @@ struct CategoryWheelView: View {
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @Environment(\.modelContext) private var modelContext
     @Environment(\.sizeCategory) private var sizeCategory
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
     @Query(sort: [SortDescriptor(\LeaderboardEntry.streak, order: .reverse)]) private var leaderboardEntries: [LeaderboardEntry]
 
     // New state management for inline questions/results
@@ -435,7 +436,16 @@ struct CategoryWheelView: View {
     private var shouldUseModalPresentation: Bool {
         // Use modal on iPad (wheel gets too large for inline questions)
         // or at large accessibility text sizes
-        UIDevice.current.userInterfaceIdiom == .pad || sizeCategory.shouldUseModalQuestions
+        isRunningOnIPad || sizeCategory.shouldUseModalQuestions
+    }
+
+    // iPad detection helper
+    // On iPad: both horizontal AND vertical size classes are .regular
+    // On iPhone portrait: horizontal = .compact, vertical = .regular
+    // On iPhone landscape: horizontal = .regular, vertical = .compact
+    // Therefore, checking BOTH are .regular reliably detects iPad
+    private var isRunningOnIPad: Bool {
+        horizontalSizeClass == .regular && verticalSizeClass == .regular
     }
 
     var body: some View {

@@ -442,20 +442,26 @@ struct CategoryWheelView: View {
     // iPad detection helper
     // For iPhone-only apps running on iPad:
     // - UIDevice.current.userInterfaceIdiom returns .phone (compatibility mode)
+    // - UIScreen.main.bounds returns iPhone window size (not actual screen)
     // - Size classes are unreliable (vary by iPad size and display mode)
-    // Solution: Check screen dimensions - iPads have much larger screens than iPhones
-    // Largest iPhone (Pro Max) is 430 points wide, smallest iPad is 744 points wide
+    // Solution: Check nativeBounds (actual physical screen in pixels)
     private var isRunningOnIPad: Bool {
-        let screenWidth = UIScreen.main.bounds.width
-        let screenHeight = UIScreen.main.bounds.height
-        let largestDimension = max(screenWidth, screenHeight)
+        let bounds = UIScreen.main.bounds
+        let nativeBounds = UIScreen.main.nativeBounds
+        let scale = UIScreen.main.scale
 
-        // iPads have at least 744 points in their largest dimension
-        // Largest iPhone Pro Max has 932 points (430 x 932)
-        // iPad mini in portrait has 1024 points (768 x 1024)
+        // Calculate actual screen dimensions in points from native pixels
+        let actualWidth = nativeBounds.width / scale
+        let actualHeight = nativeBounds.height / scale
+        let largestDimension = max(actualWidth, actualHeight)
+
+        // iPads have at least 1024 points in their largest dimension
+        // Largest iPhone Pro Max has 932 points
         let isIPad = largestDimension >= 1000
 
-        print("📱 Screen size: \(screenWidth) x \(screenHeight), largest: \(largestDimension), iPad: \(isIPad)")
+        print("📱 Bounds: \(bounds.width) x \(bounds.height)")
+        print("📱 Native: \(nativeBounds.width) x \(nativeBounds.height) px, scale: \(scale)")
+        print("📱 Actual screen: \(actualWidth) x \(actualHeight) points, iPad: \(isIPad)")
 
         return isIPad
     }

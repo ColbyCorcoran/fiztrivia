@@ -440,11 +440,24 @@ struct CategoryWheelView: View {
     }
 
     // iPad detection helper
-    // For iPhone-only apps running on iPad, size classes don't reliably detect iPad
-    // (app can run in compatibility mode or zoomed mode with different size classes)
-    // UIDevice.current.userInterfaceIdiom is the only reliable way to detect iPad hardware
+    // For iPhone-only apps running on iPad:
+    // - UIDevice.current.userInterfaceIdiom returns .phone (compatibility mode)
+    // - Size classes are unreliable (vary by iPad size and display mode)
+    // Solution: Check screen dimensions - iPads have much larger screens than iPhones
+    // Largest iPhone (Pro Max) is 430 points wide, smallest iPad is 744 points wide
     private var isRunningOnIPad: Bool {
-        UIDevice.current.userInterfaceIdiom == .pad
+        let screenWidth = UIScreen.main.bounds.width
+        let screenHeight = UIScreen.main.bounds.height
+        let largestDimension = max(screenWidth, screenHeight)
+
+        // iPads have at least 744 points in their largest dimension
+        // Largest iPhone Pro Max has 932 points (430 x 932)
+        // iPad mini in portrait has 1024 points (768 x 1024)
+        let isIPad = largestDimension >= 1000
+
+        print("📱 Screen size: \(screenWidth) x \(screenHeight), largest: \(largestDimension), iPad: \(isIPad)")
+
+        return isIPad
     }
 
     var body: some View {

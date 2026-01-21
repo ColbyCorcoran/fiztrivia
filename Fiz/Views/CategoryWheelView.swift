@@ -429,21 +429,19 @@ struct CategoryWheelView: View {
 
     // MARK: - Dynamic Type & Accessibility
     // Questions display inline for normal text sizes, but switch to modal
-    // for accessibility text sizes (.accessibility3+) or on iPad to prevent
+    // for accessibility text sizes (.accessibility3+) to prevent
     // content from being hidden behind the wheel
     private var shouldUseModalPresentation: Bool {
-        // Use modal on iPad (wheel gets too large for inline questions)
-        // or at large accessibility text sizes
-        isRunningOnIPad || sizeCategory.shouldUseModalQuestions
+        // Use modal only at large accessibility text sizes
+        // iPad has enough room for inline questions with the properly sized wheel
+        sizeCategory.shouldUseModalQuestions
     }
 
     // iPad detection helper
     // Now that iPad is a supported destination (TARGETED_DEVICE_FAMILY = "1,2"),
     // UIDevice properly reports .pad when running on iPad hardware
     private var isRunningOnIPad: Bool {
-        let isIPad = UIDevice.current.userInterfaceIdiom == .pad
-        print("📱 Device idiom: \(UIDevice.current.userInterfaceIdiom == .pad ? "iPad" : "iPhone")")
-        return isIPad
+        UIDevice.current.userInterfaceIdiom == .pad
     }
 
     // Wheel sizing - larger on iPad to fill the extra screen space
@@ -1311,12 +1309,9 @@ struct CategoryWheelView: View {
             withAnimation(.easeInOut(duration: 0.3)) {
                 showingQuestion = true
 
-                // Show modal if on iPad or using large text size
+                // Show modal if using large text size
                 if shouldUseModalPresentation {
-                    print("📱 Using modal presentation - iPad: \(isRunningOnIPad), Large text: \(sizeCategory.shouldUseModalQuestions)")
                     showingQuestionModal = true
-                } else {
-                    print("📱 Using inline presentation")
                 }
             }
         }

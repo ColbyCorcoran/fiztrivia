@@ -1024,7 +1024,8 @@ struct CategoryWheelView: View {
                 WheelSegment(
                     segmentData: segmentData,
                     index: index,
-                    totalSegments: wheelSegments.count
+                    totalSegments: wheelSegments.count,
+                    wheelRadius: wheelRadius
                 )
             }
         }
@@ -1711,24 +1712,29 @@ struct WheelSegment: View {
     let segmentData: WheelSegmentData
     let index: Int
     let totalSegments: Int
+    let wheelRadius: CGFloat  // Dynamic radius based on device
 
     private var segmentAngle: Double {
         360.0 / Double(totalSegments)
     }
 
     private var iconSize: CGFloat {
+        // Scale icon size proportionally to wheel size
+        let baseIconSize: CGFloat
         switch totalSegments {
         case 0...7:
-            return 45  // 2-7 categories: keep current size
+            baseIconSize = 45  // 2-7 categories: keep current size
         case 8...9:
-            return 40  // 8-9 categories: slightly smaller
+            baseIconSize = 40  // 8-9 categories: slightly smaller
         case 10...11:
-            return 35  // 10-11 categories: medium reduction
+            baseIconSize = 35  // 10-11 categories: medium reduction
         case 12:
-            return 30  // 12 categories: most compact
+            baseIconSize = 30  // 12 categories: most compact
         default:
-            return 45  // Fallback to original size
+            baseIconSize = 45  // Fallback to original size
         }
+        // Scale up icon for iPad (wheelRadius 350 vs 225)
+        return baseIconSize * (wheelRadius / 225.0)
     }
 
     private var startAngle: Double {
@@ -1739,8 +1745,8 @@ struct WheelSegment: View {
         ZStack {
             // Segment background
             Path { path in
-                let center = CGPoint(x: 225, y: 225)
-                let radius: CGFloat = 225
+                let center = CGPoint(x: wheelRadius, y: wheelRadius)
+                let radius: CGFloat = wheelRadius
 
                 path.move(to: center)
                 path.addArc(
@@ -1755,8 +1761,8 @@ struct WheelSegment: View {
             .fill(Color(hex: segmentData.color))
             .overlay(
                 Path { path in
-                    let center = CGPoint(x: 225, y: 225)
-                    let radius: CGFloat = 225
+                    let center = CGPoint(x: wheelRadius, y: wheelRadius)
+                    let radius: CGFloat = wheelRadius
 
                     path.move(to: center)
                     path.addArc(
@@ -1772,13 +1778,14 @@ struct WheelSegment: View {
             )
 
             // Category/Subcategory icon - larger and radially oriented
+            // Icon distance from center: 64% of radius (145/225 ≈ 0.64)
             Image(systemName: segmentData.icon)
                 .font(.system(size: iconSize))
                 .foregroundColor(.black.opacity(0.75))
                 .rotationEffect(.degrees(startAngle + segmentAngle/2)) // Rotate so bottom points to center
                 .position(
-                    x: 225 + cos(Angle.degrees(startAngle + segmentAngle/2 - 90).radians) * 145,
-                    y: 225 + sin(Angle.degrees(startAngle + segmentAngle/2 - 90).radians) * 145
+                    x: wheelRadius + cos(Angle.degrees(startAngle + segmentAngle/2 - 90).radians) * (wheelRadius * 0.64),
+                    y: wheelRadius + sin(Angle.degrees(startAngle + segmentAngle/2 - 90).radians) * (wheelRadius * 0.64)
                 )
                 .overlay(
                         Image(systemName: segmentData.icon)

@@ -411,10 +411,10 @@
       "options": [
         "General Lee",
         "DeLorean",
-        "Corvette",
-        "KITT (Pontiac Firebird)"
+        "Chevy Corvette",
+        "Pontiac Firebird"
       ],
-      "correct_answer": "KITT (Pontiac Firebird)",
+      "correct_answer": "Pontiac Firebird",
       "difficulty": "easy",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
@@ -587,10 +587,10 @@
       "options": [
         "Just McEnroe",
         "Just Borg",
-        "Multiple (McEnroe, Lendl, Borg)",
+        "Multiple",
         "Just Connors"
       ],
-      "correct_answer": "Multiple (McEnroe, Lendl, Borg)",
+      "correct_answer": "Multiple",
       "difficulty": "medium",
       "category": "Sports",
       "subcategory": "Sports History & Records",
@@ -913,9 +913,9 @@
         "Mystery Machine",
         "Scooby Van",
         "The Battle Bus",
-        "The A-Team Van (GMC Vandura)"
+        "The A-Team Van"
       ],
-      "correct_answer": "The A-Team Van (GMC Vandura)",
+      "correct_answer": "The A-Team Van",
       "difficulty": "medium"
     },
     {
@@ -1489,9 +1489,9 @@
         "HAL 9000",
         "MOTHER",
         "MCP",
-        "WOPR (Joshua)"
+        "WOPR"
       ],
-      "correct_answer": "WOPR (Joshua)",
+      "correct_answer": "WOPR",
       "difficulty": "medium"
     },
     {
@@ -1665,9 +1665,9 @@
         "A sandwich",
         "Pizza",
         "Cafeteria food",
-        "Nothing (pixie sticks and Coke)"
+        "Nothing"
       ],
-      "correct_answer": "Nothing (pixie sticks and Coke)",
+      "correct_answer": "Nothing",
       "difficulty": "medium"
     },
     {
@@ -1681,9 +1681,9 @@
         "LV-223",
         "Fiorina 161",
         "Sevastopol",
-        "LV-426 (Acheron)"
+        "LV-426"
       ],
-      "correct_answer": "LV-426 (Acheron)",
+      "correct_answer": "LV-426",
       "difficulty": "medium"
     },
     {
@@ -1857,9 +1857,9 @@
         "007",
         "1234",
         "5678",
-        "N/A (Detroit badge 4073)"
+        "N/A"
       ],
-      "correct_answer": "N/A (Detroit badge 4073)",
+      "correct_answer": "N/A",
       "difficulty": "medium"
     },
     {
@@ -1905,9 +1905,9 @@
         "Flanagan's",
         "The Roadhouse",
         "The Korova Milk Bar",
-        "Multiple (changes bars)"
+        "Multiple"
       ],
-      "correct_answer": "Multiple (changes bars)",
+      "correct_answer": "Multiple",
       "difficulty": "medium"
     },
     {
@@ -2033,9 +2033,9 @@
         "Weyland-Yutani",
         "Cyberdyne",
         "Tyrell Corp",
-        "Omni Consumer Products (OCP)"
+        "Omni Consumer Products"
       ],
-      "correct_answer": "Omni Consumer Products (OCP)",
+      "correct_answer": "Omni Consumer Products",
       "difficulty": "hard"
     },
     {
@@ -2081,9 +2081,9 @@
         "Guatemala",
         "Colombia",
         "Nicaragua",
-        "Fictional Central American country (Val Verde)"
+        "Fictional Central American country"
       ],
-      "correct_answer": "Fictional Central American country (Val Verde)",
+      "correct_answer": "Fictional Central American country",
       "difficulty": "hard"
     },
     {
@@ -3678,12 +3678,12 @@
       "subtopic": "TV Shows",
       "question": "Who was the creator of 'The Twilight Zone' revival in 1985?",
       "options": [
-        "CBS (various creators)",
+        "CBS",
         "Rod Serling",
         "Steven Spielberg",
         "George Lucas"
       ],
-      "correct_answer": "CBS (various creators)",
+      "correct_answer": "CBS",
       "difficulty": "medium"
     },
     {
@@ -4062,12 +4062,12 @@
       "subtopic": "TV Shows",
       "question": "What was the name of the computer in 'Knight Rider'?",
       "options": [
-        "KITT (Knight Industries Two Thousand)",
+        "KITT",
         "KARR",
         "KIFT",
         "K2000"
       ],
-      "correct_answer": "KITT (Knight Industries Two Thousand)",
+      "correct_answer": "KITT",
       "difficulty": "hard"
     },
     {
@@ -4382,12 +4382,12 @@
       "subtopic": "Pop Culture",
       "question": "What electronic pet came in an egg-shaped device?",
       "options": [
-        "Tamagotchi (actually 90s)",
+        "Tamagotchi",
         "Giga Pet",
         "Nano Pet",
         "Digital Pet"
       ],
-      "correct_answer": "Tamagotchi (actually 90s)",
+      "correct_answer": "Tamagotchi",
       "difficulty": "easy"
     },
     {
@@ -4654,12 +4654,12 @@
       "subtopic": "Pop Culture",
       "question": "What breakfast cereal featured a purple gorilla mascot?",
       "options": [
-        "Fruity Pebbles (Barney)",
+        "Fruity Pebbles",
         "actually, Count Chocula",
         "Boo Berry",
         "Franken Berry"
       ],
-      "correct_answer": "Fruity Pebbles (Barney)",
+      "correct_answer": "Fruity Pebbles",
       "difficulty": "medium"
     },
     {
@@ -5104,10 +5104,10 @@
       "options": [
         "Michael Jordan",
         "Kareem Abdul-Jabbar",
-        "Larry Bird and Magic Johnson (tied)",
+        "Larry Bird and Magic Johnson",
         "Moses Malone"
       ],
-      "correct_answer": "Larry Bird and Magic Johnson (tied)",
+      "correct_answer": "Larry Bird and Magic Johnson",
       "difficulty": "easy"
     },
     {
@@ -5136,10 +5136,10 @@
       "options": [
         "John McEnroe",
         "Boris Becker",
-        "Björn Borg (actually ended in 1980)",
+        "Björn Borg",
         "Ivan Lendl"
       ],
-      "correct_answer": "Björn Borg (actually ended in 1980)",
+      "correct_answer": "Björn Borg",
       "difficulty": "easy"
     },
     {
@@ -5184,10 +5184,10 @@
       "options": [
         "Oakland Raiders",
         "San Francisco 49ers",
-        "Pittsburgh Steelers (Super Bowl XIV)",
+        "Pittsburgh Steelers",
         "Washington Redskins"
       ],
-      "correct_answer": "Pittsburgh Steelers (Super Bowl XIV)",
+      "correct_answer": "Pittsburgh Steelers",
       "difficulty": "easy"
     },
     {
@@ -5200,10 +5200,10 @@
       "options": [
         "Brian Boitano",
         "Dorothy Hamill",
-        "Scott Hamilton (men), Katarina Witt (women)",
+        "Scott Hamilton, Katarina Witt",
         "Peggy Fleming"
       ],
-      "correct_answer": "Scott Hamilton (men), Katarina Witt (women)",
+      "correct_answer": "Scott Hamilton, Katarina Witt",
       "difficulty": "easy"
     },
     {
@@ -5552,10 +5552,10 @@
       "options": [
         "Mary Lou Retton",
         "Olga Korbut",
-        "Nadia Comaneci (1976, not 80s)",
+        "Nadia Comaneci",
         "Simone Biles"
       ],
-      "correct_answer": "Nadia Comaneci (1976, not 80s)",
+      "correct_answer": "Nadia Comaneci",
       "difficulty": "medium"
     },
     {
@@ -5648,10 +5648,10 @@
       "options": [
         "Mary Decker",
         "Zola Budd",
-        "No woman has run sub-4 (Mary Slaney 4:16)",
+        "No woman has run sub-4",
         "Paula Ivan"
       ],
-      "correct_answer": "No woman has run sub-4 (Mary Slaney 4:16)",
+      "correct_answer": "No woman has run sub-4",
       "difficulty": "hard"
     },
     {

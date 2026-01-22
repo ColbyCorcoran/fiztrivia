@@ -3671,12 +3671,12 @@
         "subcategory": "Drama/Comedy",
         "question": "In Arrested Development, what is Tobias Fünke's profession?",
         "options": [
-          "Analrapist (Analyst/Therapist)",
+          "Analrapist",
           "Lawyer",
           "Doctor",
           "Magician"
         ],
-        "correct_answer": "Analrapist (Analyst/Therapist)",
+        "correct_answer": "Analrapist",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -5482,7 +5482,7 @@
         "question": "What is Kvothe's true name in 'The Kingkiller Chronicle'?",
         "options": [
           "Kote",
-          "Kvothe (his calling name)",
+          "Kvothe",
           "Maedre",
           "All are names he uses"
         ],
@@ -5514,11 +5514,11 @@
         "question": "What is the capital city in Robert Jordan's 'Wheel of Time'?",
         "options": [
           "Caemlyn",
-          "Tar Valon (Aes Sedai)",
+          "Tar Valon",
           "Tear",
           "Cairhien"
         ],
-        "correct_answer": "Tar Valon (Aes Sedai)",
+        "correct_answer": "Tar Valon",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -7370,11 +7370,11 @@
         "question": "How many syllables are in a traditional haiku?",
         "options": [
           "12",
-          "17 (5-7-5)",
+          "17",
           "21",
           "15"
         ],
-        "correct_answer": "17 (5-7-5)",
+        "correct_answer": "17",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -7548,9 +7548,9 @@
           "Ten syllables with no pattern",
           "Four beats per line",
           "Five stressed syllables",
-          "Five iambs (unstressed-stressed) per line"
+          "Five iambs per line"
         ],
-        "correct_answer": "Five iambs (unstressed-stressed) per line",
+        "correct_answer": "Five iambs per line",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -9417,7 +9417,7 @@
         "subcategory": "Authors & Biography",
         "question": "Which author founded the literary movement 'Imagism'?",
         "options": [
-          "H.D. (Hilda Doolittle)",
+          "H.D.",
           "Ezra Pound",
           "Amy Lowell",
           "T.S. Eliot"
@@ -10171,12 +10171,12 @@
         "subcategory": "Film & TV",
         "question": "Which composer scored the Harry Potter films?",
         "options": [
-          "John Williams (first three), then others",
+          "John Williams, then others",
           "James Horner",
           "Howard Shore",
           "Hans Zimmer"
         ],
-        "correct_answer": "John Williams (first three), then others",
+        "correct_answer": "John Williams, then others",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -10525,10 +10525,10 @@
         "options": [
           "John Carpenter",
           "Bernard Herrmann",
-          "Wendy Carlos and Rachel Elkind (adapted classical)",
+          "Wendy Carlos and Rachel Elkind",
           "Jerry Goldsmith"
         ],
-        "correct_answer": "Wendy Carlos and Rachel Elkind (adapted classical)",
+        "correct_answer": "Wendy Carlos and Rachel Elkind",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -10846,9 +10846,9 @@
           "Mozart",
           "Vivaldi",
           "Bach",
-          "Beethoven (late period)"
+          "Beethoven"
         ],
-        "correct_answer": "Beethoven (late period)",
+        "correct_answer": "Beethoven",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -10941,10 +10941,10 @@
         "options": [
           "Swing",
           "Free jazz",
-          "Cool jazz/Modal jazz (late 1950s)",
+          "Cool jazz/Modal jazz",
           "Bebop"
         ],
-        "correct_answer": "Cool jazz/Modal jazz (late 1950s)",
+        "correct_answer": "Cool jazz/Modal jazz",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -11100,11 +11100,11 @@
         "question": "Which classical period emphasized balance and clarity?",
         "options": [
           "Baroque",
-          "Classical (1750-1820)",
+          "Classical",
           "Modern",
           "Romantic"
         ],
-        "correct_answer": "Classical (1750-1820)",
+        "correct_answer": "Classical",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -11291,12 +11291,12 @@
         "subcategory": "History & Eras",
         "question": "What musical movement emphasized indeterminacy and chance?",
         "options": [
-          "Aleatoric music (John Cage)",
+          "Aleatoric music",
           "Minimalism",
           "Serialism",
           "Expressionism"
         ],
-        "correct_answer": "Aleatoric music (John Cage)",
+        "correct_answer": "Aleatoric music",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -11341,10 +11341,10 @@
         "options": [
           "Impressionism",
           "Serialism",
-          "Experimental music (John Cage era)",
+          "Experimental music",
           "Minimalism"
         ],
-        "correct_answer": "Experimental music (John Cage era)",
+        "correct_answer": "Experimental music",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -11438,9 +11438,9 @@
           "Romanticism",
           "Modernism",
           "Expressionism",
-          "Impressionism (Debussy)"
+          "Impressionism"
         ],
-        "correct_answer": "Impressionism (Debussy)",
+        "correct_answer": "Impressionism",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -11485,10 +11485,10 @@
         "options": [
           "Minimalism",
           "Twelve-tone technique",
-          "Integral serialism (Boulez)",
+          "Integral serialism",
           "Aleatoric music"
         ],
-        "correct_answer": "Integral serialism (Boulez)",
+        "correct_answer": "Integral serialism",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -11884,11 +11884,11 @@
         "question": "Which band did Dave Grohl join after Nirvana?",
         "options": [
           "Probot",
-          "Foo Fighters (as founder)",
+          "Foo Fighters",
           "Them Crooked Vultures",
           "Queens of the Stone Age"
         ],
-        "correct_answer": "Foo Fighters (as founder)",
+        "correct_answer": "Foo Fighters",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -12365,10 +12365,10 @@
         "options": [
           "Craig Gannon",
           "Mike Joyce",
-          "Johnny Marr (guitarist), Andy Rourke was bassist",
+          "Johnny Marr, Andy Rourke was bassist",
           "Andy Rourke"
         ],
-        "correct_answer": "Johnny Marr (guitarist), Andy Rourke was bassist",
+        "correct_answer": "Johnny Marr, Andy Rourke was bassist",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -12509,10 +12509,10 @@
         "options": [
           "Multi-Platinum",
           "Platinum",
-          "Diamond (10+ million)",
+          "Diamond",
           "Gold"
         ],
-        "correct_answer": "Diamond (10+ million)",
+        "correct_answer": "Diamond",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -12558,9 +12558,9 @@
           "Despacito",
           "One Sweet Day",
           "Uptown Funk",
-          "Old Town Road (19 weeks)"
+          "Old Town Road"
         ],
-        "correct_answer": "Old Town Road (19 weeks)",
+        "correct_answer": "Old Town Road",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -12686,9 +12686,9 @@
           "Post Malone",
           "Beyoncé",
           "Dua Lipa",
-          "Taylor Swift (Folklore)"
+          "Taylor Swift"
         ],
-        "correct_answer": "Taylor Swift (Folklore)",
+        "correct_answer": "Taylor Swift",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -12859,12 +12859,12 @@
         "subcategory": "Awards & Records",
         "question": "Which artist has the most platinum-certified albums?",
         "options": [
-          "Garth Brooks or The Beatles (tied)",
+          "Garth Brooks or The Beatles",
           "Elvis Presley",
           "Led Zeppelin",
           "Michael Jackson"
         ],
-        "correct_answer": "Garth Brooks or The Beatles (tied)",
+        "correct_answer": "Garth Brooks or The Beatles",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -12878,9 +12878,9 @@
           "Blue Ivy Carter",
           "LeAnn Rimes",
           "Stevie Wonder",
-          "Leah Peasall (8 years old)"
+          "Leah Peasall"
         ],
-        "correct_answer": "Leah Peasall (8 years old)",
+        "correct_answer": "Leah Peasall",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -12893,10 +12893,10 @@
         "options": [
           "Shape of You",
           "Uptown Funk",
-          "Radioactive by Imagine Dragons (87 weeks)",
+          "Radioactive by Imagine Dragons",
           "Blinding Lights"
         ],
-        "correct_answer": "Radioactive by Imagine Dragons (87 weeks)",
+        "correct_answer": "Radioactive by Imagine Dragons",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -12924,11 +12924,11 @@
         "question": "Which album spent the most consecutive weeks at #1 on Billboard?",
         "options": [
           "Thriller",
-          "West Side Story soundtrack (54 weeks)",
+          "West Side Story soundtrack",
           "21 by Adele",
           "Rumours"
         ],
-        "correct_answer": "West Side Story soundtrack (54 weeks)",
+        "correct_answer": "West Side Story soundtrack",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -13099,12 +13099,12 @@
         "subcategory": "Awards & Records",
         "question": "Which conductor won the most Grammy Awards?",
         "options": [
-          "Georg Solti (31)",
+          "Georg Solti",
           "Herbert von Karajan",
           "Leonard Bernstein",
           "Pierre Boulez"
         ],
-        "correct_answer": "Georg Solti (31)",
+        "correct_answer": "Georg Solti",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -13164,11 +13164,11 @@
         "question": "Who was the first woman to win Producer of the Year at the Grammys?",
         "options": [
           "Sheryl Crow",
-          "Lauren Christy (as part of The Matrix in 2004)",
+          "Lauren Christy",
           "Sylvia Massy",
           "Linda Perry"
         ],
-        "correct_answer": "Lauren Christy (as part of The Matrix in 2004)",
+        "correct_answer": "Lauren Christy",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -13196,11 +13196,11 @@
         "question": "Who has the most consecutive #1 debuts on the Billboard 200?",
         "options": [
           "Jay-Z",
-          "DMX or Drake (depending on criteria)",
+          "DMX or Drake",
           "Eminem",
           "Kanye West"
         ],
-        "correct_answer": "DMX or Drake (depending on criteria)",
+        "correct_answer": "DMX or Drake",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -13278,9 +13278,9 @@
           "Ricky Martin",
           "Gloria Estefan",
           "Marc Anthony",
-          "Carlos Santana (Supernatural)"
+          "Carlos Santana"
         ],
-        "correct_answer": "Carlos Santana (Supernatural)",
+        "correct_answer": "Carlos Santana",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -13340,11 +13340,11 @@
         "question": "Who was the youngest Album of the Year Grammy winner?",
         "options": [
           "Alanis Morissette",
-          "Taylor Swift (20 years old)",
+          "Taylor Swift",
           "Billie Eilish",
           "Stevie Wonder"
         ],
-        "correct_answer": "Taylor Swift (20 years old)",
+        "correct_answer": "Taylor Swift",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -13355,12 +13355,12 @@
         "subcategory": "Awards & Records",
         "question": "Which artist has the most simultaneous Billboard Hot 100 entries?",
         "options": [
-          "Drake (27 songs)",
+          "Drake",
           "Taylor Swift",
           "The Beatles",
           "Lil Wayne"
         ],
-        "correct_answer": "Drake (27 songs)",
+        "correct_answer": "Drake",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -13374,9 +13374,9 @@
           "The Chemical Brothers",
           "Fatboy Slim",
           "Moby",
-          "Daft Punk (Alive 2007)"
+          "Daft Punk"
         ],
-        "correct_answer": "Daft Punk (Alive 2007)",
+        "correct_answer": "Daft Punk",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -13612,11 +13612,11 @@
         "question": "What symbol indicates to play a note louder?",
         "options": [
           "Crescendo",
-          "Forte (f)",
-          "Piano (p)",
+          "Forte",
+          "Piano",
           "Sforzando"
         ],
-        "correct_answer": "Forte (f)",
+        "correct_answer": "Forte",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -13692,11 +13692,11 @@
         "question": "How many notes are in an octave?",
         "options": [
           "5",
-          "8 (in a major scale)",
+          "8",
           "12",
           "7"
         ],
-        "correct_answer": "8 (in a major scale)",
+        "correct_answer": "8",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -14044,11 +14044,11 @@
         "question": "What is the difference between a major and minor scale?",
         "options": [
           "The seventh note",
-          "The third note (third degree)",
+          "The third note",
           "The fifth note",
           "The first note"
         ],
-        "correct_answer": "The third note (third degree)",
+        "correct_answer": "The third note",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -14173,10 +14173,10 @@
         "options": [
           "Major third",
           "Perfect fifth",
-          "Augmented fourth or diminished fifth (6 semitones)",
+          "Augmented fourth or diminished fifth",
           "Minor sixth"
         ],
-        "correct_answer": "Augmented fourth or diminished fifth (6 semitones)",
+        "correct_answer": "Augmented fourth or diminished fifth",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -14189,10 +14189,10 @@
         "options": [
           "Lutes",
           "Harpsichords",
-          "Violin family (violin, viola, cello)",
+          "Violin family",
           "Guitars"
         ],
-        "correct_answer": "Violin family (violin, viola, cello)",
+        "correct_answer": "Violin family",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -14829,12 +14829,12 @@
         "subcategory": "Video Games",
         "question": "Which game popularized the battle royale genre?",
         "options": [
-          "PlayerUnknown's Battlegrounds (PUBG)",
+          "PlayerUnknown's Battlegrounds",
           "Fortnite",
           "H1Z1",
           "Apex Legends"
         ],
-        "correct_answer": "PlayerUnknown's Battlegrounds (PUBG)",
+        "correct_answer": "PlayerUnknown's Battlegrounds",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -15166,11 +15166,11 @@
         "question": "Which game holds the record for most expensive game ever made?",
         "options": [
           "Cyberpunk 2077",
-          "Star Citizen (in development)",
+          "Star Citizen",
           "Grand Theft Auto V",
           "Red Dead Redemption 2"
         ],
-        "correct_answer": "Star Citizen (in development)",
+        "correct_answer": "Star Citizen",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -15216,9 +15216,9 @@
           "Infinite",
           "255",
           "999",
-          "256 (due to kill screen)"
+          "256"
         ],
-        "correct_answer": "256 (due to kill screen)",
+        "correct_answer": "256",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -15231,10 +15231,10 @@
         "options": [
           "Alone in the Dark",
           "Mortal Kombat",
-          "Prince of Persia (1989)",
+          "Prince of Persia",
           "Virtua Fighter"
         ],
-        "correct_answer": "Prince of Persia (1989)",
+        "correct_answer": "Prince of Persia",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -15325,12 +15325,12 @@
         "subcategory": "Video Games",
         "question": "Which game featured the first true open world?",
         "options": [
-          "Elite (1984)",
+          "Elite",
           "Ultima",
           "The Legend of Zelda",
           "Grand Theft Auto III"
         ],
-        "correct_answer": "Elite (1984)",
+        "correct_answer": "Elite",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -15438,11 +15438,11 @@
         "question": "Which key combination is used to copy on most computers?",
         "options": [
           "Ctrl+Z",
-          "Ctrl+C (Cmd+C on Mac)",
+          "Ctrl+C",
           "Ctrl+X",
           "Ctrl+V"
         ],
-        "correct_answer": "Ctrl+C (Cmd+C on Mac)",
+        "correct_answer": "Ctrl+C",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -15709,12 +15709,12 @@
         "subcategory": "Computers & Software",
         "question": "Which company developed the Python programming language?",
         "options": [
-          "Guido van Rossum (individual)",
+          "Guido van Rossum",
           "Google",
           "Microsoft",
           "Oracle"
         ],
-        "correct_answer": "Guido van Rossum (individual)",
+        "correct_answer": "Guido van Rossum",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -16000,9 +16000,9 @@
           "Insertion Sort",
           "Bubble Sort",
           "Selection Sort",
-          "Merge Sort and Quick Sort (O(n log n))"
+          "Merge Sort and Quick Sort)"
         ],
-        "correct_answer": "Merge Sort and Quick Sort (O(n log n))",
+        "correct_answer": "Merge Sort and Quick Sort)",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -16128,9 +16128,9 @@
           "IBM",
           "Tandy",
           "Apple",
-          "Commodore (PET)"
+          "Commodore"
         ],
-        "correct_answer": "Commodore (PET)",
+        "correct_answer": "Commodore",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -16638,11 +16638,11 @@
         "question": "Which company owns WhatsApp?",
         "options": [
           "Google",
-          "Meta (Facebook)",
+          "Meta",
           "Microsoft",
           "Apple"
         ],
-        "correct_answer": "Meta (Facebook)",
+        "correct_answer": "Meta",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -16862,11 +16862,11 @@
         "question": "Which social media platform was acquired by Elon Musk in 2022?",
         "options": [
           "TikTok",
-          "Twitter (now X)",
+          "Twitter",
           "Facebook",
           "Instagram"
         ],
-        "correct_answer": "Twitter (now X)",
+        "correct_answer": "Twitter",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -17056,9 +17056,9 @@
           "Google",
           "Mozilla",
           "Opera",
-          "The Tor Project (nonprofit)"
+          "The Tor Project"
         ],
-        "correct_answer": "The Tor Project (nonprofit)",
+        "correct_answer": "The Tor Project",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -17184,9 +17184,9 @@
           "Microsoft",
           "Netscape",
           "Apple",
-          "NCSA (Mosaic)"
+          "NCSA"
         ],
-        "correct_answer": "NCSA (Mosaic)",
+        "correct_answer": "NCSA",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -17343,10 +17343,10 @@
         "options": [
           "Snapchat",
           "Twitter",
-          "Meta (Facebook)",
+          "Meta",
           "Google"
         ],
-        "correct_answer": "Meta (Facebook)",
+        "correct_answer": "Meta",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -17647,10 +17647,10 @@
         "options": [
           "Google",
           "Apple",
-          "Facebook (now Meta)",
+          "Facebook",
           "Microsoft"
         ],
-        "correct_answer": "Facebook (now Meta)",
+        "correct_answer": "Facebook",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -17679,10 +17679,10 @@
         "options": [
           "BlackBerry",
           "Apple",
-          "IBM (Simon Personal Communicator)",
+          "IBM",
           "Nokia"
         ],
-        "correct_answer": "IBM (Simon Personal Communicator)",
+        "correct_answer": "IBM",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -17694,11 +17694,11 @@
         "question": "What is Amazon's cloud computing service called?",
         "options": [
           "Amazon Cloud",
-          "AWS (Amazon Web Services)",
+          "AWS",
           "Google Cloud",
           "Azure"
         ],
-        "correct_answer": "AWS (Amazon Web Services)",
+        "correct_answer": "AWS",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -17742,11 +17742,11 @@
         "question": "Which company owns Oculus VR?",
         "options": [
           "Google",
-          "Meta (Facebook)",
+          "Meta",
           "Microsoft",
           "Sony"
         ],
-        "correct_answer": "Meta (Facebook)",
+        "correct_answer": "Meta",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -18045,12 +18045,12 @@
         "subcategory": "Tech Companies",
         "question": "Which company created the first personal computer?",
         "options": [
-          "MITS (Altair 8800)",
+          "MITS",
           "Apple",
           "Commodore",
           "IBM"
         ],
-        "correct_answer": "MITS (Altair 8800)",
+        "correct_answer": "MITS",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -18079,10 +18079,10 @@
         "options": [
           "Activision Blizzard",
           "LinkedIn",
-          "ZeniMax Media (Bethesda)",
+          "ZeniMax Media",
           "GitHub"
         ],
-        "correct_answer": "ZeniMax Media (Bethesda)",
+        "correct_answer": "ZeniMax Media",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -18126,11 +18126,11 @@
         "question": "Which company developed the first commercial GUI operating system?",
         "options": [
           "IBM",
-          "Xerox (Xerox Alto)",
+          "Xerox",
           "Apple",
           "Microsoft"
         ],
-        "correct_answer": "Xerox (Xerox Alto)",
+        "correct_answer": "Xerox",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -18159,10 +18159,10 @@
         "options": [
           "Apple",
           "Google",
-          "Hewlett-Packard (HP)",
+          "Hewlett-Packard",
           "Amazon"
         ],
-        "correct_answer": "Hewlett-Packard (HP)",
+        "correct_answer": "Hewlett-Packard",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -20705,10 +20705,10 @@
         "options": [
           "Bauhaus",
           "Expressionism",
-          "Der Blaue Reiter (The Blue Rider)",
-          "Die Brücke (The Bridge)"
+          "Der Blaue Reiter",
+          "Die Brücke"
         ],
-        "correct_answer": "Der Blaue Reiter (The Blue Rider)",
+        "correct_answer": "Der Blaue Reiter",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -20848,11 +20848,11 @@
         "question": "What German Expressionist group was founded in Dresden in 1905?",
         "options": [
           "Der Blaue Reiter",
-          "Die Brücke (The Bridge)",
+          "Die Brücke",
           "Neue Sachlichkeit",
           "November Group"
         ],
-        "correct_answer": "Die Brücke (The Bridge)",
+        "correct_answer": "Die Brücke",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -21423,12 +21423,12 @@
         "subcategory": "Sculpture",
         "question": "What is the tallest statue in the world (as of 2024)?",
         "options": [
-          "Statue of Unity (India)",
-          "Spring Temple Buddha (China)",
-          "Christ the Redeemer (Brazil)",
-          "Statue of Liberty (USA)"
+          "Statue of Unity",
+          "Spring Temple Buddha",
+          "Christ the Redeemer",
+          "Statue of Liberty"
         ],
-        "correct_answer": "Statue of Unity (India)",
+        "correct_answer": "Statue of Unity",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -22576,11 +22576,11 @@
         "question": "Who designed the CCTV Headquarters in Beijing?",
         "options": [
           "Zaha Hadid",
-          "Rem Koolhaas (OMA)",
+          "Rem Koolhaas",
           "Herzog & de Meuron",
           "Norman Foster"
         ],
-        "correct_answer": "Rem Koolhaas (OMA)",
+        "correct_answer": "Rem Koolhaas",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -22591,12 +22591,12 @@
         "subcategory": "Architecture",
         "question": "What is the name of Gaudí's wavy apartment building?",
         "options": [
-          "Casa Milà (La Pedrera)",
+          "Casa Milà",
           "Casa Batlló",
           "Palau Güell",
           "Casa Vicens"
         ],
-        "correct_answer": "Casa Milà (La Pedrera)",
+        "correct_answer": "Casa Milà",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -22705,10 +22705,10 @@
         "options": [
           "Villa Barbaro",
           "Villa Foscari",
-          "Villa Rotonda (La Rotonda)",
+          "Villa Rotonda",
           "Villa Emo"
         ],
-        "correct_answer": "Villa Rotonda (La Rotonda)",
+        "correct_answer": "Villa Rotonda",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -23554,9 +23554,9 @@
           "James Nachtwey",
           "Don McCullin",
           "Larry Burrows",
-          "Jeff Widener (and others)"
+          "Jeff Widener"
         ],
-        "correct_answer": "Jeff Widener (and others)",
+        "correct_answer": "Jeff Widener",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -23695,12 +23695,12 @@
         "subcategory": "Photography",
         "question": "What photography movement did August Sander represent?",
         "options": [
-          "New Objectivity (Neue Sachlichkeit)",
+          "New Objectivity",
           "Constructivism",
           "Surrealism",
           "Pictorialism"
         ],
-        "correct_answer": "New Objectivity (Neue Sachlichkeit)",
+        "correct_answer": "New Objectivity",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -25585,7 +25585,7 @@
         "subcategory": "Maps & Borders",
         "question": "What is the only tripoint where three continents meet?",
         "options": [
-          "Suez (Africa, Asia, and by extension Europe)",
+          "Suez",
           "There is no such point",
           "Bering Strait",
           "Sinai Peninsula"
@@ -25778,11 +25778,11 @@
         "question": "What is the name of the maritime boundary concept at 200 nautical miles?",
         "options": [
           "High Seas Boundary",
-          "Exclusive Economic Zone (EEZ)",
+          "Exclusive Economic Zone",
           "Territorial Waters",
           "Continental Shelf"
         ],
-        "correct_answer": "Exclusive Economic Zone (EEZ)",
+        "correct_answer": "Exclusive Economic Zone",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -26833,12 +26833,12 @@
         "subcategory": "Flags",
         "question": "Which country's flag is a solid green rectangle?",
         "options": [
-          "Libya (historically)",
+          "Libya",
           "Pakistan",
           "Ireland",
           "Saudi Arabia"
         ],
-        "correct_answer": "Libya (historically)",
+        "correct_answer": "Libya",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -27618,11 +27618,11 @@
         "question": "What is unique about the flag of Dominica?",
         "options": [
           "Changes seasonally",
-          "Purple color (rare for flags)",
+          "Purple color",
           "Holographic elements",
           "Circular shape"
         ],
-        "correct_answer": "Purple color (rare for flags)",
+        "correct_answer": "Purple color",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -27650,11 +27650,11 @@
         "question": "What do the colors on the Pan-African flag represent?",
         "options": [
           "Freedom, Unity, Progress",
-          "Red (blood), Black (people), Green (land)",
+          "Red, Black, Green",
           "Past, Present, Future",
           "Faith, Hope, Charity"
         ],
-        "correct_answer": "Red (blood), Black (people), Green (land)",
+        "correct_answer": "Red, Black, Green",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -28468,9 +28468,9 @@
           "Sigismund Bell",
           "Liberty Bell",
           "Tsar Bell",
-          "Great Bell (Big Ben is the tower)"
+          "Great Bell"
         ],
-        "correct_answer": "Great Bell (Big Ben is the tower)",
+        "correct_answer": "Great Bell",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -28660,9 +28660,9 @@
           "Ananda Temple",
           "Shwedagon Pagoda",
           "Dhammayangyi Temple",
-          "Thousands of pagodas (no single name)"
+          "Thousands of pagodas"
         ],
-        "correct_answer": "Thousands of pagodas (no single name)",
+        "correct_answer": "Thousands of pagodas",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -30613,10 +30613,10 @@
         "options": [
           "A penalty stroke",
           "A type of putt",
-          "A do-over shot (informal)",
+          "A do-over shot",
           "A type of club"
         ],
-        "correct_answer": "A do-over shot (informal)",
+        "correct_answer": "A do-over shot",
         "difficulty": "easy",
         "topic": "com.fiz.pack.golf",
         "subtopic": null
@@ -30883,12 +30883,12 @@
         "subcategory": "International Competition",
         "question": "Which athlete has won the most Olympic gold medals overall?",
         "options": [
-          "Paavo Nurmi (9)",
-          "Usain Bolt (8)",
-          "Michael Phelps (23)",
-          "Carl Lewis (9)"
+          "Paavo Nurmi",
+          "Usain Bolt",
+          "Michael Phelps",
+          "Carl Lewis"
         ],
-        "correct_answer": "Michael Phelps (23)",
+        "correct_answer": "Michael Phelps",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -30899,12 +30899,12 @@
         "subcategory": "International Competition",
         "question": "Who is the all-time leading scorer in FIFA World Cup history?",
         "options": [
-          "Gerd Müller (14)",
-          "Miroslav Klose (16)",
-          "Ronaldo (15)",
-          "Just Fontaine (13)"
+          "Gerd Müller",
+          "Miroslav Klose",
+          "Ronaldo",
+          "Just Fontaine"
         ],
-        "correct_answer": "Miroslav Klose (16)",
+        "correct_answer": "Miroslav Klose",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -31075,12 +31075,12 @@
         "subcategory": "International Competition",
         "question": "Which player scored the fastest hat-trick in World Cup history?",
         "options": [
-          "Geoff Hurst (England, 1966)",
-          "Carli Lloyd (USA, 13 minutes)",
-          "Fabienne Humm (Switzerland, 3 minutes)",
-          "Just Fontaine (France, 1958)"
+          "Geoff Hurst",
+          "Carli Lloyd",
+          "Fabienne Humm",
+          "Just Fontaine"
         ],
-        "correct_answer": "Fabienne Humm (Switzerland, 3 minutes)",
+        "correct_answer": "Fabienne Humm",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -31798,9 +31798,9 @@
           "Sky Brown",
           "Lizzie Armanto",
           "Leticia Bufoni",
-          "Gui Khury (male, but Lizzie Armanto first woman 540)"
+          "Gui Khury"
         ],
-        "correct_answer": "Gui Khury (male, but Lizzie Armanto first woman 540)",
+        "correct_answer": "Gui Khury",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -32070,9 +32070,9 @@
           "8 hours",
           "6 hours",
           "4 hours",
-          "11 hours 5 minutes (Isner-Mahut)"
+          "11 hours 5 minutes"
         ],
-        "correct_answer": "11 hours 5 minutes (Isner-Mahut)",
+        "correct_answer": "11 hours 5 minutes",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -32195,12 +32195,12 @@
         "subcategory": "Sports History & Records",
         "question": "What team ended the longest championship drought in sports history in 2016?",
         "options": [
-          "Chicago Cubs (108 years)",
+          "Chicago Cubs",
           "Boston Red Sox",
           "Cleveland Indians",
           "Philadelphia Eagles"
         ],
-        "correct_answer": "Chicago Cubs (108 years)",
+        "correct_answer": "Chicago Cubs",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -32518,7 +32518,7 @@
           "Bob Richards",
           "Babe Ruth",
           "Lou Gehrig",
-          "Jack Armstrong (fictional)"
+          "Jack Armstrong"
         ],
         "correct_answer": "Lou Gehrig",
         "difficulty": "hard",
@@ -32579,12 +32579,12 @@
         "subcategory": "Sports History & Records",
         "question": "Who was the first Olympic athlete to win gold in same event in four consecutive Olympics?",
         "options": [
-          "Al Oerter (discus)",
+          "Al Oerter",
           "Paul Elvstrøm",
           "Michael Phelps",
           "Carl Lewis"
         ],
-        "correct_answer": "Al Oerter (discus)",
+        "correct_answer": "Al Oerter",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -32643,12 +32643,12 @@
         "subcategory": "Sports History & Records",
         "question": "Who was the first openly gay athlete in major US sports?",
         "options": [
-          "Jason Collins (NBA)",
-          "Michael Sam (NFL)",
-          "Robbie Rogers (MLS)",
-          "Glenn Burke (MLB)"
+          "Jason Collins",
+          "Michael Sam",
+          "Robbie Rogers",
+          "Glenn Burke"
         ],
-        "correct_answer": "Jason Collins (NBA)",
+        "correct_answer": "Jason Collins",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -33012,11 +33012,11 @@
         "question": "What illness did Lou Gehrig have?",
         "options": [
           "Alzheimer's",
-          "ALS (Amyotrophic Lateral Sclerosis)",
+          "ALS",
           "Cancer",
           "Parkinson's"
         ],
-        "correct_answer": "ALS (Amyotrophic Lateral Sclerosis)",
+        "correct_answer": "ALS",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -33219,12 +33219,12 @@
         "subcategory": "Athletes & Biography",
         "question": "Who was the first woman to play in a men's professional sports league?",
         "options": [
-          "Manon Rhéaume (hockey)",
-          "Jackie Mitchell (baseball)",
-          "Danica Patrick (racing)",
-          "Billie Jean King (exhibition)"
+          "Manon Rhéaume",
+          "Jackie Mitchell",
+          "Danica Patrick",
+          "Billie Jean King"
         ],
-        "correct_answer": "Billie Jean King (exhibition)",
+        "correct_answer": "Billie Jean King",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -33414,9 +33414,9 @@
           "Hurricane relief",
           "Famine relief",
           "Flood relief",
-          "Earthquake relief (plane crash)"
+          "Earthquake relief"
         ],
-        "correct_answer": "Earthquake relief (plane crash)",
+        "correct_answer": "Earthquake relief",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -40344,11 +40344,11 @@
         "question": "What is the smallest flowering plant in the world?",
         "options": [
           "Pearlwort",
-          "Wolffia (watermeal)",
+          "Wolffia",
           "Duckweed",
           "Baby's tears"
         ],
-        "correct_answer": "Wolffia (watermeal)",
+        "correct_answer": "Wolffia",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -40601,10 +40601,10 @@
         "options": [
           "Hemp",
           "CBD",
-          "THC (tetrahydrocannabinol)",
+          "THC",
           "Marijuana"
         ],
-        "correct_answer": "THC (tetrahydrocannabinol)",
+        "correct_answer": "THC",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -40634,9 +40634,9 @@
           "Barrel cactus",
           "Joshua tree",
           "Saguaro cactus",
-          "Century plant (agave)"
+          "Century plant"
         ],
-        "correct_answer": "Century plant (agave)",
+        "correct_answer": "Century plant",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -40665,10 +40665,10 @@
         "options": [
           "Corn poppy",
           "Oriental poppy",
-          "Opium poppy (Papaver somniferum)",
+          "Opium poppy",
           "Iceland poppy"
         ],
-        "correct_answer": "Opium poppy (Papaver somniferum)",
+        "correct_answer": "Opium poppy",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -40729,10 +40729,10 @@
         "options": [
           "Lotus",
           "Water hyacinth",
-          "Victoria amazonica (giant water lily)",
+          "Victoria amazonica",
           "Cattail"
         ],
-        "correct_answer": "Victoria amazonica (giant water lily)",
+        "correct_answer": "Victoria amazonica",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -41450,9 +41450,9 @@
           "Sal tree",
           "Banyan tree",
           "Lotus tree",
-          "Bodhi tree (fig)"
+          "Bodhi tree"
         ],
-        "correct_answer": "Bodhi tree (fig)",
+        "correct_answer": "Bodhi tree",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -41495,12 +41495,12 @@
         "subcategory": "Trees",
         "question": "What is the national tree of Japan?",
         "options": [
-          "Cherry blossom (sakura)",
+          "Cherry blossom",
           "Bamboo",
           "Maple",
           "Pine"
         ],
-        "correct_answer": "Cherry blossom (sakura)",
+        "correct_answer": "Cherry blossom",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -41544,11 +41544,11 @@
         "question": "What is the fastest-growing tree species?",
         "options": [
           "Eucalyptus",
-          "Bamboo (technically grass but tree-like)",
+          "Bamboo",
           "Poplar",
           "Willow"
         ],
-        "correct_answer": "Bamboo (technically grass but tree-like)",
+        "correct_answer": "Bamboo",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -41770,9 +41770,9 @@
           "Banana tree",
           "Rubber tree",
           "Coffee tree",
-          "Cacao tree (Theobroma cacao)"
+          "Cacao tree"
         ],
-        "correct_answer": "Cacao tree (Theobroma cacao)",
+        "correct_answer": "Cacao tree",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -43913,12 +43913,12 @@
         "subcategory": "Ancient History",
         "question": "What metal did the Bronze Age get its name from?",
         "options": [
-          "Bronze (copper and tin alloy)",
+          "Bronze",
           "Iron",
           "Gold",
           "Silver"
         ],
-        "correct_answer": "Bronze (copper and tin alloy)",
+        "correct_answer": "Bronze",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -50444,11 +50444,11 @@
         "question": "What hill was Jesus crucified on?",
         "options": [
           "Mount Sinai",
-          "Golgotha (Calvary)",
+          "Golgotha",
           "Mount Zion",
           "Mount of Olives"
         ],
-        "correct_answer": "Golgotha (Calvary)",
+        "correct_answer": "Golgotha",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -50558,9 +50558,9 @@
           "King's Highway",
           "Via Maris",
           "Via Egnatia",
-          "Via Appia (Appian Way)"
+          "Via Appia"
         ],
-        "correct_answer": "Via Appia (Appian Way)",
+        "correct_answer": "Via Appia",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -50651,12 +50651,12 @@
         "subcategory": "Biblical History",
         "question": "What sea route connected Egypt and Mesopotamia?",
         "options": [
-          "Via Maris (Way of the Sea)",
+          "Via Maris",
           "Silk Road",
           "King's Highway",
           "Incense Route"
         ],
-        "correct_answer": "Via Maris (Way of the Sea)",
+        "correct_answer": "Via Maris",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -50718,9 +50718,9 @@
           "Constantine",
           "Hadrian",
           "Nero",
-          "Titus (under Vespasian)"
+          "Titus"
         ],
-        "correct_answer": "Titus (under Vespasian)",
+        "correct_answer": "Titus",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -50972,11 +50972,11 @@
         "question": "What synagogue inscription mentions Theodotos?",
         "options": [
           "Delos inscription",
-          "Theodotos inscription (Jerusalem)",
+          "Theodotos inscription",
           "Sardis inscription",
           "Ostia inscription"
         ],
-        "correct_answer": "Theodotos inscription (Jerusalem)",
+        "correct_answer": "Theodotos inscription",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -51739,12 +51739,12 @@
         "subcategory": "Biblical Theology",
         "question": "What is the Nestorian controversy about?",
         "options": [
-          "Two persons in Christ (heresy)",
+          "Two persons in Christ",
           "Christ's divinity",
           "One nature in Christ",
           "Two natures in Christ"
         ],
-        "correct_answer": "Two persons in Christ (heresy)",
+        "correct_answer": "Two persons in Christ",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -51774,9 +51774,9 @@
           "Christ has two natures",
           "Christ is not divine",
           "Christ has no human nature",
-          "Christ has one nature (heresy)"
+          "Christ has one nature"
         ],
-        "correct_answer": "Christ has one nature (heresy)",
+        "correct_answer": "Christ has one nature",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -52204,11 +52204,11 @@
         "question": "What does 'Tetragrammaton' refer to?",
         "options": [
           "Holy",
-          "YHWH (God's name)",
+          "YHWH",
           "Lord",
           "Trinity"
         ],
-        "correct_answer": "YHWH (God's name)",
+        "correct_answer": "YHWH",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -52284,11 +52284,11 @@
         "question": "What does 'Septuagint' mean?",
         "options": [
           "Seventh",
-          "Seventy (Greek OT translation)",
+          "Seventy",
           "Seven",
           "Sacred"
         ],
-        "correct_answer": "Seventy (Greek OT translation)",
+        "correct_answer": "Seventy",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -55024,9 +55024,9 @@
           "Chicken",
           "Shrimp",
           "Beef",
-          "Pork (guanciale or pancetta)"
+          "Pork"
         ],
-        "correct_answer": "Pork (guanciale or pancetta)",
+        "correct_answer": "Pork",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -57359,10 +57359,10 @@
         "options": [
           "Blanching",
           "Sautéing",
-          "Sweating (étuver)",
+          "Sweating",
           "Poaching"
         ],
-        "correct_answer": "Sweating (étuver)",
+        "correct_answer": "Sweating",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null

@@ -110,11 +110,11 @@
       "question": "What is Eevee's Normal-type evolution?",
       "options": [
         "Espeon",
-        "None (no Normal evolution)",
+        "None",
         "Umbreon",
         "Sylveon"
       ],
-      "correct_answer": "None (no Normal evolution)",
+      "correct_answer": "None",
       "difficulty": "medium"
     },
     {
@@ -206,11 +206,11 @@
       "question": "What was the first Pokémon game released?",
       "options": [
         "Pokémon Red and Blue",
-        "Pokémon Red and Green (Japan)",
+        "Pokémon Red and Green",
         "Pokémon Yellow",
         "Pokémon Gold"
       ],
-      "correct_answer": "Pokémon Red and Green (Japan)",
+      "correct_answer": "Pokémon Red and Green",
       "difficulty": "medium"
     },
     {
@@ -717,12 +717,12 @@
       "subtopic": "Types & Evolution",
       "question": "Which type has no weaknesses?",
       "options": [
-        "None (all have weaknesses)",
+        "None",
         "Normal",
         "Dragon",
         "Steel"
       ],
-      "correct_answer": "None (all have weaknesses)",
+      "correct_answer": "None",
       "difficulty": "medium"
     },
     {
@@ -2672,11 +2672,11 @@
       "question": "What type combination has the most weaknesses?",
       "options": [
         "Bug/Grass",
-        "Grass/Ice or Grass/Psychic (7 weaknesses)",
+        "Grass/Ice or Grass/Psychic",
         "Rock/Dark",
         "Ice/Flying"
       ],
-      "correct_answer": "Grass/Ice or Grass/Psychic (7 weaknesses)",
+      "correct_answer": "Grass/Ice or Grass/Psychic",
       "difficulty": "hard"
     },
     {
@@ -2687,9 +2687,9 @@
       "subtopic": "Pokémon Species",
       "question": "What is the only Pokémon that had its type changed from a prior generation?",
       "options": [
-        "Magnemite (added Steel in Gen 2)",
+        "Magnemite",
         "Both",
-        "Clefairy (added Fairy in Gen 6)",
+        "Clefairy",
         "Neither"
       ],
       "correct_answer": "Both",
@@ -2703,12 +2703,12 @@
       "subtopic": "Pokémon Species",
       "question": "What is the highest evolution level in the Pokémon series?",
       "options": [
-        "Level 55 (Dragonite)",
-        "Level 64 (Hydreigon)",
-        "Level 50 (Tyranitar)",
+        "Level 55",
+        "Level 64",
+        "Level 50",
         "Level 100"
       ],
-      "correct_answer": "Level 64 (Hydreigon)",
+      "correct_answer": "Level 64",
       "difficulty": "hard"
     },
     {
@@ -2784,7 +2784,7 @@
       "question": "What is the only Pokémon with a unique type combination in Generation 1?",
       "options": [
         "None",
-        "Exeggcute (Grass/Psychic was shared)",
+        "Exeggcute",
         "Gyarados",
         "Zapdos"
       ],
@@ -2799,12 +2799,12 @@
       "subtopic": "Pokémon Species",
       "question": "What Pokémon has the most different possible forms/variations?",
       "options": [
-        "Alcremie (63 forms)",
-        "Vivillon (20 forms)",
-        "Spinda (4 billion patterns)",
-        "Arceus (18 forms)"
+        "Alcremie",
+        "Vivillon",
+        "Spinda",
+        "Arceus"
       ],
-      "correct_answer": "Alcremie (63 forms)",
+      "correct_answer": "Alcremie",
       "difficulty": "hard"
     },
     {
@@ -3135,12 +3135,12 @@
       "subtopic": "Games",
       "question": "What key item allows you to fly to towns you've visited?",
       "options": [
-        "Town Map (via Fly HM)",
+        "Town Map",
         "Escape Rope",
         "Warp Panel",
         "Bike"
       ],
-      "correct_answer": "Town Map (via Fly HM)",
+      "correct_answer": "Town Map",
       "difficulty": "easy"
     },
     {
@@ -3503,12 +3503,12 @@
       "subtopic": "Games",
       "question": "What is the highest level wild Pokémon you can encounter in standard gameplay?",
       "options": [
-        "Level 70 (Mewtwo in Let's Go)",
+        "Level 70",
         "Level 50",
         "Level 60",
         "Level 100"
       ],
-      "correct_answer": "Level 70 (Mewtwo in Let's Go)",
+      "correct_answer": "Level 70",
       "difficulty": "medium"
     },
     {
@@ -3535,12 +3535,12 @@
       "subtopic": "Games",
       "question": "What item do you need to evolve certain Pokémon in Generation 8?",
       "options": [
-        "Specific items vary (Sweet Apple, Cracked Pot, etc.)",
+        "Specific items vary",
         "Evolution Stone",
         "Link Cable",
         "Sinnoh Stone"
       ],
-      "correct_answer": "Specific items vary (Sweet Apple, Cracked Pot, etc.)",
+      "correct_answer": "Specific items vary",
       "difficulty": "medium"
     },
     {
@@ -3759,12 +3759,12 @@
       "subtopic": "Games",
       "question": "What is the highest base catch rate in the main series games?",
       "options": [
-        "255 (Magikarp, Caterpie, etc.)",
+        "255",
         "200",
         "150",
         "100"
       ],
-      "correct_answer": "255 (Magikarp, Caterpie, etc.)",
+      "correct_answer": "255",
       "difficulty": "hard"
     },
     {
@@ -3840,7 +3840,7 @@
       "question": "What is the only main series game where you start as a Pokémon?",
       "options": [
         "None in main series",
-        "Pokémon Mystery Dungeon series (spin-off)",
+        "Pokémon Mystery Dungeon series",
         "Pokémon Legends: Arceus",
         "Pokémon Let's Go"
       ],
@@ -3871,12 +3871,12 @@
       "subtopic": "Games",
       "question": "What is the only generation to have two sets of remakes?",
       "options": [
-        "Generation 3 (FRLG and ORAS)",
+        "Generation 3",
         "Generation 4",
         "Generation 2",
         "Generation 1"
       ],
-      "correct_answer": "Generation 3 (FRLG and ORAS)",
+      "correct_answer": "Generation 3",
       "difficulty": "hard"
     },
     {
@@ -4111,12 +4111,12 @@
       "subtopic": "Moves & Abilities",
       "question": "What is the strongest Normal-type move by base power?",
       "options": [
-        "Explosion/Self-Destruct (250)",
-        "Hyper Beam (150)",
-        "Giga Impact (150)",
-        "Return (102)"
+        "Explosion/Self-Destruct",
+        "Hyper Beam",
+        "Giga Impact",
+        "Return"
       ],
-      "correct_answer": "Explosion/Self-Destruct (250)",
+      "correct_answer": "Explosion/Self-Destruct",
       "difficulty": "easy"
     },
     {
@@ -4143,12 +4143,12 @@
       "subtopic": "Moves & Abilities",
       "question": "What move always goes first?",
       "options": [
-        "Quick Attack/Extreme Speed (priority moves)",
+        "Quick Attack/Extreme Speed",
         "Tackle",
         "Scratch",
         "Pound"
       ],
-      "correct_answer": "Quick Attack/Extreme Speed (priority moves)",
+      "correct_answer": "Quick Attack/Extreme Speed",
       "difficulty": "easy"
     },
     {
@@ -4159,12 +4159,12 @@
       "subtopic": "Moves & Abilities",
       "question": "What ability prevents status conditions?",
       "options": [
-        "Immunity/Limber/Insomnia (various)",
+        "Immunity/Limber/Insomnia",
         "Shield Dust",
         "Wonder Guard",
         "Sturdy"
       ],
-      "correct_answer": "Immunity/Limber/Insomnia (various)",
+      "correct_answer": "Immunity/Limber/Insomnia",
       "difficulty": "easy"
     },
     {
@@ -4271,12 +4271,12 @@
       "subtopic": "Moves & Abilities",
       "question": "What move has the highest priority?",
       "options": [
-        "Extreme Speed (+2)",
-        "Quick Attack (+1)",
-        "Protect (+4)",
+        "Extreme Speed",
+        "Quick Attack",
+        "Protect",
         "None"
       ],
-      "correct_answer": "Extreme Speed (+2)",
+      "correct_answer": "Extreme Speed",
       "difficulty": "easy"
     },
     {
@@ -4479,12 +4479,12 @@
       "subtopic": "Moves & Abilities",
       "question": "What move traps the opponent for 4-5 turns?",
       "options": [
-        "Wrap/Bind/Fire Spin (partial trapping moves)",
+        "Wrap/Bind/Fire Spin",
         "Mean Look",
         "Block",
         "Spider Web"
       ],
-      "correct_answer": "Wrap/Bind/Fire Spin (partial trapping moves)",
+      "correct_answer": "Wrap/Bind/Fire Spin",
       "difficulty": "medium"
     },
     {
@@ -4673,7 +4673,7 @@
       "options": [
         "Color Change",
         "Forecast",
-        "None (abilities, not moves)",
+        "None",
         "Protean/Libero"
       ],
       "correct_answer": "Protean/Libero",
@@ -4690,9 +4690,9 @@
         "Sniper",
         "Super Luck",
         "None",
-        "Merciless (only on poisoned foes)"
+        "Merciless"
       ],
-      "correct_answer": "Merciless (only on poisoned foes)",
+      "correct_answer": "Merciless",
       "difficulty": "medium"
     },
     {
@@ -4786,9 +4786,9 @@
         "Mold Breaker",
         "Teravolt",
         "Turboblaze",
-        "Scrappy (Normal/Fighting vs Ghost)"
+        "Scrappy"
       ],
-      "correct_answer": "Scrappy (Normal/Fighting vs Ghost)",
+      "correct_answer": "Scrappy",
       "difficulty": "medium"
     },
     {
@@ -4863,12 +4863,12 @@
       "subtopic": "Moves & Abilities",
       "question": "What move has the highest base power without drawbacks?",
       "options": [
-        "Hyper Beam (150, must recharge)",
-        "Explosion (250, user faints)",
-        "Meteor Beam (120)",
-        "V-create (180, but lowers stats)"
+        "Hyper Beam",
+        "Explosion",
+        "Meteor Beam",
+        "V-create"
       ],
-      "correct_answer": "V-create (180, but lowers stats)",
+      "correct_answer": "V-create",
       "difficulty": "medium"
     },
     {
@@ -4895,12 +4895,12 @@
       "subtopic": "Moves & Abilities",
       "question": "What move has the highest base power in the game?",
       "options": [
-        "Self-Destruct (200)",
-        "V-create (180)",
-        "Roar of Time (150)",
-        "Explosion (250)"
+        "Self-Destruct",
+        "V-create",
+        "Roar of Time",
+        "Explosion"
       ],
-      "correct_answer": "Explosion (250)",
+      "correct_answer": "Explosion",
       "difficulty": "hard"
     },
     {
@@ -4927,7 +4927,7 @@
       "subtopic": "Moves & Abilities",
       "question": "What is the only move with a base power of 1?",
       "options": [
-        "Counter/Mirror Coat (variable)",
+        "Counter/Mirror Coat",
         "Endeavor",
         "Final Gambit",
         "None"
@@ -4943,7 +4943,7 @@
       "subtopic": "Moves & Abilities",
       "question": "What ability allows the Pokémon to use any move against any type, regardless of immunity?",
       "options": [
-        "Normalize makes all moves Normal (not immunity break)",
+        "Normalize makes all moves Normal",
         "Scrappy",
         "Mold Breaker",
         "None do this fully"
@@ -4962,9 +4962,9 @@
         "Hidden Power",
         "Judgment",
         "Multi-Attack",
-        "None (Rotom's form changes stats, not moves)"
+        "None"
       ],
-      "correct_answer": "None (Rotom's form changes stats, not moves)",
+      "correct_answer": "None",
       "difficulty": "hard"
     },
     {
@@ -4978,9 +4978,9 @@
         "Drizzle",
         "Drought",
         "Sand Stream",
-        "None (all weather is temporary now)"
+        "None"
       ],
-      "correct_answer": "None (all weather is temporary now)",
+      "correct_answer": "None",
       "difficulty": "hard"
     },
     {
@@ -5023,12 +5023,12 @@
       "subtopic": "Moves & Abilities",
       "question": "What is the highest possible priority in the game?",
       "options": [
-        "+4 (Protect)",
-        "+3 (Fake Out)",
-        "+2 (Extreme Speed)",
-        "+5 (Helping Hand in doubles)"
+        "+4",
+        "+3",
+        "+2",
+        "+5"
       ],
-      "correct_answer": "+5 (Helping Hand in doubles)",
+      "correct_answer": "+5",
       "difficulty": "hard"
     },
     {
@@ -5826,9 +5826,9 @@
         "Brock",
         "Sabrina",
         "Koga",
-        "Giovanni (later Blue)"
+        "Giovanni"
       ],
-      "correct_answer": "Giovanni (later Blue)",
+      "correct_answer": "Giovanni",
       "difficulty": "medium"
     },
     {
@@ -5842,9 +5842,9 @@
         "Giovanni",
         "Blaine",
         "Sabrina",
-        "Koga (later Janine)"
+        "Koga"
       ],
-      "correct_answer": "Koga (later Janine)",
+      "correct_answer": "Koga",
       "difficulty": "medium"
     },
     {
@@ -5922,9 +5922,9 @@
         "Charizard",
         "Espeon",
         "Snorlax",
-        "Pikachu (in later games)"
+        "Pikachu"
       ],
-      "correct_answer": "Pikachu (in later games)",
+      "correct_answer": "Pikachu",
       "difficulty": "hard"
     },
     {
@@ -6050,9 +6050,9 @@
         "Diantha",
         "Lance",
         "Steven",
-        "Kukui (he's never Champion)"
+        "Kukui"
       ],
-      "correct_answer": "Kukui (he's never Champion)",
+      "correct_answer": "Kukui",
       "difficulty": "hard"
     },
     {
@@ -6082,9 +6082,9 @@
         "Misty",
         "Whitney",
         "Clemont",
-        "Tate and Liza (10 years old)"
+        "Tate and Liza"
       ],
-      "correct_answer": "Tate and Liza (10 years old)",
+      "correct_answer": "Tate and Liza",
       "difficulty": "hard"
     },
     {
@@ -6258,9 +6258,9 @@
         "Bulbasaur",
         "Charmander",
         "Squirtle",
-        "None (he gets Pikachu)"
+        "None"
       ],
-      "correct_answer": "None (he gets Pikachu)",
+      "correct_answer": "None",
       "difficulty": "easy"
     },
     {
@@ -6322,9 +6322,9 @@
         "Eevee",
         "Umbreon",
         "Blastoise",
-        "Multiple (has many)"
+        "Multiple"
       ],
-      "correct_answer": "Multiple (has many)",
+      "correct_answer": "Multiple",
       "difficulty": "easy"
     },
     {
@@ -6530,9 +6530,9 @@
         "Squirtle",
         "Bulbasaur",
         "Pidgeot",
-        "Charizard (Charicific Valley)"
+        "Charizard"
       ],
-      "correct_answer": "Charizard (Charicific Valley)",
+      "correct_answer": "Charizard",
       "difficulty": "medium"
     },
     {
@@ -6657,10 +6657,10 @@
       "options": [
         "Gloom",
         "Oddish",
-        "None (earns Rainbow Badge)",
+        "None",
         "Bulbasaur"
       ],
-      "correct_answer": "None (earns Rainbow Badge)",
+      "correct_answer": "None",
       "difficulty": "medium"
     },
     {
@@ -6801,10 +6801,10 @@
       "options": [
         "7",
         "6",
-        "8 (Kanto, Orange, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola)",
+        "8",
         "9"
       ],
-      "correct_answer": "8 (Kanto, Orange, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola)",
+      "correct_answer": "8",
       "difficulty": "hard"
     },
     {
@@ -6911,8 +6911,8 @@
       "subtopic": "Anime & Movies",
       "question": "Who voices Ash Ketchum in the English dub?",
       "options": [
-        "Sarah Natochenny (current)",
-        "Veronica Taylor (original)",
+        "Sarah Natochenny",
+        "Veronica Taylor",
         "Both",
         "Neither"
       ],
@@ -7151,12 +7151,12 @@
       "subtopic": "Types & Evolution",
       "question": "What is the newest type added to Pokémon?",
       "options": [
-        "Dark (Gen 2)",
-        "Steel (Gen 2)",
-        "Fairy (Gen 6)",
+        "Dark",
+        "Steel",
+        "Fairy",
         "Dragon"
       ],
-      "correct_answer": "Fairy (Gen 6)",
+      "correct_answer": "Fairy",
       "difficulty": "easy"
     },
     {
@@ -7249,10 +7249,10 @@
       "options": [
         "Fairy",
         "Ghost",
-        "Steel (resists 11 types)",
+        "Steel",
         "Dragon"
       ],
-      "correct_answer": "Steel (resists 11 types)",
+      "correct_answer": "Steel",
       "difficulty": "medium"
     },
     {
@@ -7265,10 +7265,10 @@
       "options": [
         "Rock",
         "Bug",
-        "Grass/Ice/Psychic (7 weaknesses for Grass/Ice)",
+        "Grass/Ice/Psychic",
         "Normal"
       ],
-      "correct_answer": "Grass/Ice/Psychic (7 weaknesses for Grass/Ice)",
+      "correct_answer": "Grass/Ice/Psychic",
       "difficulty": "medium"
     },
     {
@@ -7281,10 +7281,10 @@
       "options": [
         "Electric/Flying",
         "Water/Ground",
-        "None (all have at least one)",
+        "None",
         "Steel/Fairy"
       ],
-      "correct_answer": "None (all have at least one)",
+      "correct_answer": "None",
       "difficulty": "medium"
     },
     {
@@ -7537,10 +7537,10 @@
       "options": [
         "Normal",
         "Fighting",
-        "None (all types have status moves)",
+        "None",
         "Dragon"
       ],
-      "correct_answer": "None (all types have status moves)",
+      "correct_answer": "None",
       "difficulty": "medium"
     },
     {
@@ -7585,10 +7585,10 @@
       "options": [
         "Fire/Grass",
         "Normal/Ice",
-        "Many tied (several unique combos)",
+        "Many tied",
         "Bug/Dragon"
       ],
-      "correct_answer": "Many tied (several unique combos)",
+      "correct_answer": "Many tied",
       "difficulty": "hard"
     },
     {
@@ -7601,10 +7601,10 @@
       "options": [
         "Steel/Flying",
         "Steel/Dragon",
-        "Steel/Fairy (11 resistances)",
+        "Steel/Fairy",
         "Ghost/Dark"
       ],
-      "correct_answer": "Steel/Fairy (11 resistances)",
+      "correct_answer": "Steel/Fairy",
       "difficulty": "hard"
     },
     {
@@ -7633,10 +7633,10 @@
       "options": [
         "Dark",
         "Normal",
-        "None (Ghost was always neutral to Dark)",
+        "None",
         "Psychic"
       ],
-      "correct_answer": "None (Ghost was always neutral to Dark)",
+      "correct_answer": "None",
       "difficulty": "hard"
     },
     {
@@ -7649,10 +7649,10 @@
       "options": [
         "Fire",
         "Water",
-        "Most types (only Normal, Ground, Flying, Ghost, Dark, Fairy have immunities)",
+        "Most types",
         "Electric"
       ],
-      "correct_answer": "Most types (only Normal, Ground, Flying, Ghost, Dark, Fairy have immunities)",
+      "correct_answer": "Most types",
       "difficulty": "hard"
     },
     {
@@ -7681,10 +7681,10 @@
       "options": [
         "Charizard",
         "Pidgey",
-        "Bulbasaur (Grass/Poison)",
+        "Bulbasaur",
         "Butterfree"
       ],
-      "correct_answer": "Bulbasaur (Grass/Poison)",
+      "correct_answer": "Bulbasaur",
       "difficulty": "hard"
     },
     {
@@ -7905,10 +7905,10 @@
       "options": [
         "Saffron City",
         "Lumiose City",
-        "Various (Celadon, Goldenrod, Lilycove, Veilstone, etc.)",
+        "Various",
         "Wyndon"
       ],
-      "correct_answer": "Various (Celadon, Goldenrod, Lilycove, Veilstone, etc.)",
+      "correct_answer": "Various",
       "difficulty": "medium"
     },
     {
@@ -8001,10 +8001,10 @@
       "options": [
         "Kanto",
         "None",
-        "Johto (Kanto + Johto)",
+        "Johto",
         "All"
       ],
-      "correct_answer": "Johto (Kanto + Johto)",
+      "correct_answer": "Johto",
       "difficulty": "hard"
     },
     {
@@ -8033,10 +8033,10 @@
       "options": [
         "Paldea",
         "Galar",
-        "Alola (has Trials instead)",
+        "Alola",
         "None"
       ],
-      "correct_answer": "Alola (has Trials instead)",
+      "correct_answer": "Alola",
       "difficulty": "hard"
     },
     {

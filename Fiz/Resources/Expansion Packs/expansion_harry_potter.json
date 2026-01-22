@@ -352,9 +352,9 @@
         "Transfiguration",
         "Charms",
         "Herbology",
-        "Potions (then Defense)"
+        "Potions"
       ],
-      "correct_answer": "Potions (then Defense)",
+      "correct_answer": "Potions",
       "difficulty": "easy"
     },
     {
@@ -477,12 +477,12 @@
       "subtopic": "Books & Plot",
       "question": "Who opens the Chamber of Secrets?",
       "options": [
-        "Ginny Weasley (possessed)",
+        "Ginny Weasley",
         "Tom Riddle",
         "Harry Potter",
         "Draco Malfoy"
       ],
-      "correct_answer": "Ginny Weasley (possessed)",
+      "correct_answer": "Ginny Weasley",
       "difficulty": "medium"
     },
     {
@@ -622,11 +622,11 @@
       "question": "Who composed the Harry Potter film scores?",
       "options": [
         "Hans Zimmer",
-        "John Williams (first 3), others",
+        "John Williams, others",
         "Howard Shore",
         "Danny Elfman"
       ],
-      "correct_answer": "John Williams (first 3), others",
+      "correct_answer": "John Williams, others",
       "difficulty": "medium"
     },
     {
@@ -1954,9 +1954,9 @@
         "Harry Potter",
         "Seamus Finnigan",
         "Dean Thomas",
-        "Ron Weasley (briefly)"
+        "Ron Weasley"
       ],
-      "correct_answer": "Ron Weasley (briefly)",
+      "correct_answer": "Ron Weasley",
       "difficulty": "medium"
     },
     {
@@ -3104,11 +3104,11 @@
       "question": "What spell creates darkness?",
       "options": [
         "Nox",
-        "Peruvian Instant Darkness Powder (item not spell)",
+        "Peruvian Instant Darkness Powder",
         "Obscuro",
         "Tenebris"
       ],
-      "correct_answer": "Peruvian Instant Darkness Powder (item not spell)",
+      "correct_answer": "Peruvian Instant Darkness Powder",
       "difficulty": "hard"
     },
     {
@@ -3184,11 +3184,11 @@
       "question": "What spell creates a Fidelius Charm?",
       "options": [
         "Protego",
-        "Fidelius (complex charm)",
+        "Fidelius",
         "Protego Totalum",
         "Fianto Duri"
       ],
-      "correct_answer": "Fidelius (complex charm)",
+      "correct_answer": "Fidelius",
       "difficulty": "hard"
     },
     {
@@ -3216,11 +3216,11 @@
       "question": "What spell counters Avada Kedavra?",
       "options": [
         "Protego",
-        "None (no direct counter)",
+        "None",
         "Expelliarmus",
         "Finite"
       ],
-      "correct_answer": "None (no direct counter)",
+      "correct_answer": "None",
       "difficulty": "hard"
     },
     {
@@ -3520,11 +3520,11 @@
       "question": "What year do students start Hogwarts?",
       "options": [
         "Age 10",
-        "Age 11 (First Year)",
+        "Age 11",
         "Age 12",
         "Age 13"
       ],
-      "correct_answer": "Age 11 (First Year)",
+      "correct_answer": "Age 11",
       "difficulty": "easy"
     },
     {
@@ -3551,12 +3551,12 @@
       "subtopic": "Hogwarts",
       "question": "What are O.W.L.s?",
       "options": [
-        "Owls (birds)",
-        "Ordinary Wizarding Levels (exams)",
+        "Owls",
+        "Ordinary Wizarding Levels",
         "Magical creatures",
         "Spells"
       ],
-      "correct_answer": "Ordinary Wizarding Levels (exams)",
+      "correct_answer": "Ordinary Wizarding Levels",
       "difficulty": "medium"
     },
     {
@@ -3567,7 +3567,7 @@
       "subtopic": "Hogwarts",
       "question": "What are N.E.W.T.s?",
       "options": [
-        "Newts (creatures)",
+        "Newts",
         "Nastily Exhausting Wizarding Tests",
         "Advanced spells",
         "Potions"
@@ -3808,11 +3808,11 @@
       "question": "What is the Shrieking Shack?",
       "options": [
         "Hagrid's hut",
-        "Abandoned building (thought haunted)",
+        "Abandoned building",
         "Dumbledore's house",
         "Shop"
       ],
-      "correct_answer": "Abandoned building (thought haunted)",
+      "correct_answer": "Abandoned building",
       "difficulty": "medium"
     },
     {
@@ -3936,11 +3936,11 @@
       "question": "Who teaches History of Magic?",
       "options": [
         "Professor McGonagall",
-        "Professor Binns (ghost)",
+        "Professor Binns",
         "Professor Flitwick",
         "Professor Snape"
       ],
-      "correct_answer": "Professor Binns (ghost)",
+      "correct_answer": "Professor Binns",
       "difficulty": "medium"
     },
     {
@@ -4064,11 +4064,11 @@
       "question": "What is the exact number of Hogwarts students?",
       "options": [
         "500",
-        "About 1000 (not exact)",
+        "About 1000",
         "2000",
         "Varies"
       ],
-      "correct_answer": "About 1000 (not exact)",
+      "correct_answer": "About 1000",
       "difficulty": "hard"
     },
     {
@@ -4400,11 +4400,11 @@
       "question": "What does Harry get for his 11th birthday?",
       "options": [
         "Cake",
-        "Letter from Hogwarts (and Hagrid)",
+        "Letter from Hogwarts",
         "Owl",
         "Wand"
       ],
-      "correct_answer": "Letter from Hogwarts (and Hagrid)",
+      "correct_answer": "Letter from Hogwarts",
       "difficulty": "easy"
     },
     {
@@ -4448,11 +4448,11 @@
       "question": "What is hidden in Gringotts?",
       "options": [
         "Sword",
-        "Philosopher's Stone (initially)",
+        "Philosopher's Stone",
         "Treasure",
         "Books"
       ],
-      "correct_answer": "Philosopher's Stone (initially)",
+      "correct_answer": "Philosopher's Stone",
       "difficulty": "easy"
     },
     {
@@ -4495,12 +4495,12 @@
       "subtopic": "Books & Plot",
       "question": "What creature is in the girls' bathroom?",
       "options": [
-        "Troll (first book)",
-        "Basilisk (Chamber)",
+        "Troll",
+        "Basilisk",
         "Ghost",
         "Cat"
       ],
-      "correct_answer": "Basilisk (Chamber)",
+      "correct_answer": "Basilisk",
       "difficulty": "easy"
     },
     {
@@ -4817,10 +4817,10 @@
       "options": [
         "6",
         "8",
-        "7 (intended 6, Harry accident)",
+        "7",
         "5"
       ],
-      "correct_answer": "7 (intended 6, Harry accident)",
+      "correct_answer": "7",
       "difficulty": "hard"
     },
     {
@@ -4913,10 +4913,10 @@
       "options": [
         "Falls from tower",
         "Draco kills him",
-        "Snape kills him (planned)",
+        "Snape kills him",
         "Voldemort kills him"
       ],
-      "correct_answer": "Snape kills him (planned)",
+      "correct_answer": "Snape kills him",
       "difficulty": "medium"
     },
     {
@@ -4961,10 +4961,10 @@
       "options": [
         "Dumbledore",
         "James Potter",
-        "Harry (inherited)",
+        "Harry",
         "Death"
       ],
-      "correct_answer": "Harry (inherited)",
+      "correct_answer": "Harry",
       "difficulty": "easy"
     },
     {
@@ -4977,10 +4977,10 @@
       "options": [
         "Just Dumbledore",
         "Just Voldemort",
-        "Many (Dumbledore, then Draco, then Harry)",
+        "Many",
         "Grindelwald"
       ],
-      "correct_answer": "Many (Dumbledore, then Draco, then Harry)",
+      "correct_answer": "Many",
       "difficulty": "medium"
     },
     {
@@ -4993,10 +4993,10 @@
       "options": [
         "Voldemort gets it",
         "Dumbledore keeps it",
-        "Harry breaks it (movie) or hides it (book)",
+        "Harry breaks it or hides it",
         "Destroyed"
       ],
-      "correct_answer": "Harry breaks it (movie) or hides it (book)",
+      "correct_answer": "Harry breaks it or hides it",
       "difficulty": "medium"
     },
     {
@@ -5041,10 +5041,10 @@
       "options": [
         "Harry",
         "Neville",
-        "His own curse rebounds (Harry's wand)",
+        "His own curse rebounds",
         "Snape"
       ],
-      "correct_answer": "His own curse rebounds (Harry's wand)",
+      "correct_answer": "His own curse rebounds",
       "difficulty": "medium"
     },
     {
@@ -5185,10 +5185,10 @@
       "options": [
         "8th book",
         "Movie",
-        "Stage play (epilogue sequel)",
+        "Stage play",
         "Spinoff"
       ],
-      "correct_answer": "Stage play (epilogue sequel)",
+      "correct_answer": "Stage play",
       "difficulty": "medium"
     },
     {
@@ -5217,10 +5217,10 @@
       "options": [
         "Hogwarts teacher",
         "Harry's friend",
-        "Magizoologist (Fantastic Beasts)",
+        "Magizoologist",
         "Auror"
       ],
-      "correct_answer": "Magizoologist (Fantastic Beasts)",
+      "correct_answer": "Magizoologist",
       "difficulty": "medium"
     },
     {
@@ -5297,10 +5297,10 @@
       "options": [
         "Just Dumbledore",
         "Everyone",
-        "Dumbledore and Snape (partial)",
+        "Dumbledore and Snape",
         "Harry"
       ],
-      "correct_answer": "Dumbledore and Snape (partial)",
+      "correct_answer": "Dumbledore and Snape",
       "difficulty": "hard"
     },
     {
@@ -5409,10 +5409,10 @@
       "options": [
         "Dumbledore",
         "Voldemort",
-        "Harry (disarmed Draco)",
+        "Harry",
         "Draco"
       ],
-      "correct_answer": "Harry (disarmed Draco)",
+      "correct_answer": "Harry",
       "difficulty": "medium"
     },
     {
@@ -6049,10 +6049,10 @@
       "options": [
         "Hero Fiennes-Tiffin",
         "Frank Dillane",
-        "Christian Coulson (then Ralph Fiennes)",
+        "Christian Coulson",
         "Various actors"
       ],
-      "correct_answer": "Christian Coulson (then Ralph Fiennes)",
+      "correct_answer": "Christian Coulson",
       "difficulty": "hard"
     },
     {
@@ -6449,10 +6449,10 @@
       "options": [
         "Dragons",
         "Unicorns",
-        "Winged horses (visible after witnessing death)",
+        "Winged horses",
         "Pegasus"
       ],
-      "correct_answer": "Winged horses (visible after witnessing death)",
+      "correct_answer": "Winged horses",
       "difficulty": "medium"
     },
     {
@@ -6465,10 +6465,10 @@
       "options": [
         "Ghost",
         "Monster",
-        "Shape-shifter (shows fears)",
+        "Shape-shifter",
         "Demon"
       ],
-      "correct_answer": "Shape-shifter (shows fears)",
+      "correct_answer": "Shape-shifter",
       "difficulty": "easy"
     },
     {
@@ -6513,10 +6513,10 @@
       "options": [
         "Dragon",
         "Basilisk",
-        "Giant spider (Acromantula)",
+        "Giant spider",
         "Snake"
       ],
-      "correct_answer": "Giant spider (Acromantula)",
+      "correct_answer": "Giant spider",
       "difficulty": "easy"
     },
     {
@@ -6545,10 +6545,10 @@
       "options": [
         "House-elves",
         "Dwarves",
-        "Magical creatures (run Gringotts)",
+        "Magical creatures",
         "Wizards"
       ],
-      "correct_answer": "Magical creatures (run Gringotts)",
+      "correct_answer": "Magical creatures",
       "difficulty": "easy"
     },
     {
@@ -6863,12 +6863,12 @@
       "subtopic": "Magical Creatures",
       "question": "What is a Lethifold?",
       "options": [
-        "Living shroud (deadly)",
+        "Living shroud",
         "Ghost",
         "Demon",
         "Cloak"
       ],
-      "correct_answer": "Living shroud (deadly)",
+      "correct_answer": "Living shroud",
       "difficulty": "hard"
     },
     {
@@ -6959,12 +6959,12 @@
       "subtopic": "Magical Creatures",
       "question": "What creatures pull the Beauxbatons carriage?",
       "options": [
-        "Abraxan horses (giant)",
+        "Abraxan horses",
         "Thestrals",
         "Regular horses",
         "Hippogriffs"
       ],
-      "correct_answer": "Abraxan horses (giant)",
+      "correct_answer": "Abraxan horses",
       "difficulty": "medium"
     },
     {
@@ -7007,12 +7007,12 @@
       "subtopic": "Magical Creatures",
       "question": "What is a Demiguise?",
       "options": [
-        "Peaceful ape-like creature (invisible)",
+        "Peaceful ape-like creature",
         "Monkey",
         "Ape",
         "Ghost"
       ],
-      "correct_answer": "Peaceful ape-like creature (invisible)",
+      "correct_answer": "Peaceful ape-like creature",
       "difficulty": "hard"
     },
     {
@@ -7567,12 +7567,12 @@
       "subtopic": "Characters",
       "question": "Who kills Colin Creevey?",
       "options": [
-        "Death Eater (unspecified)",
+        "Death Eater",
         "Bellatrix",
         "Voldemort",
         "Antonin Dolohov"
       ],
-      "correct_answer": "Death Eater (unspecified)",
+      "correct_answer": "Death Eater",
       "difficulty": "hard"
     },
     {
@@ -7887,12 +7887,12 @@
       "subtopic": "Books & Plot",
       "question": "Who betrays Harry's location in Deathly Hallows?",
       "options": [
-        "Mundungus Fletcher (Kreacher tells)",
+        "Mundungus Fletcher",
         "Snape",
         "Lupin",
         "Ron"
       ],
-      "correct_answer": "Mundungus Fletcher (Kreacher tells)",
+      "correct_answer": "Mundungus Fletcher",
       "difficulty": "medium"
     },
     {
@@ -7967,12 +7967,12 @@
       "subtopic": "Movies",
       "question": "What color is Hermione's Yule Ball dress?",
       "options": [
-        "Pink/periwinkle blue (movie)",
+        "Pink/periwinkle blue",
         "Red",
         "Blue",
         "Green"
       ],
-      "correct_answer": "Pink/periwinkle blue (movie)",
+      "correct_answer": "Pink/periwinkle blue",
       "difficulty": "medium"
     },
     {

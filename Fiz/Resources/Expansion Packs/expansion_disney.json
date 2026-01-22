@@ -798,9 +798,9 @@
         "New York City",
         "Chicago",
         "San Francisco",
-        "Walt Disney's hometown (Marceline, MO)"
+        "Walt Disney's hometown"
       ],
-      "correct_answer": "Walt Disney's hometown (Marceline, MO)",
+      "correct_answer": "Walt Disney's hometown",
       "difficulty": "easy"
     },
     {
@@ -1439,10 +1439,10 @@
       "options": [
         "Zeus",
         "Hades",
-        "Philoctetes (Phil)",
+        "Philoctetes",
         "Pegasus"
       ],
-      "correct_answer": "Philoctetes (Phil)",
+      "correct_answer": "Philoctetes",
       "difficulty": "easy"
     },
     {
@@ -1855,10 +1855,10 @@
       "options": [
         "Pink",
         "Yellow",
-        "Blue (but fairies argue over pink vs blue)",
+        "Blue",
         "White"
       ],
-      "correct_answer": "Blue (but fairies argue over pink vs blue)",
+      "correct_answer": "Blue",
       "difficulty": "medium"
     },
     {
@@ -2463,10 +2463,10 @@
       "options": [
         "Beauty and the Beast",
         "Aladdin",
-        "The Little Mermaid (1989)",
+        "The Little Mermaid",
         "The Lion King"
       ],
-      "correct_answer": "The Little Mermaid (1989)",
+      "correct_answer": "The Little Mermaid",
       "difficulty": "hard"
     },
     {
@@ -2495,10 +2495,10 @@
       "options": [
         "50 years",
         "Forever",
-        "100 years (until true love's kiss)",
+        "100 years",
         "1 year"
       ],
-      "correct_answer": "100 years (until true love's kiss)",
+      "correct_answer": "100 years",
       "difficulty": "hard"
     },
     {
@@ -2511,10 +2511,10 @@
       "options": [
         "The Lion King 2",
         "Aladdin 2",
-        "The Rescuers Down Under (1990)",
+        "The Rescuers Down Under",
         "Pocahontas 2"
       ],
-      "correct_answer": "The Rescuers Down Under (1990)",
+      "correct_answer": "The Rescuers Down Under",
       "difficulty": "hard"
     },
     {
@@ -2557,12 +2557,12 @@
       "subtopic": "Animated Classics",
       "question": "Which Disney film features the first Disney Princess to have a duet with a villain?",
       "options": [
-        "Ariel (Ursula)",
-        "Belle (Gaston)",
-        "Rapunzel (Mother Gothel)",
+        "Ariel",
+        "Belle",
+        "Rapunzel",
         "None"
       ],
-      "correct_answer": "Rapunzel (Mother Gothel)",
+      "correct_answer": "Rapunzel",
       "difficulty": "hard"
     },
     {
@@ -2589,12 +2589,12 @@
       "subtopic": "Animated Classics",
       "question": "Which film holds the record for highest-grossing animated film ever?",
       "options": [
-        "The Lion King (2019)",
+        "The Lion King",
         "Frozen",
-        "Frozen 2 (before other releases)",
+        "Frozen 2",
         "Toy Story 4"
       ],
-      "correct_answer": "Frozen 2 (before other releases)",
+      "correct_answer": "Frozen 2",
       "difficulty": "hard"
     },
     {
@@ -2640,9 +2640,9 @@
         "Frozen",
         "Tangled",
         "Big Hero 6",
-        "Winnie the Pooh (2011)"
+        "Winnie the Pooh"
       ],
-      "correct_answer": "Winnie the Pooh (2011)",
+      "correct_answer": "Winnie the Pooh",
       "difficulty": "hard"
     },
     {
@@ -2656,9 +2656,9 @@
         "The Lion King",
         "Aladdin",
         "Pocahontas",
-        "Beauty and the Beast (ballroom)"
+        "Beauty and the Beast"
       ],
-      "correct_answer": "Beauty and the Beast (ballroom)",
+      "correct_answer": "Beauty and the Beast",
       "difficulty": "hard"
     },
     {
@@ -2736,9 +2736,9 @@
         "Farmer",
         "Detective",
         "Teacher",
-        "Varies (athlete, everyman, etc.)"
+        "Varies"
       ],
-      "correct_answer": "Varies (athlete, everyman, etc.)",
+      "correct_answer": "Varies",
       "difficulty": "easy"
     },
     {
@@ -2976,9 +2976,9 @@
         "Hoo-hoo-hoo-hoo!",
         "Oh, bother",
         "None",
-        "T-T-F-N (Ta-Ta For Now)"
+        "T-T-F-N"
       ],
-      "correct_answer": "T-T-F-N (Ta-Ta For Now)",
+      "correct_answer": "T-T-F-N",
       "difficulty": "easy"
     },
     {
@@ -3120,9 +3120,9 @@
         "1930",
         "1925",
         "1935",
-        "1928 (Steamboat Willie)"
+        "1928"
       ],
-      "correct_answer": "1928 (Steamboat Willie)",
+      "correct_answer": "1928",
       "difficulty": "medium"
     },
     {
@@ -3645,7 +3645,7 @@
       "subtopic": "Characters",
       "question": "Who voices Mickey Mouse today (2020s)?",
       "options": [
-        "Chris Diamantopoulos (some media)",
+        "Chris Diamantopoulos",
         "Wayne Allwine",
         "Walt Disney",
         "Bret Iwan"
@@ -4256,9 +4256,9 @@
         "Alan Menken",
         "Phil Collins",
         "Randy Newman",
-        "Elton John (songs) and Hans Zimmer (score)"
+        "Elton John and Hans Zimmer"
       ],
-      "correct_answer": "Elton John (songs) and Hans Zimmer (score)",
+      "correct_answer": "Elton John and Hans Zimmer",
       "difficulty": "medium"
     },
     {
@@ -4336,9 +4336,9 @@
         "Alan Menken",
         "Elton John",
         "Phil Collins",
-        "Lin-Manuel Miranda (songs) and Mark Mancina (score)"
+        "Lin-Manuel Miranda and Mark Mancina"
       ],
-      "correct_answer": "Lin-Manuel Miranda (songs) and Mark Mancina (score)",
+      "correct_answer": "Lin-Manuel Miranda and Mark Mancina",
       "difficulty": "medium"
     },
     {
@@ -4400,9 +4400,9 @@
         "Be Our Guest",
         "Belle",
         "Gaston",
-        "Beauty and the Beast (title song)"
+        "Beauty and the Beast"
       ],
-      "correct_answer": "Beauty and the Beast (title song)",
+      "correct_answer": "Beauty and the Beast",
       "difficulty": "medium"
     },
     {
@@ -4509,12 +4509,12 @@
       "subtopic": "Songs",
       "question": "Who sang 'Reflection' in 'Mulan'?",
       "options": [
-        "Lea Salonga (singing)/Ming-Na Wen (speaking)",
+        "Lea Salonga/Ming-Na Wen",
         "Christina Aguilera",
         "Mandy Moore",
         "Idina Menzel"
       ],
-      "correct_answer": "Lea Salonga (singing)/Ming-Na Wen (speaking)",
+      "correct_answer": "Lea Salonga/Ming-Na Wen",
       "difficulty": "medium"
     },
     {
@@ -4541,12 +4541,12 @@
       "subtopic": "Songs",
       "question": "Who sang 'A Dream Is a Wish Your Heart Makes'?",
       "options": [
-        "Ilene Woods (Cinderella)",
+        "Ilene Woods",
         "Disney Princess Ensemble",
         "Julie Andrews",
         "None"
       ],
-      "correct_answer": "Ilene Woods (Cinderella)",
+      "correct_answer": "Ilene Woods",
       "difficulty": "medium"
     },
     {
@@ -4557,12 +4557,12 @@
       "subtopic": "Songs",
       "question": "Which song plays during the Beast and Belle's dance?",
       "options": [
-        "Beauty and the Beast (title song)",
+        "Beauty and the Beast",
         "Be Our Guest",
         "Something There",
         "Tale as Old as Time"
       ],
-      "correct_answer": "Beauty and the Beast (title song)",
+      "correct_answer": "Beauty and the Beast",
       "difficulty": "medium"
     },
     {
@@ -4573,12 +4573,12 @@
       "subtopic": "Songs",
       "question": "What instrument does Sebastian play?",
       "options": [
-        "Various percussion (he's a conductor)",
+        "Various percussion",
         "Guitar",
         "Piano",
         "Drums"
       ],
-      "correct_answer": "Various percussion (he's a conductor)",
+      "correct_answer": "Various percussion",
       "difficulty": "medium"
     },
     {
@@ -4685,12 +4685,12 @@
       "subtopic": "Songs",
       "question": "Which Disney song has been recorded in the most languages?",
       "options": [
-        "Let It Go (41+ languages)",
+        "Let It Go",
         "A Whole New World",
         "Circle of Life",
         "Can You Feel the Love Tonight"
       ],
-      "correct_answer": "Let It Go (41+ languages)",
+      "correct_answer": "Let It Go",
       "difficulty": "hard"
     },
     {
@@ -4701,12 +4701,12 @@
       "subtopic": "Songs",
       "question": "What is the longest Disney song?",
       "options": [
-        "The Bells of Notre Dame (~6:20)",
+        "The Bells of Notre Dame",
         "Be Prepared",
         "Hellfire",
         "Friend Like Me"
       ],
-      "correct_answer": "The Bells of Notre Dame (~6:20)",
+      "correct_answer": "The Bells of Notre Dame",
       "difficulty": "hard"
     },
     {
@@ -5053,12 +5053,12 @@
       "subtopic": "Live Action",
       "question": "What is the curse in the first Pirates film?",
       "options": [
-        "Aztec gold curse (undead in moonlight)",
+        "Aztec gold curse",
         "Flying Dutchman curse",
         "Blackbeard's curse",
         "None"
       ],
-      "correct_answer": "Aztec gold curse (undead in moonlight)",
+      "correct_answer": "Aztec gold curse",
       "difficulty": "medium"
     },
     {
@@ -5197,12 +5197,12 @@
       "subtopic": "Live Action",
       "question": "What was Disney's first live-action remake?",
       "options": [
-        "101 Dalmatians (1996)",
-        "The Jungle Book (2016)",
-        "Alice in Wonderland (2010)",
-        "Cinderella (2015)"
+        "101 Dalmatians",
+        "The Jungle Book",
+        "Alice in Wonderland",
+        "Cinderella"
       ],
-      "correct_answer": "101 Dalmatians (1996)",
+      "correct_answer": "101 Dalmatians",
       "difficulty": "hard"
     },
     {
@@ -5389,12 +5389,12 @@
       "subtopic": "Parks",
       "question": "What is the name of Mickey's meet-and-greet location?",
       "options": [
-        "Town Square Theater/Character Spot (varies by park)",
+        "Town Square Theater/Character Spot",
         "Mickey's House",
         "Fantasyland",
         "None"
       ],
-      "correct_answer": "Town Square Theater/Character Spot (varies by park)",
+      "correct_answer": "Town Square Theater/Character Spot",
       "difficulty": "easy"
     },
     {
@@ -5467,14 +5467,14 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "What is the name of the fireworks show at Magic Kingdom?",
+      "question": "What is the one of the names of the fireworks show at Magic Kingdom?",
       "options": [
-        "Happily Ever After/Enchantment/others (changes)",
+        "Happily Ever After",
         "Fantasmic",
         "Illuminations",
         "World of Color"
       ],
-      "correct_answer": "Happily Ever After/Enchantment/others (changes)",
+      "correct_answer": "Happily Ever After",
       "difficulty": "easy"
     },
     {
@@ -5533,12 +5533,12 @@
       "subtopic": "Parks",
       "question": "What type of animals can you see on Kilimanjaro Safaris?",
       "options": [
-        "African wildlife (lions, elephants, giraffes, etc.)",
+        "African wildlife",
         "Asian animals",
         "Dinosaurs",
         "Farm animals"
       ],
-      "correct_answer": "African wildlife (lions, elephants, giraffes, etc.)",
+      "correct_answer": "African wildlife",
       "difficulty": "easy"
     },
     {
@@ -5597,12 +5597,12 @@
       "subtopic": "Parks",
       "question": "How many theme parks are at Walt Disney World?",
       "options": [
-        "4 (Magic Kingdom, Epcot, Hollywood Studios, Animal Kingdom)",
+        "4",
         "2",
         "6",
         "3"
       ],
-      "correct_answer": "4 (Magic Kingdom, Epcot, Hollywood Studios, Animal Kingdom)",
+      "correct_answer": "4",
       "difficulty": "medium"
     },
     {
@@ -5613,12 +5613,12 @@
       "subtopic": "Parks",
       "question": "Which was the first international Disney park?",
       "options": [
-        "Tokyo Disneyland (1983)",
+        "Tokyo Disneyland",
         "Disneyland Paris",
         "Hong Kong Disneyland",
         "Shanghai Disneyland"
       ],
-      "correct_answer": "Tokyo Disneyland (1983)",
+      "correct_answer": "Tokyo Disneyland",
       "difficulty": "medium"
     },
     {
@@ -5773,12 +5773,12 @@
       "subtopic": "Parks",
       "question": "What is the name of the water park at Walt Disney World?",
       "options": [
-        "Typhoon Lagoon and Blizzard Beach (two parks)",
+        "Typhoon Lagoon and Blizzard Beach",
         "Aquatica",
         "Wet 'n Wild",
         "Discovery Cove"
       ],
-      "correct_answer": "Typhoon Lagoon and Blizzard Beach (two parks)",
+      "correct_answer": "Typhoon Lagoon and Blizzard Beach",
       "difficulty": "medium"
     },
     {
@@ -5789,12 +5789,12 @@
       "subtopic": "Parks",
       "question": "What is the tallest structure at Walt Disney World?",
       "options": [
-        "Expedition Everest (199 feet)",
-        "Cinderella Castle (189 feet)",
-        "Tower of Terror (199 feet)",
+        "Expedition Everest",
+        "Cinderella Castle",
+        "Tower of Terror",
         "Space Mountain"
       ],
-      "correct_answer": "Expedition Everest (199 feet)",
+      "correct_answer": "Expedition Everest",
       "difficulty": "medium"
     },
     {
@@ -5981,12 +5981,12 @@
       "subtopic": "Parks",
       "question": "How many Hidden Mickeys are estimated to be in the parks?",
       "options": [
-        "Thousands (exact number unknown)",
+        "Thousands",
         "Hundreds",
         "Dozens",
         "None"
       ],
-      "correct_answer": "Thousands (exact number unknown)",
+      "correct_answer": "Thousands",
       "difficulty": "hard"
     },
     {
@@ -5997,12 +5997,12 @@
       "subtopic": "Parks",
       "question": "What was the original name of Splash Mountain?",
       "options": [
-        "Zip-a-Dee River Run (concept), became Splash Mountain",
+        "Zip-a-Dee River Run, became Splash Mountain",
         "Log Flume",
         "Song of the South Ride",
         "None"
       ],
-      "correct_answer": "Zip-a-Dee River Run (concept), became Splash Mountain",
+      "correct_answer": "Zip-a-Dee River Run, became Splash Mountain",
       "difficulty": "hard"
     },
     {
@@ -6029,12 +6029,12 @@
       "subtopic": "Parks",
       "question": "What is the longest-running attraction at Disneyland?",
       "options": [
-        "Jungle Cruise (opened 1955)",
+        "Jungle Cruise",
         "Haunted Mansion",
         "Pirates of the Caribbean",
         "It's a Small World"
       ],
-      "correct_answer": "Jungle Cruise (opened 1955)",
+      "correct_answer": "Jungle Cruise",
       "difficulty": "hard"
     },
     {
@@ -6045,12 +6045,12 @@
       "subtopic": "Parks",
       "question": "Which park has Tokyo DisneySea?",
       "options": [
-        "Tokyo Disney Resort (second park)",
+        "Tokyo Disney Resort",
         "Hong Kong Disney Resort",
         "Shanghai Disney Resort",
         "Disneyland Paris"
       ],
-      "correct_answer": "Tokyo Disney Resort (second park)",
+      "correct_answer": "Tokyo Disney Resort",
       "difficulty": "hard"
     },
     {
@@ -6462,11 +6462,11 @@
       "question": "What is Nick Wilde's middle name?",
       "options": [
         "Patrick",
-        "Piberius (P.)",
+        "Piberius",
         "Philip",
         "None"
       ],
-      "correct_answer": "Piberius (P.)",
+      "correct_answer": "Piberius",
       "difficulty": "hard"
     },
     {
@@ -6510,11 +6510,11 @@
       "question": "What instrument does Donald Duck often play?",
       "options": [
         "Piano",
-        "Various (often causes trouble)",
+        "Various",
         "Guitar",
         "Drums"
       ],
-      "correct_answer": "Various (often causes trouble)",
+      "correct_answer": "Various",
       "difficulty": "easy"
     },
     {
@@ -6526,11 +6526,11 @@
       "question": "What is the name of Goofy's girlfriend?",
       "options": [
         "Minnie",
-        "Mrs. Donner/Clarabelle (varies)",
+        "Mrs. Donner/Clarabelle",
         "Daisy",
         "None consistent"
       ],
-      "correct_answer": "Mrs. Donner/Clarabelle (varies)",
+      "correct_answer": "Mrs. Donner/Clarabelle",
       "difficulty": "easy"
     },
     {
@@ -6973,12 +6973,12 @@
       "subtopic": "Songs",
       "question": "Who performs 'Lost in the Woods' in Frozen 2?",
       "options": [
-        "Josh Gad (Olaf)",
-        "Jonathan Groff (Kristoff)",
-        "Idina Menzel (Elsa)",
-        "Kristen Bell (Anna)"
+        "Josh Gad",
+        "Jonathan Groff",
+        "Idina Menzel",
+        "Kristen Bell"
       ],
-      "correct_answer": "Jonathan Groff (Kristoff)",
+      "correct_answer": "Jonathan Groff",
       "difficulty": "medium"
     },
     {
@@ -7406,11 +7406,11 @@
       "question": "Which Disney Channel movie features a magical remote control?",
       "options": [
         "High School Musical",
-        "Click (not Disney)/Pixel Perfect/other",
+        "Click/Pixel Perfect/other",
         "Camp Rock",
         "None"
       ],
-      "correct_answer": "Click (not Disney)/Pixel Perfect/other",
+      "correct_answer": "Click/Pixel Perfect/other",
       "difficulty": "easy"
     },
     {
@@ -7470,11 +7470,11 @@
       "question": "Which Disney movie features a flying car?",
       "options": [
         "Herbie",
-        "Chitty Chitty Bang (not Disney)/Flubber",
+        "Chitty Chitty Bang/Flubber",
         "Bedknobs and Broomsticks",
         "Mary Poppins"
       ],
-      "correct_answer": "Chitty Chitty Bang (not Disney)/Flubber",
+      "correct_answer": "Chitty Chitty Bang/Flubber",
       "difficulty": "easy"
     },
     {
@@ -7678,11 +7678,11 @@
       "question": "What was Disney's first major live-action film?",
       "options": [
         "20,000 Leagues Under the Sea",
-        "Treasure Island (1950)",
+        "Treasure Island",
         "Mary Poppins",
         "Old Yeller"
       ],
-      "correct_answer": "Treasure Island (1950)",
+      "correct_answer": "Treasure Island",
       "difficulty": "hard"
     },
     {
@@ -7998,11 +7998,11 @@
       "question": "What year did Disneyland's Star Tours open?",
       "options": [
         "1980",
-        "1987 (before Disney owned Star Wars)",
+        "1987",
         "1990",
         "2000"
       ],
-      "correct_answer": "1987 (before Disney owned Star Wars)",
+      "correct_answer": "1987",
       "difficulty": "medium"
     },
     {
@@ -8014,11 +8014,11 @@
       "question": "What is the oldest operating attraction at Disneyland?",
       "options": [
         "Jungle Cruise",
-        "Carousel (King Arthur Carrousel)",
+        "Carousel",
         "Peter Pan's Flight",
         "Dumbo"
       ],
-      "correct_answer": "Carousel (King Arthur Carrousel)",
+      "correct_answer": "Carousel",
       "difficulty": "hard"
     }
   ],

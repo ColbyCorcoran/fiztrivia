@@ -13,11 +13,7 @@ struct CartView: View {
     @StateObject private var cartManager = CartManager.shared
     @StateObject private var expansionManager = ExpansionPackManager.shared
     @StateObject private var storeManager = StoreManager.shared
-    @StateObject private var discountManager = DiscountCodeManager.shared
 
-    @State private var discountCodeInput = ""
-    @State private var appliedDiscount: DiscountCode?
-    @State private var showingInvalidCodeAlert = false
     @State private var isPurchasing = false
     @State private var showingSuccessAlert = false
     @State private var showingErrorAlert = false
@@ -25,22 +21,14 @@ struct CartView: View {
     @State private var showingClearBagAlert = false
     @State private var showingCheckoutWarning = false
     @State private var purchaseProgress: Int = 0
+    @State private var showingOfferCodeRedemption = false
 
     private var cartPacks: [ExpansionPack] {
         expansionManager.availablePacks.filter { cartManager.isInCart(packId: $0.packId) }
     }
 
-    private var subtotal: Double {
-        cartManager.calculateSubtotal(for: expansionManager.availablePacks)
-    }
-
-    private var discount: Double {
-        guard let code = appliedDiscount else { return 0 }
-        return discountManager.calculateDiscount(code: code, subtotal: subtotal)
-    }
-
     private var total: Double {
-        cartManager.calculateTotal(subtotal: subtotal, discount: discount)
+        cartManager.calculateSubtotal(for: expansionManager.availablePacks)
     }
 
     var body: some View {
@@ -78,14 +66,17 @@ struct CartView: View {
                                 )
                             }
 
-                            // Discount code section
-                            discountCodeSection
+                            // Offer code redemption button
+                            offerCodeSection
 
                             // Price breakdown
                             priceBreakdownSection
 
                             // Purchase button
                             purchaseButton
+
+                            // Legal links
+                            legalLinksSection
 
                             Spacer(minLength: 20)
                         }
@@ -121,11 +112,6 @@ struct CartView: View {
                 }
             }
             .presentationDragIndicator(.visible)
-            .alert("Invalid Code", isPresented: $showingInvalidCodeAlert) {
-                Button("OK", role: .cancel) { }
-            } message: {
-                Text("The discount code '\(discountCodeInput)' is not valid.")
-            }
             .alert("Ready to Purchase?", isPresented: $showingCheckoutWarning) {
                 Button("Cancel", role: .cancel) { }
                 Button("Continue") {
@@ -163,13 +149,12 @@ struct CartView: View {
                     HapticManager.shared.lightImpact()
                     let itemsCleared = cartPacks.count
                     cartManager.clearCart()
-                    appliedDiscount = nil
-                    discountCodeInput = ""
                     AnalyticsManager.shared.trackCartCleared(itemsCleared: itemsCleared)
                 }
             } message: {
                 Text("This will remove all \(cartPacks.count) item\(cartPacks.count == 1 ? "" : "s") from your shopping bag.")
             }
+            .offerCodeRedemption(isPresented: $showingOfferCodeRedemption)
             .onAppear {
                 AnalyticsManager.shared.trackCartViewed(itemCount: cartPacks.count)
             }
@@ -197,47 +182,25 @@ struct CartView: View {
         .padding(40)
     }
 
-    private var discountCodeSection: some View {
+    private var offerCodeSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Discount Code")
+            Text("Have an Offer Code?")
                 .font(.headline)
                 .foregroundColor(.fizBrown)
 
-            HStack(spacing: 12) {
-                TextField("Enter code", text: $discountCodeInput)
-                    .textFieldStyle(.roundedBorder)
-                    .textInputAutocapitalization(.characters)
-                    .autocorrectionDisabled()
-
-                Button(action: applyDiscountCode) {
-                    Text("Apply")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 8)
-                        .background(Color.fizOrange)
-                        .cornerRadius(8)
-                }
-                .disabled(discountCodeInput.isEmpty)
-            }
-
-            if let discount = appliedDiscount {
+            Button(action: {
+                showingOfferCodeRedemption = true
+            }) {
                 HStack {
-                    Image(systemName: "checkmark.circle.fill")
-                        .foregroundColor(.green)
-                    Text("\(discountManager.getDiscountDescription(code: discount)) applied")
-                        .font(.caption)
-                        .foregroundColor(.green)
-
-                    Spacer()
-
-                    Button(action: removeDiscount) {
-                        Text("Remove")
-                            .font(.caption)
-                            .foregroundColor(.red)
-                    }
+                    Image(systemName: "tag.fill")
+                    Text("Redeem Offer Code")
+                        .font(.headline)
                 }
-                .padding(.top, 4)
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.fizOrange)
+                .foregroundColor(.white)
+                .cornerRadius(12)
             }
         }
         .padding()
@@ -247,34 +210,6 @@ struct CartView: View {
 
     private var priceBreakdownSection: some View {
         VStack(spacing: 12) {
-            // Subtotal
-            HStack {
-                Text("Subtotal")
-                    .font(.body)
-                    .foregroundColor(.fizBrown)
-                Spacer()
-                Text(String(format: "$%.2f", subtotal))
-                    .font(.body)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.fizBrown)
-            }
-
-            // Discount
-            if discount > 0 {
-                HStack {
-                    Text("Discount")
-                        .font(.body)
-                        .foregroundColor(.green)
-                    Spacer()
-                    Text("-\(String(format: "$%.2f", discount))")
-                        .font(.body)
-                        .fontWeight(.semibold)
-                        .foregroundColor(.green)
-                }
-            }
-
-            Divider()
-
             // Total
             HStack {
                 Text("Total")
@@ -291,6 +226,30 @@ struct CartView: View {
         .padding()
         .background(Color(.secondarySystemBackground))
         .cornerRadius(12)
+    }
+
+    private var legalLinksSection: some View {
+        VStack(spacing: 8) {
+            HStack(spacing: 16) {
+                Link(destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!) {
+                    Text("Terms of Service")
+                        .font(.caption)
+                        .foregroundColor(.fizOrange)
+                }
+
+                Text("•")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+
+                Link(destination: URL(string: "https://www.apple.com/legal/privacy/")!) {
+                    Text("Privacy Policy")
+                        .font(.caption)
+                        .foregroundColor(.fizOrange)
+                }
+            }
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 8)
     }
 
     private var purchaseButton: some View {
@@ -323,36 +282,12 @@ struct CartView: View {
 
     // MARK: - Actions
 
-    private func applyDiscountCode() {
-        HapticManager.shared.buttonTapEffect()
-
-        if let code = discountManager.validateCode(discountCodeInput) {
-            appliedDiscount = code
-            let discountAmount = discountManager.calculateDiscount(code: code, subtotal: subtotal)
-            AnalyticsManager.shared.trackDiscountCodeApplied(
-                codeType: discountManager.getDiscountDescription(code: code),
-                discountAmount: discountAmount
-            )
-            print("✅ Applied discount: \(code.description)")
-        } else {
-            AnalyticsManager.shared.trackDiscountCodeInvalid()
-            showingInvalidCodeAlert = true
-        }
-    }
-
-    private func removeDiscount() {
-        HapticManager.shared.lightImpact()
-        appliedDiscount = nil
-        discountCodeInput = ""
-        AnalyticsManager.shared.trackDiscountCodeRemoved()
-    }
-
     private func purchaseAll() async {
         // Track checkout initiated
         AnalyticsManager.shared.trackCheckoutInitiated(
             itemCount: cartPacks.count,
-            subtotal: subtotal,
-            hasDiscount: appliedDiscount != nil
+            subtotal: total,
+            hasDiscount: false
         )
 
         isPurchasing = true
@@ -390,12 +325,10 @@ struct CartView: View {
             AnalyticsManager.shared.trackCheckoutCompleted(
                 itemCount: cartPacks.count,
                 total: total,
-                hadDiscount: appliedDiscount != nil
+                hadDiscount: false
             )
 
             cartManager.clearCart()
-            appliedDiscount = nil
-            discountCodeInput = ""
             showingSuccessAlert = true
         } else if successCount > 0 {
             // Partial success

@@ -10,13 +10,13 @@
       "internalID" : "6736890001",
       "localizations" : [
         {
-          "description" : "Dive deep into the wizarding world with 500 questions covering characters, spells, locations, and magical lore from the beloved Harry Potter series.",
-          "displayName" : "Harry Potter Expansion Pack",
+          "description" : "Dive deep into the wizarding world with 500+ questions covering characters, spells, locations, and magical lore from the beloved wizarding series.",
+          "displayName" : "The Wizarding World Expansion Pack",
           "locale" : "en_US"
         }
       ],
       "productID" : "com.fiz.pack.harry_potter",
-      "referenceName" : "Harry Potter Pack",
+      "referenceName" : "Wizarding World Pack",
       "type" : "NonConsumable"
     },
     {
@@ -55,13 +55,13 @@
       "internalID" : "6736890004",
       "localizations" : [
         {
-          "description" : "Explore the magical world of Disney with 500 questions covering animated classics, Pixar films, theme parks, beloved characters, and iconic songs.",
-          "displayName" : "Disney Expansion Pack",
+          "description" : "Explore the magical world of The House of Mouse with 500 questions covering animated classics, live action media, theme parks, beloved characters, and iconic songs.",
+          "displayName" : "The House of Mouse Expansion Pack",
           "locale" : "en_US"
         }
       ],
       "productID" : "com.fiz.pack.disney",
-      "referenceName" : "Disney Pack",
+      "referenceName" : "House of Mouse Pack",
       "type" : "NonConsumable"
     },
     {

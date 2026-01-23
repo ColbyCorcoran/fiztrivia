@@ -573,7 +573,7 @@ struct CategoryWheelView: View {
         } message: {
             if let packId = gameViewModel.completedPreviewPackId,
                let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == packId }) {
-                Text("You've completed all \(pack.freePreviewCount) preview questions for \(pack.packName)!\n\nEnjoy the preview? Unlock \(pack.questionCount - pack.freePreviewCount) more questions for $\(String(format: "%.2f", pack.price)).\n\nYou can also switch to a different topic or return to regular mode in Game Modes Settings.")
+                Text("You've completed all \(pack.freePreviewCount) preview questions for \(pack.packName)!\n\nEnjoy the preview? Unlock \(pack.questionCount - pack.freePreviewCount) more questions for $\(String(format: "%.2f", pack.price)).\n\nYou can also switch to a different topic or return to Multi-Category mode in Game Modes Settings.")
             } else {
                 Text("You've completed all preview questions for this pack!\n\nYou can purchase the full pack or switch to a different game mode in settings.")
             }

@@ -160,39 +160,28 @@ struct GameModesSettingsView: View {
     @ViewBuilder
     private var singleCategorySettingsSection: some View {
         if localSelectedMode == .singleCategory {
-            Section(header: Text("Category Settings"),
-                    footer: Text("Select which category to focus on. The wheel will show subcategories instead of all categories.")) {
-                VStack(alignment: .leading, spacing: 8) {
-                    HStack {
-                        if !sizeCategory.isAccessibilitySize {
-                            Text("Selected Category")
-                            Spacer()
-                        }
-                        Picker("", selection: $localSelectedCategory) {
-                            Text("Select...").tag(nil as TriviaCategory?)
-                            ForEach(CategorySelectionManager.shared.selectedCategories.sorted(by: { $0.rawValue < $1.rawValue }), id: \.self) { category in
-                                HStack {
-                                    Image(systemName: category.icon)
-                                    Text(category.rawValue)
-                                }
-                                .tag(category as TriviaCategory?)
+            Section(header: Text("Select Category"),
+                    footer: Text("Choose which category to focus on. The wheel will show subcategories instead of all categories.")) {
+                ForEach(TriviaCategory.allCases.filter { CategorySelectionManager.shared.selectedCategories.contains($0) }, id: \.self) { category in
+                    SingleCategorySelectionRow(
+                        category: category,
+                        isSelected: localSelectedCategory == category,
+                        onSelect: {
+                            if localSelectedCategory != category {
+                                handleCategoryChange(from: localSelectedCategory, to: category)
                             }
                         }
-                        .pickerStyle(MenuPickerStyle())
-                        .onChange(of: localSelectedCategory) { oldValue, newValue in
-                            handleCategoryChange(from: oldValue, to: newValue)
-                        }
-                    }
+                    )
+                }
+            }
 
-                    if let selectedCategory = localSelectedCategory {
-                        Text("Wheel will show \(selectedCategory.rawValue) subcategories")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                    } else {
-                        Text("Select a category to begin")
-                            .font(.caption)
-                            .foregroundColor(.orange)
-                    }
+            if localSelectedCategory == nil {
+                Section {
+                    Text("Select a category above to begin")
+                        .font(.caption)
+                        .foregroundColor(.orange)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                        .listRowBackground(Color.clear)
                 }
             }
         }
@@ -479,6 +468,7 @@ struct GameModesSettingsView: View {
                 self.showingStreakAlert = true
             }
         } else {
+            localSelectedCategory = newValue
             gameModeManager.setSelectedCategory(newValue)
             if let category = newValue {
                 AnalyticsManager.shared.trackSettingChanged(setting: "single_category_selected", value: category.rawValue)
@@ -823,6 +813,49 @@ struct CategorySelectionRow: View {
             }
             .contentShape(Rectangle())
             .opacity(canToggle || isSelected ? 1.0 : 0.5)
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+// MARK: - Single Category Selection Row Component
+
+struct SingleCategorySelectionRow: View {
+    let category: TriviaCategory
+    let isSelected: Bool
+    let onSelect: () -> Void
+
+    var body: some View {
+        Button(action: onSelect) {
+            HStack(spacing: 12) {
+                Image(systemName: category.icon)
+                    .font(.title2)
+                    .foregroundColor(Color(hex: category.color))
+                    .frame(width: 32)
+
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(category.rawValue)
+                        .font(.body)
+                        .foregroundColor(.primary)
+
+                    Text("Wheel will show \(category.rawValue) subcategories")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+
+                Spacer()
+
+                if isSelected {
+                    Image(systemName: "checkmark.circle.fill")
+                        .font(.title3)
+                        .foregroundColor(.fizOrange)
+                } else {
+                    Image(systemName: "circle")
+                        .font(.title3)
+                        .foregroundColor(.secondary.opacity(0.3))
+                }
+            }
+            .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
     }

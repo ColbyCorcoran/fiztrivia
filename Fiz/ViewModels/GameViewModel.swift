@@ -218,7 +218,7 @@ class GameViewModel {
                         categoryName = nil
                     }
                 } else {
-                    gameMode = "Regular"
+                    gameMode = "Multi-Category"
                     categoryName = nil
                 }
 

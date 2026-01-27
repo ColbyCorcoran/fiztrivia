@@ -25,8 +25,8 @@
       "internalID" : "6736890002",
       "localizations" : [
         {
-          "description" : "Test your knowledge of the Pokémon universe with 500 questions spanning all generations, games, anime, and trading cards.",
-          "displayName" : "Pokémon Expansion Pack",
+          "description" : "Test your knowledge of the Pocket Monsters universe with 500 questions spanning all generations, games, anime, and trading cards.",
+          "displayName" : "Pocket Monsters Expansion Pack",
           "locale" : "en_US"
         }
       ],
@@ -70,13 +70,13 @@
       "internalID" : "6736890005",
       "localizations" : [
         {
-          "description" : "That's what she said! Dive into Dunder Mifflin with 300 questions about characters, episodes, iconic quotes, and memorable moments from The Office.",
-          "displayName" : "The Office Expansion Pack",
+          "description" : "Dive into the world of Dunder Mifflin with 300+ questions about characters, episodes, iconic quotes, and memorable moments from the beloved office workplace comedy.",
+          "displayName" : "Dunder Mifflinfinity Expansion Pack",
           "locale" : "en_US"
         }
       ],
       "productID" : "com.fiz.pack.the_office",
-      "referenceName" : "The Office Pack",
+      "referenceName" : "Dunder Mifflinfinity Pack",
       "type" : "NonConsumable"
     }
   ],

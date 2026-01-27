@@ -72,7 +72,7 @@
 			<dict>
 				<key>CFBundleIconFiles</key>
 				<array>
-					<string>AppIcon-HappySmirk</string>
+					<string>AppIcon-HappySmirk-ipad</string>
 				</array>
 				<key>UIPrerenderedIcon</key>
 				<false/>
@@ -81,7 +81,7 @@
 			<dict>
 				<key>CFBundleIconFiles</key>
 				<array>
-					<string>AppIcon-Incorrect</string>
+					<string>AppIcon-Incorrect-ipad</string>
 				</array>
 				<key>UIPrerenderedIcon</key>
 				<false/>
@@ -90,7 +90,7 @@
 			<dict>
 				<key>CFBundleIconFiles</key>
 				<array>
-					<string>AppIcon-Leaderboard</string>
+					<string>AppIcon-Leaderboard-ipad</string>
 				</array>
 				<key>UIPrerenderedIcon</key>
 				<false/>
@@ -99,7 +99,7 @@
 			<dict>
 				<key>CFBundleIconFiles</key>
 				<array>
-					<string>AppIcon-NewHighScore</string>
+					<string>AppIcon-NewHighScore-ipad</string>
 				</array>
 				<key>UIPrerenderedIcon</key>
 				<false/>
@@ -108,7 +108,7 @@
 			<dict>
 				<key>CFBundleIconFiles</key>
 				<array>
-					<string>AppIcon-RegularPose</string>
+					<string>AppIcon-RegularPose-ipad</string>
 				</array>
 				<key>UIPrerenderedIcon</key>
 				<false/>
@@ -123,7 +123,7 @@
 			<key>CFBundleIconName</key>
 			<string></string>
 			<key>UIPrerenderedIcon</key>
-			<false/>
+				<false/>
 		</dict>
 	</dict>
 </dict>

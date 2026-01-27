@@ -1923,8 +1923,8 @@ class ExpansionPackManager: ObservableObject {
     private let topicDisplayNames: [String: String] = [
         // Existing expansion packs
         "com.fiz.pack.harry_potter": "Harry Potter",
-        "com.fiz.pack.pokemon": "Pokémon",
-        "com.fiz.pack.the_office": "The Office",
+        "com.fiz.pack.pokemon": "Pocket Monsters",
+        "com.fiz.pack.the_office": "Dunder Mifflinfinity",
         "com.fiz.pack.disney": "Disney",
         "com.fiz.pack.80s_trivia": "80s Trivia",
 

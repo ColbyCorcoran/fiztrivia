@@ -1,9 +1,9 @@
 {
   "packId": "com.fiz.pack.pokemon",
   "packName": "Pocket Monsters",
-  "packDescription": "Test your knowledge of the Pokémon universe with 500+ questions spanning all generations, games, anime, and trading cards.",
+  "packDescription": "Test your knowledge of this popular universe with 500+ questions spanning all generations, games, anime, and trading cards.",
   "subtopics": [
-    "Pokémon Species",
+    "Species",
     "Games",
     "Moves & Abilities",
     "Trainers & Characters",
@@ -74,7 +74,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Pikachu?",
       "options": [
         "Normal",
@@ -90,7 +90,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What Pokémon is #150 in the Pokédex?",
       "options": [
         "Mew",
@@ -106,7 +106,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Eevee's Normal-type evolution?",
       "options": [
         "Espeon",
@@ -122,7 +122,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Charizard?",
       "options": [
         "Fire/Dragon",
@@ -138,7 +138,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the pre-evolution of Pikachu?",
       "options": [
         "Raichu",
@@ -154,7 +154,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "Which Pokémon is known as the Mouse Pokémon?",
       "options": [
         "Rattata",
@@ -170,7 +170,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Ditto's special ability?",
       "options": [
         "Impostor",
@@ -186,7 +186,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What Legendary bird represents ice?",
       "options": [
         "Zapdos",
@@ -908,7 +908,7 @@
       "category": "Entertainment",
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What Pokémon is number 001 in the National Pokédex?",
       "options": [
         "Pikachu",
@@ -1004,7 +1004,7 @@
       "category": "Entertainment",
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What Pokémon is known as the 'Legendary Bird of Ice'?",
       "options": [
         "Zapdos",
@@ -1132,7 +1132,7 @@
       "category": "Entertainment",
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the name of the mythical Pokémon that can learn any TM?",
       "options": [
         "Mewtwo",
@@ -1196,7 +1196,7 @@
       "category": "Entertainment",
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What color is a shiny Charizard?",
       "options": [
         "Blue",
@@ -1260,7 +1260,7 @@
       "category": "Entertainment",
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What Pokémon is known as the 'Genetic Pokémon'?",
       "options": [
         "Mew",
@@ -1292,7 +1292,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the final evolution of Squirtle?",
       "options": [
         "Wartortle",
@@ -1308,7 +1308,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the final evolution of Bulbasaur?",
       "options": [
         "Ivysaur",
@@ -1324,7 +1324,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the final evolution of Charmander?",
       "options": [
         "Charmeleon",
@@ -1340,7 +1340,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Gengar?",
       "options": [
         "Ghost",
@@ -1356,7 +1356,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Gyarados?",
       "options": [
         "Water/Dragon",
@@ -1372,7 +1372,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Psyduck's evolved form?",
       "options": [
         "Slowbro",
@@ -1388,7 +1388,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Machop's final evolution?",
       "options": [
         "Machoke",
@@ -1404,7 +1404,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Snorlax?",
       "options": [
         "Fighting",
@@ -1420,7 +1420,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Gastly's final evolution?",
       "options": [
         "Haunter",
@@ -1436,7 +1436,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Dragonite?",
       "options": [
         "Dragon",
@@ -1452,7 +1452,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Geodude's final evolution?",
       "options": [
         "Graveler",
@@ -1468,7 +1468,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Lapras?",
       "options": [
         "Water",
@@ -1484,7 +1484,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Abra's final evolution?",
       "options": [
         "Kadabra",
@@ -1500,7 +1500,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Jigglypuff?",
       "options": [
         "Normal",
@@ -1516,7 +1516,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Onix?",
       "options": [
         "Rock",
@@ -1532,7 +1532,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Zubat's final evolution?",
       "options": [
         "Golbat",
@@ -1548,7 +1548,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Exeggutor?",
       "options": [
         "Grass",
@@ -1564,7 +1564,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Magnemite's evolved form?",
       "options": [
         "Magnezone",
@@ -1580,7 +1580,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Scyther?",
       "options": [
         "Bug/Steel",
@@ -1596,7 +1596,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Horsea's final evolution?",
       "options": [
         "Seadra",
@@ -1612,7 +1612,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Electabuzz?",
       "options": [
         "Electric/Fighting",
@@ -1628,7 +1628,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Aerodactyl?",
       "options": [
         "Flying",
@@ -1644,7 +1644,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Dratini's final evolution?",
       "options": [
         "Dragonair",
@@ -1660,7 +1660,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Hitmonlee?",
       "options": [
         "Fighting/Flying",
@@ -1676,7 +1676,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Eevee's Water evolution?",
       "options": [
         "Flareon",
@@ -1692,7 +1692,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Eevee's Fire evolution?",
       "options": [
         "Vaporeon",
@@ -1708,7 +1708,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Eevee's Electric evolution?",
       "options": [
         "Vaporeon",
@@ -1724,7 +1724,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Rapidash?",
       "options": [
         "Fire/Flying",
@@ -1740,7 +1740,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Bellsprout's final evolution?",
       "options": [
         "Weepinbell",
@@ -1756,7 +1756,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Nidoking?",
       "options": [
         "Poison",
@@ -1772,7 +1772,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Sandshrew's evolved form?",
       "options": [
         "Sandstorm",
@@ -1788,7 +1788,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Shellder's evolved form?",
       "options": [
         "Kingler",
@@ -1804,7 +1804,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Rhydon?",
       "options": [
         "Ground",
@@ -1820,7 +1820,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Krabby's evolved form?",
       "options": [
         "Corphish",
@@ -1836,7 +1836,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Mewtwo?",
       "options": [
         "Psychic/Fighting",
@@ -1852,7 +1852,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Magikarp's evolved form?",
       "options": [
         "Feebas",
@@ -1868,7 +1868,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Oddish's final evolution?",
       "options": [
         "Gloom",
@@ -1884,7 +1884,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Poliwag's final evolution?",
       "options": [
         "Poliwhirl",
@@ -1900,7 +1900,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Clefairy?",
       "options": [
         "Normal",
@@ -1916,7 +1916,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the evolved form of Eevee when exposed to a Moon Stone?",
       "options": [
         "Umbreon",
@@ -1932,7 +1932,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Alolan Exeggutor?",
       "options": [
         "Grass/Psychic",
@@ -1948,7 +1948,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Sneasel's evolved form?",
       "options": [
         "Snorunt",
@@ -1964,7 +1964,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Mimikyu?",
       "options": [
         "Ghost",
@@ -1980,7 +1980,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Riolu's evolved form?",
       "options": [
         "Machoke",
@@ -1996,7 +1996,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Rotom in its base form?",
       "options": [
         "Electric",
@@ -2012,7 +2012,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Gible's final evolution?",
       "options": [
         "Gabite",
@@ -2028,7 +2028,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Alolan Vulpix?",
       "options": [
         "Fire",
@@ -2044,7 +2044,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Budew's final evolution?",
       "options": [
         "Roselia",
@@ -2060,7 +2060,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Galarian Weezing?",
       "options": [
         "Poison",
@@ -2076,7 +2076,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Larvitar's final evolution?",
       "options": [
         "Pupitar",
@@ -2092,7 +2092,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Hisuian Zorua?",
       "options": [
         "Dark",
@@ -2108,7 +2108,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Togepi's final evolution?",
       "options": [
         "Togetic",
@@ -2124,7 +2124,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Staraptor?",
       "options": [
         "Flying",
@@ -2140,7 +2140,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Bagon's final evolution?",
       "options": [
         "Shelgon",
@@ -2156,7 +2156,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Palkia?",
       "options": [
         "Dragon",
@@ -2172,7 +2172,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Ralts' final evolution in the Gardevoir line?",
       "options": [
         "Kirlia",
@@ -2188,7 +2188,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Dialga?",
       "options": [
         "Dragon",
@@ -2204,7 +2204,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Beldum's final evolution?",
       "options": [
         "Metang",
@@ -2220,7 +2220,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Giratina?",
       "options": [
         "Dragon",
@@ -2236,7 +2236,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Deino's final evolution?",
       "options": [
         "Zweilous",
@@ -2252,7 +2252,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Zygarde?",
       "options": [
         "Dragon",
@@ -2268,7 +2268,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Goomy's final evolution?",
       "options": [
         "Sliggoo",
@@ -2284,7 +2284,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Necrozma?",
       "options": [
         "Dark/Psychic",
@@ -2300,7 +2300,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Rookidee's final evolution?",
       "options": [
         "Corvisquire",
@@ -2316,7 +2316,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Zacian?",
       "options": [
         "Fairy/Steel",
@@ -2332,7 +2332,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Dreepy's final evolution?",
       "options": [
         "Drakloak",
@@ -2348,7 +2348,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Zamazenta?",
       "options": [
         "Fighting/Steel",
@@ -2364,7 +2364,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Sprigatito's final evolution?",
       "options": [
         "Floragato",
@@ -2380,7 +2380,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Koraidon?",
       "options": [
         "Dragon",
@@ -2396,7 +2396,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Fuecoco's final evolution?",
       "options": [
         "Crocalor",
@@ -2412,7 +2412,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Miraidon?",
       "options": [
         "Dragon",
@@ -2428,7 +2428,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Quaxly's final evolution?",
       "options": [
         "Quaxwell",
@@ -2444,7 +2444,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Iron Treads?",
       "options": [
         "Steel",
@@ -2460,7 +2460,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the name of the Paradox Pokémon that resembles Volcarona?",
       "options": [
         "Iron Moth",
@@ -2476,7 +2476,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Great Tusk?",
       "options": [
         "Ground",
@@ -2492,7 +2492,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the name of Cyclizar's Ancient Paradox form?",
       "options": [
         "Miraidon",
@@ -2508,7 +2508,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Walking Wake?",
       "options": [
         "Water",
@@ -2524,7 +2524,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Lechonk's evolved form?",
       "options": [
         "Grumpig",
@@ -2540,7 +2540,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only Pokémon that can learn the move Sketch?",
       "options": [
         "Ditto",
@@ -2556,7 +2556,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type combination is unique to Shedinja?",
       "options": [
         "Ghost",
@@ -2572,7 +2572,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the Pokémon with the highest base stat total that is not a legendary or mythical?",
       "options": [
         "Arceus",
@@ -2588,7 +2588,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only Pokémon that evolves by being turned upside down?",
       "options": [
         "Malamar",
@@ -2604,7 +2604,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the Pokémon with the lowest base stat total?",
       "options": [
         "Sunkern",
@@ -2620,7 +2620,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only Pokémon with the ability Wonder Guard?",
       "options": [
         "Spiritomb",
@@ -2636,7 +2636,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only Pokémon that can have three different types depending on its form?",
       "options": [
         "Silvally",
@@ -2652,7 +2652,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is Nincada's second evolution that appears when there is an empty party slot?",
       "options": [
         "Ninjask",
@@ -2668,7 +2668,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type combination has the most weaknesses?",
       "options": [
         "Bug/Grass",
@@ -2684,7 +2684,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only Pokémon that had its type changed from a prior generation?",
       "options": [
         "Magnemite",
@@ -2700,7 +2700,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the highest evolution level in the Pokémon series?",
       "options": [
         "Level 55",
@@ -2716,7 +2716,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only Pokémon that can change its form mid-battle without using a move or item?",
       "options": [
         "Castform",
@@ -2732,7 +2732,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only type combination that has never appeared on a fully evolved Pokémon?",
       "options": [
         "Normal/Ice",
@@ -2748,7 +2748,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only Pokémon that has a different cry in different forms without changing species?",
       "options": [
         "Oricorio",
@@ -2764,7 +2764,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only legendary Pokémon that can breed?",
       "options": [
         "Manaphy",
@@ -2780,7 +2780,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the only Pokémon with a unique type combination in Generation 1?",
       "options": [
         "None",
@@ -2796,7 +2796,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What Pokémon has the most different possible forms/variations?",
       "options": [
         "Alcremie",
@@ -8060,7 +8060,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "How many original starter Pokémon are there?",
       "options": [
         "2",
@@ -8092,7 +8092,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "Which Pokémon is known for sleeping most of the time?",
       "options": [
         "Slowpoke",
@@ -8108,7 +8108,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What does Eevee need to evolve into Vaporeon?",
       "options": [
         "Fire Stone",
@@ -8124,7 +8124,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What region do the original Pokémon games take place in?",
       "options": [
         "Johto",
@@ -8140,7 +8140,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What happens when you use a Moon Stone on Clefairy?",
       "options": [
         "It learns new moves",
@@ -8156,7 +8156,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "Which gym leader uses Electric-type Pokémon in the original games?",
       "options": [
         "Brock",
@@ -8172,7 +8172,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type of Pokémon is Geodude?",
       "options": [
         "Rock",
@@ -8188,7 +8188,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "Which Pokémon evolves into Alakazam?",
       "options": [
         "Abra",
@@ -8204,7 +8204,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What is the signature move of Pikachu?",
       "options": [
         "Thunder",
@@ -8220,7 +8220,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "How many original Pokémon were there in Generation 1?",
       "options": [
         "150",
@@ -8252,7 +8252,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "Which Pokémon has the ability to transform into any other Pokémon?",
       "options": [
         "Mew",
@@ -8268,7 +8268,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What badge do you get from defeating Brock?",
       "options": [
         "Rock Badge",
@@ -8284,7 +8284,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Blastoise?",
       "options": [
         "Water/Steel",
@@ -8300,7 +8300,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Machamp?",
       "options": [
         "Fighting/Rock",
@@ -8316,7 +8316,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Golem?",
       "options": [
         "Rock",
@@ -8332,7 +8332,7 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
-      "subtopic": "Pokémon Species",
+      "subtopic": "Species",
       "question": "What type is Ho-Oh?",
       "options": [
         "Fire/Dragon",

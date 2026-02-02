@@ -1,7 +1,7 @@
 {
   "packId": "com.fiz.pack.pixar",
   "packName": "Lamp Light Animation",
-  "packDescription": "Explore beloved computer-animated classics with 400 questions about toys, fish, monsters, superheroes, emotions, and unforgettable family adventures.",
+  "packDescription": "Explore beloved computer-animated classics with 500+ questions about toys, fish, monsters, superheroes, emotions, and unforgettable family adventures.",
   "subtopics": [
     "Characters",
     "Plot & Story",
@@ -11,7 +11,7 @@
     "Trivia & Facts"
   ],
   "questionCount": 400,
-  "freePreviewCount": 40,
+  "freePreviewCount": 49,
   "difficulty": {
     "easy": 148,
     "medium": 179,
@@ -20,6 +20,150 @@
   "price": 0.69,
   "icon": "sparkles",
   "freePreviewQuestions": [
+    {
+      "id": "dsn_preview_002",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "In 'Toy Story', what is the name of Andy's favorite toy?",
+      "options": [
+        "Woody",
+        "Buzz Lightyear",
+        "Rex",
+        "Slinky Dog"
+      ],
+      "correct_answer": "Woody",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_014",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Plot & Story",
+      "question": "In 'Toy Story', what is Buzz Lightyear's catchphrase?",
+      "options": [
+        "To infinity and beyond",
+        "You've got a friend in me",
+        "Reach for the sky",
+        "There's a snake in my boot"
+      ],
+      "correct_answer": "To infinity and beyond",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_015",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the name of Lightning McQueen's best friend in 'Cars'?",
+      "options": [
+        "Mater",
+        "Doc Hudson",
+        "Sally",
+        "Luigi"
+      ],
+      "correct_answer": "Mater",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_016",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Trivia & Facts",
+      "question": "In 'Inside Out', what are the five emotions?",
+      "options": [
+        "Joy, Sadness, Anger, Fear, Disgust",
+        "Happy, Sad, Mad, Scared, Grossed Out",
+        "Love, Hate, Fear, Joy, Anger",
+        "None"
+      ],
+      "correct_answer": "Joy, Sadness, Anger, Fear, Disgust",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_017",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the name of the superhero family in 'The Incredibles'?",
+      "options": [
+        "The Parrs",
+        "The Supers",
+        "The Incredibles",
+        "The Powers"
+      ],
+      "correct_answer": "The Parrs",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_preview_018",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Trivia & Facts",
+      "question": "In 'Finding Nemo', what is Nemo's dad's name?",
+      "options": [
+        "Marlin",
+        "Bruce",
+        "Gill",
+        "Crush"
+      ],
+      "correct_answer": "Marlin",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_019",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Characters",
+      "question": "What is the name of the cooking critic in 'Ratatouille'?",
+      "options": [
+        "Anton Ego",
+        "Gusteau",
+        "Skinner",
+        "Colette"
+      ],
+      "correct_answer": "Anton Ego",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dsn_preview_020",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Trivia & Facts",
+      "question": "In 'Coco', what is Miguel's dream?",
+      "options": [
+        "To be a musician",
+        "To be a dancer",
+        "To be a painter",
+        "To be a singer"
+      ],
+      "correct_answer": "To be a musician",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsn_preview_021",
+      "category": "Entertainment",
+      "subcategory": "Animation",
+      "topic": "Disney",
+      "subtopic": "Trivia & Facts",
+      "question": "What type of car is Lightning McQueen?",
+      "options": [
+        "Race car",
+        "Sports car",
+        "Sedan",
+        "Truck"
+      ],
+      "correct_answer": "Race car",
+      "difficulty": "easy"
+    },
     {
       "id": "pxr_109",
       "category": "Entertainment",
@@ -508,12 +652,12 @@
       "subtopic": "Plot & Story",
       "question": "What is the true identity of Ernesto de la Cruz in 'Coco'?",
       "options": [
-        "He murdered Héctor and stole his songs",
+        "He murdered H\u00e9ctor and stole his songs",
         "He is Miguel's great-great-grandfather",
         "He is actually alive",
         "He never existed"
       ],
-      "correct_answer": "He murdered Héctor and stole his songs",
+      "correct_answer": "He murdered H\u00e9ctor and stole his songs",
       "difficulty": "hard"
     },
     {
@@ -663,10 +807,10 @@
   ],
   "paidQuestions": [
     {
-      "id": "pxr_paid_217",
+      "id": "dsn_paid_002",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Finding Nemo', what type of fish is Dory?",
       "options": [
@@ -679,10 +823,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_218",
+      "id": "dsn_paid_007",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "What is the name of the rat in 'Ratatouille' who dreams of being a chef?",
       "options": [
@@ -695,10 +839,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_219",
+      "id": "dsn_paid_013",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "In 'Monsters, Inc.', what powers the city of Monstropolis?",
       "options": [
@@ -711,10 +855,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_220",
+      "id": "dsn_paid_019",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "What is the name of the villain in 'The Incredibles'?",
       "options": [
@@ -727,10 +871,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_221",
+      "id": "dsn_paid_025",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Up', what country does Carl want to visit?",
       "options": [
@@ -743,10 +887,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_222",
+      "id": "dsn_paid_123",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Plot & Story",
       "question": "What is Woody's catchphrase in 'Toy Story'?",
       "options": [
@@ -759,10 +903,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_223",
+      "id": "dsn_paid_124",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "What is the name of the daycare in 'Toy Story 3'?",
       "options": [
@@ -775,10 +919,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_224",
+      "id": "dsn_paid_125",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "Who is the villain in 'Toy Story 3'?",
       "options": [
@@ -791,10 +935,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_225",
+      "id": "dsn_paid_126",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "In 'Finding Nemo', where does Marlin live?",
       "options": [
@@ -807,10 +951,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_226",
+      "id": "dsn_paid_127",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What is the address Dory remembers?",
       "options": [
@@ -823,10 +967,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_227",
+      "id": "dsn_paid_128",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'The Incredibles', what is Mr. Incredible's real name?",
       "options": [
@@ -839,10 +983,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_228",
+      "id": "dsn_paid_129",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What is Elastigirl's real name?",
       "options": [
@@ -855,10 +999,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_229",
+      "id": "dsn_paid_130",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Quotes & Moments",
       "question": "Who says 'No capes!'?",
       "options": [
@@ -871,10 +1015,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_230",
+      "id": "dsn_paid_131",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "In 'Cars', where is the big race held?",
       "options": [
@@ -887,10 +1031,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_231",
+      "id": "dsn_paid_132",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What number is Lightning McQueen?",
       "options": [
@@ -903,10 +1047,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_232",
+      "id": "dsn_paid_133",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "In 'Ratatouille', where is the restaurant located?",
       "options": [
@@ -919,10 +1063,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_233",
+      "id": "dsn_paid_134",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What is Remy's brother's name?",
       "options": [
@@ -935,10 +1079,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_234",
+      "id": "dsn_paid_135",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'WALL-E', what does WALL-E stand for?",
       "options": [
@@ -951,10 +1095,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_235",
+      "id": "dsn_paid_136",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What plant does WALL-E find?",
       "options": [
@@ -967,10 +1111,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_236",
+      "id": "dsn_paid_137",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Up', what does Carl sell before he retires?",
       "options": [
@@ -983,10 +1127,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_237",
+      "id": "dsn_paid_138",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "What is the name of Carl's wife?",
       "options": [
@@ -999,10 +1143,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_238",
+      "id": "dsn_paid_139",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What type of bird is Kevin?",
       "options": [
@@ -1015,10 +1159,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_239",
+      "id": "dsn_paid_140",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "In 'Toy Story', who is Andy's favorite toy?",
       "options": [
@@ -1031,10 +1175,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_240",
+      "id": "dsn_paid_141",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What kind of dinosaur is Rex?",
       "options": [
@@ -1047,10 +1191,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_241",
+      "id": "dsn_paid_142",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Monsters, Inc.', what is Sully's full name?",
       "options": [
@@ -1063,10 +1207,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_242",
+      "id": "dsn_paid_143",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What is Mike Wazowski's girlfriend's name?",
       "options": [
@@ -1079,10 +1223,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_243",
+      "id": "dsn_paid_144",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Finding Dory', what is Dory looking for?",
       "options": [
@@ -1095,10 +1239,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_244",
+      "id": "dsn_paid_145",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Brave', what is Merida's weapon of choice?",
       "options": [
@@ -1111,10 +1255,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_245",
+      "id": "dsn_paid_146",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What does Merida's mother turn into?",
       "options": [
@@ -1127,10 +1271,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_246",
+      "id": "dsn_paid_147",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "In 'Inside Out', who is the main character?",
       "options": [
@@ -1143,10 +1287,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_247",
+      "id": "dsn_paid_148",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What sport does Riley play?",
       "options": [
@@ -1159,10 +1303,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_248",
+      "id": "dsn_paid_149",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Coco', what is forbidden in Miguel's family?",
       "options": [
@@ -1175,26 +1319,26 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_249",
+      "id": "dsn_paid_150",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "What is the name of Miguel's spirit guide dog?",
       "options": [
         "Dante",
         "Pepita",
-        "Héctor",
+        "H\u00e9ctor",
         "Ernesto"
       ],
       "correct_answer": "Dante",
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_250",
+      "id": "dsn_paid_151",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'The Good Dinosaur', what is Arlo?",
       "options": [
@@ -1207,10 +1351,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_251",
+      "id": "dsn_paid_152",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "In 'Cars 2', where does Lightning compete?",
       "options": [
@@ -1223,10 +1367,10 @@
       "difficulty": "easy"
     },
     {
-      "id": "pxr_paid_252",
+      "id": "dsn_paid_153",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Plot & Story",
       "question": "What year was 'Toy Story' released?",
       "options": [
@@ -1239,10 +1383,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_253",
+      "id": "dsn_paid_154",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Plot & Story",
       "question": "Who directed 'Toy Story'?",
       "options": [
@@ -1255,10 +1399,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_254",
+      "id": "dsn_paid_155",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Plot & Story",
       "question": "In 'Toy Story 2', what is Woody's origin?",
       "options": [
@@ -1271,10 +1415,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_255",
+      "id": "dsn_paid_156",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "Who is the prospector in 'Toy Story 2'?",
       "options": [
@@ -1287,10 +1431,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_256",
+      "id": "dsn_paid_157",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Finding Nemo', what happened to Nemo's mother?",
       "options": [
@@ -1303,10 +1447,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_257",
+      "id": "dsn_paid_158",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "What is the name of the dentist in 'Finding Nemo'?",
       "options": [
@@ -1319,10 +1463,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_258",
+      "id": "dsn_paid_159",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'The Incredibles', what was the name of Mr. Incredible's robot enemy?",
       "options": [
@@ -1335,10 +1479,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_259",
+      "id": "dsn_paid_160",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What is Syndrome's real name?",
       "options": [
@@ -1351,10 +1495,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_260",
+      "id": "dsn_paid_161",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "In 'Cars', what town does Lightning McQueen get stranded in?",
       "options": [
@@ -1367,10 +1511,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_261",
+      "id": "dsn_paid_162",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "Who is Lightning McQueen's sponsor?",
       "options": [
@@ -1383,10 +1527,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_262",
+      "id": "dsn_paid_163",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Ratatouille', what is Chef Gusteau's motto?",
       "options": [
@@ -1399,10 +1543,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_263",
+      "id": "dsn_paid_164",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "Who is the head chef when Remy arrives?",
       "options": [
@@ -1415,10 +1559,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_264",
+      "id": "dsn_paid_165",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'WALL-E', what is EVE's purpose?",
       "options": [
@@ -1431,10 +1575,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_265",
+      "id": "dsn_paid_166",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "What is the name of the ship in 'WALL-E'?",
       "options": [
@@ -1447,10 +1591,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_266",
+      "id": "dsn_paid_167",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "In 'Up', who is the villain?",
       "options": [
@@ -1463,10 +1607,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_267",
+      "id": "dsn_paid_168",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What is Doug's special collar ability?",
       "options": [
@@ -1479,10 +1623,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_268",
+      "id": "dsn_paid_169",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Brave', how many brothers does Merida have?",
       "options": [
@@ -1495,10 +1639,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_269",
+      "id": "dsn_paid_170",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What are the triplets' names?",
       "options": [
@@ -1511,10 +1655,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_270",
+      "id": "dsn_paid_171",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "In 'Inside Out', where do Riley and her family move?",
       "options": [
@@ -1527,10 +1671,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_271",
+      "id": "dsn_paid_172",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Plot & Story",
       "question": "What happens when Joy and Sadness get lost?",
       "options": [
@@ -1543,15 +1687,15 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_272",
+      "id": "dsn_paid_173",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Music & Songs",
       "question": "In 'Coco', who is the famous musician Miguel admires?",
       "options": [
         "Ernesto de la Cruz",
-        "Héctor",
+        "H\u00e9ctor",
         "Imelda",
         "Dante"
       ],
@@ -1559,10 +1703,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_273",
+      "id": "dsn_paid_174",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What is the family business in 'Coco'?",
       "options": [
@@ -1575,26 +1719,26 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_274",
+      "id": "dsn_paid_175",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Music & Songs",
       "question": "Who actually wrote the songs in 'Coco'?",
       "options": [
-        "Héctor",
+        "H\u00e9ctor",
         "Ernesto",
         "Miguel",
         "Imelda"
       ],
-      "correct_answer": "Héctor",
+      "correct_answer": "H\u00e9ctor",
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_275",
+      "id": "dsn_paid_176",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "In 'Toy Story 4', what is the name of the new toy Bonnie makes?",
       "options": [
@@ -1607,10 +1751,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_276",
+      "id": "dsn_paid_177",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "Who is the villain in 'Toy Story 4'?",
       "options": [
@@ -1623,10 +1767,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_277",
+      "id": "dsn_paid_178",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Soul', what is Joe Gardner's passion?",
       "options": [
@@ -1639,10 +1783,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_278",
+      "id": "dsn_paid_179",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What is the 'Great Before' in 'Soul'?",
       "options": [
@@ -1655,10 +1799,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_279",
+      "id": "dsn_paid_180",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Luca', what are Luca and Alberto?",
       "options": [
@@ -1671,10 +1815,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_280",
+      "id": "dsn_paid_181",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "Where is 'Luca' set?",
       "options": [
@@ -1687,10 +1831,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_281",
+      "id": "dsn_paid_182",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Turning Red', what animal does Mei turn into?",
       "options": [
@@ -1703,10 +1847,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_282",
+      "id": "dsn_paid_183",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What boy band is Mei obsessed with?",
       "options": [
@@ -1719,10 +1863,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_283",
+      "id": "dsn_paid_184",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Lightyear', what is Buzz's mission?",
       "options": [
@@ -1735,10 +1879,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_284",
+      "id": "dsn_paid_185",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "Who is Sox in 'Lightyear'?",
       "options": [
@@ -1751,10 +1895,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_285",
+      "id": "dsn_paid_186",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Elemental', what are the four elements?",
       "options": [
@@ -1767,10 +1911,10 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_286",
+      "id": "dsn_paid_187",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "In 'Onward', what are the two brothers trying to do?",
       "options": [
@@ -1783,26 +1927,26 @@
       "difficulty": "medium"
     },
     {
-      "id": "pxr_paid_287",
+      "id": "dsn_paid_188",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Characters",
       "question": "Who was the first character Pixar ever animated?",
       "options": [
-        "André and Wally B.",
+        "Andr\u00e9 and Wally B.",
         "Luxo Jr.",
         "Tin Toy",
         "Red's Dream"
       ],
-      "correct_answer": "André and Wally B.",
+      "correct_answer": "Andr\u00e9 and Wally B.",
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_288",
+      "id": "dsn_paid_189",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What was Pixar's first feature film?",
       "options": [
@@ -1815,10 +1959,10 @@
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_289",
+      "id": "dsn_paid_190",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "Who directed 'Inside Out'?",
       "options": [
@@ -1831,10 +1975,10 @@
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_290",
+      "id": "dsn_paid_191",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "Who directed 'WALL-E'?",
       "options": [
@@ -1847,10 +1991,10 @@
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_291",
+      "id": "dsn_paid_192",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "Who directed 'Up'?",
       "options": [
@@ -1863,10 +2007,10 @@
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_292",
+      "id": "dsn_paid_193",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar film won the first Academy Award for Best Animated Feature?",
       "options": [
@@ -1879,10 +2023,10 @@
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_293",
+      "id": "dsn_paid_194",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Music & Songs",
       "question": "Who composed the music for 'Up', 'Inside Out', and 'Coco'?",
       "options": [
@@ -1895,10 +2039,10 @@
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_294",
+      "id": "dsn_paid_195",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Locations & Settings",
       "question": "What is the Pizza Planet truck's significance?",
       "options": [
@@ -1911,10 +2055,10 @@
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_295",
+      "id": "dsn_paid_196",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What short film is shown before 'Coco'?",
       "options": [
@@ -1927,10 +2071,10 @@
       "difficulty": "hard"
     },
     {
-      "id": "pxr_paid_296",
+      "id": "dsn_paid_197",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Disney",
       "subtopic": "Trivia & Facts",
       "question": "What year did Disney acquire Pixar?",
       "options": [
@@ -1946,7 +2090,7 @@
       "id": "pxr_paid_198",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Characters",
       "question": "What is the name of the toy cowboy in Toy Story?",
       "options": [
@@ -1962,7 +2106,7 @@
       "id": "pxr_paid_199",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Characters",
       "question": "What is the name of the rat in Ratatouille?",
       "options": [
@@ -1978,7 +2122,7 @@
       "id": "pxr_paid_200",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Locations & Settings",
       "question": "In Monsters, Inc., what powers the city?",
       "options": [
@@ -1994,7 +2138,7 @@
       "id": "pxr_paid_201",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Characters",
       "question": "What is the name of the garbage robot in WALL-E?",
       "options": [
@@ -2010,7 +2154,7 @@
       "id": "pxr_paid_202",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Characters",
       "question": "What is the name of the pizza restaurant in Toy Story?",
       "options": [
@@ -2026,7 +2170,7 @@
       "id": "pxr_paid_203",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "In Cars, what is Lightning McQueen's number?",
       "options": [
@@ -2042,7 +2186,7 @@
       "id": "pxr_paid_204",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "In Up, what does Carl use to make his house fly?",
       "options": [
@@ -2058,7 +2202,7 @@
       "id": "pxr_paid_205",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Characters",
       "question": "What is the name of the college Mike and Sully attend?",
       "options": [
@@ -2074,7 +2218,7 @@
       "id": "pxr_paid_206",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "In Coco, what is Miguel's family business?",
       "options": [
@@ -2090,7 +2234,7 @@
       "id": "pxr_paid_207",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Characters",
       "question": "What is the name of the main emotion that controls Riley's personality in Inside Out?",
       "options": [
@@ -2106,7 +2250,7 @@
       "id": "pxr_paid_208",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Woody and Buzz?",
       "options": [
@@ -2122,7 +2266,7 @@
       "id": "pxr_paid_209",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Lightning McQueen?",
       "options": [
@@ -2138,7 +2282,7 @@
       "id": "pxr_paid_210",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Sully and Mike?",
       "options": [
@@ -2154,7 +2298,7 @@
       "id": "pxr_paid_211",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Eve?",
       "options": [
@@ -2170,7 +2314,7 @@
       "id": "pxr_paid_212",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Carl and Russell?",
       "options": [
@@ -2186,7 +2330,7 @@
       "id": "pxr_paid_213",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Miguel?",
       "options": [
@@ -2202,7 +2346,7 @@
       "id": "pxr_paid_214",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Ian and Barley?",
       "options": [
@@ -2218,7 +2362,7 @@
       "id": "pxr_paid_215",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Joe Gardner?",
       "options": [
@@ -2234,7 +2378,7 @@
       "id": "pxr_paid_216",
       "category": "Entertainment",
       "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
+      "topic": "Pixar",
       "subtopic": "Trivia & Facts",
       "question": "What Pixar movie featured Mei Lee?",
       "options": [
@@ -2641,7 +2785,7 @@
         "Remember Me",
         "Un Poco Loco",
         "La Llorona",
-        "Proud Corazón"
+        "Proud Coraz\u00f3n"
       ],
       "correct_answer": "Remember Me",
       "difficulty": "easy"
@@ -3404,12 +3548,12 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "What song does Héctor sing to Coco in his memory?",
+      "question": "What song does H\u00e9ctor sing to Coco in his memory?",
       "options": [
         "Remember Me",
         "Un Poco Loco",
         "La Llorona",
-        "Proud Corazón"
+        "Proud Coraz\u00f3n"
       ],
       "correct_answer": "Remember Me",
       "difficulty": "easy"
@@ -4220,14 +4364,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Quotes & Moments",
-      "question": "What does Miguel tell Mama Coco about Héctor?",
+      "question": "What does Miguel tell Mama Coco about H\u00e9ctor?",
       "options": [
-        "Papa Héctor loves her and wrote 'Remember Me' for her",
+        "Papa H\u00e9ctor loves her and wrote 'Remember Me' for her",
         "He's famous",
         "He's coming back",
         "He's a great musician"
       ],
-      "correct_answer": "Papa Héctor loves her and wrote 'Remember Me' for her",
+      "correct_answer": "Papa H\u00e9ctor loves her and wrote 'Remember Me' for her",
       "difficulty": "hard"
     },
     {
@@ -4495,7 +4639,7 @@
       "question": "Who voices Miguel in 'Coco'?",
       "options": [
         "Anthony Gonzalez",
-        "Gael García Bernal",
+        "Gael Garc\u00eda Bernal",
         "Benjamin Bratt",
         "Edward James Olmos"
       ],
@@ -4620,14 +4764,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "Who voices Héctor in 'Coco'?",
+      "question": "Who voices H\u00e9ctor in 'Coco'?",
       "options": [
-        "Gael García Bernal",
+        "Gael Garc\u00eda Bernal",
         "Anthony Gonzalez",
         "Benjamin Bratt",
         "Alanna Ubach"
       ],
-      "correct_answer": "Gael García Bernal",
+      "correct_answer": "Gael Garc\u00eda Bernal",
       "difficulty": "medium"
     },
     {
@@ -5020,7 +5164,7 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "What happens to Héctor if Coco forgets him in 'Coco'?",
+      "question": "What happens to H\u00e9ctor if Coco forgets him in 'Coco'?",
       "options": [
         "He will disappear forever (the Final Death)",
         "He will sleep",
@@ -5041,7 +5185,7 @@
         "The road",
         "The courthouse",
         "A statue",
-        "Flo's café"
+        "Flo's caf\u00e9"
       ],
       "correct_answer": "The road",
       "difficulty": "easy"
@@ -5329,7 +5473,7 @@
         "Un Poco Loco",
         "Remember Me",
         "La Llorona",
-        "Proud Corazón"
+        "Proud Coraz\u00f3n"
       ],
       "correct_answer": "Un Poco Loco",
       "difficulty": "medium"
@@ -5614,7 +5758,7 @@
       "subtopic": "Music & Songs",
       "question": "Who performed 'Remember Me' from 'Coco'?",
       "options": [
-        "Miguel and Héctor",
+        "Miguel and H\u00e9ctor",
         "Ernesto de la Cruz",
         "Mama Coco",
         "All of the above"
@@ -6277,150 +6421,6 @@
       ],
       "correct_answer": "Buttercup",
       "difficulty": "medium"
-    },
-    {
-      "id": "pxr_paid_297",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Trivia & Facts",
-      "question": "What type of car is Lightning McQueen?",
-      "options": [
-        "Race car",
-        "Sports car",
-        "Sedan",
-        "Truck"
-      ],
-      "correct_answer": "Race car",
-      "difficulty": "easy"
-    },
-    {
-      "id": "pxr_paid_298",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Trivia & Facts",
-      "question": "In 'Coco', what is Miguel's dream?",
-      "options": [
-        "To be a musician",
-        "To be a dancer",
-        "To be a painter",
-        "To be a singer"
-      ],
-      "correct_answer": "To be a musician",
-      "difficulty": "easy"
-    },
-    {
-      "id": "pxr_paid_299",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Characters",
-      "question": "What is the name of the cooking critic in 'Ratatouille'?",
-      "options": [
-        "Anton Ego",
-        "Gusteau",
-        "Skinner",
-        "Colette"
-      ],
-      "correct_answer": "Anton Ego",
-      "difficulty": "medium"
-    },
-    {
-      "id": "pxr_paid_300",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Trivia & Facts",
-      "question": "In 'Finding Nemo', what is Nemo's dad's name?",
-      "options": [
-        "Marlin",
-        "Bruce",
-        "Gill",
-        "Crush"
-      ],
-      "correct_answer": "Marlin",
-      "difficulty": "easy"
-    },
-    {
-      "id": "pxr_paid_301",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Characters",
-      "question": "What is the name of the superhero family in 'The Incredibles'?",
-      "options": [
-        "The Parrs",
-        "The Supers",
-        "The Incredibles",
-        "The Powers"
-      ],
-      "correct_answer": "The Parrs",
-      "difficulty": "medium"
-    },
-    {
-      "id": "pxr_paid_302",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Trivia & Facts",
-      "question": "In 'Inside Out', what are the five emotions?",
-      "options": [
-        "Joy, Sadness, Anger, Fear, Disgust",
-        "Happy, Sad, Mad, Scared, Grossed Out",
-        "Love, Hate, Fear, Joy, Anger",
-        "None"
-      ],
-      "correct_answer": "Joy, Sadness, Anger, Fear, Disgust",
-      "difficulty": "easy"
-    },
-    {
-      "id": "pxr_paid_303",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Characters",
-      "question": "What is the name of Lightning McQueen's best friend in 'Cars'?",
-      "options": [
-        "Mater",
-        "Doc Hudson",
-        "Sally",
-        "Luigi"
-      ],
-      "correct_answer": "Mater",
-      "difficulty": "easy"
-    },
-    {
-      "id": "pxr_paid_304",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Plot & Story",
-      "question": "In 'Toy Story', what is Buzz Lightyear's catchphrase?",
-      "options": [
-        "To infinity and beyond",
-        "You've got a friend in me",
-        "Reach for the sky",
-        "There's a snake in my boot"
-      ],
-      "correct_answer": "To infinity and beyond",
-      "difficulty": "easy"
-    },
-    {
-      "id": "pxr_paid_305",
-      "category": "Entertainment",
-      "subcategory": "Animation",
-      "topic": "com.fiz.pack.pixar",
-      "subtopic": "Characters",
-      "question": "In 'Toy Story', what is the name of Andy's favorite toy?",
-      "options": [
-        "Woody",
-        "Buzz Lightyear",
-        "Rex",
-        "Slinky Dog"
-      ],
-      "correct_answer": "Woody",
-      "difficulty": "easy"
     }
   ],
   "isPublished": false

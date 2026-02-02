@@ -198,9 +198,9 @@ enum OnboardingFeature {
 
     var color: Color {
         switch self {
-        case .difficulty, .gameModes, .answerPopupAndHistory, .expansionPacks:
+        case .difficulty, .gameModes, .expansionPacks:
             return .fizOrange
-        case .phobiaFilters:
+        case .phobiaFilters, .answerPopupAndHistory:
             return .fizTeal
         }
     }

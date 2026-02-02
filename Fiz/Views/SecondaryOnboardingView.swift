@@ -10,6 +10,7 @@ struct SecondaryOnboardingView: View {
         .difficulty,
         .gameModes,
         .phobiaFilters,
+        .answerPopupAndHistory,
         .expansionPacks
     ]
 
@@ -177,6 +178,7 @@ enum OnboardingFeature {
     case difficulty
     case phobiaFilters
     case gameModes
+    case answerPopupAndHistory
     case expansionPacks
 
     var icon: String {
@@ -187,6 +189,8 @@ enum OnboardingFeature {
             return "eye.slash.fill"
         case .gameModes:
             return "circle.grid.cross.left.filled"
+        case .answerPopupAndHistory:
+            return "clock.badge.checkmark"
         case .expansionPacks:
             return "rectangle.stack.badge.plus"
         }
@@ -194,7 +198,7 @@ enum OnboardingFeature {
 
     var color: Color {
         switch self {
-        case .difficulty, .gameModes, .expansionPacks:
+        case .difficulty, .gameModes, .answerPopupAndHistory, .expansionPacks:
             return .fizOrange
         case .phobiaFilters:
             return .fizTeal
@@ -209,6 +213,8 @@ enum OnboardingFeature {
             return "Stay Comfortable with Phobia Filters"
         case .gameModes:
             return "Play Your Way with Game Modes"
+        case .answerPopupAndHistory:
+            return "Customize Answer Timing and Review Your History"
         case .expansionPacks:
             return "Add More Questions with Expansion Packs"
         }
@@ -222,6 +228,8 @@ enum OnboardingFeature {
             return "Add Phobia Filters to exclude questions & topics that make you uncomfortable. Your wellbeing matters to us."
         case .gameModes:
             return "Choose what questions to answer in Multi-Category Mode or use Single Category Mode and Single Topic Mode to focus in and master a specific area, question by question."
+        case .answerPopupAndHistory:
+            return "Control how long correct and incorrect answer popups display, and revisit all your answered questions in Question History to track your progress and learn from your answers."
         case .expansionPacks:
             return "Purchase Expansion Packs from our Store to add more questions from your favorite topics to your game. Each available Expansion Pack includes free preview questions for all players, whether you purchase it or not!"
         }

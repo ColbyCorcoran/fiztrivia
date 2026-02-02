@@ -1286,7 +1286,7 @@ class CategorySelectionManager: ObservableObject {
 class SwipeNavigationManager: ObservableObject {
     private static let swipeNavigationEnabledKey = "swipe_navigation_enabled"
 
-    @Published var isSwipeNavigationEnabled: Bool = false
+    @Published var isSwipeNavigationEnabled: Bool = true
 
     static let shared = SwipeNavigationManager()
 
@@ -1295,11 +1295,11 @@ class SwipeNavigationManager: ObservableObject {
     }
 
     private func loadSettings() {
-        // Default to false (opt-in for accessibility)
+        // Default to true (opt-out for accessibility)
         if UserDefaults.standard.object(forKey: Self.swipeNavigationEnabledKey) != nil {
             isSwipeNavigationEnabled = UserDefaults.standard.bool(forKey: Self.swipeNavigationEnabledKey)
         } else {
-            isSwipeNavigationEnabled = false
+            isSwipeNavigationEnabled = true
         }
     }
 

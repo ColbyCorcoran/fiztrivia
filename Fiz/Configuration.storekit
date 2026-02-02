@@ -1,4 +1,14 @@
 {
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
   "identifier" : "D8F8E7A3",
   "nonRenewingSubscriptions" : [
 
@@ -78,55 +88,69 @@
       "productID" : "com.fiz.pack.the_office",
       "referenceName" : "Dunder Mifflinfinity Pack",
       "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.69",
+      "familyShareable" : true,
+      "internalID" : "B8121B45",
+      "localizations" : [
+        {
+          "description" : "Explore beloved computer-animated classics with 400 questions about toys, fish, monsters, superheroes, emotions, and unforgettable family adventures.",
+          "displayName" : "Lamp Light Animation Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.pixar",
+      "referenceName" : "Lamp Light Animation Pack",
+      "type" : "NonConsumable"
     }
   ],
   "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
     "_failTransactionsEnabled" : false,
     "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
     "_storefront" : "USA",
     "_storeKitErrors" : [
       {
-        "current" : null,
         "enabled" : false,
         "name" : "Load Products"
       },
       {
-        "current" : null,
         "enabled" : false,
         "name" : "Purchase"
       },
       {
-        "current" : null,
         "enabled" : false,
         "name" : "Verification"
       },
       {
-        "current" : null,
         "enabled" : false,
         "name" : "App Transaction"
       },
       {
-        "current" : null,
         "enabled" : false,
         "name" : "Manage Subscriptions Sheet"
       },
       {
-        "current" : null,
         "enabled" : false,
         "name" : "Refund Request Sheet"
       },
       {
-        "current" : null,
         "enabled" : false,
         "name" : "Offer Code Redeem Sheet"
       }
-    ]
+    ],
+    "_timeRate" : 0
   },
   "subscriptionGroups" : [
 
   ],
   "version" : {
-    "major" : 3,
+    "major" : 4,
     "minor" : 0
   }
 }

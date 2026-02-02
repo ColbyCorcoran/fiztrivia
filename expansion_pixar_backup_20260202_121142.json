@@ -18,7 +18,7 @@
     "hard": 73
   },
   "price": 0.69,
-  "icon": "lamp.desk.fill",
+  "icon": "sparkles",
   "freePreviewQuestions": [
     {
       "id": "pxr_109",
@@ -6423,5 +6423,5 @@
       "difficulty": "easy"
     }
   ],
-  "isPublished": true
+  "isPublished": false
 }

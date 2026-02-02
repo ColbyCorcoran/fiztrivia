@@ -59,7 +59,7 @@ Launch → Onboarding → Wheel → Question → Result → Repeat
 
 ### Question Database
 
-**2,107 base questions + 5 expansion packs**
+**2,107 base questions + 6 expansion packs**
 
 **12 Categories**: Entertainment, Sports, Music, Technology, Art, Geography, Science, Literature, Nature, History, Bible, Food (each with 4-6 subcategories)
 
@@ -68,7 +68,8 @@ Launch → Onboarding → Wheel → Question → Result → Repeat
 2. Pokémon (500q, $2.99) - 6 subtopics
 3. 80s Trivia (400q, $2.99) - 6 subtopics
 4. Disney (500q, $2.99) - 6 subtopics
-5. The Office (300q, $1.99) - 6 subtopics
+5. Lamp Light Animation / Pixar (400q, $2.99) - 6 subtopics
+6. The Office (300q, $1.99) - 6 subtopics
 
 **Question Fields**: Base has `id`, `category`, `subcategory`, `question`, `options[]`, `correct_answer`, `difficulty`. Expansion adds `topic` (packId), `subtopic`.
 
@@ -153,9 +154,11 @@ Fiz/
 
 ### Recent Updates
 
+**Pixar Pack ID Fix** (Feb 2, 2026): Corrected 108 questions with incorrect Disney IDs and topic fields to use proper Pixar ID format (pxr_*) and standardized topic field to "com.fiz.pack.pixar"
+
 **Analytics** (Jan 19, 2026): Opt-in by default, 57+ events, store/cart/checkout funnel tracking, cart abandonment, discount analytics
 
-**Expansion Packs**: StoreKit 2 IAP, store UI, cart system, Single Topic Mode, 5 launch packs (HP, Pokémon, 80s, Disney, The Office), 10% free previews
+**Expansion Packs**: StoreKit 2 IAP, store UI, cart system, Single Topic Mode, 6 launch packs (HP, Pokémon, 80s, Disney, Pixar, The Office), 10% free previews
 
 **Features**: Multi-Category mode consolidation, 6 app icons, settings reorganization, iOS 26 glass buttons, progress tracking, protocol-based subcategories
 

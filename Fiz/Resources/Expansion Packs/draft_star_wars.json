@@ -23,7 +23,7 @@
   "freePreviewQuestions": [],
   "paidQuestions": [
     {
-      "id": "ent_325",
+      "id": "swg_001",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Who is Luke Skywalker's father?",
@@ -35,11 +35,11 @@
       ],
       "correct_answer": "Darth Vader",
       "difficulty": "easy",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Jedi & Light Side"
     },
     {
-      "id": "ent_326",
+      "id": "swg_002",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What color is Mace Windu's lightsaber?",
@@ -51,11 +51,11 @@
       ],
       "correct_answer": "Purple",
       "difficulty": "medium",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Jedi & Light Side"
     },
     {
-      "id": "ent_327",
+      "id": "swg_003",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Who said 'Do or do not, there is no try'?",
@@ -67,11 +67,11 @@
       ],
       "correct_answer": "Yoda",
       "difficulty": "easy",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Jedi & Light Side"
     },
     {
-      "id": "ent_328",
+      "id": "swg_004",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Who is the bounty hunter that captured Han Solo?",
@@ -83,11 +83,11 @@
       ],
       "correct_answer": "Boba Fett",
       "difficulty": "medium",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Characters & Allies"
     },
     {
-      "id": "ent_329",
+      "id": "swg_005",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the name of the Wookiee homeworld?",
@@ -99,11 +99,11 @@
       ],
       "correct_answer": "Kashyyyk",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Planets & Locations"
     },
     {
-      "id": "ent_330",
+      "id": "swg_006",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the name of Boba Fett's ship?",
@@ -115,11 +115,11 @@
       ],
       "correct_answer": "Slave I",
       "difficulty": "medium",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Ships & Technology"
     },
     {
-      "id": "ent_331",
+      "id": "swg_007",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What color is C-3PO's arm in The Force Awakens?",
@@ -131,11 +131,11 @@
       ],
       "correct_answer": "Red",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Ships & Technology"
     },
     {
-      "id": "ent_332",
+      "id": "swg_008",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is Baby Yoda's real name?",
@@ -147,11 +147,11 @@
       ],
       "correct_answer": "Grogu",
       "difficulty": "medium",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Jedi & Light Side"
     },
     {
-      "id": "ent_333",
+      "id": "swg_009",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is Mando's real name in The Mandalorian?",
@@ -163,11 +163,11 @@
       ],
       "correct_answer": "Din Djarin",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Trivia & Lore"
     },
     {
-      "id": "ent_334",
+      "id": "swg_010",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What was Finn's stormtrooper number?",
@@ -179,11 +179,11 @@
       ],
       "correct_answer": "FN-2187",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Characters & Allies"
     },
     {
-      "id": "ent_335",
+      "id": "swg_011",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What planet is Coruscant known as?",
@@ -195,11 +195,11 @@
       ],
       "correct_answer": "All of the above",
       "difficulty": "medium",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Planets & Locations"
     },
     {
-      "id": "ent_336",
+      "id": "swg_012",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What odds does C-3PO give for successfully navigating an asteroid field?",
@@ -211,11 +211,11 @@
       ],
       "correct_answer": "3,720 to 1",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Ships & Technology"
     },
     {
-      "id": "ent_337",
+      "id": "swg_013",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What planet was destroyed by the Death Star in A New Hope?",
@@ -227,11 +227,11 @@
       ],
       "correct_answer": "Alderaan",
       "difficulty": "medium",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Planets & Locations"
     },
     {
-      "id": "ent_338",
+      "id": "swg_014",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the name of the forest moon where the Ewoks live?",
@@ -243,11 +243,11 @@
       ],
       "correct_answer": "Endor",
       "difficulty": "medium",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Planets & Locations"
     },
     {
-      "id": "ent_339",
+      "id": "swg_015",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the name of Obi-Wan's master?",
@@ -259,11 +259,11 @@
       ],
       "correct_answer": "Qui-Gon Jinn",
       "difficulty": "medium",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Jedi & Light Side"
     },
     {
-      "id": "ent_340",
+      "id": "swg_016",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the name of Han Solo's co-pilot?",
@@ -275,11 +275,11 @@
       ],
       "correct_answer": "Chewbacca",
       "difficulty": "easy",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Characters & Allies"
     },
     {
-      "id": "ent_341",
+      "id": "swg_017",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the name of the Clone Wars' first major battle?",
@@ -291,11 +291,11 @@
       ],
       "correct_answer": "Battle of Geonosis",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Battles & Events"
     },
     {
-      "id": "ent_342",
+      "id": "swg_018",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Who trained Count Dooku in the Sith ways?",
@@ -307,11 +307,11 @@
       ],
       "correct_answer": "Darth Sidious",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Sith & Dark Side"
     },
     {
-      "id": "ent_343",
+      "id": "swg_019",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the Mandalorian's ship called in the Disney+ series?",
@@ -323,11 +323,11 @@
       ],
       "correct_answer": "Razor Crest",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Ships & Technology"
     },
     {
-      "id": "ent_344",
+      "id": "swg_020",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Which planet is the original home of the Chiss species?",
@@ -339,11 +339,11 @@
       ],
       "correct_answer": "Csilla",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Planets & Locations"
     },
     {
-      "id": "ent_345",
+      "id": "swg_021",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Who designed the Death Star's superlaser?",
@@ -355,11 +355,11 @@
       ],
       "correct_answer": "Galen Erso",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Ships & Technology"
     },
     {
-      "id": "ent_346",
+      "id": "swg_022",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the formal name for Order 66?",
@@ -371,11 +371,11 @@
       ],
       "correct_answer": "Contingency Order 66",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Battles & Events"
     },
     {
-      "id": "ent_347",
+      "id": "swg_023",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Which Jedi Master discovered Anakin Skywalker?",
@@ -387,11 +387,11 @@
       ],
       "correct_answer": "Qui-Gon Jinn",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Jedi & Light Side"
     },
     {
-      "id": "ent_348",
+      "id": "swg_024",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What species is Admiral Ackbar?",
@@ -403,11 +403,11 @@
       ],
       "correct_answer": "Mon Calamari",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Trivia & Lore"
     },
     {
-      "id": "ent_349",
+      "id": "swg_025",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the name of the original Sith homeworld?",
@@ -419,11 +419,11 @@
       ],
       "correct_answer": "Korriban",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Sith & Dark Side"
     },
     {
-      "id": "ent_350",
+      "id": "swg_026",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Who originally built C-3PO?",
@@ -435,11 +435,11 @@
       ],
       "correct_answer": "Anakin Skywalker",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Ships & Technology"
     },
     {
-      "id": "ent_351",
+      "id": "swg_027",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "Who captured Han Solo in carbonite?",
@@ -451,11 +451,11 @@
       ],
       "correct_answer": "Boba Fett",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Characters & Allies"
     },
     {
-      "id": "ent_352",
+      "id": "swg_028",
       "category": "Entertainment",
       "subcategory": "Sci-Fi/Fantasy",
       "question": "What is the name of Jabba's sail barge?",
@@ -467,8 +467,8 @@
       ],
       "correct_answer": "Khetanna",
       "difficulty": "hard",
-      "topic": "Star Wars",
-      "subtopic": null
+      "topic": "com.fiz.pack.star_wars",
+      "subtopic": "Planets & Locations"
     }
   ],
   "isPublished": false

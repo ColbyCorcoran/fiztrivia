@@ -1,7 +1,7 @@
 {
   "packId": "com.fiz.pack.marvel",
   "packName": "The Cinematic Universe",
-  "packDescription": "Test your knowledge of the cinematic superhero universe with 500+ questions spanning blockbuster films, comic book legends, iconic heroes, villains, and epic storylines.",
+  "packDescription": "Test your knowledge of the cinematic superhero universe with 500 questions spanning blockbuster films, comic book legends, iconic heroes, villains, and epic storylines.",
   "subtopics": [
     "Heroes & Characters",
     "Villains & Antagonists",
@@ -18,7 +18,8 @@
     "hard": 168
   },
   "price": 0.99,
-  "icon": "shield",
+  "icon": "shield.righthalf.filled",
+  "releaseDate": "2026-02-03T00:00:00Z",
   "freePreviewQuestions": [
     {
       "id": "mcu_001",
@@ -8023,5 +8024,5 @@
       "subtopic": "Trivia & Events"
     }
   ],
-  "isPublished": false
+  "isPublished": true
 }

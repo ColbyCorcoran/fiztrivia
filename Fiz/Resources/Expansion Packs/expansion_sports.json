@@ -18,7 +18,8 @@
     "hard": 101
   },
   "price": 0.99,
-  "icon": "sportscourt",
+  "icon": "sportscourt.fill",
+  "releaseDate": "2026-02-03T00:00:00Z",
   "freePreviewQuestions": [
     {
       "id": "spt_001",
@@ -2828,9 +2829,9 @@
       "subcategory": "Individual Sports",
       "question": "How far do you stand from a dartboard?",
       "options": [
-        "6 feet",
+        "6 feet 6.5 inches",
         "7 feet 9.25 inches",
-        "8 feet",
+        "8 feet 4 inches",
         "10 feet"
       ],
       "correct_answer": "7 feet 9.25 inches",
@@ -2842,7 +2843,7 @@
       "id": "spt_177",
       "category": "Sports",
       "subcategory": "Individual Sports",
-      "question": "In darts, what is the standard starting score in a game of 501?",
+      "question": "In darts, what is the standard starting score in a game?",
       "options": [
         "301",
         "401",
@@ -8023,5 +8024,5 @@
       "subtopic": "Championships & Tournaments"
     }
   ],
-  "isPublished": false
+  "isPublished": true
 }

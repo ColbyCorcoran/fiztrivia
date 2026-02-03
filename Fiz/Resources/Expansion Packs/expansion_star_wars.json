@@ -1,7 +1,7 @@
 {
   "packId": "com.fiz.pack.star_wars",
   "packName": "A Galaxy Far, Far Away",
-  "packDescription": "Journey through an epic space saga with questions about legendary heroes, iconic villains, ancient orders, epic battles, and adventures spanning the entire galaxy.",
+  "packDescription": "Journey through an epic space saga with 500 questions about legendary heroes, iconic villains, ancient orders, epic battles, and adventures spanning the entire galaxy.",
   "subtopics": [
     "Jedi & Light Side",
     "Sith & Dark Side",
@@ -20,6 +20,7 @@
   },
   "price": 0.99,
   "icon": "moon.stars",
+  "releaseDate": "2026-02-03T00:00:00Z",
   "freePreviewQuestions": [
     {
       "id": "swg_001",
@@ -8024,5 +8025,5 @@
       "difficulty": "medium"
     }
   ],
-  "isPublished": false
+  "isPublished": true
 }

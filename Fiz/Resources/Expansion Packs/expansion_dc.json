@@ -1,7 +1,7 @@
 {
   "packId": "com.fiz.pack.dc",
   "packName": "The Hall of Justice",
-  "packDescription": "Test your knowledge of legendary heroes and villains with questions about iconic characters, superpowers, secret identities, and epic battles from the DC universe.",
+  "packDescription": "Test your knowledge of legendary heroes and villains with 400 questions about iconic characters, superpowers, secret identities, and epic battles from this popular comic book universe.",
   "subtopics": [
     "Heroes & Allies",
     "Villains & Antagonists",
@@ -18,7 +18,8 @@
     "hard": 132
   },
   "price": 0.69,
-  "icon": "shield.lefthalf.filled",
+  "icon": "lasso.badge.sparkles",
+  "releaseDate": "2026-02-03T00:00:00Z",
   "freePreviewQuestions": [
     {
       "id": "dcu_001",
@@ -6423,5 +6424,5 @@
       "difficulty": "medium"
     }
   ],
-  "isPublished": false
+  "isPublished": true
 }

@@ -389,6 +389,35 @@ class AnalyticsManager: ObservableObject {
         ])
     }
 
+    func trackExpansionPackExpanded(packId: String, packName: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("expansion_pack_expanded", properties: [
+            "pack_id": packId,
+            "pack_name": packName
+        ])
+    }
+
+    func trackStoreFilterUsed(filterType: String, filterValue: String) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("store_filter_used", properties: [
+            "filter_type": filterType,
+            "filter_value": filterValue
+        ])
+    }
+
+    func trackStoreSearchUsed(resultCount: Int) {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("store_search_used", properties: [
+            "result_count": resultCount
+            // Note: NOT capturing search query for privacy
+        ])
+    }
+
+    func trackStoreFilterCleared() {
+        guard isAnalyticsEnabled else { return }
+        PostHogSDK.shared.capture("store_filter_cleared")
+    }
+
     func trackPurchasesRestored(packsRestored: Int) {
         guard isAnalyticsEnabled else { return }
         PostHogSDK.shared.capture("purchases_restored", properties: [

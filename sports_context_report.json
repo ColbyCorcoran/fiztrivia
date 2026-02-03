@@ -1,0 +1,229 @@
+{
+  "total_questions": 500,
+  "needs_context_count": 17,
+  "redundant_context_count": 0,
+  "needs_context": [
+    {
+      "id": "spt_037",
+      "question": "How many points is a free throw worth?",
+      "reason": "Generic counting question",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": "1",
+      "subcategory": "Team Sports"
+    },
+    {
+      "id": "spt_088",
+      "question": "How many hurdles are in a standard 110m hurdles race?",
+      "reason": "Rules question",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "answer": "10",
+      "subcategory": "International Competition"
+    },
+    {
+      "id": "spt_137",
+      "question": "How many points are needed to win a badminton game?",
+      "reason": "Generic counting question",
+      "options": [
+        "15",
+        "21",
+        "25",
+        "30"
+      ],
+      "answer": "21",
+      "subcategory": "Individual Sports"
+    },
+    {
+      "id": "spt_166",
+      "question": "How many players are on a curling team?",
+      "reason": "Generic counting question",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "4",
+      "subcategory": "International Competition"
+    },
+    {
+      "id": "spt_175",
+      "question": "How many points is the bullseye worth in darts?",
+      "reason": "Generic counting question",
+      "options": [
+        "25",
+        "50",
+        "75",
+        "100"
+      ],
+      "answer": "50",
+      "subcategory": "Individual Sports"
+    },
+    {
+      "id": "spt_177",
+      "question": "In darts, what is the standard starting score in a game of 501?",
+      "reason": "Scoring question",
+      "options": [
+        "301",
+        "401",
+        "501",
+        "601"
+      ],
+      "answer": "501",
+      "subcategory": "Individual Sports"
+    },
+    {
+      "id": "spt_179",
+      "question": "What is the highest possible score with three darts?",
+      "reason": "Scoring question",
+      "options": [
+        "180",
+        "170",
+        "160",
+        "150"
+      ],
+      "answer": "180",
+      "subcategory": "Individual Sports"
+    },
+    {
+      "id": "spt_238",
+      "question": "What does BMX stand for?",
+      "reason": "Acronym question",
+      "options": [
+        "Bicycle Motocross",
+        "Bike Motor X",
+        "Basic Mountain X",
+        "Bicycle Mixed X"
+      ],
+      "answer": "Bicycle Motocross",
+      "subcategory": "International Competition"
+    },
+    {
+      "id": "spt_249",
+      "question": "How many players are on a men's lacrosse team on the field?",
+      "reason": "Generic counting question",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "15"
+      ],
+      "answer": "10",
+      "subcategory": "Team Sports"
+    },
+    {
+      "id": "spt_258",
+      "question": "How many players are on a handball team on court?",
+      "reason": "Generic counting question",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "subcategory": "Team Sports"
+    },
+    {
+      "id": "spt_269",
+      "question": "How many players are on a polo team?",
+      "reason": "Generic counting question",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "4",
+      "subcategory": "Team Sports"
+    },
+    {
+      "id": "spt_276",
+      "question": "What surfaces do rally cars race on?",
+      "reason": "Playing surface question",
+      "options": [
+        "Gravel, snow, tarmac, dirt",
+        "Only paved roads",
+        "Only dirt",
+        "Only snow"
+      ],
+      "answer": "Gravel, snow, tarmac, dirt",
+      "subcategory": "Motorsports"
+    },
+    {
+      "id": "spt_282",
+      "question": "Who holds the most MotoGP championships?",
+      "reason": "Generic championship question",
+      "options": [
+        "Giacomo Agostini",
+        "Valentino Rossi",
+        "Marc Márquez",
+        "Jorge Lorenzo"
+      ],
+      "answer": "Giacomo Agostini",
+      "subcategory": "Motorsports"
+    },
+    {
+      "id": "spt_311",
+      "question": "In Muay Thai, what eight points of contact are used?",
+      "reason": "Scoring question",
+      "options": [
+        "Fists, elbows, knees, shins",
+        "Hands, feet, head, shoulders",
+        "Fists, feet, knees, head",
+        "Hands, elbows, feet, head"
+      ],
+      "answer": "Fists, elbows, knees, shins",
+      "subcategory": "Individual Sports"
+    },
+    {
+      "id": "spt_317",
+      "question": "How many players in singles squash?",
+      "reason": "Generic counting question",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": "2",
+      "subcategory": "Individual Sports"
+    },
+    {
+      "id": "spt_320",
+      "question": "How many points to win a game in squash?",
+      "reason": "Generic counting question",
+      "options": [
+        "11",
+        "15",
+        "21",
+        "25"
+      ],
+      "answer": "11",
+      "subcategory": "Individual Sports"
+    },
+    {
+      "id": "spt_332",
+      "question": "Where is the World Snooker Championship held?",
+      "reason": "Generic championship question",
+      "options": [
+        "Crucible Theatre, Sheffield",
+        "Wembley Stadium",
+        "Albert Hall",
+        "O2 Arena"
+      ],
+      "answer": "Crucible Theatre, Sheffield",
+      "subcategory": "Individual Sports"
+    }
+  ],
+  "redundant_context": []
+}

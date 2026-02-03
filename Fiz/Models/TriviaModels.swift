@@ -1818,6 +1818,10 @@ class ExpansionPackManager: ObservableObject {
 
     // MARK: - Purchase Management
     func isPurchased(packId: String) -> Bool {
+        // Check bypass first - if active, all packs appear purchased
+        if DeveloperBypassManager.shared.isBypassActive {
+            return true
+        }
         return purchasedPackIds.contains(packId)
     }
 
@@ -2040,5 +2044,34 @@ class ExpansionPackManager: ObservableObject {
         UserDefaults.standard.removeObject(forKey: Self.installedPacksKey)
         purchasedPackIds = []
         installedPackIds = []
+    }
+}
+
+// MARK: - Developer Bypass Manager
+class DeveloperBypassManager: ObservableObject {
+    static let shared = DeveloperBypassManager()
+
+    private static let bypassEnabledKey = "developer_bypass_enabled"
+
+    @Published var isBypassActive: Bool = false
+
+    private init() {
+        loadBypassState()
+    }
+
+    private func loadBypassState() {
+        isBypassActive = UserDefaults.standard.bool(forKey: Self.bypassEnabledKey)
+    }
+
+    func activateBypass() {
+        isBypassActive = true
+        UserDefaults.standard.set(true, forKey: Self.bypassEnabledKey)
+        print("Developer bypass activated")
+    }
+
+    func deactivateBypass() {
+        isBypassActive = false
+        UserDefaults.standard.set(false, forKey: Self.bypassEnabledKey)
+        print("Developer bypass deactivated")
     }
 }

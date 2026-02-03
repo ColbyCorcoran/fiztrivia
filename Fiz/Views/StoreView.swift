@@ -197,19 +197,19 @@ struct StoreView: View {
     private var headerSection: some View {
         VStack(spacing: 8) {
             Image(systemName: "rectangle.stack.badge.plus")
-                .font(.system(size: 44))
+                .font(.system(size: 55))
                 .foregroundColor(.fizOrange)
 
             Text("Expansion Packs")
-                .font(.title2)
+                .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.fizBrown)
 
             Text("\(filteredPacks.count) pack\(filteredPacks.count == 1 ? "" : "s") available")
-                .font(.subheadline)
+                .font(.title3)
                 .foregroundColor(.fizBrown.opacity(0.7))
         }
-        .padding(.top, 12)
+        .padding(.top, 8)
         .padding(.bottom, 8)
     }
 

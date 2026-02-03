@@ -22,7 +22,7 @@
   "freePreviewQuestions": [],
   "paidQuestions": [
     {
-      "id": "ent_353",
+      "id": "mcu_001",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "How many Infinity Stones are there?",
@@ -34,11 +34,11 @@
       ],
       "correct_answer": "Six",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Powers & Abilities"
     },
     {
-      "id": "ent_354",
+      "id": "mcu_002",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Thor's hammer?",
@@ -50,11 +50,11 @@
       ],
       "correct_answer": "Mjolnir",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_355",
+      "id": "mcu_003",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "Who created the character Spider-Man?",
@@ -66,11 +66,11 @@
       ],
       "correct_answer": "Stan Lee and Steve Ditko",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_356",
+      "id": "mcu_004",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "Who is Peter Parker's best friend in the MCU?",
@@ -82,11 +82,11 @@
       ],
       "correct_answer": "Ned Leeds",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_357",
+      "id": "mcu_005",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Thor's home realm called?",
@@ -98,11 +98,11 @@
       ],
       "correct_answer": "Asgard",
       "difficulty": "easy",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_358",
+      "id": "mcu_006",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Black Widow's real name?",
@@ -114,11 +114,11 @@
       ],
       "correct_answer": "Natasha Romanoff",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_359",
+      "id": "mcu_007",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the Hulk's real name?",
@@ -130,11 +130,11 @@
       ],
       "correct_answer": "Bruce Banner",
       "difficulty": "easy",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_360",
+      "id": "mcu_008",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What does S.W.O.R.D. stand for?",
@@ -146,11 +146,11 @@
       ],
       "correct_answer": "Sentient Weapon Observation Response Division",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_361",
+      "id": "mcu_009",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Doctor Strange's real name?",
@@ -162,11 +162,11 @@
       ],
       "correct_answer": "Stephen Strange",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_362",
+      "id": "mcu_010",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the AI that replaces JARVIS?",
@@ -178,11 +178,11 @@
       ],
       "correct_answer": "FRIDAY",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_363",
+      "id": "mcu_011",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Tony Stark's daughter?",
@@ -194,11 +194,11 @@
       ],
       "correct_answer": "Morgan Stark",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_364",
+      "id": "mcu_012",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What does TVA stand for in Loki?",
@@ -210,11 +210,11 @@
       ],
       "correct_answer": "Time Variance Authority",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Villains & Antagonists"
     },
     {
-      "id": "ent_365",
+      "id": "mcu_013",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Hawkeye's real name?",
@@ -226,11 +226,11 @@
       ],
       "correct_answer": "Clint Barton",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_366",
+      "id": "mcu_014",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the dwarf who made Thanos's gauntlet?",
@@ -242,11 +242,11 @@
       ],
       "correct_answer": "Eitri",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_367",
+      "id": "mcu_015",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Peter Quill's ship named after?",
@@ -258,11 +258,11 @@
       ],
       "correct_answer": "Alyssa Milano",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_368",
+      "id": "mcu_016",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What billionaire makes a cameo in Iron Man 2?",
@@ -274,11 +274,11 @@
       ],
       "correct_answer": "Elon Musk",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_369",
+      "id": "mcu_017",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What protocol does Tony Stark enact in Iron Man 3?",
@@ -290,11 +290,11 @@
       ],
       "correct_answer": "Clean Slate Protocol",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_370",
+      "id": "mcu_018",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What are the names of Wanda's children?",
@@ -306,11 +306,11 @@
       ],
       "correct_answer": "Billy and Tommy",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_371",
+      "id": "mcu_019",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the AI that helps Spider-Man?",
@@ -322,11 +322,11 @@
       ],
       "correct_answer": "KAREN",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_372",
+      "id": "mcu_020",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Spider-Man's real name?",
@@ -338,11 +338,11 @@
       ],
       "correct_answer": "All of the above",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_373",
+      "id": "mcu_021",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the blue cube in the first Avengers movie?",
@@ -354,11 +354,11 @@
       ],
       "correct_answer": "All of the above",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_374",
+      "id": "mcu_022",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the Wakandan herb that gives Black Panther his powers?",
@@ -370,11 +370,11 @@
       ],
       "correct_answer": "Heart-Shaped Herb",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Powers & Abilities"
     },
     {
-      "id": "ent_375",
+      "id": "mcu_023",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Spider-Man's newspaper?",
@@ -386,11 +386,11 @@
       ],
       "correct_answer": "Daily Bugle",
       "difficulty": "easy",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_376",
+      "id": "mcu_024",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the X-Men's school?",
@@ -402,11 +402,11 @@
       ],
       "correct_answer": "Xavier's School for Gifted Youngsters",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_377",
+      "id": "mcu_025",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Spider-Man's love interest?",
@@ -418,11 +418,11 @@
       ],
       "correct_answer": "All of the above",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_378",
+      "id": "mcu_026",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the Fantastic Four's building?",
@@ -434,11 +434,11 @@
       ],
       "correct_answer": "Baxter Building",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_379",
+      "id": "mcu_027",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Iron Man's AI assistant?",
@@ -450,11 +450,11 @@
       ],
       "correct_answer": "All of the above",
       "difficulty": "medium",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_380",
+      "id": "mcu_028",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the X-Men's leader?",
@@ -466,11 +466,11 @@
       ],
       "correct_answer": "Professor X",
       "difficulty": "easy",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_381",
+      "id": "mcu_029",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Deadpool's real name?",
@@ -482,11 +482,11 @@
       ],
       "correct_answer": "Wade Wilson",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_382",
+      "id": "mcu_030",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "Which Infinity Stone is hidden on Vormir?",
@@ -498,11 +498,11 @@
       ],
       "correct_answer": "Soul Stone",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Powers & Abilities"
     },
     {
-      "id": "ent_383",
+      "id": "mcu_031",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "Who created Ultron in the MCU?",
@@ -514,11 +514,11 @@
       ],
       "correct_answer": "Tony Stark and Bruce Banner",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Villains & Antagonists"
     },
     {
-      "id": "ent_384",
+      "id": "mcu_032",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What are Black Panther's elite female bodyguards called?",
@@ -530,11 +530,11 @@
       ],
       "correct_answer": "Dora Milaje",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_385",
+      "id": "mcu_033",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "Who is Peter Quill's celestial father?",
@@ -546,11 +546,11 @@
       ],
       "correct_answer": "Ego",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_386",
+      "id": "mcu_034",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What police force protects Xandar?",
@@ -562,11 +562,11 @@
       ],
       "correct_answer": "Nova Corps",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Locations & Worlds"
     },
     {
-      "id": "ent_387",
+      "id": "mcu_035",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Doctor Strange's Sanctum address?",
@@ -578,11 +578,11 @@
       ],
       "correct_answer": "177A Bleecker Street",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_388",
+      "id": "mcu_036",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Scarlet Witch's real name?",
@@ -594,11 +594,11 @@
       ],
       "correct_answer": "Wanda Maximoff",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_389",
+      "id": "mcu_037",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What organization preceded S.H.I.E.L.D.?",
@@ -610,11 +610,11 @@
       ],
       "correct_answer": "S.S.R.",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Teams & Organizations"
     },
     {
-      "id": "ent_390",
+      "id": "mcu_038",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What AI replaced JARVIS?",
@@ -626,11 +626,11 @@
       ],
       "correct_answer": "FRIDAY",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events"
     },
     {
-      "id": "ent_391",
+      "id": "mcu_039",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What cosmic entity devours planets?",
@@ -642,11 +642,11 @@
       ],
       "correct_answer": "Galactus",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Locations & Worlds"
     },
     {
-      "id": "ent_392",
+      "id": "mcu_040",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Captain America?",
@@ -658,11 +658,11 @@
       ],
       "correct_answer": "Steve Rogers",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_393",
+      "id": "mcu_041",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Wolverine?",
@@ -674,11 +674,11 @@
       ],
       "correct_answer": "Logan",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_394",
+      "id": "mcu_042",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Daredevil?",
@@ -690,11 +690,11 @@
       ],
       "correct_answer": "Matt Murdock",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     },
     {
-      "id": "ent_395",
+      "id": "mcu_043",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Thor?",
@@ -706,8 +706,8 @@
       ],
       "correct_answer": "Thor Odinson",
       "difficulty": "hard",
-      "topic": "Marvel",
-      "subtopic": null
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters"
     }
   ],
   "isPublished": false

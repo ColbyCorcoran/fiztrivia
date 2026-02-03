@@ -103,6 +103,66 @@
       "productID" : "com.fiz.pack.pixar",
       "referenceName" : "Lamp Light Animation Pack",
       "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : true,
+      "internalID" : "A3C98E84",
+      "localizations" : [
+        {
+          "description" : "Journey through an epic space saga with 500 questions about legendary heroes, iconic villains, ancient orders, epic battles, and adventures spanning the entire galaxy.",
+          "displayName" : "A Galaxy Far, Far Away Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.star_wars",
+      "referenceName" : "A Galaxy Far, Far Away Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : true,
+      "internalID" : "586FE67D",
+      "localizations" : [
+        {
+          "description" : "Test your sports knowledge with 500+ questions covering team sports, individual sports, Olympic events, extreme sports, and legendary athletes from around the world.",
+          "displayName" : "All-Sports Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.sports",
+      "referenceName" : "All-Sports Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : true,
+      "internalID" : "01165426",
+      "localizations" : [
+        {
+          "description" : "Test your knowledge of the cinematic superhero universe with 500 questions spanning blockbuster films, comic book legends, iconic heroes, villains, and epic storylines.",
+          "displayName" : "The Cinematic Universe Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.marvel",
+      "referenceName" : "The Cinematic Universe Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.69",
+      "familyShareable" : true,
+      "internalID" : "B11B8DD5",
+      "localizations" : [
+        {
+          "description" : "Test your knowledge of legendary heroes and villains with 400 questions about iconic characters, superpowers, secret identities, and epic battles from this popular comic book universe.",
+          "displayName" : "The Hall of Justice Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.dc",
+      "referenceName" : "The Hall of Justice Pack",
+      "type" : "NonConsumable"
     }
   ],
   "settings" : {

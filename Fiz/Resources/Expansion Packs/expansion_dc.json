@@ -1,0 +1,6428 @@
+{
+  "packId": "com.fiz.pack.dc",
+  "packName": "The Hall of Justice",
+  "packDescription": "Test your knowledge of legendary heroes and villains with 400 questions about iconic characters, superpowers, secret identities, and epic battles from this popular comic book universe.",
+  "subtopics": [
+    "Heroes & Allies",
+    "Villains & Antagonists",
+    "Powers & Abilities",
+    "Teams & Organizations",
+    "Locations & Worlds",
+    "Trivia & Events"
+  ],
+  "questionCount": 400,
+  "freePreviewCount": 40,
+  "difficulty": {
+    "easy": 79,
+    "medium": 189,
+    "hard": 132
+  },
+  "price": 0.69,
+  "icon": "lasso.badge.sparkles",
+  "releaseDate": "2026-02-03T00:00:00Z",
+  "freePreviewQuestions": [
+    {
+      "id": "dcu_001",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Superman's weakness?",
+      "options": [
+        "Magic",
+        "Kryptonite",
+        "Red sunlight",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities"
+    },
+    {
+      "id": "dcu_002",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Wonder Woman's home island called?",
+      "options": [
+        "Paradise Island",
+        "Themyscira",
+        "Amazon Island",
+        "Diana's Island"
+      ],
+      "correct_answer": "Themyscira",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds"
+    },
+    {
+      "id": "dcu_003",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the Daily Planet's editor-in-chief?",
+      "options": [
+        "J. Jonah Jameson",
+        "Perry White",
+        "Robbie Robertson",
+        "Norman Osborn"
+      ],
+      "correct_answer": "Perry White",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_004",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What color represents Green Lantern's weakness?",
+      "options": [
+        "Yellow",
+        "Orange",
+        "Red",
+        "Purple"
+      ],
+      "correct_answer": "Yellow",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities"
+    },
+    {
+      "id": "dcu_005",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Batman's butler?",
+      "options": [
+        "Alfred Pennyworth",
+        "Geoffrey Butler",
+        "Winston Servant",
+        "James Alfred"
+      ],
+      "correct_answer": "Alfred Pennyworth",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_006",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "Who is the fastest man alive in DC Comics?",
+      "options": [
+        "Superman",
+        "The Flash",
+        "Green Lantern",
+        "Aquaman"
+      ],
+      "correct_answer": "The Flash",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_007",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Superman's home planet?",
+      "options": [
+        "Krypton",
+        "Kandor",
+        "Kryptonia",
+        "Kyrros"
+      ],
+      "correct_answer": "Krypton",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_008",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Green Lantern's power source?",
+      "options": [
+        "Ring",
+        "Lantern",
+        "Willpower",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities"
+    },
+    {
+      "id": "dcu_009",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Batman's sidekick?",
+      "options": [
+        "Robin",
+        "Nightwing",
+        "Red Hood",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_010",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Superman's father?",
+      "options": [
+        "Jor-El",
+        "Zor-El",
+        "Kal-El",
+        "Lor-El"
+      ],
+      "correct_answer": "Jor-El",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_011",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Batman's vehicle?",
+      "options": [
+        "Batmobile",
+        "Bat-car",
+        "Dark Knight Car",
+        "Gotham Mobile"
+      ],
+      "correct_answer": "Batmobile",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_012",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Cyborg's real name?",
+      "options": [
+        "Victor Stone",
+        "Vincent Steel",
+        "Victor Steele",
+        "Vincent Stone"
+      ],
+      "correct_answer": "Victor Stone",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_013",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the Joker's girlfriend?",
+      "options": [
+        "Poison Ivy",
+        "Catwoman",
+        "Harley Quinn",
+        "Talia al Ghul"
+      ],
+      "correct_answer": "Harley Quinn",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_014",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of the Daily Planet photographer?",
+      "options": [
+        "Jimmy Olsen",
+        "Peter Parker",
+        "Eddie Brock",
+        "J. Jonah Jameson"
+      ],
+      "correct_answer": "Jimmy Olsen",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_015",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Superman's dog?",
+      "options": [
+        "Krypto",
+        "Super Dog",
+        "Ace",
+        "Rex"
+      ],
+      "correct_answer": "Krypto",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_016",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Green Lantern's oath?",
+      "options": [
+        "Green Lantern Oath",
+        "Lantern's Creed",
+        "Ring Bearer's Oath",
+        "Guardian's Pledge"
+      ],
+      "correct_answer": "Green Lantern Oath",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_017",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the name of Wonder Woman's invisible jet?",
+      "options": [
+        "Invisible Plane",
+        "Wonder Jet",
+        "Invisible Jet",
+        "Amazon Aircraft"
+      ],
+      "correct_answer": "Invisible Jet",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_018",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Superman?",
+      "options": [
+        "Clark Kent",
+        "Bruce Wayne",
+        "Barry Allen",
+        "Oliver Queen"
+      ],
+      "correct_answer": "Clark Kent",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_019",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Green Lantern?",
+      "options": [
+        "Hal Jordan",
+        "Oliver Queen",
+        "Ray Palmer",
+        "Victor Stone"
+      ],
+      "correct_answer": "Hal Jordan",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_020",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Wonder Woman?",
+      "options": [
+        "Diana Prince",
+        "Barbara Gordon",
+        "Selina Kyle",
+        "Pamela Isley"
+      ],
+      "correct_answer": "Diana Prince",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_021",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Green Arrow?",
+      "options": [
+        "Oliver Queen",
+        "Bruce Wayne",
+        "Barry Allen",
+        "Hal Jordan"
+      ],
+      "correct_answer": "Oliver Queen",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_022",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is the real name of Aquaman?",
+      "options": [
+        "Arthur Curry",
+        "Barry Allen",
+        "Hal Jordan",
+        "Oliver Queen"
+      ],
+      "correct_answer": "Arthur Curry",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_023",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Hawkman's real name?",
+      "options": [
+        "Carter Hall",
+        "Katar Hol",
+        "Shiera Hall",
+        "Kendra Saunders"
+      ],
+      "correct_answer": "Carter Hall",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_024",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Constantine's real name?",
+      "options": [
+        "John Constantine",
+        "Jason Blood",
+        "Tim Hunter",
+        "Felix Faust"
+      ],
+      "correct_answer": "John Constantine",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_025",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Swamp Thing's real name?",
+      "options": [
+        "Alec Holland",
+        "Alex Holland",
+        "Alan Holland",
+        "Abby Holland"
+      ],
+      "correct_answer": "Alec Holland",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_026",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "question": "What is Lobo's real name?",
+      "options": [
+        "Lobo",
+        "Lucius",
+        "Logan",
+        "Lars"
+      ],
+      "correct_answer": "Lobo",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
+    },
+    {
+      "id": "dcu_027",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is Batman's arch-nemesis known for his clown-like appearance?",
+      "options": [
+        "The Riddler",
+        "The Penguin",
+        "The Joker",
+        "Two-Face"
+      ],
+      "correct_answer": "The Joker",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_028",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the name of Superman's greatest enemy, a brilliant businessman and scientist?",
+      "options": [
+        "Lex Luthor",
+        "Brainiac",
+        "General Zod",
+        "Metallo"
+      ],
+      "correct_answer": "Lex Luthor",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_029",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Which villain is known for his obsession with riddles and puzzles?",
+      "options": [
+        "The Joker",
+        "The Riddler",
+        "The Scarecrow",
+        "The Mad Hatter"
+      ],
+      "correct_answer": "The Riddler",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_030",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the name of Wonder Woman's primary nemesis, a powerful sorceress?",
+      "options": [
+        "Circe",
+        "Cheetah",
+        "Ares",
+        "Giganta"
+      ],
+      "correct_answer": "Cheetah",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_031",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is Aquaman's half-brother and rival to the throne of Atlantis?",
+      "options": [
+        "Black Manta",
+        "Ocean Master",
+        "King Shark",
+        "Atlan"
+      ],
+      "correct_answer": "Ocean Master",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_032",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Ocean Master?",
+      "options": [
+        "Orm Marius",
+        "Arthur Curry",
+        "Orin",
+        "Kaldur'ahm"
+      ],
+      "correct_answer": "Orm Marius",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_033",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the ruler of Apokolips and one of DC's most powerful villains?",
+      "options": [
+        "Darkseid",
+        "Mongul",
+        "Doomsday",
+        "Brainiac"
+      ],
+      "correct_answer": "Darkseid",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_034",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the name of the villain who killed Superman in the comics?",
+      "options": [
+        "Darkseid",
+        "Doomsday",
+        "Lex Luthor",
+        "Brainiac"
+      ],
+      "correct_answer": "Doomsday",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_035",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Which villain uses fear toxin as his primary weapon?",
+      "options": [
+        "The Joker",
+        "The Scarecrow",
+        "The Mad Hatter",
+        "Poison Ivy"
+      ],
+      "correct_answer": "The Scarecrow",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_036",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of The Scarecrow?",
+      "options": [
+        "Jonathan Crane",
+        "Edward Nygma",
+        "Oswald Cobblepot",
+        "Victor Fries"
+      ],
+      "correct_answer": "Jonathan Crane",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_037",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Which villain is obsessed with ice and cold temperatures?",
+      "options": [
+        "Captain Cold",
+        "Mr. Freeze",
+        "Killer Frost",
+        "Icicle"
+      ],
+      "correct_answer": "Mr. Freeze",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_038",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Mr. Freeze?",
+      "options": [
+        "Victor Fries",
+        "Victor Stone",
+        "Vincent Freeze",
+        "Vladimir Frost"
+      ],
+      "correct_answer": "Victor Fries",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_039",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Which villain is known for his umbrella-themed weapons?",
+      "options": [
+        "The Joker",
+        "The Riddler",
+        "The Penguin",
+        "Two-Face"
+      ],
+      "correct_answer": "The Penguin",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_040",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of The Penguin?",
+      "options": [
+        "Oswald Cobblepot",
+        "Edward Nygma",
+        "Harvey Dent",
+        "Roman Sionis"
+      ],
+      "correct_answer": "Oswald Cobblepot",
+      "difficulty": "medium"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "dcu_041",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Two-Face?",
+      "options": [
+        "Harvey Dent",
+        "Harvey Bullock",
+        "Henry Dent",
+        "Harold Dent"
+      ],
+      "correct_answer": "Harvey Dent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_042",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the leader of the League of Assassins?",
+      "options": [
+        "Ra's al Ghul",
+        "Deathstroke",
+        "Bane",
+        "Lady Shiva"
+      ],
+      "correct_answer": "Ra's al Ghul",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_043",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of DC's premier superhero team?",
+      "options": [
+        "The Avengers",
+        "Justice League",
+        "Teen Titans",
+        "Justice Society"
+      ],
+      "correct_answer": "Justice League",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_044",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "Which team is led by Robin and consists of young superheroes?",
+      "options": [
+        "Young Justice",
+        "Teen Titans",
+        "Titans",
+        "Outsiders"
+      ],
+      "correct_answer": "Teen Titans",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_045",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team of villains forced to work for the government?",
+      "options": [
+        "Suicide Squad",
+        "Legion of Doom",
+        "Injustice League",
+        "Secret Society"
+      ],
+      "correct_answer": "Suicide Squad",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_046",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the first superhero team in DC Comics history?",
+      "options": [
+        "Justice League",
+        "Justice Society of America",
+        "All-Star Squadron",
+        "Teen Titans"
+      ],
+      "correct_answer": "Justice Society of America",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_047",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "Who leads the Suicide Squad?",
+      "options": [
+        "Amanda Waller",
+        "Rick Flag",
+        "Deadshot",
+        "Harley Quinn"
+      ],
+      "correct_answer": "Amanda Waller",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_048",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the Green Lantern Corps' headquarters planet?",
+      "options": [
+        "Oa",
+        "Korugar",
+        "Zamaron",
+        "Mogo"
+      ],
+      "correct_answer": "Oa",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_049",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization protects Gotham City alongside Batman?",
+      "options": [
+        "Gotham City Police Department",
+        "GCPD",
+        "Batman Family",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_050",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the cosmic beings who created the Green Lantern Corps?",
+      "options": [
+        "The Guardians of the Universe",
+        "The Celestials",
+        "The Watchers",
+        "The Elders"
+      ],
+      "correct_answer": "The Guardians of the Universe",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_051",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team formed by Batman in the Arrowverse?",
+      "options": [
+        "Justice League",
+        "Bat Family",
+        "Team Arrow",
+        "Outsiders"
+      ],
+      "correct_answer": "Outsiders",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_052",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "Which team consists of Raven, Beast Boy, Starfire, and Cyborg?",
+      "options": [
+        "Young Justice",
+        "Teen Titans",
+        "Doom Patrol",
+        "Outsiders"
+      ],
+      "correct_answer": "Teen Titans",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_053",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the league of villains led by Lex Luthor?",
+      "options": [
+        "Legion of Doom",
+        "Injustice League",
+        "Secret Society",
+        "Sinister Six"
+      ],
+      "correct_answer": "Legion of Doom",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_054",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization does Commissioner Gordon lead?",
+      "options": [
+        "FBI",
+        "CIA",
+        "Gotham City Police Department",
+        "DEO"
+      ],
+      "correct_answer": "Gotham City Police Department",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_055",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team that protects the timeline in DC's Legends of Tomorrow?",
+      "options": [
+        "Time Masters",
+        "Legends",
+        "Justice League",
+        "JSA"
+      ],
+      "correct_answer": "Legends",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_056",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What government agency works with Superman in the Arrowverse?",
+      "options": [
+        "DEO",
+        "ARGUS",
+        "SHIELD",
+        "FBI"
+      ],
+      "correct_answer": "DEO",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_057",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What power does The Flash possess?",
+      "options": [
+        "Super strength",
+        "Super speed",
+        "Flight",
+        "Invisibility"
+      ],
+      "correct_answer": "Super speed",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_058",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the source of The Flash's powers?",
+      "options": [
+        "Gamma rays",
+        "Speed Force",
+        "Cosmic energy",
+        "Magic"
+      ],
+      "correct_answer": "Speed Force",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_059",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Wonder Woman's primary weapon?",
+      "options": [
+        "Shield",
+        "Sword",
+        "Lasso of Truth",
+        "Bow and arrows"
+      ],
+      "correct_answer": "Lasso of Truth",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_060",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What special property does Wonder Woman's Lasso of Truth have?",
+      "options": [
+        "It burns enemies",
+        "It forces people to tell the truth",
+        "It can cut through anything",
+        "It grants wishes"
+      ],
+      "correct_answer": "It forces people to tell the truth",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_061",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What can Aquaman do that most humans cannot?",
+      "options": [
+        "Fly",
+        "Breathe underwater",
+        "Turn invisible",
+        "Read minds"
+      ],
+      "correct_answer": "Breathe underwater",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_062",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Aquaman's most famous ability besides breathing underwater?",
+      "options": [
+        "Telepathy with sea creatures",
+        "Super strength",
+        "Weather control",
+        "Ice powers"
+      ],
+      "correct_answer": "Telepathy with sea creatures",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_063",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What color of kryptonite weakens Superman?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "correct_answer": "Green",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_064",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What does red kryptonite do to Superman?",
+      "options": [
+        "Kills him instantly",
+        "Causes unpredictable effects",
+        "Makes him stronger",
+        "Turns him evil"
+      ],
+      "correct_answer": "Causes unpredictable effects",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_065",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What vision power does Superman possess?",
+      "options": [
+        "X-ray vision",
+        "Heat vision",
+        "Telescopic vision",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_066",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What power does Martian Manhunter possess that makes him nearly unbeatable?",
+      "options": [
+        "Shapeshifting",
+        "Telepathy",
+        "Intangibility",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_067",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Batman's city?",
+      "options": [
+        "Metropolis",
+        "Gotham City",
+        "Central City",
+        "Star City"
+      ],
+      "correct_answer": "Gotham City",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_068",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Superman's city?",
+      "options": [
+        "Gotham City",
+        "Metropolis",
+        "Central City",
+        "Star City"
+      ],
+      "correct_answer": "Metropolis",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_069",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of The Flash's city?",
+      "options": [
+        "Gotham City",
+        "Metropolis",
+        "Central City",
+        "Coast City"
+      ],
+      "correct_answer": "Central City",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_070",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Green Arrow's city?",
+      "options": [
+        "Gotham City",
+        "Star City",
+        "Central City",
+        "Coast City"
+      ],
+      "correct_answer": "Star City",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_071",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Batman's secret headquarters?",
+      "options": [
+        "The Batcave",
+        "Wayne Manor",
+        "Gotham Base",
+        "Dark Cave"
+      ],
+      "correct_answer": "The Batcave",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_072",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who created Batman?",
+      "options": [
+        "Stan Lee",
+        "Bob Kane",
+        "Jack Kirby",
+        "Steve Ditko"
+      ],
+      "correct_answer": "Bob Kane",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_073",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "In what year was Superman first published?",
+      "options": [
+        "1938",
+        "1939",
+        "1940",
+        "1941"
+      ],
+      "correct_answer": "1938",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_074",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed The Dark Knight trilogy?",
+      "options": [
+        "Zack Snyder",
+        "Christopher Nolan",
+        "Tim Burton",
+        "Joel Schumacher"
+      ],
+      "correct_answer": "Christopher Nolan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_075",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Batman in The Dark Knight trilogy?",
+      "options": [
+        "Ben Affleck",
+        "Christian Bale",
+        "Michael Keaton",
+        "Val Kilmer"
+      ],
+      "correct_answer": "Christian Bale",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_076",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played the Joker in The Dark Knight?",
+      "options": [
+        "Jack Nicholson",
+        "Jared Leto",
+        "Heath Ledger",
+        "Joaquin Phoenix"
+      ],
+      "correct_answer": "Heath Ledger",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_077",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Catwoman?",
+      "options": [
+        "Selina Kyle",
+        "Barbara Gordon",
+        "Pamela Isley",
+        "Talia al Ghul"
+      ],
+      "correct_answer": "Selina Kyle",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_078",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Poison Ivy?",
+      "options": [
+        "Pamela Isley",
+        "Harleen Quinzel",
+        "Selina Kyle",
+        "Ivy Greene"
+      ],
+      "correct_answer": "Pamela Isley",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_079",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Harley Quinn?",
+      "options": [
+        "Harleen Quinzel",
+        "Pamela Isley",
+        "Quinn Harley",
+        "Helena Quinn"
+      ],
+      "correct_answer": "Harleen Quinzel",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_080",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What was Harley Quinn's profession before becoming a villain?",
+      "options": [
+        "Doctor",
+        "Psychiatrist",
+        "Nurse",
+        "Lawyer"
+      ],
+      "correct_answer": "Psychiatrist",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_081",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is Bane's most distinctive feature?",
+      "options": [
+        "His intelligence",
+        "His mask",
+        "His strength from Venom",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_082",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Which villain is known for controlling plants?",
+      "options": [
+        "Harley Quinn",
+        "Poison Ivy",
+        "Catwoman",
+        "Talia al Ghul"
+      ],
+      "correct_answer": "Poison Ivy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_083",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the main villain in Aquaman who wears a distinctive helmet?",
+      "options": [
+        "Ocean Master",
+        "Black Manta",
+        "King Shark",
+        "Atlan"
+      ],
+      "correct_answer": "Black Manta",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_084",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Black Manta?",
+      "options": [
+        "David Hyde",
+        "Arthur Curry",
+        "Orm Marius",
+        "Manta Ray"
+      ],
+      "correct_answer": "David Hyde",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_085",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the speedster villain that is a reverse version of The Flash?",
+      "options": [
+        "Zoom",
+        "Reverse-Flash",
+        "Savitar",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_086",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the name of the Reverse-Flash's alter ego?",
+      "options": [
+        "Eobard Thawne",
+        "Hunter Zolomon",
+        "Barry Allen",
+        "Wally West"
+      ],
+      "correct_answer": "Eobard Thawne",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_087",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the God of War in Wonder Woman's mythology?",
+      "options": [
+        "Zeus",
+        "Hades",
+        "Ares",
+        "Poseidon"
+      ],
+      "correct_answer": "Ares",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_088",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the name of the artificial intelligence villain that is one of Superman's greatest foes?",
+      "options": [
+        "Metallo",
+        "Brainiac",
+        "Cyborg Superman",
+        "Bizarro"
+      ],
+      "correct_answer": "Brainiac",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_089",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the Kryptonian general that leads a rebellion against Superman?",
+      "options": [
+        "General Zod",
+        "Jor-El",
+        "Zor-El",
+        "Non"
+      ],
+      "correct_answer": "General Zod",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_090",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is Deathstroke's real name?",
+      "options": [
+        "Slade Wilson",
+        "Wade Wilson",
+        "Sam Wilson",
+        "Steve Wilson"
+      ],
+      "correct_answer": "Slade Wilson",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_091",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Which villain is known as the master assassin and mercenary with enhanced abilities?",
+      "options": [
+        "Deadshot",
+        "Deathstroke",
+        "Bloodsport",
+        "Bronze Tiger"
+      ],
+      "correct_answer": "Deathstroke",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_092",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of Batman's group of crime-fighting allies?",
+      "options": [
+        "Bat Family",
+        "Gotham Knights",
+        "Dark Knights",
+        "Batman Inc."
+      ],
+      "correct_answer": "Bat Family",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_093",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team did Nightwing originally lead?",
+      "options": [
+        "Justice League",
+        "Teen Titans",
+        "Outsiders",
+        "Young Justice"
+      ],
+      "correct_answer": "Teen Titans",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_094",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team of misfit superheroes led by The Chief?",
+      "options": [
+        "Doom Patrol",
+        "Teen Titans",
+        "Outsiders",
+        "Misfits"
+      ],
+      "correct_answer": "Doom Patrol",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_095",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization does Director Bones lead in DC Comics?",
+      "options": [
+        "DEO",
+        "ARGUS",
+        "Checkmate",
+        "Cadmus"
+      ],
+      "correct_answer": "DEO",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_096",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the secret government agency that Amanda Waller runs?",
+      "options": [
+        "DEO",
+        "ARGUS",
+        "SHIELD",
+        "CIA"
+      ],
+      "correct_answer": "ARGUS",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_097",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "Which team consists of younger heroes mentored by Justice League members?",
+      "options": [
+        "Teen Titans",
+        "Young Justice",
+        "Titans",
+        "Junior League"
+      ],
+      "correct_answer": "Young Justice",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_098",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the all-female superhero team in DC Comics?",
+      "options": [
+        "Birds of Prey",
+        "Wonder Women",
+        "Sirens",
+        "Amazon Warriors"
+      ],
+      "correct_answer": "Birds of Prey",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_099",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "Who typically leads the Birds of Prey?",
+      "options": [
+        "Batgirl",
+        "Black Canary",
+        "Huntress",
+        "Oracle"
+      ],
+      "correct_answer": "Oracle",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_100",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team Oliver Queen leads in Arrow?",
+      "options": [
+        "Team Arrow",
+        "Arrow Squad",
+        "Green Team",
+        "Star City Heroes"
+      ],
+      "correct_answer": "Team Arrow",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_101",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization created Project Cadmus?",
+      "options": [
+        "Government",
+        "Lex Luthor",
+        "ARGUS",
+        "Wayne Enterprises"
+      ],
+      "correct_answer": "Government",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_102",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Shazam's magic word that transforms him?",
+      "options": [
+        "Shazam",
+        "Abracadabra",
+        "Presto",
+        "Transform"
+      ],
+      "correct_answer": "Shazam",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_103",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What does the acronym SHAZAM stand for?",
+      "options": [
+        "Solomon, Hercules, Atlas, Zeus, Achilles, Mercury",
+        "Strength, Honor, Ability, Zeal, Agility, Magic",
+        "Super Hero Amazing Zealous Able Man",
+        "None of the above"
+      ],
+      "correct_answer": "Solomon, Hercules, Atlas, Zeus, Achilles, Mercury",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_104",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Cyborg's primary technological ability?",
+      "options": [
+        "Super strength",
+        "Computer interface",
+        "Energy blasts",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_105",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Raven's primary power source?",
+      "options": [
+        "Magic",
+        "Demonic energy",
+        "Emotions",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_106",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What can Beast Boy transform into?",
+      "options": [
+        "Only mammals",
+        "Only reptiles",
+        "Any animal",
+        "Only green animals"
+      ],
+      "correct_answer": "Any animal",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_107",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Starfire's alien race called?",
+      "options": [
+        "Kryptonian",
+        "Tamaranean",
+        "Thanagarian",
+        "Martian"
+      ],
+      "correct_answer": "Tamaranean",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_108",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Martian Manhunter's weakness?",
+      "options": [
+        "Water",
+        "Fire",
+        "Ice",
+        "Lightning"
+      ],
+      "correct_answer": "Fire",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_109",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What power does Black Canary possess?",
+      "options": [
+        "Sonic scream",
+        "Super strength",
+        "Flight",
+        "Telepathy"
+      ],
+      "correct_answer": "Sonic scream",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_110",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Hawkman's primary weapon?",
+      "options": [
+        "Sword",
+        "Mace",
+        "Bow and arrows",
+        "Staff"
+      ],
+      "correct_answer": "Mace",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_111",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What metal are Hawkman's wings made from?",
+      "options": [
+        "Gold",
+        "Steel",
+        "Nth Metal",
+        "Vibranium"
+      ],
+      "correct_answer": "Nth Metal",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_112",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Darkseid's home planet?",
+      "options": [
+        "Apokolips",
+        "New Genesis",
+        "Krypton",
+        "Oa"
+      ],
+      "correct_answer": "Apokolips",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_113",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the paradise planet that opposes Apokolips?",
+      "options": [
+        "New Genesis",
+        "Oa",
+        "Themyscira",
+        "Paradise Planet"
+      ],
+      "correct_answer": "New Genesis",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_114",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the underwater kingdom that Aquaman rules?",
+      "options": [
+        "Atlantis",
+        "Poseidonis",
+        "Tritonis",
+        "Xebel"
+      ],
+      "correct_answer": "Atlantis",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_115",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the prison for superpowered criminals on Earth?",
+      "options": [
+        "The Raft",
+        "Arkham Asylum",
+        "Belle Reve",
+        "Blackgate"
+      ],
+      "correct_answer": "Belle Reve",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_116",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Gotham's infamous asylum for the criminally insane?",
+      "options": [
+        "Blackgate Prison",
+        "Arkham Asylum",
+        "Belle Reve",
+        "Gotham Asylum"
+      ],
+      "correct_answer": "Arkham Asylum",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_117",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Superman's Fortress in the Arctic?",
+      "options": [
+        "Fortress of Solitude",
+        "Arctic Fortress",
+        "Kryptonian Base",
+        "Ice Palace"
+      ],
+      "correct_answer": "Fortress of Solitude",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_118",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Hal Jordan's home city?",
+      "options": [
+        "Star City",
+        "Coast City",
+        "Central City",
+        "Gateway City"
+      ],
+      "correct_answer": "Coast City",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_119",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What dimension does The Flash access to travel at super speed?",
+      "options": [
+        "Speed Dimension",
+        "Speed Force",
+        "Hyperspace",
+        "Speedverse"
+      ],
+      "correct_answer": "Speed Force",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_120",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the Justice League's satellite headquarters?",
+      "options": [
+        "Watchtower",
+        "Justice Station",
+        "League Base",
+        "Satellite Seven"
+      ],
+      "correct_answer": "Watchtower",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_121",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Superman in Man of Steel?",
+      "options": [
+        "Brandon Routh",
+        "Henry Cavill",
+        "Tom Welling",
+        "Christopher Reeve"
+      ],
+      "correct_answer": "Henry Cavill",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_122",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed the 2017 Justice League movie?",
+      "options": [
+        "Zack Snyder",
+        "Joss Whedon",
+        "Both",
+        "Neither"
+      ],
+      "correct_answer": "Both",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_123",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Wonder Woman in the DCEU films?",
+      "options": [
+        "Gal Gadot",
+        "Lynda Carter",
+        "Lucy Lawless",
+        "Adrianne Palicki"
+      ],
+      "correct_answer": "Gal Gadot",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_124",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Aquaman in the DCEU films?",
+      "options": [
+        "Dwayne Johnson",
+        "Jason Momoa",
+        "Chris Hemsworth",
+        "Vin Diesel"
+      ],
+      "correct_answer": "Jason Momoa",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_125",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What year was Batman: The Animated Series first aired?",
+      "options": [
+        "1990",
+        "1992",
+        "1994",
+        "1996"
+      ],
+      "correct_answer": "1992",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_126",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who voiced Batman in Batman: The Animated Series?",
+      "options": [
+        "Kevin Conroy",
+        "Michael Keaton",
+        "Adam West",
+        "Bruce Greenwood"
+      ],
+      "correct_answer": "Kevin Conroy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_127",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Batman?",
+      "options": [
+        "Bruce Wayne",
+        "Dick Grayson",
+        "Tim Drake",
+        "Jason Todd"
+      ],
+      "correct_answer": "Bruce Wayne",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_128",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of The Flash (Barry Allen era)?",
+      "options": [
+        "Wally West",
+        "Barry Allen",
+        "Jay Garrick",
+        "Bart Allen"
+      ],
+      "correct_answer": "Barry Allen",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_129",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Nightwing?",
+      "options": [
+        "Dick Grayson",
+        "Tim Drake",
+        "Jason Todd",
+        "Damian Wayne"
+      ],
+      "correct_answer": "Dick Grayson",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_130",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Red Hood?",
+      "options": [
+        "Jason Todd",
+        "Tim Drake",
+        "Dick Grayson",
+        "Damian Wayne"
+      ],
+      "correct_answer": "Jason Todd",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_131",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Red Robin?",
+      "options": [
+        "Tim Drake",
+        "Jason Todd",
+        "Dick Grayson",
+        "Damian Wayne"
+      ],
+      "correct_answer": "Tim Drake",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_132",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of the current Robin (Batman's son)?",
+      "options": [
+        "Damian Wayne",
+        "Tim Drake",
+        "Jason Todd",
+        "Dick Grayson"
+      ],
+      "correct_answer": "Damian Wayne",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_133",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Batgirl (Barbara Gordon)?",
+      "options": [
+        "Barbara Gordon",
+        "Stephanie Brown",
+        "Cassandra Cain",
+        "Betty Kane"
+      ],
+      "correct_answer": "Barbara Gordon",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_134",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Supergirl?",
+      "options": [
+        "Kara Zor-El",
+        "Lara Lane",
+        "Karen Starr",
+        "Linda Lee"
+      ],
+      "correct_answer": "Kara Zor-El",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_135",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is Superman's Kryptonian birth name?",
+      "options": [
+        "Kal-El",
+        "Jor-El",
+        "Zor-El",
+        "Lor-El"
+      ],
+      "correct_answer": "Kal-El",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_136",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "Who are Superman's adoptive parents?",
+      "options": [
+        "Jonathan and Martha Kent",
+        "Thomas and Martha Wayne",
+        "Henry and Nora Allen",
+        "John and Mary Grayson"
+      ],
+      "correct_answer": "Jonathan and Martha Kent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_137",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Shazam?",
+      "options": [
+        "Billy Batson",
+        "Bobby Batson",
+        "Barry Batson",
+        "Bruce Batson"
+      ],
+      "correct_answer": "Billy Batson",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_138",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Martian Manhunter?",
+      "options": [
+        "J'onn J'onzz",
+        "John Jones",
+        "Both A and B",
+        "Neither"
+      ],
+      "correct_answer": "Both A and B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_139",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Black Canary?",
+      "options": [
+        "Dinah Lance",
+        "Diana Prince",
+        "Barbara Gordon",
+        "Selina Kyle"
+      ],
+      "correct_answer": "Dinah Lance",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_140",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Blue Beetle (Jaime Reyes)?",
+      "options": [
+        "Jaime Reyes",
+        "Ted Kord",
+        "Dan Garrett",
+        "Khaji Da"
+      ],
+      "correct_answer": "Jaime Reyes",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_141",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is Commissioner Gordon's first name?",
+      "options": [
+        "James",
+        "John",
+        "Joseph",
+        "Jonathan"
+      ],
+      "correct_answer": "James",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_142",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What weapon does Batman typically use?",
+      "options": [
+        "Batarang",
+        "Grappling hook",
+        "Smoke bombs",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_143",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is unique about Batman among the Justice League?",
+      "options": [
+        "He has no superpowers",
+        "He's the richest",
+        "He's the smartest",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_144",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Green Arrow's signature weapon?",
+      "options": [
+        "Sword",
+        "Bow and arrows",
+        "Gun",
+        "Staff"
+      ],
+      "correct_answer": "Bow and arrows",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_145",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What type of arrows does Green Arrow use?",
+      "options": [
+        "Regular arrows",
+        "Trick arrows",
+        "Explosive arrows",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_146",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What powers does Aquaman's trident give him?",
+      "options": [
+        "Control over water",
+        "Communication with sea life",
+        "Lightning summoning",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_147",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What color is Superman's cape?",
+      "options": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Black"
+      ],
+      "correct_answer": "Red",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_148",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What gives Superman his powers?",
+      "options": [
+        "Earth's yellow sun",
+        "Kryptonian DNA",
+        "Both A and B",
+        "Magic"
+      ],
+      "correct_answer": "Both A and B",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_149",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What happens to Superman under a red sun?",
+      "options": [
+        "He gets stronger",
+        "He loses his powers",
+        "He turns evil",
+        "Nothing"
+      ],
+      "correct_answer": "He loses his powers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_150",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What ability does Wonder Woman's bracelets give her?",
+      "options": [
+        "Deflect bullets",
+        "Super strength",
+        "Flight",
+        "Invisibility"
+      ],
+      "correct_answer": "Deflect bullets",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_151",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the Flash's top speed?",
+      "options": [
+        "Speed of light",
+        "Speed of sound",
+        "Faster than light",
+        "It varies"
+      ],
+      "correct_answer": "It varies",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_152",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What city does Green Lantern Hal Jordan protect?",
+      "options": [
+        "Coast City",
+        "Star City",
+        "Gotham City",
+        "Metropolis"
+      ],
+      "correct_answer": "Coast City",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_153",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What planet is Hawkman from originally?",
+      "options": [
+        "Earth",
+        "Thanagar",
+        "Krypton",
+        "Mars"
+      ],
+      "correct_answer": "Thanagar",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_154",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Krypton's capital city?",
+      "options": [
+        "Kandor",
+        "Argo City",
+        "Kryptonopolis",
+        "Metropolis"
+      ],
+      "correct_answer": "Kandor",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_155",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the phantom zone prison?",
+      "options": [
+        "Phantom Zone",
+        "Shadow Realm",
+        "Dark Dimension",
+        "Null Space"
+      ],
+      "correct_answer": "Phantom Zone",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_156",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What realm does Shazam get his powers from?",
+      "options": [
+        "Rock of Eternity",
+        "Mount Olympus",
+        "Asgard",
+        "Heaven"
+      ],
+      "correct_answer": "Rock of Eternity",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_157",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the magical city that Constantine frequents?",
+      "options": [
+        "London",
+        "Liverpool",
+        "Newcastle",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_158",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "Where is Wayne Manor located?",
+      "options": [
+        "Outside Gotham City",
+        "In downtown Gotham",
+        "In Metropolis",
+        "In Bludhaven"
+      ],
+      "correct_answer": "Outside Gotham City",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_159",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What city does Nightwing primarily operate in?",
+      "options": [
+        "Gotham City",
+        "Bludhaven",
+        "Metropolis",
+        "Star City"
+      ],
+      "correct_answer": "Bludhaven",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_160",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What bar does Green Arrow frequently visit?",
+      "options": [
+        "O'Malley's",
+        "Sherwood Florist",
+        "Verdant",
+        "The Arrowcave"
+      ],
+      "correct_answer": "Verdant",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_161",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played the Joker in the 1989 Batman film?",
+      "options": [
+        "Heath Ledger",
+        "Jack Nicholson",
+        "Mark Hamill",
+        "Cesar Romero"
+      ],
+      "correct_answer": "Jack Nicholson",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_162",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed the 1989 Batman film?",
+      "options": [
+        "Christopher Nolan",
+        "Tim Burton",
+        "Joel Schumacher",
+        "Richard Donner"
+      ],
+      "correct_answer": "Tim Burton",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_163",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Superman in the original 1978 film?",
+      "options": [
+        "Christopher Reeve",
+        "Brandon Routh",
+        "Henry Cavill",
+        "Tom Welling"
+      ],
+      "correct_answer": "Christopher Reeve",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_164",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Wonder Woman in the 1970s TV series?",
+      "options": [
+        "Lynda Carter",
+        "Gal Gadot",
+        "Lucy Lawless",
+        "Adrianne Palicki"
+      ],
+      "correct_answer": "Lynda Carter",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_165",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Batman in Batman v Superman?",
+      "options": [
+        "Christian Bale",
+        "Ben Affleck",
+        "Michael Keaton",
+        "George Clooney"
+      ],
+      "correct_answer": "Ben Affleck",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_166",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed Man of Steel?",
+      "options": [
+        "Christopher Nolan",
+        "Zack Snyder",
+        "Joss Whedon",
+        "James Gunn"
+      ],
+      "correct_answer": "Zack Snyder",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_167",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What year was the first Superman comic published?",
+      "options": [
+        "1936",
+        "1938",
+        "1940",
+        "1942"
+      ],
+      "correct_answer": "1938",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_168",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What year was the first Batman comic published?",
+      "options": [
+        "1937",
+        "1939",
+        "1941",
+        "1943"
+      ],
+      "correct_answer": "1939",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_169",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who created Wonder Woman?",
+      "options": [
+        "William Moulton Marston",
+        "Bob Kane",
+        "Jerry Siegel",
+        "Joe Shuster"
+      ],
+      "correct_answer": "William Moulton Marston",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_170",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the Joker's signature weapon?",
+      "options": [
+        "Joker Venom",
+        "Laughing gas",
+        "Playing cards",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_171",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What color is the Joker's hair?",
+      "options": [
+        "Green",
+        "Purple",
+        "Blue",
+        "Red"
+      ],
+      "correct_answer": "Green",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_172",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is Lex Luthor's company called?",
+      "options": [
+        "LexCorp",
+        "Luthor Industries",
+        "Lex Enterprises",
+        "Luthor Corp"
+      ],
+      "correct_answer": "LexCorp",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_173",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the Riddler's signature symbol?",
+      "options": [
+        "Question mark",
+        "Riddle",
+        "Puzzle piece",
+        "Green suit"
+      ],
+      "correct_answer": "Question mark",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_174",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is Two-Face's decision-making tool?",
+      "options": [
+        "Coin flip",
+        "Dice roll",
+        "Card draw",
+        "Random number"
+      ],
+      "correct_answer": "Coin flip",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_175",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What profession was Harvey Dent before becoming Two-Face?",
+      "options": [
+        "Lawyer",
+        "District Attorney",
+        "Judge",
+        "Police officer"
+      ],
+      "correct_answer": "District Attorney",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_176",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is Ra's al Ghul's daughter?",
+      "options": [
+        "Talia al Ghul",
+        "Nyssa al Ghul",
+        "Both A and B",
+        "Neither"
+      ],
+      "correct_answer": "Both A and B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_177",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played the Flash in the 2023 Flash movie?",
+      "options": [
+        "Grant Gustin",
+        "Ezra Miller",
+        "John Wesley Shipp",
+        "Keiynan Lonsdale"
+      ],
+      "correct_answer": "Ezra Miller",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_178",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed The Suicide Squad (2021)?",
+      "options": [
+        "David Ayer",
+        "James Gunn",
+        "Zack Snyder",
+        "Patty Jenkins"
+      ],
+      "correct_answer": "James Gunn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_179",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Harley Quinn in the DCEU films?",
+      "options": [
+        "Margot Robbie",
+        "Kaley Cuoco",
+        "Lady Gaga",
+        "Jared Leto"
+      ],
+      "correct_answer": "Margot Robbie",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_180",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed Wonder Woman (2017)?",
+      "options": [
+        "Zack Snyder",
+        "Patty Jenkins",
+        "Gal Gadot",
+        "James Wan"
+      ],
+      "correct_answer": "Patty Jenkins",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_181",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed Aquaman (2018)?",
+      "options": [
+        "Zack Snyder",
+        "James Wan",
+        "Patty Jenkins",
+        "David Ayer"
+      ],
+      "correct_answer": "James Wan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_182",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Cyborg in the DCEU films?",
+      "options": [
+        "Ray Fisher",
+        "Khary Payton",
+        "Shemar Moore",
+        "Michael B. Jordan"
+      ],
+      "correct_answer": "Ray Fisher",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_183",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What year was The Dark Knight released?",
+      "options": [
+        "2006",
+        "2008",
+        "2010",
+        "2012"
+      ],
+      "correct_answer": "2008",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_184",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played the Riddler in The Batman (2022)?",
+      "options": [
+        "Paul Dano",
+        "Jim Carrey",
+        "Cory Michael Smith",
+        "Edward Nygma"
+      ],
+      "correct_answer": "Paul Dano",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_185",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Batman in The Batman (2022)?",
+      "options": [
+        "Ben Affleck",
+        "Robert Pattinson",
+        "Christian Bale",
+        "Michael Keaton"
+      ],
+      "correct_answer": "Robert Pattinson",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_186",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed The Batman (2022)?",
+      "options": [
+        "Christopher Nolan",
+        "Matt Reeves",
+        "Zack Snyder",
+        "Tim Burton"
+      ],
+      "correct_answer": "Matt Reeves",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_187",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played the Joker in Joker (2019)?",
+      "options": [
+        "Heath Ledger",
+        "Joaquin Phoenix",
+        "Jared Leto",
+        "Jack Nicholson"
+      ],
+      "correct_answer": "Joaquin Phoenix",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_188",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed Joker (2019)?",
+      "options": [
+        "Todd Phillips",
+        "Martin Scorsese",
+        "Christopher Nolan",
+        "Tim Burton"
+      ],
+      "correct_answer": "Todd Phillips",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_189",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Black Adam in the 2022 film?",
+      "options": [
+        "Dwayne Johnson",
+        "Vin Diesel",
+        "Dave Bautista",
+        "John Cena"
+      ],
+      "correct_answer": "Dwayne Johnson",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_190",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Shazam in the DCEU films?",
+      "options": [
+        "Zachary Levi",
+        "Asher Angel",
+        "Both A and B",
+        "Neither"
+      ],
+      "correct_answer": "Both A and B",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_191",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What TV series featured Stephen Amell as Green Arrow?",
+      "options": [
+        "Smallville",
+        "Arrow",
+        "Legends of Tomorrow",
+        "Justice League"
+      ],
+      "correct_answer": "Arrow",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_192",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team that includes Robotman, Negative Man, and Elasti-Girl?",
+      "options": [
+        "Doom Patrol",
+        "Teen Titans",
+        "Justice League",
+        "Outsiders"
+      ],
+      "correct_answer": "Doom Patrol",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_193",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization does Bruce Wayne run as his day job?",
+      "options": [
+        "Wayne Enterprises",
+        "Wayne Industries",
+        "Wayne Corp",
+        "All refer to the same"
+      ],
+      "correct_answer": "All refer to the same",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_194",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the newspaper Lois Lane works for?",
+      "options": [
+        "Daily Planet",
+        "Daily Bugle",
+        "Gotham Gazette",
+        "Metropolis Times"
+      ],
+      "correct_answer": "Daily Planet",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_195",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of Gotham's newspaper?",
+      "options": [
+        "Gotham Gazette",
+        "Daily Planet",
+        "Gotham Times",
+        "Gotham Chronicle"
+      ],
+      "correct_answer": "Gotham Gazette",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_196",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What criminal organization does the Penguin control?",
+      "options": [
+        "Iceberg Lounge",
+        "Gotham Mob",
+        "Falcone Family",
+        "Maroni Family"
+      ],
+      "correct_answer": "Iceberg Lounge",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_197",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team in the Arrowverse that includes Sara Lance?",
+      "options": [
+        "Legends of Tomorrow",
+        "Arrow Team",
+        "Canaries",
+        "Birds of Prey"
+      ],
+      "correct_answer": "Legends of Tomorrow",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_198",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization did Oliver Queen's father help create in Arrow?",
+      "options": [
+        "The List",
+        "The Undertaking",
+        "ARGUS",
+        "Queen Consolidated"
+      ],
+      "correct_answer": "Queen Consolidated",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_199",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the group of heroes in Stargirl?",
+      "options": [
+        "Justice Society of America",
+        "Young Justice",
+        "Teen Titans",
+        "Infinity Inc."
+      ],
+      "correct_answer": "Justice Society of America",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_200",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization does Lois Lane's father Sam Lane work for?",
+      "options": [
+        "US Military",
+        "DEO",
+        "ARGUS",
+        "Project Cadmus"
+      ],
+      "correct_answer": "US Military",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_201",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the intergalactic police force Green Lantern belongs to?",
+      "options": [
+        "Green Lantern Corps",
+        "Galactic Police",
+        "Star Force",
+        "Universal Guard"
+      ],
+      "correct_answer": "Green Lantern Corps",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_202",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team did Wally West lead in Young Justice?",
+      "options": [
+        "Young Justice",
+        "Teen Titans",
+        "Justice League",
+        "Titans"
+      ],
+      "correct_answer": "Young Justice",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_203",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization created the Suicide Squad?",
+      "options": [
+        "US Government",
+        "ARGUS",
+        "Amanda Waller",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_204",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the Speed Force prison?",
+      "options": [
+        "Speed Force",
+        "Speedster Prison",
+        "Iron Heights",
+        "Flash Museum"
+      ],
+      "correct_answer": "Speed Force",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_205",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the museum dedicated to The Flash in Central City?",
+      "options": [
+        "Flash Museum",
+        "Speed Force Museum",
+        "Central City Museum",
+        "Hall of Heroes"
+      ],
+      "correct_answer": "Flash Museum",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_206",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the bar that serves as the Justice League's meeting place in some versions?",
+      "options": [
+        "Oblivion Bar",
+        "Hero's Tavern",
+        "League Lounge",
+        "Justice Bar"
+      ],
+      "correct_answer": "Oblivion Bar",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_207",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What planet is Starfire from?",
+      "options": [
+        "Tamaran",
+        "Krypton",
+        "Mars",
+        "Thanagar"
+      ],
+      "correct_answer": "Tamaran",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_208",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the secret underwater prison?",
+      "options": [
+        "The Aquarium",
+        "Belle Reve Underwater",
+        "The Trench",
+        "Atlantis Prison"
+      ],
+      "correct_answer": "The Aquarium",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_209",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Wonder Woman's sword?",
+      "options": [
+        "Godkiller",
+        "Athena's Blade",
+        "Amazon Sword",
+        "Themysciran Steel"
+      ],
+      "correct_answer": "Godkiller",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_210",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the dimension where magic users gather?",
+      "options": [
+        "The Dark Dimension",
+        "Hell",
+        "The House of Mystery",
+        "Shadowlands"
+      ],
+      "correct_answer": "The House of Mystery",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_211",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What city is known as the City of Tomorrow?",
+      "options": [
+        "Metropolis",
+        "Central City",
+        "Star City",
+        "Coast City"
+      ],
+      "correct_answer": "Metropolis",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_212",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Ra's al Ghul's restorative pit?",
+      "options": [
+        "Lazarus Pit",
+        "Life Pool",
+        "Healing Spring",
+        "Resurrection Pool"
+      ],
+      "correct_answer": "Lazarus Pit",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_213",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the island where Oliver Queen was stranded in Arrow?",
+      "options": [
+        "Lian Yu",
+        "Themyscira",
+        "Paradise Island",
+        "Starfish Island"
+      ],
+      "correct_answer": "Lian Yu",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_214",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Darkseid's most powerful ability?",
+      "options": [
+        "Omega Beams",
+        "Super strength",
+        "Telepathy",
+        "Immortality"
+      ],
+      "correct_answer": "Omega Beams",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_215",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What are the Omega Beams?",
+      "options": [
+        "Energy beams from eyes",
+        "Tracking heat vision",
+        "Disintegration rays",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_216",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is unique about Plastic Man's abilities?",
+      "options": [
+        "He can stretch infinitely",
+        "He's virtually invulnerable",
+        "He doesn't age",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_217",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the source of Black Adam's powers?",
+      "options": [
+        "Egyptian gods",
+        "Greek gods",
+        "Magic",
+        "Both A and C"
+      ],
+      "correct_answer": "Both A and C",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_218",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What emotion powers the Green Lantern ring?",
+      "options": [
+        "Willpower",
+        "Hope",
+        "Love",
+        "Rage"
+      ],
+      "correct_answer": "Willpower",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_219",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What emotion powers the Red Lantern ring?",
+      "options": [
+        "Willpower",
+        "Rage",
+        "Fear",
+        "Greed"
+      ],
+      "correct_answer": "Rage",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_220",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What emotion powers the Sinestro Corps yellow ring?",
+      "options": [
+        "Fear",
+        "Greed",
+        "Hope",
+        "Willpower"
+      ],
+      "correct_answer": "Fear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_221",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What emotion powers the Blue Lantern ring?",
+      "options": [
+        "Hope",
+        "Love",
+        "Compassion",
+        "Peace"
+      ],
+      "correct_answer": "Hope",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_222",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is Lois Lane's profession?",
+      "options": [
+        "Reporter",
+        "Photographer",
+        "Editor",
+        "Anchor"
+      ],
+      "correct_answer": "Reporter",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_223",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the relationship between Superman and Supergirl?",
+      "options": [
+        "Cousins",
+        "Siblings",
+        "Father and daughter",
+        "Unrelated"
+      ],
+      "correct_answer": "Cousins",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_224",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Batwoman?",
+      "options": [
+        "Kate Kane",
+        "Barbara Gordon",
+        "Kathy Kane",
+        "Katherine Kane"
+      ],
+      "correct_answer": "Kate Kane",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_225",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "Who is Batman's son?",
+      "options": [
+        "Damian Wayne",
+        "Dick Grayson",
+        "Tim Drake",
+        "Jason Todd"
+      ],
+      "correct_answer": "Damian Wayne",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_226",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "Who is Damian Wayne's mother?",
+      "options": [
+        "Talia al Ghul",
+        "Selina Kyle",
+        "Catwoman",
+        "Diana Prince"
+      ],
+      "correct_answer": "Talia al Ghul",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_227",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Green Arrow in the Arrowverse?",
+      "options": [
+        "Stephen Amell",
+        "Justin Hartley",
+        "Charlie Hunnam",
+        "Chris Pine"
+      ],
+      "correct_answer": "Stephen Amell",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_228",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played the Flash in the Arrowverse?",
+      "options": [
+        "Grant Gustin",
+        "Ezra Miller",
+        "John Wesley Shipp",
+        "Keiynan Lonsdale"
+      ],
+      "correct_answer": "Grant Gustin",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_229",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Supergirl in the Arrowverse?",
+      "options": [
+        "Melissa Benoist",
+        "Helen Slater",
+        "Laura Vandervoort",
+        "Sasha Calle"
+      ],
+      "correct_answer": "Melissa Benoist",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_230",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What was the first show in the Arrowverse?",
+      "options": [
+        "The Flash",
+        "Arrow",
+        "Supergirl",
+        "Legends of Tomorrow"
+      ],
+      "correct_answer": "Arrow",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_231",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Superman in Smallville?",
+      "options": [
+        "Tom Welling",
+        "Brandon Routh",
+        "Henry Cavill",
+        "Dean Cain"
+      ],
+      "correct_answer": "Tom Welling",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_232",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "How many seasons did Smallville run?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correct_answer": "10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_233",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played young Bruce Wayne in Gotham?",
+      "options": [
+        "David Mazouz",
+        "Cameron Monaghan",
+        "Cory Michael Smith",
+        "Robin Lord Taylor"
+      ],
+      "correct_answer": "David Mazouz",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_234",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who created Superman?",
+      "options": [
+        "Jerry Siegel and Joe Shuster",
+        "Bob Kane",
+        "William Moulton Marston",
+        "Gardner Fox"
+      ],
+      "correct_answer": "Jerry Siegel and Joe Shuster",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_235",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who composed the score for The Dark Knight trilogy?",
+      "options": [
+        "Hans Zimmer",
+        "John Williams",
+        "Danny Elfman",
+        "Junkie XL"
+      ],
+      "correct_answer": "Hans Zimmer",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_236",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who composed the score for Superman (1978)?",
+      "options": [
+        "John Williams",
+        "Hans Zimmer",
+        "Danny Elfman",
+        "Howard Shore"
+      ],
+      "correct_answer": "John Williams",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_237",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team does Superman belong to in most iterations?",
+      "options": [
+        "Justice League",
+        "Legion of Super-Heroes",
+        "Superman Family",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_238",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team of future superheroes from the 31st century?",
+      "options": [
+        "Legion of Super-Heroes",
+        "Justice League 3000",
+        "Teen Titans",
+        "Future Force"
+      ],
+      "correct_answer": "Legion of Super-Heroes",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_239",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization does Batwoman work with?",
+      "options": [
+        "The Crows",
+        "GCPD",
+        "DEO",
+        "ARGUS"
+      ],
+      "correct_answer": "The Crows",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_240",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team includes Aqualad, Miss Martian, and Superboy?",
+      "options": [
+        "Young Justice",
+        "Teen Titans",
+        "Justice League",
+        "Titans"
+      ],
+      "correct_answer": "Young Justice",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_241",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the organization that opposes the Green Lantern Corps?",
+      "options": [
+        "Sinestro Corps",
+        "Red Lanterns",
+        "Black Lanterns",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_242",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "Who founded the Justice League in most versions?",
+      "options": [
+        "Superman",
+        "Batman",
+        "Wonder Woman",
+        "All founding members together"
+      ],
+      "correct_answer": "All founding members together",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_243",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the evil version of the Justice League?",
+      "options": [
+        "Crime Syndicate",
+        "Injustice League",
+        "Legion of Doom",
+        "All are evil versions"
+      ],
+      "correct_answer": "All are evil versions",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_244",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team did Batman form to operate outside the Justice League?",
+      "options": [
+        "Outsiders",
+        "Bat Family",
+        "Justice League Dark",
+        "Batman Incorporated"
+      ],
+      "correct_answer": "Outsiders",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_245",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team handles supernatural threats in the DC Universe?",
+      "options": [
+        "Justice League Dark",
+        "Shadowpact",
+        "Sentinels of Magic",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_246",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of Lex Luthor's company in most versions?",
+      "options": [
+        "LexCorp",
+        "Luthor Industries",
+        "Lex Enterprises",
+        "Luthor Corp"
+      ],
+      "correct_answer": "LexCorp",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_247",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What dimension do speedsters access?",
+      "options": [
+        "Speed Force",
+        "Flashpoint",
+        "Time Stream",
+        "Hyperspace"
+      ],
+      "correct_answer": "Speed Force",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_248",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the alternate timeline created by The Flash?",
+      "options": [
+        "Flashpoint",
+        "Crisis on Infinite Earths",
+        "Zero Hour",
+        "Infinite Crisis"
+      ],
+      "correct_answer": "Flashpoint",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_249",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the multiverse concept in DC Comics?",
+      "options": [
+        "52 Earths",
+        "Infinite Earths",
+        "Multiverse",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_250",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What Earth is the main DC Universe designated as?",
+      "options": [
+        "Earth-0",
+        "Earth-1",
+        "Earth Prime",
+        "Earth-616"
+      ],
+      "correct_answer": "Earth-0",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_251",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the realm where dead heroes go?",
+      "options": [
+        "Valhalla",
+        "Heaven",
+        "The Afterlife",
+        "None - varies by character"
+      ],
+      "correct_answer": "None - varies by character",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_252",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the dimension where the New Gods live?",
+      "options": [
+        "Fourth World",
+        "New Genesis",
+        "Apokolips",
+        "All refer to realms there"
+      ],
+      "correct_answer": "All refer to realms there",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_253",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the Batcave's supercomputer?",
+      "options": [
+        "Batcomputer",
+        "Alfred",
+        "Oracle",
+        "Mainframe"
+      ],
+      "correct_answer": "Batcomputer",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_254",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What hall houses the Justice League's trophies?",
+      "options": [
+        "Hall of Justice",
+        "Trophy Room",
+        "Museum Wing",
+        "Memorial Hall"
+      ],
+      "correct_answer": "Hall of Justice",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_255",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the city where most Teen Titans stories take place?",
+      "options": [
+        "Jump City",
+        "Titans Tower",
+        "San Francisco",
+        "It varies"
+      ],
+      "correct_answer": "It varies",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_256",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "Where is Star Labs located?",
+      "options": [
+        "Multiple cities",
+        "Central City",
+        "Metropolis",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_257",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the leader of the Sinestro Corps?",
+      "options": [
+        "Sinestro",
+        "Atrocitus",
+        "Larfleeze",
+        "Nekron"
+      ],
+      "correct_answer": "Sinestro",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_258",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is Sinestro's real name?",
+      "options": [
+        "Thaal Sinestro",
+        "Sinestro",
+        "Thaal",
+        "Hal Sinestro"
+      ],
+      "correct_answer": "Thaal Sinestro",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_259",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the leader of the Red Lanterns?",
+      "options": [
+        "Atrocitus",
+        "Sinestro",
+        "Larfleeze",
+        "Saint Walker"
+      ],
+      "correct_answer": "Atrocitus",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_260",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the sole Orange Lantern?",
+      "options": [
+        "Larfleeze",
+        "Atrocitus",
+        "Sinestro",
+        "Hal Jordan"
+      ],
+      "correct_answer": "Larfleeze",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_261",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What emotion does the Orange Lantern ring represent?",
+      "options": [
+        "Greed",
+        "Avarice",
+        "Both A and B",
+        "Gluttony"
+      ],
+      "correct_answer": "Both A and B",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_262",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the main villain in Shazam?",
+      "options": [
+        "Black Adam",
+        "Dr. Sivana",
+        "Both are major villains",
+        "Mr. Mind"
+      ],
+      "correct_answer": "Both are major villains",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_263",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of the villain Clayface?",
+      "options": [
+        "Basil Karlo",
+        "Matt Hagen",
+        "Preston Payne",
+        "All have been Clayface"
+      ],
+      "correct_answer": "All have been Clayface",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_264",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What power does Clayface possess?",
+      "options": [
+        "Shapeshifting",
+        "Super strength",
+        "Invulnerability",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_265",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the arch-enemy of the Teen Titans?",
+      "options": [
+        "Deathstroke",
+        "Trigon",
+        "Brother Blood",
+        "All are major enemies"
+      ],
+      "correct_answer": "All are major enemies",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_266",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is Raven's father?",
+      "options": [
+        "Trigon",
+        "Ares",
+        "Hades",
+        "Darkseid"
+      ],
+      "correct_answer": "Trigon",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_267",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Batman's greatest skill?",
+      "options": [
+        "Detective work",
+        "Martial arts",
+        "Strategy",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_268",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What belt does Batman wear that contains his gadgets?",
+      "options": [
+        "Utility Belt",
+        "Bat Belt",
+        "Gadget Belt",
+        "Tool Belt"
+      ],
+      "correct_answer": "Utility Belt",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_269",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is unique about Wonder Woman's bracelets?",
+      "options": [
+        "Indestructible",
+        "Can deflect bullets",
+        "Made from aegis",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_270",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What happens when Wonder Woman's bracelets are bound together?",
+      "options": [
+        "She loses her powers",
+        "She becomes more powerful",
+        "Nothing",
+        "She goes berserk"
+      ],
+      "correct_answer": "She loses her powers",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_271",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What ability does the Flash's suit have?",
+      "options": [
+        "Stores in a ring",
+        "Friction resistance",
+        "Self-repairing",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_272",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is Oracle's real identity?",
+      "options": [
+        "Barbara Gordon",
+        "Stephanie Brown",
+        "Cassandra Cain",
+        "Helena Bertinelli"
+      ],
+      "correct_answer": "Barbara Gordon",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_273",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What happened to Barbara Gordon that made her become Oracle?",
+      "options": [
+        "Paralyzed by Joker",
+        "Retired from crime-fighting",
+        "Promoted to police commissioner",
+        "Lost her powers"
+      ],
+      "correct_answer": "Paralyzed by Joker",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_274",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Huntress?",
+      "options": [
+        "Helena Bertinelli",
+        "Helena Wayne",
+        "Both have been Huntress",
+        "Helen Troy"
+      ],
+      "correct_answer": "Both have been Huntress",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_275",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of the second Flash (Kid Flash)?",
+      "options": [
+        "Wally West",
+        "Barry Allen",
+        "Jay Garrick",
+        "Bart Allen"
+      ],
+      "correct_answer": "Wally West",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_276",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Impulse?",
+      "options": [
+        "Bart Allen",
+        "Wally West",
+        "Jay Garrick",
+        "Barry Allen"
+      ],
+      "correct_answer": "Bart Allen",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_277",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Catwoman in The Dark Knight Rises?",
+      "options": [
+        "Anne Hathaway",
+        "Michelle Pfeiffer",
+        "Halle Berry",
+        "Zoe Kravitz"
+      ],
+      "correct_answer": "Anne Hathaway",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_278",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Catwoman in Batman Returns?",
+      "options": [
+        "Michelle Pfeiffer",
+        "Anne Hathaway",
+        "Halle Berry",
+        "Julie Newmar"
+      ],
+      "correct_answer": "Michelle Pfeiffer",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_279",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Catwoman in The Batman (2022)?",
+      "options": [
+        "Zoe Kravitz",
+        "Anne Hathaway",
+        "Halle Berry",
+        "Michelle Pfeiffer"
+      ],
+      "correct_answer": "Zoe Kravitz",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_280",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Bane in The Dark Knight Rises?",
+      "options": [
+        "Tom Hardy",
+        "Jeep Swenson",
+        "Dave Bautista",
+        "Nathan Jones"
+      ],
+      "correct_answer": "Tom Hardy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_281",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What year was Wonder Woman (2017) released?",
+      "options": [
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "correct_answer": "2017",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_282",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What year was Aquaman released?",
+      "options": [
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "correct_answer": "2018",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_283",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Lex Luthor in Batman v Superman?",
+      "options": [
+        "Jesse Eisenberg",
+        "Kevin Spacey",
+        "Gene Hackman",
+        "Michael Rosenbaum"
+      ],
+      "correct_answer": "Jesse Eisenberg",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_284",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Lex Luthor in Smallville?",
+      "options": [
+        "Michael Rosenbaum",
+        "Jesse Eisenberg",
+        "Kevin Spacey",
+        "Jon Cryer"
+      ],
+      "correct_answer": "Michael Rosenbaum",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_285",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who voiced the Joker in Batman: The Animated Series?",
+      "options": [
+        "Mark Hamill",
+        "Kevin Conroy",
+        "Troy Baker",
+        "John DiMaggio"
+      ],
+      "correct_answer": "Mark Hamill",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_286",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What was the first Justice League animated series called?",
+      "options": [
+        "Justice League",
+        "Super Friends",
+        "Justice League Unlimited",
+        "Young Justice"
+      ],
+      "correct_answer": "Super Friends",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_287",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team includes Hawkman and Hawkgirl?",
+      "options": [
+        "Justice League",
+        "Justice Society",
+        "Both",
+        "Neither"
+      ],
+      "correct_answer": "Both",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_288",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team did Stargirl join in the TV series?",
+      "options": [
+        "Justice Society of America",
+        "Justice League",
+        "Teen Titans",
+        "Young Justice"
+      ],
+      "correct_answer": "Justice Society of America",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_289",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization does Steve Trevor work for?",
+      "options": [
+        "US Military Intelligence",
+        "ARGUS",
+        "Both depending on version",
+        "DEO"
+      ],
+      "correct_answer": "Both depending on version",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_290",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team that protects Atlantis?",
+      "options": [
+        "Atlantean Guard",
+        "The Others",
+        "Aquaman Family",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_291",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team includes Mera, Aquaman's wife?",
+      "options": [
+        "Justice League",
+        "The Others",
+        "Aquaman Family",
+        "All have included her"
+      ],
+      "correct_answer": "All have included her",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_292",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team formed by Dick Grayson after leaving the Teen Titans?",
+      "options": [
+        "Titans",
+        "Outsiders",
+        "Young Justice",
+        "Nightwing Corps"
+      ],
+      "correct_answer": "Titans",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_293",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team did Superman form in some versions?",
+      "options": [
+        "Superman Family",
+        "Legion of Super-Heroes",
+        "Authority",
+        "All are associated"
+      ],
+      "correct_answer": "All are associated",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_294",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the organization that monitors metahuman activity?",
+      "options": [
+        "DEO",
+        "ARGUS",
+        "Checkmate",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_295",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What criminal organization does Carmine Falcone lead?",
+      "options": [
+        "Falcone Crime Family",
+        "Gotham Mob",
+        "Mafia",
+        "All refer to the same"
+      ],
+      "correct_answer": "All refer to the same",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_296",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team was formed to counter the Justice League in Smallville?",
+      "options": [
+        "Injustice League",
+        "Legion of Doom",
+        "Suicide Squad",
+        "Checkmate"
+      ],
+      "correct_answer": "Injustice League",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_297",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Superman's bottled city?",
+      "options": [
+        "Kandor",
+        "Argo City",
+        "Kryptonopolis",
+        "New Krypton"
+      ],
+      "correct_answer": "Kandor",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_298",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the city where Supergirl lives?",
+      "options": [
+        "National City",
+        "Metropolis",
+        "Coast City",
+        "Star City"
+      ],
+      "correct_answer": "National City",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_299",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the underwater kingdom that opposes Atlantis?",
+      "options": [
+        "Xebel",
+        "Tritonis",
+        "Poseidonis",
+        "The Trench"
+      ],
+      "correct_answer": "Xebel",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_300",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What realm is home to the demons in DC Comics?",
+      "options": [
+        "Hell",
+        "Apokolips",
+        "The Underworld",
+        "All refer to different realms"
+      ],
+      "correct_answer": "All refer to different realms",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_301",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the source of Darkseid's power?",
+      "options": [
+        "Anti-Life Equation",
+        "Omega Energy",
+        "Dark Source",
+        "Apokolips Power"
+      ],
+      "correct_answer": "Anti-Life Equation",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_302",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the cosmic entity that created the universe in DC?",
+      "options": [
+        "The Source",
+        "The Presence",
+        "Both refer to the same",
+        "Perpetua"
+      ],
+      "correct_answer": "Both refer to the same",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_303",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the Monitor's realm?",
+      "options": [
+        "The Bleed",
+        "Nil",
+        "Both",
+        "Neither"
+      ],
+      "correct_answer": "Nil",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_304",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What planet was destroyed to create the asteroid field where Green Lantern's headquarters orbits?",
+      "options": [
+        "None - Oa was always there",
+        "Mogo",
+        "Korugar",
+        "It's unknown"
+      ],
+      "correct_answer": "None - Oa was always there",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_305",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What city does the Doom Patrol operate from?",
+      "options": [
+        "Varies by version",
+        "San Francisco",
+        "Danny the Street",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_306",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "Where is the Teen Titans Tower located in most versions?",
+      "options": [
+        "San Francisco",
+        "Jump City",
+        "New York",
+        "It varies"
+      ],
+      "correct_answer": "It varies",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_307",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the main villain in Wonder Woman (2017)?",
+      "options": [
+        "Ares",
+        "Cheetah",
+        "Circe",
+        "Doctor Poison"
+      ],
+      "correct_answer": "Ares",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_308",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the main villain in Wonder Woman 1984?",
+      "options": [
+        "Cheetah",
+        "Maxwell Lord",
+        "Both",
+        "Ares"
+      ],
+      "correct_answer": "Both",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_309",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of the Cheetah?",
+      "options": [
+        "Barbara Minerva",
+        "Diana Prince",
+        "Veronica Cale",
+        "Priscilla Rich"
+      ],
+      "correct_answer": "Barbara Minerva",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_310",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the speedster villain that appeared in The Flash movie?",
+      "options": [
+        "Reverse-Flash",
+        "Zoom",
+        "Savitar",
+        "General Zod"
+      ],
+      "correct_answer": "General Zod",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_311",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Killer Croc?",
+      "options": [
+        "Waylon Jones",
+        "Wade Wilson",
+        "Warren White",
+        "William Cobb"
+      ],
+      "correct_answer": "Waylon Jones",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_312",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What condition does Killer Croc suffer from?",
+      "options": [
+        "Rare skin condition",
+        "Mutation",
+        "Magic curse",
+        "It varies by version"
+      ],
+      "correct_answer": "It varies by version",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_313",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the main villain in Aquaman (2018)?",
+      "options": [
+        "Ocean Master",
+        "Black Manta",
+        "Both are major villains",
+        "King Atlan"
+      ],
+      "correct_answer": "Both are major villains",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_314",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is Deadshot's primary skill?",
+      "options": [
+        "Perfect marksmanship",
+        "Super strength",
+        "Invisibility",
+        "Telepathy"
+      ],
+      "correct_answer": "Perfect marksmanship",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_315",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of Deadshot?",
+      "options": [
+        "Floyd Lawton",
+        "Frank Castle",
+        "Wade Wilson",
+        "Clint Barton"
+      ],
+      "correct_answer": "Floyd Lawton",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_316",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the leader of the Court of Owls?",
+      "options": [
+        "No single leader",
+        "The Grandmaster",
+        "The Talon",
+        "Lincoln March"
+      ],
+      "correct_answer": "No single leader",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_317",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Superman's only non-physical superpower?",
+      "options": [
+        "X-ray vision",
+        "Heat vision",
+        "Super breath",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_318",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "Can Superman fly in all versions?",
+      "options": [
+        "Yes",
+        "No - early versions could only leap",
+        "Only under a yellow sun",
+        "It varies"
+      ],
+      "correct_answer": "No - early versions could only leap",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_319",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the name of the device that allows Batman to glide?",
+      "options": [
+        "Bat Cape",
+        "Bat Wings",
+        "Glider Cape",
+        "Memory Cloth Cape"
+      ],
+      "correct_answer": "Memory Cloth Cape",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_320",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the Flash's ability to phase through objects called?",
+      "options": [
+        "Phasing",
+        "Intangibility",
+        "Vibrating",
+        "All are used"
+      ],
+      "correct_answer": "All are used",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_321",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What ability does Aquaman have that allows him to survive in the deep ocean?",
+      "options": [
+        "Pressure resistance",
+        "Temperature resistance",
+        "Enhanced durability",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_322",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Speedy (Green Arrow's sidekick)?",
+      "options": [
+        "Roy Harper",
+        "Connor Hawke",
+        "Mia Dearden",
+        "All have been Speedy"
+      ],
+      "correct_answer": "Roy Harper",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_323",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Arsenal?",
+      "options": [
+        "Roy Harper",
+        "Connor Hawke",
+        "Oliver Queen",
+        "Tommy Merlyn"
+      ],
+      "correct_answer": "Roy Harper",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_324",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Aqualad?",
+      "options": [
+        "Kaldur'ahm",
+        "Garth",
+        "Both have been Aqualad",
+        "Jackson Hyde"
+      ],
+      "correct_answer": "Both have been Aqualad",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_325",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Mera?",
+      "options": [
+        "Mera",
+        "Mera Curry",
+        "Y'Mera Xebella Challa",
+        "All are correct"
+      ],
+      "correct_answer": "All are correct",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_326",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the relationship between Aquaman and Mera?",
+      "options": [
+        "Married",
+        "Dating",
+        "Partners",
+        "It varies by version"
+      ],
+      "correct_answer": "It varies by version",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_327",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What color is kryptonite that takes away Superman's powers permanently?",
+      "options": [
+        "Gold",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "correct_answer": "Gold",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_328",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What does blue kryptonite do?",
+      "options": [
+        "Affects Bizarro",
+        "Weakens Superman",
+        "Strengthens Superman",
+        "It varies"
+      ],
+      "correct_answer": "It varies",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_329",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What does black kryptonite do?",
+      "options": [
+        "Splits personalities",
+        "Kills instantly",
+        "Turns evil",
+        "It varies"
+      ],
+      "correct_answer": "Splits personalities",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_330",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Wonder Woman's tiara used for?",
+      "options": [
+        "A weapon",
+        "Communication device",
+        "Symbol of royalty",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_331",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "Can Wonder Woman fly in all versions?",
+      "options": [
+        "Yes",
+        "No - some versions use invisible jet",
+        "Only with wings",
+        "It varies"
+      ],
+      "correct_answer": "It varies",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_332",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What material is Batman's suit made of in most modern versions?",
+      "options": [
+        "Kevlar",
+        "Nomex",
+        "Memory weave",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_333",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the source of Cyborg's powers?",
+      "options": [
+        "Mother Box technology",
+        "Apokolips tech",
+        "Human technology",
+        "It varies"
+      ],
+      "correct_answer": "It varies",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_334",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What ability allows Cyborg to interface with technology?",
+      "options": [
+        "Technopathy",
+        "Hacking",
+        "Direct neural link",
+        "All describe it"
+      ],
+      "correct_answer": "All describe it",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_335",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is unique about the Speed Force?",
+      "options": [
+        "Extradimensional energy",
+        "Protects speedsters",
+        "Source of all speed",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_336",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "Can the Flash time travel?",
+      "options": [
+        "Yes",
+        "No",
+        "Only backwards",
+        "Only forwards"
+      ],
+      "correct_answer": "Yes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_337",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the Cosmic Treadmill?",
+      "options": [
+        "Flash's time travel device",
+        "Exercise equipment",
+        "Speed Force generator",
+        "Dimension portal"
+      ],
+      "correct_answer": "Flash's time travel device",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_338",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is Shazam's greatest weakness?",
+      "options": [
+        "Magic",
+        "His word",
+        "Lightning",
+        "Human form vulnerability"
+      ],
+      "correct_answer": "Human form vulnerability",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_339",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What happens when someone else says 'Shazam' near Billy Batson?",
+      "options": [
+        "Nothing",
+        "They transform",
+        "Billy transforms",
+        "It varies"
+      ],
+      "correct_answer": "It varies",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_340",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Zatanna?",
+      "options": [
+        "Zatanna Zatara",
+        "Zatanna Zee",
+        "Zatanna Zatarra",
+        "Zatanna Zane"
+      ],
+      "correct_answer": "Zatanna Zatara",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_341",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is unique about Zatanna's magic?",
+      "options": [
+        "Speaks backwards",
+        "Uses wand",
+        "No incantations",
+        "All of the above"
+      ],
+      "correct_answer": "Speaks backwards",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_342",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Booster Gold?",
+      "options": [
+        "Michael Jon Carter",
+        "Michael Gold",
+        "Barry Gold",
+        "John Carter"
+      ],
+      "correct_answer": "Michael Jon Carter",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_343",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "Where is Booster Gold from?",
+      "options": [
+        "25th century",
+        "31st century",
+        "Future",
+        "It varies"
+      ],
+      "correct_answer": "25th century",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_344",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Plastic Man?",
+      "options": [
+        "Eel O'Brian",
+        "Patrick O'Brian",
+        "Edward O'Brian",
+        "Elongated Man"
+      ],
+      "correct_answer": "Eel O'Brian",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_345",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Elongated Man?",
+      "options": [
+        "Ralph Dibny",
+        "Eel O'Brian",
+        "Ray Palmer",
+        "Reed Richards"
+      ],
+      "correct_answer": "Ralph Dibny",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_346",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of The Atom?",
+      "options": [
+        "Ray Palmer",
+        "Ryan Choi",
+        "Both have been The Atom",
+        "Al Pratt"
+      ],
+      "correct_answer": "Both have been The Atom",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_347",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Hawkgirl?",
+      "options": [
+        "Shiera Hall",
+        "Kendra Saunders",
+        "Both have been Hawkgirl",
+        "Shayera Hol"
+      ],
+      "correct_answer": "Both have been Hawkgirl",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_348",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Firestorm?",
+      "options": [
+        "Ronnie Raymond",
+        "Jason Rusch",
+        "Both merge to become Firestorm",
+        "Martin Stein"
+      ],
+      "correct_answer": "Both merge to become Firestorm",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_349",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "Who is Batman's most trusted ally?",
+      "options": [
+        "Alfred",
+        "Robin",
+        "Commissioner Gordon",
+        "All of them"
+      ],
+      "correct_answer": "All of them",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_350",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the Green Lantern planet that is actually a living being?",
+      "options": [
+        "Mogo",
+        "Oa",
+        "Korugar",
+        "Ranx"
+      ],
+      "correct_answer": "Mogo",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_351",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Sinestro's home planet?",
+      "options": [
+        "Korugar",
+        "Oa",
+        "Qward",
+        "Ungara"
+      ],
+      "correct_answer": "Korugar",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_352",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What dimension do the Sinestro Corps get their rings from?",
+      "options": [
+        "Qward",
+        "Antimatter Universe",
+        "Both refer to the same",
+        "Korugar"
+      ],
+      "correct_answer": "Both refer to the same",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_353",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the wasteland in Gotham City?",
+      "options": [
+        "Crime Alley",
+        "The Narrows",
+        "Arkham",
+        "All are areas in Gotham"
+      ],
+      "correct_answer": "All are areas in Gotham",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_354",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "Where were Batman's parents killed?",
+      "options": [
+        "Crime Alley",
+        "Park Row",
+        "Both names for same place",
+        "Gotham Theater"
+      ],
+      "correct_answer": "Both names for same place",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_355",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the prison planet?",
+      "options": [
+        "Takron-Galtos",
+        "Oa",
+        "Warworld",
+        "Apokolips"
+      ],
+      "correct_answer": "Takron-Galtos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_356",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Mongul's mobile planet?",
+      "options": [
+        "Warworld",
+        "Apokolips",
+        "New Genesis",
+        "Korugar"
+      ],
+      "correct_answer": "Warworld",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_357",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the underwater trench where monsters live?",
+      "options": [
+        "The Trench",
+        "The Deep",
+        "The Abyss",
+        "Monster Bay"
+      ],
+      "correct_answer": "The Trench",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_358",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of Raven's home dimension?",
+      "options": [
+        "Azarath",
+        "Hell",
+        "Trigon's Realm",
+        "Dark Dimension"
+      ],
+      "correct_answer": "Azarath",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_359",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What city is known for its high crime rate in the DC Universe?",
+      "options": [
+        "Gotham City",
+        "Bludhaven",
+        "Star City",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_360",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What major DC Comics event rebooted the universe in 2011?",
+      "options": [
+        "Flashpoint",
+        "Crisis on Infinite Earths",
+        "New 52",
+        "Both A and C"
+      ],
+      "correct_answer": "Both A and C",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_361",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What event killed Superman in the comics?",
+      "options": [
+        "The Death of Superman",
+        "Doomsday",
+        "Both refer to same event",
+        "Crisis"
+      ],
+      "correct_answer": "Both refer to same event",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_362",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What major crossover event destroyed the multiverse in 1985?",
+      "options": [
+        "Crisis on Infinite Earths",
+        "Infinite Crisis",
+        "Final Crisis",
+        "Zero Hour"
+      ],
+      "correct_answer": "Crisis on Infinite Earths",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_363",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What is the Knightfall storyline famous for?",
+      "options": [
+        "Bane breaking Batman's back",
+        "Batman's retirement",
+        "New Robin",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_364",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who temporarily replaced Batman in the Knightfall storyline?",
+      "options": [
+        "Jean-Paul Valley",
+        "Dick Grayson",
+        "Tim Drake",
+        "Jason Todd"
+      ],
+      "correct_answer": "Jean-Paul Valley",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_365",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What is Jean-Paul Valley's superhero name?",
+      "options": [
+        "Azrael",
+        "Batman",
+        "Both have been used",
+        "Angel"
+      ],
+      "correct_answer": "Both have been used",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_366",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who directed Batman Returns?",
+      "options": [
+        "Tim Burton",
+        "Joel Schumacher",
+        "Christopher Nolan",
+        "Matt Reeves"
+      ],
+      "correct_answer": "Tim Burton",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_367",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Batman in Batman Forever?",
+      "options": [
+        "Val Kilmer",
+        "George Clooney",
+        "Michael Keaton",
+        "Christian Bale"
+      ],
+      "correct_answer": "Val Kilmer",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_368",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "Who played Batman in Batman & Robin?",
+      "options": [
+        "George Clooney",
+        "Val Kilmer",
+        "Michael Keaton",
+        "Christian Bale"
+      ],
+      "correct_answer": "George Clooney",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_369",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the main villain in The Batman (2022)?",
+      "options": [
+        "The Riddler",
+        "The Penguin",
+        "Carmine Falcone",
+        "All are major villains"
+      ],
+      "correct_answer": "All are major villains",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_370",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the real name of the villain Hush?",
+      "options": [
+        "Tommy Elliot",
+        "Thomas Elliot",
+        "Both are correct",
+        "Timothy Elliot"
+      ],
+      "correct_answer": "Both are correct",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_371",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is Hush's connection to Bruce Wayne?",
+      "options": [
+        "Childhood friend",
+        "Business rival",
+        "No connection",
+        "Brother"
+      ],
+      "correct_answer": "Childhood friend",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_372",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the Court of Owls' primary assassin?",
+      "options": [
+        "Talon",
+        "The Owl",
+        "Night Owl",
+        "Assassin"
+      ],
+      "correct_answer": "Talon",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_373",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is unique about the Talons?",
+      "options": [
+        "Undead assassins",
+        "Regenerative powers",
+        "Centuries old",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_374",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team was founded by the original Flash?",
+      "options": [
+        "Justice Society of America",
+        "Justice League",
+        "All-Star Squadron",
+        "Flash Family"
+      ],
+      "correct_answer": "Justice Society of America",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_375",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team protects the multiverse?",
+      "options": [
+        "Justice League",
+        "Monitor",
+        "Both have done so",
+        "Monitors"
+      ],
+      "correct_answer": "Both have done so",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_376",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization does Maxwell Lord control in some versions?",
+      "options": [
+        "Checkmate",
+        "ARGUS",
+        "LexCorp",
+        "DEO"
+      ],
+      "correct_answer": "Checkmate",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_377",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team did Constantine help form to fight supernatural threats?",
+      "options": [
+        "Justice League Dark",
+        "Hellblazers",
+        "Trenchcoat Brigade",
+        "All have included him"
+      ],
+      "correct_answer": "All have included him",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_378",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team that polices time?",
+      "options": [
+        "Time Masters",
+        "Linear Men",
+        "Both have done so",
+        "Legends"
+      ],
+      "correct_answer": "Both have done so",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_379",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization did Bruce Wayne fund to train heroes worldwide?",
+      "options": [
+        "Batman Incorporated",
+        "Bat Family",
+        "Outsiders",
+        "Justice League"
+      ],
+      "correct_answer": "Batman Incorporated",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_380",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team consists of reformed villains led by Amanda Waller?",
+      "options": [
+        "Suicide Squad",
+        "Task Force X",
+        "Both names for same team",
+        "Redemption Squad"
+      ],
+      "correct_answer": "Both names for same team",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_381",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What corporation does Oliver Queen run?",
+      "options": [
+        "Queen Industries",
+        "Queen Consolidated",
+        "Both have been used",
+        "Star Industries"
+      ],
+      "correct_answer": "Both have been used",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_382",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What team includes Connor Hawke?",
+      "options": [
+        "Justice League",
+        "Team Arrow",
+        "Green Arrow Family",
+        "All have included him"
+      ],
+      "correct_answer": "All have included him",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_383",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What is the name of the team of young heroes trained by the JSA?",
+      "options": [
+        "Infinity Inc.",
+        "Young Justice",
+        "Teen Titans",
+        "JSA Reserves"
+      ],
+      "correct_answer": "Infinity Inc.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_384",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Teams & Organizations",
+      "question": "What organization runs Belle Reve prison?",
+      "options": [
+        "ARGUS",
+        "US Government",
+        "Amanda Waller",
+        "All are correct"
+      ],
+      "correct_answer": "All are correct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_385",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the main antagonist of the Injustice storyline?",
+      "options": [
+        "Superman",
+        "Joker",
+        "Both are major antagonists",
+        "Batman"
+      ],
+      "correct_answer": "Both are major antagonists",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_386",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the name of the sentient android created by the Amazons?",
+      "options": [
+        "Amazo",
+        "Red Tornado",
+        "Genocide",
+        "It varies"
+      ],
+      "correct_answer": "It varies",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_387",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What android can copy any superhero's powers?",
+      "options": [
+        "Amazo",
+        "Red Tornado",
+        "Metallo",
+        "Cyborg Superman"
+      ],
+      "correct_answer": "Amazo",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_388",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who is the anti-hero known as the Red Hood in current continuity?",
+      "options": [
+        "Jason Todd",
+        "Joker",
+        "Both have been Red Hood",
+        "Arsenal"
+      ],
+      "correct_answer": "Both have been Red Hood",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_389",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is Bizarro?",
+      "options": [
+        "Imperfect Superman clone",
+        "Opposite Superman",
+        "Both describe him",
+        "Evil Superman"
+      ],
+      "correct_answer": "Both describe him",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dcu_390",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "What is the name of the Kryptonian supercomputer that serves Lex Luthor?",
+      "options": [
+        "Brainiac",
+        "Kelex",
+        "It varies",
+        "None - Brainiac is independent"
+      ],
+      "correct_answer": "None - Brainiac is independent",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_391",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Villains & Antagonists",
+      "question": "Who leads the Female Furies?",
+      "options": [
+        "Granny Goodness",
+        "Big Barda",
+        "Both have led them",
+        "Darkseid"
+      ],
+      "correct_answer": "Both have led them",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_392",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the Mother Box?",
+      "options": [
+        "Sentient computer",
+        "New God technology",
+        "Living machine",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_393",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What sound does a Mother Box make?",
+      "options": [
+        "Ping",
+        "Beep",
+        "Varies",
+        "Silent"
+      ],
+      "correct_answer": "Ping",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_394",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities",
+      "question": "What is the Lasso of Truth also called?",
+      "options": [
+        "Lasso of Hestia",
+        "Golden Perfect",
+        "Magic Lasso",
+        "All are names"
+      ],
+      "correct_answer": "All are names",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_395",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is the real name of Miss Martian?",
+      "options": [
+        "M'gann M'orzz",
+        "Megan Morse",
+        "Both are correct",
+        "Martian Girl"
+      ],
+      "correct_answer": "Both are correct",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_396",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "What is Superboy's real name in Young Justice?",
+      "options": [
+        "Conner Kent",
+        "Kon-El",
+        "Both are used",
+        "Clark Kent Jr."
+      ],
+      "correct_answer": "Both are used",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_397",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies",
+      "question": "Who is Big Barda married to?",
+      "options": [
+        "Mister Miracle",
+        "Orion",
+        "Darkseid",
+        "None"
+      ],
+      "correct_answer": "Mister Miracle",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_398",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the dimension between universes?",
+      "options": [
+        "The Bleed",
+        "Speed Force",
+        "Phantom Zone",
+        "Limbo"
+      ],
+      "correct_answer": "The Bleed",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dcu_399",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the realm where Shazam gets his powers?",
+      "options": [
+        "Rock of Eternity",
+        "Mount Olympus",
+        "Both",
+        "Heaven"
+      ],
+      "correct_answer": "Rock of Eternity",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dcu_400",
+      "category": "Entertainment",
+      "subcategory": "Action/Adventure",
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Trivia & Events",
+      "question": "What is the name of the alternate universe where heroes are villains?",
+      "options": [
+        "Earth-3",
+        "Bizarro World",
+        "Crime Syndicate Earth",
+        "All refer to it"
+      ],
+      "correct_answer": "All refer to it",
+      "difficulty": "medium"
+    }
+  ],
+  "isPublished": true
+}

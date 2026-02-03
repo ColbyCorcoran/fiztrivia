@@ -22,7 +22,7 @@
   "freePreviewQuestions": [],
   "paidQuestions": [
     {
-      "id": "ent_396",
+      "id": "dcu_001",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Superman's weakness?",
@@ -34,11 +34,11 @@
       ],
       "correct_answer": "All of the above",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities"
     },
     {
-      "id": "ent_397",
+      "id": "dcu_002",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Wonder Woman's home island called?",
@@ -50,11 +50,11 @@
       ],
       "correct_answer": "Themyscira",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Locations & Worlds"
     },
     {
-      "id": "ent_398",
+      "id": "dcu_003",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the Daily Planet's editor-in-chief?",
@@ -66,11 +66,11 @@
       ],
       "correct_answer": "Perry White",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_399",
+      "id": "dcu_004",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What color represents Green Lantern's weakness?",
@@ -82,11 +82,11 @@
       ],
       "correct_answer": "Yellow",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities"
     },
     {
-      "id": "ent_400",
+      "id": "dcu_005",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Batman's butler?",
@@ -98,11 +98,11 @@
       ],
       "correct_answer": "Alfred Pennyworth",
       "difficulty": "easy",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_401",
+      "id": "dcu_006",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "Who is the fastest man alive in DC Comics?",
@@ -114,11 +114,11 @@
       ],
       "correct_answer": "The Flash",
       "difficulty": "easy",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_402",
+      "id": "dcu_007",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Superman's home planet?",
@@ -130,11 +130,11 @@
       ],
       "correct_answer": "Krypton",
       "difficulty": "easy",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_403",
+      "id": "dcu_008",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Green Lantern's power source?",
@@ -146,11 +146,11 @@
       ],
       "correct_answer": "All of the above",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Powers & Abilities"
     },
     {
-      "id": "ent_404",
+      "id": "dcu_009",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Batman's sidekick?",
@@ -162,11 +162,11 @@
       ],
       "correct_answer": "All of the above",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_405",
+      "id": "dcu_010",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Superman's father?",
@@ -178,11 +178,11 @@
       ],
       "correct_answer": "Jor-El",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_406",
+      "id": "dcu_011",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Batman's vehicle?",
@@ -194,11 +194,11 @@
       ],
       "correct_answer": "Batmobile",
       "difficulty": "easy",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_407",
+      "id": "dcu_012",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Cyborg's real name?",
@@ -210,11 +210,11 @@
       ],
       "correct_answer": "Victor Stone",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_408",
+      "id": "dcu_013",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the Joker's girlfriend?",
@@ -226,11 +226,11 @@
       ],
       "correct_answer": "Harley Quinn",
       "difficulty": "easy",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_409",
+      "id": "dcu_014",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of the Daily Planet photographer?",
@@ -242,11 +242,11 @@
       ],
       "correct_answer": "Jimmy Olsen",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_410",
+      "id": "dcu_015",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Superman's dog?",
@@ -258,11 +258,11 @@
       ],
       "correct_answer": "Krypto",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_411",
+      "id": "dcu_016",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Green Lantern's oath?",
@@ -274,11 +274,11 @@
       ],
       "correct_answer": "Green Lantern Oath",
       "difficulty": "medium",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_412",
+      "id": "dcu_017",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the name of Wonder Woman's invisible jet?",
@@ -290,11 +290,11 @@
       ],
       "correct_answer": "Invisible Jet",
       "difficulty": "easy",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_413",
+      "id": "dcu_018",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Superman?",
@@ -306,11 +306,11 @@
       ],
       "correct_answer": "Clark Kent",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_414",
+      "id": "dcu_019",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Green Lantern?",
@@ -322,11 +322,11 @@
       ],
       "correct_answer": "Hal Jordan",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_415",
+      "id": "dcu_020",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Wonder Woman?",
@@ -338,11 +338,11 @@
       ],
       "correct_answer": "Diana Prince",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_416",
+      "id": "dcu_021",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Green Arrow?",
@@ -354,11 +354,11 @@
       ],
       "correct_answer": "Oliver Queen",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_417",
+      "id": "dcu_022",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is the real name of Aquaman?",
@@ -370,11 +370,11 @@
       ],
       "correct_answer": "Arthur Curry",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_418",
+      "id": "dcu_023",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Hawkman's real name?",
@@ -386,11 +386,11 @@
       ],
       "correct_answer": "Carter Hall",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_419",
+      "id": "dcu_024",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Constantine's real name?",
@@ -402,11 +402,11 @@
       ],
       "correct_answer": "John Constantine",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_420",
+      "id": "dcu_025",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Swamp Thing's real name?",
@@ -418,11 +418,11 @@
       ],
       "correct_answer": "Alec Holland",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     },
     {
-      "id": "ent_421",
+      "id": "dcu_026",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "question": "What is Lobo's real name?",
@@ -434,8 +434,8 @@
       ],
       "correct_answer": "Lobo",
       "difficulty": "hard",
-      "topic": "DC",
-      "subtopic": null
+      "topic": "com.fiz.pack.dc",
+      "subtopic": "Heroes & Allies"
     }
   ],
   "isPublished": false

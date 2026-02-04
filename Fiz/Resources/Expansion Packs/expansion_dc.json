@@ -227,7 +227,7 @@
       "correct_answer": "Harley Quinn",
       "difficulty": "easy",
       "topic": "com.fiz.pack.dc",
-      "subtopic": "Heroes & Allies"
+      "subtopic": "Villains & Antagonists"
     },
     {
       "id": "dcu_014",
@@ -2493,7 +2493,7 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of the phantom zone prison?",
+      "question": "What is the name of the Kryptonian dimensional prison?",
       "options": [
         "Phantom Zone",
         "Shadow Realm",
@@ -4340,7 +4340,7 @@
         "Nothing",
         "She goes berserk"
       ],
-      "correct_answer": "She loses her powers",
+      "correct_answer": "She goes berserk",
       "difficulty": "hard"
     },
     {

@@ -829,14 +829,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What is the name of the team formed by Batman in the Arrowverse?",
+      "question": "Which superhero team was originally formed during World War II on Earth-Two?",
       "options": [
-        "Justice League",
-        "Bat Family",
-        "Team Arrow",
-        "Outsiders"
+        "Justice Society of America",
+        "All-Star Squadron",
+        "Freedom Fighters",
+        "Seven Soldiers of Victory"
       ],
-      "correct_answer": "Outsiders",
+      "correct_answer": "Justice Society of America",
       "difficulty": "hard"
     },
     {
@@ -2445,14 +2445,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What city does Green Lantern Hal Jordan protect?",
+      "question": "What is the name of the Justice League's headquarters in the Super Friends animated series?",
       "options": [
-        "Coast City",
-        "Star City",
-        "Gotham City",
-        "Metropolis"
+        "Hall of Justice",
+        "Watchtower",
+        "Secret Sanctuary",
+        "Justice Hall"
       ],
-      "correct_answer": "Coast City",
+      "correct_answer": "Hall of Justice",
       "difficulty": "medium"
     },
     {
@@ -2685,14 +2685,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "What year was the first Superman comic published?",
+      "question": "What year did the landmark Crisis on Infinite Earths comic series begin publication?",
       "options": [
-        "1936",
-        "1938",
-        "1940",
-        "1942"
+        "1983",
+        "1985",
+        "1986",
+        "1987"
       ],
-      "correct_answer": "1938",
+      "correct_answer": "1985",
       "difficulty": "hard"
     },
     {
@@ -3277,14 +3277,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of the Speed Force prison?",
+      "question": "What extradimensional realm is used to imprison speedster villains?",
       "options": [
-        "Speed Force",
-        "Speedster Prison",
+        "The Speed Force",
+        "The Phantom Zone",
         "Iron Heights",
-        "Flash Museum"
+        "The Microverse"
       ],
-      "correct_answer": "Speed Force",
+      "correct_answer": "The Speed Force",
       "difficulty": "hard"
     },
     {
@@ -3965,14 +3965,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What dimension do speedsters access?",
+      "question": "What is the name of Batman's secret headquarters beneath Wayne Manor?",
       "options": [
-        "Speed Force",
-        "Flashpoint",
-        "Time Stream",
-        "Hyperspace"
+        "The Batcave",
+        "The Bat Bunker",
+        "Wayne Underground",
+        "The Dark Sanctum"
       ],
-      "correct_answer": "Speed Force",
+      "correct_answer": "The Batcave",
       "difficulty": "easy"
     },
     {
@@ -4845,14 +4845,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of the cosmic entity that created the universe in DC?",
+      "question": "What is the name of the energy field that is the source of all creation in DC Comics?",
       "options": [
         "The Source",
         "The Presence",
-        "Both refer to the same",
-        "Perpetua"
+        "The Anti-Life Equation",
+        "The Omega Effect"
       ],
-      "correct_answer": "Both refer to the same",
+      "correct_answer": "The Source",
       "difficulty": "hard"
     },
     {
@@ -5266,9 +5266,9 @@
         "Affects Bizarro",
         "Weakens Superman",
         "Strengthens Superman",
-        "It varies"
+        "Removes all powers permanently"
       ],
-      "correct_answer": "It varies",
+      "correct_answer": "Affects Bizarro",
       "difficulty": "hard"
     },
     {

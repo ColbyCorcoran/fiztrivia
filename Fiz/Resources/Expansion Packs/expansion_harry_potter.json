@@ -2862,7 +2862,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Spells & Magic",
-      "question": "What spell packs trunks?",
+      "question": "What spell is used to organize items in a trunk?",
       "options": [
         "Mobiliarbus",
         "Pack",
@@ -3182,7 +3182,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Spells & Magic",
-      "question": "What spell creates a Fidelius Charm?",
+      "question": "What spell is used to hide a secret within a person's soul?",
       "options": [
         "Protego",
         "Fidelius",
@@ -3422,7 +3422,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Hogwarts",
-      "question": "What are the moving staircases called?",
+      "question": "What are Hogwarts' enchanted staircases called?",
       "options": [
         "Magic stairs",
         "Moving staircases",
@@ -5582,14 +5582,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Movies",
-      "question": "Who played Voldemort?",
+      "question": "What actress played Hermione Granger in all Harry Potter films?",
       "options": [
-        "Alan Rickman",
-        "Gary Oldman",
-        "Ralph Fiennes",
-        "Jason Isaacs"
+        "Emma Watson",
+        "Emma Thompson",
+        "Emily Blunt",
+        "Emma Stone"
       ],
-      "correct_answer": "Ralph Fiennes",
+      "correct_answer": "Emma Watson",
       "difficulty": "easy"
     },
     {
@@ -7198,14 +7198,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Wizarding World",
-      "question": "What is the wizarding newspaper?",
+      "question": "What is the wizarding bank called?",
       "options": [
-        "Daily Prophet",
-        "Quibbler",
-        "Wizard Times",
-        "Magic News"
+        "Gringotts",
+        "Flourish and Blotts",
+        "Weasleys' Wizard Wheezes",
+        "Ollivanders"
       ],
-      "correct_answer": "Daily Prophet",
+      "correct_answer": "Gringotts",
       "difficulty": "easy"
     },
     {
@@ -7646,14 +7646,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Spells & Magic",
-      "question": "What spell creates a Patronus?",
+      "question": "What spell is used to disarm an opponent?",
       "options": [
-        "Expecto Patronum",
-        "Riddikulus",
+        "Expelliarmus",
+        "Stupefy",
         "Protego",
-        "Expelliarmus"
+        "Petrificus Totalus"
       ],
-      "correct_answer": "Expecto Patronum",
+      "correct_answer": "Expelliarmus",
       "difficulty": "medium"
     },
     {
@@ -8734,14 +8734,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Books & Plot",
-      "question": "What are the three Deathly Hallows?",
+      "question": "What position does Harry play on the Gryffindor Quidditch team?",
       "options": [
-        "Wand, Stone, Cloak",
-        "Sword, Ring, Locket",
-        "Cup, Diadem, Snake",
-        "Book, Wand, Mirror"
+        "Seeker",
+        "Keeper",
+        "Chaser",
+        "Beater"
       ],
-      "correct_answer": "Wand, Stone, Cloak",
+      "correct_answer": "Seeker",
       "difficulty": "medium"
     },
     {
@@ -8782,14 +8782,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Wizarding World",
-      "question": "What platform do you take to board the Hogwarts Express?",
+      "question": "What is the name of the wizarding prison?",
       "options": [
-        "Platform 8 3/4",
-        "Platform 9 3/4",
-        "Platform 10 3/4",
-        "Platform 7 3/4"
+        "Azkaban",
+        "Nurmengard",
+        "Grimmauld Place",
+        "The Ministry"
       ],
-      "correct_answer": "Platform 9 3/4",
+      "correct_answer": "Azkaban",
       "difficulty": "easy"
     },
     {

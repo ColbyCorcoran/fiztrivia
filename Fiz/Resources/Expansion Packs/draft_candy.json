@@ -2,7 +2,14 @@
   "packId": "com.fiz.pack.candy",
   "packName": "Candy & Sweets",
   "packDescription": "Satisfy your sweet tooth with questions about candy, chocolate, and confectionery history from around the world!",
-  "subtopics": [],
+  "subtopics": [
+    "Candy Types",
+    "History & Origins",
+    "Ingredients & Making",
+    "Around the World",
+    "Holidays & Occasions",
+    "Pop Culture"
+  ],
   "questionCount": 0,
   "freePreviewCount": 0,
   "difficulty": {

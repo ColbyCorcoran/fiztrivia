@@ -2,7 +2,14 @@
   "packId": "com.fiz.pack.narnia",
   "packName": "The Chronicles of Narnia",
   "packDescription": "Journey through the wardrobe into the magical world of Narnia! Test your knowledge of C.S. Lewis's beloved fantasy series.",
-  "subtopics": [],
+  "subtopics": [
+    "Characters",
+    "Books & Plot",
+    "Locations & Worlds",
+    "Creatures & Beings",
+    "Magic & Objects",
+    "Themes & Symbolism"
+  ],
   "questionCount": 0,
   "freePreviewCount": 0,
   "difficulty": {

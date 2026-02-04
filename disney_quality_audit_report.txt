@@ -1,0 +1,238 @@
+================================================================================
+DISNEY EXPANSION PACK - QUALITY AUDIT REPORT
+================================================================================
+
+Total questions analyzed: 500
+
+
+================================================================================
+1. AUTO-FIX ISSUES
+================================================================================
+
+Clear typos and grammar errors that can be automatically fixed.
+
+✓ No auto-fix issues found!
+
+
+================================================================================
+2. FLAG FOR REPLACEMENT - SEMANTIC DUPLICATES
+================================================================================
+
+Found 72 pairs of semantically similar questions.
+
+These questions use very similar wording and should be replaced with
+unique questions to add variety to the quiz experience.
+
+--- VERY HIGH SIMILARITY (≥95%) - 2 pairs ---
+
+1. IDs: dsn_preview_004, dsn_preview_051 (98% similar)
+   Subtopics: Animated Classics, Animated Classics
+   Q1: What is the name of the princess in 'The Little Mermaid'?
+   Q2: What is the name of the prince in 'The Little Mermaid'?
+   → ACTION: These are nearly identical - keep one, replace the other
+
+2. IDs: dsn_preview_025, dsn_paid_199 (96% similar)
+   Subtopics: Characters, Characters
+   Q1: What color are Mickey Mouse's shoes?
+   Q2: What color are Mickey Mouse's shorts?
+   → ACTION: These are nearly identical - keep one, replace the other
+
+
+--- HIGH SIMILARITY (90-94%) - 18 pairs ---
+
+1. IDs: dsn_preview_010, dsn_paid_018 (91% similar)
+   Subtopics: Animated Classics, Animated Classics
+   Q1: What is the name of the villain in 'Sleeping Beauty'?
+   Q2: What is the name of the prince in 'Sleeping Beauty'?
+   → ACTION: Very similar pattern - consider replacing one
+
+2. IDs: dsn_preview_027, dsn_paid_081 (92% similar)
+   Subtopics: Characters, Animated Classics
+   Q1: What type of animal is Dumbo?
+   Q2: What type of animal is Pumbaa?
+   → ACTION: Very similar pattern - consider replacing one
+
+3. IDs: dsn_preview_036, dsn_paid_431 (91% similar)
+   Subtopics: Parks, Parks
+   Q1: What is the tallest structure in Disney World?
+   Q2: What is the tallest structure at Walt Disney World?
+   → ACTION: Very similar pattern - consider replacing one
+
+4. IDs: dsn_preview_038, dsn_paid_419 (93% similar)
+   Subtopics: Parks, Parks
+   Q1: How many parks are at Walt Disney World?
+   Q2: How many theme parks are at Walt Disney World?
+   → ACTION: Very similar pattern - consider replacing one
+
+5. IDs: dsn_preview_039, dsn_paid_435 (94% similar)
+   Subtopics: Parks, Parks
+   Q1: What is the name of the nighttime show at Magic Kingdom?
+   Q2: What is the name of the nighttime show at Animal Kingdom?
+   → ACTION: Very similar pattern - consider replacing one
+
+6. IDs: dsn_preview_057, dsn_preview_058 (91% similar)
+   Subtopics: Live Action, Live Action
+   Q1: Who plays Simba in the 2019 Lion King?
+   Q2: Who plays Nala in the 2019 Lion King?
+   → ACTION: Very similar pattern - consider replacing one
+
+7. IDs: dsn_preview_057, dsn_paid_511 (90% similar)
+   Subtopics: Live Action, Live Action
+   Q1: Who plays Simba in the 2019 Lion King?
+   Q2: Who plays Simba in the 2019 Lion King (voice)?
+   → ACTION: Very similar pattern - consider replacing one
+
+8. IDs: dsn_preview_057, dsn_paid_512 (93% similar)
+   Subtopics: Live Action, Live Action
+   Q1: Who plays Simba in the 2019 Lion King?
+   Q2: Who plays Scar in the 2019 Lion King?
+   → ACTION: Very similar pattern - consider replacing one
+
+9. IDs: dsn_preview_057, dsn_paid_513 (91% similar)
+   Subtopics: Live Action, Live Action
+   Q1: Who plays Simba in the 2019 Lion King?
+   Q2: Who plays Mufasa in the 2019 Lion King?
+   → ACTION: Very similar pattern - consider replacing one
+
+10. IDs: dsn_preview_058, dsn_paid_512 (92% similar)
+   Subtopics: Live Action, Live Action
+   Q1: Who plays Nala in the 2019 Lion King?
+   Q2: Who plays Scar in the 2019 Lion King?
+   → ACTION: Very similar pattern - consider replacing one
+
+11. IDs: dsn_preview_058, dsn_paid_513 (92% similar)
+   Subtopics: Live Action, Live Action
+   Q1: Who plays Nala in the 2019 Lion King?
+   Q2: Who plays Mufasa in the 2019 Lion King?
+   → ACTION: Very similar pattern - consider replacing one
+
+12. IDs: dsn_paid_296, dsn_paid_300 (91% similar)
+   Subtopics: Songs, Songs
+   Q1: Who wrote the music for 'Aladdin'?
+   Q2: Who wrote the music for 'Mulan'?
+   → ACTION: Very similar pattern - consider replacing one
+
+13. IDs: dsn_paid_299, dsn_paid_302 (91% similar)
+   Subtopics: Songs, Songs
+   Q1: Who wrote the music for 'Tarzan'?
+   Q2: Who wrote the music for 'Frozen'?
+   → ACTION: Very similar pattern - consider replacing one
+
+14. IDs: dsn_paid_300, dsn_paid_303 (94% similar)
+   Subtopics: Songs, Songs
+   Q1: Who wrote the music for 'Mulan'?
+   Q2: Who wrote the music for 'Moana'?
+   → ACTION: Very similar pattern - consider replacing one
+
+15. IDs: dsn_paid_356, dsn_paid_541 (90% similar)
+   Subtopics: Live Action, Live Action
+   Q1: Who plays Cruella in the 2021 film?
+   Q2: Who plays Cinderella in the 2015 film?
+   → ACTION: Very similar pattern - consider replacing one
+
+
+--- MEDIUM SIMILARITY (85-89%) - 52 pairs ---
+
+Showing first 10 of 52 medium-similarity pairs:
+
+1. IDs: dsn_preview_027, dsn_paid_022 (90% similar)
+   Q1: What type of animal is Dumbo?
+   Q2: What type of animal is Bambi?
+
+2. IDs: dsn_preview_027, dsn_paid_080 (90% similar)
+   Q1: What type of animal is Dumbo?
+   Q2: What type of animal is Timon?
+
+3. IDs: dsn_preview_053, dsn_paid_368 (89% similar)
+   Q1: What is Pluto's species?
+   Q2: What is Loki's species?
+
+4. IDs: dsn_paid_022, dsn_paid_080 (86% similar)
+   Q1: What type of animal is Bambi?
+   Q2: What type of animal is Timon?
+
+5. IDs: dsn_paid_022, dsn_paid_081 (88% similar)
+   Q1: What type of animal is Bambi?
+   Q2: What type of animal is Pumbaa?
+
+6. IDs: dsn_paid_043, dsn_paid_090 (87% similar)
+   Q1: In 'Mulan', what is the name of the Hun leader?
+   Q2: In 'Mulan', what is the name of the matchmaker?
+
+7. IDs: dsn_paid_047, dsn_paid_473 (86% similar)
+   Q1: What is the name of the chameleon in 'Tangled'?
+   Q2: What is the name of the pub in 'Tangled'?
+
+8. IDs: dsn_paid_080, dsn_paid_203 (88% similar)
+   Q1: What type of animal is Timon?
+   Q2: What type of animal is Pete?
+
+9. IDs: dsn_paid_081, dsn_paid_203 (86% similar)
+   Q1: What type of animal is Pumbaa?
+   Q2: What type of animal is Pete?
+
+10. IDs: dsn_paid_105, dsn_paid_468 (86% similar)
+   Q1: What is the name of the salamander in 'Frozen 2'?
+   Q2: What is the name of the snow monster in 'Frozen'?
+
+
+================================================================================
+3. NEEDS HUMAN VERIFICATION
+================================================================================
+
+Questions that may have issues requiring human review.
+
+Found 8 questions with potential issues:
+
+1. ID: dsn_paid_085 | Subtopic: Animated Classics
+   Question: Who is the archdeacon in 'The Hunchback of Notre Dame'?
+   Answer: The Archdeacon
+   ⚠ Answer "The Archdeacon" may be revealed in question
+
+2. ID: dsn_paid_090 | Subtopic: Animated Classics
+   Question: In 'Mulan', what is the name of the matchmaker?
+   Answer: The Matchmaker
+   ⚠ Answer "The Matchmaker" may be revealed in question
+
+3. ID: dsn_paid_091 | Subtopic: Animated Classics
+   Question: Who is the Emperor of China in 'Mulan'?
+   Answer: The Emperor
+   ⚠ Answer "The Emperor" may be revealed in question
+
+4. ID: dsn_paid_106 | Subtopic: Animated Classics
+   Question: In 'Raya and the Last Dragon', what is Sisu?
+   Answer: The last dragon
+   ⚠ Answer "The last dragon" may be revealed in question
+
+5. ID: dsn_paid_208 | Subtopic: Characters
+   Question: What animal is Br'er Rabbit?
+   Answer: Rabbit
+   ⚠ Answer "Rabbit" may be revealed in question
+
+6. ID: dsn_paid_307 | Subtopic: Songs
+   Question: What song from 'Beauty and the Beast' won an Oscar?
+   Answer: Beauty and the Beast
+   ⚠ Answer "Beauty and the Beast" may be revealed in question
+
+7. ID: dsn_paid_320 | Subtopic: Songs
+   Question: Which song does Gaston sing about himself?
+   Answer: Gaston
+   ⚠ Answer "Gaston" may be revealed in question
+
+8. ID: dsn_paid_481 | Subtopic: Characters
+   Question: What type of animal is Horace Horsecollar?
+   Answer: Horse
+   ⚠ Answer "Horse" may be revealed in question
+
+
+================================================================================
+SUMMARY
+================================================================================
+Total questions analyzed:        500
+Auto-fix grammar issues:         0
+Semantic duplicate pairs:        72
+Questions needing verification:  8
+
+Priority: Address semantic duplicates first (72 pairs)
+This means 72 questions should be replaced with new ones.
+

@@ -135,19 +135,19 @@
     },
     {
       "id": "80s_preview_008",
-      "subtopic": "Movies",
-      "question": "What sport is featured in 'The Karate Kid'?",
-      "options": [
-        "Kung Fu",
-        "Karate",
-        "Judo",
-        "Taekwondo"
-      ],
-      "correct_answer": "Karate",
-      "difficulty": "easy",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "topic": "com.fiz.pack.80s_trivia"
+      "topic": "com.fiz.pack.80s_trivia",
+      "subtopic": "Movies",
+      "question": "In which 1984 film does Bill Murray hunt supernatural entities in New York City?",
+      "options": [
+        "Scrooged",
+        "Ghostbusters",
+        "Stripes",
+        "Little Shop of Horrors"
+      ],
+      "correct_answer": "Ghostbusters",
+      "difficulty": "easy"
     },
     {
       "id": "80s_preview_009",
@@ -375,19 +375,19 @@
     },
     {
       "id": "80s_preview_023",
-      "subtopic": "TV Shows",
-      "question": "What was the theme song for 'The Fresh Prince of Bel-Air' decade?",
-      "options": [
-        "Actually premiered in 1990",
-        "1989",
-        "1988",
-        "1987"
-      ],
-      "correct_answer": "Actually premiered in 1990",
-      "difficulty": "hard",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.80s_trivia"
+      "topic": "com.fiz.pack.80s_trivia",
+      "subtopic": "TV Shows",
+      "question": "What was the name of the talking car in the TV series that featured David Hasselhoff?",
+      "options": [
+        "KARR",
+        "KITT",
+        "Herbie",
+        "Christine"
+      ],
+      "correct_answer": "KITT",
+      "difficulty": "easy"
     },
     {
       "id": "80s_preview_024",
@@ -519,19 +519,19 @@
     },
     {
       "id": "80s_preview_032",
-      "subtopic": "Pop Culture",
-      "question": "What arcade game featured Pac-Man?",
-      "options": [
-        "Donkey Kong",
-        "Space Invaders",
-        "Galaga",
-        "Pac-Man"
-      ],
-      "correct_answer": "Pac-Man",
-      "difficulty": "easy",
       "category": "Entertainment",
       "subcategory": "History & Eras",
-      "topic": "com.fiz.pack.80s_trivia"
+      "topic": "com.fiz.pack.80s_trivia",
+      "subtopic": "Pop Culture",
+      "question": "Which company released the Nintendo Entertainment System in North America in 1985?",
+      "options": [
+        "Sega",
+        "Nintendo",
+        "Atari",
+        "Coleco"
+      ],
+      "correct_answer": "Nintendo",
+      "difficulty": "medium"
     },
     {
       "id": "80s_preview_033",
@@ -632,7 +632,7 @@
     {
       "id": "80s_preview_039",
       "subtopic": "History",
-      "question": "Who became UK Prime Minister in 1979?",
+      "question": "Who was the UK Prime Minister during the 1980s?",
       "options": [
         "Tony Blair",
         "John Major",
@@ -1117,15 +1117,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Movies",
-      "question": "What color are Dorothy's slippers in 'The Wizard of Oz'?",
+      "question": "Who played the title role in the 1987 action film 'RoboCop'?",
       "options": [
-        "Silver",
-        "Gold",
-        "Blue",
-        "Ruby red"
+        "Peter Weller",
+        "Arnold Schwarzenegger",
+        "Sylvester Stallone",
+        "Kurt Russell"
       ],
-      "correct_answer": "Ruby red",
-      "difficulty": "easy"
+      "correct_answer": "Peter Weller",
+      "difficulty": "hard"
     },
     {
       "id": "80s_paid_030",
@@ -1737,19 +1737,19 @@
     },
     {
       "id": "80s_paid_068",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
+      "category": "Music",
+      "subcategory": "Pop",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Movies",
-      "question": "What is the name of the high school in 'Fast Times at Ridgemont High'?",
+      "subtopic": "Music",
+      "question": "Which 1983 song by Cyndi Lauper became an anthem for individuality and self-expression?",
       "options": [
-        "Shermer High",
-        "Rydell High",
-        "West Beverly",
-        "Ridgemont High"
+        "Time After Time",
+        "True Colors",
+        "Girls Just Want to Have Fun",
+        "She Bop"
       ],
-      "correct_answer": "Ridgemont High",
-      "difficulty": "medium"
+      "correct_answer": "Girls Just Want to Have Fun",
+      "difficulty": "easy"
     },
     {
       "id": "80s_paid_069",
@@ -2042,18 +2042,18 @@
     {
       "id": "80s_paid_087",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
+      "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Movies",
-      "question": "In 'The Fly', what are the telepods called?",
+      "question": "In which 1989 film does Robin Williams play an English teacher who inspires his students with poetry?",
       "options": [
-        "Teleporters",
-        "Transfer chambers",
-        "Quantum gates",
-        "Telepods"
+        "Good Morning, Vietnam",
+        "Dead Poets Society",
+        "Awakenings",
+        "The Fisher King"
       ],
-      "correct_answer": "Telepods",
-      "difficulty": "hard"
+      "correct_answer": "Dead Poets Society",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_088",
@@ -2121,19 +2121,19 @@
     },
     {
       "id": "80s_paid_092",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
+      "category": "Music",
+      "subcategory": "Rock",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Movies",
-      "question": "What is the Nostromo's registration number in 'Alien' (though 1979)?",
+      "subtopic": "Music",
+      "question": "Which Irish rock band released their breakthrough album 'The Joshua Tree' in 1987?",
       "options": [
-        "052881",
-        "180286",
-        "061979",
-        "092482"
+        "The Cranberries",
+        "U2",
+        "Simple Minds",
+        "INXS"
       ],
-      "correct_answer": "180286",
-      "difficulty": "hard"
+      "correct_answer": "U2",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_093",
@@ -3213,14 +3213,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "TV Shows",
-      "question": "What was the name of the bar where everybody knows your name?",
+      "question": "Which sitcom featured four older women living together in Miami?",
       "options": [
-        "The Bronze",
-        "Cheers",
-        "MacLaren's",
-        "Paddy's"
+        "Designing Women",
+        "The Golden Girls",
+        "Murphy Brown",
+        "Kate & Allie"
       ],
-      "correct_answer": "Cheers",
+      "correct_answer": "The Golden Girls",
       "difficulty": "easy"
     },
     {
@@ -3609,19 +3609,19 @@
     },
     {
       "id": "80s_paid_185",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
+      "category": "Sports",
+      "subcategory": "Team Sports",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "TV Shows",
-      "question": "What was the name of the bar owner in 'Cheers'?",
+      "subtopic": "Sports",
+      "question": "Which NFL team won four Super Bowls during the 1980s?",
       "options": [
-        "Sam Malone",
-        "Cliff Clavin",
-        "Norm Peterson",
-        "Frasier Crane"
+        "Dallas Cowboys",
+        "San Francisco 49ers",
+        "Washington Redskins",
+        "Miami Dolphins"
       ],
-      "correct_answer": "Sam Malone",
-      "difficulty": "medium"
+      "correct_answer": "San Francisco 49ers",
+      "difficulty": "hard"
     },
     {
       "id": "80s_paid_186",
@@ -3709,15 +3709,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "TV Shows",
-      "question": "What was the name of the pub in 'Cheers'?",
+      "question": "Which medical drama featured doctors Phillip Chandler and Donald Westphall?",
       "options": [
-        "Cheers",
-        "The Bull & Finch",
-        "Melville's",
-        "Gary's Tavern"
+        "St. Elsewhere",
+        "M*A*S*H",
+        "Trapper John, M.D.",
+        "Quincy, M.E."
       ],
-      "correct_answer": "Cheers",
-      "difficulty": "medium"
+      "correct_answer": "St. Elsewhere",
+      "difficulty": "hard"
     },
     {
       "id": "80s_paid_192",
@@ -4105,19 +4105,19 @@
     },
     {
       "id": "80s_paid_216",
-      "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "category": "History",
+      "subcategory": "Modern History",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What popular toy could 'transform' from vehicles to robots?",
+      "subtopic": "History",
+      "question": "Which Soviet leader introduced the policies of glasnost and perestroika in the 1980s?",
       "options": [
-        "Transformers",
-        "GoBots",
-        "Voltron",
-        "Robotech"
+        "Leonid Brezhnev",
+        "Mikhail Gorbachev",
+        "Yuri Andropov",
+        "Boris Yeltsin"
       ],
-      "correct_answer": "Transformers",
-      "difficulty": "easy"
+      "correct_answer": "Mikhail Gorbachev",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_217",
@@ -4138,18 +4138,18 @@
     {
       "id": "80s_paid_218",
       "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What colorful puzzle cube became a worldwide craze?",
+      "subtopic": "Movies",
+      "question": "What is the name of the villainous corporation in the 1987 film 'RoboCop'?",
       "options": [
-        "Rubik's Cube",
-        "Puzzle Ball",
-        "Magic Square",
-        "Soma Cube"
+        "Weyland-Yutani",
+        "OCP (Omni Consumer Products)",
+        "Tyrell Corporation",
+        "Cyberdyne Systems"
       ],
-      "correct_answer": "Rubik's Cube",
-      "difficulty": "easy"
+      "correct_answer": "OCP (Omni Consumer Products)",
+      "difficulty": "hard"
     },
     {
       "id": "80s_paid_219",
@@ -4169,19 +4169,19 @@
     },
     {
       "id": "80s_paid_220",
-      "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "category": "Music",
+      "subcategory": "Pop",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What workout video series starred Jane Fonda?",
+      "subtopic": "Music",
+      "question": "Which 1987 Whitney Houston hit spent 14 weeks at number one on the Billboard Hot 100?",
       "options": [
-        "Jane Fonda's Workout",
-        "Sweatin' to the Oldies",
-        "Tae Bo",
-        "P90X"
+        "How Will I Know",
+        "Greatest Love of All",
+        "I Wanna Dance with Somebody",
+        "Didn't We Almost Have It All"
       ],
-      "correct_answer": "Jane Fonda's Workout",
-      "difficulty": "easy"
+      "correct_answer": "I Wanna Dance with Somebody",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_221",
@@ -4218,17 +4218,17 @@
     {
       "id": "80s_paid_223",
       "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What doll line caused shopping frenzies?",
+      "subtopic": "Movies",
+      "question": "In which 1986 film does Tom Cruise play a hotshot naval aviator?",
       "options": [
-        "Cabbage Patch Kids",
-        "Barbie",
-        "Bratz",
-        "American Girl"
+        "Days of Thunder",
+        "Top Gun",
+        "An Officer and a Gentleman",
+        "Iron Eagle"
       ],
-      "correct_answer": "Cabbage Patch Kids",
+      "correct_answer": "Top Gun",
       "difficulty": "easy"
     },
     {
@@ -4237,31 +4237,31 @@
       "subcategory": "History & Eras",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Pop Culture",
-      "question": "What arcade game featured a yellow circle eating dots?",
+      "question": "Which home video game console was released by Sega in North America in 1989?",
       "options": [
-        "Pac-Man",
-        "Dig Dug",
-        "Q*bert",
-        "Centipede"
+        "Sega Master System",
+        "Sega Genesis",
+        "Sega Saturn",
+        "Sega Dreamcast"
       ],
-      "correct_answer": "Pac-Man",
-      "difficulty": "easy"
+      "correct_answer": "Sega Genesis",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_225",
-      "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "category": "Music",
+      "subcategory": "Rock",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What fashion accessory lit up when you walked?",
+      "subtopic": "Music",
+      "question": "Which 1982 album by Bruce Springsteen featured the hit single 'Born in the U.S.A.'?",
       "options": [
-        "LA Lights shoes",
-        "Glow sticks",
-        "Neon bracelets",
-        "Light-up jackets"
+        "The River",
+        "Born in the U.S.A.",
+        "Tunnel of Love",
+        "Nebraska"
       ],
-      "correct_answer": "LA Lights shoes",
-      "difficulty": "easy"
+      "correct_answer": "Born in the U.S.A.",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_226",
@@ -4377,19 +4377,19 @@
     },
     {
       "id": "80s_paid_233",
-      "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "category": "Sports",
+      "subcategory": "Individual Sports",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What electronic pet came in an egg-shaped device?",
+      "subtopic": "Sports",
+      "question": "Which figure skater won gold at the 1988 Calgary Winter Olympics for East Germany?",
       "options": [
-        "Tamagotchi",
-        "Giga Pet",
-        "Nano Pet",
-        "Digital Pet"
+        "Debi Thomas",
+        "Katarina Witt",
+        "Rosalynn Sumners",
+        "Midori Ito"
       ],
-      "correct_answer": "Tamagotchi",
-      "difficulty": "easy"
+      "correct_answer": "Katarina Witt",
+      "difficulty": "hard"
     },
     {
       "id": "80s_paid_234",
@@ -4426,17 +4426,17 @@
     {
       "id": "80s_paid_236",
       "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "subcategory": "Film & TV",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What cartoon featured transforming vehicles and robots?",
+      "subtopic": "TV Shows",
+      "question": "Which animated series featured brothers Leonardo, Donatello, Michelangelo, and Raphael?",
       "options": [
-        "Transformers",
-        "GoBots",
-        "M.A.S.K.",
+        "ThunderCats",
+        "Teenage Mutant Ninja Turtles",
+        "He-Man and the Masters of the Universe",
         "Voltron"
       ],
-      "correct_answer": "Transformers",
+      "correct_answer": "Teenage Mutant Ninja Turtles",
       "difficulty": "easy"
     },
     {
@@ -4458,18 +4458,18 @@
     {
       "id": "80s_paid_238",
       "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What was the first music video to air on MTV?",
+      "subtopic": "Movies",
+      "question": "Which 1988 film features a Los Angeles police officer fighting terrorists in a skyscraper?",
       "options": [
-        "Video Killed the Radio Star by The Buggles",
-        "Money for Nothing by Dire Straits",
-        "Thriller by Michael Jackson",
-        "Like a Virgin by Madonna"
+        "Lethal Weapon",
+        "Die Hard",
+        "Predator",
+        "The Running Man"
       ],
-      "correct_answer": "Video Killed the Radio Star by The Buggles",
-      "difficulty": "medium"
+      "correct_answer": "Die Hard",
+      "difficulty": "easy"
     },
     {
       "id": "80s_paid_239",
@@ -4617,34 +4617,34 @@
     },
     {
       "id": "80s_paid_248",
-      "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "category": "History",
+      "subcategory": "Modern History",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What toy featured transformable robots disguised as vehicles?",
+      "subtopic": "History",
+      "question": "In what year did the space shuttle Challenger tragically explode shortly after launch?",
       "options": [
-        "Transformers",
-        "GoBots",
-        "M.A.S.K.",
-        "Voltron"
+        "1984",
+        "1986",
+        "1988",
+        "1987"
       ],
-      "correct_answer": "Transformers",
+      "correct_answer": "1986",
       "difficulty": "medium"
     },
     {
       "id": "80s_paid_249",
-      "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "category": "Music",
+      "subcategory": "Pop",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What portable video game system was released by Nintendo in 1989?",
+      "subtopic": "Music",
+      "question": "Which 1984 Tina Turner song became her comeback hit and won a Grammy Award?",
       "options": [
-        "Game Boy",
-        "Game Gear",
-        "Lynx",
-        "TurboExpress"
+        "Private Dancer",
+        "Better Be Good to Me",
+        "What's Love Got to Do with It",
+        "Typical Male"
       ],
-      "correct_answer": "Game Boy",
+      "correct_answer": "What's Love Got to Do with It",
       "difficulty": "medium"
     },
     {
@@ -4653,7 +4653,7 @@
       "subcategory": "History & Eras",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Pop Culture",
-      "question": "What breakfast cereal featured a purple gorilla mascot?",
+      "question": "What breakfast cereal featured Fred and Barney as mascots?",
       "options": [
         "Fruity Pebbles",
         "actually, Count Chocula",
@@ -4714,17 +4714,17 @@
     {
       "id": "80s_paid_254",
       "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What cartoon featured a cat chasing a mouse?",
+      "subtopic": "Movies",
+      "question": "Which 1982 science fiction film featured light cycles and a digital world?",
       "options": [
-        "Tom and Jerry",
-        "Itchy & Scratchy",
-        "Sylvester & Tweety",
-        "Felix the Cat"
+        "WarGames",
+        "Tron",
+        "The Last Starfighter",
+        "Blade Runner"
       ],
-      "correct_answer": "Tom and Jerry",
+      "correct_answer": "Tron",
       "difficulty": "medium"
     },
     {
@@ -4765,7 +4765,7 @@
       "subcategory": "History & Eras",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Pop Culture",
-      "question": "What toy featured small blue creatures?",
+      "question": "What cartoon featured small blue creatures?",
       "options": [
         "Smurfs",
         "Trolls",
@@ -4921,19 +4921,19 @@
     },
     {
       "id": "80s_paid_267",
-      "category": "Entertainment",
-      "subcategory": "History & Eras",
+      "category": "Sports",
+      "subcategory": "International Sports",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Pop Culture",
-      "question": "What year did the stock market crash known as 'Black Monday' occur?",
+      "subtopic": "Sports",
+      "question": "Which country won the FIFA World Cup in 1986, led by Diego Maradona?",
       "options": [
-        "1987",
-        "1986",
-        "1988",
-        "1989"
+        "Brazil",
+        "Argentina",
+        "West Germany",
+        "Italy"
       ],
-      "correct_answer": "1987",
-      "difficulty": "hard"
+      "correct_answer": "Argentina",
+      "difficulty": "easy"
     },
     {
       "id": "80s_paid_268",
@@ -5241,18 +5241,18 @@
     },
     {
       "id": "80s_paid_287",
-      "category": "Sports",
-      "subcategory": "Sports History & Records",
+      "category": "Entertainment",
+      "subcategory": "History & Eras",
       "topic": "com.fiz.pack.80s_trivia",
-      "subtopic": "Sports",
-      "question": "What country hosted the 1988 Summer Olympics?",
+      "subtopic": "Pop Culture",
+      "question": "Which toy line featured colorful ponies with symbols on their flanks?",
       "options": [
-        "United States",
-        "Soviet Union",
-        "South Korea",
-        "Japan"
+        "Care Bears",
+        "My Little Pony",
+        "Rainbow Brite",
+        "Strawberry Shortcake"
       ],
-      "correct_answer": "South Korea",
+      "correct_answer": "My Little Pony",
       "difficulty": "easy"
     },
     {
@@ -5869,7 +5869,7 @@
       "subcategory": "Modern History",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "History",
-      "question": "What country invaded Afghanistan in 1979 (continued into 80s)?",
+      "question": "What country invaded Afghanistan in the 1980s?",
       "options": [
         "United States",
         "Pakistan",
@@ -5933,7 +5933,7 @@
       "subcategory": "Modern History",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "History",
-      "question": "Who was elected Pope in 1978?",
+      "question": "Who served as Pope throughout the 1980s?",
       "options": [
         "Pope Benedict XVI",
         "Pope Paul VI",
@@ -6257,10 +6257,10 @@
       "options": [
         "Rajiv Gandhi",
         "Morarji Desai",
-        "She was PM when assassinated",
+        "Indira Gandhi",
         "V.P. Singh"
       ],
-      "correct_answer": "She was PM when assassinated",
+      "correct_answer": "Indira Gandhi",
       "difficulty": "medium"
     },
     {

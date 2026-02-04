@@ -1,0 +1,252 @@
+================================================================================
+COMPREHENSIVE QUALITY AUDIT REPORT
+80s Trivia Expansion Pack (expansion_80s_trivia.json)
+================================================================================
+Date: February 4, 2026
+Total Questions: 400 (40 free preview + 360 paid)
+Total Issues Found: 31 (7.75% of questions)
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+The 80s Trivia expansion pack has 31 issues requiring attention:
+  • 0 simple typos/grammar fixes
+  • 23 questions flagged for replacement
+  • 8 questions needing human verification
+
+CRITICAL ISSUES:
+  • 5 questions about NON-80s content (wrong era entirely)
+  • 15+ duplicate questions (exact or semantic)
+  • 5+ self-revealing questions (answer in question text)
+
+================================================================================
+1. AUTO-FIX: Clear Typos and Missing Articles
+Count: 0
+================================================================================
+
+✓ None found - grammar quality is good overall
+
+================================================================================
+2. FLAG FOR REPLACEMENT: Must Be Replaced (23 questions)
+================================================================================
+
+NON-80s CONTENT (5 questions - HIGHEST PRIORITY):
+---------------------------------------------------
+These items are NOT from the 1980s and must be replaced:
+
+1. 80s_preview_023
+   Q: What was the theme song for 'The Fresh Prince of Bel-Air' decade?
+   A: Actually premiered in 1990
+   PROBLEM: Fresh Prince premiered September 1990 (NOT 80s). Answer is nonsensical.
+   FIX: Replace with actual 80s TV show
+
+2. 80s_paid_029
+   Q: What color are Dorothy's slippers in 'The Wizard of Oz'?
+   A: Ruby red
+   PROBLEM: Wizard of Oz is from 1939, not 1980s
+   FIX: Replace with 80s movie
+
+3. 80s_paid_225
+   Q: What fashion accessory lit up when you walked?
+   A: LA Lights shoes
+   PROBLEM: LA Lights introduced in 1992, not 80s
+   FIX: Replace with 80s fashion item
+
+4. 80s_paid_233
+   Q: What electronic pet came in an egg-shaped device?
+   A: Tamagotchi
+   PROBLEM: Tamagotchi released 1996-1997, not 80s
+   FIX: Replace with 80s toy
+
+5. 80s_paid_254
+   Q: What cartoon featured a cat chasing a mouse?
+   A: Tom and Jerry
+   PROBLEM: Started in 1940, not an 80s cartoon
+   FIX: Replace with 80s cartoon
+
+SELF-REVEALING QUESTIONS (5 questions):
+-----------------------------------------
+Answer appears directly in the question text:
+
+6. 80s_preview_032
+   Q: What arcade game featured Pac-Man?
+   A: Pac-Man
+   FIX: Rephrase to "What 1980 arcade game featured a yellow character eating dots?"
+
+7. 80s_preview_008
+   Q: What sport is featured in 'The Karate Kid'?
+   A: Karate
+   FIX: Replace entirely
+
+8. 80s_paid_068
+   Q: What is the name of the high school in 'Fast Times at Ridgemont High'?
+   A: Ridgemont High
+   FIX: Replace entirely
+
+9. 80s_paid_087
+   Q: In 'The Fly', what are the telepods called?
+   A: Telepods
+   FIX: Rephrase or replace
+
+10. 80s_paid_220
+    Q: What workout video series starred Jane Fonda?
+    A: Jane Fonda's Workout
+    FIX: Rephrase to "Who starred in the Workout video series?"
+
+EXACT DUPLICATES (4 questions):
+--------------------------------
+11. 80s_paid_191
+    Q: What was the name of the pub in 'Cheers'?
+    DUPLICATE OF: 80s_preview_003 (bar vs pub - same question)
+    FIX: Remove
+
+12. 80s_paid_287
+    Q: What country hosted the 1988 Summer Olympics?
+    DUPLICATE OF: 80s_paid_009 (What vs Which - same question)
+    FIX: Remove
+
+13. 80s_paid_249
+    Q: What portable video game system was released by Nintendo in 1989?
+    DUPLICATE OF: 80s_paid_027 (nearly identical)
+    FIX: Remove
+
+14. 80s_paid_267
+    Q: What year did the stock market crash known as 'Black Monday' occur?
+    DUPLICATE OF: 80s_paid_340 (exact duplicate)
+    FIX: Remove
+
+SEMANTIC DUPLICATES (9 questions):
+-----------------------------------
+15-17. TRANSFORMERS (3 duplicates - keep only 1)
+    • 80s_paid_216: What popular toy could 'transform' from vehicles to robots?
+    • 80s_paid_236: What cartoon featured transforming vehicles and robots?
+    • 80s_paid_248: What toy featured transformable robots disguised as vehicles?
+    • Also: 80s_paid_018 (original)
+    FIX: Remove 3 duplicates, keep only 80s_paid_018
+
+18-19. CHEERS BAR (2 additional duplicates beyond preview_003)
+    • 80s_paid_160: What was the name of the bar where everybody knows your name?
+    • 80s_paid_185: What was the name of the bar owner in 'Cheers'?
+    • Also duplicates: 80s_preview_024 (bartender question)
+    FIX: Remove duplicates, keep 1-2 distinct Cheers questions
+
+20. 80s_paid_218
+    Q: What colorful puzzle cube became a worldwide craze?
+    DUPLICATE OF: 80s_preview_028 (Rubik's Cube)
+    FIX: Remove
+
+21. 80s_paid_238
+    Q: What was the first music video to air on MTV?
+    DUPLICATE OF: 80s_preview_031 (identical)
+    FIX: Remove
+
+22. 80s_paid_224
+    Q: What arcade game featured a yellow circle eating dots?
+    SIMILAR TO: 80s_preview_032 (also Pac-Man)
+    FIX: Keep this one, remove 80s_preview_032
+
+23. 80s_paid_223
+    Q: What doll line caused shopping frenzies?
+    DUPLICATE OF: 80s_preview_029 (Cabbage Patch Kids)
+    FIX: Remove or make significantly different
+
+================================================================================
+3. NEEDS VERIFICATION: Questionable Content (8 questions)
+================================================================================
+
+POSSIBLY INCORRECT/AWKWARD (4 questions):
+------------------------------------------
+1. 80s_paid_250
+   Q: What breakfast cereal featured a purple gorilla mascot?
+   A: Fruity Pebbles
+   ISSUE: Fruity Pebbles mascots are Fred Flintstone & Barney Rubble, not a purple gorilla
+   ACTION: Verify answer or replace
+
+2. 80s_paid_257
+   Q: What toy featured small blue creatures?
+   A: Smurfs
+   ISSUE: Smurfs were primarily a cartoon, not a toy line
+   ACTION: Change "toy" to "cartoon" or specify "toy figurines"
+
+3. 80s_paid_350
+   Q: Who was the Prime Minister of India when Indira Gandhi was assassinated?
+   A: She was PM when assassinated
+   ISSUE: Answer format is wrong - should be "Indira Gandhi"
+   ACTION: Fix answer format
+
+4. 80s_paid_092
+   Q: What is the Nostromo's registration number in 'Alien' (though 1979)?
+   A: 180286
+   ISSUE: Alien is from 1979, awkward parenthetical
+   ACTION: Remove question or fix wording
+
+BORDERLINE PRE-80s DATES (3 questions):
+----------------------------------------
+5. 80s_preview_039
+   Q: Who became UK Prime Minister in 1979?
+   A: Margaret Thatcher
+   ISSUE: 1979 is before 80s, though she served through the decade
+   ACTION: Consider acceptable OR rephrase to "Who was UK PM during most of the 1980s?"
+
+6. 80s_paid_326
+   Q: What country invaded Afghanistan in 1979 (continued into 80s)?
+   A: Soviet Union
+   ISSUE: 1979 is pre-80s, awkward parenthetical
+   ACTION: Rephrase to focus on 80s aspect
+
+7. 80s_paid_330
+   Q: Who was elected Pope in 1978?
+   A: Pope John Paul II
+   ISSUE: 1978 is before the 80s
+   ACTION: Rephrase to "Who was Pope during the 1980s?"
+
+SELF-REVEALING BUT POSSIBLY INTENTIONAL (1 question):
+------------------------------------------------------
+8. 80s_preview_003
+   Q: What was the name of the bar in 'Cheers'?
+   A: Cheers
+   ISSUE: Answer in question - might be intentional since bar name = show name
+   ACTION: Review if acceptable or needs rephrasing
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+IMMEDIATE ACTIONS:
+1. Remove/replace 5 NON-80s questions (Fresh Prince, Wizard of Oz, LA Lights, 
+   Tamagotchi, Tom & Jerry) - these are factually wrong for an 80s pack
+
+2. Remove 13+ duplicate questions to avoid repetition
+
+3. Rephrase or replace 5 self-revealing questions
+
+4. Fix answer format for 80s_paid_350 (Indira Gandhi question)
+
+5. Verify factual accuracy of 80s_paid_250 (cereal mascot)
+
+TOTAL REPLACEMENTS NEEDED: ~23 questions
+ESTIMATED IMPACT: Removing duplicates and non-80s content will improve 
+                  pack quality significantly
+
+================================================================================
+QUESTION BREAKDOWN BY ISSUE TYPE
+================================================================================
+
+By Category:
+  • Non-80s content: 5 questions
+  • Self-revealing: 5 questions
+  • Exact duplicates: 4 questions
+  • Semantic duplicates: 9 questions
+  • Incorrect/awkward: 4 questions
+  • Borderline dates: 3 questions
+  • Self-revealing (maybe OK): 1 question
+
+By Action Required:
+  • Definite removal: 13 duplicates
+  • Replacement: 10 questions (5 non-80s + 5 self-revealing)
+  • Verification/minor fixes: 8 questions
+
+================================================================================
+END OF REPORT
+================================================================================

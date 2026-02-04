@@ -1,0 +1,141 @@
+================================================================================
+COMPREHENSIVE QUALITY AUDIT REPORT
+DC Universe Expansion Pack (expansion_dc.json)
+================================================================================
+Date: February 4, 2026
+Total Questions: 400 (40 free preview + 360 paid)
+Total Issues Found: 14 (3.5% of questions)
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+The DC Universe expansion pack has 14 issues requiring attention:
+  • 3 auto-fix issues (factual errors)
+  • 4 duplicate questions (2 exact, 2 semantic)
+  • 7 questions needing human verification
+
+QUALITY RATING: 96.5% of questions are solid
+
+================================================================================
+1. AUTO-FIX: Clear Issues (3 questions)
+================================================================================
+
+1. dcu_030 - Incorrect Character Description
+   Q: What is the name of Wonder Woman's primary nemesis, a powerful sorceress?
+   A: Cheetah
+   PROBLEM: Cheetah is not a sorceress; she has feline/curse powers. Circe is the sorceress.
+   FIX: Remove "a powerful sorceress" OR change answer to "Circe"
+
+2. dcu_310 - Incorrect Villain Description
+   Q: Who is the speedster villain that appeared in The Flash movie?
+   A: General Zod
+   PROBLEM: Zod is not a speedster - he's a Kryptonian with strength/flight
+   FIX: Change to "Who is the main villain that appeared in The Flash movie?"
+
+3. dcu_270 - Outdated/Incorrect Answer
+   Q: What happens when Wonder Woman's bracelets are bound together?
+   A: She loses her powers
+   PROBLEM: True in 1940s but retconned; now releases full power OR nothing
+   FIX: Change to "It varies by version" OR specify "In original 1940s comics"
+
+================================================================================
+2. FLAG FOR REPLACEMENT: Duplicates (4 questions)
+================================================================================
+
+EXACT DUPLICATES (2 pairs):
+-------------------------
+
+1. dcu_073 & dcu_167 (Superman publication date)
+   • dcu_073: "In what year was Superman first published?" → "1938"
+   • dcu_167: "What year was the first Superman comic published?" → "1938"
+   FIX: Delete dcu_167, create replacement
+
+2. dcu_119 & dcu_247 (Speed Force)
+   • dcu_119: "What dimension does The Flash access to travel at super speed?" → "Speed Force"
+   • dcu_247: "What dimension do speedsters access?" → "Speed Force"
+   FIX: Delete dcu_247, create replacement
+
+SEMANTIC DUPLICATES (2 pairs):
+-----------------------------
+
+3. dcu_154 & dcu_297 (Kandor)
+   • dcu_154: "What is the name of Krypton's capital city?" → "Kandor"
+   • dcu_297: "What is the name of Superman's bottled city?" → "Kandor"
+   FIX: Consider keeping both OR make dcu_297 more specific
+
+4. dcu_118 & dcu_152 (Coast City)
+   • dcu_118: "What is the name of Hal Jordan's home city?" → "Coast City"
+   • dcu_152: "What city does Green Lantern Hal Jordan protect?" → "Coast City"
+   FIX: Delete dcu_152, create replacement
+
+================================================================================
+3. NEEDS VERIFICATION: Questionable Content (7 questions)
+================================================================================
+
+1. dcu_013 - Wrong Subtopic
+   Q: What is the name of the Joker's girlfriend? → Harley Quinn
+   ISSUE: Categorized under "Heroes & Allies" but Harley is a villain
+   FIX: Change subtopic to "Villains & Antagonists"
+
+2. dcu_051 - Arrowverse Accuracy Issue
+   Q: What is the name of the team formed by Batman in the Arrowverse? → Outsiders
+   ISSUE: Batman doesn't exist in Arrowverse TV shows
+   ACTION: Verify or replace
+
+3. dcu_204 - Tautological/Confusing
+   Q: What is the name of the Speed Force prison? → Speed Force
+   ISSUE: Speed Force itself is not a prison; question is misleading
+   ACTION: Reword or replace
+
+4. dcu_208 - Obscure/Potentially Incorrect
+   Q: What is the name of the secret underwater prison? → The Aquarium
+   ISSUE: Not a well-known DC location; may be too obscure or incorrect
+   ACTION: Verify canon or replace
+
+5. dcu_302 - Debatable Answer
+   Q: What is the name of the cosmic entity that created the universe in DC?
+   A: Both refer to the same (The Source and The Presence)
+   ISSUE: Sometimes depicted as different entities in DC cosmology
+   ACTION: Simplify to "The Presence" or note "It varies"
+
+6. dcu_328 - Vague Answer
+   Q: What does blue kryptonite do? → It varies
+   ISSUE: While effects vary, most commonly affects Bizarro
+   ACTION: Change to more specific answer
+
+7. dcu_155 - Tautological
+   Q: What is the name of the phantom zone prison? → Phantom Zone
+   ISSUE: Question repeats answer name
+   ACTION: Reword to "What is the name of the Kryptonian dimensional prison?"
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+IMMEDIATE ACTIONS:
+1. Fix 3 auto-fix issues (dcu_030, dcu_310, dcu_270)
+2. Delete & replace 3-4 duplicate questions
+3. Verify and update 7 questionable questions
+
+TOTAL REPLACEMENTS NEEDED: ~7-10 questions
+ESTIMATED IMPACT: Minor cleanup will bring pack to 97-98% quality
+
+================================================================================
+QUESTION BREAKDOWN BY ISSUE TYPE
+================================================================================
+
+By Category:
+  • Factual errors: 3 questions
+  • Exact duplicates: 2 pairs (4 questions)
+  • Semantic duplicates: 2 pairs (4 questions)
+  • Questionable accuracy: 7 questions
+
+By Action Required:
+  • Immediate auto-fix: 3 questions
+  • Definite replacement: 3-4 questions
+  • Verification/review: 7 questions
+
+================================================================================
+END OF REPORT
+================================================================================

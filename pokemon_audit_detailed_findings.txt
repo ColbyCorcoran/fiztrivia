@@ -1,0 +1,138 @@
+POKÉMON PACK - DETAILED TECHNICAL FINDINGS
+===========================================
+
+Date: February 4, 2026
+File: expansion_pokemon.json
+Total Questions: 525
+
+===========================================
+ISSUE #1: EXACT DUPLICATE
+===========================================
+
+IDs: pkm_preview_032 & pkm_paid_377
+Similarity: 100%
+
+pkm_preview_032:
+  Question: What is Ash's last name?
+  Category: Entertainment
+  Subcategory: Animation
+  Subtopic: Trainers & Characters
+  Options: ['Oak', 'Ketchum', 'Elm', 'Pine']
+  Answer: Ketchum
+  Difficulty: easy
+
+pkm_paid_377:
+  Question: What is Ash's last name?
+  Category: Entertainment
+  Subcategory: Animation
+  Subtopic: Trainers & Characters
+  Options: ['Oak', 'Ketchum', 'Elm', 'Pine']
+  Answer: Ketchum
+  Difficulty: easy
+
+ACTION: Remove pkm_paid_377 (keep preview version)
+
+===========================================
+ISSUE #2: SEMANTIC DUPLICATE
+===========================================
+
+IDs: pkm_preview_014 & pkm_paid_144
+Similarity: 94.1%
+
+pkm_preview_014:
+  Question: Which generation introduced Mega Evolution?
+  Category: Technology
+  Subcategory: Video Games
+  Subtopic: Games
+  Options: ['Generation IV', 'Generation V', 'Generation VI', 'Generation VII']
+  Answer: Generation VI
+  Difficulty: medium
+
+pkm_paid_144:
+  Question: What generation introduced Mega Evolution?
+  Category: Technology
+  Subcategory: Video Games
+  Subtopic: Games
+  Options: ['Generation IV', 'Generation V', 'Generation VI', 'Generation VII']
+  Answer: Generation VI
+  Difficulty: medium
+
+ACTION: Remove pkm_paid_144 (keep preview version)
+REASON: "Which generation" vs "What generation" - same question, just different wording
+
+===========================================
+ISSUE #3: SEMANTIC DUPLICATE
+===========================================
+
+IDs: pkm_preview_046 & pkm_paid_125
+Similarity: 93.2%
+
+pkm_preview_046:
+  Question: What region is Pokémon Gold/Silver set in?
+  Category: Technology
+  Subcategory: Video Games
+  Subtopic: Regions & Locations
+  Options: ['Kanto', 'Johto', 'Hoenn', 'Sinnoh']
+  Answer: Johto
+  Difficulty: easy
+
+pkm_paid_125:
+  Question: What region is Pokémon Gold and Silver set in?
+  Category: Technology
+  Subcategory: Video Games
+  Subtopic: Regions & Locations
+  Options: ['Kanto', 'Johto', 'Hoenn', 'Sinnoh']
+  Answer: Johto
+  Difficulty: easy
+
+ACTION: Remove pkm_paid_125 (keep preview version)
+REASON: "Gold/Silver" vs "Gold and Silver" - same question, just different formatting
+
+===========================================
+ISSUE #4: SELF-REVEALING QUESTION
+===========================================
+
+ID: pkm_paid_083
+
+Question: What is Ralts' final evolution in the Gardevoir line?
+Category: Technology
+Subcategory: Video Games
+Subtopic: Types & Evolution
+Options: ['Kirlia', 'Gardevoir', 'Gallade', 'Medicham']
+Answer: Gardevoir
+Difficulty: medium
+
+PROBLEM: The question mentions "in the Gardevoir line" which reveals the answer is Gardevoir
+
+SUGGESTED FIX:
+  Question: What is Ralts' final evolution?
+  Options: ['Kirlia', 'Gardevoir', 'Gallade', 'Medicham']
+  Answer: Gardevoir
+
+ALTERNATIVE FIX:
+  Question: What Pokémon is the final form of the Ralts evolutionary line (excluding Gallade)?
+  Options: ['Kirlia', 'Gardevoir', 'Gallade', 'Medicham']
+  Answer: Gardevoir
+
+===========================================
+SUMMARY OF ACTIONS
+===========================================
+
+REMOVE (3 questions):
+  - pkm_paid_377 (exact duplicate)
+  - pkm_paid_144 (semantic duplicate)
+  - pkm_paid_125 (semantic duplicate)
+
+REWORD (1 question):
+  - pkm_paid_083 (self-revealing)
+
+CREATE NEW (3 questions):
+  - Replacement for pkm_paid_377 (Subtopic: Trainers & Characters, Difficulty: easy)
+  - Replacement for pkm_paid_144 (Subtopic: Games, Difficulty: medium)
+  - Replacement for pkm_paid_125 (Subtopic: Regions & Locations, Difficulty: easy)
+
+===========================================
+TOTAL ISSUES: 4
+===========================================
+
+Quality Score: 99.2% (521 perfect / 525 total)

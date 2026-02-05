@@ -443,14 +443,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "In 'Toy Story 3', where does Andy donate his toys?",
+      "question": "In 'Toy Story 3', what does Woody write on the attic box label?",
       "options": [
-        "Sunnyside Daycare",
-        "A school",
-        "A hospital",
-        "Goodwill"
+        "Important",
+        "Keep",
+        "Attic",
+        "Toys"
       ],
-      "correct_answer": "Sunnyside Daycare",
+      "correct_answer": "Attic",
       "difficulty": "medium"
     },
     {
@@ -523,7 +523,7 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "What is the name of Boo's real name in 'Monsters, Inc.'?",
+      "question": "What is Boo's real name in 'Monsters, Inc.'?",
       "options": [
         "Mary",
         "Sue",
@@ -685,14 +685,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "What is the name of the rat in 'Ratatouille' who dreams of being a chef?",
+      "question": "In 'Ratatouille', what is Alfredo Linguini's job when he first arrives at Gusteau's?",
       "options": [
-        "Remy",
-        "Linguini",
-        "Emile",
-        "Django"
+        "Garbage boy",
+        "Waiter",
+        "Chef",
+        "Dishwasher"
       ],
-      "correct_answer": "Remy",
+      "correct_answer": "Garbage boy",
       "difficulty": "easy"
     },
     {
@@ -781,14 +781,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "Who is the villain in 'Toy Story 3'?",
+      "question": "In 'Toy Story 3', what toy leads the daycare?",
       "options": [
-        "Lotso (Lots-o'-Huggin' Bear)",
-        "Woody",
-        "Buzz",
-        "Rex"
+        "Lotso the bear",
+        "Big Baby",
+        "Ken",
+        "Barbie"
       ],
-      "correct_answer": "Lotso (Lots-o'-Huggin' Bear)",
+      "correct_answer": "Lotso the bear",
       "difficulty": "easy"
     },
     {
@@ -861,14 +861,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Quotes & Moments",
-      "question": "Who says 'No capes!'?",
+      "question": "What does Edna Mode refuse to put on superhero costumes?",
       "options": [
-        "Edna Mode",
-        "Mr. Incredible",
-        "Syndrome",
-        "Frozone"
+        "Capes",
+        "Masks",
+        "Logos",
+        "Colors"
       ],
-      "correct_answer": "Edna Mode",
+      "correct_answer": "Capes",
       "difficulty": "easy"
     },
     {
@@ -893,14 +893,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "What number is Lightning McQueen?",
+      "question": "What year is Lightning McQueen's number inspired by?",
       "options": [
-        "95",
-        "43",
-        "86",
-        "51"
+        "1995 (Toy Story release)",
+        "1986",
+        "2006",
+        "1991"
       ],
-      "correct_answer": "95",
+      "correct_answer": "1995 (Toy Story release)",
       "difficulty": "easy"
     },
     {
@@ -1469,7 +1469,7 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "What is Doug's special collar ability?",
+      "question": "What does Dug's special collar do?",
       "options": [
         "Translates thoughts to speech",
         "Controls birds",
@@ -1981,14 +1981,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "In Monsters, Inc., what powers the city?",
+      "question": "In 'Monsters, Inc.', what floor is the Scare Floor on?",
       "options": [
-        "Electricity",
-        "Screams",
-        "Laughter",
-        "Both screams and laughter"
+        "Scare Floor",
+        "Floor 1",
+        "Top Floor",
+        "Floor 13"
       ],
-      "correct_answer": "Both screams and laughter",
+      "correct_answer": "Scare Floor",
       "difficulty": "medium"
     },
     {
@@ -2941,7 +2941,7 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What city does Riley's family move from in 'Inside Out'?",
+      "question": "What state does Riley's family move from in 'Inside Out'?",
       "options": [
         "Minnesota",
         "Michigan",
@@ -3405,14 +3405,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "What song does Héctor sing to Coco in his memory?",
+      "question": "In 'Coco', who originally wrote the song 'Remember Me'?",
       "options": [
-        "Remember Me",
-        "Un Poco Loco",
-        "La Llorona",
-        "Proud Corazón"
+        "Héctor",
+        "Ernesto de la Cruz",
+        "Miguel",
+        "Mamá Coco"
       ],
-      "correct_answer": "Remember Me",
+      "correct_answer": "Héctor",
       "difficulty": "easy"
     },
     {
@@ -3677,14 +3677,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "Who voices Mike Wazowski in 'Monsters, Inc.'?",
+      "question": "Who directed 'Monsters, Inc.'?",
       "options": [
-        "Billy Crystal",
-        "John Goodman",
-        "Steve Buscemi",
-        "John Ratzenberger"
+        "Pete Docter",
+        "Andrew Stanton",
+        "Brad Bird",
+        "Lee Unkrich"
       ],
-      "correct_answer": "Billy Crystal",
+      "correct_answer": "Pete Docter",
       "difficulty": "easy"
     },
     {
@@ -3997,14 +3997,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "Who is the leader of the grasshoppers in 'A Bug's Life'?",
+      "question": "In 'A Bug's Life', what is Princess Atta afraid of?",
       "options": [
-        "Hopper",
-        "Molt",
-        "Thumper",
-        "Grasshopper King"
+        "Everything",
+        "Heights",
+        "Water",
+        "The grasshoppers"
       ],
-      "correct_answer": "Hopper",
+      "correct_answer": "Everything",
       "difficulty": "medium"
     },
     {
@@ -4077,14 +4077,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "In 'Finding Dory', what condition does Dory have?",
+      "question": "In 'Finding Dory', what does Dory follow to find her way home?",
       "options": [
-        "Short-term memory loss",
-        "Blindness",
-        "Can't swim",
-        "Deafness"
+        "Shells",
+        "Lights",
+        "Fish",
+        "Currents"
       ],
-      "correct_answer": "Short-term memory loss",
+      "correct_answer": "Shells",
       "difficulty": "easy"
     },
     {
@@ -4157,14 +4157,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "Why does Alberto hide his identity in 'Luca'?",
+      "question": "In 'Luca', what happens when sea monsters touch water?",
       "options": [
-        "He's afraid humans will discover he's a sea monster",
-        "He's a criminal",
-        "He's royalty",
-        "He's a spy"
+        "They transform back",
+        "They get sick",
+        "Nothing",
+        "They glow"
       ],
-      "correct_answer": "He's afraid humans will discover he's a sea monster",
+      "correct_answer": "They transform back",
       "difficulty": "easy"
     },
     {
@@ -4317,14 +4317,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What is the name of the circus in 'A Bug's Life'?",
+      "question": "In 'A Bug's Life', what is Flik trying to build to defend the colony?",
       "options": [
-        "P.T. Flea's Circus",
-        "Bug Circus",
-        "The Great Circus",
-        "Flea Market Circus"
+        "A bird decoy",
+        "A wall",
+        "A catapult",
+        "A trap"
       ],
-      "correct_answer": "P.T. Flea's Circus",
+      "correct_answer": "A bird decoy",
       "difficulty": "hard"
     },
     {
@@ -4349,14 +4349,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What aquarium is featured in 'Finding Dory'?",
+      "question": "In 'Finding Dory', what is the name of the truck Dory uses to get to the ocean?",
       "options": [
-        "Marine Life Institute in California",
-        "Sydney Aquarium",
-        "SeaWorld",
-        "Monterey Bay Aquarium"
+        "Open Ocean Transport",
+        "Marine Life Truck",
+        "Ocean Rescue",
+        "Sea Life Transport"
       ],
-      "correct_answer": "Marine Life Institute in California",
+      "correct_answer": "Open Ocean Transport",
       "difficulty": "medium"
     },
     {
@@ -4397,14 +4397,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "What song does Jessie sing in 'Toy Story 2' flashback?",
+      "question": "In 'Toy Story 2', what triggers Jessie's flashback song?",
       "options": [
-        "When She Loved Me",
-        "You've Got a Friend in Me",
-        "Woody's Roundup",
-        "Strange Things"
+        "Talking about her past",
+        "Seeing a cowboy hat",
+        "Hearing music",
+        "Andy's room"
       ],
-      "correct_answer": "When She Loved Me",
+      "correct_answer": "Talking about her past",
       "difficulty": "easy"
     },
     {
@@ -4445,14 +4445,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "Who voices Carl Fredricksen in 'Up'?",
+      "question": "Which Pixar film was the first to feature a human as the main character?",
       "options": [
-        "Ed Asner",
-        "Christopher Plummer",
-        "Bob Peterson",
-        "Charles Muntz"
+        "Up",
+        "The Incredibles",
+        "Ratatouille",
+        "Brave"
       ],
-      "correct_answer": "Ed Asner",
+      "correct_answer": "Up",
       "difficulty": "medium"
     },
     {
@@ -4509,14 +4509,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "Who directed 'Monsters, Inc.'?",
+      "question": "What was the first Pixar short film to win an Academy Award?",
       "options": [
-        "Pete Docter",
-        "Andrew Stanton",
-        "Brad Bird",
-        "Lee Unkrich"
+        "Tin Toy",
+        "Luxo Jr.",
+        "Red's Dream",
+        "Knick Knack"
       ],
-      "correct_answer": "Pete Docter",
+      "correct_answer": "Tin Toy",
       "difficulty": "medium"
     },
     {
@@ -4573,14 +4573,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "What year was 'Up' released?",
+      "question": "What is the code number on the Pizza Planet truck in Pixar films?",
       "options": [
-        "2009",
-        "2008",
-        "2010",
-        "2007"
+        "A113",
+        "A138",
+        "P113",
+        "T113"
       ],
-      "correct_answer": "2009",
+      "correct_answer": "A113",
       "difficulty": "medium"
     },
     {
@@ -4685,14 +4685,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "What kind of toy is Hamm in 'Toy Story'?",
+      "question": "What does Hamm keep stored inside him in 'Toy Story'?",
       "options": [
-        "Piggy bank",
-        "Stuffed pig",
-        "Plastic pig",
-        "Toy farmer"
+        "Andy's coins",
+        "Marbles",
+        "Candies",
+        "Toy parts"
       ],
-      "correct_answer": "Piggy bank",
+      "correct_answer": "Andy's coins",
       "difficulty": "easy"
     },
     {
@@ -5341,14 +5341,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the music for 'Monsters, Inc.'?",
+      "question": "What song plays during the opening montage of 'Cars'?",
       "options": [
-        "Randy Newman",
-        "Michael Giacchino",
-        "Thomas Newman",
-        "John Williams"
+        "Real Gone",
+        "Life is a Highway",
+        "Route 66",
+        "Our Town"
       ],
-      "correct_answer": "Randy Newman",
+      "correct_answer": "Real Gone",
       "difficulty": "hard"
     },
     {
@@ -5357,14 +5357,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "What is the main song in 'Toy Story'?",
+      "question": "What instruments are featured prominently in 'You've Got a Friend in Me'?",
       "options": [
-        "You've Got a Friend in Me",
-        "Strange Things",
-        "Woody's Roundup",
-        "To Infinity and Beyond"
+        "Piano and vocals",
+        "Guitar and drums",
+        "Violin and piano",
+        "Trumpet and bass"
       ],
-      "correct_answer": "You've Got a Friend in Me",
+      "correct_answer": "Piano and vocals",
       "difficulty": "easy"
     },
     {
@@ -5501,14 +5501,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "What Pixar film won an Oscar for Best Animated Feature in 2004?",
+      "question": "Which Pixar film features Joe Gardner as the main character?",
       "options": [
-        "Finding Nemo",
-        "The Incredibles",
-        "Monsters, Inc.",
-        "Cars"
+        "Soul",
+        "Inside Out",
+        "Coco",
+        "Up"
       ],
-      "correct_answer": "Finding Nemo",
+      "correct_answer": "Soul",
       "difficulty": "medium"
     },
     {
@@ -5581,14 +5581,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the score for 'Up'?",
+      "question": "What instrument does Russell play in 'Up'?",
       "options": [
-        "Michael Giacchino",
-        "Randy Newman",
-        "Thomas Newman",
-        "Hans Zimmer"
+        "He doesn't play one",
+        "Trumpet",
+        "Flute",
+        "Drums"
       ],
-      "correct_answer": "Michael Giacchino",
+      "correct_answer": "He doesn't play one",
       "difficulty": "medium"
     },
     {
@@ -5597,14 +5597,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "What song plays during the opening of 'Toy Story'?",
+      "question": "How many different versions of 'You've Got a Friend in Me' appear in 'Toy Story' films?",
       "options": [
-        "You've Got a Friend in Me",
-        "Strange Things",
-        "I Will Go Sailing No More",
-        "When She Loved Me"
+        "Multiple versions",
+        "One",
+        "Two",
+        "Five"
       ],
-      "correct_answer": "You've Got a Friend in Me",
+      "correct_answer": "Multiple versions",
       "difficulty": "easy"
     },
     {
@@ -5645,14 +5645,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the musical score for 'Finding Nemo'?",
+      "question": "What is the name of the sequel song to 'You've Got a Friend in Me' in 'Toy Story 2'?",
       "options": [
-        "Thomas Newman",
-        "Randy Newman",
-        "Michael Giacchino",
-        "Hans Zimmer"
+        "You've Got a Friend in Me (Wheezy's Version)",
+        "Woody's Roundup",
+        "When She Loved Me",
+        "Buzz Lightyear Theme"
       ],
-      "correct_answer": "Thomas Newman",
+      "correct_answer": "You've Got a Friend in Me (Wheezy's Version)",
       "difficulty": "hard"
     },
     {
@@ -5661,14 +5661,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "What song does Jessie sing in 'Toy Story 2'?",
+      "question": "What style of music is featured in 'Soul'?",
       "options": [
-        "When She Loved Me",
-        "You've Got a Friend in Me",
-        "Strange Things",
-        "Woody's Roundup"
+        "Jazz",
+        "Classical",
+        "Rock",
+        "Blues"
       ],
-      "correct_answer": "When She Loved Me",
+      "correct_answer": "Jazz",
       "difficulty": "medium"
     },
     {
@@ -5677,14 +5677,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who sang 'When She Loved Me' from 'Toy Story 2'?",
+      "question": "Who composed the original music for 'WALL-E'?",
       "options": [
-        "Sarah McLachlan",
-        "Celine Dion",
-        "Whitney Houston",
-        "Mariah Carey"
+        "Thomas Newman",
+        "Michael Giacchino",
+        "Randy Newman",
+        "Patrick Doyle"
       ],
-      "correct_answer": "Sarah McLachlan",
+      "correct_answer": "Thomas Newman",
       "difficulty": "hard"
     },
     {
@@ -5693,12 +5693,12 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "What is the theme song of 'Monsters, Inc.'?",
+      "question": "What song do Mike and Sulley sing at the end of 'Monsters, Inc.'?",
       "options": [
         "If I Didn't Have You",
-        "Put That Thing Back Where It Came From",
-        "Boo's Lullaby",
-        "Welcome to Monstropolis"
+        "Put That Thing Back",
+        "Company Song",
+        "Scare Song"
       ],
       "correct_answer": "If I Didn't Have You",
       "difficulty": "medium"
@@ -5789,14 +5789,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What is the name of the town in 'Cars'?",
+      "question": "In 'Cars', what is Flo's business in Radiator Springs?",
       "options": [
-        "Radiator Springs",
-        "Motor City",
-        "Carburetor Canyon",
-        "Piston Cup"
+        "V8 Café",
+        "Tire Shop",
+        "Gas Station",
+        "Motel"
       ],
-      "correct_answer": "Radiator Springs",
+      "correct_answer": "V8 Café",
       "difficulty": "easy"
     },
     {
@@ -5805,14 +5805,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What city is 'Ratatouille' set in?",
+      "question": "In 'Ratatouille', what view does Gusteau's restaurant have?",
       "options": [
-        "Paris",
-        "Lyon",
-        "Marseille",
-        "Nice"
+        "The Eiffel Tower",
+        "The Seine River",
+        "Notre Dame",
+        "Arc de Triomphe"
       ],
-      "correct_answer": "Paris",
+      "correct_answer": "The Eiffel Tower",
       "difficulty": "medium"
     },
     {
@@ -5837,14 +5837,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What is the name of the garbage dump in 'WALL-E' where he lives?",
+      "question": "In 'WALL-E', what does WALL-E do with the trash?",
       "options": [
-        "Earth",
-        "The Wasteland",
-        "Sector 9",
-        "The Dump"
+        "Compacts it into cubes",
+        "Burns it",
+        "Buries it",
+        "Recycles it"
       ],
-      "correct_answer": "Earth",
+      "correct_answer": "Compacts it into cubes",
       "difficulty": "medium"
     },
     {
@@ -5853,14 +5853,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What planet is WALL-E left on?",
+      "question": "In 'WALL-E', where does WALL-E keep his collection?",
       "options": [
-        "Earth",
-        "Mars",
-        "Venus",
-        "Titan"
+        "A cargo truck",
+        "A warehouse",
+        "An underground bunker",
+        "A shipping container"
       ],
-      "correct_answer": "Earth",
+      "correct_answer": "A cargo truck",
       "difficulty": "easy"
     },
     {
@@ -5885,14 +5885,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What Mexican town is 'Coco' set in?",
+      "question": "In 'Coco', what is the name of the plaza where the talent show takes place?",
       "options": [
-        "Santa Cecilia",
-        "San Miguel",
-        "Guadalajara",
-        "Oaxaca"
+        "Plaza de la Cruz",
+        "Plaza del Mariachi",
+        "Plaza Principal",
+        "Plaza de Miguel"
       ],
-      "correct_answer": "Santa Cecilia",
+      "correct_answer": "Plaza de la Cruz",
       "difficulty": "hard"
     },
     {
@@ -5917,14 +5917,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "What is the name of the superhero city in 'The Incredibles'?",
+      "question": "In 'The Incredibles', what is the name of the school Dash attends?",
       "options": [
-        "Metroville",
-        "Metropolis",
-        "Super City",
-        "Hero City"
+        "Western View Junior High",
+        "Metroville Elementary",
+        "Municiberg School",
+        "City Middle School"
       ],
-      "correct_answer": "Metroville",
+      "correct_answer": "Western View Junior High",
       "difficulty": "hard"
     },
     {
@@ -5933,7 +5933,7 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "Where does Riley live before moving in 'Inside Out'?",
+      "question": "What state does Riley live in before moving in 'Inside Out'?",
       "options": [
         "Minnesota",
         "San Francisco",
@@ -5965,14 +5965,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "What does Remy dream of becoming in 'Ratatouille'?",
+      "question": "In 'Ratatouille', what does Remy add to Linguini's soup?",
       "options": [
-        "A chef",
-        "A food critic",
-        "A restaurant owner",
-        "A sommelier"
+        "Various ingredients",
+        "Cheese",
+        "Wine",
+        "Salt"
       ],
-      "correct_answer": "A chef",
+      "correct_answer": "Various ingredients",
       "difficulty": "easy"
     },
     {
@@ -5981,14 +5981,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "Why does Carl fly his house away in 'Up'?",
+      "question": "In 'Up', what badge is Russell trying to earn?",
       "options": [
-        "To honor his late wife's dream",
-        "To escape developers",
-        "To find adventure",
-        "To run away from home"
+        "Assisting the Elderly",
+        "Wilderness Explorer",
+        "Helping Hand",
+        "Senior Citizen"
       ],
-      "correct_answer": "To honor his late wife's dream",
+      "correct_answer": "Assisting the Elderly",
       "difficulty": "medium"
     },
     {
@@ -5997,14 +5997,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "What is Miguel's main conflict in 'Coco'?",
+      "question": "In 'Coco', what happens if no one remembers you in the Land of the Living?",
       "options": [
-        "His family bans music",
-        "He wants to be a shoemaker",
-        "He can't play guitar",
-        "He's afraid of death"
+        "You disappear from the Land of the Dead",
+        "You become a skeleton",
+        "You stay forever",
+        "You lose your memories"
       ],
-      "correct_answer": "His family bans music",
+      "correct_answer": "You disappear from the Land of the Dead",
       "difficulty": "medium"
     },
     {
@@ -6013,14 +6013,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "What happens to Merida's mother in 'Brave'?",
+      "question": "In 'Brave', what does Merida feed her mother to turn her into a bear?",
       "options": [
-        "She turns into a bear",
-        "She gets lost",
-        "She falls ill",
-        "She is cursed to sleep"
+        "An enchanted cake",
+        "A magic apple",
+        "A spell potion",
+        "Cursed berries"
       ],
-      "correct_answer": "She turns into a bear",
+      "correct_answer": "An enchanted cake",
       "difficulty": "medium"
     },
     {
@@ -6221,14 +6221,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "What type of fish is Dory?",
+      "question": "In 'Up', what kind of bird is Kevin?",
       "options": [
-        "Blue Tang",
-        "Clownfish",
-        "Angelfish",
-        "Butterflyfish"
+        "A rare tropical bird",
+        "A parrot",
+        "An ostrich",
+        "A flamingo"
       ],
-      "correct_answer": "Blue Tang",
+      "correct_answer": "A rare tropical bird",
       "difficulty": "medium"
     },
     {
@@ -6413,14 +6413,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "In 'Toy Story', what is the name of Andy's favorite toy?",
+      "question": "In 'Toy Story', what does Rex worry about?",
       "options": [
-        "Woody",
-        "Buzz Lightyear",
-        "Rex",
-        "Slinky Dog"
+        "Not being scary enough",
+        "Being replaced",
+        "Getting lost",
+        "Breaking"
       ],
-      "correct_answer": "Woody",
+      "correct_answer": "Not being scary enough",
       "difficulty": "easy"
     }
   ],

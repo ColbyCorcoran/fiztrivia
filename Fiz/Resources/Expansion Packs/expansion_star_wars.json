@@ -3470,7 +3470,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the Star Wars holiday special?",
+      "question": "What was the infamous 1978 television special featuring Chewbacca's family celebrating a Wookiee holiday?",
       "options": [
         "The Star Wars Holiday Special",
         "Life Day Special",
@@ -3934,7 +3934,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Jedi & Light Side",
-      "question": "What is the name of the Force healing ability?",
+      "question": "What rare Force ability allows users to heal injuries and even revive the recently deceased?",
       "options": [
         "Force healing",
         "Life transfer",
@@ -4670,7 +4670,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Ships & Technology",
-      "question": "What is the name of the Force-sensitive kyber crystal?",
+      "question": "What type of Force-attuned crystal powers a lightsaber's blade?",
       "options": [
         "Kyber crystal",
         "Force crystal",
@@ -4846,7 +4846,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the name of the Sith meditation sphere?",
+      "question": "What spherical Sith vessel was used for deep meditation and navigating through the Force?",
       "options": [
         "Sith meditation sphere",
         "Dark sphere",
@@ -5118,7 +5118,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Ships & Technology",
-      "question": "What is the name of the Empire's probe droid?",
+      "question": "What type of Imperial reconnaissance droid discovered the Rebel base on Hoth?",
       "options": [
         "Probe droid",
         "Imperial droid",
@@ -5998,14 +5998,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the final battle in The Rise of Skywalker?",
+      "question": "What planet featured in Star Wars Rebels was home to Ezra Bridger and had an Imperial factory?",
       "options": [
-        "Exegol",
-        "Endor",
-        "Jakku",
-        "Crait"
+        "Lothal",
+        "Mandalore",
+        "Atollon",
+        "Garel"
       ],
-      "correct_answer": "Exegol",
+      "correct_answer": "Lothal",
       "difficulty": "easy"
     },
     {
@@ -6494,7 +6494,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the galactic senate building?",
+      "question": "What is the massive structure on Coruscant where representatives from across the galaxy meet to debate and vote on legislation?",
       "options": [
         "Senate Building",
         "Republic Center",
@@ -6526,7 +6526,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the name of the Sith alchemy?",
+      "question": "What dark art allows Sith to manipulate life and matter through the Force, creating monsters and corrupting kyber crystals?",
       "options": [
         "Sith alchemy",
         "Dark alchemy",
@@ -6606,7 +6606,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the Jedi archives?",
+      "question": "What is the vast library within the Jedi Temple that contains holocrons and knowledge spanning millennia?",
       "options": [
         "Jedi Archives",
         "Temple Library",
@@ -7198,7 +7198,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the name of the Sith's dark side energy?",
+      "question": "What corrupting Force energy do the Sith draw upon to fuel their powers?",
       "options": [
         "Dark side energy",
         "Sith power",
@@ -7502,7 +7502,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the Clone Wars?",
+      "question": "What was the galaxy-wide conflict between the Republic and Separatists that featured clone troopers and Jedi generals?",
       "options": [
         "The Clone Wars",
         "Clone War",
@@ -7614,7 +7614,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the Galactic Civil War?",
+      "question": "What was the conflict between the Galactic Empire and the Rebel Alliance called?",
       "options": [
         "Galactic Civil War",
         "Rebel War",
@@ -7694,7 +7694,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Ships & Technology",
-      "question": "What is the name of the Jedi holocron?",
+      "question": "What ancient device do Jedi use to store knowledge and teachings in holographic form?",
       "options": [
         "Jedi holocron",
         "Force holocron",
@@ -7806,7 +7806,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Ships & Technology",
-      "question": "What is the name of the Sith holocron?",
+      "question": "What dark side device do Sith use to preserve their knowledge and teachings?",
       "options": [
         "Sith holocron",
         "Dark holocron",
@@ -7838,7 +7838,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the Jedi robes?",
+      "question": "What traditional garments do Jedi wear, typically consisting of tunics, tabards, and cloaks?",
       "options": [
         "Jedi robes",
         "Temple robes",

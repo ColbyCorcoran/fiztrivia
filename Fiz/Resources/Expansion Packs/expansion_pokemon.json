@@ -2174,7 +2174,7 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Species",
-      "question": "What is Ralts' final evolution in the Gardevoir line?",
+      "question": "What is Ralts' final evolution when it evolves at level 30?",
       "options": [
         "Kirlia",
         "Gardevoir",
@@ -2846,14 +2846,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Games",
-      "question": "What region is Pokémon Gold and Silver set in?",
+      "question": "Which item is used to catch wild Pokémon?",
       "options": [
-        "Johto",
-        "Kanto",
-        "Hoenn",
-        "Sinnoh"
+        "Poké Ball",
+        "Potion",
+        "Rare Candy",
+        "Repel"
       ],
-      "correct_answer": "Johto",
+      "correct_answer": "Poké Ball",
       "difficulty": "easy"
     },
     {
@@ -3150,14 +3150,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Games",
-      "question": "What generation introduced Mega Evolution?",
+      "question": "What stat determines which Pokémon moves first in battle?",
       "options": [
-        "Generation 6",
-        "Generation 5",
-        "Generation 7",
-        "Generation 4"
+        "Speed",
+        "Attack",
+        "Defense",
+        "HP"
       ],
-      "correct_answer": "Generation 6",
+      "correct_answer": "Speed",
       "difficulty": "easy"
     },
     {
@@ -6878,14 +6878,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Anime & Movies",
-      "question": "What is Ash's last name?",
+      "question": "What legendary Pokémon did Ash see on his first day as a trainer?",
       "options": [
-        "Oak",
-        "Satoshi",
-        "Ketchum",
-        "None"
+        "Ho-Oh",
+        "Lugia",
+        "Articuno",
+        "Moltres"
       ],
-      "correct_answer": "Ketchum",
+      "correct_answer": "Ho-Oh",
       "difficulty": "hard"
     },
     {

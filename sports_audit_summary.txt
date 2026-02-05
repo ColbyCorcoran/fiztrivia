@@ -1,0 +1,30 @@
+SPORTS PACK AUDIT SUMMARY
+=========================
+
+Total Questions: 500
+Total Issues Found: 17 (3.4%)
+
+AUTO-FIX: 0 issues
+DUPLICATES: 12 flagged (need review - many appear to be different questions)
+SELF-REVEALING: 5 issues
+
+Self-Revealing Questions:
+1. spt_009: "What is the offensive line position in the center called?" → "Center"
+2. spt_158: "What is the blade on a figure skate called?" → "Blade"
+3. spt_248: "What is the stick called in lacrosse?" → "Crosse"
+4. spt_292: "What are the four wheels on a skateboard called?" → "Wheels"
+5. spt_322: "How many walls can the ball hit?" → "Any wall"
+
+Flagged Duplicates (Most are FALSE POSITIVES - different questions):
+- NBA/NASCAR/MMA/BMX acronym questions (DIFFERENT questions with different answers)
+- NBA assists vs points records (DIFFERENT records)
+- Female vs Male tennis Grand Slams (DIFFERENT categories)
+- Halfpipe in snowboarding vs skateboarding (DIFFERENT sports)
+- Triathlon vs Biathlon (DIFFERENT events)
+- Pentathlon vs Heptathlon (DIFFERENT events)
+- First Olympics location vs year (DIFFERENT aspects)
+- Sprain vs Strain (DIFFERENT injuries)
+
+Likely TRUE duplicates: 0
+
+Actual fixes needed: ~5 (self-revealing questions only)

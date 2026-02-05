@@ -1,0 +1,300 @@
+================================================================================
+POKÉMON PACK - MANUAL QA AUDIT
+================================================================================
+Total questions: 525
+
+Checking for TRUE duplicates (excluding template questions)...
+Checking for self-revealing questions...
+Checking for grammar and accuracy issues...
+
+================================================================================
+SUMMARY
+================================================================================
+Total Issues: 68
+  - Duplicates: 54
+  - Self-revealing: 14
+  - Grammar: 0
+  - Accuracy: 0
+  - Confusing: 0
+
+================================================================================
+TRUE DUPLICATES (FLAG FOR REPLACEMENT)
+================================================================================
+
+1. IDs: pkm_preview_014 & pkm_paid_144 (94.1% similar)
+   Q1: Which generation introduced Mega Evolution?
+   Q2: What generation introduced Mega Evolution?
+
+2. IDs: pkm_preview_032 & pkm_paid_377 (100.0% similar)
+   Q1: What is Ash's last name?
+   Q2: What is Ash's last name?
+
+3. IDs: pkm_preview_046 & pkm_paid_125 (93.2% similar)
+   Q1: What region is Pokémon Gold/Silver set in?
+   Q2: What region is Pokémon Gold and Silver set in?
+
+4. IDs: pkm_paid_265 & pkm_paid_266 (92.1% similar)
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Johto?
+
+5. IDs: pkm_paid_265 & pkm_paid_268 (90.9% similar)
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Sinnoh?
+
+6. IDs: pkm_paid_265 & pkm_paid_289 (94.7% similar)
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Kalos?
+
+7. IDs: pkm_paid_265 & pkm_paid_290 (92.1% similar)
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Alola?
+
+8. IDs: pkm_paid_266 & pkm_paid_268 (90.9% similar)
+   Q1: Who is the Pokémon Professor in Johto?
+   Q2: Who is the Pokémon Professor in Sinnoh?
+
+9. IDs: pkm_paid_267 & pkm_paid_268 (90.9% similar)
+   Q1: Who is the Pokémon Professor in Hoenn?
+   Q2: Who is the Pokémon Professor in Sinnoh?
+
+10. IDs: pkm_paid_268 & pkm_paid_288 (90.9% similar)
+   Q1: Who is the Pokémon Professor in Sinnoh?
+   Q2: Who is the Pokémon Professor in Unova?
+
+11. IDs: pkm_paid_273 & pkm_paid_274 (92.1% similar)
+   Q1: Who is the leader of Team Aqua?
+   Q2: Who is the leader of Team Magma?
+
+12. IDs: pkm_paid_273 & pkm_paid_294 (90.6% similar)
+   Q1: Who is the leader of Team Aqua?
+   Q2: Who is the leader of Team Plasma?
+
+13. IDs: pkm_paid_274 & pkm_paid_294 (92.3% similar)
+   Q1: Who is the leader of Team Magma?
+   Q2: Who is the leader of Team Plasma?
+
+14. IDs: pkm_paid_277 & pkm_paid_278 (90.3% similar)
+   Q1: Who is the first Gym Leader you face in Kanto?
+   Q2: Who is the second Gym Leader you face in Kanto?
+
+15. IDs: pkm_paid_279 & pkm_paid_281 (91.3% similar)
+   Q1: What type does Gym Leader Misty specialize in?
+   Q2: What type does Gym Leader Erika specialize in?
+
+16. IDs: pkm_paid_279 & pkm_paid_283 (90.3% similar)
+   Q1: What type does Gym Leader Misty specialize in?
+   Q2: What type does Gym Leader Blaine specialize in?
+
+17. IDs: pkm_paid_281 & pkm_paid_282 (93.6% similar)
+   Q1: What type does Gym Leader Erika specialize in?
+   Q2: What type does Gym Leader Sabrina specialize in?
+
+18. IDs: pkm_paid_281 & pkm_paid_283 (90.3% similar)
+   Q1: What type does Gym Leader Erika specialize in?
+   Q2: What type does Gym Leader Blaine specialize in?
+
+19. IDs: pkm_paid_282 & pkm_paid_283 (92.6% similar)
+   Q1: What type does Gym Leader Sabrina specialize in?
+   Q2: What type does Gym Leader Blaine specialize in?
+
+20. IDs: pkm_paid_288 & pkm_paid_290 (92.1% similar)
+   Q1: Who is the Pokémon Professor in Unova?
+   Q2: Who is the Pokémon Professor in Alola?
+
+21. IDs: pkm_paid_289 & pkm_paid_290 (94.7% similar)
+   Q1: Who is the Pokémon Professor in Kalos?
+   Q2: Who is the Pokémon Professor in Alola?
+
+22. IDs: pkm_paid_289 & pkm_paid_291 (92.1% similar)
+   Q1: Who is the Pokémon Professor in Kalos?
+   Q2: Who is the Pokémon Professor in Galar?
+
+23. IDs: pkm_paid_290 & pkm_paid_291 (94.7% similar)
+   Q1: Who is the Pokémon Professor in Alola?
+   Q2: Who is the Pokémon Professor in Galar?
+
+24. IDs: pkm_paid_296 & pkm_paid_297 (92.1% similar)
+   Q1: Who is the leader of Team Skull?
+   Q2: Who is the leader of Team Yell?
+
+25. IDs: pkm_paid_306 & pkm_paid_308 (93.5% similar)
+   Q1: Who is the Gym Leader of Celadon City?
+   Q2: Who is the Gym Leader of Cerulean City?
+
+26. IDs: pkm_paid_307 & pkm_paid_311 (91.1% similar)
+   Q1: Who is the Gym Leader of Vermilion City?
+   Q2: Who is the Gym Leader of Viridian City?
+
+27. IDs: pkm_paid_348 & pkm_paid_352 (93.3% similar)
+   Q1: What is the name of Ash's rival in the Sinnoh region?
+   Q2: What is the name of Ash's rival in the Unova region?
+
+28. IDs: pkm_paid_348 & pkm_paid_353 (91.4% similar)
+   Q1: What is the name of Ash's rival in the Sinnoh region?
+   Q2: What is the name of Ash's rival in the Kalos region?
+
+29. IDs: pkm_paid_349 & pkm_paid_350 (96.3% similar)
+   Q1: What is the name of Ash's traveling companion in Hoenn who wants to be a Pokémon Coordinator?
+   Q2: What is the name of Ash's traveling companion in Sinnoh who wants to be a Pokémon Coordinator?
+
+30. IDs: pkm_paid_352 & pkm_paid_353 (92.3% similar)
+   Q1: What is the name of Ash's rival in the Unova region?
+   Q2: What is the name of Ash's rival in the Kalos region?
+
+31. IDs: pkm_paid_390 & pkm_paid_391 (93.3% similar)
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Flareon?
+
+32. IDs: pkm_paid_390 & pkm_paid_392 (90.7% similar)
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Jolteon?
+
+33. IDs: pkm_paid_390 & pkm_paid_403 (91.9% similar)
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Espeon?
+
+34. IDs: pkm_paid_390 & pkm_paid_404 (90.7% similar)
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Umbreon?
+
+35. IDs: pkm_paid_390 & pkm_paid_405 (90.7% similar)
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Leafeon?
+
+36. IDs: pkm_paid_390 & pkm_paid_406 (90.7% similar)
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Glaceon?
+
+37. IDs: pkm_paid_390 & pkm_paid_407 (90.7% similar)
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Sylveon?
+
+38. IDs: pkm_paid_391 & pkm_paid_392 (91.9% similar)
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Jolteon?
+
+39. IDs: pkm_paid_391 & pkm_paid_403 (90.4% similar)
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Espeon?
+
+40. IDs: pkm_paid_391 & pkm_paid_404 (91.9% similar)
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Umbreon?
+
+41. IDs: pkm_paid_391 & pkm_paid_405 (91.9% similar)
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Leafeon?
+
+42. IDs: pkm_paid_391 & pkm_paid_406 (94.6% similar)
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Glaceon?
+
+43. IDs: pkm_paid_391 & pkm_paid_407 (91.9% similar)
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Sylveon?
+
+44. IDs: pkm_paid_392 & pkm_paid_403 (90.4% similar)
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Espeon?
+
+45. IDs: pkm_paid_392 & pkm_paid_405 (91.9% similar)
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Leafeon?
+
+46. IDs: pkm_paid_392 & pkm_paid_406 (91.9% similar)
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Glaceon?
+
+47. IDs: pkm_paid_392 & pkm_paid_407 (91.9% similar)
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Sylveon?
+
+48. IDs: pkm_paid_403 & pkm_paid_404 (90.4% similar)
+   Q1: How do you evolve Eevee into Espeon?
+   Q2: How do you evolve Eevee into Umbreon?
+
+49. IDs: pkm_paid_403 & pkm_paid_405 (93.2% similar)
+   Q1: How do you evolve Eevee into Espeon?
+   Q2: How do you evolve Eevee into Leafeon?
+
+50. IDs: pkm_paid_403 & pkm_paid_406 (90.4% similar)
+   Q1: How do you evolve Eevee into Espeon?
+   Q2: How do you evolve Eevee into Glaceon?
+
+51. IDs: pkm_paid_403 & pkm_paid_407 (93.2% similar)
+   Q1: How do you evolve Eevee into Espeon?
+   Q2: How do you evolve Eevee into Sylveon?
+
+52. IDs: pkm_paid_405 & pkm_paid_406 (94.6% similar)
+   Q1: How do you evolve Eevee into Leafeon?
+   Q2: How do you evolve Eevee into Glaceon?
+
+53. IDs: pkm_paid_405 & pkm_paid_407 (91.9% similar)
+   Q1: How do you evolve Eevee into Leafeon?
+   Q2: How do you evolve Eevee into Sylveon?
+
+54. IDs: pkm_paid_406 & pkm_paid_407 (91.9% similar)
+   Q1: How do you evolve Eevee into Glaceon?
+   Q2: How do you evolve Eevee into Sylveon?
+
+================================================================================
+SELF-REVEALING QUESTIONS (NEEDS VERIFICATION)
+================================================================================
+
+1. ID: pkm_preview_030
+   Q: What type does Brock specialize in?
+   A: Rock
+
+2. ID: pkm_paid_001
+   Q: What type is super effective against Dragon-type Pokémon?
+   A: Dragon
+
+3. ID: pkm_paid_066
+   Q: What type is Clefairy?
+   A: Fairy
+
+4. ID: pkm_paid_083
+   Q: What is Ralts' final evolution in the Gardevoir line?
+   A: Gardevoir
+
+5. ID: pkm_paid_135
+   Q: What type of Pokémon does the first Gym Leader Brock specialize in?
+   A: Rock
+
+6. ID: pkm_paid_202
+   Q: What type is the move Psychic?
+   A: Psychic
+
+7. ID: pkm_paid_203
+   Q: What type is the move Ice Beam?
+   A: Ice
+
+8. ID: pkm_paid_213
+   Q: What type is the move Dragon Pulse?
+   A: Dragon
+
+9. ID: pkm_paid_220
+   Q: What move puts the user to sleep to restore HP?
+   A: Rest
+
+10. ID: pkm_paid_264
+   Q: Who is the protagonist in Pokémon Red and Blue?
+   A: Red
+
+11. ID: pkm_paid_284
+   Q: Who is your rival in Pokémon Gold and Silver?
+   A: Silver
+
+12. ID: pkm_paid_335
+   Q: What type of Pokémon does Brock specialize in?
+   A: Rock
+
+13. ID: pkm_paid_354
+   Q: What Pokémon does Ash's Charizard refuse to obey him for a while?
+   A: Charizard
+
+14. ID: pkm_paid_470
+   Q: In Pokémon: The First Movie, what Pokémon does Mewtwo use to create clones?
+   A: Mew
+
+================================================================================

@@ -1,0 +1,2399 @@
+Loading Pokémon pack from /home/user/fiztrivia/Fiz/Resources/Expansion Packs/expansion_pokemon.json...
+Total questions: 525
+
+================================================================================
+POKÉMON TRIVIA PACK - QA AUDIT REPORT
+================================================================================
+
+1. Checking for exact duplicates...
+2. Checking for semantic duplicates...
+3. Checking for grammar issues...
+4. Checking for self-revealing answers...
+5. Checking for confusing wording...
+
+================================================================================
+SUMMARY
+================================================================================
+Total Issues Found: 340
+  - AUTO-FIX (grammar/typos): 0
+  - FLAG FOR REPLACEMENT (duplicates): 329
+  - NEEDS VERIFICATION (accuracy/clarity): 11
+
+================================================================================
+FLAG FOR REPLACEMENT: Duplicates
+================================================================================
+
+1. Type: exact_duplicate
+   ID 1: pkm_preview_032
+   ID 2: pkm_paid_377
+   Question: What is Ash's last name?
+
+2. Type: semantic_duplicate
+   ID 1: pkm_preview_014
+   ID 2: pkm_paid_144
+   Q1: Which generation introduced Mega Evolution?
+   Q2: What generation introduced Mega Evolution?
+   Similarity: 94.12%
+
+3. Type: semantic_duplicate
+   ID 1: pkm_preview_030
+   ID 2: pkm_preview_031
+   Q1: What type does Brock specialize in?
+   Q2: What type does Misty specialize in?
+   Similarity: 85.71%
+
+4. Type: semantic_duplicate
+   ID 1: pkm_preview_030
+   ID 2: pkm_paid_335
+   Q1: What type does Brock specialize in?
+   Q2: What type of Pokémon does Brock specialize in?
+   Similarity: 86.42%
+
+5. Type: semantic_duplicate
+   ID 1: pkm_preview_031
+   ID 2: pkm_paid_279
+   Q1: What type does Misty specialize in?
+   Q2: What type does Gym Leader Misty specialize in?
+   Similarity: 86.42%
+
+6. Type: semantic_duplicate
+   ID 1: pkm_preview_031
+   ID 2: pkm_paid_336
+   Q1: What type does Misty specialize in?
+   Q2: What type of Pokémon does Misty specialize in?
+   Similarity: 86.42%
+
+7. Type: semantic_duplicate
+   ID 1: pkm_preview_032
+   ID 2: pkm_paid_377
+   Q1: What is Ash's last name?
+   Q2: What is Ash's last name?
+   Similarity: 100.00%
+
+8. Type: semantic_duplicate
+   ID 1: pkm_preview_039
+   ID 2: pkm_paid_382
+   Q1: What type is super effective against Fire?
+   Q2: What type is super effective against Water?
+   Similarity: 91.76%
+
+9. Type: semantic_duplicate
+   ID 1: pkm_preview_039
+   ID 2: pkm_paid_383
+   Q1: What type is super effective against Fire?
+   Q2: What type is super effective against Electric?
+   Similarity: 88.64%
+
+10. Type: semantic_duplicate
+   ID 1: pkm_preview_039
+   ID 2: pkm_paid_384
+   Q1: What type is super effective against Fire?
+   Q2: What type is super effective against Grass?
+   Similarity: 91.76%
+
+11. Type: semantic_duplicate
+   ID 1: pkm_preview_040
+   ID 2: pkm_paid_408
+   Q1: What type is Grass weak to?
+   Q2: What type is Dragon weak to?
+   Similarity: 87.27%
+
+12. Type: semantic_duplicate
+   ID 1: pkm_preview_040
+   ID 2: pkm_paid_409
+   Q1: What type is Grass weak to?
+   Q2: What type is Steel weak to?
+   Similarity: 85.19%
+
+13. Type: semantic_duplicate
+   ID 1: pkm_preview_040
+   ID 2: pkm_paid_410
+   Q1: What type is Grass weak to?
+   Q2: What type is Fairy weak to?
+   Similarity: 85.19%
+
+14. Type: semantic_duplicate
+   ID 1: pkm_preview_040
+   ID 2: pkm_paid_411
+   Q1: What type is Grass weak to?
+   Q2: What type is Dark weak to?
+   Similarity: 86.79%
+
+15. Type: semantic_duplicate
+   ID 1: pkm_preview_040
+   ID 2: pkm_paid_412
+   Q1: What type is Grass weak to?
+   Q2: What type is Ghost weak to?
+   Similarity: 88.89%
+
+16. Type: semantic_duplicate
+   ID 1: pkm_preview_040
+   ID 2: pkm_paid_420
+   Q1: What type is Grass weak to?
+   Q2: What types is Normal weak to?
+   Similarity: 85.71%
+
+17. Type: semantic_duplicate
+   ID 1: pkm_preview_046
+   ID 2: pkm_paid_125
+   Q1: What region is Pokémon Gold/Silver set in?
+   Q2: What region is Pokémon Gold and Silver set in?
+   Similarity: 93.18%
+
+18. Type: semantic_duplicate
+   ID 1: pkm_preview_047
+   ID 2: pkm_paid_438
+   Q1: What mountain connects Kanto and Johto?
+   Q2: What mountain separates Kanto and Johto?
+   Similarity: 86.08%
+
+19. Type: semantic_duplicate
+   ID 1: pkm_paid_003
+   ID 2: pkm_paid_165
+   Q1: What generation introduced Fairy-type Pokémon?
+   Q2: What generation introduced Fairy type?
+   Similarity: 88.10%
+
+20. Type: semantic_duplicate
+   ID 1: pkm_paid_028
+   ID 2: pkm_paid_029
+   Q1: What is the final evolution of Squirtle?
+   Q2: What is the final evolution of Bulbasaur?
+   Similarity: 86.42%
+
+21. Type: semantic_duplicate
+   ID 1: pkm_paid_032
+   ID 2: pkm_paid_039
+   Q1: What type is Gyarados?
+   Q2: What type is Lapras?
+   Similarity: 85.71%
+
+22. Type: semantic_duplicate
+   ID 1: pkm_paid_034
+   ID 2: pkm_paid_040
+   Q1: What is Machop's final evolution?
+   Q2: What is Abra's final evolution?
+   Similarity: 87.50%
+
+23. Type: semantic_duplicate
+   ID 1: pkm_paid_034
+   ID 2: pkm_paid_043
+   Q1: What is Machop's final evolution?
+   Q2: What is Zubat's final evolution?
+   Similarity: 86.15%
+
+24. Type: semantic_duplicate
+   ID 1: pkm_paid_034
+   ID 2: pkm_paid_047
+   Q1: What is Machop's final evolution?
+   Q2: What is Horsea's final evolution?
+   Similarity: 87.88%
+
+25. Type: semantic_duplicate
+   ID 1: pkm_paid_034
+   ID 2: pkm_paid_079
+   Q1: What is Machop's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 87.88%
+
+26. Type: semantic_duplicate
+   ID 1: pkm_paid_034
+   ID 2: pkm_paid_081
+   Q1: What is Machop's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 89.23%
+
+27. Type: semantic_duplicate
+   ID 1: pkm_paid_034
+   ID 2: pkm_paid_087
+   Q1: What is Machop's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 86.15%
+
+28. Type: semantic_duplicate
+   ID 1: pkm_paid_034
+   ID 2: pkm_paid_089
+   Q1: What is Machop's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 86.15%
+
+29. Type: semantic_duplicate
+   ID 1: pkm_paid_034
+   ID 2: pkm_paid_097
+   Q1: What is Machop's final evolution?
+   Q2: What is Fuecoco's final evolution?
+   Similarity: 86.57%
+
+30. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_040
+   Q1: What is Gastly's final evolution?
+   Q2: What is Abra's final evolution?
+   Similarity: 87.50%
+
+31. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_043
+   Q1: What is Gastly's final evolution?
+   Q2: What is Zubat's final evolution?
+   Similarity: 89.23%
+
+32. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_050
+   Q1: What is Gastly's final evolution?
+   Q2: What is Dratini's final evolution?
+   Similarity: 86.57%
+
+33. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_073
+   Q1: What is Gastly's final evolution?
+   Q2: What is Gible's final evolution?
+   Similarity: 89.23%
+
+34. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_077
+   Q1: What is Gastly's final evolution?
+   Q2: What is Larvitar's final evolution?
+   Similarity: 85.29%
+
+35. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_081
+   Q1: What is Gastly's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 86.15%
+
+36. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_089
+   Q1: What is Gastly's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 89.23%
+
+37. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_095
+   Q1: What is Gastly's final evolution?
+   Q2: What is Sprigatito's final evolution?
+   Similarity: 85.71%
+
+38. Type: semantic_duplicate
+   ID 1: pkm_paid_036
+   ID 2: pkm_paid_099
+   Q1: What is Gastly's final evolution?
+   Q2: What is Quaxly's final evolution?
+   Similarity: 90.91%
+
+39. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_064
+   Q1: What is Geodude's final evolution?
+   Q2: What is Oddish's final evolution?
+   Similarity: 89.55%
+
+40. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_073
+   Q1: What is Geodude's final evolution?
+   Q2: What is Gible's final evolution?
+   Similarity: 87.88%
+
+41. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_075
+   Q1: What is Geodude's final evolution?
+   Q2: What is Budew's final evolution?
+   Similarity: 90.91%
+
+42. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_079
+   Q1: What is Geodude's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 86.57%
+
+43. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_081
+   Q1: What is Geodude's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 87.88%
+
+44. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_085
+   Q1: What is Geodude's final evolution?
+   Q2: What is Beldum's final evolution?
+   Similarity: 89.55%
+
+45. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_087
+   Q1: What is Geodude's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 87.88%
+
+46. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_089
+   Q1: What is Geodude's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 87.88%
+
+47. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_093
+   Q1: What is Geodude's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 86.57%
+
+48. Type: semantic_duplicate
+   ID 1: pkm_paid_038
+   ID 2: pkm_paid_097
+   Q1: What is Geodude's final evolution?
+   Q2: What is Fuecoco's final evolution?
+   Similarity: 85.29%
+
+49. Type: semantic_duplicate
+   ID 1: pkm_paid_039
+   ID 2: pkm_paid_055
+   Q1: What type is Lapras?
+   Q2: What type is Rapidash?
+   Similarity: 85.71%
+
+50. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_043
+   Q1: What is Abra's final evolution?
+   Q2: What is Zubat's final evolution?
+   Similarity: 88.89%
+
+51. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_047
+   Q1: What is Abra's final evolution?
+   Q2: What is Horsea's final evolution?
+   Similarity: 90.62%
+
+52. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_050
+   Q1: What is Abra's final evolution?
+   Q2: What is Dratini's final evolution?
+   Similarity: 89.23%
+
+53. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_056
+   Q1: What is Abra's final evolution?
+   Q2: What is Bellsprout's final evolution?
+   Similarity: 85.29%
+
+54. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_065
+   Q1: What is Abra's final evolution?
+   Q2: What is Poliwag's final evolution?
+   Similarity: 86.15%
+
+55. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_073
+   Q1: What is Abra's final evolution?
+   Q2: What is Gible's final evolution?
+   Similarity: 88.89%
+
+56. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_075
+   Q1: What is Abra's final evolution?
+   Q2: What is Budew's final evolution?
+   Similarity: 88.89%
+
+57. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_077
+   Q1: What is Abra's final evolution?
+   Q2: What is Larvitar's final evolution?
+   Similarity: 90.91%
+
+58. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_081
+   Q1: What is Abra's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 88.89%
+
+59. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_085
+   Q1: What is Abra's final evolution?
+   Q2: What is Beldum's final evolution?
+   Similarity: 87.50%
+
+60. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_087
+   Q1: What is Abra's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 85.71%
+
+61. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_089
+   Q1: What is Abra's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 85.71%
+
+62. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_093
+   Q1: What is Abra's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 87.50%
+
+63. Type: semantic_duplicate
+   ID 1: pkm_paid_040
+   ID 2: pkm_paid_099
+   Q1: What is Abra's final evolution?
+   Q2: What is Quaxly's final evolution?
+   Similarity: 87.50%
+
+64. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_047
+   Q1: What is Zubat's final evolution?
+   Q2: What is Horsea's final evolution?
+   Similarity: 86.15%
+
+65. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_050
+   Q1: What is Zubat's final evolution?
+   Q2: What is Dratini's final evolution?
+   Similarity: 87.88%
+
+66. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_073
+   Q1: What is Zubat's final evolution?
+   Q2: What is Gible's final evolution?
+   Similarity: 87.50%
+
+67. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_075
+   Q1: What is Zubat's final evolution?
+   Q2: What is Budew's final evolution?
+   Similarity: 87.50%
+
+68. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_077
+   Q1: What is Zubat's final evolution?
+   Q2: What is Larvitar's final evolution?
+   Similarity: 86.57%
+
+69. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_079
+   Q1: What is Zubat's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 86.15%
+
+70. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_081
+   Q1: What is Zubat's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 90.62%
+
+71. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_085
+   Q1: What is Zubat's final evolution?
+   Q2: What is Beldum's final evolution?
+   Similarity: 86.15%
+
+72. Type: semantic_duplicate
+   ID 1: pkm_paid_043
+   ID 2: pkm_paid_099
+   Q1: What is Zubat's final evolution?
+   Q2: What is Quaxly's final evolution?
+   Similarity: 89.23%
+
+73. Type: semantic_duplicate
+   ID 1: pkm_paid_044
+   ID 2: pkm_paid_068
+   Q1: What type is Exeggutor?
+   Q2: What type is Alolan Exeggutor?
+   Similarity: 86.79%
+
+74. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_050
+   Q1: What is Horsea's final evolution?
+   Q2: What is Dratini's final evolution?
+   Similarity: 86.57%
+
+75. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_065
+   Q1: What is Horsea's final evolution?
+   Q2: What is Poliwag's final evolution?
+   Similarity: 86.57%
+
+76. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_073
+   Q1: What is Horsea's final evolution?
+   Q2: What is Gible's final evolution?
+   Similarity: 86.15%
+
+77. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_075
+   Q1: What is Horsea's final evolution?
+   Q2: What is Budew's final evolution?
+   Similarity: 86.15%
+
+78. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_077
+   Q1: What is Horsea's final evolution?
+   Q2: What is Larvitar's final evolution?
+   Similarity: 85.29%
+
+79. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_079
+   Q1: What is Horsea's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 87.88%
+
+80. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_081
+   Q1: What is Horsea's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 86.15%
+
+81. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_087
+   Q1: What is Horsea's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 86.15%
+
+82. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_089
+   Q1: What is Horsea's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 86.15%
+
+83. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_091
+   Q1: What is Horsea's final evolution?
+   Q2: What is Rookidee's final evolution?
+   Similarity: 85.29%
+
+84. Type: semantic_duplicate
+   ID 1: pkm_paid_047
+   ID 2: pkm_paid_093
+   Q1: What is Horsea's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 87.88%
+
+85. Type: semantic_duplicate
+   ID 1: pkm_paid_050
+   ID 2: pkm_paid_064
+   Q1: What is Dratini's final evolution?
+   Q2: What is Oddish's final evolution?
+   Similarity: 86.57%
+
+86. Type: semantic_duplicate
+   ID 1: pkm_paid_050
+   ID 2: pkm_paid_079
+   Q1: What is Dratini's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 86.57%
+
+87. Type: semantic_duplicate
+   ID 1: pkm_paid_050
+   ID 2: pkm_paid_081
+   Q1: What is Dratini's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 87.88%
+
+88. Type: semantic_duplicate
+   ID 1: pkm_paid_050
+   ID 2: pkm_paid_087
+   Q1: What is Dratini's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 90.91%
+
+89. Type: semantic_duplicate
+   ID 1: pkm_paid_050
+   ID 2: pkm_paid_093
+   Q1: What is Dratini's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 86.57%
+
+90. Type: semantic_duplicate
+   ID 1: pkm_paid_050
+   ID 2: pkm_paid_095
+   Q1: What is Dratini's final evolution?
+   Q2: What is Sprigatito's final evolution?
+   Similarity: 87.32%
+
+91. Type: semantic_duplicate
+   ID 1: pkm_paid_052
+   ID 2: pkm_paid_053
+   Q1: What is Eevee's Water evolution?
+   Q2: What is Eevee's Fire evolution?
+   Similarity: 88.89%
+
+92. Type: semantic_duplicate
+   ID 1: pkm_paid_052
+   ID 2: pkm_paid_054
+   Q1: What is Eevee's Water evolution?
+   Q2: What is Eevee's Electric evolution?
+   Similarity: 86.57%
+
+93. Type: semantic_duplicate
+   ID 1: pkm_paid_056
+   ID 2: pkm_paid_085
+   Q1: What is Bellsprout's final evolution?
+   Q2: What is Beldum's final evolution?
+   Similarity: 88.57%
+
+94. Type: semantic_duplicate
+   ID 1: pkm_paid_060
+   ID 2: pkm_paid_096
+   Q1: What type is Rhydon?
+   Q2: What type is Koraidon?
+   Similarity: 85.71%
+
+95. Type: semantic_duplicate
+   ID 1: pkm_paid_060
+   ID 2: pkm_paid_098
+   Q1: What type is Rhydon?
+   Q2: What type is Miraidon?
+   Similarity: 85.71%
+
+96. Type: semantic_duplicate
+   ID 1: pkm_paid_064
+   ID 2: pkm_paid_065
+   Q1: What is Oddish's final evolution?
+   Q2: What is Poliwag's final evolution?
+   Similarity: 86.57%
+
+97. Type: semantic_duplicate
+   ID 1: pkm_paid_064
+   ID 2: pkm_paid_073
+   Q1: What is Oddish's final evolution?
+   Q2: What is Gible's final evolution?
+   Similarity: 86.15%
+
+98. Type: semantic_duplicate
+   ID 1: pkm_paid_064
+   ID 2: pkm_paid_075
+   Q1: What is Oddish's final evolution?
+   Q2: What is Budew's final evolution?
+   Similarity: 86.15%
+
+99. Type: semantic_duplicate
+   ID 1: pkm_paid_064
+   ID 2: pkm_paid_079
+   Q1: What is Oddish's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 87.88%
+
+100. Type: semantic_duplicate
+   ID 1: pkm_paid_064
+   ID 2: pkm_paid_081
+   Q1: What is Oddish's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 86.15%
+
+101. Type: semantic_duplicate
+   ID 1: pkm_paid_064
+   ID 2: pkm_paid_087
+   Q1: What is Oddish's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 86.15%
+
+102. Type: semantic_duplicate
+   ID 1: pkm_paid_064
+   ID 2: pkm_paid_089
+   Q1: What is Oddish's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 86.15%
+
+103. Type: semantic_duplicate
+   ID 1: pkm_paid_064
+   ID 2: pkm_paid_091
+   Q1: What is Oddish's final evolution?
+   Q2: What is Rookidee's final evolution?
+   Similarity: 85.29%
+
+104. Type: semantic_duplicate
+   ID 1: pkm_paid_065
+   ID 2: pkm_paid_077
+   Q1: What is Poliwag's final evolution?
+   Q2: What is Larvitar's final evolution?
+   Similarity: 86.96%
+
+105. Type: semantic_duplicate
+   ID 1: pkm_paid_065
+   ID 2: pkm_paid_079
+   Q1: What is Poliwag's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 86.57%
+
+106. Type: semantic_duplicate
+   ID 1: pkm_paid_065
+   ID 2: pkm_paid_081
+   Q1: What is Poliwag's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 87.88%
+
+107. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_075
+   Q1: What is Gible's final evolution?
+   Q2: What is Budew's final evolution?
+   Similarity: 90.62%
+
+108. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_079
+   Q1: What is Gible's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 89.23%
+
+109. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_081
+   Q1: What is Gible's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 87.50%
+
+110. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_085
+   Q1: What is Gible's final evolution?
+   Q2: What is Beldum's final evolution?
+   Similarity: 89.23%
+
+111. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_087
+   Q1: What is Gible's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 87.50%
+
+112. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_089
+   Q1: What is Gible's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 87.50%
+
+113. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_091
+   Q1: What is Gible's final evolution?
+   Q2: What is Rookidee's final evolution?
+   Similarity: 86.57%
+
+114. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_093
+   Q1: What is Gible's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 86.15%
+
+115. Type: semantic_duplicate
+   ID 1: pkm_paid_073
+   ID 2: pkm_paid_099
+   Q1: What is Gible's final evolution?
+   Q2: What is Quaxly's final evolution?
+   Similarity: 86.15%
+
+116. Type: semantic_duplicate
+   ID 1: pkm_paid_075
+   ID 2: pkm_paid_079
+   Q1: What is Budew's final evolution?
+   Q2: What is Togepi's final evolution?
+   Similarity: 86.15%
+
+117. Type: semantic_duplicate
+   ID 1: pkm_paid_075
+   ID 2: pkm_paid_081
+   Q1: What is Budew's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 87.50%
+
+118. Type: semantic_duplicate
+   ID 1: pkm_paid_075
+   ID 2: pkm_paid_085
+   Q1: What is Budew's final evolution?
+   Q2: What is Beldum's final evolution?
+   Similarity: 89.23%
+
+119. Type: semantic_duplicate
+   ID 1: pkm_paid_075
+   ID 2: pkm_paid_087
+   Q1: What is Budew's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 90.62%
+
+120. Type: semantic_duplicate
+   ID 1: pkm_paid_075
+   ID 2: pkm_paid_091
+   Q1: What is Budew's final evolution?
+   Q2: What is Rookidee's final evolution?
+   Similarity: 86.57%
+
+121. Type: semantic_duplicate
+   ID 1: pkm_paid_075
+   ID 2: pkm_paid_093
+   Q1: What is Budew's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 89.23%
+
+122. Type: semantic_duplicate
+   ID 1: pkm_paid_075
+   ID 2: pkm_paid_097
+   Q1: What is Budew's final evolution?
+   Q2: What is Fuecoco's final evolution?
+   Similarity: 87.88%
+
+123. Type: semantic_duplicate
+   ID 1: pkm_paid_075
+   ID 2: pkm_paid_099
+   Q1: What is Budew's final evolution?
+   Q2: What is Quaxly's final evolution?
+   Similarity: 86.15%
+
+124. Type: semantic_duplicate
+   ID 1: pkm_paid_079
+   ID 2: pkm_paid_081
+   Q1: What is Togepi's final evolution?
+   Q2: What is Bagon's final evolution?
+   Similarity: 86.15%
+
+125. Type: semantic_duplicate
+   ID 1: pkm_paid_079
+   ID 2: pkm_paid_087
+   Q1: What is Togepi's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 86.15%
+
+126. Type: semantic_duplicate
+   ID 1: pkm_paid_079
+   ID 2: pkm_paid_089
+   Q1: What is Togepi's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 86.15%
+
+127. Type: semantic_duplicate
+   ID 1: pkm_paid_079
+   ID 2: pkm_paid_091
+   Q1: What is Togepi's final evolution?
+   Q2: What is Rookidee's final evolution?
+   Similarity: 85.29%
+
+128. Type: semantic_duplicate
+   ID 1: pkm_paid_079
+   ID 2: pkm_paid_093
+   Q1: What is Togepi's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 87.88%
+
+129. Type: semantic_duplicate
+   ID 1: pkm_paid_081
+   ID 2: pkm_paid_085
+   Q1: What is Bagon's final evolution?
+   Q2: What is Beldum's final evolution?
+   Similarity: 86.15%
+
+130. Type: semantic_duplicate
+   ID 1: pkm_paid_081
+   ID 2: pkm_paid_087
+   Q1: What is Bagon's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 87.50%
+
+131. Type: semantic_duplicate
+   ID 1: pkm_paid_081
+   ID 2: pkm_paid_089
+   Q1: What is Bagon's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 90.62%
+
+132. Type: semantic_duplicate
+   ID 1: pkm_paid_081
+   ID 2: pkm_paid_099
+   Q1: What is Bagon's final evolution?
+   Q2: What is Quaxly's final evolution?
+   Similarity: 86.15%
+
+133. Type: semantic_duplicate
+   ID 1: pkm_paid_082
+   ID 2: pkm_paid_084
+   Q1: What type is Palkia?
+   Q2: What type is Dialga?
+   Similarity: 85.00%
+
+134. Type: semantic_duplicate
+   ID 1: pkm_paid_082
+   ID 2: pkm_paid_092
+   Q1: What type is Palkia?
+   Q2: What type is Zacian?
+   Similarity: 85.00%
+
+135. Type: semantic_duplicate
+   ID 1: pkm_paid_085
+   ID 2: pkm_paid_087
+   Q1: What is Beldum's final evolution?
+   Q2: What is Deino's final evolution?
+   Similarity: 86.15%
+
+136. Type: semantic_duplicate
+   ID 1: pkm_paid_085
+   ID 2: pkm_paid_089
+   Q1: What is Beldum's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 86.15%
+
+137. Type: semantic_duplicate
+   ID 1: pkm_paid_086
+   ID 2: pkm_paid_098
+   Q1: What type is Giratina?
+   Q2: What type is Miraidon?
+   Similarity: 86.36%
+
+138. Type: semantic_duplicate
+   ID 1: pkm_paid_087
+   ID 2: pkm_paid_089
+   Q1: What is Deino's final evolution?
+   Q2: What is Goomy's final evolution?
+   Similarity: 87.50%
+
+139. Type: semantic_duplicate
+   ID 1: pkm_paid_087
+   ID 2: pkm_paid_091
+   Q1: What is Deino's final evolution?
+   Q2: What is Rookidee's final evolution?
+   Similarity: 86.57%
+
+140. Type: semantic_duplicate
+   ID 1: pkm_paid_087
+   ID 2: pkm_paid_093
+   Q1: What is Deino's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 89.23%
+
+141. Type: semantic_duplicate
+   ID 1: pkm_paid_087
+   ID 2: pkm_paid_097
+   Q1: What is Deino's final evolution?
+   Q2: What is Fuecoco's final evolution?
+   Similarity: 87.88%
+
+142. Type: semantic_duplicate
+   ID 1: pkm_paid_089
+   ID 2: pkm_paid_091
+   Q1: What is Goomy's final evolution?
+   Q2: What is Rookidee's final evolution?
+   Similarity: 86.57%
+
+143. Type: semantic_duplicate
+   ID 1: pkm_paid_089
+   ID 2: pkm_paid_093
+   Q1: What is Goomy's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 86.15%
+
+144. Type: semantic_duplicate
+   ID 1: pkm_paid_089
+   ID 2: pkm_paid_097
+   Q1: What is Goomy's final evolution?
+   Q2: What is Fuecoco's final evolution?
+   Similarity: 87.88%
+
+145. Type: semantic_duplicate
+   ID 1: pkm_paid_089
+   ID 2: pkm_paid_099
+   Q1: What is Goomy's final evolution?
+   Q2: What is Quaxly's final evolution?
+   Similarity: 86.15%
+
+146. Type: semantic_duplicate
+   ID 1: pkm_paid_091
+   ID 2: pkm_paid_093
+   Q1: What is Rookidee's final evolution?
+   Q2: What is Dreepy's final evolution?
+   Similarity: 88.24%
+
+147. Type: semantic_duplicate
+   ID 1: pkm_paid_096
+   ID 2: pkm_paid_098
+   Q1: What type is Koraidon?
+   Q2: What type is Miraidon?
+   Similarity: 90.91%
+
+148. Type: semantic_duplicate
+   ID 1: pkm_paid_114
+   ID 2: pkm_paid_401
+   Q1: What type combination has the most weaknesses?
+   Q2: What type has the most weaknesses?
+   Similarity: 85.00%
+
+149. Type: semantic_duplicate
+   ID 1: pkm_paid_114
+   ID 2: pkm_paid_402
+   Q1: What type combination has the most weaknesses?
+   Q2: What type combination has no weaknesses?
+   Similarity: 90.70%
+
+150. Type: semantic_duplicate
+   ID 1: pkm_paid_114
+   ID 2: pkm_paid_422
+   Q1: What type combination has the most weaknesses?
+   Q2: What type combination has the most resistances?
+   Similarity: 88.17%
+
+151. Type: semantic_duplicate
+   ID 1: pkm_paid_124
+   ID 2: pkm_paid_125
+   Q1: What region is Pokémon Red and Blue set in?
+   Q2: What region is Pokémon Gold and Silver set in?
+   Similarity: 87.64%
+
+152. Type: semantic_duplicate
+   ID 1: pkm_paid_124
+   ID 2: pkm_paid_129
+   Q1: What region is Pokémon Red and Blue set in?
+   Q2: What region is Pokémon X and Y set in?
+   Similarity: 88.89%
+
+153. Type: semantic_duplicate
+   ID 1: pkm_paid_124
+   ID 2: pkm_paid_131
+   Q1: What region is Pokémon Red and Blue set in?
+   Q2: What region is Pokémon Sword and Shield set in?
+   Similarity: 86.67%
+
+154. Type: semantic_duplicate
+   ID 1: pkm_paid_124
+   ID 2: pkm_paid_132
+   Q1: What region is Pokémon Red and Blue set in?
+   Q2: What region is Pokémon Scarlet and Violet set in?
+   Similarity: 86.96%
+
+155. Type: semantic_duplicate
+   ID 1: pkm_paid_124
+   ID 2: pkm_paid_429
+   Q1: What region is Pokémon Red and Blue set in?
+   Q2: What region is Pokémon Silver and Gold set in?
+   Similarity: 85.39%
+
+156. Type: semantic_duplicate
+   ID 1: pkm_paid_125
+   ID 2: pkm_paid_129
+   Q1: What region is Pokémon Gold and Silver set in?
+   Q2: What region is Pokémon X and Y set in?
+   Similarity: 85.71%
+
+157. Type: semantic_duplicate
+   ID 1: pkm_paid_125
+   ID 2: pkm_paid_131
+   Q1: What region is Pokémon Gold and Silver set in?
+   Q2: What region is Pokémon Sword and Shield set in?
+   Similarity: 88.17%
+
+158. Type: semantic_duplicate
+   ID 1: pkm_paid_126
+   ID 2: pkm_paid_128
+   Q1: What region is Pokémon Ruby and Sapphire set in?
+   Q2: What region is Pokémon Black and White set in?
+   Similarity: 85.11%
+
+159. Type: semantic_duplicate
+   ID 1: pkm_paid_126
+   ID 2: pkm_paid_131
+   Q1: What region is Pokémon Ruby and Sapphire set in?
+   Q2: What region is Pokémon Sword and Shield set in?
+   Similarity: 86.32%
+
+160. Type: semantic_duplicate
+   ID 1: pkm_paid_128
+   ID 2: pkm_paid_129
+   Q1: What region is Pokémon Black and White set in?
+   Q2: What region is Pokémon X and Y set in?
+   Similarity: 85.71%
+
+161. Type: semantic_duplicate
+   ID 1: pkm_paid_129
+   ID 2: pkm_paid_130
+   Q1: What region is Pokémon X and Y set in?
+   Q2: What region is Pokémon Sun and Moon set in?
+   Similarity: 88.89%
+
+162. Type: semantic_duplicate
+   ID 1: pkm_paid_129
+   ID 2: pkm_paid_429
+   Q1: What region is Pokémon X and Y set in?
+   Q2: What region is Pokémon Silver and Gold set in?
+   Similarity: 85.71%
+
+163. Type: semantic_duplicate
+   ID 1: pkm_paid_130
+   ID 2: pkm_paid_429
+   Q1: What region is Pokémon Sun and Moon set in?
+   Q2: What region is Pokémon Silver and Gold set in?
+   Similarity: 85.39%
+
+164. Type: semantic_duplicate
+   ID 1: pkm_paid_131
+   ID 2: pkm_paid_429
+   Q1: What region is Pokémon Sword and Shield set in?
+   Q2: What region is Pokémon Silver and Gold set in?
+   Similarity: 86.02%
+
+165. Type: semantic_duplicate
+   ID 1: pkm_paid_147
+   ID 2: pkm_paid_148
+   Q1: What is the starting town in Pokémon Red and Blue?
+   Q2: What is the starting town in Pokémon Gold and Silver?
+   Similarity: 89.32%
+
+166. Type: semantic_duplicate
+   ID 1: pkm_paid_147
+   ID 2: pkm_paid_430
+   Q1: What is the starting town in Pokémon Red and Blue?
+   Q2: What is the starting town in Pokémon Ruby and Sapphire?
+   Similarity: 85.71%
+
+167. Type: semantic_duplicate
+   ID 1: pkm_paid_148
+   ID 2: pkm_paid_430
+   Q1: What is the starting town in Pokémon Gold and Silver?
+   Q2: What is the starting town in Pokémon Ruby and Sapphire?
+   Similarity: 85.19%
+
+168. Type: semantic_duplicate
+   ID 1: pkm_paid_153
+   ID 2: pkm_paid_156
+   Q1: What is the name of the villainous team in Pokémon Scarlet and Violet?
+   Q2: What is the name of the professor in Pokémon Scarlet and Violet?
+   Similarity: 85.07%
+
+169. Type: semantic_duplicate
+   ID 1: pkm_paid_153
+   ID 2: pkm_paid_164
+   Q1: What is the name of the villainous team in Pokémon Scarlet and Violet?
+   Q2: What is the name of the villainous team in Pokémon X and Y?
+   Similarity: 88.37%
+
+170. Type: semantic_duplicate
+   ID 1: pkm_paid_153
+   ID 2: pkm_paid_178
+   Q1: What is the name of the villainous team in Pokémon Scarlet and Violet?
+   Q2: What is the name of the villainous team in Pokémon Sapphire?
+   Similarity: 86.15%
+
+171. Type: semantic_duplicate
+   ID 1: pkm_paid_154
+   ID 2: pkm_paid_163
+   Q1: What is the name of the Battle Facility in Pokémon Platinum?
+   Q2: What is the name of the Battle Facility in Pokémon Black and White?
+   Similarity: 86.61%
+
+172. Type: semantic_duplicate
+   ID 1: pkm_paid_154
+   ID 2: pkm_paid_170
+   Q1: What is the name of the Battle Facility in Pokémon Platinum?
+   Q2: What is the name of the Battle Facility in Pokémon Sun and Moon?
+   Similarity: 88.71%
+
+173. Type: semantic_duplicate
+   ID 1: pkm_paid_156
+   ID 2: pkm_paid_161
+   Q1: What is the name of the professor in Pokémon Scarlet and Violet?
+   Q2: What is the name of the DLC for Pokémon Scarlet and Violet?
+   Similarity: 89.43%
+
+174. Type: semantic_duplicate
+   ID 1: pkm_paid_156
+   ID 2: pkm_paid_175
+   Q1: What is the name of the professor in Pokémon Scarlet and Violet?
+   Q2: What is the name of the professor in Pokémon Sun and Moon?
+   Similarity: 86.89%
+
+175. Type: semantic_duplicate
+   ID 1: pkm_paid_157
+   ID 2: pkm_paid_158
+   Q1: What generation introduced abilities?
+   Q2: What generation introduced held items?
+   Similarity: 88.00%
+
+176. Type: semantic_duplicate
+   ID 1: pkm_paid_157
+   ID 2: pkm_paid_165
+   Q1: What generation introduced abilities?
+   Q2: What generation introduced Fairy type?
+   Similarity: 85.33%
+
+177. Type: semantic_duplicate
+   ID 1: pkm_paid_159
+   ID 2: pkm_paid_300
+   Q1: What is the evil team in Pokémon Sun and Moon?
+   Q2: Who is the rival in Pokémon Sun and Moon?
+   Similarity: 85.06%
+
+178. Type: semantic_duplicate
+   ID 1: pkm_paid_160
+   ID 2: pkm_paid_161
+   Q1: What is the name of the DLC for Pokémon Sword and Shield?
+   Q2: What is the name of the DLC for Pokémon Scarlet and Violet?
+   Similarity: 86.21%
+
+179. Type: semantic_duplicate
+   ID 1: pkm_paid_163
+   ID 2: pkm_paid_170
+   Q1: What is the name of the Battle Facility in Pokémon Black and White?
+   Q2: What is the name of the Battle Facility in Pokémon Sun and Moon?
+   Similarity: 87.02%
+
+180. Type: semantic_duplicate
+   ID 1: pkm_paid_164
+   ID 2: pkm_paid_177
+   Q1: What is the name of the villainous team in Pokémon X and Y?
+   Q2: What is the name of the villainous team in Pokémon Ruby?
+   Similarity: 92.17%
+
+181. Type: semantic_duplicate
+   ID 1: pkm_paid_164
+   ID 2: pkm_paid_178
+   Q1: What is the name of the villainous team in Pokémon X and Y?
+   Q2: What is the name of the villainous team in Pokémon Sapphire?
+   Similarity: 89.08%
+
+182. Type: semantic_duplicate
+   ID 1: pkm_paid_177
+   ID 2: pkm_paid_178
+   Q1: What is the name of the villainous team in Pokémon Ruby?
+   Q2: What is the name of the villainous team in Pokémon Sapphire?
+   Similarity: 91.38%
+
+183. Type: semantic_duplicate
+   ID 1: pkm_paid_203
+   ID 2: pkm_paid_212
+   Q1: What type is the move Ice Beam?
+   Q2: What type is the move Solar Beam?
+   Similarity: 87.50%
+
+184. Type: semantic_duplicate
+   ID 1: pkm_paid_221
+   ID 2: pkm_paid_238
+   Q1: What ability makes the Pokémon immune to Ground-type moves?
+   Q2: What ability makes the Pokémon immune to powder and spore moves?
+   Similarity: 86.18%
+
+185. Type: semantic_duplicate
+   ID 1: pkm_paid_225
+   ID 2: pkm_paid_230
+   Q1: What ability prevents the Pokémon from being confused?
+   Q2: What ability prevents the Pokémon from being frozen?
+   Similarity: 90.57%
+
+186. Type: semantic_duplicate
+   ID 1: pkm_paid_225
+   ID 2: pkm_paid_242
+   Q1: What ability prevents the Pokémon from being confused?
+   Q2: What ability prevents the Pokémon from being infatuated?
+   Similarity: 92.73%
+
+187. Type: semantic_duplicate
+   ID 1: pkm_paid_230
+   ID 2: pkm_paid_242
+   Q1: What ability prevents the Pokémon from being frozen?
+   Q2: What ability prevents the Pokémon from being infatuated?
+   Similarity: 88.89%
+
+188. Type: semantic_duplicate
+   ID 1: pkm_paid_265
+   ID 2: pkm_paid_266
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Johto?
+   Similarity: 92.11%
+
+189. Type: semantic_duplicate
+   ID 1: pkm_paid_265
+   ID 2: pkm_paid_267
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Hoenn?
+   Similarity: 89.47%
+
+190. Type: semantic_duplicate
+   ID 1: pkm_paid_265
+   ID 2: pkm_paid_268
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Sinnoh?
+   Similarity: 90.91%
+
+191. Type: semantic_duplicate
+   ID 1: pkm_paid_265
+   ID 2: pkm_paid_288
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Unova?
+   Similarity: 89.47%
+
+192. Type: semantic_duplicate
+   ID 1: pkm_paid_265
+   ID 2: pkm_paid_289
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Kalos?
+   Similarity: 94.74%
+
+193. Type: semantic_duplicate
+   ID 1: pkm_paid_265
+   ID 2: pkm_paid_290
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Alola?
+   Similarity: 92.11%
+
+194. Type: semantic_duplicate
+   ID 1: pkm_paid_265
+   ID 2: pkm_paid_291
+   Q1: Who is the Pokémon Professor in Kanto?
+   Q2: Who is the Pokémon Professor in Galar?
+   Similarity: 89.47%
+
+195. Type: semantic_duplicate
+   ID 1: pkm_paid_266
+   ID 2: pkm_paid_267
+   Q1: Who is the Pokémon Professor in Johto?
+   Q2: Who is the Pokémon Professor in Hoenn?
+   Similarity: 89.47%
+
+196. Type: semantic_duplicate
+   ID 1: pkm_paid_266
+   ID 2: pkm_paid_268
+   Q1: Who is the Pokémon Professor in Johto?
+   Q2: Who is the Pokémon Professor in Sinnoh?
+   Similarity: 90.91%
+
+197. Type: semantic_duplicate
+   ID 1: pkm_paid_266
+   ID 2: pkm_paid_288
+   Q1: Who is the Pokémon Professor in Johto?
+   Q2: Who is the Pokémon Professor in Unova?
+   Similarity: 89.47%
+
+198. Type: semantic_duplicate
+   ID 1: pkm_paid_266
+   ID 2: pkm_paid_289
+   Q1: Who is the Pokémon Professor in Johto?
+   Q2: Who is the Pokémon Professor in Kalos?
+   Similarity: 89.47%
+
+199. Type: semantic_duplicate
+   ID 1: pkm_paid_266
+   ID 2: pkm_paid_290
+   Q1: Who is the Pokémon Professor in Johto?
+   Q2: Who is the Pokémon Professor in Alola?
+   Similarity: 89.47%
+
+200. Type: semantic_duplicate
+   ID 1: pkm_paid_266
+   ID 2: pkm_paid_291
+   Q1: Who is the Pokémon Professor in Johto?
+   Q2: Who is the Pokémon Professor in Galar?
+   Similarity: 86.84%
+
+201. Type: semantic_duplicate
+   ID 1: pkm_paid_267
+   ID 2: pkm_paid_268
+   Q1: Who is the Pokémon Professor in Hoenn?
+   Q2: Who is the Pokémon Professor in Sinnoh?
+   Similarity: 90.91%
+
+202. Type: semantic_duplicate
+   ID 1: pkm_paid_267
+   ID 2: pkm_paid_288
+   Q1: Who is the Pokémon Professor in Hoenn?
+   Q2: Who is the Pokémon Professor in Unova?
+   Similarity: 89.47%
+
+203. Type: semantic_duplicate
+   ID 1: pkm_paid_267
+   ID 2: pkm_paid_289
+   Q1: Who is the Pokémon Professor in Hoenn?
+   Q2: Who is the Pokémon Professor in Kalos?
+   Similarity: 89.47%
+
+204. Type: semantic_duplicate
+   ID 1: pkm_paid_267
+   ID 2: pkm_paid_290
+   Q1: Who is the Pokémon Professor in Hoenn?
+   Q2: Who is the Pokémon Professor in Alola?
+   Similarity: 89.47%
+
+205. Type: semantic_duplicate
+   ID 1: pkm_paid_267
+   ID 2: pkm_paid_291
+   Q1: Who is the Pokémon Professor in Hoenn?
+   Q2: Who is the Pokémon Professor in Galar?
+   Similarity: 86.84%
+
+206. Type: semantic_duplicate
+   ID 1: pkm_paid_268
+   ID 2: pkm_paid_288
+   Q1: Who is the Pokémon Professor in Sinnoh?
+   Q2: Who is the Pokémon Professor in Unova?
+   Similarity: 90.91%
+
+207. Type: semantic_duplicate
+   ID 1: pkm_paid_268
+   ID 2: pkm_paid_289
+   Q1: Who is the Pokémon Professor in Sinnoh?
+   Q2: Who is the Pokémon Professor in Kalos?
+   Similarity: 88.31%
+
+208. Type: semantic_duplicate
+   ID 1: pkm_paid_268
+   ID 2: pkm_paid_290
+   Q1: Who is the Pokémon Professor in Sinnoh?
+   Q2: Who is the Pokémon Professor in Alola?
+   Similarity: 88.31%
+
+209. Type: semantic_duplicate
+   ID 1: pkm_paid_268
+   ID 2: pkm_paid_291
+   Q1: Who is the Pokémon Professor in Sinnoh?
+   Q2: Who is the Pokémon Professor in Galar?
+   Similarity: 85.71%
+
+210. Type: semantic_duplicate
+   ID 1: pkm_paid_269
+   ID 2: pkm_paid_286
+   Q1: Who is the Champion in Pokémon Gold and Silver?
+   Q2: Who is the Champion in Pokémon Sword and Shield?
+   Similarity: 88.42%
+
+211. Type: semantic_duplicate
+   ID 1: pkm_paid_269
+   ID 2: pkm_paid_292
+   Q1: Who is the Champion in Pokémon Gold and Silver?
+   Q2: Who is the Champion in Pokémon Black and White?
+   Similarity: 85.11%
+
+212. Type: semantic_duplicate
+   ID 1: pkm_paid_269
+   ID 2: pkm_paid_293
+   Q1: Who is the Champion in Pokémon Gold and Silver?
+   Q2: Who is the Champion in Pokémon X and Y?
+   Similarity: 86.05%
+
+213. Type: semantic_duplicate
+   ID 1: pkm_paid_270
+   ID 2: pkm_paid_286
+   Q1: Who is the Champion in Pokémon Ruby and Sapphire?
+   Q2: Who is the Champion in Pokémon Sword and Shield?
+   Similarity: 86.60%
+
+214. Type: semantic_duplicate
+   ID 1: pkm_paid_270
+   ID 2: pkm_paid_292
+   Q1: Who is the Champion in Pokémon Ruby and Sapphire?
+   Q2: Who is the Champion in Pokémon Black and White?
+   Similarity: 85.42%
+
+215. Type: semantic_duplicate
+   ID 1: pkm_paid_272
+   ID 2: pkm_paid_275
+   Q1: Who is the leader of Team Rocket?
+   Q2: Who is the leader of Team Galactic?
+   Similarity: 85.29%
+
+216. Type: semantic_duplicate
+   ID 1: pkm_paid_272
+   ID 2: pkm_paid_295
+   Q1: Who is the leader of Team Rocket?
+   Q2: Who is the leader of Team Flare?
+   Similarity: 89.23%
+
+217. Type: semantic_duplicate
+   ID 1: pkm_paid_272
+   ID 2: pkm_paid_296
+   Q1: Who is the leader of Team Rocket?
+   Q2: Who is the leader of Team Skull?
+   Similarity: 86.15%
+
+218. Type: semantic_duplicate
+   ID 1: pkm_paid_272
+   ID 2: pkm_paid_297
+   Q1: Who is the leader of Team Rocket?
+   Q2: Who is the leader of Team Yell?
+   Similarity: 87.50%
+
+219. Type: semantic_duplicate
+   ID 1: pkm_paid_273
+   ID 2: pkm_paid_274
+   Q1: Who is the leader of Team Aqua?
+   Q2: Who is the leader of Team Magma?
+   Similarity: 92.06%
+
+220. Type: semantic_duplicate
+   ID 1: pkm_paid_273
+   ID 2: pkm_paid_275
+   Q1: Who is the leader of Team Aqua?
+   Q2: Who is the leader of Team Galactic?
+   Similarity: 87.88%
+
+221. Type: semantic_duplicate
+   ID 1: pkm_paid_273
+   ID 2: pkm_paid_294
+   Q1: Who is the leader of Team Aqua?
+   Q2: Who is the leader of Team Plasma?
+   Similarity: 90.62%
+
+222. Type: semantic_duplicate
+   ID 1: pkm_paid_273
+   ID 2: pkm_paid_295
+   Q1: Who is the leader of Team Aqua?
+   Q2: Who is the leader of Team Flare?
+   Similarity: 88.89%
+
+223. Type: semantic_duplicate
+   ID 1: pkm_paid_273
+   ID 2: pkm_paid_296
+   Q1: Who is the leader of Team Aqua?
+   Q2: Who is the leader of Team Skull?
+   Similarity: 88.89%
+
+224. Type: semantic_duplicate
+   ID 1: pkm_paid_273
+   ID 2: pkm_paid_297
+   Q1: Who is the leader of Team Aqua?
+   Q2: Who is the leader of Team Yell?
+   Similarity: 87.10%
+
+225. Type: semantic_duplicate
+   ID 1: pkm_paid_274
+   ID 2: pkm_paid_275
+   Q1: Who is the leader of Team Magma?
+   Q2: Who is the leader of Team Galactic?
+   Similarity: 86.57%
+
+226. Type: semantic_duplicate
+   ID 1: pkm_paid_274
+   ID 2: pkm_paid_294
+   Q1: Who is the leader of Team Magma?
+   Q2: Who is the leader of Team Plasma?
+   Similarity: 92.31%
+
+227. Type: semantic_duplicate
+   ID 1: pkm_paid_274
+   ID 2: pkm_paid_295
+   Q1: Who is the leader of Team Magma?
+   Q2: Who is the leader of Team Flare?
+   Similarity: 87.50%
+
+228. Type: semantic_duplicate
+   ID 1: pkm_paid_274
+   ID 2: pkm_paid_297
+   Q1: Who is the leader of Team Magma?
+   Q2: Who is the leader of Team Yell?
+   Similarity: 85.71%
+
+229. Type: semantic_duplicate
+   ID 1: pkm_paid_275
+   ID 2: pkm_paid_294
+   Q1: Who is the leader of Team Galactic?
+   Q2: Who is the leader of Team Plasma?
+   Similarity: 85.29%
+
+230. Type: semantic_duplicate
+   ID 1: pkm_paid_275
+   ID 2: pkm_paid_295
+   Q1: Who is the leader of Team Galactic?
+   Q2: Who is the leader of Team Flare?
+   Similarity: 86.57%
+
+231. Type: semantic_duplicate
+   ID 1: pkm_paid_277
+   ID 2: pkm_paid_278
+   Q1: Who is the first Gym Leader you face in Kanto?
+   Q2: Who is the second Gym Leader you face in Kanto?
+   Similarity: 90.32%
+
+232. Type: semantic_duplicate
+   ID 1: pkm_paid_279
+   ID 2: pkm_paid_280
+   Q1: What type does Gym Leader Misty specialize in?
+   Q2: What type does Gym Leader Lt. Surge specialize in?
+   Similarity: 87.50%
+
+233. Type: semantic_duplicate
+   ID 1: pkm_paid_279
+   ID 2: pkm_paid_281
+   Q1: What type does Gym Leader Misty specialize in?
+   Q2: What type does Gym Leader Erika specialize in?
+   Similarity: 91.30%
+
+234. Type: semantic_duplicate
+   ID 1: pkm_paid_279
+   ID 2: pkm_paid_282
+   Q1: What type does Gym Leader Misty specialize in?
+   Q2: What type does Gym Leader Sabrina specialize in?
+   Similarity: 89.36%
+
+235. Type: semantic_duplicate
+   ID 1: pkm_paid_279
+   ID 2: pkm_paid_283
+   Q1: What type does Gym Leader Misty specialize in?
+   Q2: What type does Gym Leader Blaine specialize in?
+   Similarity: 90.32%
+
+236. Type: semantic_duplicate
+   ID 1: pkm_paid_280
+   ID 2: pkm_paid_281
+   Q1: What type does Gym Leader Lt. Surge specialize in?
+   Q2: What type does Gym Leader Erika specialize in?
+   Similarity: 87.50%
+
+237. Type: semantic_duplicate
+   ID 1: pkm_paid_280
+   ID 2: pkm_paid_282
+   Q1: What type does Gym Leader Lt. Surge specialize in?
+   Q2: What type does Gym Leader Sabrina specialize in?
+   Similarity: 87.76%
+
+238. Type: semantic_duplicate
+   ID 1: pkm_paid_280
+   ID 2: pkm_paid_283
+   Q1: What type does Gym Leader Lt. Surge specialize in?
+   Q2: What type does Gym Leader Blaine specialize in?
+   Similarity: 88.66%
+
+239. Type: semantic_duplicate
+   ID 1: pkm_paid_281
+   ID 2: pkm_paid_282
+   Q1: What type does Gym Leader Erika specialize in?
+   Q2: What type does Gym Leader Sabrina specialize in?
+   Similarity: 93.62%
+
+240. Type: semantic_duplicate
+   ID 1: pkm_paid_281
+   ID 2: pkm_paid_283
+   Q1: What type does Gym Leader Erika specialize in?
+   Q2: What type does Gym Leader Blaine specialize in?
+   Similarity: 90.32%
+
+241. Type: semantic_duplicate
+   ID 1: pkm_paid_282
+   ID 2: pkm_paid_283
+   Q1: What type does Gym Leader Sabrina specialize in?
+   Q2: What type does Gym Leader Blaine specialize in?
+   Similarity: 92.63%
+
+242. Type: semantic_duplicate
+   ID 1: pkm_paid_286
+   ID 2: pkm_paid_293
+   Q1: Who is the Champion in Pokémon Sword and Shield?
+   Q2: Who is the Champion in Pokémon X and Y?
+   Similarity: 85.06%
+
+243. Type: semantic_duplicate
+   ID 1: pkm_paid_286
+   ID 2: pkm_paid_301
+   Q1: Who is the Champion in Pokémon Sword and Shield?
+   Q2: Who is the main antagonist in Pokémon Sword and Shield?
+   Similarity: 85.44%
+
+244. Type: semantic_duplicate
+   ID 1: pkm_paid_286
+   ID 2: pkm_paid_313
+   Q1: Who is the Champion in Pokémon Sword and Shield?
+   Q2: Who is the rival in Pokémon Sword and Shield?
+   Similarity: 88.17%
+
+245. Type: semantic_duplicate
+   ID 1: pkm_paid_288
+   ID 2: pkm_paid_289
+   Q1: Who is the Pokémon Professor in Unova?
+   Q2: Who is the Pokémon Professor in Kalos?
+   Similarity: 89.47%
+
+246. Type: semantic_duplicate
+   ID 1: pkm_paid_288
+   ID 2: pkm_paid_290
+   Q1: Who is the Pokémon Professor in Unova?
+   Q2: Who is the Pokémon Professor in Alola?
+   Similarity: 92.11%
+
+247. Type: semantic_duplicate
+   ID 1: pkm_paid_288
+   ID 2: pkm_paid_291
+   Q1: Who is the Pokémon Professor in Unova?
+   Q2: Who is the Pokémon Professor in Galar?
+   Similarity: 89.47%
+
+248. Type: semantic_duplicate
+   ID 1: pkm_paid_289
+   ID 2: pkm_paid_290
+   Q1: Who is the Pokémon Professor in Kalos?
+   Q2: Who is the Pokémon Professor in Alola?
+   Similarity: 94.74%
+
+249. Type: semantic_duplicate
+   ID 1: pkm_paid_289
+   ID 2: pkm_paid_291
+   Q1: Who is the Pokémon Professor in Kalos?
+   Q2: Who is the Pokémon Professor in Galar?
+   Similarity: 92.11%
+
+250. Type: semantic_duplicate
+   ID 1: pkm_paid_290
+   ID 2: pkm_paid_291
+   Q1: Who is the Pokémon Professor in Alola?
+   Q2: Who is the Pokémon Professor in Galar?
+   Similarity: 94.74%
+
+251. Type: semantic_duplicate
+   ID 1: pkm_paid_292
+   ID 2: pkm_paid_293
+   Q1: Who is the Champion in Pokémon Black and White?
+   Q2: Who is the Champion in Pokémon X and Y?
+   Similarity: 86.05%
+
+252. Type: semantic_duplicate
+   ID 1: pkm_paid_293
+   ID 2: pkm_paid_299
+   Q1: Who is the Champion in Pokémon X and Y?
+   Q2: Who is the rival in Pokémon X and Y?
+   Similarity: 85.33%
+
+253. Type: semantic_duplicate
+   ID 1: pkm_paid_294
+   ID 2: pkm_paid_295
+   Q1: Who is the leader of Team Plasma?
+   Q2: Who is the leader of Team Flare?
+   Similarity: 89.23%
+
+254. Type: semantic_duplicate
+   ID 1: pkm_paid_294
+   ID 2: pkm_paid_296
+   Q1: Who is the leader of Team Plasma?
+   Q2: Who is the leader of Team Skull?
+   Similarity: 86.15%
+
+255. Type: semantic_duplicate
+   ID 1: pkm_paid_294
+   ID 2: pkm_paid_297
+   Q1: Who is the leader of Team Plasma?
+   Q2: Who is the leader of Team Yell?
+   Similarity: 87.50%
+
+256. Type: semantic_duplicate
+   ID 1: pkm_paid_295
+   ID 2: pkm_paid_296
+   Q1: Who is the leader of Team Flare?
+   Q2: Who is the leader of Team Skull?
+   Similarity: 87.50%
+
+257. Type: semantic_duplicate
+   ID 1: pkm_paid_295
+   ID 2: pkm_paid_297
+   Q1: Who is the leader of Team Flare?
+   Q2: Who is the leader of Team Yell?
+   Similarity: 88.89%
+
+258. Type: semantic_duplicate
+   ID 1: pkm_paid_296
+   ID 2: pkm_paid_297
+   Q1: Who is the leader of Team Skull?
+   Q2: Who is the leader of Team Yell?
+   Similarity: 92.06%
+
+259. Type: semantic_duplicate
+   ID 1: pkm_paid_299
+   ID 2: pkm_paid_300
+   Q1: Who is the rival in Pokémon X and Y?
+   Q2: Who is the rival in Pokémon Sun and Moon?
+   Similarity: 88.31%
+
+260. Type: semantic_duplicate
+   ID 1: pkm_paid_305
+   ID 2: pkm_paid_306
+   Q1: Who is the Gym Leader of Saffron City?
+   Q2: Who is the Gym Leader of Celadon City?
+   Similarity: 89.47%
+
+261. Type: semantic_duplicate
+   ID 1: pkm_paid_305
+   ID 2: pkm_paid_307
+   Q1: Who is the Gym Leader of Saffron City?
+   Q2: Who is the Gym Leader of Vermilion City?
+   Similarity: 87.18%
+
+262. Type: semantic_duplicate
+   ID 1: pkm_paid_305
+   ID 2: pkm_paid_308
+   Q1: Who is the Gym Leader of Saffron City?
+   Q2: Who is the Gym Leader of Cerulean City?
+   Similarity: 85.71%
+
+263. Type: semantic_duplicate
+   ID 1: pkm_paid_305
+   ID 2: pkm_paid_309
+   Q1: Who is the Gym Leader of Saffron City?
+   Q2: Who is the Gym Leader of Pewter City?
+   Similarity: 85.33%
+
+264. Type: semantic_duplicate
+   ID 1: pkm_paid_305
+   ID 2: pkm_paid_311
+   Q1: Who is the Gym Leader of Saffron City?
+   Q2: Who is the Gym Leader of Viridian City?
+   Similarity: 85.71%
+
+265. Type: semantic_duplicate
+   ID 1: pkm_paid_305
+   ID 2: pkm_paid_312
+   Q1: Who is the Gym Leader of Saffron City?
+   Q2: Who is the Gym Leader of Fuchsia City?
+   Similarity: 86.84%
+
+266. Type: semantic_duplicate
+   ID 1: pkm_paid_306
+   ID 2: pkm_paid_307
+   Q1: Who is the Gym Leader of Celadon City?
+   Q2: Who is the Gym Leader of Vermilion City?
+   Similarity: 89.74%
+
+267. Type: semantic_duplicate
+   ID 1: pkm_paid_306
+   ID 2: pkm_paid_308
+   Q1: Who is the Gym Leader of Celadon City?
+   Q2: Who is the Gym Leader of Cerulean City?
+   Similarity: 93.51%
+
+268. Type: semantic_duplicate
+   ID 1: pkm_paid_306
+   ID 2: pkm_paid_309
+   Q1: Who is the Gym Leader of Celadon City?
+   Q2: Who is the Gym Leader of Pewter City?
+   Similarity: 85.33%
+
+269. Type: semantic_duplicate
+   ID 1: pkm_paid_306
+   ID 2: pkm_paid_311
+   Q1: Who is the Gym Leader of Celadon City?
+   Q2: Who is the Gym Leader of Viridian City?
+   Similarity: 85.71%
+
+270. Type: semantic_duplicate
+   ID 1: pkm_paid_306
+   ID 2: pkm_paid_312
+   Q1: Who is the Gym Leader of Celadon City?
+   Q2: Who is the Gym Leader of Fuchsia City?
+   Similarity: 86.84%
+
+271. Type: semantic_duplicate
+   ID 1: pkm_paid_307
+   ID 2: pkm_paid_308
+   Q1: Who is the Gym Leader of Vermilion City?
+   Q2: Who is the Gym Leader of Cerulean City?
+   Similarity: 88.61%
+
+272. Type: semantic_duplicate
+   ID 1: pkm_paid_307
+   ID 2: pkm_paid_309
+   Q1: Who is the Gym Leader of Vermilion City?
+   Q2: Who is the Gym Leader of Pewter City?
+   Similarity: 85.71%
+
+273. Type: semantic_duplicate
+   ID 1: pkm_paid_307
+   ID 2: pkm_paid_311
+   Q1: Who is the Gym Leader of Vermilion City?
+   Q2: Who is the Gym Leader of Viridian City?
+   Similarity: 91.14%
+
+274. Type: semantic_duplicate
+   ID 1: pkm_paid_308
+   ID 2: pkm_paid_309
+   Q1: Who is the Gym Leader of Cerulean City?
+   Q2: Who is the Gym Leader of Pewter City?
+   Similarity: 86.84%
+
+275. Type: semantic_duplicate
+   ID 1: pkm_paid_308
+   ID 2: pkm_paid_311
+   Q1: Who is the Gym Leader of Cerulean City?
+   Q2: Who is the Gym Leader of Viridian City?
+   Similarity: 87.18%
+
+276. Type: semantic_duplicate
+   ID 1: pkm_paid_308
+   ID 2: pkm_paid_312
+   Q1: Who is the Gym Leader of Cerulean City?
+   Q2: Who is the Gym Leader of Fuchsia City?
+   Similarity: 85.71%
+
+277. Type: semantic_duplicate
+   ID 1: pkm_paid_311
+   ID 2: pkm_paid_312
+   Q1: Who is the Gym Leader of Viridian City?
+   Q2: Who is the Gym Leader of Fuchsia City?
+   Similarity: 85.71%
+
+278. Type: semantic_duplicate
+   ID 1: pkm_paid_317
+   ID 2: pkm_paid_326
+   Q1: What is Red's signature Pokémon?
+   Q2: What is Ghetsis's signature Pokémon?
+   Similarity: 88.24%
+
+279. Type: semantic_duplicate
+   ID 1: pkm_paid_335
+   ID 2: pkm_paid_336
+   Q1: What type of Pokémon does Brock specialize in?
+   Q2: What type of Pokémon does Misty specialize in?
+   Similarity: 89.13%
+
+280. Type: semantic_duplicate
+   ID 1: pkm_paid_339
+   ID 2: pkm_paid_356
+   Q1: What is the name of the first Pokémon movie?
+   Q2: What is the name of the second Pokémon movie?
+   Similarity: 89.89%
+
+281. Type: semantic_duplicate
+   ID 1: pkm_paid_339
+   ID 2: pkm_paid_357
+   Q1: What is the name of the first Pokémon movie?
+   Q2: What is the name of the third Pokémon movie?
+   Similarity: 93.18%
+
+282. Type: semantic_duplicate
+   ID 1: pkm_paid_347
+   ID 2: pkm_paid_364
+   Q1: What is the name of Nurse Joy's Pokémon partner?
+   Q2: What is the name of Officer Jenny's Pokémon partner?
+   Similarity: 86.00%
+
+283. Type: semantic_duplicate
+   ID 1: pkm_paid_348
+   ID 2: pkm_paid_352
+   Q1: What is the name of Ash's rival in the Sinnoh region?
+   Q2: What is the name of Ash's rival in the Unova region?
+   Similarity: 93.33%
+
+284. Type: semantic_duplicate
+   ID 1: pkm_paid_348
+   ID 2: pkm_paid_353
+   Q1: What is the name of Ash's rival in the Sinnoh region?
+   Q2: What is the name of Ash's rival in the Kalos region?
+   Similarity: 91.43%
+
+285. Type: semantic_duplicate
+   ID 1: pkm_paid_349
+   ID 2: pkm_paid_350
+   Q1: What is the name of Ash's traveling companion in Hoenn who wants to be a Pokémon Coordinator?
+   Q2: What is the name of Ash's traveling companion in Sinnoh who wants to be a Pokémon Coordinator?
+   Similarity: 96.26%
+
+286. Type: semantic_duplicate
+   ID 1: pkm_paid_349
+   ID 2: pkm_paid_351
+   Q1: What is the name of Ash's traveling companion in Hoenn who wants to be a Pokémon Coordinator?
+   Q2: What is the name of Ash's traveling companion in Kalos who wants to be a Pokémon Performer?
+   Similarity: 88.04%
+
+287. Type: semantic_duplicate
+   ID 1: pkm_paid_350
+   ID 2: pkm_paid_351
+   Q1: What is the name of Ash's traveling companion in Sinnoh who wants to be a Pokémon Coordinator?
+   Q2: What is the name of Ash's traveling companion in Kalos who wants to be a Pokémon Performer?
+   Similarity: 87.57%
+
+288. Type: semantic_duplicate
+   ID 1: pkm_paid_352
+   ID 2: pkm_paid_353
+   Q1: What is the name of Ash's rival in the Unova region?
+   Q2: What is the name of Ash's rival in the Kalos region?
+   Similarity: 92.31%
+
+289. Type: semantic_duplicate
+   ID 1: pkm_paid_356
+   ID 2: pkm_paid_357
+   Q1: What is the name of the second Pokémon movie?
+   Q2: What is the name of the third Pokémon movie?
+   Similarity: 89.89%
+
+290. Type: semantic_duplicate
+   ID 1: pkm_paid_358
+   ID 2: pkm_paid_359
+   Q1: What legendary Pokémon appears in the second movie?
+   Q2: What legendary Pokémon appears in the third movie?
+   Similarity: 91.09%
+
+291. Type: semantic_duplicate
+   ID 1: pkm_paid_382
+   ID 2: pkm_paid_383
+   Q1: What type is super effective against Water?
+   Q2: What type is super effective against Electric?
+   Similarity: 89.89%
+
+292. Type: semantic_duplicate
+   ID 1: pkm_paid_382
+   ID 2: pkm_paid_384
+   Q1: What type is super effective against Water?
+   Q2: What type is super effective against Grass?
+   Similarity: 90.70%
+
+293. Type: semantic_duplicate
+   ID 1: pkm_paid_383
+   ID 2: pkm_paid_384
+   Q1: What type is super effective against Electric?
+   Q2: What type is super effective against Grass?
+   Similarity: 87.64%
+
+294. Type: semantic_duplicate
+   ID 1: pkm_paid_386
+   ID 2: pkm_paid_387
+   Q1: What type is immune to Ground?
+   Q2: What type is immune to Ghost?
+   Similarity: 88.14%
+
+295. Type: semantic_duplicate
+   ID 1: pkm_paid_389
+   ID 2: pkm_paid_416
+   Q1: How do you evolve Pikachu?
+   Q2: How do you evolve Pancham?
+   Similarity: 88.46%
+
+296. Type: semantic_duplicate
+   ID 1: pkm_paid_390
+   ID 2: pkm_paid_391
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Flareon?
+   Similarity: 93.33%
+
+297. Type: semantic_duplicate
+   ID 1: pkm_paid_390
+   ID 2: pkm_paid_392
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Jolteon?
+   Similarity: 90.67%
+
+298. Type: semantic_duplicate
+   ID 1: pkm_paid_390
+   ID 2: pkm_paid_403
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Espeon?
+   Similarity: 91.89%
+
+299. Type: semantic_duplicate
+   ID 1: pkm_paid_390
+   ID 2: pkm_paid_404
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Umbreon?
+   Similarity: 90.67%
+
+300. Type: semantic_duplicate
+   ID 1: pkm_paid_390
+   ID 2: pkm_paid_405
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Leafeon?
+   Similarity: 90.67%
+
+301. Type: semantic_duplicate
+   ID 1: pkm_paid_390
+   ID 2: pkm_paid_406
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Glaceon?
+   Similarity: 90.67%
+
+302. Type: semantic_duplicate
+   ID 1: pkm_paid_390
+   ID 2: pkm_paid_407
+   Q1: How do you evolve Eevee into Vaporeon?
+   Q2: How do you evolve Eevee into Sylveon?
+   Similarity: 90.67%
+
+303. Type: semantic_duplicate
+   ID 1: pkm_paid_391
+   ID 2: pkm_paid_392
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Jolteon?
+   Similarity: 91.89%
+
+304. Type: semantic_duplicate
+   ID 1: pkm_paid_391
+   ID 2: pkm_paid_403
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Espeon?
+   Similarity: 90.41%
+
+305. Type: semantic_duplicate
+   ID 1: pkm_paid_391
+   ID 2: pkm_paid_404
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Umbreon?
+   Similarity: 91.89%
+
+306. Type: semantic_duplicate
+   ID 1: pkm_paid_391
+   ID 2: pkm_paid_405
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Leafeon?
+   Similarity: 91.89%
+
+307. Type: semantic_duplicate
+   ID 1: pkm_paid_391
+   ID 2: pkm_paid_406
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Glaceon?
+   Similarity: 94.59%
+
+308. Type: semantic_duplicate
+   ID 1: pkm_paid_391
+   ID 2: pkm_paid_407
+   Q1: How do you evolve Eevee into Flareon?
+   Q2: How do you evolve Eevee into Sylveon?
+   Similarity: 91.89%
+
+309. Type: semantic_duplicate
+   ID 1: pkm_paid_392
+   ID 2: pkm_paid_403
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Espeon?
+   Similarity: 90.41%
+
+310. Type: semantic_duplicate
+   ID 1: pkm_paid_392
+   ID 2: pkm_paid_404
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Umbreon?
+   Similarity: 89.19%
+
+311. Type: semantic_duplicate
+   ID 1: pkm_paid_392
+   ID 2: pkm_paid_405
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Leafeon?
+   Similarity: 91.89%
+
+312. Type: semantic_duplicate
+   ID 1: pkm_paid_392
+   ID 2: pkm_paid_406
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Glaceon?
+   Similarity: 91.89%
+
+313. Type: semantic_duplicate
+   ID 1: pkm_paid_392
+   ID 2: pkm_paid_407
+   Q1: How do you evolve Eevee into Jolteon?
+   Q2: How do you evolve Eevee into Sylveon?
+   Similarity: 91.89%
+
+314. Type: semantic_duplicate
+   ID 1: pkm_paid_396
+   ID 2: pkm_paid_417
+   Q1: How do you evolve Machoke?
+   Q2: How do you evolve Mantyke?
+   Similarity: 88.46%
+
+315. Type: semantic_duplicate
+   ID 1: pkm_paid_397
+   ID 2: pkm_paid_417
+   Q1: How do you evolve Haunter?
+   Q2: How do you evolve Mantyke?
+   Similarity: 88.46%
+
+316. Type: semantic_duplicate
+   ID 1: pkm_paid_403
+   ID 2: pkm_paid_404
+   Q1: How do you evolve Eevee into Espeon?
+   Q2: How do you evolve Eevee into Umbreon?
+   Similarity: 90.41%
+
+317. Type: semantic_duplicate
+   ID 1: pkm_paid_403
+   ID 2: pkm_paid_405
+   Q1: How do you evolve Eevee into Espeon?
+   Q2: How do you evolve Eevee into Leafeon?
+   Similarity: 93.15%
+
+318. Type: semantic_duplicate
+   ID 1: pkm_paid_403
+   ID 2: pkm_paid_406
+   Q1: How do you evolve Eevee into Espeon?
+   Q2: How do you evolve Eevee into Glaceon?
+   Similarity: 90.41%
+
+319. Type: semantic_duplicate
+   ID 1: pkm_paid_403
+   ID 2: pkm_paid_407
+   Q1: How do you evolve Eevee into Espeon?
+   Q2: How do you evolve Eevee into Sylveon?
+   Similarity: 93.15%
+
+320. Type: semantic_duplicate
+   ID 1: pkm_paid_404
+   ID 2: pkm_paid_405
+   Q1: How do you evolve Eevee into Umbreon?
+   Q2: How do you evolve Eevee into Leafeon?
+   Similarity: 89.19%
+
+321. Type: semantic_duplicate
+   ID 1: pkm_paid_404
+   ID 2: pkm_paid_406
+   Q1: How do you evolve Eevee into Umbreon?
+   Q2: How do you evolve Eevee into Glaceon?
+   Similarity: 89.19%
+
+322. Type: semantic_duplicate
+   ID 1: pkm_paid_404
+   ID 2: pkm_paid_407
+   Q1: How do you evolve Eevee into Umbreon?
+   Q2: How do you evolve Eevee into Sylveon?
+   Similarity: 89.19%
+
+323. Type: semantic_duplicate
+   ID 1: pkm_paid_405
+   ID 2: pkm_paid_406
+   Q1: How do you evolve Eevee into Leafeon?
+   Q2: How do you evolve Eevee into Glaceon?
+   Similarity: 94.59%
+
+324. Type: semantic_duplicate
+   ID 1: pkm_paid_405
+   ID 2: pkm_paid_407
+   Q1: How do you evolve Eevee into Leafeon?
+   Q2: How do you evolve Eevee into Sylveon?
+   Similarity: 91.89%
+
+325. Type: semantic_duplicate
+   ID 1: pkm_paid_406
+   ID 2: pkm_paid_407
+   Q1: How do you evolve Eevee into Glaceon?
+   Q2: How do you evolve Eevee into Sylveon?
+   Similarity: 91.89%
+
+326. Type: semantic_duplicate
+   ID 1: pkm_paid_408
+   ID 2: pkm_paid_411
+   Q1: What type is Dragon weak to?
+   Q2: What type is Dark weak to?
+   Similarity: 88.89%
+
+327. Type: semantic_duplicate
+   ID 1: pkm_paid_408
+   ID 2: pkm_paid_412
+   Q1: What type is Dragon weak to?
+   Q2: What type is Ghost weak to?
+   Similarity: 87.27%
+
+328. Type: semantic_duplicate
+   ID 1: pkm_paid_409
+   ID 2: pkm_paid_412
+   Q1: What type is Steel weak to?
+   Q2: What type is Ghost weak to?
+   Similarity: 88.89%
+
+329. Type: semantic_duplicate
+   ID 1: pkm_paid_410
+   ID 2: pkm_paid_411
+   Q1: What type is Fairy weak to?
+   Q2: What type is Dark weak to?
+   Similarity: 90.57%
+
+================================================================================
+NEEDS VERIFICATION: Accuracy and Clarity Issues
+================================================================================
+
+1. ID: pkm_preview_025
+   Type: self_revealing
+   Issue: Answer "Red" appears in question text
+   Question: Who is the main character in Pokémon Red/Blue?
+   Answer: Red
+
+2. ID: pkm_paid_083
+   Type: self_revealing
+   Issue: Answer "Gardevoir" appears in question text
+   Question: What is Ralts' final evolution in the Gardevoir line?
+   Answer: Gardevoir
+
+3. ID: pkm_paid_220
+   Type: self_revealing
+   Issue: Answer "Rest" appears in question text
+   Question: What move puts the user to sleep to restore HP?
+   Answer: Rest
+
+4. ID: pkm_paid_264
+   Type: self_revealing
+   Issue: Answer "Red" appears in question text
+   Question: Who is the protagonist in Pokémon Red and Blue?
+   Answer: Red
+
+5. ID: pkm_paid_284
+   Type: self_revealing
+   Issue: Answer "Silver" appears in question text
+   Question: Who is your rival in Pokémon Gold and Silver?
+   Answer: Silver
+
+6. ID: pkm_paid_320
+   Type: self_revealing
+   Issue: Answer "N" appears in question text
+   Question: What is the name of Team Plasma's king in Black and White?
+   Answer: N
+
+7. ID: pkm_paid_329
+   Type: self_revealing
+   Issue: Answer "Pikachu" appears in question text
+   Question: What is the name of Ash's Pikachu?
+   Answer: Pikachu
+
+8. ID: pkm_paid_354
+   Type: self_revealing
+   Issue: Answer "Charizard" appears in question text
+   Question: What Pokémon does Ash's Charizard refuse to obey him for a while?
+   Answer: Charizard
+
+9. ID: pkm_paid_446
+   Type: self_revealing
+   Issue: Answer "Battle Frontier" appears in question text
+   Question: What is the name of the Battle Frontier location in Hoenn?
+   Answer: Battle Frontier
+
+10. ID: pkm_paid_470
+   Type: self_revealing
+   Issue: Answer "Mew" appears in question text
+   Question: In Pokémon: The First Movie, what Pokémon does Mewtwo use to create clones?
+   Answer: Mew
+
+11. ID: pkm_paid_472
+   Type: self_revealing
+   Issue: Answer "Kalos" appears in question text
+   Question: Which Pokémon region is based on the Kalos region of France?
+   Answer: Kalos
+
+================================================================================
+AUDIT COMPLETE
+================================================================================

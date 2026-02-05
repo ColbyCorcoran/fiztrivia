@@ -299,14 +299,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Characters",
-      "question": "What is Dwight's title that he insists on?",
+      "question": "What nickname does Andy give to Jim?",
       "options": [
-        "Regional Manager",
-        "Assistant Regional Manager",
-        "Assistant to the Regional Manager",
-        "Senior Sales Associate"
+        "Tuna Fish",
+        "Big Tuna",
+        "Jimmy",
+        "Halpert"
       ],
-      "correct_answer": "Assistant Regional Manager",
+      "correct_answer": "Big Tuna",
       "difficulty": "medium"
     },
     {
@@ -701,14 +701,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Trivia",
-      "question": "What is the name of Michael's screenplay?",
+      "question": "What product does Sabre specialize in making?",
       "options": [
-        "Agent Michael Scarn",
-        "The Office Manager",
-        "The Dundies",
-        "Threat Level Midnight"
+        "Paper products",
+        "Office furniture",
+        "Printers and tablets",
+        "Software"
       ],
-      "correct_answer": "Threat Level Midnight",
+      "correct_answer": "Printers and tablets",
       "difficulty": "medium"
     },
     {
@@ -1549,7 +1549,7 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Episodes",
-      "question": "What is the name of the episode where Michael hosts a dinner party?",
+      "question": "What episode features Michael hosting guests at his condo?",
       "options": [
         "The Dinner",
         "Party Planning",
@@ -1613,7 +1613,7 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Locations",
-      "question": "What is the name of the Scranton business park?",
+      "question": "What is the name of the business park where Dunder Mifflin is located?",
       "options": [
         "Dunder Mifflin Plaza",
         "Office Park North",
@@ -2381,7 +2381,7 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Locations",
-      "question": "What restaurant do they go to for 'Benihana Christmas'?",
+      "question": "What Japanese steakhouse do they visit in the Christmas episode?",
       "options": [
         "Hibachi House",
         "Benihana",
@@ -2573,7 +2573,7 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Relationships",
-      "question": "Who does Darryl's daughter call him?",
+      "question": "What does Jada call her father instead of 'Dad'?",
       "options": [
         "Daddy",
         "Darryl",
@@ -4845,14 +4845,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Episodes",
-      "question": "What is a recurring theme in episodes? (v2)",
+      "question": "What episode opens with the office doing parkour?",
       "options": [
-        "Office dynamics and relationships",
-        "Just sales",
-        "Just pranks",
-        "Just meetings"
+        "The Banker",
+        "Gossip",
+        "Stress Relief",
+        "The Meeting"
       ],
-      "correct_answer": "Office dynamics and relationships",
+      "correct_answer": "Gossip",
       "difficulty": "medium"
     },
     {
@@ -4861,14 +4861,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Characters",
-      "question": "What does Michael Scott burn his foot on?",
+      "question": "What form of martial arts does Dwight practice?",
       "options": [
-        "A George Foreman grill",
-        "A grill",
-        "Hot pavement",
-        "A campfire"
+        "Judo",
+        "Karate",
+        "Taekwondo",
+        "Jiu-Jitsu"
       ],
-      "correct_answer": "A George Foreman grill",
+      "correct_answer": "Karate",
       "difficulty": "medium"
     },
     {

@@ -106,16 +106,21 @@ struct CollapsiblePackCard: View {
                         } else {
                             StatusBadge(text: "Owned", color: .blue)
                         }
-                    } else if isInCart {
-                        Image(systemName: "checkmark.circle.fill")
-                            .font(.title3)
-                            .foregroundColor(.fizTeal)
                     } else {
-                        Text(storeManager.product(for: pack.packId)?.displayPrice ??
-                             String(format: "$%.2f", pack.price))
-                            .font(.title3)
-                            .fontWeight(.bold)
-                            .foregroundColor(.fizOrange)
+                        Group {
+                            if isInCart {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .font(.title3)
+                                    .foregroundColor(.fizTeal)
+                            } else {
+                                Text(storeManager.product(for: pack.packId)?.displayPrice ??
+                                     String(format: "$%.2f", pack.price))
+                                    .font(.title3)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.fizOrange)
+                            }
+                        }
+                        .animation(.spring(response: 0.35, dampingFraction: 0.75), value: isInCart)
                     }
 
                     // Chevron
@@ -236,32 +241,38 @@ struct CollapsiblePackCard: View {
         } else {
             Button(action: {
                 HapticManager.shared.buttonTapEffect()
-                if isInCart {
-                    cartManager.removeFromCart(packId: pack.packId)
-                    AnalyticsManager.shared.trackPackRemovedFromCart(
-                        packId: pack.packId,
-                        packName: pack.packName,
-                        totalItemsRemaining: cartManager.itemCount
-                    )
-                } else {
-                    cartManager.addToCart(packId: pack.packId)
-                    AnalyticsManager.shared.trackPackAddedToCart(
-                        packId: pack.packId,
-                        packName: pack.packName
-                    )
+                withAnimation(.spring(response: 0.35, dampingFraction: 0.75)) {
+                    if isInCart {
+                        cartManager.removeFromCart(packId: pack.packId)
+                        AnalyticsManager.shared.trackPackRemovedFromCart(
+                            packId: pack.packId,
+                            packName: pack.packName,
+                            totalItemsRemaining: cartManager.itemCount
+                        )
+                    } else {
+                        cartManager.addToCart(packId: pack.packId)
+                        AnalyticsManager.shared.trackPackAddedToCart(
+                            packId: pack.packId,
+                            packName: pack.packName
+                        )
+                    }
                 }
             }) {
-                HStack {
+                HStack(spacing: 8) {
                     Image(systemName: isInCart ? "checkmark.circle.fill" : "bag.badge.plus")
+                        .font(.headline)
                     Text(isInCart ? "Added to Bag" : "Add to Bag")
+                        .font(.headline)
                 }
-                .font(.headline)
                 .frame(maxWidth: .infinity)
                 .padding()
-                .background(isInCart ? Color.fizTeal : Color.fizOrange)
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(isInCart ? Color.fizTeal : Color.fizOrange)
+                )
                 .foregroundColor(.white)
-                .cornerRadius(12)
             }
+            .buttonStyle(ScaleButtonStyle())
         }
     }
 
@@ -320,5 +331,14 @@ private struct DifficultyPill: View {
                 .font(.caption)
                 .foregroundColor(.secondary)
         }
+    }
+}
+
+// MARK: - Scale Button Style
+private struct ScaleButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.97 : 1.0)
+            .animation(.spring(response: 0.25, dampingFraction: 0.7), value: configuration.isPressed)
     }
 }

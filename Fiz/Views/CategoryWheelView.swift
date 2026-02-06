@@ -21,6 +21,7 @@ struct WheelSegmentData: Hashable {
 struct CategoryWheelView: View {
     @Bindable var gameViewModel: GameViewModel
     var onSwipe: ((SwipeDirection) -> Void)? = nil
+    var onDrag: ((CGFloat, CGFloat, Bool) -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var gameModeManager = GameModeManager.shared
@@ -787,7 +788,30 @@ struct CategoryWheelView: View {
     }
 
     private var navigationSwipeGesture: some Gesture {
-        DragGesture(minimumDistance: 30)
+        DragGesture(minimumDistance: 10)
+            .onChanged { value in
+                // Enhanced guards to prevent conflicts
+                guard swipeNavigationManager.isSwipeNavigationEnabled,
+                      !showingQuestion,
+                      !showingResult,
+                      !gameViewModel.isSpinning,
+                      !navigationButtonsDisabled,
+                      !isDragging else {
+                    return
+                }
+
+                let horizontalDistance = value.translation.width
+                let verticalDistance = value.translation.height
+
+                // Determine if this is primarily a horizontal or vertical swipe
+                let isHorizontal = abs(horizontalDistance) > abs(verticalDistance)
+
+                if isHorizontal {
+                    // Real-time horizontal swipe tracking
+                    let velocity = (value.predictedEndTranslation.width - horizontalDistance) / 0.016 // Estimate velocity
+                    onDrag?(horizontalDistance, velocity, false)
+                }
+            }
             .onEnded { value in
                 // Enhanced guards to prevent conflicts
                 guard swipeNavigationManager.isSwipeNavigationEnabled,
@@ -801,27 +825,17 @@ struct CategoryWheelView: View {
 
                 let horizontalDistance = value.translation.width
                 let verticalDistance = value.translation.height
-                let horizontalVelocity = value.predictedEndTranslation.width
-                let verticalVelocity = value.predictedEndTranslation.height
+                let horizontalVelocity = value.predictedEndTranslation.width - horizontalDistance
+                let verticalVelocity = value.predictedEndTranslation.height - verticalDistance
 
                 // Determine if this is primarily a horizontal or vertical swipe
                 let isHorizontal = abs(horizontalDistance) > abs(verticalDistance)
 
-                // Relaxed thresholds for smoother detection
-                // 30pt minimum OR 60pt/s velocity (down from 50pt / 100pt/s)
                 if isHorizontal {
-                    // Horizontal swipes (left/right)
-                    if abs(horizontalDistance) > 30 || abs(horizontalVelocity) > 60 {
-                        if horizontalDistance > 0 {
-                            // Swipe right -> Leaderboard
-                            HapticManager.shared.lightImpact()
-                            onSwipe?(.right)
-                        } else {
-                            // Swipe left -> Settings
-                            HapticManager.shared.lightImpact()
-                            onSwipe?(.left)
-                        }
-                    }
+                    // Signal end of horizontal drag
+                    let velocity = horizontalVelocity / 0.016 // Convert to points per second
+                    onDrag?(horizontalDistance, velocity, true)
+                    HapticManager.shared.lightImpact()
                 } else {
                     // Vertical swipes (up/down)
                     if abs(verticalDistance) > 30 || abs(verticalVelocity) > 60 {

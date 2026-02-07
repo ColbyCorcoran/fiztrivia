@@ -85,17 +85,17 @@ struct CategoryWheelView: View {
         // First, create segments with base colors
         let baseSegments: [WheelSegmentData]
 
-        if gameModeManager.isSingleTopicMode, gameModeManager.selectedTopic != nil {
+        if gameModeManager.isSingleTopicMode, let selectedTopicId = gameModeManager.selectedTopic {
             // Get subtopics for the selected expansion pack
             let subtopics = gameModeManager.getSubtopicsForSelectedTopic()
 
             // Get the pack to access its icons
-            let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == gameModeManager.selectedTopic })
+            let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == selectedTopicId })
 
             // Create segments with individual subtopic icons, filtering out empty subtopics
             baseSegments = subtopics.compactMap { subtopic in
                 // Only include subtopics that have unanswered questions
-                guard hasQuestionsForSubtopic(subtopic, topicPackId: gameModeManager.selectedTopic!) else {
+                guard hasQuestionsForSubtopic(subtopic, topicPackId: selectedTopicId) else {
                     return nil
                 }
 

@@ -840,15 +840,16 @@ class GameModeManager: ObservableObject {
             }
         case .singleTopic:
             // Single Topic requires a selected topic
-            if selectedTopic == nil {
+            guard let topicId = selectedTopic else {
                 isValid = false
                 print("⚠️ Invalid state detected: Single Topic mode without topic selection")
-            } else {
-                // Verify the topic is still available (installed OR has previews)
-                if !ExpansionPackManager.shared.isAvailableForSingleTopicMode(packId: selectedTopic!) {
-                    isValid = false
-                    print("⚠️ Invalid state detected: Selected topic is not available")
-                }
+                break
+            }
+
+            // Verify the topic is still available (installed OR has previews)
+            if !ExpansionPackManager.shared.isAvailableForSingleTopicMode(packId: topicId) {
+                isValid = false
+                print("⚠️ Invalid state detected: Selected topic is not available")
             }
         // Future modes:
         // case .seasonal:

@@ -89,7 +89,8 @@ class GameViewModel {
             allQuestions.append(contentsOf: expansionQuestions)
 
             questions = allQuestions
-            print("Successfully loaded \(questions.count) questions from database (including \(expansionQuestions.count) expansion questions)")
+            // Disabled noisy log: Successfully loaded X questions from database
+            // print("Successfully loaded \(questions.count) questions from database (including \(expansionQuestions.count) expansion questions)")
 
             // Rescan phobia filters to catch any new questions (e.g., from newly installed expansion packs)
             phobiaManager.rescanAllPhobias(in: allQuestions)

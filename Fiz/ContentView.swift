@@ -51,24 +51,25 @@ struct ContentView: View {
         GeometryReader { geometry in
             ZStack {
                 // Leaderboard (left page)
-                LeaderboardView(gameViewModel: gameViewModel, onSwipe: handleSwipe, onDrag: handleDrag)
+                LeaderboardView(gameViewModel: gameViewModel, onDrag: handleDrag)
                     .offset(x: calculateLeaderboardOffset(screenWidth: geometry.size.width) + dragOffset)
                     .opacity(calculateOpacity(for: .leaderboard))
                     .zIndex(gameViewModel.gameState == .leaderboard ? 1 : 0)
 
                 // Main wheel (center page)
-                CategoryWheelView(gameViewModel: gameViewModel, onSwipe: handleSwipe, onDrag: handleDrag)
+                CategoryWheelView(gameViewModel: gameViewModel, onDrag: handleDrag)
                     .offset(x: calculateMainOffset(screenWidth: geometry.size.width) + dragOffset)
+                    .opacity(calculateOpacity(for: .selectingCategory))
                     .zIndex(gameViewModel.gameState == .selectingCategory ? 1 : 0)
 
                 // Settings (right page)
-                SettingsView(gameViewModel: gameViewModel, onSwipe: handleSwipe, onDrag: handleDrag)
+                SettingsView(gameViewModel: gameViewModel, onDrag: handleDrag)
                     .offset(x: calculateSettingsOffset(screenWidth: geometry.size.width) + dragOffset)
                     .opacity(calculateOpacity(for: .settings))
                     .zIndex(gameViewModel.gameState == .settings ? 1 : 0)
             }
         }
-        .animation(isDragging ? nil : .spring(response: 0.25, dampingFraction: 0.85), value: gameViewModel.gameState)
+        .animation(.spring(response: 0.3, dampingFraction: 0.86), value: gameViewModel.gameState)
     }
 
     private func calculateLeaderboardOffset(screenWidth: CGFloat) -> CGFloat {
@@ -105,59 +106,116 @@ struct ContentView: View {
     }
 
     private func calculateOpacity(for state: GameState) -> Double {
-        if isDragging {
-            // During drag, gradually fade opacity based on drag distance
-            let normalizedOffset = abs(dragOffset) / 100.0
-            if gameViewModel.gameState == state {
-                return max(0.3, 1.0 - normalizedOffset)
-            } else {
-                return min(1.0, 0.3 + normalizedOffset)
-            }
-        } else {
-            return gameViewModel.gameState == state ? 1 : 0.3
+        let isActive = gameViewModel.gameState == state
+
+        if isDragging && !isActive {
+            // Incoming view fades in gradually during drag (0.3 → 1.0)
+            // This provides visual feedback without flickering the active view
+            let normalizedOffset = min(abs(dragOffset) / 100.0, 1.0)  // 0.0 to 1.0
+            return 0.3 + (0.7 * normalizedOffset)  // Fade from 0.3 to 1.0
         }
+
+        return isActive ? 1.0 : 0.3
     }
 
     private func handleDrag(translation: CGFloat, velocity: CGFloat, isEnded: Bool) {
         guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
         if isEnded {
-            // Gesture ended - determine if we should navigate
-            isDragging = false
+            // DIAGNOSTIC: Log gesture completion
+            print("🔵 GESTURE END - translation: \(translation), velocity: \(velocity), dragOffset: \(dragOffset), state: \(gameViewModel.gameState)")
 
-            let threshold: CGFloat = 100 // Minimum drag distance
-            let velocityThreshold: CGFloat = 500 // Fast swipe threshold
+            // Calculate navigation decision
+            let threshold: CGFloat = 100
+            let velocityThreshold: CGFloat = 800  // Increased from 500 for more deliberate fast swipes
 
-            // Determine if user intended to navigate
-            let shouldNavigate = abs(translation) > threshold || abs(velocity) > velocityThreshold
+            var shouldNavigate = false
+            var navigationDirection: SwipeDirection?
 
-            if shouldNavigate {
-                if translation > 0 {
-                    // Swiped right
-                    handleSwipe(.right)
+            // Check if at navigation boundary (rubber banding edge)
+            let atBoundary = isAtNavigationBoundary(translation: translation)
+
+            // Decision tree:
+            if atBoundary {
+                // At edge boundary - don't navigate, just snap back
+                print("🔴 AT BOUNDARY - no navigation (translation: \(translation))")
+            } else if abs(velocity) > velocityThreshold {
+                // 1. Very fast swipe - always honor velocity direction
+                shouldNavigate = true
+                navigationDirection = velocity > 0 ? .right : .left
+                print("🟢 FAST SWIPE - velocity \(velocity) → \(navigationDirection?.description ?? "nil")")
+            } else if abs(translation) > threshold {
+                // 2. Slow drag past threshold
+                // Check if velocity opposes translation (user trying to cancel)
+                let translationDirection = translation > 0 ? 1 : -1
+                let velocityDirection = velocity > 0 ? 1 : -1
+
+                // If velocity is significant AND opposite to translation, user is canceling
+                if abs(velocity) > 200 && (translationDirection != velocityDirection) {
+                    // Cancellation: user crossed threshold but is now reversing with significant speed
+                    print("🔴 CANCELLED - reversal detected (translation: \(translation), velocity: \(velocity))")
                 } else {
-                    // Swiped left
-                    handleSwipe(.left)
+                    // Normal slow drag - use translation direction
+                    shouldNavigate = true
+                    navigationDirection = translation > 0 ? .right : .left
+                    print("🟢 SLOW DRAG - translation \(translation) → \(navigationDirection?.description ?? "nil")")
                 }
+            } else {
+                print("🟡 SNAP BACK - translation \(translation) below threshold")
             }
 
-            // Reset drag offset with animation
-            withAnimation(.spring(response: 0.25, dampingFraction: 0.85)) {
+            // Determine target state
+            var targetState = gameViewModel.gameState
+            if shouldNavigate, let direction = navigationDirection {
+                targetState = navigationTarget(from: gameViewModel.gameState, direction: direction)
+            }
+
+            // Batch ALL updates in single animated transaction
+            withAnimation(.spring(response: 0.3, dampingFraction: 0.86)) {  // Slightly slower for Apple feel
+                isDragging = false
                 dragOffset = 0
+                gameViewModel.gameState = targetState
             }
         } else {
-            // Gesture in progress - update offset in real-time
+            // Gesture in progress - direct updates for instant feedback
             isDragging = true
+            let newOffset = applyRubberBanding(translation: translation)
 
-            // Apply rubber banding at edges
-            let rubberBandedOffset = applyRubberBanding(translation: translation)
-            dragOffset = rubberBandedOffset
+            // Reduce jitter: increased threshold to 3pt (from 1pt)
+            if abs(newOffset - dragOffset) > 3 {
+                dragOffset = newOffset
+            }
+        }
+    }
+
+    // Helper to check if user is trying to navigate beyond boundaries
+    private func isAtNavigationBoundary(translation: CGFloat) -> Bool {
+        let tryingToGoLeftFromLeaderboard = gameViewModel.gameState == .leaderboard && translation > 0
+        let tryingToGoRightFromSettings = gameViewModel.gameState == .settings && translation < 0
+        return tryingToGoLeftFromLeaderboard || tryingToGoRightFromSettings
+    }
+
+    // Helper to determine navigation target
+    private func navigationTarget(from state: GameState, direction: SwipeDirection) -> GameState {
+        switch (state, direction) {
+        case (.selectingCategory, .right):
+            return .leaderboard
+        case (.selectingCategory, .left):
+            return .settings
+        case (.leaderboard, .left):
+            return .selectingCategory
+        case (.settings, .right):
+            return .selectingCategory
+        default:
+            return state
         }
     }
 
     private func applyRubberBanding(translation: CGFloat) -> CGFloat {
-        // Check if we're at the edge of navigation
+        // Check if we're trying to drag BEYOND the navigation boundaries
+        // Left edge: at Leaderboard and swiping right (trying to go further left beyond edge)
         let atLeftEdge = gameViewModel.gameState == .leaderboard && translation > 0
+        // Right edge: at Settings and swiping left (trying to go further right beyond edge)
         let atRightEdge = gameViewModel.gameState == .settings && translation < 0
 
         if atLeftEdge || atRightEdge {
@@ -168,29 +226,18 @@ struct ContentView: View {
 
         return translation
     }
-
-    private func handleSwipe(_ direction: SwipeDirection) {
-        guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
-
-        // Instant state change - no preview, no lag
-        switch (gameViewModel.gameState, direction) {
-        case (.selectingCategory, .right):
-            gameViewModel.gameState = .leaderboard
-        case (.selectingCategory, .left):
-            gameViewModel.gameState = .settings
-        case (.leaderboard, .left):
-            gameViewModel.gameState = .selectingCategory
-        case (.settings, .right):
-            gameViewModel.gameState = .selectingCategory
-        default:
-            break
-        }
-    }
 }
 
 enum SwipeDirection {
     case left
     case right
+
+    var description: String {
+        switch self {
+        case .left: return "LEFT"
+        case .right: return "RIGHT"
+        }
+    }
 }
 
 #Preview {

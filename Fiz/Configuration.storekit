@@ -163,6 +163,51 @@
       "productID" : "com.fiz.pack.dc",
       "referenceName" : "The Hall of Justice Pack",
       "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.69",
+      "familyShareable" : true,
+      "internalID" : "C9E2F451",
+      "localizations" : [
+        {
+          "description" : "Journey through the magical world of Narnia with 400 questions covering the beloved Chronicles series - from Aslan's sacrifice to the Last Battle, explore characters, locations, creatures, magic, and the rich symbolism woven throughout C.S. Lewis's masterpiece.",
+          "displayName" : "Through the Wardrobe Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.narnia",
+      "referenceName" : "Through the Wardrobe Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.49",
+      "familyShareable" : true,
+      "internalID" : "D4A8B732",
+      "localizations" : [
+        {
+          "description" : "Satisfy your sweet tooth with 300 questions about candy, chocolate, and confectionery history from around the world! Explore candy types, origins, ingredients, international treats, holiday traditions, and pop culture moments.",
+          "displayName" : "Candy & Sweets Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.candy",
+      "referenceName" : "Candy & Sweets Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : true,
+      "internalID" : "E7F3C894",
+      "localizations" : [
+        {
+          "description" : "Test your Mushroom Kingdom knowledge! Journey through 500 questions covering 40+ years of Mario games - from the original platformers to modern adventures, explore characters, power-ups, locations, enemies, music, and the legendary history of gaming's most famous plumber!",
+          "displayName" : "Italian Brothers Plumbing Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.fiz.pack.mario",
+      "referenceName" : "Italian Brothers Plumbing Pack",
+      "type" : "NonConsumable"
     }
   ],
   "settings" : {

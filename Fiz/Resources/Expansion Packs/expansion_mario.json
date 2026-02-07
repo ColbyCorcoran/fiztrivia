@@ -1862,15 +1862,15 @@
       "id": "mar_game_009",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What is the name of Mario's main enemy?",
+      "question": "In Super Mario 64, how many Power Stars are required to access the final Bowser battle?",
       "options": [
-        "King Koopa",
-        "Bowser",
-        "Donkey Kong",
-        "Wario"
+        "70 Stars",
+        "80 Stars",
+        "90 Stars",
+        "100 Stars"
       ],
-      "correct_answer": "Bowser",
-      "difficulty": "easy",
+      "correct_answer": "70 Stars",
+      "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Games & Gameplay"
     },
@@ -2902,15 +2902,15 @@
       "id": "mar_pow_011",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "In Super Mario Odyssey, what is the name of Mario's sentient hat?",
+      "question": "What color is the Tanooki Suit in Super Mario Bros. 3?",
       "options": [
-        "Cappy",
-        "Hatty",
-        "Tippy",
-        "Cap-Man"
+        "Brown and tan",
+        "Red and white",
+        "Green and yellow",
+        "Blue and white"
       ],
-      "correct_answer": "Cappy",
-      "difficulty": "easy",
+      "correct_answer": "Brown and tan",
+      "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Power-ups & Items"
     },
@@ -5830,14 +5830,14 @@
       "id": "mar_ene_064",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What is Kamek's role in the Mario series?",
+      "question": "In Super Mario RPG, what is the name of the sword spirit that takes over Bowser's Keep?",
       "options": [
-        "Bowser's caretaker and advisor",
-        "Bowser's brother",
-        "A random enemy",
-        "Mario's rival"
+        "Smithy",
+        "Exor",
+        "Culex",
+        "Booster"
       ],
-      "correct_answer": "Bowser's caretaker and advisor",
+      "correct_answer": "Exor",
       "difficulty": "hard",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Enemies & Bosses"
@@ -7448,14 +7448,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What year was Super Mario World released?",
+      "question": "What was Mario's original profession in the Donkey Kong arcade game?",
       "options": [
-        "1990",
-        "1988",
-        "1992",
-        "1991"
+        "Carpenter",
+        "Plumber",
+        "Construction worker",
+        "Firefighter"
       ],
-      "correct_answer": "1990",
+      "correct_answer": "Carpenter",
       "difficulty": "medium"
     },
     {

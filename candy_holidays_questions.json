@@ -1,0 +1,802 @@
+[
+  {
+    "id": "cnd_hol_001",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What three colors are traditional candy corn?",
+    "options": [
+      "Orange, yellow, and white",
+      "Red, white, and blue",
+      "Orange, brown, and white",
+      "Yellow, orange, and brown"
+    ],
+    "correct_answer": "Orange, yellow, and white",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_002",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which holiday is most associated with candy canes?",
+    "options": [
+      "Christmas",
+      "Easter",
+      "Halloween",
+      "Valentine's Day"
+    ],
+    "correct_answer": "Christmas",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_003",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What shape are conversation hearts typically sold in on Valentine's Day?",
+    "options": [
+      "Heart-shaped",
+      "Circle-shaped",
+      "Square-shaped",
+      "Star-shaped"
+    ],
+    "correct_answer": "Heart-shaped",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_004",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which marshmallow candy is shaped like chicks and bunnies for Easter?",
+    "options": [
+      "Peeps",
+      "Marshmallow Fluff",
+      "Lucky Charms",
+      "Jet-Puffed"
+    ],
+    "correct_answer": "Peeps",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_005",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the traditional flavor of candy canes?",
+    "options": [
+      "Peppermint",
+      "Cinnamon",
+      "Spearmint",
+      "Wintergreen"
+    ],
+    "correct_answer": "Peppermint",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_006",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which holiday sees the highest candy sales in the United States?",
+    "options": [
+      "Halloween",
+      "Christmas",
+      "Easter",
+      "Valentine's Day"
+    ],
+    "correct_answer": "Halloween",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_007",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What type of candy are Cadbury Creme Eggs?",
+    "options": [
+      "Chocolate eggs with cream filling",
+      "Hard-boiled eggs covered in chocolate",
+      "Jellybeans shaped like eggs",
+      "Caramel-filled eggs"
+    ],
+    "correct_answer": "Chocolate eggs with cream filling",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_008",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What are chocolate coins wrapped in gold foil called during Hanukkah?",
+    "options": [
+      "Gelt",
+      "Dreidel coins",
+      "Menorah money",
+      "Shekels"
+    ],
+    "correct_answer": "Gelt",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_009",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the practice of going door-to-door for candy on Halloween called?",
+    "options": [
+      "Trick-or-treating",
+      "Candy collecting",
+      "Halloween hunting",
+      "Door knocking"
+    ],
+    "correct_answer": "Trick-or-treating",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_010",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What color are most jellybeans associated with Easter?",
+    "options": [
+      "Pastel colors",
+      "Dark colors",
+      "Neon colors",
+      "Metallic colors"
+    ],
+    "correct_answer": "Pastel colors",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_011",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What candy is traditionally given in a heart-shaped box on Valentine's Day?",
+    "options": [
+      "Chocolate",
+      "Gummy bears",
+      "Hard candy",
+      "Licorice"
+    ],
+    "correct_answer": "Chocolate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_012",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What are decorative sugar candies shaped like skulls called during Día de los Muertos?",
+    "options": [
+      "Sugar skulls",
+      "Death candy",
+      "Skull mints",
+      "Bone sweets"
+    ],
+    "correct_answer": "Sugar skulls",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_013",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which popular chocolate kiss candy is often used as Christmas tree decorations?",
+    "options": [
+      "Hershey's Kisses",
+      "Chocolate truffles",
+      "Ferrero Rocher",
+      "Lindt balls"
+    ],
+    "correct_answer": "Hershey's Kisses",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_014",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What holiday traditionally features candy in birthday cakes?",
+    "options": [
+      "Birthdays",
+      "New Year's",
+      "Thanksgiving",
+      "Independence Day"
+    ],
+    "correct_answer": "Birthdays",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_015",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What candy treat combines peppermint and white chocolate and is popular at Christmas?",
+    "options": [
+      "Peppermint bark",
+      "Peppermint patties",
+      "Candy canes",
+      "Mint chocolate chip"
+    ],
+    "correct_answer": "Peppermint bark",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cnd_hol_016",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "When was candy corn first invented?",
+    "options": [
+      "1880s",
+      "1920s",
+      "1950s",
+      "1900s"
+    ],
+    "correct_answer": "1880s",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_017",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What company originally created candy corn?",
+    "options": [
+      "Goelitz Confectionery Company (now Jelly Belly)",
+      "Hershey's",
+      "Mars",
+      "Brach's"
+    ],
+    "correct_answer": "Goelitz Confectionery Company (now Jelly Belly)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_018",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Approximately how many pounds of candy corn are produced each year in the United States?",
+    "options": [
+      "35 million pounds",
+      "10 million pounds",
+      "50 million pounds",
+      "100 million pounds"
+    ],
+    "correct_answer": "35 million pounds",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_019",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which company has been the largest manufacturer of conversation hearts since 1902?",
+    "options": [
+      "NECCO (New England Confectionery Company)",
+      "Brach's",
+      "Hershey's",
+      "Sweethearts"
+    ],
+    "correct_answer": "NECCO (New England Confectionery Company)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_020",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In what decade did trick-or-treating become widespread in the United States?",
+    "options": [
+      "1950s",
+      "1920s",
+      "1970s",
+      "1930s"
+    ],
+    "correct_answer": "1950s",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_021",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "How many Peeps are produced each day during Easter season?",
+    "options": [
+      "Over 5 million",
+      "Over 1 million",
+      "Over 10 million",
+      "Over 500,000"
+    ],
+    "correct_answer": "Over 5 million",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_022",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What was the original shape of candy canes when they were first created?",
+    "options": [
+      "Straight sticks",
+      "Hooked canes",
+      "Circles",
+      "Hearts"
+    ],
+    "correct_answer": "Straight sticks",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_023",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "When were the red stripes added to candy canes?",
+    "options": [
+      "Early 1900s",
+      "1700s",
+      "1950s",
+      "1850s"
+    ],
+    "correct_answer": "Early 1900s",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_024",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What percentage of Valentine's Day chocolate purchases are made by women?",
+    "options": [
+      "75%",
+      "50%",
+      "25%",
+      "90%"
+    ],
+    "correct_answer": "75%",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_025",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "When were Cadbury Creme Eggs first introduced?",
+    "options": [
+      "1963",
+      "1950",
+      "1975",
+      "1940"
+    ],
+    "correct_answer": "1963",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_026",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the most popular Halloween candy in the United States?",
+    "options": [
+      "Reese's Peanut Butter Cups",
+      "Snickers",
+      "M&M's",
+      "Candy corn"
+    ],
+    "correct_answer": "Reese's Peanut Butter Cups",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_027",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "How many jellybeans are consumed in the United States during Easter?",
+    "options": [
+      "Over 16 billion",
+      "Over 5 billion",
+      "Over 50 billion",
+      "Over 1 billion"
+    ],
+    "correct_answer": "Over 16 billion",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_028",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What company makes Peeps marshmallow candies?",
+    "options": [
+      "Just Born",
+      "Mars",
+      "Hershey's",
+      "Brach's"
+    ],
+    "correct_answer": "Just Born",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_029",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In what country did the tradition of giving chocolate eggs for Easter originate?",
+    "options": [
+      "Germany",
+      "United States",
+      "France",
+      "England"
+    ],
+    "correct_answer": "Germany",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_030",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What was candy corn originally called when it was first created?",
+    "options": [
+      "Chicken Feed",
+      "Autumn Corn",
+      "Harvest Candy",
+      "Fall Treats"
+    ],
+    "correct_answer": "Chicken Feed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_031",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "How many heart-shaped boxes of chocolate are sold for Valentine's Day each year?",
+    "options": [
+      "Over 36 million",
+      "Over 10 million",
+      "Over 50 million",
+      "Over 100 million"
+    ],
+    "correct_answer": "Over 36 million",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_032",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the traditional meaning of chocolate gelt given during Hanukkah?",
+    "options": [
+      "To commemorate the miracle of the oil",
+      "To celebrate the harvest",
+      "To honor the temple",
+      "To remember the exodus"
+    ],
+    "correct_answer": "To commemorate the miracle of the oil",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_033",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which U.S. state produces the most candy corn?",
+    "options": [
+      "Illinois",
+      "California",
+      "Pennsylvania",
+      "New York"
+    ],
+    "correct_answer": "Illinois",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_034",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What traditional Mexican candy is made for Día de los Muertos besides sugar skulls?",
+    "options": [
+      "Alfeñique",
+      "Tamarindo",
+      "Mazapan",
+      "Pulparindo"
+    ],
+    "correct_answer": "Alfeñique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_035",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "How long does it take to make one Peeps marshmallow candy?",
+    "options": [
+      "6 minutes",
+      "1 minute",
+      "30 minutes",
+      "2 hours"
+    ],
+    "correct_answer": "6 minutes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_036",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What year did Richard Cadbury create the first heart-shaped box of chocolates?",
+    "options": [
+      "1868",
+      "1900",
+      "1850",
+      "1920"
+    ],
+    "correct_answer": "1868",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_037",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Americans spend approximately how much on Halloween candy each year?",
+    "options": [
+      "$3 billion",
+      "$1 billion",
+      "$5 billion",
+      "$10 billion"
+    ],
+    "correct_answer": "$3 billion",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_038",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What was the original color of Peeps when they were first produced in 1953?",
+    "options": [
+      "Yellow",
+      "Pink",
+      "Blue",
+      "White"
+    ],
+    "correct_answer": "Yellow",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_039",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which holiday ranks second for candy sales in the United States?",
+    "options": [
+      "Easter",
+      "Valentine's Day",
+      "Christmas",
+      "Thanksgiving"
+    ],
+    "correct_answer": "Easter",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_040",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What ingredient gives peppermint bark its distinctive red and white appearance?",
+    "options": [
+      "White chocolate and crushed candy canes",
+      "Red food coloring and vanilla",
+      "Peppermint extract and milk chocolate",
+      "Cherry flavoring and cream"
+    ],
+    "correct_answer": "White chocolate and crushed candy canes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cnd_hol_041",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In what year did NECCO stop producing conversation hearts, causing a Valentine's Day shortage?",
+    "options": [
+      "2019",
+      "2015",
+      "2020",
+      "2018"
+    ],
+    "correct_answer": "2019",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_042",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "How many years does it take for a candy cane machine to be paid off due to the seasonal nature of production?",
+    "options": [
+      "5-7 years",
+      "1-2 years",
+      "10-15 years",
+      "3-4 years"
+    ],
+    "correct_answer": "5-7 years",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_043",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What was the first flavor of jellybeans ever created?",
+    "options": [
+      "Unknown, but licorice was among the earliest",
+      "Cherry",
+      "Lemon",
+      "Orange"
+    ],
+    "correct_answer": "Unknown, but licorice was among the earliest",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_044",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "How many days did it originally take to make one Peeps marshmallow by hand in 1953?",
+    "options": [
+      "27 hours per Peep",
+      "5 hours per Peep",
+      "1 day per Peep",
+      "3 days per Peep"
+    ],
+    "correct_answer": "27 hours per Peep",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_045",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the world record for the largest candy cane ever made?",
+    "options": [
+      "Over 51 feet long",
+      "Over 30 feet long",
+      "Over 100 feet long",
+      "Over 75 feet long"
+    ],
+    "correct_answer": "Over 51 feet long",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_046",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In what century were sugar skulls first created for Día de los Muertos?",
+    "options": [
+      "17th century",
+      "15th century",
+      "19th century",
+      "20th century"
+    ],
+    "correct_answer": "17th century",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_047",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What percentage of parents admit to stealing candy from their children's Halloween haul?",
+    "options": [
+      "About 90%",
+      "About 50%",
+      "About 25%",
+      "About 75%"
+    ],
+    "correct_answer": "About 90%",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_048",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "How many different sayings have been printed on conversation hearts since their invention?",
+    "options": [
+      "Over 400",
+      "Over 100",
+      "Over 1,000",
+      "Over 50"
+    ],
+    "correct_answer": "Over 400",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_049",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What temperature must chocolate reach to properly temper for making Valentine's Day chocolates?",
+    "options": [
+      "88-90°F (31-32°C)",
+      "75-80°F (24-27°C)",
+      "100-105°F (38-41°C)",
+      "65-70°F (18-21°C)"
+    ],
+    "correct_answer": "88-90°F (31-32°C)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cnd_hol_050",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Holidays & Occasions",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "How many candy canes are produced annually in the United States?",
+    "options": [
+      "About 1.76 billion",
+      "About 500 million",
+      "About 3 billion",
+      "About 10 billion"
+    ],
+    "correct_answer": "About 1.76 billion",
+    "difficulty": "hard"
+  }
+]

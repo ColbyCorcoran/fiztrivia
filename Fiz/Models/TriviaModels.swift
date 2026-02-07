@@ -490,7 +490,23 @@ enum GameMode: String, CaseIterable, Codable, Identifiable {
     case multiCategory = "Multi-Category"
     case singleCategory = "Single Category"
     case singleTopic = "Single Topic"
-    // Future modes ready to uncomment:
+
+    // PLANNED: Seasonal Mode (Uncomment when implementing)
+    // Seasonal mode provides holiday-themed trivia experiences for Christmas, Halloween, Easter, etc.
+    // Features to implement:
+    // - Special UI themes with seasonal graphics and colors
+    // - Time-limited seasonal question packs (auto-enable/disable based on date)
+    // - Festive animations and sound effects
+    // - Seasonal leaderboards separate from regular gameplay
+    // - Holiday-specific completion badges
+    //
+    // Implementation notes:
+    // - Add seasonalTheme property to GameModeManager (key already reserved in UserDefaultsKeys)
+    // - Create seasonal question JSON files: seasonal_christmas.json, seasonal_halloween.json, etc.
+    // - Add date range logic to auto-activate (e.g., Dec 1-31 for Christmas)
+    // - Update CategoryWheelView to apply seasonal theme colors and graphics
+    // - Consider IAP for premium seasonal packs vs free base seasonal questions
+    //
     // case seasonal = "Seasonal"
 
     var id: String { rawValue }
@@ -503,9 +519,9 @@ enum GameMode: String, CaseIterable, Codable, Identifiable {
             return "Focus on one category's subcategories"
         case .singleTopic:
             return "Focus on questions from a specific topic"
-        // Future:
+        // When implementing seasonal mode, uncomment:
         // case .seasonal:
-        //     return "Special themed trivia experience"
+        //     return "Special themed trivia experience for holidays and seasons"
         }
     }
 
@@ -517,9 +533,9 @@ enum GameMode: String, CaseIterable, Codable, Identifiable {
             return "circle.grid.cross.up.filled"
         case .singleTopic:
             return "circle.grid.cross.right.filled"
-        // Future:
+        // When implementing seasonal mode, uncomment:
         // case .seasonal:
-        //     return "circle.grid.cross.down.filled"
+        //     return "sparkles" // Or "snowflake" for winter, "leaf.fill" for fall, etc.
         }
     }
 }

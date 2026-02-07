@@ -91,8 +91,15 @@ struct PhobiaSettingsView: View {
 
         isScanning = true
 
-        // Scan database and add phobia
-        let result = phobiaManager.addPhobia(term: newPhobiaTerm, in: gameViewModel.questions)
+        // Scan database and add phobia (now returns optional due to validation)
+        guard let result = phobiaManager.addPhobia(term: newPhobiaTerm, in: gameViewModel.questions) else {
+            // Validation failed - show error feedback
+            isScanning = false
+            newPhobiaTerm = ""
+            // TODO: Consider showing an error alert to the user
+            print("⚠️ Failed to add phobia filter - invalid term or duplicate")
+            return
+        }
 
         lastAddedPhobia = result.phobia
         lastExcludedCount = result.excludedCount

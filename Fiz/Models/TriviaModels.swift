@@ -392,18 +392,47 @@ class UserManager: ObservableObject {
         hasCompletedOnboarding = UserDefaults.standard.bool(forKey: Self.hasCompletedOnboardingKey)
     }
     
-    func saveUsername(_ name: String) {
-        username = name.trimmingCharacters(in: .whitespacesAndNewlines)
+    /// Sanitizes and saves the username with validation
+    /// - Parameter name: Raw username input from user
+    /// - Returns: True if username was saved, false if validation failed
+    @discardableResult
+    func saveUsername(_ name: String) -> Bool {
+        let sanitized = sanitizeUsername(name)
+
+        // Allow empty username (falls back to "Player")
+        username = sanitized
         UserDefaults.standard.set(username, forKey: Self.usernameKey)
-        
+
         if !hasCompletedOnboarding {
             hasCompletedOnboarding = true
             UserDefaults.standard.set(true, forKey: Self.hasCompletedOnboardingKey)
         }
+
+        return true
     }
-    
+
     func updateUsername(_ name: String) {
         saveUsername(name)
+    }
+
+    /// Sanitizes username input to prevent UI corruption and analytics issues
+    /// - Allows: Letters, numbers, spaces, common punctuation (. , ' -)
+    /// - Limits: 50 characters maximum
+    /// - Trims: Leading/trailing whitespace
+    private func sanitizeUsername(_ name: String) -> String {
+        let trimmed = name.trimmingCharacters(in: .whitespacesAndNewlines)
+
+        // Allow letters, numbers, spaces, and safe punctuation
+        let allowedCharacters = CharacterSet.letters
+            .union(.decimalDigits)
+            .union(.whitespaces)
+            .union(CharacterSet(charactersIn: ".,'- "))
+
+        let sanitized = trimmed.unicodeScalars.filter { allowedCharacters.contains($0) }
+        let result = String(String.UnicodeScalarView(sanitized))
+
+        // Limit to 50 characters
+        return String(result.prefix(50))
     }
     
     var displayName: String {
@@ -1354,16 +1383,56 @@ class PhobiaExclusionManager: ObservableObject {
 
     // MARK: - Public Methods
 
-    func addPhobia(term: String, in questions: [TriviaQuestion]) -> (phobia: Phobia, excludedCount: Int) {
-        let normalizedTerm = term.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
-        let searchTerms = getSearchTerms(for: normalizedTerm)
+    /// Adds a phobia filter with input validation
+    /// - Parameters:
+    ///   - term: User-entered phobia term
+    ///   - questions: Question database to scan
+    /// - Returns: Tuple of created phobia and count of excluded questions, or nil if validation failed
+    func addPhobia(term: String, in questions: [TriviaQuestion]) -> (phobia: Phobia, excludedCount: Int)? {
+        // INPUT VALIDATION: Sanitize and validate phobia term
+        guard let sanitizedTerm = sanitizePhobiaTerm(term) else {
+            print("⚠️ Invalid phobia term: '\(term)' - must be 2-30 characters, letters/numbers only")
+            return nil
+        }
+
+        // Check for duplicates
+        if phobias.contains(where: { $0.term == sanitizedTerm }) {
+            print("⚠️ Phobia term already exists: '\(sanitizedTerm)'")
+            return nil
+        }
+
+        let searchTerms = getSearchTerms(for: sanitizedTerm)
         let excludedIds = scanForMatches(searchTerms: searchTerms, in: questions)
 
-        let phobia = Phobia(term: normalizedTerm, excludedQuestionIds: excludedIds)
+        let phobia = Phobia(term: sanitizedTerm, excludedQuestionIds: excludedIds)
         phobias.append(phobia)
         savePhobias()
 
         return (phobia, excludedIds.count)
+    }
+
+    /// Sanitizes phobia term input to prevent malformed searches
+    /// - Allows: Letters, numbers, spaces
+    /// - Limits: 2-30 characters
+    /// - Trims: Leading/trailing whitespace
+    /// - Returns: Sanitized term or nil if invalid
+    private func sanitizePhobiaTerm(_ term: String) -> String? {
+        let trimmed = term.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+
+        // Allow only letters, numbers, and spaces
+        let allowedCharacters = CharacterSet.letters
+            .union(.decimalDigits)
+            .union(.whitespaces)
+
+        let sanitized = trimmed.unicodeScalars.filter { allowedCharacters.contains($0) }
+        let result = String(String.UnicodeScalarView(sanitized))
+
+        // Validate length (2-30 characters)
+        guard result.count >= 2 && result.count <= 30 else {
+            return nil
+        }
+
+        return result
     }
 
     func removePhobia(_ phobia: Phobia) {

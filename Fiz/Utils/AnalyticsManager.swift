@@ -28,9 +28,17 @@ class AnalyticsManager: ObservableObject {
     }
 
     private func configurePostHog() {
+        // SECURITY: Read API key from Info.plist instead of hardcoding
+        // This makes it harder to extract from the binary and allows different keys per environment
+        guard let apiKey = Bundle.main.object(forInfoDictionaryKey: "PostHogAPIKey") as? String,
+              let host = Bundle.main.object(forInfoDictionaryKey: "PostHogHost") as? String else {
+            print("⚠️ PostHog API key or host not found in Info.plist - analytics disabled")
+            return
+        }
+
         let config = PostHogConfig(
-            apiKey: "phc_pPTqusdmpJSoGYjymsgdz6BX6lcnUfuZzkKGw713JeZ",
-            host: "https://us.posthog.com"
+            apiKey: apiKey,
+            host: host
         )
 
         // Privacy-focused configuration

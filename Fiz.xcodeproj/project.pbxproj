@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B623B5072F37EF3A002025A7 /* HapticSettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4FE2F37EF3A002025A7 /* HapticSettingsManager.swift */; };
+		B623B5082F37EF3A002025A7 /* SwipeNavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5032F37EF3A002025A7 /* SwipeNavigationManager.swift */; };
+		B623B5092F37EF3A002025A7 /* OnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4FF2F37EF3A002025A7 /* OnboardingManager.swift */; };
+		B623B50A2F37EF3A002025A7 /* ExpansionPackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4FC2F37EF3A002025A7 /* ExpansionPackManager.swift */; };
+		B623B50B2F37EF3A002025A7 /* CategorySelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4F92F37EF3A002025A7 /* CategorySelectionManager.swift */; };
+		B623B50C2F37EF3A002025A7 /* DifficultyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4FB2F37EF3A002025A7 /* DifficultyManager.swift */; };
+		B623B50D2F37EF3A002025A7 /* AppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4F82F37EF3A002025A7 /* AppIconManager.swift */; };
+		B623B50E2F37EF3A002025A7 /* GameModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4FD2F37EF3A002025A7 /* GameModeManager.swift */; };
+		B623B50F2F37EF3A002025A7 /* StreakPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5022F37EF3A002025A7 /* StreakPersistenceManager.swift */; };
+		B623B5102F37EF3A002025A7 /* DeveloperBypassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4FA2F37EF3A002025A7 /* DeveloperBypassManager.swift */; };
+		B623B5112F37EF3A002025A7 /* PhobiaExclusionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5002F37EF3A002025A7 /* PhobiaExclusionManager.swift */; };
+		B623B5122F37EF3A002025A7 /* AnsweredQuestionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B4F72F37EF3A002025A7 /* AnsweredQuestionsManager.swift */; };
+		B623B5132F37EF3A002025A7 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5042F37EF3A002025A7 /* UserManager.swift */; };
+		B623B5142F37EF3A002025A7 /* PopupDurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5012F37EF3A002025A7 /* PopupDurationManager.swift */; };
+		B623B5152F37EF3A002025A7 /* WhatsNewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5052F37EF3A002025A7 /* WhatsNewManager.swift */; };
+		B623B51F2F37EF45002025A7 /* TriviaCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B51B2F37EF45002025A7 /* TriviaCategory.swift */; };
+		B623B5202F37EF45002025A7 /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B51C2F37EF45002025A7 /* TriviaQuestion.swift */; };
+		B623B5212F37EF45002025A7 /* QuestionHistoryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B51A2F37EF45002025A7 /* QuestionHistoryEntry.swift */; };
+		B623B5222F37EF45002025A7 /* ExpansionPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5162F37EF45002025A7 /* ExpansionPack.swift */; };
+		B623B5232F37EF45002025A7 /* LeaderboardEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5182F37EF45002025A7 /* LeaderboardEntry.swift */; };
+		B623B5242F37EF45002025A7 /* Phobia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5192F37EF45002025A7 /* Phobia.swift */; };
+		B623B5252F37EF45002025A7 /* WhatsNewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B51D2F37EF45002025A7 /* WhatsNewModels.swift */; };
+		B623B5262F37EF45002025A7 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5172F37EF45002025A7 /* GameSession.swift */; };
+		B623B5292F37EF4F002025A7 /* GameEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B5272F37EF4F002025A7 /* GameEnums.swift */; };
+		B623B52C2F37EF6F002025A7 /* TriviaSubcategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B52A2F37EF6F002025A7 /* TriviaSubcategories.swift */; };
+		B623B52E2F37EF89002025A7 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623B52D2F37EF89002025A7 /* UserDefaultsKeys.swift */; };
 		B659D03E2F3279E200AD56E3 /* CollapsiblePackCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659D03B2F3279E200AD56E3 /* CollapsiblePackCard.swift */; };
 		B659D03F2F3279E200AD56E3 /* FilterPillLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659D03C2F3279E200AD56E3 /* FilterPillLabel.swift */; };
 		B659D0412F3279F800AD56E3 /* StoreFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659D0402F3279F800AD56E3 /* StoreFilters.swift */; };
@@ -68,6 +94,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B623B4F72F37EF3A002025A7 /* AnsweredQuestionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnsweredQuestionsManager.swift; sourceTree = "<group>"; };
+		B623B4F82F37EF3A002025A7 /* AppIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconManager.swift; sourceTree = "<group>"; };
+		B623B4F92F37EF3A002025A7 /* CategorySelectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionManager.swift; sourceTree = "<group>"; };
+		B623B4FA2F37EF3A002025A7 /* DeveloperBypassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperBypassManager.swift; sourceTree = "<group>"; };
+		B623B4FB2F37EF3A002025A7 /* DifficultyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyManager.swift; sourceTree = "<group>"; };
+		B623B4FC2F37EF3A002025A7 /* ExpansionPackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionPackManager.swift; sourceTree = "<group>"; };
+		B623B4FD2F37EF3A002025A7 /* GameModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeManager.swift; sourceTree = "<group>"; };
+		B623B4FE2F37EF3A002025A7 /* HapticSettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticSettingsManager.swift; sourceTree = "<group>"; };
+		B623B4FF2F37EF3A002025A7 /* OnboardingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingManager.swift; sourceTree = "<group>"; };
+		B623B5002F37EF3A002025A7 /* PhobiaExclusionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhobiaExclusionManager.swift; sourceTree = "<group>"; };
+		B623B5012F37EF3A002025A7 /* PopupDurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDurationManager.swift; sourceTree = "<group>"; };
+		B623B5022F37EF3A002025A7 /* StreakPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakPersistenceManager.swift; sourceTree = "<group>"; };
+		B623B5032F37EF3A002025A7 /* SwipeNavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeNavigationManager.swift; sourceTree = "<group>"; };
+		B623B5042F37EF3A002025A7 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		B623B5052F37EF3A002025A7 /* WhatsNewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewManager.swift; sourceTree = "<group>"; };
+		B623B5162F37EF45002025A7 /* ExpansionPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionPack.swift; sourceTree = "<group>"; };
+		B623B5172F37EF45002025A7 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		B623B5182F37EF45002025A7 /* LeaderboardEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardEntry.swift; sourceTree = "<group>"; };
+		B623B5192F37EF45002025A7 /* Phobia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phobia.swift; sourceTree = "<group>"; };
+		B623B51A2F37EF45002025A7 /* QuestionHistoryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHistoryEntry.swift; sourceTree = "<group>"; };
+		B623B51B2F37EF45002025A7 /* TriviaCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaCategory.swift; sourceTree = "<group>"; };
+		B623B51C2F37EF45002025A7 /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
+		B623B51D2F37EF45002025A7 /* WhatsNewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewModels.swift; sourceTree = "<group>"; };
+		B623B5272F37EF4F002025A7 /* GameEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEnums.swift; sourceTree = "<group>"; };
+		B623B52A2F37EF6F002025A7 /* TriviaSubcategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaSubcategories.swift; sourceTree = "<group>"; };
+		B623B52D2F37EF89002025A7 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		B659D03B2F3279E200AD56E3 /* CollapsiblePackCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsiblePackCard.swift; sourceTree = "<group>"; };
 		B659D03C2F3279E200AD56E3 /* FilterPillLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPillLabel.swift; sourceTree = "<group>"; };
 		B659D0402F3279F800AD56E3 /* StoreFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFilters.swift; sourceTree = "<group>"; };
@@ -157,6 +209,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B623B5062F37EF3A002025A7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B623B4F72F37EF3A002025A7 /* AnsweredQuestionsManager.swift */,
+				B623B4F82F37EF3A002025A7 /* AppIconManager.swift */,
+				B623B4F92F37EF3A002025A7 /* CategorySelectionManager.swift */,
+				B623B4FA2F37EF3A002025A7 /* DeveloperBypassManager.swift */,
+				B623B4FB2F37EF3A002025A7 /* DifficultyManager.swift */,
+				B623B4FC2F37EF3A002025A7 /* ExpansionPackManager.swift */,
+				B623B4FD2F37EF3A002025A7 /* GameModeManager.swift */,
+				B623B4FE2F37EF3A002025A7 /* HapticSettingsManager.swift */,
+				B623B4FF2F37EF3A002025A7 /* OnboardingManager.swift */,
+				B623B5002F37EF3A002025A7 /* PhobiaExclusionManager.swift */,
+				B623B5012F37EF3A002025A7 /* PopupDurationManager.swift */,
+				B623B5022F37EF3A002025A7 /* StreakPersistenceManager.swift */,
+				B623B5032F37EF3A002025A7 /* SwipeNavigationManager.swift */,
+				B623B5042F37EF3A002025A7 /* UserManager.swift */,
+				B623B5052F37EF3A002025A7 /* WhatsNewManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B623B51E2F37EF45002025A7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B623B5162F37EF45002025A7 /* ExpansionPack.swift */,
+				B623B5172F37EF45002025A7 /* GameSession.swift */,
+				B623B5182F37EF45002025A7 /* LeaderboardEntry.swift */,
+				B623B5192F37EF45002025A7 /* Phobia.swift */,
+				B623B51A2F37EF45002025A7 /* QuestionHistoryEntry.swift */,
+				B623B51B2F37EF45002025A7 /* TriviaCategory.swift */,
+				B623B51C2F37EF45002025A7 /* TriviaQuestion.swift */,
+				B623B51D2F37EF45002025A7 /* WhatsNewModels.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B623B5282F37EF4F002025A7 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B623B5272F37EF4F002025A7 /* GameEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B623B52B2F37EF6F002025A7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B623B52A2F37EF6F002025A7 /* TriviaSubcategories.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		B659D03D2F3279E200AD56E3 /* Store */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +331,8 @@
 			children = (
 				B68C5A752EBD2A5400C2A449 /* TriviaModels.swift */,
 				B659D0402F3279F800AD56E3 /* StoreFilters.swift */,
+				B623B51E2F37EF45002025A7 /* Core */,
+				B623B5282F37EF4F002025A7 /* Enums */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -250,6 +357,7 @@
 				B66F02EF2F05742A007B0E79 /* StoreManager.swift */,
 				B66F03052F05A34E007B0E79 /* CartManager.swift */,
 				B66F03062F05A34E007B0E79 /* DiscountCodeManager.swift */,
+				B623B52D2F37EF89002025A7 /* UserDefaultsKeys.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -296,6 +404,8 @@
 				B66F02F32F057461007B0E79 /* Configuration.storekit */,
 				B68C5A862EBD2A5400C2A449 /* ContentView.swift */,
 				B68C5A9A2EBD409B00C2A449 /* FizApp.swift */,
+				B623B5062F37EF3A002025A7 /* Managers */,
+				B623B52B2F37EF6F002025A7 /* Protocols */,
 			);
 			path = Fiz;
 			sourceTree = "<group>";
@@ -470,6 +580,7 @@
 				B68C5A8A2EBD2BA700C2A449 /* TriviaModels.swift in Sources */,
 				B68C5A932EBD2BDB00C2A449 /* OnboardingView.swift in Sources */,
 				B659D0412F3279F800AD56E3 /* StoreFilters.swift in Sources */,
+				B623B5292F37EF4F002025A7 /* GameEnums.swift in Sources */,
 				B68C5A8F2EBD2BC500C2A449 /* HapticManager.swift in Sources */,
 				B66F02F22F057440007B0E79 /* StoreView.swift in Sources */,
 				B66F02CB2F006EE2007B0E79 /* GameProgressSettingsView.swift in Sources */,
@@ -488,6 +599,31 @@
 				B659D03E2F3279E200AD56E3 /* CollapsiblePackCard.swift in Sources */,
 				B659D03F2F3279E200AD56E3 /* FilterPillLabel.swift in Sources */,
 				B66F02F02F05742A007B0E79 /* StoreManager.swift in Sources */,
+				B623B5072F37EF3A002025A7 /* HapticSettingsManager.swift in Sources */,
+				B623B5082F37EF3A002025A7 /* SwipeNavigationManager.swift in Sources */,
+				B623B5092F37EF3A002025A7 /* OnboardingManager.swift in Sources */,
+				B623B50A2F37EF3A002025A7 /* ExpansionPackManager.swift in Sources */,
+				B623B50B2F37EF3A002025A7 /* CategorySelectionManager.swift in Sources */,
+				B623B50C2F37EF3A002025A7 /* DifficultyManager.swift in Sources */,
+				B623B50D2F37EF3A002025A7 /* AppIconManager.swift in Sources */,
+				B623B50E2F37EF3A002025A7 /* GameModeManager.swift in Sources */,
+				B623B50F2F37EF3A002025A7 /* StreakPersistenceManager.swift in Sources */,
+				B623B52E2F37EF89002025A7 /* UserDefaultsKeys.swift in Sources */,
+				B623B5102F37EF3A002025A7 /* DeveloperBypassManager.swift in Sources */,
+				B623B5112F37EF3A002025A7 /* PhobiaExclusionManager.swift in Sources */,
+				B623B51F2F37EF45002025A7 /* TriviaCategory.swift in Sources */,
+				B623B5202F37EF45002025A7 /* TriviaQuestion.swift in Sources */,
+				B623B5212F37EF45002025A7 /* QuestionHistoryEntry.swift in Sources */,
+				B623B5222F37EF45002025A7 /* ExpansionPack.swift in Sources */,
+				B623B5232F37EF45002025A7 /* LeaderboardEntry.swift in Sources */,
+				B623B5242F37EF45002025A7 /* Phobia.swift in Sources */,
+				B623B5252F37EF45002025A7 /* WhatsNewModels.swift in Sources */,
+				B623B5262F37EF45002025A7 /* GameSession.swift in Sources */,
+				B623B5122F37EF3A002025A7 /* AnsweredQuestionsManager.swift in Sources */,
+				B623B5132F37EF3A002025A7 /* UserManager.swift in Sources */,
+				B623B5142F37EF3A002025A7 /* PopupDurationManager.swift in Sources */,
+				B623B52C2F37EF6F002025A7 /* TriviaSubcategories.swift in Sources */,
+				B623B5152F37EF3A002025A7 /* WhatsNewManager.swift in Sources */,
 				B68C5A912EBD2BD300C2A449 /* CategoryWheelView.swift in Sources */,
 				B68C5A8D2EBD2BBC00C2A449 /* AccessibilityHelpers.swift in Sources */,
 			);

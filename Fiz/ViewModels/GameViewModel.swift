@@ -20,11 +20,14 @@ class GameViewModel {
     private let gameModeManager = GameModeManager.shared
     private let phobiaManager = PhobiaExclusionManager.shared
 
+    // MEMORY LEAK FIX: Store observer token so we can remove it properly in deinit
+    private var expansionPacksObserver: NSObjectProtocol?
+
     init() {
         loadQuestions()
 
         // Listen for expansion pack changes to reload questions and rescan phobia filters
-        NotificationCenter.default.addObserver(
+        expansionPacksObserver = NotificationCenter.default.addObserver(
             forName: .expansionPacksChanged,
             object: nil,
             queue: .main
@@ -34,7 +37,10 @@ class GameViewModel {
     }
 
     deinit {
-        NotificationCenter.default.removeObserver(self)
+        // Properly remove the closure-based observer using its token
+        if let observer = expansionPacksObserver {
+            NotificationCenter.default.removeObserver(observer)
+        }
     }
     
     func loadQuestions() {

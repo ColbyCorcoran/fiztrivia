@@ -375,8 +375,8 @@ enum DifficultyMode: String, CaseIterable {
 
 // MARK: - User Management
 class UserManager: ObservableObject {
-    private static let usernameKey = "user_name"
-    private static let hasCompletedOnboardingKey = "has_completed_onboarding"
+    private static let UserDefaultsKeys.User.username = "user_name"
+    private static let UserDefaultsKeys.User.hasCompletedOnboarding = "has_completed_onboarding"
     
     @Published var username: String = ""
     @Published var hasCompletedOnboarding: Bool = false
@@ -388,8 +388,8 @@ class UserManager: ObservableObject {
     }
     
     private func loadUserData() {
-        username = UserDefaults.standard.string(forKey: Self.usernameKey) ?? ""
-        hasCompletedOnboarding = UserDefaults.standard.bool(forKey: Self.hasCompletedOnboardingKey)
+        username = UserDefaults.standard.string(forKey: Self.UserDefaultsKeys.User.username) ?? ""
+        hasCompletedOnboarding = UserDefaults.standard.bool(forKey: Self.UserDefaultsKeys.User.hasCompletedOnboarding)
     }
     
     /// Sanitizes and saves the username with validation
@@ -401,11 +401,11 @@ class UserManager: ObservableObject {
 
         // Allow empty username (falls back to "Player")
         username = sanitized
-        UserDefaults.standard.set(username, forKey: Self.usernameKey)
+        UserDefaults.standard.set(username, forKey: Self.UserDefaultsKeys.User.username)
 
         if !hasCompletedOnboarding {
             hasCompletedOnboarding = true
-            UserDefaults.standard.set(true, forKey: Self.hasCompletedOnboardingKey)
+            UserDefaults.standard.set(true, forKey: Self.UserDefaultsKeys.User.hasCompletedOnboarding)
         }
 
         return true
@@ -543,7 +543,7 @@ class StreakPersistenceManager {
 
 // MARK: - Difficulty Manager
 class DifficultyManager: ObservableObject {
-    private static let difficultyKey = "selected_difficulty_mode"
+    private static let UserDefaultsKeys.Game.selectedDifficulty = "selected_difficulty_mode"
     
     @Published var selectedDifficulty: DifficultyMode = .normal
     
@@ -554,7 +554,7 @@ class DifficultyManager: ObservableObject {
     }
     
     private func loadSelectedDifficulty() {
-        if let saved = UserDefaults.standard.string(forKey: Self.difficultyKey),
+        if let saved = UserDefaults.standard.string(forKey: Self.UserDefaultsKeys.Game.selectedDifficulty),
            let difficulty = DifficultyMode(rawValue: saved) {
             selectedDifficulty = difficulty
         }
@@ -562,7 +562,7 @@ class DifficultyManager: ObservableObject {
     
     func setDifficulty(_ difficulty: DifficultyMode) {
         selectedDifficulty = difficulty
-        UserDefaults.standard.set(difficulty.rawValue, forKey: Self.difficultyKey)
+        UserDefaults.standard.set(difficulty.rawValue, forKey: Self.UserDefaultsKeys.Game.selectedDifficulty)
     }
 }
 
@@ -579,7 +579,7 @@ class AnsweredQuestionsManager: ObservableObject {
     }
     
     private func loadAnsweredQuestions() {
-        if let data = UserDefaults.standard.data(forKey: Self.answeredQuestionsKey),
+        if let data = UserDefaults.standard.data(forKey: UserDefaultsKeys.Game.answeredQuestions),
            let decoded = try? JSONDecoder().decode(Set<String>.self, from: data) {
             answeredQuestionIds = decoded
         }
@@ -587,7 +587,7 @@ class AnsweredQuestionsManager: ObservableObject {
     
     private func saveAnsweredQuestions() {
         if let encoded = try? JSONEncoder().encode(answeredQuestionIds) {
-            UserDefaults.standard.set(encoded, forKey: Self.answeredQuestionsKey)
+            UserDefaults.standard.set(encoded, forKey: UserDefaultsKeys.Game.answeredQuestions)
         }
     }
     
@@ -769,14 +769,14 @@ class GameModeManager: ObservableObject {
 
             if wasEnabled {
                 // Migrate to new system
-                UserDefaults.standard.set(GameMode.singleCategory.rawValue, forKey: Self.selectedModeKey)
+                UserDefaults.standard.set(GameMode.singleCategory.rawValue, forKey: UserDefaultsKeys.GameMode.selectedMode)
 
                 // Migrate category selection
                 if let categoryString = UserDefaults.standard.string(forKey: legacyCategoryKey) {
-                    UserDefaults.standard.set(categoryString, forKey: Self.selectedCategoryKey)
+                    UserDefaults.standard.set(categoryString, forKey: UserDefaultsKeys.GameMode.selectedCategory)
                 }
             } else {
-                UserDefaults.standard.set(GameMode.multiCategory.rawValue, forKey: Self.selectedModeKey)
+                UserDefaults.standard.set(GameMode.multiCategory.rawValue, forKey: UserDefaultsKeys.GameMode.selectedMode)
             }
 
             // Clean up legacy keys
@@ -791,35 +791,35 @@ class GameModeManager: ObservableObject {
 
     private func loadSettings() {
         // Load selected mode
-        if let modeString = UserDefaults.standard.string(forKey: Self.selectedModeKey),
+        if let modeString = UserDefaults.standard.string(forKey: UserDefaultsKeys.GameMode.selectedMode),
            let mode = GameMode(rawValue: modeString) {
             selectedMode = mode
         }
 
         // Load mode-specific settings
-        if let categoryString = UserDefaults.standard.string(forKey: Self.selectedCategoryKey),
+        if let categoryString = UserDefaults.standard.string(forKey: UserDefaultsKeys.GameMode.selectedCategory),
            let category = TriviaCategory(rawValue: categoryString) {
             selectedCategory = category
         }
 
-        if let topicString = UserDefaults.standard.string(forKey: Self.selectedTopicKey) {
+        if let topicString = UserDefaults.standard.string(forKey: UserDefaultsKeys.GameMode.selectedTopic) {
             selectedTopic = topicString
         }
     }
 
     private func saveSettings() {
-        UserDefaults.standard.set(selectedMode.rawValue, forKey: Self.selectedModeKey)
+        UserDefaults.standard.set(selectedMode.rawValue, forKey: UserDefaultsKeys.GameMode.selectedMode)
 
         if let category = selectedCategory {
-            UserDefaults.standard.set(category.rawValue, forKey: Self.selectedCategoryKey)
+            UserDefaults.standard.set(category.rawValue, forKey: UserDefaultsKeys.GameMode.selectedCategory)
         } else {
-            UserDefaults.standard.removeObject(forKey: Self.selectedCategoryKey)
+            UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.GameMode.selectedCategory)
         }
 
         if let topic = selectedTopic {
-            UserDefaults.standard.set(topic, forKey: Self.selectedTopicKey)
+            UserDefaults.standard.set(topic, forKey: UserDefaultsKeys.GameMode.selectedTopic)
         } else {
-            UserDefaults.standard.removeObject(forKey: Self.selectedTopicKey)
+            UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.GameMode.selectedTopic)
         }
     }
 
@@ -1020,8 +1020,8 @@ class HapticSettingsManager: ObservableObject {
 
     private func loadSettings() {
         // Default to true if no preference is saved
-        if UserDefaults.standard.object(forKey: Self.hapticEnabledKey) != nil {
-            isHapticEnabled = UserDefaults.standard.bool(forKey: Self.hapticEnabledKey)
+        if UserDefaults.standard.object(forKey: UserDefaultsKeys.Settings.hapticEnabled) != nil {
+            isHapticEnabled = UserDefaults.standard.bool(forKey: UserDefaultsKeys.Settings.hapticEnabled)
         } else {
             isHapticEnabled = true
         }
@@ -1029,7 +1029,7 @@ class HapticSettingsManager: ObservableObject {
 
     func setHapticEnabled(_ enabled: Bool) {
         isHapticEnabled = enabled
-        UserDefaults.standard.set(enabled, forKey: Self.hapticEnabledKey)
+        UserDefaults.standard.set(enabled, forKey: UserDefaultsKeys.Settings.hapticEnabled)
     }
 }
 
@@ -1049,15 +1049,15 @@ class PopupDurationManager: ObservableObject {
 
     private func loadSettings() {
         // Load correct popup duration (default 1.5)
-        if UserDefaults.standard.object(forKey: Self.correctPopupDurationKey) != nil {
-            correctPopupDuration = UserDefaults.standard.double(forKey: Self.correctPopupDurationKey)
+        if UserDefaults.standard.object(forKey: UserDefaultsKeys.Settings.correctPopupDuration) != nil {
+            correctPopupDuration = UserDefaults.standard.double(forKey: UserDefaultsKeys.Settings.correctPopupDuration)
         } else {
             correctPopupDuration = 1.5
         }
 
         // Load incorrect popup duration (default 3.0)
-        if UserDefaults.standard.object(forKey: Self.incorrectPopupDurationKey) != nil {
-            incorrectPopupDuration = UserDefaults.standard.double(forKey: Self.incorrectPopupDurationKey)
+        if UserDefaults.standard.object(forKey: UserDefaultsKeys.Settings.incorrectPopupDuration) != nil {
+            incorrectPopupDuration = UserDefaults.standard.double(forKey: UserDefaultsKeys.Settings.incorrectPopupDuration)
         } else {
             incorrectPopupDuration = 3.0
         }
@@ -1065,12 +1065,12 @@ class PopupDurationManager: ObservableObject {
 
     func setCorrectPopupDuration(_ duration: Double) {
         correctPopupDuration = duration
-        UserDefaults.standard.set(duration, forKey: Self.correctPopupDurationKey)
+        UserDefaults.standard.set(duration, forKey: UserDefaultsKeys.Settings.correctPopupDuration)
     }
 
     func setIncorrectPopupDuration(_ duration: Double) {
         incorrectPopupDuration = duration
-        UserDefaults.standard.set(duration, forKey: Self.incorrectPopupDurationKey)
+        UserDefaults.standard.set(duration, forKey: UserDefaultsKeys.Settings.incorrectPopupDuration)
     }
 }
 
@@ -1134,7 +1134,7 @@ class AppIconManager: ObservableObject {
     }
 
     private func loadSelectedIcon() {
-        if let savedIconName = UserDefaults.standard.string(forKey: Self.selectedIconKey),
+        if let savedIconName = UserDefaults.standard.string(forKey: UserDefaultsKeys.Personalization.selectedAppIcon),
            let icon = AppIcon(rawValue: savedIconName) {
             selectedIcon = icon
         } else {
@@ -1145,7 +1145,7 @@ class AppIconManager: ObservableObject {
 
     func setIcon(_ icon: AppIcon) {
         selectedIcon = icon
-        UserDefaults.standard.set(icon.rawValue, forKey: Self.selectedIconKey)
+        UserDefaults.standard.set(icon.rawValue, forKey: UserDefaultsKeys.Personalization.selectedAppIcon)
 
         // Change the app icon using UIApplication
         if UIApplication.shared.supportsAlternateIcons {
@@ -1176,7 +1176,7 @@ class CategorySelectionManager: ObservableObject {
     }
 
     private func loadSettings() {
-        if let data = UserDefaults.standard.data(forKey: Self.selectedCategoriesKey),
+        if let data = UserDefaults.standard.data(forKey: UserDefaultsKeys.Categories.selectedCategories),
            let decodedStrings = try? JSONDecoder().decode(Set<String>.self, from: data) {
             selectedCategories = Set(decodedStrings.compactMap { TriviaCategory(rawValue: $0) })
 
@@ -1192,7 +1192,7 @@ class CategorySelectionManager: ObservableObject {
     private func saveSettings() {
         let categoryStrings = Set(selectedCategories.map { $0.rawValue })
         if let encoded = try? JSONEncoder().encode(categoryStrings) {
-            UserDefaults.standard.set(encoded, forKey: Self.selectedCategoriesKey)
+            UserDefaults.standard.set(encoded, forKey: UserDefaultsKeys.Categories.selectedCategories)
         }
     }
 
@@ -1264,14 +1264,14 @@ class CategorySelectionManager: ObservableObject {
 
     /// Check if user has saved a custom default
     func hasCustomDefault() -> Bool {
-        return UserDefaults.standard.data(forKey: Self.customDefaultCategoriesKey) != nil
+        return UserDefaults.standard.data(forKey: UserDefaultsKeys.Categories.customDefaultCategories) != nil
     }
 
     /// Save current selection as user's custom default
     func saveCurrentAsDefault() {
         let categoryStrings = Set(selectedCategories.map { $0.rawValue })
         if let encoded = try? JSONEncoder().encode(categoryStrings) {
-            UserDefaults.standard.set(encoded, forKey: Self.customDefaultCategoriesKey)
+            UserDefaults.standard.set(encoded, forKey: UserDefaultsKeys.Categories.customDefaultCategories)
         }
     }
 
@@ -1285,7 +1285,7 @@ class CategorySelectionManager: ObservableObject {
 
     /// Reset to user's custom default (or factory default if no custom saved)
     func resetToMyDefault() {
-        if let data = UserDefaults.standard.data(forKey: Self.customDefaultCategoriesKey),
+        if let data = UserDefaults.standard.data(forKey: UserDefaultsKeys.Categories.customDefaultCategories),
            let decodedStrings = try? JSONDecoder().decode(Set<String>.self, from: data) {
             selectedCategories = Set(decodedStrings.compactMap { TriviaCategory(rawValue: $0) })
 
@@ -1326,8 +1326,8 @@ class SwipeNavigationManager: ObservableObject {
 
     private func loadSettings() {
         // Default to true (opt-out for accessibility)
-        if UserDefaults.standard.object(forKey: Self.swipeNavigationEnabledKey) != nil {
-            isSwipeNavigationEnabled = UserDefaults.standard.bool(forKey: Self.swipeNavigationEnabledKey)
+        if UserDefaults.standard.object(forKey: UserDefaultsKeys.Settings.swipeNavigationEnabled) != nil {
+            isSwipeNavigationEnabled = UserDefaults.standard.bool(forKey: UserDefaultsKeys.Settings.swipeNavigationEnabled)
         } else {
             isSwipeNavigationEnabled = true
         }
@@ -1335,7 +1335,7 @@ class SwipeNavigationManager: ObservableObject {
 
     func setSwipeNavigationEnabled(_ enabled: Bool) {
         isSwipeNavigationEnabled = enabled
-        UserDefaults.standard.set(enabled, forKey: Self.swipeNavigationEnabledKey)
+        UserDefaults.standard.set(enabled, forKey: UserDefaultsKeys.Settings.swipeNavigationEnabled)
     }
 }
 
@@ -1370,7 +1370,7 @@ class PhobiaExclusionManager: ObservableObject {
     // MARK: - Persistence
 
     private func loadPhobias() {
-        if let data = UserDefaults.standard.data(forKey: Self.phobiasKey),
+        if let data = UserDefaults.standard.data(forKey: UserDefaultsKeys.Phobia.phobias),
            let decoded = try? JSONDecoder().decode([Phobia].self, from: data) {
             phobias = decoded
         }
@@ -1378,7 +1378,7 @@ class PhobiaExclusionManager: ObservableObject {
 
     private func savePhobias() {
         if let encoded = try? JSONEncoder().encode(phobias) {
-            UserDefaults.standard.set(encoded, forKey: Self.phobiasKey)
+            UserDefaults.standard.set(encoded, forKey: UserDefaultsKeys.Phobia.phobias)
         }
     }
 
@@ -1559,11 +1559,11 @@ class OnboardingManager: ObservableObject {
 
     private func loadSettings() {
         // Load launch count
-        launchCount = UserDefaults.standard.integer(forKey: Self.launchCountKey)
+        launchCount = UserDefaults.standard.integer(forKey: UserDefaultsKeys.Onboarding.launchCount)
 
         // Set first launch date if not set
-        if UserDefaults.standard.object(forKey: Self.firstLaunchDateKey) == nil {
-            UserDefaults.standard.set(Date(), forKey: Self.firstLaunchDateKey)
+        if UserDefaults.standard.object(forKey: UserDefaultsKeys.Onboarding.firstLaunchDate) == nil {
+            UserDefaults.standard.set(Date(), forKey: UserDefaultsKeys.Onboarding.firstLaunchDate)
         }
 
         // Check if should show secondary onboarding
@@ -1572,16 +1572,16 @@ class OnboardingManager: ObservableObject {
 
     func incrementLaunchCount() {
         launchCount += 1
-        UserDefaults.standard.set(launchCount, forKey: Self.launchCountKey)
+        UserDefaults.standard.set(launchCount, forKey: UserDefaultsKeys.Onboarding.launchCount)
         updateSecondaryOnboardingStatus()
     }
 
     private func updateSecondaryOnboardingStatus() {
         // Don't show if already seen (ONE TIME EVER)
-        let hasSeenOnboarding = UserDefaults.standard.bool(forKey: Self.hasSeenSecondaryOnboardingKey)
+        let hasSeenOnboarding = UserDefaults.standard.bool(forKey: UserDefaultsKeys.Onboarding.hasSeenSecondaryOnboarding)
 
         // Don't show if permanently dismissed
-        let isPermanentlyDismissed = UserDefaults.standard.bool(forKey: Self.onboardingDismissedKey)
+        let isPermanentlyDismissed = UserDefaults.standard.bool(forKey: UserDefaultsKeys.Onboarding.onboardingDismissedPermanently)
 
         if hasSeenOnboarding || isPermanentlyDismissed {
             shouldShowSecondaryOnboarding = false
@@ -1595,7 +1595,7 @@ class OnboardingManager: ObservableObject {
         }
 
         // Check day threshold
-        if let firstLaunchDate = UserDefaults.standard.object(forKey: Self.firstLaunchDateKey) as? Date {
+        if let firstLaunchDate = UserDefaults.standard.object(forKey: UserDefaultsKeys.Onboarding.firstLaunchDate) as? Date {
             let daysSinceFirstLaunch = Calendar.current.dateComponents([.day], from: firstLaunchDate, to: Date()).day ?? 0
             if daysSinceFirstLaunch >= Self.dayThreshold {
                 shouldShowSecondaryOnboarding = true
@@ -1607,12 +1607,12 @@ class OnboardingManager: ObservableObject {
     }
 
     func markSecondaryOnboardingAsShown() {
-        UserDefaults.standard.set(true, forKey: Self.hasSeenSecondaryOnboardingKey)
+        UserDefaults.standard.set(true, forKey: UserDefaultsKeys.Onboarding.hasSeenSecondaryOnboarding)
         shouldShowSecondaryOnboarding = false
     }
 
     func dismissSecondaryOnboardingPermanently() {
-        UserDefaults.standard.set(true, forKey: Self.onboardingDismissedKey)
+        UserDefaults.standard.set(true, forKey: UserDefaultsKeys.Onboarding.onboardingDismissedPermanently)
         shouldShowSecondaryOnboarding = false
     }
 
@@ -1623,10 +1623,10 @@ class OnboardingManager: ObservableObject {
 
     func resetOnboardingForTesting() {
         // Debugging/testing method
-        UserDefaults.standard.removeObject(forKey: Self.launchCountKey)
-        UserDefaults.standard.removeObject(forKey: Self.firstLaunchDateKey)
-        UserDefaults.standard.removeObject(forKey: Self.hasSeenSecondaryOnboardingKey)
-        UserDefaults.standard.removeObject(forKey: Self.onboardingDismissedKey)
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.Onboarding.launchCount)
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.Onboarding.firstLaunchDate)
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.Onboarding.hasSeenSecondaryOnboarding)
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.Onboarding.onboardingDismissedPermanently)
         launchCount = 0
         shouldShowSecondaryOnboarding = false
         loadSettings()
@@ -1634,10 +1634,10 @@ class OnboardingManager: ObservableObject {
 
     // Debug info
     func getDebugInfo() -> String {
-        let firstLaunchDate = UserDefaults.standard.object(forKey: Self.firstLaunchDateKey) as? Date ?? Date()
+        let firstLaunchDate = UserDefaults.standard.object(forKey: UserDefaultsKeys.Onboarding.firstLaunchDate) as? Date ?? Date()
         let daysSinceFirstLaunch = Calendar.current.dateComponents([.day], from: firstLaunchDate, to: Date()).day ?? 0
-        let hasSeenOnboarding = UserDefaults.standard.bool(forKey: Self.hasSeenSecondaryOnboardingKey)
-        let isDismissed = UserDefaults.standard.bool(forKey: Self.onboardingDismissedKey)
+        let hasSeenOnboarding = UserDefaults.standard.bool(forKey: UserDefaultsKeys.Onboarding.hasSeenSecondaryOnboarding)
+        let isDismissed = UserDefaults.standard.bool(forKey: UserDefaultsKeys.Onboarding.onboardingDismissedPermanently)
 
         return """
         Launch Count: \(launchCount)/\(Self.launchThreshold)
@@ -1695,7 +1695,7 @@ class WhatsNewManager: ObservableObject {
             return
         }
 
-        let lastSeenVersion = UserDefaults.standard.string(forKey: Self.lastSeenVersionKey)
+        let lastSeenVersion = UserDefaults.standard.string(forKey: UserDefaultsKeys.WhatsNew.lastSeenVersion)
 
         // First launch ever or version changed
         if lastSeenVersion != currentVersion {
@@ -1713,7 +1713,7 @@ class WhatsNewManager: ObservableObject {
 
     func markCurrentVersionAsSeen() {
         if let currentVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
-            UserDefaults.standard.set(currentVersion, forKey: Self.lastSeenVersionKey)
+            UserDefaults.standard.set(currentVersion, forKey: UserDefaultsKeys.WhatsNew.lastSeenVersion)
         }
         shouldShowWhatsNew = false
         updatesToShow = []
@@ -1728,7 +1728,7 @@ class WhatsNewManager: ObservableObject {
     }
 
     func resetForTesting() {
-        UserDefaults.standard.removeObject(forKey: Self.lastSeenVersionKey)
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.WhatsNew.lastSeenVersion)
         checkForNewVersion()
     }
 }
@@ -1902,11 +1902,11 @@ class ExpansionPackManager: ObservableObject {
 
     private func savePurchasedPacks() {
         let array = Array(purchasedPackIds)
-        UserDefaults.standard.set(array, forKey: Self.purchasedPacksKey)
+        UserDefaults.standard.set(array, forKey: UserDefaultsKeys.Store.purchasedPacks)
     }
 
     private func loadPurchasedPacks() {
-        if let array = UserDefaults.standard.array(forKey: Self.purchasedPacksKey) as? [String] {
+        if let array = UserDefaults.standard.array(forKey: UserDefaultsKeys.Store.purchasedPacks) as? [String] {
             purchasedPackIds = Set(array)
         }
     }
@@ -1938,11 +1938,11 @@ class ExpansionPackManager: ObservableObject {
 
     private func saveInstalledPacks() {
         let array = Array(installedPackIds)
-        UserDefaults.standard.set(array, forKey: Self.installedPacksKey)
+        UserDefaults.standard.set(array, forKey: UserDefaultsKeys.Store.installedPacks)
     }
 
     private func loadInstalledPacks() {
-        if let array = UserDefaults.standard.array(forKey: Self.installedPacksKey) as? [String] {
+        if let array = UserDefaults.standard.array(forKey: UserDefaultsKeys.Store.installedPacks) as? [String] {
             installedPackIds = Set(array)
         }
     }
@@ -2110,8 +2110,8 @@ class ExpansionPackManager: ObservableObject {
 
     // MARK: - Testing Helpers
     func resetForTesting() {
-        UserDefaults.standard.removeObject(forKey: Self.purchasedPacksKey)
-        UserDefaults.standard.removeObject(forKey: Self.installedPacksKey)
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.Store.purchasedPacks)
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.Store.installedPacks)
         purchasedPackIds = []
         installedPackIds = []
     }
@@ -2130,18 +2130,18 @@ class DeveloperBypassManager: ObservableObject {
     }
 
     private func loadBypassState() {
-        isBypassActive = UserDefaults.standard.bool(forKey: Self.bypassEnabledKey)
+        isBypassActive = UserDefaults.standard.bool(forKey: UserDefaultsKeys.Developer.bypassEnabled)
     }
 
     func activateBypass() {
         isBypassActive = true
-        UserDefaults.standard.set(true, forKey: Self.bypassEnabledKey)
+        UserDefaults.standard.set(true, forKey: UserDefaultsKeys.Developer.bypassEnabled)
         print("Developer bypass activated")
     }
 
     func deactivateBypass() {
         isBypassActive = false
-        UserDefaults.standard.set(false, forKey: Self.bypassEnabledKey)
+        UserDefaults.standard.set(false, forKey: UserDefaultsKeys.Developer.bypassEnabled)
         print("Developer bypass deactivated")
     }
 }

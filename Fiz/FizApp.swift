@@ -28,6 +28,11 @@ struct FizApp: App {
         }
     }()
 
+    init() {
+        // Validate UserDefaults keys on app launch (debug builds only)
+        UserDefaultsKeys.validateUniqueKeys()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()

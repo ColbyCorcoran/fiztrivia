@@ -17,10 +17,10 @@ class AnalyticsManager: ObservableObject {
     }
 
     private func loadSettings() {
-        hasShownConsent = UserDefaults.standard.bool(forKey: Self.hasShownConsentKey)
+        hasShownConsent = UserDefaults.standard.bool(forKey: UserDefaultsKeys.Analytics.consentShown)
 
         // Opt-in by default - if key doesn't exist (first launch), enable analytics
-        if let savedValue = UserDefaults.standard.object(forKey: Self.analyticsEnabledKey) as? Bool {
+        if let savedValue = UserDefaults.standard.object(forKey: UserDefaultsKeys.Analytics.enabled) as? Bool {
             isAnalyticsEnabled = savedValue
         } else {
             isAnalyticsEnabled = true  // Default to enabled for new users
@@ -57,7 +57,7 @@ class AnalyticsManager: ObservableObject {
 
     func setAnalyticsEnabled(_ enabled: Bool) {
         isAnalyticsEnabled = enabled
-        UserDefaults.standard.set(enabled, forKey: Self.analyticsEnabledKey)
+        UserDefaults.standard.set(enabled, forKey: UserDefaultsKeys.Analytics.enabled)
 
         if enabled {
             PostHogSDK.shared.optIn()
@@ -69,7 +69,7 @@ class AnalyticsManager: ObservableObject {
 
     func markConsentShown() {
         hasShownConsent = true
-        UserDefaults.standard.set(true, forKey: Self.hasShownConsentKey)
+        UserDefaults.standard.set(true, forKey: UserDefaultsKeys.Analytics.consentShown)
     }
 
     // MARK: - Event Tracking

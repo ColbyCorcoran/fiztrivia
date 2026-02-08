@@ -31,7 +31,7 @@
   "releaseDate": "2026-02-07T00:00:00Z",
   "freePreviewQuestions": [
     {
-      "id": "cnd_typ_001",
+      "id": "cnd_001",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -47,7 +47,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_002",
+      "id": "cnd_002",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -63,7 +63,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_003",
+      "id": "cnd_003",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -79,7 +79,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_004",
+      "id": "cnd_004",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -95,7 +95,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_005",
+      "id": "cnd_005",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -111,7 +111,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_001",
+      "id": "cnd_006",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -127,14 +127,14 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_003",
+      "id": "cnd_007",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
       "subtopic": "History & Origins",
       "question": "What company was founded by John Cadbury in Birmingham, England?",
       "options": [
-        "Nestl\u00e9",
+        "Nestlé",
         "Cadbury",
         "Lindt",
         "Godiva"
@@ -143,7 +143,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_005",
+      "id": "cnd_008",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -159,7 +159,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_010",
+      "id": "cnd_009",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -175,7 +175,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_014",
+      "id": "cnd_010",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -191,7 +191,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_001",
+      "id": "cnd_011",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -207,7 +207,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_002",
+      "id": "cnd_012",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -223,7 +223,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_003",
+      "id": "cnd_013",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -239,7 +239,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_004",
+      "id": "cnd_014",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -255,7 +255,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_005",
+      "id": "cnd_015",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -271,7 +271,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_wld_001",
+      "id": "cnd_016",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which country is famous for producing Toblerone chocolate bars with their distinctive triangular shape?",
@@ -287,7 +287,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_002",
+      "id": "cnd_017",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Haribo, the famous gummy bear company, originated in which country?",
@@ -303,7 +303,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_003",
+      "id": "cnd_018",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which Australian chocolate-coated biscuit is often used in the 'Tim Tam Slam' drinking technique?",
@@ -319,7 +319,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_004",
+      "id": "cnd_019",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Cadbury chocolate originated in which country?",
@@ -335,7 +335,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_005",
+      "id": "cnd_020",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which country is known for having over 300 unique flavors of Kit Kat bars?",
@@ -351,7 +351,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_hol_001",
+      "id": "cnd_021",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -367,7 +367,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_002",
+      "id": "cnd_022",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -383,7 +383,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_003",
+      "id": "cnd_023",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -399,7 +399,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_004",
+      "id": "cnd_024",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -415,7 +415,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_005",
+      "id": "cnd_025",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -431,7 +431,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_pop_001",
+      "id": "cnd_026",
       "category": "Food",
       "subcategory": "Food History",
       "question": "In the movie 'E.T. the Extra-Terrestrial', which candy was famously used to lure E.T.?",
@@ -447,7 +447,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_002",
+      "id": "cnd_027",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy brand uses the slogan 'Melts in your mouth, not in your hand'?",
@@ -463,7 +463,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_003",
+      "id": "cnd_028",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the slogan for Skittles candy?",
@@ -479,7 +479,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_004",
+      "id": "cnd_029",
       "category": "Food",
       "subcategory": "Food History",
       "question": "In the movie 'Elf', what does Buddy the Elf claim are the four main food groups?",
@@ -495,7 +495,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_005",
+      "id": "cnd_030",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which mobile game featuring candy became a global phenomenon in 2012?",
@@ -513,7 +513,7 @@
   ],
   "paidQuestions": [
     {
-      "id": "cnd_typ_006",
+      "id": "cnd_031",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -529,7 +529,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_007",
+      "id": "cnd_032",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -545,7 +545,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_008",
+      "id": "cnd_033",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -561,7 +561,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_009",
+      "id": "cnd_034",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -577,7 +577,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_010",
+      "id": "cnd_035",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -593,7 +593,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_011",
+      "id": "cnd_036",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -609,7 +609,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_012",
+      "id": "cnd_037",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -625,7 +625,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_013",
+      "id": "cnd_038",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -641,7 +641,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_014",
+      "id": "cnd_039",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -657,7 +657,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_015",
+      "id": "cnd_040",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -673,7 +673,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_typ_016",
+      "id": "cnd_041",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -689,14 +689,14 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_017",
+      "id": "cnd_042",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
       "question": "Which candy brand produces the popular chewy fruit candies called Starburst?",
       "options": [
-        "Nestl\u00e9",
+        "Nestlé",
         "Mars",
         "Hershey's",
         "Ferrero"
@@ -705,7 +705,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_018",
+      "id": "cnd_043",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -721,7 +721,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_019",
+      "id": "cnd_044",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -737,7 +737,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_020",
+      "id": "cnd_045",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -753,7 +753,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_021",
+      "id": "cnd_046",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -769,7 +769,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_022",
+      "id": "cnd_047",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -785,7 +785,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_023",
+      "id": "cnd_048",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -801,7 +801,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_024",
+      "id": "cnd_049",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -817,7 +817,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_025",
+      "id": "cnd_050",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -833,7 +833,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_026",
+      "id": "cnd_051",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -849,7 +849,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_027",
+      "id": "cnd_052",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -865,7 +865,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_028",
+      "id": "cnd_053",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -881,7 +881,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_029",
+      "id": "cnd_054",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -897,7 +897,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_030",
+      "id": "cnd_055",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -913,7 +913,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_031",
+      "id": "cnd_056",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -929,7 +929,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_032",
+      "id": "cnd_057",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -945,7 +945,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_033",
+      "id": "cnd_058",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -961,7 +961,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_034",
+      "id": "cnd_059",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -977,7 +977,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_035",
+      "id": "cnd_060",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -993,7 +993,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_036",
+      "id": "cnd_061",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1009,7 +1009,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_037",
+      "id": "cnd_062",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1025,7 +1025,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_038",
+      "id": "cnd_063",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1041,7 +1041,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_039",
+      "id": "cnd_064",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1057,7 +1057,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_040",
+      "id": "cnd_065",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1073,7 +1073,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_typ_041",
+      "id": "cnd_066",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1089,23 +1089,23 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_042",
+      "id": "cnd_067",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
       "question": "What temperature range defines the 'hard crack' stage used for making lollipops and hard candies?",
       "options": [
-        "250-266\u00b0F",
-        "270-290\u00b0F",
-        "300-310\u00b0F",
-        "320-350\u00b0F"
+        "250-266°F",
+        "270-290°F",
+        "300-310°F",
+        "320-350°F"
       ],
-      "correct_answer": "300-310\u00b0F",
+      "correct_answer": "300-310°F",
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_043",
+      "id": "cnd_068",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1121,7 +1121,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_044",
+      "id": "cnd_069",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1137,7 +1137,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_045",
+      "id": "cnd_070",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1153,7 +1153,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_046",
+      "id": "cnd_071",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1169,7 +1169,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_047",
+      "id": "cnd_072",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1185,7 +1185,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_048",
+      "id": "cnd_073",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1201,7 +1201,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_049",
+      "id": "cnd_074",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1217,7 +1217,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_typ_050",
+      "id": "cnd_075",
       "category": "Food",
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
@@ -1233,7 +1233,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_002",
+      "id": "cnd_076",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1249,7 +1249,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_004",
+      "id": "cnd_077",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1265,7 +1265,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_006",
+      "id": "cnd_078",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1281,7 +1281,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_007",
+      "id": "cnd_079",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1297,7 +1297,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_008",
+      "id": "cnd_080",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1313,7 +1313,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_009",
+      "id": "cnd_081",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1329,7 +1329,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_011",
+      "id": "cnd_082",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1338,14 +1338,14 @@
       "options": [
         "Lindt",
         "Toblerone",
-        "Nestl\u00e9",
+        "Nestlé",
         "Suchard"
       ],
-      "correct_answer": "Nestl\u00e9",
+      "correct_answer": "Nestlé",
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_012",
+      "id": "cnd_083",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1361,7 +1361,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_013",
+      "id": "cnd_084",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1377,7 +1377,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_015",
+      "id": "cnd_085",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1393,7 +1393,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_016",
+      "id": "cnd_086",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1403,13 +1403,13 @@
         "Tootsie Roll Industries",
         "Mars",
         "Hershey's",
-        "Nestl\u00e9"
+        "Nestlé"
       ],
       "correct_answer": "Tootsie Roll Industries",
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_017",
+      "id": "cnd_087",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1425,7 +1425,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_018",
+      "id": "cnd_088",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1441,7 +1441,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_019",
+      "id": "cnd_089",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1457,7 +1457,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_020",
+      "id": "cnd_090",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1473,7 +1473,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_021",
+      "id": "cnd_091",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1489,7 +1489,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_022",
+      "id": "cnd_092",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1499,13 +1499,13 @@
         "Fry's",
         "Cadbury",
         "Hershey's",
-        "Nestl\u00e9"
+        "Nestlé"
       ],
       "correct_answer": "Fry's",
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_023",
+      "id": "cnd_093",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1521,7 +1521,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_024",
+      "id": "cnd_094",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1537,7 +1537,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_025",
+      "id": "cnd_095",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1553,7 +1553,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_026",
+      "id": "cnd_096",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1569,7 +1569,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_027",
+      "id": "cnd_097",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1585,7 +1585,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_028",
+      "id": "cnd_098",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1601,7 +1601,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_029",
+      "id": "cnd_099",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1617,7 +1617,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_030",
+      "id": "cnd_100",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1633,7 +1633,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_031",
+      "id": "cnd_101",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1649,7 +1649,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_032",
+      "id": "cnd_102",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1665,7 +1665,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_033",
+      "id": "cnd_103",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1681,7 +1681,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_034",
+      "id": "cnd_104",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1697,7 +1697,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_035",
+      "id": "cnd_105",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1713,7 +1713,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_036",
+      "id": "cnd_106",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1729,7 +1729,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_037",
+      "id": "cnd_107",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1745,7 +1745,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_038",
+      "id": "cnd_108",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1761,7 +1761,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_039",
+      "id": "cnd_109",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1777,7 +1777,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_040",
+      "id": "cnd_110",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1793,7 +1793,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_041",
+      "id": "cnd_111",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1809,7 +1809,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_042",
+      "id": "cnd_112",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1825,7 +1825,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_043",
+      "id": "cnd_113",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1841,7 +1841,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_044",
+      "id": "cnd_114",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1857,7 +1857,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_045",
+      "id": "cnd_115",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1873,7 +1873,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_046",
+      "id": "cnd_116",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1889,7 +1889,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_047",
+      "id": "cnd_117",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1905,7 +1905,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_his_048",
+      "id": "cnd_118",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1921,7 +1921,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_his_049",
+      "id": "cnd_119",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1937,7 +1937,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_his_050",
+      "id": "cnd_120",
       "category": "Food",
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
@@ -1953,7 +1953,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_006",
+      "id": "cnd_121",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -1969,7 +1969,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_007",
+      "id": "cnd_122",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -1985,7 +1985,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_008",
+      "id": "cnd_123",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2001,7 +2001,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_009",
+      "id": "cnd_124",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2017,7 +2017,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_010",
+      "id": "cnd_125",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2033,7 +2033,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_011",
+      "id": "cnd_126",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2049,7 +2049,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_012",
+      "id": "cnd_127",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2065,7 +2065,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_013",
+      "id": "cnd_128",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2081,7 +2081,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_014",
+      "id": "cnd_129",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2097,7 +2097,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_015",
+      "id": "cnd_130",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2113,23 +2113,23 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_ing_016",
+      "id": "cnd_131",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Ingredients & Making",
       "question": "At what temperature does sugar reach the 'hard crack' stage in candy making?",
       "options": [
-        "300-310\u00b0F (149-154\u00b0C)",
-        "220-234\u00b0F (104-112\u00b0C)",
-        "270-290\u00b0F (132-143\u00b0C)",
-        "350-370\u00b0F (177-188\u00b0C)"
+        "300-310°F (149-154°C)",
+        "220-234°F (104-112°C)",
+        "270-290°F (132-143°C)",
+        "350-370°F (177-188°C)"
       ],
-      "correct_answer": "300-310\u00b0F (149-154\u00b0C)",
+      "correct_answer": "300-310°F (149-154°C)",
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_017",
+      "id": "cnd_132",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2145,7 +2145,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_018",
+      "id": "cnd_133",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2161,7 +2161,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_019",
+      "id": "cnd_134",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2177,7 +2177,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_020",
+      "id": "cnd_135",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2193,7 +2193,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_021",
+      "id": "cnd_136",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2209,7 +2209,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_022",
+      "id": "cnd_137",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2225,7 +2225,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_023",
+      "id": "cnd_138",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2241,7 +2241,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_024",
+      "id": "cnd_139",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2257,23 +2257,23 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_025",
+      "id": "cnd_140",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Ingredients & Making",
       "question": "At what temperature range does sugar reach the 'soft crack' stage?",
       "options": [
-        "270-290\u00b0F (132-143\u00b0C)",
-        "230-240\u00b0F (110-116\u00b0C)",
-        "300-310\u00b0F (149-154\u00b0C)",
-        "340-350\u00b0F (171-177\u00b0C)"
+        "270-290°F (132-143°C)",
+        "230-240°F (110-116°C)",
+        "300-310°F (149-154°C)",
+        "340-350°F (171-177°C)"
       ],
-      "correct_answer": "270-290\u00b0F (132-143\u00b0C)",
+      "correct_answer": "270-290°F (132-143°C)",
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_026",
+      "id": "cnd_141",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2289,7 +2289,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_027",
+      "id": "cnd_142",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2305,7 +2305,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_028",
+      "id": "cnd_143",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2321,7 +2321,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_029",
+      "id": "cnd_144",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2337,7 +2337,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_030",
+      "id": "cnd_145",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2353,7 +2353,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_031",
+      "id": "cnd_146",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2369,7 +2369,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_032",
+      "id": "cnd_147",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2385,7 +2385,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_033",
+      "id": "cnd_148",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2401,7 +2401,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_034",
+      "id": "cnd_149",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2417,7 +2417,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_035",
+      "id": "cnd_150",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2433,7 +2433,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_036",
+      "id": "cnd_151",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2449,7 +2449,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_037",
+      "id": "cnd_152",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2465,7 +2465,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_038",
+      "id": "cnd_153",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2481,7 +2481,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_039",
+      "id": "cnd_154",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2497,23 +2497,23 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_040",
+      "id": "cnd_155",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Ingredients & Making",
       "question": "What temperature range is the 'firm ball' stage in candy making?",
       "options": [
-        "244-248\u00b0F (118-120\u00b0C)",
-        "234-240\u00b0F (112-116\u00b0C)",
-        "250-266\u00b0F (121-130\u00b0C)",
-        "270-290\u00b0F (132-143\u00b0C)"
+        "244-248°F (118-120°C)",
+        "234-240°F (112-116°C)",
+        "250-266°F (121-130°C)",
+        "270-290°F (132-143°C)"
       ],
-      "correct_answer": "244-248\u00b0F (118-120\u00b0C)",
+      "correct_answer": "244-248°F (118-120°C)",
       "difficulty": "medium"
     },
     {
-      "id": "cnd_ing_041",
+      "id": "cnd_156",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2529,7 +2529,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_042",
+      "id": "cnd_157",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2545,7 +2545,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_043",
+      "id": "cnd_158",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2561,23 +2561,23 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_044",
+      "id": "cnd_159",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Ingredients & Making",
       "question": "What is the ideal tempering temperature for dark chocolate when working with it?",
       "options": [
-        "88-90\u00b0F (31-32\u00b0C)",
-        "70-75\u00b0F (21-24\u00b0C)",
-        "100-105\u00b0F (38-41\u00b0C)",
-        "115-120\u00b0F (46-49\u00b0C)"
+        "88-90°F (31-32°C)",
+        "70-75°F (21-24°C)",
+        "100-105°F (38-41°C)",
+        "115-120°F (46-49°C)"
       ],
-      "correct_answer": "88-90\u00b0F (31-32\u00b0C)",
+      "correct_answer": "88-90°F (31-32°C)",
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_045",
+      "id": "cnd_160",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2593,7 +2593,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_046",
+      "id": "cnd_161",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2609,7 +2609,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_047",
+      "id": "cnd_162",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2625,7 +2625,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_048",
+      "id": "cnd_163",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2641,7 +2641,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_049",
+      "id": "cnd_164",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2657,7 +2657,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_ing_050",
+      "id": "cnd_165",
       "category": "Food",
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
@@ -2673,7 +2673,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_wld_006",
+      "id": "cnd_166",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Lindt chocolate originated in which country?",
@@ -2689,7 +2689,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_007",
+      "id": "cnd_167",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which country is Kinder chocolate from?",
@@ -2705,7 +2705,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_008",
+      "id": "cnd_168",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Turkish Delight is a traditional candy from which country?",
@@ -2721,7 +2721,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_009",
+      "id": "cnd_169",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Pocky, the popular stick-shaped chocolate-covered biscuit, comes from which country?",
@@ -2737,7 +2737,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_010",
+      "id": "cnd_170",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which country is considered the world's leading producer of high-quality chocolate and is home to brands like Godiva?",
@@ -2753,7 +2753,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_011",
+      "id": "cnd_171",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the main ingredient in the UK candy called 'Aero'?",
@@ -2769,7 +2769,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_012",
+      "id": "cnd_172",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Hi-Chew, the chewy fruit candy, originated in which country?",
@@ -2785,7 +2785,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_013",
+      "id": "cnd_173",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which country is famous for its salty black licorice candy called 'salmiakki'?",
@@ -2801,7 +2801,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_014",
+      "id": "cnd_174",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Dulce de leche is a popular sweet caramel-like spread from which region?",
@@ -2817,7 +2817,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_015",
+      "id": "cnd_175",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Smarties candy-coated chocolates were first made in which country?",
@@ -2833,7 +2833,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_016",
+      "id": "cnd_176",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What mountain range is depicted on every Toblerone chocolate bar?",
@@ -2849,7 +2849,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_017",
+      "id": "cnd_177",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "In Japan, what unusual Kit Kat flavor is popular and considered good luck for students taking exams?",
@@ -2865,7 +2865,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_018",
+      "id": "cnd_178",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What does the name 'Haribo' stand for?",
@@ -2881,7 +2881,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_019",
+      "id": "cnd_179",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which Mexican candy brand is known for its spicy and salty tamarind-flavored treats?",
@@ -2897,7 +2897,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_020",
+      "id": "cnd_180",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the traditional main flavor of Turkish Delight?",
@@ -2913,7 +2913,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_021",
+      "id": "cnd_181",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which British chocolate bar features honeycomb toffee covered in chocolate?",
@@ -2929,7 +2929,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_022",
+      "id": "cnd_182",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What unique feature is inside every Kinder Surprise egg?",
@@ -2945,7 +2945,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_023",
+      "id": "cnd_183",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which Swedish candy company is famous for its fish-shaped gummy candies?",
@@ -2961,7 +2961,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_024",
+      "id": "cnd_184",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the name of the Italian chocolate-hazelnut brand that competes with Nutella?",
@@ -2977,7 +2977,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_025",
+      "id": "cnd_185",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "In which country would you find 'Alfajores,' sandwich cookies filled with dulce de leche?",
@@ -2993,7 +2993,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_026",
+      "id": "cnd_186",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the main flavor of the popular Australian candy 'Violet Crumble'?",
@@ -3009,14 +3009,14 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_027",
+      "id": "cnd_187",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which French candy is known for its hard caramel squares wrapped in edible rice paper?",
       "options": [
-        "Drag\u00e9es",
+        "Dragées",
         "Calissons",
-        "Nougat de Mont\u00e9limar",
+        "Nougat de Montélimar",
         "Carambar"
       ],
       "correct_answer": "Carambar",
@@ -3025,7 +3025,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_028",
+      "id": "cnd_188",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What does 'Pocky' mean in Japanese?",
@@ -3041,7 +3041,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_029",
+      "id": "cnd_189",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which British candy features malted milk balls covered in chocolate?",
@@ -3057,7 +3057,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_030",
+      "id": "cnd_190",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the traditional Turkish name for Turkish Delight?",
@@ -3073,7 +3073,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_031",
+      "id": "cnd_191",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which Japanese candy was specifically created to be eaten with one hand?",
@@ -3089,7 +3089,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_032",
+      "id": "cnd_192",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is unique about Lindt's chocolate-making process?",
@@ -3105,10 +3105,10 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_033",
+      "id": "cnd_193",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
-      "question": "Which Scandinavian country is famous for its 'Djungelvr\u00e5l' (Jungle Roar) salty licorice?",
+      "question": "Which Scandinavian country is famous for its 'Djungelvrål' (Jungle Roar) salty licorice?",
       "options": [
         "Norway",
         "Sweden",
@@ -3121,7 +3121,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_034",
+      "id": "cnd_194",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What Mexican candy is made from ground peanuts and sugar, shaped like a hockey puck?",
@@ -3129,7 +3129,7 @@
         "Pulparindo",
         "Mazapan",
         "Glorias",
-        "Alegr\u00edas"
+        "Alegrías"
       ],
       "correct_answer": "Mazapan",
       "difficulty": "medium",
@@ -3137,7 +3137,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_035",
+      "id": "cnd_195",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which country produces 'Stroopwafels,' thin waffle cookies with caramel filling?",
@@ -3153,7 +3153,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_036",
+      "id": "cnd_196",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the main ingredient that gives Hi-Chew its unique chewy texture?",
@@ -3169,7 +3169,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_037",
+      "id": "cnd_197",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which British chocolate bar is known for its unique flaky, crumbly texture?",
@@ -3185,7 +3185,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_038",
+      "id": "cnd_198",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the name of the famous Belgian chocolate truffle brand founded in 1926?",
@@ -3201,7 +3201,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_039",
+      "id": "cnd_199",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which German chocolate bar features a whole hazelnut in every segment?",
@@ -3217,23 +3217,23 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_040",
+      "id": "cnd_200",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
-      "question": "What is the name of the popular Brazilian chocolate candy made by Nestl\u00e9?",
+      "question": "What is the name of the popular Brazilian chocolate candy made by Nestlé?",
       "options": [
         "Sonho de Valsa",
         "Bis",
         "Serenata de Amor",
-        "Prest\u00edgio"
+        "Prestígio"
       ],
-      "correct_answer": "Prest\u00edgio",
+      "correct_answer": "Prestígio",
       "difficulty": "medium",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_041",
+      "id": "cnd_201",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "In what year was the first Toblerone bar created?",
@@ -3249,7 +3249,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_042",
+      "id": "cnd_202",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which Belgian chocolatier is credited with inventing the first filled chocolate shell (praline) in 1912?",
@@ -3265,7 +3265,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_043",
+      "id": "cnd_203",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What does the 'salmiakki' in Finnish salty licorice contain that gives it its distinctive flavor?",
@@ -3281,7 +3281,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_044",
+      "id": "cnd_204",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What year did Rodolphe Lindt invent the conching process that revolutionized chocolate making?",
@@ -3297,7 +3297,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_045",
+      "id": "cnd_205",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which city in Germany is considered the gummy bear capital and home to Haribo's headquarters?",
@@ -3313,7 +3313,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_046",
+      "id": "cnd_206",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the original name of the Japanese company that produces Pocky?",
@@ -3329,7 +3329,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_047",
+      "id": "cnd_207",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "In which Australian state were Tim Tams first manufactured in 1964?",
@@ -3345,7 +3345,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_048",
+      "id": "cnd_208",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What percentage of the world's cocoa beans are processed in Belgium?",
@@ -3361,7 +3361,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_049",
+      "id": "cnd_209",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "Which Japanese Kit Kat flavor was created specifically for the Shinkansen bullet train?",
@@ -3377,7 +3377,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_wld_050",
+      "id": "cnd_210",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
       "question": "What is the traditional starch base used in authentic Turkish Delight?",
@@ -3393,7 +3393,7 @@
       "subtopic": "Around the World"
     },
     {
-      "id": "cnd_hol_006",
+      "id": "cnd_211",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3409,7 +3409,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_007",
+      "id": "cnd_212",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3425,7 +3425,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_008",
+      "id": "cnd_213",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3441,7 +3441,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_009",
+      "id": "cnd_214",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3457,7 +3457,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_010",
+      "id": "cnd_215",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3473,7 +3473,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_011",
+      "id": "cnd_216",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3489,12 +3489,12 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_012",
+      "id": "cnd_217",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What are decorative sugar candies shaped like skulls called during D\u00eda de los Muertos?",
+      "question": "What are decorative sugar candies shaped like skulls called during Día de los Muertos?",
       "options": [
         "Sugar skulls",
         "Death candy",
@@ -3505,7 +3505,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_013",
+      "id": "cnd_218",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3521,7 +3521,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_014",
+      "id": "cnd_219",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3537,7 +3537,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_015",
+      "id": "cnd_220",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3553,7 +3553,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "cnd_hol_016",
+      "id": "cnd_221",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3569,7 +3569,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_017",
+      "id": "cnd_222",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3585,7 +3585,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_018",
+      "id": "cnd_223",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3601,7 +3601,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_019",
+      "id": "cnd_224",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3617,7 +3617,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_020",
+      "id": "cnd_225",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3633,7 +3633,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_021",
+      "id": "cnd_226",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3649,7 +3649,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_022",
+      "id": "cnd_227",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3665,7 +3665,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_023",
+      "id": "cnd_228",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3681,7 +3681,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_024",
+      "id": "cnd_229",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3697,7 +3697,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_025",
+      "id": "cnd_230",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3713,7 +3713,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_026",
+      "id": "cnd_231",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3729,7 +3729,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_027",
+      "id": "cnd_232",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3745,7 +3745,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_028",
+      "id": "cnd_233",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3761,7 +3761,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_029",
+      "id": "cnd_234",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3777,7 +3777,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_030",
+      "id": "cnd_235",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3793,7 +3793,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_031",
+      "id": "cnd_236",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3809,7 +3809,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_032",
+      "id": "cnd_237",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3825,7 +3825,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_033",
+      "id": "cnd_238",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3841,23 +3841,23 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_034",
+      "id": "cnd_239",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What traditional Mexican candy is made for D\u00eda de los Muertos besides sugar skulls?",
+      "question": "What traditional Mexican candy is made for Día de los Muertos besides sugar skulls?",
       "options": [
-        "Alfe\u00f1ique",
+        "Alfeñique",
         "Tamarindo",
         "Mazapan",
         "Pulparindo"
       ],
-      "correct_answer": "Alfe\u00f1ique",
+      "correct_answer": "Alfeñique",
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_035",
+      "id": "cnd_240",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3873,7 +3873,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_036",
+      "id": "cnd_241",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3889,7 +3889,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_037",
+      "id": "cnd_242",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3905,7 +3905,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_038",
+      "id": "cnd_243",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3921,7 +3921,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_039",
+      "id": "cnd_244",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3937,7 +3937,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_040",
+      "id": "cnd_245",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3953,7 +3953,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "cnd_hol_041",
+      "id": "cnd_246",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3969,7 +3969,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_042",
+      "id": "cnd_247",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -3985,7 +3985,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_043",
+      "id": "cnd_248",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -4001,7 +4001,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_044",
+      "id": "cnd_249",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -4017,7 +4017,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_045",
+      "id": "cnd_250",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -4033,12 +4033,12 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_046",
+      "id": "cnd_251",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "In what century were sugar skulls first created for D\u00eda de los Muertos?",
+      "question": "In what century were sugar skulls first created for Día de los Muertos?",
       "options": [
         "17th century",
         "15th century",
@@ -4049,7 +4049,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_047",
+      "id": "cnd_252",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -4065,7 +4065,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_048",
+      "id": "cnd_253",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -4081,23 +4081,23 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_049",
+      "id": "cnd_254",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What temperature must chocolate reach to properly temper for making Valentine's Day chocolates?",
       "options": [
-        "88-90\u00b0F (31-32\u00b0C)",
-        "75-80\u00b0F (24-27\u00b0C)",
-        "100-105\u00b0F (38-41\u00b0C)",
-        "65-70\u00b0F (18-21\u00b0C)"
+        "88-90°F (31-32°C)",
+        "75-80°F (24-27°C)",
+        "100-105°F (38-41°C)",
+        "65-70°F (18-21°C)"
       ],
-      "correct_answer": "88-90\u00b0F (31-32\u00b0C)",
+      "correct_answer": "88-90°F (31-32°C)",
       "difficulty": "hard"
     },
     {
-      "id": "cnd_hol_050",
+      "id": "cnd_255",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Holidays & Occasions",
       "category": "Food",
@@ -4113,7 +4113,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "cnd_pop_006",
+      "id": "cnd_256",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the name of the owl mascot famous for asking 'How many licks does it take to get to the center of a Tootsie Pop?'",
@@ -4129,7 +4129,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_007",
+      "id": "cnd_257",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the name of the Lucky Charms cereal mascot?",
@@ -4145,7 +4145,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_008",
+      "id": "cnd_258",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which classic film features a chocolate factory owned by Willy Wonka?",
@@ -4161,7 +4161,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_009",
+      "id": "cnd_259",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What candy bar is featured in the Kit Kat slogan 'Give me a break'?",
@@ -4177,7 +4177,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_010",
+      "id": "cnd_260",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy brand uses the slogan 'You're not you when you're hungry'?",
@@ -4193,7 +4193,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_011",
+      "id": "cnd_261",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What color M&M mascot is known for being the 'cool' one who wears sunglasses?",
@@ -4209,7 +4209,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_012",
+      "id": "cnd_262",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy's advertising slogan is 'Get the sensation'?",
@@ -4225,7 +4225,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_013",
+      "id": "cnd_263",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What candy is known for the slogan 'Two for me, none for you'?",
@@ -4241,7 +4241,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_014",
+      "id": "cnd_264",
       "category": "Food",
       "subcategory": "Food History",
       "question": "In Willy Wonka's factory, what type of candy was used to create a river?",
@@ -4257,7 +4257,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_015",
+      "id": "cnd_265",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy brand features the tagline 'There's no wrong way to eat a...'?",
@@ -4273,7 +4273,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_016",
+      "id": "cnd_266",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What year was the mobile game Candy Crush Saga released?",
@@ -4289,7 +4289,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_017",
+      "id": "cnd_267",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which actor played Willy Wonka in the 2005 film 'Charlie and the Chocolate Factory'?",
@@ -4305,7 +4305,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_018",
+      "id": "cnd_268",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What was the original name of Starburst candy when it was first introduced in the UK?",
@@ -4321,7 +4321,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_019",
+      "id": "cnd_269",
       "category": "Food",
       "subcategory": "Food History",
       "question": "In the Tootsie Pop commercial, how many licks does Mr. Owl say it takes to get to the center?",
@@ -4337,7 +4337,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_020",
+      "id": "cnd_270",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy brand's commercials famously featured the phrase 'Nobody better lay a finger on my...'?",
@@ -4353,7 +4353,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_021",
+      "id": "cnd_271",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What color is the Red M&M mascot's personality often described as?",
@@ -4369,7 +4369,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_022",
+      "id": "cnd_272",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy was prominently featured in the movie 'The Sixth Sense' during a hospital scene?",
@@ -4385,7 +4385,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_023",
+      "id": "cnd_273",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the name of the villain character in Wreck-It Ralph who rules Sugar Rush?",
@@ -4401,7 +4401,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_024",
+      "id": "cnd_274",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which company developed Candy Crush Saga?",
@@ -4417,7 +4417,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_025",
+      "id": "cnd_275",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What was the first M&M color to be retired and later brought back by popular vote?",
@@ -4433,7 +4433,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_026",
+      "id": "cnd_276",
       "category": "Food",
       "subcategory": "Food History",
       "question": "In the original 1971 'Willy Wonka & the Chocolate Factory', what song do the Oompa Loompas sing?",
@@ -4449,7 +4449,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_027",
+      "id": "cnd_277",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy bar's slogan is 'Hungry? Why wait?'?",
@@ -4465,7 +4465,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_028",
+      "id": "cnd_278",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What candy does Violet Beauregarde turn into in 'Charlie and the Chocolate Factory'?",
@@ -4481,7 +4481,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_029",
+      "id": "cnd_279",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy brand introduced a 'Left Twix vs. Right Twix' marketing campaign?",
@@ -4497,7 +4497,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_030",
+      "id": "cnd_280",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the name of the Cocoa Puffs cereal mascot?",
@@ -4513,7 +4513,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_031",
+      "id": "cnd_281",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which animated movie features a world made entirely of candy and sweets?",
@@ -4529,7 +4529,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_032",
+      "id": "cnd_282",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What candy bar was featured in a memorable 'Seinfeld' episode where George eats one with a knife and fork?",
@@ -4545,7 +4545,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_033",
+      "id": "cnd_283",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy mascot is known for the phrase 'Silly rabbit, [candy] are for kids!'?",
@@ -4561,7 +4561,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_034",
+      "id": "cnd_284",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the name of the voice actor who played Willy Wonka in the 1971 film?",
@@ -4577,7 +4577,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_035",
+      "id": "cnd_285",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy brand used the slogan 'Sometimes you feel like a nut, sometimes you don't'?",
@@ -4593,7 +4593,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_036",
+      "id": "cnd_286",
       "category": "Food",
       "subcategory": "Food History",
       "question": "In what decade did M&M's introduce their anthropomorphic candy mascots?",
@@ -4609,7 +4609,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_037",
+      "id": "cnd_287",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy bar was featured in 'The Goonies' when Chunk tries to escape?",
@@ -4625,7 +4625,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_038",
+      "id": "cnd_288",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What candy brand's commercials featured people turning into different characters when hungry?",
@@ -4641,7 +4641,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_039",
+      "id": "cnd_289",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy features in its commercials the question 'How do you eat yours?'",
@@ -4657,7 +4657,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_040",
+      "id": "cnd_290",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the name of the main character in the animated film 'Wreck-It Ralph' who races in Sugar Rush?",
@@ -4673,7 +4673,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_041",
+      "id": "cnd_291",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which year did the original 'Willy Wonka & the Chocolate Factory' film premiere?",
@@ -4689,7 +4689,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_042",
+      "id": "cnd_292",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What was the name of the advertising campaign that asked consumers to vote for a new M&M color in 1995?",
@@ -4705,7 +4705,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_043",
+      "id": "cnd_293",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy brand was originally marketed as a way to prevent chocolate from melting during World War II?",
@@ -4721,7 +4721,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_044",
+      "id": "cnd_294",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the name of the boardgame based on a candy-themed world that was created in 1949?",
@@ -4737,7 +4737,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_045",
+      "id": "cnd_295",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which British candy bar's commercials featured the tagline 'It's not Terry's, it's mine'?",
@@ -4753,7 +4753,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_046",
+      "id": "cnd_296",
       "category": "Food",
       "subcategory": "Food History",
       "question": "In which year was the first Tootsie Pop commercial featuring Mr. Owl aired?",
@@ -4769,7 +4769,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_047",
+      "id": "cnd_297",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What was the original M&M color that was replaced by blue in 1995?",
@@ -4785,7 +4785,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_048",
+      "id": "cnd_298",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which candy brand featured NBA star Charles Barkley turning into a teenage girl in its commercials?",
@@ -4801,7 +4801,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_049",
+      "id": "cnd_299",
       "category": "Food",
       "subcategory": "Food History",
       "question": "What is the full name of the author who wrote the book 'Charlie and the Chocolate Factory'?",
@@ -4817,7 +4817,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "cnd_pop_050",
+      "id": "cnd_300",
       "category": "Food",
       "subcategory": "Food History",
       "question": "Which year did Candy Crush Saga surpass FarmVille 2 to become the most popular game on Facebook?",

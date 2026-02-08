@@ -33,7 +33,7 @@
   "releaseDate": "2026-02-07T00:00:00Z",
   "freePreviewQuestions": [
     {
-      "id": "90s_mov_001",
+      "id": "90s_001",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1997 film became the highest-grossing movie of all time until 2009?",
@@ -49,7 +49,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_002",
+      "id": "90s_002",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who directed the 1993 blockbuster 'Jurassic Park'?",
@@ -65,7 +65,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_003",
+      "id": "90s_003",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What color pill does Neo take in 'The Matrix'?",
@@ -81,7 +81,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_004",
+      "id": "90s_004",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "In 'Home Alone', where is the McCallister family traveling when they leave Kevin behind?",
@@ -97,7 +97,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_005",
+      "id": "90s_005",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What does Forrest Gump famously say 'life is like'?",
@@ -113,7 +113,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_006",
+      "id": "90s_006",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the name of the toy cowboy in 'Toy Story'?",
@@ -129,7 +129,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mus_001",
+      "id": "90s_007",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was Britney Spears' debut single released in 1998?",
@@ -145,7 +145,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_002",
+      "id": "90s_008",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which boy band released the album 'Millennium' in 1999?",
@@ -161,7 +161,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_003",
+      "id": "90s_009",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the Spice Girls' first #1 hit in 1996?",
@@ -177,7 +177,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_004",
+      "id": "90s_010",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What grunge band released 'Smells Like Teen Spirit' in 1991?",
@@ -193,7 +193,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_005",
+      "id": "90s_011",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which artist sang 'My Heart Will Go On' from the 'Titanic' soundtrack?",
@@ -209,7 +209,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_006",
+      "id": "90s_012",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What Alanis Morissette album featured the hit 'You Oughta Know'?",
@@ -225,7 +225,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_tv_001",
+      "id": "90s_013",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What coffee shop did the cast of 'Friends' frequently visit?",
@@ -241,7 +241,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_002",
+      "id": "90s_014",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the tagline for 'Seinfeld'?",
@@ -257,7 +257,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_003",
+      "id": "90s_015",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who played Will Smith in 'The Fresh Prince of Bel-Air'?",
@@ -273,7 +273,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_004",
+      "id": "90s_016",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What family did 'Full House' focus on?",
@@ -289,7 +289,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_005",
+      "id": "90s_017",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the main character in 'Boy Meets World'?",
@@ -305,7 +305,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_006",
+      "id": "90s_018",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What color were the original Power Rangers?",
@@ -321,7 +321,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tec_001",
+      "id": "90s_019",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year was Windows 95 released?",
@@ -337,7 +337,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_002",
+      "id": "90s_020",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the sound you heard when connecting to the internet in the 1990s called?",
@@ -353,7 +353,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_003",
+      "id": "90s_021",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What did 'AOL' stand for?",
@@ -369,7 +369,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_004",
+      "id": "90s_022",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year did the first PlayStation console launch in North America?",
@@ -385,7 +385,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_005",
+      "id": "90s_023",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the Nintendo 64 named after?",
@@ -401,7 +401,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_006",
+      "id": "90s_024",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was a Tamagotchi?",
@@ -417,7 +417,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_fsh_001",
+      "id": "90s_025",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What neck accessory became extremely popular in the 90s?",
@@ -433,7 +433,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_002",
+      "id": "90s_026",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of shoes featured thick soles and were popular in the 90s?",
@@ -449,7 +449,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_003",
+      "id": "90s_027",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What hair accessory became a 90s staple for tying hair?",
@@ -465,7 +465,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_004",
+      "id": "90s_028",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What plaid shirt style became associated with grunge fashion?",
@@ -481,7 +481,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_005",
+      "id": "90s_029",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What style of jeans became popular in the 90s with extra room?",
@@ -497,7 +497,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_spt_001",
+      "id": "90s_030",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "How many NBA championships did Michael Jordan win with the Chicago Bulls in the 90s?",
@@ -513,7 +513,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_002",
+      "id": "90s_031",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team did Michael Jordan play for during his 90s championships?",
@@ -529,7 +529,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_003",
+      "id": "90s_032",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was the Dream Team in 1992?",
@@ -545,7 +545,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_004",
+      "id": "90s_033",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "In what year did the 1996 Summer Olympics take place?",
@@ -561,7 +561,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_005",
+      "id": "90s_034",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "Where were the 1996 Summer Olympics held?",
@@ -577,7 +577,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_pop_001",
+      "id": "90s_035",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What collectible plush toys became a massive craze in the 90s?",
@@ -593,7 +593,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_002",
+      "id": "90s_036",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What circular discs were collected and played with in the 90s?",
@@ -609,7 +609,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_003",
+      "id": "90s_037",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What virtual pet required constant care and attention?",
@@ -625,7 +625,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_004",
+      "id": "90s_038",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What furry electronic toy could talk and learn words?",
@@ -641,7 +641,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_005",
+      "id": "90s_039",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What brand was known for colorful rainbow designs on school supplies?",
@@ -657,7 +657,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_006",
+      "id": "90s_040",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What toy involved a skip ball on an ankle rope?",
@@ -675,7 +675,7 @@
   ],
   "paidQuestions": [
     {
-      "id": "90s_mov_007",
+      "id": "90s_041",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who played Jack Dawson in 'Titanic'?",
@@ -691,7 +691,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_008",
+      "id": "90s_042",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1994 Disney film features the song 'Circle of Life'?",
@@ -707,7 +707,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_009",
+      "id": "90s_043",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "In what year was 'The Matrix' released?",
@@ -723,7 +723,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_010",
+      "id": "90s_044",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1999 film features the line 'I see dead people'?",
@@ -739,7 +739,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_011",
+      "id": "90s_045",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who starred as the villain in 'Home Alone 2: Lost in New York'?",
@@ -755,7 +755,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_012",
+      "id": "90s_046",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the name of the theme park in 'Jurassic Park'?",
@@ -771,7 +771,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_013",
+      "id": "90s_047",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1996 film features Will Smith fighting aliens?",
@@ -787,7 +787,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_014",
+      "id": "90s_048",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who directed 'Pulp Fiction'?",
@@ -803,7 +803,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_015",
+      "id": "90s_049",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1999 teen comedy is set at a high school called East Great Falls?",
@@ -819,7 +819,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_016",
+      "id": "90s_050",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What horror film franchise began in 1996 with a masked killer named Ghostface?",
@@ -835,7 +835,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_017",
+      "id": "90s_051",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1997 film stars Will Smith and Tommy Lee Jones as secret agents?",
@@ -851,7 +851,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_018",
+      "id": "90s_052",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What animated film was the first feature-length computer-animated movie?",
@@ -867,7 +867,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_019",
+      "id": "90s_053",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What year was 'Star Wars: Episode I - The Phantom Menace' released?",
@@ -883,7 +883,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_020",
+      "id": "90s_054",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who played Morpheus in 'The Matrix'?",
@@ -899,7 +899,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_021",
+      "id": "90s_055",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the name of Simba's uncle in 'The Lion King'?",
@@ -915,7 +915,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_022",
+      "id": "90s_056",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "In 'Good Will Hunting', what subject is Will Hunting gifted in?",
@@ -931,7 +931,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_023",
+      "id": "90s_057",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What actress played Rose in 'Titanic'?",
@@ -947,7 +947,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_024",
+      "id": "90s_058",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the name of Buzz Lightyear's catchphrase in 'Toy Story'?",
@@ -963,7 +963,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_025",
+      "id": "90s_059",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What city is 'The Blair Witch Project' set in?",
@@ -979,7 +979,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_026",
+      "id": "90s_060",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who played the young Anakin Skywalker in 'The Phantom Menace'?",
@@ -995,7 +995,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_027",
+      "id": "90s_061",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What Robin Williams film involves a board game coming to life?",
@@ -1011,7 +1011,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_028",
+      "id": "90s_062",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1994 film stars Jim Carrey as a man whose life is unknowingly a TV show?",
@@ -1027,7 +1027,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_029",
+      "id": "90s_063",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who directed 'The Sixth Sense'?",
@@ -1043,7 +1043,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_030",
+      "id": "90s_064",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1996 film features a basketball game between the Looney Tunes and aliens?",
@@ -1059,7 +1059,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_031",
+      "id": "90s_065",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "In 'Forrest Gump', what is Forrest's football jersey number at Alabama?",
@@ -1075,7 +1075,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_032",
+      "id": "90s_066",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What actress plays the computer programmer Trinity in 'The Matrix'?",
@@ -1091,7 +1091,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_033",
+      "id": "90s_067",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1998 disaster film features a giant asteroid heading toward Earth?",
@@ -1107,7 +1107,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_034",
+      "id": "90s_068",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who voiced Mufasa in 'The Lion King'?",
@@ -1123,7 +1123,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_035",
+      "id": "90s_069",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1990 film features a young boy befriending gangster Henry Hill?",
@@ -1139,7 +1139,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_036",
+      "id": "90s_070",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1999 film stars Keanu Reeves as Neo Anderson?",
@@ -1155,7 +1155,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_037",
+      "id": "90s_071",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "In 'Scream', what is the name of the fictional town where the murders occur?",
@@ -1171,7 +1171,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_038",
+      "id": "90s_072",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What actor played the Grinch in the 2000 live-action film (filmed in 1999)?",
@@ -1187,7 +1187,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_039",
+      "id": "90s_073",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1995 film features a deadly virus outbreak with Dustin Hoffman?",
@@ -1203,7 +1203,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_040",
+      "id": "90s_074",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who played Obi-Wan Kenobi in 'The Phantom Menace'?",
@@ -1219,7 +1219,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_041",
+      "id": "90s_075",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1996 film stars Tom Cruise as a sports agent?",
@@ -1235,7 +1235,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_042",
+      "id": "90s_076",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "In 'American Pie', what instrument does Jim's character play in the school band?",
@@ -1251,7 +1251,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_043",
+      "id": "90s_077",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1998 film features a soldier saving Private Ryan?",
@@ -1267,7 +1267,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_044",
+      "id": "90s_078",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1997 film features Matt Damon and Ben Affleck as co-writers and stars?",
@@ -1283,7 +1283,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_045",
+      "id": "90s_079",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What sequel to 'Jurassic Park' was released in 1997?",
@@ -1299,7 +1299,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_046",
+      "id": "90s_080",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the name of the villainous toy in 'Toy Story'?",
@@ -1315,7 +1315,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_047",
+      "id": "90s_081",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1993 film stars Robin Williams as a voice actor for a children's TV show?",
@@ -1331,7 +1331,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_048",
+      "id": "90s_082",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What low-budget 1999 horror film was marketed as real found footage?",
@@ -1347,7 +1347,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_049",
+      "id": "90s_083",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the budget of 'The Blair Witch Project'?",
@@ -1363,7 +1363,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_050",
+      "id": "90s_084",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What character does Samuel L. Jackson play in 'Pulp Fiction'?",
@@ -1379,7 +1379,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_051",
+      "id": "90s_085",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What year did 'Toy Story' become the first fully computer-animated feature film?",
@@ -1395,7 +1395,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_052",
+      "id": "90s_086",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who composed the iconic 'Titanic' theme song 'My Heart Will Go On'?",
@@ -1411,7 +1411,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_053",
+      "id": "90s_087",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the name of the AI system in 'The Matrix'?",
@@ -1427,7 +1427,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_054",
+      "id": "90s_088",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "In 'The Sixth Sense', what is Cole Sear's famous line?",
@@ -1443,7 +1443,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_055",
+      "id": "90s_089",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1999 film features Brad Pitt and Edward Norton in an underground fighting ring?",
@@ -1459,7 +1459,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_056",
+      "id": "90s_090",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What actress played Jenny in 'Forrest Gump'?",
@@ -1475,7 +1475,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_057",
+      "id": "90s_091",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the production budget for 'Titanic'?",
@@ -1491,7 +1491,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_058",
+      "id": "90s_092",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What 1996 film features a tornado-chasing team led by Bill Paxton?",
@@ -1507,7 +1507,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_059",
+      "id": "90s_093",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "Who directed 'Good Will Hunting'?",
@@ -1523,7 +1523,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mov_060",
+      "id": "90s_094",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What is the name of the theme park's creator in 'Jurassic Park'?",
@@ -1539,7 +1539,7 @@
       "subtopic": "Movies"
     },
     {
-      "id": "90s_mus_007",
+      "id": "90s_095",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which rapper was known as 2Pac?",
@@ -1555,7 +1555,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_008",
+      "id": "90s_096",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What boy band featured Justin Timberlake?",
@@ -1571,7 +1571,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_009",
+      "id": "90s_097",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was The Notorious B.I.G.'s real name?",
@@ -1587,7 +1587,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_010",
+      "id": "90s_098",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which Spice Girl was known as 'Posh Spice'?",
@@ -1603,7 +1603,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_011",
+      "id": "90s_099",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What music video channel dominated the 90s with shows like TRL?",
@@ -1619,7 +1619,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_012",
+      "id": "90s_100",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What 1997 song by Hanson became a huge hit?",
@@ -1635,7 +1635,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_013",
+      "id": "90s_101",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which female artist had a hit with 'Genie in a Bottle' in 1999?",
@@ -1651,7 +1651,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_014",
+      "id": "90s_102",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was Nirvana's lead singer's name?",
@@ -1667,7 +1667,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_015",
+      "id": "90s_103",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which rapper released the album 'The Chronic' in 1992?",
@@ -1683,7 +1683,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_016",
+      "id": "90s_104",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What 1992 song by Sir Mix-a-Lot celebrated a body part?",
@@ -1699,7 +1699,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_017",
+      "id": "90s_105",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which band released 'Wonderwall' in 1995?",
@@ -1715,7 +1715,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_018",
+      "id": "90s_106",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was TLC's biggest hit from 1994?",
@@ -1731,7 +1731,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_019",
+      "id": "90s_107",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What year did Kurt Cobain die?",
@@ -1747,7 +1747,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_020",
+      "id": "90s_108",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of NSYNC's debut album?",
@@ -1763,7 +1763,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_021",
+      "id": "90s_109",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which Spice Girl left the group in 1998?",
@@ -1779,7 +1779,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_022",
+      "id": "90s_110",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What album did Alanis Morissette win Album of the Year Grammy for in 1996?",
@@ -1795,7 +1795,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_023",
+      "id": "90s_111",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was Tupac Shakur's stage name variation?",
@@ -1811,7 +1811,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_024",
+      "id": "90s_112",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which Backstreet Boys member was the oldest?",
@@ -1827,7 +1827,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_025",
+      "id": "90s_113",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What city is considered the birthplace of grunge music?",
@@ -1843,7 +1843,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_026",
+      "id": "90s_114",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of Nirvana's breakthrough album?",
@@ -1859,7 +1859,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_027",
+      "id": "90s_115",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which R&B group sang 'I'll Make Love to You'?",
@@ -1875,7 +1875,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_028",
+      "id": "90s_116",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the stage name of Marshall Mathers, who debuted in 1999?",
@@ -1891,7 +1891,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_029",
+      "id": "90s_117",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which girl group sang 'No Scrubs' in 1999?",
@@ -1907,7 +1907,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_030",
+      "id": "90s_118",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What year was Tupac Shakur killed?",
@@ -1923,7 +1923,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_031",
+      "id": "90s_119",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What MTV show counted down the top music videos each day?",
@@ -1939,7 +1939,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_032",
+      "id": "90s_120",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which country singer had a hit with 'Man! I Feel Like a Woman!' in 1997?",
@@ -1955,7 +1955,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_033",
+      "id": "90s_121",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What band released the album 'Dookie' in 1994?",
@@ -1971,7 +1971,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_034",
+      "id": "90s_122",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which rapper had a hit with 'Gin and Juice' in 1994?",
@@ -1987,7 +1987,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_035",
+      "id": "90s_123",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was Britney Spears' debut album called?",
@@ -2003,7 +2003,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_036",
+      "id": "90s_124",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which band had a hit with 'Closing Time' in 1998?",
@@ -2019,7 +2019,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_037",
+      "id": "90s_125",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of the Spice Girls' debut album?",
@@ -2035,7 +2035,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_038",
+      "id": "90s_126",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which band released 'Black Hole Sun' in 1994?",
@@ -2051,7 +2051,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_039",
+      "id": "90s_127",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What 1996 song by Los Del Rio became a dance craze?",
@@ -2067,7 +2067,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_040",
+      "id": "90s_128",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which rapper released 'California Love' with Dr. Dre in 1995?",
@@ -2083,7 +2083,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_041",
+      "id": "90s_129",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What band had a hit with 'Semi-Charmed Life' in 1997?",
@@ -2099,7 +2099,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_042",
+      "id": "90s_130",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which girl group formed on a reality TV show in 2000 (late 90s formation)?",
@@ -2115,7 +2115,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_043",
+      "id": "90s_131",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What band released the album 'Ten' in 1991?",
@@ -2131,7 +2131,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_044",
+      "id": "90s_132",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which artist had a #1 hit with 'Vision of Love' in 1990?",
@@ -2147,7 +2147,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_045",
+      "id": "90s_133",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of the Backstreet Boys' first album?",
@@ -2163,7 +2163,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_046",
+      "id": "90s_134",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which band had a hit with 'All Star' in 1999?",
@@ -2179,7 +2179,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_047",
+      "id": "90s_135",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of Radiohead's groundbreaking 1997 album?",
@@ -2195,7 +2195,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_048",
+      "id": "90s_136",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which female rapper had a hit with 'Ladies First' featuring Queen Latifah?",
@@ -2211,7 +2211,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_049",
+      "id": "90s_137",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of the baby on Nirvana's 'Nevermind' album cover?",
@@ -2227,7 +2227,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_050",
+      "id": "90s_138",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which Spice Girl was nicknamed 'Sporty Spice'?",
@@ -2243,7 +2243,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_051",
+      "id": "90s_139",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was NSYNC's best-selling album?",
@@ -2259,7 +2259,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_052",
+      "id": "90s_140",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What year did The Notorious B.I.G. die?",
@@ -2275,7 +2275,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_053",
+      "id": "90s_141",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which Oasis brother was the lead singer?",
@@ -2291,7 +2291,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_054",
+      "id": "90s_142",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of Eminem's 1999 major-label debut album?",
@@ -2307,7 +2307,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_055",
+      "id": "90s_143",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which TLC member died in a car accident in 2002 (but was active in the 90s)?",
@@ -2323,7 +2323,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_056",
+      "id": "90s_144",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of Alanis Morissette's follow-up album to 'Jagged Little Pill'?",
@@ -2339,7 +2339,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_057",
+      "id": "90s_145",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which member of Destiny's Child was replaced before their major success?",
@@ -2355,7 +2355,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_058",
+      "id": "90s_146",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What record label did Tupac Shakur sign with in 1995?",
@@ -2371,7 +2371,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_059",
+      "id": "90s_147",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "What was the name of Green Day's lead singer?",
@@ -2387,7 +2387,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_mus_060",
+      "id": "90s_148",
       "category": "Music",
       "subcategory": "Musicians & Bands",
       "question": "Which boy band was NOT formed in the 1990s?",
@@ -2403,7 +2403,7 @@
       "subtopic": "Music"
     },
     {
-      "id": "90s_tv_007",
+      "id": "90s_149",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What animated series featured a group of babies having adventures?",
@@ -2419,7 +2419,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_008",
+      "id": "90s_150",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What city is 'Friends' set in?",
@@ -2435,10 +2435,10 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_009",
+      "id": "90s_151",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What was the name of the Pok\u00e9mon anime's main character?",
+      "question": "What was the name of the Pokémon anime's main character?",
       "options": [
         "Gary",
         "Brock",
@@ -2451,7 +2451,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_010",
+      "id": "90s_152",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What animated series featured a football-headed kid named Arnold?",
@@ -2467,7 +2467,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_011",
+      "id": "90s_153",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What ABC programming block featured family sitcoms on Friday nights?",
@@ -2483,7 +2483,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_012",
+      "id": "90s_154",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of Ross's pet monkey on 'Friends'?",
@@ -2499,7 +2499,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_013",
+      "id": "90s_155",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Uncle Phil's first name on 'The Fresh Prince of Bel-Air'?",
@@ -2515,7 +2515,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_014",
+      "id": "90s_156",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What animated series featured babies Tommy, Chuckie, and Angelica?",
@@ -2531,7 +2531,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_015",
+      "id": "90s_157",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the teacher in 'Boy Meets World'?",
@@ -2547,7 +2547,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_016",
+      "id": "90s_158",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What network did 'Seinfeld' air on?",
@@ -2563,7 +2563,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_017",
+      "id": "90s_159",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the youngest daughter's name on 'Full House'?",
@@ -2579,7 +2579,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_018",
+      "id": "90s_160",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "How many main characters were in 'Friends'?",
@@ -2595,7 +2595,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_019",
+      "id": "90s_161",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Joey's catchphrase on 'Friends'?",
@@ -2611,7 +2611,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_020",
+      "id": "90s_162",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Kramer's first name on 'Seinfeld'?",
@@ -2627,7 +2627,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_021",
+      "id": "90s_163",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of Cory's best friend on 'Boy Meets World'?",
@@ -2643,7 +2643,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_022",
+      "id": "90s_164",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Uncle Jesse's catchphrase on 'Full House'?",
@@ -2659,7 +2659,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_023",
+      "id": "90s_165",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What year did 'Friends' premiere?",
@@ -2675,7 +2675,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_024",
+      "id": "90s_166",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of Will's butler on 'The Fresh Prince of Bel-Air'?",
@@ -2691,10 +2691,10 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_025",
+      "id": "90s_167",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What Pok\u00e9mon is Ash's main companion?",
+      "question": "What Pokémon is Ash's main companion?",
       "options": [
         "Charizard",
         "Squirtle",
@@ -2707,7 +2707,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_026",
+      "id": "90s_168",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the bully on 'Hey Arnold'?",
@@ -2723,7 +2723,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_027",
+      "id": "90s_169",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the Rugrats' dog?",
@@ -2739,7 +2739,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_028",
+      "id": "90s_170",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What actor played Carlton Banks on 'The Fresh Prince of Bel-Air'?",
@@ -2755,7 +2755,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_029",
+      "id": "90s_171",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Michelle's catchphrase on 'Full House'?",
@@ -2771,7 +2771,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_030",
+      "id": "90s_172",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the school in 'Saved by the Bell'?",
@@ -2787,7 +2787,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_031",
+      "id": "90s_173",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What animated series featured the Pickles family?",
@@ -2803,7 +2803,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_032",
+      "id": "90s_174",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Ross's profession on 'Friends'?",
@@ -2819,7 +2819,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_033",
+      "id": "90s_175",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What NBC programming block competed with ABC's TGIF?",
@@ -2835,7 +2835,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_034",
+      "id": "90s_176",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What animated series featured Doug Funnie?",
@@ -2851,7 +2851,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_035",
+      "id": "90s_177",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the Power Rangers' mentor?",
@@ -2867,7 +2867,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_036",
+      "id": "90s_178",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What year did 'Seinfeld' end?",
@@ -2883,7 +2883,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_037",
+      "id": "90s_179",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the girls' sleepover club on 'Full House'?",
@@ -2899,7 +2899,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_038",
+      "id": "90s_180",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What animated series featured a character named Stu Pickles?",
@@ -2915,7 +2915,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_039",
+      "id": "90s_181",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of Topanga's husband on 'Boy Meets World'?",
@@ -2931,7 +2931,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_040",
+      "id": "90s_182",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of Jerry Seinfeld's neighbor on 'Seinfeld'?",
@@ -2947,7 +2947,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_041",
+      "id": "90s_183",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What animated series featured the character Helga G. Pataki?",
@@ -2963,7 +2963,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_042",
+      "id": "90s_184",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of Rachel's haircut trend from 'Friends'?",
@@ -2979,7 +2979,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_043",
+      "id": "90s_185",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Elaine's last name on 'Seinfeld'?",
@@ -2995,7 +2995,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_044",
+      "id": "90s_186",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the band Uncle Jesse was in on 'Full House'?",
@@ -3011,10 +3011,10 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_045",
+      "id": "90s_187",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What was the name of Ash's rival in the Pok\u00e9mon anime?",
+      "question": "What was the name of Ash's rival in the Pokémon anime?",
       "options": [
         "Paul",
         "Gary",
@@ -3027,7 +3027,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_046",
+      "id": "90s_188",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Chandler Bing's middle name on 'Friends'?",
@@ -3043,7 +3043,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_047",
+      "id": "90s_189",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the comic book store owner on 'Seinfeld'?",
@@ -3059,7 +3059,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_048",
+      "id": "90s_190",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of Cory and Topanga's daughter on 'Boy Meets World'?",
@@ -3075,7 +3075,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_049",
+      "id": "90s_191",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the Rugrats' neighbor who was afraid of everything?",
@@ -3091,7 +3091,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_050",
+      "id": "90s_192",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the Red Power Ranger in the original series?",
@@ -3107,7 +3107,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_051",
+      "id": "90s_193",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Monica's profession on 'Friends'?",
@@ -3123,7 +3123,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_052",
+      "id": "90s_194",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was George Costanza's middle name on 'Seinfeld'?",
@@ -3139,7 +3139,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_053",
+      "id": "90s_195",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the twins on 'Full House'?",
@@ -3155,7 +3155,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_054",
+      "id": "90s_196",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of Arnold's grandpa on 'Hey Arnold'?",
@@ -3171,7 +3171,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tv_055",
+      "id": "90s_197",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was Phoebe's profession on 'Friends'?",
@@ -3187,7 +3187,7 @@
       "subtopic": "TV Shows"
     },
     {
-      "id": "90s_tec_007",
+      "id": "90s_198",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What does 'Y2K' stand for?",
@@ -3203,7 +3203,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_008",
+      "id": "90s_199",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the storage capacity of a standard 3.5-inch floppy disk?",
@@ -3219,7 +3219,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_009",
+      "id": "90s_200",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What company made the iconic Game Boy Color?",
@@ -3235,7 +3235,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_010",
+      "id": "90s_201",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was a popular way to send text messages before smartphones in the 1990s?",
@@ -3251,7 +3251,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_011",
+      "id": "90s_202",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What music file-sharing service launched in 1999?",
@@ -3267,7 +3267,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_012",
+      "id": "90s_203",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What type of disc was commonly used to watch movies in the late 1990s?",
@@ -3283,7 +3283,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_013",
+      "id": "90s_204",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the most popular early web browser in the 1990s?",
@@ -3299,7 +3299,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_014",
+      "id": "90s_205",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What colorful desktop computer did Apple release in 1998?",
@@ -3315,7 +3315,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_015",
+      "id": "90s_206",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What handheld device was known as a PDA (Personal Digital Assistant)?",
@@ -3331,7 +3331,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_016",
+      "id": "90s_207",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the famous slogan AOL users heard when they had mail?",
@@ -3347,7 +3347,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_017",
+      "id": "90s_208",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What did 'CD-ROM' stand for?",
@@ -3363,7 +3363,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_018",
+      "id": "90s_209",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "Which company made the popular Nokia mobile phones of the 1990s?",
@@ -3379,7 +3379,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_019",
+      "id": "90s_210",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year was Windows 98 released?",
@@ -3395,7 +3395,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_020",
+      "id": "90s_211",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the last operating system in the Windows 9x series?",
@@ -3411,7 +3411,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_021",
+      "id": "90s_212",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year did the Nintendo 64 launch in North America?",
@@ -3427,7 +3427,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_022",
+      "id": "90s_213",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was Sega's last home gaming console, released in 1999?",
@@ -3443,7 +3443,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_023",
+      "id": "90s_214",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year was the Game Boy Color released?",
@@ -3459,7 +3459,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_024",
+      "id": "90s_215",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the typical maximum speed of dial-up internet in the late 1990s?",
@@ -3475,7 +3475,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_025",
+      "id": "90s_216",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What company founded by Shawn Fanning created Napster?",
@@ -3491,7 +3491,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_026",
+      "id": "90s_217",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the main concern about the Y2K bug?",
@@ -3507,7 +3507,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_027",
+      "id": "90s_218",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the original color of the iMac G3 when it launched in 1998?",
@@ -3523,7 +3523,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_028",
+      "id": "90s_219",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What company created the Palm Pilot?",
@@ -3539,7 +3539,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_029",
+      "id": "90s_220",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What messaging system did AOL popularize in the 1990s?",
@@ -3555,7 +3555,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_030",
+      "id": "90s_221",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What famous Nokia phone model was known as 'the brick'?",
@@ -3571,7 +3571,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_031",
+      "id": "90s_222",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the storage capacity of a standard CD-ROM?",
@@ -3587,7 +3587,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_032",
+      "id": "90s_223",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What company developed the Netscape Navigator browser?",
@@ -3603,7 +3603,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_033",
+      "id": "90s_224",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What feature did Windows 95 introduce to the Windows interface?",
@@ -3619,7 +3619,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_034",
+      "id": "90s_225",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What portable cassette player was popular before MP3 players?",
@@ -3635,7 +3635,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_035",
+      "id": "90s_226",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year did DVD players first become available to consumers?",
@@ -3651,7 +3651,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_036",
+      "id": "90s_227",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the name of Microsoft's gaming console that was in development in the late 1990s?",
@@ -3667,7 +3667,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_037",
+      "id": "90s_228",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year did the original Tamagotchi launch?",
@@ -3683,7 +3683,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_038",
+      "id": "90s_229",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What technology did the Sega Dreamcast use for game storage?",
@@ -3699,7 +3699,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_039",
+      "id": "90s_230",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the name of the search engine founded by Larry Page and Sergey Brin in 1998?",
@@ -3715,7 +3715,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_040",
+      "id": "90s_231",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What input method did the Palm Pilot use?",
@@ -3731,7 +3731,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_041",
+      "id": "90s_232",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What wireless communication technology for phones became popular in the 1990s?",
@@ -3747,7 +3747,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_042",
+      "id": "90s_233",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the popular Motorola flip phone model released in 1996?",
@@ -3763,7 +3763,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_043",
+      "id": "90s_234",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What email service launched by Microsoft in 1996 became hugely popular?",
@@ -3779,7 +3779,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_044",
+      "id": "90s_235",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the primary format for storing computer data before CD-ROMs became common?",
@@ -3795,7 +3795,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_045",
+      "id": "90s_236",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What video game console accessory allowed you to play games on the go?",
@@ -3811,7 +3811,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_046",
+      "id": "90s_237",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the name of the protocol used for transferring files on the early internet?",
@@ -3827,7 +3827,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_047",
+      "id": "90s_238",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What company did AOL acquire in 1998 for $4.2 billion?",
@@ -3843,7 +3843,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_048",
+      "id": "90s_239",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the first commercially successful portable CD player called?",
@@ -3859,7 +3859,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_049",
+      "id": "90s_240",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What exact date did Windows 95 launch?",
@@ -3875,7 +3875,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_050",
+      "id": "90s_241",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the code name for Windows 95 during development?",
@@ -3891,7 +3891,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_051",
+      "id": "90s_242",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the original launch price of the PlayStation in the US?",
@@ -3907,7 +3907,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_052",
+      "id": "90s_243",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the exact release date of the iMac G3?",
@@ -3923,7 +3923,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_053",
+      "id": "90s_244",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the maximum storage capacity of the Zip drive disks popular in the late 1990s?",
@@ -3939,7 +3939,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_054",
+      "id": "90s_245",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year did Netscape have its historic IPO?",
@@ -3955,7 +3955,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_055",
+      "id": "90s_246",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the processor speed of the original iMac G3?",
@@ -3971,7 +3971,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_056",
+      "id": "90s_247",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the original name of the Palm Pilot when it was first released?",
@@ -3987,7 +3987,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_057",
+      "id": "90s_248",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the code name for Windows 98 during development?",
@@ -4003,7 +4003,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_058",
+      "id": "90s_249",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the first web browser to display images inline with text?",
@@ -4019,7 +4019,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_059",
+      "id": "90s_250",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What year did the Sega Dreamcast launch in Japan?",
@@ -4035,7 +4035,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_tec_060",
+      "id": "90s_251",
       "category": "Technology",
       "subcategory": "Tech Companies",
       "question": "What was the launch price of the Nintendo 64 in the United States?",
@@ -4051,7 +4051,7 @@
       "subtopic": "Technology"
     },
     {
-      "id": "90s_fsh_006",
+      "id": "90s_252",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of jacket made of shiny nylon became popular?",
@@ -4067,7 +4067,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_007",
+      "id": "90s_253",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What one-piece outfit became a casual fashion staple?",
@@ -4083,7 +4083,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_008",
+      "id": "90s_254",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What British brand of boots became synonymous with grunge and punk?",
@@ -4099,7 +4099,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_009",
+      "id": "90s_255",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What small clips shaped like insects were used in hair?",
@@ -4115,7 +4115,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_010",
+      "id": "90s_256",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of hat with a wide brim became trendy?",
@@ -4131,7 +4131,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_011",
+      "id": "90s_257",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of pants had multiple pockets on the sides?",
@@ -4147,7 +4147,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_012",
+      "id": "90s_258",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of hat with only a brim (no top) became popular?",
@@ -4163,7 +4163,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_013",
+      "id": "90s_259",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What hairstyle made popular by Jennifer Aniston on 'Friends'?",
@@ -4179,7 +4179,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_014",
+      "id": "90s_260",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What fashion style was characterized by plaid, ripped jeans, and band tees?",
@@ -4195,7 +4195,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_015",
+      "id": "90s_261",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What fashion style featured oversized jerseys, baggy jeans, and Timberlands?",
@@ -4211,7 +4211,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_016",
+      "id": "90s_262",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of eyewear became trendy in the late 90s?",
@@ -4227,7 +4227,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_017",
+      "id": "90s_263",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What bracelet would slap around your wrist?",
@@ -4243,7 +4243,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_018",
+      "id": "90s_264",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What brand of sneakers became iconic in hip-hop culture?",
@@ -4259,7 +4259,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_019",
+      "id": "90s_265",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What were the colorful, stretchy bracelets popular in the 90s called?",
@@ -4275,7 +4275,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_020",
+      "id": "90s_266",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What shoe brand featured chunky sneakers called Buffalo platforms?",
@@ -4291,7 +4291,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_021",
+      "id": "90s_267",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of dress style was tight and short in the 90s?",
@@ -4307,7 +4307,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_022",
+      "id": "90s_268",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What was the name of the popular brand of platform sneakers?",
@@ -4323,7 +4323,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_023",
+      "id": "90s_269",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of shirt had a turtle-like neck?",
@@ -4339,7 +4339,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_024",
+      "id": "90s_270",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What hair trend involved tiny braids, often with beads?",
@@ -4355,7 +4355,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_025",
+      "id": "90s_271",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What was the popular hair highlighting technique called?",
@@ -4371,7 +4371,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_026",
+      "id": "90s_272",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of pants flared out from the knee down?",
@@ -4387,7 +4387,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_027",
+      "id": "90s_273",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What brand made popular colorful school supplies and stickers?",
@@ -4403,7 +4403,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_028",
+      "id": "90s_274",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of jacket was made of denim?",
@@ -4419,7 +4419,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_029",
+      "id": "90s_275",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What jewelry piece went around the ankle?",
@@ -4435,7 +4435,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_030",
+      "id": "90s_276",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What temporary tattoo brand was extremely popular?",
@@ -4451,7 +4451,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_031",
+      "id": "90s_277",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of shirt featured a midriff cutout?",
@@ -4467,7 +4467,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_032",
+      "id": "90s_278",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What brand of overalls became extremely popular?",
@@ -4483,7 +4483,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_033",
+      "id": "90s_279",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of pants were extremely wide-legged?",
@@ -4499,7 +4499,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_034",
+      "id": "90s_280",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What hairstyle involved pulling hair into two high buns?",
@@ -4515,7 +4515,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_035",
+      "id": "90s_281",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of shirt tied at the front?",
@@ -4531,7 +4531,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_036",
+      "id": "90s_282",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What brand of jeans featured a triangle logo?",
@@ -4547,7 +4547,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_037",
+      "id": "90s_283",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of shoes were colorful and made of foam?",
@@ -4563,7 +4563,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_038",
+      "id": "90s_284",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What accessory was worn on the belt loop and held keys?",
@@ -4579,7 +4579,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_039",
+      "id": "90s_285",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What makeup trend featured brown lip liner with lighter lipstick?",
@@ -4595,7 +4595,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_040",
+      "id": "90s_286",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of bag was small and worn around the waist?",
@@ -4611,7 +4611,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_041",
+      "id": "90s_287",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What was the name of the puffy vest style?",
@@ -4627,7 +4627,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_042",
+      "id": "90s_288",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What hairstyle featured hair crimped into a zigzag pattern?",
@@ -4643,7 +4643,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_043",
+      "id": "90s_289",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What brand of jeans were known for their extreme wide legs?",
@@ -4659,7 +4659,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_044",
+      "id": "90s_290",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What was the name of the zipper-front dresses popular in the 90s?",
@@ -4675,7 +4675,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_045",
+      "id": "90s_291",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What designer became famous for minimalist fashion in the 90s?",
@@ -4691,7 +4691,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_046",
+      "id": "90s_292",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of shoes were called 'Buffalos'?",
@@ -4707,7 +4707,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_047",
+      "id": "90s_293",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What brand was known for its logo-heavy designs in the 90s?",
@@ -4723,7 +4723,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_048",
+      "id": "90s_294",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What was the name of the stretchy headbands worn in the 90s?",
@@ -4739,7 +4739,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_049",
+      "id": "90s_295",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What hairstyle involved bleaching just the tips of hair?",
@@ -4755,7 +4755,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_050",
+      "id": "90s_296",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of shirt featured spaghetti straps?",
@@ -4771,7 +4771,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_051",
+      "id": "90s_297",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What brand of overalls became popular in hip-hop fashion?",
@@ -4787,7 +4787,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_052",
+      "id": "90s_298",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What was the name of the temporary tattoo chokers?",
@@ -4803,7 +4803,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_053",
+      "id": "90s_299",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What type of pants combined denim with another fabric?",
@@ -4819,7 +4819,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_054",
+      "id": "90s_300",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What brand created the iconic platform Spice Girls shoes?",
@@ -4835,7 +4835,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_fsh_055",
+      "id": "90s_301",
       "category": "Art",
       "subcategory": "Fashion",
       "question": "What was the name of the small, rectangular sunglasses?",
@@ -4851,7 +4851,7 @@
       "subtopic": "Fashion & Trends"
     },
     {
-      "id": "90s_spt_006",
+      "id": "90s_302",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What country hosted the 1998 FIFA World Cup?",
@@ -4867,7 +4867,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_007",
+      "id": "90s_303",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was the WWE called in the 90s?",
@@ -4883,7 +4883,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_008",
+      "id": "90s_304",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What era of WWE featured Stone Cold Steve Austin and The Rock?",
@@ -4899,7 +4899,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_009",
+      "id": "90s_305",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What golfer became the youngest Masters champion in 1997?",
@@ -4915,7 +4915,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_010",
+      "id": "90s_306",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "How many championships did the Chicago Bulls win in the 1990s?",
@@ -4931,7 +4931,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_011",
+      "id": "90s_307",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What country won the 1998 FIFA World Cup?",
@@ -4947,7 +4947,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_012",
+      "id": "90s_308",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "Who was Michael Jordan's main teammate on the Bulls?",
@@ -4963,7 +4963,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_013",
+      "id": "90s_309",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team won the most Super Bowls in the 1990s?",
@@ -4979,7 +4979,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_014",
+      "id": "90s_310",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What MLB team won the most World Series in the 1990s?",
@@ -4995,7 +4995,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_015",
+      "id": "90s_311",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What wrestler was known as 'The People's Champion'?",
@@ -5011,7 +5011,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_016",
+      "id": "90s_312",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was Stone Cold Steve Austin's catchphrase?",
@@ -5027,7 +5027,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_017",
+      "id": "90s_313",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "Where were the 1992 Summer Olympics held?",
@@ -5043,7 +5043,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_018",
+      "id": "90s_314",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What year did Tiger Woods win his first Masters?",
@@ -5059,7 +5059,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_019",
+      "id": "90s_315",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "How many championships did Michael Jordan win in his first three-peat?",
@@ -5075,7 +5075,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_020",
+      "id": "90s_316",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What years did Michael Jordan win his second three-peat?",
@@ -5091,7 +5091,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_021",
+      "id": "90s_317",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "Who was the coach of the Chicago Bulls during their 90s dynasty?",
@@ -5107,7 +5107,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_022",
+      "id": "90s_318",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What tennis player dominated women's tennis in the late 90s?",
@@ -5123,7 +5123,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_023",
+      "id": "90s_319",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "Who won the 1994 FIFA World Cup?",
@@ -5139,7 +5139,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_024",
+      "id": "90s_320",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "Where was the 1994 FIFA World Cup held?",
@@ -5155,7 +5155,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_025",
+      "id": "90s_321",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team did Dennis Rodman NOT play for in the 90s?",
@@ -5171,7 +5171,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_026",
+      "id": "90s_322",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team won Super Bowl XXX in 1996?",
@@ -5187,7 +5187,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_027",
+      "id": "90s_323",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team won the 1999 World Series?",
@@ -5203,7 +5203,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_028",
+      "id": "90s_324",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was the name of the 1992 Olympic basketball team?",
@@ -5219,7 +5219,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_029",
+      "id": "90s_325",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What figure skater won gold at the 1998 Winter Olympics?",
@@ -5235,7 +5235,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_030",
+      "id": "90s_326",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team did Shaquille O'Neal join in 1996?",
@@ -5251,7 +5251,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_031",
+      "id": "90s_327",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What wrestler was known as 'The Texas Rattlesnake'?",
@@ -5267,7 +5267,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_032",
+      "id": "90s_328",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What wrestling stable featured Triple H, Shawn Michaels, and others?",
@@ -5283,7 +5283,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_033",
+      "id": "90s_329",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was The Rock's catchphrase?",
@@ -5299,7 +5299,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_034",
+      "id": "90s_330",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What NHL team won the most Stanley Cups in the 90s?",
@@ -5315,7 +5315,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_035",
+      "id": "90s_331",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What year did the Toronto Blue Jays win their first World Series?",
@@ -5331,7 +5331,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_036",
+      "id": "90s_332",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team won Super Bowl XXXIII in 1999?",
@@ -5347,7 +5347,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_037",
+      "id": "90s_333",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What NBA player was known as 'The Admiral'?",
@@ -5363,7 +5363,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_038",
+      "id": "90s_334",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What year did Kerri Strug perform her famous vault on an injured ankle?",
@@ -5379,12 +5379,12 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_039",
+      "id": "90s_335",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What Brazilian soccer player was known for his skill and creativity?",
       "options": [
-        "Pel\u00e9",
+        "Pelé",
         "Ronaldo",
         "Ronaldinho",
         "Rivaldo"
@@ -5395,7 +5395,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_040",
+      "id": "90s_336",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team did John Elway win his Super Bowl championships with?",
@@ -5411,7 +5411,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_041",
+      "id": "90s_337",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What wrestler was known as 'The Heartbreak Kid'?",
@@ -5427,7 +5427,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_042",
+      "id": "90s_338",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team did Brett Favre play for in the 90s?",
@@ -5443,7 +5443,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_043",
+      "id": "90s_339",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was Michael Jordan's jersey number?",
@@ -5459,7 +5459,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_044",
+      "id": "90s_340",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What year did Michael Jordan return from his first retirement?",
@@ -5475,7 +5475,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_045",
+      "id": "90s_341",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was the final score of the 1998 World Cup final?",
@@ -5491,7 +5491,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_046",
+      "id": "90s_342",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team did Scottie Pippen NOT play for in the 90s?",
@@ -5507,7 +5507,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_047",
+      "id": "90s_343",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was Tiger Woods' winning margin at the 1997 Masters?",
@@ -5523,7 +5523,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_048",
+      "id": "90s_344",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was the name of the WCW wrestling stable featuring Hulk Hogan?",
@@ -5539,7 +5539,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_049",
+      "id": "90s_345",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team won the NBA championship in 1994?",
@@ -5555,7 +5555,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_050",
+      "id": "90s_346",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was Dennis Rodman known for besides rebounding?",
@@ -5571,7 +5571,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_051",
+      "id": "90s_347",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team did the Bulls defeat in the 1998 NBA Finals?",
@@ -5587,7 +5587,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_052",
+      "id": "90s_348",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What was the name of the 1998 Winter Olympics host city?",
@@ -5603,7 +5603,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_053",
+      "id": "90s_349",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team won the 1998 World Series?",
@@ -5619,7 +5619,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_054",
+      "id": "90s_350",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What NFL team went undefeated in the regular season in 1972, but their record stood until what team nearly matched it in 2007?",
@@ -5635,7 +5635,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_spt_055",
+      "id": "90s_351",
       "category": "Sports",
       "subcategory": "Sports History & Records",
       "question": "What team did Allen Iverson play for when drafted in 1996?",
@@ -5651,7 +5651,7 @@
       "subtopic": "Sports & Events"
     },
     {
-      "id": "90s_pop_007",
+      "id": "90s_352",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was another brand of virtual pet similar to Tamagotchi?",
@@ -5667,7 +5667,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_008",
+      "id": "90s_353",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What toy featured colorful string that returned to your hand?",
@@ -5683,7 +5683,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_009",
+      "id": "90s_354",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What substance came in a can and made fart noises?",
@@ -5699,7 +5699,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_010",
+      "id": "90s_355",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What flexible bracelet would slap onto your wrist?",
@@ -5715,7 +5715,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_011",
+      "id": "90s_356",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What catchphrase did Bart Simpson popularize?",
@@ -5731,7 +5731,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_012",
+      "id": "90s_357",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What phrase meant something was cool or awesome?",
@@ -5747,7 +5747,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_013",
+      "id": "90s_358",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What phrase did Wayne and Garth say when something was good?",
@@ -5763,7 +5763,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_014",
+      "id": "90s_359",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What Elmo toy became a must-have in 1996?",
@@ -5779,7 +5779,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_015",
+      "id": "90s_360",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the clunky brick-sized cell phones?",
@@ -5795,7 +5795,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_016",
+      "id": "90s_361",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What handheld gaming device was released by Nintendo in 1989 and dominated the 90s?",
@@ -5811,7 +5811,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_017",
+      "id": "90s_362",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the pager system popular in the 90s?",
@@ -5827,7 +5827,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_018",
+      "id": "90s_363",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What were the thick, heavy POG discs called?",
@@ -5843,7 +5843,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_019",
+      "id": "90s_364",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What brand made the most valuable Beanie Babies?",
@@ -5859,7 +5859,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_020",
+      "id": "90s_365",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What Beanie Baby was a purple bear worth thousands?",
@@ -5875,7 +5875,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_021",
+      "id": "90s_366",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What year was the Tamagotchi released?",
@@ -5891,7 +5891,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_022",
+      "id": "90s_367",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What language did Furbies originally speak?",
@@ -5907,7 +5907,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_023",
+      "id": "90s_368",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the Skip-It's counter used for?",
@@ -5923,7 +5923,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_024",
+      "id": "90s_369",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What portable CD player brand became synonymous with the device?",
@@ -5939,7 +5939,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_025",
+      "id": "90s_370",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What phrase meant 'I don't think so'?",
@@ -5955,7 +5955,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_026",
+      "id": "90s_371",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the multicolored metallic substance kids played with?",
@@ -5971,7 +5971,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_027",
+      "id": "90s_372",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What type of stickers were super shiny and collectible?",
@@ -5987,7 +5987,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_028",
+      "id": "90s_373",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What binder brand was essential for school organization?",
@@ -6003,7 +6003,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_029",
+      "id": "90s_374",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the Stretch Armstrong-like octopus toy?",
@@ -6019,7 +6019,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_030",
+      "id": "90s_375",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What gaming console was released by Sony in 1994?",
@@ -6035,7 +6035,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_031",
+      "id": "90s_376",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What Nintendo console was released in 1996?",
@@ -6051,7 +6051,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_032",
+      "id": "90s_377",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What water gun brand dominated the 90s?",
@@ -6067,7 +6067,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_033",
+      "id": "90s_378",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the most popular yo-yo brand in the 90s?",
@@ -6083,7 +6083,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_034",
+      "id": "90s_379",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What toy line featured action figures that could be scanned?",
@@ -6099,12 +6099,12 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_035",
+      "id": "90s_380",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What trading card game was released in 1993?",
       "options": [
-        "Pok\u00e9mon",
+        "Pokémon",
         "Yu-Gi-Oh!",
         "Magic: The Gathering",
         "Digimon"
@@ -6115,7 +6115,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_036",
+      "id": "90s_381",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What instant messaging service launched in 1997?",
@@ -6131,7 +6131,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_037",
+      "id": "90s_382",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the first instant messaging service launched in 1996?",
@@ -6147,7 +6147,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_038",
+      "id": "90s_383",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What phrase did people say to dismiss someone?",
@@ -6163,7 +6163,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_039",
+      "id": "90s_384",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was added to the end of a sentence for sarcasm?",
@@ -6179,7 +6179,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_040",
+      "id": "90s_385",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What phrase did Clueless popularize for being fashionable?",
@@ -6195,7 +6195,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_041",
+      "id": "90s_386",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What color was the most valuable Princess Diana Beanie Baby?",
@@ -6211,7 +6211,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_042",
+      "id": "90s_387",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What year was Tickle Me Elmo released?",
@@ -6227,7 +6227,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_043",
+      "id": "90s_388",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What company created Furby?",
@@ -6243,7 +6243,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_044",
+      "id": "90s_389",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the original color of the Nintendo 64?",
@@ -6259,7 +6259,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_045",
+      "id": "90s_390",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the full name of POG?",
@@ -6275,7 +6275,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_046",
+      "id": "90s_391",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the most expensive Beanie Baby ever sold?",
@@ -6291,7 +6291,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_047",
+      "id": "90s_392",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the Super Soaker's inventor?",
@@ -6307,7 +6307,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_048",
+      "id": "90s_393",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was AIM's full name?",
@@ -6323,7 +6323,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_049",
+      "id": "90s_394",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What year was the original PlayStation released in North America?",
@@ -6339,7 +6339,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_050",
+      "id": "90s_395",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What was the name of the competing virtual pet to Tamagotchi?",
@@ -6355,7 +6355,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_051",
+      "id": "90s_396",
       "category": "Entertainment",
       "subcategory": "TV Shows",
       "question": "What Nickelodeon sketch comedy show featured young performers?",
@@ -6371,7 +6371,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_052",
+      "id": "90s_397",
       "category": "Technology",
       "subcategory": "Internet & Computing",
       "question": "What iconic screeching sound did internet users hear when connecting online?",
@@ -6387,7 +6387,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_053",
+      "id": "90s_398",
       "category": "Entertainment",
       "subcategory": "Movies",
       "question": "What phrase from the movie 'You've Got Mail' became synonymous with email?",
@@ -6403,7 +6403,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_054",
+      "id": "90s_399",
       "category": "Technology",
       "subcategory": "Internet & Computing",
       "question": "What feature on AIM let you tell friends you were away from your computer?",
@@ -6419,7 +6419,7 @@
       "subtopic": "Pop Culture"
     },
     {
-      "id": "90s_pop_055",
+      "id": "90s_400",
       "category": "Entertainment",
       "subcategory": "TV Shows",
       "question": "What orange-themed network dominated kids' TV in the 90s?",

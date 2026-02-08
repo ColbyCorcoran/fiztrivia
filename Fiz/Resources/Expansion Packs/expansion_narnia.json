@@ -31,7 +31,7 @@
   "releaseDate": null,
   "freePreviewQuestions": [
     {
-      "id": "nar_plot_001",
+      "id": "nar_001",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -47,7 +47,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_002",
+      "id": "nar_002",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -63,7 +63,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_003",
+      "id": "nar_003",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -79,7 +79,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_004",
+      "id": "nar_004",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -95,7 +95,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_005",
+      "id": "nar_005",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -111,7 +111,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_006",
+      "id": "nar_006",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -127,7 +127,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_007",
+      "id": "nar_007",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -143,7 +143,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_001",
+      "id": "nar_008",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -159,7 +159,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_002",
+      "id": "nar_009",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -175,7 +175,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_003",
+      "id": "nar_010",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -191,7 +191,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_004",
+      "id": "nar_011",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -207,7 +207,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_005",
+      "id": "nar_012",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -223,7 +223,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_006",
+      "id": "nar_013",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -239,7 +239,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_007",
+      "id": "nar_014",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -255,7 +255,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_001",
+      "id": "nar_015",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -271,7 +271,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_002",
+      "id": "nar_016",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -287,7 +287,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_003",
+      "id": "nar_017",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -303,7 +303,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_004",
+      "id": "nar_018",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -319,7 +319,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_005",
+      "id": "nar_019",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -335,7 +335,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_006",
+      "id": "nar_020",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -351,7 +351,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_002",
+      "id": "nar_021",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -367,7 +367,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_003",
+      "id": "nar_022",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -383,7 +383,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_004",
+      "id": "nar_023",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -399,7 +399,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_006",
+      "id": "nar_024",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -415,7 +415,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_mag_001",
+      "id": "nar_025",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What magical food does the White Witch give Edmund in 'The Lion, the Witch and the Wardrobe'?",
@@ -431,7 +431,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_002",
+      "id": "nar_026",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What piece of furniture serves as the portal to Narnia in 'The Lion, the Witch and the Wardrobe'?",
@@ -447,7 +447,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_005",
+      "id": "nar_027",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What weapon does Peter receive from Father Christmas?",
@@ -463,7 +463,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_006",
+      "id": "nar_028",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Lucy's cordial do?",
@@ -479,7 +479,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_007",
+      "id": "nar_029",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens when Susan blows her horn?",
@@ -495,7 +495,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_the_001",
+      "id": "nar_030",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "In 'The Lion, the Witch and the Wardrobe', what does Aslan primarily symbolize in Christian allegory?",
@@ -511,7 +511,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_002",
+      "id": "nar_031",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What fundamental moral conflict drives the Chronicles of Narnia series?",
@@ -527,7 +527,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_003",
+      "id": "nar_032",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the White Witch's eternal winter represent symbolically?",
@@ -543,7 +543,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_004",
+      "id": "nar_033",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What virtue does Lucy Pevensie primarily embody throughout the series?",
@@ -559,7 +559,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_005",
+      "id": "nar_034",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Edmund's betrayal of his siblings for Turkish Delight symbolize?",
@@ -575,7 +575,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_006",
+      "id": "nar_035",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What Christian concept is represented by Aslan's resurrection after his sacrifice?",
@@ -591,7 +591,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_007",
+      "id": "nar_036",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the wardrobe serve as in 'The Lion, the Witch and the Wardrobe'?",
@@ -607,7 +607,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_plot_008",
+      "id": "nar_037",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -623,7 +623,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_008",
+      "id": "nar_038",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -639,7 +639,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_007",
+      "id": "nar_039",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -655,7 +655,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_007",
+      "id": "nar_040",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -673,7 +673,7 @@
   ],
   "paidQuestions": [
     {
-      "id": "nar_plot_009",
+      "id": "nar_041",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -689,7 +689,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_010",
+      "id": "nar_042",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -705,7 +705,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_011",
+      "id": "nar_043",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -721,7 +721,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_012",
+      "id": "nar_044",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -737,7 +737,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_013",
+      "id": "nar_045",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -753,7 +753,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_014",
+      "id": "nar_046",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -769,7 +769,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_015",
+      "id": "nar_047",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -785,7 +785,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_016",
+      "id": "nar_048",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -801,7 +801,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_017",
+      "id": "nar_049",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -817,7 +817,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_018",
+      "id": "nar_050",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -833,7 +833,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_019",
+      "id": "nar_051",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -849,7 +849,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_020",
+      "id": "nar_052",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -865,7 +865,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_plot_021",
+      "id": "nar_053",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -881,7 +881,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_022",
+      "id": "nar_054",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -897,7 +897,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_023",
+      "id": "nar_055",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -913,7 +913,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_024",
+      "id": "nar_056",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -929,7 +929,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_025",
+      "id": "nar_057",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -945,7 +945,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_026",
+      "id": "nar_058",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -961,7 +961,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_027",
+      "id": "nar_059",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -977,7 +977,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_028",
+      "id": "nar_060",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -993,7 +993,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_029",
+      "id": "nar_061",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1009,7 +1009,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_030",
+      "id": "nar_062",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1025,7 +1025,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_031",
+      "id": "nar_063",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1041,7 +1041,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_032",
+      "id": "nar_064",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1057,7 +1057,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_033",
+      "id": "nar_065",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1073,7 +1073,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_034",
+      "id": "nar_066",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1089,7 +1089,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_035",
+      "id": "nar_067",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1105,7 +1105,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_036",
+      "id": "nar_068",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1121,7 +1121,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_037",
+      "id": "nar_069",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1137,7 +1137,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_038",
+      "id": "nar_070",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1153,7 +1153,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_039",
+      "id": "nar_071",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1169,7 +1169,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_040",
+      "id": "nar_072",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1185,7 +1185,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_041",
+      "id": "nar_073",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1201,7 +1201,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_042",
+      "id": "nar_074",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1217,7 +1217,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_043",
+      "id": "nar_075",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1233,7 +1233,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_044",
+      "id": "nar_076",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1249,7 +1249,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_045",
+      "id": "nar_077",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1265,7 +1265,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_046",
+      "id": "nar_078",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1281,7 +1281,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_047",
+      "id": "nar_079",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1297,7 +1297,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_048",
+      "id": "nar_080",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1313,7 +1313,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_049",
+      "id": "nar_081",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1329,7 +1329,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_050",
+      "id": "nar_082",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1345,7 +1345,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_051",
+      "id": "nar_083",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1361,7 +1361,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_052",
+      "id": "nar_084",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1377,7 +1377,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_053",
+      "id": "nar_085",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1393,7 +1393,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_054",
+      "id": "nar_086",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1409,7 +1409,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_055",
+      "id": "nar_087",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1425,7 +1425,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_plot_056",
+      "id": "nar_088",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1441,7 +1441,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_057",
+      "id": "nar_089",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1457,7 +1457,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_058",
+      "id": "nar_090",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1473,7 +1473,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_059",
+      "id": "nar_091",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1489,7 +1489,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_060",
+      "id": "nar_092",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1505,7 +1505,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_061",
+      "id": "nar_093",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1521,7 +1521,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_062",
+      "id": "nar_094",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1537,7 +1537,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_063",
+      "id": "nar_095",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1553,7 +1553,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_064",
+      "id": "nar_096",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1569,7 +1569,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_065",
+      "id": "nar_097",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1585,7 +1585,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_066",
+      "id": "nar_098",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1601,7 +1601,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_067",
+      "id": "nar_099",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1617,7 +1617,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_068",
+      "id": "nar_100",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1633,7 +1633,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_069",
+      "id": "nar_101",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1649,7 +1649,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_plot_070",
+      "id": "nar_102",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Books & Plot",
       "category": "Literature",
@@ -1665,7 +1665,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_009",
+      "id": "nar_103",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1681,7 +1681,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_010",
+      "id": "nar_104",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1697,7 +1697,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_011",
+      "id": "nar_105",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1713,7 +1713,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_012",
+      "id": "nar_106",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1729,7 +1729,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_013",
+      "id": "nar_107",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1745,7 +1745,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_014",
+      "id": "nar_108",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1761,7 +1761,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_015",
+      "id": "nar_109",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1777,7 +1777,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_016",
+      "id": "nar_110",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1793,7 +1793,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_017",
+      "id": "nar_111",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1809,7 +1809,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_018",
+      "id": "nar_112",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1825,7 +1825,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_019",
+      "id": "nar_113",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1841,7 +1841,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_020",
+      "id": "nar_114",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1857,7 +1857,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_char_021",
+      "id": "nar_115",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1873,7 +1873,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_022",
+      "id": "nar_116",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1889,7 +1889,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_023",
+      "id": "nar_117",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1905,7 +1905,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_024",
+      "id": "nar_118",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1921,7 +1921,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_025",
+      "id": "nar_119",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1937,7 +1937,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_026",
+      "id": "nar_120",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1953,7 +1953,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_027",
+      "id": "nar_121",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1963,13 +1963,13 @@
         "Rhindon",
         "Excalibur",
         "Sting",
-        "And\u00faril"
+        "Andúril"
       ],
       "correct_answer": "Rhindon",
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_028",
+      "id": "nar_122",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -1985,7 +1985,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_029",
+      "id": "nar_123",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2001,7 +2001,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_030",
+      "id": "nar_124",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2017,7 +2017,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_031",
+      "id": "nar_125",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2033,7 +2033,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_032",
+      "id": "nar_126",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2049,7 +2049,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_033",
+      "id": "nar_127",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2065,7 +2065,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_034",
+      "id": "nar_128",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2081,7 +2081,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_035",
+      "id": "nar_129",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2097,7 +2097,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_036",
+      "id": "nar_130",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2113,7 +2113,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_037",
+      "id": "nar_131",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2129,7 +2129,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_038",
+      "id": "nar_132",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2145,7 +2145,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_039",
+      "id": "nar_133",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2161,7 +2161,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_040",
+      "id": "nar_134",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2177,7 +2177,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_041",
+      "id": "nar_135",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2193,7 +2193,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_042",
+      "id": "nar_136",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2209,7 +2209,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_043",
+      "id": "nar_137",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2225,7 +2225,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_044",
+      "id": "nar_138",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2241,7 +2241,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_045",
+      "id": "nar_139",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2257,7 +2257,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_046",
+      "id": "nar_140",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2273,7 +2273,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_047",
+      "id": "nar_141",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2289,7 +2289,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_048",
+      "id": "nar_142",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2305,7 +2305,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_049",
+      "id": "nar_143",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2321,7 +2321,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_050",
+      "id": "nar_144",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2337,7 +2337,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_051",
+      "id": "nar_145",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2353,7 +2353,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_052",
+      "id": "nar_146",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2369,7 +2369,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_053",
+      "id": "nar_147",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2385,7 +2385,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_054",
+      "id": "nar_148",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2401,7 +2401,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_055",
+      "id": "nar_149",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2417,7 +2417,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_char_056",
+      "id": "nar_150",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2433,7 +2433,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_057",
+      "id": "nar_151",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2449,7 +2449,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_058",
+      "id": "nar_152",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2465,7 +2465,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_059",
+      "id": "nar_153",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2481,7 +2481,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_060",
+      "id": "nar_154",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2497,7 +2497,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_061",
+      "id": "nar_155",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2513,7 +2513,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_062",
+      "id": "nar_156",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2529,7 +2529,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_063",
+      "id": "nar_157",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2545,7 +2545,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_064",
+      "id": "nar_158",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2561,7 +2561,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_065",
+      "id": "nar_159",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2577,7 +2577,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_066",
+      "id": "nar_160",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2593,7 +2593,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_067",
+      "id": "nar_161",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2609,7 +2609,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_068",
+      "id": "nar_162",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2625,7 +2625,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_069",
+      "id": "nar_163",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2641,7 +2641,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_char_070",
+      "id": "nar_164",
       "category": "Literature",
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
@@ -2657,7 +2657,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_008",
+      "id": "nar_165",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2673,7 +2673,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_009",
+      "id": "nar_166",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2689,7 +2689,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_010",
+      "id": "nar_167",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2705,7 +2705,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_011",
+      "id": "nar_168",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2721,7 +2721,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_012",
+      "id": "nar_169",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2737,7 +2737,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_013",
+      "id": "nar_170",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2753,7 +2753,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_014",
+      "id": "nar_171",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2769,7 +2769,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_015",
+      "id": "nar_172",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2785,7 +2785,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_016",
+      "id": "nar_173",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2801,7 +2801,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_017",
+      "id": "nar_174",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2817,7 +2817,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_018",
+      "id": "nar_175",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2833,7 +2833,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_019",
+      "id": "nar_176",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2849,7 +2849,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_020",
+      "id": "nar_177",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2865,7 +2865,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_loc_021",
+      "id": "nar_178",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2881,7 +2881,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_022",
+      "id": "nar_179",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2897,7 +2897,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_023",
+      "id": "nar_180",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2913,7 +2913,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_024",
+      "id": "nar_181",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2929,7 +2929,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_025",
+      "id": "nar_182",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2945,7 +2945,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_026",
+      "id": "nar_183",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2961,7 +2961,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_027",
+      "id": "nar_184",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2977,7 +2977,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_028",
+      "id": "nar_185",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -2993,7 +2993,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_029",
+      "id": "nar_186",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3009,7 +3009,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_030",
+      "id": "nar_187",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3025,7 +3025,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_031",
+      "id": "nar_188",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3041,7 +3041,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_032",
+      "id": "nar_189",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3057,7 +3057,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_033",
+      "id": "nar_190",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3073,7 +3073,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_034",
+      "id": "nar_191",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3089,7 +3089,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_035",
+      "id": "nar_192",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3105,7 +3105,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_036",
+      "id": "nar_193",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3121,7 +3121,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_037",
+      "id": "nar_194",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3137,7 +3137,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_038",
+      "id": "nar_195",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3153,7 +3153,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_039",
+      "id": "nar_196",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3169,7 +3169,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_040",
+      "id": "nar_197",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3185,7 +3185,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_041",
+      "id": "nar_198",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3201,7 +3201,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_042",
+      "id": "nar_199",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3217,7 +3217,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_043",
+      "id": "nar_200",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3233,7 +3233,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_044",
+      "id": "nar_201",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3249,7 +3249,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_045",
+      "id": "nar_202",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3265,7 +3265,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_046",
+      "id": "nar_203",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3281,7 +3281,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_047",
+      "id": "nar_204",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3297,7 +3297,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_048",
+      "id": "nar_205",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3313,7 +3313,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_049",
+      "id": "nar_206",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3329,7 +3329,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_050",
+      "id": "nar_207",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3345,7 +3345,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_loc_051",
+      "id": "nar_208",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3361,7 +3361,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_052",
+      "id": "nar_209",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3377,7 +3377,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_053",
+      "id": "nar_210",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3393,7 +3393,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_054",
+      "id": "nar_211",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3409,7 +3409,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_055",
+      "id": "nar_212",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3425,7 +3425,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_056",
+      "id": "nar_213",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3441,7 +3441,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_057",
+      "id": "nar_214",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3457,7 +3457,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_058",
+      "id": "nar_215",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3473,7 +3473,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_059",
+      "id": "nar_216",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3489,7 +3489,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_060",
+      "id": "nar_217",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3505,7 +3505,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_061",
+      "id": "nar_218",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3521,7 +3521,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_062",
+      "id": "nar_219",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3537,7 +3537,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_063",
+      "id": "nar_220",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3553,7 +3553,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_064",
+      "id": "nar_221",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3569,7 +3569,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_loc_065",
+      "id": "nar_222",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Locations & Worlds",
       "category": "Literature",
@@ -3585,7 +3585,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_008",
+      "id": "nar_223",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3601,7 +3601,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_009",
+      "id": "nar_224",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3617,7 +3617,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_010",
+      "id": "nar_225",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3633,7 +3633,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_011",
+      "id": "nar_226",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3649,7 +3649,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_012",
+      "id": "nar_227",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3665,7 +3665,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_013",
+      "id": "nar_228",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3681,7 +3681,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_014",
+      "id": "nar_229",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3697,7 +3697,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_015",
+      "id": "nar_230",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3713,7 +3713,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_016",
+      "id": "nar_231",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3729,7 +3729,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_017",
+      "id": "nar_232",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3745,7 +3745,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_018",
+      "id": "nar_233",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3761,7 +3761,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_019",
+      "id": "nar_234",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3777,7 +3777,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_020",
+      "id": "nar_235",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3793,7 +3793,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_021",
+      "id": "nar_236",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3809,7 +3809,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_022",
+      "id": "nar_237",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3825,7 +3825,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_023",
+      "id": "nar_238",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3841,7 +3841,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_024",
+      "id": "nar_239",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3857,7 +3857,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_025",
+      "id": "nar_240",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3873,7 +3873,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_026",
+      "id": "nar_241",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3889,7 +3889,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_027",
+      "id": "nar_242",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3905,7 +3905,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_028",
+      "id": "nar_243",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3921,7 +3921,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_029",
+      "id": "nar_244",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3937,7 +3937,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_030",
+      "id": "nar_245",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3953,7 +3953,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_031",
+      "id": "nar_246",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3969,7 +3969,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_032",
+      "id": "nar_247",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -3985,7 +3985,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_033",
+      "id": "nar_248",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4001,7 +4001,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_034",
+      "id": "nar_249",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4017,7 +4017,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_035",
+      "id": "nar_250",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4033,7 +4033,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_036",
+      "id": "nar_251",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4049,7 +4049,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_037",
+      "id": "nar_252",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4065,7 +4065,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_038",
+      "id": "nar_253",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4081,7 +4081,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_039",
+      "id": "nar_254",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4097,7 +4097,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_040",
+      "id": "nar_255",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4113,7 +4113,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_041",
+      "id": "nar_256",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4129,7 +4129,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_042",
+      "id": "nar_257",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4145,7 +4145,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_043",
+      "id": "nar_258",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4161,7 +4161,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_044",
+      "id": "nar_259",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4177,7 +4177,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_045",
+      "id": "nar_260",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4193,7 +4193,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_046",
+      "id": "nar_261",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4209,7 +4209,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_047",
+      "id": "nar_262",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4225,7 +4225,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_048",
+      "id": "nar_263",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4241,7 +4241,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_049",
+      "id": "nar_264",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4257,7 +4257,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_050",
+      "id": "nar_265",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4273,7 +4273,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "nar_cre_051",
+      "id": "nar_266",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4289,7 +4289,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_052",
+      "id": "nar_267",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4305,7 +4305,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_053",
+      "id": "nar_268",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4321,7 +4321,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_054",
+      "id": "nar_269",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4337,7 +4337,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_055",
+      "id": "nar_270",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4353,7 +4353,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_056",
+      "id": "nar_271",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4369,7 +4369,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_057",
+      "id": "nar_272",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4385,7 +4385,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_058",
+      "id": "nar_273",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4401,7 +4401,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_059",
+      "id": "nar_274",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4417,7 +4417,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_060",
+      "id": "nar_275",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4433,7 +4433,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_061",
+      "id": "nar_276",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4449,7 +4449,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_062",
+      "id": "nar_277",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4465,7 +4465,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_063",
+      "id": "nar_278",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4481,7 +4481,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_064",
+      "id": "nar_279",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4497,7 +4497,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_cre_065",
+      "id": "nar_280",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -4513,7 +4513,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "nar_mag_009",
+      "id": "nar_281",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What color are the rings that transport Digory and Polly between worlds in 'The Magician's Nephew'?",
@@ -4529,7 +4529,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_010",
+      "id": "nar_282",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What magical word does Jadis speak that destroys Charn?",
@@ -4545,7 +4545,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_011",
+      "id": "nar_283",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What fruit does Digory bring back to heal his mother?",
@@ -4561,7 +4561,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_012",
+      "id": "nar_284",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What object does the Lady of the Green Kirtle use to enchant Prince Rilian?",
@@ -4577,7 +4577,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_013",
+      "id": "nar_285",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the White Witch use to turn creatures to stone?",
@@ -4593,7 +4593,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_014",
+      "id": "nar_286",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What book does Lucy find on the Dufflepuds' island in 'The Voyage of the Dawn Treader'?",
@@ -4609,7 +4609,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_015",
+      "id": "nar_287",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to Eustace when he touches enchanted treasure?",
@@ -4625,7 +4625,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_016",
+      "id": "nar_288",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the Stone Table in 'The Lion, the Witch and the Wardrobe'?",
@@ -4641,7 +4641,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_017",
+      "id": "nar_289",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What protects Narnia in 'The Magician's Nephew'?",
@@ -4657,7 +4657,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_018",
+      "id": "nar_290",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Father Christmas tell Peter about his sword?",
@@ -4673,7 +4673,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_019",
+      "id": "nar_291",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What instrument does Tumnus the faun play to enchant Lucy?",
@@ -4689,7 +4689,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_020",
+      "id": "nar_292",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the source of the Turkish Delight's power over Edmund?",
@@ -4705,7 +4705,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_021",
+      "id": "nar_293",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What do the yellow rings do in 'The Magician's Nephew'?",
@@ -4721,7 +4721,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_022",
+      "id": "nar_294",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What do the green rings do in 'The Magician's Nephew'?",
@@ -4737,7 +4737,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_023",
+      "id": "nar_295",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is special about the Wood between the Worlds?",
@@ -4753,7 +4753,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_024",
+      "id": "nar_296",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What name is inscribed on Peter's sword?",
@@ -4769,7 +4769,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_025",
+      "id": "nar_297",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the name of Peter's shield?",
@@ -4785,7 +4785,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_026",
+      "id": "nar_298",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the inscription on the golden gates in the garden where Digory finds the apple?",
@@ -4801,7 +4801,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_027",
+      "id": "nar_299",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to the Stone Table after Aslan's resurrection?",
@@ -4817,7 +4817,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_028",
+      "id": "nar_300",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the name of the knife used to kill Aslan?",
@@ -4833,7 +4833,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_029",
+      "id": "nar_301",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What was the Stone Knife originally used for?",
@@ -4849,7 +4849,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_030",
+      "id": "nar_302",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What magical property does Aslan's Table have in 'The Voyage of the Dawn Treader'?",
@@ -4865,7 +4865,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_031",
+      "id": "nar_303",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to those who touch the water of the pool in Deathwater Island?",
@@ -4881,7 +4881,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_032",
+      "id": "nar_304",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Lucy use from the magician's book to make the Dufflepuds visible?",
@@ -4897,7 +4897,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_033",
+      "id": "nar_305",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What object does the Lady of the Green Kirtle throw on the fire to enchant the travelers?",
@@ -4913,7 +4913,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_034",
+      "id": "nar_306",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What musical instrument does the Lady of the Green Kirtle use in her enchantment?",
@@ -4929,7 +4929,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_035",
+      "id": "nar_307",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to Prince Rilian when he sits in the Silver Chair?",
@@ -4945,7 +4945,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_036",
+      "id": "nar_308",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What are the signs Aslan gives to Jill in 'The Silver Chair'?",
@@ -4961,7 +4961,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_037",
+      "id": "nar_309",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the wardrobe made from?",
@@ -4977,7 +4977,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_038",
+      "id": "nar_310",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "Who made the wardrobe that leads to Narnia?",
@@ -4993,7 +4993,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_039",
+      "id": "nar_311",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to the rings after the children return from Narnia in 'The Magician's Nephew'?",
@@ -5009,7 +5009,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_040",
+      "id": "nar_312",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the effect of reading the Deplorable Word?",
@@ -5025,7 +5025,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_041",
+      "id": "nar_313",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Father Christmas warn Susan about using her gifts?",
@@ -5041,7 +5041,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_042",
+      "id": "nar_314",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is special about the water from the Last Sea?",
@@ -5057,7 +5057,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_043",
+      "id": "nar_315",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to the Dark Island in 'The Voyage of the Dawn Treader'?",
@@ -5073,7 +5073,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_044",
+      "id": "nar_316",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What magical property do the seven lords' swords have at Aslan's Table?",
@@ -5089,7 +5089,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_045",
+      "id": "nar_317",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What spell does Lucy almost read that would make her beautiful?",
@@ -5105,7 +5105,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_046",
+      "id": "nar_318",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What warning does Aslan give about the beauty spell?",
@@ -5121,7 +5121,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_047",
+      "id": "nar_319",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens when the Silver Chair is destroyed?",
@@ -5137,7 +5137,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_048",
+      "id": "nar_320",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What form does the Lady of the Green Kirtle take when threatened?",
@@ -5153,7 +5153,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_049",
+      "id": "nar_321",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the significance of the Deep Magic from the Dawn of Time?",
@@ -5169,7 +5169,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_050",
+      "id": "nar_322",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the Deeper Magic from Before the Dawn of Time?",
@@ -5185,7 +5185,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_051",
+      "id": "nar_323",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Uncle Andrew use to create the magic rings?",
@@ -5201,7 +5201,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_052",
+      "id": "nar_324",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to the pool of water that turns things to gold?",
@@ -5217,7 +5217,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_053",
+      "id": "nar_325",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the prophecy about Caspian's voyage in 'The Voyage of the Dawn Treader'?",
@@ -5233,7 +5233,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_054",
+      "id": "nar_326",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What breaks the enchantment in the Lady of the Green Kirtle's underground realm?",
@@ -5249,7 +5249,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_055",
+      "id": "nar_327",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the only way to wake the three sleeping lords at Aslan's Table?",
@@ -5265,7 +5265,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_056",
+      "id": "nar_328",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "Who stays at the End of the World in 'The Voyage of the Dawn Treader'?",
@@ -5281,7 +5281,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_057",
+      "id": "nar_329",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the fourth sign Aslan gives to Jill in 'The Silver Chair'?",
@@ -5297,7 +5297,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_058",
+      "id": "nar_330",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What material is Lucy's cordial bottle made of?",
@@ -5313,7 +5313,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_059",
+      "id": "nar_331",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to Susan's horn after 'The Lion, the Witch and the Wardrobe'?",
@@ -5329,7 +5329,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_060",
+      "id": "nar_332",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What inscription is on the apple tree in the garden?",
@@ -5345,7 +5345,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_061",
+      "id": "nar_333",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What would have happened if Digory had stolen the apple for himself?",
@@ -5361,7 +5361,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_062",
+      "id": "nar_334",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the consequence of the Deeper Magic from Before the Dawn of Time?",
@@ -5377,7 +5377,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_063",
+      "id": "nar_335",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What spell does Lucy read that shows her what her friends really think?",
@@ -5393,7 +5393,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_064",
+      "id": "nar_336",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What happens to the gifts from Father Christmas after the Pevensies leave Narnia the first time?",
@@ -5409,7 +5409,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_mag_065",
+      "id": "nar_337",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is the purpose of the dark island where nightmares come true?",
@@ -5425,7 +5425,7 @@
       "subtopic": "Magic & Objects"
     },
     {
-      "id": "nar_the_008",
+      "id": "nar_338",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What major theme is explored through the Pevensie children's growth in Narnia?",
@@ -5441,7 +5441,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_009",
+      "id": "nar_339",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Aslan's sacrifice on the Stone Table represent in Christian allegory?",
@@ -5457,7 +5457,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_010",
+      "id": "nar_340",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What virtue is most associated with Peter Pevensie's character?",
@@ -5473,7 +5473,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_011",
+      "id": "nar_341",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the return of spring to Narnia symbolize?",
@@ -5489,7 +5489,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_012",
+      "id": "nar_342",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is a central theme explored through Edmund's journey in 'The Lion, the Witch and the Wardrobe'?",
@@ -5505,7 +5505,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_013",
+      "id": "nar_343",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Aslan's breath in the series often symbolize?",
@@ -5521,7 +5521,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_014",
+      "id": "nar_344",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What quality does Susan Pevensie lose in 'The Last Battle' that prevents her from returning to Narnia?",
@@ -5537,7 +5537,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_015",
+      "id": "nar_345",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the creation of Narnia in 'The Magician's Nephew' through Aslan's song represent?",
@@ -5553,7 +5553,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_016",
+      "id": "nar_346",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theme is explored through Eustace's transformation into a dragon in 'The Voyage of the Dawn Treader'?",
@@ -5569,7 +5569,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_017",
+      "id": "nar_347",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Aslan represent to the creatures of Narnia?",
@@ -5585,7 +5585,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_018",
+      "id": "nar_348",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What virtue is tested when the children must choose to believe Lucy about Narnia?",
@@ -5601,7 +5601,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_019",
+      "id": "nar_349",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the lamppost in Narnia symbolize?",
@@ -5617,7 +5617,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_020",
+      "id": "nar_350",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What is a recurring theme regarding leadership in the Chronicles of Narnia?",
@@ -5633,7 +5633,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_021",
+      "id": "nar_351",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the Deep Magic from the Dawn of Time represent in the allegory?",
@@ -5649,7 +5649,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_022",
+      "id": "nar_352",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "In 'The Horse and His Boy', what does Shasta's journey from slavery to prince symbolize?",
@@ -5665,7 +5665,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_023",
+      "id": "nar_353",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the Deeper Magic from Before the Dawn of Time symbolize?",
@@ -5681,7 +5681,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_024",
+      "id": "nar_354",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What moral lesson is central to Eustace's character arc in 'The Voyage of the Dawn Treader'?",
@@ -5697,7 +5697,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_025",
+      "id": "nar_355",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Prince Caspian's struggle to reclaim his throne represent thematically?",
@@ -5713,7 +5713,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_026",
+      "id": "nar_356",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Jadis eating the silver apple in 'The Magician's Nephew' symbolize?",
@@ -5729,7 +5729,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_027",
+      "id": "nar_357",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theme is explored through Aravis's journey in 'The Horse and His Boy'?",
@@ -5745,7 +5745,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_028",
+      "id": "nar_358",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the Pevensie children's inability to return to Narnia as adults symbolize?",
@@ -5761,7 +5761,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_029",
+      "id": "nar_359",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "In 'The Silver Chair', what does Puddleglum's resistance to the Green Witch's enchantment demonstrate?",
@@ -5777,7 +5777,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_030",
+      "id": "nar_360",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Reepicheep's quest to reach Aslan's country represent?",
@@ -5793,7 +5793,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_031",
+      "id": "nar_361",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What moral failing does Uncle Andrew represent in 'The Magician's Nephew'?",
@@ -5809,7 +5809,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_032",
+      "id": "nar_362",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the gift of Father Christmas's gifts to the children symbolize?",
@@ -5825,7 +5825,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_033",
+      "id": "nar_363",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theme is central to Digory's moral test with the apple in 'The Magician's Nephew'?",
@@ -5841,7 +5841,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_034",
+      "id": "nar_364",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the destruction and recreation of Narnia in 'The Last Battle' represent?",
@@ -5857,7 +5857,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_035",
+      "id": "nar_365",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Jill's failure to remember Aslan's signs in 'The Silver Chair' teach about?",
@@ -5873,7 +5873,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_036",
+      "id": "nar_366",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the stable in 'The Last Battle' symbolize?",
@@ -5889,7 +5889,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_037",
+      "id": "nar_367",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Aslan's statement 'Once a king or queen in Narnia, always a king or queen' suggest thematically?",
@@ -5905,7 +5905,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_038",
+      "id": "nar_368",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What moral lesson does Rabadash's transformation into a donkey in 'The Horse and His Boy' illustrate?",
@@ -5921,7 +5921,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_039",
+      "id": "nar_369",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Lucy's cordial (healing potion) symbolize in the series?",
@@ -5937,7 +5937,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_040",
+      "id": "nar_370",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theme is explored through the dwarfs' refusal to believe in 'The Last Battle'?",
@@ -5953,7 +5953,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_041",
+      "id": "nar_371",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the character of Shift the Ape represent in 'The Last Battle'?",
@@ -5969,7 +5969,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_042",
+      "id": "nar_372",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the Island of Dreams in 'The Voyage of the Dawn Treader' where nightmares come true represent?",
@@ -5985,7 +5985,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_043",
+      "id": "nar_373",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Aslan's growing appearance (sometimes tame, sometimes terrifying) suggest about divinity?",
@@ -6001,7 +6001,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_044",
+      "id": "nar_374",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theme is illustrated by the Pevensies discovering they've grown up in Narnia but return as children?",
@@ -6017,7 +6017,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_045",
+      "id": "nar_375",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Polly and Digory's friendship in 'The Magician's Nephew' demonstrate about gender roles in Lewis's themes?",
@@ -6033,7 +6033,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_046",
+      "id": "nar_376",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the decay of Charn in 'The Magician's Nephew' symbolize?",
@@ -6049,7 +6049,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_047",
+      "id": "nar_377",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What lesson about leadership is taught through King Tirian in 'The Last Battle'?",
@@ -6065,7 +6065,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_048",
+      "id": "nar_378",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Emeth's acceptance into Aslan's country despite serving Tash suggest about C.S. Lewis's theology?",
@@ -6081,7 +6081,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_049",
+      "id": "nar_379",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the Stone Knife used on Aslan symbolize in Christian allegory?",
@@ -6097,7 +6097,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_050",
+      "id": "nar_380",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theme is explored through the Calormenes' worship of Tash versus the Narnians' faith in Aslan?",
@@ -6113,7 +6113,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_051",
+      "id": "nar_381",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "How does C.S. Lewis use the character of Susan Pevensie to explore the theme of apostasy?",
@@ -6129,7 +6129,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_052",
+      "id": "nar_382",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theological concept is represented by Aslan being present in both Narnia and our world under different names?",
@@ -6145,7 +6145,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_053",
+      "id": "nar_383",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What complex moral theme is explored through Edmund's punishment being taken by Aslan?",
@@ -6161,7 +6161,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_054",
+      "id": "nar_384",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What paradox does Lewis explore through the 'further up and further in' concept in 'The Last Battle'?",
@@ -6177,7 +6177,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_055",
+      "id": "nar_385",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does the 'shadowlands' concept in 'The Last Battle' suggest about the relationship between earthly life and heaven?",
@@ -6193,7 +6193,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_056",
+      "id": "nar_386",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theological principle is illustrated by the breaking of the Stone Table after Aslan's resurrection?",
@@ -6209,7 +6209,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_057",
+      "id": "nar_387",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "How does Lewis use the Wood between the Worlds in 'The Magician's Nephew' to explore metaphysical concepts?",
@@ -6225,7 +6225,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_058",
+      "id": "nar_388",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What complex theme about free will is explored through the characters who choose evil in the series?",
@@ -6241,7 +6241,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_059",
+      "id": "nar_389",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Aslan's statement that he was the one bringing characters to Narnia through all their trials suggest about providence?",
@@ -6257,7 +6257,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_060",
+      "id": "nar_390",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What eschatological theme is central to 'The Last Battle's' narrative structure?",
@@ -6273,7 +6273,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_061",
+      "id": "nar_391",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "How does Lewis use the Deplorable Word in 'The Magician's Nephew' to comment on modern warfare?",
@@ -6289,7 +6289,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_062",
+      "id": "nar_392",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What does Aslan's increasing size as the children grow older symbolize in the series?",
@@ -6305,7 +6305,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_063",
+      "id": "nar_393",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What theological concept does Lewis explore through different characters seeing different things in the Stable in 'The Last Battle'?",
@@ -6321,7 +6321,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_064",
+      "id": "nar_394",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "What complex theme about death is explored through the train accident in 'The Last Battle'?",
@@ -6337,7 +6337,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_the_065",
+      "id": "nar_395",
       "category": "Literature",
       "subcategory": "Fantasy",
       "question": "How does Lewis use the relationship between Narnia time and Earth time to explore theological concepts about eternity?",
@@ -6353,7 +6353,7 @@
       "subtopic": "Themes & Symbolism"
     },
     {
-      "id": "nar_cre_066",
+      "id": "nar_396",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -6369,7 +6369,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_cre_067",
+      "id": "nar_397",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Creatures & Beings",
       "category": "Literature",
@@ -6385,7 +6385,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_mag_066",
+      "id": "nar_398",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Magic & Objects",
       "category": "Literature",
@@ -6401,7 +6401,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_mag_067",
+      "id": "nar_399",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Magic & Objects",
       "category": "Literature",
@@ -6417,7 +6417,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "nar_mag_068",
+      "id": "nar_400",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Magic & Objects",
       "category": "Literature",

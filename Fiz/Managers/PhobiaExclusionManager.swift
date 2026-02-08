@@ -1,20 +1,5 @@
 import Foundation
 
-// MARK: - Phobia Data Model
-struct Phobia: Codable, Identifiable, Equatable {
-    let id: String
-    let term: String                      // User-entered phobia term (e.g., "snakes")
-    var excludedQuestionIds: Set<String>  // IDs of questions to exclude
-    let dateAdded: Date
-
-    init(term: String, excludedQuestionIds: Set<String> = []) {
-        self.id = UUID().uuidString
-        self.term = term
-        self.excludedQuestionIds = excludedQuestionIds
-        self.dateAdded = Date()
-    }
-}
-
 // MARK: - Phobia Exclusion Manager
 class PhobiaExclusionManager: ObservableObject {
     private static let phobiasKey = "user_phobias"

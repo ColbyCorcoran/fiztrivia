@@ -90,18 +90,3 @@ class WhatsNewManager: ObservableObject {
         checkForNewVersion()
     }
 }
-
-// MARK: - What's New Models
-struct WhatsNewUpdate: Identifiable {
-    let id = UUID()
-    let version: String
-    let title: String
-    let features: [WhatsNewFeature]
-}
-
-struct WhatsNewFeature: Identifiable {
-    let id = UUID()
-    let icon: String
-    let title: String
-    let description: String
-}

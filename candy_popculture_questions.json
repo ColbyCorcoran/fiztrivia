@@ -1,0 +1,802 @@
+[
+  {
+    "id": "cnd_pop_001",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In the movie 'E.T. the Extra-Terrestrial', which candy was famously used to lure E.T.?",
+    "options": [
+      "Skittles",
+      "Reese's Pieces",
+      "M&M's",
+      "Smarties"
+    ],
+    "correct_answer": "Reese's Pieces",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_002",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy brand uses the slogan 'Melts in your mouth, not in your hand'?",
+    "options": [
+      "Skittles",
+      "Smarties",
+      "M&M's",
+      "Reese's Pieces"
+    ],
+    "correct_answer": "M&M's",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_003",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the slogan for Skittles candy?",
+    "options": [
+      "Taste the rainbow",
+      "Feel the joy",
+      "Share the happiness",
+      "Experience the burst"
+    ],
+    "correct_answer": "Taste the rainbow",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_004",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In the movie 'Elf', what does Buddy the Elf claim are the four main food groups?",
+    "options": [
+      "Candy, candy canes, candy corns, and syrup",
+      "Chocolate, gummies, lollipops, and marshmallows",
+      "Sugar, sweets, treats, and candy",
+      "Cookies, candy, cake, and ice cream"
+    ],
+    "correct_answer": "Candy, candy canes, candy corns, and syrup",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_005",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which mobile game featuring candy became a global phenomenon in 2012?",
+    "options": [
+      "Candy Quest",
+      "Sweet Saga",
+      "Candy Crush Saga",
+      "Sugar Rush"
+    ],
+    "correct_answer": "Candy Crush Saga",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_006",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the name of the owl mascot famous for asking 'How many licks does it take to get to the center of a Tootsie Pop?'",
+    "options": [
+      "Mr. Owl",
+      "Professor Owl",
+      "Wise Owl",
+      "Tootsie Owl"
+    ],
+    "correct_answer": "Mr. Owl",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_007",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the name of the Lucky Charms cereal mascot?",
+    "options": [
+      "Lucky the Leprechaun",
+      "Charlie the Leprechaun",
+      "Patrick the Leprechaun",
+      "Clover the Leprechaun"
+    ],
+    "correct_answer": "Lucky the Leprechaun",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_008",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which classic film features a chocolate factory owned by Willy Wonka?",
+    "options": [
+      "Charlie and the Chocolate Factory",
+      "The Sweet Shop",
+      "Candy Land",
+      "The Sugar Factory"
+    ],
+    "correct_answer": "Charlie and the Chocolate Factory",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_009",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What candy bar is featured in the Kit Kat slogan 'Give me a break'?",
+    "options": [
+      "Twix",
+      "Kit Kat",
+      "Snickers",
+      "Crunch"
+    ],
+    "correct_answer": "Kit Kat",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_010",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy brand uses the slogan 'You're not you when you're hungry'?",
+    "options": [
+      "Milky Way",
+      "Snickers",
+      "Mars",
+      "Twix"
+    ],
+    "correct_answer": "Snickers",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_011",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What color M&M mascot is known for being the 'cool' one who wears sunglasses?",
+    "options": [
+      "Red",
+      "Blue",
+      "Yellow",
+      "Green"
+    ],
+    "correct_answer": "Blue",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_012",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy's advertising slogan is 'Get the sensation'?",
+    "options": [
+      "York Peppermint Pattie",
+      "Junior Mints",
+      "Andes Mints",
+      "After Eight"
+    ],
+    "correct_answer": "York Peppermint Pattie",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_013",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What candy is known for the slogan 'Two for me, none for you'?",
+    "options": [
+      "Kit Kat",
+      "Reese's",
+      "Twix",
+      "Milky Way"
+    ],
+    "correct_answer": "Twix",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_014",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In Willy Wonka's factory, what type of candy was used to create a river?",
+    "options": [
+      "Caramel",
+      "Chocolate",
+      "Butterscotch",
+      "Fudge"
+    ],
+    "correct_answer": "Chocolate",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_015",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy brand features the tagline 'There's no wrong way to eat a...'?",
+    "options": [
+      "Twix",
+      "Kit Kat",
+      "Reese's",
+      "Snickers"
+    ],
+    "correct_answer": "Reese's",
+    "difficulty": "easy",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_016",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What year was the mobile game Candy Crush Saga released?",
+    "options": [
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "correct_answer": "2012",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_017",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which actor played Willy Wonka in the 2005 film 'Charlie and the Chocolate Factory'?",
+    "options": [
+      "Gene Wilder",
+      "Johnny Depp",
+      "Tim Burton",
+      "Jim Carrey"
+    ],
+    "correct_answer": "Johnny Depp",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_018",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What was the original name of Starburst candy when it was first introduced in the UK?",
+    "options": [
+      "Star Chews",
+      "Opal Fruits",
+      "Rainbow Bites",
+      "Fruit Burst"
+    ],
+    "correct_answer": "Opal Fruits",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_019",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In the Tootsie Pop commercial, how many licks does Mr. Owl say it takes to get to the center?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct_answer": "Three",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_020",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy brand's commercials famously featured the phrase 'Nobody better lay a finger on my...'?",
+    "options": [
+      "Baby Ruth",
+      "Butterfinger",
+      "100 Grand",
+      "PayDay"
+    ],
+    "correct_answer": "Butterfinger",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_021",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What color is the Red M&M mascot's personality often described as?",
+    "options": [
+      "Sarcastic and cynical",
+      "Happy and cheerful",
+      "Nervous and anxious",
+      "Cool and collected"
+    ],
+    "correct_answer": "Sarcastic and cynical",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_022",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy was prominently featured in the movie 'The Sixth Sense' during a hospital scene?",
+    "options": [
+      "Lollipops",
+      "Gummy bears",
+      "Chocolate bars",
+      "Hard candies"
+    ],
+    "correct_answer": "Lollipops",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_023",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the name of the villain character in Wreck-It Ralph who rules Sugar Rush?",
+    "options": [
+      "King Candy",
+      "Sugar King",
+      "Sweet Pete",
+      "Candy Baron"
+    ],
+    "correct_answer": "King Candy",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_024",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which company developed Candy Crush Saga?",
+    "options": [
+      "Zynga",
+      "King",
+      "Rovio",
+      "PopCap"
+    ],
+    "correct_answer": "King",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_025",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What was the first M&M color to be retired and later brought back by popular vote?",
+    "options": [
+      "Red",
+      "Blue",
+      "Tan",
+      "Purple"
+    ],
+    "correct_answer": "Red",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_026",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In the original 1971 'Willy Wonka & the Chocolate Factory', what song do the Oompa Loompas sing?",
+    "options": [
+      "Candy Man",
+      "Pure Imagination",
+      "Oompa Loompa Doompity Doo",
+      "I've Got a Golden Ticket"
+    ],
+    "correct_answer": "Oompa Loompa Doompity Doo",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_027",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy bar's slogan is 'Hungry? Why wait?'?",
+    "options": [
+      "Mars",
+      "Snickers",
+      "Milky Way",
+      "3 Musketeers"
+    ],
+    "correct_answer": "Snickers",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_028",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What candy does Violet Beauregarde turn into in 'Charlie and the Chocolate Factory'?",
+    "options": [
+      "A lollipop",
+      "A blueberry",
+      "A gumball",
+      "A jellybean"
+    ],
+    "correct_answer": "A blueberry",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_029",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy brand introduced a 'Left Twix vs. Right Twix' marketing campaign?",
+    "options": [
+      "Kit Kat",
+      "Twix",
+      "Milky Way",
+      "100 Grand"
+    ],
+    "correct_answer": "Twix",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_030",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the name of the Cocoa Puffs cereal mascot?",
+    "options": [
+      "Crazy Cocoa",
+      "Sonny the Cuckoo Bird",
+      "Chocolate Charlie",
+      "Puff the Bird"
+    ],
+    "correct_answer": "Sonny the Cuckoo Bird",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_031",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which animated movie features a world made entirely of candy and sweets?",
+    "options": [
+      "Cloudy with a Chance of Meatballs",
+      "Wreck-It Ralph",
+      "The Lego Movie",
+      "Inside Out"
+    ],
+    "correct_answer": "Wreck-It Ralph",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_032",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What candy bar was featured in a memorable 'Seinfeld' episode where George eats one with a knife and fork?",
+    "options": [
+      "Milky Way",
+      "Snickers",
+      "Twix",
+      "3 Musketeers"
+    ],
+    "correct_answer": "Snickers",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_033",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy mascot is known for the phrase 'Silly rabbit, [candy] are for kids!'?",
+    "options": [
+      "Lucky Charms",
+      "Cocoa Puffs",
+      "Trix",
+      "Fruity Pebbles"
+    ],
+    "correct_answer": "Trix",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_034",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the name of the voice actor who played Willy Wonka in the 1971 film?",
+    "options": [
+      "Peter O'Toole",
+      "Gene Wilder",
+      "Jack Albertson",
+      "Roy Kinnear"
+    ],
+    "correct_answer": "Gene Wilder",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_035",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy brand used the slogan 'Sometimes you feel like a nut, sometimes you don't'?",
+    "options": [
+      "Almond Joy and Mounds",
+      "PayDay and Baby Ruth",
+      "Snickers and Milky Way",
+      "Butterfinger and 100 Grand"
+    ],
+    "correct_answer": "Almond Joy and Mounds",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_036",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In what decade did M&M's introduce their anthropomorphic candy mascots?",
+    "options": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "correct_answer": "1990s",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_037",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy bar was featured in 'The Goonies' when Chunk tries to escape?",
+    "options": [
+      "Snickers",
+      "Baby Ruth",
+      "Butterfinger",
+      "Milky Way"
+    ],
+    "correct_answer": "Baby Ruth",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_038",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What candy brand's commercials featured people turning into different characters when hungry?",
+    "options": [
+      "Milky Way",
+      "Snickers",
+      "Mars",
+      "3 Musketeers"
+    ],
+    "correct_answer": "Snickers",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_039",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy features in its commercials the question 'How do you eat yours?'",
+    "options": [
+      "Rolo",
+      "Cadbury Creme Egg",
+      "Ferrero Rocher",
+      "Lindt Lindor"
+    ],
+    "correct_answer": "Cadbury Creme Egg",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_040",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the name of the main character in the animated film 'Wreck-It Ralph' who races in Sugar Rush?",
+    "options": [
+      "Taffyta Muttonfudge",
+      "Candlehead",
+      "Vanellope von Schweetz",
+      "Crumbelina DiCaramello"
+    ],
+    "correct_answer": "Vanellope von Schweetz",
+    "difficulty": "medium",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_041",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which year did the original 'Willy Wonka & the Chocolate Factory' film premiere?",
+    "options": [
+      "1969",
+      "1970",
+      "1971",
+      "1972"
+    ],
+    "correct_answer": "1971",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_042",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What was the name of the advertising campaign that asked consumers to vote for a new M&M color in 1995?",
+    "options": [
+      "Color Vote",
+      "M&M's Color Campaign",
+      "America Votes",
+      "The Great Color Quest"
+    ],
+    "correct_answer": "America Votes",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_043",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy brand was originally marketed as a way to prevent chocolate from melting during World War II?",
+    "options": [
+      "Hershey's Kisses",
+      "M&M's",
+      "Tootsie Rolls",
+      "Baby Ruth"
+    ],
+    "correct_answer": "M&M's",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_044",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the name of the boardgame based on a candy-themed world that was created in 1949?",
+    "options": [
+      "Candy Quest",
+      "Sweet Land",
+      "Candy Land",
+      "Sugar Rush"
+    ],
+    "correct_answer": "Candy Land",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_045",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which British candy bar's commercials featured the tagline 'It's not Terry's, it's mine'?",
+    "options": [
+      "Terry's Chocolate Orange",
+      "Cadbury Dairy Milk",
+      "Galaxy",
+      "Aero"
+    ],
+    "correct_answer": "Terry's Chocolate Orange",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_046",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "In which year was the first Tootsie Pop commercial featuring Mr. Owl aired?",
+    "options": [
+      "1968",
+      "1969",
+      "1970",
+      "1971"
+    ],
+    "correct_answer": "1970",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_047",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What was the original M&M color that was replaced by blue in 1995?",
+    "options": [
+      "Purple",
+      "Tan",
+      "Pink",
+      "Light brown"
+    ],
+    "correct_answer": "Tan",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_048",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which candy brand featured NBA star Charles Barkley turning into a teenage girl in its commercials?",
+    "options": [
+      "Milky Way",
+      "Snickers",
+      "Twix",
+      "Kit Kat"
+    ],
+    "correct_answer": "Snickers",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_049",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "What is the full name of the author who wrote the book 'Charlie and the Chocolate Factory'?",
+    "options": [
+      "Roald Dahl",
+      "Ronald Dahl",
+      "Robert Dahl",
+      "Roger Dahl"
+    ],
+    "correct_answer": "Roald Dahl",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  },
+  {
+    "id": "cnd_pop_050",
+    "category": "Food",
+    "subcategory": "Food History",
+    "question": "Which year did Candy Crush Saga surpass FarmVille 2 to become the most popular game on Facebook?",
+    "options": [
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "correct_answer": "2013",
+    "difficulty": "hard",
+    "topic": "com.fiz.pack.candy",
+    "subtopic": "Pop Culture"
+  }
+]

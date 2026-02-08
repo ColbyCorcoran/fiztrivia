@@ -1,0 +1,6438 @@
+{
+  "packId": "com.fiz.pack.90s",
+  "packName": "90s Trivia",
+  "packDescription": "Take a trip back to the radical 1990s! Journey through 400 questions covering movies, music, TV, technology, fashion, sports, and unforgettable pop culture moments from this iconic decade.",
+  "subtopics": [
+    "Movies",
+    "Music",
+    "TV Shows",
+    "Technology",
+    "Fashion & Trends",
+    "Sports & Events",
+    "Pop Culture"
+  ],
+  "subtopicIcons": {
+    "Movies": "film.fill",
+    "Music": "music.note",
+    "TV Shows": "tv.fill",
+    "Technology": "desktopcomputer",
+    "Fashion & Trends": "tshirt.fill",
+    "Sports & Events": "sportscourt.fill",
+    "Pop Culture": "sparkles"
+  },
+  "questionCount": 400,
+  "freePreviewCount": 40,
+  "difficulty": {
+    "easy": 127,
+    "medium": 188,
+    "hard": 85
+  },
+  "price": 0.69,
+  "icon": "tv.fill",
+  "isPublished": false,
+  "releaseDate": "2026-02-07T00:00:00Z",
+  "freePreviewQuestions": [
+    {
+      "id": "90s_001",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1997 film became the highest-grossing movie of all time until 2009?",
+      "options": [
+        "Jurassic Park",
+        "Titanic",
+        "The Lion King",
+        "Forrest Gump"
+      ],
+      "correct_answer": "Titanic",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_002",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who directed the 1993 blockbuster 'Jurassic Park'?",
+      "options": [
+        "James Cameron",
+        "Steven Spielberg",
+        "George Lucas",
+        "Ridley Scott"
+      ],
+      "correct_answer": "Steven Spielberg",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_003",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What color pill does Neo take in 'The Matrix'?",
+      "options": [
+        "Blue",
+        "Red",
+        "Green",
+        "Yellow"
+      ],
+      "correct_answer": "Red",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_004",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "In 'Home Alone', where is the McCallister family traveling when they leave Kevin behind?",
+      "options": [
+        "London",
+        "Paris",
+        "Rome",
+        "Madrid"
+      ],
+      "correct_answer": "Paris",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_005",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What does Forrest Gump famously say 'life is like'?",
+      "options": [
+        "A roller coaster",
+        "A box of chocolates",
+        "A journey",
+        "A river"
+      ],
+      "correct_answer": "A box of chocolates",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_006",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the name of the toy cowboy in 'Toy Story'?",
+      "options": [
+        "Buzz",
+        "Woody",
+        "Rex",
+        "Slinky"
+      ],
+      "correct_answer": "Woody",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_007",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was Britney Spears' debut single released in 1998?",
+      "options": [
+        "Oops!... I Did It Again",
+        "Baby One More Time",
+        "Lucky",
+        "Stronger"
+      ],
+      "correct_answer": "Baby One More Time",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_008",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which boy band released the album 'Millennium' in 1999?",
+      "options": [
+        "NSYNC",
+        "Backstreet Boys",
+        "98 Degrees",
+        "Boyz II Men"
+      ],
+      "correct_answer": "Backstreet Boys",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_009",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the Spice Girls' first #1 hit in 1996?",
+      "options": [
+        "Spice Up Your Life",
+        "Wannabe",
+        "Say You'll Be There",
+        "2 Become 1"
+      ],
+      "correct_answer": "Wannabe",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_010",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What grunge band released 'Smells Like Teen Spirit' in 1991?",
+      "options": [
+        "Pearl Jam",
+        "Soundgarden",
+        "Nirvana",
+        "Alice in Chains"
+      ],
+      "correct_answer": "Nirvana",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_011",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which artist sang 'My Heart Will Go On' from the 'Titanic' soundtrack?",
+      "options": [
+        "Whitney Houston",
+        "Mariah Carey",
+        "Celine Dion",
+        "Shania Twain"
+      ],
+      "correct_answer": "Celine Dion",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_012",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What Alanis Morissette album featured the hit 'You Oughta Know'?",
+      "options": [
+        "Supposed Former Infatuation Junkie",
+        "Jagged Little Pill",
+        "Under Rug Swept",
+        "Havoc and Bright Lights"
+      ],
+      "correct_answer": "Jagged Little Pill",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_013",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What coffee shop did the cast of 'Friends' frequently visit?",
+      "options": [
+        "Central Perk",
+        "Java Joe's",
+        "Coffee House",
+        "The Daily Grind"
+      ],
+      "correct_answer": "Central Perk",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_014",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the tagline for 'Seinfeld'?",
+      "options": [
+        "The Show About Everything",
+        "A Show About Nothing",
+        "New York Life",
+        "Comedy Gold"
+      ],
+      "correct_answer": "A Show About Nothing",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_015",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who played Will Smith in 'The Fresh Prince of Bel-Air'?",
+      "options": [
+        "Alfonso Ribeiro",
+        "Will Smith",
+        "Jazzy Jeff",
+        "James Avery"
+      ],
+      "correct_answer": "Will Smith",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_016",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What family did 'Full House' focus on?",
+      "options": [
+        "The Winslows",
+        "The Tanners",
+        "The Seavers",
+        "The Keatons"
+      ],
+      "correct_answer": "The Tanners",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_017",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the main character in 'Boy Meets World'?",
+      "options": [
+        "Shawn Hunter",
+        "Cory Matthews",
+        "Eric Matthews",
+        "Topanga Lawrence"
+      ],
+      "correct_answer": "Cory Matthews",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_018",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What color were the original Power Rangers?",
+      "options": [
+        "Red, Blue, Yellow, Pink, Black",
+        "Red, Blue, Green, Yellow, Pink",
+        "Red, Blue, Yellow, Pink, Black, Green",
+        "Red, Blue, Yellow, Pink, Purple"
+      ],
+      "correct_answer": "Red, Blue, Yellow, Pink, Black",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_019",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year was Windows 95 released?",
+      "options": [
+        "1994",
+        "1995",
+        "1996",
+        "1997"
+      ],
+      "correct_answer": "1995",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_020",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the sound you heard when connecting to the internet in the 1990s called?",
+      "options": [
+        "Modem handshake",
+        "Digital screech",
+        "Connection tone",
+        "Internet buzz"
+      ],
+      "correct_answer": "Modem handshake",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_021",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What did 'AOL' stand for?",
+      "options": [
+        "America Online",
+        "American Online Link",
+        "Access Online",
+        "Advanced Online Library"
+      ],
+      "correct_answer": "America Online",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_022",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year did the first PlayStation console launch in North America?",
+      "options": [
+        "1994",
+        "1995",
+        "1996",
+        "1997"
+      ],
+      "correct_answer": "1995",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_023",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the Nintendo 64 named after?",
+      "options": [
+        "Its 64-bit processor",
+        "64 game titles at launch",
+        "Its price of $64",
+        "64 developers worked on it"
+      ],
+      "correct_answer": "Its 64-bit processor",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_024",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was a Tamagotchi?",
+      "options": [
+        "A digital pet",
+        "A gaming console",
+        "A cell phone",
+        "A computer game"
+      ],
+      "correct_answer": "A digital pet",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_025",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What neck accessory became extremely popular in the 90s?",
+      "options": [
+        "Scarves",
+        "Chokers",
+        "Bow ties",
+        "Necklaces"
+      ],
+      "correct_answer": "Chokers",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_026",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of shoes featured thick soles and were popular in the 90s?",
+      "options": [
+        "Sneakers",
+        "Platform shoes",
+        "High heels",
+        "Sandals"
+      ],
+      "correct_answer": "Platform shoes",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_027",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What hair accessory became a 90s staple for tying hair?",
+      "options": [
+        "Hair ties",
+        "Scrunchies",
+        "Ribbons",
+        "Barrettes"
+      ],
+      "correct_answer": "Scrunchies",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_028",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What plaid shirt style became associated with grunge fashion?",
+      "options": [
+        "Denim",
+        "Flannel",
+        "Cotton",
+        "Silk"
+      ],
+      "correct_answer": "Flannel",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_029",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What style of jeans became popular in the 90s with extra room?",
+      "options": [
+        "Skinny jeans",
+        "Bootcut jeans",
+        "Baggy jeans",
+        "Flare jeans"
+      ],
+      "correct_answer": "Baggy jeans",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_030",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "How many NBA championships did Michael Jordan win with the Chicago Bulls in the 90s?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "6",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_031",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team did Michael Jordan play for during his 90s championships?",
+      "options": [
+        "Los Angeles Lakers",
+        "Chicago Bulls",
+        "Boston Celtics",
+        "Detroit Pistons"
+      ],
+      "correct_answer": "Chicago Bulls",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_032",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was the Dream Team in 1992?",
+      "options": [
+        "Olympic basketball team",
+        "World Cup soccer team",
+        "Baseball all-stars",
+        "Hockey team"
+      ],
+      "correct_answer": "Olympic basketball team",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_033",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "In what year did the 1996 Summer Olympics take place?",
+      "options": [
+        "1994",
+        "1995",
+        "1996",
+        "1997"
+      ],
+      "correct_answer": "1996",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_034",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "Where were the 1996 Summer Olympics held?",
+      "options": [
+        "Los Angeles",
+        "Atlanta",
+        "Sydney",
+        "Barcelona"
+      ],
+      "correct_answer": "Atlanta",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_035",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What collectible plush toys became a massive craze in the 90s?",
+      "options": [
+        "Cabbage Patch Kids",
+        "Beanie Babies",
+        "Trolls",
+        "Furbies"
+      ],
+      "correct_answer": "Beanie Babies",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_036",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What circular discs were collected and played with in the 90s?",
+      "options": [
+        "Slammers",
+        "POGs",
+        "Marbles",
+        "Tiddlywinks"
+      ],
+      "correct_answer": "POGs",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_037",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What virtual pet required constant care and attention?",
+      "options": [
+        "Furby",
+        "Tamagotchi",
+        "Giga Pet",
+        "Nano Pet"
+      ],
+      "correct_answer": "Tamagotchi",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_038",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What furry electronic toy could talk and learn words?",
+      "options": [
+        "Teddy Ruxpin",
+        "Furby",
+        "Tickle Me Elmo",
+        "Gizmo"
+      ],
+      "correct_answer": "Furby",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_039",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What brand was known for colorful rainbow designs on school supplies?",
+      "options": [
+        "Trapper Keeper",
+        "Lisa Frank",
+        "Sanrio",
+        "Crayola"
+      ],
+      "correct_answer": "Lisa Frank",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_040",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What toy involved a skip ball on an ankle rope?",
+      "options": [
+        "Jump rope",
+        "Skip-It",
+        "Pogo stick",
+        "Hopscotch"
+      ],
+      "correct_answer": "Skip-It",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "90s_041",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who played Jack Dawson in 'Titanic'?",
+      "options": [
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Tom Cruise",
+        "Johnny Depp"
+      ],
+      "correct_answer": "Leonardo DiCaprio",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_042",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1994 Disney film features the song 'Circle of Life'?",
+      "options": [
+        "Aladdin",
+        "Pocahontas",
+        "The Lion King",
+        "Mulan"
+      ],
+      "correct_answer": "The Lion King",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_043",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "In what year was 'The Matrix' released?",
+      "options": [
+        "1997",
+        "1998",
+        "1999",
+        "2000"
+      ],
+      "correct_answer": "1999",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_044",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1999 film features the line 'I see dead people'?",
+      "options": [
+        "The Blair Witch Project",
+        "Scream",
+        "The Sixth Sense",
+        "The Ring"
+      ],
+      "correct_answer": "The Sixth Sense",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_045",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who starred as the villain in 'Home Alone 2: Lost in New York'?",
+      "options": [
+        "Joe Pesci",
+        "Daniel Stern",
+        "Both Joe Pesci and Daniel Stern",
+        "Tim Curry"
+      ],
+      "correct_answer": "Both Joe Pesci and Daniel Stern",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_046",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the name of the theme park in 'Jurassic Park'?",
+      "options": [
+        "Dino World",
+        "Jurassic Park",
+        "Dinosaur Island",
+        "Prehistoric Land"
+      ],
+      "correct_answer": "Jurassic Park",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_047",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1996 film features Will Smith fighting aliens?",
+      "options": [
+        "Men in Black",
+        "Independence Day",
+        "Armageddon",
+        "Deep Impact"
+      ],
+      "correct_answer": "Independence Day",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_048",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who directed 'Pulp Fiction'?",
+      "options": [
+        "Martin Scorsese",
+        "Quentin Tarantino",
+        "Spike Lee",
+        "Robert Rodriguez"
+      ],
+      "correct_answer": "Quentin Tarantino",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_049",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1999 teen comedy is set at a high school called East Great Falls?",
+      "options": [
+        "10 Things I Hate About You",
+        "She's All That",
+        "American Pie",
+        "Can't Hardly Wait"
+      ],
+      "correct_answer": "American Pie",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_050",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What horror film franchise began in 1996 with a masked killer named Ghostface?",
+      "options": [
+        "I Know What You Did Last Summer",
+        "Scream",
+        "Urban Legend",
+        "Final Destination"
+      ],
+      "correct_answer": "Scream",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_051",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1997 film stars Will Smith and Tommy Lee Jones as secret agents?",
+      "options": [
+        "Bad Boys",
+        "Men in Black",
+        "Wild Wild West",
+        "Enemy of the State"
+      ],
+      "correct_answer": "Men in Black",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_052",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What animated film was the first feature-length computer-animated movie?",
+      "options": [
+        "A Bug's Life",
+        "Toy Story",
+        "Antz",
+        "The Lion King"
+      ],
+      "correct_answer": "Toy Story",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_053",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What year was 'Star Wars: Episode I - The Phantom Menace' released?",
+      "options": [
+        "1997",
+        "1998",
+        "1999",
+        "2000"
+      ],
+      "correct_answer": "1999",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_054",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who played Morpheus in 'The Matrix'?",
+      "options": [
+        "Samuel L. Jackson",
+        "Laurence Fishburne",
+        "Morgan Freeman",
+        "Denzel Washington"
+      ],
+      "correct_answer": "Laurence Fishburne",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_055",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the name of Simba's uncle in 'The Lion King'?",
+      "options": [
+        "Mufasa",
+        "Scar",
+        "Rafiki",
+        "Zazu"
+      ],
+      "correct_answer": "Scar",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_056",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "In 'Good Will Hunting', what subject is Will Hunting gifted in?",
+      "options": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Literature"
+      ],
+      "correct_answer": "Mathematics",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_057",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What actress played Rose in 'Titanic'?",
+      "options": [
+        "Gwyneth Paltrow",
+        "Kate Winslet",
+        "Cameron Diaz",
+        "Nicole Kidman"
+      ],
+      "correct_answer": "Kate Winslet",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_058",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the name of Buzz Lightyear's catchphrase in 'Toy Story'?",
+      "options": [
+        "Reach for the sky!",
+        "To infinity and beyond!",
+        "You've got a friend in me!",
+        "There's a snake in my boot!"
+      ],
+      "correct_answer": "To infinity and beyond!",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_059",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What city is 'The Blair Witch Project' set in?",
+      "options": [
+        "Salem, Massachusetts",
+        "Sleepy Hollow, New York",
+        "Burkittsville, Maryland",
+        "Amityville, New York"
+      ],
+      "correct_answer": "Burkittsville, Maryland",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_060",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who played the young Anakin Skywalker in 'The Phantom Menace'?",
+      "options": [
+        "Hayden Christensen",
+        "Jake Lloyd",
+        "Ewan McGregor",
+        "Liam Neeson"
+      ],
+      "correct_answer": "Jake Lloyd",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_061",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What Robin Williams film involves a board game coming to life?",
+      "options": [
+        "Hook",
+        "Jumanji",
+        "Flubber",
+        "Mrs. Doubtfire"
+      ],
+      "correct_answer": "Jumanji",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_062",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1994 film stars Jim Carrey as a man whose life is unknowingly a TV show?",
+      "options": [
+        "The Cable Guy",
+        "Liar Liar",
+        "The Truman Show",
+        "Ace Ventura"
+      ],
+      "correct_answer": "The Truman Show",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_063",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who directed 'The Sixth Sense'?",
+      "options": [
+        "M. Night Shyamalan",
+        "Wes Craven",
+        "James Cameron",
+        "Tim Burton"
+      ],
+      "correct_answer": "M. Night Shyamalan",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_064",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1996 film features a basketball game between the Looney Tunes and aliens?",
+      "options": [
+        "Cool Runnings",
+        "Space Jam",
+        "Air Bud",
+        "Like Mike"
+      ],
+      "correct_answer": "Space Jam",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_065",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "In 'Forrest Gump', what is Forrest's football jersey number at Alabama?",
+      "options": [
+        "12",
+        "44",
+        "7",
+        "22"
+      ],
+      "correct_answer": "44",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_066",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What actress plays the computer programmer Trinity in 'The Matrix'?",
+      "options": [
+        "Angelina Jolie",
+        "Carrie-Anne Moss",
+        "Sandra Bullock",
+        "Halle Berry"
+      ],
+      "correct_answer": "Carrie-Anne Moss",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_067",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1998 disaster film features a giant asteroid heading toward Earth?",
+      "options": [
+        "Deep Impact",
+        "Armageddon",
+        "Dante's Peak",
+        "Volcano"
+      ],
+      "correct_answer": "Armageddon",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_068",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who voiced Mufasa in 'The Lion King'?",
+      "options": [
+        "Samuel L. Jackson",
+        "Morgan Freeman",
+        "James Earl Jones",
+        "Denzel Washington"
+      ],
+      "correct_answer": "James Earl Jones",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_069",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1990 film features a young boy befriending gangster Henry Hill?",
+      "options": [
+        "Casino",
+        "The Godfather Part III",
+        "Goodfellas",
+        "Donnie Brasco"
+      ],
+      "correct_answer": "Goodfellas",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_070",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1999 film stars Keanu Reeves as Neo Anderson?",
+      "options": [
+        "Johnny Mnemonic",
+        "The Matrix",
+        "Speed",
+        "Point Break"
+      ],
+      "correct_answer": "The Matrix",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_071",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "In 'Scream', what is the name of the fictional town where the murders occur?",
+      "options": [
+        "Springwood",
+        "Haddonfield",
+        "Woodsboro",
+        "Crystal Lake"
+      ],
+      "correct_answer": "Woodsboro",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_072",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What actor played the Grinch in the 2000 live-action film (filmed in 1999)?",
+      "options": [
+        "Jim Carrey",
+        "Mike Myers",
+        "Eddie Murphy",
+        "Robin Williams"
+      ],
+      "correct_answer": "Jim Carrey",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_073",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1995 film features a deadly virus outbreak with Dustin Hoffman?",
+      "options": [
+        "Contagion",
+        "Outbreak",
+        "28 Days Later",
+        "The Andromeda Strain"
+      ],
+      "correct_answer": "Outbreak",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_074",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who played Obi-Wan Kenobi in 'The Phantom Menace'?",
+      "options": [
+        "Alec Guinness",
+        "Ewan McGregor",
+        "Liam Neeson",
+        "Samuel L. Jackson"
+      ],
+      "correct_answer": "Ewan McGregor",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_075",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1996 film stars Tom Cruise as a sports agent?",
+      "options": [
+        "Mission: Impossible",
+        "Jerry Maguire",
+        "A Few Good Men",
+        "The Firm"
+      ],
+      "correct_answer": "Jerry Maguire",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_076",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "In 'American Pie', what instrument does Jim's character play in the school band?",
+      "options": [
+        "Trumpet",
+        "Trombone",
+        "Flute",
+        "Saxophone"
+      ],
+      "correct_answer": "Trombone",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_077",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1998 film features a soldier saving Private Ryan?",
+      "options": [
+        "The Thin Red Line",
+        "Saving Private Ryan",
+        "Three Kings",
+        "Pearl Harbor"
+      ],
+      "correct_answer": "Saving Private Ryan",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_078",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1997 film features Matt Damon and Ben Affleck as co-writers and stars?",
+      "options": [
+        "Chasing Amy",
+        "Good Will Hunting",
+        "Dogma",
+        "Rounders"
+      ],
+      "correct_answer": "Good Will Hunting",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_079",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What sequel to 'Jurassic Park' was released in 1997?",
+      "options": [
+        "Jurassic Park III",
+        "The Lost World: Jurassic Park",
+        "Jurassic World",
+        "Jurassic Park 2"
+      ],
+      "correct_answer": "The Lost World: Jurassic Park",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_080",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the name of the villainous toy in 'Toy Story'?",
+      "options": [
+        "Emperor Zurg",
+        "Sid",
+        "Stinky Pete",
+        "Lots-o'-Huggin' Bear"
+      ],
+      "correct_answer": "Sid",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_081",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1993 film stars Robin Williams as a voice actor for a children's TV show?",
+      "options": [
+        "Aladdin",
+        "Mrs. Doubtfire",
+        "Hook",
+        "Patch Adams"
+      ],
+      "correct_answer": "Mrs. Doubtfire",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_082",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What low-budget 1999 horror film was marketed as real found footage?",
+      "options": [
+        "Paranormal Activity",
+        "Cloverfield",
+        "The Blair Witch Project",
+        "REC"
+      ],
+      "correct_answer": "The Blair Witch Project",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_083",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the budget of 'The Blair Witch Project'?",
+      "options": [
+        "$60,000",
+        "$600,000",
+        "$6 million",
+        "$60 million"
+      ],
+      "correct_answer": "$60,000",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_084",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What character does Samuel L. Jackson play in 'Pulp Fiction'?",
+      "options": [
+        "Vincent Vega",
+        "Jules Winnfield",
+        "Marcellus Wallace",
+        "Butch Coolidge"
+      ],
+      "correct_answer": "Jules Winnfield",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_085",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What year did 'Toy Story' become the first fully computer-animated feature film?",
+      "options": [
+        "1993",
+        "1994",
+        "1995",
+        "1996"
+      ],
+      "correct_answer": "1995",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_086",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who composed the iconic 'Titanic' theme song 'My Heart Will Go On'?",
+      "options": [
+        "Hans Zimmer",
+        "John Williams",
+        "James Horner",
+        "Alan Silvestri"
+      ],
+      "correct_answer": "James Horner",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_087",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the name of the AI system in 'The Matrix'?",
+      "options": [
+        "Skynet",
+        "The Architect",
+        "The Matrix",
+        "The Oracle"
+      ],
+      "correct_answer": "The Matrix",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_088",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "In 'The Sixth Sense', what is Cole Sear's famous line?",
+      "options": [
+        "I see ghosts",
+        "I see dead people",
+        "They're all around me",
+        "I can see them"
+      ],
+      "correct_answer": "I see dead people",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_089",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1999 film features Brad Pitt and Edward Norton in an underground fighting ring?",
+      "options": [
+        "Seven",
+        "Snatch",
+        "Fight Club",
+        "12 Monkeys"
+      ],
+      "correct_answer": "Fight Club",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_090",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What actress played Jenny in 'Forrest Gump'?",
+      "options": [
+        "Julia Roberts",
+        "Meg Ryan",
+        "Robin Wright",
+        "Sandra Bullock"
+      ],
+      "correct_answer": "Robin Wright",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_091",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the production budget for 'Titanic'?",
+      "options": [
+        "$100 million",
+        "$150 million",
+        "$200 million",
+        "$250 million"
+      ],
+      "correct_answer": "$200 million",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_092",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What 1996 film features a tornado-chasing team led by Bill Paxton?",
+      "options": [
+        "Twister",
+        "Dante's Peak",
+        "Volcano",
+        "The Perfect Storm"
+      ],
+      "correct_answer": "Twister",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_093",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "Who directed 'Good Will Hunting'?",
+      "options": [
+        "Ben Affleck",
+        "Matt Damon",
+        "Gus Van Sant",
+        "Steven Soderbergh"
+      ],
+      "correct_answer": "Gus Van Sant",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_094",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What is the name of the theme park's creator in 'Jurassic Park'?",
+      "options": [
+        "Dr. Ian Malcolm",
+        "Dr. Alan Grant",
+        "John Hammond",
+        "Dennis Nedry"
+      ],
+      "correct_answer": "John Hammond",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Movies"
+    },
+    {
+      "id": "90s_095",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which rapper was known as 2Pac?",
+      "options": [
+        "The Notorious B.I.G.",
+        "Tupac Shakur",
+        "Snoop Dogg",
+        "Dr. Dre"
+      ],
+      "correct_answer": "Tupac Shakur",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_096",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What boy band featured Justin Timberlake?",
+      "options": [
+        "Backstreet Boys",
+        "NSYNC",
+        "98 Degrees",
+        "O-Town"
+      ],
+      "correct_answer": "NSYNC",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_097",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was The Notorious B.I.G.'s real name?",
+      "options": [
+        "Christopher Wallace",
+        "Calvin Broadus",
+        "Shawn Carter",
+        "Curtis Jackson"
+      ],
+      "correct_answer": "Christopher Wallace",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_098",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which Spice Girl was known as 'Posh Spice'?",
+      "options": [
+        "Melanie Brown",
+        "Emma Bunton",
+        "Victoria Beckham",
+        "Geri Halliwell"
+      ],
+      "correct_answer": "Victoria Beckham",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_099",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What music video channel dominated the 90s with shows like TRL?",
+      "options": [
+        "VH1",
+        "MTV",
+        "BET",
+        "CMT"
+      ],
+      "correct_answer": "MTV",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_100",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What 1997 song by Hanson became a huge hit?",
+      "options": [
+        "MMMBop",
+        "Where's the Love",
+        "I Will Come to You",
+        "This Time Around"
+      ],
+      "correct_answer": "MMMBop",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_101",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which female artist had a hit with 'Genie in a Bottle' in 1999?",
+      "options": [
+        "Britney Spears",
+        "Jessica Simpson",
+        "Christina Aguilera",
+        "Mandy Moore"
+      ],
+      "correct_answer": "Christina Aguilera",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_102",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was Nirvana's lead singer's name?",
+      "options": [
+        "Eddie Vedder",
+        "Kurt Cobain",
+        "Chris Cornell",
+        "Layne Staley"
+      ],
+      "correct_answer": "Kurt Cobain",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_103",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which rapper released the album 'The Chronic' in 1992?",
+      "options": [
+        "Snoop Dogg",
+        "Tupac",
+        "Ice Cube",
+        "Dr. Dre"
+      ],
+      "correct_answer": "Dr. Dre",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_104",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What 1992 song by Sir Mix-a-Lot celebrated a body part?",
+      "options": [
+        "Baby Got Back",
+        "Jump Around",
+        "Ice Ice Baby",
+        "U Can't Touch This"
+      ],
+      "correct_answer": "Baby Got Back",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_105",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which band released 'Wonderwall' in 1995?",
+      "options": [
+        "Blur",
+        "Radiohead",
+        "Oasis",
+        "Pulp"
+      ],
+      "correct_answer": "Oasis",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_106",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was TLC's biggest hit from 1994?",
+      "options": [
+        "No Scrubs",
+        "Waterfalls",
+        "Creep",
+        "Unpretty"
+      ],
+      "correct_answer": "Waterfalls",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_107",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What year did Kurt Cobain die?",
+      "options": [
+        "1992",
+        "1993",
+        "1994",
+        "1995"
+      ],
+      "correct_answer": "1994",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_108",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of NSYNC's debut album?",
+      "options": [
+        "NSYNC",
+        "No Strings Attached",
+        "Celebrity",
+        "Home for Christmas"
+      ],
+      "correct_answer": "NSYNC",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_109",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which Spice Girl left the group in 1998?",
+      "options": [
+        "Mel B",
+        "Mel C",
+        "Geri Halliwell",
+        "Victoria Beckham"
+      ],
+      "correct_answer": "Geri Halliwell",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_110",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What album did Alanis Morissette win Album of the Year Grammy for in 1996?",
+      "options": [
+        "Supposed Former Infatuation Junkie",
+        "Under Rug Swept",
+        "Jagged Little Pill",
+        "Havoc and Bright Lights"
+      ],
+      "correct_answer": "Jagged Little Pill",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_111",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was Tupac Shakur's stage name variation?",
+      "options": [
+        "Big Poppa",
+        "2Pac",
+        "Biggie",
+        "Pac-Man"
+      ],
+      "correct_answer": "2Pac",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_112",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which Backstreet Boys member was the oldest?",
+      "options": [
+        "Nick Carter",
+        "Brian Littrell",
+        "Kevin Richardson",
+        "Howie Dorough"
+      ],
+      "correct_answer": "Kevin Richardson",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_113",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What city is considered the birthplace of grunge music?",
+      "options": [
+        "Portland",
+        "San Francisco",
+        "Seattle",
+        "Los Angeles"
+      ],
+      "correct_answer": "Seattle",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_114",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of Nirvana's breakthrough album?",
+      "options": [
+        "Bleach",
+        "In Utero",
+        "Nevermind",
+        "MTV Unplugged"
+      ],
+      "correct_answer": "Nevermind",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_115",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which R&B group sang 'I'll Make Love to You'?",
+      "options": [
+        "Jodeci",
+        "112",
+        "Boyz II Men",
+        "Blackstreet"
+      ],
+      "correct_answer": "Boyz II Men",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_116",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the stage name of Marshall Mathers, who debuted in 1999?",
+      "options": [
+        "50 Cent",
+        "Eminem",
+        "Nas",
+        "Jay-Z"
+      ],
+      "correct_answer": "Eminem",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_117",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which girl group sang 'No Scrubs' in 1999?",
+      "options": [
+        "Destiny's Child",
+        "TLC",
+        "SWV",
+        "En Vogue"
+      ],
+      "correct_answer": "TLC",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_118",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What year was Tupac Shakur killed?",
+      "options": [
+        "1994",
+        "1995",
+        "1996",
+        "1997"
+      ],
+      "correct_answer": "1996",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_119",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What MTV show counted down the top music videos each day?",
+      "options": [
+        "Total Request Live",
+        "Video Countdown",
+        "MTV Top 10",
+        "Video Hits"
+      ],
+      "correct_answer": "Total Request Live",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_120",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which country singer had a hit with 'Man! I Feel Like a Woman!' in 1997?",
+      "options": [
+        "Faith Hill",
+        "LeAnn Rimes",
+        "Shania Twain",
+        "Trisha Yearwood"
+      ],
+      "correct_answer": "Shania Twain",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_121",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What band released the album 'Dookie' in 1994?",
+      "options": [
+        "The Offspring",
+        "Blink-182",
+        "Green Day",
+        "Sum 41"
+      ],
+      "correct_answer": "Green Day",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_122",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which rapper had a hit with 'Gin and Juice' in 1994?",
+      "options": [
+        "Dr. Dre",
+        "Ice Cube",
+        "Snoop Dogg",
+        "Warren G"
+      ],
+      "correct_answer": "Snoop Dogg",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_123",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was Britney Spears' debut album called?",
+      "options": [
+        "Oops!... I Did It Again",
+        "Britney",
+        "Baby One More Time",
+        "In the Zone"
+      ],
+      "correct_answer": "Baby One More Time",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_124",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which band had a hit with 'Closing Time' in 1998?",
+      "options": [
+        "Third Eye Blind",
+        "Matchbox Twenty",
+        "Semisonic",
+        "Vertical Horizon"
+      ],
+      "correct_answer": "Semisonic",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_125",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of the Spice Girls' debut album?",
+      "options": [
+        "Spice",
+        "Spiceworld",
+        "Forever",
+        "Greatest Hits"
+      ],
+      "correct_answer": "Spice",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_126",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which band released 'Black Hole Sun' in 1994?",
+      "options": [
+        "Pearl Jam",
+        "Alice in Chains",
+        "Soundgarden",
+        "Stone Temple Pilots"
+      ],
+      "correct_answer": "Soundgarden",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_127",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What 1996 song by Los Del Rio became a dance craze?",
+      "options": [
+        "La Bamba",
+        "Macarena",
+        "Bailamos",
+        "Livin' La Vida Loca"
+      ],
+      "correct_answer": "Macarena",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_128",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which rapper released 'California Love' with Dr. Dre in 1995?",
+      "options": [
+        "Snoop Dogg",
+        "Ice Cube",
+        "Tupac Shakur",
+        "Eazy-E"
+      ],
+      "correct_answer": "Tupac Shakur",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_129",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What band had a hit with 'Semi-Charmed Life' in 1997?",
+      "options": [
+        "Matchbox Twenty",
+        "Third Eye Blind",
+        "Eve 6",
+        "Lit"
+      ],
+      "correct_answer": "Third Eye Blind",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_130",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which girl group formed on a reality TV show in 2000 (late 90s formation)?",
+      "options": [
+        "Dream",
+        "Eden's Crush",
+        "O-Town",
+        "Innosense"
+      ],
+      "correct_answer": "Eden's Crush",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_131",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What band released the album 'Ten' in 1991?",
+      "options": [
+        "Nirvana",
+        "Pearl Jam",
+        "Soundgarden",
+        "Alice in Chains"
+      ],
+      "correct_answer": "Pearl Jam",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_132",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which artist had a #1 hit with 'Vision of Love' in 1990?",
+      "options": [
+        "Whitney Houston",
+        "Janet Jackson",
+        "Mariah Carey",
+        "Celine Dion"
+      ],
+      "correct_answer": "Mariah Carey",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_133",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of the Backstreet Boys' first album?",
+      "options": [
+        "Backstreet's Back",
+        "Millennium",
+        "Backstreet Boys",
+        "Black & Blue"
+      ],
+      "correct_answer": "Backstreet Boys",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_134",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which band had a hit with 'All Star' in 1999?",
+      "options": [
+        "Sugar Ray",
+        "Smash Mouth",
+        "Lit",
+        "Fastball"
+      ],
+      "correct_answer": "Smash Mouth",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_135",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of Radiohead's groundbreaking 1997 album?",
+      "options": [
+        "The Bends",
+        "OK Computer",
+        "Kid A",
+        "Pablo Honey"
+      ],
+      "correct_answer": "OK Computer",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_136",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which female rapper had a hit with 'Ladies First' featuring Queen Latifah?",
+      "options": [
+        "Missy Elliott",
+        "Lil' Kim",
+        "Monie Love",
+        "MC Lyte"
+      ],
+      "correct_answer": "Monie Love",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_137",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of the baby on Nirvana's 'Nevermind' album cover?",
+      "options": [
+        "Kurt Weddle",
+        "Spencer Elden",
+        "Dave Grohl Jr.",
+        "Krist Novoselic Jr."
+      ],
+      "correct_answer": "Spencer Elden",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_138",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which Spice Girl was nicknamed 'Sporty Spice'?",
+      "options": [
+        "Melanie Chisholm",
+        "Melanie Brown",
+        "Emma Bunton",
+        "Geri Halliwell"
+      ],
+      "correct_answer": "Melanie Chisholm",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_139",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was NSYNC's best-selling album?",
+      "options": [
+        "NSYNC",
+        "No Strings Attached",
+        "Celebrity",
+        "Home for Christmas"
+      ],
+      "correct_answer": "No Strings Attached",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_140",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What year did The Notorious B.I.G. die?",
+      "options": [
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "correct_answer": "1997",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_141",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which Oasis brother was the lead singer?",
+      "options": [
+        "Noel Gallagher",
+        "Liam Gallagher",
+        "Paul Gallagher",
+        "Neither"
+      ],
+      "correct_answer": "Liam Gallagher",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_142",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of Eminem's 1999 major-label debut album?",
+      "options": [
+        "The Marshall Mathers LP",
+        "The Slim Shady LP",
+        "The Eminem Show",
+        "Infinite"
+      ],
+      "correct_answer": "The Slim Shady LP",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_143",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which TLC member died in a car accident in 2002 (but was active in the 90s)?",
+      "options": [
+        "T-Boz",
+        "Left Eye",
+        "Chilli",
+        "None"
+      ],
+      "correct_answer": "Left Eye",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_144",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of Alanis Morissette's follow-up album to 'Jagged Little Pill'?",
+      "options": [
+        "Under Rug Swept",
+        "Supposed Former Infatuation Junkie",
+        "So-Called Chaos",
+        "Flavors of Entanglement"
+      ],
+      "correct_answer": "Supposed Former Infatuation Junkie",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_145",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which member of Destiny's Child was replaced before their major success?",
+      "options": [
+        "LeToya Luckett",
+        "LaTavia Roberson",
+        "Both LeToya and LaTavia",
+        "Farrah Franklin"
+      ],
+      "correct_answer": "Both LeToya and LaTavia",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_146",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What record label did Tupac Shakur sign with in 1995?",
+      "options": [
+        "Bad Boy Records",
+        "Def Jam",
+        "Death Row Records",
+        "Aftermath"
+      ],
+      "correct_answer": "Death Row Records",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_147",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "What was the name of Green Day's lead singer?",
+      "options": [
+        "Mike Dirnt",
+        "Tre Cool",
+        "Billie Joe Armstrong",
+        "Jason White"
+      ],
+      "correct_answer": "Billie Joe Armstrong",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_148",
+      "category": "Music",
+      "subcategory": "Musicians & Bands",
+      "question": "Which boy band was NOT formed in the 1990s?",
+      "options": [
+        "98 Degrees",
+        "O-Town",
+        "One Direction",
+        "LFO"
+      ],
+      "correct_answer": "One Direction",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Music"
+    },
+    {
+      "id": "90s_149",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What animated series featured a group of babies having adventures?",
+      "options": [
+        "Rugrats",
+        "Recess",
+        "Doug",
+        "Hey Arnold"
+      ],
+      "correct_answer": "Rugrats",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_150",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What city is 'Friends' set in?",
+      "options": [
+        "Los Angeles",
+        "Chicago",
+        "New York City",
+        "Boston"
+      ],
+      "correct_answer": "New York City",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_151",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the Pokémon anime's main character?",
+      "options": [
+        "Gary",
+        "Brock",
+        "Ash",
+        "Misty"
+      ],
+      "correct_answer": "Ash",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_152",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What animated series featured a football-headed kid named Arnold?",
+      "options": [
+        "Recess",
+        "Doug",
+        "Hey Arnold",
+        "Rocket Power"
+      ],
+      "correct_answer": "Hey Arnold",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_153",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What ABC programming block featured family sitcoms on Friday nights?",
+      "options": [
+        "TGIF",
+        "Must See TV",
+        "Family Night",
+        "Friday Fun"
+      ],
+      "correct_answer": "TGIF",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_154",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Ross's pet monkey on 'Friends'?",
+      "options": [
+        "Marcel",
+        "Maurice",
+        "Martin",
+        "Marcus"
+      ],
+      "correct_answer": "Marcel",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_155",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Uncle Phil's first name on 'The Fresh Prince of Bel-Air'?",
+      "options": [
+        "Philip",
+        "Paul",
+        "Peter",
+        "Patrick"
+      ],
+      "correct_answer": "Philip",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_156",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What animated series featured babies Tommy, Chuckie, and Angelica?",
+      "options": [
+        "Recess",
+        "Rugrats",
+        "The Wild Thornberrys",
+        "Rocket Power"
+      ],
+      "correct_answer": "Rugrats",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_157",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the teacher in 'Boy Meets World'?",
+      "options": [
+        "Mr. Turner",
+        "Mr. Feeny",
+        "Mr. Williams",
+        "Mr. Matthews"
+      ],
+      "correct_answer": "Mr. Feeny",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_158",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What network did 'Seinfeld' air on?",
+      "options": [
+        "ABC",
+        "CBS",
+        "NBC",
+        "Fox"
+      ],
+      "correct_answer": "NBC",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_159",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the youngest daughter's name on 'Full House'?",
+      "options": [
+        "Stephanie",
+        "Michelle",
+        "DJ",
+        "Kimmy"
+      ],
+      "correct_answer": "Michelle",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_160",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "How many main characters were in 'Friends'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "6",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_161",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Joey's catchphrase on 'Friends'?",
+      "options": [
+        "How you doin'?",
+        "Could I BE any...?",
+        "Oh. My. God.",
+        "We were on a break!"
+      ],
+      "correct_answer": "How you doin'?",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_162",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Kramer's first name on 'Seinfeld'?",
+      "options": [
+        "Kenny",
+        "Kevin",
+        "Cosmo",
+        "Carl"
+      ],
+      "correct_answer": "Cosmo",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_163",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Cory's best friend on 'Boy Meets World'?",
+      "options": [
+        "Eric",
+        "Jack",
+        "Shawn",
+        "Jonathan"
+      ],
+      "correct_answer": "Shawn",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_164",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Uncle Jesse's catchphrase on 'Full House'?",
+      "options": [
+        "Have mercy!",
+        "You got it, dude!",
+        "How rude!",
+        "Cut it out!"
+      ],
+      "correct_answer": "Have mercy!",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_165",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What year did 'Friends' premiere?",
+      "options": [
+        "1992",
+        "1993",
+        "1994",
+        "1995"
+      ],
+      "correct_answer": "1994",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_166",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Will's butler on 'The Fresh Prince of Bel-Air'?",
+      "options": [
+        "Geoffrey",
+        "Carlton",
+        "Jazzy Jeff",
+        "Hilary"
+      ],
+      "correct_answer": "Geoffrey",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_167",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What Pokémon is Ash's main companion?",
+      "options": [
+        "Charizard",
+        "Squirtle",
+        "Pikachu",
+        "Bulbasaur"
+      ],
+      "correct_answer": "Pikachu",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_168",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the bully on 'Hey Arnold'?",
+      "options": [
+        "Harold",
+        "Sid",
+        "Helga",
+        "Curly"
+      ],
+      "correct_answer": "Helga",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_169",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the Rugrats' dog?",
+      "options": [
+        "Spike",
+        "Buddy",
+        "Max",
+        "Spot"
+      ],
+      "correct_answer": "Spike",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_170",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What actor played Carlton Banks on 'The Fresh Prince of Bel-Air'?",
+      "options": [
+        "Will Smith",
+        "Alfonso Ribeiro",
+        "Tatyana Ali",
+        "Joseph Marcell"
+      ],
+      "correct_answer": "Alfonso Ribeiro",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_171",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Michelle's catchphrase on 'Full House'?",
+      "options": [
+        "Have mercy!",
+        "How rude!",
+        "You got it, dude!",
+        "Cut it out!"
+      ],
+      "correct_answer": "You got it, dude!",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_172",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the school in 'Saved by the Bell'?",
+      "options": [
+        "Ridgemont High",
+        "Bayside High",
+        "West Beverly High",
+        "Rydell High"
+      ],
+      "correct_answer": "Bayside High",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_173",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What animated series featured the Pickles family?",
+      "options": [
+        "Hey Arnold",
+        "Doug",
+        "Rugrats",
+        "Recess"
+      ],
+      "correct_answer": "Rugrats",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_174",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Ross's profession on 'Friends'?",
+      "options": [
+        "Chef",
+        "Actor",
+        "Paleontologist",
+        "Fashion Designer"
+      ],
+      "correct_answer": "Paleontologist",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_175",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What NBC programming block competed with ABC's TGIF?",
+      "options": [
+        "Prime Time",
+        "Must See TV",
+        "Comedy Night",
+        "Laugh Track"
+      ],
+      "correct_answer": "Must See TV",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_176",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What animated series featured Doug Funnie?",
+      "options": [
+        "Recess",
+        "Hey Arnold",
+        "Doug",
+        "Rocket Power"
+      ],
+      "correct_answer": "Doug",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_177",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the Power Rangers' mentor?",
+      "options": [
+        "Alpha 5",
+        "Zordon",
+        "Rita Repulsa",
+        "Lord Zedd"
+      ],
+      "correct_answer": "Zordon",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_178",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What year did 'Seinfeld' end?",
+      "options": [
+        "1996",
+        "1997",
+        "1998",
+        "1999"
+      ],
+      "correct_answer": "1998",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_179",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the girls' sleepover club on 'Full House'?",
+      "options": [
+        "Tanner Sisters",
+        "Honeybee Club",
+        "Gibbler Gang",
+        "Sister Circle"
+      ],
+      "correct_answer": "Honeybee Club",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_180",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What animated series featured a character named Stu Pickles?",
+      "options": [
+        "Hey Arnold",
+        "Rugrats",
+        "Doug",
+        "Rocko's Modern Life"
+      ],
+      "correct_answer": "Rugrats",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_181",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Topanga's husband on 'Boy Meets World'?",
+      "options": [
+        "Shawn",
+        "Eric",
+        "Cory",
+        "Jack"
+      ],
+      "correct_answer": "Cory",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_182",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Jerry Seinfeld's neighbor on 'Seinfeld'?",
+      "options": [
+        "Newman",
+        "Kramer",
+        "Both Newman and Kramer",
+        "George"
+      ],
+      "correct_answer": "Both Newman and Kramer",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_183",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What animated series featured the character Helga G. Pataki?",
+      "options": [
+        "Rugrats",
+        "Recess",
+        "Hey Arnold",
+        "As Told by Ginger"
+      ],
+      "correct_answer": "Hey Arnold",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_184",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Rachel's haircut trend from 'Friends'?",
+      "options": [
+        "The Jennifer",
+        "The Rachel",
+        "The Aniston",
+        "The Friends Cut"
+      ],
+      "correct_answer": "The Rachel",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_185",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Elaine's last name on 'Seinfeld'?",
+      "options": [
+        "Costanza",
+        "Benes",
+        "Peterman",
+        "Richards"
+      ],
+      "correct_answer": "Benes",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_186",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the band Uncle Jesse was in on 'Full House'?",
+      "options": [
+        "Jesse and the Rippers",
+        "The Beach Boys",
+        "Jesse's Band",
+        "The Tanners"
+      ],
+      "correct_answer": "Jesse and the Rippers",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_187",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Ash's rival in the Pokémon anime?",
+      "options": [
+        "Paul",
+        "Gary",
+        "Ritchie",
+        "Trip"
+      ],
+      "correct_answer": "Gary",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_188",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Chandler Bing's middle name on 'Friends'?",
+      "options": [
+        "Muriel",
+        "Francis",
+        "Joseph",
+        "Matthew"
+      ],
+      "correct_answer": "Muriel",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_189",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the comic book store owner on 'Seinfeld'?",
+      "options": [
+        "Comic Book Guy",
+        "Bob",
+        "Stuart",
+        "Newman"
+      ],
+      "correct_answer": "Stuart",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_190",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Cory and Topanga's daughter on 'Boy Meets World'?",
+      "options": [
+        "Morgan",
+        "Riley",
+        "Maya",
+        "Angela"
+      ],
+      "correct_answer": "Riley",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_191",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the Rugrats' neighbor who was afraid of everything?",
+      "options": [
+        "Chuckie",
+        "Phil",
+        "Lil",
+        "Tommy"
+      ],
+      "correct_answer": "Chuckie",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_192",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the Red Power Ranger in the original series?",
+      "options": [
+        "Billy",
+        "Jason",
+        "Zack",
+        "Tommy"
+      ],
+      "correct_answer": "Jason",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_193",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Monica's profession on 'Friends'?",
+      "options": [
+        "Fashion Designer",
+        "Chef",
+        "Massage Therapist",
+        "Waitress"
+      ],
+      "correct_answer": "Chef",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_194",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was George Costanza's middle name on 'Seinfeld'?",
+      "options": [
+        "Louis",
+        "Francis",
+        "Joseph",
+        "Alexander"
+      ],
+      "correct_answer": "Louis",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_195",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the twins on 'Full House'?",
+      "options": [
+        "Mary-Kate and Ashley",
+        "Nicky and Alex",
+        "Michelle and Stephanie",
+        "DJ and Stephanie"
+      ],
+      "correct_answer": "Nicky and Alex",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_196",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of Arnold's grandpa on 'Hey Arnold'?",
+      "options": [
+        "Phil",
+        "Arnold",
+        "Gerald",
+        "Grandpa Shortman"
+      ],
+      "correct_answer": "Phil",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_197",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was Phoebe's profession on 'Friends'?",
+      "options": [
+        "Chef",
+        "Masseuse",
+        "Fashion Designer",
+        "Waitress"
+      ],
+      "correct_answer": "Masseuse",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "TV Shows"
+    },
+    {
+      "id": "90s_198",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What does 'Y2K' stand for?",
+      "options": [
+        "Year 2000",
+        "Yes 2 Komputers",
+        "Youth 2000 Klub",
+        "Yesterday's 2 Kilobytes"
+      ],
+      "correct_answer": "Year 2000",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_199",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the storage capacity of a standard 3.5-inch floppy disk?",
+      "options": [
+        "720 KB",
+        "1.44 MB",
+        "10 MB",
+        "100 MB"
+      ],
+      "correct_answer": "1.44 MB",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_200",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What company made the iconic Game Boy Color?",
+      "options": [
+        "Sony",
+        "Sega",
+        "Nintendo",
+        "Microsoft"
+      ],
+      "correct_answer": "Nintendo",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_201",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was a popular way to send text messages before smartphones in the 1990s?",
+      "options": [
+        "Email",
+        "Pagers",
+        "Fax machines",
+        "Telegraph"
+      ],
+      "correct_answer": "Pagers",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_202",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What music file-sharing service launched in 1999?",
+      "options": [
+        "iTunes",
+        "Spotify",
+        "Napster",
+        "Pandora"
+      ],
+      "correct_answer": "Napster",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_203",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What type of disc was commonly used to watch movies in the late 1990s?",
+      "options": [
+        "Blu-ray",
+        "DVD",
+        "VHS",
+        "LaserDisc"
+      ],
+      "correct_answer": "DVD",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_204",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the most popular early web browser in the 1990s?",
+      "options": [
+        "Internet Explorer",
+        "Chrome",
+        "Netscape Navigator",
+        "Safari"
+      ],
+      "correct_answer": "Netscape Navigator",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_205",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What colorful desktop computer did Apple release in 1998?",
+      "options": [
+        "iMac G3",
+        "Power Mac",
+        "Macintosh Plus",
+        "Mac Pro"
+      ],
+      "correct_answer": "iMac G3",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_206",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What handheld device was known as a PDA (Personal Digital Assistant)?",
+      "options": [
+        "iPhone",
+        "Palm Pilot",
+        "Blackberry",
+        "Android"
+      ],
+      "correct_answer": "Palm Pilot",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_207",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the famous slogan AOL users heard when they had mail?",
+      "options": [
+        "You've got mail",
+        "New message arrived",
+        "Mail delivered",
+        "Check your inbox"
+      ],
+      "correct_answer": "You've got mail",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_208",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What did 'CD-ROM' stand for?",
+      "options": [
+        "Compact Disc Read-Only Memory",
+        "Computer Data ROM",
+        "Circular Disc ROM",
+        "Compact Data ROM"
+      ],
+      "correct_answer": "Compact Disc Read-Only Memory",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_209",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "Which company made the popular Nokia mobile phones of the 1990s?",
+      "options": [
+        "A Swedish company",
+        "A Finnish company",
+        "A Japanese company",
+        "An American company"
+      ],
+      "correct_answer": "A Finnish company",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_210",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year was Windows 98 released?",
+      "options": [
+        "1997",
+        "1998",
+        "1999",
+        "2000"
+      ],
+      "correct_answer": "1998",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_211",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the last operating system in the Windows 9x series?",
+      "options": [
+        "Windows 98",
+        "Windows 98 SE",
+        "Windows ME",
+        "Windows 2000"
+      ],
+      "correct_answer": "Windows ME",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_212",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year did the Nintendo 64 launch in North America?",
+      "options": [
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "correct_answer": "1996",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_213",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was Sega's last home gaming console, released in 1999?",
+      "options": [
+        "Sega Saturn",
+        "Sega Genesis",
+        "Sega Dreamcast",
+        "Sega CD"
+      ],
+      "correct_answer": "Sega Dreamcast",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_214",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year was the Game Boy Color released?",
+      "options": [
+        "1996",
+        "1997",
+        "1998",
+        "1999"
+      ],
+      "correct_answer": "1998",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_215",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the typical maximum speed of dial-up internet in the late 1990s?",
+      "options": [
+        "14.4 kbps",
+        "28.8 kbps",
+        "56 kbps",
+        "128 kbps"
+      ],
+      "correct_answer": "56 kbps",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_216",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What company founded by Shawn Fanning created Napster?",
+      "options": [
+        "Napster Inc.",
+        "Fanning Technologies",
+        "Peer Networks",
+        "None, it was his personal project"
+      ],
+      "correct_answer": "Napster Inc.",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_217",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the main concern about the Y2K bug?",
+      "options": [
+        "Computers would crash",
+        "Dates would reset to 1900",
+        "All data would be erased",
+        "Internet would stop working"
+      ],
+      "correct_answer": "Dates would reset to 1900",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_218",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the original color of the iMac G3 when it launched in 1998?",
+      "options": [
+        "Blue",
+        "Bondi Blue",
+        "Tangerine",
+        "Lime"
+      ],
+      "correct_answer": "Bondi Blue",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_219",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What company created the Palm Pilot?",
+      "options": [
+        "Apple",
+        "Microsoft",
+        "Palm Computing",
+        "Compaq"
+      ],
+      "correct_answer": "Palm Computing",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_220",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What messaging system did AOL popularize in the 1990s?",
+      "options": [
+        "AIM (AOL Instant Messenger)",
+        "Yahoo Messenger",
+        "ICQ",
+        "MSN Messenger"
+      ],
+      "correct_answer": "AIM (AOL Instant Messenger)",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_221",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What famous Nokia phone model was known as 'the brick'?",
+      "options": [
+        "Nokia 3310",
+        "Nokia 5110",
+        "Nokia 8110",
+        "Nokia 2110"
+      ],
+      "correct_answer": "Nokia 5110",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_222",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the storage capacity of a standard CD-ROM?",
+      "options": [
+        "500 MB",
+        "650 MB",
+        "700 MB",
+        "1 GB"
+      ],
+      "correct_answer": "650 MB",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_223",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What company developed the Netscape Navigator browser?",
+      "options": [
+        "Netscape Communications",
+        "Microsoft",
+        "AOL",
+        "Yahoo"
+      ],
+      "correct_answer": "Netscape Communications",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_224",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What feature did Windows 95 introduce to the Windows interface?",
+      "options": [
+        "Desktop icons",
+        "The Start button",
+        "File Explorer",
+        "Control Panel"
+      ],
+      "correct_answer": "The Start button",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_225",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What portable cassette player was popular before MP3 players?",
+      "options": [
+        "Walkman",
+        "Discman",
+        "iPod",
+        "Zune"
+      ],
+      "correct_answer": "Walkman",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_226",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year did DVD players first become available to consumers?",
+      "options": [
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "correct_answer": "1997",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_227",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the name of Microsoft's gaming console that was in development in the late 1990s?",
+      "options": [
+        "Xbox",
+        "DirectX Box",
+        "Microsoft Game System",
+        "PlayBox"
+      ],
+      "correct_answer": "Xbox",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_228",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year did the original Tamagotchi launch?",
+      "options": [
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "correct_answer": "1996",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_229",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What technology did the Sega Dreamcast use for game storage?",
+      "options": [
+        "Cartridges",
+        "CDs",
+        "GD-ROMs",
+        "DVDs"
+      ],
+      "correct_answer": "GD-ROMs",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_230",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the name of the search engine founded by Larry Page and Sergey Brin in 1998?",
+      "options": [
+        "Yahoo",
+        "AltaVista",
+        "Google",
+        "Lycos"
+      ],
+      "correct_answer": "Google",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_231",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What input method did the Palm Pilot use?",
+      "options": [
+        "Keyboard",
+        "Voice commands",
+        "Stylus and Graffiti writing",
+        "Touch keyboard"
+      ],
+      "correct_answer": "Stylus and Graffiti writing",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_232",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What wireless communication technology for phones became popular in the 1990s?",
+      "options": [
+        "3G",
+        "4G",
+        "GSM",
+        "5G"
+      ],
+      "correct_answer": "GSM",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_233",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the popular Motorola flip phone model released in 1996?",
+      "options": [
+        "RAZR",
+        "StarTAC",
+        "MicroTAC",
+        "FlipPhone"
+      ],
+      "correct_answer": "StarTAC",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_234",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What email service launched by Microsoft in 1996 became hugely popular?",
+      "options": [
+        "Outlook",
+        "Hotmail",
+        "Live Mail",
+        "MSN Mail"
+      ],
+      "correct_answer": "Hotmail",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_235",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the primary format for storing computer data before CD-ROMs became common?",
+      "options": [
+        "USB drives",
+        "Hard drives only",
+        "Floppy disks",
+        "Tape drives"
+      ],
+      "correct_answer": "Floppy disks",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_236",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What video game console accessory allowed you to play games on the go?",
+      "options": [
+        "Game Gear",
+        "PlayStation Portable",
+        "Switch",
+        "iPad"
+      ],
+      "correct_answer": "Game Gear",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_237",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the name of the protocol used for transferring files on the early internet?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "TCP"
+      ],
+      "correct_answer": "FTP",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_238",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What company did AOL acquire in 1998 for $4.2 billion?",
+      "options": [
+        "Yahoo",
+        "Netscape",
+        "CompuServe",
+        "Prodigy"
+      ],
+      "correct_answer": "Netscape",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_239",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the first commercially successful portable CD player called?",
+      "options": [
+        "Walkman",
+        "Discman",
+        "CD Player",
+        "Portable Audio"
+      ],
+      "correct_answer": "Discman",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_240",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What exact date did Windows 95 launch?",
+      "options": [
+        "August 24, 1995",
+        "August 25, 1995",
+        "September 1, 1995",
+        "July 24, 1995"
+      ],
+      "correct_answer": "August 24, 1995",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_241",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the code name for Windows 95 during development?",
+      "options": [
+        "Chicago",
+        "Memphis",
+        "Neptune",
+        "Whistler"
+      ],
+      "correct_answer": "Chicago",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_242",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the original launch price of the PlayStation in the US?",
+      "options": [
+        "$199",
+        "$249",
+        "$299",
+        "$349"
+      ],
+      "correct_answer": "$299",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_243",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the exact release date of the iMac G3?",
+      "options": [
+        "August 15, 1998",
+        "August 16, 1998",
+        "May 6, 1998",
+        "September 1, 1998"
+      ],
+      "correct_answer": "August 15, 1998",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_244",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the maximum storage capacity of the Zip drive disks popular in the late 1990s?",
+      "options": [
+        "100 MB",
+        "250 MB",
+        "500 MB",
+        "750 MB"
+      ],
+      "correct_answer": "250 MB",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_245",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year did Netscape have its historic IPO?",
+      "options": [
+        "1994",
+        "1995",
+        "1996",
+        "1997"
+      ],
+      "correct_answer": "1995",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_246",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the processor speed of the original iMac G3?",
+      "options": [
+        "200 MHz",
+        "233 MHz",
+        "266 MHz",
+        "300 MHz"
+      ],
+      "correct_answer": "233 MHz",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_247",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the original name of the Palm Pilot when it was first released?",
+      "options": [
+        "Palm 1000",
+        "Pilot 1000",
+        "Palm Pilot 1000",
+        "PalmPilot"
+      ],
+      "correct_answer": "Pilot 1000",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_248",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the code name for Windows 98 during development?",
+      "options": [
+        "Chicago",
+        "Memphis",
+        "Cairo",
+        "Nashville"
+      ],
+      "correct_answer": "Memphis",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_249",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the first web browser to display images inline with text?",
+      "options": [
+        "Mosaic",
+        "Netscape",
+        "Internet Explorer",
+        "Lynx"
+      ],
+      "correct_answer": "Mosaic",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_250",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What year did the Sega Dreamcast launch in Japan?",
+      "options": [
+        "1997",
+        "1998",
+        "1999",
+        "2000"
+      ],
+      "correct_answer": "1998",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_251",
+      "category": "Technology",
+      "subcategory": "Tech Companies",
+      "question": "What was the launch price of the Nintendo 64 in the United States?",
+      "options": [
+        "$149",
+        "$179",
+        "$199",
+        "$249"
+      ],
+      "correct_answer": "$199",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Technology"
+    },
+    {
+      "id": "90s_252",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of jacket made of shiny nylon became popular?",
+      "options": [
+        "Leather jacket",
+        "Jean jacket",
+        "Windbreaker",
+        "Bomber jacket"
+      ],
+      "correct_answer": "Windbreaker",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_253",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What one-piece outfit became a casual fashion staple?",
+      "options": [
+        "Jumpsuit",
+        "Overalls",
+        "Romper",
+        "Dress"
+      ],
+      "correct_answer": "Overalls",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_254",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What British brand of boots became synonymous with grunge and punk?",
+      "options": [
+        "Timberland",
+        "Doc Martens",
+        "Converse",
+        "Vans"
+      ],
+      "correct_answer": "Doc Martens",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_255",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What small clips shaped like insects were used in hair?",
+      "options": [
+        "Bee clips",
+        "Butterfly clips",
+        "Dragonfly clips",
+        "Ladybug clips"
+      ],
+      "correct_answer": "Butterfly clips",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_256",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of hat with a wide brim became trendy?",
+      "options": [
+        "Beanie",
+        "Visor",
+        "Bucket hat",
+        "Baseball cap"
+      ],
+      "correct_answer": "Bucket hat",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_257",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of pants had multiple pockets on the sides?",
+      "options": [
+        "Khakis",
+        "Cargo pants",
+        "Chinos",
+        "Dress pants"
+      ],
+      "correct_answer": "Cargo pants",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_258",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of hat with only a brim (no top) became popular?",
+      "options": [
+        "Baseball cap",
+        "Visor",
+        "Bucket hat",
+        "Beanie"
+      ],
+      "correct_answer": "Visor",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_259",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What hairstyle made popular by Jennifer Aniston on 'Friends'?",
+      "options": [
+        "The Jennifer",
+        "The Rachel",
+        "The Aniston",
+        "The Layered"
+      ],
+      "correct_answer": "The Rachel",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_260",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What fashion style was characterized by plaid, ripped jeans, and band tees?",
+      "options": [
+        "Preppy",
+        "Grunge",
+        "Hip-hop",
+        "Minimalist"
+      ],
+      "correct_answer": "Grunge",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_261",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What fashion style featured oversized jerseys, baggy jeans, and Timberlands?",
+      "options": [
+        "Grunge",
+        "Preppy",
+        "Hip-hop",
+        "Punk"
+      ],
+      "correct_answer": "Hip-hop",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_262",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of eyewear became trendy in the late 90s?",
+      "options": [
+        "Cat-eye glasses",
+        "Tiny sunglasses",
+        "Aviators",
+        "Wayfarers"
+      ],
+      "correct_answer": "Tiny sunglasses",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_263",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What bracelet would slap around your wrist?",
+      "options": [
+        "Friendship bracelet",
+        "Slap bracelet",
+        "Charm bracelet",
+        "Bangle"
+      ],
+      "correct_answer": "Slap bracelet",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_264",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What brand of sneakers became iconic in hip-hop culture?",
+      "options": [
+        "Nike Air Jordans",
+        "Reebok",
+        "Adidas",
+        "New Balance"
+      ],
+      "correct_answer": "Nike Air Jordans",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_265",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What were the colorful, stretchy bracelets popular in the 90s called?",
+      "options": [
+        "Jelly bracelets",
+        "Rubber bands",
+        "Friendship bracelets",
+        "Charm bracelets"
+      ],
+      "correct_answer": "Jelly bracelets",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_266",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What shoe brand featured chunky sneakers called Buffalo platforms?",
+      "options": [
+        "Nike",
+        "Reebok",
+        "Buffalo",
+        "Sketchers"
+      ],
+      "correct_answer": "Buffalo",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_267",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of dress style was tight and short in the 90s?",
+      "options": [
+        "Maxi dress",
+        "Mini dress",
+        "A-line dress",
+        "Slip dress"
+      ],
+      "correct_answer": "Slip dress",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_268",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What was the name of the popular brand of platform sneakers?",
+      "options": [
+        "Nike Air",
+        "Spice Girls platforms",
+        "Sketchers",
+        "Buffalo shoes"
+      ],
+      "correct_answer": "Sketchers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_269",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of shirt had a turtle-like neck?",
+      "options": [
+        "T-shirt",
+        "Turtleneck",
+        "V-neck",
+        "Crew neck"
+      ],
+      "correct_answer": "Turtleneck",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_270",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What hair trend involved tiny braids, often with beads?",
+      "options": [
+        "French braids",
+        "Cornrows",
+        "Box braids",
+        "Micro braids"
+      ],
+      "correct_answer": "Micro braids",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_271",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What was the popular hair highlighting technique called?",
+      "options": [
+        "Balayage",
+        "Frosted tips",
+        "Ombre",
+        "Highlights"
+      ],
+      "correct_answer": "Frosted tips",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_272",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of pants flared out from the knee down?",
+      "options": [
+        "Bootcut",
+        "Bell-bottoms",
+        "Flare jeans",
+        "Wide-leg"
+      ],
+      "correct_answer": "Flare jeans",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_273",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What brand made popular colorful school supplies and stickers?",
+      "options": [
+        "Trapper Keeper",
+        "Lisa Frank",
+        "Sanrio",
+        "Disney"
+      ],
+      "correct_answer": "Lisa Frank",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_274",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of jacket was made of denim?",
+      "options": [
+        "Bomber jacket",
+        "Leather jacket",
+        "Jean jacket",
+        "Windbreaker"
+      ],
+      "correct_answer": "Jean jacket",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_275",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What jewelry piece went around the ankle?",
+      "options": [
+        "Anklet",
+        "Bracelet",
+        "Toe ring",
+        "Necklace"
+      ],
+      "correct_answer": "Anklet",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_276",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What temporary tattoo brand was extremely popular?",
+      "options": [
+        "Silly Bandz",
+        "Tattly",
+        "Temporary Tattoos",
+        "Wet n Wild"
+      ],
+      "correct_answer": "Temporary Tattoos",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_277",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of shirt featured a midriff cutout?",
+      "options": [
+        "Tank top",
+        "Crop top",
+        "Halter top",
+        "Tube top"
+      ],
+      "correct_answer": "Crop top",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_278",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What brand of overalls became extremely popular?",
+      "options": [
+        "Levi's",
+        "Tommy Hilfiger",
+        "JNCO",
+        "Gap"
+      ],
+      "correct_answer": "Tommy Hilfiger",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_279",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of pants were extremely wide-legged?",
+      "options": [
+        "JNCO jeans",
+        "Levi's",
+        "Lee",
+        "Wrangler"
+      ],
+      "correct_answer": "JNCO jeans",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_280",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What hairstyle involved pulling hair into two high buns?",
+      "options": [
+        "Pigtails",
+        "Space buns",
+        "Top knots",
+        "Double buns"
+      ],
+      "correct_answer": "Space buns",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_281",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of shirt tied at the front?",
+      "options": [
+        "Button-up",
+        "Tie-front",
+        "Wrap shirt",
+        "Halter"
+      ],
+      "correct_answer": "Tie-front",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_282",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What brand of jeans featured a triangle logo?",
+      "options": [
+        "Levi's",
+        "Gap",
+        "Guess",
+        "Calvin Klein"
+      ],
+      "correct_answer": "Guess",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_283",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of shoes were colorful and made of foam?",
+      "options": [
+        "Crocs",
+        "Jellies",
+        "Flip-flops",
+        "Sandals"
+      ],
+      "correct_answer": "Jellies",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_284",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What accessory was worn on the belt loop and held keys?",
+      "options": [
+        "Keychain",
+        "Carabiner",
+        "Key holder",
+        "Belt clip"
+      ],
+      "correct_answer": "Carabiner",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_285",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What makeup trend featured brown lip liner with lighter lipstick?",
+      "options": [
+        "Ombre lips",
+        "Two-tone lips",
+        "Brown lip liner trend",
+        "Gradient lips"
+      ],
+      "correct_answer": "Brown lip liner trend",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_286",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of bag was small and worn around the waist?",
+      "options": [
+        "Backpack",
+        "Fanny pack",
+        "Purse",
+        "Tote"
+      ],
+      "correct_answer": "Fanny pack",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_287",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What was the name of the puffy vest style?",
+      "options": [
+        "Down vest",
+        "Puffer vest",
+        "Quilted vest",
+        "Bubble vest"
+      ],
+      "correct_answer": "Puffer vest",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_288",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What hairstyle featured hair crimped into a zigzag pattern?",
+      "options": [
+        "Wavy",
+        "Crimped",
+        "Permed",
+        "Curled"
+      ],
+      "correct_answer": "Crimped",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_289",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What brand of jeans were known for their extreme wide legs?",
+      "options": [
+        "Levi's",
+        "JNCO",
+        "Lee",
+        "Wrangler"
+      ],
+      "correct_answer": "JNCO",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_290",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What was the name of the zipper-front dresses popular in the 90s?",
+      "options": [
+        "Zip dress",
+        "Front-zip dress",
+        "Zipper dress",
+        "Zip-front mini"
+      ],
+      "correct_answer": "Zip-front mini",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_291",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What designer became famous for minimalist fashion in the 90s?",
+      "options": [
+        "Versace",
+        "Calvin Klein",
+        "Tommy Hilfiger",
+        "Ralph Lauren"
+      ],
+      "correct_answer": "Calvin Klein",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_292",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of shoes were called 'Buffalos'?",
+      "options": [
+        "Platform sneakers",
+        "Boots",
+        "Sandals",
+        "Heels"
+      ],
+      "correct_answer": "Platform sneakers",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_293",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What brand was known for its logo-heavy designs in the 90s?",
+      "options": [
+        "Gap",
+        "Tommy Hilfiger",
+        "Old Navy",
+        "Abercrombie"
+      ],
+      "correct_answer": "Tommy Hilfiger",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_294",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What was the name of the stretchy headbands worn in the 90s?",
+      "options": [
+        "Hairbands",
+        "Headbands",
+        "Scrunchie headbands",
+        "Elastic bands"
+      ],
+      "correct_answer": "Scrunchie headbands",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_295",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What hairstyle involved bleaching just the tips of hair?",
+      "options": [
+        "Highlights",
+        "Frosted tips",
+        "Ombre",
+        "Balayage"
+      ],
+      "correct_answer": "Frosted tips",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_296",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of shirt featured spaghetti straps?",
+      "options": [
+        "Tank top",
+        "Camisole",
+        "Halter top",
+        "Tube top"
+      ],
+      "correct_answer": "Camisole",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_297",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What brand of overalls became popular in hip-hop fashion?",
+      "options": [
+        "Carhartt",
+        "Dickies",
+        "Tommy Hilfiger",
+        "FUBU"
+      ],
+      "correct_answer": "FUBU",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_298",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What was the name of the temporary tattoo chokers?",
+      "options": [
+        "Tattoo chokers",
+        "Stretch chokers",
+        "Henna chokers",
+        "Elastic chokers"
+      ],
+      "correct_answer": "Tattoo chokers",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_299",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What type of pants combined denim with another fabric?",
+      "options": [
+        "Patchwork jeans",
+        "Two-tone jeans",
+        "Mixed fabric jeans",
+        "Hybrid jeans"
+      ],
+      "correct_answer": "Patchwork jeans",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_300",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What brand created the iconic platform Spice Girls shoes?",
+      "options": [
+        "Buffalo",
+        "Sketchers",
+        "Steve Madden",
+        "Platform Shoes Inc."
+      ],
+      "correct_answer": "Buffalo",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_301",
+      "category": "Art",
+      "subcategory": "Fashion",
+      "question": "What was the name of the small, rectangular sunglasses?",
+      "options": [
+        "Mini shades",
+        "Rectangle frames",
+        "Matrix sunglasses",
+        "Tiny rectangles"
+      ],
+      "correct_answer": "Matrix sunglasses",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Fashion & Trends"
+    },
+    {
+      "id": "90s_302",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What country hosted the 1998 FIFA World Cup?",
+      "options": [
+        "Italy",
+        "Brazil",
+        "France",
+        "Germany"
+      ],
+      "correct_answer": "France",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_303",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was the WWE called in the 90s?",
+      "options": [
+        "WWE",
+        "WWF",
+        "WCW",
+        "ECW"
+      ],
+      "correct_answer": "WWF",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_304",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What era of WWE featured Stone Cold Steve Austin and The Rock?",
+      "options": [
+        "Golden Age",
+        "Attitude Era",
+        "Ruthless Aggression",
+        "New Generation"
+      ],
+      "correct_answer": "Attitude Era",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_305",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What golfer became the youngest Masters champion in 1997?",
+      "options": [
+        "Phil Mickelson",
+        "Tiger Woods",
+        "Vijay Singh",
+        "Ernie Els"
+      ],
+      "correct_answer": "Tiger Woods",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_306",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "How many championships did the Chicago Bulls win in the 1990s?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "6",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_307",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What country won the 1998 FIFA World Cup?",
+      "options": [
+        "Brazil",
+        "France",
+        "Italy",
+        "Germany"
+      ],
+      "correct_answer": "France",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_308",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "Who was Michael Jordan's main teammate on the Bulls?",
+      "options": [
+        "Dennis Rodman",
+        "Scottie Pippen",
+        "Horace Grant",
+        "Tony Kukoc"
+      ],
+      "correct_answer": "Scottie Pippen",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_309",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team won the most Super Bowls in the 1990s?",
+      "options": [
+        "Dallas Cowboys",
+        "San Francisco 49ers",
+        "Green Bay Packers",
+        "Denver Broncos"
+      ],
+      "correct_answer": "Dallas Cowboys",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_310",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What MLB team won the most World Series in the 1990s?",
+      "options": [
+        "New York Yankees",
+        "Atlanta Braves",
+        "Toronto Blue Jays",
+        "Cleveland Indians"
+      ],
+      "correct_answer": "New York Yankees",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_311",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What wrestler was known as 'The People's Champion'?",
+      "options": [
+        "Stone Cold Steve Austin",
+        "The Rock",
+        "Triple H",
+        "The Undertaker"
+      ],
+      "correct_answer": "The Rock",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_312",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was Stone Cold Steve Austin's catchphrase?",
+      "options": [
+        "Can you smell what The Rock is cooking?",
+        "Austin 3:16",
+        "You can't see me",
+        "Wooo!"
+      ],
+      "correct_answer": "Austin 3:16",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_313",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "Where were the 1992 Summer Olympics held?",
+      "options": [
+        "Atlanta",
+        "Barcelona",
+        "Sydney",
+        "Seoul"
+      ],
+      "correct_answer": "Barcelona",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_314",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What year did Tiger Woods win his first Masters?",
+      "options": [
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "correct_answer": "1997",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_315",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "How many championships did Michael Jordan win in his first three-peat?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "3",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_316",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What years did Michael Jordan win his second three-peat?",
+      "options": [
+        "1994-1996",
+        "1995-1997",
+        "1996-1998",
+        "1997-1999"
+      ],
+      "correct_answer": "1996-1998",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_317",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "Who was the coach of the Chicago Bulls during their 90s dynasty?",
+      "options": [
+        "Pat Riley",
+        "Phil Jackson",
+        "Gregg Popovich",
+        "Rick Adelman"
+      ],
+      "correct_answer": "Phil Jackson",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_318",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What tennis player dominated women's tennis in the late 90s?",
+      "options": [
+        "Steffi Graf",
+        "Martina Hingis",
+        "Venus Williams",
+        "Monica Seles"
+      ],
+      "correct_answer": "Martina Hingis",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_319",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "Who won the 1994 FIFA World Cup?",
+      "options": [
+        "Italy",
+        "Brazil",
+        "Germany",
+        "Argentina"
+      ],
+      "correct_answer": "Brazil",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_320",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "Where was the 1994 FIFA World Cup held?",
+      "options": [
+        "Italy",
+        "France",
+        "United States",
+        "Mexico"
+      ],
+      "correct_answer": "United States",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_321",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team did Dennis Rodman NOT play for in the 90s?",
+      "options": [
+        "Detroit Pistons",
+        "San Antonio Spurs",
+        "Chicago Bulls",
+        "Los Angeles Lakers"
+      ],
+      "correct_answer": "Los Angeles Lakers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_322",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team won Super Bowl XXX in 1996?",
+      "options": [
+        "Dallas Cowboys",
+        "Pittsburgh Steelers",
+        "Green Bay Packers",
+        "San Francisco 49ers"
+      ],
+      "correct_answer": "Dallas Cowboys",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_323",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team won the 1999 World Series?",
+      "options": [
+        "Atlanta Braves",
+        "New York Yankees",
+        "San Diego Padres",
+        "Cleveland Indians"
+      ],
+      "correct_answer": "New York Yankees",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_324",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was the name of the 1992 Olympic basketball team?",
+      "options": [
+        "The All-Stars",
+        "The Dream Team",
+        "Team USA",
+        "The Olympic Squad"
+      ],
+      "correct_answer": "The Dream Team",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_325",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What figure skater won gold at the 1998 Winter Olympics?",
+      "options": [
+        "Michelle Kwan",
+        "Nancy Kerrigan",
+        "Tara Lipinski",
+        "Kristi Yamaguchi"
+      ],
+      "correct_answer": "Tara Lipinski",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_326",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team did Shaquille O'Neal join in 1996?",
+      "options": [
+        "Orlando Magic",
+        "Los Angeles Lakers",
+        "Miami Heat",
+        "Cleveland Cavaliers"
+      ],
+      "correct_answer": "Los Angeles Lakers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_327",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What wrestler was known as 'The Texas Rattlesnake'?",
+      "options": [
+        "The Rock",
+        "Stone Cold Steve Austin",
+        "Shawn Michaels",
+        "Bret Hart"
+      ],
+      "correct_answer": "Stone Cold Steve Austin",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_328",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What wrestling stable featured Triple H, Shawn Michaels, and others?",
+      "options": [
+        "nWo",
+        "D-Generation X",
+        "The Corporation",
+        "The Ministry"
+      ],
+      "correct_answer": "D-Generation X",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_329",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was The Rock's catchphrase?",
+      "options": [
+        "Austin 3:16",
+        "Can you smell what The Rock is cooking?",
+        "You can't see me",
+        "Wooo!"
+      ],
+      "correct_answer": "Can you smell what The Rock is cooking?",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_330",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What NHL team won the most Stanley Cups in the 90s?",
+      "options": [
+        "Detroit Red Wings",
+        "Colorado Avalanche",
+        "New Jersey Devils",
+        "Pittsburgh Penguins"
+      ],
+      "correct_answer": "Detroit Red Wings",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_331",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What year did the Toronto Blue Jays win their first World Series?",
+      "options": [
+        "1990",
+        "1991",
+        "1992",
+        "1993"
+      ],
+      "correct_answer": "1992",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_332",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team won Super Bowl XXXIII in 1999?",
+      "options": [
+        "Atlanta Falcons",
+        "Denver Broncos",
+        "Green Bay Packers",
+        "New England Patriots"
+      ],
+      "correct_answer": "Denver Broncos",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_333",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What NBA player was known as 'The Admiral'?",
+      "options": [
+        "Patrick Ewing",
+        "David Robinson",
+        "Hakeem Olajuwon",
+        "Shaquille O'Neal"
+      ],
+      "correct_answer": "David Robinson",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_334",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What year did Kerri Strug perform her famous vault on an injured ankle?",
+      "options": [
+        "1992",
+        "1994",
+        "1996",
+        "1998"
+      ],
+      "correct_answer": "1996",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_335",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What Brazilian soccer player was known for his skill and creativity?",
+      "options": [
+        "Pelé",
+        "Ronaldo",
+        "Ronaldinho",
+        "Rivaldo"
+      ],
+      "correct_answer": "Ronaldo",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_336",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team did John Elway win his Super Bowl championships with?",
+      "options": [
+        "Kansas City Chiefs",
+        "Denver Broncos",
+        "Oakland Raiders",
+        "San Diego Chargers"
+      ],
+      "correct_answer": "Denver Broncos",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_337",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What wrestler was known as 'The Heartbreak Kid'?",
+      "options": [
+        "Bret Hart",
+        "Shawn Michaels",
+        "Triple H",
+        "Randy Savage"
+      ],
+      "correct_answer": "Shawn Michaels",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_338",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team did Brett Favre play for in the 90s?",
+      "options": [
+        "Atlanta Falcons",
+        "Green Bay Packers",
+        "Minnesota Vikings",
+        "New York Jets"
+      ],
+      "correct_answer": "Green Bay Packers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_339",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was Michael Jordan's jersey number?",
+      "options": [
+        "23",
+        "32",
+        "45",
+        "33"
+      ],
+      "correct_answer": "23",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_340",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What year did Michael Jordan return from his first retirement?",
+      "options": [
+        "1993",
+        "1994",
+        "1995",
+        "1996"
+      ],
+      "correct_answer": "1995",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_341",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was the final score of the 1998 World Cup final?",
+      "options": [
+        "France 3, Brazil 0",
+        "France 2, Brazil 1",
+        "France 4, Brazil 0",
+        "France 1, Brazil 0"
+      ],
+      "correct_answer": "France 3, Brazil 0",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_342",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team did Scottie Pippen NOT play for in the 90s?",
+      "options": [
+        "Chicago Bulls",
+        "Houston Rockets",
+        "Portland Trail Blazers",
+        "Los Angeles Lakers"
+      ],
+      "correct_answer": "Los Angeles Lakers",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_343",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was Tiger Woods' winning margin at the 1997 Masters?",
+      "options": [
+        "8 strokes",
+        "10 strokes",
+        "12 strokes",
+        "15 strokes"
+      ],
+      "correct_answer": "12 strokes",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_344",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was the name of the WCW wrestling stable featuring Hulk Hogan?",
+      "options": [
+        "D-Generation X",
+        "The Corporation",
+        "nWo",
+        "The Ministry"
+      ],
+      "correct_answer": "nWo",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_345",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team won the NBA championship in 1994?",
+      "options": [
+        "Chicago Bulls",
+        "Houston Rockets",
+        "New York Knicks",
+        "Phoenix Suns"
+      ],
+      "correct_answer": "Houston Rockets",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_346",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was Dennis Rodman known for besides rebounding?",
+      "options": [
+        "Three-point shooting",
+        "Assists",
+        "Hair color changes",
+        "Free throws"
+      ],
+      "correct_answer": "Hair color changes",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_347",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team did the Bulls defeat in the 1998 NBA Finals?",
+      "options": [
+        "Seattle SuperSonics",
+        "Utah Jazz",
+        "Portland Trail Blazers",
+        "Phoenix Suns"
+      ],
+      "correct_answer": "Utah Jazz",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_348",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What was the name of the 1998 Winter Olympics host city?",
+      "options": [
+        "Salt Lake City",
+        "Nagano",
+        "Turin",
+        "Albertville"
+      ],
+      "correct_answer": "Nagano",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_349",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team won the 1998 World Series?",
+      "options": [
+        "New York Yankees",
+        "San Diego Padres",
+        "Atlanta Braves",
+        "Cleveland Indians"
+      ],
+      "correct_answer": "New York Yankees",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_350",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What NFL team went undefeated in the regular season in 1972, but their record stood until what team nearly matched it in 2007?",
+      "options": [
+        "New England Patriots",
+        "Miami Dolphins",
+        "San Francisco 49ers",
+        "Dallas Cowboys"
+      ],
+      "correct_answer": "New England Patriots",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_351",
+      "category": "Sports",
+      "subcategory": "Sports History & Records",
+      "question": "What team did Allen Iverson play for when drafted in 1996?",
+      "options": [
+        "Denver Nuggets",
+        "Philadelphia 76ers",
+        "Detroit Pistons",
+        "Memphis Grizzlies"
+      ],
+      "correct_answer": "Philadelphia 76ers",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Sports & Events"
+    },
+    {
+      "id": "90s_352",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was another brand of virtual pet similar to Tamagotchi?",
+      "options": [
+        "Nano Pet",
+        "Pixel Chix",
+        "Giga Pets",
+        "Digimon"
+      ],
+      "correct_answer": "Giga Pets",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_353",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What toy featured colorful string that returned to your hand?",
+      "options": [
+        "Slinky",
+        "Yo-yo",
+        "Paddle ball",
+        "Kendama"
+      ],
+      "correct_answer": "Yo-yo",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_354",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What substance came in a can and made fart noises?",
+      "options": [
+        "Putty",
+        "Play-Doh",
+        "Slime",
+        "Gak"
+      ],
+      "correct_answer": "Slime",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_355",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What flexible bracelet would slap onto your wrist?",
+      "options": [
+        "Friendship bracelet",
+        "Slap bracelet",
+        "Jelly bracelet",
+        "Charm bracelet"
+      ],
+      "correct_answer": "Slap bracelet",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_356",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What catchphrase did Bart Simpson popularize?",
+      "options": [
+        "Don't have a cow, man!",
+        "Cowabunga!",
+        "Radical!",
+        "Tubular!"
+      ],
+      "correct_answer": "Don't have a cow, man!",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_357",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What phrase meant something was cool or awesome?",
+      "options": [
+        "Phat",
+        "Dope",
+        "All that and a bag of chips",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_358",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What phrase did Wayne and Garth say when something was good?",
+      "options": [
+        "Excellent!",
+        "Radical!",
+        "Tubular!",
+        "Bodacious!"
+      ],
+      "correct_answer": "Excellent!",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_359",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What Elmo toy became a must-have in 1996?",
+      "options": [
+        "Talking Elmo",
+        "Tickle Me Elmo",
+        "Dancing Elmo",
+        "Singing Elmo"
+      ],
+      "correct_answer": "Tickle Me Elmo",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_360",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the clunky brick-sized cell phones?",
+      "options": [
+        "Flip phones",
+        "Brick phones",
+        "Car phones",
+        "Bag phones"
+      ],
+      "correct_answer": "Brick phones",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_361",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What handheld gaming device was released by Nintendo in 1989 and dominated the 90s?",
+      "options": [
+        "Game Gear",
+        "Game Boy",
+        "Lynx",
+        "Neo Geo Pocket"
+      ],
+      "correct_answer": "Game Boy",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_362",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the pager system popular in the 90s?",
+      "options": [
+        "Beeper",
+        "Pager",
+        "Both beeper and pager",
+        "Cell phone"
+      ],
+      "correct_answer": "Both beeper and pager",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_363",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What were the thick, heavy POG discs called?",
+      "options": [
+        "Caps",
+        "Slammers",
+        "Pogs",
+        "Discs"
+      ],
+      "correct_answer": "Slammers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_364",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What brand made the most valuable Beanie Babies?",
+      "options": [
+        "Mattel",
+        "Hasbro",
+        "Ty Inc.",
+        "Fisher-Price"
+      ],
+      "correct_answer": "Ty Inc.",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_365",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What Beanie Baby was a purple bear worth thousands?",
+      "options": [
+        "Princess",
+        "Peace",
+        "Garcia",
+        "Valentino"
+      ],
+      "correct_answer": "Princess",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_366",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What year was the Tamagotchi released?",
+      "options": [
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "correct_answer": "1996",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_367",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What language did Furbies originally speak?",
+      "options": [
+        "English",
+        "Furbish",
+        "Spanish",
+        "French"
+      ],
+      "correct_answer": "Furbish",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_368",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the Skip-It's counter used for?",
+      "options": [
+        "Time",
+        "Jumps",
+        "Calories",
+        "Steps"
+      ],
+      "correct_answer": "Jumps",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_369",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What portable CD player brand became synonymous with the device?",
+      "options": [
+        "Sony Walkman",
+        "Sony Discman",
+        "Panasonic",
+        "JVC"
+      ],
+      "correct_answer": "Sony Discman",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_370",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What phrase meant 'I don't think so'?",
+      "options": [
+        "As if!",
+        "Whatever!",
+        "Talk to the hand!",
+        "Not!"
+      ],
+      "correct_answer": "As if!",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_371",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the multicolored metallic substance kids played with?",
+      "options": [
+        "Silly Putty",
+        "Play-Doh",
+        "Gak",
+        "Floam"
+      ],
+      "correct_answer": "Gak",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_372",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What type of stickers were super shiny and collectible?",
+      "options": [
+        "Scratch and sniff",
+        "Holographic",
+        "Puffy",
+        "Glitter"
+      ],
+      "correct_answer": "Holographic",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_373",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What binder brand was essential for school organization?",
+      "options": [
+        "Five Star",
+        "Trapper Keeper",
+        "Mead",
+        "Avery"
+      ],
+      "correct_answer": "Trapper Keeper",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_374",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the Stretch Armstrong-like octopus toy?",
+      "options": [
+        "Stretch Monster",
+        "Stretch Octopus",
+        "Stretch Armstrong",
+        "None of the above"
+      ],
+      "correct_answer": "Stretch Armstrong",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_375",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What gaming console was released by Sony in 1994?",
+      "options": [
+        "PlayStation",
+        "Sega Saturn",
+        "Nintendo 64",
+        "Dreamcast"
+      ],
+      "correct_answer": "PlayStation",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_376",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What Nintendo console was released in 1996?",
+      "options": [
+        "Super Nintendo",
+        "Nintendo 64",
+        "GameCube",
+        "Wii"
+      ],
+      "correct_answer": "Nintendo 64",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_377",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What water gun brand dominated the 90s?",
+      "options": [
+        "Nerf",
+        "Super Soaker",
+        "Water Blaster",
+        "Squirt Gun"
+      ],
+      "correct_answer": "Super Soaker",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_378",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the most popular yo-yo brand in the 90s?",
+      "options": [
+        "Duncan",
+        "Yomega",
+        "Tiger",
+        "Butterfly"
+      ],
+      "correct_answer": "Yomega",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_379",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What toy line featured action figures that could be scanned?",
+      "options": [
+        "G.I. Joe",
+        "Power Rangers",
+        "Beast Wars",
+        "Action Man"
+      ],
+      "correct_answer": "Beast Wars",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_380",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What trading card game was released in 1993?",
+      "options": [
+        "Pokémon",
+        "Yu-Gi-Oh!",
+        "Magic: The Gathering",
+        "Digimon"
+      ],
+      "correct_answer": "Magic: The Gathering",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_381",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What instant messaging service launched in 1997?",
+      "options": [
+        "MSN Messenger",
+        "Yahoo Messenger",
+        "AIM",
+        "ICQ"
+      ],
+      "correct_answer": "AIM",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_382",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the first instant messaging service launched in 1996?",
+      "options": [
+        "AIM",
+        "ICQ",
+        "MSN Messenger",
+        "Yahoo Messenger"
+      ],
+      "correct_answer": "ICQ",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_383",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What phrase did people say to dismiss someone?",
+      "options": [
+        "Whatever!",
+        "Talk to the hand!",
+        "As if!",
+        "Not!"
+      ],
+      "correct_answer": "Talk to the hand!",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_384",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was added to the end of a sentence for sarcasm?",
+      "options": [
+        "Yeah right!",
+        "Not!",
+        "As if!",
+        "Whatever!"
+      ],
+      "correct_answer": "Not!",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_385",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What phrase did Clueless popularize for being fashionable?",
+      "options": [
+        "On fleek",
+        "All that",
+        "Snatched",
+        "None of the above"
+      ],
+      "correct_answer": "All that",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_386",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What color was the most valuable Princess Diana Beanie Baby?",
+      "options": [
+        "Pink",
+        "Purple",
+        "Blue",
+        "White"
+      ],
+      "correct_answer": "Purple",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_387",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What year was Tickle Me Elmo released?",
+      "options": [
+        "1994",
+        "1995",
+        "1996",
+        "1997"
+      ],
+      "correct_answer": "1996",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_388",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What company created Furby?",
+      "options": [
+        "Hasbro",
+        "Mattel",
+        "Tiger Electronics",
+        "Fisher-Price"
+      ],
+      "correct_answer": "Tiger Electronics",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_389",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the original color of the Nintendo 64?",
+      "options": [
+        "Black",
+        "Gray",
+        "Purple",
+        "Multiple colors"
+      ],
+      "correct_answer": "Gray",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_390",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the full name of POG?",
+      "options": [
+        "Pieces of Gold",
+        "Passion Orange Guava",
+        "Play or Game",
+        "Pineapple Orange Grape"
+      ],
+      "correct_answer": "Passion Orange Guava",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_391",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the most expensive Beanie Baby ever sold?",
+      "options": [
+        "Princess Bear",
+        "Peanut the Elephant",
+        "Valentino Bear",
+        "Peace Bear"
+      ],
+      "correct_answer": "Peanut the Elephant",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_392",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the Super Soaker's inventor?",
+      "options": [
+        "Lonnie Johnson",
+        "James Dyson",
+        "Larry Page",
+        "Steve Jobs"
+      ],
+      "correct_answer": "Lonnie Johnson",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_393",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was AIM's full name?",
+      "options": [
+        "America Internet Messenger",
+        "AOL Instant Messenger",
+        "All Internet Messages",
+        "American Instant Messenger"
+      ],
+      "correct_answer": "AOL Instant Messenger",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_394",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What year was the original PlayStation released in North America?",
+      "options": [
+        "1994",
+        "1995",
+        "1996",
+        "1997"
+      ],
+      "correct_answer": "1995",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_395",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What was the name of the competing virtual pet to Tamagotchi?",
+      "options": [
+        "Nano Pet",
+        "Pixel Chix",
+        "Giga Pets",
+        "DigiPet"
+      ],
+      "correct_answer": "Giga Pets",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_396",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
+      "question": "What Nickelodeon sketch comedy show featured young performers?",
+      "options": [
+        "Kenan & Kel",
+        "All That",
+        "The Amanda Show",
+        "Figure It Out"
+      ],
+      "correct_answer": "All That",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_397",
+      "category": "Technology",
+      "subcategory": "Internet & Computing",
+      "question": "What iconic screeching sound did internet users hear when connecting online?",
+      "options": [
+        "Modem dialing",
+        "Dial-up connection",
+        "Phone ringing",
+        "Computer booting"
+      ],
+      "correct_answer": "Dial-up connection",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_398",
+      "category": "Entertainment",
+      "subcategory": "Movies",
+      "question": "What phrase from the movie 'You've Got Mail' became synonymous with email?",
+      "options": [
+        "New Message!",
+        "You've Got Mail!",
+        "Email Received!",
+        "Message Waiting!"
+      ],
+      "correct_answer": "You've Got Mail!",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_399",
+      "category": "Technology",
+      "subcategory": "Internet & Computing",
+      "question": "What feature on AIM let you tell friends you were away from your computer?",
+      "options": [
+        "Status message",
+        "Away message",
+        "Out of office",
+        "Do not disturb"
+      ],
+      "correct_answer": "Away message",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "90s_400",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
+      "question": "What orange-themed network dominated kids' TV in the 90s?",
+      "options": [
+        "Cartoon Network",
+        "Disney Channel",
+        "Nickelodeon",
+        "Fox Kids"
+      ],
+      "correct_answer": "Nickelodeon",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.90s",
+      "subtopic": "Pop Culture"
+    }
+  ]
+}

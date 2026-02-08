@@ -1,0 +1,4836 @@
+{
+  "packId": "com.fiz.pack.candy",
+  "packName": "Candy & Sweets",
+  "packDescription": "Satisfy your sweet tooth with 300 questions about candy, chocolate, and confectionery history from around the world!",
+  "subtopics": [
+    "Candy Types",
+    "History & Origins",
+    "Ingredients & Making",
+    "Around the World",
+    "Holidays & Occasions",
+    "Pop Culture"
+  ],
+  "subtopicIcons": {
+    "Candy Types": "birthday.cake.fill",
+    "History & Origins": "clock.arrow.circlepath",
+    "Ingredients & Making": "cooktop.fill",
+    "Around the World": "globe",
+    "Holidays & Occasions": "calendar",
+    "Pop Culture": "tv.fill"
+  },
+  "questionCount": 300,
+  "freePreviewCount": 30,
+  "difficulty": {
+    "easy": 90,
+    "medium": 149,
+    "hard": 61
+  },
+  "price": 0.49,
+  "icon": "heart.fill",
+  "isPublished": true,
+  "releaseDate": "2026-02-07T00:00:00Z",
+  "freePreviewQuestions": [
+    {
+      "id": "cnd_001",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What chocolate bar is known for its slogan 'Have a break, have a ___'?",
+      "options": [
+        "Snickers",
+        "Kit Kat",
+        "Twix",
+        "Milky Way"
+      ],
+      "correct_answer": "Kit Kat",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_002",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy is made primarily from sugar and corn syrup boiled to a hard, brittle state?",
+      "options": [
+        "Caramel",
+        "Hard candy",
+        "Fudge",
+        "Taffy"
+      ],
+      "correct_answer": "Hard candy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_003",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What type of candy are Haribo Gold-Bears?",
+      "options": [
+        "Hard candies",
+        "Gummy candies",
+        "Chocolate",
+        "Lollipops"
+      ],
+      "correct_answer": "Gummy candies",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_004",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What candy brand is famous for its colorful button-shaped chocolates that 'melt in your mouth, not in your hand'?",
+      "options": [
+        "Skittles",
+        "M&M's",
+        "Smarties",
+        "Reese's Pieces"
+      ],
+      "correct_answer": "M&M's",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_005",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy type is Tootsie Roll an example of?",
+      "options": [
+        "Hard candy",
+        "Gummy candy",
+        "Taffy",
+        "Lollipop"
+      ],
+      "correct_answer": "Taffy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_006",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What year was the Hershey's Milk Chocolate Bar first introduced?",
+      "options": [
+        "1894",
+        "1900",
+        "1905",
+        "1910"
+      ],
+      "correct_answer": "1900",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_007",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What company was founded by John Cadbury in Birmingham, England?",
+      "options": [
+        "Nestlé",
+        "Cadbury",
+        "Lindt",
+        "Godiva"
+      ],
+      "correct_answer": "Cadbury",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_008",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Who founded the Wrigley chewing gum company?",
+      "options": [
+        "William Wrigley Jr.",
+        "Frank Mars",
+        "Milton Hershey",
+        "Forrest Mars"
+      ],
+      "correct_answer": "William Wrigley Jr.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_009",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Who founded the Mars candy company?",
+      "options": [
+        "Frank Mars",
+        "Milton Hershey",
+        "Forrest Mars",
+        "William Wrigley"
+      ],
+      "correct_answer": "Frank Mars",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_010",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which popular candy was invented by a dentist?",
+      "options": [
+        "Cotton candy",
+        "Jawbreaker",
+        "Caramel",
+        "Lollipop"
+      ],
+      "correct_answer": "Cotton candy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_011",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the primary ingredient in most candies?",
+      "options": [
+        "Sugar",
+        "Flour",
+        "Salt",
+        "Butter"
+      ],
+      "correct_answer": "Sugar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_012",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What ingredient gives gummy bears their chewy texture?",
+      "options": [
+        "Gelatin",
+        "Flour",
+        "Butter",
+        "Baking soda"
+      ],
+      "correct_answer": "Gelatin",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_013",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is chocolate made from?",
+      "options": [
+        "Cocoa beans",
+        "Coffee beans",
+        "Vanilla beans",
+        "Kidney beans"
+      ],
+      "correct_answer": "Cocoa beans",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_014",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "Which sweetener is commonly used in candy making to prevent crystallization?",
+      "options": [
+        "Corn syrup",
+        "Honey",
+        "Maple syrup",
+        "Agave nectar"
+      ],
+      "correct_answer": "Corn syrup",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_015",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What color is white chocolate?",
+      "options": [
+        "White or ivory",
+        "Brown",
+        "Pink",
+        "Yellow"
+      ],
+      "correct_answer": "White or ivory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_016",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which country is famous for producing Toblerone chocolate bars with their distinctive triangular shape?",
+      "options": [
+        "Germany",
+        "Belgium",
+        "Switzerland",
+        "Austria"
+      ],
+      "correct_answer": "Switzerland",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_017",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Haribo, the famous gummy bear company, originated in which country?",
+      "options": [
+        "Germany",
+        "Netherlands",
+        "Sweden",
+        "Denmark"
+      ],
+      "correct_answer": "Germany",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_018",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which Australian chocolate-coated biscuit is often used in the 'Tim Tam Slam' drinking technique?",
+      "options": [
+        "Tim Tams",
+        "Anzac Biscuits",
+        "Lamingtons",
+        "Iced VoVos"
+      ],
+      "correct_answer": "Tim Tams",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_019",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Cadbury chocolate originated in which country?",
+      "options": [
+        "United States",
+        "United Kingdom",
+        "Ireland",
+        "Australia"
+      ],
+      "correct_answer": "United Kingdom",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_020",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which country is known for having over 300 unique flavors of Kit Kat bars?",
+      "options": [
+        "United States",
+        "United Kingdom",
+        "Japan",
+        "South Korea"
+      ],
+      "correct_answer": "Japan",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_021",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What three colors are traditional candy corn?",
+      "options": [
+        "Orange, yellow, and white",
+        "Red, white, and blue",
+        "Orange, brown, and white",
+        "Yellow, orange, and brown"
+      ],
+      "correct_answer": "Orange, yellow, and white",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_022",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which holiday is most associated with candy canes?",
+      "options": [
+        "Christmas",
+        "Easter",
+        "Halloween",
+        "Valentine's Day"
+      ],
+      "correct_answer": "Christmas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_023",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What shape are conversation hearts typically sold in on Valentine's Day?",
+      "options": [
+        "Heart-shaped",
+        "Circle-shaped",
+        "Square-shaped",
+        "Star-shaped"
+      ],
+      "correct_answer": "Heart-shaped",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_024",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which marshmallow candy is shaped like chicks and bunnies for Easter?",
+      "options": [
+        "Peeps",
+        "Marshmallow Fluff",
+        "Lucky Charms",
+        "Jet-Puffed"
+      ],
+      "correct_answer": "Peeps",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_025",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the traditional flavor of candy canes?",
+      "options": [
+        "Peppermint",
+        "Cinnamon",
+        "Spearmint",
+        "Wintergreen"
+      ],
+      "correct_answer": "Peppermint",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_026",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In the movie 'E.T. the Extra-Terrestrial', which candy was famously used to lure E.T.?",
+      "options": [
+        "Skittles",
+        "Reese's Pieces",
+        "M&M's",
+        "Smarties"
+      ],
+      "correct_answer": "Reese's Pieces",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_027",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy brand uses the slogan 'Melts in your mouth, not in your hand'?",
+      "options": [
+        "Skittles",
+        "Smarties",
+        "M&M's",
+        "Reese's Pieces"
+      ],
+      "correct_answer": "M&M's",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_028",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the slogan for Skittles candy?",
+      "options": [
+        "Taste the rainbow",
+        "Feel the joy",
+        "Share the happiness",
+        "Experience the burst"
+      ],
+      "correct_answer": "Taste the rainbow",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_029",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In the movie 'Elf', what does Buddy the Elf claim are the four main food groups?",
+      "options": [
+        "Candy, candy canes, candy corns, and syrup",
+        "Chocolate, gummies, lollipops, and marshmallows",
+        "Sugar, sweets, treats, and candy",
+        "Cookies, candy, cake, and ice cream"
+      ],
+      "correct_answer": "Candy, candy canes, candy corns, and syrup",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_030",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which mobile game featuring candy became a global phenomenon in 2012?",
+      "options": [
+        "Candy Quest",
+        "Sweet Saga",
+        "Candy Crush Saga",
+        "Sugar Rush"
+      ],
+      "correct_answer": "Candy Crush Saga",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "cnd_031",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the primary characteristic of sour candies?",
+      "options": [
+        "Sweet flavor only",
+        "Acidic coating or flavor",
+        "Chocolate base",
+        "Mint flavor"
+      ],
+      "correct_answer": "Acidic coating or flavor",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_032",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What candy is known for being 'the milk chocolate that melts in your mouth'?",
+      "options": [
+        "Hershey's",
+        "Dove",
+        "Cadbury",
+        "Lindt"
+      ],
+      "correct_answer": "Dove",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_033",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which popular Halloween candy features three colors: white, orange, and yellow?",
+      "options": [
+        "Jellybeans",
+        "Candy corn",
+        "Skittles",
+        "Gummy worms"
+      ],
+      "correct_answer": "Candy corn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_034",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What type of candy is a Blow Pop?",
+      "options": [
+        "Gummy candy",
+        "Lollipop",
+        "Hard candy",
+        "Caramel"
+      ],
+      "correct_answer": "Lollipop",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_035",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy bar contains peanut butter cups covered in chocolate?",
+      "options": [
+        "Butterfinger",
+        "Reese's",
+        "Baby Ruth",
+        "PayDay"
+      ],
+      "correct_answer": "Reese's",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_036",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the main ingredient that gives marshmallows their fluffy texture?",
+      "options": [
+        "Gelatin",
+        "Butter",
+        "Flour",
+        "Baking soda"
+      ],
+      "correct_answer": "Gelatin",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_037",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy bar features nougat, caramel, and peanuts covered in chocolate?",
+      "options": [
+        "Milky Way",
+        "Snickers",
+        "Three Musketeers",
+        "Almond Joy"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_038",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What type of candy are Skittles?",
+      "options": [
+        "Chocolate",
+        "Hard candy",
+        "Gummy candy",
+        "Caramel"
+      ],
+      "correct_answer": "Hard candy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_039",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy is known for its strong peppermint flavor and red-and-white swirl pattern?",
+      "options": [
+        "Life Savers",
+        "Candy canes",
+        "Peppermint patties",
+        "Starlight mints"
+      ],
+      "correct_answer": "Candy canes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_040",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What candy bar consists of coconut and almonds covered in chocolate?",
+      "options": [
+        "Mounds",
+        "Almond Joy",
+        "Bounty",
+        "PayDay"
+      ],
+      "correct_answer": "Almond Joy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_041",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What gives licorice its distinctive black color and flavor?",
+      "options": [
+        "Chocolate",
+        "Anise extract",
+        "Black food coloring",
+        "Molasses"
+      ],
+      "correct_answer": "Anise extract",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_042",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy brand produces the popular chewy fruit candies called Starburst?",
+      "options": [
+        "Nestlé",
+        "Mars",
+        "Hershey's",
+        "Ferrero"
+      ],
+      "correct_answer": "Mars",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_043",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What type of candy is saltwater taffy?",
+      "options": [
+        "Hard candy",
+        "Pulled candy",
+        "Chocolate candy",
+        "Gummy candy"
+      ],
+      "correct_answer": "Pulled candy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_044",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the key difference between toffee and caramel?",
+      "options": [
+        "Toffee uses butter, caramel uses cream",
+        "Toffee is cooked to a higher temperature",
+        "Caramel contains nuts",
+        "Toffee is always chocolate-covered"
+      ],
+      "correct_answer": "Toffee is cooked to a higher temperature",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_045",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which popular candy consists of a chocolate disk with colorful candy pieces on top?",
+      "options": [
+        "M&M's",
+        "Smarties",
+        "Nonpareils",
+        "Raisinets"
+      ],
+      "correct_answer": "Nonpareils",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_046",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What candy brand is known for its alphabet-shaped marshmallows in cereal?",
+      "options": [
+        "Lucky Charms",
+        "Trix",
+        "Fruity Pebbles",
+        "Cap'n Crunch"
+      ],
+      "correct_answer": "Lucky Charms",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_047",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy type is formed by allowing a sugar solution to crystallize around a string or stick?",
+      "options": [
+        "Lollipops",
+        "Rock candy",
+        "Hard candy",
+        "Candy canes"
+      ],
+      "correct_answer": "Rock candy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_048",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the main ingredient in traditional Turkish Delight?",
+      "options": [
+        "Gelatin",
+        "Starch",
+        "Chocolate",
+        "Nuts"
+      ],
+      "correct_answer": "Starch",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_049",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy bar features a crispy wafer center covered in caramel and chocolate?",
+      "options": [
+        "Twix",
+        "Kit Kat",
+        "100 Grand",
+        "Milky Way"
+      ],
+      "correct_answer": "Twix",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_050",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What type of candy is Toblerone?",
+      "options": [
+        "Milk chocolate bar",
+        "Nougat candy",
+        "Chocolate bar with honey and almond nougat",
+        "Dark chocolate truffle"
+      ],
+      "correct_answer": "Chocolate bar with honey and almond nougat",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_051",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which sour candy brand is known for its 'first they're sour, then they're sweet' slogan?",
+      "options": [
+        "Warheads",
+        "Sour Patch Kids",
+        "Nerds",
+        "Lemonheads"
+      ],
+      "correct_answer": "Sour Patch Kids",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_052",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What candy consists of two thin chocolate wafers filled with mint cream?",
+      "options": [
+        "Thin Mints",
+        "York Peppermint Patty",
+        "Andes mints",
+        "Junior Mints"
+      ],
+      "correct_answer": "Andes mints",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_053",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What gives Nerds candy its distinctive crunchy texture?",
+      "options": [
+        "Sugar crystals",
+        "Rice crisps",
+        "Popped corn",
+        "Crushed nuts"
+      ],
+      "correct_answer": "Sugar crystals",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_054",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy bar was originally marketed as a meal replacement during the Great Depression?",
+      "options": [
+        "Hershey's",
+        "Snickers",
+        "Baby Ruth",
+        "Milky Way"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_055",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What type of candy is PEZ known for?",
+      "options": [
+        "Chocolate bars",
+        "Pressed tablet candy in dispensers",
+        "Gummy candy",
+        "Lollipops"
+      ],
+      "correct_answer": "Pressed tablet candy in dispensers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_056",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy features a honeycomb toffee center covered in chocolate?",
+      "options": [
+        "Butterfinger",
+        "Crunchie",
+        "Heath bar",
+        "Skor"
+      ],
+      "correct_answer": "Crunchie",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_057",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What makes gummy bears chewy?",
+      "options": [
+        "Corn syrup",
+        "Gelatin",
+        "Pectin",
+        "Starch"
+      ],
+      "correct_answer": "Gelatin",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_058",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which chocolate bar is known for its unique triangular shape based on the Swiss Alps?",
+      "options": [
+        "Lindt",
+        "Toblerone",
+        "Milka",
+        "Ritter Sport"
+      ],
+      "correct_answer": "Toblerone",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_059",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What type of candy is made by aerating chocolate to create a bubbly texture?",
+      "options": [
+        "Aero bar",
+        "Milky Way",
+        "3 Musketeers",
+        "Whatchamacallit"
+      ],
+      "correct_answer": "Aero bar",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_060",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy brand produces the sour belts and sour straws?",
+      "options": [
+        "Haribo",
+        "Trolli",
+        "Airheads",
+        "Swedish Fish"
+      ],
+      "correct_answer": "Trolli",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_061",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the primary flavor difference between red and black licorice?",
+      "options": [
+        "Red has strawberry, black has anise",
+        "Red has cherry, black has chocolate",
+        "Red has cinnamon, black has vanilla",
+        "They taste the same"
+      ],
+      "correct_answer": "Red has strawberry, black has anise",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_062",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which candy is made by stretching and folding sugar to create a shiny, satiny appearance?",
+      "options": [
+        "Caramel",
+        "Taffy",
+        "Fudge",
+        "Nougat"
+      ],
+      "correct_answer": "Taffy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_063",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What candy features crispy peanut butter layers covered in chocolate?",
+      "options": [
+        "Reese's",
+        "Butterfinger",
+        "Baby Ruth",
+        "Clark Bar"
+      ],
+      "correct_answer": "Butterfinger",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_064",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which type of candy is Life Savers?",
+      "options": [
+        "Soft candy",
+        "Hard candy",
+        "Chocolate",
+        "Gummy candy"
+      ],
+      "correct_answer": "Hard candy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_065",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What ingredient gives Swedish Fish their distinctive chewy texture?",
+      "options": [
+        "Gelatin",
+        "Beeswax",
+        "Cornstarch and invert sugar",
+        "Pectin"
+      ],
+      "correct_answer": "Cornstarch and invert sugar",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_066",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the traditional method for making fudge?",
+      "options": [
+        "Freezing chocolate mixture",
+        "Beating sugar syrup while cooling",
+        "Whipping cream with sugar",
+        "Melting chocolate with butter"
+      ],
+      "correct_answer": "Beating sugar syrup while cooling",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_067",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What temperature range defines the 'hard crack' stage used for making lollipops and hard candies?",
+      "options": [
+        "250-266°F",
+        "270-290°F",
+        "300-310°F",
+        "320-350°F"
+      ],
+      "correct_answer": "300-310°F",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_068",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which country is credited with inventing modern gummy bears in 1922?",
+      "options": [
+        "Switzerland",
+        "Germany",
+        "Austria",
+        "Belgium"
+      ],
+      "correct_answer": "Germany",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_069",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the primary stabilizer used in marshmallow production besides gelatin?",
+      "options": [
+        "Agar",
+        "Egg whites",
+        "Cornstarch",
+        "Pectin"
+      ],
+      "correct_answer": "Egg whites",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_070",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What acid is most commonly used to create the sour coating on sour candies?",
+      "options": [
+        "Acetic acid",
+        "Citric acid",
+        "Malic acid",
+        "Tartaric acid"
+      ],
+      "correct_answer": "Citric acid",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_071",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the technical name for the process of tempering chocolate?",
+      "options": [
+        "Crystallization",
+        "Polymorphic transformation",
+        "Emulsification",
+        "Conching"
+      ],
+      "correct_answer": "Polymorphic transformation",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_072",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "Which jellybean manufacturer is credited with creating the first flavored jelly bean in 1976?",
+      "options": [
+        "Jelly Belly",
+        "Brach's",
+        "Starburst",
+        "Haribo"
+      ],
+      "correct_answer": "Jelly Belly",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_073",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the difference between fondant and fudge?",
+      "options": [
+        "Fondant uses egg whites, fudge uses butter",
+        "Fondant is crystallized sugar paste, fudge is beaten sugar mixture",
+        "Fondant is chocolate-based, fudge is vanilla-based",
+        "They are the same thing"
+      ],
+      "correct_answer": "Fondant is crystallized sugar paste, fudge is beaten sugar mixture",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_074",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What is the traditional flavoring used in Pez candy?",
+      "options": [
+        "Vanilla",
+        "Peppermint",
+        "Fruit flavors",
+        "Anise"
+      ],
+      "correct_answer": "Peppermint",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_075",
+      "category": "Food",
+      "subcategory": "Ingredients",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Candy Types",
+      "question": "What makes divinity candy different from regular nougat?",
+      "options": [
+        "It contains nuts",
+        "It uses egg whites beaten to stiff peaks",
+        "It's chocolate-covered",
+        "It has a harder texture"
+      ],
+      "correct_answer": "It uses egg whites beaten to stiff peaks",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_076",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy bar was named after a beloved horse owned by the Mars family?",
+      "options": [
+        "Snickers",
+        "Milky Way",
+        "Three Musketeers",
+        "Twix"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_077",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "In what year were M&M's first introduced to the public?",
+      "options": [
+        "1935",
+        "1941",
+        "1948",
+        "1955"
+      ],
+      "correct_answer": "1941",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_078",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was the original name of Twix when it was first introduced in the UK?",
+      "options": [
+        "Raider",
+        "Twin",
+        "Biscuit Bar",
+        "Caramel Crunch"
+      ],
+      "correct_answer": "Raider",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_079",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy was originally marketed as 'Penny Cups' because they cost one cent?",
+      "options": [
+        "Reese's Peanut Butter Cups",
+        "York Peppermint Patties",
+        "Junior Mints",
+        "Rolo"
+      ],
+      "correct_answer": "Reese's Peanut Butter Cups",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_080",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What year was the Milky Way candy bar first introduced?",
+      "options": [
+        "1918",
+        "1923",
+        "1930",
+        "1935"
+      ],
+      "correct_answer": "1923",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_081",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which iconic candy was created during World War II rationing as a chocolate-free alternative?",
+      "options": [
+        "Smarties",
+        "Three Musketeers",
+        "Jolly Rancher",
+        "Tootsie Roll"
+      ],
+      "correct_answer": "Three Musketeers",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_082",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What Swiss company is known for inventing milk chocolate in 1875?",
+      "options": [
+        "Lindt",
+        "Toblerone",
+        "Nestlé",
+        "Suchard"
+      ],
+      "correct_answer": "Nestlé",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_083",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "In what decade was cotton candy first introduced at fairs and carnivals?",
+      "options": [
+        "1890s",
+        "1900s",
+        "1920s",
+        "1940s"
+      ],
+      "correct_answer": "1900s",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_084",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was the first candy bar wrapped in paper?",
+      "options": [
+        "Hershey's",
+        "Fry's Chocolate Cream",
+        "Milky Way",
+        "Snickers"
+      ],
+      "correct_answer": "Fry's Chocolate Cream",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_085",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What year was the Kit Kat bar first introduced?",
+      "options": [
+        "1925",
+        "1935",
+        "1945",
+        "1955"
+      ],
+      "correct_answer": "1935",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_086",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy company created the first individually wrapped penny candy?",
+      "options": [
+        "Tootsie Roll Industries",
+        "Mars",
+        "Hershey's",
+        "Nestlé"
+      ],
+      "correct_answer": "Tootsie Roll Industries",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_087",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was the first candy to go to space?",
+      "options": [
+        "M&M's",
+        "Skittles",
+        "Reese's Pieces",
+        "Life Savers"
+      ],
+      "correct_answer": "M&M's",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_088",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy bar was named after a novel by Alexandre Dumas?",
+      "options": [
+        "Three Musketeers",
+        "Count of Monte Cristo",
+        "Milky Way",
+        "Twix"
+      ],
+      "correct_answer": "Three Musketeers",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_089",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What city is known as the 'Chocolate Capital of the World'?",
+      "options": [
+        "Brussels",
+        "Hershey, Pennsylvania",
+        "Zurich",
+        "Paris"
+      ],
+      "correct_answer": "Hershey, Pennsylvania",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_090",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy was originally sold as a medicine for stomach ailments?",
+      "options": [
+        "Peppermint sticks",
+        "Licorice",
+        "Lemon drops",
+        "Gumdrops"
+      ],
+      "correct_answer": "Licorice",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_091",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What year was the Butterfinger candy bar introduced?",
+      "options": [
+        "1920",
+        "1923",
+        "1928",
+        "1932"
+      ],
+      "correct_answer": "1923",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_092",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy company was the first to mass-produce chocolate bars?",
+      "options": [
+        "Fry's",
+        "Cadbury",
+        "Hershey's",
+        "Nestlé"
+      ],
+      "correct_answer": "Fry's",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_093",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was the original flavor of Life Savers candy when introduced in 1912?",
+      "options": [
+        "Peppermint",
+        "Cherry",
+        "Lemon",
+        "Orange"
+      ],
+      "correct_answer": "Peppermint",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_094",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which European country is credited with inventing hard candy?",
+      "options": [
+        "France",
+        "England",
+        "Germany",
+        "Switzerland"
+      ],
+      "correct_answer": "England",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_095",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was Goo Goo Cluster the first to do in candy history?",
+      "options": [
+        "First to combine chocolate, caramel, marshmallow, and peanuts",
+        "First wrapped candy bar",
+        "First peanut butter candy",
+        "First chocolate bar"
+      ],
+      "correct_answer": "First to combine chocolate, caramel, marshmallow, and peanuts",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_096",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Who invented the lollipop making machine in 1908?",
+      "options": [
+        "Samuel Born",
+        "Leo Hirschfield",
+        "George Smith",
+        "Frank Mars"
+      ],
+      "correct_answer": "Samuel Born",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_097",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What century did chocolate first arrive in Europe from the Americas?",
+      "options": [
+        "14th century",
+        "15th century",
+        "16th century",
+        "17th century"
+      ],
+      "correct_answer": "16th century",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_098",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy was created in 1847 and is considered the world's oldest branded candy?",
+      "options": [
+        "Necco Wafers",
+        "Tootsie Roll",
+        "Jelly Belly",
+        "Peppermint Patty"
+      ],
+      "correct_answer": "Necco Wafers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_099",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was the original shape of Tootsie Rolls when they were first created in 1896?",
+      "options": [
+        "Round",
+        "Square",
+        "Log-shaped",
+        "Flat"
+      ],
+      "correct_answer": "Log-shaped",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_100",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy bar was named after President Grover Cleveland's daughter?",
+      "options": [
+        "Baby Ruth",
+        "Babe Ruth Bar",
+        "Cleveland Bar",
+        "Ruth's Chocolate"
+      ],
+      "correct_answer": "Baby Ruth",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_101",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What year were Skittles first introduced in North America?",
+      "options": [
+        "1974",
+        "1979",
+        "1982",
+        "1987"
+      ],
+      "correct_answer": "1979",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_102",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy company introduced the first vending machine for candy in 1888?",
+      "options": [
+        "Tutti Frutti Gum Company",
+        "Hershey's",
+        "Mars",
+        "Wrigley"
+      ],
+      "correct_answer": "Tutti Frutti Gum Company",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_103",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was the first individually wrapped taffy candy in America?",
+      "options": [
+        "Laffy Taffy",
+        "Salt Water Taffy",
+        "Bit-O-Honey",
+        "Jolly Rancher"
+      ],
+      "correct_answer": "Salt Water Taffy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_104",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "In what year was the Hershey's Kiss first introduced?",
+      "options": [
+        "1900",
+        "1907",
+        "1915",
+        "1920"
+      ],
+      "correct_answer": "1907",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_105",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy was developed by H.B. Reese, a former dairy farmer and Hershey employee?",
+      "options": [
+        "Reese's Peanut Butter Cups",
+        "Reese's Pieces",
+        "Hershey's Almond Bar",
+        "York Peppermint Pattie"
+      ],
+      "correct_answer": "Reese's Peanut Butter Cups",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_106",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What is the oldest continuously operating candy company in the United States?",
+      "options": [
+        "Necco",
+        "Hershey's",
+        "Mars",
+        "Tootsie Roll"
+      ],
+      "correct_answer": "Necco",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_107",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy bar was introduced by the Mars company in 1930 during the Great Depression?",
+      "options": [
+        "Snickers",
+        "Mars Bar",
+        "Milky Way",
+        "Twix"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_108",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What German candy company created the gummy bear in 1922?",
+      "options": [
+        "Haribo",
+        "Lindt",
+        "Milka",
+        "Ritter Sport"
+      ],
+      "correct_answer": "Haribo",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_109",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy was originally called 'Chicken Feed' when it was first produced in the 1880s?",
+      "options": [
+        "Candy corn",
+        "Circus peanuts",
+        "Jelly beans",
+        "Gumdrops"
+      ],
+      "correct_answer": "Candy corn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_110",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What year was the Toblerone chocolate bar first created in Switzerland?",
+      "options": [
+        "1895",
+        "1908",
+        "1915",
+        "1920"
+      ],
+      "correct_answer": "1908",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_111",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy was rationed to American soldiers during both World Wars?",
+      "options": [
+        "Hershey's Chocolate",
+        "Tootsie Rolls",
+        "Life Savers",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_112",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was the original name of the Smarties candy in the UK?",
+      "options": [
+        "Chocolate Beans",
+        "Chocolate Dragees",
+        "Sugar Shells",
+        "Candy Pellets"
+      ],
+      "correct_answer": "Chocolate Beans",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_113",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which iconic candy bar was created in York, Pennsylvania in 1940?",
+      "options": [
+        "York Peppermint Pattie",
+        "Hershey's Bar",
+        "Almond Joy",
+        "Mounds"
+      ],
+      "correct_answer": "York Peppermint Pattie",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_114",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What candy company did Milton Hershey found before creating his chocolate empire?",
+      "options": [
+        "Lancaster Caramel Company",
+        "Pennsylvania Sugar Works",
+        "Hershey Taffy Company",
+        "York Confections"
+      ],
+      "correct_answer": "Lancaster Caramel Company",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_115",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy was invented in 1912 by Clarence Crane as a summer alternative to chocolate?",
+      "options": [
+        "Life Savers",
+        "Jolly Rancher",
+        "Lemonheads",
+        "Atomic Fireball"
+      ],
+      "correct_answer": "Life Savers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_116",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What year did Forrest Mars and Bruce Murrie create M&M's, using their initials for the name?",
+      "options": [
+        "1935",
+        "1941",
+        "1945",
+        "1950"
+      ],
+      "correct_answer": "1941",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_117",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which ancient civilization is credited with being the first to cultivate cacao trees?",
+      "options": [
+        "Aztecs",
+        "Maya",
+        "Incas",
+        "Olmecs"
+      ],
+      "correct_answer": "Olmecs",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_118",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What was the first penny candy sold in America?",
+      "options": [
+        "Tootsie Roll",
+        "Candy corn",
+        "Jawbreaker",
+        "Licorice whip"
+      ],
+      "correct_answer": "Tootsie Roll",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_119",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "Which candy bar was created as an affordable treat during the Great Depression, selling for 5 cents?",
+      "options": [
+        "Snickers",
+        "Milky Way",
+        "Both Snickers and Milky Way",
+        "Hershey's Bar"
+      ],
+      "correct_answer": "Both Snickers and Milky Way",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_120",
+      "category": "Food",
+      "subcategory": "Food History",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "History & Origins",
+      "question": "What technological innovation in the 1850s made candy production much faster and more affordable?",
+      "options": [
+        "Steam-powered machines",
+        "Electric mixers",
+        "Refrigeration",
+        "Assembly lines"
+      ],
+      "correct_answer": "Steam-powered machines",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_121",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What ingredient makes marshmallows fluffy?",
+      "options": [
+        "Air whipped into the mixture",
+        "Baking powder",
+        "Yeast",
+        "Flour"
+      ],
+      "correct_answer": "Air whipped into the mixture",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_122",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What type of sugar is commonly dusted on the outside of sour candies?",
+      "options": [
+        "Citric acid with sugar",
+        "Brown sugar",
+        "Powdered sugar",
+        "Raw sugar"
+      ],
+      "correct_answer": "Citric acid with sugar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_123",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the main ingredient in caramel?",
+      "options": [
+        "Sugar",
+        "Chocolate",
+        "Vanilla",
+        "Milk"
+      ],
+      "correct_answer": "Sugar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_124",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What ingredient is used to make candy canes red?",
+      "options": [
+        "Food coloring",
+        "Strawberries",
+        "Raspberries",
+        "Cherry juice"
+      ],
+      "correct_answer": "Food coloring",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_125",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What gives peppermint candy its flavor?",
+      "options": [
+        "Peppermint oil",
+        "Vanilla extract",
+        "Lemon juice",
+        "Almond extract"
+      ],
+      "correct_answer": "Peppermint oil",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_126",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is nougat primarily made from?",
+      "options": [
+        "Whipped egg whites and sugar",
+        "Chocolate and nuts",
+        "Caramel and butter",
+        "Flour and honey"
+      ],
+      "correct_answer": "Whipped egg whites and sugar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_127",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What gives milk chocolate its creamy taste?",
+      "options": [
+        "Milk powder or condensed milk",
+        "Butter",
+        "Cream cheese",
+        "Yogurt"
+      ],
+      "correct_answer": "Milk powder or condensed milk",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_128",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What ingredient makes Pop Rocks candy pop in your mouth?",
+      "options": [
+        "Carbon dioxide gas",
+        "Baking soda",
+        "Citric acid",
+        "Popping corn"
+      ],
+      "correct_answer": "Carbon dioxide gas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_129",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is fudge made by cooking together?",
+      "options": [
+        "Sugar, butter, and milk",
+        "Flour, eggs, and oil",
+        "Chocolate and water",
+        "Honey and nuts"
+      ],
+      "correct_answer": "Sugar, butter, and milk",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_130",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What type of chocolate contains no milk solids?",
+      "options": [
+        "Dark chocolate",
+        "Milk chocolate",
+        "White chocolate",
+        "Ruby chocolate"
+      ],
+      "correct_answer": "Dark chocolate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_131",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "At what temperature does sugar reach the 'hard crack' stage in candy making?",
+      "options": [
+        "300-310°F (149-154°C)",
+        "220-234°F (104-112°C)",
+        "270-290°F (132-143°C)",
+        "350-370°F (177-188°C)"
+      ],
+      "correct_answer": "300-310°F (149-154°C)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_132",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What process involves heating and cooling chocolate to specific temperatures for a glossy finish?",
+      "options": [
+        "Tempering",
+        "Conching",
+        "Roasting",
+        "Winnowing"
+      ],
+      "correct_answer": "Tempering",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_133",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the 'soft ball' stage used to make in candy making?",
+      "options": [
+        "Fudge and fondant",
+        "Hard candy and lollipops",
+        "Toffee and brittle",
+        "Caramel corn"
+      ],
+      "correct_answer": "Fudge and fondant",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_134",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What natural thickening agent is often used in fruit jellies and gummies?",
+      "options": [
+        "Pectin",
+        "Cornstarch",
+        "Arrowroot",
+        "Tapioca"
+      ],
+      "correct_answer": "Pectin",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_135",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is conching in chocolate making?",
+      "options": [
+        "A smoothing and refining process",
+        "Removing cocoa shells",
+        "Adding sugar",
+        "Forming chocolate bars"
+      ],
+      "correct_answer": "A smoothing and refining process",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_136",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What percentage of cocoa solids must dark chocolate contain to be considered 'dark'?",
+      "options": [
+        "At least 35-50%",
+        "At least 70-80%",
+        "At least 10-20%",
+        "At least 90-100%"
+      ],
+      "correct_answer": "At least 35-50%",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_137",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What ingredient is used to create the crispy texture in honeycomb candy?",
+      "options": [
+        "Baking soda",
+        "Cornstarch",
+        "Gelatin",
+        "Flour"
+      ],
+      "correct_answer": "Baking soda",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_138",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the purpose of adding cream of tartar to candy recipes?",
+      "options": [
+        "Prevent sugar crystallization",
+        "Add sweetness",
+        "Create color",
+        "Thicken the mixture"
+      ],
+      "correct_answer": "Prevent sugar crystallization",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_139",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the main difference between white chocolate and milk chocolate?",
+      "options": [
+        "White chocolate contains no cocoa solids, only cocoa butter",
+        "White chocolate has more sugar",
+        "White chocolate is made from white cocoa beans",
+        "White chocolate contains vanilla"
+      ],
+      "correct_answer": "White chocolate contains no cocoa solids, only cocoa butter",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_140",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "At what temperature range does sugar reach the 'soft crack' stage?",
+      "options": [
+        "270-290°F (132-143°C)",
+        "230-240°F (110-116°C)",
+        "300-310°F (149-154°C)",
+        "340-350°F (171-177°C)"
+      ],
+      "correct_answer": "270-290°F (132-143°C)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_141",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What gives Turkish Delight its distinctive chewy texture?",
+      "options": [
+        "Cornstarch and sugar gel",
+        "Gelatin",
+        "Pectin",
+        "Agar"
+      ],
+      "correct_answer": "Cornstarch and sugar gel",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_142",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the purpose of adding butter to caramel?",
+      "options": [
+        "Create a richer flavor and smoother texture",
+        "Make it set faster",
+        "Prevent burning",
+        "Add color"
+      ],
+      "correct_answer": "Create a richer flavor and smoother texture",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_143",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What type of sugar is inverted sugar syrup?",
+      "options": [
+        "Sucrose broken down into glucose and fructose",
+        "Unprocessed cane sugar",
+        "Crystallized sugar",
+        "Dehydrated sugar"
+      ],
+      "correct_answer": "Sucrose broken down into glucose and fructose",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_144",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the main ingredient that makes rock candy?",
+      "options": [
+        "Supersaturated sugar solution",
+        "Melted hard candy",
+        "Compressed sugar",
+        "Crystallized honey"
+      ],
+      "correct_answer": "Supersaturated sugar solution",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_145",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What chemical reaction occurs when making caramel from sugar?",
+      "options": [
+        "Caramelization",
+        "Maillard reaction",
+        "Fermentation",
+        "Oxidation"
+      ],
+      "correct_answer": "Caramelization",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_146",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What ingredient distinguishes pralines from other nut candies?",
+      "options": [
+        "Brown sugar or cream",
+        "White chocolate",
+        "Honey coating",
+        "Maple syrup"
+      ],
+      "correct_answer": "Brown sugar or cream",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_147",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the technical term for the outer shell of a cocoa bean?",
+      "options": [
+        "Husk or shell",
+        "Pod",
+        "Nib",
+        "Casing"
+      ],
+      "correct_answer": "Husk or shell",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_148",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What makes salt water taffy different from regular taffy?",
+      "options": [
+        "It contains a small amount of salt",
+        "It's made with ocean water",
+        "It's softer than regular taffy",
+        "It has more sugar"
+      ],
+      "correct_answer": "It contains a small amount of salt",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_149",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the primary acid used to create sour candy coatings?",
+      "options": [
+        "Citric acid",
+        "Acetic acid",
+        "Lactic acid",
+        "Malic acid"
+      ],
+      "correct_answer": "Citric acid",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_150",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What gives marzipan its distinctive flavor and texture?",
+      "options": [
+        "Ground almonds and sugar",
+        "Ground hazelnuts and honey",
+        "Ground walnuts and syrup",
+        "Ground pistachios and cream"
+      ],
+      "correct_answer": "Ground almonds and sugar",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_151",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the 'thread' stage in candy making used for?",
+      "options": [
+        "Sugar syrup and glazes",
+        "Hard candy",
+        "Caramels",
+        "Fudge"
+      ],
+      "correct_answer": "Sugar syrup and glazes",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_152",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What ingredient gives licorice candy its distinctive black color and flavor?",
+      "options": [
+        "Licorice root extract",
+        "Anise oil",
+        "Molasses",
+        "Activated charcoal"
+      ],
+      "correct_answer": "Licorice root extract",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_153",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is fondant made from?",
+      "options": [
+        "Sugar syrup beaten to a creamy consistency",
+        "Whipped cream and sugar",
+        "Melted marshmallows",
+        "Powdered sugar and egg whites"
+      ],
+      "correct_answer": "Sugar syrup beaten to a creamy consistency",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_154",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the purpose of adding lecithin to chocolate?",
+      "options": [
+        "Act as an emulsifier to blend ingredients smoothly",
+        "Add sweetness",
+        "Prevent melting",
+        "Create texture"
+      ],
+      "correct_answer": "Act as an emulsifier to blend ingredients smoothly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_155",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What temperature range is the 'firm ball' stage in candy making?",
+      "options": [
+        "244-248°F (118-120°C)",
+        "234-240°F (112-116°C)",
+        "250-266°F (121-130°C)",
+        "270-290°F (132-143°C)"
+      ],
+      "correct_answer": "244-248°F (118-120°C)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_156",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the primary purpose of the winnowing process in chocolate production?",
+      "options": [
+        "Separate cocoa nibs from shells",
+        "Grind cocoa beans",
+        "Ferment cocoa beans",
+        "Add sugar to chocolate"
+      ],
+      "correct_answer": "Separate cocoa nibs from shells",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_157",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the Maillard reaction in relation to candy making?",
+      "options": [
+        "A chemical reaction between amino acids and sugars creating complex flavors",
+        "The crystallization of sugar",
+        "The caramelization of pure sugar",
+        "The melting point of chocolate"
+      ],
+      "correct_answer": "A chemical reaction between amino acids and sugars creating complex flavors",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_158",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the typical conching time for high-quality chocolate?",
+      "options": [
+        "24-72 hours",
+        "1-2 hours",
+        "10-15 minutes",
+        "5-10 days"
+      ],
+      "correct_answer": "24-72 hours",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_159",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the ideal tempering temperature for dark chocolate when working with it?",
+      "options": [
+        "88-90°F (31-32°C)",
+        "70-75°F (21-24°C)",
+        "100-105°F (38-41°C)",
+        "115-120°F (46-49°C)"
+      ],
+      "correct_answer": "88-90°F (31-32°C)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_160",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is bloom on chocolate?",
+      "options": [
+        "Fat or sugar crystals that form on the surface",
+        "A coating of cocoa powder",
+        "The initial fermentation stage",
+        "A flavor development process"
+      ],
+      "correct_answer": "Fat or sugar crystals that form on the surface",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_161",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the purpose of roasting cocoa beans before processing them into chocolate?",
+      "options": [
+        "Develop flavor compounds and reduce moisture",
+        "Remove the shells",
+        "Add sweetness",
+        "Create cocoa butter"
+      ],
+      "correct_answer": "Develop flavor compounds and reduce moisture",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_162",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the primary purpose of dutching or alkalization in cocoa processing?",
+      "options": [
+        "Reduce acidity and darken color",
+        "Increase sweetness",
+        "Create cocoa butter",
+        "Remove caffeine"
+      ],
+      "correct_answer": "Reduce acidity and darken color",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_163",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is glucose syrup's primary advantage over regular sugar in candy making?",
+      "options": [
+        "It inhibits crystallization better than sucrose",
+        "It's sweeter than sugar",
+        "It's cheaper to produce",
+        "It has fewer calories"
+      ],
+      "correct_answer": "It inhibits crystallization better than sucrose",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_164",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What causes the snapping sound and texture in properly tempered chocolate?",
+      "options": [
+        "Form V beta crystals in the cocoa butter",
+        "Air bubbles trapped in the chocolate",
+        "High sugar content",
+        "Rapid cooling process"
+      ],
+      "correct_answer": "Form V beta crystals in the cocoa butter",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_165",
+      "category": "Food",
+      "subcategory": "Cooking",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Ingredients & Making",
+      "question": "What is the technical term for the fermentation boxes used in cocoa processing?",
+      "options": [
+        "Sweatboxes",
+        "Conching machines",
+        "Roasters",
+        "Melangeurs"
+      ],
+      "correct_answer": "Sweatboxes",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_166",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Lindt chocolate originated in which country?",
+      "options": [
+        "Belgium",
+        "Switzerland",
+        "France",
+        "Austria"
+      ],
+      "correct_answer": "Switzerland",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_167",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which country is Kinder chocolate from?",
+      "options": [
+        "Switzerland",
+        "Germany",
+        "Italy",
+        "France"
+      ],
+      "correct_answer": "Italy",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_168",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Turkish Delight is a traditional candy from which country?",
+      "options": [
+        "Greece",
+        "Turkey",
+        "Lebanon",
+        "Egypt"
+      ],
+      "correct_answer": "Turkey",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_169",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Pocky, the popular stick-shaped chocolate-covered biscuit, comes from which country?",
+      "options": [
+        "China",
+        "Japan",
+        "South Korea",
+        "Thailand"
+      ],
+      "correct_answer": "Japan",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_170",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which country is considered the world's leading producer of high-quality chocolate and is home to brands like Godiva?",
+      "options": [
+        "Switzerland",
+        "Belgium",
+        "France",
+        "Netherlands"
+      ],
+      "correct_answer": "Belgium",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_171",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the main ingredient in the UK candy called 'Aero'?",
+      "options": [
+        "Caramel",
+        "Bubbly chocolate",
+        "Nougat",
+        "Toffee"
+      ],
+      "correct_answer": "Bubbly chocolate",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_172",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Hi-Chew, the chewy fruit candy, originated in which country?",
+      "options": [
+        "Japan",
+        "Taiwan",
+        "South Korea",
+        "China"
+      ],
+      "correct_answer": "Japan",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_173",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which country is famous for its salty black licorice candy called 'salmiakki'?",
+      "options": [
+        "Norway",
+        "Finland",
+        "Sweden",
+        "Denmark"
+      ],
+      "correct_answer": "Finland",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_174",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Dulce de leche is a popular sweet caramel-like spread from which region?",
+      "options": [
+        "Caribbean",
+        "Latin America",
+        "Southern Europe",
+        "Middle East"
+      ],
+      "correct_answer": "Latin America",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_175",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Smarties candy-coated chocolates were first made in which country?",
+      "options": [
+        "United States",
+        "Canada",
+        "United Kingdom",
+        "Australia"
+      ],
+      "correct_answer": "United Kingdom",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_176",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What mountain range is depicted on every Toblerone chocolate bar?",
+      "options": [
+        "The Rockies",
+        "The Matterhorn",
+        "The Alps",
+        "The Pyrenees"
+      ],
+      "correct_answer": "The Matterhorn",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_177",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "In Japan, what unusual Kit Kat flavor is popular and considered good luck for students taking exams?",
+      "options": [
+        "Green Tea",
+        "Wasabi",
+        "Sake",
+        "Soy Sauce"
+      ],
+      "correct_answer": "Green Tea",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_178",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What does the name 'Haribo' stand for?",
+      "options": [
+        "Happy Ribbon Bonbons",
+        "Hans Riegel Bonn",
+        "Hard Rice Balls",
+        "Harvest Rice Bonbons"
+      ],
+      "correct_answer": "Hans Riegel Bonn",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_179",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which Mexican candy brand is known for its spicy and salty tamarind-flavored treats?",
+      "options": [
+        "Vero",
+        "Lucas",
+        "Pelon",
+        "Mazapan"
+      ],
+      "correct_answer": "Lucas",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_180",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the traditional main flavor of Turkish Delight?",
+      "options": [
+        "Vanilla",
+        "Rose water",
+        "Orange blossom",
+        "Mint"
+      ],
+      "correct_answer": "Rose water",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_181",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which British chocolate bar features honeycomb toffee covered in chocolate?",
+      "options": [
+        "Crunchie",
+        "Flake",
+        "Wispa",
+        "Twirl"
+      ],
+      "correct_answer": "Crunchie",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_182",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What unique feature is inside every Kinder Surprise egg?",
+      "options": [
+        "A fortune",
+        "A toy",
+        "A coupon",
+        "A puzzle piece"
+      ],
+      "correct_answer": "A toy",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_183",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which Swedish candy company is famous for its fish-shaped gummy candies?",
+      "options": [
+        "Marabou",
+        "Malaco",
+        "Fazer",
+        "Cloetta"
+      ],
+      "correct_answer": "Malaco",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_184",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the name of the Italian chocolate-hazelnut brand that competes with Nutella?",
+      "options": [
+        "Ferrero",
+        "Gianduia",
+        "Baci",
+        "Pernigotti"
+      ],
+      "correct_answer": "Gianduia",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_185",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "In which country would you find 'Alfajores,' sandwich cookies filled with dulce de leche?",
+      "options": [
+        "Spain",
+        "Argentina",
+        "Mexico",
+        "Brazil"
+      ],
+      "correct_answer": "Argentina",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_186",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the main flavor of the popular Australian candy 'Violet Crumble'?",
+      "options": [
+        "Violet flower",
+        "Honeycomb toffee",
+        "Blackcurrant",
+        "Lavender"
+      ],
+      "correct_answer": "Honeycomb toffee",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_187",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which French candy is known for its hard caramel squares wrapped in edible rice paper?",
+      "options": [
+        "Dragées",
+        "Calissons",
+        "Nougat de Montélimar",
+        "Carambar"
+      ],
+      "correct_answer": "Carambar",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_188",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What does 'Pocky' mean in Japanese?",
+      "options": [
+        "Delicious stick",
+        "The sound of snapping",
+        "Sweet chocolate",
+        "Happy snack"
+      ],
+      "correct_answer": "The sound of snapping",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_189",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which British candy features malted milk balls covered in chocolate?",
+      "options": [
+        "Maltesers",
+        "Revels",
+        "Minstrels",
+        "Buttons"
+      ],
+      "correct_answer": "Maltesers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_190",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the traditional Turkish name for Turkish Delight?",
+      "options": [
+        "Baklava",
+        "Lokum",
+        "Halva",
+        "Rahat"
+      ],
+      "correct_answer": "Lokum",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_191",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which Japanese candy was specifically created to be eaten with one hand?",
+      "options": [
+        "Pocky",
+        "Kit Kat",
+        "Koala's March",
+        "Apollo"
+      ],
+      "correct_answer": "Pocky",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_192",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is unique about Lindt's chocolate-making process?",
+      "options": [
+        "Triple fermentation",
+        "Conching process",
+        "Ice tempering",
+        "Steam roasting"
+      ],
+      "correct_answer": "Conching process",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_193",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which Scandinavian country is famous for its 'Djungelvrål' (Jungle Roar) salty licorice?",
+      "options": [
+        "Norway",
+        "Sweden",
+        "Finland",
+        "Denmark"
+      ],
+      "correct_answer": "Sweden",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_194",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What Mexican candy is made from ground peanuts and sugar, shaped like a hockey puck?",
+      "options": [
+        "Pulparindo",
+        "Mazapan",
+        "Glorias",
+        "Alegrías"
+      ],
+      "correct_answer": "Mazapan",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_195",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which country produces 'Stroopwafels,' thin waffle cookies with caramel filling?",
+      "options": [
+        "Belgium",
+        "Netherlands",
+        "Germany",
+        "Denmark"
+      ],
+      "correct_answer": "Netherlands",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_196",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the main ingredient that gives Hi-Chew its unique chewy texture?",
+      "options": [
+        "Gelatin",
+        "Tapioca",
+        "Concentrated fruit juice",
+        "Rice syrup"
+      ],
+      "correct_answer": "Concentrated fruit juice",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_197",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which British chocolate bar is known for its unique flaky, crumbly texture?",
+      "options": [
+        "Twirl",
+        "Flake",
+        "Ripple",
+        "Wispa"
+      ],
+      "correct_answer": "Flake",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_198",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the name of the famous Belgian chocolate truffle brand founded in 1926?",
+      "options": [
+        "Neuhaus",
+        "Godiva",
+        "Leonidas",
+        "Pierre Marcolini"
+      ],
+      "correct_answer": "Godiva",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_199",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which German chocolate bar features a whole hazelnut in every segment?",
+      "options": [
+        "Ritter Sport",
+        "Milka",
+        "Kinder Bueno",
+        "Whole Nut by Ritter Sport"
+      ],
+      "correct_answer": "Whole Nut by Ritter Sport",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_200",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the name of the popular Brazilian chocolate candy made by Nestlé?",
+      "options": [
+        "Sonho de Valsa",
+        "Bis",
+        "Serenata de Amor",
+        "Prestígio"
+      ],
+      "correct_answer": "Prestígio",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_201",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "In what year was the first Toblerone bar created?",
+      "options": [
+        "1876",
+        "1899",
+        "1908",
+        "1920"
+      ],
+      "correct_answer": "1908",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_202",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which Belgian chocolatier is credited with inventing the first filled chocolate shell (praline) in 1912?",
+      "options": [
+        "Jean Neuhaus",
+        "Joseph Draps",
+        "Leonidas Kestekides",
+        "Pierre Marcolini"
+      ],
+      "correct_answer": "Jean Neuhaus",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_203",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What does the 'salmiakki' in Finnish salty licorice contain that gives it its distinctive flavor?",
+      "options": [
+        "Sea salt",
+        "Ammonium chloride",
+        "Black pepper",
+        "Activated charcoal"
+      ],
+      "correct_answer": "Ammonium chloride",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_204",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What year did Rodolphe Lindt invent the conching process that revolutionized chocolate making?",
+      "options": [
+        "1845",
+        "1879",
+        "1901",
+        "1925"
+      ],
+      "correct_answer": "1879",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_205",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which city in Germany is considered the gummy bear capital and home to Haribo's headquarters?",
+      "options": [
+        "Munich",
+        "Berlin",
+        "Bonn",
+        "Hamburg"
+      ],
+      "correct_answer": "Bonn",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_206",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the original name of the Japanese company that produces Pocky?",
+      "options": [
+        "Meiji",
+        "Glico",
+        "Lotte",
+        "Morinaga"
+      ],
+      "correct_answer": "Glico",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_207",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "In which Australian state were Tim Tams first manufactured in 1964?",
+      "options": [
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia"
+      ],
+      "correct_answer": "New South Wales",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_208",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What percentage of the world's cocoa beans are processed in Belgium?",
+      "options": [
+        "15%",
+        "25%",
+        "35%",
+        "45%"
+      ],
+      "correct_answer": "35%",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_209",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "Which Japanese Kit Kat flavor was created specifically for the Shinkansen bullet train?",
+      "options": [
+        "Tokyo Banana",
+        "Strawberry Cheesecake",
+        "Wasabi",
+        "Sake"
+      ],
+      "correct_answer": "Tokyo Banana",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_210",
+      "category": "Food",
+      "subcategory": "Dishes & Cuisines",
+      "question": "What is the traditional starch base used in authentic Turkish Delight?",
+      "options": [
+        "Wheat starch",
+        "Corn starch",
+        "Rice starch",
+        "Potato starch"
+      ],
+      "correct_answer": "Corn starch",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Around the World"
+    },
+    {
+      "id": "cnd_211",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which holiday sees the highest candy sales in the United States?",
+      "options": [
+        "Halloween",
+        "Christmas",
+        "Easter",
+        "Valentine's Day"
+      ],
+      "correct_answer": "Halloween",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_212",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What type of candy are Cadbury Creme Eggs?",
+      "options": [
+        "Chocolate eggs with cream filling",
+        "Hard-boiled eggs covered in chocolate",
+        "Jellybeans shaped like eggs",
+        "Caramel-filled eggs"
+      ],
+      "correct_answer": "Chocolate eggs with cream filling",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_213",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What are chocolate coins wrapped in gold foil called during Hanukkah?",
+      "options": [
+        "Gelt",
+        "Dreidel coins",
+        "Menorah money",
+        "Shekels"
+      ],
+      "correct_answer": "Gelt",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_214",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the practice of going door-to-door for candy on Halloween called?",
+      "options": [
+        "Trick-or-treating",
+        "Candy collecting",
+        "Halloween hunting",
+        "Door knocking"
+      ],
+      "correct_answer": "Trick-or-treating",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_215",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What color are most jellybeans associated with Easter?",
+      "options": [
+        "Pastel colors",
+        "Dark colors",
+        "Neon colors",
+        "Metallic colors"
+      ],
+      "correct_answer": "Pastel colors",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_216",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What candy is traditionally given in a heart-shaped box on Valentine's Day?",
+      "options": [
+        "Chocolate",
+        "Gummy bears",
+        "Hard candy",
+        "Licorice"
+      ],
+      "correct_answer": "Chocolate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_217",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What are decorative sugar candies shaped like skulls called during Día de los Muertos?",
+      "options": [
+        "Sugar skulls",
+        "Death candy",
+        "Skull mints",
+        "Bone sweets"
+      ],
+      "correct_answer": "Sugar skulls",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_218",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which popular chocolate kiss candy is often used as Christmas tree decorations?",
+      "options": [
+        "Hershey's Kisses",
+        "Chocolate truffles",
+        "Ferrero Rocher",
+        "Lindt balls"
+      ],
+      "correct_answer": "Hershey's Kisses",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_219",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What holiday traditionally features candy in birthday cakes?",
+      "options": [
+        "Birthdays",
+        "New Year's",
+        "Thanksgiving",
+        "Independence Day"
+      ],
+      "correct_answer": "Birthdays",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_220",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What candy treat combines peppermint and white chocolate and is popular at Christmas?",
+      "options": [
+        "Peppermint bark",
+        "Peppermint patties",
+        "Candy canes",
+        "Mint chocolate chip"
+      ],
+      "correct_answer": "Peppermint bark",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cnd_221",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "When was candy corn first invented?",
+      "options": [
+        "1880s",
+        "1920s",
+        "1950s",
+        "1900s"
+      ],
+      "correct_answer": "1880s",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_222",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What company originally created candy corn?",
+      "options": [
+        "Goelitz Confectionery Company (now Jelly Belly)",
+        "Hershey's",
+        "Mars",
+        "Brach's"
+      ],
+      "correct_answer": "Goelitz Confectionery Company (now Jelly Belly)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_223",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Approximately how many pounds of candy corn are produced each year in the United States?",
+      "options": [
+        "35 million pounds",
+        "10 million pounds",
+        "50 million pounds",
+        "100 million pounds"
+      ],
+      "correct_answer": "35 million pounds",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_224",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which company has been the largest manufacturer of conversation hearts since 1902?",
+      "options": [
+        "NECCO (New England Confectionery Company)",
+        "Brach's",
+        "Hershey's",
+        "Sweethearts"
+      ],
+      "correct_answer": "NECCO (New England Confectionery Company)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_225",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In what decade did trick-or-treating become widespread in the United States?",
+      "options": [
+        "1950s",
+        "1920s",
+        "1970s",
+        "1930s"
+      ],
+      "correct_answer": "1950s",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_226",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "How many Peeps are produced each day during Easter season?",
+      "options": [
+        "Over 5 million",
+        "Over 1 million",
+        "Over 10 million",
+        "Over 500,000"
+      ],
+      "correct_answer": "Over 5 million",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_227",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What was the original shape of candy canes when they were first created?",
+      "options": [
+        "Straight sticks",
+        "Hooked canes",
+        "Circles",
+        "Hearts"
+      ],
+      "correct_answer": "Straight sticks",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_228",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "When were the red stripes added to candy canes?",
+      "options": [
+        "Early 1900s",
+        "1700s",
+        "1950s",
+        "1850s"
+      ],
+      "correct_answer": "Early 1900s",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_229",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What percentage of Valentine's Day chocolate purchases are made by women?",
+      "options": [
+        "75%",
+        "50%",
+        "25%",
+        "90%"
+      ],
+      "correct_answer": "75%",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_230",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "When were Cadbury Creme Eggs first introduced?",
+      "options": [
+        "1963",
+        "1950",
+        "1975",
+        "1940"
+      ],
+      "correct_answer": "1963",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_231",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the most popular Halloween candy in the United States?",
+      "options": [
+        "Reese's Peanut Butter Cups",
+        "Snickers",
+        "M&M's",
+        "Candy corn"
+      ],
+      "correct_answer": "Reese's Peanut Butter Cups",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_232",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "How many jellybeans are consumed in the United States during Easter?",
+      "options": [
+        "Over 16 billion",
+        "Over 5 billion",
+        "Over 50 billion",
+        "Over 1 billion"
+      ],
+      "correct_answer": "Over 16 billion",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_233",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What company makes Peeps marshmallow candies?",
+      "options": [
+        "Just Born",
+        "Mars",
+        "Hershey's",
+        "Brach's"
+      ],
+      "correct_answer": "Just Born",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_234",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In what country did the tradition of giving chocolate eggs for Easter originate?",
+      "options": [
+        "Germany",
+        "United States",
+        "France",
+        "England"
+      ],
+      "correct_answer": "Germany",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_235",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What was candy corn originally called when it was first created?",
+      "options": [
+        "Chicken Feed",
+        "Autumn Corn",
+        "Harvest Candy",
+        "Fall Treats"
+      ],
+      "correct_answer": "Chicken Feed",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_236",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "How many heart-shaped boxes of chocolate are sold for Valentine's Day each year?",
+      "options": [
+        "Over 36 million",
+        "Over 10 million",
+        "Over 50 million",
+        "Over 100 million"
+      ],
+      "correct_answer": "Over 36 million",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_237",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the traditional meaning of chocolate gelt given during Hanukkah?",
+      "options": [
+        "To commemorate the miracle of the oil",
+        "To celebrate the harvest",
+        "To honor the temple",
+        "To remember the exodus"
+      ],
+      "correct_answer": "To commemorate the miracle of the oil",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_238",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which U.S. state produces the most candy corn?",
+      "options": [
+        "Illinois",
+        "California",
+        "Pennsylvania",
+        "New York"
+      ],
+      "correct_answer": "Illinois",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_239",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What traditional Mexican candy is made for Día de los Muertos besides sugar skulls?",
+      "options": [
+        "Alfeñique",
+        "Tamarindo",
+        "Mazapan",
+        "Pulparindo"
+      ],
+      "correct_answer": "Alfeñique",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_240",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "How long does it take to make one Peeps marshmallow candy?",
+      "options": [
+        "6 minutes",
+        "1 minute",
+        "30 minutes",
+        "2 hours"
+      ],
+      "correct_answer": "6 minutes",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_241",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What year did Richard Cadbury create the first heart-shaped box of chocolates?",
+      "options": [
+        "1868",
+        "1900",
+        "1850",
+        "1920"
+      ],
+      "correct_answer": "1868",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_242",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Americans spend approximately how much on Halloween candy each year?",
+      "options": [
+        "$3 billion",
+        "$1 billion",
+        "$5 billion",
+        "$10 billion"
+      ],
+      "correct_answer": "$3 billion",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_243",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What was the original color of Peeps when they were first produced in 1953?",
+      "options": [
+        "Yellow",
+        "Pink",
+        "Blue",
+        "White"
+      ],
+      "correct_answer": "Yellow",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_244",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which holiday ranks second for candy sales in the United States?",
+      "options": [
+        "Easter",
+        "Valentine's Day",
+        "Christmas",
+        "Thanksgiving"
+      ],
+      "correct_answer": "Easter",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_245",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What ingredient gives peppermint bark its distinctive red and white appearance?",
+      "options": [
+        "White chocolate and crushed candy canes",
+        "Red food coloring and vanilla",
+        "Peppermint extract and milk chocolate",
+        "Cherry flavoring and cream"
+      ],
+      "correct_answer": "White chocolate and crushed candy canes",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cnd_246",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In what year did NECCO stop producing conversation hearts, causing a Valentine's Day shortage?",
+      "options": [
+        "2019",
+        "2015",
+        "2020",
+        "2018"
+      ],
+      "correct_answer": "2019",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_247",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "How many years does it take for a candy cane machine to be paid off due to the seasonal nature of production?",
+      "options": [
+        "5-7 years",
+        "1-2 years",
+        "10-15 years",
+        "3-4 years"
+      ],
+      "correct_answer": "5-7 years",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_248",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What was the first flavor of jellybeans ever created?",
+      "options": [
+        "Unknown, but licorice was among the earliest",
+        "Cherry",
+        "Lemon",
+        "Orange"
+      ],
+      "correct_answer": "Unknown, but licorice was among the earliest",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_249",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "How many days did it originally take to make one Peeps marshmallow by hand in 1953?",
+      "options": [
+        "27 hours per Peep",
+        "5 hours per Peep",
+        "1 day per Peep",
+        "3 days per Peep"
+      ],
+      "correct_answer": "27 hours per Peep",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_250",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the world record for the largest candy cane ever made?",
+      "options": [
+        "Over 51 feet long",
+        "Over 30 feet long",
+        "Over 100 feet long",
+        "Over 75 feet long"
+      ],
+      "correct_answer": "Over 51 feet long",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_251",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In what century were sugar skulls first created for Día de los Muertos?",
+      "options": [
+        "17th century",
+        "15th century",
+        "19th century",
+        "20th century"
+      ],
+      "correct_answer": "17th century",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_252",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What percentage of parents admit to stealing candy from their children's Halloween haul?",
+      "options": [
+        "About 90%",
+        "About 50%",
+        "About 25%",
+        "About 75%"
+      ],
+      "correct_answer": "About 90%",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_253",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "How many different sayings have been printed on conversation hearts since their invention?",
+      "options": [
+        "Over 400",
+        "Over 100",
+        "Over 1,000",
+        "Over 50"
+      ],
+      "correct_answer": "Over 400",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_254",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What temperature must chocolate reach to properly temper for making Valentine's Day chocolates?",
+      "options": [
+        "88-90°F (31-32°C)",
+        "75-80°F (24-27°C)",
+        "100-105°F (38-41°C)",
+        "65-70°F (18-21°C)"
+      ],
+      "correct_answer": "88-90°F (31-32°C)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_255",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Holidays & Occasions",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "How many candy canes are produced annually in the United States?",
+      "options": [
+        "About 1.76 billion",
+        "About 500 million",
+        "About 3 billion",
+        "About 10 billion"
+      ],
+      "correct_answer": "About 1.76 billion",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cnd_256",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the name of the owl mascot famous for asking 'How many licks does it take to get to the center of a Tootsie Pop?'",
+      "options": [
+        "Mr. Owl",
+        "Professor Owl",
+        "Wise Owl",
+        "Tootsie Owl"
+      ],
+      "correct_answer": "Mr. Owl",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_257",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the name of the Lucky Charms cereal mascot?",
+      "options": [
+        "Lucky the Leprechaun",
+        "Charlie the Leprechaun",
+        "Patrick the Leprechaun",
+        "Clover the Leprechaun"
+      ],
+      "correct_answer": "Lucky the Leprechaun",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_258",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which classic film features a chocolate factory owned by Willy Wonka?",
+      "options": [
+        "Charlie and the Chocolate Factory",
+        "The Sweet Shop",
+        "Candy Land",
+        "The Sugar Factory"
+      ],
+      "correct_answer": "Charlie and the Chocolate Factory",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_259",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What candy bar is featured in the Kit Kat slogan 'Give me a break'?",
+      "options": [
+        "Twix",
+        "Kit Kat",
+        "Snickers",
+        "Crunch"
+      ],
+      "correct_answer": "Kit Kat",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_260",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy brand uses the slogan 'You're not you when you're hungry'?",
+      "options": [
+        "Milky Way",
+        "Snickers",
+        "Mars",
+        "Twix"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_261",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What color M&M mascot is known for being the 'cool' one who wears sunglasses?",
+      "options": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Green"
+      ],
+      "correct_answer": "Blue",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_262",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy's advertising slogan is 'Get the sensation'?",
+      "options": [
+        "York Peppermint Pattie",
+        "Junior Mints",
+        "Andes Mints",
+        "After Eight"
+      ],
+      "correct_answer": "York Peppermint Pattie",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_263",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What candy is known for the slogan 'Two for me, none for you'?",
+      "options": [
+        "Kit Kat",
+        "Reese's",
+        "Twix",
+        "Milky Way"
+      ],
+      "correct_answer": "Twix",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_264",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In Willy Wonka's factory, what type of candy was used to create a river?",
+      "options": [
+        "Caramel",
+        "Chocolate",
+        "Butterscotch",
+        "Fudge"
+      ],
+      "correct_answer": "Chocolate",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_265",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy brand features the tagline 'There's no wrong way to eat a...'?",
+      "options": [
+        "Twix",
+        "Kit Kat",
+        "Reese's",
+        "Snickers"
+      ],
+      "correct_answer": "Reese's",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_266",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What year was the mobile game Candy Crush Saga released?",
+      "options": [
+        "2010",
+        "2011",
+        "2012",
+        "2013"
+      ],
+      "correct_answer": "2012",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_267",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which actor played Willy Wonka in the 2005 film 'Charlie and the Chocolate Factory'?",
+      "options": [
+        "Gene Wilder",
+        "Johnny Depp",
+        "Tim Burton",
+        "Jim Carrey"
+      ],
+      "correct_answer": "Johnny Depp",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_268",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What was the original name of Starburst candy when it was first introduced in the UK?",
+      "options": [
+        "Star Chews",
+        "Opal Fruits",
+        "Rainbow Bites",
+        "Fruit Burst"
+      ],
+      "correct_answer": "Opal Fruits",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_269",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In the Tootsie Pop commercial, how many licks does Mr. Owl say it takes to get to the center?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct_answer": "Three",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_270",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy brand's commercials famously featured the phrase 'Nobody better lay a finger on my...'?",
+      "options": [
+        "Baby Ruth",
+        "Butterfinger",
+        "100 Grand",
+        "PayDay"
+      ],
+      "correct_answer": "Butterfinger",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_271",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What color is the Red M&M mascot's personality often described as?",
+      "options": [
+        "Sarcastic and cynical",
+        "Happy and cheerful",
+        "Nervous and anxious",
+        "Cool and collected"
+      ],
+      "correct_answer": "Sarcastic and cynical",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_272",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy was prominently featured in the movie 'The Sixth Sense' during a hospital scene?",
+      "options": [
+        "Lollipops",
+        "Gummy bears",
+        "Chocolate bars",
+        "Hard candies"
+      ],
+      "correct_answer": "Lollipops",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_273",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the name of the villain character in Wreck-It Ralph who rules Sugar Rush?",
+      "options": [
+        "King Candy",
+        "Sugar King",
+        "Sweet Pete",
+        "Candy Baron"
+      ],
+      "correct_answer": "King Candy",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_274",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which company developed Candy Crush Saga?",
+      "options": [
+        "Zynga",
+        "King",
+        "Rovio",
+        "PopCap"
+      ],
+      "correct_answer": "King",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_275",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What was the first M&M color to be retired and later brought back by popular vote?",
+      "options": [
+        "Red",
+        "Blue",
+        "Tan",
+        "Purple"
+      ],
+      "correct_answer": "Red",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_276",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In the original 1971 'Willy Wonka & the Chocolate Factory', what song do the Oompa Loompas sing?",
+      "options": [
+        "Candy Man",
+        "Pure Imagination",
+        "Oompa Loompa Doompity Doo",
+        "I've Got a Golden Ticket"
+      ],
+      "correct_answer": "Oompa Loompa Doompity Doo",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_277",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy bar's slogan is 'Hungry? Why wait?'?",
+      "options": [
+        "Mars",
+        "Snickers",
+        "Milky Way",
+        "3 Musketeers"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_278",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What candy does Violet Beauregarde turn into in 'Charlie and the Chocolate Factory'?",
+      "options": [
+        "A lollipop",
+        "A blueberry",
+        "A gumball",
+        "A jellybean"
+      ],
+      "correct_answer": "A blueberry",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_279",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy brand introduced a 'Left Twix vs. Right Twix' marketing campaign?",
+      "options": [
+        "Kit Kat",
+        "Twix",
+        "Milky Way",
+        "100 Grand"
+      ],
+      "correct_answer": "Twix",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_280",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the name of the Cocoa Puffs cereal mascot?",
+      "options": [
+        "Crazy Cocoa",
+        "Sonny the Cuckoo Bird",
+        "Chocolate Charlie",
+        "Puff the Bird"
+      ],
+      "correct_answer": "Sonny the Cuckoo Bird",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_281",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which animated movie features a world made entirely of candy and sweets?",
+      "options": [
+        "Cloudy with a Chance of Meatballs",
+        "Wreck-It Ralph",
+        "The Lego Movie",
+        "Inside Out"
+      ],
+      "correct_answer": "Wreck-It Ralph",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_282",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What candy bar was featured in a memorable 'Seinfeld' episode where George eats one with a knife and fork?",
+      "options": [
+        "Milky Way",
+        "Snickers",
+        "Twix",
+        "3 Musketeers"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_283",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy mascot is known for the phrase 'Silly rabbit, [candy] are for kids!'?",
+      "options": [
+        "Lucky Charms",
+        "Cocoa Puffs",
+        "Trix",
+        "Fruity Pebbles"
+      ],
+      "correct_answer": "Trix",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_284",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the name of the voice actor who played Willy Wonka in the 1971 film?",
+      "options": [
+        "Peter O'Toole",
+        "Gene Wilder",
+        "Jack Albertson",
+        "Roy Kinnear"
+      ],
+      "correct_answer": "Gene Wilder",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_285",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy brand used the slogan 'Sometimes you feel like a nut, sometimes you don't'?",
+      "options": [
+        "Almond Joy and Mounds",
+        "PayDay and Baby Ruth",
+        "Snickers and Milky Way",
+        "Butterfinger and 100 Grand"
+      ],
+      "correct_answer": "Almond Joy and Mounds",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_286",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In what decade did M&M's introduce their anthropomorphic candy mascots?",
+      "options": [
+        "1970s",
+        "1980s",
+        "1990s",
+        "2000s"
+      ],
+      "correct_answer": "1990s",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_287",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy bar was featured in 'The Goonies' when Chunk tries to escape?",
+      "options": [
+        "Snickers",
+        "Baby Ruth",
+        "Butterfinger",
+        "Milky Way"
+      ],
+      "correct_answer": "Baby Ruth",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_288",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What candy brand's commercials featured people turning into different characters when hungry?",
+      "options": [
+        "Milky Way",
+        "Snickers",
+        "Mars",
+        "3 Musketeers"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_289",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy features in its commercials the question 'How do you eat yours?'",
+      "options": [
+        "Rolo",
+        "Cadbury Creme Egg",
+        "Ferrero Rocher",
+        "Lindt Lindor"
+      ],
+      "correct_answer": "Cadbury Creme Egg",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_290",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the name of the main character in the animated film 'Wreck-It Ralph' who races in Sugar Rush?",
+      "options": [
+        "Taffyta Muttonfudge",
+        "Candlehead",
+        "Vanellope von Schweetz",
+        "Crumbelina DiCaramello"
+      ],
+      "correct_answer": "Vanellope von Schweetz",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_291",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which year did the original 'Willy Wonka & the Chocolate Factory' film premiere?",
+      "options": [
+        "1969",
+        "1970",
+        "1971",
+        "1972"
+      ],
+      "correct_answer": "1971",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_292",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What was the name of the advertising campaign that asked consumers to vote for a new M&M color in 1995?",
+      "options": [
+        "Color Vote",
+        "M&M's Color Campaign",
+        "America Votes",
+        "The Great Color Quest"
+      ],
+      "correct_answer": "America Votes",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_293",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy brand was originally marketed as a way to prevent chocolate from melting during World War II?",
+      "options": [
+        "Hershey's Kisses",
+        "M&M's",
+        "Tootsie Rolls",
+        "Baby Ruth"
+      ],
+      "correct_answer": "M&M's",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_294",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the name of the boardgame based on a candy-themed world that was created in 1949?",
+      "options": [
+        "Candy Quest",
+        "Sweet Land",
+        "Candy Land",
+        "Sugar Rush"
+      ],
+      "correct_answer": "Candy Land",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_295",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which British candy bar's commercials featured the tagline 'It's not Terry's, it's mine'?",
+      "options": [
+        "Terry's Chocolate Orange",
+        "Cadbury Dairy Milk",
+        "Galaxy",
+        "Aero"
+      ],
+      "correct_answer": "Terry's Chocolate Orange",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_296",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "In which year was the first Tootsie Pop commercial featuring Mr. Owl aired?",
+      "options": [
+        "1968",
+        "1969",
+        "1970",
+        "1971"
+      ],
+      "correct_answer": "1970",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_297",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What was the original M&M color that was replaced by blue in 1995?",
+      "options": [
+        "Purple",
+        "Tan",
+        "Pink",
+        "Light brown"
+      ],
+      "correct_answer": "Tan",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_298",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which candy brand featured NBA star Charles Barkley turning into a teenage girl in its commercials?",
+      "options": [
+        "Milky Way",
+        "Snickers",
+        "Twix",
+        "Kit Kat"
+      ],
+      "correct_answer": "Snickers",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_299",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "What is the full name of the author who wrote the book 'Charlie and the Chocolate Factory'?",
+      "options": [
+        "Roald Dahl",
+        "Ronald Dahl",
+        "Robert Dahl",
+        "Roger Dahl"
+      ],
+      "correct_answer": "Roald Dahl",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    },
+    {
+      "id": "cnd_300",
+      "category": "Food",
+      "subcategory": "Food History",
+      "question": "Which year did Candy Crush Saga surpass FarmVille 2 to become the most popular game on Facebook?",
+      "options": [
+        "2012",
+        "2013",
+        "2014",
+        "2015"
+      ],
+      "correct_answer": "2013",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.candy",
+      "subtopic": "Pop Culture"
+    }
+  ]
+}

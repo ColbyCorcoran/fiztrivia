@@ -126,5 +126,9 @@
 				<false/>
 		</dict>
 	</dict>
+	<key>PostHogAPIKey</key>
+	<string>phc_pPTqusdmpJSoGYjymsgdz6BX6lcnUfuZzkKGw713JeZ</string>
+	<key>PostHogHost</key>
+	<string>https://us.posthog.com</string>
 </dict>
 </plist>

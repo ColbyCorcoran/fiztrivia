@@ -4,7 +4,6 @@ import SwiftData
 struct LeaderboardView: View {
     @Bindable var gameViewModel: GameViewModel
     var onSwipe: ((SwipeDirection) -> Void)? = nil
-    var onDrag: ((CGFloat, CGFloat, Bool) -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @Environment(\.modelContext) private var modelContext
@@ -141,25 +140,17 @@ struct LeaderboardView: View {
     }
 
     private var leaderboardSwipeGesture: some Gesture {
-        DragGesture(minimumDistance: 10)
-            .onChanged { value in
-                guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
-
-                let distance = value.translation.width
-                let velocity = (value.predictedEndTranslation.width - distance) / 0.016
-
-                // Real-time drag tracking
-                onDrag?(distance, velocity, false)
-            }
+        DragGesture(minimumDistance: 50)
             .onEnded { value in
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
                 let distance = value.translation.width
-                let velocity = (value.predictedEndTranslation.width - distance) / 0.016
+                let threshold: CGFloat = 50
 
-                // Signal end of drag
-                onDrag?(distance, velocity, true)
-                HapticManager.shared.lightImpact()
+                if distance < -threshold {
+                    HapticManager.shared.lightImpact()
+                    onSwipe?(.left)
+                }
             }
     }
 }

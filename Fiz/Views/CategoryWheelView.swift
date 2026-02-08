@@ -21,7 +21,6 @@ struct WheelSegmentData: Hashable {
 struct CategoryWheelView: View {
     @Bindable var gameViewModel: GameViewModel
     var onSwipe: ((SwipeDirection) -> Void)? = nil
-    var onDrag: ((CGFloat, CGFloat, Bool) -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var gameModeManager = GameModeManager.shared
@@ -85,17 +84,17 @@ struct CategoryWheelView: View {
         // First, create segments with base colors
         let baseSegments: [WheelSegmentData]
 
-        if gameModeManager.isSingleTopicMode, gameModeManager.selectedTopic != nil {
+        if gameModeManager.isSingleTopicMode, let selectedTopicId = gameModeManager.selectedTopic {
             // Get subtopics for the selected expansion pack
             let subtopics = gameModeManager.getSubtopicsForSelectedTopic()
 
             // Get the pack to access its icons
-            let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == gameModeManager.selectedTopic })
+            let pack = ExpansionPackManager.shared.availablePacks.first(where: { $0.packId == selectedTopicId })
 
             // Create segments with individual subtopic icons, filtering out empty subtopics
             baseSegments = subtopics.compactMap { subtopic in
                 // Only include subtopics that have unanswered questions
-                guard hasQuestionsForSubtopic(subtopic, topicPackId: gameModeManager.selectedTopic!) else {
+                guard hasQuestionsForSubtopic(subtopic, topicPackId: selectedTopicId) else {
                     return nil
                 }
 
@@ -788,64 +787,40 @@ struct CategoryWheelView: View {
     }
 
     private var navigationSwipeGesture: some Gesture {
-        DragGesture(minimumDistance: 10)
-            .onChanged { value in
-                // Enhanced guards to prevent conflicts
-                guard swipeNavigationManager.isSwipeNavigationEnabled,
-                      !showingQuestion,
-                      !showingResult,
-                      !gameViewModel.isSpinning,
-                      !navigationButtonsDisabled,
-                      !isDragging else {
-                    return
-                }
-
-                let horizontalDistance = value.translation.width
-                let verticalDistance = value.translation.height
-
-                // Determine if this is primarily a horizontal or vertical swipe
-                let isHorizontal = abs(horizontalDistance) > abs(verticalDistance)
-
-                if isHorizontal {
-                    // Real-time horizontal swipe tracking
-                    let velocity = (value.predictedEndTranslation.width - horizontalDistance) / 0.016 // Estimate velocity
-                    onDrag?(horizontalDistance, velocity, false)
-                }
-            }
+        DragGesture(minimumDistance: 50)
             .onEnded { value in
-                // Enhanced guards to prevent conflicts
                 guard swipeNavigationManager.isSwipeNavigationEnabled,
                       !showingQuestion,
                       !showingResult,
                       !gameViewModel.isSpinning,
-                      !navigationButtonsDisabled,
-                      !isDragging else {
+                      !navigationButtonsDisabled else {
                     return
                 }
 
                 let horizontalDistance = value.translation.width
                 let verticalDistance = value.translation.height
-                let horizontalVelocity = value.predictedEndTranslation.width - horizontalDistance
-                let verticalVelocity = value.predictedEndTranslation.height - verticalDistance
 
-                // Determine if this is primarily a horizontal or vertical swipe
-                let isHorizontal = abs(horizontalDistance) > abs(verticalDistance)
+                // Only handle clear horizontal swipes
+                let isHorizontal = abs(horizontalDistance) > abs(verticalDistance) * 1.5
 
-                if isHorizontal {
-                    // Signal end of horizontal drag
-                    let velocity = horizontalVelocity / 0.016 // Convert to points per second
-                    onDrag?(horizontalDistance, velocity, true)
-                    HapticManager.shared.lightImpact()
-                } else {
-                    // Vertical swipes (up/down)
-                    if abs(verticalDistance) > 30 || abs(verticalVelocity) > 60 {
-                        if verticalDistance < 0 {
-                            // Swipe up -> Store
-                            HapticManager.shared.lightImpact()
-                            showingStore = true
-                        }
-                        // Swipe down does nothing (reserved for future use)
+                guard isHorizontal else {
+                    // Check for vertical swipe (store)
+                    if verticalDistance < -30 {
+                        HapticManager.shared.lightImpact()
+                        showingStore = true
                     }
+                    return
+                }
+
+                // Lower threshold for more responsive feel
+                let threshold: CGFloat = 50
+
+                if horizontalDistance > threshold {
+                    HapticManager.shared.lightImpact()
+                    onSwipe?(.right)
+                } else if horizontalDistance < -threshold {
+                    HapticManager.shared.lightImpact()
+                    onSwipe?(.left)
                 }
             }
     }

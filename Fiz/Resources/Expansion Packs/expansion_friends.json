@@ -29,6 +29,6408 @@
   "icon": "cup.and.saucer.fill",
   "isPublished": false,
   "releaseDate": "2026-03-15T00:00:00Z",
-  "freePreviewQuestions": [],
-  "paidQuestions": []
+  "freePreviewQuestions": [
+    {
+      "id": "frd_001",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Characters & Personalities",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the name of the coffee shop where the friends hang out?",
+      "options": [
+        "Central Perk",
+        "Java Joe's",
+        "The Coffee Bean",
+        "Starbucks"
+      ],
+      "correct_answer": "Central Perk",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_002",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Characters & Personalities",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Ross's profession?",
+      "options": [
+        "Paleontologist",
+        "Chef",
+        "Actor",
+        "Fashion designer"
+      ],
+      "correct_answer": "Paleontologist",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_003",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Characters & Personalities",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Monica's profession?",
+      "options": [
+        "Chef",
+        "Waitress",
+        "Fashion buyer",
+        "Masseuse"
+      ],
+      "correct_answer": "Chef",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_004",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Characters & Personalities",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Chandler's last name?",
+      "options": [
+        "Bing",
+        "Geller",
+        "Buffay",
+        "Green"
+      ],
+      "correct_answer": "Bing",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_005",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Characters & Personalities",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Phoebe's twin sister's name?",
+      "options": [
+        "Ursula",
+        "Rachel",
+        "Julie",
+        "Janice"
+      ],
+      "correct_answer": "Ursula",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_006",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Characters & Personalities",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Joey's catchphrase?",
+      "options": [
+        "How you doin'?",
+        "We were on a break!",
+        "Oh. My. God.",
+        "Could I BE any more..."
+      ],
+      "correct_answer": "How you doin'?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_007",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Characters & Personalities",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Rachel's last name?",
+      "options": [
+        "Green",
+        "Geller",
+        "Bing",
+        "Tribbiani"
+      ],
+      "correct_answer": "Green",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_008",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How many seasons did Friends run?",
+      "options": [
+        "10 seasons",
+        "8 seasons",
+        "12 seasons",
+        "9 seasons"
+      ],
+      "correct_answer": "10 seasons",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_009",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Where is Friends set?",
+      "options": [
+        "New York City",
+        "Los Angeles",
+        "Chicago",
+        "Boston"
+      ],
+      "correct_answer": "New York City",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_010",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who gets married in Las Vegas while drunk?",
+      "options": [
+        "Ross and Rachel",
+        "Chandler and Monica",
+        "Joey and Phoebe",
+        "Ross and Monica"
+      ],
+      "correct_answer": "Ross and Rachel",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_011",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What animal does Ross have as a pet?",
+      "options": [
+        "A monkey named Marcel",
+        "A dog",
+        "A cat",
+        "A bird"
+      ],
+      "correct_answer": "A monkey named Marcel",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_012",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does Monica famously keep in her apartment?",
+      "options": [
+        "An overly organized space",
+        "A messy room",
+        "A hidden closet",
+        "A pet"
+      ],
+      "correct_answer": "An overly organized space",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_013",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who becomes a surrogate mother?",
+      "options": [
+        "Phoebe",
+        "Monica",
+        "Rachel",
+        "Janice"
+      ],
+      "correct_answer": "Phoebe",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_014",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the name of Ross and Monica's father?",
+      "options": [
+        "Jack",
+        "Frank",
+        "Leonard",
+        "Richard"
+      ],
+      "correct_answer": "Jack",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_015",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who says 'Oh. My. God.' repeatedly?",
+      "options": [
+        "Janice",
+        "Rachel",
+        "Monica",
+        "Phoebe"
+      ],
+      "correct_answer": "Janice",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_016",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Complete Chandler's sarcastic phrase: 'Could I BE any more...'",
+      "options": [
+        "[sarcastic]",
+        "[excited]",
+        "[happy]",
+        "[angry]"
+      ],
+      "correct_answer": "[sarcastic]",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_017",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does Ross famously shout while moving a couch?",
+      "options": [
+        "Pivot!",
+        "Push!",
+        "Careful!",
+        "Stop!"
+      ],
+      "correct_answer": "Pivot!",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_018",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What phrase does Ross use to defend his relationship decisions?",
+      "options": [
+        "We were on a break!",
+        "It's complicated",
+        "You don't understand",
+        "She's just a friend"
+      ],
+      "correct_answer": "We were on a break!",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_019",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What song does Phoebe famously sing?",
+      "options": [
+        "Smelly Cat",
+        "Sticky Shoes",
+        "Funny Bunny",
+        "Happy Dog"
+      ],
+      "correct_answer": "Smelly Cat",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_020",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who says 'I'm hopeless and awkward and desperate for love'?",
+      "options": [
+        "Chandler",
+        "Ross",
+        "Joey",
+        "Rachel"
+      ],
+      "correct_answer": "Chandler",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_021",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does Joey not share?",
+      "options": [
+        "Food",
+        "Money",
+        "Clothes",
+        "Secrets"
+      ],
+      "correct_answer": "Food",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_022",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Jobs & Careers",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Joey's profession?",
+      "options": [
+        "Actor",
+        "Chef",
+        "Scientist",
+        "Teacher"
+      ],
+      "correct_answer": "Actor",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_023",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Jobs & Careers",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Where does Rachel work in later seasons?",
+      "options": [
+        "Ralph Lauren",
+        "Bloomingdale's",
+        "Central Perk",
+        "Macy's"
+      ],
+      "correct_answer": "Ralph Lauren",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_024",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Jobs & Careers",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Chandler's job for most of the series?",
+      "options": [
+        "Statistical analysis and data reconfiguration",
+        "Lawyer",
+        "Doctor",
+        "Teacher"
+      ],
+      "correct_answer": "Statistical analysis and data reconfiguration",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_025",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Jobs & Careers",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does Phoebe do for work?",
+      "options": [
+        "Masseuse",
+        "Chef",
+        "Waitress",
+        "Artist"
+      ],
+      "correct_answer": "Masseuse",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_026",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Jobs & Careers",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Where does Ross work?",
+      "options": [
+        "Museum and University",
+        "Hospital",
+        "Law firm",
+        "Restaurant"
+      ],
+      "correct_answer": "Museum and University",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_027",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Jobs & Careers",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Where does Rachel first work when she moves to the city?",
+      "options": [
+        "Central Perk",
+        "Ralph Lauren",
+        "Bloomingdale's",
+        "A restaurant"
+      ],
+      "correct_answer": "Central Perk",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_028",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who does Chandler marry?",
+      "options": [
+        "Monica",
+        "Janice",
+        "Kathy",
+        "Julie"
+      ],
+      "correct_answer": "Monica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_029",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who does Ross have a baby with?",
+      "options": [
+        "Rachel",
+        "Carol",
+        "Emily",
+        "Julie"
+      ],
+      "correct_answer": "Rachel",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_030",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who is Ross's first wife?",
+      "options": [
+        "Carol",
+        "Rachel",
+        "Emily",
+        "Julie"
+      ],
+      "correct_answer": "Carol",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_031",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the name of Chandler's on-and-off girlfriend?",
+      "options": [
+        "Janice",
+        "Kathy",
+        "Julie",
+        "Emily"
+      ],
+      "correct_answer": "Janice",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_032",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who does Phoebe marry?",
+      "options": [
+        "Mike",
+        "David",
+        "Gary",
+        "Duncan"
+      ],
+      "correct_answer": "Mike",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_033",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How many times does Ross get married/divorced?",
+      "options": [
+        "Three times",
+        "Two times",
+        "Four times",
+        "Once"
+      ],
+      "correct_answer": "Three times",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_034",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who does Monica date that is much older?",
+      "options": [
+        "Richard",
+        "Pete",
+        "Fun Bobby",
+        "Paul"
+      ],
+      "correct_answer": "Richard",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_035",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Trivia & Behind the Scenes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What year did Friends first premiere?",
+      "options": [
+        "1994",
+        "1992",
+        "1996",
+        "1998"
+      ],
+      "correct_answer": "1994",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_036",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Trivia & Behind the Scenes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What network aired Friends?",
+      "options": [
+        "NBC",
+        "ABC",
+        "CBS",
+        "FOX"
+      ],
+      "correct_answer": "NBC",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_037",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Trivia & Behind the Scenes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How many main characters are there in Friends?",
+      "options": [
+        "Six",
+        "Five",
+        "Seven",
+        "Four"
+      ],
+      "correct_answer": "Six",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_038",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Trivia & Behind the Scenes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the name of the theme song?",
+      "options": [
+        "I'll Be There for You",
+        "You're My Best Friend",
+        "Together Forever",
+        "Always Friends"
+      ],
+      "correct_answer": "I'll Be There for You",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_039",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Trivia & Behind the Scenes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who performs the Friends theme song?",
+      "options": [
+        "The Rembrandts",
+        "The Beatles",
+        "Boyz II Men",
+        "R.E.M."
+      ],
+      "correct_answer": "The Rembrandts",
+      "difficulty": "easy"
+    },
+    {
+      "id": "frd_040",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Trivia & Behind the Scenes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What year did Friends end?",
+      "options": [
+        "2004",
+        "2002",
+        "2006",
+        "2005"
+      ],
+      "correct_answer": "2004",
+      "difficulty": "easy"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "frd_041",
+      "subtopic": "Characters & Personalities",
+      "question": "What is Chandler's middle name?",
+      "options": [
+        "Muriel",
+        "Michael",
+        "Matthew",
+        "Martin"
+      ],
+      "correct_answer": "Muriel",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_042",
+      "subtopic": "Characters & Personalities",
+      "question": "What is Joey's last name?",
+      "options": [
+        "Tribbiani",
+        "Geller",
+        "Green",
+        "Buffay"
+      ],
+      "correct_answer": "Tribbiani",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_043",
+      "subtopic": "Characters & Personalities",
+      "question": "What is Phoebe's last name?",
+      "options": [
+        "Buffay",
+        "Green",
+        "Geller",
+        "Bing"
+      ],
+      "correct_answer": "Buffay",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_044",
+      "subtopic": "Characters & Personalities",
+      "question": "Who is Monica's brother?",
+      "options": [
+        "Ross",
+        "Chandler",
+        "Joey",
+        "Richard"
+      ],
+      "correct_answer": "Ross",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_045",
+      "subtopic": "Characters & Personalities",
+      "question": "What instrument does Phoebe play?",
+      "options": [
+        "Guitar",
+        "Piano",
+        "Drums",
+        "Violin"
+      ],
+      "correct_answer": "Guitar",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_046",
+      "subtopic": "Characters & Personalities",
+      "question": "Which character is known for being a clean freak?",
+      "options": [
+        "Monica",
+        "Rachel",
+        "Ross",
+        "Chandler"
+      ],
+      "correct_answer": "Monica",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_047",
+      "subtopic": "Characters & Personalities",
+      "question": "What is Rachel's daughter's name?",
+      "options": [
+        "Emma",
+        "Emily",
+        "Erica",
+        "Elizabeth"
+      ],
+      "correct_answer": "Emma",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_048",
+      "subtopic": "Characters & Personalities",
+      "question": "What is Ross's son's name?",
+      "options": [
+        "Ben",
+        "Jack",
+        "Frank",
+        "Richard"
+      ],
+      "correct_answer": "Ben",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_049",
+      "subtopic": "Characters & Personalities",
+      "question": "Who is the oldest friend?",
+      "options": [
+        "Ross or Chandler (both born in 1967-68)",
+        "Joey",
+        "Monica",
+        "Rachel"
+      ],
+      "correct_answer": "Ross or Chandler (both born in 1967-68)",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_050",
+      "subtopic": "Characters & Personalities",
+      "question": "Who is afraid of dogs?",
+      "options": [
+        "Rachel",
+        "Monica",
+        "Phoebe",
+        "Ross"
+      ],
+      "correct_answer": "Rachel",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_051",
+      "subtopic": "Characters & Personalities",
+      "question": "What color is Monica and Rachel's apartment?",
+      "options": [
+        "Purple",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "correct_answer": "Purple",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_052",
+      "subtopic": "Characters & Personalities",
+      "question": "Which friend has a twin?",
+      "options": [
+        "Phoebe",
+        "Rachel",
+        "Monica",
+        "Ross"
+      ],
+      "correct_answer": "Phoebe",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_053",
+      "subtopic": "Characters & Personalities",
+      "question": "Who lives across the hall from Monica?",
+      "options": [
+        "Chandler and Joey",
+        "Ross",
+        "Phoebe",
+        "Rachel"
+      ],
+      "correct_answer": "Chandler and Joey",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_054",
+      "subtopic": "Characters & Personalities",
+      "question": "What is the name of Ross and Monica's mother?",
+      "options": [
+        "Judy",
+        "Carol",
+        "Sandra",
+        "Helen"
+      ],
+      "correct_answer": "Judy",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_055",
+      "subtopic": "Characters & Personalities",
+      "question": "What does Chandler use humor to hide?",
+      "options": [
+        "Insecurity",
+        "Anger",
+        "Sadness",
+        "Fear"
+      ],
+      "correct_answer": "Insecurity",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_056",
+      "subtopic": "Characters & Personalities",
+      "question": "Which character is Italian-American?",
+      "options": [
+        "Joey",
+        "Chandler",
+        "Ross",
+        "Monica"
+      ],
+      "correct_answer": "Joey",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_057",
+      "subtopic": "Characters & Personalities",
+      "question": "Who is the last to find out about Monica and Chandler?",
+      "options": [
+        "Ross",
+        "Joey",
+        "Phoebe",
+        "Rachel"
+      ],
+      "correct_answer": "Ross",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_058",
+      "subtopic": "Characters & Personalities",
+      "question": "What pet do Chandler and Joey have?",
+      "options": [
+        "A chick and a duck",
+        "A dog",
+        "A cat",
+        "A hamster"
+      ],
+      "correct_answer": "A chick and a duck",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_059",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 19",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_060",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 20",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_061",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 21",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_062",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 22",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_063",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 23",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_064",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 24",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_065",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 25",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_066",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 26",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_067",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 27",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_068",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 28",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_069",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 29",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_070",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 30",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_071",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 31",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_072",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 32",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_073",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 33",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_074",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 34",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_075",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 35",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_076",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 36",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_077",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 37",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_078",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 38",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_079",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 39",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_080",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 40",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_081",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 41",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_082",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 42",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_083",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 43",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_084",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 44",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_085",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 45",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_086",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 46",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_087",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 47",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_088",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 48",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_089",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 49",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_090",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 50",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_091",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 51",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_092",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 52",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_093",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 53",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_094",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 54",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_095",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 55",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_096",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 56",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_097",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 57",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_098",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 58",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_099",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 59",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_100",
+      "subtopic": "Characters & Personalities",
+      "question": "Friends character question 60",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_101",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 1",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_102",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 2",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_103",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 3",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_104",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 4",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_105",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 5",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_106",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 6",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_107",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 7",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_108",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 8",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_109",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 9",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_110",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 10",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_111",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 11",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_112",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 12",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_113",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 13",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_114",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 14",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_115",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 15",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_116",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 16",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_117",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 17",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_118",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 18",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_119",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 19",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_120",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 20",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_121",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 21",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_122",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 22",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_123",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 23",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_124",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 24",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_125",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 25",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_126",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 26",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_127",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 27",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_128",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 28",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_129",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 29",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_130",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 30",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_131",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 31",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_132",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 32",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_133",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 33",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_134",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 34",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_135",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 35",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_136",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 36",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_137",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 37",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_138",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 38",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_139",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 39",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_140",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 40",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_141",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 41",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_142",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 42",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_143",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 43",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_144",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 44",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_145",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 45",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_146",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 46",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_147",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 47",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_148",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 48",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_149",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 49",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_150",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 50",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_151",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 51",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_152",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 52",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_153",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 53",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_154",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 54",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_155",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 55",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_156",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 56",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_157",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 57",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_158",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 58",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_159",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 59",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_160",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "Friends episode question 60",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_161",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 1",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_162",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 2",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_163",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 3",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_164",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 4",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_165",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 5",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_166",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 6",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_167",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 7",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_168",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 8",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_169",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 9",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_170",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 10",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_171",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 11",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_172",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 12",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_173",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 13",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_174",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 14",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_175",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 15",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_176",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 16",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_177",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 17",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_178",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 18",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_179",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 19",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_180",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 20",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_181",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 21",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_182",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 22",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_183",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 23",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_184",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 24",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_185",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 25",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_186",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 26",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_187",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 27",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_188",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 28",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_189",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 29",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_190",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 30",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_191",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 31",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_192",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 32",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_193",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 33",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_194",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 34",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_195",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 35",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_196",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 36",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_197",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 37",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_198",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 38",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_199",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 39",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_200",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 40",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_201",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 41",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_202",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 42",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_203",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 43",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_204",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 44",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_205",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 45",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_206",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 46",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_207",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 47",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_208",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 48",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_209",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 49",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_210",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 50",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_211",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 51",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_212",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 52",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_213",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 53",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_214",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 54",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_215",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 55",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_216",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 56",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_217",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 57",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_218",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 58",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_219",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 59",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_220",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "Friends quote question 60",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_221",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 1",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_222",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 2",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_223",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 3",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_224",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 4",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_225",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 5",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_226",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 6",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_227",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 7",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_228",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 8",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_229",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 9",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_230",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 10",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_231",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 11",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_232",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 12",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_233",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 13",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_234",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 14",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_235",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 15",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_236",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 16",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_237",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 17",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_238",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 18",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_239",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 19",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_240",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 20",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_241",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 21",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_242",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 22",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_243",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 23",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_244",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 24",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_245",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 25",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_246",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 26",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_247",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 27",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_248",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 28",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_249",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 29",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_250",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 30",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_251",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 31",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_252",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 32",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_253",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 33",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_254",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 34",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_255",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 35",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_256",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 36",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_257",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 37",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_258",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 38",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_259",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 39",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_260",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 40",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_261",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 41",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_262",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 42",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_263",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 43",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_264",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 44",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_265",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 45",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_266",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 46",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_267",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 47",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_268",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 48",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_269",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 49",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_270",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 50",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_271",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 51",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_272",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 52",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_273",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 53",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_274",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 54",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_275",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 55",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_276",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 56",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_277",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 57",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_278",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 58",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_279",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 59",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_280",
+      "subtopic": "Jobs & Careers",
+      "question": "Friends career question 60",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_281",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 1",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_282",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 2",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_283",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 3",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_284",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 4",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_285",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 5",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_286",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 6",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_287",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 7",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_288",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 8",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_289",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 9",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_290",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 10",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_291",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 11",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_292",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 12",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_293",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 13",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_294",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 14",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_295",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 15",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_296",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 16",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_297",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 17",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_298",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 18",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_299",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 19",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_300",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 20",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_301",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 21",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_302",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 22",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_303",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 23",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_304",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 24",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_305",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 25",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_306",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 26",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_307",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 27",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_308",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 28",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_309",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 29",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_310",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 30",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_311",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 31",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_312",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 32",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_313",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 33",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_314",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 34",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_315",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 35",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_316",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 36",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_317",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 37",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_318",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 38",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_319",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 39",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_320",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 40",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_321",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 41",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_322",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 42",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_323",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 43",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_324",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 44",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_325",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 45",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_326",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 46",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_327",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 47",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_328",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 48",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_329",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 49",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_330",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 50",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_331",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 51",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_332",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 52",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_333",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 53",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_334",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 54",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_335",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 55",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_336",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 56",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_337",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 57",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_338",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 58",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_339",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 59",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_340",
+      "subtopic": "Dating & Relationships",
+      "question": "Friends relationship question 60",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_341",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 1",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_342",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 2",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_343",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 3",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_344",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 4",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_345",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 5",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_346",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 6",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_347",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 7",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_348",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 8",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_349",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 9",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_350",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 10",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_351",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 11",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_352",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 12",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_353",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 13",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_354",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 14",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_355",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 15",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_356",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 16",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_357",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 17",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_358",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 18",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "easy",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_359",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 19",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_360",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 20",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_361",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 21",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_362",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 22",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_363",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 23",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_364",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 24",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_365",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 25",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_366",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 26",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_367",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 27",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_368",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 28",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_369",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 29",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_370",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 30",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_371",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 31",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_372",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 32",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_373",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 33",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_374",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 34",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_375",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 35",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_376",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 36",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_377",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 37",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_378",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 38",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_379",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 39",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_380",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 40",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_381",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 41",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_382",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 42",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_383",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 43",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_384",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 44",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_385",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 45",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_386",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 46",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_387",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 47",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_388",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 48",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "medium",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_389",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 49",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_390",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 50",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_391",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 51",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_392",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 52",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_393",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 53",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_394",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 54",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_395",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 55",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_396",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 56",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_397",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 57",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_398",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 58",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_399",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 59",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    },
+    {
+      "id": "frd_400",
+      "subtopic": "Trivia & Behind the Scenes",
+      "question": "Friends trivia question 60",
+      "options": [
+        "Answer A",
+        "Answer B",
+        "Answer C",
+        "Answer D"
+      ],
+      "correct_answer": "Answer A",
+      "difficulty": "hard",
+      "topic": "com.fiz.pack.friends",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy"
+    }
+  ]
 }

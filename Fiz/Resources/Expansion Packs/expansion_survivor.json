@@ -132,7 +132,7 @@
       "subtopic": "Players & Castaways",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Which player was voted out with two hidden immunity idols in their pocket in Survivor: Kaôh Rōng?",
+      "question": "Which player was voted out with two hidden immunity idols in their pocket in Survivor: Ka\u00f4h R\u014dng?",
       "options": [
         "Jason Kyle",
         "Scot Pollard",
@@ -1142,7 +1142,7 @@
       "subtopic": "Players & Castaways",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who won Survivor: Kaôh Rōng?",
+      "question": "Who won Survivor: Ka\u00f4h R\u014dng?",
       "options": [
         "Michele Fitzgerald",
         "Aubry Bracco",
@@ -1167,6 +1167,7 @@
       ],
       "correct_answer": "Michael Skupin",
       "difficulty": "medium"
+    },
     {
       "id": "svr_072",
       "topic": "com.fiz.pack.survivor",
@@ -1541,7 +1542,7 @@
       "subtopic": "Players & Castaways",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who was evacuated from the game in Survivor: Kaôh Rōng due to heat exhaustion at a challenge?",
+      "question": "Who was evacuated from the game in Survivor: Ka\u00f4h R\u014dng due to heat exhaustion at a challenge?",
       "options": [
         "Caleb Reynolds",
         "Debbie Wanner",
@@ -2485,7 +2486,7 @@
       "subtopic": "Challenges & Competitions",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Which player collapsed during the final immunity challenge in Survivor: Kaôh Rōng?",
+      "question": "Which player collapsed during the final immunity challenge in Survivor: Ka\u00f4h R\u014dng?",
       "options": [
         "Aubry Bracco and Cydney Gillon",
         "Michele Fitzgerald",
@@ -2589,6 +2590,3846 @@
         "Sue Hawk"
       ],
       "correct_answer": "Kelly Wiglesworth",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_161",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What do castaways use to vote someone out at Tribal Council?",
+      "options": [
+        "A parchment and pen",
+        "A voting booth",
+        "A token",
+        "A ballot"
+      ],
+      "correct_answer": "A parchment and pen",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_162",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Where do contestants cast their votes at Tribal Council?",
+      "options": [
+        "In a voting confessional booth",
+        "At their seat",
+        "In front of everyone",
+        "On the beach"
+      ],
+      "correct_answer": "In a voting confessional booth",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_163",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who reads the votes at Tribal Council?",
+      "options": [
+        "Jeff Probst",
+        "The tribe leader",
+        "The person with immunity",
+        "The oldest contestant"
+      ],
+      "correct_answer": "Jeff Probst",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_164",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What happens after Jeff reads all the votes?",
+      "options": [
+        "The person with the most votes is eliminated",
+        "Everyone votes again",
+        "The tribe goes back to camp",
+        "A challenge begins"
+      ],
+      "correct_answer": "The person with the most votes is eliminated",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_165",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does a contestant need to be safe from elimination at Tribal Council?",
+      "options": [
+        "Individual immunity or a hidden immunity idol",
+        "Extra food",
+        "A reward advantage",
+        "Jury approval"
+      ],
+      "correct_answer": "Individual immunity or a hidden immunity idol",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_166",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Can the person with immunity be voted out at that Tribal Council?",
+      "options": [
+        "No, they are safe from votes",
+        "Yes, but only with a majority",
+        "Only if they give up immunity",
+        "Yes, if there's a twist"
+      ],
+      "correct_answer": "No, they are safe from votes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_167",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What iconic phrase does Jeff Probst say after snuffing a torch?",
+      "options": [
+        "The tribe has spoken",
+        "Your journey ends here",
+        "Goodbye",
+        "Time to go"
+      ],
+      "correct_answer": "The tribe has spoken",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_168",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What do voted-out contestants carry with them as they leave?",
+      "options": [
+        "Their snuffed torch",
+        "Their bag",
+        "Nothing",
+        "A flag"
+      ],
+      "correct_answer": "Their snuffed torch",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_169",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who decides the winner of Survivor at the final Tribal Council?",
+      "options": [
+        "The jury of eliminated players",
+        "Jeff Probst",
+        "America votes",
+        "The final contestants vote"
+      ],
+      "correct_answer": "The jury of eliminated players",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_170",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What do finalists do at the final Tribal Council?",
+      "options": [
+        "Make speeches and answer jury questions",
+        "Compete in challenges",
+        "Vote for each other",
+        "Build fire"
+      ],
+      "correct_answer": "Make speeches and answer jury questions",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_171",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "When are the final votes typically read?",
+      "options": [
+        "Live at the reunion show",
+        "Right after they're cast",
+        "The next day",
+        "At the beach"
+      ],
+      "correct_answer": "Live at the reunion show",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_172",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a blindside in Survivor?",
+      "options": [
+        "Voting someone out without them expecting it",
+        "Winning immunity",
+        "Finding an idol",
+        "Quitting the game"
+      ],
+      "correct_answer": "Voting someone out without them expecting it",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_173",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Can players change their vote after writing it down?",
+      "options": [
+        "No, votes are final once cast",
+        "Yes, before Jeff reads them",
+        "Only during a revote",
+        "Only with an advantage"
+      ],
+      "correct_answer": "No, votes are final once cast",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_174",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What happens when someone plays a hidden immunity idol?",
+      "options": [
+        "All votes against them don't count",
+        "They get an extra vote",
+        "They win immunity for the next council",
+        "The vote is cancelled"
+      ],
+      "correct_answer": "All votes against them don't count",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_175",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "When must a hidden immunity idol be played?",
+      "options": [
+        "Before the votes are read",
+        "After seeing the votes",
+        "During voting",
+        "At any time"
+      ],
+      "correct_answer": "Before the votes are read",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_176",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the minimum number of votes needed to be eliminated?",
+      "options": [
+        "A plurality (most votes)",
+        "A majority",
+        "All votes",
+        "Two votes"
+      ],
+      "correct_answer": "A plurality (most votes)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_177",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Can contestants vote for themselves?",
+      "options": [
+        "Yes, but it's rare and discouraged",
+        "No, it's not allowed",
+        "Only in a tiebreaker",
+        "Only at final Tribal Council"
+      ],
+      "correct_answer": "Yes, but it's rare and discouraged",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_178",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What happens if there's a tie vote after a revote?",
+      "options": [
+        "A rock draw or fire-making challenge",
+        "Jeff Probst decides",
+        "The person with immunity decides",
+        "Everyone votes again"
+      ],
+      "correct_answer": "A rock draw or fire-making challenge",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_179",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In a rock draw, who is safe from drawing a rock?",
+      "options": [
+        "The tied players and those with immunity",
+        "Everyone draws",
+        "Only the person with immunity",
+        "The oldest players"
+      ],
+      "correct_answer": "The tied players and those with immunity",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_180",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What color rock eliminates you in a rock draw?",
+      "options": [
+        "The different colored rock (often black or purple)",
+        "White",
+        "Red",
+        "Any rock"
+      ],
+      "correct_answer": "The different colored rock (often black or purple)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_181",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was the first to be eliminated by a rock draw?",
+      "options": [
+        "Pascal English (Survivor: Marquesas)",
+        "Katie Collins (Survivor: Blood vs. Water)",
+        "Jessica Lewis (Survivor: Millennials vs. Gen X)",
+        "Ciera Eastin"
+      ],
+      "correct_answer": "Pascal English (Survivor: Marquesas)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_182",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season to use fire-making as a final four tiebreaker?",
+      "options": [
+        "Survivor: Heroes vs. Healers vs. Hustlers (Season 35)",
+        "Survivor: Millennials vs. Gen X",
+        "Survivor: Game Changers",
+        "Survivor: Winners at War"
+      ],
+      "correct_answer": "Survivor: Heroes vs. Healers vs. Hustlers (Season 35)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_183",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In modern seasons, when is the mandatory fire-making challenge held?",
+      "options": [
+        "At the final four",
+        "At the merge",
+        "At the final three",
+        "At the final six"
+      ],
+      "correct_answer": "At the final four",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_184",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who participates in the final four fire-making challenge?",
+      "options": [
+        "The two non-immune players chosen by the immunity winner",
+        "Everyone except the immunity winner",
+        "The two lowest vote-getters",
+        "All four players"
+      ],
+      "correct_answer": "The two non-immune players chosen by the immunity winner",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_185",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had the first-ever unanimous jury vote?",
+      "options": [
+        "Survivor: Tocantins (J.T. Thomas)",
+        "Survivor: Fiji (Earl Cole)",
+        "Survivor: Caramoan (Cochran)",
+        "Survivor: Cambodia (Jeremy Collins)"
+      ],
+      "correct_answer": "Survivor: Tocantins (J.T. Thomas)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_186",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the closest jury vote in Survivor history?",
+      "options": [
+        "4-3-0 or 5-4 votes",
+        "9-0",
+        "6-3",
+        "7-2"
+      ],
+      "correct_answer": "4-3-0 or 5-4 votes",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_187",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which Tribal Council is known for the 'fake idol' play in Survivor: China?",
+      "options": [
+        "Jaime Dugan's fake idol from James",
+        "Erik's idol giveaway",
+        "Eliza's stick idol",
+        "Russell's fake idol"
+      ],
+      "correct_answer": "Jaime Dugan's fake idol from James",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_188",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Micronesia, who famously received a fake immunity idol (a stick)?",
+      "options": [
+        "Eliza Orlins",
+        "Ozzy Lusth",
+        "Jason Siska",
+        "James Clement"
+      ],
+      "correct_answer": "Eliza Orlins",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_189",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was significant about the merge Tribal Council in Survivor: Micronesia?",
+      "options": [
+        "Erik gave up immunity and was voted out",
+        "A double elimination",
+        "Two idols were played",
+        "No one was voted out"
+      ],
+      "correct_answer": "Erik gave up immunity and was voted out",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_190",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which Survivor season had a tied final vote that was decided by a firemaking challenge?",
+      "options": [
+        "Survivor: Palau",
+        "Survivor: Guatemala",
+        "Survivor: Panama",
+        "Survivor: Marquesas"
+      ],
+      "correct_answer": "Survivor: Palau",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_191",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In which season did a player get zero votes at every Tribal Council and win?",
+      "options": [
+        "Survivor: Tocantins (J.T.)",
+        "Survivor: Cook Islands (Yul)",
+        "Survivor: Caramoan (Cochran)",
+        "Survivor: One World (Kim)"
+      ],
+      "correct_answer": "Survivor: Tocantins (J.T.)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_192",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which castaway holds the record for most Tribal Councils attended in a single season?",
+      "options": [
+        "Denise Stapley (every single one in Philippines)",
+        "Boston Rob (Redemption Island)",
+        "Tony Vlachos (Cagayan)",
+        "Kim Spradlin (One World)"
+      ],
+      "correct_answer": "Denise Stapley (every single one in Philippines)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_193",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What happens during a 'live Tribal Council'?",
+      "options": [
+        "Players get up and talk strategy during voting",
+        "Votes are read immediately",
+        "It's broadcast live on TV",
+        "Players vote in front of each other"
+      ],
+      "correct_answer": "Players get up and talk strategy during voting",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_194",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which Tribal Council had the most idols/advantages played in one night?",
+      "options": [
+        "Survivor: Game Changers (6 advantages played)",
+        "Survivor: Cambodia (3 idols)",
+        "Survivor: Winners at War (4 idols)",
+        "Survivor: Heroes vs. Villains (2 idols)"
+      ],
+      "correct_answer": "Survivor: Game Changers (6 advantages played)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_195",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season to feature a rock draw tiebreaker?",
+      "options": [
+        "Survivor: Marquesas",
+        "Survivor: Africa",
+        "Survivor: Thailand",
+        "Survivor: Amazon"
+      ],
+      "correct_answer": "Survivor: Marquesas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_196",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In which season did Cirie Fields get voted out without a single vote being cast against her?",
+      "options": [
+        "Survivor: Game Changers",
+        "Survivor: Micronesia",
+        "Survivor: Panama",
+        "Survivor: Heroes vs. Villains"
+      ],
+      "correct_answer": "Survivor: Game Changers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_197",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which winner received the fewest jury votes to win (in a non-unanimous vote)?",
+      "options": [
+        "Bob Crowley (4-3-0)",
+        "Sandra Diaz-Twine (6-3-0)",
+        "Natalie White (5-4-0)",
+        "Sophie Clarke (6-3-0)"
+      ],
+      "correct_answer": "Bob Crowley (4-3-0)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_198",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was unique about the Survivor: Ghost Island finale vote?",
+      "options": [
+        "It ended in a 5-5 tie between Wendell and Domenick",
+        "It was unanimous",
+        "No idols were played",
+        "It had four finalists"
+      ],
+      "correct_answer": "It ended in a 5-5 tie between Wendell and Domenick",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_199",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who broke the tie in the Survivor: Ghost Island final Tribal Council?",
+      "options": [
+        "Laurel (the third-place finisher)",
+        "Jeff Probst",
+        "A jury revote",
+        "A fire-making challenge"
+      ],
+      "correct_answer": "Laurel (the third-place finisher)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_200",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was eliminated by drawing the purple rock in Survivor: Millennials vs. Gen X?",
+      "options": [
+        "Jessica Lewis",
+        "Hannah Shapiro",
+        "Ken McNickle",
+        "David Wright"
+      ],
+      "correct_answer": "Jessica Lewis",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_201",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was special about the first Tribal Council in Survivor: Borneo?",
+      "options": [
+        "It established the format used for all future seasons",
+        "No one was voted out",
+        "Everyone voted the same way",
+        "It lasted over 3 hours"
+      ],
+      "correct_answer": "It established the format used for all future seasons",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_202",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured the first double Tribal Council elimination?",
+      "options": [
+        "Survivor: Thailand",
+        "Survivor: All-Stars",
+        "Survivor: Pearl Islands",
+        "Survivor: Vanuatu"
+      ],
+      "correct_answer": "Survivor: Thailand",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_203",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which Tribal Council in Survivor: Cambodia had three hidden immunity idols played?",
+      "options": [
+        "The Wentworth idol play at final 6",
+        "The merge tribal",
+        "The final 12",
+        "The final 4"
+      ],
+      "correct_answer": "The Wentworth idol play at final 6",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_204",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Heroes vs. Villains, how many votes did Russell Hantz receive at the final Tribal Council?",
+      "options": [
+        "Zero",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "correct_answer": "Zero",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_205",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which castaway went to the most Tribal Councils without ever being voted out?",
+      "options": [
+        "Spencer Bledsoe (across two seasons)",
+        "Ozzy Lusth",
+        "Amanda Kimmel",
+        "Boston Rob"
+      ],
+      "correct_answer": "Spencer Bledsoe (across two seasons)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_206",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was unique about the vote in Survivor: Gabon at the final 7?",
+      "options": [
+        "It resulted in a 3-3-1 tie and a rock draw",
+        "Everyone voted the same",
+        "No one voted",
+        "Five idols were played"
+      ],
+      "correct_answer": "It resulted in a 3-3-1 tie and a rock draw",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_207",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player received the most votes in a single Tribal Council without being eliminated?",
+      "options": [
+        "Kelley Wentworth (9 votes negated by idol)",
+        "Russell Hantz (7 votes)",
+        "Parvati Shallow (8 votes)",
+        "David Wright (10 votes)"
+      ],
+      "correct_answer": "Kelley Wentworth (9 votes negated by idol)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_208",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Fiji, what happened at the first Tribal Council after the merge?",
+      "options": [
+        "The first jury member was voted out",
+        "A double elimination occurred",
+        "No one was voted out",
+        "Everyone tied"
+      ],
+      "correct_answer": "The first jury member was voted out",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_209",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had the earliest jury in Survivor history (starting at Day 15)?",
+      "options": [
+        "Survivor: Cagayan",
+        "Survivor: Ka\u00f4h R\u014dng",
+        "Survivor: Cambodia",
+        "Survivor: Game Changers"
+      ],
+      "correct_answer": "Survivor: Cagayan",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_210",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season to use a final three instead of a final two?",
+      "options": [
+        "Survivor: Cook Islands",
+        "Survivor: Fiji",
+        "Survivor: China",
+        "Survivor: Micronesia"
+      ],
+      "correct_answer": "Survivor: Cook Islands",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_211",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Blood vs. Water, what happened when Ciera voted out her mom Laura?",
+      "options": [
+        "Laura went to Redemption Island",
+        "Laura was eliminated immediately",
+        "Laura won immunity",
+        "The vote was cancelled"
+      ],
+      "correct_answer": "Laura went to Redemption Island",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_212",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had a joint Tribal Council with both tribes voting together pre-merge?",
+      "options": [
+        "Survivor: Millennials vs. Gen X",
+        "Survivor: Game Changers",
+        "Survivor: David vs. Goliath",
+        "Survivor: Island of the Idols"
+      ],
+      "correct_answer": "Survivor: Millennials vs. Gen X",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_213",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the outcome of the first-ever Tribal Council in Survivor history?",
+      "options": [
+        "Sonja Christopher was voted out 4-3",
+        "It was unanimous",
+        "There was a tie",
+        "No one was voted out"
+      ],
+      "correct_answer": "Sonja Christopher was voted out 4-3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_214",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Winners at War, how many fire tokens could players will to someone when voted out?",
+      "options": [
+        "All their tokens",
+        "One token only",
+        "None",
+        "Half their tokens"
+      ],
+      "correct_answer": "All their tokens",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_215",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which Tribal Council featured the infamous 'stick' fake idol play?",
+      "options": [
+        "Survivor: Micronesia (Eliza's idol)",
+        "Survivor: China (Jaime's idol)",
+        "Survivor: Fiji (fake idol)",
+        "Survivor: Samoa (Russell's fake)"
+      ],
+      "correct_answer": "Survivor: Micronesia (Eliza's idol)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_216",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the record for most consecutive Tribal Councils without receiving a vote?",
+      "options": [
+        "J.T. Thomas (entire game in Tocantins)",
+        "Kim Spradlin (15 tribals)",
+        "Earl Cole (entire game)",
+        "Yul Kwon (entire game)"
+      ],
+      "correct_answer": "J.T. Thomas (entire game in Tocantins)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_217",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In which season did a castaway find an idol at Tribal Council?",
+      "options": [
+        "Survivor: Ka\u00f4h R\u014dng (Tai found an idol at tribal)",
+        "Survivor: Cambodia",
+        "Survivor: Game Changers",
+        "Survivor: Heroes vs. Villains"
+      ],
+      "correct_answer": "Survivor: Ka\u00f4h R\u014dng (Tai found an idol at tribal)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_218",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which Tribal Council had the longest deliberation time in Survivor history?",
+      "options": [
+        "Survivor: Borneo (first tribal, over 2 hours)",
+        "Survivor: Micronesia (Erik immunity give-up)",
+        "Survivor: Cambodia (Kelley idol play)",
+        "Survivor: Cagayan (final tribal)"
+      ],
+      "correct_answer": "Survivor: Borneo (first tribal, over 2 hours)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_219",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Panama, who won the firemaking tiebreaker at the final four?",
+      "options": [
+        "Sundra Woodshed (after 3+ hours)",
+        "Cirie Fields",
+        "Aras Baskauskas",
+        "Danielle DiLorenzo"
+      ],
+      "correct_answer": "Sundra Woodshed (after 3+ hours)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_220",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which finalist received zero jury votes in the most lopsided final vote ever?",
+      "options": [
+        "Multiple players (9-0-0 or 10-0-0 votes)",
+        "Russell Hantz",
+        "Dawn Meehan",
+        "Phillip Sheppard"
+      ],
+      "correct_answer": "Multiple players (9-0-0 or 10-0-0 votes)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_221",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the most common alliance size in early Survivor seasons?",
+      "options": [
+        "4-5 players",
+        "2-3 players",
+        "6-7 players",
+        "8+ players"
+      ],
+      "correct_answer": "4-5 players",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_222",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'final two' deal?",
+      "options": [
+        "An agreement between two players to go to the end together",
+        "The last two challenges",
+        "The final two votes",
+        "A tie vote"
+      ],
+      "correct_answer": "An agreement between two players to go to the end together",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_223",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does it mean to 'flip' in Survivor?",
+      "options": [
+        "Switch alliances or vote against your alliance",
+        "Win immunity",
+        "Find an idol",
+        "Quit the game"
+      ],
+      "correct_answer": "Switch alliances or vote against your alliance",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_224",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'power couple' in Survivor?",
+      "options": [
+        "Two strong players in a close alliance",
+        "A married couple",
+        "Challenge winners",
+        "Idol holders"
+      ],
+      "correct_answer": "Two strong players in a close alliance",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_225",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'throwing a challenge' mean?",
+      "options": [
+        "Intentionally losing to vote out a tribe member",
+        "Giving up immunity",
+        "Quitting",
+        "Breaking an alliance"
+      ],
+      "correct_answer": "Intentionally losing to vote out a tribe member",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_226",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the purpose of a 'meat shield' strategy?",
+      "options": [
+        "Keep bigger threats around to deflect attention",
+        "Win challenges",
+        "Find idols",
+        "Make fire"
+      ],
+      "correct_answer": "Keep bigger threats around to deflect attention",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_227",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'social game' in Survivor?",
+      "options": [
+        "Building relationships and trust with other players",
+        "Playing challenges",
+        "Finding idols",
+        "Making fire"
+      ],
+      "correct_answer": "Building relationships and trust with other players",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_228",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Why do players form alliances?",
+      "options": [
+        "To have voting power and protection",
+        "To win challenges",
+        "To find idols",
+        "To get food"
+      ],
+      "correct_answer": "To have voting power and protection",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_229",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is 'jury management'?",
+      "options": [
+        "Managing relationships with eliminated players who vote for the winner",
+        "Managing the final vote",
+        "Managing tribal council",
+        "Managing challenges"
+      ],
+      "correct_answer": "Managing relationships with eliminated players who vote for the winner",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_230",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does it mean to be 'on the bottom'?",
+      "options": [
+        "Being outside the main alliance",
+        "Losing challenges",
+        "Being voted out",
+        "Sitting out"
+      ],
+      "correct_answer": "Being outside the main alliance",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_231",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the 'merge' in Survivor?",
+      "options": [
+        "When separate tribes combine into one",
+        "When alliances form",
+        "The final tribal council",
+        "A challenge type"
+      ],
+      "correct_answer": "When separate tribes combine into one",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_232",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Why is the merge important strategically?",
+      "options": [
+        "Individual game begins and alliances shift",
+        "Challenges get easier",
+        "Food improves",
+        "The game ends"
+      ],
+      "correct_answer": "Individual game begins and alliances shift",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_233",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'swing vote'?",
+      "options": [
+        "A player not committed to either alliance who can tip the vote",
+        "Voting twice",
+        "Changing your vote",
+        "A tied vote"
+      ],
+      "correct_answer": "A player not committed to either alliance who can tip the vote",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_234",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'playing both sides' mean?",
+      "options": [
+        "Being in alliances with opposing groups",
+        "Playing challenges and strategy",
+        "Voting and idols",
+        "Rewards and immunity"
+      ],
+      "correct_answer": "Being in alliances with opposing groups",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_235",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the goal of most winning strategies?",
+      "options": [
+        "Get to the end and earn jury votes",
+        "Win every challenge",
+        "Find all idols",
+        "Make the biggest moves"
+      ],
+      "correct_answer": "Get to the end and earn jury votes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_236",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is an 'under the radar' strategy?",
+      "options": [
+        "Avoiding attention and letting others make big moves",
+        "Hiding from challenges",
+        "Secret alliances",
+        "Finding hidden idols"
+      ],
+      "correct_answer": "Avoiding attention and letting others make big moves",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_237",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Why do players target 'challenge threats'?",
+      "options": [
+        "They can win immunity and become hard to vote out",
+        "They find idols",
+        "They control votes",
+        "They have food"
+      ],
+      "correct_answer": "They can win immunity and become hard to vote out",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_238",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'numbers game'?",
+      "options": [
+        "Having more alliance members than opponents",
+        "Counting votes",
+        "Challenge scoring",
+        "Idol counting"
+      ],
+      "correct_answer": "Having more alliance members than opponents",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_239",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What alliance strategy did Rob Cesternino pioneer?",
+      "options": [
+        "Voting blocs and fluid alliances",
+        "Solid alliance of 4",
+        "Couples alliance",
+        "Final two deals"
+      ],
+      "correct_answer": "Voting blocs and fluid alliances",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_240",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Black Widow Brigade'?",
+      "options": [
+        "All-female alliance in Micronesia",
+        "Villain alliance",
+        "Hero alliance",
+        "Challenge alliance"
+      ],
+      "correct_answer": "All-female alliance in Micronesia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_241",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'stacking votes' mean?",
+      "options": [
+        "Concentrating votes on one target to ensure elimination",
+        "Voting multiple times",
+        "Extra vote advantages",
+        "Tied votes"
+      ],
+      "correct_answer": "Concentrating votes on one target to ensure elimination",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_242",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the 'resume game'?",
+      "options": [
+        "Playing to build a list of strategic moves for the jury",
+        "Writing a resume",
+        "Keeping a journal",
+        "Talking to jury"
+      ],
+      "correct_answer": "Playing to build a list of strategic moves for the jury",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_243",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Russell Hantz's signature strategy?",
+      "options": [
+        "Aggressive idol hunting and aggressive gameplay",
+        "Social bonds",
+        "Challenge wins",
+        "Loyalty"
+      ],
+      "correct_answer": "Aggressive idol hunting and aggressive gameplay",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_244",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'shield' in Survivor strategy?",
+      "options": [
+        "A player who deflects attention from you",
+        "An immunity idol",
+        "A challenge advantage",
+        "An alliance member"
+      ],
+      "correct_answer": "A player who deflects attention from you",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_245",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Tony Vlachos's 'spy bunker'?",
+      "options": [
+        "A hiding spot to eavesdrop on conversations",
+        "An idol location",
+        "A shelter",
+        "An alliance meeting place"
+      ],
+      "correct_answer": "A hiding spot to eavesdrop on conversations",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_246",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'cutting a threat' mean?",
+      "options": [
+        "Voting out a strong player before they become too powerful",
+        "Winning immunity",
+        "Finding an idol",
+        "Breaking an alliance"
+      ],
+      "correct_answer": "Voting out a strong player before they become too powerful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_247",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'majority alliance'?",
+      "options": [
+        "An alliance with more than half the remaining players",
+        "The biggest alliance",
+        "The winning alliance",
+        "The first alliance"
+      ],
+      "correct_answer": "An alliance with more than half the remaining players",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_248",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Kim Spradlin's winning strategy in One World?",
+      "options": [
+        "Dominant social and strategic control",
+        "Challenge wins",
+        "Idol plays",
+        "Loyalty"
+      ],
+      "correct_answer": "Dominant social and strategic control",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_249",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is 'idol paranoia'?",
+      "options": [
+        "Fear that someone has an idol and will use it against you",
+        "Searching for idols",
+        "Playing idols",
+        "Fake idols"
+      ],
+      "correct_answer": "Fear that someone has an idol and will use it against you",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_250",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'making a big move' mean?",
+      "options": [
+        "A bold strategic play that changes the game",
+        "Winning challenges",
+        "Finding idols",
+        "Building shelter"
+      ],
+      "correct_answer": "A bold strategic play that changes the game",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_251",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the 'UTR strategy'?",
+      "options": [
+        "Under the radar - avoiding attention",
+        "Using the rope",
+        "Ultimate tribal  rally",
+        "United tribe resource"
+      ],
+      "correct_answer": "Under the radar - avoiding attention",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_252",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Boston Rob's strategy in Redemption Island?",
+      "options": [
+        "Total control through the buddy system",
+        "Challenge dominance",
+        "Idol collection",
+        "Social bonds only"
+      ],
+      "correct_answer": "Total control through the buddy system",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_253",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'power alliance'?",
+      "options": [
+        "An alliance that controls the vote and game direction",
+        "Physical players",
+        "Challenge winners",
+        "Idol holders"
+      ],
+      "correct_answer": "An alliance that controls the vote and game direction",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_254",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'playing the middle' mean?",
+      "options": [
+        "Not committing fully to either side of a split",
+        "Being in the center of camp",
+        "Average gameplay",
+        "Moderate strategy"
+      ],
+      "correct_answer": "Not committing fully to either side of a split",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_255",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Aitu Four' strategy?",
+      "options": [
+        "Four underdogs winning immunity to overcome numbers deficit",
+        "Four person alliance",
+        "Four challenges",
+        "Four idols"
+      ],
+      "correct_answer": "Four underdogs winning immunity to overcome numbers deficit",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_256",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is 'information control'?",
+      "options": [
+        "Managing what information others know about your game",
+        "Controlling challenges",
+        "Leading alliances",
+        "Finding clues"
+      ],
+      "correct_answer": "Managing what information others know about your game",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_257",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'burning a bridge' mean?",
+      "options": [
+        "Permanently damaging a relationship with another player",
+        "Fire making",
+        "Destroying camp",
+        "Quitting"
+      ],
+      "correct_answer": "Permanently damaging a relationship with another player",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_258",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'core alliance'?",
+      "options": [
+        "The innermost group you're most loyal to",
+        "The first alliance",
+        "The largest alliance",
+        "The winning alliance"
+      ],
+      "correct_answer": "The innermost group you're most loyal to",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_259",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Parvati's 'flirt strategy'?",
+      "options": [
+        "Using charm and relationships to advance in the game",
+        "Only social game",
+        "No strategy",
+        "Challenge focus"
+      ],
+      "correct_answer": "Using charm and relationships to advance in the game",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_260",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'keeping your options open' mean?",
+      "options": [
+        "Maintaining relationships with multiple alliances",
+        "Not voting",
+        "Sitting out challenges",
+        "Finding idols"
+      ],
+      "correct_answer": "Maintaining relationships with multiple alliances",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_261",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is 'pre-merge strategy'?",
+      "options": [
+        "Keeping tribe strong while building post-merge relationships",
+        "Only challenge focus",
+        "No alliances",
+        "Individual game"
+      ],
+      "correct_answer": "Keeping tribe strong while building post-merge relationships",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_262",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'taking out the head of the snake' mean?",
+      "options": [
+        "Voting out the alliance leader",
+        "Winning immunity",
+        "Finding idols",
+        "Making fire"
+      ],
+      "correct_answer": "Voting out the alliance leader",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_263",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'cross-tribal alliance'?",
+      "options": [
+        "Alliance formed between members of different original tribes",
+        "Alliance at challenges",
+        "Post-merge alliance",
+        "Final alliance"
+      ],
+      "correct_answer": "Alliance formed between members of different original tribes",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_264",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Cirie Fields known for strategically?",
+      "options": [
+        "Masterful social manipulation without winning immunity",
+        "Challenge wins",
+        "Idol finds",
+        "Physical game"
+      ],
+      "correct_answer": "Masterful social manipulation without winning immunity",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_265",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'controlling the vote' mean?",
+      "options": [
+        "Directing where the votes go each tribal",
+        "Having extra votes",
+        "Being in power",
+        "Winning immunity"
+      ],
+      "correct_answer": "Directing where the votes go each tribal",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_266",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'trust cluster'?",
+      "options": [
+        "Small group of players with deep mutual trust",
+        "Cluster of idols",
+        "Group challenge",
+        "Camp area"
+      ],
+      "correct_answer": "Small group of players with deep mutual trust",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_267",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'building a resume' require?",
+      "options": [
+        "Making strategic moves you can claim at final tribal",
+        "Writing things down",
+        "Winning challenges",
+        "Finding idols"
+      ],
+      "correct_answer": "Making strategic moves you can claim at final tribal",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_268",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is 'threat management'?",
+      "options": [
+        "Controlling when big threats get voted out",
+        "Managing challenges",
+        "Idol management",
+        "Camp management"
+      ],
+      "correct_answer": "Controlling when big threats get voted out",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_269",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Onion Alliance' strategy in Survivor: Palau?",
+      "options": [
+        "Layers of alliances with different levels of loyalty",
+        "Circular alliance",
+        "Food-based strategy",
+        "Challenge strategy"
+      ],
+      "correct_answer": "Layers of alliances with different levels of loyalty",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_270",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player pioneered the 'agent' strategy of collecting information?",
+      "options": [
+        "Tony Vlachos",
+        "Rob Cesternino",
+        "Russell Hantz",
+        "Boston Rob"
+      ],
+      "correct_answer": "Tony Vlachos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_271",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Jeremy Collins's 'meat shield' strategy in Cambodia?",
+      "options": [
+        "Keeping bigger threats like Joe and Spencer around",
+        "Physical game",
+        "Challenge wins",
+        "Idol collection"
+      ],
+      "correct_answer": "Keeping bigger threats like Joe and Spencer around",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_272",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What strategic innovation did Sarah Lacina use in Game Changers?",
+      "options": [
+        "Criminal and cop dual gameplay personas",
+        "Challenge dominance",
+        "Idol plays",
+        "Alliance loyalty"
+      ],
+      "correct_answer": "Criminal and cop dual gameplay personas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_273",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season first featured the 'voting bloc' over traditional alliances?",
+      "options": [
+        "Survivor: Cambodia (Second Chance)",
+        "Survivor: Cagayan",
+        "Survivor: Worlds Apart",
+        "Survivor: Millennials vs. Gen X"
+      ],
+      "correct_answer": "Survivor: Cambodia (Second Chance)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_274",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Seven' alliance in Survivor: Pearl Islands?",
+      "options": [
+        "Seven-person alliance led by Fairplay and Burton",
+        "Seven challenges",
+        "Seven votes",
+        "Seven idols"
+      ],
+      "correct_answer": "Seven-person alliance led by Fairplay and Burton",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_275",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What strategic move did Denise Stapley make in Philippines?",
+      "options": [
+        "Attended every tribal council and survived all of them",
+        "Won every immunity",
+        "Found all idols",
+        "Controlled all votes"
+      ],
+      "correct_answer": "Attended every tribal council and survived all of them",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_276",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Dom and Wendell's 'two-headed monster' strategy?",
+      "options": [
+        "Dual leadership sharing power and deflecting target",
+        "Two alliances",
+        "Two idols",
+        "Two votes"
+      ],
+      "correct_answer": "Dual leadership sharing power and deflecting target",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_277",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player is credited with inventing the 'spy shack'?",
+      "options": [
+        "Tony Vlachos in Cagayan",
+        "Russell Hantz in Samoa",
+        "Boston Rob in Redemption Island",
+        "Phillip in Caramoan"
+      ],
+      "correct_answer": "Tony Vlachos in Cagayan",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_278",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was unique about the 'Four Horsemen' alliance?",
+      "options": [
+        "It failed despite being in power due to overconfidence",
+        "It won every challenge",
+        "It found every idol",
+        "It controlled every vote"
+      ],
+      "correct_answer": "It failed despite being in power due to overconfidence",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_279",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Todd Herzog's winning strategy in China?",
+      "options": [
+        "Building a dominant alliance while appearing non-threatening",
+        "Challenge wins",
+        "Idol plays",
+        "Physical game"
+      ],
+      "correct_answer": "Building a dominant alliance while appearing non-threatening",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_280",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What strategic concept did Rob Cesternino introduce in Amazon?",
+      "options": [
+        "Voting with whoever benefits you most each vote",
+        "Loyalty above all",
+        "Challenge focus",
+        "Idol hunting"
+      ],
+      "correct_answer": "Voting with whoever benefits you most each vote",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_281",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "What was the location of Survivor: Borneo?",
+      "options": [
+        "Pulau Tiga, Malaysia",
+        "Fiji",
+        "Panama",
+        "Australia"
+      ],
+      "correct_answer": "Pulau Tiga, Malaysia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_282",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which country hosted Survivor: The Australian Outback?",
+      "options": [
+        "Australia",
+        "New Zealand",
+        "Fiji",
+        "Indonesia"
+      ],
+      "correct_answer": "Australia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_283",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first returning player season?",
+      "options": [
+        "Survivor: All-Stars",
+        "Survivor: Heroes vs. Villains",
+        "Survivor: Game Changers",
+        "Survivor: Cambodia"
+      ],
+      "correct_answer": "Survivor: All-Stars",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_284",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which African country hosted Survivor: Africa?",
+      "options": [
+        "Kenya",
+        "Tanzania",
+        "South Africa",
+        "Zimbabwe"
+      ],
+      "correct_answer": "Kenya",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_285",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Where was Survivor: Thailand filmed?",
+      "options": [
+        "Thailand",
+        "Malaysia",
+        "Indonesia",
+        "Cambodia"
+      ],
+      "correct_answer": "Thailand",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_286",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which Central American country hosted Survivor: Guatemala?",
+      "options": [
+        "Guatemala",
+        "Panama",
+        "Costa Rica",
+        "Nicaragua"
+      ],
+      "correct_answer": "Guatemala",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_287",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Where was Survivor: Gabon filmed?",
+      "options": [
+        "Gabon, Africa",
+        "Ghana",
+        "Cameroon",
+        "Congo"
+      ],
+      "correct_answer": "Gabon, Africa",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_288",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which country has hosted Survivor since Season 33?",
+      "options": [
+        "Fiji",
+        "Philippines",
+        "Malaysia",
+        "Indonesia"
+      ],
+      "correct_answer": "Fiji",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_289",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Where was Survivor: China filmed?",
+      "options": [
+        "China",
+        "Thailand",
+        "Vietnam",
+        "Cambodia"
+      ],
+      "correct_answer": "China",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_290",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which island nation hosted multiple Survivor seasons including Samoa?",
+      "options": [
+        "Samoa",
+        "Tonga",
+        "Fiji",
+        "Vanuatu"
+      ],
+      "correct_answer": "Samoa",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_291",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Where was Survivor: Nicaragua filmed?",
+      "options": [
+        "Nicaragua",
+        "Panama",
+        "Costa Rica",
+        "Honduras"
+      ],
+      "correct_answer": "Nicaragua",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_292",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which Southeast Asian country hosted Survivor: Ka\u00f4h R\u014dng?",
+      "options": [
+        "Cambodia",
+        "Thailand",
+        "Vietnam",
+        "Laos"
+      ],
+      "correct_answer": "Cambodia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_293",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season to be filmed in high definition?",
+      "options": [
+        "Survivor: Samoa",
+        "Survivor: Tocantins",
+        "Survivor: China",
+        "Survivor: Fiji"
+      ],
+      "correct_answer": "Survivor: Samoa",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_294",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Where was Survivor: Vanuatu filmed?",
+      "options": [
+        "Vanuatu",
+        "Fiji",
+        "Samoa",
+        "Tonga"
+      ],
+      "correct_answer": "Vanuatu",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_295",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the subtitle of Season 13?",
+      "options": [
+        "Cook Islands",
+        "Fiji",
+        "China",
+        "Tocantins"
+      ],
+      "correct_answer": "Cook Islands",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_296",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Survivor: Second Chance also known as?",
+      "options": [
+        "Cambodia",
+        "Philippines",
+        "Ka\u00f4h R\u014dng",
+        "Game Changers"
+      ],
+      "correct_answer": "Cambodia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_297",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season filmed in Fiji?",
+      "options": [
+        "Survivor: Fiji (Season 14)",
+        "Survivor: Millennials vs. Gen X",
+        "Survivor 33",
+        "Survivor: Game Changers"
+      ],
+      "correct_answer": "Survivor: Fiji (Season 14)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_298",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How many total seasons of Survivor have aired?",
+      "options": [
+        "46+ seasons",
+        "30 seasons",
+        "40 seasons",
+        "50 seasons"
+      ],
+      "correct_answer": "46+ seasons",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_299",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "What was the location of Survivor: Amazon?",
+      "options": [
+        "Brazil",
+        "Peru",
+        "Colombia",
+        "Ecuador"
+      ],
+      "correct_answer": "Brazil",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_300",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which island group in French Polynesia hosted Survivor: Marquesas?",
+      "options": [
+        "Marquesas Islands",
+        "Society Islands",
+        "Tuamotu",
+        "Gambier Islands"
+      ],
+      "correct_answer": "Marquesas Islands",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_301",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Where was Survivor: Palau filmed?",
+      "options": [
+        "Palau, Micronesia",
+        "Samoa",
+        "Fiji",
+        "Tonga"
+      ],
+      "correct_answer": "Palau, Micronesia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_302",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which South American country hosted Survivor: Tocantins?",
+      "options": [
+        "Brazil",
+        "Argentina",
+        "Chile",
+        "Peru"
+      ],
+      "correct_answer": "Brazil",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_303",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the theme of Survivor: Cagayan?",
+      "options": [
+        "Brains vs. Brawn vs. Beauty",
+        "Heroes vs. Villains",
+        "David vs. Goliath",
+        "Millennials vs. Gen X"
+      ],
+      "correct_answer": "Brains vs. Brawn vs. Beauty",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_304",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the theme of Season 30?",
+      "options": [
+        "Worlds Apart (White Collar vs. Blue Collar vs. No Collar)",
+        "Heroes vs. Healers vs. Hustlers",
+        "David vs. Goliath",
+        "Brains vs. Brawn vs. Beauty"
+      ],
+      "correct_answer": "Worlds Apart (White Collar vs. Blue Collar vs. No Collar)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_305",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured tribes divided by race?",
+      "options": [
+        "Survivor: Cook Islands",
+        "Survivor: Fiji",
+        "Survivor: China",
+        "Survivor: Tocantins"
+      ],
+      "correct_answer": "Survivor: Cook Islands",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_306",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the theme of Survivor: San Juan del Sur?",
+      "options": [
+        "Blood vs. Water (loved ones)",
+        "Heroes vs. Villains",
+        "Fans vs. Favorites",
+        "Redemption Island"
+      ],
+      "correct_answer": "Blood vs. Water (loved ones)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_307",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which was the first Fans vs. Favorites season?",
+      "options": [
+        "Survivor: Micronesia",
+        "Survivor: Caramoan",
+        "Survivor: Cambodia",
+        "Survivor: Game Changers"
+      ],
+      "correct_answer": "Survivor: Micronesia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_308",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was unique about Survivor: Edge of Extinction's location?",
+      "options": [
+        "First return to Fiji with a new twist",
+        "New country",
+        "First HD season",
+        "Multiple locations"
+      ],
+      "correct_answer": "First return to Fiji with a new twist",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_309",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season was subtitled 'Heroes vs. Healers vs. Hustlers'?",
+      "options": [
+        "Season 35",
+        "Season 33",
+        "Season 30",
+        "Season 40"
+      ],
+      "correct_answer": "Season 35",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_310",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the theme of Season 37?",
+      "options": [
+        "David vs. Goliath",
+        "Heroes vs. Villains",
+        "Brains vs. Brawn",
+        "Winners at War"
+      ],
+      "correct_answer": "David vs. Goliath",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_311",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured Redemption Island for the first time?",
+      "options": [
+        "Survivor: Redemption Island (Season 22)",
+        "Survivor: South Pacific",
+        "Survivor: Blood vs. Water",
+        "Survivor: Philippines"
+      ],
+      "correct_answer": "Survivor: Redemption Island (Season 22)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_312",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Season 40 called?",
+      "options": [
+        "Winners at War",
+        "All-Stars",
+        "Game Changers",
+        "Heroes vs. Villains"
+      ],
+      "correct_answer": "Winners at War",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_313",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured the Island of the Idols twist?",
+      "options": [
+        "Season 39",
+        "Season 38",
+        "Season 40",
+        "Season 37"
+      ],
+      "correct_answer": "Season 39",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_314",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Where was Survivor: Exile Island (Panama) filmed?",
+      "options": [
+        "Pearl Islands, Panama",
+        "Costa Rica",
+        "Nicaragua",
+        "Colombia"
+      ],
+      "correct_answer": "Pearl Islands, Panama",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_315",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season first introduced the three-tribe format?",
+      "options": [
+        "Survivor: Africa",
+        "Survivor: Thailand",
+        "Survivor: Pearl Islands",
+        "Survivor: All-Stars"
+      ],
+      "correct_answer": "Survivor: Africa",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_316",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the theme of Survivor: Millennials vs. Gen X?",
+      "options": [
+        "Generational divide",
+        "Age battle",
+        "Young vs. Old",
+        "New vs. Classic"
+      ],
+      "correct_answer": "Generational divide",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_317",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had the most returnees?",
+      "options": [
+        "Survivor: Winners at War (all returnees)",
+        "Survivor: All-Stars",
+        "Survivor: Game Changers",
+        "Survivor: Heroes vs. Villains"
+      ],
+      "correct_answer": "Survivor: Winners at War (all returnees)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_318",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was Season 41's subtitle?",
+      "options": [
+        "Just 'Survivor 41' (no subtitle)",
+        "New Era",
+        "The Game Changers",
+        "Modern Survivor"
+      ],
+      "correct_answer": "Just 'Survivor 41' (no subtitle)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_319",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured one tribe of 9 dominating the other?",
+      "options": [
+        "Survivor: Palau (Koror dominated Ulong)",
+        "Survivor: Samoa",
+        "Survivor: Redemption Island",
+        "Survivor: One World"
+      ],
+      "correct_answer": "Survivor: Palau (Koror dominated Ulong)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_320",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was unique about Survivor: One World?",
+      "options": [
+        "Both tribes shared the same beach",
+        "One tribe of men, one of women",
+        "One challenge per episode",
+        "One idol"
+      ],
+      "correct_answer": "Both tribes shared the same beach",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_321",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had tribes initially divided by age?",
+      "options": [
+        "Survivor: Nicaragua",
+        "Survivor: Millennials vs. Gen X",
+        "Survivor: Panama",
+        "Survivor: Worlds Apart"
+      ],
+      "correct_answer": "Survivor: Nicaragua",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_322",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season to have a final three?",
+      "options": [
+        "Survivor: Cook Islands",
+        "Survivor: Fiji",
+        "Survivor: China",
+        "Survivor: Gabon"
+      ],
+      "correct_answer": "Survivor: Cook Islands",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_323",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "How many different countries have hosted Survivor?",
+      "options": [
+        "Over 15 countries",
+        "5 countries",
+        "10 countries",
+        "20 countries"
+      ],
+      "correct_answer": "Over 15 countries",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_324",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had tribes divided by gender?",
+      "options": [
+        "Survivor: The Amazon",
+        "Survivor: One World",
+        "Survivor: Vanuatu",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_325",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the original planned location for Survivor Season 1?",
+      "options": [
+        "Jordan",
+        "Malaysia",
+        "Australia",
+        "Thailand"
+      ],
+      "correct_answer": "Jordan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_326",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured the 'Outcasts' twist?",
+      "options": [
+        "Survivor: Pearl Islands",
+        "Survivor: Redemption Island",
+        "Survivor: Edge of Extinction",
+        "Survivor: Island of the Idols"
+      ],
+      "correct_answer": "Survivor: Pearl Islands",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_327",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the shortened season length starting with Season 41?",
+      "options": [
+        "26 days",
+        "39 days",
+        "30 days",
+        "20 days"
+      ],
+      "correct_answer": "26 days",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_328",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured the most quit players?",
+      "options": [
+        "Survivor: Nicaragua (2 quits)",
+        "Survivor: Ka\u00f4h R\u014dng",
+        "Survivor: Island of the Idols",
+        "Survivor: Samoa"
+      ],
+      "correct_answer": "Survivor: Nicaragua (2 quits)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_329",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "What was the specific location of Survivor: All-Stars?",
+      "options": [
+        "Pearl Islands, Panama",
+        "Cook Islands",
+        "Palau",
+        "Vanuatu"
+      ],
+      "correct_answer": "Pearl Islands, Panama",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_330",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had the lowest average age of contestants?",
+      "options": [
+        "Survivor: Millennials vs. Gen X (Millennials tribe)",
+        "Survivor: Nicaragua (La Flor)",
+        "Survivor: Fiji",
+        "Survivor: Gabon"
+      ],
+      "correct_answer": "Survivor: Millennials vs. Gen X (Millennials tribe)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_331",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "What is the name of the island where modern Fiji seasons are filmed?",
+      "options": [
+        "Mamanuca Islands",
+        "Yasawa Islands",
+        "Kadavu",
+        "Taveuni"
+      ],
+      "correct_answer": "Mamanuca Islands",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_332",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had only one tribe swap?",
+      "options": [
+        "Multiple seasons (varies)",
+        "Survivor: Borneo",
+        "Survivor: All-Stars",
+        "Survivor: Palau"
+      ],
+      "correct_answer": "Multiple seasons (varies)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_333",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season filmed after 9/11?",
+      "options": [
+        "Survivor: Marquesas",
+        "Survivor: Thailand",
+        "Survivor: Africa",
+        "Survivor: Amazon"
+      ],
+      "correct_answer": "Survivor: Marquesas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_334",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "In which Samoan islands was Survivor: Samoa filmed?",
+      "options": [
+        "Upolu",
+        "Savai'i",
+        "Tutuila",
+        "Manu'a"
+      ],
+      "correct_answer": "Upolu",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_335",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had the most medical evacuations?",
+      "options": [
+        "Survivor: Ka\u00f4h R\u014dng (3 evacuations)",
+        "Survivor: Samoa (2)",
+        "Survivor: Second Chance (1)",
+        "Survivor: Australia (1)"
+      ],
+      "correct_answer": "Survivor: Ka\u00f4h R\u014dng (3 evacuations)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_336",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured the fewest total castaways?",
+      "options": [
+        "Survivor: Palau (20 but one quit day 1, so 18 competed)",
+        "Survivor: Borneo (16)",
+        "Survivor: Cook Islands (20)",
+        "Survivor: Thailand (16)"
+      ],
+      "correct_answer": "Survivor: Borneo (16)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_337",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What season number was Survivor: Ghost Island?",
+      "options": [
+        "Season 36",
+        "Season 35",
+        "Season 37",
+        "Season 38"
+      ],
+      "correct_answer": "Season 36",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_338",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had the most tribe swaps?",
+      "options": [
+        "Survivor: Game Changers (3 swaps)",
+        "Survivor: Cambodia (2)",
+        "Survivor: Cagayan (2)",
+        "Survivor: Ka\u00f4h R\u014dng (2)"
+      ],
+      "correct_answer": "Survivor: Game Changers (3 swaps)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_339",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which region of Kenya hosted Survivor: Africa?",
+      "options": [
+        "Shaba National Reserve",
+        "Maasai Mara",
+        "Samburu",
+        "Amboseli"
+      ],
+      "correct_answer": "Shaba National Reserve",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_340",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What year did Survivor first premiere?",
+      "options": [
+        "2000",
+        "1999",
+        "2001",
+        "1998"
+      ],
+      "correct_answer": "2000",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_341",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does a hidden immunity idol do?",
+      "options": [
+        "Negates votes against you when played",
+        "Gives you immunity for the whole game",
+        "Lets you vote twice",
+        "Removes someone from the jury"
+      ],
+      "correct_answer": "Negates votes against you when played",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_342",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "When must you play a hidden immunity idol?",
+      "options": [
+        "Before votes are read",
+        "After votes are read",
+        "During voting",
+        "Anytime"
+      ],
+      "correct_answer": "Before votes are read",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_343",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What advantage allows you to cast an additional vote?",
+      "options": [
+        "Extra Vote",
+        "Double Vote",
+        "Power Vote",
+        "Bonus Ballot"
+      ],
+      "correct_answer": "Extra Vote",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_344",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Redemption Island?",
+      "options": [
+        "A place where eliminated players compete to return",
+        "A challenge location",
+        "A reward location",
+        "The final tribal council"
+      ],
+      "correct_answer": "A place where eliminated players compete to return",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_345",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is Exile Island?",
+      "options": [
+        "A place where one castaway is sent alone",
+        "Where tribal council happens",
+        "A reward location",
+        "The jury location"
+      ],
+      "correct_answer": "A place where one castaway is sent alone",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_346",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What advantage was introduced in Survivor 41?",
+      "options": [
+        "Shot in the Dark",
+        "Extra Vote",
+        "Idol Nullifier",
+        "Legacy Advantage"
+      ],
+      "correct_answer": "Shot in the Dark",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_347",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does 'Shot in the Dark' do?",
+      "options": [
+        "Gives you a 1 in 6 chance of safety (lose your vote)",
+        "Guarantees safety",
+        "Lets you vote twice",
+        "Nullifies an idol"
+      ],
+      "correct_answer": "Gives you a 1 in 6 chance of safety (lose your vote)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_348",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Can you play an idol for another player?",
+      "options": [
+        "Yes",
+        "No",
+        "Only at final tribal",
+        "Only before the merge"
+      ],
+      "correct_answer": "Yes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_349",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What typically happens at a tribe swap?",
+      "options": [
+        "Players are randomly redistributed into new tribes",
+        "Tribes merge",
+        "A challenge occurs",
+        "Someone is eliminated"
+      ],
+      "correct_answer": "Players are randomly redistributed into new tribes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_350",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'super idol'?",
+      "options": [
+        "An idol that can be played after votes are read",
+        "A regular idol",
+        "An idol that works twice",
+        "An idol that can't be nullified"
+      ],
+      "correct_answer": "An idol that can be played after votes are read",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_351",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does the 'Idol Nullifier' do?",
+      "options": [
+        "Cancels someone's idol if you correctly predict who plays it",
+        "Destroys all idols",
+        "Finds hidden idols",
+        "Steals an idol"
+      ],
+      "correct_answer": "Cancels someone's idol if you correctly predict who plays it",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_352",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the 'Legacy Advantage'?",
+      "options": [
+        "An advantage passed on to someone after elimination",
+        "An advantage that lasts forever",
+        "An advantage from a previous season",
+        "An advantage you inherit"
+      ],
+      "correct_answer": "An advantage passed on to someone after elimination",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_353",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Can hidden immunity idols expire?",
+      "options": [
+        "Yes, usually at final 5 or 6",
+        "No, they work until the end",
+        "Only in old seasons",
+        "Only fake idols expire"
+      ],
+      "correct_answer": "Yes, usually at final 5 or 6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_354",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season to feature hidden immunity idols?",
+      "options": [
+        "Survivor: Guatemala (first hidden idol)",
+        "Survivor: Panama",
+        "Survivor: Fiji",
+        "Survivor: China"
+      ],
+      "correct_answer": "Survivor: Guatemala (first hidden idol)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_355",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What advantage allows you to steal someone's vote?",
+      "options": [
+        "Vote Steal",
+        "Extra Vote",
+        "Double Vote",
+        "Power Vote"
+      ],
+      "correct_answer": "Vote Steal",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_356",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What does the 'Safety Without Power' advantage do?",
+      "options": [
+        "Leave Tribal Council before votes but can't vote",
+        "Get immunity and keep your vote",
+        "Vote twice",
+        "Nullify an idol"
+      ],
+      "correct_answer": "Leave Tribal Council before votes but can't vote",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_357",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What were 'Fire Tokens' used for?",
+      "options": [
+        "Currency in Winners at War to buy advantages",
+        "Making fire",
+        "Voting tokens",
+        "Immunity tokens"
+      ],
+      "correct_answer": "Currency in Winners at War to buy advantages",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_358",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What happens if you find an idol with a clue that says 'rehide'?",
+      "options": [
+        "You must hide it again in a new spot",
+        "You keep it",
+        "You share it",
+        "You give it to production"
+      ],
+      "correct_answer": "You must hide it again in a new spot",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_359",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season introduced the first tribe swap?",
+      "options": [
+        "Survivor: Africa",
+        "Survivor: Thailand",
+        "Survivor: Marquesas",
+        "Survivor: Amazon"
+      ],
+      "correct_answer": "Survivor: Africa",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_360",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Medallion of Power'?",
+      "options": [
+        "An advantage in Survivor: Nicaragua that helped in challenges",
+        "A hidden idol",
+        "A reward",
+        "An immunity necklace"
+      ],
+      "correct_answer": "An advantage in Survivor: Nicaragua that helped in challenges",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_361",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What twist did Survivor: Fiji introduce?",
+      "options": [
+        "Have and Have Not tribes with unequal resources",
+        "Exile Island",
+        "Redemption Island",
+        "Hidden idols"
+      ],
+      "correct_answer": "Have and Have Not tribes with unequal resources",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_362",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which advantage lets you block someone from voting?",
+      "options": [
+        "Vote Block",
+        "Vote Steal",
+        "Extra Vote",
+        "Power Vote"
+      ],
+      "correct_answer": "Vote Block",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_363",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Outcasts' twist in Pearl Islands?",
+      "options": [
+        "Eliminated players returned to compete to re-enter",
+        "Players voted out early",
+        "A third tribe",
+        "A jury twist"
+      ],
+      "correct_answer": "Eliminated players returned to compete to re-enter",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_364",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How many idols could one person hold at once in earlier seasons?",
+      "options": [
+        "Unlimited",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correct_answer": "Unlimited",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_365",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Knowledge is Power' advantage?",
+      "options": [
+        "Ability to ask if someone has an idol/advantage and take it",
+        "Extra information about votes",
+        "See tribal council votes early",
+        "Learn challenge ahead of time"
+      ],
+      "correct_answer": "Ability to ask if someone has an idol/advantage and take it",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_366",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What twist was 'Edge of Extinction'?",
+      "options": [
+        "Voted out players live on separate beach and can return",
+        "A challenge",
+        "An idol location",
+        "A tribal swap"
+      ],
+      "correct_answer": "Voted out players live on separate beach and can return",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_367",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had the most advantages/idols in play?",
+      "options": [
+        "Survivor: Game Changers",
+        "Survivor: Cambodia",
+        "Survivor: Winners at War",
+        "Survivor: Island of the Idols"
+      ],
+      "correct_answer": "Survivor: Game Changers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_368",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Hourglass' twist in Survivor 41?",
+      "options": [
+        "Winner of challenge could change immunity outcomes",
+        "Time-based challenge",
+        "Timed tribal council",
+        "Clock advantage"
+      ],
+      "correct_answer": "Winner of challenge could change immunity outcomes",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_369",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What advantage did Tony use in Winners at War?",
+      "options": [
+        "Spy Nest (listening device)",
+        "Extra Vote",
+        "Idol",
+        "Vote Steal"
+      ],
+      "correct_answer": "Spy Nest (listening device)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_370",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was unique about the 'Tyler Perry' idol?",
+      "options": [
+        "Could be played after votes were read",
+        "Could be used twice",
+        "Worth two idols",
+        "Could be transferred"
+      ],
+      "correct_answer": "Could be played after votes were read",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_371",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season introduced the first jury removal advantage?",
+      "options": [
+        "Survivor: Ka\u00f4h R\u014dng",
+        "Survivor: Cambodia",
+        "Survivor: Game Changers",
+        "Survivor: Millennials vs. Gen X"
+      ],
+      "correct_answer": "Survivor: Ka\u00f4h R\u014dng",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_372",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Island of the Idols'?",
+      "options": [
+        "Sandra and Rob mentoring players and offering advantages",
+        "An idol location",
+        "A challenge island",
+        "Exile island"
+      ],
+      "correct_answer": "Sandra and Rob mentoring players and offering advantages",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_373",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How long do you typically have to find a hidden idol from a clue?",
+      "options": [
+        "Varies - until someone finds it or it expires",
+        "24 hours",
+        "One episode",
+        "Until next tribal"
+      ],
+      "correct_answer": "Varies - until someone finds it or it expires",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_374",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first advantage to require activation?",
+      "options": [
+        "Legacy Advantage (activated at specific votes)",
+        "Extra Vote",
+        "Idol",
+        "Vote Steal"
+      ],
+      "correct_answer": "Legacy Advantage (activated at specific votes)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_375",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season featured a '50/50 coin' advantage?",
+      "options": [
+        "Survivor: Island of the Idols",
+        "Survivor 41",
+        "Survivor: Winners at War",
+        "Survivor: Edge of Extinction"
+      ],
+      "correct_answer": "Survivor: Island of the Idols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_376",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What happens when you successfully play an idol nullifier?",
+      "options": [
+        "The targeted idol doesn't work",
+        "You get the idol",
+        "Both idols are cancelled",
+        "You get immunity"
+      ],
+      "correct_answer": "The targeted idol doesn't work",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_377",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had three-piece idols that required assembly?",
+      "options": [
+        "Survivor 41 and 42",
+        "Survivor: Winners at War",
+        "Survivor: Cambodia",
+        "Survivor: Game Changers"
+      ],
+      "correct_answer": "Survivor 41 and 42",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_378",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Do or Die' twist?",
+      "options": [
+        "Win challenge or face elimination chance at tribal",
+        "Fire making",
+        "Rock draw",
+        "Idol challenge"
+      ],
+      "correct_answer": "Win challenge or face elimination chance at tribal",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_379",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "When was the first double tribal council?",
+      "options": [
+        "Survivor: Thailand",
+        "Survivor: All-Stars",
+        "Survivor: Africa",
+        "Survivor: Amazon"
+      ],
+      "correct_answer": "Survivor: Thailand",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_380",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What advantage allows you to anonymously send someone to Exile?",
+      "options": [
+        "Exile Advantage (varies by season)",
+        "Exile Token",
+        "Banishment Advantage",
+        "Island Pass"
+      ],
+      "correct_answer": "Exile Advantage (varies by season)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_381",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Steal a Vote' advantage?",
+      "options": [
+        "Take someone's vote and cast it yourself",
+        "Get two votes",
+        "Block a vote",
+        "Cancel a vote"
+      ],
+      "correct_answer": "Take someone's vote and cast it yourself",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_382",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which twist allowed players to 'gift' fire tokens?",
+      "options": [
+        "Winners at War (when voted out)",
+        "Edge of Extinction",
+        "Island of the Idols",
+        "Game Changers"
+      ],
+      "correct_answer": "Winners at War (when voted out)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_383",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was unique about the super idol in Cagayan?",
+      "options": [
+        "Could be played after votes were read",
+        "Worth two votes",
+        "Lasted forever",
+        "Could be shared"
+      ],
+      "correct_answer": "Could be played after votes were read",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_384",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How many times has a vote steal been used successfully?",
+      "options": [
+        "Multiple times across seasons",
+        "Never",
+        "Once",
+        "Twice"
+      ],
+      "correct_answer": "Multiple times across seasons",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_385",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season with Exile Island?",
+      "options": [
+        "Survivor: Panama (Exile Island)",
+        "Survivor: Cook Islands",
+        "Survivor: Fiji",
+        "Survivor: Micronesia"
+      ],
+      "correct_answer": "Survivor: Panama (Exile Island)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_386",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Can you play multiple idols in one tribal council?",
+      "options": [
+        "Yes, for yourself or others",
+        "No, only one per tribal",
+        "Only one per person",
+        "Only in modern seasons"
+      ],
+      "correct_answer": "Yes, for yourself or others",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_387",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Summit' in Survivor 41-42?",
+      "options": [
+        "Meeting where players risked votes for advantages",
+        "Challenge location",
+        "Tribal council spot",
+        "Merge feast"
+      ],
+      "correct_answer": "Meeting where players risked votes for advantages",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_388",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which advantage must be 'earned' through a challenge?",
+      "options": [
+        "Varies (Island of the Idols, Summit advantages)",
+        "All advantages",
+        "No advantages",
+        "Only idols"
+      ],
+      "correct_answer": "Varies (Island of the Idols, Summit advantages)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_389",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who found the first hidden immunity idol without a clue?",
+      "options": [
+        "Russell Hantz in Samoa",
+        "Bob Crowley in Gabon",
+        "Gary Hogeboom in Guatemala",
+        "Terry Deitz in Panama"
+      ],
+      "correct_answer": "Russell Hantz in Samoa",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_390",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season introduced idols that required three pieces from three tribes?",
+      "options": [
+        "Survivor: Heroes vs. Healers vs. Hustlers",
+        "Survivor: Millennials vs. Gen X",
+        "Survivor: Ka\u00f4h R\u014dng",
+        "Survivor: Worlds Apart"
+      ],
+      "correct_answer": "Survivor: Heroes vs. Healers vs. Hustlers",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_391",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season where an idol had to be 'reactivated'?",
+      "options": [
+        "Survivor: Cagayan (Tony's super idol)",
+        "Survivor: Cambodia",
+        "Survivor: Game Changers",
+        "Survivor 41"
+      ],
+      "correct_answer": "Survivor: Cagayan (Tony's super idol)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_392",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player successfully used the Idol Nullifier?",
+      "options": [
+        "Carl Boudreaux in David vs. Goliath",
+        "Dan Rengering in Island of the Idols",
+        "Chrissy Hofbeck in HvHvH",
+        "Lauren O'Connell in Edge of Extinction"
+      ],
+      "correct_answer": "Carl Boudreaux in David vs. Goliath",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_393",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the 'Beware Advantage' in Survivor 42?",
+      "options": [
+        "Conditional idol that required phrase activation",
+        "Fake idol",
+        "Dangerous advantage",
+        "Cursed idol"
+      ],
+      "correct_answer": "Conditional idol that required phrase activation",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_394",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which advantage has never been successfully used?",
+      "options": [
+        "Various (some found but not used before expiring)",
+        "All have been used",
+        "Vote Steal",
+        "Extra Vote"
+      ],
+      "correct_answer": "Various (some found but not used before expiring)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_395",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the first season to feature a final four fire-making mandate?",
+      "options": [
+        "Survivor: Heroes vs. Healers vs. Hustlers (35)",
+        "Survivor: Ghost Island",
+        "Survivor: David vs. Goliath",
+        "Survivor: Winners at War"
+      ],
+      "correct_answer": "Survivor: Heroes vs. Healers vs. Hustlers (35)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_396",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How many idols did Ben Driebergen find in Heroes vs. Healers vs. Hustlers?",
+      "options": [
+        "Three idols",
+        "Two idols",
+        "Four idols",
+        "Five idols"
+      ],
+      "correct_answer": "Three idols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_397",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player found an idol at Tribal Council?",
+      "options": [
+        "Tai Trang in Ka\u00f4h R\u014dng",
+        "Ben Driebergen in HvHvH",
+        "Russell Hantz in Samoa",
+        "Tony Vlachos in Cagayan"
+      ],
+      "correct_answer": "Tai Trang in Ka\u00f4h R\u014dng",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_398",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What advantage menu system was used in Winners at War?",
+      "options": [
+        "Fire Token economy for advantages",
+        "Auction system",
+        "Challenge system",
+        "Vote system"
+      ],
+      "correct_answer": "Fire Token economy for advantages",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_399",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which season had the most idols played in a single tribal?",
+      "options": [
+        "Survivor: Game Changers (5-6 advantages)",
+        "Survivor: Cambodia (3 idols)",
+        "Survivor: Winners at War (4)",
+        "Survivor: Heroes vs. Villains (2)"
+      ],
+      "correct_answer": "Survivor: Game Changers (5-6 advantages)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_400",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What was the controversial 'hourglass' twist criticized for?",
+      "options": [
+        "Retroactively changing immunity after challenge ended",
+        "Too powerful",
+        "Too confusing",
+        "Unfair to winners"
+      ],
+      "correct_answer": "Retroactively changing immunity after challenge ended",
       "difficulty": "hard"
     }
   ]

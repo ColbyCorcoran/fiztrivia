@@ -29,6 +29,2567 @@
   "icon": "flame.fill",
   "isPublished": false,
   "releaseDate": "2026-02-20T00:00:00Z",
-  "freePreviewQuestions": [],
-  "paidQuestions": []
+  "freePreviewQuestions": [
+    {
+      "id": "svr_001",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who is the host of Survivor?",
+      "options": [
+        "Jeff Probst",
+        "Ryan Seacrest",
+        "Phil Keoghan",
+        "Chris Harrison"
+      ],
+      "correct_answer": "Jeff Probst",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_002",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which contestant is known as the 'King of Survivor' for winning twice?",
+      "options": [
+        "Tony Vlachos",
+        "Boston Rob Mariano",
+        "Parvati Shallow",
+        "Sandra Diaz-Twine"
+      ],
+      "correct_answer": "Tony Vlachos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_003",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who is the only player to win Survivor twice in a row?",
+      "options": [
+        "Sandra Diaz-Twine",
+        "Tony Vlachos",
+        "Parvati Shallow",
+        "Rob Mariano"
+      ],
+      "correct_answer": "Sandra Diaz-Twine",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_004",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player won Survivor: Heroes vs. Villains?",
+      "options": [
+        "Sandra Diaz-Twine",
+        "Parvati Shallow",
+        "Russell Hantz",
+        "Colby Donaldson"
+      ],
+      "correct_answer": "Sandra Diaz-Twine",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_005",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Winners at War?",
+      "options": [
+        "Tony Vlachos",
+        "Natalie Anderson",
+        "Sarah Lacina",
+        "Michele Fitzgerald"
+      ],
+      "correct_answer": "Tony Vlachos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_006",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which castaway is known for creating the 'spy shack' strategy?",
+      "options": [
+        "Tony Vlachos",
+        "Russell Hantz",
+        "Ben Driebergen",
+        "Mike Holloway"
+      ],
+      "correct_answer": "Tony Vlachos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_007",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was voted out with two hidden immunity idols in their pocket in Survivor: Kaôh Rōng?",
+      "options": [
+        "Jason Kyle",
+        "Scot Pollard",
+        "Tai Trang",
+        "Joe Del Campo"
+      ],
+      "correct_answer": "Jason Kyle",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_008",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What type of challenges typically offer immunity from being voted out?",
+      "options": [
+        "Immunity challenges",
+        "Reward challenges",
+        "Tribal challenges",
+        "Individual challenges"
+      ],
+      "correct_answer": "Immunity challenges",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_009",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What are challenges that provide items like food or comfort called?",
+      "options": [
+        "Reward challenges",
+        "Immunity challenges",
+        "Endurance challenges",
+        "Comfort challenges"
+      ],
+      "correct_answer": "Reward challenges",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_010",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In early seasons, what were the two teams typically called before the merge?",
+      "options": [
+        "Tribes",
+        "Alliances",
+        "Teams",
+        "Camps"
+      ],
+      "correct_answer": "Tribes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_011",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What classic endurance challenge involves standing on a small platform in the water?",
+      "options": [
+        "Last Gasp",
+        "Pole Dance",
+        "Hand on Hard Idol",
+        "When It Rains, It Pours"
+      ],
+      "correct_answer": "Last Gasp",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_012",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge requires contestants to stand on a pole for as long as possible?",
+      "options": [
+        "Pole Dance",
+        "Last Gasp",
+        "Simmotion",
+        "Perch"
+      ],
+      "correct_answer": "Pole Dance",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_013",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In the 'Hand on a Hard Idol' challenge, what happens if you remove your hand?",
+      "options": [
+        "You're eliminated from the challenge",
+        "You lose your vote",
+        "You get immunity",
+        "You win a reward"
+      ],
+      "correct_answer": "You're eliminated from the challenge",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_014",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which physical challenge involves digging under a log and crawling through the sand?",
+      "options": [
+        "Dig Your Way Out",
+        "Bermuda Triangle",
+        "Kicking and Screaming",
+        "Folklore"
+      ],
+      "correct_answer": "Dig Your Way Out",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_015",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What ceremony determines who gets voted off the island?",
+      "options": [
+        "Tribal Council",
+        "The Merge",
+        "Fire Making",
+        "Final Jury"
+      ],
+      "correct_answer": "Tribal Council",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_016",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "When Jeff Probst says 'The tribe has spoken,' what does he do next?",
+      "options": [
+        "Snuffs the voted-out player's torch",
+        "Reveals the next challenge",
+        "Hands out immunity",
+        "Announces the winner"
+      ],
+      "correct_answer": "Snuffs the voted-out player's torch",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_017",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "How many castaways typically make it to the final tribal council?",
+      "options": [
+        "Two or three",
+        "Four",
+        "Five",
+        "One"
+      ],
+      "correct_answer": "Two or three",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_018",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is it called when there is a tie in votes at Tribal Council?",
+      "options": [
+        "A revote",
+        "A deadlock",
+        "A tiebreaker",
+        "A rock draw"
+      ],
+      "correct_answer": "A revote",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_019",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What happens if a revote results in another tie?",
+      "options": [
+        "The tied players are immune and others draw rocks",
+        "The person with immunity decides",
+        "Jeff Probst decides",
+        "Everyone revotes again"
+      ],
+      "correct_answer": "The tied players are immune and others draw rocks",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_020",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In modern seasons, what tiebreaker is used at the final four?",
+      "options": [
+        "Fire-making challenge",
+        "Rock draw",
+        "Immunity holder decides",
+        "Jury vote"
+      ],
+      "correct_answer": "Fire-making challenge",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_021",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Tribal Councils & Votes",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which castaway received zero votes throughout their entire winning game in Survivor: Cook Islands?",
+      "options": [
+        "Yul Kwon",
+        "Ozzy Lusth",
+        "Parvati Shallow",
+        "Earl Cole"
+      ],
+      "correct_answer": "Yul Kwon",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_022",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the term for a secret partnership between players?",
+      "options": [
+        "Alliance",
+        "Tribe",
+        "Coalition",
+        "Partnership"
+      ],
+      "correct_answer": "Alliance",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_023",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What strategy involves voting out strong competitors before the merge?",
+      "options": [
+        "Keeping the tribe strong",
+        "Meat shield",
+        "Goat strategy",
+        "Pagonging"
+      ],
+      "correct_answer": "Keeping the tribe strong",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_024",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is a 'meat shield' in Survivor strategy?",
+      "options": [
+        "A strong player kept around to draw votes away from you",
+        "A food reward",
+        "A physical challenge specialist",
+        "An immunity necklace"
+      ],
+      "correct_answer": "A strong player kept around to draw votes away from you",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_025",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What term describes a player brought to the end because they're unlikely to get jury votes?",
+      "options": [
+        "Goat",
+        "Pawn",
+        "Shield",
+        "Sidekick"
+      ],
+      "correct_answer": "Goat",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_026",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What alliance voting strategy systematically eliminates the minority alliance one by one?",
+      "options": [
+        "Pagonging",
+        "Splitting votes",
+        "Blindside",
+        "Stack the votes"
+      ],
+      "correct_answer": "Pagonging",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_027",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the strategy of dividing alliance votes between two targets to flush out an idol?",
+      "options": [
+        "Split vote",
+        "Double vote",
+        "Hedge vote",
+        "Safety vote"
+      ],
+      "correct_answer": "Split vote",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_028",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Strategy & Alliances",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which winner is known for pioneering the 'voting bloc' strategy in Survivor: Cambodia?",
+      "options": [
+        "Jeremy Collins",
+        "Spencer Bledsoe",
+        "Kelley Wentworth",
+        "Tasha Fox"
+      ],
+      "correct_answer": "Jeremy Collins",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_029",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "In which country did the first season of Survivor take place?",
+      "options": [
+        "Malaysia",
+        "Fiji",
+        "Australia",
+        "Panama"
+      ],
+      "correct_answer": "Malaysia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_030",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which country has hosted Survivor the most times?",
+      "options": [
+        "Fiji",
+        "Malaysia",
+        "Panama",
+        "Philippines"
+      ],
+      "correct_answer": "Fiji",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_031",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Survivor: Pearl Islands was filmed in which country?",
+      "options": [
+        "Panama",
+        "Philippines",
+        "Fiji",
+        "Nicaragua"
+      ],
+      "correct_answer": "Panama",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_032",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which season was filmed in the Marquesas Islands?",
+      "options": [
+        "Survivor: Marquesas",
+        "Survivor: Pearl Islands",
+        "Survivor: Cook Islands",
+        "Survivor: Samoa"
+      ],
+      "correct_answer": "Survivor: Marquesas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_033",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Survivor: China was filmed near which body of water?",
+      "options": [
+        "Jiangxi lakes",
+        "Yellow River",
+        "Yangtze River",
+        "Pearl River"
+      ],
+      "correct_answer": "Jiangxi lakes",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_034",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "category": "Geography",
+      "subcategory": "World Geography",
+      "question": "Which season was the first to be filmed in Fiji?",
+      "options": [
+        "Survivor: Fiji",
+        "Survivor: Millennials vs. Gen X",
+        "Survivor: Game Changers",
+        "Survivor: Heroes vs. Healers vs. Hustlers"
+      ],
+      "correct_answer": "Survivor: Fiji",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_035",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What item can save you from being voted out at Tribal Council?",
+      "options": [
+        "Hidden Immunity Idol",
+        "Extra Vote",
+        "Safety Shield",
+        "Protection Pass"
+      ],
+      "correct_answer": "Hidden Immunity Idol",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_036",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "When does the merge typically occur in Survivor?",
+      "options": [
+        "When two tribes combine into one",
+        "At the final tribal council",
+        "After the first vote",
+        "At the family visit"
+      ],
+      "correct_answer": "When two tribes combine into one",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_037",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What advantage allows a player to cast two votes at Tribal Council?",
+      "options": [
+        "Extra Vote",
+        "Double Vote",
+        "Power Vote",
+        "Bonus Vote"
+      ],
+      "correct_answer": "Extra Vote",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_038",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the 'Edge of Extinction'?",
+      "options": [
+        "A twist where voted-out players can compete to return",
+        "A final immunity challenge",
+        "A hidden immunity idol location",
+        "A type of tribal council"
+      ],
+      "correct_answer": "A twist where voted-out players can compete to return",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_039",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What advantage allows you to leave Tribal Council before votes are read?",
+      "options": [
+        "Safety Without Power",
+        "Immunity Idol",
+        "Extra Vote",
+        "Vote Blocker"
+      ],
+      "correct_answer": "Safety Without Power",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_040",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Twists & Advantages",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In which season was the 'Shot in the Dark' advantage first introduced?",
+      "options": [
+        "Survivor 41",
+        "Survivor 40",
+        "Survivor 39",
+        "Survivor 42"
+      ],
+      "correct_answer": "Survivor 41",
+      "difficulty": "hard"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "svr_041",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was the first winner of Survivor in Borneo?",
+      "options": [
+        "Richard Hatch",
+        "Rudy Boesch",
+        "Kelly Wiglesworth",
+        "Sue Hawk"
+      ],
+      "correct_answer": "Richard Hatch",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_042",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which contestant is nicknamed 'Boston Rob'?",
+      "options": [
+        "Rob Mariano",
+        "Rob Cesternino",
+        "Robert DeCanio",
+        "Bobby Jon Drinkard"
+      ],
+      "correct_answer": "Rob Mariano",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_043",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Cagayan?",
+      "options": [
+        "Tony Vlachos",
+        "Spencer Bledsoe",
+        "Woo Hwang",
+        "Kass McQuillen"
+      ],
+      "correct_answer": "Tony Vlachos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_044",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which female player has competed on Survivor the most times?",
+      "options": [
+        "Parvati Shallow and Andrea Boehlke (tied at 4)",
+        "Cirie Fields",
+        "Amanda Kimmel",
+        "Sandra Diaz-Twine"
+      ],
+      "correct_answer": "Parvati Shallow and Andrea Boehlke (tied at 4)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_045",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who is known for the phrase 'I'm against you, Russell'?",
+      "options": [
+        "Sandra Diaz-Twine",
+        "Parvati Shallow",
+        "Jerri Manthey",
+        "Danielle DiLorenzo"
+      ],
+      "correct_answer": "Sandra Diaz-Twine",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_046",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Cambodia - Second Chance?",
+      "options": [
+        "Jeremy Collins",
+        "Spencer Bledsoe",
+        "Kelley Wentworth",
+        "Tasha Fox"
+      ],
+      "correct_answer": "Jeremy Collins",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_047",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player is known for flipping on their alliance in Survivor: Cook Islands?",
+      "options": [
+        "Jonathan Penner",
+        "Candice Cody",
+        "Parvati Shallow",
+        "Adam Gentry"
+      ],
+      "correct_answer": "Jonathan Penner",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_048",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: David vs. Goliath?",
+      "options": [
+        "Nick Wilson",
+        "Mike White",
+        "Angelina Keeley",
+        "Davie Rickenbacker"
+      ],
+      "correct_answer": "Nick Wilson",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_049",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player is known for creating the 'Black Widow Brigade' alliance?",
+      "options": [
+        "Parvati Shallow",
+        "Amanda Kimmel",
+        "Cirie Fields",
+        "Natalie Bolton"
+      ],
+      "correct_answer": "Parvati Shallow",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_050",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Millennials vs. Gen X?",
+      "options": [
+        "Adam Klein",
+        "Hannah Shapiro",
+        "Ken McNickle",
+        "David Wright"
+      ],
+      "correct_answer": "Adam Klein",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_051",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player never received a single vote against them in Survivor: Tocantins?",
+      "options": [
+        "J.T. Thomas",
+        "Stephen Fishbach",
+        "Taj Johnson-George",
+        "Brendan Synnott"
+      ],
+      "correct_answer": "J.T. Thomas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_052",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who is the youngest Survivor winner ever?",
+      "options": [
+        "Jud 'Fabio' Birza",
+        "Todd Herzog",
+        "Adam Klein",
+        "Natalie White"
+      ],
+      "correct_answer": "Jud 'Fabio' Birza",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_053",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: San Juan del Sur?",
+      "options": [
+        "Natalie Anderson",
+        "Jaclyn Schultz",
+        "Missy Payne",
+        "Baylor Wilson"
+      ],
+      "correct_answer": "Natalie Anderson",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_054",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player is known for the 'stick to the plan' moment?",
+      "options": [
+        "Keith Nale",
+        "Jeremy Collins",
+        "Wes Nale",
+        "Jon Misch"
+      ],
+      "correct_answer": "Keith Nale",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_055",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Game Changers?",
+      "options": [
+        "Sarah Lacina",
+        "Brad Culpepper",
+        "Tai Trang",
+        "Cirie Fields"
+      ],
+      "correct_answer": "Sarah Lacina",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_056",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player is known for saying 'I can get loud too, what the f***!' in Survivor: Pearl Islands?",
+      "options": [
+        "Sandra Diaz-Twine",
+        "Fairplay",
+        "Rupert Boneham",
+        "Christa Hastie"
+      ],
+      "correct_answer": "Sandra Diaz-Twine",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_057",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Redemption Island?",
+      "options": [
+        "Boston Rob Mariano",
+        "Phillip Sheppard",
+        "Natalie Tenerelli",
+        "Andrea Boehlke"
+      ],
+      "correct_answer": "Boston Rob Mariano",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_058",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Blood vs. Water?",
+      "options": [
+        "Tyson Apostol",
+        "Monica Culpepper",
+        "Gervase Peterson",
+        "Tina Wesson"
+      ],
+      "correct_answer": "Tyson Apostol",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_059",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was the runner-up in Survivor: Borneo?",
+      "options": [
+        "Kelly Wiglesworth",
+        "Rudy Boesch",
+        "Sue Hawk",
+        "Colleen Haskell"
+      ],
+      "correct_answer": "Kelly Wiglesworth",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_060",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player famously gave an immunity idol to Russell Hantz in Survivor: Heroes vs. Villains?",
+      "options": [
+        "J.T. Thomas",
+        "Colby Donaldson",
+        "Tom Westman",
+        "James Clement"
+      ],
+      "correct_answer": "J.T. Thomas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_061",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: One World?",
+      "options": [
+        "Kim Spradlin",
+        "Sabrina Thompson",
+        "Chelsea Meissner",
+        "Christina Cha"
+      ],
+      "correct_answer": "Kim Spradlin",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_062",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which male player has competed on Survivor the most times?",
+      "options": [
+        "Boston Rob (5 times)",
+        "Russell Hantz (3 times)",
+        "Ozzy Lusth (4 times)",
+        "Joe Anglim (3 times)"
+      ],
+      "correct_answer": "Boston Rob (5 times)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_063",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was voted out with the most individual immunity wins ever (5 wins)?",
+      "options": [
+        "Ozzy Lusth (in Micronesia)",
+        "Mike Holloway",
+        "Terry Deitz",
+        "Colby Donaldson"
+      ],
+      "correct_answer": "Ozzy Lusth (in Micronesia)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_064",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Philippines?",
+      "options": [
+        "Denise Stapley",
+        "Malcolm Freberg",
+        "Lisa Whelchel",
+        "Michael Skupin"
+      ],
+      "correct_answer": "Denise Stapley",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_065",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player faked the death of their grandmother in Survivor: Pearl Islands?",
+      "options": [
+        "Jon 'Jonny Fairplay' Dalton",
+        "Burton Roberts",
+        "Andrew Savage",
+        "Darrah Johnson"
+      ],
+      "correct_answer": "Jon 'Jonny Fairplay' Dalton",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_066",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Worlds Apart?",
+      "options": [
+        "Mike Holloway",
+        "Carolyn Rivera",
+        "Will Sims",
+        "Rodney Lavoie"
+      ],
+      "correct_answer": "Mike Holloway",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_067",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player delivered the famous 'Rats and Snakes' speech?",
+      "options": [
+        "Sue Hawk",
+        "Corinne Kaplan",
+        "Kass McQuillen",
+        "Abi-Maria Gomes"
+      ],
+      "correct_answer": "Sue Hawk",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_068",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Heroes vs. Healers vs. Hustlers?",
+      "options": [
+        "Ben Driebergen",
+        "Chrissy Hofbeck",
+        "Ryan Ulrich",
+        "Devon Pinto"
+      ],
+      "correct_answer": "Ben Driebergen",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_069",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player is known for the catchphrase 'The Dragon has spoken'?",
+      "options": [
+        "Coach Wade",
+        "Phillip Sheppard",
+        "Tarzan Smith",
+        "Dan Foley"
+      ],
+      "correct_answer": "Coach Wade",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_070",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Kaôh Rōng?",
+      "options": [
+        "Michele Fitzgerald",
+        "Aubry Bracco",
+        "Tai Trang",
+        "Cydney Gillon"
+      ],
+      "correct_answer": "Michele Fitzgerald",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_071",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was medically evacuated in Survivor: The Australian Outback?",
+      "options": [
+        "Michael Skupin",
+        "Jeff Varner",
+        "Rodger Bingham",
+        "Elisabeth Hasselbeck"
+      ],
+      "correct_answer": "Michael Skupin",
+      "difficulty": "medium"
+    {
+      "id": "svr_072",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Ghost Island?",
+      "options": [
+        "Wendell Holland",
+        "Domenick Abbate",
+        "Laurel Johnson",
+        "Donathan Hurley"
+      ],
+      "correct_answer": "Wendell Holland",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_073",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player famously said 'I'm not here to make friends'?",
+      "options": [
+        "Corinne Kaplan",
+        "Kass McQuillen",
+        "Abi-Maria Gomes",
+        "Shannon Elkins"
+      ],
+      "correct_answer": "Corinne Kaplan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_074",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor: Island of the Idols?",
+      "options": [
+        "Tommy Sheehan",
+        "Dean Kowalski",
+        "Noura Salman",
+        "Lauren Beck"
+      ],
+      "correct_answer": "Tommy Sheehan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_075",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player is known for creating 'Stealth R Us' alliance?",
+      "options": [
+        "Phillip Sheppard",
+        "Boston Rob Mariano",
+        "Malcolm Freberg",
+        "Erik Reichenbach"
+      ],
+      "correct_answer": "Phillip Sheppard",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_076",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was the first African American Survivor winner?",
+      "options": [
+        "Vecepia Towery",
+        "Earl Cole",
+        "Jeremy Collins",
+        "Wendell Holland"
+      ],
+      "correct_answer": "Vecepia Towery",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_077",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor 41?",
+      "options": [
+        "Erika Casupanan",
+        "Xander Hastings",
+        "Deshawn Radden",
+        "Heather Aldret"
+      ],
+      "correct_answer": "Erika Casupanan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_078",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player quit the game saying 'I think I'm gonna put my family before a million dollars'?",
+      "options": [
+        "Colton Cumbie",
+        "NaOnka Mixon",
+        "Purple Kelly",
+        "Osten Taylor"
+      ],
+      "correct_answer": "Colton Cumbie",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_079",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor 42?",
+      "options": [
+        "Maryanne Oketch",
+        "Mike Turner",
+        "Romeo Escobar",
+        "Lindsay Dolashewich"
+      ],
+      "correct_answer": "Maryanne Oketch",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_080",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was known for their purple edit (minimal screen time) in Survivor: Nicaragua?",
+      "options": [
+        "Kelly Shinn (Purple Kelly)",
+        "Brenda Lowe",
+        "Alina Wilson",
+        "Jane Bright"
+      ],
+      "correct_answer": "Kelly Shinn (Purple Kelly)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_081",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor 43?",
+      "options": [
+        "Mike Gabler",
+        "Cassidy Clark",
+        "Owen Knight",
+        "Karla Cruz Godoy"
+      ],
+      "correct_answer": "Mike Gabler",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_082",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player is known for the quote 'I ain't done yet!' in Survivor: Caramoan?",
+      "options": [
+        "Phillip Sheppard",
+        "Andrea Boehlke",
+        "Malcolm Freberg",
+        "Dawn Meehan"
+      ],
+      "correct_answer": "Phillip Sheppard",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_083",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor 44?",
+      "options": [
+        "Yam Yam Arocho",
+        "Carolyn Wiger",
+        "Heidi Lagares-Greenblatt",
+        "Carson Garrett"
+      ],
+      "correct_answer": "Yam Yam Arocho",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_084",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player famously voted out their own mother in Survivor: Blood vs. Water?",
+      "options": [
+        "Ciera Eastin",
+        "Katie Collins",
+        "Vytas Baskauskas",
+        "Hayden Moss"
+      ],
+      "correct_answer": "Ciera Eastin",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_085",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor 45?",
+      "options": [
+        "Dee Valladares",
+        "Austin Li Coon",
+        "Jake O'Kane",
+        "Katurah Topps"
+      ],
+      "correct_answer": "Dee Valladares",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_086",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who won Survivor 46?",
+      "options": [
+        "Kenzie Petty",
+        "Charlie Davis",
+        "Ben Katzman",
+        "Maria Shrime Gonzalez"
+      ],
+      "correct_answer": "Kenzie Petty",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_087",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was the oldest contestant to win Survivor?",
+      "options": [
+        "Bob Crowley (57 years old)",
+        "Mike Gabler (52 years old)",
+        "Denise Stapley (41 years old)",
+        "Tina Wesson (40 years old)"
+      ],
+      "correct_answer": "Bob Crowley (57 years old)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_088",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player holds the record for most individual immunity challenge wins in a single season?",
+      "options": [
+        "Mike Holloway and Brad Culpepper (5 wins)",
+        "Terry Deitz (5 wins)",
+        "Ozzy Lusth (5 wins)",
+        "Colby Donaldson (5 wins)"
+      ],
+      "correct_answer": "Mike Holloway and Brad Culpepper (5 wins)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_089",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was the first player to find a hidden immunity idol without clues?",
+      "options": [
+        "Russell Hantz",
+        "Gary Hogeboom",
+        "Yul Kwon",
+        "Terry Deitz"
+      ],
+      "correct_answer": "Russell Hantz",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_090",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player attended every single tribal council in their winning season without ever being immune?",
+      "options": [
+        "Denise Stapley (Survivor: Philippines)",
+        "Kim Spradlin (Survivor: One World)",
+        "Sarah Lacina (Survivor: Game Changers)",
+        "Tony Vlachos (Survivor: Cagayan)"
+      ],
+      "correct_answer": "Denise Stapley (Survivor: Philippines)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_091",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was the first person voted out in Survivor history?",
+      "options": [
+        "Sonja Christopher",
+        "B.B. Andersen",
+        "Stacey Stillman",
+        "Dirk Been"
+      ],
+      "correct_answer": "Sonja Christopher",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_092",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was voted out on Day 38 in Survivor: Micronesia, one day before the final tribal council?",
+      "options": [
+        "Cirie Fields",
+        "Amanda Kimmel",
+        "Natalie Bolton",
+        "Erik Reichenbach"
+      ],
+      "correct_answer": "Cirie Fields",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_093",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who holds the record for most days played in Survivor history?",
+      "options": [
+        "Boston Rob Mariano (166 days)",
+        "Parvati Shallow (136 days)",
+        "Rupert Boneham (121 days)",
+        "Amanda Kimmel (108 days)"
+      ],
+      "correct_answer": "Boston Rob Mariano (166 days)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_094",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was the first to play a hidden immunity idol correctly?",
+      "options": [
+        "Yul Kwon",
+        "Gary Hogeboom",
+        "Terry Deitz",
+        "Bob Crowley"
+      ],
+      "correct_answer": "Yul Kwon",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_095",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was evacuated from the game in Survivor: Kaôh Rōng due to heat exhaustion at a challenge?",
+      "options": [
+        "Caleb Reynolds",
+        "Debbie Wanner",
+        "Cydney Gillon",
+        "Aubry Bracco"
+      ],
+      "correct_answer": "Caleb Reynolds",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_096",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player was voted out in Survivor: Game Changers without ever being able to cast a vote due to twists?",
+      "options": [
+        "Cirie Fields",
+        "Aubry Bracco",
+        "Tai Trang",
+        "Sarah Lacina"
+      ],
+      "correct_answer": "Cirie Fields",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_097",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was the first winner to receive a unanimous jury vote?",
+      "options": [
+        "J.T. Thomas (Survivor: Tocantins)",
+        "Earl Cole (Survivor: Fiji)",
+        "Cochran (Survivor: Caramoan)",
+        "Jeremy Collins (Survivor: Cambodia)"
+      ],
+      "correct_answer": "J.T. Thomas (Survivor: Tocantins)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_098",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player voluntarily gave up individual immunity at the final four in Survivor: Micronesia?",
+      "options": [
+        "Erik Reichenbach",
+        "Ozzy Lusth",
+        "James Clement",
+        "Jason Siska"
+      ],
+      "correct_answer": "Erik Reichenbach",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_099",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Who was the first castaway to be voted out with a hidden immunity idol in their possession?",
+      "options": [
+        "James Clement",
+        "Ozzy Lusth",
+        "Eliza Orlins",
+        "Jason Siska"
+      ],
+      "correct_answer": "James Clement",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_100",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Players & Castaways",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player won Survivor: South Pacific?",
+      "options": [
+        "Sophie Clarke",
+        "Coach Wade",
+        "Albert Destrade",
+        "Ozzy Lusth"
+      ],
+      "correct_answer": "Sophie Clarke",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_101",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What do contestants compete for in immunity challenges?",
+      "options": [
+        "Safety from elimination",
+        "Extra food",
+        "A luxury item",
+        "Fire tokens"
+      ],
+      "correct_answer": "Safety from elimination",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_102",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What symbol represents immunity in Survivor?",
+      "options": [
+        "An immunity necklace",
+        "A torch",
+        "A flag",
+        "A bracelet"
+      ],
+      "correct_answer": "An immunity necklace",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_103",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What type of challenge tests how long contestants can endure uncomfortable positions?",
+      "options": [
+        "Endurance challenge",
+        "Puzzle challenge",
+        "Strength challenge",
+        "Speed challenge"
+      ],
+      "correct_answer": "Endurance challenge",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_104",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is typically the last part of most Survivor challenges?",
+      "options": [
+        "A puzzle",
+        "Swimming",
+        "Running",
+        "Digging"
+      ],
+      "correct_answer": "A puzzle",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_105",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In early seasons, what did contestants often compete for in reward challenges?",
+      "options": [
+        "Food and supplies",
+        "Immunity idols",
+        "Extra votes",
+        "Fire tokens"
+      ],
+      "correct_answer": "Food and supplies",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_106",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What common challenge involves balancing balls on a wooden disk?",
+      "options": [
+        "Simmotion",
+        "Pole Dance",
+        "Last Gasp",
+        "Bermuda Triangles"
+      ],
+      "correct_answer": "Simmotion",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_107",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What eating challenge requires contestants to consume gross foods?",
+      "options": [
+        "Gross Food Eating Challenge",
+        "Survivor Auction",
+        "Immunity Feast",
+        "Taste Test"
+      ],
+      "correct_answer": "Gross Food Eating Challenge",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_108",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves contestants standing on increasingly smaller platforms?",
+      "options": [
+        "Perch",
+        "Pole Dance",
+        "Last Gasp",
+        "Simmotion"
+      ],
+      "correct_answer": "Perch",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_109",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What physical challenge involves wrestling for a ball or ring?",
+      "options": [
+        "Sumo at Sea",
+        "Pole Dance",
+        "Kicking and Screaming",
+        "Race to Shore"
+      ],
+      "correct_answer": "Sumo at Sea",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_110",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What do contestants typically do at the start of water-based challenges?",
+      "options": [
+        "Jump off a platform or boat",
+        "Swim to shore",
+        "Dive for keys",
+        "Build a raft"
+      ],
+      "correct_answer": "Jump off a platform or boat",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_111",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What reward often includes a helicopter ride or excursion?",
+      "options": [
+        "Luxury reward",
+        "Food reward",
+        "Comfort reward",
+        "Strategic reward"
+      ],
+      "correct_answer": "Luxury reward",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_112",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In obstacle course challenges, what do contestants often have to crawl under?",
+      "options": [
+        "Nets or logs",
+        "Ropes",
+        "Bridges",
+        "Tables"
+      ],
+      "correct_answer": "Nets or logs",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_113",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge requires building a fire high enough to burn through a rope?",
+      "options": [
+        "Fire-making challenge",
+        "Fire starter",
+        "Torch race",
+        "Flame out"
+      ],
+      "correct_answer": "Fire-making challenge",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_114",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What type of puzzle is most common in Survivor challenges?",
+      "options": [
+        "Sliding tile puzzle or jigsaw",
+        "Crossword",
+        "Sudoku",
+        "Word search"
+      ],
+      "correct_answer": "Sliding tile puzzle or jigsaw",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_115",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves digging in the sand to find puzzle pieces or keys?",
+      "options": [
+        "Dig Deep",
+        "Beach Excavation",
+        "Sand Search",
+        "Buried Treasure"
+      ],
+      "correct_answer": "Dig Deep",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_116",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In memory challenges, what do contestants typically have to recall?",
+      "options": [
+        "Symbols or items shown earlier",
+        "Tribe names",
+        "Player birthdays",
+        "Challenge names"
+      ],
+      "correct_answer": "Symbols or items shown earlier",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_117",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What endurance challenge involves standing in water?",
+      "options": [
+        "Last Gasp",
+        "Pole Dance",
+        "Perch",
+        "Simmotion"
+      ],
+      "correct_answer": "Last Gasp",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_118",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What is the traditional final immunity challenge often called?",
+      "options": [
+        "Fallen Comrades or Memory Challenge",
+        "Final Showdown",
+        "Ultimate Test",
+        "Championship Round"
+      ],
+      "correct_answer": "Fallen Comrades or Memory Challenge",
+      "difficulty": "easy"
+    },
+    {
+      "id": "svr_119",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In which challenge did Ozzy Lusth famously dominate in multiple seasons?",
+      "options": [
+        "Swimming and underwater challenges",
+        "Fire-making",
+        "Puzzles",
+        "Eating challenges"
+      ],
+      "correct_answer": "Swimming and underwater challenges",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_120",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves standing on a triangular platform with feet positioned on pegs?",
+      "options": [
+        "Bermuda Triangles",
+        "Pole Dance",
+        "Perch",
+        "Last Gasp"
+      ],
+      "correct_answer": "Bermuda Triangles",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_121",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What classic challenge requires contestants to match foods from a blindfolded taste test?",
+      "options": [
+        "Blind Taste Test",
+        "Food Memory",
+        "Flavor Match",
+        "Taste and Remember"
+      ],
+      "correct_answer": "Blind Taste Test",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_122",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Micronesia, which challenge did Eliza Orlins famously lose despite being in the lead?",
+      "options": [
+        "A puzzle challenge",
+        "Swimming challenge",
+        "Eating challenge",
+        "Endurance challenge"
+      ],
+      "correct_answer": "A puzzle challenge",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_123",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves collecting water in buckets to raise a platform or flag?",
+      "options": [
+        "Bucket Brigade",
+        "Water Works",
+        "Fill 'Er Up",
+        "Raise the Flag"
+      ],
+      "correct_answer": "Bucket Brigade",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_124",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge requires contestants to throw coconuts or balls into targets?",
+      "options": [
+        "Coconut Chop or Basket Toss",
+        "Target Practice",
+        "Throwing Challenge",
+        "Aim High"
+      ],
+      "correct_answer": "Coconut Chop or Basket Toss",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_125",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves retrieving puzzle pieces from underwater?",
+      "options": [
+        "Dive Master",
+        "Deep Sea Dive",
+        "Underwater Recovery",
+        "Aqua Quest"
+      ],
+      "correct_answer": "Dive Master",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_126",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In the 'Schmergen Brawl' challenge, what do contestants push each other off of?",
+      "options": [
+        "A platform into water",
+        "A balance beam",
+        "A log",
+        "A raft"
+      ],
+      "correct_answer": "A platform into water",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_127",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves balancing on a beam while moving puzzle pieces?",
+      "options": [
+        "Balancing Act",
+        "Beam Me Up",
+        "Steady Eddie",
+        "Balance Beam Puzzle"
+      ],
+      "correct_answer": "Balancing Act",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_128",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which recurring challenge involves contestants sitting in a cage in the ocean as the tide rises?",
+      "options": [
+        "Water Torture",
+        "Cage Match",
+        "Rising Tide",
+        "Ocean Prison"
+      ],
+      "correct_answer": "Water Torture",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_129",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What auction-style challenge allows contestants to bid on rewards?",
+      "options": [
+        "Survivor Auction",
+        "Reward Bid",
+        "Island Auction",
+        "Prize Auction"
+      ],
+      "correct_answer": "Survivor Auction",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_130",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In 'Folklore', what do contestants have to memorize?",
+      "options": [
+        "A story with specific details",
+        "Tribe member names",
+        "Challenge sequences",
+        "Island locations"
+      ],
+      "correct_answer": "A story with specific details",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_131",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves sliding puzzle pieces along a track to solve?",
+      "options": [
+        "Slide Puzzle",
+        "Track and Solve",
+        "Sliding Tiles",
+        "Puzzle Path"
+      ],
+      "correct_answer": "Slide Puzzle",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_132",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge involves rescuing a tribe member tied to a mast in the water?",
+      "options": [
+        "Rescue Mission",
+        "Save the Castaway",
+        "Water Rescue",
+        "Mast Escape"
+      ],
+      "correct_answer": "Rescue Mission",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_133",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In 'Kicking and Screaming', what are tribe members typically doing?",
+      "options": [
+        "Dragging another player across a course",
+        "Running obstacle courses",
+        "Solving puzzles",
+        "Swimming underwater"
+      ],
+      "correct_answer": "Dragging another player across a course",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_134",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge requires contestants to use a grappling hook to retrieve items?",
+      "options": [
+        "Grapple and Grab",
+        "Hook Line Sinker",
+        "Catch and Release",
+        "Grappling Challenge"
+      ],
+      "correct_answer": "Grapple and Grab",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_135",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge involves navigating a maze blindfolded with a caller's directions?",
+      "options": [
+        "Blind Leading the Blind",
+        "Maze Runner",
+        "Trust Fall",
+        "Blindfold Course"
+      ],
+      "correct_answer": "Blind Leading the Blind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_136",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What endurance challenge involves holding a percentage of your body weight?",
+      "options": [
+        "Hold Your Own Weight",
+        "Weight Endurance",
+        "Strength Test",
+        "Body Balance"
+      ],
+      "correct_answer": "Hold Your Own Weight",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_137",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In 'A Bit Tipsy', what are contestants balancing on?",
+      "options": [
+        "A wobbly platform",
+        "A rope",
+        "A balance beam",
+        "Stilts"
+      ],
+      "correct_answer": "A wobbly platform",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_138",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge involves contestants paddling a boat to collect puzzle pieces?",
+      "options": [
+        "Paddle Out",
+        "Boat Race",
+        "Water Voyage",
+        "Paddle Puzzle"
+      ],
+      "correct_answer": "Paddle Out",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_139",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge requires untangling ropes to release puzzle pieces or keys?",
+      "options": [
+        "Knot Your Fault",
+        "Rope Untangle",
+        "Release the Pieces",
+        "Knot Challenge"
+      ],
+      "correct_answer": "Knot Your Fault",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_140",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In 'Operation Balance Build', what do contestants stack?",
+      "options": [
+        "Wooden blocks or planks",
+        "Puzzle pieces",
+        "Coconuts",
+        "Sandbags"
+      ],
+      "correct_answer": "Wooden blocks or planks",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_141",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge requires throwing sandbags onto elevated platforms?",
+      "options": [
+        "Bermuda Triangle Toss",
+        "Sandbag Throw",
+        "Platform Precision",
+        "Bag Toss"
+      ],
+      "correct_answer": "Bermuda Triangle Toss",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_142",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves using a slingshot to break targets?",
+      "options": [
+        "Slingshot Showdown",
+        "Target Practice",
+        "Slingshot Challenge",
+        "Break the Targets"
+      ],
+      "correct_answer": "Slingshot Showdown",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_143",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In early seasons, which challenge involved shooting flaming arrows at a target?",
+      "options": [
+        "Flaming Arrows",
+        "Fire Shot",
+        "Archery Challenge",
+        "Blazing Target"
+      ],
+      "correct_answer": "Flaming Arrows",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_144",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge requires contestants to transport water in their mouth to fill a container?",
+      "options": [
+        "Fill It Up",
+        "Mouth Transfer",
+        "Water Relay",
+        "Spit It Out"
+      ],
+      "correct_answer": "Fill It Up",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_145",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge involves using a blowgun to hit targets?",
+      "options": [
+        "Blowgun Challenge",
+        "Dart Shoot",
+        "Precision Blow",
+        "Target Blow"
+      ],
+      "correct_answer": "Blowgun Challenge",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_146",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Cagayan, who famously quit during an endurance challenge while in the lead?",
+      "options": [
+        "Lindsey Ogle",
+        "Jefra Bland",
+        "Morgan McLeod",
+        "Alexis Maxwell"
+      ],
+      "correct_answer": "Lindsey Ogle",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_147",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "What challenge involves racing through an obstacle course with large bags or balls?",
+      "options": [
+        "Obstacles and Puzzles",
+        "Ball Run",
+        "Bag Race",
+        "Course Challenge"
+      ],
+      "correct_answer": "Obstacles and Puzzles",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_148",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge requires building a shelter or structure?",
+      "options": [
+        "Shelter Building Challenge",
+        "Construction Zone",
+        "Build It",
+        "Tribe Shelter"
+      ],
+      "correct_answer": "Shelter Building Challenge",
+      "difficulty": "medium"
+    },
+    {
+      "id": "svr_149",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In the loved ones visit, what type of challenge do family members often compete in?",
+      "options": [
+        "Obstacle course or race",
+        "Puzzle only",
+        "Swimming",
+        "Eating challenge"
+      ],
+      "correct_answer": "Obstacle course or race",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_150",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge from Survivor: Borneo involved eating live grubs?",
+      "options": [
+        "Bamboozled",
+        "Bug Out",
+        "Gross Food",
+        "Eating Challenge"
+      ],
+      "correct_answer": "Bamboozled",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_151",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Africa, what animal-based challenge involved contestants herding animals?",
+      "options": [
+        "Cattle Drive",
+        "Animal Round-Up",
+        "Herding Challenge",
+        "Safari Quest"
+      ],
+      "correct_answer": "Cattle Drive",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_152",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge in Survivor: Pearl Islands involved retrieving cannons from a shipwreck?",
+      "options": [
+        "Pirates' Plunder",
+        "Shipwreck Salvage",
+        "Cannon Retrieval",
+        "Underwater Expedition"
+      ],
+      "correct_answer": "Pirates' Plunder",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_153",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In what season did the 'Coconut Chop' challenge first appear?",
+      "options": [
+        "Survivor: Thailand",
+        "Survivor: Marquesas",
+        "Survivor: Africa",
+        "Survivor: The Amazon"
+      ],
+      "correct_answer": "Survivor: Thailand",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_154",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which player collapsed during the final immunity challenge in Survivor: Kaôh Rōng?",
+      "options": [
+        "Aubry Bracco and Cydney Gillon",
+        "Michele Fitzgerald",
+        "Tai Trang",
+        "Joe Del Campo"
+      ],
+      "correct_answer": "Aubry Bracco and Cydney Gillon",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_155",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Worlds Apart, who won immunity while their hands were tied behind their back?",
+      "options": [
+        "Mike Holloway",
+        "Joe Anglim",
+        "Rodney Lavoie",
+        "Tyler Fredrickson"
+      ],
+      "correct_answer": "Mike Holloway",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_156",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge in Survivor: Guatemala involved contestants running up Mayan temple steps?",
+      "options": [
+        "Mayan Temple Run",
+        "Temple Climb",
+        "Ruins Race",
+        "Pyramid Challenge"
+      ],
+      "correct_answer": "Mayan Temple Run",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_157",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In which season did the 'Hand on a Hard Idol' challenge last over 11 hours?",
+      "options": [
+        "Survivor: The Amazon",
+        "Survivor: Thailand",
+        "Survivor: All-Stars",
+        "Survivor: Palau"
+      ],
+      "correct_answer": "Survivor: The Amazon",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_158",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which challenge from Survivor: Palau is considered one of the most grueling ever?",
+      "options": [
+        "Willpower (standing on stumps for hours)",
+        "Pole Dance",
+        "Last Gasp",
+        "Endurance Island"
+      ],
+      "correct_answer": "Willpower (standing on stumps for hours)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_159",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "In Survivor: Tocantins, what unique challenge involved launching balls with a giant slingshot?",
+      "options": [
+        "Slingshot Shuffle",
+        "Catapult Challenge",
+        "Ball Launch",
+        "Giant Sling"
+      ],
+      "correct_answer": "Slingshot Shuffle",
+      "difficulty": "hard"
+    },
+    {
+      "id": "svr_160",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Challenges & Competitions",
+      "category": "Entertainment",
+      "subcategory": "Drama/Comedy",
+      "question": "Which castaway won the first individual immunity challenge in Survivor history?",
+      "options": [
+        "Kelly Wiglesworth",
+        "Richard Hatch",
+        "Rudy Boesch",
+        "Sue Hawk"
+      ],
+      "correct_answer": "Kelly Wiglesworth",
+      "difficulty": "hard"
+    }
+  ]
 }

@@ -1,0 +1,34 @@
+{
+  "packId": "com.fiz.pack.lotr",
+  "packName": "The Great Journey",
+  "packDescription": "Embark on an epic adventure with 500 questions covering J.R.R. Tolkien's legendary fantasy world - explore hobbits, wizards, elves, dwarves, battles, and the timeless quest to save the realm.",
+  "subtopics": [
+    "Characters & Fellowship",
+    "Plot & Story",
+    "Locations & Realms",
+    "Battles & Conflicts",
+    "Lore & History",
+    "Quotes & Dialogue"
+  ],
+  "subtopicIcons": {
+    "Characters & Fellowship": "person.3.fill",
+    "Plot & Story": "book.fill",
+    "Locations & Realms": "map.fill",
+    "Battles & Conflicts": "shield.fill",
+    "Lore & History": "scroll.fill",
+    "Quotes & Dialogue": "quote.bubble.fill"
+  },
+  "questionCount": 500,
+  "freePreviewCount": 50,
+  "difficulty": {
+    "easy": 150,
+    "medium": 250,
+    "hard": 100
+  },
+  "price": 2.99,
+  "icon": "crown.fill",
+  "isPublished": false,
+  "releaseDate": "2026-03-01T00:00:00Z",
+  "freePreviewQuestions": [],
+  "paidQuestions": []
+}

@@ -1,0 +1,34 @@
+{
+  "packId": "com.fiz.pack.survivor",
+  "packName": "Torch & Tribe",
+  "packDescription": "Outwit, outplay, and test your knowledge with 400 questions about the legendary reality competition - covering memorable castaways, iconic challenges, blindsides, alliances, exotic locations, and game-changing twists across 40+ seasons.",
+  "subtopics": [
+    "Players & Castaways",
+    "Challenges & Competitions",
+    "Tribal Councils & Votes",
+    "Strategy & Alliances",
+    "Seasons & Locations",
+    "Twists & Advantages"
+  ],
+  "subtopicIcons": {
+    "Players & Castaways": "person.2.fill",
+    "Challenges & Competitions": "figure.run",
+    "Tribal Councils & Votes": "flame.fill",
+    "Strategy & Alliances": "brain.head.profile",
+    "Seasons & Locations": "globe.americas.fill",
+    "Twists & Advantages": "exclamationmark.triangle.fill"
+  },
+  "questionCount": 400,
+  "freePreviewCount": 40,
+  "difficulty": {
+    "easy": 120,
+    "medium": 200,
+    "hard": 80
+  },
+  "price": 2.99,
+  "icon": "flame.fill",
+  "isPublished": false,
+  "releaseDate": "2026-02-20T00:00:00Z",
+  "freePreviewQuestions": [],
+  "paidQuestions": []
+}

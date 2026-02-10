@@ -1,0 +1,34 @@
+{
+  "packId": "com.fiz.pack.apple",
+  "packName": "Cupertino Innovation",
+  "packDescription": "Explore the history and impact of one of the world's most innovative tech companies with 300 questions about groundbreaking products, revolutionary software, iconic marketing, legendary leadership, and the journey from garage startup to global powerhouse.",
+  "subtopics": [
+    "Products & Hardware",
+    "Software & Operating Systems",
+    "History & Founders",
+    "Innovation & Design",
+    "Marketing & Campaigns",
+    "Corporate & Leadership"
+  ],
+  "subtopicIcons": {
+    "Products & Hardware": "iphone",
+    "Software & Operating Systems": "gearshape.2.fill",
+    "History & Founders": "clock.fill",
+    "Innovation & Design": "lightbulb.fill",
+    "Marketing & Campaigns": "megaphone.fill",
+    "Corporate & Leadership": "building.2.fill"
+  },
+  "questionCount": 300,
+  "freePreviewCount": 30,
+  "difficulty": {
+    "easy": 90,
+    "medium": 150,
+    "hard": 60
+  },
+  "price": 1.99,
+  "icon": "desktopcomputer",
+  "isPublished": false,
+  "releaseDate": "2026-04-01T00:00:00Z",
+  "freePreviewQuestions": [],
+  "paidQuestions": []
+}

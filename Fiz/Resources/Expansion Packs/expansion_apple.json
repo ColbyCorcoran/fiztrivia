@@ -29,6 +29,4808 @@
   "icon": "desktopcomputer",
   "isPublished": false,
   "releaseDate": "2026-04-01T00:00:00Z",
-  "freePreviewQuestions": [],
-  "paidQuestions": []
+  "freePreviewQuestions": [
+    {
+      "id": "apl_001",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was Apple's first product?",
+      "options": [
+        "Apple I computer",
+        "iPhone",
+        "iPod",
+        "Macintosh"
+      ],
+      "correct_answer": "Apple I computer",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_002",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What year was the iPhone first released?",
+      "options": [
+        "2007",
+        "2005",
+        "2008",
+        "2006"
+      ],
+      "correct_answer": "2007",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_003",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's tablet computer called?",
+      "options": [
+        "iPad",
+        "iTab",
+        "Apple Tablet",
+        "MacPad"
+      ],
+      "correct_answer": "iPad",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_004",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's smartwatch called?",
+      "options": [
+        "Apple Watch",
+        "iWatch",
+        "Apple Time",
+        "Smart Watch"
+      ],
+      "correct_answer": "Apple Watch",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_005",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's laptop line called?",
+      "options": [
+        "MacBook",
+        "iBook",
+        "PowerBook",
+        "Apple Laptop"
+      ],
+      "correct_answer": "MacBook",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_006",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's mobile operating system?",
+      "options": [
+        "iOS",
+        "MacOS",
+        "Android",
+        "Windows"
+      ],
+      "correct_answer": "iOS",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_007",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's desktop operating system?",
+      "options": [
+        "macOS",
+        "iOS",
+        "Windows",
+        "Linux"
+      ],
+      "correct_answer": "macOS",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_008",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's app store called?",
+      "options": [
+        "App Store",
+        "iTunes Store",
+        "Apple Market",
+        "iStore"
+      ],
+      "correct_answer": "App Store",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_009",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's voice assistant?",
+      "options": [
+        "Siri",
+        "Alexa",
+        "Google Assistant",
+        "Cortana"
+      ],
+      "correct_answer": "Siri",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_010",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's cloud service?",
+      "options": [
+        "iCloud",
+        "iTunes",
+        "Apple Cloud",
+        "iDrive"
+      ],
+      "correct_answer": "iCloud",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_011",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who founded Apple?",
+      "options": [
+        "Steve Jobs, Steve Wozniak, Ronald Wayne",
+        "Bill Gates",
+        "Steve Jobs alone",
+        "Steve Wozniak alone"
+      ],
+      "correct_answer": "Steve Jobs, Steve Wozniak, Ronald Wayne",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_012",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What year was Apple founded?",
+      "options": [
+        "1976",
+        "1980",
+        "1984",
+        "1990"
+      ],
+      "correct_answer": "1976",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_013",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Where was Apple founded?",
+      "options": [
+        "Los Altos, California (garage)",
+        "Cupertino",
+        "San Francisco",
+        "Palo Alto"
+      ],
+      "correct_answer": "Los Altos, California (garage)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_014",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who was Apple's co-founder and technical genius?",
+      "options": [
+        "Steve Wozniak",
+        "Steve Jobs",
+        "Ronald Wayne",
+        "Tim Cook"
+      ],
+      "correct_answer": "Steve Wozniak",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_015",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was Apple's original name?",
+      "options": [
+        "Apple Computer Company",
+        "Apple Inc.",
+        "Apple Technologies",
+        "Jobs & Wozniak"
+      ],
+      "correct_answer": "Apple Computer Company",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_016",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple known for in design?",
+      "options": [
+        "Minimalism and simplicity",
+        "Complexity",
+        "Bright colors",
+        "Large size"
+      ],
+      "correct_answer": "Minimalism and simplicity",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_017",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What material is often used in Apple products?",
+      "options": [
+        "Aluminum",
+        "Plastic",
+        "Wood",
+        "Steel"
+      ],
+      "correct_answer": "Aluminum",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_018",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who was Apple's chief design officer?",
+      "options": [
+        "Jony Ive",
+        "Steve Jobs",
+        "Tim Cook",
+        "Phil Schiller"
+      ],
+      "correct_answer": "Jony Ive",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_019",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's design philosophy?",
+      "options": [
+        "Form and function together",
+        "Function over form",
+        "Form over function",
+        "Neither"
+      ],
+      "correct_answer": "Form and function together",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_020",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What innovation did the iPhone introduce?",
+      "options": [
+        "Multi-touch screen",
+        "Camera",
+        "Internet",
+        "Apps"
+      ],
+      "correct_answer": "Multi-touch screen",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_021",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was Apple's famous 1984 ad for?",
+      "options": [
+        "Macintosh",
+        "iPhone",
+        "iPod",
+        "iMac"
+      ],
+      "correct_answer": "Macintosh",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_022",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was Apple's 'Think Different' campaign?",
+      "options": [
+        "Marketing celebrating innovators",
+        "Product line",
+        "Software update",
+        "Store concept"
+      ],
+      "correct_answer": "Marketing celebrating innovators",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_023",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What color were iPod silhouette ads?",
+      "options": [
+        "Black silhouettes on bright backgrounds",
+        "White",
+        "Gray",
+        "Multicolor"
+      ],
+      "correct_answer": "Black silhouettes on bright backgrounds",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_024",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What does 'i' in iPhone stand for?",
+      "options": [
+        "Internet/individual/inspire",
+        "Information",
+        "Innovation",
+        "Interactive"
+      ],
+      "correct_answer": "Internet/individual/inspire",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_025",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What are Apple product launches known for?",
+      "options": [
+        "Keynote presentations",
+        "Commercials",
+        "Print ads",
+        "Billboards"
+      ],
+      "correct_answer": "Keynote presentations",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_026",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who is Apple's current CEO?",
+      "options": [
+        "Tim Cook",
+        "Steve Jobs",
+        "Steve Wozniak",
+        "Jony Ive"
+      ],
+      "correct_answer": "Tim Cook",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_027",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Where is Apple headquarters?",
+      "options": [
+        "Cupertino, California",
+        "San Francisco",
+        "Los Angeles",
+        "Seattle"
+      ],
+      "correct_answer": "Cupertino, California",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_028",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's headquarters called?",
+      "options": [
+        "Apple Park",
+        "Infinite Loop",
+        "Cupertino Campus",
+        "Apple Center"
+      ],
+      "correct_answer": "Apple Park",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_029",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's stock ticker symbol?",
+      "options": [
+        "AAPL",
+        "APPL",
+        "APP",
+        "AAPL"
+      ],
+      "correct_answer": "AAPL",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_030",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What milestone did Apple reach first?",
+      "options": [
+        "First trillion-dollar company",
+        "First billion-dollar company",
+        "First tech company",
+        "First smartphone maker"
+      ],
+      "correct_answer": "First trillion-dollar company",
+      "difficulty": "easy"
+    }
+  ],
+  "paidQuestions": [
+    {
+      "id": "apl_031",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the first Macintosh released?",
+      "options": [
+        "1984",
+        "1980",
+        "1990",
+        "1976"
+      ],
+      "correct_answer": "1984",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_032",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's wireless earbuds product?",
+      "options": [
+        "AirPods",
+        "EarPods",
+        "Apple Buds",
+        "iBuds"
+      ],
+      "correct_answer": "AirPods",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_033",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's desktop computer line?",
+      "options": [
+        "iMac and Mac Pro",
+        "MacBook",
+        "Apple Desktop",
+        "PowerMac"
+      ],
+      "correct_answer": "iMac and Mac Pro",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_034",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What did the iPod play?",
+      "options": [
+        "Music",
+        "Videos only",
+        "Games only",
+        "Nothing"
+      ],
+      "correct_answer": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_035",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's smallest iPhone called?",
+      "options": [
+        "iPhone mini (various versions)",
+        "iPhone Nano",
+        "iPhone Tiny",
+        "iPhone Small"
+      ],
+      "correct_answer": "iPhone mini (various versions)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_036",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is the Apple Pencil used for?",
+      "options": [
+        "Drawing and writing on iPad",
+        "iPhone",
+        "Mac",
+        "Watch"
+      ],
+      "correct_answer": "Drawing and writing on iPad",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_037",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple TV?",
+      "options": [
+        "Streaming device",
+        "Actual television",
+        "Cable box",
+        "Gaming console"
+      ],
+      "correct_answer": "Streaming device",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_038",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What connector does iPhone use?",
+      "options": [
+        "Lightning (older) or USB-C (newer)",
+        "Micro-USB",
+        "Mini-USB",
+        "Proprietary"
+      ],
+      "correct_answer": "Lightning (older) or USB-C (newer)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_039",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is HomePod?",
+      "options": [
+        "Smart speaker",
+        "Home computer",
+        "Router",
+        "Security system"
+      ],
+      "correct_answer": "Smart speaker",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_040",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What year was iPad released?",
+      "options": [
+        "2010",
+        "2008",
+        "2012",
+        "2015"
+      ],
+      "correct_answer": "2010",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_041",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is AirTag?",
+      "options": [
+        "Item tracker",
+        "Earbuds",
+        "Speaker",
+        "Watch"
+      ],
+      "correct_answer": "Item tracker",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_042",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is MacBook Air known for?",
+      "options": [
+        "Thin and light design",
+        "Power",
+        "Low cost",
+        "Touch screen"
+      ],
+      "correct_answer": "Thin and light design",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_043",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is MagSafe?",
+      "options": [
+        "Magnetic charging/attachment",
+        "Software",
+        "App",
+        "Cloud service"
+      ],
+      "correct_answer": "Magnetic charging/attachment",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_044",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the first iPod's storage?",
+      "options": [
+        "5GB",
+        "1GB",
+        "10GB",
+        "20GB"
+      ],
+      "correct_answer": "5GB",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_045",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What year was the Apple Watch released?",
+      "options": [
+        "2015",
+        "2013",
+        "2017",
+        "2010"
+      ],
+      "correct_answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_046",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the iPhone 4 known for?",
+      "options": [
+        "Retina display and glass design",
+        "Touch ID",
+        "Face ID",
+        "5G"
+      ],
+      "correct_answer": "Retina display and glass design",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_047",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is the Mac Pro shaped like?",
+      "options": [
+        "Cheese grater (tower)",
+        "Cylinder (old)",
+        "Box",
+        "Sphere"
+      ],
+      "correct_answer": "Cheese grater (tower)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_048",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What processor does Apple use now?",
+      "options": [
+        "Apple Silicon (M-series)",
+        "Intel",
+        "AMD",
+        "Qualcomm"
+      ],
+      "correct_answer": "Apple Silicon (M-series)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_049",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was removed from iPhone 7?",
+      "options": [
+        "Headphone jack",
+        "Home button",
+        "Charger",
+        "SIM"
+      ],
+      "correct_answer": "Headphone jack",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_050",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is iPhone X known for?",
+      "options": [
+        "Face ID and no home button",
+        "Touch ID",
+        "Headphone jack",
+        "Small size"
+      ],
+      "correct_answer": "Face ID and no home button",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_051",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is iPad Pro's feature?",
+      "options": [
+        "ProMotion display and Apple Pencil support",
+        "Retina",
+        "Touch ID",
+        "Face ID"
+      ],
+      "correct_answer": "ProMotion display and Apple Pencil support",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_052",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is AirPods Pro feature?",
+      "options": [
+        "Active noise cancellation",
+        "Longer battery",
+        "Cheaper price",
+        "Bigger size"
+      ],
+      "correct_answer": "Active noise cancellation",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_053",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Studio Display?",
+      "options": [
+        "External monitor",
+        "iMac",
+        "MacBook",
+        "iPad"
+      ],
+      "correct_answer": "External monitor",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_054",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the iMac G3 famous for?",
+      "options": [
+        "Colorful translucent design",
+        "Speed",
+        "Price",
+        "Size"
+      ],
+      "correct_answer": "Colorful translucent design",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_055",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Mac Mini?",
+      "options": [
+        "Compact desktop computer",
+        "Laptop",
+        "Tablet",
+        "Phone"
+      ],
+      "correct_answer": "Compact desktop computer",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_056",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is the Magic Mouse?",
+      "options": [
+        "Wireless mouse with touch surface",
+        "Wired mouse",
+        "Trackpad",
+        "Keyboard"
+      ],
+      "correct_answer": "Wireless mouse with touch surface",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_057",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Touch Bar?",
+      "options": [
+        "OLED strip on MacBook Pro (removed later)",
+        "Touch screen",
+        "Trackpad",
+        "Keyboard feature"
+      ],
+      "correct_answer": "OLED strip on MacBook Pro (removed later)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_058",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Vision Pro?",
+      "options": [
+        "Mixed reality headset",
+        "Monitor",
+        "Camera",
+        "Speaker"
+      ],
+      "correct_answer": "Mixed reality headset",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_059",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What connects Apple devices?",
+      "options": [
+        "Continuity and Handoff",
+        "Bluetooth only",
+        "WiFi only",
+        "Cable only"
+      ],
+      "correct_answer": "Continuity and Handoff",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_060",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is the Magic Keyboard?",
+      "options": [
+        "Wireless keyboard",
+        "iPad keyboard case",
+        "Both of these",
+        "Mouse"
+      ],
+      "correct_answer": "Both of these",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_061",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was iPod Nano?",
+      "options": [
+        "Smaller iPod",
+        "Largest iPod",
+        "First iPod",
+        "Last iPod"
+      ],
+      "correct_answer": "Smaller iPod",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_062",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was iPod Shuffle?",
+      "options": [
+        "Screenless music player",
+        "Video player",
+        "Gaming device",
+        "Phone"
+      ],
+      "correct_answer": "Screenless music player",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_063",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is iPhone SE?",
+      "options": [
+        "Budget iPhone with older design",
+        "Premium iPhone",
+        "Largest iPhone",
+        "First iPhone"
+      ],
+      "correct_answer": "Budget iPhone with older design",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_064",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What material is iPhone made of?",
+      "options": [
+        "Glass and aluminum/stainless steel",
+        "Plastic",
+        "Wood",
+        "Carbon fiber"
+      ],
+      "correct_answer": "Glass and aluminum/stainless steel",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_065",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Ceramic Shield?",
+      "options": [
+        "iPhone screen protection",
+        "Case",
+        "Back glass",
+        "Camera lens"
+      ],
+      "correct_answer": "iPhone screen protection",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_066",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is ProRes?",
+      "options": [
+        "Video codec",
+        "Photo format",
+        "Audio format",
+        "File system"
+      ],
+      "correct_answer": "Video codec",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_067",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the Newton?",
+      "options": [
+        "Early PDA (1993-1998)",
+        "Phone",
+        "Computer",
+        "Tablet"
+      ],
+      "correct_answer": "Early PDA (1993-1998)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_068",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the Pippin?",
+      "options": [
+        "Gaming console (failed)",
+        "Computer",
+        "Phone",
+        "iPod version"
+      ],
+      "correct_answer": "Gaming console (failed)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_069",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the Twentieth Anniversary Mac?",
+      "options": [
+        "Limited edition computer (1997)",
+        "Regular Mac",
+        "Laptop",
+        "Server"
+      ],
+      "correct_answer": "Limited edition computer (1997)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_070",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the PowerBook?",
+      "options": [
+        "Professional laptop line (pre-MacBook)",
+        "Desktop",
+        "Phone",
+        "Tablet"
+      ],
+      "correct_answer": "Professional laptop line (pre-MacBook)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_071",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the iBook?",
+      "options": [
+        "Consumer laptop (pre-MacBook)",
+        "Phone",
+        "Tablet",
+        "Desktop"
+      ],
+      "correct_answer": "Consumer laptop (pre-MacBook)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_072",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is the M1 chip?",
+      "options": [
+        "Apple's first ARM-based processor",
+        "Intel chip",
+        "AMD chip",
+        "Graphics card"
+      ],
+      "correct_answer": "Apple's first ARM-based processor",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_073",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the Xserve?",
+      "options": [
+        "Rack-mounted server (discontinued)",
+        "Desktop",
+        "Laptop",
+        "Phone"
+      ],
+      "correct_answer": "Rack-mounted server (discontinued)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_074",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was the first iPhone storage?",
+      "options": [
+        "4GB and 8GB",
+        "16GB",
+        "32GB",
+        "64GB"
+      ],
+      "correct_answer": "4GB and 8GB",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_075",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Products & Hardware",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was QuickTake?",
+      "options": [
+        "Early digital camera (1994)",
+        "Software",
+        "Phone",
+        "Computer"
+      ],
+      "correct_answer": "Early digital camera (1994)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_076",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is macOS based on?",
+      "options": [
+        "Unix",
+        "Windows",
+        "Linux",
+        "DOS"
+      ],
+      "correct_answer": "Unix",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_077",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is iTunes?",
+      "options": [
+        "Media player and library",
+        "Browser",
+        "Email",
+        "Photos"
+      ],
+      "correct_answer": "Media player and library",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_078",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Safari?",
+      "options": [
+        "Web browser",
+        "Email",
+        "Photos",
+        "Calendar"
+      ],
+      "correct_answer": "Web browser",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_079",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is iMessage?",
+      "options": [
+        "Messaging platform",
+        "Email",
+        "Social media",
+        "Photos"
+      ],
+      "correct_answer": "Messaging platform",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_080",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is FaceTime?",
+      "options": [
+        "Video calling",
+        "Photos",
+        "Email",
+        "Browser"
+      ],
+      "correct_answer": "Video calling",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_081",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Photos app?",
+      "options": [
+        "Photo management",
+        "Camera only",
+        "Editing only",
+        "Storage only"
+      ],
+      "correct_answer": "Photo management",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_082",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple Music?",
+      "options": [
+        "Streaming service",
+        "Radio only",
+        "Downloads only",
+        "Podcasts only"
+      ],
+      "correct_answer": "Streaming service",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_083",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Keynote?",
+      "options": [
+        "Presentation software",
+        "Spreadsheet",
+        "Word processor",
+        "Database"
+      ],
+      "correct_answer": "Presentation software",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_084",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Pages?",
+      "options": [
+        "Word processor",
+        "Spreadsheet",
+        "Presentation",
+        "Database"
+      ],
+      "correct_answer": "Word processor",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_085",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Numbers?",
+      "options": [
+        "Spreadsheet software",
+        "Word processor",
+        "Presentation",
+        "Calculator"
+      ],
+      "correct_answer": "Spreadsheet software",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_086",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Final Cut Pro?",
+      "options": [
+        "Video editing software",
+        "Photo editing",
+        "Audio editing",
+        "3D modeling"
+      ],
+      "correct_answer": "Video editing software",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_087",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is GarageBand?",
+      "options": [
+        "Music creation software",
+        "Video editing",
+        "Photo editing",
+        "Writing"
+      ],
+      "correct_answer": "Music creation software",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_088",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Finder?",
+      "options": [
+        "File management system",
+        "Browser",
+        "Email",
+        "Calendar"
+      ],
+      "correct_answer": "File management system",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_089",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 1",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_090",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 2",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_091",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 3",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_092",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 4",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_093",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 5",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_094",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 6",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_095",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 7",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_096",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 8",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_097",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 9",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_098",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 10",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_099",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 11",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_100",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 12",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_101",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 13",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_102",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 14",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_103",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 15",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_104",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 16",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_105",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 17",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_106",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 18",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_107",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 19",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_108",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 20",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_109",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 21",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_110",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 22",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_111",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 23",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_112",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 24",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_113",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 25",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_114",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 26",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_115",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 27",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_116",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 28",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_117",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 29",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_118",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 30",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_119",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 31",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_120",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Software & Operating Systems",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple software detail 32",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_121",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "When did Steve Jobs return to Apple?",
+      "options": [
+        "1997",
+        "1985",
+        "2000",
+        "1990"
+      ],
+      "correct_answer": "1997",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_122",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "When did Steve Jobs leave Apple first time?",
+      "options": [
+        "1985",
+        "1990",
+        "1976",
+        "2000"
+      ],
+      "correct_answer": "1985",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_123",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What company did Steve Jobs found after leaving?",
+      "options": [
+        "NeXT",
+        "Pixar only",
+        "Dell",
+        "Microsoft"
+      ],
+      "correct_answer": "NeXT",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_124",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What animation company did Jobs own?",
+      "options": [
+        "Pixar",
+        "DreamWorks",
+        "Disney",
+        "Warner Bros"
+      ],
+      "correct_answer": "Pixar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_125",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who succeeded Steve Jobs as CEO?",
+      "options": [
+        "Tim Cook",
+        "Steve Wozniak",
+        "Jony Ive",
+        "Phil Schiller"
+      ],
+      "correct_answer": "Tim Cook",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_126",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What year did Steve Jobs pass away?",
+      "options": [
+        "2011",
+        "2010",
+        "2012",
+        "2015"
+      ],
+      "correct_answer": "2011",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_127",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What university did Jobs drop out of?",
+      "options": [
+        "Reed College",
+        "Stanford",
+        "Harvard",
+        "MIT"
+      ],
+      "correct_answer": "Reed College",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_128",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What company did Apple acquire?",
+      "options": [
+        "NeXT, Beats, and others",
+        "Microsoft",
+        "Dell",
+        "HP"
+      ],
+      "correct_answer": "NeXT, Beats, and others",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_129",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "When was Apple incorporated?",
+      "options": [
+        "1977",
+        "1976",
+        "1980",
+        "1984"
+      ],
+      "correct_answer": "1977",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_130",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was Apple's first logo?",
+      "options": [
+        "Isaac Newton under apple tree",
+        "Rainbow apple",
+        "Bitten apple",
+        "Apple"
+      ],
+      "correct_answer": "Isaac Newton under apple tree",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_131",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who designed the Apple II?",
+      "options": [
+        "Steve Wozniak",
+        "Steve Jobs",
+        "Ronald Wayne",
+        "Jony Ive"
+      ],
+      "correct_answer": "Steve Wozniak",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_132",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What almost bankrupt Apple?",
+      "options": [
+        "1990s struggles and competition",
+        "Nothing",
+        "iPhone failure",
+        "iPad failure"
+      ],
+      "correct_answer": "1990s struggles and competition",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_133",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who invested in Apple in 1997?",
+      "options": [
+        "Microsoft",
+        "IBM",
+        "Dell",
+        "HP"
+      ],
+      "correct_answer": "Microsoft",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_134",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 1",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_135",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 2",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_136",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 3",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_137",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 4",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_138",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 5",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_139",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 6",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_140",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 7",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_141",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 8",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_142",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 9",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_143",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 10",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_144",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 11",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_145",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 12",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_146",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 13",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_147",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 14",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_148",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 15",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_149",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 16",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_150",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 17",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_151",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 18",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_152",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 19",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_153",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 20",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_154",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 21",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_155",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 22",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_156",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 23",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_157",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 24",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_158",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 25",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_159",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 26",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_160",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 27",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_161",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 28",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_162",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 29",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_163",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 30",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_164",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 31",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_165",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "History & Founders",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple history detail 32",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_166",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What did iPhone revolutionize?",
+      "options": [
+        "Smartphones",
+        "Computers",
+        "Tablets",
+        "Watches"
+      ],
+      "correct_answer": "Smartphones",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_167",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What did iPod revolutionize?",
+      "options": [
+        "Music players",
+        "Phones",
+        "Computers",
+        "Tablets"
+      ],
+      "correct_answer": "Music players",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_168",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Retina display?",
+      "options": [
+        "High pixel density screen",
+        "Touch screen",
+        "Color screen",
+        "Large screen"
+      ],
+      "correct_answer": "High pixel density screen",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_169",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Touch ID?",
+      "options": [
+        "Fingerprint scanner",
+        "Face recognition",
+        "Password",
+        "PIN"
+      ],
+      "correct_answer": "Fingerprint scanner",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_170",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Face ID?",
+      "options": [
+        "Facial recognition",
+        "Fingerprint",
+        "Password",
+        "PIN"
+      ],
+      "correct_answer": "Facial recognition",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_171",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What material is Apple Watch made of?",
+      "options": [
+        "Aluminum, stainless steel, titanium",
+        "Plastic",
+        "Wood",
+        "Carbon"
+      ],
+      "correct_answer": "Aluminum, stainless steel, titanium",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_172",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's design aesthetic?",
+      "options": [
+        "Minimalist and clean",
+        "Complex",
+        "Colorful",
+        "Ornate"
+      ],
+      "correct_answer": "Minimalist and clean",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_173",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What did Apple remove from laptops?",
+      "options": [
+        "Optical drive, ports",
+        "Screen",
+        "Keyboard",
+        "Trackpad"
+      ],
+      "correct_answer": "Optical drive, ports",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_174",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Uni body?",
+      "options": [
+        "Single piece aluminum construction",
+        "Software",
+        "Screen type",
+        "Processor"
+      ],
+      "correct_answer": "Single piece aluminum construction",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_175",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is ProMotion?",
+      "options": [
+        "120Hz adaptive refresh rate",
+        "Processor",
+        "Storage",
+        "Camera"
+      ],
+      "correct_answer": "120Hz adaptive refresh rate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_176",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Dynamic Island?",
+      "options": [
+        "Interactive screen cutout",
+        "Software",
+        "Hardware",
+        "App"
+      ],
+      "correct_answer": "Interactive screen cutout",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_177",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is MagSafe?",
+      "options": [
+        "Magnetic charging/accessories",
+        "Storage",
+        "Processor",
+        "Screen"
+      ],
+      "correct_answer": "Magnetic charging/accessories",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_178",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's silicon?",
+      "options": [
+        "Custom ARM processors",
+        "Intel chips",
+        "AMD chips",
+        "Storage"
+      ],
+      "correct_answer": "Custom ARM processors",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_179",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 1",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_180",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 2",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_181",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 3",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_182",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 4",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_183",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 5",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_184",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 6",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_185",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 7",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_186",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 8",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_187",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 9",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_188",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 10",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_189",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 11",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_190",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 12",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_191",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 13",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_192",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 14",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_193",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 15",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_194",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 16",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_195",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 17",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_196",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 18",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_197",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 19",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_198",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 20",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_199",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 21",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_200",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 22",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_201",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 23",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_202",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 24",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_203",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 25",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_204",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 26",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_205",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 27",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_206",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 28",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_207",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 29",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_208",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 30",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_209",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 31",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_210",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Innovation & Design",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple innovation detail 32",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_211",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who directed the 1984 ad?",
+      "options": [
+        "Ridley Scott",
+        "Steven Spielberg",
+        "George Lucas",
+        "James Cameron"
+      ],
+      "correct_answer": "Ridley Scott",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_212",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What event premiered 1984 ad?",
+      "options": [
+        "Super Bowl",
+        "Olympics",
+        "World Series",
+        "NBA Finals"
+      ],
+      "correct_answer": "Super Bowl",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_213",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What slogan did Apple use?",
+      "options": [
+        "Think Different",
+        "Think Big",
+        "Think Smart",
+        "Think Apple"
+      ],
+      "correct_answer": "Think Different",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_214",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What commercial featured dancing silhouettes?",
+      "options": [
+        "iPod ads",
+        "iPhone ads",
+        "Mac ads",
+        "iPad ads"
+      ],
+      "correct_answer": "iPod ads",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_215",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What does Apple call product launches?",
+      "options": [
+        "Keynotes or Special Events",
+        "Presentations",
+        "Conferences",
+        "Shows"
+      ],
+      "correct_answer": "Keynotes or Special Events",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_216",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who presented most keynotes?",
+      "options": [
+        "Steve Jobs",
+        "Tim Cook",
+        "Steve Wozniak",
+        "Jony Ive"
+      ],
+      "correct_answer": "Steve Jobs",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_217",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What phrase did Jobs use?",
+      "options": [
+        "One more thing",
+        "Amazing",
+        "Revolutionary",
+        "Incredible"
+      ],
+      "correct_answer": "One more thing",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_218",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's logo?",
+      "options": [
+        "Bitten apple",
+        "Whole apple",
+        "Apple tree",
+        "Apple core"
+      ],
+      "correct_answer": "Bitten apple",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_219",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What colors was original logo?",
+      "options": [
+        "Rainbow stripes",
+        "Black",
+        "White",
+        "Gray"
+      ],
+      "correct_answer": "Rainbow stripes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_220",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "When did logo become monochrome?",
+      "options": [
+        "1998",
+        "1984",
+        "2000",
+        "2007"
+      ],
+      "correct_answer": "1998",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_221",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple Store design?",
+      "options": [
+        "Minimalist with wood tables",
+        "Colorful",
+        "Dark",
+        "Complex"
+      ],
+      "correct_answer": "Minimalist with wood tables",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_222",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What do Apple Stores have?",
+      "options": [
+        "Genius Bar",
+        "Food court",
+        "Theater",
+        "Gym"
+      ],
+      "correct_answer": "Genius Bar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_223",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's retail focus?",
+      "options": [
+        "Customer experience",
+        "Low prices",
+        "Large selection",
+        "Fast checkout"
+      ],
+      "correct_answer": "Customer experience",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_224",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 1",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_225",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 2",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_226",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 3",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_227",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 4",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_228",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 5",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_229",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 6",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_230",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 7",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_231",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 8",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_232",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 9",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_233",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 10",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_234",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 11",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_235",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 12",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_236",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 13",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_237",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 14",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_238",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 15",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_239",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 16",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_240",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 17",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_241",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 18",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_242",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 19",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_243",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 20",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_244",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 21",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_245",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 22",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_246",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 23",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_247",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 24",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_248",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 25",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_249",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 26",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_250",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 27",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_251",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 28",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_252",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 29",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_253",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 30",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_254",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 31",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_255",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Marketing & Campaigns",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple marketing detail 32",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_256",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple Park?",
+      "options": [
+        "New headquarters",
+        "Store",
+        "Factory",
+        "Office building"
+      ],
+      "correct_answer": "New headquarters",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_257",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What shape is Apple Park?",
+      "options": [
+        "Circular/ring",
+        "Square",
+        "Triangle",
+        "Rectangle"
+      ],
+      "correct_answer": "Circular/ring",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_258",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was old HQ address?",
+      "options": [
+        "1 Infinite Loop",
+        "Apple Park",
+        "Cupertino Drive",
+        "Steve Jobs Way"
+      ],
+      "correct_answer": "1 Infinite Loop",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_259",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who is CFO?",
+      "options": [
+        "Luca Maestri",
+        "Tim Cook",
+        "Phil Schiller",
+        "Craig Federighi"
+      ],
+      "correct_answer": "Luca Maestri",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_260",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's mission?",
+      "options": [
+        "Make best products that enrich lives",
+        "Make money",
+        "Sell phones",
+        "Beat competitors"
+      ],
+      "correct_answer": "Make best products that enrich lives",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_261",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What does Apple value?",
+      "options": [
+        "Privacy and security",
+        "Data collection",
+        "Ads",
+        "Tracking"
+      ],
+      "correct_answer": "Privacy and security",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_262",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's environmental goal?",
+      "options": [
+        "Carbon neutral",
+        "Reduce waste",
+        "Recycle",
+        "Plant trees"
+      ],
+      "correct_answer": "Carbon neutral",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_263",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What exchange is Apple on?",
+      "options": [
+        "NASDAQ",
+        "NYSE",
+        "LSE",
+        "TSE"
+      ],
+      "correct_answer": "NASDAQ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_264",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What was Apple's market cap milestone?",
+      "options": [
+        "First $3 trillion",
+        "First $1 trillion",
+        "First billion",
+        "First million"
+      ],
+      "correct_answer": "First $3 trillion",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_265",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who leads software?",
+      "options": [
+        "Craig Federighi",
+        "Tim Cook",
+        "Phil Schiller",
+        "Jony Ive"
+      ],
+      "correct_answer": "Craig Federighi",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_266",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Who leads services?",
+      "options": [
+        "Eddy Cue",
+        "Tim Cook",
+        "Craig Federighi",
+        "Phil Schiller"
+      ],
+      "correct_answer": "Eddy Cue",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_267",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's tax haven controversy?",
+      "options": [
+        "Ireland tax structure",
+        "US taxes",
+        "UK taxes",
+        "China taxes"
+      ],
+      "correct_answer": "Ireland tax structure",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_268",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "What is Apple's diversity initiative?",
+      "options": [
+        "Inclusion and diversity programs",
+        "Nothing",
+        "Quotas",
+        "Mandates"
+      ],
+      "correct_answer": "Inclusion and diversity programs",
+      "difficulty": "easy"
+    },
+    {
+      "id": "apl_269",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 1",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_270",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 2",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_271",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 3",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_272",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 4",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_273",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 5",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_274",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 6",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_275",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 7",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_276",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 8",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_277",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 9",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_278",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 10",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_279",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 11",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_280",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 12",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_281",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 13",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_282",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 14",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_283",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 15",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_284",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 16",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_285",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 17",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_286",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 18",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_287",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 19",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_288",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 20",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_289",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 21",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_290",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 22",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_291",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 23",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "medium"
+    },
+    {
+      "id": "apl_292",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 24",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_293",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 25",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_294",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 26",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_295",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 27",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_296",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 28",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_297",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 29",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_298",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 30",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_299",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 31",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "apl_300",
+      "topic": "com.fiz.pack.apple",
+      "subtopic": "Corporate & Leadership",
+      "category": "Technology",
+      "subcategory": "Technology",
+      "question": "Apple corporate detail 32",
+      "options": [
+        "Detail A",
+        "Detail B",
+        "Detail C",
+        "Detail D"
+      ],
+      "correct_answer": "Detail A",
+      "difficulty": "hard"
+    }
+  ]
 }

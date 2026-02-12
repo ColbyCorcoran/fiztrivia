@@ -1,0 +1,157 @@
+================================================================================
+TORCH & TRIBE - QUALITY ASSURANCE AUDIT REPORT
+================================================================================
+
+Total questions analyzed: 400
+
+================================================================================
+CATEGORY 1: AUTO-FIX (Clear typos/grammar)
+================================================================================
+
+✓ No auto-fix issues found!
+
+Total auto-fix issues: 0
+
+================================================================================
+CATEGORY 2: FLAG FOR REPLACEMENT (Exact/Semantic Duplicates)
+================================================================================
+
+--- SEMANTIC DUPLICATES (>90% similar) ---
+
+⚠ Question ID: svr_024 vs svr_244 (94.1% similar)
+Q1: What is a 'meat shield' in Survivor strategy?
+Q2: What is a 'shield' in Survivor strategy?
+
+⚠ Question ID: svr_044 vs svr_062 (98.3% similar)
+Q1: Which female player has competed on Survivor the most times?
+Q2: Which male player has competed on Survivor the most times?
+
+⚠ Question ID: svr_077 vs svr_079 (95.0% similar)
+Q1: Who won Survivor 41?
+Q2: Who won Survivor 42?
+
+⚠ Question ID: svr_077 vs svr_081 (95.0% similar)
+Q1: Who won Survivor 41?
+Q2: Who won Survivor 43?
+
+⚠ Question ID: svr_077 vs svr_083 (95.0% similar)
+Q1: Who won Survivor 41?
+Q2: Who won Survivor 44?
+
+⚠ Question ID: svr_077 vs svr_085 (95.0% similar)
+Q1: Who won Survivor 41?
+Q2: Who won Survivor 45?
+
+⚠ Question ID: svr_077 vs svr_086 (95.0% similar)
+Q1: Who won Survivor 41?
+Q2: Who won Survivor 46?
+
+⚠ Question ID: svr_079 vs svr_081 (95.0% similar)
+Q1: Who won Survivor 42?
+Q2: Who won Survivor 43?
+
+⚠ Question ID: svr_079 vs svr_083 (95.0% similar)
+Q1: Who won Survivor 42?
+Q2: Who won Survivor 44?
+
+⚠ Question ID: svr_079 vs svr_085 (95.0% similar)
+Q1: Who won Survivor 42?
+Q2: Who won Survivor 45?
+
+⚠ Question ID: svr_079 vs svr_086 (95.0% similar)
+Q1: Who won Survivor 42?
+Q2: Who won Survivor 46?
+
+⚠ Question ID: svr_081 vs svr_083 (95.0% similar)
+Q1: Who won Survivor 43?
+Q2: Who won Survivor 44?
+
+⚠ Question ID: svr_081 vs svr_085 (95.0% similar)
+Q1: Who won Survivor 43?
+Q2: Who won Survivor 45?
+
+⚠ Question ID: svr_081 vs svr_086 (95.0% similar)
+Q1: Who won Survivor 43?
+Q2: Who won Survivor 46?
+
+⚠ Question ID: svr_083 vs svr_085 (95.0% similar)
+Q1: Who won Survivor 44?
+Q2: Who won Survivor 45?
+
+⚠ Question ID: svr_083 vs svr_086 (95.0% similar)
+Q1: Who won Survivor 44?
+Q2: Who won Survivor 46?
+
+⚠ Question ID: svr_085 vs svr_086 (95.0% similar)
+Q1: Who won Survivor 45?
+Q2: Who won Survivor 46?
+
+⚠ Question ID: svr_253 vs svr_258 (90.6% similar)
+Q1: What is a 'power alliance'?
+Q2: What is a 'core alliance'?
+
+⚠ Question ID: svr_281 vs svr_299 (90.5% similar)
+Q1: What was the location of Survivor: Borneo?
+Q2: What was the location of Survivor: Amazon?
+
+⚠ Question ID: svr_294 vs svr_301 (91.2% similar)
+Q1: Where was Survivor: Vanuatu filmed?
+Q2: Where was Survivor: Palau filmed?
+
+⚠ Question ID: svr_304 vs svr_310 (96.9% similar)
+Q1: What was the theme of Season 30?
+Q2: What was the theme of Season 37?
+
+Total duplicates: 21
+
+================================================================================
+CATEGORY 3: NEEDS VERIFICATION (Questionable accuracy/clarity)
+================================================================================
+
+--- POTENTIAL SELF-REVEALING ANSWERS ---
+(Note: Some may be false positives - manual review needed)
+
+? Question ID: svr_143
+Question: In early seasons, which challenge involved shooting flaming arrows at a target?
+Answer: Flaming Arrows
+
+? Question ID: svr_282
+Question: Which country hosted Survivor: The Australian Outback?
+Answer: Australia
+
+? Question ID: svr_285
+Question: Where was Survivor: Thailand filmed?
+Answer: Thailand
+
+? Question ID: svr_286
+Question: Which Central American country hosted Survivor: Guatemala?
+Answer: Guatemala
+
+? Question ID: svr_289
+Question: Where was Survivor: China filmed?
+Answer: China
+
+? Question ID: svr_290
+Question: Which island nation hosted multiple Survivor seasons including Samoa?
+Answer: Samoa
+
+? Question ID: svr_291
+Question: Where was Survivor: Nicaragua filmed?
+Answer: Nicaragua
+
+? Question ID: svr_294
+Question: Where was Survivor: Vanuatu filmed?
+Answer: Vanuatu
+
+Total verification issues: 8
+
+================================================================================
+SUMMARY
+================================================================================
+Total questions: 400
+Auto-fix issues: 0
+Duplicates: 21
+Needs verification: 8
+TOTAL ISSUES: 29
+QUALITY SCORE: 92.8%
+================================================================================

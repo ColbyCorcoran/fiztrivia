@@ -1,0 +1,239 @@
+================================================================================
+THE GREAT JOURNEY - QUALITY ASSURANCE AUDIT REPORT
+================================================================================
+
+Total questions analyzed: 500
+
+================================================================================
+CATEGORY 1: AUTO-FIX (Clear typos/grammar)
+================================================================================
+
+✓ No auto-fix issues found!
+
+Total auto-fix issues: 0
+
+================================================================================
+CATEGORY 2: FLAG FOR REPLACEMENT (Exact/Semantic Duplicates)
+================================================================================
+
+--- EXACT DUPLICATES ---
+
+⚠ Question ID: lotr_226 (duplicate of lotr_preview_024)
+Question: What battle takes place at Helm's Deep?
+
+⚠ Question ID: lotr_227 (duplicate of lotr_preview_025)
+Question: Which army comes to Gondor's aid at the Battle of Pelennor Fields?
+
+⚠ Question ID: lotr_228 (duplicate of lotr_preview_026)
+Question: Who kills the Witch-king of Angmar?
+
+⚠ Question ID: lotr_229 (duplicate of lotr_preview_027)
+Question: What creatures does Saruman create to serve in his army?
+
+⚠ Question ID: lotr_301 (duplicate of lotr_preview_031)
+Question: Who originally forged the One Ring?
+
+⚠ Question ID: lotr_302 (duplicate of lotr_preview_032)
+Question: How many Rings of Power were given to Men?
+
+⚠ Question ID: lotr_303 (duplicate of lotr_preview_033)
+Question: What type of blade wounds Frodo on Weathertop?
+
+⚠ Question ID: lotr_304 (duplicate of lotr_preview_034)
+Question: What is the name of Aragorn's reforged sword?
+
+⚠ Question ID: lotr_305 (duplicate of lotr_preview_035)
+Question: Who was the original bearer of the sword Narsil?
+
+⚠ Question ID: lotr_306 (duplicate of lotr_preview_036)
+Question: What material is the One Ring made from?
+
+⚠ Question ID: lotr_307 (duplicate of lotr_preview_037)
+Question: What is the Elvish word for 'friend' that opens the Doors of Durin?
+
+⚠ Question ID: lotr_308 (duplicate of lotr_preview_038)
+Question: What language is inscribed on the One Ring?
+
+⚠ Question ID: lotr_309 (duplicate of lotr_preview_039)
+Question: What immortal gift does Arwen give up to be with Aragorn?
+
+⚠ Question ID: lotr_376 (duplicate of lotr_preview_040)
+Question: Complete the quote: 'One does not simply walk into ____.'
+
+⚠ Question ID: lotr_377 (duplicate of lotr_preview_041)
+Question: What does Gandalf famously shout to the Balrog?
+
+⚠ Question ID: lotr_378 (duplicate of lotr_preview_042)
+Question: Who says 'My precious' throughout the story?
+
+⚠ Question ID: lotr_379 (duplicate of lotr_preview_043)
+Question: What does Sam say he can't carry for Frodo, but he can carry Frodo?
+
+⚠ Question ID: lotr_380 (duplicate of lotr_preview_044)
+Question: Complete Bilbo's riddle: 'What have I got in my ____?'
+
+--- SEMANTIC DUPLICATES (>90% similar) ---
+
+⚠ Question ID: lotr_preview_004 vs lotr_315 (91.7% similar)
+Q1: What is the name of Gandalf's horse?
+Q2: What is the name of Gandalf's sword?
+
+⚠ Question ID: lotr_preview_010 vs lotr_076 (94.2% similar)
+Q1: What birthday does Bilbo celebrate at the beginning of The Fellowship of the Ring?
+Q2: What does Bilbo celebrate at the beginning of The Fellowship of the Ring?
+
+⚠ Question ID: lotr_preview_024 vs lotr_226 (100.0% similar)
+Q1: What battle takes place at Helm's Deep?
+Q2: What battle takes place at Helm's Deep?
+
+⚠ Question ID: lotr_preview_025 vs lotr_227 (100.0% similar)
+Q1: Which army comes to Gondor's aid at the Battle of Pelennor Fields?
+Q2: Which army comes to Gondor's aid at the Battle of Pelennor Fields?
+
+⚠ Question ID: lotr_preview_026 vs lotr_228 (100.0% similar)
+Q1: Who kills the Witch-king of Angmar?
+Q2: Who kills the Witch-king of Angmar?
+
+⚠ Question ID: lotr_preview_027 vs lotr_229 (100.0% similar)
+Q1: What creatures does Saruman create to serve in his army?
+Q2: What creatures does Saruman create to serve in his army?
+
+⚠ Question ID: lotr_preview_031 vs lotr_301 (100.0% similar)
+Q1: Who originally forged the One Ring?
+Q2: Who originally forged the One Ring?
+
+⚠ Question ID: lotr_preview_032 vs lotr_302 (100.0% similar)
+Q1: How many Rings of Power were given to Men?
+Q2: How many Rings of Power were given to Men?
+
+⚠ Question ID: lotr_preview_033 vs lotr_303 (100.0% similar)
+Q1: What type of blade wounds Frodo on Weathertop?
+Q2: What type of blade wounds Frodo on Weathertop?
+
+⚠ Question ID: lotr_preview_034 vs lotr_304 (100.0% similar)
+Q1: What is the name of Aragorn's reforged sword?
+Q2: What is the name of Aragorn's reforged sword?
+
+⚠ Question ID: lotr_preview_035 vs lotr_305 (100.0% similar)
+Q1: Who was the original bearer of the sword Narsil?
+Q2: Who was the original bearer of the sword Narsil?
+
+⚠ Question ID: lotr_preview_036 vs lotr_306 (100.0% similar)
+Q1: What material is the One Ring made from?
+Q2: What material is the One Ring made from?
+
+⚠ Question ID: lotr_preview_037 vs lotr_307 (100.0% similar)
+Q1: What is the Elvish word for 'friend' that opens the Doors of Durin?
+Q2: What is the Elvish word for 'friend' that opens the Doors of Durin?
+
+⚠ Question ID: lotr_preview_038 vs lotr_308 (100.0% similar)
+Q1: What language is inscribed on the One Ring?
+Q2: What language is inscribed on the One Ring?
+
+⚠ Question ID: lotr_preview_039 vs lotr_309 (100.0% similar)
+Q1: What immortal gift does Arwen give up to be with Aragorn?
+Q2: What immortal gift does Arwen give up to be with Aragorn?
+
+⚠ Question ID: lotr_preview_040 vs lotr_376 (100.0% similar)
+Q1: Complete the quote: 'One does not simply walk into ____.'
+Q2: Complete the quote: 'One does not simply walk into ____.'
+
+⚠ Question ID: lotr_preview_041 vs lotr_377 (100.0% similar)
+Q1: What does Gandalf famously shout to the Balrog?
+Q2: What does Gandalf famously shout to the Balrog?
+
+⚠ Question ID: lotr_preview_042 vs lotr_378 (100.0% similar)
+Q1: Who says 'My precious' throughout the story?
+Q2: Who says 'My precious' throughout the story?
+
+⚠ Question ID: lotr_preview_043 vs lotr_379 (100.0% similar)
+Q1: What does Sam say he can't carry for Frodo, but he can carry Frodo?
+Q2: What does Sam say he can't carry for Frodo, but he can carry Frodo?
+
+⚠ Question ID: lotr_preview_044 vs lotr_380 (100.0% similar)
+Q1: Complete Bilbo's riddle: 'What have I got in my ____?'
+Q2: Complete Bilbo's riddle: 'What have I got in my ____?'
+
+⚠ Question ID: lotr_preview_047 vs lotr_383 (95.9% similar)
+Q1: Who declares 'I am no man!' before striking down the Witch-king?
+Q2: Who declares 'I am no man!' before striking the Witch-king?
+
+⚠ Question ID: lotr_027 vs lotr_075 (90.1% similar)
+Q1: What is the name of Gimli's father?
+Q2: What is the name of Pippin's father?
+
+⚠ Question ID: lotr_058 vs lotr_137 (90.5% similar)
+Q1: Who becomes mayor of the Shire after the Scouring?
+Q2: What becomes of the Shire after the Scouring?
+
+⚠ Question ID: lotr_092 vs lotr_164 (95.2% similar)
+Q1: Where do the hobbits sail at the end of the story?
+Q2: Where do the hobbits sail from at the end of the story?
+
+⚠ Question ID: lotr_129 vs lotr_145 (90.2% similar)
+Q1: What happens to Barad-dûr when the Ring is destroyed?
+Q2: What happens to Arwen when the Ring is destroyed?
+
+⚠ Question ID: lotr_135 vs lotr_298 (97.5% similar)
+Q1: What year of the Third Age does the War of the Ring occur?
+Q2: In what year of the Third Age does the War of the Ring occur?
+
+⚠ Question ID: lotr_145 vs lotr_375 (91.8% similar)
+Q1: What happens to Arwen when the Ring is destroyed?
+Q2: What happens to magic when the Ring is destroyed?
+
+⚠ Question ID: lotr_283 vs lotr_284 (91.8% similar)
+Q1: How many enemies does Gimli slay at Helm's Deep?
+Q2: How many enemies does Legolas slay at Helm's Deep?
+
+⚠ Question ID: lotr_310 vs lotr_311 (92.5% similar)
+Q1: How many Rings were given to the Elves?
+Q2: How many Rings were given to the Dwarves?
+
+Total duplicates: 47
+
+================================================================================
+CATEGORY 3: NEEDS VERIFICATION (Questionable accuracy/clarity)
+================================================================================
+
+--- POTENTIAL SELF-REVEALING ANSWERS ---
+(Note: Some may be false positives - manual review needed)
+
+? Question ID: lotr_021
+Question: Who owns the pony that travels with the hobbits from Bree?
+Answer: The hobbits
+
+? Question ID: lotr_190
+Question: What is the seat of seeing on Amon Hen called?
+Answer: The Seat of Seeing
+
+? Question ID: lotr_222
+Question: What region of Mordor contains the Sea of Nurnen?
+Answer: Nurn
+
+--- ANSWER OPTION ISSUES ---
+
+⚠ Question ID: lotr_391
+Issue: Correct answer not found in options
+Question: What does Aragorn reply about Gondor having no king?
+Correct Answer: Gondor has no king, Gondor needs no king
+Options: ['Gondor needs no king', 'I am the king', 'Gondor shall have a king', 'None of these']
+
+⚠ Question ID: lotr_400
+Issue: Correct answer not found in options
+Question: What does Frodo volunteer at the Council?
+Correct Answer: I will take it
+Options: ['I will take it to Mordor', 'I will destroy it', 'I will take the Ring', 'All variations']
+
+Total verification issues: 5
+
+================================================================================
+SUMMARY
+================================================================================
+Total questions: 500
+Auto-fix issues: 0
+Duplicates: 47
+Needs verification: 5
+TOTAL ISSUES: 52
+QUALITY SCORE: 89.6%
+================================================================================

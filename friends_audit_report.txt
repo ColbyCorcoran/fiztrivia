@@ -1,0 +1,311 @@
+================================================================================
+CENTRAL PERK CHRONICLES - QUALITY ASSURANCE AUDIT REPORT
+================================================================================
+
+Total questions analyzed: 400
+
+================================================================================
+CATEGORY 1: AUTO-FIX (Clear typos/grammar)
+================================================================================
+
+✓ No auto-fix issues found!
+
+Total auto-fix issues: 0
+
+================================================================================
+CATEGORY 2: FLAG FOR REPLACEMENT (Exact/Semantic Duplicates)
+================================================================================
+
+--- EXACT DUPLICATES ---
+
+⚠ Question ID: frd_059 (duplicate of frd_002)
+Question: What is Ross's profession?
+
+⚠ Question ID: frd_104 (duplicate of frd_010)
+Question: Who gets married in Las Vegas while drunk?
+
+⚠ Question ID: frd_105 (duplicate of frd_011)
+Question: What animal does Ross have as a pet?
+
+⚠ Question ID: frd_113 (duplicate of frd_021)
+Question: What does Joey not share?
+
+⚠ Question ID: frd_145 (duplicate of frd_082)
+Question: What does Ross collect?
+
+⚠ Question ID: frd_181 (duplicate of frd_169)
+Question: What does Phoebe call herself?
+
+⚠ Question ID: frd_183 (duplicate of frd_172)
+Question: What does Chandler joke about?
+
+⚠ Question ID: frd_185 (duplicate of frd_177)
+Question: What does Rachel say about fashion?
+
+⚠ Question ID: frd_190 (duplicate of frd_166)
+Question: What does Chandler say sarcastically?
+
+⚠ Question ID: frd_196 (duplicate of frd_173)
+Question: What does Joey say about acting?
+
+⚠ Question ID: frd_199 (duplicate of frd_175)
+Question: What does Monica say about competition?
+
+⚠ Question ID: frd_221 (duplicate of frd_022)
+Question: What is Joey's profession?
+
+⚠ Question ID: frd_222 (duplicate of frd_003)
+Question: What is Monica's profession?
+
+⚠ Question ID: frd_223 (duplicate of frd_002)
+Question: What is Ross's profession?
+
+⚠ Question ID: frd_229 (duplicate of frd_026)
+Question: Where does Ross work?
+
+⚠ Question ID: frd_231 (duplicate of frd_147)
+Question: What does Monica cater?
+
+⚠ Question ID: frd_241 (duplicate of frd_237)
+Question: What does Chandler quit?
+
+⚠ Question ID: frd_248 (duplicate of frd_234)
+Question: What does Ross teach?
+
+⚠ Question ID: frd_274 (duplicate of frd_246)
+Question: What does Chandler do in advertising?
+
+⚠ Question ID: frd_282 (duplicate of frd_032)
+Question: Who does Phoebe marry?
+
+⚠ Question ID: frd_283 (duplicate of frd_030)
+Question: Who is Ross's first wife?
+
+⚠ Question ID: frd_285 (duplicate of frd_029)
+Question: Who does Ross have a baby with?
+
+⚠ Question ID: frd_308 (duplicate of frd_112)
+Question: Who dates a student?
+
+⚠ Question ID: frd_329 (duplicate of frd_030)
+Question: Who is Ross's first wife?
+
+⚠ Question ID: frd_342 (duplicate of frd_040)
+Question: What year did Friends end?
+
+⚠ Question ID: frd_343 (duplicate of frd_036)
+Question: What network aired Friends?
+
+⚠ Question ID: frd_361 (duplicate of frd_348)
+Question: Where was Friends filmed?
+
+⚠ Question ID: frd_366 (duplicate of frd_347)
+Question: How many episodes total?
+
+⚠ Question ID: frd_376 (duplicate of frd_036)
+Question: What network aired Friends?
+
+⚠ Question ID: frd_377 (duplicate of frd_357)
+Question: What genre is Friends?
+
+⚠ Question ID: frd_385 (duplicate of frd_355)
+Question: What decade is Friends from?
+
+--- SEMANTIC DUPLICATES (>90% similar) ---
+
+⚠ Question ID: frd_002 vs frd_059 (100.0% similar)
+Q1: What is Ross's profession?
+Q2: What is Ross's profession?
+
+⚠ Question ID: frd_002 vs frd_223 (100.0% similar)
+Q1: What is Ross's profession?
+Q2: What is Ross's profession?
+
+⚠ Question ID: frd_003 vs frd_222 (100.0% similar)
+Q1: What is Monica's profession?
+Q2: What is Monica's profession?
+
+⚠ Question ID: frd_010 vs frd_104 (100.0% similar)
+Q1: Who gets married in Las Vegas while drunk?
+Q2: Who gets married in Las Vegas while drunk?
+
+⚠ Question ID: frd_011 vs frd_105 (100.0% similar)
+Q1: What animal does Ross have as a pet?
+Q2: What animal does Ross have as a pet?
+
+⚠ Question ID: frd_021 vs frd_113 (100.0% similar)
+Q1: What does Joey not share?
+Q2: What does Joey not share?
+
+⚠ Question ID: frd_022 vs frd_221 (100.0% similar)
+Q1: What is Joey's profession?
+Q2: What is Joey's profession?
+
+⚠ Question ID: frd_026 vs frd_229 (100.0% similar)
+Q1: Where does Ross work?
+Q2: Where does Ross work?
+
+⚠ Question ID: frd_029 vs frd_285 (100.0% similar)
+Q1: Who does Ross have a baby with?
+Q2: Who does Ross have a baby with?
+
+⚠ Question ID: frd_030 vs frd_283 (100.0% similar)
+Q1: Who is Ross's first wife?
+Q2: Who is Ross's first wife?
+
+⚠ Question ID: frd_030 vs frd_329 (100.0% similar)
+Q1: Who is Ross's first wife?
+Q2: Who is Ross's first wife?
+
+⚠ Question ID: frd_032 vs frd_282 (100.0% similar)
+Q1: Who does Phoebe marry?
+Q2: Who does Phoebe marry?
+
+⚠ Question ID: frd_035 vs frd_341 (91.2% similar)
+Q1: What year did Friends first premiere?
+Q2: What year did Friends premiere?
+
+⚠ Question ID: frd_036 vs frd_343 (100.0% similar)
+Q1: What network aired Friends?
+Q2: What network aired Friends?
+
+⚠ Question ID: frd_036 vs frd_376 (100.0% similar)
+Q1: What network aired Friends?
+Q2: What network aired Friends?
+
+⚠ Question ID: frd_040 vs frd_342 (100.0% similar)
+Q1: What year did Friends end?
+Q2: What year did Friends end?
+
+⚠ Question ID: frd_059 vs frd_223 (100.0% similar)
+Q1: What is Ross's profession?
+Q2: What is Ross's profession?
+
+⚠ Question ID: frd_060 vs frd_080 (94.9% similar)
+Q1: What is Chandler's father's profession?
+Q2: What is Chandler's mother's profession?
+
+⚠ Question ID: frd_063 vs frd_151 (94.7% similar)
+Q1: What is Phoebe's birth mother's name?
+Q2: What does Phoebe's birth mother's name?
+
+⚠ Question ID: frd_071 vs frd_268 (93.3% similar)
+Q1: What does Rachel fear?
+Q2: What does Rachel learn?
+
+⚠ Question ID: frd_082 vs frd_145 (100.0% similar)
+Q1: What does Ross collect?
+Q2: What does Ross collect?
+
+⚠ Question ID: frd_112 vs frd_308 (100.0% similar)
+Q1: Who dates a student?
+Q2: Who dates a student?
+
+⚠ Question ID: frd_147 vs frd_231 (100.0% similar)
+Q1: What does Monica cater?
+Q2: What does Monica cater?
+
+⚠ Question ID: frd_166 vs frd_190 (100.0% similar)
+Q1: What does Chandler say sarcastically?
+Q2: What does Chandler say sarcastically?
+
+⚠ Question ID: frd_168 vs frd_193 (90.1% similar)
+Q1: What does Monica say about cleaning?
+Q2: What does Monica say about cooking?
+
+⚠ Question ID: frd_169 vs frd_181 (100.0% similar)
+Q1: What does Phoebe call herself?
+Q2: What does Phoebe call herself?
+
+⚠ Question ID: frd_172 vs frd_183 (100.0% similar)
+Q1: What does Chandler joke about?
+Q2: What does Chandler joke about?
+
+⚠ Question ID: frd_173 vs frd_196 (100.0% similar)
+Q1: What does Joey say about acting?
+Q2: What does Joey say about acting?
+
+⚠ Question ID: frd_175 vs frd_199 (100.0% similar)
+Q1: What does Monica say about competition?
+Q2: What does Monica say about competition?
+
+⚠ Question ID: frd_177 vs frd_185 (100.0% similar)
+Q1: What does Rachel say about fashion?
+Q2: What does Rachel say about fashion?
+
+⚠ Question ID: frd_184 vs frd_206 (91.9% similar)
+Q1: What does Ross say about being smart?
+Q2: What does Ross say about being right?
+
+⚠ Question ID: frd_187 vs frd_194 (90.4% similar)
+Q1: What does Phoebe say about her songs?
+Q2: What does Phoebe say about her past?
+
+⚠ Question ID: frd_203 vs frd_217 (90.4% similar)
+Q1: What does Chandler say about feelings?
+Q2: What does Chandler say about Yemen?
+
+⚠ Question ID: frd_216 vs frd_270 (91.8% similar)
+Q1: What does Joey's character say?
+Q2: What does Joey's character do?
+
+⚠ Question ID: frd_234 vs frd_248 (100.0% similar)
+Q1: What does Ross teach?
+Q2: What does Ross teach?
+
+⚠ Question ID: frd_237 vs frd_241 (100.0% similar)
+Q1: What does Chandler quit?
+Q2: What does Chandler quit?
+
+⚠ Question ID: frd_246 vs frd_274 (100.0% similar)
+Q1: What does Chandler do in advertising?
+Q2: What does Chandler do in advertising?
+
+⚠ Question ID: frd_283 vs frd_329 (100.0% similar)
+Q1: Who is Ross's first wife?
+Q2: Who is Ross's first wife?
+
+⚠ Question ID: frd_343 vs frd_376 (100.0% similar)
+Q1: What network aired Friends?
+Q2: What network aired Friends?
+
+⚠ Question ID: frd_346 vs frd_372 (92.9% similar)
+Q1: What is the theme song called?
+Q2: What is theme song called?
+
+⚠ Question ID: frd_347 vs frd_366 (100.0% similar)
+Q1: How many episodes total?
+Q2: How many episodes total?
+
+⚠ Question ID: frd_348 vs frd_361 (100.0% similar)
+Q1: Where was Friends filmed?
+Q2: Where was Friends filmed?
+
+⚠ Question ID: frd_355 vs frd_385 (100.0% similar)
+Q1: What decade is Friends from?
+Q2: What decade is Friends from?
+
+⚠ Question ID: frd_357 vs frd_377 (100.0% similar)
+Q1: What genre is Friends?
+Q2: What genre is Friends?
+
+Total duplicates: 75
+
+================================================================================
+CATEGORY 3: NEEDS VERIFICATION (Questionable accuracy/clarity)
+================================================================================
+
+✓ No verification issues found!
+
+Total verification issues: 0
+
+================================================================================
+SUMMARY
+================================================================================
+Total questions: 400
+Auto-fix issues: 0
+Duplicates: 75
+Needs verification: 0
+TOTAL ISSUES: 75
+QUALITY SCORE: 81.2%
+================================================================================

@@ -1,0 +1,95 @@
+================================================================================
+CUPERTINO INNOVATION - QUALITY ASSURANCE AUDIT REPORT
+================================================================================
+
+Total questions analyzed: 300
+
+================================================================================
+CATEGORY 1: AUTO-FIX (Clear typos/grammar)
+================================================================================
+
+✓ No auto-fix issues found!
+
+Total auto-fix issues: 0
+
+================================================================================
+CATEGORY 2: FLAG FOR REPLACEMENT (Exact/Semantic Duplicates)
+================================================================================
+
+--- EXACT DUPLICATES ---
+
+⚠ Question ID: apl_177 (duplicate of apl_043)
+Question: What is MagSafe?
+
+⚠ Question ID: apl_275 (duplicate of apl_029)
+Question: What is Apple's stock ticker symbol?
+
+--- SEMANTIC DUPLICATES (>90% similar) ---
+
+⚠ Question ID: apl_002 vs apl_137 (91.4% similar)
+Q1: What year was the iPhone first released?
+Q2: In what year was the iPod first released?
+
+⚠ Question ID: apl_026 vs apl_296 (96.3% similar)
+Q1: Who is Apple's current CEO?
+Q2: Who is Apple's current COO?
+
+⚠ Question ID: apl_029 vs apl_275 (100.0% similar)
+Q1: What is Apple's stock ticker symbol?
+Q2: What is Apple's stock ticker symbol?
+
+⚠ Question ID: apl_043 vs apl_177 (100.0% similar)
+Q1: What is MagSafe?
+Q2: What is MagSafe?
+
+⚠ Question ID: apl_044 vs apl_074 (91.2% similar)
+Q1: What was the first iPod's storage?
+Q2: What was the first iPhone storage?
+
+⚠ Question ID: apl_126 vs apl_146 (95.9% similar)
+Q1: What year did Steve Jobs pass away?
+Q2: In what year did Steve Jobs pass away?
+
+⚠ Question ID: apl_166 vs apl_167 (93.1% similar)
+Q1: What did iPhone revolutionize?
+Q2: What did iPod revolutionize?
+
+Total duplicates: 9
+
+================================================================================
+CATEGORY 3: NEEDS VERIFICATION (Questionable accuracy/clarity)
+================================================================================
+
+--- POTENTIAL SELF-REVEALING ANSWERS ---
+(Note: Some may be false positives - manual review needed)
+
+? Question ID: apl_008
+Question: What is Apple's app store called?
+Answer: App Store
+
+? Question ID: apl_241
+Question: What year did the 1984 Macintosh Super Bowl commercial air?
+Answer: 1984
+
+? Question ID: apl_295
+Question: What was Apple's market cap when it became the first $3 trillion company?
+Answer: $3 trillion
+
+--- ANSWER OPTION ISSUES ---
+
+⚠ Question ID: apl_029
+Issue: Duplicate answer options
+Question: What is Apple's stock ticker symbol?
+
+Total verification issues: 4
+
+================================================================================
+SUMMARY
+================================================================================
+Total questions: 300
+Auto-fix issues: 0
+Duplicates: 9
+Needs verification: 4
+TOTAL ISSUES: 13
+QUALITY SCORE: 95.7%
+================================================================================

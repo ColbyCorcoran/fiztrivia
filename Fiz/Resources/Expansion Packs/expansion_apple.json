@@ -488,8 +488,8 @@
       "options": [
         "AAPL",
         "APPL",
-        "APP",
-        "AAPL"
+        "APL",
+        "AAPLE"
       ],
       "correct_answer": "AAPL",
       "difficulty": "easy"
@@ -2850,18 +2850,18 @@
     },
     {
       "id": "apl_177",
+      "category": "Entertainment",
+      "subcategory": "Technology",
       "topic": "com.fiz.pack.apple",
       "subtopic": "Innovation & Design",
-      "category": "Technology",
-      "subcategory": "Technology",
-      "question": "What is MagSafe?",
+      "question": "What feature allows wireless charging on iPhones?",
       "options": [
-        "Magnetic charging/accessories",
-        "Storage",
-        "Processor",
-        "Screen"
+        "Lightning",
+        "MagSafe and Qi",
+        "USB-C",
+        "AirPower"
       ],
-      "correct_answer": "Magnetic charging/accessories",
+      "correct_answer": "MagSafe and Qi",
       "difficulty": "easy"
     },
     {
@@ -4418,19 +4418,19 @@
     },
     {
       "id": "apl_275",
-      "question": "What is Apple's stock ticker symbol?",
-      "options": [
-        "AAPL",
-        "APPL",
-        "APL",
-        "APLE"
-      ],
-      "correct_answer": "AAPL",
-      "difficulty": "medium",
+      "category": "Entertainment",
+      "subcategory": "Tech Companies",
       "topic": "com.fiz.pack.apple",
-      "category": "Technology",
-      "subcategory": "Technology",
-      "subtopic": "Corporate & Leadership"
+      "subtopic": "Corporate & Leadership",
+      "question": "What year did Apple become a publicly traded company?",
+      "options": [
+        "1976",
+        "1980",
+        "1984",
+        "1990"
+      ],
+      "correct_answer": "1980",
+      "difficulty": "medium"
     },
     {
       "id": "apl_276",

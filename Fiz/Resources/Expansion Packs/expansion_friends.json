@@ -962,18 +962,18 @@
     },
     {
       "id": "frd_059",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Characters & Personalities",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What is Ross's profession?",
+      "question": "Who plays Phoebe's twin sister Ursula?",
       "options": [
-        "Paleontologist",
-        "Archaeologist",
-        "Geologist",
-        "Biologist"
+        "Lisa Kudrow",
+        "Courteney Cox",
+        "A different actress",
+        "Jennifer Aniston"
       ],
-      "correct_answer": "Paleontologist",
+      "correct_answer": "Lisa Kudrow",
       "difficulty": "medium"
     },
     {
@@ -1682,34 +1682,34 @@
     },
     {
       "id": "frd_104",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Who gets married in Las Vegas while drunk?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "question": "Who does Rachel almost marry at the altar?",
       "options": [
-        "Ross and Rachel",
-        "Chandler and Monica",
-        "Joey and Phoebe",
-        "Ross and Emily"
+        "Ross",
+        "Barry",
+        "Tag",
+        "Paolo"
       ],
-      "correct_answer": "Ross and Rachel",
+      "correct_answer": "Barry",
       "difficulty": "easy"
     },
     {
       "id": "frd_105",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What animal does Ross have as a pet?",
+      "subcategory": "TV Shows",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "question": "What does Ross say to Emily instead of her name?",
       "options": [
-        "A monkey",
-        "A dog",
-        "A cat",
-        "A bird"
+        "Julie",
+        "Carol",
+        "Rachel",
+        "Susan"
       ],
-      "correct_answer": "A monkey",
+      "correct_answer": "Rachel",
       "difficulty": "easy"
     },
     {
@@ -1826,18 +1826,18 @@
     },
     {
       "id": "frd_113",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Joey not share?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "question": "Who dates Janice the most?",
       "options": [
-        "Food",
-        "Money",
-        "Clothes",
-        "Secrets"
+        "Ross",
+        "Joey",
+        "Chandler",
+        "Gunther"
       ],
-      "correct_answer": "Food",
+      "correct_answer": "Chandler",
       "difficulty": "easy"
     },
     {
@@ -2338,18 +2338,18 @@
     },
     {
       "id": "frd_145",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Ross collect?",
+      "subcategory": "TV Shows",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "question": "What does Monica wear to Chandler's work party?",
       "options": [
-        "Comic books and dinosaur stuff",
-        "Stamps",
-        "Coins",
-        "Cards"
+        "A dress",
+        "A turkey on her head",
+        "Nothing special",
+        "His shirt"
       ],
-      "correct_answer": "Comic books and dinosaur stuff",
+      "correct_answer": "Nothing special",
       "difficulty": "medium"
     },
     {
@@ -2914,19 +2914,19 @@
     },
     {
       "id": "frd_181",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Phoebe call herself?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Dating & Relationships",
+      "question": "Who proposes to Monica?",
       "options": [
-        "Princess Consuela Banana Hammock",
-        "Regina",
-        "Vikki",
-        "Phyllis"
+        "Richard",
+        "Chandler",
+        "Pete",
+        "Both Richard and Chandler"
       ],
-      "correct_answer": "Princess Consuela Banana Hammock",
-      "difficulty": "medium"
+      "correct_answer": "Chandler",
+      "difficulty": "easy"
     },
     {
       "id": "frd_182",
@@ -2946,18 +2946,18 @@
     },
     {
       "id": "frd_183",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Chandler joke about?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "What does Ross teach his friends about self-defense?",
       "options": [
-        "His awkwardness",
-        "His job",
-        "His family",
-        "His apartment"
+        "Karate",
+        "Unagi",
+        "Kung Fu",
+        "Boxing"
       ],
-      "correct_answer": "His awkwardness",
+      "correct_answer": "Unagi",
       "difficulty": "medium"
     },
     {
@@ -2978,18 +2978,18 @@
     },
     {
       "id": "frd_185",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Rachel say about fashion?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "What does Ross buy that is way too small?",
       "options": [
-        "It's not just clothes",
-        "Fashion matters",
-        "Style counts",
-        "Look good"
+        "Leather pants",
+        "A couch",
+        "A shirt",
+        "A car"
       ],
-      "correct_answer": "It's not just clothes",
+      "correct_answer": "Leather pants",
       "difficulty": "medium"
     },
     {
@@ -3058,18 +3058,18 @@
     },
     {
       "id": "frd_190",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Chandler say sarcastically?",
+      "subcategory": "TV Shows",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "What does Joey put on his head when he's sad?",
       "options": [
-        "Could I BE any more sarcastic",
-        "Really?",
-        "Sure",
-        "Whatever"
+        "A hat",
+        "The turkey",
+        "A bag",
+        "Sunglasses"
       ],
-      "correct_answer": "Could I BE any more sarcastic",
+      "correct_answer": "The turkey",
       "difficulty": "medium"
     },
     {
@@ -3154,19 +3154,19 @@
     },
     {
       "id": "frd_196",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Joey say about acting?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Episodes & Plot Lines",
+      "question": "What does Rachel make that is terrible?",
       "options": [
-        "It's his dream",
-        "He loves it",
-        "It's everything",
-        "It matters"
+        "A cake",
+        "A trifle",
+        "Lasagna",
+        "Cookies"
       ],
-      "correct_answer": "It's his dream",
-      "difficulty": "medium"
+      "correct_answer": "A trifle",
+      "difficulty": "easy"
     },
     {
       "id": "frd_197",
@@ -3202,19 +3202,19 @@
     },
     {
       "id": "frd_199",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Monica say about competition?",
+      "subcategory": "TV Shows",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Jobs & Careers",
+      "question": "Where does Rachel work first?",
       "options": [
-        "She must win",
-        "It's fun",
-        "It matters",
-        "Try hard"
+        "Bloomingdale's",
+        "Central Perk",
+        "Ralph Lauren",
+        "Louis Vuitton"
       ],
-      "correct_answer": "She must win",
-      "difficulty": "medium"
+      "correct_answer": "Central Perk",
+      "difficulty": "easy"
     },
     {
       "id": "frd_200",
@@ -3554,51 +3554,51 @@
     },
     {
       "id": "frd_221",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What is Joey's profession?",
+      "question": "What does Joey's character Dr. Drake Ramoray fall down?",
       "options": [
-        "Actor",
-        "Chef",
-        "Paleontologist",
-        "Masseuse"
+        "Stairs",
+        "An elevator shaft",
+        "A cliff",
+        "A building"
       ],
-      "correct_answer": "Actor",
-      "difficulty": "easy"
+      "correct_answer": "An elevator shaft",
+      "difficulty": "medium"
     },
     {
       "id": "frd_222",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What is Monica's profession?",
+      "question": "What does Chandler do for work initially?",
       "options": [
-        "Chef",
-        "Waitress",
-        "Actor",
-        "Teacher"
+        "Data processing",
+        "Statistical analysis",
+        "Nobody knows",
+        "Marketing"
       ],
-      "correct_answer": "Chef",
-      "difficulty": "easy"
+      "correct_answer": "Nobody knows",
+      "difficulty": "medium"
     },
     {
       "id": "frd_223",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What is Ross's profession?",
+      "question": "Where does Monica work as head chef?",
       "options": [
-        "Paleontologist",
-        "Chef",
-        "Actor",
-        "Doctor"
+        "Central Perk",
+        "Iridium",
+        "Alessandro's",
+        "Javu"
       ],
-      "correct_answer": "Paleontologist",
-      "difficulty": "easy"
+      "correct_answer": "Alessandro's",
+      "difficulty": "medium"
     },
     {
       "id": "frd_224",
@@ -3682,19 +3682,19 @@
     },
     {
       "id": "frd_229",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Where does Ross work?",
+      "question": "What is Rachel's job at Ralph Lauren?",
       "options": [
-        "Museum and University",
-        "Hospital",
-        "Law firm",
-        "School"
+        "Assistant buyer",
+        "Executive",
+        "Personal shopper",
+        "Designer"
       ],
-      "correct_answer": "Museum and University",
-      "difficulty": "easy"
+      "correct_answer": "Assistant buyer",
+      "difficulty": "medium"
     },
     {
       "id": "frd_230",
@@ -3714,18 +3714,18 @@
     },
     {
       "id": "frd_231",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Monica cater?",
+      "question": "What does Ross's profession involve?",
       "options": [
-        "Various events",
-        "Weddings only",
-        "Parties only",
-        "Corporate events"
+        "Teaching",
+        "Research",
+        "Museum work",
+        "All of these"
       ],
-      "correct_answer": "Various events",
+      "correct_answer": "All of these",
       "difficulty": "easy"
     },
     {
@@ -3842,19 +3842,19 @@
     },
     {
       "id": "frd_239",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Where does Monica work as head chef?",
+      "question": "What is the name of Joey's soap opera character?",
       "options": [
-        "Allesandro's then Javu",
-        "A hotel",
-        "A restaurant",
-        "A cafe"
+        "Dr. Drake Ramoray",
+        "Dr. John Smith",
+        "Dr. House",
+        "Dr. Joey Tribbiani"
       ],
-      "correct_answer": "Allesandro's then Javu",
-      "difficulty": "medium"
+      "correct_answer": "Dr. Drake Ramoray",
+      "difficulty": "easy"
     },
     {
       "id": "frd_240",
@@ -3874,19 +3874,19 @@
     },
     {
       "id": "frd_241",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Chandler quit?",
+      "question": "What does Joey audition for constantly?",
       "options": [
-        "His statistical job",
-        "Advertising",
-        "Sales",
-        "Marketing"
+        "Plays",
+        "Movies",
+        "Commercials",
+        "All of these"
       ],
-      "correct_answer": "His statistical job",
-      "difficulty": "medium"
+      "correct_answer": "All of these",
+      "difficulty": "easy"
     },
     {
       "id": "frd_242",
@@ -3986,19 +3986,19 @@
     },
     {
       "id": "frd_248",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Ross teach?",
+      "question": "Where does Phoebe work as a masseuse?",
       "options": [
-        "University paleontology",
-        "High school",
-        "Elementary",
-        "College biology"
+        "A spa",
+        "A gym",
+        "Her apartment",
+        "Various places"
       ],
-      "correct_answer": "University paleontology",
-      "difficulty": "medium"
+      "correct_answer": "Various places",
+      "difficulty": "easy"
     },
     {
       "id": "frd_249",
@@ -4098,18 +4098,18 @@
     },
     {
       "id": "frd_255",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Joey audition for constantly?",
+      "question": "Where does Chandler move for work?",
       "options": [
-        "Acting roles",
-        "Game shows",
-        "Commercials",
-        "Theater"
+        "Boston",
+        "Tulsa",
+        "Chicago",
+        "Philadelphia"
       ],
-      "correct_answer": "Acting roles",
+      "correct_answer": "Tulsa",
       "difficulty": "medium"
     },
     {
@@ -4402,19 +4402,19 @@
     },
     {
       "id": "frd_274",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Jobs & Careers",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What does Chandler do in advertising?",
+      "subcategory": "TV Shows",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "What does Ross say when he's angry?",
       "options": [
-        "Junior copywriter",
-        "Senior copywriter",
-        "Creative director",
-        "Account manager"
+        "I'm fine!",
+        "Unagi!",
+        "Pivot!",
+        "My sandwich!"
       ],
-      "correct_answer": "Junior copywriter",
-      "difficulty": "hard"
+      "correct_answer": "My sandwich!",
+      "difficulty": "easy"
     },
     {
       "id": "frd_275",
@@ -4530,34 +4530,34 @@
     },
     {
       "id": "frd_282",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Dating & Relationships",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Who does Phoebe marry?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "What does Phoebe's song about a cat say?",
       "options": [
-        "Mike",
-        "David",
-        "Gary",
-        "Duncan"
+        "Smelly Cat",
+        "Fluffy Cat",
+        "Angry Cat",
+        "Sad Cat"
       ],
-      "correct_answer": "Mike",
+      "correct_answer": "Smelly Cat",
       "difficulty": "easy"
     },
     {
       "id": "frd_283",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Dating & Relationships",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Who is Ross's first wife?",
+      "subcategory": "TV Shows",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "What does Monica say she is?",
       "options": [
-        "Carol",
-        "Rachel",
-        "Emily",
-        "Julie"
+        "A chef",
+        "Competitive",
+        "A clean freak",
+        "The hostess"
       ],
-      "correct_answer": "Carol",
+      "correct_answer": "A clean freak",
       "difficulty": "easy"
     },
     {
@@ -4578,18 +4578,18 @@
     },
     {
       "id": "frd_285",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Dating & Relationships",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Who does Ross have a baby with?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "What does Rachel say when she finds out she's pregnant?",
       "options": [
-        "Rachel",
-        "Carol",
-        "Emily",
-        "Julie"
+        "Oh my God",
+        "No, no, no",
+        "This can't be happening",
+        "Whose is it?"
       ],
-      "correct_answer": "Rachel",
+      "correct_answer": "Oh my God",
       "difficulty": "easy"
     },
     {
@@ -4946,19 +4946,19 @@
     },
     {
       "id": "frd_308",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Dating & Relationships",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Who dates a student?",
+      "subcategory": "TV Shows",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "What does Janice say when she laughs?",
       "options": [
-        "Ross dates Elizabeth",
-        "Chandler",
-        "Joey",
-        "No one"
+        "Ha ha ha",
+        "Oh my God",
+        "Ha-HA",
+        "Tee hee"
       ],
-      "correct_answer": "Ross dates Elizabeth",
-      "difficulty": "medium"
+      "correct_answer": "Oh my God",
+      "difficulty": "easy"
     },
     {
       "id": "frd_309",
@@ -5282,19 +5282,19 @@
     },
     {
       "id": "frd_329",
-      "topic": "com.fiz.pack.friends",
-      "subtopic": "Dating & Relationships",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Who is Ross's first wife?",
+      "subcategory": "Sitcoms",
+      "topic": "com.fiz.pack.friends",
+      "subtopic": "Quotes & Catchphrases",
+      "question": "What does Ross say about being on a break?",
       "options": [
-        "Carol Willick",
-        "Emily Waltham",
-        "Rachel Green",
-        "Julie"
+        "We were on a break!",
+        "It doesn't matter",
+        "She'll understand",
+        "I was wrong"
       ],
-      "correct_answer": "Carol Willick",
-      "difficulty": "hard"
+      "correct_answer": "We were on a break!",
+      "difficulty": "easy"
     },
     {
       "id": "frd_330",
@@ -5490,34 +5490,34 @@
     },
     {
       "id": "frd_342",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What year did Friends end?",
+      "question": "What day of the week did Friends originally air?",
       "options": [
-        "2004",
-        "2002",
-        "2006",
-        "2008"
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday"
       ],
-      "correct_answer": "2004",
-      "difficulty": "easy"
+      "correct_answer": "Thursday",
+      "difficulty": "medium"
     },
     {
       "id": "frd_343",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What network aired Friends?",
+      "question": "What city is Friends set in?",
       "options": [
-        "NBC",
-        "ABC",
-        "CBS",
-        "FOX"
+        "Los Angeles",
+        "Chicago",
+        "New York",
+        "Boston"
       ],
-      "correct_answer": "NBC",
+      "correct_answer": "New York",
       "difficulty": "easy"
     },
     {
@@ -5794,18 +5794,18 @@
     },
     {
       "id": "frd_361",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Where was Friends filmed?",
+      "question": "What are the character's ages when the show starts?",
       "options": [
-        "Warner Bros lot in California",
-        "New York",
-        "Chicago",
-        "Seattle"
+        "Mid-20s",
+        "Early 30s",
+        "Late 20s",
+        "Varies"
       ],
-      "correct_answer": "Warner Bros lot in California",
+      "correct_answer": "Mid-20s",
       "difficulty": "medium"
     },
     {
@@ -5874,18 +5874,18 @@
     },
     {
       "id": "frd_366",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "How many episodes total?",
+      "question": "How many Emmy Awards did Friends win?",
       "options": [
-        "236 episodes",
-        "200",
-        "250",
-        "220"
+        "2",
+        "4",
+        "6",
+        "8"
       ],
-      "correct_answer": "236 episodes",
+      "correct_answer": "6",
       "difficulty": "medium"
     },
     {
@@ -6034,34 +6034,34 @@
     },
     {
       "id": "frd_376",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What network aired Friends?",
+      "question": "What is the name of Central Perk's manager?",
       "options": [
-        "NBC",
-        "ABC",
-        "CBS",
-        "FOX"
+        "Gunther",
+        "Terry",
+        "Frank",
+        "Paul"
       ],
-      "correct_answer": "NBC",
-      "difficulty": "medium"
+      "correct_answer": "Gunther",
+      "difficulty": "easy"
     },
     {
       "id": "frd_377",
+      "category": "Entertainment",
+      "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What genre is Friends?",
+      "question": "What color is Monica and Rachel's apartment?",
       "options": [
-        "Sitcom",
-        "Drama",
-        "Comedy-drama",
-        "Reality"
+        "Blue",
+        "Purple",
+        "Yellow",
+        "White"
       ],
-      "correct_answer": "Sitcom",
+      "correct_answer": "Purple",
       "difficulty": "medium"
     },
     {
@@ -6178,19 +6178,19 @@
     },
     {
       "id": "frd_385",
+      "category": "Entertainment",
+      "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What decade is Friends from?",
+      "question": "In which year did the series finale air?",
       "options": [
-        "90s and 2000s",
-        "80s",
-        "90s only",
-        "2000s only"
+        "2002",
+        "2003",
+        "2004",
+        "2005"
       ],
-      "correct_answer": "90s and 2000s",
-      "difficulty": "medium"
+      "correct_answer": "2004",
+      "difficulty": "easy"
     },
     {
       "id": "frd_386",

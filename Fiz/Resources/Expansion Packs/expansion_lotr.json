@@ -4438,14 +4438,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "What battle takes place at Helm's Deep?",
+      "question": "Who leads the forces of Mordor at the Black Gate?",
       "options": [
-        "The Battle of Five Armies",
-        "The Battle of the Hornburg",
-        "The Battle of Pelennor Fields",
-        "The Siege of Gondor"
+        "Sauron",
+        "The Mouth of Sauron",
+        "Gothmog",
+        "The Witch-king"
       ],
-      "correct_answer": "The Battle of the Hornburg",
+      "correct_answer": "The Mouth of Sauron",
       "difficulty": "easy"
     },
     {
@@ -4454,14 +4454,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "Which army comes to Gondor's aid at the Battle of Pelennor Fields?",
+      "question": "What weapons do the Rohirrim primarily use?",
       "options": [
-        "The Elves",
-        "The Rohirrim",
-        "The Dwarves",
-        "The Ents"
+        "Swords and shields",
+        "Spears and swords",
+        "Bows and arrows",
+        "Axes"
       ],
-      "correct_answer": "The Rohirrim",
+      "correct_answer": "Spears and swords",
       "difficulty": "easy"
     },
     {
@@ -4470,14 +4470,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "Who kills the Witch-king of Angmar?",
+      "question": "What creatures pull the siege towers at Minas Tirith?",
       "options": [
-        "Aragorn",
-        "Gandalf",
-        "\u00c9owyn and Merry",
-        "Legolas"
+        "Trolls",
+        "Oliphaunts",
+        "Orcs",
+        "Giants"
       ],
-      "correct_answer": "\u00c9owyn and Merry",
+      "correct_answer": "Trolls",
       "difficulty": "easy"
     },
     {
@@ -4486,14 +4486,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "What creatures does Saruman create to serve in his army?",
+      "question": "Who defends Osgiliath before it falls to Mordor?",
       "options": [
-        "Orcs",
-        "Uruk-hai",
-        "Trolls",
-        "Goblins"
+        "Aragorn",
+        "Boromir and Faramir",
+        "Gandalf",
+        "The city guard"
       ],
-      "correct_answer": "Uruk-hai",
+      "correct_answer": "Boromir and Faramir",
       "difficulty": "easy"
     },
     {
@@ -5638,14 +5638,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "Who originally forged the One Ring?",
+      "question": "What do the Elves call Middle-earth?",
       "options": [
-        "Sauron",
-        "Saruman",
-        "The Elves",
-        "The Dwarves"
+        "Arda",
+        "Endor",
+        "The mortal lands",
+        "The Sundering Seas"
       ],
-      "correct_answer": "Sauron",
+      "correct_answer": "Endor",
       "difficulty": "easy"
     },
     {
@@ -5654,14 +5654,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "How many Rings of Power were given to Men?",
+      "question": "What precious metal is found in Moria?",
       "options": [
-        "3",
-        "7",
-        "9",
-        "20"
+        "Gold",
+        "Silver",
+        "Mithril",
+        "Iron"
       ],
-      "correct_answer": "9",
+      "correct_answer": "Mithril",
       "difficulty": "easy"
     },
     {
@@ -5670,14 +5670,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What type of blade wounds Frodo on Weathertop?",
+      "question": "What is the name of Bilbo's book?",
       "options": [
-        "An Elven blade",
-        "A Morgul blade",
-        "A N\u00famen\u00f3rean sword",
-        "An Orcish dagger"
+        "There and Back Again",
+        "The Red Book",
+        "My Adventure",
+        "Tales of the Ring"
       ],
-      "correct_answer": "A Morgul blade",
+      "correct_answer": "There and Back Again",
       "difficulty": "easy"
     },
     {
@@ -5686,14 +5686,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is the name of Aragorn's reforged sword?",
+      "question": "What grows on the citadel of Minas Tirith?",
       "options": [
-        "Narsil",
-        "And\u00faril",
-        "Glamdring",
-        "Sting"
+        "The White Tree",
+        "Gardens",
+        "Vines",
+        "Nothing"
       ],
-      "correct_answer": "And\u00faril",
+      "correct_answer": "The White Tree",
       "difficulty": "easy"
     },
     {
@@ -5702,14 +5702,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "Who was the original bearer of the sword Narsil?",
+      "question": "What do hobbits call their coming of age?",
       "options": [
-        "Aragorn",
-        "Isildur",
-        "Boromir",
-        "Elendil"
+        "Adulthood",
+        "Coming of age",
+        "Their tweens",
+        "Maturity"
       ],
-      "correct_answer": "Elendil",
+      "correct_answer": "Coming of age",
       "difficulty": "easy"
     },
     {
@@ -5718,14 +5718,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What material is the One Ring made from?",
+      "question": "What metal are Elvish blades typically made from?",
       "options": [
-        "Silver",
-        "Gold",
+        "Steel",
         "Mithril",
+        "Silver",
         "Iron"
       ],
-      "correct_answer": "Gold",
+      "correct_answer": "Steel",
       "difficulty": "easy"
     },
     {
@@ -5734,14 +5734,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is the Elvish word for 'friend' that opens the Doors of Durin?",
+      "question": "What is the name of the inn in Bree?",
       "options": [
-        "Amon",
-        "Mellon",
-        "Mithrandir",
-        "Elessar"
+        "The Green Dragon",
+        "The Prancing Pony",
+        "The Golden Perch",
+        "The Ivy Bush"
       ],
-      "correct_answer": "Mellon",
+      "correct_answer": "The Prancing Pony",
       "difficulty": "easy"
     },
     {
@@ -5750,14 +5750,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What language is inscribed on the One Ring?",
+      "question": "What do Ents drink that makes them grow?",
       "options": [
-        "Elvish",
-        "The Black Speech",
-        "Dwarvish",
-        "Common Tongue"
+        "Water",
+        "Ent-draught",
+        "Wine",
+        "Mead"
       ],
-      "correct_answer": "The Black Speech",
+      "correct_answer": "Ent-draught",
       "difficulty": "easy"
     },
     {
@@ -5766,14 +5766,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What immortal gift does Arwen give up to be with Aragorn?",
+      "question": "What is pipeweed also called?",
       "options": [
-        "Her beauty",
-        "Her elvish powers",
-        "Her immortality",
-        "Her ring"
+        "Tobacco",
+        "Longbottom Leaf",
+        "Halflings' leaf",
+        "All of these"
       ],
-      "correct_answer": "Her immortality",
+      "correct_answer": "All of these",
       "difficulty": "easy"
     },
     {
@@ -6838,14 +6838,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "Complete the quote: 'One does not simply walk into ____.'",
+      "question": "What does Frodo say about wishing none of this had happened?",
       "options": [
-        "Gondor",
-        "Mordor",
-        "Rohan",
-        "Rivendell"
+        "So do I",
+        "So do all who live to see such times",
+        "I wish the Ring had never come to me",
+        "Why me?"
       ],
-      "correct_answer": "Mordor",
+      "correct_answer": "So do all who live to see such times",
       "difficulty": "easy"
     },
     {
@@ -6854,14 +6854,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gandalf famously shout to the Balrog?",
+      "question": "What does Aragorn call Frodo when they part?",
       "options": [
-        "You cannot win!",
-        "You shall not pass!",
-        "Flee, you fools!",
-        "Begone, demon!"
+        "My friend",
+        "Ring-bearer",
+        "Brave hobbit",
+        "Little master"
       ],
-      "correct_answer": "You shall not pass!",
+      "correct_answer": "My friend",
       "difficulty": "easy"
     },
     {
@@ -6870,14 +6870,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "Who says 'My precious' throughout the story?",
+      "question": "What does Sam say about going home?",
       "options": [
-        "Bilbo",
-        "Frodo",
-        "Gollum",
-        "Sam"
+        "We're going home",
+        "I'm going home",
+        "The Shire awaits",
+        "We've won"
       ],
-      "correct_answer": "Gollum",
+      "correct_answer": "I'm going home",
       "difficulty": "easy"
     },
     {
@@ -6886,14 +6886,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Sam say he can't carry for Frodo, but he can carry Frodo?",
+      "question": "What does Pippin say about breakfast?",
       "options": [
-        "The burden",
-        "The Ring",
-        "The quest",
-        "The weight"
+        "What about breakfast?",
+        "We've had one, yes",
+        "What about second breakfast?",
+        "I'm hungry"
       ],
-      "correct_answer": "The Ring",
+      "correct_answer": "What about second breakfast?",
       "difficulty": "easy"
     },
     {
@@ -6902,14 +6902,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "Complete Bilbo's riddle: 'What have I got in my ____?'",
+      "question": "What does Merry say about the Shire at the end?",
       "options": [
-        "hand",
-        "pocket",
-        "bag",
-        "shoe"
+        "It hasn't changed",
+        "It's still there",
+        "It's been saved",
+        "You're right, Sam"
       ],
-      "correct_answer": "pocket",
+      "correct_answer": "It's been saved",
       "difficulty": "easy"
     },
     {
@@ -7085,7 +7085,7 @@
         "Gondor shall have a king",
         "None of these"
       ],
-      "correct_answer": "Gondor has no king, Gondor needs no king",
+      "correct_answer": "Gondor needs no king",
       "difficulty": "easy"
     },
     {
@@ -7224,10 +7224,10 @@
       "subtopic": "Quotes & Dialogue",
       "question": "What does Frodo volunteer at the Council?",
       "options": [
+        "I will take it",
         "I will take it to Mordor",
         "I will destroy it",
-        "I will take the Ring",
-        "All variations"
+        "I will bear this burden"
       ],
       "correct_answer": "I will take it",
       "difficulty": "medium"

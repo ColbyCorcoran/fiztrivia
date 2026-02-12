@@ -1,0 +1,228 @@
+================================================================================
+MAIN QUESTIONS.JSON - QUALITY ASSURANCE AUDIT REPORT
+================================================================================
+
+Total questions analyzed: 3584
+
+Questions by category:
+  Art: 300
+  Bible: 292
+  Entertainment: 298
+  Food: 300
+  Geography: 299
+  History: 298
+  Literature: 300
+  Music: 300
+  Nature: 300
+  Science: 300
+  Sports: 298
+  Technology: 299
+
+Questions by difficulty:
+  easy: 1211 (33.8%)
+  hard: 1061 (29.6%)
+  medium: 1312 (36.6%)
+
+================================================================================
+CATEGORY 1: AUTO-FIX (Clear typos/grammar)
+================================================================================
+
+✓ No auto-fix issues found!
+
+Total auto-fix issues: 0
+
+================================================================================
+CATEGORY 2: FLAG FOR REPLACEMENT (Exact/Semantic Duplicates)
+================================================================================
+
+--- SEMANTIC DUPLICATES (>90% similar) ---
+(Showing first 20 - many may be intentional)
+
+? Question ID: ent_003 vs ent_020 (90.9% similar)
+Q1: What is Batman's real name?
+Q2: What is Zatanna's real name?
+
+? Question ID: ent_078 vs ent_080 (91.5% similar)
+Q1: What is the name of the organization in Kingsman?
+Q2: What is the name of the organization in Salt?
+
+? Question ID: ent_175 vs ent_215 (93.6% similar)
+Q1: What is the name of the bar in How I Met Your Mother?
+Q2: What is the name of the mother in How I Met Your Mother?
+
+? Question ID: ent_248 vs ent_269 (92.0% similar)
+Q1: What is the name of the AI in 2001: A Space Odyssey?
+Q2: What is the name of the AI computer in 2001: A Space Odyssey?
+
+? Question ID: ent_272 vs ent_289 (92.1% similar)
+Q1: In Rick and Morty, what is Rick's last name?
+Q2: In Rick and Morty, what is Morty's last name?
+
+? Question ID: lit_181 vs lit_243 (91.4% similar)
+Q1: Who wrote 'Howl'?
+Q2: Who wrote 'Holes'?
+
+? Question ID: lit_289 vs lit_319 (91.9% similar)
+Q1: Who was the first African American woman to win the Nobel Prize in Literature?
+Q2: Who was the first Latin American to win the Nobel Prize in Literature?
+
+? Question ID: mus_003 vs mus_045 (90.3% similar)
+Q1: Who composed the music for Jaws?
+Q2: Who composed the music for Up?
+
+? Question ID: mus_005 vs mus_045 (90.3% similar)
+Q1: Who composed the music for E.T.?
+Q2: Who composed the music for Up?
+
+? Question ID: mus_160 vs mus_180 (90.7% similar)
+Q1: Who was the keyboardist for The Doors?
+Q2: Who was the keyboardist for The Band?
+
+? Question ID: mus_190 vs mus_194 (97.5% similar)
+Q1: What does BMA stand for in music awards?
+Q2: What does AMA stand for in music awards?
+
+? Question ID: mus_241 vs mus_250 (94.7% similar)
+Q1: How many strings does a standard guitar have?
+Q2: How many strings does a standard bass guitar have?
+
+? Question ID: tec_084 vs tec_086 (94.1% similar)
+Q1: What does 'OS' stand for?
+Q2: What does 'USB' stand for?
+
+? Question ID: tec_084 vs tec_089 (90.2% similar)
+Q1: What does 'OS' stand for?
+Q2: What does 'RAM' stand for?
+
+? Question ID: tec_084 vs tec_091 (90.2% similar)
+Q1: What does 'OS' stand for?
+Q2: What does 'CPU' stand for?
+
+? Question ID: tec_084 vs tec_094 (90.2% similar)
+Q1: What does 'OS' stand for?
+Q2: What does 'PDF' stand for?
+
+? Question ID: tec_084 vs tec_106 (94.1% similar)
+Q1: What does 'OS' stand for?
+Q2: What does 'SSD' stand for?
+
+? Question ID: tec_084 vs tec_110 (96.2% similar)
+Q1: What does 'OS' stand for?
+Q2: What does 'BIOS' stand for?
+
+? Question ID: tec_084 vs tec_114 (90.2% similar)
+Q1: What does 'OS' stand for?
+Q2: What does 'GUI' stand for?
+
+? Question ID: tec_084 vs tec_118 (90.2% similar)
+Q1: What does 'OS' stand for?
+Q2: What does 'API' stand for?
+
+... and 189 more
+
+Total duplicates: 0 exact, 209 semantic
+
+================================================================================
+CATEGORY 3: NEEDS VERIFICATION (Questionable accuracy/clarity)
+================================================================================
+
+--- POTENTIAL SELF-REVEALING ANSWERS ---
+(Note: Many may be false positives - manual review needed)
+(Showing first 20)
+
+? Question ID: ent_054
+Question: What is the name of the theme park in Jurassic Park?
+Answer: Jurassic Park
+
+? Question ID: ent_078
+Question: What is the name of the organization in Kingsman?
+Answer: Kingsman
+
+? Question ID: ent_108
+Question: What is the name of the robot in The Iron Giant?
+Answer: The Iron Giant
+
+? Question ID: ent_109
+Question: What is the name of the ogre in Shrek?
+Answer: Shrek
+
+? Question ID: ent_112
+Question: What is the name of the snail who dreams of racing in Turbo?
+Answer: Turbo
+
+? Question ID: ent_118
+Question: What is the name of the family in The Simpsons?
+Answer: The Simpsons
+
+? Question ID: ent_124
+Question: What is the name of the restaurant in Bob's Burgers?
+Answer: Bob's Burgers
+
+? Question ID: ent_128
+Question: What is the name of the main character in Megamind?
+Answer: Megamind
+
+? Question ID: ent_132
+Question: What is the name of the town in South Park?
+Answer: South Park
+
+? Question ID: ent_142
+Question: What is the name of the princess in Anastasia?
+Answer: Anastasia
+
+? Question ID: ent_150
+Question: What is the name of the horse in Spirit: Stallion of the Cimarron?
+Answer: Spirit
+
+? Question ID: ent_162
+Question: In BoJack Horseman, what is BoJack's species?
+Answer: Horse
+
+? Question ID: ent_181
+Question: What is the name of the band in School of Rock?
+Answer: School of Rock
+
+? Question ID: ent_243
+Question: What is the name of the alien in E.T.?
+Answer: E.T.
+
+? Question ID: ent_256
+Question: What is the name of the agency in Men in Black?
+Answer: Men in Black
+
+? Question ID: ent_271
+Question: What is the name of the theme park in Westworld?
+Answer: Westworld
+
+? Question ID: ent_291
+Question: In Battlestar Galactica, what is the name of the last battlestar?
+Answer: Galactica
+
+? Question ID: lit_033
+Question: Who authored 'The Tales of Beedle the Bard'?
+Answer: Beedle the Bard
+
+? Question ID: lit_064
+Question: What is the ancient language in 'The Inheritance Cycle'?
+Answer: The Ancient Language
+
+? Question ID: lit_066
+Question: What is the world called in 'The Wheel of Time'?
+Answer: The World
+
+... and 21 more
+
+Total verification issues: 41
+
+================================================================================
+SUMMARY
+================================================================================
+Total questions: 3584
+Auto-fix issues: 0
+Exact duplicates: 0
+Semantic duplicates: 209 (may be intentional)
+Self-revealing (potential): 41
+Answer option issues: 0
+TOTAL CRITICAL ISSUES: 0
+QUALITY SCORE: 100.0% (excluding semantic duplicates)
+================================================================================

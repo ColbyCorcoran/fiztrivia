@@ -11,6 +11,7 @@ struct SettingsView: View {
 
     @State private var swipeTranslation: CGFloat = 0
     @State private var showingStore = false
+    @State private var showingWhatsNew = false
 
     // Developer bypass state
     @StateObject private var developerBypassManager = DeveloperBypassManager.shared
@@ -148,6 +149,20 @@ struct SettingsView: View {
                             .buttonStyle(.plain)
                         }
 
+                        // What's New
+                        Button(action: {
+                            AnalyticsManager.shared.trackWhatsNewViewed(version: WhatsNewManager.shared.allUpdates.first?.version ?? "")
+                            HapticManager.shared.buttonTapEffect()
+                            showingWhatsNew = true
+                        }) {
+                            SettingsRow(
+                                icon: "sparkles",
+                                iconColor: .fizOrange,
+                                title: "What's New"
+                            )
+                        }
+                        .buttonStyle(.plain)
+
                         // Feature Requests & Bug Reports
                         Button(action: {
                             AnalyticsManager.shared.trackFeatureRequestsOpened()
@@ -256,6 +271,10 @@ struct SettingsView: View {
                 .gesture(settingsSwipeGesture)
                 .sheet(isPresented: $showingStore) {
                     StoreView()
+                        .presentationDragIndicator(.visible)
+                }
+                .sheet(isPresented: $showingWhatsNew) {
+                    WhatsNewView(updates: WhatsNewManager.shared.allUpdates)
                         .presentationDragIndicator(.visible)
                 }
                 .alert("Enter Access Code", isPresented: $showingCodePrompt) {

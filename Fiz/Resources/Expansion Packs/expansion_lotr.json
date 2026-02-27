@@ -1,6 +1,6 @@
 {
   "packId": "com.fiz.pack.lotr",
-  "packName": "The Great Journey",
+  "packName": "There and Back Again",
   "packDescription": "Embark on an epic adventure with 500 questions covering J.R.R. Tolkien's legendary fantasy world - explore hobbits, wizards, elves, dwarves, battles, and the timeless quest to save the realm.",
   "subtopics": [
     "Characters & Fellowship",
@@ -25,9 +25,9 @@
     "medium": 250,
     "hard": 100
   },
-  "price": 2.99,
-  "icon": "crown.fill",
-  "isPublished": false,
+  "price": 0.99,
+  "icon": "ring",
+  "isPublished": true,
   "releaseDate": "2026-03-01T00:00:00Z",
   "freePreviewQuestions": [
     {
@@ -140,7 +140,7 @@
         "My Master"
       ],
       "correct_answer": "My Precious",
-      "difficulty": "hard"
+      "difficulty": "easy"
     },
     {
       "id": "lotr_preview_008",

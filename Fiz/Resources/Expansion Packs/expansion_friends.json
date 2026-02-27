@@ -1,7 +1,7 @@
 {
   "packId": "com.fiz.pack.friends",
   "packName": "Central Perk Chronicles",
-  "packDescription": "Test your knowledge of the iconic '90s NYC sitcom with 400 questions about six unforgettable characters, their jobs, relationships, catchphrases, and hilarious moments from all ten seasons.",
+  "packDescription": "Test your knowledge of the iconic '90s NYC sitcom with 400 questions about six unforgettable characters, their jobs, relationships, catchphrases, and hilarious moments from all 10 seasons.",
   "subtopics": [
     "Characters & Personalities",
     "Episodes & Plot Lines",
@@ -25,9 +25,9 @@
     "medium": 200,
     "hard": 80
   },
-  "price": 2.99,
+  "price": 0.69,
   "icon": "cup.and.saucer.fill",
-  "isPublished": false,
+  "isPublished": true,
   "releaseDate": "2026-03-15T00:00:00Z",
   "freePreviewQuestions": [
     {

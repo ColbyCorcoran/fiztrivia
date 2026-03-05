@@ -16,6 +16,8 @@ struct GameModesSettingsView: View {
     @State private var previousMode: GameMode = .multiCategory
     @State private var pendingCategory: TriviaCategory?
     @State private var previousCategory: TriviaCategory?
+    @State private var pendingTopic: String?
+    @State private var previousTopic: String?
     @State private var localSelectedMode: GameMode = .multiCategory
     @State private var localSelectedCategory: TriviaCategory? = nil
     @State private var localSelectedTopic: String? = nil
@@ -501,8 +503,8 @@ struct GameModesSettingsView: View {
         let newValue = packId
 
         if gameViewModel.gameSession.currentStreak > 0 && oldValue != nil {
-            // Save old value temporarily
-            localSelectedTopic = newValue // Update UI immediately
+            previousTopic = oldValue
+            pendingTopic = newValue
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 self.showingStreakAlert = true
             }
@@ -543,6 +545,12 @@ struct GameModesSettingsView: View {
         }
 
         pendingCategory = nil
+
+        if let previousTop = previousTopic {
+            localSelectedTopic = previousTop
+            previousTopic = nil
+        }
+        pendingTopic = nil
 
         // Track streak save decision: cancelled
         AnalyticsManager.shared.trackStreakSaveDecision(action: "cancelled", streakValue: gameViewModel.gameSession.currentStreak)
@@ -620,8 +628,17 @@ struct GameModesSettingsView: View {
             pendingCategory = nil
         }
 
+        // Apply pending topic change
+        if let newTopic = pendingTopic {
+            gameModeManager.setSelectedTopic(newTopic)
+            localSelectedTopic = newTopic
+            AnalyticsManager.shared.trackSettingChanged(setting: "single_topic_selected", value: newTopic)
+            pendingTopic = nil
+        }
+
         previousMode = localSelectedMode
         previousCategory = nil
+        previousTopic = nil
 
         HapticManager.shared.buttonTapEffect()
 

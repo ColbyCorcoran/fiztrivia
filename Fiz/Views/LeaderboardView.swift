@@ -4,6 +4,8 @@ import SwiftData
 struct LeaderboardView: View {
     @Bindable var gameViewModel: GameViewModel
     var onSwipe: ((SwipeDirection) -> Void)? = nil
+    var onDragChanged: ((CGFloat) -> Void)? = nil
+    var onDragEnded: (() -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @Environment(\.modelContext) private var modelContext
@@ -35,7 +37,7 @@ struct LeaderboardView: View {
                     Button(action: {
                         gameViewModel.continueGame()
                     }) {
-                        Image(systemName: "checkmark")
+                        Image(systemName: "chart.pie.fill")
                             .font(.title3.weight(.semibold))
                     }
                     .glassButtonStyle()
@@ -136,16 +138,26 @@ struct LeaderboardView: View {
                 .padding(.vertical, 20)
             }
         }
-        .gesture(leaderboardSwipeGesture)
+        .simultaneousGesture(leaderboardSwipeGesture)
     }
 
     private var leaderboardSwipeGesture: some Gesture {
-        DragGesture(minimumDistance: 50)
+        DragGesture(minimumDistance: 10)
+            .onChanged { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+                let horizontalDistance = value.translation.width
+                let verticalDistance = value.translation.height
+                let isHorizontal = abs(horizontalDistance) > abs(verticalDistance) * 1.2
+                if isHorizontal {
+                    onDragChanged?(horizontalDistance)
+                }
+            }
             .onEnded { value in
+                onDragEnded?()
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
                 let distance = value.translation.width
-                let threshold: CGFloat = 50
+                let threshold: CGFloat = 60
 
                 if distance < -threshold {
                     HapticManager.shared.lightImpact()
@@ -159,6 +171,7 @@ struct LeaderboardRow: View {
     let rank: Int
     let entry: LeaderboardEntry
     let isTopThree: Bool
+    @Environment(\.sizeCategory) private var sizeCategory
 
     private var rankIcon: String {
         switch rank {
@@ -217,8 +230,11 @@ struct LeaderboardRow: View {
                 // Game mode badge
                 if entry.gameMode != "Multi-Category" {
                     HStack(spacing: 4) {
-                        Image(systemName: icon(for: entry.gameMode))
-                            .font(.system(size: 10))
+                        // Hide icon at accessibility sizes to avoid misalignment
+                        if !sizeCategory.isAccessibilitySize {
+                            Image(systemName: icon(for: entry.gameMode))
+                                .font(.caption2)
+                        }
                         if let category = entry.categoryName {
                             Text("\(entry.gameMode): \(category)")
                                 .font(.caption2)

@@ -30,10 +30,11 @@ struct WhatsNewView: View {
                         HapticManager.shared.buttonTapEffect()
                         dismiss()
                     }) {
-                        Image(systemName: "xmark.circle.fill")
-                            .font(.title2)
-                            .foregroundColor(.secondary)
+                        Image(systemName: "xmark")
+                            .font(.title3.weight(.semibold))
                     }
+                    .glassButtonStyle()
+                    .tint(.fizTeal)
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 20)
@@ -42,50 +43,25 @@ struct WhatsNewView: View {
                 // Scrollable content
                 ScrollView {
                     VStack(alignment: .leading, spacing: 0) {
-                        // "What's New" title block
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text("What's New")
-                                .font(.largeTitle.bold())
-                                .foregroundColor(.primary)
+                        // "What's New" title
+                        Text("What's New")
+                            .font(.largeTitle.bold())
+                            .foregroundColor(.primary)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.horizontal, 24)
+                            .padding(.bottom, 20)
 
-                            Text("Version \(latestVersion)")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                        }
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.horizontal, 24)
-                        .padding(.bottom, 28)
-
-                        // Feature sections
+                        // Feature sections — all show the version header line
                         ForEach(Array(updates.enumerated()), id: \.element.id) { index, update in
                             WhatsNewUpdateSection(
                                 update: update,
-                                isLatest: index == 0,
-                                showVersionHeader: index > 0
+                                isLatest: index == 0
                             )
                         }
                     }
                     .padding(.top, 4)
-                    .padding(.bottom, 20)
+                    .padding(.bottom, 32)
                 }
-
-                // Continue button
-                Button(action: {
-                    whatsNewManager.markCurrentVersionAsSeen()
-                    AnalyticsManager.shared.trackWhatsNewCompleted(version: latestVersion)
-                    HapticManager.shared.buttonTapEffect()
-                    dismiss()
-                }) {
-                    Text("Continue")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                        .frame(height: 50)
-                        .background(Color.fizOrange)
-                        .cornerRadius(12)
-                }
-                .padding(.horizontal, 20)
-                .padding(.vertical, 20)
             }
         }
     }
@@ -96,25 +72,22 @@ struct WhatsNewView: View {
 struct WhatsNewUpdateSection: View {
     let update: WhatsNewUpdate
     let isLatest: Bool
-    var showVersionHeader: Bool = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            // Version header for older updates
-            if showVersionHeader {
-                HStack {
-                    Text("Version \(update.version)")
-                        .font(.footnote.weight(.semibold))
-                        .foregroundColor(.secondary)
-                        .textCase(.uppercase)
-                    Rectangle()
-                        .frame(height: 0.5)
-                        .foregroundColor(Color.secondary.opacity(0.3))
-                }
-                .padding(.horizontal, 24)
-                .padding(.top, 32)
-                .padding(.bottom, 16)
+            // Version header — always shown, no top padding for the first section
+            HStack {
+                Text("Version \(update.version)")
+                    .font(.footnote.weight(.semibold))
+                    .foregroundColor(.secondary)
+                    .textCase(.uppercase)
+                Rectangle()
+                    .frame(height: 0.5)
+                    .foregroundColor(Color.secondary.opacity(0.3))
             }
+            .padding(.horizontal, 24)
+            .padding(.top, isLatest ? 0 : 32)
+            .padding(.bottom, 16)
 
             // Feature rows
             VStack(spacing: 0) {

@@ -1,8 +1,11 @@
 import SwiftUI
+import TipKit
 
 struct DifficultySettingsView: View {
     @StateObject private var difficultyManager = DifficultyManager.shared
     @Environment(\.sizeCategory) private var sizeCategory
+
+    @State private var difficultyTip = DifficultyTip()
 
     private var backgroundGradient: some View {
         Color(.systemGroupedBackground)
@@ -11,6 +14,13 @@ struct DifficultySettingsView: View {
 
     var body: some View {
         Form {
+            Section {
+                TipView(difficultyTip)
+                    .tipBackground(.background)
+                    .listRowInsets(EdgeInsets())
+                    .listRowBackground(Color.clear)
+            }
+
             Section(footer: Text("Choose the difficulty level that matches your preferred trivia experience.")) {
                 VStack(alignment: .leading, spacing: 8) {
                     HStack {

@@ -1,4 +1,5 @@
 import SwiftUI
+import TipKit
 
 struct PhobiaSettingsView: View {
     @StateObject private var phobiaManager = PhobiaExclusionManager.shared
@@ -12,6 +13,8 @@ struct PhobiaSettingsView: View {
     // Access GameViewModel to get questions for scanning
     private var gameViewModel = GameViewModel()
 
+    @State private var phobiaFilterTip = PhobiaFilterTip()
+
     private var backgroundGradient: some View {
         Color(.systemGroupedBackground)
             .ignoresSafeArea()
@@ -19,6 +22,13 @@ struct PhobiaSettingsView: View {
 
     var body: some View {
         Form {
+            Section {
+                TipView(phobiaFilterTip)
+                    .tipBackground(.background)
+                    .listRowInsets(EdgeInsets())
+                    .listRowBackground(Color.clear)
+            }
+
             if phobiaManager.phobias.isEmpty {
                 Section {
                     VStack(spacing: 12) {

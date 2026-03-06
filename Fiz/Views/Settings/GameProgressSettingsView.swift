@@ -55,6 +55,32 @@ struct GameProgressSettingsView: View {
                 }
             }
 
+            // Topic-Specific Section (only shown when Single Topic Mode is enabled)
+            if gameModeManager.isSingleTopicMode,
+               let selectedTopic = gameModeManager.selectedTopic {
+
+                let packName = ExpansionPackManager.shared.getDisplayName(for: selectedTopic)
+
+                Section(header: Text("\(packName) Questions")) {
+                    let topicProgress = gameViewModel.getTopicProgress(selectedTopic)
+
+                    HStack {
+                        Text("Questions Answered")
+                        Spacer()
+                        Text("\(topicProgress.answered) / \(topicProgress.total)")
+                            .foregroundColor(.secondary)
+                    }
+
+                    HStack {
+                        Text("Completion")
+                        Spacer()
+                        let progress = Double(topicProgress.answered) / Double(max(topicProgress.total, 1))
+                        Text("\(Int(progress * 100))%")
+                            .foregroundColor(.secondary)
+                    }
+                }
+            }
+
             Section {
                 Button(action: {
                     showingResetAlert = true

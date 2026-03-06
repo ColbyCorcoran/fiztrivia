@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import TipKit
 
 // MARK: - Wheel Segment Data
 struct WheelSegmentData: Hashable {
@@ -21,6 +22,8 @@ struct WheelSegmentData: Hashable {
 struct CategoryWheelView: View {
     @Bindable var gameViewModel: GameViewModel
     var onSwipe: ((SwipeDirection) -> Void)? = nil
+    var onDragChanged: ((CGFloat) -> Void)? = nil
+    var onDragEnded: (() -> Void)? = nil
     @StateObject private var userManager = UserManager.shared
     @StateObject private var difficultyManager = DifficultyManager.shared
     @StateObject private var gameModeManager = GameModeManager.shared
@@ -42,6 +45,9 @@ struct CategoryWheelView: View {
 
     // Modal presentation for large Dynamic Type sizes
     @State private var showingQuestionModal = false
+
+    // Inline expansion for accessibility text sizes (fades wheel, expands question area)
+    @State private var isAccessibilityExpanded = false
 
     // Drag gesture state for pull-to-spin
     @State private var dragRotation: Double = 0
@@ -74,6 +80,11 @@ struct CategoryWheelView: View {
 
     // Store modal presentation
     @State private var showingStore = false
+    @State private var showingGameModes = false
+
+    // TipKit instances
+    @State private var gameModeTip = GameModeTip()
+    @State private var expansionPackTip = ExpansionPackTip()
 
     // Preview pack completion alert
     @State private var showingPreviewCompletionAlert = false
@@ -432,9 +443,9 @@ struct CategoryWheelView: View {
     // for accessibility text sizes (.accessibility3+) to prevent
     // content from being hidden behind the wheel
     private var shouldUseModalPresentation: Bool {
-        // Use modal only at large accessibility text sizes
-        // iPad has enough room for inline questions with the properly sized wheel
-        sizeCategory.shouldUseModalQuestions
+        // Keep modal only as a last-resort fallback for the absolute largest text size.
+        // All other accessibility sizes use inline expansion (wheel fades, question fills screen).
+        sizeCategory >= .accessibilityExtraExtraExtraLarge
     }
 
     // iPad detection helper
@@ -464,7 +475,11 @@ struct CategoryWheelView: View {
             backgroundGradient
             uiContentLayer(geometry: geometry)
             wheelLayer(geometry: geometry)
+                .opacity(isAccessibilityExpanded ? 0 : 1)
+                .animation(.easeInOut(duration: 0.35), value: isAccessibilityExpanded)
             homeBarGradient
+                .opacity(isAccessibilityExpanded ? 0 : 1)
+                .animation(.easeInOut(duration: 0.35), value: isAccessibilityExpanded)
 
             // Toast notification for subcategory/category/subtopic completion
             if showingCompletionToast {
@@ -533,7 +548,7 @@ struct CategoryWheelView: View {
                 completionCelebrationOverlay
             }
         }
-        .gesture(navigationSwipeGesture)
+        .simultaneousGesture(navigationSwipeGesture)
         .alert("All Questions Completed! 🎉", isPresented: $gameViewModel.showSingleCategoryCompletionAlert) {
             Button("Change Game Mode") {
                 HapticManager.shared.buttonTapEffect()
@@ -598,6 +613,11 @@ struct CategoryWheelView: View {
             StoreView()
                 .presentationDragIndicator(.visible)
         }
+        .sheet(isPresented: $showingGameModes) {
+            GameModesQuickSheet(gameViewModel: gameViewModel)
+                .presentationDragIndicator(.visible)
+                .presentationDetents([.large])
+        }
     }
     
     private var backgroundGradient: some View {
@@ -613,7 +633,10 @@ struct CategoryWheelView: View {
         VStack(spacing: 0) {
             topToolbar
             questionAreaWithCalculatedSpacing(geometry: geometry)
-            Spacer()
+            // Remove Spacer when expanded so question area fills remaining height
+            if !isAccessibilityExpanded {
+                Spacer()
+            }
         }
     }
     
@@ -661,6 +684,7 @@ struct CategoryWheelView: View {
                 .modifier(ExpansionPacksButtonStyle())
                 .disabled(navigationButtonsDisabled)
                 .opacity(navigationButtonsDisabled ? 0.5 : 1.0)
+                .popoverTip(expansionPackTip)
                 .triviaAccessibility(
                     label: "Expansion Packs Store",
                     hint: "Browse expansion packs",
@@ -706,21 +730,35 @@ struct CategoryWheelView: View {
 
                     // Right side: Mode indicator (if applicable) and streak badge
                     HStack(spacing: 8) {
-                    // Game mode indicator - always visible for all modes
-                    HStack(spacing: 4) {
-                        Image(systemName: gameModeManager.selectedMode.icon)
-                            .font(.caption)
-                        Text("Mode")
-                            .font(.system(size: 14))
-                            .fontWeight(.semibold)
-                            .minimumScaleFactor(0.9)
-                            .lineLimit(1)
+                    // Game mode indicator - tappable to open quick mode switcher
+                    Button(action: {
+                        guard !navigationButtonsDisabled else { return }
+                        HapticManager.shared.buttonTapEffect()
+                        showingGameModes = true
+                    }) {
+                        HStack(spacing: 4) {
+                            Image(systemName: gameModeManager.selectedMode.icon)
+                                .font(.caption)
+                            Text("Mode")
+                                .font(.system(size: 14))
+                                .fontWeight(.semibold)
+                                .minimumScaleFactor(0.9)
+                                .lineLimit(1)
+                        }
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(Color.fizOrange.opacity(0.15))
+                        .foregroundColor(Color.fizOrange)
+                        .cornerRadius(8)
                     }
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 4)
-                    .background(Color.fizOrange.opacity(0.15))
-                    .foregroundColor(Color.fizOrange)
-                    .cornerRadius(8)
+                    .buttonStyle(.plain)
+                    .disabled(navigationButtonsDisabled)
+                    .popoverTip(gameModeTip)
+                    .triviaAccessibility(
+                        label: "Game Mode: \(gameModeManager.selectedMode.rawValue)",
+                        hint: "Tap to change game mode",
+                        traits: .isButton
+                    )
 
                     // Streak badge
                     HStack(spacing: 4) {
@@ -781,14 +819,36 @@ struct CategoryWheelView: View {
             .animation(.easeInOut(duration: 0.3), value: showingQuestion)
             .animation(.easeInOut(duration: 0.3), value: showingResult)
         }
-        .frame(height: 300 * sizeCategory.conservativeScaleFactor)
-        .frame(maxWidth: .infinity)
+        .frame(height: isAccessibilityExpanded ? nil : 300 * sizeCategory.conservativeScaleFactor)
+        .frame(maxWidth: .infinity, maxHeight: isAccessibilityExpanded ? .infinity : nil)
         .padding(.horizontal, 16)
     }
 
     private var navigationSwipeGesture: some Gesture {
-        DragGesture(minimumDistance: 50)
+        DragGesture(minimumDistance: 10)
+            .onChanged { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled,
+                      !showingQuestion,
+                      !showingResult,
+                      !gameViewModel.isSpinning,
+                      !navigationButtonsDisabled else {
+                    return
+                }
+
+                let horizontalDistance = value.translation.width
+                let verticalDistance = value.translation.height
+
+                // Only track horizontal drags for live page movement
+                let isHorizontal = abs(horizontalDistance) > abs(verticalDistance) * 1.2
+
+                if isHorizontal {
+                    onDragChanged?(horizontalDistance)
+                }
+            }
             .onEnded { value in
+                // Always reset live drag offset on release
+                onDragEnded?()
+
                 guard swipeNavigationManager.isSwipeNavigationEnabled,
                       !showingQuestion,
                       !showingResult,
@@ -812,8 +872,8 @@ struct CategoryWheelView: View {
                     return
                 }
 
-                // Lower threshold for more responsive feel
-                let threshold: CGFloat = 50
+                // Threshold for triggering page change
+                let threshold: CGFloat = 60
 
                 if horizontalDistance > threshold {
                     HapticManager.shared.lightImpact()
@@ -826,6 +886,12 @@ struct CategoryWheelView: View {
     }
 
     private func questionAreaWithCalculatedSpacing(geometry: GeometryProxy) -> some View {
+        // When accessibility expanded, skip centering math — question fills all available space
+        if isAccessibilityExpanded {
+            return questionArea
+                .padding(.top, 8)  // Small breathing room below toolbar
+        }
+
         // Calculate actual toolbar height based on what's visible
         let buttonRowHeight: CGFloat = 44 + 10 + 15  // height (44) + top padding (10) + bottom padding (15) = 69pt
         let taglineRowHeight: CGFloat = sizeCategory < .accessibilityMedium ? (32 + 4) : 0  // height (32) + top padding (4) when visible
@@ -1295,10 +1361,15 @@ struct CategoryWheelView: View {
 
         // Show question after a brief delay
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            withAnimation(.easeInOut(duration: 0.3)) {
+            withAnimation(.easeInOut(duration: 0.35)) {
                 showingQuestion = true
 
-                // Show modal if using large text size
+                // Activate inline expansion for accessibility sizes (fades wheel, fills screen)
+                if sizeCategory.isAccessibilitySize && !shouldUseModalPresentation {
+                    isAccessibilityExpanded = true
+                }
+
+                // Show modal only as last-resort fallback for the absolute largest text size
                 if shouldUseModalPresentation {
                     showingQuestionModal = true
                 }
@@ -1439,11 +1510,12 @@ struct CategoryWheelView: View {
         // Auto-clear after delay (use user-configured durations)
         let clearDelay = wasIncorrect ? popupDurationManager.incorrectPopupDuration : popupDurationManager.correctPopupDuration
         DispatchQueue.main.asyncAfter(deadline: .now() + clearDelay) {
-            withAnimation(.easeOut(duration: 0.3)) {
+            withAnimation(.easeOut(duration: 0.35)) {
                 showingResult = false
                 currentQuestion = nil
                 answerResult = .unanswered
                 navigationButtonsDisabled = false // Re-enable all buttons
+                isAccessibilityExpanded = false   // Restore wheel
 
                 // Close modal if it was open
                 if shouldUseModalPresentation {
@@ -1474,12 +1546,13 @@ struct CategoryWheelView: View {
     private func handleModalDismiss() {
         // Called when modal is dismissed (should not normally happen since dismissal is disabled)
         // This is a fallback in case the modal is dismissed unexpectedly
-        withAnimation(.easeOut(duration: 0.3)) {
+        withAnimation(.easeOut(duration: 0.35)) {
             showingResult = false
             showingQuestionModal = false
             currentQuestion = nil
             answerResult = .unanswered
             navigationButtonsDisabled = false
+            isAccessibilityExpanded = false
         }
     }
 

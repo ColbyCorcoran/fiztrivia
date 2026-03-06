@@ -26,19 +26,6 @@ struct ExpansionPackTip: Tip {
     }
 }
 
-// MARK: - Swipe Navigation Tip
-struct SwipeNavigationTip: Tip {
-    var title: Text {
-        Text("Swipe to Navigate")
-    }
-    var message: Text? {
-        Text("Swipe left or right anywhere on screen to move between the Leaderboard, Wheel, and Settings — no buttons needed.")
-    }
-    var image: Image? {
-        Image(systemName: "hand.draw")
-    }
-}
-
 // MARK: - Phobia Filter Tip
 struct PhobiaFilterTip: Tip {
     var title: Text {

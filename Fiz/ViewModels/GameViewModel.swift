@@ -364,4 +364,10 @@ class GameViewModel {
         let total = answeredQuestionsManager.getTotalQuestionsForCategory(category.rawValue, in: questions, difficultyMode: difficultyManager.selectedDifficulty)
         return (answered, total)
     }
+
+    func getTopicProgress(_ topicId: String) -> (answered: Int, total: Int) {
+        let answered = answeredQuestionsManager.getAnsweredCountForTopic(topicId, in: questions, difficultyMode: difficultyManager.selectedDifficulty)
+        let total = answeredQuestionsManager.getTotalQuestionsForTopic(topicId, in: questions, difficultyMode: difficultyManager.selectedDifficulty)
+        return (answered, total)
+    }
 }

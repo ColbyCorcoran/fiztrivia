@@ -3,6 +3,8 @@ import SwiftUI
 struct SettingsView: View {
     @Bindable var gameViewModel: GameViewModel
     var onSwipe: ((SwipeDirection) -> Void)? = nil
+    var onDragChanged: ((CGFloat) -> Void)? = nil
+    var onDragEnded: (() -> Void)? = nil
     @StateObject private var swipeNavigationManager = SwipeNavigationManager.shared
     @StateObject private var gameModeManager = GameModeManager.shared
     @StateObject private var onboardingManager = OnboardingManager.shared
@@ -30,37 +32,38 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             Form {
-                    // Question History - TOP (standalone, no section header)
-                    NavigationLink(destination: QuestionHistoryView()) {
-                        SettingsRow(
-                            icon: "clock.arrow.circlepath",
-                            iconColor: .fizBrown,
-                            title: "Question History"
-                            // subtitle: "Review answered questions"
-                        )
-                    }
+                    // Question History + Expansion Packs
+                    Section {
+                        NavigationLink(destination: QuestionHistoryView()) {
+                            SettingsRow(
+                                icon: "clock.arrow.circlepath",
+                                iconColor: .fizBrown,
+                                title: "Question History"
+                            )
+                        }
 
-                    // Store - Expansion Packs
-                    Button(action: {
-                        HapticManager.shared.buttonTapEffect()
-                        showingStore = true
-                    }) {
-                        SettingsRow(
-                            icon: "rectangle.stack.badge.plus",
-                            iconColor: .fizOrange,
-                            title: "Expansion Packs"
-                        )
+                        Button(action: {
+                            HapticManager.shared.buttonTapEffect()
+                            showingStore = true
+                        }) {
+                            SettingsRow(
+                                icon: "rectangle.stack.badge.plus",
+                                iconColor: .fizOrange,
+                                title: "Expansion Packs"
+                            )
+                        }
+                        .buttonStyle(.plain)
+                    } footer: {
+                        Text("Browse your answered questions or add themed question packs to your library.")
                     }
-                    .buttonStyle(.plain)
 
                     // Game Settings Section
-                    Section("Game Settings") {
+                    Section(content: {
                         NavigationLink(destination: DifficultySettingsView()) {
                             SettingsRow(
                                 icon: "speedometer",
                                 iconColor: .fizOrange,
                                 title: "Game Difficulty"
-                                // subtitle: "Casual, Normal, or Difficult"
                             )
                         }
                         NavigationLink(destination: GameModesSettingsView(gameViewModel: gameViewModel)) {
@@ -68,7 +71,6 @@ struct SettingsView: View {
                                 icon: gameModeManager.selectedMode.icon,
                                 iconColor: .fizOrange,
                                 title: "Game Modes"
-                                // subtitle: "Single category focus mode"
                             )
                         }
                         NavigationLink(destination: GameProgressSettingsView(gameViewModel: gameViewModel)) {
@@ -76,19 +78,21 @@ struct SettingsView: View {
                                 icon: "chart.line.uptrend.xyaxis",
                                 iconColor: .fizOrange,
                                 title: "Game Progress"
-                                // subtitle: "Stats and reset options"
                             )
                         }
-                    }
+                    }, header: {
+                        Text("Game Settings")
+                    }, footer: {
+                        Text("Adjust how you play: control question difficulty, switch between Multi-Category, Single Category, or Single Topic modes, and track your overall progress.")
+                    })
 
                     // Personalization Section
-                    Section("Personalization") {
+                    Section(content: {
                         NavigationLink(destination: UsernameSettingsView()) {
                             SettingsRow(
                                 icon: "person.fill",
                                 iconColor: .fizTeal,
                                 title: "Username"
-                                // subtitle: "Change your display name"
                             )
                         }
                         NavigationLink(destination: AppIconSettingsView()) {
@@ -96,7 +100,6 @@ struct SettingsView: View {
                                 icon: "app.badge",
                                 iconColor: .fizTeal,
                                 title: "App Icon"
-                                // subtitle: "Choose your favorite Fiz"
                             )
                         }
                         NavigationLink(destination: PhobiaSettingsView()) {
@@ -104,7 +107,6 @@ struct SettingsView: View {
                                 icon: "eye.slash",
                                 iconColor: .fizTeal,
                                 title: "Phobia Filters"
-                                // subtitle: "Exclude topics you'd like to avoid"
                             )
                         }
                         NavigationLink(destination: HapticsSettingsView()) {
@@ -112,7 +114,6 @@ struct SettingsView: View {
                                 icon: "hand.tap.fill",
                                 iconColor: .fizTeal,
                                 title: "Interaction"
-                                // subtitle: "Haptics and swipe navigation"
                             )
                         }
                         NavigationLink(destination: PopupDurationSettingsView()) {
@@ -120,7 +121,6 @@ struct SettingsView: View {
                                 icon: "timer",
                                 iconColor: .fizTeal,
                                 title: "Answer Popup Duration"
-                                // subtitle: "Control result display timing"
                             )
                         }
                         NavigationLink(destination: AnalyticsSettingsView()) {
@@ -128,13 +128,16 @@ struct SettingsView: View {
                                 icon: "chart.bar.fill",
                                 iconColor: .fizTeal,
                                 title: "Analytics"
-                                // subtitle: "Anonymous usage data sharing"
                             )
                         }
-                    }
+                    }, header: {
+                        Text("Personalization")
+                    }, footer: {
+                        Text("Make Fiz your own — set your name, pick an app icon, filter out uncomfortable topics, and tune haptics and result timing.")
+                    })
 
                     // Support & Legal Section
-                    Section("Support & Legal") {
+                    Section(content: {
                         // Developer Bypass Deactivation (only visible when active)
                         if developerBypassManager.isBypassActive {
                             Button(action: {
@@ -157,7 +160,7 @@ struct SettingsView: View {
                         }) {
                             SettingsRow(
                                 icon: "sparkles",
-                                iconColor: .fizOrange,
+                                iconColor: .fizBrown,
                                 title: "What's New"
                             )
                         }
@@ -224,15 +227,20 @@ struct SettingsView: View {
                             )
                         }
                         .buttonStyle(.plain)
+                    }, header: {
+                        Text("Support & Legal")
+                    }, footer: {
+                        Text("See what's changed, request features, review our policies, or get in touch with support.")
+                    })
 
-                        // Version footer at bottom
+                    // Version number — outside all sections so it sits below all footers
+                    Section {
                         Text("Version \(appVersion)")
                             .font(.caption)
                             .foregroundColor(.secondary)
                             .frame(maxWidth: .infinity)
                             .listRowBackground(Color.clear)
                             .listRowSeparator(.hidden)
-                            .padding(.top, 8)
                             .onTapGesture {
                                 let now = Date()
                                 // Reset count if more than 2 seconds since last tap
@@ -262,13 +270,13 @@ struct SettingsView: View {
                         Button(action: {
                             gameViewModel.continueGame()
                         }) {
-                            Image(systemName: "checkmark")
+                            Image(systemName: "chart.pie.fill")
                                 .font(.body.weight(.semibold))
                         }
                         .tint(.fizTeal)
                     }
                 }
-                .gesture(settingsSwipeGesture)
+                .simultaneousGesture(settingsSwipeGesture)
                 .sheet(isPresented: $showingStore) {
                     StoreView()
                         .presentationDragIndicator(.visible)
@@ -310,12 +318,22 @@ struct SettingsView: View {
         }
 
     private var settingsSwipeGesture: some Gesture {
-        DragGesture(minimumDistance: 50)
+        DragGesture(minimumDistance: 10)
+            .onChanged { value in
+                guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+                let horizontalDistance = value.translation.width
+                let verticalDistance = value.translation.height
+                let isHorizontal = abs(horizontalDistance) > abs(verticalDistance) * 1.2
+                if isHorizontal {
+                    onDragChanged?(horizontalDistance)
+                }
+            }
             .onEnded { value in
+                onDragEnded?()
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
                 let distance = value.translation.width
-                let threshold: CGFloat = 50
+                let threshold: CGFloat = 60
 
                 if distance > threshold {
                     HapticManager.shared.lightImpact()

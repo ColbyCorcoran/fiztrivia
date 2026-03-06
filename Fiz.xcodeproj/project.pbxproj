@@ -73,6 +73,8 @@
 		B699B5FC2EBE3CA4001AF50D /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */; };
 		B6B0E35C2EC5018C007873A8 /* PostHog in Frameworks */ = {isa = PBXBuildFile; productRef = B6B0E35B2EC5018C007873A8 /* PostHog */; };
 		B6B0E35E2EC501BA007873A8 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0E35D2EC501BA007873A8 /* AnalyticsManager.swift */; };
+		B6DD65FB2F5B79D700EE730D /* FizTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD65FA2F5B79D700EE730D /* FizTips.swift */; };
+		B6DD65FD2F5B79F500EE730D /* GameModesQuickSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD65FC2F5B79F500EE730D /* GameModesQuickSheet.swift */; };
 		B6E1CF722ED7B1380021D4B3 /* QuestionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E1CF712ED7B1380021D4B3 /* QuestionHistoryView.swift */; };
 /* End PBXBuildFile section */
 
@@ -166,6 +168,8 @@
 		B699B5FB2EBE3CA4001AF50D /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		B699B6012EBE4A79001AF50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B6B0E35D2EC501BA007873A8 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		B6DD65FA2F5B79D700EE730D /* FizTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizTips.swift; sourceTree = "<group>"; };
+		B6DD65FC2F5B79F500EE730D /* GameModesQuickSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModesQuickSheet.swift; sourceTree = "<group>"; };
 		B6E1CF712ED7B1380021D4B3 /* QuestionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -358,6 +362,7 @@
 				B66F03052F05A34E007B0E79 /* CartManager.swift */,
 				B66F03062F05A34E007B0E79 /* DiscountCodeManager.swift */,
 				B623B52D2F37EF89002025A7 /* UserDefaultsKeys.swift */,
+				B6DD65FA2F5B79D700EE730D /* FizTips.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 				B66F02F12F057440007B0E79 /* StoreView.swift */,
 				B66F03092F05A356007B0E79 /* CartView.swift */,
 				B659D03D2F3279E200AD56E3 /* Store */,
+				B6DD65FC2F5B79F500EE730D /* GameModesQuickSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -567,6 +573,7 @@
 				B68C5A922EBD2BD700C2A449 /* LeaderboardView.swift in Sources */,
 				B66F02B72EFC370C007B0E79 /* QuestionModalView.swift in Sources */,
 				B66F02B82EFC370C007B0E79 /* QuestionContentView.swift in Sources */,
+				B6DD65FB2F5B79D700EE730D /* FizTips.swift in Sources */,
 				B66F02B92EFC370C007B0E79 /* ResultContentView.swift in Sources */,
 				B66F03072F05A34E007B0E79 /* DiscountCodeManager.swift in Sources */,
 				B66F03082F05A34E007B0E79 /* CartManager.swift in Sources */,
@@ -591,6 +598,7 @@
 				B66F02CF2F006EE2007B0E79 /* AnalyticsSettingsView.swift in Sources */,
 				B66F02D02F006EE2007B0E79 /* PopupDurationSettingsView.swift in Sources */,
 				B66F02D12F006EE2007B0E79 /* HapticsSettingsView.swift in Sources */,
+				B6DD65FD2F5B79F500EE730D /* GameModesQuickSheet.swift in Sources */,
 				B66F02D22F006EE2007B0E79 /* GameModesSettingsView.swift in Sources */,
 				B68C5A942EBD2BDF00C2A449 /* SettingsView.swift in Sources */,
 				B6E1CF722ED7B1380021D4B3 /* QuestionHistoryView.swift in Sources */,
@@ -803,7 +811,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.4;
+				MARKETING_VERSION = 1.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.Fiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -839,7 +847,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.4;
+				MARKETING_VERSION = 1.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = colbyacorcoran.Fiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
 
 @main
 struct FizApp: App {
@@ -31,6 +32,12 @@ struct FizApp: App {
     init() {
         // Validate UserDefaults keys on app launch (debug builds only)
         UserDefaultsKeys.validateUniqueKeys()
+
+        // Configure TipKit — tips show at most once per day, stored in app's default location
+        try? Tips.configure([
+            .displayFrequency(.immediate),
+            .datastoreLocation(.applicationDefault)
+        ])
     }
 
     var body: some Scene {
@@ -44,8 +51,11 @@ struct FizApp: App {
                 // Track analytics
                 AnalyticsManager.shared.trackAppOpened()
 
-                // Increment launch count for secondary onboarding
-                onboardingManager.incrementLaunchCount()
+                // Increment launch count only on genuine foreground transitions
+                // (background → active), not on every activation (e.g. dismissing Control Center)
+                if oldPhase == .background {
+                    onboardingManager.incrementLaunchCount()
+                }
             case .background:
                 AnalyticsManager.shared.trackAppBackgrounded()
             case .inactive:

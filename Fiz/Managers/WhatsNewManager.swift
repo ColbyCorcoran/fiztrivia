@@ -20,6 +20,16 @@ class WhatsNewManager: ObservableObject {
     // Updates are shown in order: newest first
     private let updates: [WhatsNewUpdate] = [
         WhatsNewUpdate(
+            version: "1.2.5",
+            title: "Smarter, Smoother, Better",
+            features: [
+                WhatsNewFeature(icon: "circle.grid.cross.left.filled", title: "Quick Mode Switch", description: "Tap the Mode badge on the wheel view to instantly switch game modes without diving into settings."),
+                WhatsNewFeature(icon: "lightbulb.fill", title: "Helpful Tips", description: "First-time tips now appear on the wheel view and in settings to help you discover features you might have missed."),
+                WhatsNewFeature(icon: "chart.line.uptrend.xyaxis", title: "Single Topic Progress", description: "Game Progress now tracks your completion when playing in Single Topic mode."),
+                WhatsNewFeature(icon: "sparkles", title: "What's New Redesign", description: "This view got a cleaner look with version headers and a more readable layout.")
+            ]
+        ),
+        WhatsNewUpdate(
             version: "1.2.4",
             title: "More New Packs!",
             features: [

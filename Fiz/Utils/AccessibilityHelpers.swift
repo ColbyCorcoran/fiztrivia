@@ -126,13 +126,9 @@ extension ContentSizeCategory {
     }
 
     /// Returns the preferred initial modal detent based on text size
-    /// For very large accessibility sizes, start at .large for maximum space
+    /// Always starts at .large so users don't have to manually expand every time
     var preferredModalDetent: PresentationDetent {
-        if self >= .accessibilityExtraLarge {
-            return .large  // Extreme sizes need maximum space immediately
-        } else {
-            return .medium  // Normal and moderate accessibility sizes start compact
-        }
+        return .large
     }
 }
 

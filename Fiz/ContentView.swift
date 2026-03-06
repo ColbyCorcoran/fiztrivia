@@ -15,6 +15,10 @@ struct ContentView: View {
     @StateObject private var onboardingManager = OnboardingManager.shared
     @StateObject private var whatsNewManager = WhatsNewManager.shared
 
+    // Live drag offset for real-time page following during swipe
+    @State private var liveDragOffset: CGFloat = 0
+    @State private var isDragging: Bool = false
+
     var body: some View {
         Group {
             if !userManager.hasCompletedOnboarding {
@@ -23,6 +27,10 @@ struct ContentView: View {
                 gameView
             }
         }
+        // Cap Dynamic Type at accessibility3 — the inline expansion looks great here.
+        // Users with larger device settings still get a well-laid-out accessible experience,
+        // just capped so the layout stays intact. The modal fallback handles the one tier above.
+        .dynamicTypeSize(...DynamicTypeSize.accessibility2)
         .animation(.easeInOut(duration: 0.3), value: userManager.hasCompletedOnboarding)
         .sheet(isPresented: $onboardingManager.shouldShowSecondaryOnboarding) {
             SecondaryOnboardingView()
@@ -47,57 +55,80 @@ struct ContentView: View {
         GeometryReader { geometry in
             ZStack {
                 // Leaderboard (left page)
-                LeaderboardView(gameViewModel: gameViewModel, onSwipe: handleSwipe)
-                    .offset(x: calculateLeaderboardOffset(screenWidth: geometry.size.width))
-                    .opacity(calculateOpacity(for: .leaderboard))
-                    .zIndex(gameViewModel.gameState == .leaderboard ? 1 : 0)
+                LeaderboardView(
+                    gameViewModel: gameViewModel,
+                    onSwipe: handleSwipe,
+                    onDragChanged: handleDragChanged,
+                    onDragEnded: handleDragEnded
+                )
+                .offset(x: calculateLeaderboardOffset(screenWidth: geometry.size.width))
+                .opacity(calculateOpacity(for: .leaderboard))
+                .zIndex(gameViewModel.gameState == .leaderboard ? 1 : 0)
 
                 // Main wheel (center page)
-                CategoryWheelView(gameViewModel: gameViewModel, onSwipe: handleSwipe)
-                    .offset(x: calculateMainOffset(screenWidth: geometry.size.width))
-                    .zIndex(gameViewModel.gameState == .selectingCategory ? 1 : 0)
+                CategoryWheelView(
+                    gameViewModel: gameViewModel,
+                    onSwipe: handleSwipe,
+                    onDragChanged: handleDragChanged,
+                    onDragEnded: handleDragEnded
+                )
+                .offset(x: calculateMainOffset(screenWidth: geometry.size.width))
+                .zIndex(gameViewModel.gameState == .selectingCategory ? 1 : 0)
 
                 // Settings (right page)
-                SettingsView(gameViewModel: gameViewModel, onSwipe: handleSwipe)
-                    .offset(x: calculateSettingsOffset(screenWidth: geometry.size.width))
-                    .opacity(calculateOpacity(for: .settings))
-                    .zIndex(gameViewModel.gameState == .settings ? 1 : 0)
+                SettingsView(
+                    gameViewModel: gameViewModel,
+                    onSwipe: handleSwipe,
+                    onDragChanged: handleDragChanged,
+                    onDragEnded: handleDragEnded
+                )
+                .offset(x: calculateSettingsOffset(screenWidth: geometry.size.width))
+                .opacity(calculateOpacity(for: .settings))
+                .zIndex(gameViewModel.gameState == .settings ? 1 : 0)
             }
+            // Animate page snapping only after drag ends, not during live drag
+            .animation(isDragging ? nil : .spring(response: 0.3, dampingFraction: 0.85), value: gameViewModel.gameState)
+            .animation(isDragging ? nil : .spring(response: 0.3, dampingFraction: 0.85), value: liveDragOffset)
         }
-        .animation(.spring(response: 0.2, dampingFraction: 0.75), value: gameViewModel.gameState)
     }
 
     private func calculateLeaderboardOffset(screenWidth: CGFloat) -> CGFloat {
+        let baseOffset: CGFloat
         switch gameViewModel.gameState {
         case .leaderboard:
-            return 0
+            baseOffset = 0
         case .selectingCategory:
-            return -screenWidth
+            baseOffset = -screenWidth
         case .settings:
-            return -screenWidth * 2
+            baseOffset = -screenWidth * 2
         }
+        return baseOffset + liveDragOffset
     }
 
     private func calculateMainOffset(screenWidth: CGFloat) -> CGFloat {
+        let baseOffset: CGFloat
         switch gameViewModel.gameState {
         case .leaderboard:
-            return screenWidth
+            baseOffset = screenWidth
         case .selectingCategory:
-            return 0
+            baseOffset = 0
         case .settings:
-            return -screenWidth
+            baseOffset = -screenWidth
         }
+        return baseOffset + liveDragOffset
     }
 
     private func calculateSettingsOffset(screenWidth: CGFloat) -> CGFloat {
+        let baseOffset: CGFloat
         switch gameViewModel.gameState {
         case .leaderboard:
-            return screenWidth * 2
+            baseOffset = screenWidth * 2
         case .selectingCategory:
-            return screenWidth
+            baseOffset = screenWidth
         case .settings:
-            return 0
+            baseOffset = 0
         }
+        return baseOffset + liveDragOffset
     }
 
     private func calculateOpacity(for state: GameState) -> Double {
@@ -105,10 +136,21 @@ struct ContentView: View {
         return gameViewModel.gameState == state ? 1.0 : 0.3
     }
 
+    private func handleDragChanged(_ translation: CGFloat) {
+        isDragging = true
+        liveDragOffset = translation
+    }
+
+    private func handleDragEnded() {
+        // Snap back to zero offset with spring animation - state change (if any) will
+        // handle moving to the correct page position
+        isDragging = false
+        liveDragOffset = 0
+    }
+
     private func handleSwipe(_ direction: SwipeDirection) {
         guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
-        // Direct state change - animation handled by view's .animation() modifier
         switch (gameViewModel.gameState, direction) {
         case (.selectingCategory, .right):
             gameViewModel.gameState = .leaderboard

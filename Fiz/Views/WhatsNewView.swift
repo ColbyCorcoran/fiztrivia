@@ -2,6 +2,7 @@ import SwiftUI
 
 struct WhatsNewView: View {
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.sizeCategory) private var sizeCategory
     @StateObject private var whatsNewManager = WhatsNewManager.shared
     let updates: [WhatsNewUpdate]
 
@@ -20,10 +21,9 @@ struct WhatsNewView: View {
             .ignoresSafeArea()
 
             VStack(spacing: 0) {
-                // Header
+                // Header row with dismiss button
                 HStack {
                     Spacer()
-
                     Button(action: {
                         whatsNewManager.markCurrentVersionAsSeen()
                         AnalyticsManager.shared.trackWhatsNewDismissed(version: latestVersion)
@@ -37,20 +37,35 @@ struct WhatsNewView: View {
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 20)
-                .padding(.bottom, 10)
+                .padding(.bottom, 8)
 
-                // Scrollable updates list
+                // Scrollable content
                 ScrollView {
-                    VStack(spacing: 40) {
+                    VStack(alignment: .leading, spacing: 0) {
+                        // "What's New" title block
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("What's New")
+                                .font(.largeTitle.bold())
+                                .foregroundColor(.primary)
+
+                            Text("Version \(latestVersion)")
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.horizontal, 24)
+                        .padding(.bottom, 28)
+
+                        // Feature sections
                         ForEach(Array(updates.enumerated()), id: \.element.id) { index, update in
                             WhatsNewUpdateSection(
                                 update: update,
-                                isLatest: index == 0
+                                isLatest: index == 0,
+                                showVersionHeader: index > 0
                             )
                         }
                     }
-                    .padding(.horizontal, 30)
-                    .padding(.top, 10)
+                    .padding(.top, 4)
                     .padding(.bottom, 20)
                 }
 
@@ -70,94 +85,85 @@ struct WhatsNewView: View {
                         .cornerRadius(12)
                 }
                 .padding(.horizontal, 20)
-                .padding(.vertical, 30)
+                .padding(.vertical, 20)
             }
         }
     }
 }
 
 // MARK: - Update Section
+
 struct WhatsNewUpdateSection: View {
     let update: WhatsNewUpdate
     let isLatest: Bool
+    var showVersionHeader: Bool = false
 
     var body: some View {
-        VStack(spacing: 15) {
-            // Icon (only for latest update)
-            if isLatest {
-                Image(systemName: "sparkles")
-                    .font(.system(size: 60))
-                    .foregroundColor(.fizOrange)
-                    .padding(.bottom, 10)
+        VStack(alignment: .leading, spacing: 0) {
+            // Version header for older updates
+            if showVersionHeader {
+                HStack {
+                    Text("Version \(update.version)")
+                        .font(.footnote.weight(.semibold))
+                        .foregroundColor(.secondary)
+                        .textCase(.uppercase)
+                    Rectangle()
+                        .frame(height: 0.5)
+                        .foregroundColor(Color.secondary.opacity(0.3))
+                }
+                .padding(.horizontal, 24)
+                .padding(.top, 32)
+                .padding(.bottom, 16)
             }
 
-            // Version badge
-            HStack(spacing: 6) {
-                Image(systemName: "tag.fill")
-                    .font(.caption)
-                Text("Version \(update.version)")
-                    .font(.subheadline.bold())
-            }
-            .foregroundColor(isLatest ? .fizOrange : .secondary)
-            .padding(.horizontal, 12)
-            .padding(.vertical, 6)
-            .background(isLatest ? Color.fizOrange.opacity(0.15) : Color.secondary.opacity(0.1))
-            .cornerRadius(20)
-
-            // Title
-            Text(update.title)
-                .font(isLatest ? .title.bold() : .title2.bold())
-                .foregroundColor(.primary)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 10)
-
-            // Features
-            VStack(spacing: 15) {
+            // Feature rows
+            VStack(spacing: 0) {
                 ForEach(update.features) { feature in
-                    WhatsNewFeatureRow(
-                        feature: feature,
-                        compact: !isLatest
-                    )
+                    WhatsNewFeatureRow(feature: feature, compact: !isLatest)
                 }
             }
-            .padding(.top, 5)
-
-            // Divider (except for last update)
-            if !isLatest {
-                Divider()
-                    .padding(.top, 15)
-            }
+            .padding(.horizontal, 24)
         }
     }
 }
 
+// MARK: - Feature Row
+
 struct WhatsNewFeatureRow: View {
+    @Environment(\.sizeCategory) private var sizeCategory
     let feature: WhatsNewFeature
     var compact: Bool = false
 
-    var body: some View {
-        HStack(alignment: .top, spacing: compact ? 12 : 15) {
-            // Icon
-            Image(systemName: feature.icon)
-                .font(compact ? .body : .title2)
-                .foregroundColor(.fizOrange)
-                .frame(width: compact ? 32 : 40, height: compact ? 32 : 40)
-                .background(Color.fizOrange.opacity(0.1))
-                .clipShape(RoundedRectangle(cornerRadius: compact ? 8 : 10))
+    private var iconSize: CGFloat { compact ? 28 : 36 }
+    private var iconFrameSize: CGFloat { compact ? 44 : 56 }
+    private var iconCornerRadius: CGFloat { compact ? 10 : 13 }
+    private var iconFont: Font { compact ? .body : .title2 }
 
-            VStack(alignment: .leading, spacing: 4) {
+    var body: some View {
+        HStack(alignment: .top, spacing: 16) {
+            // Icon — visible at non-accessibility sizes only
+            if !sizeCategory.isAccessibilitySize {
+                Image(systemName: feature.icon)
+                    .font(iconFont)
+                    .foregroundColor(.fizOrange)
+                    .frame(width: iconFrameSize, height: iconFrameSize)
+                    .background(Color.fizOrange.opacity(0.12))
+                    .clipShape(RoundedRectangle(cornerRadius: iconCornerRadius))
+            }
+
+            VStack(alignment: .leading, spacing: 3) {
                 Text(feature.title)
                     .font(compact ? .subheadline.bold() : .headline)
                     .foregroundColor(.primary)
 
                 Text(feature.description)
-                    .font(compact ? .caption : .body)
+                    .font(compact ? .footnote : .subheadline)
                     .foregroundColor(.secondary)
                     .fixedSize(horizontal: false, vertical: true)
             }
-
-            Spacer()
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .padding(.vertical, compact ? 10 : 14)
     }
 }
 
@@ -168,7 +174,8 @@ struct WhatsNewFeatureRow: View {
             title: "Major Update!",
             features: [
                 WhatsNewFeature(icon: "purchased.circle.fill", title: "Expansion Packs", description: "Purchase themed question packs to expand your trivia library"),
-                WhatsNewFeature(icon: "star.fill", title: "Premium Categories", description: "Access exclusive categories")
+                WhatsNewFeature(icon: "gamecontroller.fill", title: "Game Modes", description: "Choose Multi-Category, Single Category, or Single Topic mode"),
+                WhatsNewFeature(icon: "star.fill", title: "Streak Tracking", description: "Track your answer streaks across sessions")
             ]
         ),
         WhatsNewUpdate(

@@ -112,18 +112,17 @@
     },
     {
       "id": "svr_006",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Players & Castaways",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Which castaway is known for creating the 'spy shack' strategy?",
+      "question": "Which contestant dominated Survivor: Cambodia by securing the most jury votes in that season's finale?",
       "options": [
-        "Tony Vlachos",
-        "Russell Hantz",
-        "Ben Driebergen",
-        "Mike Holloway"
+        "Jeremy Collins",
+        "Spencer Bledsoe",
+        "Kelley Wentworth",
+        "Stephen Fishbach"
       ],
-      "correct_answer": "Tony Vlachos",
+      "correct_answer": "Jeremy Collins",
       "difficulty": "medium"
     },
     {
@@ -132,7 +131,7 @@
       "subtopic": "Players & Castaways",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Which player was voted out with two hidden immunity idols in their pocket in Survivor: Ka\u00f4h R\u014dng?",
+      "question": "Which player was voted out with two hidden immunity idols in their pocket in Survivor: Kaôh Rōng?",
       "options": [
         "Jason Kyle",
         "Scot Pollard",
@@ -706,18 +705,17 @@
     },
     {
       "id": "svr_043",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Players & Castaways",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Who won Survivor: Cagayan?",
+      "question": "Who is known as 'The Wardog' and played a memorable strategic game in Survivor: Edge of Extinction?",
       "options": [
-        "Tony Vlachos",
-        "Spencer Bledsoe",
-        "Woo Hwang",
-        "Kass McQuillen"
+        "Dan 'The Wardog' DaSilva",
+        "David Wright",
+        "Rick Devens",
+        "Joe Anglim"
       ],
-      "correct_answer": "Tony Vlachos",
+      "correct_answer": "Dan 'The Wardog' DaSilva",
       "difficulty": "easy"
     },
     {
@@ -738,18 +736,17 @@
     },
     {
       "id": "svr_045",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Players & Castaways",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Who is known for the phrase 'I'm against you, Russell'?",
+      "question": "Which Survivor castaway is nicknamed 'The Black Widow' and was famous for her social game rather than physical challenges?",
       "options": [
-        "Sandra Diaz-Twine",
         "Parvati Shallow",
-        "Jerri Manthey",
-        "Danielle DiLorenzo"
+        "Cirie Fields",
+        "Amanda Kimmel",
+        "Natalie Anderson"
       ],
-      "correct_answer": "Sandra Diaz-Twine",
+      "correct_answer": "Parvati Shallow",
       "difficulty": "easy"
     },
     {
@@ -914,18 +911,17 @@
     },
     {
       "id": "svr_056",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Players & Castaways",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Which player is known for saying 'I can get loud too, what the f***!' in Survivor: Pearl Islands?",
+      "question": "Which castaway, known for her infectious personality, won Survivor: Micronesia - Fans vs. Favorites?",
       "options": [
-        "Sandra Diaz-Twine",
-        "Fairplay",
-        "Rupert Boneham",
-        "Christa Hastie"
+        "Parvati Shallow",
+        "Amanda Kimmel",
+        "Cirie Fields",
+        "Natalie Bolton"
       ],
-      "correct_answer": "Sandra Diaz-Twine",
+      "correct_answer": "Parvati Shallow",
       "difficulty": "easy"
     },
     {
@@ -1142,7 +1138,7 @@
       "subtopic": "Players & Castaways",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who won Survivor: Ka\u00f4h R\u014dng?",
+      "question": "Who won Survivor: Kaôh Rōng?",
       "options": [
         "Michele Fitzgerald",
         "Aubry Bracco",
@@ -1542,7 +1538,7 @@
       "subtopic": "Players & Castaways",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who was evacuated from the game in Survivor: Ka\u00f4h R\u014dng due to heat exhaustion at a challenge?",
+      "question": "Who was evacuated from the game in Survivor: Kaôh Rōng due to heat exhaustion at a challenge?",
       "options": [
         "Caleb Reynolds",
         "Debbie Wanner",
@@ -2306,16 +2302,15 @@
     },
     {
       "id": "svr_143",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Challenges & Competitions",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "In early seasons, which challenge involved shooting flaming arrows at a target?",
+      "question": "In early Survivor seasons, what was the name of the challenge where players launched burning projectiles at a target from a distance?",
       "options": [
         "Flaming Arrows",
         "Fire Shot",
-        "Archery Challenge",
-        "Blazing Target"
+        "Archery Blaze",
+        "Torch Toss"
       ],
       "correct_answer": "Flaming Arrows",
       "difficulty": "medium"
@@ -2486,7 +2481,7 @@
       "subtopic": "Challenges & Competitions",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Which player collapsed during the final immunity challenge in Survivor: Ka\u00f4h R\u014dng?",
+      "question": "Which player collapsed during the final immunity challenge in Survivor: Kaôh Rōng?",
       "options": [
         "Aubry Bracco and Cydney Gillon",
         "Michele Fitzgerald",
@@ -3369,7 +3364,7 @@
       "question": "Which season had the earliest jury in Survivor history (starting at Day 15)?",
       "options": [
         "Survivor: Cagayan",
-        "Survivor: Ka\u00f4h R\u014dng",
+        "Survivor: Kaôh Rōng",
         "Survivor: Cambodia",
         "Survivor: Game Changers"
       ],
@@ -3442,18 +3437,17 @@
     },
     {
       "id": "svr_214",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Tribal Councils & Votes",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "In Survivor: Winners at War, how many fire tokens could players will to someone when voted out?",
+      "question": "In Survivor: Winners at War, what was the maximum number of fire tokens a player could carry at one time?",
       "options": [
-        "All their tokens",
-        "One token only",
-        "None",
-        "Half their tokens"
+        "8",
+        "3",
+        "5",
+        "10"
       ],
-      "correct_answer": "All their tokens",
+      "correct_answer": "8",
       "difficulty": "hard"
     },
     {
@@ -3496,12 +3490,12 @@
       "subcategory": "Drama/Comedy",
       "question": "In which season did a castaway find an idol at Tribal Council?",
       "options": [
-        "Survivor: Ka\u00f4h R\u014dng (Tai found an idol at tribal)",
+        "Survivor: Kaôh Rōng (Tai found an idol at tribal)",
         "Survivor: Cambodia",
         "Survivor: Game Changers",
         "Survivor: Heroes vs. Villains"
       ],
-      "correct_answer": "Survivor: Ka\u00f4h R\u014dng (Tai found an idol at tribal)",
+      "correct_answer": "Survivor: Kaôh Rōng (Tai found an idol at tribal)",
       "difficulty": "hard"
     },
     {
@@ -4418,18 +4412,17 @@
     },
     {
       "id": "svr_275",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Strategy & Alliances",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What strategic move did Denise Stapley make in Philippines?",
+      "question": "What was Denise Stapley's unique distinction in Survivor: Philippines?",
       "options": [
-        "Attended every tribal council and survived all of them",
-        "Won every immunity",
-        "Found all idols",
-        "Controlled all votes"
+        "Attended every tribal council and never received a vote against her",
+        "Won four consecutive individual immunity challenges",
+        "Played a hidden immunity idol correctly three times",
+        "Never lost a tribal challenge while on her starting tribe"
       ],
-      "correct_answer": "Attended every tribal council and survived all of them",
+      "correct_answer": "Attended every tribal council and never received a vote against her",
       "difficulty": "hard"
     },
     {
@@ -4530,16 +4523,15 @@
     },
     {
       "id": "svr_282",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Geography",
-      "subcategory": "World Geography",
-      "question": "Which country hosted Survivor: The Australian Outback?",
+      "question": "Season 2 of Survivor, subtitled 'The Outback,' was filmed on which continent?",
       "options": [
         "Australia",
-        "New Zealand",
-        "Fiji",
-        "Indonesia"
+        "Africa",
+        "Asia",
+        "South America"
       ],
       "correct_answer": "Australia",
       "difficulty": "easy"
@@ -4578,27 +4570,25 @@
     },
     {
       "id": "svr_285",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Geography",
-      "subcategory": "World Geography",
-      "question": "Where was Survivor: Thailand filmed?",
+      "question": "Season 5 of Survivor was filmed in Southeast Asia on a peninsula bordering Myanmar and Malaysia. Which country was it?",
       "options": [
         "Thailand",
         "Malaysia",
         "Indonesia",
-        "Cambodia"
+        "Vietnam"
       ],
       "correct_answer": "Thailand",
       "difficulty": "easy"
     },
     {
       "id": "svr_286",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Geography",
-      "subcategory": "World Geography",
-      "question": "Which Central American country hosted Survivor: Guatemala?",
+      "question": "Season 11 was filmed among ancient Mayan ruins. In which country were these ruins located?",
       "options": [
         "Guatemala",
         "Panama",
@@ -4642,43 +4632,40 @@
     },
     {
       "id": "svr_289",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Geography",
-      "subcategory": "World Geography",
-      "question": "Where was Survivor: China filmed?",
+      "question": "Season 15 of Survivor was notable for being filmed near the Great Wall. On which continent did this season take place?",
       "options": [
-        "China",
-        "Thailand",
-        "Vietnam",
-        "Cambodia"
+        "Asia",
+        "Africa",
+        "South America",
+        "Oceania"
       ],
-      "correct_answer": "China",
+      "correct_answer": "Asia",
       "difficulty": "easy"
     },
     {
       "id": "svr_290",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Geography",
-      "subcategory": "World Geography",
-      "question": "Which island nation hosted multiple Survivor seasons including Samoa?",
+      "question": "Which Pacific island nation has hosted more Survivor seasons than any other single location, starting with Season 19?",
       "options": [
+        "Fiji",
         "Samoa",
         "Tonga",
-        "Fiji",
         "Vanuatu"
       ],
-      "correct_answer": "Samoa",
+      "correct_answer": "Fiji",
       "difficulty": "easy"
     },
     {
       "id": "svr_291",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Geography",
-      "subcategory": "World Geography",
-      "question": "Where was Survivor: Nicaragua filmed?",
+      "question": "Season 21 of Survivor was filmed in Central America and featured two tribes split by age. Which country served as the filming location?",
       "options": [
         "Nicaragua",
         "Panama",
@@ -4694,7 +4681,7 @@
       "subtopic": "Seasons & Locations",
       "category": "Geography",
       "subcategory": "World Geography",
-      "question": "Which Southeast Asian country hosted Survivor: Ka\u00f4h R\u014dng?",
+      "question": "Which Southeast Asian country hosted Survivor: Kaôh Rōng?",
       "options": [
         "Cambodia",
         "Thailand",
@@ -4722,11 +4709,10 @@
     },
     {
       "id": "svr_294",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Geography",
-      "subcategory": "World Geography",
-      "question": "Where was Survivor: Vanuatu filmed?",
+      "question": "Season 9 was subtitled 'Islands of Fire' and was set in a Pacific archipelago known for active volcanoes. In which island nation was it filmed?",
       "options": [
         "Vanuatu",
         "Fiji",
@@ -4762,7 +4748,7 @@
       "options": [
         "Cambodia",
         "Philippines",
-        "Ka\u00f4h R\u014dng",
+        "Kaôh Rōng",
         "Game Changers"
       ],
       "correct_answer": "Cambodia",
@@ -4770,19 +4756,18 @@
     },
     {
       "id": "svr_297",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What was the first season filmed in Fiji?",
+      "question": "Which Survivor season introduced the 'Haves vs. Have-Nots' twist where one tribe lived in luxury while the other had almost nothing?",
       "options": [
-        "Survivor: Fiji (Season 14)",
-        "Survivor: Millennials vs. Gen X",
-        "Survivor 33",
-        "Survivor: Game Changers"
+        "Survivor: Fiji",
+        "Survivor: Panama",
+        "Survivor: Tocantins",
+        "Survivor: Vanuatu"
       ],
-      "correct_answer": "Survivor: Fiji (Season 14)",
-      "difficulty": "easy"
+      "correct_answer": "Survivor: Fiji",
+      "difficulty": "hard"
     },
     {
       "id": "svr_298",
@@ -4978,18 +4963,17 @@
     },
     {
       "id": "svr_310",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What was the theme of Season 37?",
+      "question": "Which Survivor season featured returning players competing against loved ones for the first time?",
       "options": [
-        "David vs. Goliath",
-        "Heroes vs. Villains",
-        "Brains vs. Brawn",
-        "Winners at War"
+        "Survivor: Blood vs. Water",
+        "Survivor: Heroes vs. Villains",
+        "Survivor: Worlds Apart",
+        "Survivor: Family Ties"
       ],
-      "correct_answer": "David vs. Goliath",
+      "correct_answer": "Survivor: Blood vs. Water",
       "difficulty": "medium"
     },
     {
@@ -5106,18 +5090,17 @@
     },
     {
       "id": "svr_318",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What was Season 41's subtitle?",
+      "question": "Beginning with Season 41, Survivor dropped something it had used since Season 1. What did it eliminate from branding?",
       "options": [
-        "Just 'Survivor 41' (no subtitle)",
-        "New Era",
-        "The Game Changers",
-        "Modern Survivor"
+        "Location subtitles",
+        "Tribal immunity challenges",
+        "Hidden immunity idols",
+        "The final tribal council"
       ],
-      "correct_answer": "Just 'Survivor 41' (no subtitle)",
+      "correct_answer": "Location subtitles",
       "difficulty": "medium"
     },
     {
@@ -5202,18 +5185,17 @@
     },
     {
       "id": "svr_324",
+      "category": "Entertainment",
       "topic": "com.fiz.pack.survivor",
       "subtopic": "Seasons & Locations",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "Which season had tribes divided by gender?",
+      "question": "Which Survivor season featured tribes initially divided by gender AND location in Nicaragua?",
       "options": [
-        "Survivor: The Amazon",
         "Survivor: One World",
+        "Survivor: The Amazon",
         "Survivor: Vanuatu",
-        "All of these"
+        "Survivor: Tocantins"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Survivor: One World",
       "difficulty": "medium"
     },
     {
@@ -5273,7 +5255,7 @@
       "question": "Which season featured the most quit players?",
       "options": [
         "Survivor: Nicaragua (2 quits)",
-        "Survivor: Ka\u00f4h R\u014dng",
+        "Survivor: Kaôh Rōng",
         "Survivor: Island of the Idols",
         "Survivor: Samoa"
       ],
@@ -5384,12 +5366,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Which season had the most medical evacuations?",
       "options": [
-        "Survivor: Ka\u00f4h R\u014dng (3 evacuations)",
+        "Survivor: Kaôh Rōng (3 evacuations)",
         "Survivor: Samoa (2)",
         "Survivor: Second Chance (1)",
         "Survivor: Australia (1)"
       ],
-      "correct_answer": "Survivor: Ka\u00f4h R\u014dng (3 evacuations)",
+      "correct_answer": "Survivor: Kaôh Rōng (3 evacuations)",
       "difficulty": "hard"
     },
     {
@@ -5435,7 +5417,7 @@
         "Survivor: Game Changers (3 swaps)",
         "Survivor: Cambodia (2)",
         "Survivor: Cagayan (2)",
-        "Survivor: Ka\u00f4h R\u014dng (2)"
+        "Survivor: Kaôh Rōng (2)"
       ],
       "correct_answer": "Survivor: Game Changers (3 swaps)",
       "difficulty": "hard"
@@ -5960,12 +5942,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Which season introduced the first jury removal advantage?",
       "options": [
-        "Survivor: Ka\u00f4h R\u014dng",
+        "Survivor: Kaôh Rōng",
         "Survivor: Cambodia",
         "Survivor: Game Changers",
         "Survivor: Millennials vs. Gen X"
       ],
-      "correct_answer": "Survivor: Ka\u00f4h R\u014dng",
+      "correct_answer": "Survivor: Kaôh Rōng",
       "difficulty": "medium"
     },
     {
@@ -6178,18 +6160,17 @@
     },
     {
       "id": "svr_385",
-      "topic": "com.fiz.pack.survivor",
-      "subtopic": "Twists & Advantages",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "question": "What was the first season with Exile Island?",
+      "topic": "com.fiz.pack.survivor",
+      "subtopic": "Seasons & Locations",
+      "question": "In seasons featuring Exile Island, what strategic advantage did the twist typically offer to the castaway sent there?",
       "options": [
-        "Survivor: Panama (Exile Island)",
-        "Survivor: Cook Islands",
-        "Survivor: Fiji",
-        "Survivor: Micronesia"
+        "A clue to a hidden immunity idol",
+        "An automatic immunity vote",
+        "A guaranteed jury seat",
+        "The right to skip the next tribal council"
       ],
-      "correct_answer": "Survivor: Panama (Exile Island)",
+      "correct_answer": "A clue to a hidden immunity idol",
       "difficulty": "medium"
     },
     {
@@ -6266,7 +6247,7 @@
       "options": [
         "Survivor: Heroes vs. Healers vs. Hustlers",
         "Survivor: Millennials vs. Gen X",
-        "Survivor: Ka\u00f4h R\u014dng",
+        "Survivor: Kaôh Rōng",
         "Survivor: Worlds Apart"
       ],
       "correct_answer": "Survivor: Heroes vs. Healers vs. Hustlers",
@@ -6376,12 +6357,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Which player found an idol at Tribal Council?",
       "options": [
-        "Tai Trang in Ka\u00f4h R\u014dng",
+        "Tai Trang in Kaôh Rōng",
         "Ben Driebergen in HvHvH",
         "Russell Hantz in Samoa",
         "Tony Vlachos in Cagayan"
       ],
-      "correct_answer": "Tai Trang in Ka\u00f4h R\u014dng",
+      "correct_answer": "Tai Trang in Kaôh Rōng",
       "difficulty": "hard"
     },
     {

@@ -185,18 +185,18 @@
     {
       "id": "swg_011",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "question": "What planet is Coruscant known as?",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
+      "subtopic": "Planets & Locations",
+      "question": "What is the official name of the city that covers the entire surface of Coruscant?",
       "options": [
-        "The Republic Capital",
-        "The Imperial Center",
-        "The Galactic Capital",
-        "All of the above"
+        "Galactic City",
+        "Senate District",
+        "The Underworld",
+        "Coruscant Prime"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium",
-      "topic": "com.fiz.pack.star_wars",
-      "subtopic": "Planets & Locations"
+      "correct_answer": "Galactic City",
+      "difficulty": "medium"
     },
     {
       "id": "swg_012",
@@ -1163,17 +1163,17 @@
     {
       "id": "swg_072",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What Sith Lord had an apprentice named Darth Maul?",
+      "question": "Which ancient Sith world was used by Darth Sidious to secretly rebuild Sith forces and plan his return after his death at Endor?",
       "options": [
-        "Darth Sidious",
-        "Darth Vader",
-        "Darth Tyranus",
-        "Darth Plagueis"
+        "Exegol",
+        "Korriban",
+        "Moraband",
+        "Dromund Kaas"
       ],
-      "correct_answer": "Darth Sidious",
+      "correct_answer": "Exegol",
       "difficulty": "medium"
     },
     {
@@ -1227,10 +1227,10 @@
     {
       "id": "swg_076",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What planet was the Battle of Naboo fought on?",
+      "question": "The climactic battle in The Phantom Menace included a ground assault, a space battle, and a Sith duel — all occurring on or above which planet?",
       "options": [
         "Naboo",
         "Coruscant",
@@ -1467,10 +1467,10 @@
     {
       "id": "swg_091",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What planet was the Battle of Scarif fought on?",
+      "question": "In Rogue One, the Rebel strike team transmitted stolen Death Star plans from an Imperial data vault on which tropical planet?",
       "options": [
         "Scarif",
         "Jedha",
@@ -1504,12 +1504,12 @@
       "subtopic": "Characters & Allies",
       "question": "Who is Luke and Leia's mother?",
       "options": [
-        "Padm\u00e9 Amidala",
+        "Padmé Amidala",
         "Queen Breha",
         "Shmi Skywalker",
         "Mon Mothma"
       ],
-      "correct_answer": "Padm\u00e9 Amidala",
+      "correct_answer": "Padmé Amidala",
       "difficulty": "easy"
     },
     {
@@ -1563,17 +1563,17 @@
     {
       "id": "swg_097",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Ships & Technology",
-      "question": "What is the iconic sound R2-D2 makes called?",
+      "question": "What propulsion system allows R2-D2 to fly short distances in the prequel trilogy?",
       "options": [
-        "Beeps and whistles",
-        "Binary language",
-        "Droidspeak",
-        "All of the above"
+        "Rocket boosters",
+        "Jet thrusters",
+        "Magnetic lifters",
+        "Repulsorlift pads"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Rocket boosters",
       "difficulty": "medium"
     },
     {
@@ -1614,7 +1614,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Characters & Allies",
-      "question": "What is Padm\u00e9's position on Naboo?",
+      "question": "What is Padmé's position on Naboo?",
       "options": [
         "Queen",
         "Senator",
@@ -1755,17 +1755,17 @@
     {
       "id": "swg_109",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "Who killed Darth Plagueis?",
+      "question": "What unusual Force talent did Darth Plagueis possess that distinguished him from most Sith Lords?",
       "options": [
-        "Darth Sidious",
-        "Darth Maul",
-        "Darth Vader",
-        "Qui-Gon Jinn"
+        "He could influence midi-chlorians to create life",
+        "He could return from death",
+        "He could freeze time",
+        "He could see all possible futures"
       ],
-      "correct_answer": "Darth Sidious",
+      "correct_answer": "He could influence midi-chlorians to create life",
       "difficulty": "hard"
     },
     {
@@ -1899,17 +1899,17 @@
     {
       "id": "swg_118",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Ships & Technology",
-      "question": "What ship does Lando fly in Return of the Jedi?",
+      "question": "What is the name of the elegant personal yacht Lando Calrissian owned before losing the Millennium Falcon to Han Solo?",
       "options": [
-        "Millennium Falcon",
-        "X-wing",
-        "A-wing",
-        "B-wing"
+        "Lady Luck",
+        "Love Commander",
+        "Stellar Wind",
+        "Star's End"
       ],
-      "correct_answer": "Millennium Falcon",
+      "correct_answer": "Lady Luck",
       "difficulty": "medium"
     },
     {
@@ -2187,17 +2187,17 @@
     {
       "id": "swg_136",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet hosts the podrace in The Phantom Menace?",
+      "question": "Which oceanic planet entirely covered by stormy seas was the birthplace of the clone army?",
       "options": [
-        "Tatooine",
-        "Naboo",
-        "Coruscant",
-        "Geonosis"
+        "Kamino",
+        "Mon Cala",
+        "Manaan",
+        "Glee Anselm"
       ],
-      "correct_answer": "Tatooine",
+      "correct_answer": "Kamino",
       "difficulty": "easy"
     },
     {
@@ -2206,7 +2206,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Ships & Technology",
-      "question": "What is the name of Padm\u00e9's starship?",
+      "question": "What is the name of Padmé's starship?",
       "options": [
         "Naboo Royal Starship",
         "Queen's Cruiser",
@@ -2219,33 +2219,33 @@
     {
       "id": "swg_138",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What battle had the first use of the clone army?",
+      "question": "What superweapon's secret blueprints were discovered on Geonosis alongside the Separatist plot?",
       "options": [
-        "Battle of Geonosis",
-        "Battle of Christophsis",
-        "Battle of Kamino",
-        "Battle of Naboo"
+        "Death Star",
+        "Starkiller Base",
+        "Darksaber",
+        "Malevolence"
       ],
-      "correct_answer": "Battle of Geonosis",
+      "correct_answer": "Death Star",
       "difficulty": "medium"
     },
     {
       "id": "swg_139",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the bar where Han shot first?",
+      "question": "The cantina where Han Solo shot Greedo is located in which spaceport city, known as a wretched hive of scum and villainy?",
       "options": [
-        "Mos Eisley Cantina",
-        "Chalmun's Cantina",
-        "Both A and B",
-        "Jabba's Palace"
+        "Mos Eisley",
+        "Anchorhead",
+        "Mos Espa",
+        "Bestine"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Mos Eisley",
       "difficulty": "hard"
     },
     {
@@ -2411,17 +2411,17 @@
     {
       "id": "swg_150",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What is the desert planet featured in Solo: A Star Wars Story?",
+      "question": "What remote snowy planet in Solo: A Star Wars Story held the deadly heist on a conveyex train carrying coaxium?",
       "options": [
+        "Vandor",
         "Corellia",
-        "Tatooine",
-        "Jakku",
-        "Savareen"
+        "Mimban",
+        "Kessel"
       ],
-      "correct_answer": "Corellia",
+      "correct_answer": "Vandor",
       "difficulty": "hard"
     },
     {
@@ -2523,10 +2523,10 @@
     {
       "id": "swg_157",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is home to the Clone Wars' Battle of Umbara?",
+      "question": "Which dark, shadowy world nicknamed 'The Shadow World' was the site of a brutal and controversial Clone Wars campaign?",
       "options": [
         "Umbara",
         "Ryloth",
@@ -2578,7 +2578,7 @@
       "options": [
         "John Williams",
         "Hans Zimmer",
-        "Ludwig G\u00f6ransson",
+        "Ludwig Göransson",
         "Howard Shore"
       ],
       "correct_answer": "John Williams",
@@ -2747,17 +2747,17 @@
     {
       "id": "swg_171",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet did Obi-Wan live on during his exile?",
+      "question": "On which lava-covered volcanic planet did Anakin Skywalker duel Obi-Wan Kenobi, leading to his transformation into Darth Vader?",
       "options": [
-        "Tatooine",
-        "Dagobah",
-        "Ahch-To",
-        "Jakku"
+        "Mustafar",
+        "Sullust",
+        "Exegol",
+        "Malachor"
       ],
-      "correct_answer": "Tatooine",
+      "correct_answer": "Mustafar",
       "difficulty": "easy"
     },
     {
@@ -3083,17 +3083,17 @@
     {
       "id": "swg_192",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet did Qui-Gon die on?",
+      "question": "On which asteroid-based medical facility did Padmé Amidala die after giving birth to Luke and Leia?",
       "options": [
+        "Polis Massa",
         "Naboo",
-        "Tatooine",
-        "Coruscant",
-        "Geonosis"
+        "Alderaan",
+        "Coruscant"
       ],
-      "correct_answer": "Naboo",
+      "correct_answer": "Polis Massa",
       "difficulty": "medium"
     },
     {
@@ -3227,17 +3227,17 @@
     {
       "id": "swg_201",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the first major Separatist victory?",
+      "question": "Which Jedi Master led the 212 Jedi who stormed the Geonosis arena to rescue Obi-Wan, Anakin, and Padmé?",
       "options": [
-        "Battle of Geonosis",
-        "Battle of Christophsis",
-        "Battle of Ryloth",
-        "Battle of Coruscant"
+        "Mace Windu",
+        "Yoda",
+        "Plo Koon",
+        "Kit Fisto"
       ],
-      "correct_answer": "Battle of Geonosis",
+      "correct_answer": "Mace Windu",
       "difficulty": "hard"
     },
     {
@@ -3355,17 +3355,17 @@
     {
       "id": "swg_209",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What are the sand people of Tatooine called?",
+      "question": "What are the nomadic desert warriors of Tatooine called, who wear full-body wrappings and ride banthas?",
       "options": [
         "Tusken Raiders",
-        "Sand People",
-        "Both A and B",
-        "Jawas"
+        "Jawas",
+        "Gamorreans",
+        "Weequay"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Tusken Raiders",
       "difficulty": "easy"
     },
     {
@@ -3435,17 +3435,17 @@
     {
       "id": "swg_214",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Ships & Technology",
-      "question": "What ship does Rey steal from Jakku?",
+      "question": "What type of vehicle did Rey pilot to escape a Star Destroyer attack on Jakku before ultimately boarding the Millennium Falcon?",
       "options": [
-        "Millennium Falcon",
-        "Quadjumper",
-        "Transport",
-        "Freighter"
+        "A stolen TIE fighter",
+        "An old X-wing",
+        "A Lambda shuttle",
+        "A broken Y-wing"
       ],
-      "correct_answer": "Millennium Falcon",
+      "correct_answer": "A stolen TIE fighter",
       "difficulty": "easy"
     },
     {
@@ -3521,7 +3521,7 @@
       "question": "Who is Obi-Wan's love interest in The Clone Wars?",
       "options": [
         "Duchess Satine",
-        "Padm\u00e9",
+        "Padmé",
         "Aayla Secura",
         "None"
       ],
@@ -3643,10 +3643,10 @@
     {
       "id": "swg_227",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Christophsis on?",
+      "question": "Which crystal-covered Outer Rim world was the site of the opening Clone Wars battle depicted in the 2008 animated film?",
       "options": [
         "Christophsis",
         "Ryloth",
@@ -4267,17 +4267,17 @@
     {
       "id": "swg_266",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Jedi & Light Side",
-      "question": "What Jedi became a Force ghost first?",
+      "question": "Which Jedi was controversially granted the rank of Knight but denied the title of Master by the Jedi High Council?",
       "options": [
+        "Anakin Skywalker",
         "Qui-Gon Jinn",
-        "Obi-Wan Kenobi",
-        "Yoda",
-        "Luke Skywalker"
+        "Ahsoka Tano",
+        "Kanan Jarrus"
       ],
-      "correct_answer": "Qui-Gon Jinn",
+      "correct_answer": "Anakin Skywalker",
       "difficulty": "hard"
     },
     {
@@ -4347,33 +4347,33 @@
     {
       "id": "swg_271",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the Empire Strikes Back referring to?",
+      "question": "On which ice planet did the Empire's AT-AT walkers assault the Rebel base in The Empire Strikes Back?",
       "options": [
-        "Empire's counterattack",
-        "Hoth invasion",
-        "Cloud City trap",
-        "All of the above"
+        "Hoth",
+        "Ilum",
+        "Starkiller Base",
+        "Vandor"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Hoth",
       "difficulty": "easy"
     },
     {
       "id": "swg_272",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the planet where podracing takes place?",
+      "question": "What is the name of the Tatooine arena where the Boonta Eve Classic podrace takes place in The Phantom Menace?",
       "options": [
-        "Tatooine",
-        "Malastare",
-        "Both A and B",
-        "Naboo"
+        "Mos Espa Grand Arena",
+        "Beggar's Canyon",
+        "Tusken Alley",
+        "Mushroom Mesa"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Mos Espa Grand Arena",
       "difficulty": "hard"
     },
     {
@@ -4427,17 +4427,17 @@
     {
       "id": "swg_276",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the site of the Jedi vs Sith battle in The Phantom Menace?",
+      "question": "Which swamp-covered, fog-shrouded planet in the Outer Rim served as Yoda's hideout during his decades of self-imposed exile?",
       "options": [
-        "Naboo",
-        "Tatooine",
-        "Coruscant",
-        "Geonosis"
+        "Dagobah",
+        "Mimban",
+        "Rodia",
+        "Uba IV"
       ],
-      "correct_answer": "Naboo",
+      "correct_answer": "Dagobah",
       "difficulty": "easy"
     },
     {
@@ -4539,17 +4539,17 @@
     {
       "id": "swg_283",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the opening scene of A New Hope on?",
+      "question": "Which frozen Outer Rim planet served as the location of the Rebel Alliance's Echo Base before the Empire's devastating assault?",
       "options": [
-        "Tatooine",
-        "Scarif",
-        "Alderaan",
-        "Yavin 4"
+        "Hoth",
+        "Ilum",
+        "Vandor",
+        "Starkiller Base"
       ],
-      "correct_answer": "Tatooine",
+      "correct_answer": "Hoth",
       "difficulty": "easy"
     },
     {
@@ -4603,33 +4603,33 @@
     {
       "id": "swg_287",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Jedi & Light Side",
-      "question": "What is the name of the Force technique to move objects?",
+      "question": "What Force ability allows a Jedi to choke or crush a target from a distance without touching them?",
       "options": [
-        "Telekinesis",
-        "Force push",
-        "Force pull",
-        "All of the above"
+        "Force crush",
+        "Force choke",
+        "Force grip",
+        "Force maul"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Force choke",
       "difficulty": "easy"
     },
     {
       "id": "swg_288",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's ultimate goal?",
+      "question": "According to the Rule of Two, how many Sith are permitted to exist at one time?",
       "options": [
-        "Galactic domination",
-        "Jedi destruction",
-        "Power",
-        "All of the above"
+        "Two",
+        "Four",
+        "One",
+        "Six"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Two",
       "difficulty": "medium"
     },
     {
@@ -4651,17 +4651,17 @@
     {
       "id": "swg_290",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the imperial academy on in Solo?",
+      "question": "In Solo: A Star Wars Story, what crime syndicate led by Dryden Vos employed Tobias Beckett's crew?",
       "options": [
-        "Corellia",
-        "Mimban",
-        "Vandor",
-        "Kessel"
+        "Crimson Dawn",
+        "Black Sun",
+        "Pyke Syndicate",
+        "Hutt Cartel"
       ],
-      "correct_answer": "Corellia",
+      "correct_answer": "Crimson Dawn",
       "difficulty": "hard"
     },
     {
@@ -4683,17 +4683,17 @@
     {
       "id": "swg_292",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was The Last Jedi referring to?",
+      "question": "In The Last Jedi, which Resistance officer sacrificed herself by hyperspace-ramming the First Order flagship Supremacy?",
       "options": [
-        "Luke Skywalker",
-        "Rey",
-        "Both A and B",
-        "Leia"
+        "Vice Admiral Holdo",
+        "Admiral Ackbar",
+        "Rose Tico",
+        "Poe Dameron"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Vice Admiral Holdo",
       "difficulty": "medium"
     },
     {
@@ -4752,28 +4752,28 @@
       "subtopic": "Characters & Allies",
       "question": "Who is the blind warrior in Rogue One?",
       "options": [
-        "Chirrut \u00cemwe",
+        "Chirrut Îmwe",
         "Baze Malbus",
         "Saw Gerrera",
         "Bodhi Rook"
       ],
-      "correct_answer": "Chirrut \u00cemwe",
+      "correct_answer": "Chirrut Îmwe",
       "difficulty": "medium"
     },
     {
       "id": "swg_297",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is Anakin's mother from?",
+      "question": "On which gas giant's cloud city did Lando Calrissian serve as administrator before Han Solo's infamous capture?",
       "options": [
-        "Tatooine",
-        "Naboo",
-        "Coruscant",
-        "Unknown"
+        "Bespin",
+        "Cato Neimoidia",
+        "Nar Shaddaa",
+        "Zeltros"
       ],
-      "correct_answer": "Tatooine",
+      "correct_answer": "Bespin",
       "difficulty": "easy"
     },
     {
@@ -4987,10 +4987,10 @@
     {
       "id": "swg_311",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Ryloth on?",
+      "question": "Which planet, home to the Twi'lek species, was liberated from Separatist control during a key Clone Wars campaign?",
       "options": [
         "Ryloth",
         "Christophsis",
@@ -5102,7 +5102,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.star_wars",
       "subtopic": "Planets & Locations",
-      "question": "What planet did Padm\u00e9 die on?",
+      "question": "What planet did Padmé die on?",
       "options": [
         "Polis Massa",
         "Naboo",
@@ -5323,17 +5323,17 @@
     {
       "id": "swg_332",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is Obi-Wan's home in the Obi-Wan Kenobi series?",
+      "question": "Which forest moon was home to the Ewoks who helped the Rebel Alliance destroy the second Death Star's shield generator?",
       "options": [
-        "Tatooine",
-        "Mapuzo",
-        "Daiyu",
-        "Alderaan"
+        "Endor",
+        "Ajan Kloss",
+        "Yavin 4",
+        "Takodana"
       ],
-      "correct_answer": "Tatooine",
+      "correct_answer": "Endor",
       "difficulty": "medium"
     },
     {
@@ -5355,17 +5355,17 @@
     {
       "id": "swg_334",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What event split the Skywalker family?",
+      "question": "During which battle did Obi-Wan Kenobi leave Anakin Skywalker mortally wounded, leading to his transformation into Darth Vader?",
       "options": [
-        "Anakin's fall to the dark side",
-        "Order 66",
         "Battle of Mustafar",
-        "All of the above"
+        "Battle of Geonosis",
+        "Battle of Coruscant",
+        "Battle of Utapau"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Battle of Mustafar",
       "difficulty": "medium"
     },
     {
@@ -5483,33 +5483,33 @@
     {
       "id": "swg_342",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What actor played Anakin Skywalker in the prequels?",
+      "question": "Which actor portrayed young Anakin Skywalker as a child in The Phantom Menace?",
       "options": [
-        "Hayden Christensen",
         "Jake Lloyd",
-        "Both A and B",
-        "Mark Hamill"
+        "Hayden Christensen",
+        "Max Lloyd-Jones",
+        "Ewan McGregor"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Jake Lloyd",
       "difficulty": "medium"
     },
     {
       "id": "swg_343",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Jedi & Light Side",
-      "question": "What is the Jedi's greatest strength?",
+      "question": "Which Force ability allows a Jedi to enhance their own physical attributes such as speed, reflexes, and strength in combat?",
       "options": [
-        "The Force",
-        "Lightsaber skills",
-        "Knowledge",
-        "Numbers"
+        "Force enhancement",
+        "Force valor",
+        "Battle meditation",
+        "Force empowerment"
       ],
-      "correct_answer": "The Force",
+      "correct_answer": "Force enhancement",
       "difficulty": "easy"
     },
     {
@@ -5586,7 +5586,7 @@
       "options": [
         "Qui-Gon and Obi-Wan vs Maul",
         "Anakin vs Dooku",
-        "Padm\u00e9's rescue",
+        "Padmé's rescue",
         "Palace battle"
       ],
       "correct_answer": "Qui-Gon and Obi-Wan vs Maul",
@@ -5643,17 +5643,17 @@
     {
       "id": "swg_352",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Characters & Allies",
-      "question": "Who is the Mandalorian warrior woman?",
+      "question": "Bo-Katan Kryze sought which ancient Mandalorian weapon to unite her people?",
       "options": [
-        "Bo-Katan Kryze",
-        "The Armorer",
-        "Sabine Wren",
-        "All of the above"
+        "The Darksaber",
+        "The Mandalorian Spear",
+        "The Beskar Hammer",
+        "The Electro-whip"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "The Darksaber",
       "difficulty": "medium"
     },
     {
@@ -5739,17 +5739,17 @@
     {
       "id": "swg_358",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's view on the Jedi?",
+      "question": "Which Sith Lord created a vergence in the Force widely believed to have given rise to Anakin Skywalker?",
       "options": [
-        "Weak and misguided",
-        "Enemies",
-        "Rivals",
-        "All of the above"
+        "Darth Plagueis",
+        "Darth Bane",
+        "Darth Tenebrous",
+        "Darth Sidious"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Darth Plagueis",
       "difficulty": "medium"
     },
     {
@@ -5771,17 +5771,17 @@
     {
       "id": "swg_360",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Imperial Academy located on in Rebels?",
+      "question": "On which ancient Sith world did Ezra Bridger and Ahsoka Tano confront Darth Vader and the Inquisitors in Rebels?",
       "options": [
-        "Lothal",
-        "Coruscant",
-        "Mandalore",
-        "Eriadu"
+        "Malachor",
+        "Jedha",
+        "Ilum",
+        "Exegol"
       ],
-      "correct_answer": "Lothal",
+      "correct_answer": "Malachor",
       "difficulty": "hard"
     },
     {
@@ -5872,7 +5872,7 @@
       "subtopic": "Characters & Allies",
       "question": "Who is the senator from Naboo?",
       "options": [
-        "Padm\u00e9 Amidala",
+        "Padmé Amidala",
         "Jar Jar Binks",
         "Both A and B",
         "Palpatine"
@@ -5883,17 +5883,17 @@
     {
       "id": "swg_367",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the spice planet?",
+      "question": "Which gas giant in the Outer Rim is home to the Cloud City tibanna gas mining operation run by Lando Calrissian?",
       "options": [
-        "Kessel",
-        "Tatooine",
-        "Ryloth",
-        "Felucia"
+        "Bespin",
+        "Mustafar",
+        "Yavin",
+        "Sullust"
       ],
-      "correct_answer": "Kessel",
+      "correct_answer": "Bespin",
       "difficulty": "easy"
     },
     {
@@ -5931,18 +5931,18 @@
     {
       "id": "swg_370",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the Cantina band?",
+      "question": "The iconic Mos Eisley Cantina theme from A New Hope is written in what real-world musical style?",
       "options": [
-        "Figrin D'an and the Modal Nodes",
-        "The Cantina Band",
-        "Mos Eisley Musicians",
-        "Bith Band"
+        "Swing jazz",
+        "Bebop",
+        "Latin jazz",
+        "Dixieland"
       ],
-      "correct_answer": "Figrin D'an and the Modal Nodes",
-      "difficulty": "hard"
+      "correct_answer": "Swing jazz",
+      "difficulty": "medium"
     },
     {
       "id": "swg_371",
@@ -6050,7 +6050,7 @@
       "options": [
         "Rey and Kylo Ren",
         "Luke and Leia",
-        "Anakin and Padm\u00e9",
+        "Anakin and Padmé",
         "Obi-Wan and Anakin"
       ],
       "correct_answer": "Rey and Kylo Ren",
@@ -6059,17 +6059,17 @@
     {
       "id": "swg_378",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Jedi & Light Side",
-      "question": "What is the name of the Force ability to sense danger?",
+      "question": "Which Force ability allows a Jedi to persuade weak-minded beings to follow their commands?",
       "options": [
-        "Force sense",
-        "Danger sense",
-        "Precognition",
-        "All of the above"
+        "Mind trick",
+        "Force suggestion",
+        "Persuasion wave",
+        "Mind control"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Mind trick",
       "difficulty": "medium"
     },
     {
@@ -6219,10 +6219,10 @@
     {
       "id": "swg_388",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Felucia on?",
+      "question": "Which jungle world known for its towering mushroom-like fungal landscape was the site of a fierce Clone Wars campaign?",
       "options": [
         "Felucia",
         "Ryloth",
@@ -6235,17 +6235,17 @@
     {
       "id": "swg_389",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Ships & Technology",
-      "question": "What is the Republic's walker called?",
+      "question": "What does AT-TE stand for in the Republic's clone walker designation?",
       "options": [
-        "AT-TE",
-        "AT-AT",
-        "AT-RT",
-        "All of the above"
+        "All Terrain Tactical Enforcer",
+        "All Terrain Transport Enforcer",
+        "Armored Terrain Tactical Engine",
+        "Advanced Terrain Tank Enforcer"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "All Terrain Tactical Enforcer",
       "difficulty": "medium"
     },
     {
@@ -6331,17 +6331,17 @@
     {
       "id": "swg_395",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is Padm\u00e9's lakeside retreat on?",
+      "question": "Which mountainous planet in the Outer Rim was the Rebel Alliance's main base before relocating to Hoth?",
       "options": [
-        "Naboo",
-        "Varykino",
-        "Alderaan",
-        "Coruscant"
+        "Yavin 4",
+        "Dantooine",
+        "Atollon",
+        "Chandrila"
       ],
-      "correct_answer": "Naboo",
+      "correct_answer": "Yavin 4",
       "difficulty": "medium"
     },
     {
@@ -6379,17 +6379,17 @@
     {
       "id": "swg_398",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the Republic credits?",
+      "question": "In The Phantom Menace, Qui-Gon Jinn cannot use Republic credits on Tatooine. What currency does Watto accept?",
       "options": [
-        "Republic credits",
-        "Galactic credits",
-        "Credits",
-        "All of the above"
+        "Peggats",
+        "Truguts",
+        "Wupiupi",
+        "Druggats"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Wupiupi",
       "difficulty": "medium"
     },
     {
@@ -6411,17 +6411,17 @@
     {
       "id": "swg_400",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's ultimate plan?",
+      "question": "Which Sith doctrine, established by Darth Bane, limited Sith to one master and one apprentice?",
       "options": [
-        "Galactic conquest",
-        "Jedi destruction",
-        "Power accumulation",
-        "All of the above"
+        "Rule of Two",
+        "Rule of One",
+        "Code of Darkness",
+        "Sith Doctrine"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Rule of Two",
       "difficulty": "medium"
     },
     {
@@ -6443,17 +6443,17 @@
     {
       "id": "swg_402",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the mining colony in Solo?",
+      "question": "The second Death Star's protective shield generator was housed on which forested moon orbiting a gas giant?",
       "options": [
-        "Kessel",
-        "Mimban",
-        "Vandor",
-        "Corellia"
+        "Endor",
+        "Ajan Kloss",
+        "Dantooine",
+        "Yavin 4"
       ],
-      "correct_answer": "Kessel",
+      "correct_answer": "Endor",
       "difficulty": "easy"
     },
     {
@@ -6555,17 +6555,17 @@
     {
       "id": "swg_409",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Imperial headquarters in Rebels?",
+      "question": "In Star Wars Rebels, which hidden Rebel base was discovered by Grand Admiral Thrawn during his systematic hunt?",
       "options": [
-        "Lothal",
-        "Coruscant",
-        "Mandalore",
-        "Eriadu"
+        "Atollon",
+        "Dantooine",
+        "Yavin 4",
+        "Takodana"
       ],
-      "correct_answer": "Lothal",
+      "correct_answer": "Atollon",
       "difficulty": "medium"
     },
     {
@@ -6763,26 +6763,26 @@
     {
       "id": "swg_422",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Characters & Allies",
-      "question": "Who is the Jedi that trained Ezra?",
+      "question": "Kanan Jarrus took which young Force-sensitive orphan from Lothal as his Padawan in Star Wars Rebels?",
       "options": [
-        "Kanan Jarrus",
-        "Ahsoka Tano",
-        "Both A and B",
-        "Yoda"
+        "Ezra Bridger",
+        "Zare Leonis",
+        "Dhara Leonis",
+        "Mart Mattin"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Ezra Bridger",
       "difficulty": "medium"
     },
     {
       "id": "swg_423",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Mygeeto on?",
+      "question": "Which icy crystalline world, a stronghold of the InterGalactic Banking Clan, was besieged by Republic forces near the Clone Wars' end?",
       "options": [
         "Mygeeto",
         "Felucia",
@@ -6811,17 +6811,17 @@
     {
       "id": "swg_425",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the Battle of Utapau?",
+      "question": "Which Jedi General led the assault on Utapau to eliminate General Grievous?",
       "options": [
-        "Obi-Wan vs Grievous",
-        "Clone Wars battle",
-        "Order 66 location",
-        "All of the above"
+        "Obi-Wan Kenobi",
+        "Mace Windu",
+        "Yoda",
+        "Ki-Adi-Mundi"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Obi-Wan Kenobi",
       "difficulty": "medium"
     },
     {
@@ -6891,10 +6891,10 @@
     {
       "id": "swg_430",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Kashyyyk on?",
+      "question": "Which forested Wookiee homeworld did Yoda personally defend during the execution of Order 66?",
       "options": [
         "Kashyyyk",
         "Felucia",
@@ -6923,17 +6923,17 @@
     {
       "id": "swg_432",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the Battle of Ryloth?",
+      "question": "Which Clone Wars general commanded the ground assault to liberate Ryloth from Separatist occupation?",
       "options": [
-        "Liberation of Twi'lek planet",
-        "Clone Wars battle",
-        "Republic victory",
-        "All of the above"
+        "Mace Windu",
+        "Anakin Skywalker",
+        "Obi-Wan Kenobi",
+        "Ki-Adi-Mundi"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Mace Windu",
       "difficulty": "medium"
     },
     {
@@ -7003,17 +7003,17 @@
     {
       "id": "swg_437",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Jedi Council located on?",
+      "question": "What massive structure on Coruscant served as both the headquarters and training academy for all Jedi knights?",
       "options": [
-        "Coruscant",
-        "Jedha",
-        "Ilum",
-        "Ossus"
+        "The Jedi Temple",
+        "The Senate building",
+        "The Republic Archives",
+        "The Chancellor's Tower"
       ],
-      "correct_answer": "Coruscant",
+      "correct_answer": "The Jedi Temple",
       "difficulty": "easy"
     },
     {
@@ -7035,65 +7035,65 @@
     {
       "id": "swg_439",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the Second Battle of Geonosis?",
+      "question": "During the Second Battle of Geonosis, which Jedi was critically wounded and later placed in a bacta tank?",
       "options": [
-        "Republic invasion of Geonosis",
-        "Clone Wars battle",
-        "Separatist defeat",
-        "All of the above"
+        "Anakin Skywalker",
+        "Ki-Adi-Mundi",
+        "Luminara Unduli",
+        "Barriss Offee"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Anakin Skywalker",
       "difficulty": "hard"
     },
     {
       "id": "swg_440",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the blue drink in the Cantina?",
+      "question": "What name is given to the iconic blue-colored beverage consumed by moisture farmers on Tatooine?",
       "options": [
         "Blue milk",
-        "Bantha milk",
-        "Both A and B",
-        "Jawa juice"
+        "Spotchka",
+        "Jawa juice",
+        "Meiloorun juice"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Blue milk",
       "difficulty": "medium"
     },
     {
       "id": "swg_441",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Jedi & Light Side",
-      "question": "What is the Jedi's view on the dark side?",
+      "question": "Which emotion does the Jedi Order specifically warn its members to avoid, as it is said to lead to the dark side?",
       "options": [
-        "Forbidden and corrupting",
-        "Dangerous",
-        "Evil",
-        "All of the above"
+        "Fear",
+        "Joy",
+        "Confidence",
+        "Curiosity"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Fear",
       "difficulty": "easy"
     },
     {
       "id": "swg_442",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's view on the light side?",
+      "question": "In the Sith Code, what phrase directly contrasts the Jedi Code's 'there is peace'?",
       "options": [
-        "Weak and limiting",
-        "Foolish",
-        "Wrong",
-        "All of the above"
+        "Peace is a lie",
+        "There is only power",
+        "The Force shall free me",
+        "Passion leads to strength"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Peace is a lie",
       "difficulty": "medium"
     },
     {
@@ -7131,33 +7131,33 @@
     {
       "id": "swg_445",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Ships & Technology",
-      "question": "What is the name of the Separatist's tri-fighter?",
+      "question": "What Separatist droid starfighter was modeled after the predatory hawk-bat and used in large swarms?",
       "options": [
+        "Vulture droid",
         "Tri-fighter",
-        "Droid tri-fighter",
-        "Tri-droid fighter",
-        "All of the above"
+        "Hyena bomber",
+        "Droid gunship"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Vulture droid",
       "difficulty": "medium"
     },
     {
       "id": "swg_446",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the Battle of Christophsis?",
+      "question": "The Battle of Christophsis introduced which new Jedi Padawan who was assigned to Anakin Skywalker?",
       "options": [
-        "First Clone Wars battle shown",
-        "Republic victory",
-        "Clone Wars battle",
-        "All of the above"
+        "Ahsoka Tano",
+        "Barriss Offee",
+        "Luminara Unduli",
+        "Aayla Secura"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Ahsoka Tano",
       "difficulty": "medium"
     },
     {
@@ -7211,26 +7211,26 @@
     {
       "id": "swg_450",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Characters & Allies",
-      "question": "Who is the Jedi that survived Order 66 in Rebels?",
+      "question": "Which Jedi survived Order 66 and eventually became a prominent leader in the early Rebel Alliance's struggle against the Empire?",
       "options": [
-        "Kanan Jarrus",
         "Ahsoka Tano",
-        "Both A and B",
-        "Ezra Bridger"
+        "Kanan Jarrus",
+        "Cere Junda",
+        "Depa Billaba"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Ahsoka Tano",
       "difficulty": "medium"
     },
     {
       "id": "swg_451",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Saleucami on?",
+      "question": "On which Outer Rim world did Clone Captain Rex encounter a deserter clone trooper named Cut Lawquane during the Clone Wars?",
       "options": [
         "Saleucami",
         "Felucia",
@@ -7307,17 +7307,17 @@
     {
       "id": "swg_456",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's view on knowledge?",
+      "question": "Which forbidden Sith technique involves transferring one's consciousness into another body to achieve a form of immortality?",
       "options": [
-        "Power and control",
-        "Useful tool",
-        "Means to an end",
-        "All of the above"
+        "Essence transfer",
+        "Force drain",
+        "Dark transfer",
+        "Soul bind"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Essence transfer",
       "difficulty": "hard"
     },
     {
@@ -7339,10 +7339,10 @@
     {
       "id": "swg_458",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Anaxes on?",
+      "question": "Which Republic stronghold was the setting for Rex and Echo's critical mission when a Separatist algorithm was predicting Republic tactics?",
       "options": [
         "Anaxes",
         "Ryloth",
@@ -7387,49 +7387,49 @@
     {
       "id": "swg_461",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the Jedi younglings?",
+      "question": "In the Jedi Order, what term describes Force-sensitive children in training before being assigned to a Jedi Master as a Padawan?",
       "options": [
-        "Younglings",
         "Initiates",
-        "Both A and B",
-        "Padawans"
+        "Younglings",
+        "Seekers",
+        "Callers"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Initiates",
       "difficulty": "medium"
     },
     {
       "id": "swg_462",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Jedi & Light Side",
-      "question": "What is the Jedi's view on peace?",
+      "question": "In the Jedi Code, what follows 'There is no passion'?",
       "options": [
-        "Ultimate goal",
-        "Essential",
-        "Sacred",
-        "All of the above"
+        "There is serenity",
+        "There is calm",
+        "There is peace",
+        "There is balance"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "There is serenity",
       "difficulty": "easy"
     },
     {
       "id": "swg_463",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's view on war?",
+      "question": "Which Sith Lord used the public persona of 'Count Dooku' while operating as Darth Sidious's apprentice?",
       "options": [
-        "Tool for power",
-        "Necessary",
-        "Path to victory",
-        "All of the above"
+        "Darth Tyranus",
+        "Darth Maul",
+        "Darth Vader",
+        "Darth Plagueis"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Darth Tyranus",
       "difficulty": "medium"
     },
     {
@@ -7483,17 +7483,17 @@
     {
       "id": "swg_467",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the Duel on Geonosis?",
+      "question": "On Geonosis, which Separatist leader oversaw construction of the droid army and held the Death Star plans?",
       "options": [
-        "Anakin and Obi-Wan vs Dooku",
-        "Yoda vs Dooku",
-        "Both A and B",
-        "Jedi vs Separatists"
+        "Poggle the Lesser",
+        "Nute Gunray",
+        "Count Dooku",
+        "General Grievous"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Poggle the Lesser",
       "difficulty": "medium"
     },
     {
@@ -7563,10 +7563,10 @@
     {
       "id": "swg_472",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Cato Neimoidia on?",
+      "question": "Which bridge-city world, homeworld of the Neimoidians, was under Republic siege while Obi-Wan fought there near the Clone Wars' end?",
       "options": [
         "Cato Neimoidia",
         "Ryloth",
@@ -7643,17 +7643,17 @@
     {
       "id": "swg_477",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's greatest virtue?",
+      "question": "According to the Sith Code, what does passion bring?",
       "options": [
-        "Power",
         "Strength",
-        "Passion",
-        "All of the above"
+        "Power",
+        "Victory",
+        "Freedom"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Strength",
       "difficulty": "medium"
     },
     {
@@ -7675,10 +7675,10 @@
     {
       "id": "swg_479",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Planets & Locations",
-      "question": "What planet is the Battle of Onderon on?",
+      "question": "On which jungle world did Saw Gerrera lead a resistance movement against Separatist occupation, guided remotely by Anakin and Obi-Wan?",
       "options": [
         "Onderon",
         "Ryloth",
@@ -7707,33 +7707,33 @@
     {
       "id": "swg_481",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the Liberation of Lothal?",
+      "question": "Which Imperial commander was defeated during the Liberation of Lothal, effectively ending the occupation of that planet?",
       "options": [
-        "Rebels freeing the planet",
-        "Empire defeat",
-        "Thrawn's defeat",
-        "All of the above"
+        "Grand Admiral Thrawn",
+        "Governor Pryce",
+        "Agent Kallus",
+        "Director Krennic"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Grand Admiral Thrawn",
       "difficulty": "hard"
     },
     {
       "id": "swg_482",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Trivia & Lore",
-      "question": "What is the name of the lightsaber forms?",
+      "question": "Which lightsaber combat form is associated with Darth Vader and relies on raw power and aggressive strikes?",
       "options": [
-        "Forms I-VII",
-        "Seven forms",
-        "Jedi forms",
-        "All of the above"
+        "Form V: Djem So",
+        "Form IV: Ataru",
+        "Form VII: Juyo",
+        "Form II: Makashi"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Form V: Djem So",
       "difficulty": "medium"
     },
     {
@@ -7819,17 +7819,17 @@
     {
       "id": "swg_488",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Battles & Events",
-      "question": "What was the Great Jedi Purge?",
+      "question": "What secret Imperial order directed clone troopers to turn on and execute their Jedi generals simultaneously across the galaxy?",
       "options": [
-        "Order 66 and aftermath",
-        "Jedi genocide",
-        "Empire's hunt",
-        "All of the above"
+        "Order 66",
+        "Order 37",
+        "Order 99",
+        "Directive Omega"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Order 66",
       "difficulty": "medium"
     },
     {
@@ -7867,17 +7867,17 @@
     {
       "id": "swg_491",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's greatest enemy?",
+      "question": "On which hidden Sith world did Emperor Palpatine secretly rebuild his forces and prepare his return in The Rise of Skywalker?",
       "options": [
-        "The Jedi",
-        "Weakness",
-        "Light side",
-        "All of the above"
+        "Exegol",
+        "Korriban",
+        "Dromund Kaas",
+        "Moraband"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Exegol",
       "difficulty": "medium"
     },
     {
@@ -7963,33 +7963,33 @@
     {
       "id": "swg_497",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Jedi & Light Side",
-      "question": "What is the Jedi's legacy?",
+      "question": "Which Jedi Grand Master was the oldest member of the Jedi Order and the last to die during the events of the original trilogy era?",
       "options": [
-        "Peace and justice",
-        "The Force",
-        "Knowledge",
-        "All of the above"
+        "Yoda",
+        "Mace Windu",
+        "Ki-Adi-Mundi",
+        "Plo Koon"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Yoda",
       "difficulty": "medium"
     },
     {
       "id": "swg_498",
       "category": "Entertainment",
-      "subcategory": "Sci-Fi/Fantasy",
-      "topic": "com.fiz.pack.star_wars",
+      "subcategory": "Movies & TV",
+      "topic": "com.fiz.pack.starwars",
       "subtopic": "Sith & Dark Side",
-      "question": "What is the Sith's legacy?",
+      "question": "What ancient title, borne by all Dark Lords of the Sith, precedes names such as Maul, Vader, and Sidious?",
       "options": [
-        "Power and domination",
-        "Fear",
-        "Darkness",
-        "All of the above"
+        "Darth",
+        "Malidaris",
+        "Jen'ari",
+        "Sith'ari"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Darth",
       "difficulty": "medium"
     },
     {

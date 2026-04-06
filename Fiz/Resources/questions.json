@@ -837,14 +837,14 @@
         "id": "ent_054",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of the theme park in Jurassic Park?",
+        "question": "On which island is the dinosaur theme park located in the 1993 film directed by Spielberg?",
         "options": [
-          "Jurassic Park",
-          "Dinosaur Island",
-          "Prehistoric Park",
-          "Dino World"
+          "Isla Sorna",
+          "Isla Nublar",
+          "Isla Matanceros",
+          "Isla Tacaño"
         ],
-        "correct_answer": "Jurassic Park",
+        "correct_answer": "Isla Nublar",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1221,7 +1221,7 @@
         "id": "ent_078",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of the organization in Kingsman?",
+        "question": "What is the name of the secret British spy organization in the 2015 Matthew Vaughn film?",
         "options": [
           "The Statesman",
           "The Secret Service",
@@ -1701,14 +1701,14 @@
         "id": "ent_108",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the robot in The Iron Giant?",
+        "question": "In the 1999 animated film directed by Brad Bird, what does young Hogarth find crashed near his Maine town?",
         "options": [
-          "Dean",
-          "The Iron Giant",
-          "Hogarth",
-          "Kent"
+          "A crashed meteor",
+          "A giant robot",
+          "An alien spaceship",
+          "A military drone"
         ],
-        "correct_answer": "The Iron Giant",
+        "correct_answer": "A giant robot",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1717,14 +1717,14 @@
         "id": "ent_109",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the ogre in Shrek?",
+        "question": "In the DreamWorks animated franchise, what type of mythical creature is the swamp-dwelling hero voiced by Mike Myers?",
         "options": [
-          "Farquaad",
-          "Donkey",
-          "Fiona",
-          "Shrek"
+          "Troll",
+          "Giant",
+          "Ogre",
+          "Goblin"
         ],
-        "correct_answer": "Shrek",
+        "correct_answer": "Ogre",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1765,14 +1765,14 @@
         "id": "ent_112",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the snail who dreams of racing in Turbo?",
+        "question": "In the 2013 DreamWorks animated film, what speed-obsessed garden creature dreams of racing in the Indy 500?",
         "options": [
-          "Turbo",
-          "Chet",
-          "Whiplash",
-          "Theo"
+          "A caterpillar",
+          "A beetle",
+          "A worm",
+          "A snail"
         ],
-        "correct_answer": "Turbo",
+        "correct_answer": "A snail",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1861,14 +1861,14 @@
         "id": "ent_118",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the family in The Simpsons?",
+        "question": "What is the last name of Homer, Marge, Bart, Lisa, and Maggie in the long-running Fox animated series?",
         "options": [
-          "The Griffins",
-          "The Smiths",
-          "The Simpsons",
-          "The Belchers"
+          "Griffin",
+          "Belcher",
+          "Smith",
+          "Simpson"
         ],
-        "correct_answer": "The Simpsons",
+        "correct_answer": "Simpson",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -1957,14 +1957,14 @@
         "id": "ent_124",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the restaurant in Bob's Burgers?",
+        "question": "What is the first name of the patriarch who runs the Belcher family burger joint in the Fox animated series?",
         "options": [
-          "Jimmy Pesto's",
-          "Teddy's",
-          "Bob's Burgers",
-          "The Burger Joint"
+          "Ted",
+          "Jimmy",
+          "Bob",
+          "Gene"
         ],
-        "correct_answer": "Bob's Burgers",
+        "correct_answer": "Bob",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -2021,12 +2021,12 @@
         "id": "ent_128",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the main character in Megamind?",
+        "question": "In the 2010 DreamWorks animated film, what is the name of the blue-headed supervillain who accidentally defeats Metro Man?",
         "options": [
           "Minion",
-          "Roxanne",
-          "Megamind",
-          "Metro Man"
+          "Titan",
+          "Metroman",
+          "Megamind"
         ],
         "correct_answer": "Megamind",
         "difficulty": "easy",
@@ -2085,14 +2085,14 @@
         "id": "ent_132",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the town in South Park?",
+        "question": "In what U.S. state is the animated Comedy Central series featuring Cartman, Kyle, Stan, and Kenny set?",
         "options": [
-          "Colorado Springs",
-          "Park County",
-          "Mountain Town",
-          "South Park"
+          "Montana",
+          "Wyoming",
+          "Utah",
+          "Colorado"
         ],
-        "correct_answer": "South Park",
+        "correct_answer": "Colorado",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2245,14 +2245,14 @@
         "id": "ent_142",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the princess in Anastasia?",
+        "question": "In the 1997 Don Bluth animated film, what Russian royal dynasty does the lost princess belong to?",
         "options": [
-          "Sophie",
-          "Anya",
-          "Dimitri",
-          "Anastasia"
+          "Romanov",
+          "Romburg",
+          "Romanova",
+          "Romano"
         ],
-        "correct_answer": "Anastasia",
+        "correct_answer": "Romanov",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2373,14 +2373,14 @@
         "id": "ent_150",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the horse in Spirit: Stallion of the Cimarron?",
+        "question": "In the 2002 DreamWorks animated film about a wild mustang, what Native American warrior befriends the horse?",
         "options": [
-          "Spirit",
-          "Strider",
-          "Rain",
-          "Little Creek"
+          "Koda",
+          "Running Bear",
+          "Little Creek",
+          "Brave Eagle"
         ],
-        "correct_answer": "Spirit",
+        "correct_answer": "Little Creek",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -2565,14 +2565,14 @@
         "id": "ent_162",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "In BoJack Horseman, what is BoJack's species?",
+        "question": "In BoJack Horseman, what is BoJack's most famous TV role from the 1990s sitcom 'Horsin' Around'?",
         "options": [
-          "Horse",
-          "Human",
-          "Cat",
-          "Dog"
+          "The Cool Horse",
+          "The Funny Guy",
+          "The Horse",
+          "The Foal"
         ],
-        "correct_answer": "Horse",
+        "correct_answer": "The Horse",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -2869,12 +2869,12 @@
         "id": "ent_181",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the band in School of Rock?",
+        "question": "In the 2003 film, what rock song does Jack Black's character teach the kids to perform at the Battle of the Bands?",
         "options": [
-          "School of Rock",
-          "Rock Academy",
-          "The Rockers",
-          "Kid Rock"
+          "Iron Man",
+          "Smoke on the Water",
+          "The Wall",
+          "School of Rock"
         ],
         "correct_answer": "School of Rock",
         "difficulty": "easy",
@@ -3861,14 +3861,14 @@
         "id": "ent_243",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the alien in E.T.?",
+        "question": "In the 1982 Spielberg film, what is the name of the young boy who befriends the stranded alien?",
         "options": [
-          "Elliott",
-          "Gertie",
-          "E.T.",
-          "Michael"
+          "Michael",
+          "Elliot",
+          "Dustin",
+          "Georgie"
         ],
-        "correct_answer": "E.T.",
+        "correct_answer": "Elliot",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -4069,15 +4069,15 @@
         "id": "ent_256",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the agency in Men in Black?",
+        "question": "In Men in Black, what device do agents use to erase civilian memories of alien encounters?",
         "options": [
-          "MIB",
-          "Men in Black",
-          "Secret Service",
-          "The Agency"
+          "Neuralizer",
+          "Memory wipe",
+          "Mindblaster",
+          "Flashback"
         ],
-        "correct_answer": "Men in Black",
-        "difficulty": "easy",
+        "correct_answer": "Neuralizer",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -4293,14 +4293,14 @@
         "id": "ent_271",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the theme park in Westworld?",
+        "question": "In the HBO series Westworld, what are the artificial human inhabitants of the park called?",
         "options": [
-          "Delos Destinations",
-          "The Wild West",
-          "Westworld",
-          "Frontier Land"
+          "Synths",
+          "Androids",
+          "Hosts",
+          "Constructs"
         ],
-        "correct_answer": "Westworld",
+        "correct_answer": "Hosts",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -4613,14 +4613,14 @@
         "id": "ent_291",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "In Battlestar Galactica, what is the name of the last battlestar?",
+        "question": "In the reimagined Battlestar Galactica series, what is Commander Adama's call sign?",
         "options": [
-          "Pegasus",
-          "Atlantia",
-          "Galactica",
-          "Columbia"
+          "Husker",
+          "Starbuck",
+          "Apollo",
+          "Kat"
         ],
-        "correct_answer": "Galactica",
+        "correct_answer": "Husker",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -4919,11 +4919,11 @@
         "id": "lit_033",
         "category": "Literature",
         "subcategory": "Fantasy Literature",
-        "question": "Who authored 'The Tales of Beedle the Bard'?",
+        "question": "In the Harry Potter universe, who is the fictional author of 'The Tales of Beedle the Bard' that Dumbledore bequeaths to Hermione?",
         "options": [
           "Bathilda Bagshot",
-          "Beedle the Bard",
           "Gilderoy Lockhart",
+          "Beedle the Bard",
           "Xenophilius Lovegood"
         ],
         "correct_answer": "Beedle the Bard",
@@ -5383,14 +5383,14 @@
         "id": "lit_062",
         "category": "Literature",
         "subcategory": "Fantasy Literature",
-        "question": "What is the name of the magic system in Brandon Sanderson's Mistborn?",
+        "question": "What is the primary magic system in Brandon Sanderson's Mistborn, involving ingesting metals?",
         "options": [
-          "Allomancy",
           "Feruchemy",
           "Hemalurgy",
-          "All of the above"
+          "Allomancy",
+          "Awakening"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Allomancy",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -5415,14 +5415,14 @@
         "id": "lit_064",
         "category": "Literature",
         "subcategory": "Fantasy Literature",
-        "question": "What is the ancient language in 'The Inheritance Cycle'?",
+        "question": "In Christopher Paolini's Inheritance Cycle, what is unique about the language that elves and magic users speak?",
         "options": [
-          "Elvish",
-          "Old Speech",
-          "The Ancient Language",
-          "Dragon tongue"
+          "It controls fire",
+          "It cannot be used to lie",
+          "It summons dragons",
+          "It erases memory"
         ],
-        "correct_answer": "The Ancient Language",
+        "correct_answer": "It cannot be used to lie",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -5447,15 +5447,15 @@
         "id": "lit_066",
         "category": "Literature",
         "subcategory": "Fantasy Literature",
-        "question": "What is the world called in 'The Wheel of Time'?",
+        "question": "In Robert Jordan's The Wheel of Time, what is the name of the prophesied figure destined to break and remake the world?",
         "options": [
-          "Randland",
-          "Tar Valon",
-          "The World",
-          "The Westlands"
+          "Rand al'Thor",
+          "The Dragon Reborn",
+          "Lews Therin",
+          "The Champion of the Light"
         ],
-        "correct_answer": "The World",
-        "difficulty": "hard",
+        "correct_answer": "The Dragon Reborn",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -9641,14 +9641,14 @@
         "id": "mus_005",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "Who composed the music for E.T.?",
+        "question": "Which composer, known for his association with Tim Burton films, also wrote the main theme for The Simpsons TV series?",
         "options": [
           "John Williams",
-          "Danny Elfman",
           "Hans Zimmer",
-          "Alan Silvestri"
+          "Alan Silvestri",
+          "Danny Elfman"
         ],
-        "correct_answer": "John Williams",
+        "correct_answer": "Danny Elfman",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -9737,14 +9737,14 @@
         "id": "mus_011",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "Who composed the music for Indiana Jones?",
+        "question": "Which composer wrote the iconic 'My Heart Will Go On,' the Oscar-winning theme for Titanic?",
         "options": [
-          "Alan Silvestri",
-          "John Williams",
           "Hans Zimmer",
-          "Danny Elfman"
+          "John Williams",
+          "James Horner",
+          "Alan Silvestri"
         ],
-        "correct_answer": "John Williams",
+        "correct_answer": "James Horner",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -9785,14 +9785,14 @@
         "id": "mus_014",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "Who composed the music for Jurassic Park?",
+        "question": "Hans Zimmer won his first Academy Award for Best Original Score for which 1994 film?",
         "options": [
-          "Alan Silvestri",
-          "Danny Elfman",
-          "Hans Zimmer",
-          "John Williams"
+          "The Lion King",
+          "Gladiator",
+          "Pirates of the Caribbean",
+          "The Dark Knight"
         ],
-        "correct_answer": "John Williams",
+        "correct_answer": "The Lion King",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -9865,15 +9865,15 @@
         "id": "mus_019",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "Which composer created the score for Superman?",
+        "question": "Which composer is known for writing the iconic 'Imperial March' theme for Darth Vader in Star Wars?",
         "options": [
+          "Hans Zimmer",
           "Howard Shore",
           "Danny Elfman",
-          "Hans Zimmer",
           "John Williams"
         ],
         "correct_answer": "John Williams",
-        "difficulty": "hard",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -10121,12 +10121,12 @@
         "id": "mus_035",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "Who composed the score for Schindler's List?",
+        "question": "Which composer wrote the nine-note 'shark theme' in the Jaws franchise, mimicking the shark's approach?",
         "options": [
+          "Alan Silvestri",
+          "Bernard Herrmann",
           "John Williams",
-          "Alexandre Desplat",
-          "Hans Zimmer",
-          "Ennio Morricone"
+          "Jerry Goldsmith"
         ],
         "correct_answer": "John Williams",
         "difficulty": "medium",
@@ -10553,12 +10553,12 @@
         "id": "mus_062",
         "category": "Music",
         "subcategory": "History & Eras",
-        "question": "Which era of classical music did Mozart compose in?",
+        "question": "Wolfgang Amadeus Mozart's compositions fall primarily into which era of Western art music, spanning roughly 1750–1820?",
         "options": [
-          "Classical",
           "Baroque",
+          "Romantic",
           "Modern",
-          "Romantic"
+          "Classical"
         ],
         "correct_answer": "Classical",
         "difficulty": "easy",
@@ -11097,12 +11097,12 @@
         "id": "mus_096",
         "category": "Music",
         "subcategory": "History & Eras",
-        "question": "Which classical period emphasized balance and clarity?",
+        "question": "Which era of Western classical music, following the Baroque, is characterized by homophony and structured forms like the sonata?",
         "options": [
           "Baroque",
-          "Classical",
+          "Romantic",
           "Modern",
-          "Romantic"
+          "Classical"
         ],
         "correct_answer": "Classical",
         "difficulty": "medium",
@@ -11657,14 +11657,14 @@
         "id": "mus_131",
         "category": "Music",
         "subcategory": "Musicians & Bands",
-        "question": "Who was the lead guitarist of Jimi Hendrix Experience?",
+        "question": "What instrument did Jimi Hendrix famously play left-handed on an upside-down right-handed guitar?",
         "options": [
-          "Jimi Hendrix",
-          "Jeff Beck",
-          "Eric Clapton",
-          "Jimmy Page"
+          "Bass",
+          "Drums",
+          "Electric guitar",
+          "Keyboard"
         ],
-        "correct_answer": "Jimi Hendrix",
+        "correct_answer": "Electric guitar",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -12537,12 +12537,12 @@
         "id": "mus_186",
         "category": "Music",
         "subcategory": "Awards & Records",
-        "question": "What is the Grammy Award for Best New Artist called?",
+        "question": "Which Grammy Award category recognizes an artist's first recording year of public release?",
         "options": [
-          "New Talent",
+          "Song of the Year",
+          "Record of the Year",
           "Best New Artist",
-          "Rising Star",
-          "Breakthrough Artist"
+          "Album of the Year"
         ],
         "correct_answer": "Best New Artist",
         "difficulty": "easy",
@@ -12569,14 +12569,14 @@
         "id": "mus_188",
         "category": "Music",
         "subcategory": "Awards & Records",
-        "question": "What color is a gold record certification?",
+        "question": "In the RIAA certification system, how many units sold (singles equivalent) does a gold record represent?",
         "options": [
-          "Bronze",
-          "Platinum",
-          "Silver",
-          "Gold"
+          "250,000",
+          "500,000",
+          "1,000,000",
+          "2,000,000"
         ],
-        "correct_answer": "Gold",
+        "correct_answer": "500,000",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -14411,14 +14411,14 @@
         "id": "tec_005",
         "category": "Technology",
         "subcategory": "Video Games",
-        "question": "What item is used to catch Pokémon?",
+        "question": "What is the standard item used to catch wild Pokémon in the main series games?",
         "options": [
           "Great Ball",
           "Poké Ball",
           "Master Ball",
-          "All of the above"
+          "Ultra Ball"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Poké Ball",
         "difficulty": "easy",
         "topic": "com.fiz.pack.pokemon",
         "subtopic": "Games"
@@ -14795,14 +14795,14 @@
         "id": "tec_050",
         "category": "Technology",
         "subcategory": "Video Games",
-        "question": "What type of animal is Crash Bandicoot?",
+        "question": "What is the name of the fictional island where most of the original Crash Bandicoot game takes place?",
         "options": [
-          "Fox",
-          "Hedgehog",
-          "Bandicoot",
-          "Raccoon"
+          "Crash Island",
+          "N. Sanity Island",
+          "Wumpa Island",
+          "Cortex Island"
         ],
-        "correct_answer": "Bandicoot",
+        "correct_answer": "N. Sanity Island",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -15547,14 +15547,14 @@
         "id": "tec_097",
         "category": "Technology",
         "subcategory": "Computers & Software",
-        "question": "Which key is used to delete text in front of the cursor?",
+        "question": "On a standard keyboard, which key removes the character to the LEFT of the cursor?",
         "options": [
           "Delete",
           "Escape",
           "Backspace",
           "Enter"
         ],
-        "correct_answer": "Delete",
+        "correct_answer": "Backspace",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -17019,14 +17019,14 @@
         "id": "tec_189",
         "category": "Technology",
         "subcategory": "Internet & Social Media",
-        "question": "Which social media platform was originally called 'The Facebook'?",
+        "question": "In what year did Mark Zuckerberg launch 'TheFacebook' from his Harvard dorm room?",
         "options": [
-          "MySpace",
-          "LinkedIn",
-          "Facebook",
-          "Friendster"
+          "2002",
+          "2003",
+          "2004",
+          "2005"
         ],
-        "correct_answer": "Facebook",
+        "correct_answer": "2004",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -22861,14 +22861,14 @@
         "id": "art_232",
         "category": "Art",
         "subcategory": "Architecture",
-        "question": "What Japanese architectural movement emphasized organic metabolism?",
+        "question": "Which Japanese architect designed the Hiroshima Peace Memorial Museum, opened in 1955?",
         "options": [
-          "Metabolism",
-          "High-tech",
-          "Brutalism",
-          "Modernism"
+          "Kengo Kuma",
+          "Tadao Ando",
+          "Kenzo Tange",
+          "Kisho Kurokawa"
         ],
-        "correct_answer": "Metabolism",
+        "correct_answer": "Kenzo Tange",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -26127,12 +26127,12 @@
         "id": "geo_139",
         "category": "Geography",
         "subcategory": "U.S. Geography",
-        "question": "Which state are the Hawaiian Islands part of?",
+        "question": "What is the name of the largest island in the Hawaiian archipelago, also known as 'the Big Island'?",
         "options": [
-          "Pacific Territory",
-          "American Samoa",
+          "Maui",
+          "Oahu",
           "Hawaii",
-          "Guam"
+          "Kauai"
         ],
         "correct_answer": "Hawaii",
         "difficulty": "easy",
@@ -26255,14 +26255,14 @@
         "id": "geo_147",
         "category": "Geography",
         "subcategory": "U.S. Geography",
-        "question": "Which U.S. state has the most active volcanoes?",
+        "question": "Which Alaskan city, connected to the contiguous US only by sea or air, serves as the state's most populous metropolitan hub?",
         "options": [
-          "Hawaii",
-          "Washington",
-          "California",
-          "Alaska"
+          "Fairbanks",
+          "Juneau",
+          "Nome",
+          "Anchorage"
         ],
-        "correct_answer": "Alaska",
+        "correct_answer": "Anchorage",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -26351,14 +26351,14 @@
         "id": "geo_153",
         "category": "Geography",
         "subcategory": "U.S. Geography",
-        "question": "Which state has the nickname \"The Last Frontier\"?",
+        "question": "In what year did the United States purchase Alaska from Russia?",
         "options": [
-          "Idaho",
-          "Wyoming",
-          "Montana",
-          "Alaska"
+          "1848",
+          "1879",
+          "1898",
+          "1867"
         ],
-        "correct_answer": "Alaska",
+        "correct_answer": "1867",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -26575,14 +26575,14 @@
         "id": "geo_167",
         "category": "Geography",
         "subcategory": "U.S. Geography",
-        "question": "Which state is Point Barrow, the northernmost point in the United States, located in?",
+        "question": "What is the capital city of Alaska?",
         "options": [
-          "Maine",
-          "Alaska",
-          "Minnesota",
-          "Washington"
+          "Anchorage",
+          "Fairbanks",
+          "Juneau",
+          "Nome"
         ],
-        "correct_answer": "Alaska",
+        "correct_answer": "Juneau",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -28607,14 +28607,14 @@
         "id": "geo_295",
         "category": "Geography",
         "subcategory": "Landmarks & Monuments",
-        "question": "Which monument in Mexico is a pre-Columbian pyramid?",
+        "question": "Which pyramid in Mexico is the largest by volume of any pyramid in the world?",
         "options": [
-          "Pyramid of Cholula",
           "Pyramid of the Sun",
           "El Castillo",
-          "All of the above"
+          "Pyramid of Cholula",
+          "Pyramid of the Magician"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Pyramid of Cholula",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -30353,14 +30353,14 @@
         "id": "spt_152",
         "category": "Sports",
         "subcategory": "International Competition",
-        "question": "What is the Olympic torch relay?",
+        "question": "In which city did the tradition of the Olympic torch relay originate, in 1936?",
         "options": [
-          "A race",
-          "A ceremony",
-          "A tradition",
-          "All of the above"
+          "Athens",
+          "Paris",
+          "London",
+          "Berlin"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Berlin",
         "difficulty": "medium",
         "topic": "com.fiz.pack.olympics",
         "subtopic": null
@@ -31377,14 +31377,14 @@
         "id": "spt_342",
         "category": "Sports",
         "subcategory": "Extreme & Action Sports",
-        "question": "What board is used in wakeboarding?",
+        "question": "In wakeboarding, the rider is towed behind a motorboat and performs tricks on what type of surface?",
         "options": [
-          "Wakeboard",
-          "Skateboard",
-          "Surfboard",
-          "Snowboard"
+          "Snow",
+          "Ice",
+          "Sand",
+          "Water"
         ],
-        "correct_answer": "Wakeboard",
+        "correct_answer": "Water",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -34883,15 +34883,15 @@
         "id": "sci_086",
         "category": "Science",
         "subcategory": "Biology",
-        "question": "What do plants need to make their food?",
+        "question": "What type of organism is a virus — living or non-living?",
         "options": [
-          "Sunlight",
-          "Air",
-          "Water",
-          "All of the above"
+          "Living",
+          "Non-living",
+          "Both, depending on conditions",
+          "Classified as living"
         ],
-        "correct_answer": "All of the above",
-        "difficulty": "easy",
+        "correct_answer": "Non-living",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -35331,14 +35331,14 @@
         "id": "sci_114",
         "category": "Science",
         "subcategory": "Biology",
-        "question": "What is the longest bone in the human body?",
+        "question": "What is the only bone in the human body that does not articulate with any other bone?",
         "options": [
-          "Fibula",
-          "Tibia",
-          "Humerus",
-          "Femur"
+          "Coccyx",
+          "Patella",
+          "Hyoid",
+          "Sacrum"
         ],
-        "correct_answer": "Femur",
+        "correct_answer": "Hyoid",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -35475,14 +35475,14 @@
         "id": "sci_123",
         "category": "Science",
         "subcategory": "Biology",
-        "question": "What do we call baby frogs?",
+        "question": "What is the aquatic larval stage of a frog called?",
         "options": [
-          "Pollywogs",
-          "Tadpoles",
-          "Froglets",
-          "All of the above"
+          "Froglet",
+          "Polliwog",
+          "Tadpole",
+          "Nymph"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Tadpole",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -35619,14 +35619,14 @@
         "id": "sci_132",
         "category": "Science",
         "subcategory": "Biology",
-        "question": "What is the human body's largest bone?",
+        "question": "What is the name of the tough connective tissue that attaches muscle to bone?",
         "options": [
-          "Femur",
-          "Tibia",
-          "Humerus",
-          "Fibula"
+          "Ligament",
+          "Cartilage",
+          "Tendon",
+          "Fascia"
         ],
-        "correct_answer": "Femur",
+        "correct_answer": "Tendon",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -36227,14 +36227,14 @@
         "id": "sci_170",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "Which noble gas is used in neon signs?",
+        "question": "Most red neon signs use neon gas, but what noble gas is typically used to create blue-colored 'neon' signs?",
         "options": [
-          "Argon",
           "Helium",
-          "Krypton",
-          "Neon"
+          "Xenon",
+          "Argon",
+          "Krypton"
         ],
-        "correct_answer": "Neon",
+        "correct_answer": "Argon",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -36979,14 +36979,14 @@
         "id": "sci_217",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "What is Avogadro's number?",
+        "question": "In chemistry, what is the term for the amount of substance containing exactly 6.022 × 10²³ particles?",
         "options": [
-          "6.022 × 10²³",
-          "3.14159",
-          "6.626 × 10⁻³⁴",
-          "2.998 × 10⁸"
+          "Dalton",
+          "Mole",
+          "Equivalent",
+          "Molality"
         ],
-        "correct_answer": "6.022 × 10²³",
+        "correct_answer": "Mole",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -37091,14 +37091,14 @@
         "id": "sci_224",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "What is Avogadro's number, the number of particles in one mole of a substance?",
+        "question": "What Italian scientist's name is given to the constant 6.022 × 10²³, which defines the number of particles in one mole?",
         "options": [
-          "9.8 × 10²³",
-          "6.022 × 10²³",
-          "3.14 × 10²³",
-          "1.6 × 10²³"
+          "Volta",
+          "Fermi",
+          "Avogadro",
+          "Malpighi"
         ],
-        "correct_answer": "6.022 × 10²³",
+        "correct_answer": "Avogadro",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -37363,14 +37363,14 @@
         "id": "sci_241",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What travels faster: light or sound?",
+        "question": "Approximately how many times faster does light travel through air than sound?",
         "options": [
-          "It depends",
-          "They're the same",
-          "Sound",
-          "Light"
+          "100 times",
+          "10,000 times",
+          "880,000 times",
+          "1,000,000 times"
         ],
-        "correct_answer": "Light",
+        "correct_answer": "880,000 times",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -37619,14 +37619,14 @@
         "id": "sci_257",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is the speed of sound in air at room temperature?",
+        "question": "When an aircraft exceeds the speed of sound, what term describes the resulting pressure wave phenomenon?",
         "options": [
-          "500 m/s",
-          "343 m/s",
-          "400 m/s",
-          "300 m/s"
+          "Mach wave",
+          "Sonic burst",
+          "Sonic boom",
+          "Pressure cone"
         ],
-        "correct_answer": "343 m/s",
+        "correct_answer": "Sonic boom",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -38195,14 +38195,14 @@
         "id": "sci_293",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is the speed of sound in air at sea level?",
+        "question": "What number on the Mach scale represents exactly the speed of sound?",
         "options": [
-          "500 m/s",
-          "400 m/s",
-          "300 m/s",
-          "343 m/s"
+          "Mach 0.5",
+          "Mach 2",
+          "Mach 1",
+          "Mach 1.5"
         ],
-        "correct_answer": "343 m/s",
+        "correct_answer": "Mach 1",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -38469,14 +38469,14 @@
         "id": "nat_019",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
-        "question": "What is a group of bees called?",
+        "question": "What is a large group of bees in flight, searching for a new home, called?",
         "options": [
           "Colony",
           "Hive",
           "Swarm",
-          "All of the above"
+          "Cluster"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Swarm",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -38853,14 +38853,14 @@
         "id": "nat_094",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
-        "question": "What do frogs start as?",
+        "question": "What is the first stage of a frog's life cycle, before it becomes a tadpole?",
         "options": [
-          "Froglets",
-          "Eggs",
-          "Tadpoles",
-          "All of the above"
+          "Froglet",
+          "Larvae",
+          "Egg",
+          "Pupa"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Egg",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -38981,14 +38981,14 @@
         "id": "nat_131",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
-        "question": "Which bird is known for its colorful tail feathers?",
+        "question": "What is the term for the elaborate tail display of male peacocks used to attract mates?",
         "options": [
-          "Eagle",
-          "Peacock",
-          "Crow",
-          "Sparrow"
+          "Plumage display",
+          "Feather fan",
+          "Train display",
+          "Courtship dance"
         ],
-        "correct_answer": "Peacock",
+        "correct_answer": "Train display",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -39061,14 +39061,14 @@
         "id": "nat_137",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
-        "question": "What do butterflies start as?",
+        "question": "What is the hardened protective casing a caterpillar forms before becoming a butterfly?",
         "options": [
+          "Cocoon",
           "Chrysalis",
-          "Eggs",
-          "Caterpillars",
-          "All of the above"
+          "Pupa",
+          "Shell"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Chrysalis",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -39349,14 +39349,14 @@
         "id": "nat_171",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
-        "question": "Which bird is known for its elaborate tail display?",
+        "question": "The Indian peafowl is the national bird of which country?",
         "options": [
-          "Peacock",
-          "Ostrich",
-          "Turkey",
-          "Pheasant"
+          "Sri Lanka",
+          "Nepal",
+          "Bangladesh",
+          "India"
         ],
-        "correct_answer": "Peacock",
+        "correct_answer": "India",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -39397,14 +39397,14 @@
         "id": "nat_174",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
-        "question": "Which animal can sleep standing up?",
+        "question": "Which large animal is well known for its ability to sleep standing up, locking its legs?",
         "options": [
-          "Horse",
+          "Elephant",
           "Giraffe",
-          "Cow",
-          "All of the above"
+          "Horse",
+          "Hippo"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Horse",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -39941,14 +39941,14 @@
         "id": "nat_071",
         "category": "Nature",
         "subcategory": "Plants & Flowers",
-        "question": "What do we call a baby plant?",
+        "question": "What is the term for a young plant that has just germinated from a seed?",
         "options": [
           "Shoot",
           "Sprout",
           "Seedling",
-          "All of the above"
+          "Sapling"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Seedling",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -39973,14 +39973,14 @@
         "id": "nat_080",
         "category": "Nature",
         "subcategory": "Plants & Flowers",
-        "question": "What do plants need from the sun?",
+        "question": "Which specific type of energy from the sun do plants capture to drive photosynthesis?",
         "options": [
-          "Heat",
-          "Warmth",
-          "Light",
-          "All of the above"
+          "Heat energy",
+          "Light energy",
+          "Ultraviolet radiation",
+          "Infrared radiation"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Light energy",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -40037,14 +40037,14 @@
         "id": "nat_106",
         "category": "Nature",
         "subcategory": "Plants & Flowers",
-        "question": "What helps carry pollen from flower to flower?",
+        "question": "Which insect is the most important commercial pollinator, essential to many crops?",
         "options": [
-          "Wind",
-          "Bees",
-          "Birds",
-          "All of the above"
+          "Butterfly",
+          "Wasp",
+          "Bee",
+          "Moth"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Bee",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -40772,15 +40772,15 @@
       {
         "id": "nat_021",
         "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What tree produces maple syrup?",
+        "subcategory": "Plants & Flowers",
+        "question": "What is the term for a plant that completes its entire life cycle — germination, flowering, seeding, and death — within a single growing season?",
         "options": [
-          "Maple",
-          "Birch",
-          "Oak",
-          "Pine"
+          "Biennial",
+          "Perennial",
+          "Annual",
+          "Ephemeral"
         ],
-        "correct_answer": "Maple",
+        "correct_answer": "Annual",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -40869,14 +40869,14 @@
         "id": "nat_051",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What do we call the rings inside a tree trunk?",
+        "question": "What are the concentric circles visible in a cross-section of a tree trunk, used to determine age?",
         "options": [
-          "Annual rings",
+          "Cambium layers",
           "Growth rings",
-          "Tree rings",
-          "All of the above"
+          "Bark circles",
+          "Resin bands"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Growth rings",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -41093,14 +41093,14 @@
         "id": "nat_103",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What do trees need to grow tall and strong?",
+        "question": "What do trees use, along with water and CO₂, to produce energy through photosynthesis?",
         "options": [
-          "Water",
+          "Nitrogen",
           "Sunlight",
-          "Good soil",
-          "All of the above"
+          "Oxygen",
+          "Minerals"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Sunlight",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -41781,15 +41781,15 @@
         "id": "nat_237",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What tree has bark that naturally peels in papery layers?",
+        "question": "What is the name for the dense, fire-resistant wood found in conifer forests, used commonly for railroad ties and construction?",
         "options": [
-          "Birch",
-          "Eucalyptus",
-          "Sycamore",
-          "All of the above"
+          "Heartwood",
+          "Sapwood",
+          "Old-growth timber",
+          "Douglas fir"
         ],
-        "correct_answer": "All of the above",
-        "difficulty": "medium",
+        "correct_answer": "Heartwood",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -43687,14 +43687,14 @@
         "id": "his_036",
         "category": "History",
         "subcategory": "Ancient History",
-        "question": "What were Roman roads famous for?",
+        "question": "What feature of Roman road construction allowed water to drain off the sides?",
         "options": [
-          "Being well-built",
-          "Connecting the empire",
-          "Being straight",
-          "All of the above"
+          "Underground drainage pipes",
+          "Gravel shoulders",
+          "Raised camber (curved surface)",
+          "Stone gutters"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Raised camber (curved surface)",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -43911,14 +43911,14 @@
         "id": "his_050",
         "category": "History",
         "subcategory": "Ancient History",
-        "question": "What metal did the Bronze Age get its name from?",
+        "question": "What key technological development defined the Bronze Age, transforming tools and weapons?",
         "options": [
-          "Bronze",
-          "Iron",
-          "Gold",
-          "Silver"
+          "Iron smelting",
+          "Bronze casting",
+          "Steel forging",
+          "Glass blowing"
         ],
-        "correct_answer": "Bronze",
+        "correct_answer": "Bronze casting",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -44279,15 +44279,15 @@
         "id": "his_074",
         "category": "History",
         "subcategory": "Church History",
-        "question": "What does 'Reformation' mean?",
+        "question": "What document did the Council of Trent (1545–1563) produce to define Catholic doctrine in response to the Reformation?",
         "options": [
-          "To reform",
-          "To form again",
-          "To change",
-          "All of the above"
+          "Augsburg Confession",
+          "Peace of Westphalia",
+          "Canons and Decrees of Trent",
+          "Papal Bull Exsurge Domine"
         ],
-        "correct_answer": "All of the above",
-        "difficulty": "easy",
+        "correct_answer": "Canons and Decrees of Trent",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -44327,14 +44327,14 @@
         "id": "his_078",
         "category": "History",
         "subcategory": "Church History",
-        "question": "Who started the Protestant Reformation?",
+        "question": "In what city did Martin Luther nail his 95 Theses to the church door in 1517?",
         "options": [
-          "John Wesley",
-          "Huldrych Zwingli",
-          "John Calvin",
-          "Martin Luther"
+          "Erfurt",
+          "Leipzig",
+          "Heidelberg",
+          "Wittenberg"
         ],
-        "correct_answer": "Martin Luther",
+        "correct_answer": "Wittenberg",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -44407,14 +44407,14 @@
         "id": "his_083",
         "category": "History",
         "subcategory": "Church History",
-        "question": "Who was known as the 'Great Reformer'?",
+        "question": "Which Swiss Reformer led the Reformation in Zurich and was killed at the Battle of Kappel in 1531?",
         "options": [
-          "Martin Luther",
-          "John Wesley",
-          "John Knox",
-          "John Calvin"
+          "John Calvin",
+          "Heinrich Bullinger",
+          "Theodore Beza",
+          "Huldrych Zwingli"
         ],
-        "correct_answer": "Martin Luther",
+        "correct_answer": "Huldrych Zwingli",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -44423,14 +44423,14 @@
         "id": "his_084",
         "category": "History",
         "subcategory": "Church History",
-        "question": "What was the main issue in the Protestant Reformation?",
+        "question": "What Latin phrase summarizes Luther's doctrine that salvation comes through faith alone?",
         "options": [
-          "Bible translation",
-          "Church authority",
-          "Salvation by faith",
-          "All of the above"
+          "Sola Scriptura",
+          "Sola Gratia",
+          "Sola Fide",
+          "Solus Christus"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Sola Fide",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -44503,14 +44503,14 @@
         "id": "his_089",
         "category": "History",
         "subcategory": "Church History",
-        "question": "Who is traditionally credited with starting the Protestant Reformation in 1517?",
+        "question": "What was the name of the imperial assembly before which Martin Luther refused to recant his writings in 1521?",
         "options": [
-          "John Calvin",
-          "John Wycliffe",
-          "Henry VIII",
-          "Martin Luther"
+          "Council of Trent",
+          "Diet of Augsburg",
+          "Diet of Worms",
+          "Council of Nicaea"
         ],
-        "correct_answer": "Martin Luther",
+        "correct_answer": "Diet of Worms",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -44951,14 +44951,14 @@
         "id": "his_117",
         "category": "History",
         "subcategory": "Church History",
-        "question": "Which monastic order followed the rule of St. Benedict?",
+        "question": "Which monastic order was founded by St. Benedict of Nursia and follows his written Rule?",
         "options": [
-          "Benedictines",
+          "Dominicans",
+          "Franciscans",
           "Cistercians",
-          "Carthusians",
-          "All of the above"
+          "Benedictines"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Benedictines",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -45175,14 +45175,14 @@
         "id": "his_131",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What was the name of the first Crusade?",
+        "question": "In what year did Pope Urban II call the First Crusade at the Council of Clermont?",
         "options": [
-          "Holy Crusade",
-          "First Crusade",
-          "People's Crusade",
-          "Peasants' Crusade"
+          "1054",
+          "1099",
+          "1095",
+          "1187"
         ],
-        "correct_answer": "First Crusade",
+        "correct_answer": "1095",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -45191,14 +45191,14 @@
         "id": "his_132",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What was the period of European history between ancient and modern times called?",
+        "question": "The period of European history roughly from 500 to 1500 AD is most formally called what?",
         "options": [
-          "Dark Ages",
-          "Middle Ages",
-          "Medieval Period",
-          "All of the above"
+          "The Dark Ages",
+          "The Age of Faith",
+          "The Middle Ages",
+          "The Classical Period"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "The Middle Ages",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -45207,14 +45207,14 @@
         "id": "his_133",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What was a medieval castle used for?",
+        "question": "What was the primary military function of a medieval castle?",
         "options": [
-          "Living",
-          "Protection",
-          "Storage",
-          "All of the above"
+          "As a marketplace",
+          "As a place of worship",
+          "As a defensive fortification",
+          "As a court of law"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "As a defensive fortification",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -45287,14 +45287,14 @@
         "id": "his_138",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What was the main transportation in medieval times?",
+        "question": "What animal provided the primary means of fast, individual transportation for wealthy people in medieval Europe?",
         "options": [
-          "Walking",
-          "Horses",
-          "Carts",
-          "All of the above"
+          "Ox",
+          "Donkey",
+          "Mule",
+          "Horse"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Horse",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -45383,14 +45383,14 @@
         "id": "his_144",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What was the medieval period also known as?",
+        "question": "What term, used mostly by Renaissance scholars to demean the era, labeled the Middle Ages as intellectually backward?",
         "options": [
-          "Middle Ages",
-          "Dark Ages",
-          "Age of Faith",
-          "All of the above"
+          "The Feudal Age",
+          "The Age of Chivalry",
+          "The Dark Ages",
+          "The Iron Age"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "The Dark Ages",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -45591,14 +45591,14 @@
         "id": "his_157",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What was the feudal system?",
+        "question": "In the medieval feudal system, what did a vassal give a lord in exchange for land (a fief)?",
         "options": [
-          "A social system",
-          "A way of land ownership",
-          "A way of government",
-          "All of the above"
+          "Taxes and grain",
+          "Military service and loyalty",
+          "Labor and crafts",
+          "Tithes to the church"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Military service and loyalty",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -45639,14 +45639,14 @@
         "id": "his_160",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What was a medieval manor?",
+        "question": "What was the central economic and social unit of rural life in medieval Europe, consisting of a lord's land and dependent peasants?",
         "options": [
-          "A castle",
-          "A large estate",
-          "A village",
-          "All of the above"
+          "A monastery",
+          "A guild",
+          "A manor",
+          "A borough"
         ],
-        "correct_answer": "A large estate",
+        "correct_answer": "A manor",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -47783,14 +47783,14 @@
         "id": "his_291",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What was the primary weapon used by English longbowmen in medieval warfare?",
+        "question": "At which 1415 battle did English longbowmen devastate a much larger French cavalry force?",
         "options": [
-          "Longbow",
-          "Crossbow",
-          "Halberd",
-          "Pike"
+          "Battle of Crécy",
+          "Battle of Poitiers",
+          "Battle of Hastings",
+          "Battle of Agincourt"
         ],
-        "correct_answer": "Longbow",
+        "correct_answer": "Battle of Agincourt",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -47945,14 +47945,14 @@
         "id": "bib_004",
         "category": "Bible",
         "subcategory": "Bible Languages",
-        "question": "What does the Greek word 'Logos' mean in John 1:1?",
+        "question": "In John 1:1, the Greek word 'Logos' — translated as 'Word' — identifies Jesus with the divine rational principle. What does John say the Logos was 'in the beginning'?",
         "options": [
-          "Truth",
-          "Light",
-          "Word",
-          "Life"
+          "In the temple",
+          "With God",
+          "On the earth",
+          "Above the heavens"
         ],
-        "correct_answer": "Word",
+        "correct_answer": "With God",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -53627,11 +53627,11 @@
         "id": "foo_067",
         "category": "Food",
         "subcategory": "Dishes & Cuisines",
-        "question": "What cuisine is known for dishes like pad thai and green curry?",
+        "question": "Which Southeast Asian cuisine features fish sauce, lemongrass, galangal, and kaffir lime as key flavor bases?",
         "options": [
           "Vietnamese",
-          "Korean",
-          "Chinese",
+          "Indonesian",
+          "Cambodian",
           "Thai"
         ],
         "correct_answer": "Thai",
@@ -54299,14 +54299,14 @@
         "id": "foo_109",
         "category": "Food",
         "subcategory": "Dishes & Cuisines",
-        "question": "What color is an orange?",
+        "question": "What is the name of the vitamin C-rich pigment responsible for the orange color of ripe oranges?",
         "options": [
-          "Orange",
-          "Red",
-          "Yellow",
-          "Green"
+          "Lycopene",
+          "Beta-carotene",
+          "Anthocyanin",
+          "Chlorophyll"
         ],
-        "correct_answer": "Orange",
+        "correct_answer": "Beta-carotene",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -55243,12 +55243,12 @@
         "id": "foo_168",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "Which celebrity chef is known for saying 'Bam!'?",
+        "question": "Which New Orleans-born chef is credited with popularizing Creole cuisine nationally through his restaurant Emeril's?",
         "options": [
-          "Emeril Lagasse",
-          "Bobby Flay",
-          "Wolfgang Puck",
-          "Gordon Ramsay"
+          "Paul Prudhomme",
+          "John Besh",
+          "Donald Link",
+          "Emeril Lagasse"
         ],
         "correct_answer": "Emeril Lagasse",
         "difficulty": "easy",
@@ -55499,14 +55499,14 @@
         "id": "foo_184",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "Which chef is known for the catchphrase 'Bam!'?",
+        "question": "Chef Emeril Lagasse is particularly associated with which regional American cuisine?",
         "options": [
-          "Emeril Lagasse",
-          "Bobby Flay",
-          "Gordon Ramsay",
-          "Jamie Oliver"
+          "Tex-Mex",
+          "California cuisine",
+          "New England seafood",
+          "Louisiana Creole"
         ],
-        "correct_answer": "Emeril Lagasse",
+        "correct_answer": "Louisiana Creole",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -55547,14 +55547,14 @@
         "id": "foo_187",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "Which chef is known for the quote 'Bam!'?",
+        "question": "On which TV network did Emeril Lagasse's cooking show 'Emeril Live' primarily air during the 1990s and 2000s?",
         "options": [
-          "Bobby Flay",
-          "Emeril Lagasse",
-          "Gordon Ramsay",
-          "Wolfgang Puck"
+          "Food Network",
+          "Bravo",
+          "PBS",
+          "Discovery"
         ],
-        "correct_answer": "Emeril Lagasse",
+        "correct_answer": "Food Network",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -55627,14 +55627,14 @@
         "id": "foo_192",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "What is the main element of José Andrés' minibar concept?",
+        "question": "In what U.S. city did chef José Andrés open his avant-garde tasting-menu restaurant Minibar?",
         "options": [
-          "Molecular dining",
-          "Small plates",
-          "Tapas bar",
-          "All of the above"
+          "New York",
+          "Los Angeles",
+          "Chicago",
+          "Washington D.C."
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Washington D.C.",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -56011,14 +56011,14 @@
         "id": "foo_216",
         "category": "Food",
         "subcategory": "Ingredients",
-        "question": "What grain is used to make popcorn?",
+        "question": "What specific variety of corn is used to make popcorn, distinct from sweet corn or field corn?",
         "options": [
-          "Corn",
-          "Rice",
-          "Wheat",
-          "Oats"
+          "Dent corn",
+          "Flint corn",
+          "Zea mays everta",
+          "Waxy corn"
         ],
-        "correct_answer": "Corn",
+        "correct_answer": "Zea mays everta",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -56475,14 +56475,14 @@
         "id": "foo_245",
         "category": "Food",
         "subcategory": "Ingredients",
-        "question": "What is the main spice in traditional Indian curry?",
+        "question": "Which seed-based spice, ground from the dried berries of Pimenta dioica, combines flavors of cinnamon, cloves, and nutmeg?",
         "options": [
-          "Coriander",
-          "Cumin",
-          "Turmeric",
-          "All of the above"
+          "Mixed spice",
+          "Allspice",
+          "Five-spice",
+          "Mace"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Allspice",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -57275,14 +57275,14 @@
         "id": "foo_295",
         "category": "Food",
         "subcategory": "Baking & Desserts",
-        "question": "What dessert is traditionally served flambéed with rum or brandy?",
+        "question": "Which New Orleans dessert, invented at Brennan's restaurant, is made with bananas, brown sugar, and rum?",
         "options": [
-          "Bananas Foster",
-          "Crêpes Suzette",
           "Cherries Jubilee",
-          "All of the above"
+          "Crêpes Suzette",
+          "Bananas Foster",
+          "Baked Alaska"
         ],
-        "correct_answer": "All of the above",
+        "correct_answer": "Bananas Foster",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null

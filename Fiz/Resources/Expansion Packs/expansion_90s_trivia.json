@@ -260,14 +260,14 @@
       "id": "90s_015",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "Who played Will Smith in 'The Fresh Prince of Bel-Air'?",
+      "question": "In 'The Fresh Prince of Bel-Air', what is the name of Will's wealthy uncle who takes him in?",
       "options": [
-        "Alfonso Ribeiro",
-        "Will Smith",
-        "Jazzy Jeff",
-        "James Avery"
+        "Philip Banks",
+        "Carlton Banks",
+        "Geoffrey Butler",
+        "Hilary Banks"
       ],
-      "correct_answer": "Will Smith",
+      "correct_answer": "Philip Banks",
       "difficulty": "easy",
       "topic": "com.fiz.pack.90s",
       "subtopic": "TV Shows"
@@ -758,14 +758,14 @@
       "id": "90s_046",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What is the name of the theme park in 'Jurassic Park'?",
+      "question": "In 'Jurassic Park' (1993), what island off Costa Rica hosts the dinosaur theme park?",
       "options": [
-        "Dino World",
-        "Jurassic Park",
-        "Dinosaur Island",
-        "Prehistoric Land"
+        "Isla Sorna",
+        "Isla Matanceros",
+        "Isla Nublar",
+        "Isla Tacaño"
       ],
-      "correct_answer": "Jurassic Park",
+      "correct_answer": "Isla Nublar",
       "difficulty": "easy",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Movies"
@@ -1190,15 +1190,15 @@
       "id": "90s_073",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What 1995 film features a deadly virus outbreak with Dustin Hoffman?",
+      "question": "In the 1995 thriller 'Outbreak', what fictional hemorrhagic virus spreads through a California town?",
       "options": [
-        "Contagion",
-        "Outbreak",
-        "28 Days Later",
-        "The Andromeda Strain"
+        "Motaba",
+        "Ebola",
+        "Marburg",
+        "Lassa"
       ],
-      "correct_answer": "Outbreak",
-      "difficulty": "medium",
+      "correct_answer": "Motaba",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Movies"
     },
@@ -1254,15 +1254,15 @@
       "id": "90s_077",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What 1998 film features a soldier saving Private Ryan?",
+      "question": "In 'Saving Private Ryan' (1998), which military unit is Captain Miller's squad primarily composed of?",
       "options": [
-        "The Thin Red Line",
-        "Saving Private Ryan",
-        "Three Kings",
-        "Pearl Harbor"
+        "Marines",
+        "Army Rangers",
+        "Airborne infantry",
+        "Army infantry"
       ],
-      "correct_answer": "Saving Private Ryan",
-      "difficulty": "medium",
+      "correct_answer": "Army Rangers",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Movies"
     },
@@ -1414,14 +1414,14 @@
       "id": "90s_087",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What is the name of the AI system in 'The Matrix'?",
+      "question": "In 'The Matrix' (1999), what name is given to the mysterious figure who offers Neo the red or blue pill?",
       "options": [
-        "Skynet",
+        "Agent Smith",
         "The Architect",
-        "The Matrix",
+        "Morpheus",
         "The Oracle"
       ],
-      "correct_answer": "The Matrix",
+      "correct_answer": "Morpheus",
       "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Movies"
@@ -1750,14 +1750,14 @@
       "id": "90s_108",
       "category": "Music",
       "subcategory": "Musicians & Bands",
-      "question": "What was the name of NSYNC's debut album?",
+      "question": "NSYNC's multi-platinum 2000 album 'No Strings Attached' broke a one-week sales record at the time. Who was the group's lead vocalist?",
       "options": [
-        "NSYNC",
-        "No Strings Attached",
-        "Celebrity",
-        "Home for Christmas"
+        "JC Chasez",
+        "Lance Bass",
+        "Justin Timberlake",
+        "Joey Fatone"
       ],
-      "correct_answer": "NSYNC",
+      "correct_answer": "Justin Timberlake",
       "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Music"
@@ -2022,15 +2022,15 @@
       "id": "90s_125",
       "category": "Music",
       "subcategory": "Musicians & Bands",
-      "question": "What was the name of the Spice Girls' debut album?",
+      "question": "The Spice Girls' debut single 'Wannabe' spent how many weeks at #1 in the UK in 1996?",
       "options": [
-        "Spice",
-        "Spiceworld",
-        "Forever",
-        "Greatest Hits"
+        "1 week",
+        "3 weeks",
+        "5 weeks",
+        "7 weeks"
       ],
-      "correct_answer": "Spice",
-      "difficulty": "medium",
+      "correct_answer": "7 weeks",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Music"
     },
@@ -2150,14 +2150,14 @@
       "id": "90s_133",
       "category": "Music",
       "subcategory": "Musicians & Bands",
-      "question": "What was the name of the Backstreet Boys' first album?",
+      "question": "The Backstreet Boys' album 'Millennium' (1999) was one of the best-selling albums of that year. How many members are in the group?",
       "options": [
-        "Backstreet's Back",
-        "Millennium",
-        "Backstreet Boys",
-        "Black & Blue"
+        "3",
+        "4",
+        "5",
+        "6"
       ],
-      "correct_answer": "Backstreet Boys",
+      "correct_answer": "5",
       "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Music"
@@ -2518,14 +2518,14 @@
       "id": "90s_156",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What animated series featured babies Tommy, Chuckie, and Angelica?",
+      "question": "In 'Rugrats', what is the name of Tommy Pickles' best friend, who is notoriously scared of everything?",
       "options": [
-        "Recess",
-        "Rugrats",
-        "The Wild Thornberrys",
-        "Rocket Power"
+        "Phil DeVille",
+        "Chuckie Finster",
+        "Angelica Pickles",
+        "Dil Pickles"
       ],
-      "correct_answer": "Rugrats",
+      "correct_answer": "Chuckie Finster",
       "difficulty": "easy",
       "topic": "com.fiz.pack.90s",
       "subtopic": "TV Shows"
@@ -2902,14 +2902,14 @@
       "id": "90s_180",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What animated series featured a character named Stu Pickles?",
+      "question": "In 'Rugrats', what is the catchphrase of the bossy toddler Angelica Pickles?",
       "options": [
-        "Hey Arnold",
-        "Rugrats",
-        "Doug",
-        "Rocko's Modern Life"
+        "\"You dumb babies!\"",
+        "\"I'm the boss!\"",
+        "\"Stupid babies!\"",
+        "\"Grow up, babies!\""
       ],
-      "correct_answer": "Rugrats",
+      "correct_answer": "\"You dumb babies!\"",
       "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "TV Shows"
@@ -4278,14 +4278,14 @@
       "id": "90s_266",
       "category": "Art",
       "subcategory": "Fashion",
-      "question": "What shoe brand featured chunky sneakers called Buffalo platforms?",
+      "question": "Which 90s platform shoe style, popularized by the Spice Girls, featured soles several inches thick?",
       "options": [
-        "Nike",
-        "Reebok",
-        "Buffalo",
-        "Sketchers"
+        "Wedge sneakers",
+        "Platform trainers",
+        "Chunky heels",
+        "Flatforms"
       ],
-      "correct_answer": "Buffalo",
+      "correct_answer": "Platform trainers",
       "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Fashion & Trends"
@@ -4630,14 +4630,14 @@
       "id": "90s_288",
       "category": "Art",
       "subcategory": "Fashion",
-      "question": "What hairstyle featured hair crimped into a zigzag pattern?",
+      "question": "Which 90s hair tool created a wavy, zigzag texture by pressing sections of hair between ridged plates?",
       "options": [
-        "Wavy",
-        "Crimped",
-        "Permed",
-        "Curled"
+        "Flat iron",
+        "Curling wand",
+        "Hair crimper",
+        "Diffuser"
       ],
-      "correct_answer": "Crimped",
+      "correct_answer": "Hair crimper",
       "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Fashion & Trends"
@@ -4790,15 +4790,15 @@
       "id": "90s_298",
       "category": "Art",
       "subcategory": "Fashion",
-      "question": "What was the name of the temporary tattoo chokers?",
+      "question": "The choker necklace was a signature 90s accessory. What material were most of these chokers made from?",
       "options": [
-        "Tattoo chokers",
-        "Stretch chokers",
-        "Henna chokers",
-        "Elastic chokers"
+        "Leather",
+        "Velvet",
+        "Plastic (elastic cord)",
+        "Metal chain"
       ],
-      "correct_answer": "Tattoo chokers",
-      "difficulty": "hard",
+      "correct_answer": "Plastic (elastic cord)",
+      "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Fashion & Trends"
     },
@@ -4918,15 +4918,15 @@
       "id": "90s_306",
       "category": "Sports",
       "subcategory": "Sports History & Records",
-      "question": "How many championships did the Chicago Bulls win in the 1990s?",
+      "question": "Michael Jordan's Chicago Bulls won six championships in two three-peats. Which team defeated the Bulls in the 1995 playoffs, ending their first dynasty?",
       "options": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "New York Knicks",
+        "Indiana Pacers",
+        "Orlando Magic",
+        "Miami Heat"
       ],
-      "correct_answer": "6",
-      "difficulty": "easy",
+      "correct_answer": "Orlando Magic",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Sports & Events"
     },
@@ -4934,15 +4934,15 @@
       "id": "90s_307",
       "category": "Sports",
       "subcategory": "Sports History & Records",
-      "question": "What country won the 1998 FIFA World Cup?",
+      "question": "Who scored the two goals in France's 3-0 victory over Brazil in the 1998 FIFA World Cup final?",
       "options": [
-        "Brazil",
-        "France",
-        "Italy",
-        "Germany"
+        "Thierry Henry",
+        "David Trezeguet",
+        "Zinedine Zidane",
+        "Laurent Blanc"
       ],
-      "correct_answer": "France",
-      "difficulty": "easy",
+      "correct_answer": "Zinedine Zidane",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Sports & Events"
     },
@@ -5174,15 +5174,15 @@
       "id": "90s_322",
       "category": "Sports",
       "subcategory": "Sports History & Records",
-      "question": "What team won Super Bowl XXX in 1996?",
+      "question": "Cowboys QB Troy Aikman won Super Bowls in 1993, 1994, and 1996. What college did Aikman play for?",
       "options": [
-        "Dallas Cowboys",
-        "Pittsburgh Steelers",
-        "Green Bay Packers",
-        "San Francisco 49ers"
+        "Texas",
+        "Oklahoma",
+        "Nebraska",
+        "UCLA"
       ],
-      "correct_answer": "Dallas Cowboys",
-      "difficulty": "medium",
+      "correct_answer": "UCLA",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Sports & Events"
     },
@@ -5190,14 +5190,14 @@
       "id": "90s_323",
       "category": "Sports",
       "subcategory": "Sports History & Records",
-      "question": "What team won the 1999 World Series?",
+      "question": "Who was the New York Yankees' manager for all four of their 1990s World Series championships?",
       "options": [
-        "Atlanta Braves",
-        "New York Yankees",
-        "San Diego Padres",
-        "Cleveland Indians"
+        "Billy Martin",
+        "Buck Showalter",
+        "Joe Torre",
+        "Lou Piniella"
       ],
-      "correct_answer": "New York Yankees",
+      "correct_answer": "Joe Torre",
       "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Sports & Events"
@@ -5398,15 +5398,15 @@
       "id": "90s_336",
       "category": "Sports",
       "subcategory": "Sports History & Records",
-      "question": "What team did John Elway win his Super Bowl championships with?",
+      "question": "John Elway retired after winning Super Bowl XXXIII in 1999. What year was Elway drafted by the Denver Broncos?",
       "options": [
-        "Kansas City Chiefs",
-        "Denver Broncos",
-        "Oakland Raiders",
-        "San Diego Chargers"
+        "1981",
+        "1983",
+        "1984",
+        "1986"
       ],
-      "correct_answer": "Denver Broncos",
-      "difficulty": "medium",
+      "correct_answer": "1983",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Sports & Events"
     },
@@ -5734,15 +5734,15 @@
       "id": "90s_357",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What phrase meant something was cool or awesome?",
+      "question": "Which 90s slang phrase, meaning something impressive, referenced a snack food?",
       "options": [
         "Phat",
-        "Dope",
+        "Totally tubular",
         "All that and a bag of chips",
-        "All of the above"
+        "Da bomb"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "easy",
+      "correct_answer": "All that and a bag of chips",
+      "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Pop Culture"
     },
@@ -6006,15 +6006,15 @@
       "id": "90s_374",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What was the name of the Stretch Armstrong-like octopus toy?",
+      "question": "Stretch Armstrong was a popular toy in the 90s. What filled the toy's body, giving it its stretchy properties?",
       "options": [
-        "Stretch Monster",
-        "Stretch Octopus",
-        "Stretch Armstrong",
-        "None of the above"
+        "Rubber gel",
+        "Corn syrup gel",
+        "Foam filling",
+        "Water beads"
       ],
-      "correct_answer": "Stretch Armstrong",
-      "difficulty": "medium",
+      "correct_answer": "Corn syrup gel",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Pop Culture"
     },
@@ -6342,15 +6342,15 @@
       "id": "90s_395",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What was the name of the competing virtual pet to Tamagotchi?",
+      "question": "Tamagotchi and Giga Pets were 90s virtual pet toys. Which Japanese company invented the original Tamagotchi in 1996?",
       "options": [
-        "Nano Pet",
-        "Pixel Chix",
-        "Giga Pets",
-        "DigiPet"
+        "Nintendo",
+        "Sega",
+        "Bandai",
+        "Konami"
       ],
-      "correct_answer": "Giga Pets",
-      "difficulty": "hard",
+      "correct_answer": "Bandai",
+      "difficulty": "medium",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Pop Culture"
     },

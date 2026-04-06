@@ -292,10 +292,10 @@
       "subtopic": "Locations & Worlds",
       "category": "Literature",
       "subcategory": "Fantasy Literature",
-      "question": "What is the name of the stone table where Aslan is sacrificed?",
+      "question": "Where does Aslan meet his death at the hands of the White Witch?",
       "options": [
         "The Stone Table",
-        "The Altar of Aslan",
+        "The Altar of Cair Paravel",
         "The Sacred Stone",
         "The Table of Sacrifice"
       ],
@@ -498,7 +498,7 @@
       "id": "nar_030",
       "category": "Literature",
       "subcategory": "Fantasy",
-      "question": "In 'The Lion, the Witch and the Wardrobe', what does Aslan primarily symbolize in Christian allegory?",
+      "question": "In Christian allegory, which figure does Aslan most closely represent in 'The Lion, the Witch and the Wardrobe'?",
       "options": [
         "Christ",
         "God the Father",
@@ -758,14 +758,14 @@
       "subtopic": "Books & Plot",
       "category": "Literature",
       "subcategory": "Fantasy Literature",
-      "question": "In 'Prince Caspian', who is the rightful heir to Narnia's throne?",
+      "question": "In 'Prince Caspian', who has wrongfully usurped the Narnian throne that the title character seeks to reclaim?",
       "options": [
-        "Caspian",
         "Miraz",
+        "Edmund",
         "Peter",
-        "Edmund"
+        "Jadis"
       ],
-      "correct_answer": "Caspian",
+      "correct_answer": "Miraz",
       "difficulty": "easy"
     },
     {
@@ -854,14 +854,14 @@
       "subtopic": "Books & Plot",
       "category": "Literature",
       "subcategory": "Fantasy Literature",
-      "question": "What is the name of the ship in 'The Voyage of the Dawn Treader'?",
+      "question": "Which of the following best describes the Dawn Treader's mission in C.S. Lewis's third Narnia book?",
       "options": [
-        "The Dawn Treader",
-        "The Splendour Hyaline",
-        "The Sea Serpent",
-        "The Eastern Star"
+        "To sail east to find the seven lost lords",
+        "To rescue Edmund from the White Witch",
+        "To find the Silver Chair",
+        "To reclaim the Narnian throne"
       ],
-      "correct_answer": "The Dawn Treader",
+      "correct_answer": "To sail east to find the seven lost lords",
       "difficulty": "easy"
     },
     {
@@ -1718,14 +1718,14 @@
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Characters",
-      "question": "What weapon does Peter Pevensie receive from Father Christmas?",
+      "question": "What gift does Susan receive from Father Christmas in 'The Lion, the Witch and the Wardrobe'?",
       "options": [
-        "Sword and shield",
-        "Bow and arrows",
-        "Dagger",
-        "Horn"
+        "A bow, arrows, and ivory horn",
+        "A healing cordial",
+        "A sword and shield",
+        "A golden wand"
       ],
-      "correct_answer": "Sword and shield",
+      "correct_answer": "A bow, arrows, and ivory horn",
       "difficulty": "easy"
     },
     {
@@ -1798,14 +1798,14 @@
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Characters",
-      "question": "What gift does Lucy receive from Father Christmas?",
+      "question": "What is Lucy's role in battle as established by Father Christmas's gift rules in 'The Lion, the Witch and the Wardrobe'?",
       "options": [
-        "Healing cordial and dagger",
-        "Bow and arrows",
-        "Horn",
-        "Sword"
+        "Healer, not fighter",
+        "Archer and scout",
+        "Shield-bearer",
+        "Sword-fighter"
       ],
-      "correct_answer": "Healing cordial and dagger",
+      "correct_answer": "Healer, not fighter",
       "difficulty": "easy"
     },
     {
@@ -2230,14 +2230,14 @@
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Characters",
-      "question": "Who is Shasta's real name?",
+      "question": "In 'The Horse and His Boy', what kingdom does Shasta discover he is actually a prince of?",
       "options": [
-        "Cor",
-        "Corin",
-        "Colin",
-        "Corben"
+        "Archenland",
+        "Narnia",
+        "Calormen",
+        "Telmar"
       ],
-      "correct_answer": "Cor",
+      "correct_answer": "Archenland",
       "difficulty": "medium"
     },
     {
@@ -2470,15 +2470,15 @@
       "subcategory": "Fantasy",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Characters",
-      "question": "What is the name of Aravis's talking horse?",
+      "question": "In 'The Horse and His Boy', what country does Aravis flee from at the start of her journey?",
       "options": [
-        "Hwin",
-        "Bree",
-        "Fledge",
-        "Destrier"
+        "Calormen",
+        "Archenland",
+        "Telmar",
+        "Ettinsmoor"
       ],
-      "correct_answer": "Hwin",
-      "difficulty": "hard"
+      "correct_answer": "Calormen",
+      "difficulty": "easy"
     },
     {
       "id": "nar_154",
@@ -3206,14 +3206,14 @@
       "subtopic": "Locations & Worlds",
       "category": "Literature",
       "subcategory": "Fantasy Literature",
-      "question": "Where does Reepicheep go at the end of 'The Voyage of the Dawn Treader'?",
+      "question": "In 'The Voyage of the Dawn Treader', why does Reepicheep wish to sail to the utter East?",
       "options": [
-        "Over the wave into Aslan's Country",
-        "Back to Narnia",
-        "To settle on Ramandu's Island",
-        "To explore new islands"
+        "He has longed for Aslan's Country since a prophecy at his cradle",
+        "He seeks revenge against a sea serpent",
+        "He wants to find a lost Narnian treasure",
+        "He is fleeing exile from Narnia"
       ],
-      "correct_answer": "Over the wave into Aslan's Country",
+      "correct_answer": "He has longed for Aslan's Country since a prophecy at his cradle",
       "difficulty": "medium"
     },
     {
@@ -3254,12 +3254,12 @@
       "subtopic": "Locations & Worlds",
       "category": "Literature",
       "subcategory": "Fantasy Literature",
-      "question": "What is the name of the pool in Caldron Pool where trouble begins in 'The Last Battle'?",
+      "question": "In 'The Last Battle', near which geographical feature does the trouble with Puzzle the donkey and the fake Aslan begin?",
       "options": [
         "Caldron Pool",
-        "The Boiling Pool",
-        "The Western Pool",
-        "The Sacred Pool"
+        "The Great Waterfall",
+        "The Western Wilds",
+        "Lantern Waste"
       ],
       "correct_answer": "Caldron Pool",
       "difficulty": "medium"
@@ -4580,14 +4580,14 @@
       "id": "nar_285",
       "category": "Literature",
       "subcategory": "Fantasy",
-      "question": "What does the White Witch use to turn creatures to stone?",
+      "question": "What object does the White Witch carry that she uses to freeze creatures in Narnia?",
       "options": [
-        "A staff",
-        "A wand",
-        "Her hand",
-        "A spell book"
+        "A stone wand",
+        "A silver staff",
+        "A crystal scepter",
+        "A bone rod"
       ],
-      "correct_answer": "A wand",
+      "correct_answer": "A stone wand",
       "difficulty": "easy",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Magic & Objects"
@@ -4948,14 +4948,14 @@
       "id": "nar_308",
       "category": "Literature",
       "subcategory": "Fantasy",
-      "question": "What are the signs Aslan gives to Jill in 'The Silver Chair'?",
+      "question": "In 'The Silver Chair', what is the FIRST sign Aslan tells Jill to look for?",
       "options": [
-        "Written in stone",
-        "Spoken instructions to remember",
-        "Visions",
-        "A map"
+        "Greet the first person she meets who is an old friend of Narnia",
+        "Find the ruined city of the ancient giants",
+        "Seek a knight who sits at a table every night",
+        "Travel north until she reaches the land of the giants"
       ],
-      "correct_answer": "Spoken instructions to remember",
+      "correct_answer": "Greet the first person she meets who is an old friend of Narnia",
       "difficulty": "medium",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Magic & Objects"
@@ -5668,14 +5668,14 @@
       "id": "nar_353",
       "category": "Literature",
       "subcategory": "Fantasy",
-      "question": "What does the Deeper Magic from Before the Dawn of Time symbolize?",
+      "question": "In Narnian mythology, what is the 'Deep Magic from the Dawn of Time' primarily associated with?",
       "options": [
-        "God's grace and mercy beyond law",
-        "Older, darker forces",
-        "The witch's power",
-        "Human knowledge"
+        "The law of sacrifice and blood guilt",
+        "The creation of Narnia by Aslan's song",
+        "The power of the White Witch's wand",
+        "The rules of the Stone Table"
       ],
-      "correct_answer": "God's grace and mercy beyond law",
+      "correct_answer": "The law of sacrifice and blood guilt",
       "difficulty": "medium",
       "topic": "com.fiz.pack.narnia",
       "subtopic": "Themes & Symbolism"
@@ -6358,14 +6358,14 @@
       "subtopic": "Creatures & Beings",
       "category": "Literature",
       "subcategory": "Fantasy Literature",
-      "question": "What type of creature is Reepicheep?",
+      "question": "In 'Prince Caspian', what rank does Reepicheep hold among his fellow mice?",
       "options": [
-        "A talking mouse",
-        "A talking rat",
-        "A talking squirrel",
-        "A talking rabbit"
+        "Chief Mouse",
+        "Captain of the Guard",
+        "First Knight",
+        "Bravest Warrior"
       ],
-      "correct_answer": "A talking mouse",
+      "correct_answer": "Chief Mouse",
       "difficulty": "easy"
     },
     {
@@ -6406,14 +6406,14 @@
       "subtopic": "Magic & Objects",
       "category": "Literature",
       "subcategory": "Fantasy Literature",
-      "question": "What is the name of Peter's sword?",
+      "question": "What title is Peter Pevensie given as High King of Narnia?",
       "options": [
-        "Rhindon",
-        "Excalibur",
-        "Glamdring",
-        "Sting"
+        "Peter the Magnificent",
+        "Peter the Brave",
+        "Peter the Wise",
+        "Peter the Just"
       ],
-      "correct_answer": "Rhindon",
+      "correct_answer": "Peter the Magnificent",
       "difficulty": "easy"
     },
     {

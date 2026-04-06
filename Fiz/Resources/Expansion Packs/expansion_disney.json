@@ -1292,14 +1292,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Animated Classics",
-      "question": "What animal is Rajah in 'Aladdin'?",
+      "question": "In 'Aladdin', what is the name of Jasmine's tiger?",
       "options": [
-        "Lion",
-        "Panther",
-        "Tiger",
-        "Leopard"
+        "Sultan",
+        "Rajah",
+        "Carpet",
+        "Abu"
       ],
-      "correct_answer": "Tiger",
+      "correct_answer": "Rajah",
       "difficulty": "easy"
     },
     {
@@ -2332,14 +2332,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Animated Classics",
-      "question": "In 'Treasure Planet', what is Jim Hawkins looking for?",
+      "question": "In 'Treasure Planet', what character serves as Jim Hawkins' cyborg mentor?",
       "options": [
-        "Home",
-        "His father",
-        "Treasure Planet",
-        "A ship"
+        "Captain Amelia",
+        "Doctor Doppler",
+        "John Silver",
+        "B.E.N."
       ],
-      "correct_answer": "Treasure Planet",
+      "correct_answer": "John Silver",
       "difficulty": "medium"
     },
     {
@@ -2412,14 +2412,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Animated Classics",
-      "question": "In 'Raya and the Last Dragon', what is Sisu?",
+      "question": "In 'Raya and the Last Dragon', what land does Raya come from?",
       "options": [
-        "A warrior",
-        "A princess",
-        "The last dragon",
-        "A villain"
+        "Fang",
+        "Heart",
+        "Spine",
+        "Tail"
       ],
-      "correct_answer": "The last dragon",
+      "correct_answer": "Heart",
       "difficulty": "medium"
     },
     {
@@ -3180,15 +3180,15 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Characters",
-      "question": "What are the names of Donald Duck's nephews?",
+      "question": "In what animated series did Huey, Dewey, and Louie star alongside Scrooge McDuck?",
       "options": [
-        "Larry, Curly, and Moe",
-        "Tom, Dick, and Harry",
-        "None",
-        "Huey, Dewey, and Louie"
+        "DuckTales",
+        "Chip 'n Dale Rescue Rangers",
+        "TaleSpin",
+        "Darkwing Duck"
       ],
-      "correct_answer": "Huey, Dewey, and Louie",
-      "difficulty": "medium"
+      "correct_answer": "DuckTales",
+      "difficulty": "easy"
     },
     {
       "id": "dsn_paid_231",
@@ -4204,14 +4204,14 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Who wrote the music for 'Beauty and the Beast'?",
+      "question": "Which lyricist collaborated with Alan Menken on 'Beauty and the Beast'?",
       "options": [
-        "Elton John",
-        "Hans Zimmer",
-        "Randy Newman",
-        "Alan Menken"
+        "Howard Ashman",
+        "Tim Rice",
+        "Stephen Schwartz",
+        "Lin-Manuel Miranda"
       ],
-      "correct_answer": "Alan Menken",
+      "correct_answer": "Howard Ashman",
       "difficulty": "medium"
     },
     {
@@ -4220,14 +4220,14 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Who wrote the music for 'Aladdin'?",
+      "question": "What is the name of the genie's theme song in the original animated 'Aladdin'?",
       "options": [
-        "Elton John",
-        "Phil Collins",
-        "Hans Zimmer",
-        "Alan Menken"
+        "A Whole New World",
+        "Friend Like Me",
+        "Prince Ali",
+        "One Jump Ahead"
       ],
-      "correct_answer": "Alan Menken",
+      "correct_answer": "Friend Like Me",
       "difficulty": "medium"
     },
     {
@@ -4236,15 +4236,15 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Who wrote the music for 'Pocahontas'?",
+      "question": "Which Oscar-winning song is from Disney's 'Pocahontas'?",
       "options": [
-        "Elton John",
-        "Phil Collins",
-        "Hans Zimmer",
-        "Alan Menken"
+        "Just Around the Riverbend",
+        "Colors of the Wind",
+        "Savages",
+        "Listen with Your Heart"
       ],
-      "correct_answer": "Alan Menken",
-      "difficulty": "medium"
+      "correct_answer": "Colors of the Wind",
+      "difficulty": "easy"
     },
     {
       "id": "dsn_paid_298",
@@ -4252,15 +4252,15 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Who wrote the music for 'The Lion King' (1994)?",
+      "question": "Which Elton John song from 'The Lion King' plays during the opening sequence?",
       "options": [
-        "Alan Menken",
-        "Phil Collins",
-        "Randy Newman",
-        "Elton John and Hans Zimmer"
+        "Can You Feel the Love Tonight",
+        "Circle of Life",
+        "Hakuna Matata",
+        "Be Prepared"
       ],
-      "correct_answer": "Elton John and Hans Zimmer",
-      "difficulty": "medium"
+      "correct_answer": "Circle of Life",
+      "difficulty": "easy"
     },
     {
       "id": "dsn_paid_299",
@@ -4300,14 +4300,14 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Who wrote the music for 'Tangled'?",
+      "question": "What is the name of the main song from Disney's 'Tangled'?",
       "options": [
-        "Kristen Anderson-Lopez and Robert Lopez",
-        "Elton John",
-        "Phil Collins",
-        "Alan Menken"
+        "When Will My Life Begin",
+        "I See the Light",
+        "Mother Knows Best",
+        "Something That I Want"
       ],
-      "correct_answer": "Alan Menken",
+      "correct_answer": "I See the Light",
       "difficulty": "medium"
     },
     {
@@ -4396,15 +4396,15 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "What song from 'Beauty and the Beast' won an Oscar?",
+      "question": "Which year did the animated 'Beauty and the Beast' win the Oscar for Best Original Song?",
       "options": [
-        "Be Our Guest",
-        "Belle",
-        "Gaston",
-        "Beauty and the Beast"
+        "1989",
+        "1990",
+        "1991",
+        "1992"
       ],
-      "correct_answer": "Beauty and the Beast",
-      "difficulty": "medium"
+      "correct_answer": "1992",
+      "difficulty": "hard"
     },
     {
       "id": "dsn_paid_308",
@@ -4604,15 +4604,15 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Which song does Gaston sing about himself?",
+      "question": "In 'Beauty and the Beast', who leads the villagers in a mob against the Beast?",
       "options": [
         "Gaston",
-        "Be Our Guest",
-        "Belle",
-        "The Mob Song"
+        "LeFou",
+        "Maurice",
+        "The Baker"
       ],
       "correct_answer": "Gaston",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": "dsn_paid_321",
@@ -4748,14 +4748,14 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Who wrote the lyrics to 'The Little Mermaid' songs?",
+      "question": "Howard Ashman wrote the lyrics for 'The Little Mermaid'. Which song did he write that became the film's Oscar winner?",
       "options": [
-        "Howard Ashman",
-        "Tim Rice",
-        "Alan Menken",
-        "Stephen Schwartz"
+        "Part of Your World",
+        "Under the Sea",
+        "Kiss the Girl",
+        "Poor Unfortunate Souls"
       ],
-      "correct_answer": "Howard Ashman",
+      "correct_answer": "Under the Sea",
       "difficulty": "hard"
     },
     {
@@ -5100,15 +5100,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Live Action",
-      "question": "Who directed the 2016 Jungle Book?",
+      "question": "Who directed the 2016 live-action adaptation of 'Pete's Dragon'?",
       "options": [
-        "Jon Favreau",
         "Tim Burton",
-        "Kenneth Branagh",
-        "Guy Ritchie"
+        "David Lowery",
+        "Jon Favreau",
+        "Bill Condon"
       ],
-      "correct_answer": "Jon Favreau",
-      "difficulty": "medium"
+      "correct_answer": "David Lowery",
+      "difficulty": "hard"
     },
     {
       "id": "dsn_paid_383",
@@ -5260,15 +5260,15 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "What is the iconic centerpiece of Magic Kingdom?",
+      "question": "How tall is Cinderella Castle at Walt Disney World in feet?",
       "options": [
-        "Cinderella Castle",
-        "Sleeping Beauty Castle",
-        "Spaceship Earth",
-        "Tree of Life"
+        "145 feet",
+        "189 feet",
+        "210 feet",
+        "230 feet"
       ],
-      "correct_answer": "Cinderella Castle",
-      "difficulty": "easy"
+      "correct_answer": "189 feet",
+      "difficulty": "hard"
     },
     {
       "id": "dsn_paid_398",
@@ -5308,15 +5308,15 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "Which ride takes you through 'It's a Small World'?",
+      "question": "In what year did the 'It's a Small World' attraction first open at Disneyland?",
       "options": [
-        "It's a Small World",
-        "Pirates of the Caribbean",
-        "Haunted Mansion",
-        "Jungle Cruise"
+        "1955",
+        "1959",
+        "1964",
+        "1971"
       ],
-      "correct_answer": "It's a Small World",
-      "difficulty": "easy"
+      "correct_answer": "1964",
+      "difficulty": "hard"
     },
     {
       "id": "dsn_paid_401",
@@ -5340,15 +5340,15 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "Which Disney park features World Showcase?",
+      "question": "In which Disney park can guests experience the 'Guardians of the Galaxy: Cosmic Rewind' roller coaster?",
       "options": [
-        "Epcot",
-        "Magic Kingdom",
         "Hollywood Studios",
-        "Animal Kingdom"
+        "Magic Kingdom",
+        "Animal Kingdom",
+        "Epcot"
       ],
       "correct_answer": "Epcot",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "dsn_paid_403",
@@ -5436,15 +5436,15 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "Which park is dedicated to world cultures and technology?",
+      "question": "Which Disney park is divided into two halves: Future World and World Showcase?",
       "options": [
-        "Epcot",
         "Magic Kingdom",
+        "Epcot",
         "Hollywood Studios",
         "Animal Kingdom"
       ],
       "correct_answer": "Epcot",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "dsn_paid_409",
@@ -5596,15 +5596,15 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "How many theme parks are at Walt Disney World?",
+      "question": "Which of the four Walt Disney World parks opened most recently?",
       "options": [
-        "4",
-        "2",
-        "6",
-        "3"
+        "Epcot",
+        "Hollywood Studios",
+        "Animal Kingdom",
+        "Magic Kingdom"
       ],
-      "correct_answer": "4",
-      "difficulty": "medium"
+      "correct_answer": "Animal Kingdom",
+      "difficulty": "hard"
     },
     {
       "id": "dsn_paid_420",
@@ -5612,15 +5612,15 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "Which was the first international Disney park?",
+      "question": "In which country is Tokyo Disneyland located but NOT owned by Disney?",
       "options": [
-        "Tokyo Disneyland",
-        "Disneyland Paris",
-        "Hong Kong Disneyland",
-        "Shanghai Disneyland"
+        "Japan",
+        "China",
+        "South Korea",
+        "Thailand"
       ],
-      "correct_answer": "Tokyo Disneyland",
-      "difficulty": "medium"
+      "correct_answer": "Japan",
+      "difficulty": "hard"
     },
     {
       "id": "dsn_paid_421",
@@ -5692,12 +5692,12 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "What is the second park at Walt Disney World called?",
+      "question": "Which Disney park features the 'Test Track' attraction sponsored by Chevrolet?",
       "options": [
-        "Epcot",
+        "Magic Kingdom",
         "Hollywood Studios",
         "Animal Kingdom",
-        "Magic Kingdom"
+        "Epcot"
       ],
       "correct_answer": "Epcot",
       "difficulty": "medium"
@@ -5788,12 +5788,12 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "What is the tallest structure at Walt Disney World?",
+      "question": "Which Disney World attraction features a rollercoaster inside a yeti-themed mountain?",
       "options": [
+        "Big Thunder Mountain",
+        "Seven Dwarfs Mine Train",
         "Expedition Everest",
-        "Cinderella Castle",
-        "Tower of Terror",
-        "Space Mountain"
+        "Splash Mountain"
       ],
       "correct_answer": "Expedition Everest",
       "difficulty": "medium"
@@ -7036,15 +7036,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Live Action",
-      "question": "Who plays Simba in the 2019 Lion King (voice)?",
+      "question": "Which actor voices Mufasa in the 2019 live-action 'The Lion King'?",
       "options": [
-        "Beyoncé",
-        "Donald Glover",
+        "Idris Elba",
         "James Earl Jones",
-        "Chiwetel Ejiofor"
+        "Chiwetel Ejiofor",
+        "Sterling K. Brown"
       ],
-      "correct_answer": "Donald Glover",
-      "difficulty": "easy"
+      "correct_answer": "James Earl Jones",
+      "difficulty": "medium"
     },
     {
       "id": "dsn_paid_512",
@@ -7612,14 +7612,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Live Action",
-      "question": "What year did the first 'Pirates of the Caribbean' film release?",
+      "question": "Which actor plays the villain Barbossa in the first 'Pirates of the Caribbean' film?",
       "options": [
-        "2001",
-        "2003",
-        "2005",
-        "2007"
+        "Geoffrey Rush",
+        "Bill Nighy",
+        "Ian McShane",
+        "Kevin McNally"
       ],
-      "correct_answer": "2003",
+      "correct_answer": "Geoffrey Rush",
       "difficulty": "medium"
     },
     {

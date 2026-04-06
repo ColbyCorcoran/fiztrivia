@@ -2361,19 +2361,18 @@
     },
     {
       "id": "off_paid_117",
+      "topic": "com.fiz.pack.theoffice",
+      "subtopic": "Characters",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
-      "subtopic": "Relationships",
-      "question": "Who is Meredith's son?",
+      "question": "Which character is a recovering alcoholic who hooks up with multiple coworkers throughout the series?",
       "options": [
-        "Sam",
-        "Jake",
-        "Josh",
-        "Luke"
+        "Meredith Palmer",
+        "Kelly Kapoor",
+        "Phyllis Vance",
+        "Jan Levinson"
       ],
-      "correct_answer": "Jake",
-      "difficulty": "hard"
+      "correct_answer": "Meredith Palmer",
+      "difficulty": "medium"
     },
     {
       "id": "off_paid_118",
@@ -2665,18 +2664,17 @@
     },
     {
       "id": "off_paid_136",
+      "topic": "com.fiz.pack.theoffice",
+      "subtopic": "Characters",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
-      "subtopic": "Relationships",
-      "question": "What is Angela's cat's name that Michael kills?",
+      "question": "What does Angela do after Dwight kills her cat Sprinkles?",
       "options": [
-        "Princess Lady",
-        "None, Dwight kills Sprinkles",
-        "Garbage",
-        "Bandit"
+        "Breaks up with Dwight",
+        "Quits the office",
+        "Reports Dwight to HR",
+        "Buys another cat"
       ],
-      "correct_answer": "None, Dwight kills Sprinkles",
+      "correct_answer": "Breaks up with Dwight",
       "difficulty": "medium"
     },
     {
@@ -2953,18 +2951,17 @@
     },
     {
       "id": "off_paid_154",
+      "topic": "com.fiz.pack.theoffice",
+      "subtopic": "Locations",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
-      "subtopic": "Trivia",
-      "question": "What floor is the office on?",
+      "question": "In which Pennsylvania city does Dunder Mifflin's regional branch featured in the show operate?",
       "options": [
-        "First floor",
-        "Third floor",
-        "Second floor",
-        "Ground floor"
+        "Scranton",
+        "Harrisburg",
+        "Allentown",
+        "Pittsburgh"
       ],
-      "correct_answer": "Second floor",
+      "correct_answer": "Scranton",
       "difficulty": "easy"
     },
     {
@@ -3113,35 +3110,33 @@
     },
     {
       "id": "off_paid_164",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
+      "topic": "com.fiz.pack.theoffice",
       "subtopic": "Characters",
-      "question": "What does Creed do?",
+      "category": "Entertainment",
+      "question": "What is the last name of Creed, the Quality Assurance rep at Dunder Mifflin?",
       "options": [
-        "Sales",
-        "Warehouse",
-        "Quality Assurance",
-        "IT"
+        "Bratton",
+        "Morris",
+        "Hughes",
+        "Fletcher"
       ],
-      "correct_answer": "Quality Assurance",
-      "difficulty": "easy"
+      "correct_answer": "Bratton",
+      "difficulty": "hard"
     },
     {
       "id": "off_paid_165",
+      "topic": "com.fiz.pack.theoffice",
+      "subtopic": "Characters",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
-      "subtopic": "Episodes",
-      "question": "What event does Michael organize for charity?",
+      "question": "What award does Michael give himself every year at the Dundies?",
       "options": [
-        "Cancer walk",
-        "Heart disease run",
-        "Rabies Awareness Fun Run",
-        "Diabetes fundraiser"
+        "Best Boss",
+        "Hottest in the Office",
+        "World's Best Boss",
+        "Most Likely to Succeed"
       ],
-      "correct_answer": "Rabies Awareness Fun Run",
-      "difficulty": "easy"
+      "correct_answer": "World's Best Boss",
+      "difficulty": "medium"
     },
     {
       "id": "off_paid_166",
@@ -3193,19 +3188,18 @@
     },
     {
       "id": "off_paid_170",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
+      "topic": "com.fiz.pack.theoffice",
       "subtopic": "Locations",
-      "question": "What restaurant chain appears?",
+      "category": "Entertainment",
+      "question": "What hotel do the Dunder Mifflin employees stay at during the company's beach day trip?",
       "options": [
-        "Applebee's",
-        "TGI Friday's",
-        "Chili's",
-        "Red Lobster"
+        "They don't stay overnight",
+        "Radisson Scranton",
+        "Holiday Inn Express",
+        "Hampton Inn"
       ],
-      "correct_answer": "Chili's",
-      "difficulty": "easy"
+      "correct_answer": "They don't stay overnight",
+      "difficulty": "hard"
     },
     {
       "id": "off_paid_171",
@@ -3321,18 +3315,17 @@
     },
     {
       "id": "off_paid_179",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
+      "topic": "com.fiz.pack.theoffice",
       "subtopic": "Locations",
-      "question": "Where does Pam attend art school?",
+      "category": "Entertainment",
+      "question": "What fictional paper company does Michael Scott start after leaving Dunder Mifflin?",
       "options": [
-        "Scranton",
-        "Philadelphia",
-        "New York City",
-        "Pittsburgh"
+        "Michael Scott Paper Company",
+        "Scott's Tots Paper Co.",
+        "The Scranton Paper Co.",
+        "Better Paper Inc."
       ],
-      "correct_answer": "New York City",
+      "correct_answer": "Michael Scott Paper Company",
       "difficulty": "easy"
     },
     {
@@ -3769,18 +3762,17 @@
     },
     {
       "id": "off_paid_207",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
+      "topic": "com.fiz.pack.theoffice",
       "subtopic": "Characters",
-      "question": "What does Ryan do after business school?",
+      "category": "Entertainment",
+      "question": "What startup does Ryan Howard launch that later fails spectacularly?",
       "options": [
-        "Succeeds",
-        "Quits",
-        "Gets promoted then fails",
-        "Stays temp"
+        "WUPHF.com",
+        "Ryan.biz",
+        "PaperTrail",
+        "CloudSales"
       ],
-      "correct_answer": "Gets promoted then fails",
+      "correct_answer": "WUPHF.com",
       "difficulty": "medium"
     },
     {
@@ -4121,18 +4113,17 @@
     },
     {
       "id": "off_paid_230",
+      "topic": "com.fiz.pack.theoffice",
+      "subtopic": "Characters",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
-      "subtopic": "Trivia",
-      "question": "What is Robert California known for?",
+      "question": "What is the title Robert California holds at Dunder Mifflin/Sabre?",
       "options": [
-        "Being enigmatic",
-        "Being boring",
-        "Being strict",
-        "Being friendly"
+        "CEO",
+        "President",
+        "VP of Sales",
+        "Regional Manager"
       ],
-      "correct_answer": "Being enigmatic",
+      "correct_answer": "CEO",
       "difficulty": "medium"
     },
     {
@@ -4185,18 +4176,17 @@
     },
     {
       "id": "off_paid_234",
+      "topic": "com.fiz.pack.theoffice",
+      "subtopic": "Characters",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
-      "subtopic": "Locations",
-      "question": "Where does Andy go when stressed?",
+      "question": "What is the name of the acapella group Andy Bernard belonged to at Cornell?",
       "options": [
-        "Anger management",
-        "Home",
-        "Bar",
-        "Gym"
+        "Here Comes Treble",
+        "The Harmonics",
+        "A Cappella Elite",
+        "The Pitch Perfect"
       ],
-      "correct_answer": "Anger management",
+      "correct_answer": "Here Comes Treble",
       "difficulty": "medium"
     },
     {
@@ -4521,34 +4511,32 @@
     },
     {
       "id": "off_paid_255",
+      "topic": "com.fiz.pack.theoffice",
+      "subtopic": "Characters",
       "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
-      "subtopic": "Trivia",
-      "question": "What is Pam's dream?",
+      "question": "What does Pam study at the Pratt Institute in New York?",
       "options": [
-        "To be an artist",
-        "To be in sales",
-        "To manage",
-        "To quit"
+        "Graphic design",
+        "Painting",
+        "Illustration",
+        "Sculpture"
       ],
-      "correct_answer": "To be an artist",
-      "difficulty": "medium"
+      "correct_answer": "Graphic design",
+      "difficulty": "hard"
     },
     {
       "id": "off_paid_256",
-      "category": "Entertainment",
-      "subcategory": "Drama/Comedy",
-      "topic": "com.fiz.pack.the_office",
+      "topic": "com.fiz.pack.theoffice",
       "subtopic": "Locations",
-      "question": "Where does Jim work part-time?",
+      "category": "Entertainment",
+      "question": "What bar do the Dunder Mifflin employees frequently visit after work?",
       "options": [
-        "Philadelphia",
-        "New York",
-        "Home",
-        "Stamford"
+        "Poor Richard's Pub",
+        "The Office Bar",
+        "Chili's Bar",
+        "Alfredo's Pizza Cafe"
       ],
-      "correct_answer": "Philadelphia",
+      "correct_answer": "Poor Richard's Pub",
       "difficulty": "medium"
     },
     {

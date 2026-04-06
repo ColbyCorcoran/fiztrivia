@@ -125,6 +125,18 @@ extension ContentSizeCategory {
         self >= .accessibilityLarge
     }
 
+    /// Scale factor for the tagline row, capped so fonts don't overflow their fixed-height container.
+    /// Grows slightly with text size but stops at extraExtraExtraLarge (just before the a11y tier).
+    var taglineScaleFactor: CGFloat {
+        switch self {
+        case .extraSmall, .small, .medium, .large: return 1.0
+        case .extraLarge: return 1.05
+        case .extraExtraLarge: return 1.1
+        case .extraExtraExtraLarge: return 1.1  // cap here — a11y sizes hold at same max
+        default: return 1.1  // all accessibility sizes get the same capped size
+        }
+    }
+
     /// Returns the preferred initial modal detent based on text size
     /// Always starts at .large so users don't have to manually expand every time
     var preferredModalDetent: PresentationDetent {

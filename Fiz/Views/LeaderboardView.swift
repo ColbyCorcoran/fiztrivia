@@ -141,10 +141,16 @@ struct LeaderboardView: View {
         .simultaneousGesture(leaderboardSwipeGesture)
     }
 
+    // Width of the screen-edge zone that qualifies as an edge swipe
+    private let edgeSwipeZoneWidth: CGFloat = 30
+
     private var leaderboardSwipeGesture: some Gesture {
         DragGesture(minimumDistance: 10)
             .onChanged { value in
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+                // Leaderboard is the left page — only swipe back from the right edge
+                let startsOnRightEdge = value.startLocation.x >= (UIScreen.main.bounds.width - edgeSwipeZoneWidth)
+                guard startsOnRightEdge else { return }
                 let horizontalDistance = value.translation.width
                 let verticalDistance = value.translation.height
                 let isHorizontal = abs(horizontalDistance) > abs(verticalDistance) * 1.2
@@ -155,6 +161,9 @@ struct LeaderboardView: View {
             .onEnded { value in
                 onDragEnded?()
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+                // Leaderboard is the left page — only swipe back from the right edge
+                let startsOnRightEdge = value.startLocation.x >= (UIScreen.main.bounds.width - edgeSwipeZoneWidth)
+                guard startsOnRightEdge else { return }
 
                 let distance = value.translation.width
                 let threshold: CGFloat = 60

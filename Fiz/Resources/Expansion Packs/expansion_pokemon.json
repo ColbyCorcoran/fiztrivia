@@ -862,14 +862,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Types & Evolution",
-      "question": "What type is super effective against Dragon-type Pokémon?",
+      "question": "Which type resists Dragon-type moves AND is super effective against them?",
       "options": [
-        "Fire",
-        "Dragon",
-        "Water",
-        "Grass"
+        "Ice",
+        "Steel",
+        "Fairy",
+        "Dragon"
       ],
-      "correct_answer": "Dragon",
+      "correct_answer": "Fairy",
       "difficulty": "medium"
     },
     {
@@ -926,14 +926,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Regions & Locations",
-      "question": "In which region does Pokémon Gold and Silver take place?",
+      "question": "Which city in Johto is home to the Sprout Tower?",
       "options": [
-        "Kanto",
-        "Johto",
-        "Hoenn",
-        "Sinnoh"
+        "Violet City",
+        "Ecruteak City",
+        "Goldenrod City",
+        "Azalea Town"
       ],
-      "correct_answer": "Johto",
+      "correct_answer": "Violet City",
       "difficulty": "medium"
     },
     {
@@ -1902,12 +1902,12 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Species",
-      "question": "What type is Clefairy?",
+      "question": "In Generation 6, Clefairy's type was changed from Normal to what?",
       "options": [
-        "Normal",
-        "Fairy",
         "Psychic",
-        "Normal/Fairy"
+        "Fairy",
+        "Normal/Fairy",
+        "Normal"
       ],
       "correct_answer": "Fairy",
       "difficulty": "medium"
@@ -3486,14 +3486,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Games",
-      "question": "What generation introduced Fairy type?",
+      "question": "Which existing Pokémon was reclassified as Fairy-type when the type was introduced in Generation 6?",
       "options": [
-        "Generation 6",
-        "Generation 5",
-        "Generation 7",
-        "Generation 4"
+        "Clefairy",
+        "Jigglypuff",
+        "Snubbull",
+        "All of the above"
       ],
-      "correct_answer": "Generation 6",
+      "correct_answer": "Clefairy",
       "difficulty": "medium"
     },
     {
@@ -3998,14 +3998,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Moves & Abilities",
-      "question": "What type is the move Surf?",
+      "question": "In double battles, which move hits all other Pokémon on the field including allies?",
       "options": [
-        "Water",
-        "Ice",
-        "Normal",
-        "Flying"
+        "Surf",
+        "Earthquake",
+        "Blizzard",
+        "Discharge"
       ],
-      "correct_answer": "Water",
+      "correct_answer": "Surf",
       "difficulty": "easy"
     },
     {
@@ -4014,14 +4014,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Moves & Abilities",
-      "question": "What type is the move Earthquake?",
+      "question": "How much damage does Earthquake deal to a Pokémon using Dig?",
       "options": [
-        "Ground",
-        "Rock",
-        "Fighting",
-        "Normal"
+        "Double damage",
+        "Normal damage",
+        "No damage",
+        "Half damage"
       ],
-      "correct_answer": "Ground",
+      "correct_answer": "Double damage",
       "difficulty": "easy"
     },
     {
@@ -4078,14 +4078,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Moves & Abilities",
-      "question": "What type is the move Psychic?",
+      "question": "The move Psychic lowers the target's which stat?",
       "options": [
-        "Psychic",
-        "Normal",
-        "Ghost",
-        "Fairy"
+        "Special Attack",
+        "Special Defense",
+        "Speed",
+        "Defense"
       ],
-      "correct_answer": "Psychic",
+      "correct_answer": "Special Defense",
       "difficulty": "easy"
     },
     {
@@ -4254,14 +4254,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Moves & Abilities",
-      "question": "What type is the move Dragon Pulse?",
+      "question": "Which Pokémon was the first to learn Dragon Pulse as an egg move?",
       "options": [
-        "Dragon",
-        "Psychic",
-        "Dark",
-        "Normal"
+        "Dratini",
+        "Horsea",
+        "Bagon",
+        "Deino"
       ],
-      "correct_answer": "Dragon",
+      "correct_answer": "Horsea",
       "difficulty": "easy"
     },
     {
@@ -4702,14 +4702,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Moves & Abilities",
-      "question": "What move sets up a hazard that damages switching Pokémon?",
+      "question": "Which move sets up a hazard that damages Pokémon as they switch into battle?",
       "options": [
-        "Stealth Rock/Spikes",
+        "Stealth Rock",
+        "Spikes",
         "Toxic Spikes",
-        "Sticky Web",
-        "All of these"
+        "Sticky Web"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Stealth Rock",
       "difficulty": "medium"
     },
     {
@@ -5390,14 +5390,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Trainers & Characters",
-      "question": "Who is your rival in Pokémon Gold and Silver?",
+      "question": "In Pokémon Gold and Silver, what is the rival's connection to Team Rocket?",
       "options": [
-        "Blue",
-        "Barry",
-        "Cheren",
-        "Silver"
+        "He is Giovanni's son",
+        "He is a former Team Rocket admin",
+        "He stole his starter from Oak",
+        "He has no connection"
       ],
-      "correct_answer": "Silver",
+      "correct_answer": "He is Giovanni's son",
       "difficulty": "easy"
     },
     {
@@ -5790,14 +5790,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Trainers & Characters",
-      "question": "Who is the Gym Leader of Pewter City?",
+      "question": "What is the name of Brock's most iconic Pokémon that he uses throughout the anime?",
       "options": [
-        "Misty",
-        "Lt. Surge",
-        "Erika",
-        "Brock"
+        "Geodude",
+        "Onix",
+        "Steelix",
+        "Boldore"
       ],
-      "correct_answer": "Brock",
+      "correct_answer": "Onix",
       "difficulty": "medium"
     },
     {
@@ -5950,14 +5950,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Trainers & Characters",
-      "question": "Who is the only Gym Leader to become Champion?",
+      "question": "Which Gym Leader becomes the Pokémon Champion in Emerald?",
       "options": [
-        "Blue",
         "Wallace",
-        "Iris",
-        "All of these"
+        "Steven",
+        "Drake",
+        "Sidney"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Wallace",
       "difficulty": "hard"
     },
     {
@@ -6110,14 +6110,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Anime & Movies",
-      "question": "What is the name of Ash's Pikachu?",
+      "question": "In the anime, which move does Ash's Pikachu use most frequently as its finishing attack?",
       "options": [
-        "Raichu",
-        "Sparky",
-        "Pika",
-        "Pikachu"
+        "Thunder",
+        "Thunderbolt",
+        "Quick Attack",
+        "Iron Tail"
       ],
-      "correct_answer": "Pikachu",
+      "correct_answer": "Thunderbolt",
       "difficulty": "easy"
     },
     {
@@ -6190,14 +6190,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Anime & Movies",
-      "question": "What is Team Rocket's motto catchphrase ending?",
+      "question": "What line does Meowth say at the end of Team Rocket's motto?",
       "options": [
-        "Team Rocket blasts off at the speed of light!",
-        "Prepare for trouble, make it double!",
         "Meowth, that's right!",
-        "All of these"
+        "Meowth, go!",
+        "Meowth, we did it!",
+        "Meowth, blast off!"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Meowth, that's right!",
       "difficulty": "easy"
     },
     {
@@ -6206,14 +6206,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Anime & Movies",
-      "question": "What type of Pokémon does Brock specialize in?",
+      "question": "What TM does Brock give players after defeating him in Pokémon Red and Blue?",
       "options": [
-        "Ground",
-        "Steel",
-        "Fighting",
-        "Rock"
+        "TM34 Bide",
+        "TM39 Swift",
+        "TM01 Cut",
+        "TM28 Dig"
       ],
-      "correct_answer": "Rock",
+      "correct_answer": "TM34 Bide",
       "difficulty": "easy"
     },
     {
@@ -6222,14 +6222,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Anime & Movies",
-      "question": "What type of Pokémon does Misty specialize in?",
+      "question": "What TM does Misty give players after defeating her in Pokémon Red and Blue?",
       "options": [
-        "Ice",
-        "Electric",
-        "Psychic",
-        "Water"
+        "TM11 Bubblebeam",
+        "TM29 Psychic",
+        "TM02 Razor Wind",
+        "TM16 Pay Day"
       ],
-      "correct_answer": "Water",
+      "correct_answer": "TM11 Bubblebeam",
       "difficulty": "easy"
     },
     {
@@ -6510,14 +6510,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Anime & Movies",
-      "question": "What Pokémon does Ash's Charizard refuse to obey him for a while?",
+      "question": "After Ash's Charmeleon evolved, why did it stop obeying Ash?",
       "options": [
-        "Primeape",
-        "Snorlax",
-        "Infernape",
-        "Charizard"
+        "Ash's badge count was too low",
+        "It became too powerful",
+        "It wanted to return to the wild",
+        "It lost respect after a battle"
       ],
-      "correct_answer": "Charizard",
+      "correct_answer": "Ash's badge count was too low",
       "difficulty": "medium"
     },
     {
@@ -7070,14 +7070,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Types & Evolution",
-      "question": "How do you evolve Pikachu?",
+      "question": "Which item is used to evolve Eevee into Flareon?",
       "options": [
-        "Level 20",
-        "Happiness",
-        "Thunder Stone",
-        "Trade"
+        "Fire Stone",
+        "Sun Stone",
+        "Flame Plate",
+        "Heat Rock"
       ],
-      "correct_answer": "Thunder Stone",
+      "correct_answer": "Fire Stone",
       "difficulty": "easy"
     },
     {
@@ -7086,14 +7086,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Types & Evolution",
-      "question": "How do you evolve Eevee into Vaporeon?",
+      "question": "Which Eeveelution evolves by leveling up Eevee with high friendship during the day?",
       "options": [
-        "Level up near water",
-        "Happiness + Water move",
-        "Water Stone",
-        "Trade"
+        "Espeon",
+        "Umbreon",
+        "Leafeon",
+        "Sylveon"
       ],
-      "correct_answer": "Water Stone",
+      "correct_answer": "Espeon",
       "difficulty": "easy"
     },
     {
@@ -7134,14 +7134,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Types & Evolution",
-      "question": "How many types are there in Pokémon?",
+      "question": "Which two types were added to Pokémon after Generation 1?",
       "options": [
-        "17",
-        "19",
-        "18",
-        "20"
+        "Dark and Steel",
+        "Fairy and Dark",
+        "Steel and Fairy",
+        "Ghost and Dark"
       ],
-      "correct_answer": "18",
+      "correct_answer": "Dark and Steel",
       "difficulty": "easy"
     },
     {
@@ -7214,14 +7214,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Types & Evolution",
-      "question": "How do you evolve Kadabra?",
+      "question": "Which trade evolution requires holding a specific item to evolve?",
       "options": [
-        "Level 40",
-        "Sun Stone",
-        "Trade",
-        "Happiness"
+        "Haunter",
+        "Kadabra",
+        "Machoke",
+        "Onix"
       ],
-      "correct_answer": "Trade",
+      "correct_answer": "Onix",
       "difficulty": "easy"
     },
     {
@@ -7230,14 +7230,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Types & Evolution",
-      "question": "How do you evolve Graveler?",
+      "question": "What item must Seadra hold when traded to evolve into Kingdra?",
       "options": [
-        "Level 40",
-        "Hard Stone",
-        "Trade",
-        "Happiness"
+        "Dragon Scale",
+        "King's Rock",
+        "Deep Sea Tooth",
+        "Water Stone"
       ],
-      "correct_answer": "Trade",
+      "correct_answer": "Dragon Scale",
       "difficulty": "easy"
     },
     {
@@ -7278,14 +7278,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Types & Evolution",
-      "question": "What type combination has no weaknesses?",
+      "question": "Which type combination gives a Pokémon the most resistances?",
       "options": [
-        "Electric/Flying",
-        "Water/Ground",
-        "None",
-        "Steel/Fairy"
+        "Steel/Ghost",
+        "Steel/Water",
+        "Steel/Flying",
+        "Fire/Water"
       ],
-      "correct_answer": "None",
+      "correct_answer": "Steel/Ghost",
       "difficulty": "medium"
     },
     {
@@ -7710,14 +7710,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Regions & Locations",
-      "question": "What region is Pokémon Silver and Gold set in?",
+      "question": "Which city serves as the starting town in Pokémon Gold and Silver?",
       "options": [
-        "Johto",
-        "Hoenn",
-        "Kanto",
-        "Sinnoh"
+        "New Bark Town",
+        "Pallet Town",
+        "Cherrygrove City",
+        "Violet City"
       ],
-      "correct_answer": "Johto",
+      "correct_answer": "New Bark Town",
       "difficulty": "easy"
     },
     {
@@ -7982,14 +7982,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Regions & Locations",
-      "question": "What is the name of the Battle Frontier location in Hoenn?",
+      "question": "In Pokémon Emerald, how many facilities make up the Battle Frontier?",
       "options": [
-        "Battle Zone",
-        "Battle Resort",
-        "Battle Frontier",
-        "Fight Area"
+        "5",
+        "7",
+        "6",
+        "8"
       ],
-      "correct_answer": "Battle Frontier",
+      "correct_answer": "7",
       "difficulty": "medium"
     },
     {
@@ -8206,14 +8206,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Species",
-      "question": "What is the signature move of Pikachu?",
+      "question": "Which Electric-type move has 100% accuracy and causes paralysis?",
       "options": [
-        "Thunder",
+        "Thunder Wave",
         "Thunderbolt",
-        "Thunder Shock",
-        "All of the above"
+        "Thunder",
+        "Volt Switch"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Thunder Wave",
       "difficulty": "medium"
     },
     {
@@ -8302,14 +8302,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Species",
-      "question": "What type is Machamp?",
+      "question": "Which Pokémon was the first to be classified as a pure Poison-type?",
       "options": [
-        "Fighting/Rock",
-        "Rock",
-        "Fighting",
-        "Normal"
+        "Ekans",
+        "Koffing",
+        "Grimer",
+        "Nidoran♀"
       ],
-      "correct_answer": "Fighting",
+      "correct_answer": "Ekans",
       "difficulty": "hard"
     },
     {
@@ -8318,14 +8318,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Species",
-      "question": "What type is Golem?",
+      "question": "Which Pokémon is the evolved form of Geodude that evolves via trading?",
       "options": [
-        "Rock",
-        "Ground",
-        "Rock/Ground",
-        "Steel"
+        "Graveler",
+        "Golem",
+        "Rhydon",
+        "Onix"
       ],
-      "correct_answer": "Rock/Ground",
+      "correct_answer": "Golem",
       "difficulty": "hard"
     },
     {
@@ -8350,14 +8350,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Trainers & Characters",
-      "question": "What is the name of Team Rocket's leader in the games?",
+      "question": "In Pokémon FireRed and LeafGreen, what does Giovanni leave behind after you defeat him?",
       "options": [
-        "Giovanni",
-        "Maxie",
-        "Cyrus",
-        "Ghetsis"
+        "The Silph Scope",
+        "The Master Ball",
+        "The Gym Badge",
+        "Nothing - he flees"
       ],
-      "correct_answer": "Giovanni",
+      "correct_answer": "Nothing - he flees",
       "difficulty": "medium"
     },
     {
@@ -8382,14 +8382,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.pokemon",
       "subtopic": "Regions & Locations",
-      "question": "Which Pokémon region is based on the Kalos region of France?",
+      "question": "Which real-world country inspired the design of the Kalos region?",
       "options": [
-        "Unova",
-        "Alola",
-        "Kalos",
-        "Galar"
+        "Germany",
+        "Italy",
+        "France",
+        "Spain"
       ],
-      "correct_answer": "Kalos",
+      "correct_answer": "France",
       "difficulty": "hard"
     },
     {

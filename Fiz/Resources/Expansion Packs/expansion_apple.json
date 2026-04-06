@@ -148,14 +148,14 @@
       "subtopic": "Software & Operating Systems",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What is Apple's app store called?",
+      "question": "In what year did Apple launch the App Store, opening it to third-party developers?",
       "options": [
-        "App Store",
-        "iTunes Store",
-        "Apple Market",
-        "iStore"
+        "2006",
+        "2007",
+        "2008",
+        "2009"
       ],
-      "correct_answer": "App Store",
+      "correct_answer": "2008",
       "difficulty": "easy"
     },
     {
@@ -180,15 +180,15 @@
       "subtopic": "Software & Operating Systems",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What is Apple's cloud service?",
+      "question": "What was the name of Apple's cloud service before iCloud, discontinued in 2012?",
       "options": [
-        "iCloud",
-        "iTunes",
-        "Apple Cloud",
-        "iDrive"
+        "iDisk",
+        ".Mac / MobileMe",
+        "iSync",
+        "iBackup"
       ],
-      "correct_answer": "iCloud",
-      "difficulty": "easy"
+      "correct_answer": ".Mac / MobileMe",
+      "difficulty": "hard"
     },
     {
       "id": "apl_011",
@@ -388,15 +388,15 @@
       "subtopic": "Marketing & Campaigns",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What color were iPod silhouette ads?",
+      "question": "The iconic iPod silhouette ads launched in 2003. Which agency created the campaign for Apple?",
       "options": [
-        "Black silhouettes on bright backgrounds",
-        "White",
-        "Gray",
-        "Multicolor"
+        "TBWA\\Media Arts Lab",
+        "BBDO",
+        "Ogilvy",
+        "Wieden+Kennedy"
       ],
-      "correct_answer": "Black silhouettes on bright backgrounds",
-      "difficulty": "easy"
+      "correct_answer": "TBWA\\Media Arts Lab",
+      "difficulty": "hard"
     },
     {
       "id": "apl_024",
@@ -468,15 +468,15 @@
       "subtopic": "Corporate & Leadership",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What is Apple's headquarters called?",
+      "question": "Apple Park opened in 2017. What distinctive circular shape is it commonly called in the press?",
       "options": [
-        "Apple Park",
-        "Infinite Loop",
-        "Cupertino Campus",
-        "Apple Center"
+        "The Ring",
+        "The Loop",
+        "The Circle",
+        "The Donut"
       ],
-      "correct_answer": "Apple Park",
-      "difficulty": "easy"
+      "correct_answer": "The Ring",
+      "difficulty": "medium"
     },
     {
       "id": "apl_029",
@@ -1958,15 +1958,15 @@
       "subtopic": "History & Founders",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "When did Steve Jobs return to Apple?",
+      "question": "When Steve Jobs left Apple in 1985, what was the primary reason given for his departure?",
       "options": [
-        "1997",
-        "1985",
-        "2000",
-        "1990"
+        "Product quality issues",
+        "Board power struggle",
+        "Personal health concerns",
+        "To start a new venture"
       ],
-      "correct_answer": "1997",
-      "difficulty": "easy"
+      "correct_answer": "Board power struggle",
+      "difficulty": "medium"
     },
     {
       "id": "apl_122",
@@ -1990,15 +1990,15 @@
       "subtopic": "History & Founders",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What company did Steve Jobs found after leaving?",
+      "question": "NeXT, the company Steve Jobs founded after Apple, was primarily known for producing what product used at CERN where the Web was invented?",
       "options": [
-        "NeXT",
-        "Pixar only",
-        "Dell",
-        "Microsoft"
+        "The NeXTcube workstation",
+        "A programming language",
+        "A server rack",
+        "An operating system only"
       ],
-      "correct_answer": "NeXT",
-      "difficulty": "easy"
+      "correct_answer": "The NeXTcube workstation",
+      "difficulty": "hard"
     },
     {
       "id": "apl_124",
@@ -2038,15 +2038,15 @@
       "subtopic": "History & Founders",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What year did Steve Jobs pass away?",
+      "question": "Steve Jobs passed away in 2011. What disease did he battle for years before his death?",
       "options": [
-        "2011",
-        "2010",
-        "2012",
-        "2015"
+        "Lung cancer",
+        "Pancreatic cancer",
+        "Brain tumor",
+        "Liver disease"
       ],
-      "correct_answer": "2011",
-      "difficulty": "easy"
+      "correct_answer": "Pancreatic cancer",
+      "difficulty": "medium"
     },
     {
       "id": "apl_127",
@@ -2338,15 +2338,15 @@
     },
     {
       "id": "apl_145",
-      "question": "What was Apple's first tablet device (before the iPad)?",
+      "question": "The Newton MessagePad (1993) introduced what handwriting-recognition feature that was frequently mocked for inaccuracy?",
       "options": [
-        "Newton MessagePad",
-        "eMate",
-        "iPod Touch",
-        "Apple Tablet"
+        "Voice input",
+        "Stylus drawing",
+        "Ink recognition",
+        "Gesture typing"
       ],
-      "correct_answer": "Newton MessagePad",
-      "difficulty": "medium",
+      "correct_answer": "Ink recognition",
+      "difficulty": "hard",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",
       "subcategory": "Technology",
@@ -2647,7 +2647,7 @@
         "John Sculley",
         "Gil Amelio",
         "Michael Spindler",
-        "Jean-Louis Gass\u00e9e"
+        "Jean-Louis Gassée"
       ],
       "correct_answer": "John Sculley",
       "difficulty": "hard",
@@ -3398,15 +3398,15 @@
       "subtopic": "Marketing & Campaigns",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "Who directed the 1984 ad?",
+      "question": "Apple's '1984' Super Bowl ad depicted a dystopian scene referencing which author's novel?",
       "options": [
-        "Ridley Scott",
-        "Steven Spielberg",
-        "George Lucas",
-        "James Cameron"
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "Philip K. Dick"
       ],
-      "correct_answer": "Ridley Scott",
-      "difficulty": "easy"
+      "correct_answer": "George Orwell",
+      "difficulty": "medium"
     },
     {
       "id": "apl_212",
@@ -3430,15 +3430,15 @@
       "subtopic": "Marketing & Campaigns",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What slogan did Apple use?",
+      "question": "The 'Think Different' campaign launched in 1997 featured black-and-white photos of historical figures. Which musician was notably featured?",
       "options": [
-        "Think Different",
-        "Think Big",
-        "Think Smart",
-        "Think Apple"
+        "Elvis Presley",
+        "John Lennon",
+        "Bob Dylan",
+        "Jimi Hendrix"
       ],
-      "correct_answer": "Think Different",
-      "difficulty": "easy"
+      "correct_answer": "John Lennon",
+      "difficulty": "medium"
     },
     {
       "id": "apl_214",
@@ -3494,15 +3494,15 @@
       "subtopic": "Marketing & Campaigns",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What phrase did Jobs use?",
+      "question": "Steve Jobs was known for describing Apple products with particular superlatives. Which word did he famously overuse in product descriptions?",
       "options": [
-        "One more thing",
         "Amazing",
         "Revolutionary",
-        "Incredible"
+        "Incredible",
+        "Magical"
       ],
-      "correct_answer": "One more thing",
-      "difficulty": "easy"
+      "correct_answer": "Magical",
+      "difficulty": "medium"
     },
     {
       "id": "apl_218",
@@ -4262,15 +4262,15 @@
       "subtopic": "Corporate & Leadership",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "Who leads software?",
+      "question": "Craig Federighi, Apple's software chief, is known for his showmanship at WWDC. What is his popular Apple-given nickname?",
       "options": [
-        "Craig Federighi",
-        "Tim Cook",
-        "Phil Schiller",
-        "Jony Ive"
+        "The Code Wizard",
+        "Hair Force One",
+        "The Software King",
+        "The Swift Guy"
       ],
-      "correct_answer": "Craig Federighi",
-      "difficulty": "easy"
+      "correct_answer": "Hair Force One",
+      "difficulty": "hard"
     },
     {
       "id": "apl_266",
@@ -4738,14 +4738,14 @@
     },
     {
       "id": "apl_295",
-      "question": "What was Apple's market cap when it became the first $3 trillion company?",
+      "question": "In January 2022, Apple became the first U.S. company to reach a $3 trillion market cap. Who was Apple's CEO at that time?",
       "options": [
-        "$3 trillion",
-        "$2.5 trillion",
-        "$3.5 trillion",
-        "$2.8 trillion"
+        "Steve Jobs",
+        "Scott Forstall",
+        "Tim Cook",
+        "Jony Ive"
       ],
-      "correct_answer": "$3 trillion",
+      "correct_answer": "Tim Cook",
       "difficulty": "hard",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",

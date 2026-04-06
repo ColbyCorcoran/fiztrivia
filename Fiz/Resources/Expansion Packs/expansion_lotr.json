@@ -100,7 +100,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Who is the Elven leader of Lothl\u00f3rien who gives gifts to the Fellowship?",
+      "question": "Who is the Elven leader of Lothlórien who gives gifts to the Fellowship?",
       "options": [
         "Arwen",
         "Galadriel",
@@ -231,7 +231,7 @@
       "question": "Who does Aragorn marry after becoming king?",
       "options": [
         "Galadriel",
-        "\u00c9owyn",
+        "Éowyn",
         "Arwen",
         "Rosie"
       ],
@@ -327,7 +327,7 @@
       "question": "What is the name of Saruman's tower?",
       "options": [
         "Orthanc",
-        "Barad-d\u00fbr",
+        "Barad-dûr",
         "Cirith Ungol",
         "Weathertop"
       ],
@@ -342,7 +342,7 @@
       "subtopic": "Locations & Realms",
       "question": "What is the Elvish name for Rivendell?",
       "options": [
-        "Lothl\u00f3rien",
+        "Lothlórien",
         "Imladris",
         "Mirkwood",
         "Gondolin"
@@ -356,7 +356,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Locations & Realms",
-      "question": "What realm is ruled by King Th\u00e9oden?",
+      "question": "What realm is ruled by King Théoden?",
       "options": [
         "Gondor",
         "Rohan",
@@ -377,7 +377,7 @@
         "Fangorn Forest",
         "Mirkwood",
         "The Old Forest",
-        "Lothl\u00f3rien"
+        "Lothlórien"
       ],
       "correct_answer": "Mirkwood",
       "difficulty": "hard"
@@ -391,11 +391,11 @@
       "question": "What is the name of Sauron's fortress?",
       "options": [
         "Minas Morgul",
-        "Barad-d\u00fbr",
+        "Barad-dûr",
         "Dol Guldur",
         "Isengard"
       ],
-      "correct_answer": "Barad-d\u00fbr",
+      "correct_answer": "Barad-dûr",
       "difficulty": "hard"
     },
     {
@@ -440,10 +440,10 @@
       "options": [
         "Aragorn",
         "Gandalf",
-        "\u00c9owyn and Merry",
+        "Éowyn and Merry",
         "Legolas"
       ],
-      "correct_answer": "\u00c9owyn and Merry",
+      "correct_answer": "Éowyn and Merry",
       "difficulty": "easy"
     },
     {
@@ -502,7 +502,7 @@
       "subtopic": "Battles & Conflicts",
       "question": "What does Aragorn use to distract Sauron from Frodo in the final battle?",
       "options": [
-        "The palant\u00edr",
+        "The palantír",
         "A false Ring",
         "The Army of the Dead",
         "A direct attack on the Black Gate"
@@ -552,7 +552,7 @@
       "options": [
         "An Elven blade",
         "A Morgul blade",
-        "A N\u00famen\u00f3rean sword",
+        "A Númenórean sword",
         "An Orcish dagger"
       ],
       "correct_answer": "A Morgul blade",
@@ -567,11 +567,11 @@
       "question": "What is the name of Aragorn's reforged sword?",
       "options": [
         "Narsil",
-        "And\u00faril",
+        "Andúril",
         "Glamdring",
         "Sting"
       ],
-      "correct_answer": "And\u00faril",
+      "correct_answer": "Andúril",
       "difficulty": "medium"
     },
     {
@@ -776,10 +776,10 @@
       "options": [
         "Arwen",
         "Galadriel",
-        "\u00c9owyn",
+        "Éowyn",
         "Rosie"
       ],
-      "correct_answer": "\u00c9owyn",
+      "correct_answer": "Éowyn",
       "difficulty": "hard"
     },
     {
@@ -969,7 +969,7 @@
       "question": "What is the name of Aragorn's love interest?",
       "options": [
         "Galadriel",
-        "\u00c9owyn",
+        "Éowyn",
         "Arwen",
         "Rosie"
       ],
@@ -982,10 +982,10 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Who is the Lady of Lothl\u00f3rien?",
+      "question": "Who is the Lady of Lothlórien?",
       "options": [
         "Arwen",
-        "\u00c9owyn",
+        "Éowyn",
         "Galadriel",
         "Rosie"
       ],
@@ -1000,12 +1000,12 @@
       "subtopic": "Characters & Fellowship",
       "question": "What is Gollum's original name before he was corrupted?",
       "options": [
-        "Sm\u00e9agol",
-        "D\u00e9agol",
-        "Gr\u00edma",
-        "Th\u00e9oden"
+        "Sméagol",
+        "Déagol",
+        "Gríma",
+        "Théoden"
       ],
-      "correct_answer": "Sm\u00e9agol",
+      "correct_answer": "Sméagol",
       "difficulty": "easy"
     },
     {
@@ -1016,12 +1016,12 @@
       "subtopic": "Characters & Fellowship",
       "question": "Who is the king of Rohan?",
       "options": [
-        "\u00c9omer",
-        "Th\u00e9oden",
+        "Éomer",
+        "Théoden",
         "Aragorn",
         "Denethor"
       ],
-      "correct_answer": "Th\u00e9oden",
+      "correct_answer": "Théoden",
       "difficulty": "easy"
     },
     {
@@ -1030,14 +1030,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "What is the name of Th\u00e9oden's niece who disguises herself as a man?",
+      "question": "What is the name of Théoden's niece who disguises herself as a man?",
       "options": [
         "Arwen",
         "Galadriel",
-        "\u00c9owyn",
+        "Éowyn",
         "Rosie"
       ],
-      "correct_answer": "\u00c9owyn",
+      "correct_answer": "Éowyn",
       "difficulty": "easy"
     },
     {
@@ -1158,14 +1158,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Who owns the pony that travels with the hobbits from Bree?",
+      "question": "What do the hobbits name their pony acquired in Bree?",
       "options": [
-        "The hobbits",
-        "Gandalf",
-        "It's a stray",
-        "Aragorn"
+        "Strider",
+        "Bill",
+        "Pip",
+        "Fatty"
       ],
-      "correct_answer": "The hobbits",
+      "correct_answer": "Bill",
       "difficulty": "easy"
     },
     {
@@ -1194,8 +1194,8 @@
       "options": [
         "Aragorn",
         "Faramir",
-        "\u00c9omer",
-        "Th\u00e9odred"
+        "Éomer",
+        "Théodred"
       ],
       "correct_answer": "Faramir",
       "difficulty": "easy"
@@ -1243,7 +1243,7 @@
         "Elrond",
         "Thranduil",
         "Celeborn",
-        "C\u00edrdan"
+        "Círdan"
       ],
       "correct_answer": "Thranduil",
       "difficulty": "medium"
@@ -1257,11 +1257,11 @@
       "question": "What is the name of Gimli's father?",
       "options": [
         "Balin",
-        "Gl\u00f3in",
+        "Glóin",
         "Dwalin",
-        "\u00d3in"
+        "Óin"
       ],
-      "correct_answer": "Gl\u00f3in",
+      "correct_answer": "Glóin",
       "difficulty": "medium"
     },
     {
@@ -1302,14 +1302,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Who is Th\u00e9oden's son who dies in battle?",
+      "question": "Who is Théoden's son who dies in battle?",
       "options": [
-        "\u00c9omer",
-        "Th\u00e9odred",
+        "Éomer",
+        "Théodred",
         "Grimbold",
-        "H\u00e1ma"
+        "Háma"
       ],
-      "correct_answer": "Th\u00e9odred",
+      "correct_answer": "Théodred",
       "difficulty": "medium"
     },
     {
@@ -1318,14 +1318,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "What is the name of Saruman's servant who poisons Th\u00e9oden's mind?",
+      "question": "What is the name of Saruman's servant who poisons Théoden's mind?",
       "options": [
-        "Gr\u00edma Wormtongue",
+        "Gríma Wormtongue",
         "Gothmog",
         "Lurtz",
-        "Ugl\u00fak"
+        "Uglúk"
       ],
-      "correct_answer": "Gr\u00edma Wormtongue",
+      "correct_answer": "Gríma Wormtongue",
       "difficulty": "medium"
     },
     {
@@ -1371,7 +1371,7 @@
         "Gandalf",
         "Elrond",
         "Galadriel",
-        "C\u00edrdan"
+        "Círdan"
       ],
       "correct_answer": "Elrond",
       "difficulty": "medium"
@@ -1446,14 +1446,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "What is the name of \u00c9owyn's brother?",
+      "question": "What is the name of Éowyn's brother?",
       "options": [
-        "Th\u00e9odred",
-        "\u00c9omer",
-        "Th\u00e9oden",
+        "Théodred",
+        "Éomer",
+        "Théoden",
         "Grimbold"
       ],
-      "correct_answer": "\u00c9omer",
+      "correct_answer": "Éomer",
       "difficulty": "medium"
     },
     {
@@ -1462,11 +1462,11 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Who is the chief of the Nazg\u00fbl?",
+      "question": "Who is the chief of the Nazgûl?",
       "options": [
         "Sauron",
         "The Witch-king of Angmar",
-        "Kham\u00fbl",
+        "Khamûl",
         "Gothmog"
       ],
       "correct_answer": "The Witch-king of Angmar",
@@ -1496,12 +1496,12 @@
       "subtopic": "Characters & Fellowship",
       "question": "Who was Gollum's cousin who first found the Ring?",
       "options": [
-        "Sm\u00e9agol",
-        "D\u00e9agol",
+        "Sméagol",
+        "Déagol",
         "Lotho",
         "Fredegar"
       ],
-      "correct_answer": "D\u00e9agol",
+      "correct_answer": "Déagol",
       "difficulty": "medium"
     },
     {
@@ -1528,12 +1528,12 @@
       "subtopic": "Characters & Fellowship",
       "question": "Who becomes King of Erebor after Thorin's death?",
       "options": [
-        "F\u00edli",
-        "K\u00edli",
-        "D\u00e1in",
+        "Fíli",
+        "Kíli",
+        "Dáin",
         "Balin"
       ],
-      "correct_answer": "D\u00e1in",
+      "correct_answer": "Dáin",
       "difficulty": "medium"
     },
     {
@@ -1563,7 +1563,7 @@
         "Gandalf",
         "Elrond",
         "Galadriel",
-        "C\u00edrdan"
+        "Círdan"
       ],
       "correct_answer": "Elrond",
       "difficulty": "medium"
@@ -1579,7 +1579,7 @@
         "Glamdring",
         "Orcrist",
         "Sting",
-        "And\u00faril"
+        "Andúril"
       ],
       "correct_answer": "Sting",
       "difficulty": "medium"
@@ -1592,7 +1592,7 @@
       "subtopic": "Characters & Fellowship",
       "question": "Who marries Sam at the end of the story?",
       "options": [
-        "\u00c9owyn",
+        "Éowyn",
         "Rosie Cotton",
         "Goldberry",
         "Lobelia"
@@ -1610,10 +1610,10 @@
       "options": [
         "Balin",
         "Dwalin",
-        "Gl\u00f3in",
-        "\u00d3in"
+        "Glóin",
+        "Óin"
       ],
-      "correct_answer": "Gl\u00f3in",
+      "correct_answer": "Glóin",
       "difficulty": "medium"
     },
     {
@@ -1625,7 +1625,7 @@
       "question": "Who is the Lady of the Golden Wood?",
       "options": [
         "Arwen",
-        "\u00c9owyn",
+        "Éowyn",
         "Galadriel",
         "Goldberry"
       ],
@@ -1705,11 +1705,11 @@
       "question": "What is the name of Arwen's mother?",
       "options": [
         "Galadriel",
-        "Celebr\u00edan",
+        "Celebrían",
         "Finduilas",
         "Gilraen"
       ],
-      "correct_answer": "Celebr\u00edan",
+      "correct_answer": "Celebrían",
       "difficulty": "medium"
     },
     {
@@ -1785,11 +1785,11 @@
       "question": "Who is the leader of the Uruk-hai that captures Merry and Pippin?",
       "options": [
         "Lurtz",
-        "Ugl\u00fak",
-        "Grishn\u00e1kh",
+        "Uglúk",
+        "Grishnákh",
         "Gothmog"
       ],
-      "correct_answer": "Ugl\u00fak",
+      "correct_answer": "Uglúk",
       "difficulty": "hard"
     },
     {
@@ -1816,12 +1816,12 @@
       "subtopic": "Characters & Fellowship",
       "question": "What is Gandalf's true form as one of the Maiar?",
       "options": [
-        "Ol\u00f3rin",
+        "Olórin",
         "Curumo",
         "Aiwendil",
         "Pallando"
       ],
-      "correct_answer": "Ol\u00f3rin",
+      "correct_answer": "Olórin",
       "difficulty": "hard"
     },
     {
@@ -1832,7 +1832,7 @@
       "subtopic": "Characters & Fellowship",
       "question": "What is Saruman's true Maia name?",
       "options": [
-        "Ol\u00f3rin",
+        "Olórin",
         "Curumo",
         "Aiwendil",
         "Alatar"
@@ -1926,12 +1926,12 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Who is the Lieutenant of the Tower of Barad-d\u00fbr?",
+      "question": "Who is the Lieutenant of the Tower of Barad-dûr?",
       "options": [
         "The Witch-king",
         "The Mouth of Sauron",
         "Gothmog",
-        "Kham\u00fbl"
+        "Khamûl"
       ],
       "correct_answer": "The Mouth of Sauron",
       "difficulty": "hard"
@@ -1946,10 +1946,10 @@
       "options": [
         "Elrond",
         "Gildor",
-        "C\u00edrdan",
+        "Círdan",
         "Glorfindel"
       ],
-      "correct_answer": "C\u00edrdan",
+      "correct_answer": "Círdan",
       "difficulty": "hard"
     },
     {
@@ -2006,12 +2006,12 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Who leads the defense of the Hornburg while Th\u00e9oden is away?",
+      "question": "Who leads the defense of the Hornburg while Théoden is away?",
       "options": [
-        "\u00c9omer",
+        "Éomer",
         "Gamling",
         "Erkenbrand",
-        "H\u00e1ma"
+        "Háma"
       ],
       "correct_answer": "Gamling",
       "difficulty": "hard"
@@ -2089,7 +2089,7 @@
       "question": "Where is the Council of Elrond held?",
       "options": [
         "The Shire",
-        "Lothl\u00f3rien",
+        "Lothlórien",
         "Rivendell",
         "Minas Tirith"
       ],
@@ -2138,8 +2138,8 @@
       "options": [
         "Sauron's crown",
         "The One Ring",
-        "The palant\u00edr",
-        "Barad-d\u00fbr"
+        "The palantír",
+        "Barad-dûr"
       ],
       "correct_answer": "The One Ring",
       "difficulty": "easy"
@@ -2186,10 +2186,10 @@
       "options": [
         "Gandalf",
         "Aragorn",
-        "Nazg\u00fbl outside",
-        "Both Aragorn and Nazg\u00fbl"
+        "Nazgûl outside",
+        "Both Aragorn and Nazgûl"
       ],
-      "correct_answer": "Both Aragorn and Nazg\u00fbl",
+      "correct_answer": "Both Aragorn and Nazgûl",
       "difficulty": "easy"
     },
     {
@@ -2283,7 +2283,7 @@
         "Gandalf",
         "Treebeard",
         "Aragorn",
-        "\u00c9omer"
+        "Éomer"
       ],
       "correct_answer": "Treebeard",
       "difficulty": "easy"
@@ -2299,7 +2299,7 @@
         "To Gondor",
         "To the Undying Lands",
         "To Rivendell",
-        "To Lothl\u00f3rien"
+        "To Lothlórien"
       ],
       "correct_answer": "To the Undying Lands",
       "difficulty": "easy"
@@ -2406,7 +2406,7 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Plot & Story",
-      "question": "What transforms Th\u00e9oden from his weakened state?",
+      "question": "What transforms Théoden from his weakened state?",
       "options": [
         "A potion",
         "Gandalf expelling Saruman's influence",
@@ -2619,7 +2619,7 @@
         "Suicide by fire",
         "Surrendering to Sauron",
         "Fleeing Minas Tirith",
-        "Using the palant\u00edr"
+        "Using the palantír"
       ],
       "correct_answer": "Suicide by fire",
       "difficulty": "medium"
@@ -2694,7 +2694,7 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Plot & Story",
-      "question": "What does Pippin see when he looks into the palant\u00edr?",
+      "question": "What does Pippin see when he looks into the palantír?",
       "options": [
         "Gandalf",
         "Sauron's Eye",
@@ -2710,7 +2710,7 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Plot & Story",
-      "question": "How does \u00c9owyn disguise herself to fight?",
+      "question": "How does Éowyn disguise herself to fight?",
       "options": [
         "As a wizard",
         "As a man named Dernhelm",
@@ -2779,7 +2779,7 @@
         "The reforged sword",
         "A ring",
         "His voice",
-        "The palant\u00edr"
+        "The palantír"
       ],
       "correct_answer": "The reforged sword",
       "difficulty": "medium"
@@ -2794,10 +2794,10 @@
       "options": [
         "A sword",
         "A rope",
-        "The light of E\u00e4rendil",
+        "The light of Eärendil",
         "A ring"
       ],
-      "correct_answer": "The light of E\u00e4rendil",
+      "correct_answer": "The light of Eärendil",
       "difficulty": "medium"
     },
     {
@@ -2842,10 +2842,10 @@
       "options": [
         "Prays",
         "Takes an oath",
-        "Says goodbye to \u00c9owyn",
+        "Says goodbye to Éowyn",
         "Checks his sword"
       ],
-      "correct_answer": "Says goodbye to \u00c9owyn",
+      "correct_answer": "Says goodbye to Éowyn",
       "difficulty": "medium"
     },
     {
@@ -2886,7 +2886,7 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Plot & Story",
-      "question": "What happens to Barad-d\u00fbr when the Ring is destroyed?",
+      "question": "What happens to Barad-dûr when the Ring is destroyed?",
       "options": [
         "Nothing",
         "It collapses",
@@ -3288,7 +3288,7 @@
       "subtopic": "Locations & Realms",
       "question": "Where do Elrond and the elves live?",
       "options": [
-        "Lothl\u00f3rien",
+        "Lothlórien",
         "Rivendell",
         "Mirkwood",
         "The Grey Havens"
@@ -3307,7 +3307,7 @@
         "Mirkwood",
         "The Old Forest",
         "Fangorn Forest",
-        "Lothl\u00f3rien"
+        "Lothlórien"
       ],
       "correct_answer": "Fangorn Forest",
       "difficulty": "easy"
@@ -3339,7 +3339,7 @@
         "Gondor",
         "Rohan",
         "Rivendell",
-        "Lothl\u00f3rien"
+        "Lothlórien"
       ],
       "correct_answer": "Rivendell",
       "difficulty": "easy"
@@ -3370,10 +3370,10 @@
       "options": [
         "Fangorn",
         "Mirkwood",
-        "Lothl\u00f3rien",
+        "Lothlórien",
         "The Old Forest"
       ],
-      "correct_answer": "Lothl\u00f3rien",
+      "correct_answer": "Lothlórien",
       "difficulty": "easy"
     },
     {
@@ -3449,7 +3449,7 @@
       "question": "Where do the hobbits sail from at the end of the story?",
       "options": [
         "Rivendell",
-        "Lothl\u00f3rien",
+        "Lothlórien",
         "The Grey Havens",
         "Minas Tirith"
       ],
@@ -3467,7 +3467,7 @@
         "Helm's Deep",
         "Isengard",
         "Minas Morgul",
-        "Barad-d\u00fbr"
+        "Barad-dûr"
       ],
       "correct_answer": "Isengard",
       "difficulty": "easy"
@@ -3544,7 +3544,7 @@
       "subtopic": "Locations & Realms",
       "question": "What land lies to the west across the sea?",
       "options": [
-        "N\u00famenor",
+        "Númenor",
         "Valinor",
         "Beleriand",
         "Gondor"
@@ -3563,7 +3563,7 @@
         "Minas Tirith",
         "Minas Morgul",
         "Orthanc",
-        "Barad-d\u00fbr"
+        "Barad-dûr"
       ],
       "correct_answer": "Minas Morgul",
       "difficulty": "easy"
@@ -3593,11 +3593,11 @@
       "question": "What is the Sindarin name for the Mountains of Shadow?",
       "options": [
         "Ered Nimrais",
-        "Ephel D\u00faath",
+        "Ephel Dúath",
         "Ered Luin",
         "Hithaeglir"
       ],
-      "correct_answer": "Ephel D\u00faath",
+      "correct_answer": "Ephel Dúath",
       "difficulty": "medium"
     },
     {
@@ -3624,7 +3624,7 @@
       "subtopic": "Locations & Realms",
       "question": "What is the true name of the White Mountains?",
       "options": [
-        "Ephel D\u00faath",
+        "Ephel Dúath",
         "Ered Nimrais",
         "Hithaeglir",
         "Ered Luin"
@@ -3640,12 +3640,12 @@
       "subtopic": "Locations & Realms",
       "question": "What is another name for Weathertop?",
       "options": [
-        "Amon S\u00fbl",
+        "Amon Sûl",
         "Amon Hen",
         "Amon Lhaw",
         "Emyn Muil"
       ],
-      "correct_answer": "Amon S\u00fbl",
+      "correct_answer": "Amon Sûl",
       "difficulty": "medium"
     },
     {
@@ -3656,12 +3656,12 @@
       "subtopic": "Locations & Realms",
       "question": "What is the dwarvish name for Moria?",
       "options": [
-        "Khazad-d\u00fbm",
+        "Khazad-dûm",
         "Erebor",
         "Nogrod",
         "Belegost"
       ],
-      "correct_answer": "Khazad-d\u00fbm",
+      "correct_answer": "Khazad-dûm",
       "difficulty": "medium"
     },
     {
@@ -3705,11 +3705,11 @@
       "question": "What is the name of the hidden refuge where Faramir takes Frodo and Sam?",
       "options": [
         "Osgiliath",
-        "Henneth Ann\u00fbn",
+        "Henneth Annûn",
         "Cair Andros",
         "Emyn Arnen"
       ],
-      "correct_answer": "Henneth Ann\u00fbn",
+      "correct_answer": "Henneth Annûn",
       "difficulty": "medium"
     },
     {
@@ -3734,7 +3734,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Locations & Realms",
-      "question": "What river must the Fellowship cross to leave Lothl\u00f3rien?",
+      "question": "What river must the Fellowship cross to leave Lothlórien?",
       "options": [
         "The Anduin",
         "The Silverlode",
@@ -3784,7 +3784,7 @@
       "subtopic": "Locations & Realms",
       "question": "What dark tower in Mirkwood did Sauron once occupy?",
       "options": [
-        "Barad-d\u00fbr",
+        "Barad-dûr",
         "Minas Morgul",
         "Dol Guldur",
         "Orthanc"
@@ -3862,12 +3862,12 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Locations & Realms",
-      "question": "What is the seat of seeing on Amon Hen called?",
+      "question": "What ancient stone seat atop Amon Hen grants a vision of all Middle-earth?",
       "options": [
-        "The Seat of Kings",
+        "The Throne of Minas Tirith",
+        "The Stone of Erech",
         "The Seat of Seeing",
-        "The High Seat",
-        "The Chair of Vision"
+        "The Stone of Amon Sûl"
       ],
       "correct_answer": "The Seat of Seeing",
       "difficulty": "medium"
@@ -3915,7 +3915,7 @@
         "Dagorlad",
         "Nurn",
         "Gorgoroth",
-        "Ud\u00fbn"
+        "Udûn"
       ],
       "correct_answer": "Gorgoroth",
       "difficulty": "medium"
@@ -3947,7 +3947,7 @@
         "The Gap of Calenardhon",
         "The Gap of Rohan",
         "Both are correct",
-        "Nan Curun\u00edr"
+        "Nan Curunír"
       ],
       "correct_answer": "Both are correct",
       "difficulty": "medium"
@@ -3979,7 +3979,7 @@
         "Ered Nimrais",
         "Hithaeglir",
         "Ered Luin",
-        "Ephel D\u00faath"
+        "Ephel Dúath"
       ],
       "correct_answer": "Hithaeglir",
       "difficulty": "medium"
@@ -4089,7 +4089,7 @@
       "question": "What is the Elvish name for Isengard?",
       "options": [
         "Orthanc",
-        "Nan Curun\u00edr",
+        "Nan Curunír",
         "Angrenost",
         "Aglarond"
       ],
@@ -4139,7 +4139,7 @@
         "Isengard",
         "The Gap of Rohan",
         "Fangorn",
-        "Nan Curun\u00edr"
+        "Nan Curunír"
       ],
       "correct_answer": "The Gap of Rohan",
       "difficulty": "medium"
@@ -4155,7 +4155,7 @@
         "Mirkwood",
         "Fangorn Forest",
         "The Old Forest",
-        "Lothl\u00f3rien"
+        "Lothlórien"
       ],
       "correct_answer": "Fangorn Forest",
       "difficulty": "medium"
@@ -4166,14 +4166,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Locations & Realms",
-      "question": "What is the name of the tower Saruman lives in?",
+      "question": "What is the name of Saruman's palantír-enhanced stronghold that Treebeard helps destroy?",
       "options": [
+        "Dol Guldur",
+        "Barad-dûr",
         "Isengard",
-        "Orthanc",
-        "Barad-d\u00fbr",
         "Minas Morgul"
       ],
-      "correct_answer": "Orthanc",
+      "correct_answer": "Isengard",
       "difficulty": "medium"
     },
     {
@@ -4184,7 +4184,7 @@
       "subtopic": "Locations & Realms",
       "question": "What vale is hidden by Elrond's ring?",
       "options": [
-        "Lothl\u00f3rien",
+        "Lothlórien",
         "Rivendell",
         "Mirkwood",
         "The Shire"
@@ -4362,10 +4362,10 @@
       "options": [
         "Beleriand",
         "Westernesse",
-        "N\u00famenor",
+        "Númenor",
         "Valinor"
       ],
-      "correct_answer": "N\u00famenor",
+      "correct_answer": "Númenor",
       "difficulty": "hard"
     },
     {
@@ -4377,7 +4377,7 @@
       "question": "What region of Mordor contains the Sea of Nurnen?",
       "options": [
         "Gorgoroth",
-        "Ud\u00fbn",
+        "Udûn",
         "Nurn",
         "Lithlad"
       ],
@@ -4409,11 +4409,11 @@
       "question": "What was the capital of ancient Arnor?",
       "options": [
         "Fornost",
-        "Ann\u00faminas",
+        "Annúminas",
         "Bree",
-        "Amon S\u00fbl"
+        "Amon Sûl"
       ],
-      "correct_answer": "Ann\u00faminas",
+      "correct_answer": "Annúminas",
       "difficulty": "hard"
     },
     {
@@ -4425,11 +4425,11 @@
       "question": "What is the vale of Isengard called in Sindarin?",
       "options": [
         "Orthanc",
-        "Nan Curun\u00edr",
+        "Nan Curunír",
         "Angrenost",
         "The Wizard's Vale"
       ],
-      "correct_answer": "Nan Curun\u00edr",
+      "correct_answer": "Nan Curunír",
       "difficulty": "hard"
     },
     {
@@ -4536,7 +4536,7 @@
       "subtopic": "Battles & Conflicts",
       "question": "What does Aragorn use to distract Sauron from Frodo?",
       "options": [
-        "The palant\u00edr",
+        "The palantír",
         "A false Ring",
         "The Army of the Dead",
         "An attack on the Black Gate"
@@ -4586,7 +4586,7 @@
       "options": [
         "The Army of the Dead",
         "The Rohirrim",
-        "The D\u00fanedain",
+        "The Dúnedain",
         "The Rangers"
       ],
       "correct_answer": "The Army of the Dead",
@@ -4664,12 +4664,12 @@
       "subtopic": "Battles & Conflicts",
       "question": "Who leads the charge of the Rohirrim at Pelennor?",
       "options": [
-        "\u00c9omer",
-        "Th\u00e9oden",
-        "\u00c9owyn",
+        "Éomer",
+        "Théoden",
+        "Éowyn",
         "Aragorn"
       ],
-      "correct_answer": "Th\u00e9oden",
+      "correct_answer": "Théoden",
       "difficulty": "easy"
     },
     {
@@ -4763,7 +4763,7 @@
         "The Witch-king",
         "Gothmog",
         "Sauron",
-        "A Nazg\u00fbl"
+        "A Nazgûl"
       ],
       "correct_answer": "Gothmog",
       "difficulty": "easy"
@@ -4774,7 +4774,7 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "What kills Th\u00e9oden?",
+      "question": "What kills Théoden?",
       "options": [
         "An orc",
         "The Witch-king's fell beast",
@@ -4806,14 +4806,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "Who defends the Hornburg alongside Aragorn?",
+      "question": "Which unexpected ally fights alongside the Rohirrim in the Battle of Pelennor Fields?",
       "options": [
-        "Legolas and Gimli",
-        "Th\u00e9oden",
-        "\u00c9omer",
-        "All of these"
+        "The Dead Men of Dunharrow",
+        "The Eagles",
+        "The Ents",
+        "The Dwarves of Erebor"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "The Dead Men of Dunharrow",
       "difficulty": "medium"
     },
     {
@@ -4838,7 +4838,7 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "Who rides with \u00c9owyn disguised as Dernhelm?",
+      "question": "Who rides with Éowyn disguised as Dernhelm?",
       "options": [
         "Pippin",
         "Merry",
@@ -4905,7 +4905,7 @@
       "question": "Who kills Gothmog?",
       "options": [
         "Aragorn",
-        "\u00c9owyn and Gimli",
+        "Éowyn and Gimli",
         "Gandalf",
         "The books don't specify clearly"
       ],
@@ -4918,7 +4918,7 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "What weapon does \u00c9owyn use against the Witch-king?",
+      "question": "What weapon does Éowyn use against the Witch-king?",
       "options": [
         "A sword",
         "A spear",
@@ -5078,14 +5078,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "How does Sam rescue Frodo from Cirith Ungol?",
+      "question": "What is the name of the spider-creature that guards the pass of Cirith Ungol?",
       "options": [
-        "Using the Ring and Sting",
-        "With help",
-        "By stealth",
-        "Fighting openly"
+        "Ungoliant",
+        "Shelob",
+        "Draugluin",
+        "Thuringwethil"
       ],
-      "correct_answer": "Using the Ring and Sting",
+      "correct_answer": "Shelob",
       "difficulty": "medium"
     },
     {
@@ -5115,7 +5115,7 @@
         "Gandalf",
         "Aragorn",
         "Both Gandalf and Aragorn",
-        "\u00c9omer"
+        "Éomer"
       ],
       "correct_answer": "Both Gandalf and Aragorn",
       "difficulty": "medium"
@@ -5144,7 +5144,7 @@
       "subtopic": "Battles & Conflicts",
       "question": "What do the Eagles do at the Black Gate?",
       "options": [
-        "Attack the Nazg\u00fbl",
+        "Attack the Nazgûl",
         "Rescue Frodo and Sam",
         "Both",
         "Nothing"
@@ -5206,14 +5206,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "Who defends the Deeping Wall with Aragorn?",
+      "question": "What structure at Helm's Deep do the Uruk-hai destroy with explosives?",
       "options": [
-        "Legolas",
-        "Gimli",
-        "Elves",
-        "All of these"
+        "The main gate",
+        "The Hornburg tower",
+        "The Deeping Wall",
+        "The drainage culvert"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "The Deeping Wall",
       "difficulty": "medium"
     },
     {
@@ -5257,7 +5257,7 @@
       "question": "What does Aragorn fight in the Prancing Pony?",
       "options": [
         "Orcs",
-        "Nazg\u00fbl",
+        "Nazgûl",
         "Nothing - he rescues the hobbits",
         "Bandits"
       ],
@@ -5274,7 +5274,7 @@
       "options": [
         "Gandalf and Erkenbrand",
         "The Elves",
-        "\u00c9omer",
+        "Éomer",
         "The Ents"
       ],
       "correct_answer": "Gandalf and Erkenbrand",
@@ -5338,7 +5338,7 @@
       "options": [
         "Legolas",
         "No one - he guards the women",
-        "\u00c9omer",
+        "Éomer",
         "Aragorn"
       ],
       "correct_answer": "No one - he guards the women",
@@ -5386,7 +5386,7 @@
       "options": [
         "Dagorlad",
         "The Last Alliance",
-        "The Siege of Barad-d\u00fbr",
+        "The Siege of Barad-dûr",
         "All are part of the same campaign"
       ],
       "correct_answer": "All are part of the same campaign",
@@ -5478,7 +5478,7 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "How long after the Ring's destruction do the towers of Barad-d\u00fbr fall?",
+      "question": "How long after the Ring's destruction do the towers of Barad-dûr fall?",
       "options": [
         "Instantly",
         "Minutes",
@@ -5498,7 +5498,7 @@
       "options": [
         "Death!",
         "Rohan!",
-        "Th\u00e9oden King!",
+        "Théoden King!",
         "For the Mark!"
       ],
       "correct_answer": "Death!",
@@ -5531,7 +5531,7 @@
         "Elrond and Aragorn",
         "Gil-galad and Elendil",
         "Galadriel and Isildur",
-        "C\u00edrdan and Elendil"
+        "Círdan and Elendil"
       ],
       "correct_answer": "Gil-galad and Elendil",
       "difficulty": "hard"
@@ -5558,14 +5558,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "How does Aragorn's banner affect the Battle of Pelennor?",
+      "question": "Whose banner does Aragorn unfurl when his fleet arrives at Pelennor Fields?",
       "options": [
-        "It raises morale",
-        "It signals his coming",
-        "It identifies him as king",
-        "All of these"
+        "The banner of Gondor",
+        "The banner of Isildur",
+        "The banner of the House of Telcontar",
+        "The standard of Elendil"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "The banner of Elendil",
       "difficulty": "hard"
     },
     {
@@ -5590,14 +5590,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "In what year of the Third Age does the War of the Ring occur?",
+      "question": "What is the name of the sword Narsil was forged into when reforged by the Elves of Rivendell?",
       "options": [
-        "3018",
-        "3019",
-        "3020",
-        "3021"
+        "Glamdring",
+        "Sting",
+        "Andúril",
+        "Herugrim"
       ],
-      "correct_answer": "3019",
+      "correct_answer": "Andúril",
       "difficulty": "hard"
     },
     {
@@ -5766,14 +5766,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is pipeweed also called?",
+      "question": "What is the most prized variety of pipeweed in the Shire?",
       "options": [
-        "Tobacco",
+        "Old Toby",
         "Longbottom Leaf",
-        "Halflings' leaf",
-        "All of these"
+        "Southern Star",
+        "Halflings' Leaf"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Old Toby",
       "difficulty": "easy"
     },
     {
@@ -5846,14 +5846,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What happens when the One Ring is worn?",
+      "question": "What immediate physical effect does wearing the One Ring have on the wearer?",
       "options": [
-        "Invisibility",
-        "Power",
-        "Corruption",
-        "All of these"
+        "It grants great strength",
+        "It makes the wearer invisible",
+        "It cures illness",
+        "It amplifies the wearer's voice"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "It makes the wearer invisible",
       "difficulty": "easy"
     },
     {
@@ -5867,7 +5867,7 @@
         "Sting",
         "Glamdring",
         "Orcrist",
-        "And\u00faril"
+        "Andúril"
       ],
       "correct_answer": "Glamdring",
       "difficulty": "easy"
@@ -5883,7 +5883,7 @@
         "Glamdring",
         "Orcrist",
         "Sting",
-        "And\u00faril"
+        "Andúril"
       ],
       "correct_answer": "Sting",
       "difficulty": "easy"
@@ -5910,14 +5910,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What are the Nazg\u00fbl also called?",
+      "question": "What is the most common name used in the books for the nine Ringwraiths?",
       "options": [
         "The Nine",
-        "Ringwraiths",
         "Black Riders",
-        "All of these"
+        "Nazgûl",
+        "The Undead"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Nazgûl",
       "difficulty": "easy"
     },
     {
@@ -5979,7 +5979,7 @@
         "Elrond",
         "Galadriel",
         "Gandalf",
-        "C\u00edrdan"
+        "Círdan"
       ],
       "correct_answer": "Gandalf",
       "difficulty": "easy"
@@ -5995,7 +5995,7 @@
         "Galadriel",
         "Gandalf",
         "Elrond",
-        "C\u00edrdan"
+        "Círdan"
       ],
       "correct_answer": "Elrond",
       "difficulty": "easy"
@@ -6038,14 +6038,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is athelas also called?",
+      "question": "What is the Elvish name for athelas, the healing herb?",
       "options": [
-        "Kingsfoil",
-        "Kingswort",
-        "As\u00eba aranion",
-        "All of these"
+        "Asëa aranion",
+        "Elanor",
+        "Niphredil",
+        "Kingsfoil"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Asëa aranion",
       "difficulty": "medium"
     },
     {
@@ -6057,11 +6057,11 @@
       "question": "Who first discovered athelas's healing properties in the Third Age?",
       "options": [
         "Aragorn",
-        "The N\u00famen\u00f3reans",
+        "The Númenóreans",
         "Elrond",
         "Gandalf"
       ],
-      "correct_answer": "The N\u00famen\u00f3reans",
+      "correct_answer": "The Númenóreans",
       "difficulty": "medium"
     },
     {
@@ -6089,11 +6089,11 @@
       "question": "What is in the Phial of Galadriel?",
       "options": [
         "Water from her fountain",
-        "The light of E\u00e4rendil's star",
+        "The light of Eärendil's star",
         "Elvish magic",
         "Tears"
       ],
-      "correct_answer": "The light of E\u00e4rendil's star",
+      "correct_answer": "The light of Eärendil's star",
       "difficulty": "medium"
     },
     {
@@ -6166,14 +6166,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "Why does Gandalf become the White?",
+      "question": "What title does Gandalf take after returning from death as Gandalf the White?",
       "options": [
-        "He takes Saruman's place",
-        "He is resurrected more powerful",
-        "Both",
-        "The Valar promote him"
+        "Head of the Istari",
+        "Lord of Wizards",
+        "Leader of the Fellowship",
+        "The White Rider"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "The White Rider",
       "difficulty": "medium"
     },
     {
@@ -6182,14 +6182,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is the significance of the white tree?",
+      "question": "What is the name of the white tree that grows in the Court of the Fountain in Minas Tirith?",
       "options": [
-        "Symbol of Gondor",
-        "Symbol of kingship",
-        "Both",
-        "It's magical"
+        "Galathilion",
+        "Telperion",
+        "The White Tree of Gondor",
+        "Nimloth"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "The White Tree of Gondor",
       "difficulty": "medium"
     },
     {
@@ -6202,7 +6202,7 @@
       "options": [
         "Minas Tirith",
         "Rivendell",
-        "Lothl\u00f3rien",
+        "Lothlórien",
         "The Shire"
       ],
       "correct_answer": "Minas Tirith",
@@ -6214,7 +6214,7 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is palant\u00edr?",
+      "question": "What is palantír?",
       "options": [
         "A seeing stone",
         "A weapon",
@@ -6230,7 +6230,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "How many palant\u00edri were there in Middle-earth?",
+      "question": "How many palantíri were there in Middle-earth?",
       "options": [
         "3",
         "7",
@@ -6246,14 +6246,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "Who made the palant\u00edri?",
+      "question": "Who made the palantíri?",
       "options": [
         "Sauron",
         "The Elves",
-        "F\u00ebanor",
+        "Fëanor",
         "The Valar"
       ],
-      "correct_answer": "F\u00ebanor",
+      "correct_answer": "Fëanor",
       "difficulty": "medium"
     },
     {
@@ -6390,7 +6390,7 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What does \u00c9owyn call herself when disguised?",
+      "question": "What does Éowyn call herself when disguised?",
       "options": [
         "Dernhelm",
         "Dernwode",
@@ -6422,14 +6422,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is the Evenstar?",
+      "question": "What is the name of the pendant Arwen gives to Aragorn as a token of her love?",
       "options": [
-        "Arwen's necklace",
-        "A jewel",
-        "A gift to Aragorn",
-        "All of these"
+        "The Ring of Barahir",
+        "The White Gem",
+        "The Evenstar",
+        "The Star of the Dúnedain"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "The Evenstar",
       "difficulty": "medium"
     },
     {
@@ -6502,14 +6502,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is special about Shadowfax?",
+      "question": "Who was the original owner of Shadowfax before Gandalf rode him?",
       "options": [
-        "He is the lord of horses",
-        "He is faster than the wind",
-        "Both",
-        "He understands speech"
+        "Théoden",
+        "Éomer",
+        "Círdan",
+        "Elrond"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "Théoden",
       "difficulty": "medium"
     },
     {
@@ -6521,11 +6521,11 @@
       "question": "Who gives Gandalf Shadowfax?",
       "options": [
         "He takes him",
-        "Th\u00e9oden",
-        "\u00c9omer",
+        "Théoden",
+        "Éomer",
         "He finds him wild"
       ],
-      "correct_answer": "Th\u00e9oden",
+      "correct_answer": "Théoden",
       "difficulty": "medium"
     },
     {
@@ -6600,10 +6600,10 @@
       "subtopic": "Lore & History",
       "question": "What is the name of the smith who made the Rings of Power?",
       "options": [
-        "F\u00ebanor",
+        "Fëanor",
         "Celebrimbor",
         "Telchar",
-        "Aul\u00eb"
+        "Aulë"
       ],
       "correct_answer": "Celebrimbor",
       "difficulty": "hard"
@@ -6614,7 +6614,7 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "How long did Sauron besiege Barad-d\u00fbr before his defeat?",
+      "question": "How long did Sauron besiege Barad-dûr before his defeat?",
       "options": [
         "7 years",
         "9 years",
@@ -6667,7 +6667,7 @@
         "Dwarves were made to resist domination",
         "The Rings were weaker",
         "Dwarves didn't wear them",
-        "Aul\u00eb protected them"
+        "Aulë protected them"
       ],
       "correct_answer": "Dwarves were made to resist domination",
       "difficulty": "hard"
@@ -6710,14 +6710,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What was Sauron's role under Morgoth?",
+      "question": "Before serving Sauron, who was Sauron's original master?",
       "options": [
-        "His lieutenant",
-        "His servant",
-        "His greatest servant",
-        "All of these"
+        "Manwë",
+        "Morgoth",
+        "Aulë",
+        "Eru Ilúvatar"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Morgoth",
       "difficulty": "hard"
     },
     {
@@ -6726,14 +6726,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What is the Western language also called?",
+      "question": "What is the Common Speech of Middle-earth called in Tolkien's original language?",
       "options": [
-        "Common Speech",
+        "Sindarin",
         "Westron",
-        "Both",
-        "The Common Tongue"
+        "Quenya",
+        "Rohirric"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "Westron",
       "difficulty": "hard"
     },
     {
@@ -6760,10 +6760,10 @@
       "subtopic": "Lore & History",
       "question": "Who invented the Elvish scripts?",
       "options": [
-        "F\u00ebanor",
+        "Fëanor",
         "Daeron",
         "Both invented different scripts",
-        "R\u00famil"
+        "Rúmil"
       ],
       "correct_answer": "Both invented different scripts",
       "difficulty": "hard"
@@ -6793,7 +6793,7 @@
       "question": "Why can't the Eagles just fly the Ring to Mount Doom?",
       "options": [
         "They would be seen",
-        "They serve Manw\u00eb not mortals",
+        "They serve Manwë not mortals",
         "The Ring would corrupt them",
         "All are valid reasons"
       ],
@@ -6822,14 +6822,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What happens to magic when the Ring is destroyed?",
+      "question": "What happens to the Three Elven Rings when the One Ring is destroyed?",
       "options": [
-        "Elvish power fades",
-        "The age of magic ends",
-        "The Three Rings lose power",
-        "All of these"
+        "They shatter immediately",
+        "Their power fades and they become useless",
+        "They are taken back to Valinor",
+        "They pass to the next bearers"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Their power fades and they become useless",
       "difficulty": "hard"
     },
     {
@@ -6950,14 +6950,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "Who declares 'I am no man!' before striking the Witch-king?",
+      "question": "What weapon does Éowyn use to destroy the Witch-king's fell beast before their duel?",
       "options": [
-        "Arwen",
-        "Galadriel",
-        "\u00c9owyn",
-        "Rosie"
+        "Her sword",
+        "A spear",
+        "Her shield",
+        "An arrow"
       ],
-      "correct_answer": "\u00c9owyn",
+      "correct_answer": "Her sword",
       "difficulty": "easy"
     },
     {
@@ -7014,14 +7014,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gollum call Samwise?",
+      "question": "What does Gollum call Sam in The Two Towers?",
       "options": [
-        "Nasty hobbitses",
         "Fat hobbit",
+        "Nasty hobbitses",
         "Stupid fat hobbit",
-        "All of these"
+        "The sneak"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Stupid fat hobbit",
       "difficulty": "easy"
     },
     {
@@ -7094,14 +7094,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Th\u00e9oden say before the charge?",
+      "question": "What does Théoden cry at the charge of the Rohirrim at Pelennor Fields?",
       "options": [
-        "For Rohan!",
         "Death!",
-        "Ride now!",
-        "All of these"
+        "Forth Éorlingas!",
+        "Ride now! Ride to ruin and the world's ending!",
+        "For Rohan!"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Forth Éorlingas!",
       "difficulty": "easy"
     },
     {
@@ -7195,7 +7195,7 @@
         "the Secret Fire",
         "Valar",
         "the Light",
-        "Il\u00favatar"
+        "Ilúvatar"
       ],
       "correct_answer": "the Secret Fire",
       "difficulty": "medium"
@@ -7398,14 +7398,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Pippin say about second breakfast?",
+      "question": "What meal do Merry and Pippin enjoy in Treebeard's home in the forest of Fangorn?",
       "options": [
-        "He asks Aragorn about it",
-        "He tells Merry about it",
-        "He wonders if Aragorn knows of it",
-        "All variations"
+        "Lembas bread and honey",
+        "Ent-draught and fruit",
+        "Mushrooms and pipeweed",
+        "Cram and dried meat"
       ],
-      "correct_answer": "He wonders if Aragorn knows of it",
+      "correct_answer": "Ent-draught and fruit",
       "difficulty": "medium"
     },
     {
@@ -7430,14 +7430,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Aragorn tell the hobbits about rangers?",
+      "question": "What does Aragorn say to Théoden about the battle of Helm's Deep?",
       "options": [
-        "They look foul but feel fair",
-        "Not all who wander are lost",
-        "Both",
-        "He says nothing"
+        "There is always hope",
+        "Open war is upon you, whether you would risk it or not",
+        "I shall not fail",
+        "The age of Men is over"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "Open war is upon you, whether you would risk it or not",
       "difficulty": "medium"
     },
     {
@@ -7446,14 +7446,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Saruman say about Gandalf?",
+      "question": "What does Saruman say is the only path to peace in Middle-earth?",
       "options": [
-        "Gandalf the Grey",
-        "My old friend",
-        "He's a fool",
-        "All of these"
+        "Total dominion",
+        "Dominion of the Ring",
+        "Alliance with Sauron",
+        "Submission to the Wise"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Dominion of the Ring",
       "difficulty": "medium"
     },
     {
@@ -7494,14 +7494,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gandalf tell Frodo about Gollum?",
+      "question": "What wisdom does Gandalf share with Frodo about Gollum's fate?",
       "options": [
+        "Pity was meant to rule the fate of many",
         "Many that live deserve death",
-        "Pity may rule the fate",
-        "Both",
-        "He's dangerous"
+        "Do not be too eager to deal out death in judgment",
+        "My heart tells me that Gollum has some part to play yet"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "My heart tells me that Gollum has some part to play yet",
       "difficulty": "medium"
     },
     {
@@ -7510,14 +7510,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Frodo say about his burden getting heavier?",
+      "question": "What does Frodo tell Sam he cannot remember about the Shire?",
       "options": [
-        "It's a cruel burden",
-        "I wish it need not have happened",
-        "It grows heavier",
-        "All of these"
+        "The smell of the fields",
+        "Treebeard's voice",
+        "The sound of the water",
+        "Bilbo's laughter"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "The smell of the fields",
       "difficulty": "medium"
     },
     {
@@ -7528,12 +7528,12 @@
       "subtopic": "Quotes & Dialogue",
       "question": "What does Galadriel say instead of farewell?",
       "options": [
-        "Nam\u00e1ri\u00eb",
+        "Namárië",
         "Goodbye",
         "May it be a light",
         "Safe travels"
       ],
-      "correct_answer": "Nam\u00e1ri\u00eb",
+      "correct_answer": "Namárië",
       "difficulty": "medium"
     },
     {
@@ -7574,14 +7574,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Elrond say about the Ring?",
+      "question": "What does Elrond declare about who must carry the Ring to Mordor?",
       "options": [
-        "It must be destroyed",
-        "It cannot stay here",
-        "Both",
-        "It corrupts"
+        "It must be one of the Wise",
+        "This task is beyond any of us",
+        "The Ring-bearer must go alone",
+        "The Ring must be carried by the one who found it"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "The Ring-bearer must go alone",
       "difficulty": "medium"
     },
     {
@@ -7590,14 +7590,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gollum promise to Frodo?",
+      "question": "What does Gollum swear on to promise to serve Frodo?",
       "options": [
-        "To serve the master",
-        "To guide them",
-        "Both",
-        "To protect them"
+        "The Precious",
+        "His life",
+        "The stones of Middle-earth",
+        "The memory of the Shire"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "The Precious",
       "difficulty": "medium"
     },
     {
@@ -7622,14 +7622,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Th\u00e9oden say about hope?",
+      "question": "What famous question does Théoden ask after Gandalf arrives at Edoras?",
       "options": [
-        "What hope?",
-        "Where was Gondor?",
-        "Both",
-        "Hope fails"
+        "What do you want, Grey Pilgrim?",
+        "Why should I welcome you, Gandalf Stormcrow?",
+        "I know your face — what has age done to you?",
+        "Are you friend or foe of Rohan?"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "Why should I welcome you, Gandalf Stormcrow?",
       "difficulty": "medium"
     },
     {
@@ -7638,7 +7638,7 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Aragorn say to Th\u00e9oden about riding to war?",
+      "question": "What does Aragorn say to Théoden about riding to war?",
       "options": [
         "Yes",
         "Open war is upon you",
@@ -7654,14 +7654,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Denethor say about Boromir?",
+      "question": "What does Denethor claim he needs to defeat the Enemy?",
       "options": [
-        "My son",
-        "He should have brought me the Ring",
-        "Both",
-        "He was valiant"
+        "The Ring",
+        "An army of ten thousand",
+        "The Palantír",
+        "The One Ring and Gandalf's staff"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "The Ring",
       "difficulty": "medium"
     },
     {
@@ -7670,14 +7670,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Sam say about stories?",
+      "question": "What does Sam compare Frodo and himself to when speaking about stories?",
       "options": [
-        "The great ones never end",
-        "Folk in them had chances to turn back",
-        "They kept going",
-        "All of these"
+        "Old tales that never change",
+        "The great darkness before the dawn",
+        "Mr. Bilbo and Gollum",
+        "Folks in the old stories"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Folks in the old stories",
       "difficulty": "medium"
     },
     {
@@ -7718,14 +7718,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gollum say about fish?",
+      "question": "In Gollum's fish-eating rhyme, what does he call the fish?",
       "options": [
-        "We likes them raw",
-        "So juicy sweet",
-        "Both",
-        "We eats them"
+        "Fresh and wriggling",
+        "Cold and wet",
+        "Juicy sweet",
+        "Raw and alive"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "Juicy sweet",
       "difficulty": "medium"
     },
     {
@@ -7734,14 +7734,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gandalf say after striking the bridge?",
+      "question": "What does Gandalf shout after telling the Balrog 'You shall not pass'?",
       "options": [
-        "You cannot pass",
+        "Run! All of you!",
         "Fly, you fools!",
-        "Both",
-        "Run!"
+        "Get back, beast of shadow!",
+        "Break, you servants of Darkness!"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "Fly, you fools!",
       "difficulty": "medium"
     },
     {
@@ -7750,14 +7750,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Boromir say before he dies?",
+      "question": "What does Boromir say to Aragorn as his last words?",
       "options": [
-        "I would have followed you",
+        "I would have followed you to the end",
         "My brother, my captain, my king",
-        "Both",
+        "I tried to take it from him",
         "Forgive me"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "My brother, my captain, my king",
       "difficulty": "medium"
     },
     {
@@ -7766,14 +7766,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Aragorn reply to dying Boromir?",
+      "question": "What does Aragorn say to Boromir after telling him 'Be at peace, Son of Gondor'?",
       "options": [
-        "Be at peace",
         "I will not let the White City fall",
-        "Both",
-        "You fought bravely"
+        "You have kept your honor",
+        "I will not let our people fail",
+        "Your king has come"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "I will not let the White City fall",
       "difficulty": "medium"
     },
     {
@@ -7798,14 +7798,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gandalf say about Saruman betraying his nature?",
+      "question": "What does Gandalf say Saruman's voice has become?",
       "options": [
-        "He has a mind of metal and wheels",
-        "He no longer cares for growing things",
-        "Both",
-        "He's corrupted"
+        "An instrument of lies",
+        "A weapon",
+        "A tool of Sauron",
+        "Ruin and decay"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "A weapon",
       "difficulty": "hard"
     },
     {
@@ -7814,14 +7814,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Elrond say about the strength of Men?",
+      "question": "What does Elrond say caused the line of Isildur to fail?",
       "options": [
-        "It failed",
-        "Men are weak",
-        "The line of kings is broken",
-        "All of these"
+        "Pride",
+        "The One Ring's corruption",
+        "Weakness of Men",
+        "Fear of Sauron"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Weakness of Men",
       "difficulty": "hard"
     },
     {
@@ -7878,14 +7878,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Tom Bombadil say he is?",
+      "question": "What does Tom Bombadil say his name was before the dark lord came?",
       "options": [
-        "Eldest",
+        "The First",
         "Tom Bombadil",
-        "Both",
-        "Master"
+        "Eldest",
+        "Iarwain Ben-adar"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "Eldest",
       "difficulty": "hard"
     },
     {
@@ -7894,14 +7894,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Treebeard call himself?",
+      "question": "What does Treebeard mean when he says he is 'not altogether on anyone's side'?",
       "options": [
-        "Shepherd of the forest",
-        "Eldest",
-        "Fangorn",
-        "All of these"
+        "He serves Saruman secretly",
+        "He is neutral until Merry and Pippin convince him",
+        "He is loyal to Gandalf alone",
+        "He only cares about trees, not war"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "He only cares about trees, not war",
       "difficulty": "hard"
     },
     {
@@ -7926,7 +7926,7 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Galadriel's greeting mean: 'Elen s\u00edla l\u00famenn' omentielvo'?",
+      "question": "What does Galadriel's greeting mean: 'Elen síla lúmenn' omentielvo'?",
       "options": [
         "A star shines on the hour of our meeting",
         "Welcome",
@@ -7979,7 +7979,7 @@
         "The full Black Speech verse",
         "One Ring to rule them all, One Ring to find them",
         "The complete poem",
-        "Ash nazg durbatul\u00fbk"
+        "Ash nazg durbatulûk"
       ],
       "correct_answer": "The full Black Speech verse",
       "difficulty": "hard"
@@ -7990,14 +7990,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gandalf say about time and tide?",
+      "question": "What does Gandalf say when announcing the start of the War of the Ring to Theoden?",
       "options": [
-        "Time and tide wait for no man",
-        "Tide and storm wait for no man",
-        "The board is set",
-        "None of these"
+        "The board is set, the pieces are moving",
+        "Fly, you fools!",
+        "You shall not pass",
+        "The dark fire will not avail you"
       ],
-      "correct_answer": "None of these",
+      "correct_answer": "The board is set, the pieces are moving",
       "difficulty": "hard"
     },
     {
@@ -8022,14 +8022,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "What does Gandalf say about Frodo being meant to have the Ring?",
+      "question": "What does Gandalf tell Frodo about why the Ring came to him?",
       "options": [
-        "You were meant to have it",
-        "It's no accident",
-        "There are other forces at work",
-        "All of these"
+        "It sought a new master",
+        "Dark powers shaped it for Frodo",
+        "Such things are accidents",
+        "There are other forces at work in the world besides evil"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "There are other forces at work in the world besides evil",
       "difficulty": "hard"
     }
   ]

@@ -17,7 +17,6 @@ struct ContentView: View {
 
     // Live drag offset for real-time page following during swipe
     @State private var liveDragOffset: CGFloat = 0
-    @State private var isDragging: Bool = false
 
     var body: some View {
         Group {
@@ -53,6 +52,7 @@ struct ContentView: View {
 
     private var gameView: some View {
         GeometryReader { geometry in
+            let screenWidth = geometry.size.width
             ZStack {
                 // Leaderboard (left page)
                 LeaderboardView(
@@ -61,8 +61,7 @@ struct ContentView: View {
                     onDragChanged: handleDragChanged,
                     onDragEnded: handleDragEnded
                 )
-                .offset(x: calculateLeaderboardOffset(screenWidth: geometry.size.width))
-                .opacity(calculateOpacity(for: .leaderboard))
+                .offset(x: calculateLeaderboardOffset(screenWidth: screenWidth))
                 .zIndex(gameViewModel.gameState == .leaderboard ? 1 : 0)
 
                 // Main wheel (center page)
@@ -72,7 +71,7 @@ struct ContentView: View {
                     onDragChanged: handleDragChanged,
                     onDragEnded: handleDragEnded
                 )
-                .offset(x: calculateMainOffset(screenWidth: geometry.size.width))
+                .offset(x: calculateMainOffset(screenWidth: screenWidth))
                 .zIndex(gameViewModel.gameState == .selectingCategory ? 1 : 0)
 
                 // Settings (right page)
@@ -82,13 +81,11 @@ struct ContentView: View {
                     onDragChanged: handleDragChanged,
                     onDragEnded: handleDragEnded
                 )
-                .offset(x: calculateSettingsOffset(screenWidth: geometry.size.width))
-                .opacity(calculateOpacity(for: .settings))
+                .offset(x: calculateSettingsOffset(screenWidth: screenWidth))
                 .zIndex(gameViewModel.gameState == .settings ? 1 : 0)
             }
-            // Animate page snapping only after drag ends, not during live drag
-            .animation(isDragging ? nil : .spring(response: 0.3, dampingFraction: 0.85), value: gameViewModel.gameState)
-            .animation(isDragging ? nil : .spring(response: 0.3, dampingFraction: 0.85), value: liveDragOffset)
+            // No implicit animation here — snap/spring is applied explicitly via withAnimation
+            // in handleDragEnded/handleSwipe so there's zero animation overhead during live drag
         }
     }
 
@@ -131,37 +128,34 @@ struct ContentView: View {
         return baseOffset + liveDragOffset
     }
 
-    private func calculateOpacity(for state: GameState) -> Double {
-        // Simple binary opacity - compositor handles smooth transitions
-        return gameViewModel.gameState == state ? 1.0 : 0.3
-    }
-
     private func handleDragChanged(_ translation: CGFloat) {
-        isDragging = true
+        // Direct assignment — no animation, this must follow the finger in real time
         liveDragOffset = translation
     }
 
     private func handleDragEnded() {
-        // Snap back to zero offset with spring animation - state change (if any) will
-        // handle moving to the correct page position
-        isDragging = false
-        liveDragOffset = 0
+        // Spring snap back to resting position after finger lifts
+        withAnimation(.spring(response: 0.3, dampingFraction: 0.85)) {
+            liveDragOffset = 0
+        }
     }
 
     private func handleSwipe(_ direction: SwipeDirection) {
         guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
 
-        switch (gameViewModel.gameState, direction) {
-        case (.selectingCategory, .right):
-            gameViewModel.gameState = .leaderboard
-        case (.selectingCategory, .left):
-            gameViewModel.gameState = .settings
-        case (.leaderboard, .left):
-            gameViewModel.gameState = .selectingCategory
-        case (.settings, .right):
-            gameViewModel.gameState = .selectingCategory
-        default:
-            break
+        withAnimation(.spring(response: 0.3, dampingFraction: 0.85)) {
+            switch (gameViewModel.gameState, direction) {
+            case (.selectingCategory, .right):
+                gameViewModel.gameState = .leaderboard
+            case (.selectingCategory, .left):
+                gameViewModel.gameState = .settings
+            case (.leaderboard, .left):
+                gameViewModel.gameState = .selectingCategory
+            case (.settings, .right):
+                gameViewModel.gameState = .selectingCategory
+            default:
+                break
+            }
         }
     }
 }

@@ -1147,14 +1147,14 @@
       "id": "spt_071",
       "category": "Sports",
       "subcategory": "Team Sports",
-      "question": "In soccer, what is it called when a player uses their head to play the ball?",
+      "question": "In soccer, what is the term for a shot hit with the outside of the foot?",
       "options": [
-        "Heading",
-        "Header",
-        "Head ball",
-        "All of the above"
+        "Trivela",
+        "Bicycle kick",
+        "Chip shot",
+        "Volley"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Trivela",
       "difficulty": "easy",
       "topic": "com.fiz.pack.sports",
       "subtopic": "Equipment & Terminology"
@@ -1835,14 +1835,14 @@
       "id": "spt_114",
       "category": "Sports",
       "subcategory": "Motorsports",
-      "question": "What does DRS stand for in Formula 1?",
+      "question": "In Formula 1, how many constructors' championships has Ferrari won as of 2024?",
       "options": [
-        "Direct Racing System",
-        "Drag Reduction System",
-        "Drive Response System",
-        "Dynamic Race Speed"
+        "16",
+        "12",
+        "8",
+        "20"
       ],
-      "correct_answer": "Drag Reduction System",
+      "correct_answer": "16",
       "difficulty": "medium",
       "topic": "com.fiz.pack.sports",
       "subtopic": "Equipment & Terminology"
@@ -3819,14 +3819,14 @@
       "id": "spt_238",
       "category": "Sports",
       "subcategory": "International Competition",
-      "question": "What does BMX stand for?",
+      "question": "In cycling, what type of bicycle features a single fixed gear with no freewheel mechanism?",
       "options": [
-        "Bicycle Motocross",
-        "Bike Motor X",
-        "Basic Mountain X",
-        "Bicycle Mixed X"
+        "Fixed-gear bike",
+        "Mountain bike",
+        "Road bike",
+        "BMX bike"
       ],
-      "correct_answer": "Bicycle Motocross",
+      "correct_answer": "Fixed-gear bike",
       "difficulty": "easy",
       "topic": "com.fiz.pack.sports",
       "subtopic": "Equipment & Terminology"
@@ -3979,7 +3979,7 @@
       "id": "spt_248",
       "category": "Sports",
       "subcategory": "Team Sports",
-      "question": "What is the traditional name for the equipment used to catch and throw the ball in lacrosse?",
+      "question": "What is the traditional name for the stick-like equipment used in the field sport invented by Indigenous North Americans that involves catching and throwing a small rubber ball?",
       "options": [
         "Crosse",
         "Stick",
@@ -6251,14 +6251,14 @@
       "id": "spt_390",
       "category": "Sports",
       "subcategory": "International Competition",
-      "question": "What year were the first modern Olympics?",
+      "question": "How many athletes competed in the inaugural modern Olympic Games in 1896?",
       "options": [
-        "1896",
-        "1900",
-        "1888",
-        "1904"
+        "241",
+        "312",
+        "180",
+        "400"
       ],
-      "correct_answer": "1896",
+      "correct_answer": "241",
       "difficulty": "hard",
       "topic": "com.fiz.pack.sports",
       "subtopic": "History & Records"
@@ -6491,14 +6491,14 @@
       "id": "spt_405",
       "category": "Sports",
       "subcategory": "Individual Sports",
-      "question": "Who has the most Grand Slam singles titles in women's tennis?",
+      "question": "Which male tennis player holds the record for most Grand Slam singles titles as of 2024?",
       "options": [
-        "Margaret Court",
-        "Serena Williams",
-        "Steffi Graf",
-        "Martina Navratilova"
+        "Novak Djokovic",
+        "Roger Federer",
+        "Rafael Nadal",
+        "Pete Sampras"
       ],
-      "correct_answer": "Margaret Court",
+      "correct_answer": "Novak Djokovic",
       "difficulty": "hard",
       "topic": "com.fiz.pack.sports",
       "subtopic": "History & Records"
@@ -7083,14 +7083,14 @@
       "id": "spt_442",
       "category": "Sports",
       "subcategory": "Team Sports",
-      "question": "What is the Super Bowl?",
+      "question": "Which city has hosted the most Super Bowls as of 2024?",
       "options": [
-        "NFL championship game",
-        "World Series",
-        "NBA Finals",
-        "Stanley Cup"
+        "Miami",
+        "New Orleans",
+        "Los Angeles",
+        "Tampa"
       ],
-      "correct_answer": "NFL championship game",
+      "correct_answer": "Miami",
       "difficulty": "easy",
       "topic": "com.fiz.pack.sports",
       "subtopic": "Championships & Tournaments"
@@ -7819,14 +7819,14 @@
       "id": "spt_488",
       "category": "Sports",
       "subcategory": "International Competition",
-      "question": "Who has the most Olympic medals total?",
+      "question": "In which event did Michael Phelps win his record-breaking 8th gold medal at the 2008 Beijing Olympics?",
       "options": [
-        "Michael Phelps",
-        "Larisa Latynina",
-        "Nikolai Andrianov",
-        "Usain Bolt"
+        "4x100m medley relay",
+        "200m butterfly",
+        "100m butterfly",
+        "200m individual medley"
       ],
-      "correct_answer": "Michael Phelps",
+      "correct_answer": "4x100m medley relay",
       "difficulty": "hard",
       "topic": "com.fiz.pack.sports",
       "subtopic": "History & Records"

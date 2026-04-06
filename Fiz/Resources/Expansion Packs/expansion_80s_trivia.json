@@ -59,14 +59,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "TV Shows",
-      "question": "What was the name of the bar in 'Cheers'?",
+      "question": "What was the occupation of Sam Malone, the owner of the bar in 'Cheers'?",
       "options": [
-        "Melville's",
-        "Cheers",
-        "Gary's Tavern",
-        "The Bull & Finch"
+        "Doctor",
+        "Lawyer",
+        "Former baseball player",
+        "Retired cop"
       ],
-      "correct_answer": "Cheers",
+      "correct_answer": "Former baseball player",
       "difficulty": "easy"
     },
     {
@@ -523,14 +523,14 @@
       "subcategory": "History & Eras",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Pop Culture",
-      "question": "Which company released the Nintendo Entertainment System in North America in 1985?",
+      "question": "In what year did Nintendo release the NES (Nintendo Entertainment System) in North America?",
       "options": [
-        "Sega",
-        "Nintendo",
-        "Atari",
-        "Coleco"
+        "1983",
+        "1984",
+        "1985",
+        "1986"
       ],
-      "correct_answer": "Nintendo",
+      "correct_answer": "1985",
       "difficulty": "medium"
     },
     {
@@ -989,15 +989,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "TV Shows",
-      "question": "What was the name of the red car in 'Knight Rider'?",
+      "question": "In 'Knight Rider', what did the acronym KITT stand for?",
       "options": [
-        "Herbie",
-        "The General Lee",
-        "Christine",
-        "KITT"
+        "Knight Intelligent Tactical Transport",
+        "Knight Industries Two Thousand",
+        "Kinetic Integrated Turbo Transport",
+        "Knight Intelligence Tracking Technology"
       ],
-      "correct_answer": "KITT",
-      "difficulty": "easy"
+      "correct_answer": "Knight Industries Two Thousand",
+      "difficulty": "hard"
     },
     {
       "id": "80s_paid_022",
@@ -1597,14 +1597,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Movies",
-      "question": "In 'Scarface', what is Tony Montana's nickname?",
+      "question": "In 'Scarface' (1983), what is the name of Tony Montana's ruthless Cuban drug lord mentor he ultimately betrays?",
       "options": [
-        "The Boss",
-        "The King",
-        "El Jefe",
-        "Scarface"
+        "Alejandro Sosa",
+        "Frank Lopez",
+        "Omar Suarez",
+        "Mel Bernstein"
       ],
-      "correct_answer": "Scarface",
+      "correct_answer": "Frank Lopez",
       "difficulty": "medium"
     },
     {
@@ -2429,15 +2429,15 @@
       "subcategory": "History & Eras",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Music",
-      "question": "Who had a hit with 'Don't Stop Believin''?",
+      "question": "What was the name of Journey's lead singer who recorded 'Don't Stop Believin'' in 1981?",
       "options": [
-        "Foreigner",
-        "Journey",
-        "Boston",
-        "Kansas"
+        "Neal Schon",
+        "Steve Perry",
+        "Jonathan Cain",
+        "Ross Valory"
       ],
-      "correct_answer": "Journey",
-      "difficulty": "easy"
+      "correct_answer": "Steve Perry",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_112",
@@ -3277,15 +3277,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "TV Shows",
-      "question": "What was the name of the crime-fighting car in 'Knight Rider'?",
+      "question": "In 'Knight Rider', who was the voice of KITT, the talking car?",
       "options": [
-        "Herbie",
-        "KITT",
-        "General Lee",
-        "Christine"
+        "William Daniels",
+        "Ed Begley Jr.",
+        "John Larroquette",
+        "Peter Cullen"
       ],
-      "correct_answer": "KITT",
-      "difficulty": "easy"
+      "correct_answer": "William Daniels",
+      "difficulty": "hard"
     },
     {
       "id": "80s_paid_165",
@@ -4061,15 +4061,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "TV Shows",
-      "question": "What was the name of the computer in 'Knight Rider'?",
+      "question": "What was the make and model of the car that served as the body for KITT in 'Knight Rider'?",
       "options": [
-        "KITT",
-        "KARR",
-        "KIFT",
-        "K2000"
+        "Pontiac Trans Am",
+        "Chevrolet Camaro",
+        "Ford Mustang",
+        "Dodge Charger"
       ],
-      "correct_answer": "KITT",
-      "difficulty": "hard"
+      "correct_answer": "Pontiac Trans Am",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_214",
@@ -4253,14 +4253,14 @@
       "subcategory": "Rock",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Music",
-      "question": "Which 1982 album by Bruce Springsteen featured the hit single 'Born in the U.S.A.'?",
+      "question": "Bruce Springsteen's 'Born in the U.S.A.' (1984) became one of the best-selling albums ever. How many studio albums had he released before it?",
       "options": [
-        "The River",
-        "Born in the U.S.A.",
-        "Tunnel of Love",
-        "Nebraska"
+        "3",
+        "4",
+        "5",
+        "6"
       ],
-      "correct_answer": "Born in the U.S.A.",
+      "correct_answer": "5",
       "difficulty": "medium"
     },
     {
@@ -5085,15 +5085,15 @@
       "subcategory": "Sports History & Records",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Sports",
-      "question": "What team won the most Super Bowls in the 1980s?",
+      "question": "Which quarterback led the San Francisco 49ers to four Super Bowl victories during the 1980s?",
       "options": [
-        "Washington Redskins",
-        "New York Giants",
-        "San Francisco 49ers",
-        "Chicago Bears"
+        "John Elway",
+        "Dan Marino",
+        "Joe Montana",
+        "Jim McMahon"
       ],
-      "correct_answer": "San Francisco 49ers",
-      "difficulty": "easy"
+      "correct_answer": "Joe Montana",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_278",
@@ -5789,14 +5789,14 @@
       "subcategory": "Modern History",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "History",
-      "question": "What space shuttle exploded in 1986?",
+      "question": "How many crew members were aboard the Space Shuttle Challenger when it exploded in January 1986?",
       "options": [
-        "Columbia",
-        "Discovery",
-        "Challenger",
-        "Atlantis"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
-      "correct_answer": "Challenger",
+      "correct_answer": "7",
       "difficulty": "easy"
     },
     {
@@ -5805,15 +5805,15 @@
       "subcategory": "Modern History",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "History",
-      "question": "Who was the British Prime Minister during most of the 1980s?",
+      "question": "What nickname was given to Margaret Thatcher reflecting her uncompromising political style?",
       "options": [
-        "Tony Blair",
-        "John Major",
-        "Margaret Thatcher",
-        "James Callaghan"
+        "The Steel Lady",
+        "The Iron Maiden",
+        "The Iron Lady",
+        "The Granite Dame"
       ],
-      "correct_answer": "Margaret Thatcher",
-      "difficulty": "easy"
+      "correct_answer": "The Iron Lady",
+      "difficulty": "medium"
     },
     {
       "id": "80s_paid_323",
@@ -6253,14 +6253,14 @@
       "subcategory": "Modern History",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "History",
-      "question": "Who was the Prime Minister of India when Indira Gandhi was assassinated?",
+      "question": "Who succeeded Indira Gandhi as Prime Minister of India following her assassination in 1984?",
       "options": [
         "Rajiv Gandhi",
         "Morarji Desai",
-        "Indira Gandhi",
-        "V.P. Singh"
+        "V.P. Singh",
+        "Charan Singh"
       ],
-      "correct_answer": "Indira Gandhi",
+      "correct_answer": "Rajiv Gandhi",
       "difficulty": "medium"
     },
     {
@@ -6333,14 +6333,14 @@
       "subcategory": "Modern History",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "History",
-      "question": "Who was the first artificial heart recipient in 1982?",
+      "question": "At which university medical center was the first permanent artificial heart implanted in 1982?",
       "options": [
-        "William Schroeder",
-        "Murray Haydon",
-        "Barney Clark",
-        "Jack Burcham"
+        "Johns Hopkins",
+        "Mayo Clinic",
+        "University of Utah",
+        "Stanford University"
       ],
-      "correct_answer": "Barney Clark",
+      "correct_answer": "University of Utah",
       "difficulty": "hard"
     },
     {

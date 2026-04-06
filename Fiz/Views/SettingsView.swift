@@ -317,10 +317,16 @@ struct SettingsView: View {
             }
         }
 
+    // Width of the screen-edge zone that qualifies as an edge swipe
+    private let edgeSwipeZoneWidth: CGFloat = 30
+
     private var settingsSwipeGesture: some Gesture {
         DragGesture(minimumDistance: 10)
             .onChanged { value in
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+                // Settings is the right page — only swipe back from the left edge
+                let startsOnLeftEdge = value.startLocation.x <= edgeSwipeZoneWidth
+                guard startsOnLeftEdge else { return }
                 let horizontalDistance = value.translation.width
                 let verticalDistance = value.translation.height
                 let isHorizontal = abs(horizontalDistance) > abs(verticalDistance) * 1.2
@@ -331,6 +337,9 @@ struct SettingsView: View {
             .onEnded { value in
                 onDragEnded?()
                 guard swipeNavigationManager.isSwipeNavigationEnabled else { return }
+                // Settings is the right page — only swipe back from the left edge
+                let startsOnLeftEdge = value.startLocation.x <= edgeSwipeZoneWidth
+                guard startsOnLeftEdge else { return }
 
                 let distance = value.translation.width
                 let threshold: CGFloat = 60

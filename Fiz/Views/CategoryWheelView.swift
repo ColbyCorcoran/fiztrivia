@@ -715,66 +715,65 @@ struct CategoryWheelView: View {
             .padding(.bottom, 15)
             .frame(height: 44)
 
-            // Tagline and streak counter line - hide entire row at accessibility sizes
-            if sizeCategory < .accessibilityMedium {
+            // Tagline and streak counter line - visible at all sizes below the wheel-fade threshold
+            if !shouldUseModalPresentation {
                 HStack {
-                    // Tagline - hide at extreme accessibility sizes to save space
-                    if !sizeCategory.shouldUseCompactLayout {
-                        Text(userManager.personalizedTagline)
-                            .font(.system(size: 18, weight: .medium))
-                            .foregroundColor(.secondary)
-                            .minimumScaleFactor(0.85)
-                    }
+                    // Tagline - always shown; font capped so it doesn't overflow at large a11y sizes
+                    Text(userManager.personalizedTagline)
+                        .font(.system(size: min(18, 18 * sizeCategory.taglineScaleFactor), weight: .medium))
+                        .foregroundColor(.secondary)
+                        .minimumScaleFactor(0.85)
+                        .lineLimit(1)
 
                     Spacer()
 
-                    // Right side: Mode indicator (if applicable) and streak badge
+                    // Right side: Mode indicator and streak badge, with capped sizes
                     HStack(spacing: 8) {
-                    // Game mode indicator - tappable to open quick mode switcher
-                    Button(action: {
-                        guard !navigationButtonsDisabled else { return }
-                        HapticManager.shared.buttonTapEffect()
-                        showingGameModes = true
-                    }) {
+                        // Game mode indicator - tappable to open quick mode switcher
+                        Button(action: {
+                            guard !navigationButtonsDisabled else { return }
+                            HapticManager.shared.buttonTapEffect()
+                            showingGameModes = true
+                        }) {
+                            HStack(spacing: 4) {
+                                Image(systemName: gameModeManager.selectedMode.icon)
+                                    .font(.system(size: min(12, 12 * sizeCategory.taglineScaleFactor)))
+                                Text("Mode")
+                                    .font(.system(size: min(14, 14 * sizeCategory.taglineScaleFactor)))
+                                    .fontWeight(.semibold)
+                                    .minimumScaleFactor(0.9)
+                                    .lineLimit(1)
+                            }
+                            .padding(.horizontal, 8)
+                            .padding(.vertical, 4)
+                            .background(Color.fizOrange.opacity(0.15))
+                            .foregroundColor(Color.fizOrange)
+                            .cornerRadius(8)
+                        }
+                        .buttonStyle(.plain)
+                        .disabled(navigationButtonsDisabled)
+                        .popoverTip(gameModeTip)
+                        .triviaAccessibility(
+                            label: "Game Mode: \(gameModeManager.selectedMode.rawValue)",
+                            hint: "Tap to change game mode",
+                            traits: .isButton
+                        )
+
+                        // Streak badge
                         HStack(spacing: 4) {
-                            Image(systemName: gameModeManager.selectedMode.icon)
-                                .font(.caption)
-                            Text("Mode")
-                                .font(.system(size: 14))
+                            Text("🔥")
+                                .font(.system(size: min(12, 12 * sizeCategory.taglineScaleFactor)))
+                            Text("\(gameViewModel.gameSession.currentStreak)")
+                                .font(.system(size: min(14, 14 * sizeCategory.taglineScaleFactor)))
                                 .fontWeight(.semibold)
                                 .minimumScaleFactor(0.9)
                                 .lineLimit(1)
+                                .foregroundColor(Color.fizTeal)
                         }
                         .padding(.horizontal, 8)
                         .padding(.vertical, 4)
-                        .background(Color.fizOrange.opacity(0.15))
-                        .foregroundColor(Color.fizOrange)
+                        .background(Color.fizTeal.opacity(0.15))
                         .cornerRadius(8)
-                    }
-                    .buttonStyle(.plain)
-                    .disabled(navigationButtonsDisabled)
-                    .popoverTip(gameModeTip)
-                    .triviaAccessibility(
-                        label: "Game Mode: \(gameModeManager.selectedMode.rawValue)",
-                        hint: "Tap to change game mode",
-                        traits: .isButton
-                    )
-
-                    // Streak badge
-                    HStack(spacing: 4) {
-                        Text("🔥")
-                            .font(.caption)
-                        Text("\(gameViewModel.gameSession.currentStreak)")
-                            .font(.system(size: 14))
-                            .fontWeight(.semibold)
-                            .minimumScaleFactor(0.9)
-                            .lineLimit(1)
-                            .foregroundColor(Color.fizTeal)
-                    }
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 4)
-                    .background(Color.fizTeal.opacity(0.15))
-                    .cornerRadius(8)
                     }
                 }
                 .padding(.horizontal, 15)
@@ -824,6 +823,9 @@ struct CategoryWheelView: View {
         .padding(.horizontal, 16)
     }
 
+    // Width of the screen-edge zone that qualifies as an edge swipe
+    private let edgeSwipeZoneWidth: CGFloat = 30
+
     private var navigationSwipeGesture: some Gesture {
         DragGesture(minimumDistance: 10)
             .onChanged { value in
@@ -835,8 +837,14 @@ struct CategoryWheelView: View {
                     return
                 }
 
+                let startX = value.startLocation.x
                 let horizontalDistance = value.translation.width
                 let verticalDistance = value.translation.height
+
+                // Only respond to drags that begin within the edge zones
+                let startsOnLeftEdge = startX <= edgeSwipeZoneWidth
+                let startsOnRightEdge = startX >= (UIScreen.main.bounds.width - edgeSwipeZoneWidth)
+                guard startsOnLeftEdge || startsOnRightEdge else { return }
 
                 // Only track horizontal drags for live page movement
                 let isHorizontal = abs(horizontalDistance) > abs(verticalDistance) * 1.2
@@ -857,8 +865,21 @@ struct CategoryWheelView: View {
                     return
                 }
 
+                let startX = value.startLocation.x
                 let horizontalDistance = value.translation.width
                 let verticalDistance = value.translation.height
+
+                // Only respond to drags that begin within the edge zones
+                let startsOnLeftEdge = startX <= edgeSwipeZoneWidth
+                let startsOnRightEdge = startX >= (UIScreen.main.bounds.width - edgeSwipeZoneWidth)
+                guard startsOnLeftEdge || startsOnRightEdge else {
+                    // Vertical swipe for store is still available from anywhere
+                    if verticalDistance < -30 {
+                        HapticManager.shared.lightImpact()
+                        showingStore = true
+                    }
+                    return
+                }
 
                 // Only handle clear horizontal swipes
                 let isHorizontal = abs(horizontalDistance) > abs(verticalDistance) * 1.5
@@ -894,7 +915,8 @@ struct CategoryWheelView: View {
 
         // Calculate actual toolbar height based on what's visible
         let buttonRowHeight: CGFloat = 44 + 10 + 15  // height (44) + top padding (10) + bottom padding (15) = 69pt
-        let taglineRowHeight: CGFloat = sizeCategory < .accessibilityMedium ? (32 + 4) : 0  // height (32) + top padding (4) when visible
+        // Tagline row is visible at all sizes below the wheel-fade threshold (shouldUseModalPresentation)
+        let taglineRowHeight: CGFloat = !shouldUseModalPresentation ? (32 + 4) : 0  // height (32) + top padding (4) when visible
         let toolbarHeight = buttonRowHeight + taglineRowHeight
 
         let questionAreaHeight: CGFloat = 300 * sizeCategory.conservativeScaleFactor
@@ -1032,23 +1054,11 @@ struct CategoryWheelView: View {
     }
     
     private var placeholderView: some View {
-        VStack {
-            if sizeCategory.isAccessibilitySize {
-                // At accessibility sizes, position text higher (near top of container)
-                Text("Spin the wheel to start!")
-                    .font(.title2)
-                    .foregroundColor(.secondary)
-                    .padding()
-                Spacer()
-            } else {
-                // Normal sizes: centered (default behavior)
-                Text("Spin the wheel to start!")
-                    .font(.title2)
-                    .foregroundColor(.secondary)
-                    .padding()
-            }
-        }
-        .frame(maxHeight: .infinity)
+        Text("Spin the wheel to start!")
+            .font(.title2)
+            .foregroundColor(.secondary)
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
     
     private func wheelLayer(geometry: GeometryProxy) -> some View {

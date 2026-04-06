@@ -327,35 +327,33 @@
     },
     {
       "id": "mcu_020",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What is Spider-Man's real name?",
+      "question": "What is the real name of the Spider-Man introduced in the Marvel Cinematic Universe?",
       "options": [
         "Peter Parker",
         "Miles Morales",
         "Ben Reilly",
-        "All of the above"
+        "Ned Leeds"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Heroes & Characters"
+      "correct_answer": "Peter Parker",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_021",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What is the name of the blue cube in the first Avengers movie?",
-      "options": [
-        "Tesseract",
-        "Cosmic Cube",
-        "Space Stone",
-        "All of the above"
-      ],
-      "correct_answer": "All of the above",
-      "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Heroes & Characters"
+      "subtopic": "Heroes & Characters",
+      "category": "Entertainment",
+      "question": "What Infinity Stone is housed inside the Tesseract?",
+      "options": [
+        "Space Stone",
+        "Mind Stone",
+        "Time Stone",
+        "Power Stone"
+      ],
+      "correct_answer": "Space Stone",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_022",
@@ -407,19 +405,18 @@
     },
     {
       "id": "mcu_025",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What is the name of Spider-Man's love interest?",
+      "question": "What is the name of Peter Parker's primary love interest in the Sam Raimi Spider-Man trilogy?",
       "options": [
         "Mary Jane Watson",
         "Gwen Stacy",
-        "Black Cat",
-        "All of the above"
+        "Michelle Jones",
+        "Betty Brant"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Heroes & Characters"
+      "correct_answer": "Mary Jane Watson",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_026",
@@ -439,19 +436,18 @@
     },
     {
       "id": "mcu_027",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What is the name of Iron Man's AI assistant?",
+      "question": "What is the name of Tony Stark's original AI butler in the MCU?",
       "options": [
         "JARVIS",
         "FRIDAY",
         "EDITH",
-        "All of the above"
+        "KAREN"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Heroes & Characters"
+      "correct_answer": "JARVIS",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_028",
@@ -921,19 +917,18 @@
     },
     {
       "id": "mcu_057",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Trivia & Events",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What is the name of Star-Lord's ship?",
+      "question": "What is the name of Star-Lord's original spaceship in the first Guardians of the Galaxy film?",
       "options": [
         "Milano",
         "Benatar",
-        "Both",
-        "Guardians"
+        "Quadrant",
+        "Dark Aster"
       ],
-      "correct_answer": "Both",
-      "difficulty": "hard",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "correct_answer": "Milano",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_058",
@@ -1193,19 +1188,18 @@
     },
     {
       "id": "mcu_074",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Locations & Worlds",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What city does Doctor Strange protect?",
+      "question": "In which city is Doctor Strange's Sanctum Sanctorum located?",
       "options": [
-        "New York",
+        "New York City",
         "London",
         "Hong Kong",
-        "All of the above"
+        "Kamar-Taj"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "hard",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Locations & Worlds"
+      "correct_answer": "New York City",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_075",
@@ -1465,19 +1459,18 @@
     },
     {
       "id": "mcu_091",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Teams & Organizations",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What criminal organization does the Falcon fight?",
+      "question": "What radical group does Sam Wilson primarily battle in 'The Falcon and the Winter Soldier'?",
       "options": [
-        "All of the above",
+        "The Flag Smashers",
         "Hydra",
         "A.I.M.",
-        "The Flag Smashers"
+        "The Power Broker's militia"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "hard",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Teams & Organizations"
+      "correct_answer": "The Flag Smashers",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_092",
@@ -1817,19 +1810,18 @@
     },
     {
       "id": "mcu_113",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What is the Wasp's real name?",
+      "question": "What is the real name of the Wasp who partners with Scott Lang in the MCU?",
       "options": [
         "Hope Van Dyne",
         "Janet Van Dyne",
-        "Both",
-        "Nadia Pym"
+        "Nadia Pym",
+        "Cassie Lang"
       ],
-      "correct_answer": "Both",
-      "difficulty": "hard",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Heroes & Characters"
+      "correct_answer": "Hope Van Dyne",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_114",
@@ -1881,19 +1873,18 @@
     },
     {
       "id": "mcu_117",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Powers & Abilities",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What magical artifact does Doctor Strange wear?",
+      "question": "What sentient magical garment does Doctor Strange wear that can move on its own?",
       "options": [
-        "Eye of Agamotto",
         "Cloak of Levitation",
-        "Both",
+        "Eye of Agamotto",
+        "Sling Ring",
         "Book of Vishanti"
       ],
-      "correct_answer": "Both",
-      "difficulty": "medium",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Powers & Abilities"
+      "correct_answer": "Cloak of Levitation",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_118",
@@ -2569,19 +2560,18 @@
     },
     {
       "id": "mcu_160",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What criminal syndicate does Wilson Fisk lead?",
-      "options": [
-        "The Hand",
-        "Maggia",
-        "Hydra",
-        "Yakuza"
-      ],
-      "correct_answer": "The Hand",
-      "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Teams & Organizations"
+      "subtopic": "Teams & Organizations",
+      "category": "Entertainment",
+      "question": "What is the name of Wilson Fisk's criminal alias in the Marvel Netflix series?",
+      "options": [
+        "Kingpin",
+        "The Owl",
+        "Bullseye",
+        "Gladiator"
+      ],
+      "correct_answer": "Kingpin",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_161",
@@ -2825,19 +2815,18 @@
     },
     {
       "id": "mcu_176",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What is Killmonger's real name?",
-      "options": [
-        "Erik Stevens",
-        "N'Jadaka",
-        "Both",
-        "T'Challa"
-      ],
-      "correct_answer": "Both",
-      "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Villains & Antagonists"
+      "subtopic": "Villains & Antagonists",
+      "category": "Entertainment",
+      "question": "What is the birth name of the villain Killmonger in 'Black Panther'?",
+      "options": [
+        "N'Jadaka",
+        "Erik Stevens",
+        "M'Baku",
+        "Zemo"
+      ],
+      "correct_answer": "N'Jadaka",
+      "difficulty": "hard"
     },
     {
       "id": "mcu_177",
@@ -3273,19 +3262,18 @@
     },
     {
       "id": "mcu_204",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Spider-Man: No Way Home release?",
-      "options": [
-        "2021",
-        "2020",
-        "2022",
-        "2019"
-      ],
-      "correct_answer": "2021",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Spider-Man: No Way Home', how many different Spider-Men appear together on screen?",
+      "options": [
+        "Three",
+        "Two",
+        "Four",
+        "One"
+      ],
+      "correct_answer": "Three",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_205",
@@ -3449,19 +3437,18 @@
     },
     {
       "id": "mcu_215",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What shadow organization trains Black Widows?",
-      "options": [
-        "Red Room",
-        "Hydra",
-        "KGB",
-        "Leviathan"
-      ],
-      "correct_answer": "Red Room",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Teams & Organizations"
+      "subtopic": "Teams & Organizations",
+      "category": "Entertainment",
+      "question": "What advanced weapons research division of S.H.I.E.L.D. does Iron Man help dismantle in the MCU?",
+      "options": [
+        "Hydra",
+        "A.I.M.",
+        "S.W.O.R.D.",
+        "Ten Rings"
+      ],
+      "correct_answer": "Hydra",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_216",
@@ -3497,19 +3484,18 @@
     },
     {
       "id": "mcu_218",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What is Shang-Chi's father's name?",
-      "options": [
-        "Wenwu",
-        "Xu Wenwu",
-        "The Mandarin",
-        "All of the above"
-      ],
-      "correct_answer": "All of the above",
-      "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Heroes & Characters"
+      "subtopic": "Heroes & Characters",
+      "category": "Entertainment",
+      "question": "By what legendary alias does Shang-Chi's father Xu Wenwu rule his criminal empire in the MCU?",
+      "options": [
+        "The Mandarin",
+        "The Warlord",
+        "Iron Fist",
+        "The Eternal"
+      ],
+      "correct_answer": "The Mandarin",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_219",
@@ -3577,19 +3563,18 @@
     },
     {
       "id": "mcu_223",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Shang-Chi release?",
-      "options": [
-        "2021",
-        "2020",
-        "2022",
-        "2019"
-      ],
-      "correct_answer": "2021",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Shang-Chi and the Legend of the Ten Rings', what legendary mythical creature guards the realm of Ta Lo?",
+      "options": [
+        "The Great Protector",
+        "The Mandarin Dragon",
+        "Fin Fang Foom",
+        "The Dweller-in-Darkness"
+      ],
+      "correct_answer": "The Great Protector",
+      "difficulty": "hard"
     },
     {
       "id": "mcu_224",
@@ -4057,19 +4042,18 @@
     },
     {
       "id": "mcu_253",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Black Panther: Wakanda Forever release?",
-      "options": [
-        "2022",
-        "2021",
-        "2023",
-        "2020"
-      ],
-      "correct_answer": "2022",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Black Panther: Wakanda Forever', which new character takes up the Black Panther mantle?",
+      "options": [
+        "Shuri",
+        "M'Baku",
+        "Okoye",
+        "Nakia"
+      ],
+      "correct_answer": "Shuri",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_254",
@@ -4377,19 +4361,18 @@
     },
     {
       "id": "mcu_273",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Guardians of the Galaxy Vol. 3 release?",
-      "options": [
-        "2023",
-        "2022",
-        "2024",
-        "2021"
-      ],
-      "correct_answer": "2023",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Guardians of the Galaxy Vol. 3', which Guardian's tragic backstory is the emotional center of the film?",
+      "options": [
+        "Rocket",
+        "Groot",
+        "Nebula",
+        "Drax"
+      ],
+      "correct_answer": "Rocket",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_274",
@@ -4569,19 +4552,18 @@
     },
     {
       "id": "mcu_285",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Secret Invasion release?",
-      "options": [
-        "2023",
-        "2022",
-        "2024",
-        "2021"
-      ],
-      "correct_answer": "2023",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In the 'Secret Invasion' Disney+ series, what alien race is posing as humans on Earth?",
+      "options": [
+        "Skrulls",
+        "Kree",
+        "Chitauri",
+        "Eternals"
+      ],
+      "correct_answer": "Skrulls",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_286",
@@ -4761,19 +4743,18 @@
     },
     {
       "id": "mcu_297",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did The Marvels release?",
-      "options": [
-        "2023",
-        "2022",
-        "2024",
-        "2021"
-      ],
-      "correct_answer": "2023",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'The Marvels', which three heroes must swap places with each other whenever they use their powers simultaneously?",
+      "options": [
+        "Captain Marvel, Ms. Marvel, and Monica Rambeau",
+        "Captain Marvel, Scarlet Witch, and She-Hulk",
+        "Ms. Marvel, Black Widow, and Captain Marvel",
+        "Captain Marvel, Thor, and Monica Rambeau"
+      ],
+      "correct_answer": "Captain Marvel, Ms. Marvel, and Monica Rambeau",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_298",
@@ -5241,19 +5222,18 @@
     },
     {
       "id": "mcu_327",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Deadpool release?",
-      "options": [
-        "2016",
-        "2015",
-        "2017",
-        "2014"
-      ],
-      "correct_answer": "2016",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In the first Deadpool film, what British actor plays the villain Ajax?",
+      "options": [
+        "Ed Skrein",
+        "Tom Hardy",
+        "Benedict Cumberbatch",
+        "Daniel Craig"
+      ],
+      "correct_answer": "Ed Skrein",
+      "difficulty": "hard"
     },
     {
       "id": "mcu_328",
@@ -5513,19 +5493,18 @@
     },
     {
       "id": "mcu_344",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Heroes & Characters",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "Who plays Professor X?",
+      "question": "Which actor plays Professor X in the original X-Men film trilogy starting in 2000?",
       "options": [
         "Patrick Stewart",
         "James McAvoy",
-        "Both",
-        "Neither"
+        "Ian McKellen",
+        "Hugh Jackman"
       ],
-      "correct_answer": "Both",
-      "difficulty": "easy",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Heroes & Characters"
+      "correct_answer": "Patrick Stewart",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_345",
@@ -5785,19 +5764,18 @@
     },
     {
       "id": "mcu_361",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did X-Men: Days of Future Past release?",
-      "options": [
-        "2014",
-        "2013",
-        "2015",
-        "2012"
-      ],
-      "correct_answer": "2014",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'X-Men: Days of Future Past', what year does Wolverine's mind travel back to in order to prevent a catastrophic future?",
+      "options": [
+        "1973",
+        "1962",
+        "1985",
+        "1969"
+      ],
+      "correct_answer": "1973",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_362",
@@ -5977,19 +5955,18 @@
     },
     {
       "id": "mcu_373",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did X-Men: Apocalypse release?",
-      "options": [
-        "2016",
-        "2015",
-        "2017",
-        "2014"
-      ],
-      "correct_answer": "2016",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'X-Men: Apocalypse', which Four Horseman power does Magneto represent?",
+      "options": [
+        "War",
+        "Death",
+        "Famine",
+        "Pestilence"
+      ],
+      "correct_answer": "War",
+      "difficulty": "hard"
     },
     {
       "id": "mcu_374",
@@ -6329,19 +6306,18 @@
     },
     {
       "id": "mcu_395",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Teams & Organizations",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What ninja organization appears in Daredevil?",
+      "question": "What is the name of the secret society of assassins that Elektra is resurrected by in the Daredevil Netflix series?",
       "options": [
         "The Hand",
-        "League of Assassins",
-        "Ten Rings",
-        "Hydra"
+        "The Chaste",
+        "The Defenders",
+        "The Foot Clan"
       ],
       "correct_answer": "The Hand",
-      "difficulty": "medium",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Teams & Organizations"
+      "difficulty": "medium"
     },
     {
       "id": "mcu_396",
@@ -6649,19 +6625,18 @@
     },
     {
       "id": "mcu_415",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Fantastic Four reboot release?",
-      "options": [
-        "2015",
-        "2014",
-        "2016",
-        "2013"
-      ],
-      "correct_answer": "2015",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In the 2015 Fantastic Four reboot, what dimension do the heroes travel to that grants them their powers?",
+      "options": [
+        "The Negative Zone",
+        "The Quantum Realm",
+        "The Dark Dimension",
+        "The Mirror Dimension"
+      ],
+      "correct_answer": "The Negative Zone",
+      "difficulty": "hard"
     },
     {
       "id": "mcu_416",
@@ -6841,19 +6816,18 @@
     },
     {
       "id": "mcu_427",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did The Amazing Spider-Man release?",
-      "options": [
-        "2012",
-        "2011",
-        "2013",
-        "2010"
-      ],
-      "correct_answer": "2012",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'The Amazing Spider-Man' (2012), who is the main villain with a reptilian mutation?",
+      "options": [
+        "The Lizard",
+        "Electro",
+        "The Rhino",
+        "The Vulture"
+      ],
+      "correct_answer": "The Lizard",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_428",
@@ -6937,19 +6911,18 @@
     },
     {
       "id": "mcu_433",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did The Amazing Spider-Man 2 release?",
-      "options": [
-        "2014",
-        "2013",
-        "2015",
-        "2012"
-      ],
-      "correct_answer": "2014",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'The Amazing Spider-Man 2', which villain is responsible for the death of Gwen Stacy?",
+      "options": [
+        "Green Goblin",
+        "Electro",
+        "Rhino",
+        "The Vulture"
+      ],
+      "correct_answer": "Green Goblin",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_434",
@@ -6969,19 +6942,18 @@
     },
     {
       "id": "mcu_435",
+      "topic": "com.fiz.pack.marvel",
+      "subtopic": "Villains & Antagonists",
       "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "Who is the Green Goblin?",
+      "question": "Who is the original Green Goblin in the Sam Raimi Spider-Man films?",
       "options": [
         "Norman Osborn",
         "Harry Osborn",
-        "Both",
-        "Neither"
+        "Otto Octavius",
+        "Flint Marko"
       ],
-      "correct_answer": "Both",
-      "difficulty": "medium",
-      "topic": "com.fiz.pack.marvel",
-      "subtopic": "Villains & Antagonists"
+      "correct_answer": "Norman Osborn",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_436",
@@ -7129,19 +7101,18 @@
     },
     {
       "id": "mcu_445",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Spider-Man 2 release?",
-      "options": [
-        "2004",
-        "2003",
-        "2005",
-        "2002"
-      ],
-      "correct_answer": "2004",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Spider-Man 2' (2004), what is the name of the villain with mechanical tentacles?",
+      "options": [
+        "Doctor Octopus",
+        "The Vulture",
+        "Electro",
+        "Sandman"
+      ],
+      "correct_answer": "Doctor Octopus",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_446",
@@ -7225,19 +7196,18 @@
     },
     {
       "id": "mcu_451",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Spider-Man 3 release?",
-      "options": [
-        "2007",
-        "2006",
-        "2008",
-        "2005"
-      ],
-      "correct_answer": "2007",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Spider-Man 3', which symbiote attaches itself to Peter Parker and brings out his dark side?",
+      "options": [
+        "Venom",
+        "Carnage",
+        "Anti-Venom",
+        "Riot"
+      ],
+      "correct_answer": "Venom",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_452",
@@ -7321,19 +7291,18 @@
     },
     {
       "id": "mcu_457",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Venom release?",
-      "options": [
-        "2018",
-        "2017",
-        "2019",
-        "2016"
-      ],
-      "correct_answer": "2018",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In the 2018 Venom film, what is the name of the Life Foundation's CEO antagonist?",
+      "options": [
+        "Carlton Drake",
+        "Eddie Brock",
+        "Cletus Kasady",
+        "Dan Lewis"
+      ],
+      "correct_answer": "Carlton Drake",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_458",
@@ -7417,19 +7386,18 @@
     },
     {
       "id": "mcu_463",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Venom: Let There Be Carnage release?",
-      "options": [
-        "2021",
-        "2020",
-        "2022",
-        "2019"
-      ],
-      "correct_answer": "2021",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Venom: Let There Be Carnage', what is the name of the serial killer who bonds with the Carnage symbiote?",
+      "options": [
+        "Cletus Kasady",
+        "Carlton Drake",
+        "Eddie Brock",
+        "Dylan Brock"
+      ],
+      "correct_answer": "Cletus Kasady",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_464",
@@ -7513,19 +7481,18 @@
     },
     {
       "id": "mcu_469",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Spider-Man: Into the Spider-Verse release?",
-      "options": [
-        "2018",
-        "2017",
-        "2019",
-        "2016"
-      ],
-      "correct_answer": "2018",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Spider-Man: Into the Spider-Verse', who is the Spider-Man that mentors Miles Morales from his dimension?",
+      "options": [
+        "Peter B. Parker",
+        "Spider-Gwen",
+        "Peni Parker",
+        "Spider-Man Noir"
+      ],
+      "correct_answer": "Peter B. Parker",
+      "difficulty": "easy"
     },
     {
       "id": "mcu_470",
@@ -7609,19 +7576,18 @@
     },
     {
       "id": "mcu_475",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Across the Spider-Verse release?",
-      "options": [
-        "2023",
-        "2022",
-        "2024",
-        "2021"
-      ],
-      "correct_answer": "2023",
-      "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In 'Spider-Man: Across the Spider-Verse', what organization is dedicated to preserving canon events across the multiverse?",
+      "options": [
+        "The Spider-Society",
+        "The Web of Life",
+        "The Multiversal Watch",
+        "The Web-Warriors"
+      ],
+      "correct_answer": "The Spider-Society",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_476",
@@ -7897,19 +7863,18 @@
     },
     {
       "id": "mcu_493",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What year did Morbius release?",
-      "options": [
-        "2022",
-        "2021",
-        "2023",
-        "2020"
-      ],
-      "correct_answer": "2022",
-      "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Trivia & Events"
+      "subtopic": "Trivia & Events",
+      "category": "Entertainment",
+      "question": "In the 2022 film 'Morbius', what does biochemist Michael Morbius attempt to cure himself of?",
+      "options": [
+        "A rare blood disease",
+        "Vampirism",
+        "Paralysis",
+        "Cancer"
+      ],
+      "correct_answer": "A rare blood disease",
+      "difficulty": "medium"
     },
     {
       "id": "mcu_494",
@@ -7929,19 +7894,18 @@
     },
     {
       "id": "mcu_495",
-      "category": "Entertainment",
-      "subcategory": "Action/Adventure",
-      "question": "What vampire lord does Blade fight?",
-      "options": [
-        "Dracula",
-        "Deacon Frost",
-        "Both",
-        "Neither"
-      ],
-      "correct_answer": "Both",
-      "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Villains & Antagonists"
+      "subtopic": "Villains & Antagonists",
+      "category": "Entertainment",
+      "question": "What is the name of the vampire lord who turned Blade into a Daywalker?",
+      "options": [
+        "Deacon Frost",
+        "Dracula",
+        "Morbius",
+        "Hannibal King"
+      ],
+      "correct_answer": "Deacon Frost",
+      "difficulty": "hard"
     },
     {
       "id": "mcu_496",

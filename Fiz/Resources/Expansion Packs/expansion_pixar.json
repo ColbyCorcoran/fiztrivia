@@ -443,14 +443,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "In 'Toy Story 3', what does Woody write on the attic box label?",
+      "question": "In 'Toy Story 3', where does Andy's mom mistakenly donate his toys instead of storing them?",
       "options": [
-        "Important",
-        "Keep",
-        "Attic",
-        "Toys"
+        "Sunnyside Daycare",
+        "Goodwill",
+        "The Dump",
+        "A Yard Sale"
       ],
-      "correct_answer": "Attic",
+      "correct_answer": "Sunnyside Daycare",
       "difficulty": "medium"
     },
     {
@@ -829,14 +829,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "In 'The Incredibles', what is Mr. Incredible's real name?",
+      "question": "In 'The Incredibles', what is Helen Parr's superhero name?",
       "options": [
-        "Bob Parr",
-        "Helen Parr",
-        "Dash Parr",
-        "Jack-Jack Parr"
+        "Elastigirl",
+        "Mrs. Incredible",
+        "Stretch",
+        "Superwoman"
       ],
-      "correct_answer": "Bob Parr",
+      "correct_answer": "Elastigirl",
       "difficulty": "easy"
     },
     {
@@ -1565,14 +1565,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "What is the family business in 'Coco'?",
+      "question": "What is the name of the Land of the Dead city Miguel visits in 'Coco'?",
       "options": [
-        "Shoemaking",
-        "Music",
-        "Cooking",
-        "Painting"
+        "Santa Cecilia",
+        "The Eternal City",
+        "Ciudad de Muertos",
+        "The Land Beyond"
       ],
-      "correct_answer": "Shoemaking",
+      "correct_answer": "Santa Cecilia",
       "difficulty": "medium"
     },
     {
@@ -1869,14 +1869,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "What Pixar film won the first Academy Award for Best Animated Feature?",
+      "question": "How many Academy Awards did 'Finding Nemo' win in total?",
       "options": [
-        "Finding Nemo",
-        "Monsters, Inc.",
-        "Toy Story",
-        "The Incredibles"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
-      "correct_answer": "Finding Nemo",
+      "correct_answer": "1",
       "difficulty": "hard"
     },
     {
@@ -1885,14 +1885,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the music for 'Up', 'Inside Out', and 'Coco'?",
+      "question": "Michael Giacchino won the Academy Award for Best Original Score for which Pixar film?",
       "options": [
-        "Michael Giacchino",
-        "Randy Newman",
-        "Thomas Newman",
-        "John Williams"
+        "Up",
+        "Inside Out",
+        "Coco",
+        "The Incredibles"
       ],
-      "correct_answer": "Michael Giacchino",
+      "correct_answer": "Up",
       "difficulty": "hard"
     },
     {
@@ -1981,14 +1981,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Locations & Settings",
-      "question": "In 'Monsters, Inc.', what floor is the Scare Floor on?",
+      "question": "In 'Monsters, Inc.', what is the name of the floor where monsters collect screams from children?",
       "options": [
-        "Scare Floor",
-        "Floor 1",
-        "Top Floor",
-        "Floor 13"
+        "The Scare Floor",
+        "The Monster Floor",
+        "The Scream Vault",
+        "The Fear Level"
       ],
-      "correct_answer": "Scare Floor",
+      "correct_answer": "The Scare Floor",
       "difficulty": "medium"
     },
     {
@@ -1997,14 +1997,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "What is the name of the garbage robot in WALL-E?",
+      "question": "What does the acronym WALL-E stand for in the Pixar film?",
       "options": [
-        "EVE",
-        "WALL-E",
-        "AUTO",
-        "MO"
+        "Waste Allocation Load Lifter: Earth-class",
+        "World Automated Laser Lifter: Earth",
+        "Waste Assembler Land Lifter: Economy",
+        "World Allocation Labor Lifter: Earth-class"
       ],
-      "correct_answer": "WALL-E",
+      "correct_answer": "Waste Allocation Load Lifter: Earth-class",
       "difficulty": "easy"
     },
     {
@@ -2333,14 +2333,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "What is Mr. Incredible's superhero name before retirement?",
+      "question": "What is Mr. Incredible's real civilian name in 'The Incredibles'?",
       "options": [
-        "Mr. Incredible",
-        "Bob",
-        "The Incredible",
-        "Super Bob"
+        "Bob Parr",
+        "Bob Smith",
+        "Robert Incredible",
+        "Bob Strong"
       ],
-      "correct_answer": "Mr. Incredible",
+      "correct_answer": "Bob Parr",
       "difficulty": "easy"
     },
     {
@@ -3325,14 +3325,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the score for 'Coco'?",
+      "question": "What Mexican guitarist and songwriter co-wrote the song 'Remember Me' for 'Coco'?",
       "options": [
-        "Michael Giacchino",
-        "Randy Newman",
         "Germaine Franco",
-        "Thomas Newman"
+        "Adrian Molina",
+        "Kristen Anderson-Lopez",
+        "Robert Lopez"
       ],
-      "correct_answer": "Michael Giacchino",
+      "correct_answer": "Germaine Franco",
       "difficulty": "hard"
     },
     {
@@ -4381,14 +4381,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the music for 'Cars'?",
+      "question": "What is the name of the Sheryl Crow song featured in 'Cars'?",
       "options": [
-        "Randy Newman",
-        "Michael Giacchino",
-        "Thomas Newman",
-        "John Williams"
+        "Real Gone",
+        "Life is a Highway",
+        "Behind the Clouds",
+        "Find Yourself"
       ],
-      "correct_answer": "Randy Newman",
+      "correct_answer": "Real Gone",
       "difficulty": "medium"
     },
     {
@@ -4413,14 +4413,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the score for 'Ratatouille'?",
+      "question": "What French composer was referenced when creating the musical style for 'Ratatouille'?",
       "options": [
-        "Michael Giacchino",
-        "Randy Newman",
-        "Thomas Newman",
-        "Alexandre Desplat"
+        "Camille Saint-Saëns",
+        "Claude Debussy",
+        "Erik Satie",
+        "Édith Piaf"
       ],
-      "correct_answer": "Michael Giacchino",
+      "correct_answer": "Camille Saint-Saëns",
       "difficulty": "hard"
     },
     {
@@ -4637,14 +4637,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "Who directed 'Soul'?",
+      "question": "In 'Soul', what is the name of the realm where souls develop their personalities before birth?",
       "options": [
-        "Pete Docter",
-        "Andrew Stanton",
-        "Brad Bird",
-        "Josh Cooley"
+        "The Great Before",
+        "The Great Beyond",
+        "The Soul Zone",
+        "The Spark World"
       ],
-      "correct_answer": "Pete Docter",
+      "correct_answer": "The Great Before",
       "difficulty": "medium"
     },
     {
@@ -4861,14 +4861,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "Who is the fashion-obsessed character in 'The Incredibles'?",
+      "question": "In 'The Incredibles', why does Edna Mode refuse to make capes for superheroes?",
       "options": [
-        "Edna Mode",
-        "Mirage",
-        "Elastigirl",
-        "Evelyn"
+        "Capes caused several superhero deaths",
+        "Capes are too expensive",
+        "Capes are unfashionable",
+        "Capes tangle in combat"
       ],
-      "correct_answer": "Edna Mode",
+      "correct_answer": "Capes caused several superhero deaths",
       "difficulty": "easy"
     },
     {
@@ -5309,14 +5309,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the music for 'Inside Out'?",
+      "question": "The score for 'Inside Out' by Michael Giacchino features music that reflects what unusual concept?",
       "options": [
-        "Michael Giacchino",
-        "Randy Newman",
-        "Thomas Newman",
-        "John Williams"
+        "Emotions as instruments",
+        "Colors as notes",
+        "Memories as melodies",
+        "Islands as themes"
       ],
-      "correct_answer": "Michael Giacchino",
+      "correct_answer": "Emotions as instruments",
       "difficulty": "medium"
     },
     {
@@ -5501,15 +5501,15 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Trivia & Facts",
-      "question": "Which Pixar film features Joe Gardner as the main character?",
+      "question": "In 'Soul', what does Joe Gardner's '22' spark turn out to be?",
       "options": [
-        "Soul",
-        "Inside Out",
-        "Coco",
-        "Up"
+        "Joe's love of music",
+        "Pizza",
+        "The sky at sunset",
+        "Playing jazz piano"
       ],
-      "correct_answer": "Soul",
-      "difficulty": "medium"
+      "correct_answer": "Pizza",
+      "difficulty": "hard"
     },
     {
       "id": "pxr_355",
@@ -5613,14 +5613,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who performed 'Remember Me' from 'Coco'?",
+      "question": "What is the title of the main song Miguel performs in 'Coco'?",
       "options": [
-        "Miguel and Héctor",
-        "Ernesto de la Cruz",
-        "Mama Coco",
-        "All of the above"
+        "Remember Me",
+        "Un Poco Loco",
+        "La Llorona",
+        "The World Es Mi Familia"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Remember Me",
       "difficulty": "medium"
     },
     {
@@ -5677,14 +5677,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "Who composed the original music for 'WALL-E'?",
+      "question": "Thomas Newman, who composed 'WALL-E', is the nephew of which other famous film composer?",
       "options": [
-        "Thomas Newman",
-        "Michael Giacchino",
+        "Alfred Newman",
         "Randy Newman",
-        "Patrick Doyle"
+        "David Newman",
+        "John Williams"
       ],
-      "correct_answer": "Thomas Newman",
+      "correct_answer": "Alfred Newman",
       "difficulty": "hard"
     },
     {
@@ -5725,14 +5725,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Music & Songs",
-      "question": "What classic song features prominently in 'WALL-E'?",
+      "question": "What 1969 musical film's soundtrack is played by WALL-E on his video screen?",
       "options": [
-        "Put On Your Sunday Clothes",
         "Hello, Dolly!",
-        "It Only Takes a Moment",
-        "All of the above"
+        "Singin' in the Rain",
+        "The Sound of Music",
+        "West Side Story"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Hello, Dolly!",
       "difficulty": "medium"
     },
     {
@@ -6013,14 +6013,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Plot & Story",
-      "question": "In 'Brave', what does Merida feed her mother to turn her into a bear?",
+      "question": "In 'Brave', what must Merida do to break the spell and turn her mother back from a bear?",
       "options": [
-        "An enchanted cake",
-        "A magic apple",
-        "A spell potion",
-        "Cursed berries"
+        "Mend the torn tapestry",
+        "Bake a new cake",
+        "Find the witch again",
+        "Shoot an arrow at sunrise"
       ],
-      "correct_answer": "An enchanted cake",
+      "correct_answer": "Mend the torn tapestry",
       "difficulty": "medium"
     },
     {
@@ -6093,14 +6093,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Quotes & Moments",
-      "question": "What does Woody say when you pull his string?",
+      "question": "Which of these is NOT one of Woody's pull-string phrases in 'Toy Story'?",
       "options": [
-        "There's a snake in my boot!",
         "Reach for the sky!",
+        "There's a snake in my boot!",
         "You're my favorite deputy!",
-        "All of the above"
+        "To infinity and beyond!"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "To infinity and beyond!",
       "difficulty": "easy"
     },
     {
@@ -6189,15 +6189,15 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Quotes & Moments",
-      "question": "What does Carl attach to his house to make it fly?",
+      "question": "Approximately how many balloons does Carl use to lift his house in 'Up'?",
       "options": [
-        "Thousands of balloons",
-        "Helium tanks",
-        "A hot air balloon",
-        "Rockets"
+        "10,000",
+        "100,000",
+        "1,000",
+        "1,000,000"
       ],
-      "correct_answer": "Thousands of balloons",
-      "difficulty": "easy"
+      "correct_answer": "10,000",
+      "difficulty": "hard"
     },
     {
       "id": "pxr_398",
@@ -6237,15 +6237,15 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "What is the name of Merida's horse in 'Brave'?",
+      "question": "What breed of horse is Angus, Merida's loyal steed in 'Brave'?",
       "options": [
-        "Angus",
-        "Fergus",
-        "Hamish",
-        "Harris"
+        "Shire horse",
+        "Clydesdale",
+        "Friesian",
+        "Highland pony"
       ],
-      "correct_answer": "Angus",
-      "difficulty": "hard"
+      "correct_answer": "Clydesdale",
+      "difficulty": "medium"
     },
     {
       "id": "pxr_401",
@@ -6253,15 +6253,15 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.pixar",
       "subtopic": "Characters",
-      "question": "Who is the fashion designer in 'The Incredibles'?",
+      "question": "What famous fashion designer is Edna Mode said to be inspired by in 'The Incredibles'?",
       "options": [
-        "Edna Mode",
-        "Elastigirl",
-        "Mirage",
-        "Evelyn Deavor"
+        "Edith Head",
+        "Coco Chanel",
+        "Donna Karan",
+        "Karl Lagerfeld"
       ],
-      "correct_answer": "Edna Mode",
-      "difficulty": "easy"
+      "correct_answer": "Edith Head",
+      "difficulty": "medium"
     },
     {
       "id": "pxr_402",

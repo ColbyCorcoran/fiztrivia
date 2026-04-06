@@ -1950,15 +1950,15 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "Who is Lavender Brown's love interest?",
+      "question": "What is Ron Weasley's middle name?",
       "options": [
-        "Harry Potter",
-        "Seamus Finnigan",
-        "Dean Thomas",
-        "Ron Weasley"
+        "Bilius",
+        "Arthur",
+        "Frederick",
+        "James"
       ],
-      "correct_answer": "Ron Weasley",
-      "difficulty": "medium"
+      "correct_answer": "Bilius",
+      "difficulty": "hard"
     },
     {
       "id": "hp_paid_095",
@@ -3870,14 +3870,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Hogwarts",
-      "question": "What subject does Firenze teach?",
+      "question": "Which professor replaced Trelawney when Dolores Umbridge dismissed her in Order of the Phoenix?",
       "options": [
-        "Astronomy",
-        "Divination",
-        "Herbology",
-        "Care of Magical Creatures"
+        "Firenze",
+        "Dumbledore",
+        "McGonagall",
+        "Snape"
       ],
-      "correct_answer": "Divination",
+      "correct_answer": "Firenze",
       "difficulty": "medium"
     },
     {
@@ -5582,15 +5582,15 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Movies",
-      "question": "What actress played Hermione Granger in all Harry Potter films?",
+      "question": "Before her role as Hermione Granger, Emma Watson had appeared in which type of productions?",
       "options": [
-        "Emma Watson",
-        "Emma Thompson",
-        "Emily Blunt",
-        "Emma Stone"
+        "School plays only",
+        "Television commercials",
+        "Broadway theater",
+        "Other feature films"
       ],
-      "correct_answer": "Emma Watson",
-      "difficulty": "easy"
+      "correct_answer": "Television commercials",
+      "difficulty": "hard"
     },
     {
       "id": "hp_paid_326",
@@ -7662,15 +7662,15 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Spells & Magic",
-      "question": "What spell reveals hidden magical properties?",
+      "question": "Which charm does Harry use to reveal the enchantments on his potions textbook in his sixth year?",
       "options": [
         "Specialis Revelio",
-        "Revelio",
-        "Aparecium",
-        "Homenum Revelio"
+        "Finite Incantatem",
+        "Homenum Revelio",
+        "Aparecium"
       ],
       "correct_answer": "Specialis Revelio",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "hp_paid_460",
@@ -7726,14 +7726,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Spells & Magic",
-      "question": "What is the Imperius Curse incantation?",
+      "question": "Which Unforgivable Curse forces the victim to obey every command of the caster?",
       "options": [
-        "Imperio",
-        "Crucio",
-        "Avada Kedavra",
-        "Confundus"
+        "Imperius Curse",
+        "Cruciatus Curse",
+        "Killing Curse",
+        "Confundus Charm"
       ],
-      "correct_answer": "Imperio",
+      "correct_answer": "Imperius Curse",
       "difficulty": "medium"
     },
     {
@@ -8526,15 +8526,15 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "Who impersonated Mad-Eye Moody in Goblet of Fire?",
+      "question": "How did Barty Crouch Jr. maintain his disguise as Mad-Eye Moody throughout Goblet of Fire?",
       "options": [
-        "Barty Crouch Jr.",
-        "Peter Pettigrew",
-        "Bellatrix Lestrange",
-        "Lucius Malfoy"
+        "Polyjuice Potion",
+        "Transfiguration",
+        "Glamour Charm",
+        "Invisibility Cloak"
       ],
-      "correct_answer": "Barty Crouch Jr.",
-      "difficulty": "hard"
+      "correct_answer": "Polyjuice Potion",
+      "difficulty": "medium"
     },
     {
       "id": "hp_paid_514",
@@ -8574,15 +8574,15 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Movies",
-      "question": "Who directed the first two Harry Potter films?",
+      "question": "Which cinematographer was hired for the first time in the Harry Potter series for Prisoner of Azkaban to achieve a darker visual tone?",
       "options": [
-        "Alfonso Cuarón",
-        "Chris Columbus",
-        "Mike Newell",
-        "David Yates"
+        "Michael Seresin",
+        "Roger Pratt",
+        "Sławomir Idziak",
+        "Eduardo Serra"
       ],
-      "correct_answer": "Chris Columbus",
-      "difficulty": "medium"
+      "correct_answer": "Michael Seresin",
+      "difficulty": "hard"
     },
     {
       "id": "hp_paid_517",
@@ -8702,15 +8702,15 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Spells & Magic",
-      "question": "What is the incantation for the Killing Curse?",
+      "question": "What color does the Killing Curse produce when cast?",
       "options": [
-        "Crucio",
-        "Imperio",
-        "Avada Kedavra",
-        "Sectumsempra"
+        "Green",
+        "Red",
+        "Blue",
+        "White"
       ],
-      "correct_answer": "Avada Kedavra",
-      "difficulty": "easy"
+      "correct_answer": "Green",
+      "difficulty": "medium"
     },
     {
       "id": "hp_paid_527",
@@ -8782,15 +8782,15 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Wizarding World",
-      "question": "What is the name of the wizarding prison?",
+      "question": "On which type of location is Azkaban prison situated?",
       "options": [
-        "Azkaban",
-        "Nurmengard",
-        "Grimmauld Place",
-        "The Ministry"
+        "A remote island in the North Sea",
+        "Underground beneath London",
+        "A mountain in Scotland",
+        "A forest in Eastern Europe"
       ],
-      "correct_answer": "Azkaban",
-      "difficulty": "easy"
+      "correct_answer": "A remote island in the North Sea",
+      "difficulty": "medium"
     },
     {
       "id": "hp_paid_533",
@@ -8814,14 +8814,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Movies",
-      "question": "What actress plays Luna Lovegood?",
+      "question": "In which film did Evanna Lynch make her debut as Luna Lovegood?",
       "options": [
-        "Bonnie Wright",
-        "Evanna Lynch",
-        "Katie Leung",
-        "Clemence Poesy"
+        "Order of the Phoenix",
+        "Goblet of Fire",
+        "Half-Blood Prince",
+        "Deathly Hallows Part 1"
       ],
-      "correct_answer": "Evanna Lynch",
+      "correct_answer": "Order of the Phoenix",
       "difficulty": "medium"
     }
   ],

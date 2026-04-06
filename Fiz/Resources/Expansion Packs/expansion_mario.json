@@ -100,14 +100,14 @@
       "id": "mar_005",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What is Princess Peach's royal title?",
+      "question": "What is the full official name of Bowser's Mushroom Kingdom nemesis and Mario's companion?",
       "options": [
-        "Princess",
-        "Queen",
-        "Duchess",
-        "Empress"
+        "Princess Peach",
+        "Princess Daisy",
+        "Princess Rosalina",
+        "Princess Zelda"
       ],
-      "correct_answer": "Princess",
+      "correct_answer": "Princess Peach",
       "difficulty": "easy",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Characters"
@@ -1062,15 +1062,15 @@
       "id": "mar_065",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What was Mario's original name in the Donkey Kong arcade game?",
+      "question": "In the original Donkey Kong arcade game, what was the name of the damsel Mario was trying to rescue?",
       "options": [
-        "Jumpman",
-        "Mr. Video",
-        "Plumber Man",
-        "Red"
+        "Pauline",
+        "Peach",
+        "Daisy",
+        "Rosalina"
       ],
-      "correct_answer": "Jumpman",
-      "difficulty": "medium",
+      "correct_answer": "Pauline",
+      "difficulty": "easy",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Characters"
     },
@@ -1606,15 +1606,15 @@
       "id": "mar_099",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "In what year did Mario first appear in Donkey Kong?",
+      "question": "What is the name of the level Donkey Kong throws barrels at Mario in the original Donkey Kong arcade?",
       "options": [
-        "1981",
-        "1983",
-        "1985",
-        "1980"
+        "Construction Site",
+        "25m (Girders)",
+        "Barrel Factory",
+        "Jungle Stage"
       ],
-      "correct_answer": "1981",
-      "difficulty": "hard",
+      "correct_answer": "25m (Girders)",
+      "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Characters"
     },
@@ -2054,14 +2054,14 @@
       "id": "mar_127",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "How many Power Stars are needed to access the final Bowser battle in Super Mario 64?",
+      "question": "In Super Mario 64, how many Power Stars must Mario collect to unlock the basement floor of Peach's Castle?",
       "options": [
-        "50",
-        "60",
-        "70",
-        "80"
+        "10",
+        "20",
+        "30",
+        "40"
       ],
-      "correct_answer": "70",
+      "correct_answer": "30",
       "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Games & Gameplay"
@@ -2166,14 +2166,14 @@
       "id": "mar_134",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "In Super Mario Galaxy, what collectible items replace traditional Power Stars?",
+      "question": "In Super Mario Galaxy, what are the large stars awarded for defeating major bosses called?",
       "options": [
-        "Star Bits",
-        "Power Stars",
+        "Super Stars",
         "Grand Stars",
-        "Lumas"
+        "Cosmic Stars",
+        "Rainbow Stars"
       ],
-      "correct_answer": "Power Stars",
+      "correct_answer": "Grand Stars",
       "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Games & Gameplay"
@@ -3462,14 +3462,14 @@
       "id": "mar_215",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "In Super Mario Odyssey, what is Cappy's sister's name?",
+      "question": "In Super Mario Odyssey, what is the name of the kingdom where Mario can dress as a chef?",
       "options": [
-        "Tiara",
-        "Ribbon",
-        "Bonnet",
-        "Crown"
+        "Luncheon Kingdom",
+        "Seaside Kingdom",
+        "Sand Kingdom",
+        "Metro Kingdom"
       ],
-      "correct_answer": "Tiara",
+      "correct_answer": "Luncheon Kingdom",
       "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Power-ups & Items"
@@ -3910,12 +3910,12 @@
       "id": "mar_243",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What type of landscape is featured in Desert Land from Super Mario Bros. 3?",
+      "question": "World 2 of Super Mario Bros. 3 is set in what type of terrain?",
       "options": [
+        "Jungle",
         "Desert",
-        "Beach",
-        "Mountains",
-        "Forest"
+        "Volcano",
+        "Ice"
       ],
       "correct_answer": "Desert",
       "difficulty": "easy",
@@ -5638,12 +5638,12 @@
       "id": "mar_351",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What aquatic enemy has baby versions called Baby Bloopers?",
+      "question": "What squid-like enemy squirts ink and travels through underwater levels in Mario games?",
       "options": [
         "Blooper",
         "Cheep Cheep",
-        "Lakitu",
-        "Spiny"
+        "Boo",
+        "Urchin"
       ],
       "correct_answer": "Blooper",
       "difficulty": "medium",
@@ -5686,14 +5686,14 @@
       "id": "mar_354",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What are the stacked Goomba towers called in newer games?",
+      "question": "What do you call it when Goombas stack on top of each other to form a single tall enemy unit?",
       "options": [
-        "Goomba Towers",
-        "Goombrats",
-        "Mega Goombas",
-        "Super Goombas"
+        "Goomba Stack",
+        "Goomba Tower",
+        "Goomba Pile",
+        "Mega Goomba"
       ],
-      "correct_answer": "Goomba Towers",
+      "correct_answer": "Goomba Tower",
       "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Enemies & Bosses"
@@ -7048,14 +7048,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What year was Super Mario Bros. released?",
+      "question": "In which country was Super Mario Bros. first released before its North American launch?",
       "options": [
-        "1985",
-        "1981",
-        "1983",
-        "1987"
+        "United States",
+        "Japan",
+        "United Kingdom",
+        "Australia"
       ],
-      "correct_answer": "1985",
+      "correct_answer": "Japan",
       "difficulty": "easy"
     },
     {
@@ -7144,15 +7144,15 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What is Mario's brother's name?",
+      "question": "In the Mario universe, what is the name of Luigi's ghost-catching vacuum cleaner?",
       "options": [
-        "Luigi",
-        "Wario",
-        "Waluigi",
-        "Yoshi"
+        "Ghost Buster",
+        "Poltergust 3000",
+        "Specter Sucker",
+        "Boo Blaster"
       ],
-      "correct_answer": "Luigi",
-      "difficulty": "easy"
+      "correct_answer": "Poltergust 3000",
+      "difficulty": "medium"
     },
     {
       "id": "mar_446",
@@ -7192,14 +7192,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What letter is on Mario's hat?",
+      "question": "What letter appears on Luigi's cap?",
       "options": [
+        "L",
         "M",
-        "N",
-        "W",
-        "L"
+        "G",
+        "W"
       ],
-      "correct_answer": "M",
+      "correct_answer": "L",
       "difficulty": "easy"
     },
     {
@@ -7368,14 +7368,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What year was Super Mario Kart released?",
+      "question": "How many race cups are available in the original Super Mario Kart on SNES?",
       "options": [
-        "1992",
-        "1990",
-        "1994",
-        "1996"
+        "2",
+        "4",
+        "6",
+        "8"
       ],
-      "correct_answer": "1992",
+      "correct_answer": "4",
       "difficulty": "medium"
     },
     {
@@ -7704,15 +7704,15 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What was the first Paper Mario game called?",
+      "question": "In the original Paper Mario for N64, who is the main villain Mario must defeat to rescue the Star Spirits?",
       "options": [
-        "Paper Mario",
-        "Paper Mario 64",
-        "Super Paper Mario",
-        "Mario Story"
+        "Kamek",
+        "King Boo",
+        "Bowser",
+        "Kammy Koopa"
       ],
-      "correct_answer": "Paper Mario",
-      "difficulty": "medium"
+      "correct_answer": "Bowser",
+      "difficulty": "easy"
     },
     {
       "id": "mar_481",

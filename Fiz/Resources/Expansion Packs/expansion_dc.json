@@ -25,14 +25,14 @@
       "id": "dcu_001",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What is Superman's weakness?",
+      "question": "Which specific mineral, a form of irradiated Kryptonian rock, is Superman's most famous weakness?",
       "options": [
-        "Magic",
-        "Kryptonite",
         "Red sunlight",
-        "All of the above"
+        "Gold Kryptonite",
+        "Kryptonite",
+        "Magic"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Kryptonite",
       "difficulty": "medium",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities"
@@ -137,14 +137,14 @@
       "id": "dcu_008",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What is Green Lantern's power source?",
+      "question": "Green Lantern's power ring is fueled by willpower. What color does the ring emit?",
       "options": [
-        "Ring",
-        "Lantern",
-        "Willpower",
-        "All of the above"
+        "Blue",
+        "Yellow",
+        "Green",
+        "White"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Green",
       "difficulty": "medium",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities"
@@ -153,14 +153,14 @@
       "id": "dcu_009",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What is the name of Batman's sidekick?",
+      "question": "Which of Batman's sidekicks eventually became the hero Nightwing after outgrowing the Robin mantle?",
       "options": [
-        "Robin",
-        "Nightwing",
-        "Red Hood",
-        "All of the above"
+        "Jason Todd",
+        "Tim Drake",
+        "Dick Grayson",
+        "Damian Wayne"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Dick Grayson",
       "difficulty": "medium",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies"
@@ -281,14 +281,14 @@
       "id": "dcu_017",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What is the name of Wonder Woman's invisible jet?",
+      "question": "Wonder Woman once used a transparent aircraft for covert travel. What makes it useful for stealth missions?",
       "options": [
-        "Invisible Plane",
-        "Wonder Jet",
-        "Invisible Jet",
-        "Amazon Aircraft"
+        "It flies silently",
+        "It is invisible",
+        "It can cloak its occupants",
+        "It is radar-absorbent"
       ],
-      "correct_answer": "Invisible Jet",
+      "correct_answer": "It is invisible",
       "difficulty": "easy",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies"
@@ -797,14 +797,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What organization protects Gotham City alongside Batman?",
+      "question": "What is the name of Gotham City's police department, whose Commissioner is a key Batman ally?",
       "options": [
+        "Metro City PD",
         "Gotham City Police Department",
-        "GCPD",
-        "Batman Family",
-        "All of the above"
+        "Central City PD",
+        "Star City PD"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Gotham City Police Department",
       "difficulty": "easy"
     },
     {
@@ -893,14 +893,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What is the name of the team that protects the timeline in DC's Legends of Tomorrow?",
+      "question": "In 'DC's Legends of Tomorrow', the team travels through time aboard their ship. What is that ship called?",
       "options": [
-        "Time Masters",
-        "Legends",
-        "Justice League",
-        "JSA"
+        "Waverider",
+        "Timeship One",
+        "The Ark",
+        "Chronos"
       ],
-      "correct_answer": "Legends",
+      "correct_answer": "Waverider",
       "difficulty": "medium"
     },
     {
@@ -1053,14 +1053,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What vision power does Superman possess?",
+      "question": "What heat-based vision power does Superman use to melt or burn objects at a distance?",
       "options": [
-        "X-ray vision",
+        "Laser vision",
+        "Plasma vision",
         "Heat vision",
-        "Telescopic vision",
-        "All of the above"
+        "X-ray vision"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Heat vision",
       "difficulty": "medium"
     },
     {
@@ -1069,14 +1069,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What power does Martian Manhunter possess that makes him nearly unbeatable?",
+      "question": "What psychic ability does Martian Manhunter possess that makes him one of the most powerful telepaths in the DC universe?",
       "options": [
-        "Shapeshifting",
+        "Telekinesis",
+        "Mind control",
         "Telepathy",
-        "Intangibility",
-        "All of the above"
+        "Precognition"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Telepathy",
       "difficulty": "medium"
     },
     {
@@ -1309,14 +1309,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "What is Bane's most distinctive feature?",
+      "question": "What performance-enhancing drug does Bane use through a tube connected to his brain?",
       "options": [
-        "His intelligence",
-        "His mask",
-        "His strength from Venom",
-        "All of the above"
+        "Titan",
+        "Supra",
+        "Venom",
+        "Mirakuru"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Venom",
       "difficulty": "medium"
     },
     {
@@ -1373,15 +1373,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "Who is the speedster villain that is a reverse version of The Flash?",
+      "question": "What is the original name of the villain known as Professor Zoom, the Reverse-Flash and arch-enemy of Barry Allen?",
       "options": [
-        "Zoom",
-        "Reverse-Flash",
-        "Savitar",
-        "All of the above"
+        "Hunter Zolomon",
+        "Eobard Thawne",
+        "Edward Clariss",
+        "August Heart"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "Eobard Thawne",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_086",
@@ -1645,15 +1645,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is Shazam's magic word that transforms him?",
+      "question": "Billy Batson shouts a magic word to transform into a godlike hero. Each letter stands for a different legend — which one grants him the wisdom of Solomon?",
       "options": [
-        "Shazam",
-        "Abracadabra",
-        "Presto",
-        "Transform"
+        "Z (Zeus)",
+        "A (Achilles)",
+        "S (Solomon)",
+        "H (Hercules)"
       ],
-      "correct_answer": "Shazam",
-      "difficulty": "easy"
+      "correct_answer": "S (Solomon)",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_103",
@@ -1677,14 +1677,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is Cyborg's primary technological ability?",
+      "question": "Cyborg's body is largely mechanical. What superhero team did he famously co-found as a teenager?",
       "options": [
-        "Super strength",
-        "Computer interface",
-        "Energy blasts",
-        "All of the above"
+        "Justice League Dark",
+        "Outsiders",
+        "Teen Titans",
+        "Doom Patrol"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Teen Titans",
       "difficulty": "medium"
     },
     {
@@ -1693,14 +1693,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is Raven's primary power source?",
+      "question": "Raven's powers come from her demonic father. What is his name?",
       "options": [
-        "Magic",
-        "Demonic energy",
-        "Emotions",
-        "All of the above"
+        "Trigon",
+        "Darkseid",
+        "Neron",
+        "Mordru"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Trigon",
       "difficulty": "medium"
     },
     {
@@ -2061,14 +2061,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies",
-      "question": "What is the real name of The Flash (Barry Allen era)?",
+      "question": "Barry Allen is a forensic scientist who gains super speed from a lab accident. What causes the accident?",
       "options": [
-        "Wally West",
-        "Barry Allen",
-        "Jay Garrick",
-        "Bart Allen"
+        "Cosmic ray exposure",
+        "Particle accelerator explosion",
+        "Lightning strike hitting chemicals",
+        "Radioactive spider bite"
       ],
-      "correct_answer": "Barry Allen",
+      "correct_answer": "Lightning strike hitting chemicals",
       "difficulty": "medium"
     },
     {
@@ -2141,14 +2141,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies",
-      "question": "What is the real name of Batgirl (Barbara Gordon)?",
+      "question": "Barbara Gordon was paralyzed by the Joker. What identity did she adopt afterward, using her computer expertise?",
       "options": [
-        "Barbara Gordon",
-        "Stephanie Brown",
-        "Cassandra Cain",
-        "Betty Kane"
+        "Black Canary",
+        "Oracle",
+        "Huntress",
+        "Spoiler"
       ],
-      "correct_answer": "Barbara Gordon",
+      "correct_answer": "Oracle",
       "difficulty": "medium"
     },
     {
@@ -2253,14 +2253,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies",
-      "question": "What is the real name of Blue Beetle (Jaime Reyes)?",
+      "question": "Jaime Reyes became Blue Beetle when an alien scarab bonded to his spine. What alien race created the scarab?",
       "options": [
-        "Jaime Reyes",
-        "Ted Kord",
-        "Dan Garrett",
-        "Khaji Da"
+        "Oa (Green Lantern homeworld)",
+        "New Genesis",
+        "Khundia",
+        "The Reach"
       ],
-      "correct_answer": "Jaime Reyes",
+      "correct_answer": "The Reach",
       "difficulty": "hard"
     },
     {
@@ -2285,14 +2285,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What weapon does Batman typically use?",
+      "question": "What iconic bat-shaped throwing weapon is Batman's most signature projectile tool?",
       "options": [
+        "Bat-disc",
+        "Bat-blade",
         "Batarang",
-        "Grappling hook",
-        "Smoke bombs",
-        "All of the above"
+        "Bat-shuriken"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Batarang",
       "difficulty": "easy"
     },
     {
@@ -2301,14 +2301,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is unique about Batman among the Justice League?",
+      "question": "Batman stands out in the Justice League for having no superpowers. What does he rely on instead?",
       "options": [
-        "He has no superpowers",
-        "He's the richest",
-        "He's the smartest",
-        "All of the above"
+        "Alien technology",
+        "Magic artifacts",
+        "Intellect, training, and resources",
+        "Government backing"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Intellect, training, and resources",
       "difficulty": "medium"
     },
     {
@@ -2333,14 +2333,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What type of arrows does Green Arrow use?",
+      "question": "Green Arrow is famous for his trick arrows. What explosive variety is among his most frequently used?",
       "options": [
-        "Regular arrows",
-        "Trick arrows",
-        "Explosive arrows",
-        "All of the above"
+        "Net arrow",
+        "Putty arrow",
+        "Boxing glove arrow",
+        "Explosive arrow"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Explosive arrow",
       "difficulty": "medium"
     },
     {
@@ -2349,15 +2349,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What powers does Aquaman's trident give him?",
+      "question": "Aquaman's trident is one of his most iconic weapons. What is it called?",
       "options": [
-        "Control over water",
-        "Communication with sea life",
-        "Lightning summoning",
-        "All of the above"
+        "The Poseidon Spear",
+        "The Trident of Neptune",
+        "The Trident of Poseidon",
+        "The Atlantean Staff"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "The Trident of Poseidon",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_147",
@@ -2525,14 +2525,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of the magical city that Constantine frequents?",
+      "question": "John Constantine is a British occult detective. In which English city was he born, according to DC Comics?",
       "options": [
         "London",
+        "Manchester",
         "Liverpool",
-        "Newcastle",
-        "All of the above"
+        "Newcastle"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Liverpool",
       "difficulty": "hard"
     },
     {
@@ -2733,14 +2733,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "What is the Joker's signature weapon?",
+      "question": "The Joker is known for a toxin that causes victims to die laughing with a rictus grin. What is it called?",
       "options": [
+        "Joker Gas",
+        "Laughing Toxin",
         "Joker Venom",
-        "Laughing gas",
-        "Playing cards",
-        "All of the above"
+        "Smilex"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Joker Venom",
       "difficulty": "easy"
     },
     {
@@ -3069,14 +3069,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "What TV series featured Stephen Amell as Green Arrow?",
+      "question": "The Arrowverse launched on The CW in 2012. Which DC hero got the first live-action series, starring Stephen Amell?",
       "options": [
-        "Smallville",
-        "Arrow",
-        "Legends of Tomorrow",
-        "Justice League"
+        "The Flash",
+        "Supergirl",
+        "Green Arrow",
+        "Black Canary"
       ],
-      "correct_answer": "Arrow",
+      "correct_answer": "Green Arrow",
       "difficulty": "easy"
     },
     {
@@ -3245,14 +3245,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What team did Wally West lead in Young Justice?",
+      "question": "The animated series 'Young Justice' features a covert team. Who serves as the team's main adult liaison to the Justice League?",
       "options": [
-        "Young Justice",
-        "Teen Titans",
-        "Justice League",
-        "Titans"
+        "Superman",
+        "Batman",
+        "Captain Marvel",
+        "Martian Manhunter"
       ],
-      "correct_answer": "Young Justice",
+      "correct_answer": "Batman",
       "difficulty": "medium"
     },
     {
@@ -3261,14 +3261,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What organization created the Suicide Squad?",
+      "question": "The Suicide Squad operates under whose direct command, the ruthless government operative known as 'The Wall'?",
       "options": [
-        "US Government",
-        "ARGUS",
+        "General Lane",
+        "Director Bones",
         "Amanda Waller",
-        "All of the above"
+        "Maxwell Lord"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Amanda Waller",
       "difficulty": "medium"
     },
     {
@@ -3453,14 +3453,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What are the Omega Beams?",
+      "question": "Darkseid's Omega Beams are known for one nearly unique property — what happens to almost anything they hit?",
       "options": [
-        "Energy beams from eyes",
-        "Tracking heat vision",
-        "Disintegration rays",
-        "All of the above"
+        "It is frozen",
+        "It is transported to another dimension",
+        "It is disintegrated",
+        "It is turned to stone"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "It is disintegrated",
       "difficulty": "hard"
     },
     {
@@ -3469,14 +3469,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is unique about Plastic Man's abilities?",
+      "question": "Plastic Man was once a criminal named Eel O'Brian. How did he gain his stretching powers?",
       "options": [
-        "He can stretch infinitely",
-        "He's virtually invulnerable",
-        "He doesn't age",
-        "All of the above"
+        "Bitten by a radioactive eel",
+        "Struck by lightning",
+        "Fell into a vat of chemicals",
+        "Alien DNA injection"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Fell into a vat of chemicals",
       "difficulty": "hard"
     },
     {
@@ -3693,14 +3693,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "What was the first show in the Arrowverse?",
+      "question": "The Arrowverse is a shared TV universe. What network aired all of its main shows?",
       "options": [
-        "The Flash",
-        "Arrow",
-        "Supergirl",
-        "Legends of Tomorrow"
+        "ABC",
+        "Netflix",
+        "The CW",
+        "HBO"
       ],
-      "correct_answer": "Arrow",
+      "correct_answer": "The CW",
       "difficulty": "easy"
     },
     {
@@ -3805,14 +3805,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What team does Superman belong to in most iterations?",
+      "question": "Superman is most associated with which superhero team, the premier DC heroes group he helped found?",
       "options": [
+        "Teen Titans",
+        "Doom Patrol",
         "Justice League",
-        "Legion of Super-Heroes",
-        "Superman Family",
-        "All of the above"
+        "Legion of Super-Heroes"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Justice League",
       "difficulty": "medium"
     },
     {
@@ -3869,14 +3869,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What is the name of the organization that opposes the Green Lantern Corps?",
+      "question": "The Sinestro Corps wields yellow rings powered by fear. What emotion powers the Red Lanterns?",
       "options": [
-        "Sinestro Corps",
-        "Red Lanterns",
-        "Black Lanterns",
-        "All of the above"
+        "Hatred and rage",
+        "Greed",
+        "Compassion",
+        "Hope"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Hatred and rage",
       "difficulty": "medium"
     },
     {
@@ -3933,14 +3933,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What team handles supernatural threats in the DC Universe?",
+      "question": "Which team, featuring Constantine, Zatanna, and Deadman, specifically handles supernatural and magical threats?",
       "options": [
-        "Justice League Dark",
         "Shadowpact",
+        "Checkmate",
         "Sentinels of Magic",
-        "All of the above"
+        "Justice League Dark"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Justice League Dark",
       "difficulty": "hard"
     },
     {
@@ -3965,15 +3965,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of Batman's secret headquarters beneath Wayne Manor?",
+      "question": "The Batcave contains many trophies from Batman's cases. What giant coin is displayed there?",
       "options": [
-        "The Batcave",
-        "The Bat Bunker",
-        "Wayne Underground",
-        "The Dark Sanctum"
+        "Crime Penny",
+        "Penny Plunderer Coin",
+        "The Big Penny",
+        "Criminal Trophy Coin"
       ],
-      "correct_answer": "The Batcave",
-      "difficulty": "easy"
+      "correct_answer": "The Big Penny",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_248",
@@ -3997,15 +3997,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of the multiverse concept in DC Comics?",
+      "question": "DC's multiverse was nearly destroyed in the 1985 storyline 'Crisis on Infinite Earths.' Who was its main villain?",
       "options": [
-        "52 Earths",
-        "Infinite Earths",
-        "Multiverse",
-        "All of the above"
+        "Imperiex",
+        "Anti-Monitor",
+        "Darkseid",
+        "Parallax"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "Anti-Monitor",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_250",
@@ -4093,14 +4093,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of the city where most Teen Titans stories take place?",
+      "question": "In the 2003 Teen Titans animated series, what T-shaped structure serves as the team's base?",
       "options": [
-        "Jump City",
+        "T-Base",
         "Titans Tower",
-        "San Francisco",
-        "It varies"
+        "Titans HQ",
+        "The Nest"
       ],
-      "correct_answer": "It varies",
+      "correct_answer": "Titans Tower",
       "difficulty": "hard"
     },
     {
@@ -4109,15 +4109,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "Where is Star Labs located?",
+      "question": "S.T.A.R. Labs is a major DC research institution. What does S.T.A.R. stand for?",
       "options": [
-        "Multiple cities",
-        "Central City",
-        "Metropolis",
-        "All of the above"
+        "Scientific Technical Advanced Research",
+        "Scientific and Technological Advanced Research",
+        "Superior Technology and Research",
+        "Science Technology and Robotics"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "Scientific and Technological Advanced Research",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_257",
@@ -4125,15 +4125,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "Who is the leader of the Sinestro Corps?",
+      "question": "Sinestro was once considered the greatest Green Lantern before turning villain. What sector was he originally assigned to police?",
       "options": [
-        "Sinestro",
-        "Atrocitus",
-        "Larfleeze",
-        "Nekron"
+        "Sector 2814",
+        "Sector 0001",
+        "Sector 1417",
+        "Sector 3600"
       ],
-      "correct_answer": "Sinestro",
-      "difficulty": "easy"
+      "correct_answer": "Sector 1417",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_258",
@@ -4237,15 +4237,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "What power does Clayface possess?",
+      "question": "Clayface is a Batman villain with shapeshifting powers. What is the real name of the most iconic original Clayface?",
       "options": [
-        "Shapeshifting",
-        "Super strength",
-        "Invulnerability",
-        "All of the above"
+        "Matt Hagen",
+        "Basil Karlo",
+        "Preston Payne",
+        "Sondra Fuller"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "easy"
+      "correct_answer": "Basil Karlo",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_265",
@@ -4285,14 +4285,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is Batman's greatest skill?",
+      "question": "Batman is called the World's Greatest Detective. Which fictional detective is often cited as his primary inspiration?",
       "options": [
-        "Detective work",
-        "Martial arts",
-        "Strategy",
-        "All of the above"
+        "Hercule Poirot",
+        "Philip Marlowe",
+        "Sherlock Holmes",
+        "Sam Spade"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Sherlock Holmes",
       "difficulty": "easy"
     },
     {
@@ -4317,15 +4317,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is unique about Wonder Woman's bracelets?",
+      "question": "Wonder Woman's silver bracelets were forged from the shield of Zeus. What are they called?",
       "options": [
-        "Indestructible",
-        "Can deflect bullets",
-        "Made from aegis",
-        "All of the above"
+        "Bracelets of Olympus",
+        "Bracelets of Victory",
+        "Bracelets of Submission",
+        "Silver Gauntlets"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "Bracelets of Submission",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_270",
@@ -4349,15 +4349,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What ability does the Flash's suit have?",
+      "question": "The Flash's suit compresses into a tiny ring he carries. What material allows the suit to expand instantly when released?",
       "options": [
-        "Stores in a ring",
-        "Friction resistance",
-        "Self-repairing",
-        "All of the above"
+        "Nano-fabric technology",
+        "Compressed air system",
+        "Speed Force energy",
+        "Shape-memory polymer"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "Shape-memory polymer",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_272",
@@ -4653,14 +4653,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What is the name of the team that protects Atlantis?",
+      "question": "Aquaman is King of Atlantis. What is the name of his main Atlantean military force?",
       "options": [
-        "Atlantean Guard",
-        "The Others",
-        "Aquaman Family",
-        "All of the above"
+        "Atlantean Royal Guard",
+        "The Deep Sea Corps",
+        "The Drift",
+        "The Trenchers"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "The Drift",
       "difficulty": "hard"
     },
     {
@@ -4685,14 +4685,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What is the name of the team formed by Dick Grayson after leaving the Teen Titans?",
+      "question": "Dick Grayson left the Teen Titans and became Nightwing. In which city does he primarily operate as a solo hero?",
       "options": [
-        "Titans",
-        "Outsiders",
-        "Young Justice",
-        "Nightwing Corps"
+        "Gotham City",
+        "Metropolis",
+        "Star City",
+        "Bludhaven"
       ],
-      "correct_answer": "Titans",
+      "correct_answer": "Bludhaven",
       "difficulty": "medium"
     },
     {
@@ -4717,14 +4717,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What is the name of the organization that monitors metahuman activity?",
+      "question": "Which secretive U.S. government agency in DC Comics specifically monitors and regulates metahuman activity?",
       "options": [
-        "DEO",
         "ARGUS",
+        "DEO",
         "Checkmate",
-        "All of the above"
+        "Task Force X"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "DEO",
       "difficulty": "medium"
     },
     {
@@ -4845,14 +4845,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of the energy field that is the source of all creation in DC Comics?",
+      "question": "The Source is a cosmic energy field in DC's Fourth World mythology. Which villain seeks the Anti-Life Equation to dominate all life connected to it?",
       "options": [
-        "The Source",
-        "The Presence",
-        "The Anti-Life Equation",
-        "The Omega Effect"
+        "Brainiac",
+        "Mongul",
+        "Darkseid",
+        "The Anti-Monitor"
       ],
-      "correct_answer": "The Source",
+      "correct_answer": "Darkseid",
       "difficulty": "hard"
     },
     {
@@ -4893,14 +4893,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What city does the Doom Patrol operate from?",
+      "question": "The Doom Patrol is a team of misfit heroes. Who is their long-time wheelchair-bound mentor and leader?",
       "options": [
-        "Varies by version",
-        "San Francisco",
-        "Danny the Street",
-        "All of the above"
+        "Professor X",
+        "The Chief (Niles Caulder)",
+        "Dr. Will Magnus",
+        "The General"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "The Chief (Niles Caulder)",
       "difficulty": "hard"
     },
     {
@@ -4909,15 +4909,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "Where is the Teen Titans Tower located in most versions?",
+      "question": "The 2003 Teen Titans cartoon had an anime-influenced art style. Which Japanese studio co-produced it?",
       "options": [
-        "San Francisco",
-        "Jump City",
-        "New York",
-        "It varies"
+        "Studio Ghibli",
+        "Madhouse",
+        "Mushi Production",
+        "Studio 4 degrees C"
       ],
-      "correct_answer": "It varies",
-      "difficulty": "medium"
+      "correct_answer": "Studio 4 degrees C",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_307",
@@ -5085,14 +5085,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is Superman's only non-physical superpower?",
+      "question": "Superman has many powers. Which one requires him to use his lungs and breath rather than his eyes?",
       "options": [
-        "X-ray vision",
         "Heat vision",
-        "Super breath",
-        "All of the above"
+        "X-ray vision",
+        "Super breath / freeze breath",
+        "Telescopic vision"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Super breath / freeze breath",
       "difficulty": "medium"
     },
     {
@@ -5149,15 +5149,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What ability does Aquaman have that allows him to survive in the deep ocean?",
+      "question": "Aquaman can survive crushing deep-ocean pressure. What biological adaptation allows him to breathe both underwater and on land?",
       "options": [
-        "Pressure resistance",
-        "Temperature resistance",
-        "Enhanced durability",
-        "All of the above"
+        "Gill slits on his neck",
+        "Specially adapted lungs",
+        "Amphibious hybrid biology",
+        "Water-processing kidneys"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "Amphibious hybrid biology",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_322",
@@ -5293,14 +5293,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is Wonder Woman's tiara used for?",
+      "question": "Wonder Woman's golden tiara serves as a ranged weapon. How does she use it in combat?",
       "options": [
-        "A weapon",
-        "Communication device",
-        "Symbol of royalty",
-        "All of the above"
+        "She uses it as a shield",
+        "She electrifies it",
+        "She throws it like a boomerang",
+        "She projects energy from it"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "She throws it like a boomerang",
       "difficulty": "medium"
     },
     {
@@ -5325,14 +5325,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What material is Batman's suit made of in most modern versions?",
+      "question": "Batman's modern suit uses bullet-resistant Kevlar. Which fire-resistant material is also incorporated?",
       "options": [
-        "Kevlar",
+        "Dyneema",
+        "Carbon fiber",
         "Nomex",
-        "Memory weave",
-        "All of the above"
+        "Spectra"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Nomex",
       "difficulty": "hard"
     },
     {
@@ -5373,15 +5373,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is unique about the Speed Force?",
+      "question": "The Speed Force is the energy source for DC's speedsters. Which speedster is considered its living embodiment?",
       "options": [
-        "Extradimensional energy",
-        "Protects speedsters",
-        "Source of all speed",
-        "All of the above"
+        "Jay Garrick",
+        "Barry Allen",
+        "Bart Allen",
+        "Wally West"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "Wally West",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_336",
@@ -5757,14 +5757,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What city is known for its high crime rate in the DC Universe?",
+      "question": "Gotham City is notoriously corrupt. Which nearby city, home to Nightwing, is considered even darker?",
       "options": [
-        "Gotham City",
-        "Bludhaven",
         "Star City",
-        "All of the above"
+        "Hub City",
+        "Bludhaven",
+        "Central City"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Bludhaven",
       "difficulty": "medium"
     },
     {
@@ -5821,15 +5821,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "What is the Knightfall storyline famous for?",
+      "question": "In the 'Knightfall' storyline, Bane breaks Batman's back. Who temporarily takes over the Batman mantle?",
       "options": [
-        "Bane breaking Batman's back",
-        "Batman's retirement",
-        "New Robin",
-        "All of the above"
+        "Dick Grayson",
+        "Tim Drake",
+        "Jean-Paul Valley (Azrael)",
+        "Alfred Pennyworth"
       ],
-      "correct_answer": "All of the above",
-      "difficulty": "medium"
+      "correct_answer": "Jean-Paul Valley (Azrael)",
+      "difficulty": "hard"
     },
     {
       "id": "dcu_364",
@@ -5981,14 +5981,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "What is unique about the Talons?",
+      "question": "The Court of Owls employs nearly unkillable assassins called Talons. What metal-based substance enables their regeneration?",
       "options": [
-        "Undead assassins",
-        "Regenerative powers",
-        "Centuries old",
-        "All of the above"
+        "Adamantium",
+        "Promethium",
+        "Electrum",
+        "Nth metal"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Electrum",
       "difficulty": "hard"
     },
     {
@@ -6285,14 +6285,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is the Mother Box?",
+      "question": "Mother Boxes are sentient computers used by New Gods. What transportation portals do they create?",
       "options": [
-        "Sentient computer",
-        "New God technology",
-        "Living machine",
-        "All of the above"
+        "Space pods",
+        "Boom Tubes",
+        "Zeta Beams",
+        "Warp Gates"
       ],
-      "correct_answer": "All of the above",
+      "correct_answer": "Boom Tubes",
       "difficulty": "medium"
     },
     {
@@ -6397,14 +6397,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of the realm where Shazam gets his powers?",
+      "question": "Shazam's powers come from six legendary figures. Which grants him Mercury's speed?",
       "options": [
-        "Rock of Eternity",
-        "Mount Olympus",
-        "Both",
-        "Heaven"
+        "Solomon",
+        "Achilles",
+        "Mercury",
+        "Hercules"
       ],
-      "correct_answer": "Rock of Eternity",
+      "correct_answer": "Mercury",
       "difficulty": "medium"
     },
     {

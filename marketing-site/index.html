@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fiz — Trivia That Remembers You</title>
+  <meta name="description" content="A personalized trivia game with spinning wheel gameplay, persistent streaks, and 18 themed expansion packs. Free to download on the App Store." />
+  <meta name="theme-color" content="#f3eddf" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fiz — Trivia That Remembers You" />
+  <meta property="og:description" content="Personalized questions, spinning wheel gameplay, and streaks that actually mean something." />
+  <meta property="og:image" content="images/fiz-icon-happy.png" />
+  <meta property="og:type" content="website" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fiz — Trivia That Remembers You" />
+  <meta name="twitter:description" content="Personalized questions, spinning wheel gameplay, and streaks that actually mean something." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/fiz-icon-happy.png" />
+</head>
+<body>
+
+  <!-- ======================================================
+       NAVIGATION
+       ====================================================== -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html">
+        <img src="images/fiz-icon-happy.png" alt="Fiz app icon" />
+        Fiz
+      </a>
+      <ul class="nav-links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#game-modes">Game Modes</a></li>
+        <li><a href="#packs">Expansion Packs</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+      </ul>
+      <!-- TODO: Replace # with your App Store URL -->
+      <a href="#" class="btn btn-primary nav-cta">Download Free</a>
+    </div>
+  </nav>
+
+  <!-- ======================================================
+       HERO
+       ====================================================== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="eyebrow">Now on the App Store</span>
+        <h1>Trivia That<br /><span class="accent">Remembers You</span></h1>
+        <p class="lead">
+          Personalized questions, spinning wheel gameplay, and streaks that actually mean something. A trivia game built around the player — not the other way around.
+        </p>
+        <div class="hero-actions">
+          <!-- TODO: Replace # with your App Store URL -->
+          <a href="#" class="app-store-btn" target="_blank" rel="noopener noreferrer">
+            <span class="app-store-icon"></span>
+            <span class="app-store-text">
+              <small>Download on the</small>
+              <strong>App Store</strong>
+            </span>
+          </a>
+          <a href="#packs" class="btn btn-secondary">Explore Question Packs</a>
+        </div>
+        <p class="hero-social-proof">
+          <span>Free to download</span> &middot; 3,584 base questions &middot; 18 expansion packs
+        </p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="wheel-bg"></div>
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <img src="images/screenshot-1.png" alt="Fiz trivia spinning wheel" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       PROBLEM STRIP
+       ====================================================== -->
+  <div class="problem-strip">
+    <p class="problem-text">
+      Most trivia apps forget you the moment you close them. Same questions. No stakes. No you. <strong>Fiz doesn't work that way.</strong>
+    </p>
+  </div>
+
+  <!-- ======================================================
+       STATS BAR
+       ====================================================== -->
+  <div class="stats-bar">
+    <div class="stats-grid">
+      <div class="stat-cell">
+        <span class="stat-number">3,584</span>
+        <span class="stat-label">Base Questions</span>
+      </div>
+      <div class="stat-cell">
+        <span class="stat-number">18</span>
+        <span class="stat-label">Expansion Packs</span>
+      </div>
+      <div class="stat-cell">
+        <span class="stat-number">12</span>
+        <span class="stat-label">Categories</span>
+      </div>
+      <div class="stat-cell">
+        <span class="stat-number">$0</span>
+        <span class="stat-label">To Download</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       HOW IT WORKS
+       ====================================================== -->
+  <section class="section-alt" id="how-it-works">
+    <div class="section-header centered container">
+      <span class="eyebrow">Simple from the First Spin</span>
+      <h2>Three steps to your streak</h2>
+      <p class="lead">No account. No setup maze. Just download, tell Fiz your name, and play.</p>
+    </div>
+    <div class="steps-grid container">
+      <div class="step-card">
+        <div class="step-number step-number-1">1</div>
+        <h3>Make it yours</h3>
+        <p>Enter your name, pick your difficulty (Casual, Normal, or Difficult), and set a custom app icon. Fiz uses your name in every message — it's a small thing that makes the whole game feel different.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number step-number-2">2</div>
+        <h3>Spin to discover</h3>
+        <p>Pull down on the wheel and let it fly. It lands on your category — Entertainment, Science, History, and nine others. A question appears inline, right on the same screen. No loading, no modals.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number step-number-3">3</div>
+        <h3>Build your streak</h3>
+        <p>Every correct answer extends your streak. Every streak is saved to your personal leaderboard. Break your record and Fiz celebrates with you — by name. Come back tomorrow and try for more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       FEATURES
+       ====================================================== -->
+  <section class="section" id="features">
+    <div class="section-header centered container">
+      <span class="eyebrow">What Makes Fiz Different</span>
+      <h2>Designed around the player</h2>
+    </div>
+    <div class="features-grid container">
+      <div class="feature-card">
+        <div class="feature-icon">🎡</div>
+        <h3>The Spinning Wheel</h3>
+        <p>Drag down to spin — a tactile, satisfying interaction that makes choosing your category a moment in itself. The wheel isn't decoration; it's the whole game loop.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔥</div>
+        <h3>Streaks That Stick</h3>
+        <p>Your best runs are saved forever in a persistent leaderboard on your device. Close the app, come back tomorrow — your streak history is waiting exactly where you left it.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎛️</div>
+        <h3>Your Difficulty, Your Pace</h3>
+        <p>Casual mode for easy questions when you just want to play. Difficult mode for medium and hard questions when you want a real challenge. Switch any time in settings.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🛡️</div>
+        <h3>Phobia Filters</h3>
+        <p>Enable content filters to keep certain topics — spiders, snakes, heights — out of your questions. Because your comfort matters more than any trivia question.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎨</div>
+        <h3>Six App Icons</h3>
+        <p>Pick an icon that matches your style from six Fiz mascot variants. Happy smirk, leaderboard pose, new high score — swap it any time from settings. It's your home screen too.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">♿</div>
+        <h3>Built for Everyone</h3>
+        <p>Full VoiceOver support, Dynamic Type scaling, reduced motion options, and haptic feedback controls. Fiz works the way you need it to.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       SCREENSHOTS
+       ====================================================== -->
+  <section class="screenshots">
+    <div class="screenshots-header">
+      <div class="section-header">
+        <span class="eyebrow">See It in Action</span>
+        <h2>Every screen, designed with intention</h2>
+      </div>
+    </div>
+    <div class="screenshots-rail">
+      <div class="screenshot-item">
+        <div class="screenshot-shell">
+          <div class="screenshot-screen">
+            <img src="images/screenshot-1.png" alt="Fiz spinning wheel" loading="lazy" />
+          </div>
+        </div>
+      </div>
+      <div class="screenshot-item">
+        <div class="screenshot-shell">
+          <div class="screenshot-screen">
+            <img src="images/screenshot-2.png" alt="Fiz question screen" loading="lazy" />
+          </div>
+        </div>
+      </div>
+      <div class="screenshot-item">
+        <div class="screenshot-shell">
+          <div class="screenshot-screen">
+            <img src="images/screenshot-3.png" alt="Fiz leaderboard" loading="lazy" />
+          </div>
+        </div>
+      </div>
+      <div class="screenshot-item">
+        <div class="screenshot-shell">
+          <div class="screenshot-screen">
+            <img src="images/screenshot-4.png" alt="Fiz settings" loading="lazy" />
+          </div>
+        </div>
+      </div>
+      <div class="screenshot-item">
+        <div class="screenshot-shell">
+          <div class="screenshot-screen">
+            <img src="images/screenshot-5.png" alt="Fiz expansion pack store" loading="lazy" />
+          </div>
+        </div>
+      </div>
+      <div class="screenshot-item">
+        <div class="screenshot-shell">
+          <div class="screenshot-screen">
+            <img src="images/screenshot-6.png" alt="Fiz game modes" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       GAME MODES
+       ====================================================== -->
+  <section class="section" id="game-modes">
+    <div class="section-header centered container">
+      <span class="eyebrow">Three Ways to Play</span>
+      <h2>A mode for every kind of trivia player</h2>
+    </div>
+    <div class="modes-grid container">
+      <div class="mode-card mode-card-orange">
+        <div class="mode-icon">🌐</div>
+        <h3>Multi-Category</h3>
+        <p>Mix up to 12 categories for unpredictable, endlessly varied trivia. The default mode — great when you want breadth over depth.</p>
+        <span class="mode-tag">Default Mode</span>
+      </div>
+      <div class="mode-card mode-card-teal">
+        <div class="mode-icon">🎯</div>
+        <h3>Single Category</h3>
+        <p>Focus on one category and go deep. The wheel shows subcategories — so a Sports session might cover Baseball, Football, Basketball, and more.</p>
+        <span class="mode-tag">Expert Mode</span>
+      </div>
+      <div class="mode-card mode-card-gold">
+        <div class="mode-icon">📦</div>
+        <h3>Single Topic</h3>
+        <p>Own an expansion pack? Play in pure fandom mode. A Harry Potter session. A Star Wars deep dive. Subtopics on the wheel, hundreds of questions ready.</p>
+        <span class="mode-tag">Pack Required</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       EXPANSION PACKS
+       ====================================================== -->
+  <section class="section-alt" id="packs">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Expansion Packs</span>
+        <h2>Go deeper into what you love</h2>
+        <p class="packs-subhead">18 themed packs with hundreds of questions each. Try 5 free questions before you buy. From $0.49 — and purchases share with your whole family.</p>
+      </div>
+    </div>
+    <div class="packs-grid">
+
+      <!-- $0.99 packs -->
+      <div class="pack-card">
+        <div class="pack-emoji">🪄</div>
+        <div class="pack-name">The Wizarding World</div>
+        <div class="pack-theme">Harry Potter</div>
+        <div class="pack-meta">
+          <span class="pack-qs">550 questions · 7 subtopics</span>
+          <span class="pack-price">$0.99</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">⚡</div>
+        <div class="pack-name">Pocket Monsters</div>
+        <div class="pack-theme">Pokémon</div>
+        <div class="pack-meta">
+          <span class="pack-qs">525 questions · 7 subtopics</span>
+          <span class="pack-price">$0.99</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🌟</div>
+        <div class="pack-name">A Galaxy Far, Far Away</div>
+        <div class="pack-theme">Star Wars</div>
+        <div class="pack-meta">
+          <span class="pack-qs">500 questions · 7 subtopics</span>
+          <span class="pack-price">$0.99</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🦸</div>
+        <div class="pack-name">The Cinematic Universe</div>
+        <div class="pack-theme">Marvel</div>
+        <div class="pack-meta">
+          <span class="pack-qs">500 questions · 6 subtopics</span>
+          <span class="pack-price">$0.99</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🏰</div>
+        <div class="pack-name">The House of Mouse</div>
+        <div class="pack-theme">Disney</div>
+        <div class="pack-meta">
+          <span class="pack-qs">500 questions · 5 subtopics</span>
+          <span class="pack-price">$0.99</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">💍</div>
+        <div class="pack-name">There and Back Again</div>
+        <div class="pack-theme">Lord of the Rings</div>
+        <div class="pack-meta">
+          <span class="pack-qs">500 questions · 6 subtopics</span>
+          <span class="pack-price">$0.99</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🍄</div>
+        <div class="pack-name">Italian Brothers Plumbing</div>
+        <div class="pack-theme">Mario</div>
+        <div class="pack-meta">
+          <span class="pack-qs">500 questions · 7 subtopics</span>
+          <span class="pack-price">$0.99</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🏆</div>
+        <div class="pack-name">All-Sports</div>
+        <div class="pack-theme">Multi-Sport Trivia</div>
+        <div class="pack-meta">
+          <span class="pack-qs">500 questions · 6 subtopics</span>
+          <span class="pack-price">$0.99</span>
+        </div>
+      </div>
+
+      <!-- $0.69 packs -->
+      <div class="pack-card">
+        <div class="pack-emoji">📼</div>
+        <div class="pack-name">80s Trivia</div>
+        <div class="pack-theme">Movies, Music, TV &amp; More</div>
+        <div class="pack-meta">
+          <span class="pack-qs">400 questions · 6 subtopics</span>
+          <span class="pack-price">$0.69</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">💾</div>
+        <div class="pack-name">90s Trivia</div>
+        <div class="pack-theme">Movies, Music, Tech &amp; More</div>
+        <div class="pack-meta">
+          <span class="pack-qs">400 questions · 7 subtopics</span>
+          <span class="pack-price">$0.69</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🦇</div>
+        <div class="pack-name">The Hall of Justice</div>
+        <div class="pack-theme">DC Comics</div>
+        <div class="pack-meta">
+          <span class="pack-qs">400 questions · 6 subtopics</span>
+          <span class="pack-price">$0.69</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">💡</div>
+        <div class="pack-name">Lamp Light Animation</div>
+        <div class="pack-theme">Pixar</div>
+        <div class="pack-meta">
+          <span class="pack-qs">400 questions · 6 subtopics</span>
+          <span class="pack-price">$0.69</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">☕</div>
+        <div class="pack-name">Central Perk Chronicles</div>
+        <div class="pack-theme">Friends</div>
+        <div class="pack-meta">
+          <span class="pack-qs">400 questions · 6 subtopics</span>
+          <span class="pack-price">$0.69</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🦁</div>
+        <div class="pack-name">Through the Wardrobe</div>
+        <div class="pack-theme">The Chronicles of Narnia</div>
+        <div class="pack-meta">
+          <span class="pack-qs">400 questions · 6 subtopics</span>
+          <span class="pack-price">$0.69</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🔥</div>
+        <div class="pack-name">Torch &amp; Tribe</div>
+        <div class="pack-theme">Survivor</div>
+        <div class="pack-meta">
+          <span class="pack-qs">400 questions · 6 subtopics</span>
+          <span class="pack-price">$0.69</span>
+        </div>
+      </div>
+
+      <!-- $0.49 packs -->
+      <div class="pack-card">
+        <div class="pack-emoji">📎</div>
+        <div class="pack-name">Dunder Mifflinfinity</div>
+        <div class="pack-theme">The Office</div>
+        <div class="pack-meta">
+          <span class="pack-qs">325 questions · 6 subtopics</span>
+          <span class="pack-price">$0.49</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🍬</div>
+        <div class="pack-name">Candy &amp; Sweets</div>
+        <div class="pack-theme">All Things Candy</div>
+        <div class="pack-meta">
+          <span class="pack-qs">300 questions · 6 subtopics</span>
+          <span class="pack-price">$0.49</span>
+        </div>
+      </div>
+
+      <div class="pack-card">
+        <div class="pack-emoji">🍎</div>
+        <div class="pack-name">Cupertino Innovation</div>
+        <div class="pack-theme">Apple</div>
+        <div class="pack-meta">
+          <span class="pack-qs">300 questions · 6 subtopics</span>
+          <span class="pack-price">$0.49</span>
+        </div>
+      </div>
+
+    </div>
+    <p class="packs-footer-note">All purchases are one-time. Shared instantly with your family via Family Sharing. Restore any time on reinstall.</p>
+  </section>
+
+  <!-- ======================================================
+       PRIVACY PROMISE
+       ====================================================== -->
+  <section class="section-dark privacy-section" id="privacy">
+    <div class="section-header centered container">
+      <span class="eyebrow" style="color: var(--gold-light);">Privacy First</span>
+      <h2>Your game stays on your device</h2>
+      <p class="lead">No account required. No cloud sync. No data sold. Your streaks, answers, and preferences never leave your phone — because they're yours.</p>
+    </div>
+    <div class="privacy-pillars">
+      <div class="pillar">
+        <div class="pillar-icon">📱</div>
+        <h4>Local Storage Only</h4>
+        <p>Everything — streaks, leaderboard, preferences — is stored on your device using Apple's SwiftData. We literally cannot access it.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">🚫</div>
+        <h4>No Account Ever</h4>
+        <p>No email. No sign-in. No password. Download and play immediately. Your identity in Fiz is just your first name.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">📊</div>
+        <h4>Optional Analytics</h4>
+        <p>Anonymous, opt-out analytics help us improve the app. We never collect your answers, username, or anything personal.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">🗑️</div>
+        <h4>Delete Everything</h4>
+        <p>Reset individual category progress or wipe everything at once in settings. Uninstalling the app removes all data permanently.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       FINAL CTA
+       ====================================================== -->
+  <section class="section final-cta">
+    <div class="cta-inner">
+      <img src="images/fiz-icon-highscore.png" alt="Fiz mascot celebrating a new high score" class="cta-mascot" />
+      <h2>Ready to find your streak?</h2>
+      <p class="lead">Your personal leaderboard is waiting. The wheel is ready to spin.</p>
+      <div class="cta-actions">
+        <!-- TODO: Replace # with your App Store URL -->
+        <a href="#" class="app-store-btn" target="_blank" rel="noopener noreferrer">
+          <span class="app-store-icon"></span>
+          <span class="app-store-text">
+            <small>Download on the</small>
+            <strong>App Store</strong>
+          </span>
+        </a>
+      </div>
+      <p class="cta-note">Free to download &middot; 18 expansion packs from $0.49 &middot; Family Sharing included</p>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       FOOTER
+       ====================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="images/fiz-icon-regular.png" alt="Fiz" />
+        Fiz
+      </div>
+      <ul class="footer-links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#packs">Expansion Packs</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="mailto:woodsy.relics.6n@icloud.com">Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy">&copy; 2026 Fiz. All rights reserved. Apple and the Apple logo are trademarks of Apple Inc.</p>
+  </footer>
+
+</body>
+</html>

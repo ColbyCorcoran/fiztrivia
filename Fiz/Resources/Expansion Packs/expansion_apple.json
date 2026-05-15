@@ -372,14 +372,14 @@
       "subtopic": "Marketing & Campaigns",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What was Apple's 'Think Different' campaign?",
+      "question": "In what year did Apple launch its famous 'Think Different' advertising campaign?",
       "options": [
-        "Marketing celebrating innovators",
-        "Product line",
-        "Software update",
-        "Store concept"
+        "1994",
+        "1995",
+        "1997",
+        "2000"
       ],
-      "correct_answer": "Marketing celebrating innovators",
+      "correct_answer": "1997",
       "difficulty": "easy"
     },
     {
@@ -468,14 +468,14 @@
       "subtopic": "Corporate & Leadership",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "Apple Park opened in 2017. What distinctive circular shape is it commonly called in the press?",
+      "question": "In what U.S. state did Apple open its first-ever retail store on May 19, 2001?",
       "options": [
-        "The Ring",
-        "The Loop",
-        "The Circle",
-        "The Donut"
+        "California",
+        "New York",
+        "Virginia",
+        "Texas"
       ],
-      "correct_answer": "The Ring",
+      "correct_answer": "Virginia",
       "difficulty": "medium"
     },
     {
@@ -500,14 +500,14 @@
       "subtopic": "Corporate & Leadership",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What milestone did Apple reach first?",
+      "question": "Who was the early investor who provided crucial funding and management guidance to Apple in 1977?",
       "options": [
-        "First trillion-dollar company",
-        "First billion-dollar company",
-        "First tech company",
-        "First smartphone maker"
+        "Mike Markkula",
+        "Arthur Rock",
+        "Don Valentine",
+        "Ron Johnson"
       ],
-      "correct_answer": "First trillion-dollar company",
+      "correct_answer": "Mike Markkula",
       "difficulty": "easy"
     }
   ],
@@ -566,14 +566,14 @@
       "subtopic": "Products & Hardware",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What did the iPod play?",
+      "question": "What was Apple's advertising tagline for the original iPod when it launched in 2001?",
       "options": [
-        "Music",
-        "Videos only",
-        "Games only",
-        "Nothing"
+        "Music in your pocket",
+        "1,000 songs in your pocket",
+        "Your music, everywhere",
+        "The music revolution"
       ],
-      "correct_answer": "Music",
+      "correct_answer": "1,000 songs in your pocket",
       "difficulty": "easy"
     },
     {
@@ -982,14 +982,14 @@
       "subtopic": "Products & Hardware",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What is the Magic Keyboard?",
+      "question": "In what year did Apple officially discontinue the entire iPod product line?",
       "options": [
-        "Wireless keyboard",
-        "iPad keyboard case",
-        "Both of these",
-        "Mouse"
+        "2019",
+        "2020",
+        "2022",
+        "2023"
       ],
-      "correct_answer": "Both of these",
+      "correct_answer": "2022",
       "difficulty": "medium"
     },
     {
@@ -2070,14 +2070,14 @@
       "subtopic": "History & Founders",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What company did Apple acquire?",
+      "question": "In what country did Apple open its first retail store outside North America in 2003?",
       "options": [
-        "NeXT, Beats, and others",
-        "Microsoft",
-        "Dell",
-        "HP"
+        "United Kingdom",
+        "Japan",
+        "Australia",
+        "Germany"
       ],
-      "correct_answer": "NeXT, Beats, and others",
+      "correct_answer": "Japan",
       "difficulty": "easy"
     },
     {
@@ -2194,12 +2194,12 @@
     },
     {
       "id": "apl_136",
-      "question": "Who was Apple's CEO between Steve Jobs' two tenures?",
+      "question": "Which Apple CEO was ousted shortly after Steve Jobs returned to the company in 1997?",
       "options": [
-        "Gil Amelio",
         "John Sculley",
         "Michael Spindler",
-        "Tim Cook"
+        "Gil Amelio",
+        "Mike Markkula"
       ],
       "correct_answer": "Gil Amelio",
       "difficulty": "medium",
@@ -2482,14 +2482,14 @@
     },
     {
       "id": "apl_154",
-      "question": "What was the code name for the original Macintosh project?",
+      "question": "Who is credited as the original creator of the Macintosh project at Apple before Steve Jobs took it over?",
       "options": [
-        "Bicycle",
-        "Annie",
-        "Sara",
-        "Jef"
+        "Steve Wozniak",
+        "Jef Raskin",
+        "Bill Atkinson",
+        "Andy Hertzfeld"
       ],
-      "correct_answer": "Bicycle",
+      "correct_answer": "Jef Raskin",
       "difficulty": "hard",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",
@@ -2514,14 +2514,14 @@
     },
     {
       "id": "apl_156",
-      "question": "What was the original name of the company before it became Apple Computer?",
+      "question": "In what year did Apple officially rename itself from 'Apple Computer, Inc.' to 'Apple Inc.'?",
       "options": [
-        "Apple Computer Company",
-        "Jobs & Wozniak Electronics",
-        "Garage Electronics",
-        "Silicon Valley Computer"
+        "2001",
+        "2005",
+        "2007",
+        "2010"
       ],
-      "correct_answer": "Apple Computer Company",
+      "correct_answer": "2007",
       "difficulty": "hard",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",
@@ -2678,14 +2678,14 @@
       "subtopic": "Innovation & Design",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What did iPhone revolutionize?",
+      "question": "What was the internal Apple code name given to the secret iPhone development project?",
       "options": [
-        "Smartphones",
-        "Computers",
-        "Tablets",
-        "Watches"
+        "Project iPhone",
+        "Project Purple",
+        "Project Genesis",
+        "Project Touchstone"
       ],
-      "correct_answer": "Smartphones",
+      "correct_answer": "Project Purple",
       "difficulty": "easy"
     },
     {
@@ -2694,14 +2694,14 @@
       "subtopic": "Innovation & Design",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What did iPod revolutionize?",
+      "question": "How much did the original iPod cost when it launched in October 2001?",
       "options": [
-        "Music players",
-        "Phones",
-        "Computers",
-        "Tablets"
+        "$199",
+        "$299",
+        "$399",
+        "$499"
       ],
-      "correct_answer": "Music players",
+      "correct_answer": "$399",
       "difficulty": "easy"
     },
     {
@@ -2882,14 +2882,14 @@
     },
     {
       "id": "apl_179",
-      "question": "What revolutionary input method did the first iPhone popularize?",
+      "question": "Which iPhone model was the first to support 5G connectivity when it launched in 2020?",
       "options": [
-        "Multi-touch screen",
-        "Stylus",
-        "Physical keyboard",
-        "Voice control"
+        "iPhone 11",
+        "iPhone 12",
+        "iPhone 13",
+        "iPhone SE (3rd gen)"
       ],
-      "correct_answer": "Multi-touch screen",
+      "correct_answer": "iPhone 12",
       "difficulty": "medium",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",
@@ -2898,14 +2898,14 @@
     },
     {
       "id": "apl_180",
-      "question": "What was revolutionary about the original iMac's design in 1998?",
+      "question": "Which iMac introduced the iconic aluminum and glass design that replaced the white plastic casing?",
       "options": [
-        "Translucent colored plastic",
-        "Touchscreen",
-        "No optical drive",
-        "Retina display"
+        "iMac G4",
+        "iMac G5",
+        "iMac (2007)",
+        "iMac Pro"
       ],
-      "correct_answer": "Translucent colored plastic",
+      "correct_answer": "iMac (2007)",
       "difficulty": "medium",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",
@@ -2914,14 +2914,14 @@
     },
     {
       "id": "apl_181",
-      "question": "What innovation did Apple introduce with the MacBook Air in 2008?",
+      "question": "Steve Jobs revealed the original MacBook Air's thinness at Macworld 2008 by pulling it out of what?",
       "options": [
-        "Ultra-thin laptop design",
-        "Retina display",
-        "Touch Bar",
-        "USB-C ports"
+        "A briefcase",
+        "A manila envelope",
+        "His jacket pocket",
+        "A document folder"
       ],
-      "correct_answer": "Ultra-thin laptop design",
+      "correct_answer": "A manila envelope",
       "difficulty": "medium",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",
@@ -3010,14 +3010,14 @@
     },
     {
       "id": "apl_187",
-      "question": "What did Apple eliminate from the iPhone 7?",
+      "question": "Which iPhone model was the first to feature a dual-lens camera system on the rear?",
       "options": [
-        "Headphone jack",
-        "Home button",
-        "Lightning port",
-        "Physical SIM"
+        "iPhone 6s Plus",
+        "iPhone 7 Plus",
+        "iPhone 8 Plus",
+        "iPhone X"
       ],
-      "correct_answer": "Headphone jack",
+      "correct_answer": "iPhone 7 Plus",
       "difficulty": "medium",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",

@@ -2869,7 +2869,7 @@
         "id": "ent_181",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "In the 2003 film, what rock song does Jack Black's character teach the kids to perform at the Battle of the Bands?",
+        "question": "In the 2003 Jack Black film, what song do the student band perform at the climactic Battle of the Bands?",
         "options": [
           "Iron Man",
           "Smoke on the Water",
@@ -4919,7 +4919,7 @@
         "id": "lit_033",
         "category": "Literature",
         "subcategory": "Fantasy Literature",
-        "question": "In the Harry Potter universe, who is the fictional author of 'The Tales of Beedle the Bard' that Dumbledore bequeaths to Hermione?",
+        "question": "In Harry Potter, which fictional wizard bard's collected fairy tales does Dumbledore bequeath to Hermione in his will?",
         "options": [
           "Bathilda Bagshot",
           "Gilderoy Lockhart",
@@ -17259,7 +17259,7 @@
         "id": "tec_204",
         "category": "Technology",
         "subcategory": "Tech Companies",
-        "question": "Who founded Apple along with Steve Wozniak?",
+        "question": "Which Apple co-founder was ousted from the company in 1985 then returned in 1997 to rescue it from near-bankruptcy?",
         "options": [
           "Steve Jobs",
           "Bill Gates",
@@ -18651,7 +18651,7 @@
         "id": "tec_292",
         "category": "Technology",
         "subcategory": "Inventions",
-        "question": "Who invented the diesel engine?",
+        "question": "Which German engineer developed a compression-ignition internal combustion engine in 1897 that now bears his name?",
         "options": [
           "Nicolaus Otto",
           "Rudolf Diesel",
@@ -19003,7 +19003,7 @@
         "id": "tec_314",
         "category": "Technology",
         "subcategory": "Inventions",
-        "question": "Who invented the Turing machine concept?",
+        "question": "Which British mathematician and wartime codebreaker at Bletchley Park is widely regarded as the father of theoretical computer science?",
         "options": [
           "Claude Shannon",
           "John von Neumann",
@@ -19083,7 +19083,7 @@
         "id": "tec_319",
         "category": "Technology",
         "subcategory": "Inventions",
-        "question": "Who invented the first programmable loom (Jacquard loom)?",
+        "question": "Which early 19th-century French inventor created a loom controlled by punched cards, an idea that later inspired Charles Babbage?",
         "options": [
           "James Hargreaves",
           "Eli Whitney",
@@ -22045,7 +22045,7 @@
         "id": "art_181",
         "category": "Art",
         "subcategory": "Architecture",
-        "question": "Who designed the Eiffel Tower?",
+        "question": "Which French civil engineer's firm built the iconic iron lattice tower for the 1889 Paris World's Fair?",
         "options": [
           "Hector Guimard",
           "Victor Baltard",
@@ -22717,7 +22717,7 @@
         "id": "art_223",
         "category": "Art",
         "subcategory": "Architecture",
-        "question": "Who designed the Vanna Venturi House?",
+        "question": "Which American architect, widely credited as a founder of Postmodernism, wrote 'Complexity and Contradiction in Architecture'?",
         "options": [
           "Philip Johnson",
           "Robert Venturi",
@@ -23149,7 +23149,7 @@
         "id": "art_250",
         "category": "Art",
         "subcategory": "Photography",
-        "question": "What is the rule that divides a frame into nine parts?",
+        "question": "Which compositional guideline places points of visual interest at the intersections of a 3×3 grid overlay?",
         "options": [
           "Golden ratio",
           "Symmetry rule",
@@ -23213,7 +23213,7 @@
         "id": "art_254",
         "category": "Art",
         "subcategory": "Photography",
-        "question": "What is the art of taking self-portraits called?",
+        "question": "What term describes a painting or photograph in which the artist depicts themselves as the subject?",
         "options": [
           "Auto-photography",
           "Solo imaging",
@@ -23261,7 +23261,7 @@
         "id": "art_257",
         "category": "Art",
         "subcategory": "Photography",
-        "question": "What is the speed at which the shutter opens and closes called?",
+        "question": "Which camera setting controls how long the sensor is exposed to light during a photograph?",
         "options": [
           "Aperture",
           "Exposure",
@@ -23565,7 +23565,7 @@
         "id": "art_276",
         "category": "Art",
         "subcategory": "Photography",
-        "question": "What is the name for very long exposure photography?",
+        "question": "Which photographic technique keeps the shutter open for several seconds or more to capture light trails, stars, or motion blur?",
         "options": [
           "Bracketing",
           "Long exposure/Bulb mode",
@@ -27807,7 +27807,7 @@
         "id": "geo_244",
         "category": "Geography",
         "subcategory": "Landmarks & Monuments",
-        "question": "Which famous tower is in Pisa, Italy?",
+        "question": "Which Italian medieval bell tower, begun in 1173, is world-famous for its unintended four-degree tilt?",
         "options": [
           "Leaning Tower of Pisa",
           "CN Tower",
@@ -27951,7 +27951,7 @@
         "id": "geo_253",
         "category": "Geography",
         "subcategory": "Landmarks & Monuments",
-        "question": "What is the name of the palace in Versailles?",
+        "question": "What grand French royal residence, expanded by Louis XIV into Europe's largest palace complex, became a symbol of absolute monarchy?",
         "options": [
           "Palace of Versailles",
           "Schönbrunn Palace",
@@ -28175,7 +28175,7 @@
         "id": "geo_268",
         "category": "Geography",
         "subcategory": "Landmarks & Monuments",
-        "question": "What is the name of the mausoleum in Moscow's Red Square?",
+        "question": "What Red Square structure holds the preserved remains of the Soviet Union's founding leader, open to public viewing since 1924?",
         "options": [
           "Lenin's Mausoleum",
           "GUM",
@@ -28239,7 +28239,7 @@
         "id": "geo_272",
         "category": "Geography",
         "subcategory": "Landmarks & Monuments",
-        "question": "Which monument honors Abraham Lincoln in Washington D.C.?",
+        "question": "Which marble memorial at the western end of the National Mall features a 19-foot seated statue of America's 16th president?",
         "options": [
           "Capitol Building",
           "Washington Monument",
@@ -29585,11 +29585,11 @@
         "id": "spt_103",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What is the term for completing a hole in one stroke?",
+        "question": "In golf, what feat is achieved when a player's tee shot goes directly into the cup in a single stroke?",
         "options": [
           "Birdie",
           "Hole-in-one",
-          "Ace",
+          "Condor",
           "Eagle"
         ],
         "correct_answer": "Hole-in-one",
@@ -30865,7 +30865,7 @@
         "id": "spt_284",
         "category": "Sports",
         "subcategory": "International Competition",
-        "question": "What is the name of the flame that burns throughout the Olympic Games?",
+        "question": "What ceremonial fire, lit in Olympia, Greece and carried by relay to the host city, burns for the duration of each Olympic Games?",
         "options": [
           "Eternal flame",
           "Victory flame",
@@ -31393,7 +31393,7 @@
         "id": "spt_343",
         "category": "Sports",
         "subcategory": "Extreme & Action Sports",
-        "question": "What is bungee jumping?",
+        "question": "Which extreme activity involves leaping from a bridge or tower while attached to a long elasticated cord?",
         "options": [
           "Rock climbing",
           "Jumping from height with elastic cord",
@@ -33779,7 +33779,7 @@
         "id": "sci_017",
         "category": "Science",
         "subcategory": "Astronomy",
-        "question": "What is the name of Jupiter's famous red spot?",
+        "question": "What is the name of the massive anticyclonic storm system visible as a distinctive feature on Jupiter's southern hemisphere?",
         "options": [
           "Red Eye",
           "Jupiter's Mark",
@@ -39909,14 +39909,14 @@
         "id": "nat_057",
         "category": "Nature",
         "subcategory": "Plants & Flowers",
-        "question": "Which plant is used to make the spice cinnamon?",
+        "question": "Which plant has been cultivated for thousands of years as a natural source of blue textile dye?",
         "options": [
-          "Clove tree",
-          "Cinnamon tree",
-          "Sassafras",
-          "Nutmeg tree"
+          "Woad plant",
+          "Indigo plant",
+          "Madder plant",
+          "Henna plant"
         ],
-        "correct_answer": "Cinnamon tree",
+        "correct_answer": "Indigo plant",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -40389,7 +40389,7 @@
         "id": "nat_263",
         "category": "Nature",
         "subcategory": "Plants & Flowers",
-        "question": "What plant is aloe vera used from?",
+        "question": "What succulent plant, native to the Arabian Peninsula, is widely used for its soothing gel in skincare and burn treatments?",
         "options": [
           "Cactus",
           "Succulent",
@@ -40661,7 +40661,7 @@
         "id": "nat_282",
         "category": "Nature",
         "subcategory": "Plants & Flowers",
-        "question": "What flower produces opium?",
+        "question": "Which poppy species, with distinctive white or pink petals, is the primary botanical source of morphine and codeine?",
         "options": [
           "Corn poppy",
           "Oriental poppy",
@@ -41029,7 +41029,7 @@
         "id": "nat_099",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What do we call a tree that grows fruit?",
+        "question": "What category of tree is commercially cultivated for crops such as apples, pears, peaches, and cherries?",
         "options": [
           "Food tree",
           "Fruit tree",
@@ -41141,7 +41141,7 @@
         "id": "nat_141",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "Which tree produces pine cones?",
+        "question": "Which conifer, recognizable by its needle-like leaves and resinous sap, is the source of the woody seed-bearing cones found in holiday decor?",
         "options": [
           "Apple tree",
           "Oak tree",
@@ -41477,7 +41477,7 @@
         "id": "nat_243",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What tree produces the spice cinnamon from its bark?",
+        "question": "Which tropical evergreen tree's inner bark, when dried and rolled, forms the curled sticks used as a warming spice?",
         "options": [
           "Nutmeg tree",
           "Bay tree",
@@ -41557,7 +41557,7 @@
         "id": "nat_249",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What tree is cork harvested from?",
+        "question": "Which Mediterranean oak species has thick, spongy bark that is sustainably stripped every nine years to make bottle stoppers?",
         "options": [
           "Live oak",
           "Red oak",
@@ -41637,7 +41637,7 @@
         "id": "nat_254",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What endangered tree species is native only to Wollemi National Park in Australia?",
+        "question": "What prehistoric conifer, thought extinct for 200 million years until rediscovered in a remote Australian gorge in 1994, is dubbed a 'living fossil'?",
         "options": [
           "Wollemi pine",
           "Bunya pine",
@@ -41765,7 +41765,7 @@
         "id": "nat_235",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What tropical tree produces cacao beans for chocolate?",
+        "question": "Which tropical tree, native to the rainforests of Central and South America, produces large pods containing the seeds from which chocolate is made?",
         "options": [
           "Banana tree",
           "Rubber tree",
@@ -46423,7 +46423,7 @@
         "id": "his_210",
         "category": "History",
         "subcategory": "Modern History",
-        "question": "What was the period of rapid industrial growth called?",
+        "question": "What 18th–19th century transformation shifted economies from agricultural to manufacturing-based production, beginning in Britain?",
         "options": [
           "Progressive Era",
           "Gilded Age",
@@ -50969,7 +50969,7 @@
         "id": "bib_376",
         "category": "Bible",
         "subcategory": "Biblical History",
-        "question": "What synagogue inscription mentions Theodotos?",
+        "question": "What first-century CE Jerusalem artifact provides archaeological evidence of a synagogue that existed before the Temple's destruction in 70 AD?",
         "options": [
           "Delos inscription",
           "Theodotos inscription",
@@ -51641,7 +51641,7 @@
         "id": "bib_419",
         "category": "Bible",
         "subcategory": "Biblical Theology",
-        "question": "What is the economic Trinity?",
+        "question": "In Christian theology, what concept describes how the Father, Son, and Holy Spirit each fulfill distinct roles in creation and redemption?",
         "options": [
           "Modalism",
           "Roles of Trinity in salvation",
@@ -54043,7 +54043,7 @@
         "id": "foo_093",
         "category": "Food",
         "subcategory": "Baking & Desserts",
-        "question": "What Turkish sweet is made from sugar, starch, and nuts?",
+        "question": "What chewy Ottoman confection, flavored with rosewater and dusted in powdered sugar, famously tempts Edmund in 'The Lion, the Witch and the Wardrobe'?",
         "options": [
           "Turkish delight",
           "Halva",
@@ -55531,7 +55531,7 @@
         "id": "foo_186",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "What is the name of Guy Fieri's show where he visits diners?",
+        "question": "On what Food Network show does Guy Fieri tour celebrated local American restaurants in his signature convertible?",
         "options": [
           "Road Food",
           "Man v. Food",
@@ -56171,7 +56171,7 @@
         "id": "foo_226",
         "category": "Food",
         "subcategory": "Ingredients",
-        "question": "What is the main ingredient in traditional Japanese miso soup?",
+        "question": "What fermented soybean paste is dissolved in dashi broth to make a staple Japanese breakfast soup?",
         "options": [
           "Soy sauce",
           "Rice",
@@ -57227,7 +57227,7 @@
         "id": "foo_292",
         "category": "Food",
         "subcategory": "Baking & Desserts",
-        "question": "What Austrian pastry features layers of thin dough filled with apple and cinnamon?",
+        "question": "What classic Viennese dessert wraps spiced fruit in paper-thin pastry and is served warm, dusted with powdered sugar?",
         "options": [
           "Gugelhupf",
           "Apple strudel",
@@ -57275,7 +57275,7 @@
         "id": "foo_295",
         "category": "Food",
         "subcategory": "Baking & Desserts",
-        "question": "Which New Orleans dessert, invented at Brennan's restaurant, is made with bananas, brown sugar, and rum?",
+        "question": "Which flambéed New Orleans dessert, invented at Brennan's restaurant in 1951, is named after a local crime commissioner?",
         "options": [
           "Cherries Jubilee",
           "Crêpes Suzette",

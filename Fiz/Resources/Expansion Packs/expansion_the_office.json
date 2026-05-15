@@ -749,15 +749,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Relationships",
-      "question": "Who does Michael Scott end up with?",
+      "question": "Which of Michael's love interests turns out to be Pam's mother?",
       "options": [
         "Jan Levinson",
         "Carol Stills",
         "Helene Beesly",
-        "Holly Flax"
+        "Donna Newton"
       ],
-      "correct_answer": "Holly Flax",
-      "difficulty": "easy"
+      "correct_answer": "Helene Beesly",
+      "difficulty": "medium"
     },
     {
       "id": "off_paid_015",
@@ -893,15 +893,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Trivia",
-      "question": "What is the name of the office building owner?",
+      "question": "What does Bob Vance always say immediately after introducing himself?",
       "options": [
-        "David Wallace",
-        "Charles Miner",
-        "Robert California",
-        "Bob Vance"
+        "Vance Enterprises",
+        "Quality Refrigeration",
+        "Vance Refrigeration",
+        "Vance and Associates"
       ],
-      "correct_answer": "Bob Vance",
-      "difficulty": "hard"
+      "correct_answer": "Vance Refrigeration",
+      "difficulty": "easy"
     },
     {
       "id": "off_paid_024",
@@ -1983,10 +1983,10 @@
       "subtopic": "Relationships",
       "question": "Who is Phyllis married to?",
       "options": [
-        "Stan Vance",
+        "Roy Anderson",
         "Bob Vance",
-        "Jim Vance",
-        "Robert Vance"
+        "Michael Scott",
+        "Darryl Philbin"
       ],
       "correct_answer": "Bob Vance",
       "difficulty": "easy"
@@ -2173,7 +2173,7 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Relationships",
-      "question": "Who does Darryl date from the office?",
+      "question": "What is the name of the warehouse worker Darryl falls for in later seasons?",
       "options": [
         "Kelly",
         "Val",

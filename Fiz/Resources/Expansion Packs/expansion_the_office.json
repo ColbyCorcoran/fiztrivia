@@ -589,15 +589,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Trivia",
-      "question": "What is the name of the company newsletter?",
+      "question": "What is the name of the annual awards ceremony Michael Scott hosts for Dunder Mifflin employees?",
       "options": [
-        "Dundie Awards",
-        "The Fun Run Times",
-        "The Dunder Mifflin Infinity",
-        "Dunder Mifflin Employee Newsletter"
+        "The Scrantonies",
+        "The Paper Awards",
+        "The Dundies",
+        "The Mifflins"
       ],
-      "correct_answer": "Dunder Mifflin Employee Newsletter",
-      "difficulty": "hard"
+      "correct_answer": "The Dundies",
+      "difficulty": "easy"
     },
     {
       "id": "off_paid_005",
@@ -1053,14 +1053,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Locations",
-      "question": "In what state is Dunder Mifflin Scranton located?",
+      "question": "In which city is the Dunder Mifflin branch from The Office located?",
       "options": [
-        "New York",
-        "New Jersey",
-        "Delaware",
-        "Pennsylvania"
+        "Pittsburgh",
+        "Philadelphia",
+        "Allentown",
+        "Scranton"
       ],
-      "correct_answer": "Pennsylvania",
+      "correct_answer": "Scranton",
       "difficulty": "easy"
     },
     {
@@ -1068,7 +1068,7 @@
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
-      "subtopic": "Quotes",
+      "subtopic": "Characters",
       "question": "What does Dwight grow on his farm?",
       "options": [
         "Corn",
@@ -3909,14 +3909,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Relationships",
-      "question": "Who has workplace affairs?",
+      "question": "Which two Dunder Mifflin employees carry on a secret relationship for most of the series?",
       "options": [
-        "Nobody",
-        "One person",
-        "Several people",
-        "Everyone"
+        "Jim and Karen",
+        "Michael and Jan",
+        "Dwight and Angela",
+        "Ryan and Kelly"
       ],
-      "correct_answer": "Several people",
+      "correct_answer": "Dwight and Angela",
       "difficulty": "medium"
     },
     {
@@ -4195,12 +4195,12 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Trivia",
-      "question": "What is Michael's signature move?",
+      "question": "What is Michael Scott's signature catchphrase?",
       "options": [
         "That's what she said",
-        "Pranks",
-        "Sales pitches",
-        "Dancing"
+        "Bears, Beets, Battlestar Galactica",
+        "Identity theft is not a joke, Jim!",
+        "Dunder Mifflin, this is Pam"
       ],
       "correct_answer": "That's what she said",
       "difficulty": "medium"

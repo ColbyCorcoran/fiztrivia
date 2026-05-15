@@ -186,12 +186,12 @@
       "subtopic": "Movies",
       "question": "Who are the main Ghostbusters?",
       "options": [
-        "Venkman, Stantz, Spengler, Zeddemore",
-        "Just three guys",
-        "Five scientists",
-        "Government agents"
+        "Venkman, Stantz, and Spengler",
+        "Venkman, Stantz, Spengler, and Zeddemore",
+        "Venkman, Stantz, Spengler, Zeddemore, and Tully",
+        "Just Stantz and Spengler"
       ],
-      "correct_answer": "Venkman, Stantz, Spengler, Zeddemore",
+      "correct_answer": "Venkman, Stantz, Spengler, and Zeddemore",
       "difficulty": "medium",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
@@ -1453,7 +1453,7 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Movies",
-      "question": "What is the name of the arcade in 'The Last Starfighter'?",
+      "question": "Where is the Starfighter arcade game located in 'The Last Starfighter'?",
       "options": [
         "Starlight Arcade",
         "Galaxy Games",
@@ -1986,9 +1986,9 @@
         "2025",
         "2030",
         "2015",
-        "2017-2019"
+        "2017"
       ],
-      "correct_answer": "2017-2019",
+      "correct_answer": "2017",
       "difficulty": "hard"
     },
     {
@@ -3156,7 +3156,7 @@
         "Ride the Lightning",
         "Kill 'Em All"
       ],
-      "correct_answer": "...And Justice for All",
+      "correct_answer": "Master of Puppets",
       "difficulty": "hard"
     },
     {
@@ -3677,7 +3677,7 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "TV Shows",
-      "question": "Who was the creator of 'The Twilight Zone' revival in 1985?",
+      "question": "Which network broadcast the 1985 'Twilight Zone' revival series?",
       "options": [
         "CBS",
         "Rod Serling",
@@ -4269,7 +4269,7 @@
       "subcategory": "History & Eras",
       "topic": "com.fiz.pack.80s_trivia",
       "subtopic": "Pop Culture",
-      "question": "What slap accessory was popular on wrists?",
+      "question": "What colorful spring-loaded wrist accessory was a massive 80s craze, often banned from schools?",
       "options": [
         "Slap bracelets",
         "Friendship bracelets",
@@ -4656,7 +4656,7 @@
       "question": "What breakfast cereal featured Fred and Barney as mascots?",
       "options": [
         "Fruity Pebbles",
-        "actually, Count Chocula",
+        "Count Chocula",
         "Boo Berry",
         "Franken Berry"
       ],

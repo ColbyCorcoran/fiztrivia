@@ -877,14 +877,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Quotes",
-      "question": "What does Dwight say when he becomes interim regional manager?",
+      "question": "What volunteer law enforcement role does Dwight hold outside of work?",
       "options": [
-        "Bow down to your new leader",
-        "I have the power",
-        "Fear me",
-        "I am now the regional manager"
+        "Volunteer Firefighter",
+        "Police Informant",
+        "Volunteer Sheriff's Deputy",
+        "Security Consultant"
       ],
-      "correct_answer": "I am now the regional manager",
+      "correct_answer": "Volunteer Sheriff's Deputy",
       "difficulty": "medium"
     },
     {
@@ -2141,15 +2141,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Episodes",
-      "question": "What does Michael accidentally do at Phyllis's wedding?",
+      "question": "Why does Michael walk Phyllis down the aisle at her wedding?",
       "options": [
-        "Spills wine",
-        "Introduces himself as father of the bride",
-        "Trips",
-        "Gives wrong speech"
+        "He invited himself",
+        "He is her godfather",
+        "Her father is in a wheelchair",
+        "Her father refused to come"
       ],
-      "correct_answer": "Introduces himself as father of the bride",
-      "difficulty": "hard"
+      "correct_answer": "Her father is in a wheelchair",
+      "difficulty": "medium"
     },
     {
       "id": "off_paid_104",
@@ -2349,15 +2349,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Quotes",
-      "question": "What does Jim say to Pam when he proposes?",
+      "question": "Where does Jim propose to Pam?",
       "options": [
-        "Will you marry me?",
-        "I can't help it, I'm totally in love with you",
-        "You're my best friend",
-        "I love you"
+        "At the office",
+        "At Poor Richard's",
+        "At a highway rest stop",
+        "At Niagara Falls"
       ],
-      "correct_answer": "I can't help it, I'm totally in love with you",
-      "difficulty": "hard"
+      "correct_answer": "At a highway rest stop",
+      "difficulty": "medium"
     },
     {
       "id": "off_paid_117",

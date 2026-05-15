@@ -9268,18 +9268,16 @@
       {
         "id": "lit_305",
         "category": "Literature",
-        "subcategory": "Authors & Biography",
-        "question": "Under what joint pen name does the married couple Nicci Gerrard and Sean French publish their psychological thriller series?",
+        "subcategory": "Authors",
+        "question": "Which writing duo, known for psychological thrillers featuring therapist Frieda Klein, uses a combined pen name derived from parts of each author's real name?",
         "options": [
-          "Gerrard-French",
           "Nicci French",
+          "Gerrard-French",
           "Sean Nicci",
           "French & Gerrard"
         ],
         "correct_answer": "Nicci French",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "hard"
       },
       {
         "id": "lit_306",
@@ -18241,17 +18239,15 @@
         "id": "tec_267",
         "category": "Technology",
         "subcategory": "Inventions",
-        "question": "Who is credited with inventing the World Wide Web?",
+        "question": "Which German engineer is credited with building the first true gasoline-powered motorcycle in 1885?",
         "options": [
-          "Tim Berners-Lee",
-          "Vint Cerf",
-          "Bill Gates",
-          "Steve Jobs"
+          "Gottlieb Daimler",
+          "Karl Benz",
+          "Rudolf Diesel",
+          "Nikolaus Otto"
         ],
-        "correct_answer": "Tim Berners-Lee",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Gottlieb Daimler",
+        "difficulty": "hard"
       },
       {
         "id": "tec_268",
@@ -29234,18 +29230,16 @@
       {
         "id": "spt_041",
         "category": "Sports",
-        "subcategory": "Team Sports",
-        "question": "In boxing, how many players from each team are on the field during a play?",
+        "subcategory": "Combat Sports",
+        "question": "In boxing, how many rounds are in a standard world championship fight?",
         "options": [
-          "11",
-          "10",
           "12",
-          "9"
+          "10",
+          "15",
+          "8"
         ],
-        "correct_answer": "11",
-        "difficulty": "easy",
-        "topic": "com.fiz.pack.boxing",
-        "subtopic": null
+        "correct_answer": "12",
+        "difficulty": "easy"
       },
       {
         "id": "spt_043",
@@ -29939,17 +29933,15 @@
         "id": "spt_127",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What surface is used at the US Open tennis tournament?",
+        "question": "What is the name of the international team competition in men's tennis contested annually between nations?",
         "options": [
-          "Hard court",
-          "Carpet",
-          "Clay",
-          "Grass"
+          "Davis Cup",
+          "Ryder Cup",
+          "Fed Cup",
+          "Hopman Cup"
         ],
-        "correct_answer": "Hard court",
-        "difficulty": "medium",
-        "topic": "com.fiz.pack.tennis",
-        "subtopic": null
+        "correct_answer": "Davis Cup",
+        "difficulty": "medium"
       },
       {
         "id": "spt_128",
@@ -29971,17 +29963,15 @@
         "id": "spt_129",
         "category": "Sports",
         "subcategory": "Individual Sports",
-        "question": "What is par on a typical golf course for 18 holes?",
+        "question": "On what surface is the Australian Open tennis tournament played?",
         "options": [
-          "68",
-          "72",
-          "70",
-          "74"
+          "Hard court",
+          "Clay",
+          "Grass",
+          "Carpet"
         ],
-        "correct_answer": "72",
-        "difficulty": "medium",
-        "topic": "com.fiz.pack.golf",
-        "subtopic": null
+        "correct_answer": "Hard court",
+        "difficulty": "easy"
       },
       {
         "id": "spt_130",
@@ -30386,18 +30376,16 @@
       {
         "id": "spt_155",
         "category": "Sports",
-        "subcategory": "International Competition",
-        "question": "How many sports are in the Summer Olympics?",
+        "subcategory": "Individual Sports",
+        "question": "Which annual cycling race covers approximately 3,500 km through France and neighboring countries over three weeks?",
         "options": [
-          "35",
-          "28",
-          "32",
-          "40"
+          "Tour de France",
+          "Giro d'Italia",
+          "Vuelta a España",
+          "Paris-Roubaix"
         ],
-        "correct_answer": "32",
-        "difficulty": "hard",
-        "topic": "com.fiz.pack.olympics",
-        "subtopic": null
+        "correct_answer": "Tour de France",
+        "difficulty": "easy"
       },
       {
         "id": "spt_156",
@@ -30451,17 +30439,15 @@
         "id": "spt_159",
         "category": "Sports",
         "subcategory": "International Competition",
-        "question": "What do Olympic gold medals contain mostly?",
+        "question": "What is the official distance of an Olympic marathon?",
         "options": [
-          "Platinum",
-          "Silver",
-          "Bronze",
-          "Gold"
+          "26.2 miles (42.195 km)",
+          "25 miles (40 km)",
+          "30 km",
+          "50 km"
         ],
-        "correct_answer": "Silver",
-        "difficulty": "hard",
-        "topic": "com.fiz.pack.olympics",
-        "subtopic": null
+        "correct_answer": "26.2 miles (42.195 km)",
+        "difficulty": "medium"
       },
       {
         "id": "spt_160",
@@ -30608,18 +30594,16 @@
       {
         "id": "spt_219",
         "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is the device called that holds the golf ball for the first stroke?",
+        "subcategory": "Track & Field",
+        "question": "How many events make up the Olympic decathlon?",
         "options": [
-          "Tee",
-          "Pin",
-          "Marker",
-          "Flag"
+          "10",
+          "7",
+          "12",
+          "8"
         ],
-        "correct_answer": "Tee",
-        "difficulty": "easy",
-        "topic": "com.fiz.pack.golf",
-        "subtopic": null
+        "correct_answer": "10",
+        "difficulty": "easy"
       },
       {
         "id": "spt_221",
@@ -46053,17 +46037,15 @@
         "id": "his_188",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "During which period (1309–1377) did the papacy relocate from Rome to Avignon, France, under French political influence?",
+        "question": "What name is given to the period from 1309 to 1377 when the Catholic papacy was relocated from Rome to a city in southern France under French royal influence?",
         "options": [
-          "Papal Inquisition",
+          "Avignon Papacy",
           "Great Schism",
-          "Concordat of Worms",
-          "Avignon Papacy"
+          "Papal Inquisition",
+          "Concordat of Worms"
         ],
         "correct_answer": "Avignon Papacy",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "hard"
       },
       {
         "id": "his_189",
@@ -47685,17 +47667,15 @@
         "id": "his_274",
         "category": "History",
         "subcategory": "Church History",
-        "question": "What is the name of the first English Bible translation by William Tyndale?",
+        "question": "What was the first printed English New Testament, completed in 1526 by a scholar later executed for heresy and whose work heavily influenced the King James Bible?",
         "options": [
           "Tyndale Bible",
-          "King James Bible",
           "Geneva Bible",
-          "Wycliffe Bible"
+          "Wycliffe Bible",
+          "Coverdale Bible"
         ],
         "correct_answer": "Tyndale Bible",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "hard"
       },
       {
         "id": "his_277",

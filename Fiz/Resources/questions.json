@@ -48582,18 +48582,16 @@
       {
         "id": "bib_049",
         "category": "Bible",
-        "subcategory": "Biblical Theology",
-        "question": "What is the study of salvation called in theology?",
+        "subcategory": "Bible Books",
+        "question": "What term refers to the first five books of the Old Testament (Genesis through Deuteronomy)?",
         "options": [
-          "Ecclesiology",
-          "Hamartiology",
-          "Eschatology",
-          "Soteriology"
+          "Pentateuch",
+          "Septuagint",
+          "Apocrypha",
+          "Talmud"
         ],
-        "correct_answer": "Soteriology",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Pentateuch",
+        "difficulty": "medium"
       },
       {
         "id": "bib_050",
@@ -49862,18 +49860,16 @@
       {
         "id": "bib_261",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
-        "question": "Which prophet married a prostitute as a symbol of God's love for Israel?",
+        "subcategory": "The Prophets",
+        "question": "Which Minor Prophet predicted the downfall of Nineveh, the capital of the Assyrian Empire?",
         "options": [
-          "Ezekiel",
-          "Hosea",
-          "Amos",
-          "Jeremiah"
+          "Nahum",
+          "Obadiah",
+          "Habakkuk",
+          "Haggai"
         ],
-        "correct_answer": "Hosea",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Nahum",
+        "difficulty": "hard"
       },
       {
         "id": "bib_282",
@@ -50006,18 +50002,16 @@
       {
         "id": "bib_290",
         "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Selah' mean in the Psalms?",
+        "subcategory": "Old Testament Events",
+        "question": "Which plague sent upon Egypt in the Book of Exodus involved insects devouring crops?",
         "options": [
-          "Praise",
-          "Pause/Reflect",
-          "Forever",
-          "Sing"
+          "Locusts",
+          "Flies",
+          "Gnats",
+          "Beetles"
         ],
-        "correct_answer": "Pause/Reflect",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Locusts",
+        "difficulty": "easy"
       },
       {
         "id": "bib_291",
@@ -50182,18 +50176,16 @@
       {
         "id": "bib_328",
         "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "What miraculous food did God provide for the Israelites to eat daily during their 40 years of wandering in the wilderness?",
+        "subcategory": "The Prophets",
+        "question": "Which prophet encouraged the Jewish exiles to rebuild the temple after returning from Babylon?",
         "options": [
-          "Bread and fish",
-          "Quail and grain",
-          "Manna",
-          "Honey and dates"
+          "Haggai",
+          "Malachi",
+          "Zephaniah",
+          "Obadiah"
         ],
-        "correct_answer": "Manna",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Haggai",
+        "difficulty": "hard"
       },
       {
         "id": "bib_329",
@@ -50566,18 +50558,16 @@
       {
         "id": "bib_353",
         "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "What Persian king allowed Jews to return from exile?",
+        "subcategory": "Bible History",
+        "question": "What was the name of the Jewish ruling council that tried Jesus before sending him to Pilate?",
         "options": [
-          "Xerxes",
-          "Cyrus the Great",
-          "Artaxerxes",
-          "Darius"
+          "Sanhedrin",
+          "Pharisees",
+          "Sadducees",
+          "Zealots"
         ],
-        "correct_answer": "Cyrus the Great",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Sanhedrin",
+        "difficulty": "medium"
       },
       {
         "id": "bib_354",
@@ -50630,18 +50620,16 @@
       {
         "id": "bib_357",
         "category": "Bible",
-        "subcategory": "Biblical History",
-        "question": "What Jewish revolt happened in 70 AD?",
+        "subcategory": "Bible History",
+        "question": "What Jewish fortress is famous for the mass suicide of nearly 1,000 Jewish rebels who chose death over Roman capture in 73 AD?",
         "options": [
-          "Bar Kokhba revolt",
-          "Zealot uprising",
-          "First Jewish-Roman War",
-          "Maccabean Revolt"
+          "Masada",
+          "Jericho",
+          "Qumran",
+          "Megiddo"
         ],
-        "correct_answer": "First Jewish-Roman War",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Masada",
+        "difficulty": "medium"
       },
       {
         "id": "bib_358",
@@ -51798,18 +51786,16 @@
       {
         "id": "bib_431",
         "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Abba' mean?",
+        "subcategory": "Bible Words & Terms",
+        "question": "What is the theological term for praying on behalf of others?",
         "options": [
-          "King",
-          "Master",
-          "Father/Daddy",
-          "Lord"
+          "Intercession",
+          "Supplication",
+          "Petition",
+          "Confession"
         ],
-        "correct_answer": "Father/Daddy",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Intercession",
+        "difficulty": "medium"
       },
       {
         "id": "bib_435",
@@ -51828,18 +51814,16 @@
       {
         "id": "bib_436",
         "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Selah' likely mean?",
+        "subcategory": "The Prophets",
+        "question": "Which prophet declared 'Let justice roll on like a river, righteousness like a never-failing stream'?",
         "options": [
-          "Amen",
-          "Forever",
-          "Always",
-          "Pause/Interlude"
+          "Amos",
+          "Micah",
+          "Hosea",
+          "Joel"
         ],
-        "correct_answer": "Pause/Interlude",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Amos",
+        "difficulty": "hard"
       },
       {
         "id": "bib_437",

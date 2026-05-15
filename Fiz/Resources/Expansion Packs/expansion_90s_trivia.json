@@ -950,7 +950,7 @@
       "id": "90s_058",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What is the name of Buzz Lightyear's catchphrase in 'Toy Story'?",
+      "question": "What is Buzz Lightyear's catchphrase in 'Toy Story'?",
       "options": [
         "Reach for the sky!",
         "To infinity and beyond!",
@@ -1014,7 +1014,7 @@
       "id": "90s_062",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What 1994 film stars Jim Carrey as a man whose life is unknowingly a TV show?",
+      "question": "What 1998 film stars Jim Carrey as a man whose life is unknowingly a TV show?",
       "options": [
         "The Cable Guy",
         "Liar Liar",
@@ -1318,7 +1318,7 @@
       "id": "90s_081",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What 1993 film stars Robin Williams as a voice actor for a children's TV show?",
+      "question": "What 1993 film stars Robin Williams as a father who disguises himself as a female housekeeper to spend time with his children?",
       "options": [
         "Aladdin",
         "Mrs. Doubtfire",
@@ -5686,14 +5686,14 @@
       "id": "90s_354",
       "category": "Entertainment",
       "subcategory": "Movies",
-      "question": "What substance came in a can and made fart noises?",
+      "question": "What slimy Nickelodeon toy came in a round canister and made disgusting sounds when squeezed?",
       "options": [
-        "Putty",
-        "Play-Doh",
         "Slime",
-        "Gak"
+        "Gak",
+        "Floam",
+        "Play-Doh"
       ],
-      "correct_answer": "Slime",
+      "correct_answer": "Gak",
       "difficulty": "easy",
       "topic": "com.fiz.pack.90s",
       "subtopic": "Pop Culture"
@@ -6422,7 +6422,7 @@
       "id": "90s_400",
       "category": "Entertainment",
       "subcategory": "TV Shows",
-      "question": "What orange-themed network dominated kids' TV in the 90s?",
+      "question": "What cable network dominated kids' TV in the 90s with shows like Rugrats, Doug, and Hey Arnold?",
       "options": [
         "Cartoon Network",
         "Disney Channel",

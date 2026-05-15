@@ -518,15 +518,15 @@
       "subtopic": "Products & Hardware",
       "category": "Technology",
       "subcategory": "Technology",
-      "question": "What was the first Macintosh released?",
+      "question": "What was the original retail price of the Macintosh 128K at its 1984 launch?",
       "options": [
-        "1984",
-        "1980",
-        "1990",
-        "1976"
+        "$1,995",
+        "$2,495",
+        "$2,995",
+        "$3,499"
       ],
-      "correct_answer": "1984",
-      "difficulty": "easy"
+      "correct_answer": "$2,495",
+      "difficulty": "medium"
     },
     {
       "id": "apl_032",
@@ -3858,14 +3858,14 @@
     },
     {
       "id": "apl_240",
-      "question": "Who narrated the original 'Think Different' commercial?",
+      "question": "Who narrated the aired version of Apple's 'Think Different' commercial?",
       "options": [
-        "Steve Jobs (unused version)",
+        "Steve Jobs",
+        "Richard Dreyfuss",
         "Morgan Freeman",
-        "Richard Dreyfuss (aired version)",
         "Tom Hanks"
       ],
-      "correct_answer": "Richard Dreyfuss (aired version)",
+      "correct_answer": "Richard Dreyfuss",
       "difficulty": "hard",
       "topic": "com.fiz.pack.apple",
       "category": "Technology",

@@ -213,7 +213,7 @@
         "id": "ent_014",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of The Flash's museum?",
+        "question": "In DC Comics, what Central City landmark is dedicated to honoring the Scarlet Speedster?",
         "options": [
           "Central City Museum",
           "Speedster Hall",
@@ -1621,7 +1621,7 @@
         "id": "ent_103",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of the desert wasteland in Mad Max: Fury Road?",
+        "question": "What is the overall name for the post-apocalyptic world in Mad Max: Fury Road?",
         "options": [
           "The Citadel",
           "The Wasteland",
@@ -1685,14 +1685,14 @@
         "id": "ent_107",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is the name of the titular character in Coraline?",
+        "question": "Who voices the main character in the 2009 stop-motion animated film Coraline?",
         "options": [
-          "The Cat",
-          "Wybie",
-          "Coraline Jones",
-          "The Other Mother"
+          "Elle Fanning",
+          "Anna Kendrick",
+          "Mila Kunis",
+          "Dakota Fanning"
         ],
-        "correct_answer": "Coraline Jones",
+        "correct_answer": "Dakota Fanning",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -2005,7 +2005,7 @@
         "id": "ent_127",
         "category": "Entertainment",
         "subcategory": "Animation",
-        "question": "What is Scooby-Doo's favorite food?",
+        "question": "What bite-sized treats are used to motivate the Great Dane in Scooby-Doo?",
         "options": [
           "Burgers",
           "Scooby Snacks",
@@ -3061,7 +3061,7 @@
         "id": "ent_193",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the ship in Titanic?",
+        "question": "What was the full official designation of the ocean liner that sank in April 1912?",
         "options": [
           "RMS Titanic",
           "USS Titanic",
@@ -3125,14 +3125,14 @@
         "id": "ent_197",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the department in Parks and Recreation?",
+        "question": "What fictional Indiana city serves as the setting of Parks and Recreation?",
         "options": [
-          "City Planning",
-          "Public Works",
-          "Community Development",
-          "Parks and Recreation Department"
+          "Eagleton",
+          "Bloomington",
+          "Indianapolis",
+          "Pawnee"
         ],
-        "correct_answer": "Parks and Recreation Department",
+        "correct_answer": "Pawnee",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -3157,14 +3157,14 @@
         "id": "ent_199",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the hospital in Grey's Anatomy?",
+        "question": "What is the nickname for Dr. Derek Shepherd on Grey's Anatomy?",
         "options": [
-          "Sacred Heart",
-          "County General",
-          "Grey Sloan Memorial Hospital",
-          "Seattle Grace Hospital"
+          "McSteamy",
+          "McHandsome",
+          "McPerfect",
+          "McDreamy"
         ],
-        "correct_answer": "Grey Sloan Memorial Hospital",
+        "correct_answer": "McDreamy",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -3285,7 +3285,7 @@
         "id": "ent_207",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the prison in The Shawshank Redemption?",
+        "question": "In The Shawshank Redemption, what fictional Maine prison holds Andy Dufresne?",
         "options": [
           "Folsom Prison",
           "Alcatraz",
@@ -3525,7 +3525,7 @@
         "id": "ent_222",
         "category": "Entertainment",
         "subcategory": "Drama/Comedy",
-        "question": "What is the name of the apartment number Monica lives in on Friends?",
+        "question": "Which apartment number does Monica Geller live in on Friends?",
         "options": [
           "Apartment 20",
           "Apartment 15",
@@ -9993,14 +9993,14 @@
         "id": "mus_027",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "What is the theme song of The Fresh Prince of Bel-Air?",
+        "question": "Who plays Will's well-dressed, dance-loving cousin Carlton Banks on The Fresh Prince of Bel-Air?",
         "options": [
-          "Summertime",
-          "Men in Black",
-          "Getting Jiggy wit It",
-          "The Fresh Prince of Bel-Air theme"
+          "James Avery",
+          "DJ Jazzy Jeff",
+          "Joseph Marcell",
+          "Alfonso Ribeiro"
         ],
-        "correct_answer": "The Fresh Prince of Bel-Air theme",
+        "correct_answer": "Alfonso Ribeiro",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -11097,7 +11097,7 @@
         "id": "mus_096",
         "category": "Music",
         "subcategory": "History & Eras",
-        "question": "Which era of Western classical music, following the Baroque, is characterized by homophony and structured forms like the sonata?",
+        "question": "What musical period directly followed the Baroque era, featuring composers such as Haydn, Mozart, and early Beethoven?",
         "options": [
           "Baroque",
           "Romantic",
@@ -14249,7 +14249,7 @@
         "id": "mus_293",
         "category": "Music",
         "subcategory": "Instruments & Theory",
-        "question": "Which temperament system divides the octave into 12 equal parts?",
+        "question": "Which Western standard tuning system spaces all 12 semitones per octave at identical intervals?",
         "options": [
           "Pythagorean tuning",
           "Equal temperament",
@@ -43691,10 +43691,10 @@
         "options": [
           "Underground drainage pipes",
           "Gravel shoulders",
-          "Raised camber (curved surface)",
+          "Raised camber",
           "Stone gutters"
         ],
-        "correct_answer": "Raised camber (curved surface)",
+        "correct_answer": "Raised camber",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null

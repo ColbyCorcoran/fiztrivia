@@ -15694,8 +15694,8 @@
       {
         "id": "tec_107",
         "category": "Technology",
-        "subcategory": "Computers & Software",
-        "question": "Which company developed the Python programming language?",
+        "subcategory": "Programming",
+        "question": "Who created the Python programming language?",
         "options": [
           "Guido van Rossum",
           "Google",
@@ -15703,9 +15703,7 @@
           "Oracle"
         ],
         "correct_answer": "Guido van Rossum",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "medium"
       },
       {
         "id": "tec_108",
@@ -17711,7 +17709,7 @@
         "id": "tec_233",
         "category": "Technology",
         "subcategory": "Tech Companies",
-        "question": "Who was the first employee of Microsoft?",
+        "question": "Which early Microsoft employee pioneered the shareware distribution model with his program PC-Write?",
         "options": [
           "Steve Jobs",
           "Paul Allen",
@@ -17719,9 +17717,7 @@
           "Bill Gates"
         ],
         "correct_answer": "Bob Wallace",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "hard"
       },
       {
         "id": "tec_234",
@@ -17758,8 +17754,8 @@
       {
         "id": "tec_236",
         "category": "Technology",
-        "subcategory": "Tech Companies",
-        "question": "Which company created the first web browser with a graphical interface?",
+        "subcategory": "The Internet",
+        "question": "Which company's Navigator browser dominated the web with over 80% market share in the mid-1990s?",
         "options": [
           "Google",
           "Netscape",
@@ -17767,9 +17763,7 @@
           "Microsoft"
         ],
         "correct_answer": "Netscape",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "medium"
       },
       {
         "id": "tec_237",
@@ -17935,17 +17929,15 @@
         "id": "tec_247",
         "category": "Technology",
         "subcategory": "Tech Companies",
-        "question": "Who was the first CEO of Google?",
+        "question": "Who was the first CEO of Google when it was incorporated in 1998?",
         "options": [
           "Sergey Brin",
           "Larry Page",
           "Eric Schmidt",
           "Sundar Pichai"
         ],
-        "correct_answer": "Eric Schmidt",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Larry Page",
+        "difficulty": "medium"
       },
       {
         "id": "tec_248",
@@ -18749,7 +18741,7 @@
         "id": "tec_299",
         "category": "Technology",
         "subcategory": "Inventions",
-        "question": "Who invented the pneumatic tire?",
+        "question": "Who commercialized the modern pneumatic tire in 1888, initially for bicycles, leading to its widespread adoption?",
         "options": [
           "André Michelin",
           "Robert Thomson",
@@ -18757,9 +18749,7 @@
           "John Dunlop"
         ],
         "correct_answer": "John Dunlop",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "medium"
       },
       {
         "id": "tec_300",
@@ -19116,18 +19106,16 @@
       {
         "id": "tec_322",
         "category": "Technology",
-        "subcategory": "Inventions",
-        "question": "Who invented the MRI scanner?",
+        "subcategory": "Medical Technology",
+        "question": "Who received the 2003 Nobel Prize in Medicine for developing magnetic resonance imaging (MRI) technology?",
         "options": [
           "Felix Bloch",
           "Paul Lauterbur",
           "Raymond Damadian",
           "Peter Mansfield"
         ],
-        "correct_answer": "Raymond Damadian",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Paul Lauterbur",
+        "difficulty": "hard"
       },
       {
         "id": "tec_323",
@@ -21071,17 +21059,15 @@
         "id": "art_121",
         "category": "Art",
         "subcategory": "Sculpture",
-        "question": "Who sculpted 'David' during the Renaissance?",
+        "question": "Which Michelangelo sculpture depicts Moses holding the Ten Commandments, now in Rome's San Pietro in Vincoli church?",
         "options": [
-          "Bernini",
-          "Donatello",
-          "Leonardo da Vinci",
-          "Michelangelo"
+          "Moses",
+          "David",
+          "Pietà",
+          "Brutus"
         ],
-        "correct_answer": "Michelangelo",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Moses",
+        "difficulty": "hard"
       },
       {
         "id": "art_122",
@@ -23595,17 +23581,15 @@
         "id": "art_279",
         "category": "Art",
         "subcategory": "Photography",
-        "question": "Who photographed Paris streets at night?",
+        "question": "Which Canadian photographer captured the iconic, scowling portrait of Winston Churchill in 1941?",
         "options": [
-          "Eugène Atget",
-          "Henri Cartier-Bresson",
-          "Robert Doisneau",
-          "Brassaï"
+          "Yousuf Karsh",
+          "Dorothea Lange",
+          "Alfred Eisenstaedt",
+          "Philippe Halsman"
         ],
-        "correct_answer": "Brassaï",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Yousuf Karsh",
+        "difficulty": "hard"
       },
       {
         "id": "art_280",
@@ -25324,8 +25308,8 @@
       {
         "id": "geo_090",
         "category": "Geography",
-        "subcategory": "Maps & Borders",
-        "question": "Which country has the most neighboring countries?",
+        "subcategory": "Countries & Capitals",
+        "question": "Which Asian country shares land borders with 14 nations — including Russia, India, Mongolia, and Vietnam — the most of any country in Asia?",
         "options": [
           "China",
           "Russia",
@@ -25333,9 +25317,7 @@
           "Germany"
         ],
         "correct_answer": "China",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "medium"
       },
       {
         "id": "geo_091",
@@ -26813,17 +26795,15 @@
         "id": "geo_183",
         "category": "Geography",
         "subcategory": "Flags",
-        "question": "Which country's flag is a solid green rectangle?",
+        "question": "Which Scandinavian country's flag, a white cross on a red background called the Dannebrog, is considered the world's oldest national flag still in use?",
         "options": [
-          "Libya",
-          "Pakistan",
-          "Ireland",
-          "Saudi Arabia"
+          "Sweden",
+          "Norway",
+          "Denmark",
+          "Finland"
         ],
-        "correct_answer": "Libya",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Denmark",
+        "difficulty": "medium"
       },
       {
         "id": "geo_184",
@@ -43573,17 +43553,15 @@
         "id": "his_032",
         "category": "History",
         "subcategory": "Ancient History",
-        "question": "What was the main building material used in ancient Egypt?",
+        "question": "What was the primary building material used in ancient Egypt for everyday structures and houses?",
         "options": [
           "Stone",
           "Mud bricks",
           "Wood",
-          "Both B and C"
+          "Fired clay"
         ],
-        "correct_answer": "Both B and C",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Mud bricks",
+        "difficulty": "medium"
       },
       {
         "id": "his_033",
@@ -44165,7 +44143,7 @@
         "id": "his_069",
         "category": "History",
         "subcategory": "Ancient History",
-        "question": "What was the ancient Greek competition that preceded the Olympics?",
+        "question": "Which ancient Greek Panhellenic Games were held at Delphi every four years in honor of the god Apollo?",
         "options": [
           "Pythian Games",
           "Panathenaic Games",
@@ -44173,9 +44151,7 @@
           "Nemean Games"
         ],
         "correct_answer": "Pythian Games",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "hard"
       },
       {
         "id": "his_070",
@@ -44404,8 +44380,8 @@
       {
         "id": "his_086",
         "category": "History",
-        "subcategory": "Church History",
-        "question": "What was the first book printed on the printing press?",
+        "subcategory": "Medieval History",
+        "question": "What was the first major work printed on Johannes Gutenberg's printing press around 1455?",
         "options": [
           "The Quran",
           "The Bible",
@@ -44413,9 +44389,7 @@
           "A dictionary"
         ],
         "correct_answer": "The Bible",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "easy"
       },
       {
         "id": "his_087",
@@ -45941,7 +45915,7 @@
         "id": "his_182",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What empire did Charlemagne rule?",
+        "question": "Which medieval empire, established by Otto I in 962 and claiming succession from ancient Rome, lasted until Napoleon abolished it in 1806?",
         "options": [
           "Byzantine Empire",
           "Holy Roman Empire",
@@ -45949,9 +45923,7 @@
           "Ottoman Empire"
         ],
         "correct_answer": "Holy Roman Empire",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "medium"
       },
       {
         "id": "his_183",
@@ -47218,8 +47190,8 @@
       {
         "id": "his_264",
         "category": "History",
-        "subcategory": "Modern History",
-        "question": "Which ship's sinking in 1915 helped bring the US into World War I?",
+        "subcategory": "World War I",
+        "question": "Which British ocean liner, torpedoed by a German submarine in 1915, caused massive American outrage and increased public pressure for US involvement in World War I?",
         "options": [
           "RMS Lusitania",
           "USS Maine",
@@ -47227,9 +47199,7 @@
           "RMS Titanic"
         ],
         "correct_answer": "RMS Lusitania",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "difficulty": "medium"
       },
       {
         "id": "his_265",
@@ -53376,18 +53346,16 @@
       {
         "id": "foo_056",
         "category": "Food",
-        "subcategory": "Cooking",
-        "question": "What is the process of briefly cooking vegetables in boiling water, then plunging them into ice water?",
+        "subcategory": "Cooking Techniques",
+        "question": "What cooking technique involves simmering food gently in barely bubbling liquid, often used for eggs, fish, or chicken?",
         "options": [
           "Poaching",
-          "Parboiling",
-          "Simmering",
-          "Blanching"
+          "Blanching",
+          "Braising",
+          "Steaming"
         ],
-        "correct_answer": "Blanching",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Poaching",
+        "difficulty": "easy"
       },
       {
         "id": "foo_057",
@@ -53440,18 +53408,16 @@
       {
         "id": "foo_060",
         "category": "Food",
-        "subcategory": "Cooking",
-        "question": "What is the term for cooking food slowly in liquid at low temperature?",
+        "subcategory": "Cooking Techniques",
+        "question": "What French cooking preservation technique involves cooking and storing meat (usually duck) in its own rendered fat?",
         "options": [
-          "Roasting",
-          "Braising",
-          "Frying",
-          "Grilling"
+          "Confit",
+          "Braise",
+          "Poach",
+          "Sauté"
         ],
-        "correct_answer": "Braising",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Confit",
+        "difficulty": "medium"
       },
       {
         "id": "foo_061",
@@ -56783,17 +56749,15 @@
         "id": "foo_269",
         "category": "Food",
         "subcategory": "Ingredients",
-        "question": "Which spice comes from the dried stigma of a crocus flower?",
+        "question": "What aromatic spice, native to southern India, is the third most expensive spice by weight and features prominently in chai and Scandinavian baking?",
         "options": [
-          "Turmeric",
-          "Saffron",
-          "Paprika",
-          "Cumin"
+          "Cardamom",
+          "Cinnamon",
+          "Cloves",
+          "Nutmeg"
         ],
-        "correct_answer": "Saffron",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Cardamom",
+        "difficulty": "hard"
       },
       {
         "id": "foo_270",
@@ -56942,18 +56906,16 @@
       {
         "id": "foo_279",
         "category": "Food",
-        "subcategory": "Cooking",
-        "question": "What is the name of the spicy North African chili paste made from roasted red peppers?",
+        "subcategory": "Cooking Techniques",
+        "question": "What chemical reaction, distinct from the Maillard reaction, is responsible for the browning and sweetening of sugars when heated?",
         "options": [
-          "Gochujang",
-          "Sriracha",
-          "Harissa",
-          "Sambal"
+          "Caramelization",
+          "Gelatinization",
+          "Emulsification",
+          "Hydrolysis"
         ],
-        "correct_answer": "Harissa",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Caramelization",
+        "difficulty": "hard"
       },
       {
         "id": "foo_280",

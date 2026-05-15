@@ -4580,18 +4580,16 @@
       {
         "id": "ent_289",
         "category": "Entertainment",
-        "subcategory": "Sci-Fi/Fantasy",
-        "question": "In Rick and Morty, what is Morty's last name?",
+        "subcategory": "Animation",
+        "question": "In Rick and Morty, what is the name of Rick Sanchez's daughter?",
         "options": [
-          "Johnson",
-          "Sanchez",
-          "Brown",
-          "Smith"
+          "Beth",
+          "Jessica",
+          "Summer",
+          "Diane"
         ],
-        "correct_answer": "Smith",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Beth",
+        "difficulty": "easy"
       },
       {
         "id": "ent_290",
@@ -30608,18 +30606,16 @@
       {
         "id": "spt_218",
         "category": "Sports",
-        "subcategory": "Individual Sports",
-        "question": "What is a 'mulligan' in golf?",
+        "subcategory": "Golf",
+        "question": "In golf, what term describes a score of one stroke over par on a hole?",
         "options": [
-          "A penalty stroke",
-          "A type of putt",
-          "A do-over shot",
-          "A type of club"
+          "Bogey",
+          "Birdie",
+          "Eagle",
+          "Par"
         ],
-        "correct_answer": "A do-over shot",
-        "difficulty": "easy",
-        "topic": "com.fiz.pack.golf",
-        "subtopic": null
+        "correct_answer": "Bogey",
+        "difficulty": "easy"
       },
       {
         "id": "spt_219",
@@ -33024,18 +33020,16 @@
       {
         "id": "spt_446",
         "category": "Sports",
-        "subcategory": "Athletes & Biography",
-        "question": "Who was the first female gymnast to score a perfect 10?",
+        "subcategory": "Olympics",
+        "question": "Which gymnast holds the record for the most World Championship medals in gymnastics history?",
         "options": [
-          "Nadia Comăneci",
           "Simone Biles",
-          "Olga Korbut",
-          "Mary Lou Retton"
+          "Nadia Comăneci",
+          "Larisa Latynina",
+          "Aly Raisman"
         ],
-        "correct_answer": "Nadia Comăneci",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Simone Biles",
+        "difficulty": "medium"
       },
       {
         "id": "spt_447",
@@ -37539,17 +37533,15 @@
         "id": "sci_252",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is the SI unit for electric current?",
+        "question": "What is the SI unit of electrical capacitance?",
         "options": [
+          "Farad",
           "Ohm",
-          "Ampere",
-          "Watt",
-          "Volt"
+          "Henry",
+          "Siemens"
         ],
-        "correct_answer": "Ampere",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Farad",
+        "difficulty": "hard"
       },
       {
         "id": "sci_253",
@@ -37875,17 +37867,15 @@
         "id": "sci_273",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is the SI unit of frequency?",
+        "question": "What is the SI unit of pressure?",
         "options": [
-          "Hertz",
-          "Joule",
-          "Volt",
-          "Watt"
+          "Pascal",
+          "Newton",
+          "Bar",
+          "Torr"
         ],
-        "correct_answer": "Hertz",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Pascal",
+        "difficulty": "medium"
       },
       {
         "id": "sci_274",
@@ -37939,17 +37929,15 @@
         "id": "sci_277",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is the SI unit of energy?",
+        "question": "What law states that energy cannot be created or destroyed, only converted from one form to another?",
         "options": [
-          "Newton",
-          "Pascal",
-          "Joule",
-          "Watt"
+          "Conservation of Energy",
+          "Newton's First Law",
+          "Ohm's Law",
+          "Boyle's Law"
         ],
-        "correct_answer": "Joule",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Conservation of Energy",
+        "difficulty": "medium"
       },
       {
         "id": "sci_278",
@@ -40148,18 +40136,16 @@
       {
         "id": "nat_113",
         "category": "Nature",
-        "subcategory": "Plants & Flowers",
-        "question": "What color are most plant stems?",
+        "subcategory": "Plants",
+        "question": "What mineral nutrient do plants need most for healthy leaf and stem growth?",
         "options": [
-          "Green",
-          "Red",
-          "Brown",
-          "Yellow"
+          "Nitrogen",
+          "Calcium",
+          "Phosphorus",
+          "Potassium"
         ],
-        "correct_answer": "Green",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Nitrogen",
+        "difficulty": "medium"
       },
       {
         "id": "nat_143",
@@ -41429,17 +41415,15 @@
         "id": "nat_240",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What is the scientific name for the process trees use to transport water?",
+        "question": "What plant tissue transports sugars produced by photosynthesis from leaves to the rest of the plant?",
         "options": [
-          "Respiration",
-          "Photosynthesis",
-          "Transpiration",
-          "Osmosis"
+          "Phloem",
+          "Xylem",
+          "Cambium",
+          "Cortex"
         ],
-        "correct_answer": "Transpiration",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Phloem",
+        "difficulty": "medium"
       },
       {
         "id": "nat_241",
@@ -41492,18 +41476,16 @@
       {
         "id": "nat_244",
         "category": "Nature",
-        "subcategory": "Trees",
-        "question": "What is the national tree of Japan?",
+        "subcategory": "Plants",
+        "question": "What plant tissue carries water and dissolved minerals from roots to leaves?",
         "options": [
-          "Cherry blossom",
-          "Bamboo",
-          "Maple",
-          "Pine"
+          "Xylem",
+          "Phloem",
+          "Cambium",
+          "Epidermis"
         ],
-        "correct_answer": "Cherry blossom",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Xylem",
+        "difficulty": "medium"
       },
       {
         "id": "nat_246",
@@ -42437,17 +42419,15 @@
         "id": "nat_179",
         "category": "Nature",
         "subcategory": "Weather",
-        "question": "What instrument measures air pressure?",
+        "question": "On the Beaufort scale, what number represents a hurricane-force wind?",
         "options": [
-          "Thermometer",
-          "Hygrometer",
-          "Anemometer",
-          "Barometer"
+          "12",
+          "10",
+          "8",
+          "15"
         ],
-        "correct_answer": "Barometer",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "12",
+        "difficulty": "hard"
       },
       {
         "id": "nat_180",
@@ -53035,17 +53015,15 @@
         "id": "foo_030",
         "category": "Food",
         "subcategory": "Beverages",
-        "question": "What is the name of the traditional Japanese rice wine?",
+        "question": "What is umeshu, a popular Japanese liqueur?",
         "options": [
-          "Sake",
-          "Shochu",
-          "Baijiu",
-          "Soju"
+          "Plum wine",
+          "Rice wine",
+          "Peach wine",
+          "Yuzu sake"
         ],
-        "correct_answer": "Sake",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Plum wine",
+        "difficulty": "hard"
       },
       {
         "id": "foo_031",
@@ -56218,18 +56196,16 @@
       {
         "id": "foo_229",
         "category": "Food",
-        "subcategory": "Ingredients",
-        "question": "What type of cheese is traditionally used on pizza Margherita?",
+        "subcategory": "Cheese",
+        "question": "What Italian cheese consists of a mozzarella shell filled with cream and soft curd?",
         "options": [
+          "Burrata",
           "Ricotta",
-          "Parmesan",
-          "Mozzarella",
-          "Provolone"
+          "Provolone",
+          "Scamorza"
         ],
-        "correct_answer": "Mozzarella",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Burrata",
+        "difficulty": "medium"
       },
       {
         "id": "foo_230",
@@ -57354,18 +57330,16 @@
       {
         "id": "foo_300",
         "category": "Food",
-        "subcategory": "Cooking",
-        "question": "What is the French term for cooking vegetables in their own juices over low heat?",
+        "subcategory": "Cooking Techniques",
+        "question": "What cooking method involves slowly cooking food submerged in liquid at low temperature over a long period?",
         "options": [
-          "Blanching",
-          "Sautéing",
-          "Sweating",
-          "Poaching"
+          "Braising",
+          "Searing",
+          "Roasting",
+          "Grilling"
         ],
-        "correct_answer": "Sweating",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Braising",
+        "difficulty": "easy"
       }
     ]
   }

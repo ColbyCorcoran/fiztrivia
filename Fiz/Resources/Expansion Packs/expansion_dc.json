@@ -3633,8 +3633,8 @@
       "options": [
         "Talia al Ghul",
         "Selina Kyle",
-        "Catwoman",
-        "Diana Prince"
+        "Diana Prince",
+        "Shiva"
       ],
       "correct_answer": "Talia al Ghul",
       "difficulty": "medium"
@@ -4189,14 +4189,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "What emotion does the Orange Lantern ring represent?",
+      "question": "What emotion powers the Orange Lantern ring wielded by Larfleeze?",
       "options": [
-        "Greed",
-        "Avarice",
-        "Both A and B",
-        "Gluttony"
+        "Willpower",
+        "Avarice (greed)",
+        "Rage",
+        "Fear"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Avarice (greed)",
       "difficulty": "medium"
     },
     {
@@ -5825,10 +5825,10 @@
       "options": [
         "Dick Grayson",
         "Tim Drake",
-        "Jean-Paul Valley (Azrael)",
+        "Jean-Paul Valley",
         "Alfred Pennyworth"
       ],
-      "correct_answer": "Jean-Paul Valley (Azrael)",
+      "correct_answer": "Jean-Paul Valley",
       "difficulty": "hard"
     },
     {
@@ -6224,11 +6224,11 @@
       "question": "Who is the anti-hero known as the Red Hood in current continuity?",
       "options": [
         "Jason Todd",
-        "Joker",
-        "Both have been Red Hood",
-        "Arsenal"
+        "The Joker",
+        "Roy Harper",
+        "Dick Grayson"
       ],
-      "correct_answer": "Both have been Red Hood",
+      "correct_answer": "Jason Todd",
       "difficulty": "medium"
     },
     {

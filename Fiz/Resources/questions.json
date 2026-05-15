@@ -9175,12 +9175,12 @@
         "id": "lit_299",
         "category": "Literature",
         "subcategory": "Authors & Biography",
-        "question": "Which author's middle name was Conan, not a pen name?",
+        "question": "Which British author, who created Sherlock Holmes, also wrote the adventure novel 'The Lost World' featuring Professor Challenger?",
         "options": [
-          "Arthur Conan Doyle",
+          "H.G. Wells",
           "Robert E. Howard",
           "Conan O'Brien",
-          "Arthur Conan"
+          "Arthur Conan Doyle"
         ],
         "correct_answer": "Arthur Conan Doyle",
         "difficulty": "medium",
@@ -9271,15 +9271,15 @@
         "id": "lit_305",
         "category": "Literature",
         "subcategory": "Authors & Biography",
-        "question": "Which author duo wrote as 'Nicci French'?",
+        "question": "Under what joint pen name does the married couple Nicci Gerrard and Sean French publish their psychological thriller series?",
         "options": [
-          "Nicole French and Sean Gerrard",
-          "Nicci Gerrard and Sean French",
-          "Nicola French",
-          "Nicci Harris and David French"
+          "Gerrard-French",
+          "Nicci French",
+          "Sean Nicci",
+          "French & Gerrard"
         ],
-        "correct_answer": "Nicci Gerrard and Sean French",
-        "difficulty": "medium",
+        "correct_answer": "Nicci French",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -15995,14 +15995,14 @@
         "id": "tec_125",
         "category": "Technology",
         "subcategory": "Computers & Software",
-        "question": "Which sorting algorithm has the best average-case time complexity?",
+        "question": "Which sorting algorithms both achieve the best average-case time complexity of O(n log n)?",
         "options": [
           "Insertion Sort",
           "Bubble Sort",
           "Selection Sort",
-          "Merge Sort and Quick Sort)"
+          "Merge Sort and Quick Sort"
         ],
-        "correct_answer": "Merge Sort and Quick Sort)",
+        "correct_answer": "Merge Sort and Quick Sort",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -17659,14 +17659,14 @@
         "id": "tec_229",
         "category": "Technology",
         "subcategory": "Tech Companies",
-        "question": "What was the original name of Apple's tablet before 'iPad'?",
+        "question": "In what year did Apple release the first iPad, launching its modern tablet product line?",
         "options": [
-          "iPad was the original name",
-          "iSlate",
-          "iTablet",
-          "Newton"
+          "2008",
+          "2009",
+          "2010",
+          "2011"
         ],
-        "correct_answer": "iPad was the original name",
+        "correct_answer": "2010",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -18635,7 +18635,7 @@
         "id": "tec_291",
         "category": "Technology",
         "subcategory": "Inventions",
-        "question": "Who invented the battery (voltaic pile)?",
+        "question": "Which Italian physicist invented the first electrochemical battery in 1800, demonstrating that electricity could be generated from a chemical reaction?",
         "options": [
           "Michael Faraday",
           "Luigi Galvani",
@@ -24847,14 +24847,14 @@
         "id": "geo_059",
         "category": "Geography",
         "subcategory": "World Geography",
-        "question": "Which strait separates Europe from Africa?",
+        "question": "Which narrow body of water separates Alaska from Russia at its closest point, only 55 miles wide?",
         "options": [
-          "Strait of Malacca",
-          "Bosphorus Strait",
-          "Strait of Hormuz",
-          "Strait of Gibraltar"
+          "Davis Strait",
+          "Cook Inlet",
+          "Bering Strait",
+          "Hecate Strait"
         ],
-        "correct_answer": "Strait of Gibraltar",
+        "correct_answer": "Bering Strait",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -25583,15 +25583,15 @@
         "id": "geo_105",
         "category": "Geography",
         "subcategory": "Maps & Borders",
-        "question": "What is the only tripoint where three continents meet?",
+        "question": "What is the name of the single point in the American Southwest where the corners of Utah, Colorado, New Mexico, and Arizona all meet?",
         "options": [
-          "Suez",
-          "There is no such point",
-          "Bering Strait",
-          "Sinai Peninsula"
+          "Corner Stone",
+          "Quad Point",
+          "Cross Point",
+          "Four Corners"
         ],
-        "correct_answer": "There is no such point",
-        "difficulty": "hard",
+        "correct_answer": "Four Corners",
+        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
@@ -25727,14 +25727,14 @@
         "id": "geo_114",
         "category": "Geography",
         "subcategory": "Maps & Borders",
-        "question": "Which country has a quadripoint with Namibia, Zambia, Zimbabwe, and Botswana?",
+        "question": "Which small landlocked kingdom in Southern Africa, formerly called Swaziland, is surrounded by South Africa and Mozambique?",
         "options": [
-          "Mozambique",
-          "South Africa",
-          "Angola",
-          "None - it's a near-quadripoint"
+          "Lesotho",
+          "Eswatini",
+          "Malawi",
+          "Djibouti"
         ],
-        "correct_answer": "None - it's a near-quadripoint",
+        "correct_answer": "Eswatini",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -50249,15 +50249,15 @@
         "id": "bib_330",
         "category": "Bible",
         "subcategory": "Biblical History",
-        "question": "What garden did God create for Adam and Eve?",
+        "question": "In Genesis, which two special trees stood at the center of the Garden of Eden?",
         "options": [
-          "Garden of Eden",
-          "Garden of Olives",
-          "Garden of Gethsemane",
-          "Hanging Gardens"
+          "Tree of Wisdom and Tree of Life",
+          "Tree of Life and Tree of Knowledge of Good and Evil",
+          "Fig Tree and Pomegranate Tree",
+          "Palm Tree and Cedar of Lebanon"
         ],
-        "correct_answer": "Garden of Eden",
-        "difficulty": "easy",
+        "correct_answer": "Tree of Life and Tree of Knowledge of Good and Evil",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -54507,14 +54507,14 @@
         "id": "foo_122",
         "category": "Food",
         "subcategory": "Dishes & Cuisines",
-        "question": "What is the Caribbean dish of spiced chicken?",
+        "question": "What signature Jamaican cooking style uses allspice, scotch bonnet peppers, and a slow smoking technique to produce a distinctive spiced meat dish?",
         "options": [
           "Fricassee",
-          "Stewed chicken",
-          "Curry chicken",
-          "Jerk chicken"
+          "Stewed",
+          "Curry",
+          "Jerk"
         ],
-        "correct_answer": "Jerk chicken",
+        "correct_answer": "Jerk",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -56171,12 +56171,12 @@
         "id": "foo_226",
         "category": "Food",
         "subcategory": "Ingredients",
-        "question": "What fermented soybean paste is dissolved in dashi broth to make a staple Japanese breakfast soup?",
+        "question": "What Japanese fermented condiment, dissolved in dashi broth with tofu and seaweed, is the key ingredient in a traditional Japanese breakfast soup?",
         "options": [
           "Soy sauce",
-          "Rice",
-          "Seaweed",
-          "Miso paste"
+          "Miso paste",
+          "Rice wine",
+          "Seaweed extract"
         ],
         "correct_answer": "Miso paste",
         "difficulty": "easy",

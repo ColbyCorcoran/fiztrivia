@@ -1852,14 +1852,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Animated Classics",
-      "question": "What color dress does Aurora wear most of the movie?",
+      "question": "What alias does Aurora use while hiding in the forest in 'Sleeping Beauty'?",
       "options": [
-        "Pink",
-        "Yellow",
-        "Blue",
-        "White"
+        "Rosalind",
+        "Briar Rose",
+        "Flora",
+        "Lily"
       ],
-      "correct_answer": "Blue",
+      "correct_answer": "Briar Rose",
       "difficulty": "medium"
     },
     {
@@ -2636,14 +2636,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Animated Classics",
-      "question": "What is the only Disney animated film with a G rating in the 2000s?",
+      "question": "Which Disney animated feature was the first produced entirely using digital ink and paint (CAPS)?",
       "options": [
-        "Frozen",
-        "Tangled",
-        "Big Hero 6",
-        "Winnie the Pooh"
+        "The Little Mermaid",
+        "Beauty and the Beast",
+        "The Rescuers Down Under",
+        "Aladdin"
       ],
-      "correct_answer": "Winnie the Pooh",
+      "correct_answer": "The Rescuers Down Under",
       "difficulty": "hard"
     },
     {
@@ -3244,14 +3244,14 @@
       "subcategory": "Animation",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Characters",
-      "question": "What is the name of Scrooge McDuck's rival?",
+      "question": "Who is Scrooge McDuck's main billionaire rival in DuckTales?",
       "options": [
-        "Flintheart Glomgold",
         "John D. Rockerduck",
         "Magica De Spell",
-        "All of these"
+        "Flintheart Glomgold",
+        "Ludwig Von Drake"
       ],
-      "correct_answer": "All of these",
+      "correct_answer": "Flintheart Glomgold",
       "difficulty": "medium"
     },
     {
@@ -4364,14 +4364,14 @@
       "subcategory": "Film & TV",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Songs",
-      "question": "Who wrote the music for 'Coco'?",
+      "question": "Who wrote the songs for 'Coco'?",
       "options": [
         "Lin-Manuel Miranda",
         "Alan Menken",
         "Randy Newman",
-        "Kristen Anderson-Lopez, Robert Lopez, and Germaine Franco"
+        "Kristen Anderson-Lopez and Robert Lopez"
       ],
-      "correct_answer": "Kristen Anderson-Lopez, Robert Lopez, and Germaine Franco",
+      "correct_answer": "Kristen Anderson-Lopez and Robert Lopez",
       "difficulty": "medium"
     },
     {
@@ -4600,10 +4600,10 @@
     },
     {
       "id": "dsn_paid_320",
-      "category": "Music",
-      "subcategory": "Film & TV",
+      "category": "Entertainment",
+      "subcategory": "Animation",
       "topic": "com.fiz.pack.disney",
-      "subtopic": "Songs",
+      "subtopic": "Animated Classics",
       "question": "In 'Beauty and the Beast', who leads the villagers in a mob against the Beast?",
       "options": [
         "Gaston",
@@ -5788,14 +5788,14 @@
       "subcategory": "Landmarks & Monuments",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Parks",
-      "question": "Which Disney World attraction features a rollercoaster inside a yeti-themed mountain?",
+      "question": "How many 'happy haunts' does the Haunted Mansion claim to contain?",
       "options": [
-        "Big Thunder Mountain",
-        "Seven Dwarfs Mine Train",
-        "Expedition Everest",
-        "Splash Mountain"
+        "100",
+        "666",
+        "999",
+        "1,000"
       ],
-      "correct_answer": "Expedition Everest",
+      "correct_answer": "999",
       "difficulty": "medium"
     },
     {
@@ -7068,14 +7068,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Live Action",
-      "question": "Who plays Mufasa in the 2019 Lion King?",
+      "question": "Who voices Timon in the 2019 'The Lion King'?",
       "options": [
+        "Seth Rogen",
+        "Billy Eichner",
         "Donald Glover",
-        "James Earl Jones",
-        "Chiwetel Ejiofor",
-        "Billy Eichner"
+        "Chiwetel Ejiofor"
       ],
-      "correct_answer": "James Earl Jones",
+      "correct_answer": "Billy Eichner",
       "difficulty": "easy"
     },
     {
@@ -7388,14 +7388,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Live Action",
-      "question": "What is the name of the ship in 'Pirates of the Caribbean'?",
+      "question": "Who plays Will Turner in 'Pirates of the Caribbean'?",
       "options": [
-        "The Flying Dutchman",
-        "The Black Pearl",
-        "The Interceptor",
-        "The Queen Anne's Revenge"
+        "Johnny Depp",
+        "Geoffrey Rush",
+        "Orlando Bloom",
+        "Jack Davenport"
       ],
-      "correct_answer": "The Black Pearl",
+      "correct_answer": "Orlando Bloom",
       "difficulty": "easy"
     },
     {
@@ -7404,14 +7404,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Live Action",
-      "question": "Which Disney Channel movie features a magical remote control?",
+      "question": "Which Disney Channel Original Movie features a magical remote control?",
       "options": [
         "High School Musical",
-        "Click/Pixel Perfect/other",
+        "Pixel Perfect",
         "Camp Rock",
-        "None"
+        "Zenon: Girl of the 21st Century"
       ],
-      "correct_answer": "Click/Pixel Perfect/other",
+      "correct_answer": "Pixel Perfect",
       "difficulty": "easy"
     },
     {
@@ -7468,14 +7468,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.disney",
       "subtopic": "Live Action",
-      "question": "Which Disney movie features a flying car?",
+      "question": "Which Disney movie features a substance called Flubber that makes a car fly?",
       "options": [
-        "Herbie",
-        "Chitty Chitty Bang/Flubber",
+        "Herbie: Fully Loaded",
+        "Flubber",
         "Bedknobs and Broomsticks",
-        "Mary Poppins"
+        "The Love Bug"
       ],
-      "correct_answer": "Chitty Chitty Bang/Flubber",
+      "correct_answer": "Flubber",
       "difficulty": "easy"
     },
     {

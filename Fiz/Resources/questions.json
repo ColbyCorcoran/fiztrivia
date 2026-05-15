@@ -24847,14 +24847,14 @@
         "id": "geo_059",
         "category": "Geography",
         "subcategory": "World Geography",
-        "question": "Which narrow body of water separates Alaska from Russia at its closest point, only 55 miles wide?",
+        "question": "Which narrow waterway connecting the Mediterranean Sea and the Red Sea allows ships to travel between Europe and Asia without rounding Africa?",
         "options": [
-          "Davis Strait",
-          "Cook Inlet",
-          "Bering Strait",
-          "Hecate Strait"
+          "English Channel",
+          "Strait of Malacca",
+          "Strait of Hormuz",
+          "Suez Canal"
         ],
-        "correct_answer": "Bering Strait",
+        "correct_answer": "Suez Canal",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -24863,14 +24863,14 @@
         "id": "geo_060",
         "category": "Geography",
         "subcategory": "World Geography",
-        "question": "What is the world's largest hot desert?",
+        "question": "Which desert, located in Chile, is considered the driest non-polar desert on Earth, receiving virtually no rainfall?",
         "options": [
           "Arabian Desert",
           "Gobi Desert",
-          "Kalahari Desert",
-          "Sahara Desert"
+          "Namib Desert",
+          "Atacama Desert"
         ],
-        "correct_answer": "Sahara Desert",
+        "correct_answer": "Atacama Desert",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -27791,15 +27791,15 @@
         "id": "geo_243",
         "category": "Geography",
         "subcategory": "Landmarks & Monuments",
-        "question": "What ancient wonder is located in Egypt?",
+        "question": "Which Egyptian archaeological site, featuring pharaonic tombs decorated with intricate paintings, was hidden in cliffs for thousands of years?",
         "options": [
-          "Hanging Gardens",
-          "Great Pyramid of Giza",
-          "Colossus of Rhodes",
-          "Lighthouse of Alexandria"
+          "Karnak Temple",
+          "Valley of the Kings",
+          "The Sphinx",
+          "Abu Simbel"
         ],
-        "correct_answer": "Great Pyramid of Giza",
-        "difficulty": "easy",
+        "correct_answer": "Valley of the Kings",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -48601,14 +48601,14 @@
         "id": "bib_048",
         "category": "Bible",
         "subcategory": "Biblical Theology",
-        "question": "What is the study of end times called in theology?",
+        "question": "What theological term refers to the branch of Christian doctrine that studies how humans receive salvation through Jesus Christ?",
         "options": [
+          "Ecclesiology",
+          "Pneumatology",
           "Christology",
-          "Soteriology",
-          "Eschatology",
-          "Pneumatology"
+          "Soteriology"
         ],
-        "correct_answer": "Eschatology",
+        "correct_answer": "Soteriology",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -48665,14 +48665,14 @@
         "id": "bib_052",
         "category": "Bible",
         "subcategory": "Biblical Theology",
-        "question": "What is the term for God becoming human in Jesus Christ?",
+        "question": "What theological term describes the belief that Jesus Christ has two complete natures — fully divine and fully human — united in one person?",
         "options": [
-          "Incarnation",
-          "Ascension",
-          "Resurrection",
-          "Transfiguration"
+          "Trinitarianism",
+          "Adoptionism",
+          "Kenosis",
+          "Hypostatic union"
         ],
-        "correct_answer": "Incarnation",
+        "correct_answer": "Hypostatic union",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -50009,15 +50009,15 @@
         "id": "bib_288",
         "category": "Bible",
         "subcategory": "Bible Languages",
-        "question": "What does 'Messiah' mean?",
+        "question": "What does the original Hebrew name 'Yeshua,' the name given to Jesus at birth, literally mean in English?",
         "options": [
-          "King",
-          "Lord",
-          "Anointed One",
-          "Savior"
+          "Son of God",
+          "God saves",
+          "Lamb of God",
+          "Prince of Peace"
         ],
-        "correct_answer": "Anointed One",
-        "difficulty": "medium",
+        "correct_answer": "God saves",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -50073,15 +50073,15 @@
         "id": "bib_292",
         "category": "Bible",
         "subcategory": "Biblical History",
-        "question": "What empire conquered Judah and destroyed the temple in 586 BC?",
+        "question": "Which Persian king issued the decree allowing the Jewish exiles to return from Babylon to rebuild Jerusalem and its temple?",
         "options": [
-          "Persian",
-          "Assyrian",
-          "Babylonian",
-          "Greek"
+          "Darius I",
+          "Xerxes",
+          "Artaxerxes",
+          "Cyrus the Great"
         ],
-        "correct_answer": "Babylonian",
-        "difficulty": "easy",
+        "correct_answer": "Cyrus the Great",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -50217,14 +50217,14 @@
         "id": "bib_328",
         "category": "Bible",
         "subcategory": "Biblical History",
-        "question": "What sea did Moses part?",
+        "question": "What miraculous food did God provide for the Israelites to eat daily during their 40 years of wandering in the wilderness?",
         "options": [
-          "Red Sea",
-          "Sea of Galilee",
-          "Mediterranean Sea",
-          "Dead Sea"
+          "Bread and fish",
+          "Quail and grain",
+          "Manna",
+          "Honey and dates"
         ],
-        "correct_answer": "Red Sea",
+        "correct_answer": "Manna",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -50313,14 +50313,14 @@
         "id": "bib_334",
         "category": "Bible",
         "subcategory": "Biblical History",
-        "question": "How many plagues did God send on Egypt?",
+        "question": "What was the tenth and final plague God sent upon Egypt, which finally convinced Pharaoh to release the Israelites?",
         "options": [
-          "7",
-          "40",
-          "12",
-          "10"
+          "Locusts covering the land",
+          "Three days of darkness",
+          "Boils on all Egyptians",
+          "Death of the firstborn"
         ],
-        "correct_answer": "10",
+        "correct_answer": "Death of the firstborn",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -50473,14 +50473,14 @@
         "id": "bib_345",
         "category": "Bible",
         "subcategory": "Biblical History",
-        "question": "What year did the Babylonian exile begin?",
+        "question": "Which Babylonian king ordered the conquest of Jerusalem and the deportation of the Jewish people to Babylon?",
         "options": [
-          "605 BC",
-          "536 BC",
-          "586 BC",
-          "722 BC"
+          "Sennacherib",
+          "Tiglath-Pileser",
+          "Sargon II",
+          "Nebuchadnezzar II"
         ],
-        "correct_answer": "586 BC",
+        "correct_answer": "Nebuchadnezzar II",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -50633,15 +50633,15 @@
         "id": "bib_355",
         "category": "Bible",
         "subcategory": "Biblical History",
-        "question": "Who rebuilt the walls of Jerusalem?",
+        "question": "What was Nehemiah's official role in the Persian royal court before he returned to Jerusalem to rebuild its walls?",
         "options": [
-          "Zerubbabel",
-          "Joshua",
-          "Ezra",
-          "Nehemiah"
+          "Chief scribe",
+          "High priest",
+          "Governor of Judah",
+          "Cupbearer to King Artaxerxes"
         ],
-        "correct_answer": "Nehemiah",
-        "difficulty": "medium",
+        "correct_answer": "Cupbearer to King Artaxerxes",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -51497,14 +51497,14 @@
         "id": "bib_410",
         "category": "Bible",
         "subcategory": "Biblical Theology",
-        "question": "What is the theological term for God's undeserved favor?",
+        "question": "What theological term describes the ongoing process by which Christians are transformed and made holy through the work of the Holy Spirit?",
         "options": [
-          "Mercy",
-          "Kindness",
-          "Love",
-          "Grace"
+          "Justification",
+          "Glorification",
+          "Reconciliation",
+          "Sanctification"
         ],
-        "correct_answer": "Grace",
+        "correct_answer": "Sanctification",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -52185,14 +52185,14 @@
         "id": "bib_459",
         "category": "Bible",
         "subcategory": "Bible Languages",
-        "question": "What does 'Eli, Eli, lema sabachthani' mean?",
+        "question": "What did Jesus promise the repentant thief crucified beside him when the thief asked to be remembered in Christ's kingdom?",
         "options": [
-          "It is finished",
-          "Into your hands",
-          "Father, forgive them",
-          "My God, my God, why have you forsaken me?"
+          "'Your sins are forgiven'",
+          "'Today you will be with me in paradise'",
+          "'You shall see the Father'",
+          "'Go in peace'"
         ],
-        "correct_answer": "My God, my God, why have you forsaken me?",
+        "correct_answer": "'Today you will be with me in paradise'",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -52377,14 +52377,14 @@
         "id": "bib_471",
         "category": "Bible",
         "subcategory": "Bible Languages",
-        "question": "What does 'agape' mean in Greek?",
+        "question": "What does the Greek word 'Logos' refer to in the opening verse of the Gospel of John, translated as 'the Word' in most Bibles?",
         "options": [
-          "Unconditional love",
-          "Friendship",
-          "Romantic love",
-          "Family love"
+          "God's wisdom",
+          "Divine reason",
+          "Jesus Christ, the eternal Word",
+          "Sacred scripture"
         ],
-        "correct_answer": "Unconditional love",
+        "correct_answer": "Jesus Christ, the eternal Word",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null

@@ -1741,7 +1741,7 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Characters",
-      "question": "What is the name of the CEO of Dunder Mifflin?",
+      "question": "What is the name of the CFO of Dunder Mifflin?",
       "options": [
         "Charles Miner",
         "David Wallace",
@@ -3144,14 +3144,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Trivia",
-      "question": "What is Jim's prank with nicknames?",
+      "question": "In which office item does Jim famously encase Dwight's stapler?",
       "options": [
-        "Calls Dwight names",
-        "Pranks Andy",
-        "Calls Jim 'Big Tuna'",
-        "Renames everyone"
+        "Cement",
+        "Jell-O",
+        "Ice",
+        "Peanut butter"
       ],
-      "correct_answer": "Calls Jim 'Big Tuna'",
+      "correct_answer": "Jell-O",
       "difficulty": "easy"
     },
     {
@@ -3223,14 +3223,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Trivia",
-      "question": "What is the office known for?",
+      "question": "How many seasons did The Office (US) run?",
       "options": [
-        "Being boring",
-        "High sales",
-        "Paper sales and antics",
-        "Professional environment"
+        "7 seasons",
+        "8 seasons",
+        "10 seasons",
+        "9 seasons"
       ],
-      "correct_answer": "Paper sales and antics",
+      "correct_answer": "9 seasons",
       "difficulty": "easy"
     },
     {
@@ -3334,14 +3334,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Relationships",
-      "question": "Who has an office romance?",
+      "question": "Who is Michael Scott in a toxic on-and-off relationship with for multiple seasons?",
       "options": [
-        "Just Jim and Pam",
-        "Nobody",
-        "Multiple couples",
-        "Only Angela and Dwight"
+        "Holly Flax",
+        "Carol Stills",
+        "Jan Levinson",
+        "Donna Newton"
       ],
-      "correct_answer": "Multiple couples",
+      "correct_answer": "Jan Levinson",
       "difficulty": "easy"
     },
     {

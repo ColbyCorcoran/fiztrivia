@@ -621,14 +621,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Relationships",
-      "question": "Who is Angela Martin in a relationship with for most of the series?",
+      "question": "Who is Angela Martin's primary love interest throughout most of the series?",
       "options": [
-        "Kevin",
-        "Oscar",
-        "Ryan",
-        "Dwight and Andy"
+        "Kevin Malone",
+        "Oscar Martinez",
+        "Andy Bernard",
+        "Dwight Schrute"
       ],
-      "correct_answer": "Dwight and Andy",
+      "correct_answer": "Dwight Schrute",
       "difficulty": "easy"
     },
     {
@@ -1629,15 +1629,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Quotes",
-      "question": "What does Dwight say about beets?",
+      "question": "Who owns the office building where Dunder Mifflin Scranton is located?",
       "options": [
-        "Beets are the best",
-        "I love beets",
-        "Beets, bears, battle",
-        "Bears, beets, Battlestar Galactica"
+        "David Wallace",
+        "Bob Vance",
+        "Michael Scott",
+        "Dwight Schrute"
       ],
-      "correct_answer": "Bears, beets, Battlestar Galactica",
-      "difficulty": "easy"
+      "correct_answer": "Dwight Schrute",
+      "difficulty": "hard"
     },
     {
       "id": "off_paid_072",
@@ -3702,14 +3702,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Characters",
-      "question": "What is Andy's anger issue?",
+      "question": "What happens to Andy's regional manager position while he is away on his sailing trip in Season 9?",
       "options": [
-        "No issues",
-        "Depression",
-        "Anger management problems",
-        "Anxiety"
+        "He keeps it",
+        "Dwight Schrute takes over",
+        "Jim Halpert takes over",
+        "Nellie Bertram takes over"
       ],
-      "correct_answer": "Anger management problems",
+      "correct_answer": "Nellie Bertram takes over",
       "difficulty": "medium"
     },
     {
@@ -4291,15 +4291,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Locations",
-      "question": "Where do salespeople go?",
+      "question": "In which US state was The Office actually filmed, despite the show being set in Pennsylvania?",
       "options": [
-        "Client meetings",
-        "Nowhere",
-        "Home",
-        "Warehouse"
+        "Pennsylvania",
+        "New York",
+        "Connecticut",
+        "California"
       ],
-      "correct_answer": "Client meetings",
-      "difficulty": "medium"
+      "correct_answer": "California",
+      "difficulty": "hard"
     },
     {
       "id": "off_paid_242",
@@ -4499,15 +4499,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Relationships",
-      "question": "Who has secret relationships?",
+      "question": "In the series finale, which couple impulsively runs away together, abandoning their current partners?",
       "options": [
+        "Jim and Karen",
         "Oscar and the Senator",
-        "Nobody",
-        "Everyone",
-        "Jim and Pam"
+        "Phyllis and Darryl",
+        "Ryan and Kelly"
       ],
-      "correct_answer": "Oscar and the Senator",
-      "difficulty": "medium"
+      "correct_answer": "Ryan and Kelly",
+      "difficulty": "hard"
     },
     {
       "id": "off_paid_255",

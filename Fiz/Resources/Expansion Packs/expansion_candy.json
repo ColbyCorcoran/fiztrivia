@@ -52,14 +52,14 @@
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
-      "question": "Which candy is made primarily from sugar and corn syrup boiled to a hard, brittle state?",
+      "question": "Which candy consists of a caramel-filled cup wrapped in a chocolate shell, popular in the UK and US?",
       "options": [
-        "Caramel",
-        "Hard candy",
-        "Fudge",
-        "Taffy"
+        "Caramello",
+        "Rolo",
+        "Milk Duds",
+        "Sugar Daddy"
       ],
-      "correct_answer": "Hard candy",
+      "correct_answer": "Rolo",
       "difficulty": "easy"
     },
     {
@@ -84,14 +84,14 @@
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
-      "question": "What candy brand is famous for its colorful button-shaped chocolates that 'melt in your mouth, not in your hand'?",
+      "question": "Which color M&M mascot is portrayed as clumsy, simple-minded, and easily frightened?",
       "options": [
-        "Skittles",
-        "M&M's",
-        "Smarties",
-        "Reese's Pieces"
+        "Red",
+        "Yellow",
+        "Green",
+        "Blue"
       ],
-      "correct_answer": "M&M's",
+      "correct_answer": "Yellow",
       "difficulty": "easy"
     },
     {
@@ -260,14 +260,14 @@
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Ingredients & Making",
-      "question": "What color is white chocolate?",
+      "question": "Approximately how many cocoa beans does it take to produce one pound of chocolate?",
       "options": [
-        "White or ivory",
-        "Brown",
-        "Pink",
-        "Yellow"
+        "About 100 beans",
+        "About 400 beans",
+        "About 1,000 beans",
+        "About 2,000 beans"
       ],
-      "correct_answer": "White or ivory",
+      "correct_answer": "About 400 beans",
       "difficulty": "easy"
     },
     {
@@ -388,14 +388,14 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What shape are conversation hearts typically sold in on Valentine's Day?",
+      "question": "What is the brand name of the iconic heart-shaped Valentine's Day candy printed with short messages?",
       "options": [
-        "Heart-shaped",
-        "Circle-shaped",
-        "Square-shaped",
-        "Star-shaped"
+        "Candy Hearts",
+        "Sweethearts",
+        "Love Bites",
+        "NECCO Hearts"
       ],
-      "correct_answer": "Heart-shaped",
+      "correct_answer": "Sweethearts",
       "difficulty": "easy"
     },
     {
@@ -550,14 +550,14 @@
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
-      "question": "Which popular Halloween candy features three colors: white, orange, and yellow?",
+      "question": "What are the primary flavor notes that give candy corn its distinctive taste?",
       "options": [
-        "Jellybeans",
-        "Candy corn",
-        "Skittles",
-        "Gummy worms"
+        "Caramel and chocolate",
+        "Honey, sugar, and vanilla",
+        "Pumpkin spice",
+        "Cinnamon and butter"
       ],
-      "correct_answer": "Candy corn",
+      "correct_answer": "Honey, sugar, and vanilla",
       "difficulty": "easy"
     },
     {
@@ -598,14 +598,14 @@
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
-      "question": "What is the main ingredient that gives marshmallows their fluffy texture?",
+      "question": "What gives Peeps marshmallow candies their distinctive bright colors?",
       "options": [
-        "Gelatin",
-        "Butter",
-        "Flour",
-        "Baking soda"
+        "Sugar crystals",
+        "Food coloring",
+        "Natural fruit juice",
+        "Caramelized sugar"
       ],
-      "correct_answer": "Gelatin",
+      "correct_answer": "Food coloring",
       "difficulty": "easy"
     },
     {
@@ -790,14 +790,14 @@
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
-      "question": "What is the main ingredient in traditional Turkish Delight?",
+      "question": "What distinguishes butterscotch from caramel in terms of ingredients?",
       "options": [
-        "Gelatin",
-        "Starch",
-        "Chocolate",
-        "Nuts"
+        "They are the same thing",
+        "Butterscotch uses brown sugar; caramel uses white sugar",
+        "Butterscotch contains cream; caramel does not",
+        "Caramel is cooked at higher temperature"
       ],
-      "correct_answer": "Starch",
+      "correct_answer": "Butterscotch uses brown sugar; caramel uses white sugar",
       "difficulty": "medium"
     },
     {
@@ -934,14 +934,14 @@
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
-      "question": "What makes gummy bears chewy?",
+      "question": "What is the name of the chewy fruit candy sold in flat ribbon strips, known for its jokes on the wrapper?",
       "options": [
-        "Corn syrup",
-        "Gelatin",
-        "Pectin",
-        "Starch"
+        "Starburst",
+        "Laffy Taffy",
+        "Airheads",
+        "Fruit Stripe Gum"
       ],
-      "correct_answer": "Gelatin",
+      "correct_answer": "Laffy Taffy",
       "difficulty": "medium"
     },
     {
@@ -1094,14 +1094,14 @@
       "subcategory": "Ingredients",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Candy Types",
-      "question": "What temperature range defines the 'hard crack' stage used for making lollipops and hard candies?",
+      "question": "What temperature range defines the 'soft ball' stage in candy making, used for fudge and fondant?",
       "options": [
-        "250-266°F",
-        "270-290°F",
-        "300-310°F",
-        "320-350°F"
+        "220-230°F (104-110°C)",
+        "234-240°F (112-116°C)",
+        "244-248°F (118-120°C)",
+        "250-266°F (121-130°C)"
       ],
-      "correct_answer": "300-310°F",
+      "correct_answer": "234-240°F (112-116°C)",
       "difficulty": "hard"
     },
     {
@@ -1254,14 +1254,14 @@
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
       "subtopic": "History & Origins",
-      "question": "In what year were M&M's first introduced to the public?",
+      "question": "In what year was the Jolly Rancher candy brand first introduced in Golden, Colorado?",
       "options": [
-        "1935",
-        "1941",
-        "1948",
-        "1955"
+        "1944",
+        "1949",
+        "1955",
+        "1961"
       ],
-      "correct_answer": "1941",
+      "correct_answer": "1949",
       "difficulty": "medium"
     },
     {
@@ -1798,14 +1798,14 @@
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
       "subtopic": "History & Origins",
-      "question": "Which candy was specifically requested by the U.S. military to be included in soldiers' rations during World War II because it wouldn't melt?",
+      "question": "Which candy was designed in 1941 with a hard sugar shell specifically so it could be shipped to soldiers overseas without melting?",
       "options": [
-        "Hershey's Chocolate",
         "Tootsie Rolls",
-        "Life Savers",
-        "Jolly Ranchers"
+        "Hershey's Tropical Chocolate",
+        "M&M's",
+        "Life Savers"
       ],
-      "correct_answer": "Tootsie Rolls",
+      "correct_answer": "M&M's",
       "difficulty": "easy"
     },
     {
@@ -1926,14 +1926,14 @@
       "subcategory": "Food History",
       "topic": "com.fiz.pack.candy",
       "subtopic": "History & Origins",
-      "question": "Which candy bar was created as an affordable treat during the Great Depression, selling for 5 cents?",
+      "question": "When the Three Musketeers bar was first sold in 1932, it contained three separate bars of what flavors?",
       "options": [
-        "Snickers",
-        "Milky Way",
-        "Both Snickers and Milky Way",
-        "Hershey's Bar"
+        "Chocolate, caramel, and peanut",
+        "Chocolate, vanilla, and strawberry",
+        "Just chocolate and nougat",
+        "Chocolate, lemon, and orange"
       ],
-      "correct_answer": "Both Snickers and Milky Way",
+      "correct_answer": "Chocolate, vanilla, and strawberry",
       "difficulty": "medium"
     },
     {
@@ -2342,14 +2342,14 @@
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Ingredients & Making",
-      "question": "What chemical reaction occurs when making caramel from sugar?",
+      "question": "What compounds found in dark chocolate have been studied for potential cardiovascular health benefits?",
       "options": [
-        "Caramelization",
-        "Maillard reaction",
-        "Fermentation",
-        "Oxidation"
+        "Caffeine",
+        "Flavonoids",
+        "Tannins",
+        "Magnesium"
       ],
-      "correct_answer": "Caramelization",
+      "correct_answer": "Flavonoids",
       "difficulty": "medium"
     },
     {

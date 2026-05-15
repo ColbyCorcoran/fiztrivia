@@ -9817,14 +9817,14 @@
         "id": "mus_016",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "Who composed the music for Pirates of the Caribbean?",
+        "question": "Who composed the orchestral score for 'Gone with the Wind' (1939), considered one of the greatest film scores of Hollywood's Golden Age?",
         "options": [
-          "Klaus Badelt",
-          "John Williams",
-          "Hans Zimmer",
-          "Both A and C"
+          "Bernard Herrmann",
+          "Ennio Morricone",
+          "Max Steiner",
+          "Franz Waxman"
         ],
-        "correct_answer": "Both A and C",
+        "correct_answer": "Max Steiner",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -15227,15 +15227,15 @@
         "id": "tec_077",
         "category": "Technology",
         "subcategory": "Video Games",
-        "question": "Which game was the first to use motion capture technology?",
+        "question": "Which 1993 first-person shooter by id Software popularized the FPS genre and is widely regarded as the father of modern multiplayer gaming?",
         "options": [
           "Alone in the Dark",
           "Mortal Kombat",
           "Prince of Persia",
-          "Virtua Fighter"
+          "Doom"
         ],
-        "correct_answer": "Prince of Persia",
-        "difficulty": "hard",
+        "correct_answer": "Doom",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -15979,14 +15979,14 @@
         "id": "tec_124",
         "category": "Technology",
         "subcategory": "Computers & Software",
-        "question": "What was the first commercially available computer with a GUI?",
+        "question": "What was the first widely commercially successful personal computer featuring a graphical user interface and mouse?",
         "options": [
           "Apple Macintosh",
           "Commodore Amiga",
           "IBM PC",
           "Xerox Alto"
         ],
-        "correct_answer": "Xerox Alto",
+        "correct_answer": "Apple Macintosh",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -17019,14 +17019,14 @@
         "id": "tec_189",
         "category": "Technology",
         "subcategory": "Internet & Social Media",
-        "question": "In what year did Mark Zuckerberg launch 'TheFacebook' from his Harvard dorm room?",
+        "question": "In what year did Facebook first open its platform to anyone aged 13 or older, expanding beyond college students?",
         "options": [
-          "2002",
-          "2003",
           "2004",
-          "2005"
+          "2005",
+          "2006",
+          "2007"
         ],
-        "correct_answer": "2004",
+        "correct_answer": "2006",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -17979,7 +17979,7 @@
         "id": "tec_249",
         "category": "Technology",
         "subcategory": "Tech Companies",
-        "question": "Which company did Facebook acquire along with WhatsApp in 2014?",
+        "question": "What virtual reality company did Facebook acquire for approximately $2 billion in 2014, the same year it purchased WhatsApp?",
         "options": [
           "Messenger",
           "Instagram",
@@ -29521,14 +29521,14 @@
         "id": "spt_063",
         "category": "Sports",
         "subcategory": "Team Sports",
-        "question": "Which NFL team has won the most Super Bowls?",
+        "question": "Which two NFL franchises are tied with the most Super Bowl victories, each winning six championships?",
         "options": [
-          "San Francisco 49ers",
-          "New England Patriots",
-          "Pittsburgh Steelers",
-          "Both A and B"
+          "Cowboys and 49ers",
+          "Patriots and Chiefs",
+          "49ers and Raiders",
+          "New England Patriots and Pittsburgh Steelers"
         ],
-        "correct_answer": "Both A and B",
+        "correct_answer": "New England Patriots and Pittsburgh Steelers",
         "difficulty": "medium",
         "topic": "com.fiz.pack.football",
         "subtopic": null
@@ -30321,14 +30321,14 @@
         "id": "spt_150",
         "category": "Sports",
         "subcategory": "International Competition",
-        "question": "What is the Olympic motto?",
+        "question": "What colors are the five interlocking rings of the Olympic symbol?",
         "options": [
-          "Citius, Altius, Fortius",
-          "Faster, Higher, Stronger",
-          "Unity, Peace, Excellence",
-          "Both A and B"
+          "Red, white, blue, gold, and silver",
+          "Blue, yellow, black, green, and red",
+          "Red, green, blue, white, and gold",
+          "Black, blue, red, gold, and white"
         ],
-        "correct_answer": "Both A and B",
+        "correct_answer": "Blue, yellow, black, green, and red",
         "difficulty": "medium",
         "topic": "com.fiz.pack.olympics",
         "subtopic": null
@@ -31073,7 +31073,7 @@
         "id": "spt_297",
         "category": "Sports",
         "subcategory": "International Competition",
-        "question": "Which player scored the fastest hat-trick in World Cup history?",
+        "question": "Which Swiss player scored the fastest hat-trick in FIFA Women's World Cup history, netting three goals in 15 minutes against Ecuador in 2015?",
         "options": [
           "Geoff Hurst",
           "Carli Lloyd",
@@ -31793,15 +31793,15 @@
         "id": "spt_368",
         "category": "Sports",
         "subcategory": "Extreme & Action Sports",
-        "question": "Who was the first woman to land a 1080 in skateboarding?",
+        "question": "Which British-Japanese skateboarder won the gold medal in women's park skateboarding at the Tokyo 2020 Olympics?",
         "options": [
-          "Sky Brown",
+          "Sakura Yosozumi",
+          "Kokona Hiraki",
           "Lizzie Armanto",
-          "Leticia Bufoni",
-          "Gui Khury"
+          "Sky Brown"
         ],
-        "correct_answer": "Gui Khury",
-        "difficulty": "hard",
+        "correct_answer": "Sky Brown",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -38147,15 +38147,15 @@
         "id": "sci_290",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is plasma?",
+        "question": "What is the name of the fourth state of matter, consisting of ionized gas found in stars, lightning, and plasma screens?",
         "options": [
-          "The fourth state of matter",
-          "Ionized gas",
-          "A type of liquid",
-          "Both A and B"
+          "Ether",
+          "Condensate",
+          "Dark matter",
+          "Plasma"
         ],
-        "correct_answer": "Both A and B",
-        "difficulty": "hard",
+        "correct_answer": "Plasma",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -38821,15 +38821,15 @@
         "id": "nat_091",
         "category": "Nature",
         "subcategory": "Animals & Wildlife",
-        "question": "What do you call a baby horse?",
+        "question": "What do you call a baby horse in its first year of life?",
         "options": [
           "Foal",
           "Pony",
           "Colt",
-          "Both A and B"
+          "Yearling"
         ],
-        "correct_answer": "Both A and B",
-        "difficulty": "medium",
+        "correct_answer": "Foal",
+        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
@@ -41173,14 +41173,14 @@
         "id": "nat_152",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What do we call the juice that comes from maple trees?",
+        "question": "What is the raw sugary liquid tapped directly from maple trees before boiling or processing?",
         "options": [
           "Maple syrup",
           "Tree sap",
           "Maple water",
-          "Both A and B"
+          "Maple juice"
         ],
-        "correct_answer": "Both A and B",
+        "correct_answer": "Tree sap",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -42341,15 +42341,15 @@
         "id": "nat_146",
         "category": "Nature",
         "subcategory": "Weather",
-        "question": "What do we call a storm with rotating winds?",
+        "question": "What do we call a violent rotating funnel of air that extends from a thunderstorm cloud to touch the ground?",
         "options": [
           "Tornado",
           "Blizzard",
           "Hurricane",
-          "Both A and B"
+          "Cyclone"
         ],
-        "correct_answer": "Both A and B",
-        "difficulty": "medium",
+        "correct_answer": "Tornado",
+        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
@@ -44711,14 +44711,14 @@
         "id": "his_102",
         "category": "History",
         "subcategory": "Church History",
-        "question": "What was the name of the first Christian university?",
+        "question": "Which medieval European university, founded in 1088 in Italy, is considered the oldest continuously operating university in the world?",
         "options": [
-          "Constantinople",
-          "Bologna",
           "Sorbonne",
-          "Oxford"
+          "University of Bologna",
+          "Oxford University",
+          "University of Salamanca"
         ],
-        "correct_answer": "Constantinople",
+        "correct_answer": "University of Bologna",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -46647,14 +46647,14 @@
         "id": "his_225",
         "category": "History",
         "subcategory": "Modern History",
-        "question": "What was the Boston Tea Party a protest against?",
+        "question": "Against which specific British policy was the 1773 Boston Tea Party most directly a protest?",
         "options": [
           "High taxes",
           "British rule",
-          "Tea quality",
-          "Both B and C"
+          "Tea trade monopoly",
+          "Taxation without representation"
         ],
-        "correct_answer": "Both B and C",
+        "correct_answer": "Taxation without representation",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -55659,14 +55659,14 @@
         "id": "foo_194",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "What restaurant holds the record for the most Michelin stars ever awarded?",
+        "question": "Which French chef, known as the 'chef of the century,' built the most Michelin-starred restaurant empire in history with 32 stars at his peak?",
         "options": [
-          "Noma",
-          "El Bulli",
-          "Per Se",
-          "The French Laundry"
+          "Gordon Ramsay",
+          "Alain Ducasse",
+          "Paul Bocuse",
+          "Joël Robuchon"
         ],
-        "correct_answer": "El Bulli",
+        "correct_answer": "Joël Robuchon",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -57195,14 +57195,14 @@
         "id": "foo_290",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "Which European country first popularized French fries?",
+        "question": "Which Belgian city gives its name to the deep-pocketed yeast-leavened waffle served with toppings like whipped cream and strawberries?",
         "options": [
-          "Netherlands",
-          "France",
-          "Belgium",
-          "Germany"
+          "Bruges",
+          "Ghent",
+          "Antwerp",
+          "Brussels"
         ],
-        "correct_answer": "Belgium",
+        "correct_answer": "Brussels",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -57211,14 +57211,14 @@
         "id": "foo_291",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "What was the first food eaten on the moon by astronauts?",
+        "question": "What private ceremony did Buzz Aldrin perform on the lunar surface during Apollo 11, making it perhaps the most unusual religious act in history?",
         "options": [
-          "Crackers",
-          "Space ice cream",
-          "Tang",
-          "Freeze-dried fruit"
+          "Said a prayer aloud",
+          "Read from the Bible",
+          "Took communion",
+          "Buried a cross"
         ],
-        "correct_answer": "Freeze-dried fruit",
+        "correct_answer": "Took communion",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null

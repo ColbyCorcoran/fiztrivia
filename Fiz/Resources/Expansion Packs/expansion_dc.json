@@ -1965,14 +1965,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "Who directed the 2017 Justice League movie?",
+      "question": "What was the popular fan nickname for Zack Snyder's director's cut of Justice League before its 2021 release?",
       "options": [
-        "Zack Snyder",
-        "Joss Whedon",
-        "Both",
-        "Neither"
+        "The Snyder Cut",
+        "Director's Justice League",
+        "The True Justice League",
+        "Snyder's Vision"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "The Snyder Cut",
       "difficulty": "medium"
     },
     {
@@ -2221,14 +2221,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies",
-      "question": "What is the real name of Martian Manhunter?",
+      "question": "What is Martian Manhunter's Martian birth name?",
       "options": [
         "J'onn J'onzz",
         "John Jones",
-        "Both A and B",
-        "Neither"
+        "M'yrnn J'onzz",
+        "J'emm J'axx"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "J'onn J'onzz",
       "difficulty": "hard"
     },
     {
@@ -2381,14 +2381,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What gives Superman his powers?",
+      "question": "What type of solar radiation is the primary source of Superman's powers on Earth?",
       "options": [
-        "Earth's yellow sun",
-        "Kryptonian DNA",
-        "Both A and B",
-        "Magic"
+        "Red sun radiation",
+        "Yellow sun radiation",
+        "Cosmic rays",
+        "Gamma radiation"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Yellow sun radiation",
       "difficulty": "medium"
     },
     {
@@ -2829,14 +2829,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "Who is Ra's al Ghul's daughter?",
+      "question": "Which of Ra's al Ghul's daughters leads a rival faction that directly opposes her father's League of Assassins?",
       "options": [
         "Talia al Ghul",
         "Nyssa al Ghul",
-        "Both A and B",
-        "Neither"
+        "Leila al Ghul",
+        "Dusan al Ghul"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Nyssa al Ghul",
       "difficulty": "hard"
     },
     {
@@ -3053,15 +3053,15 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "Who played Shazam in the DCEU films?",
+      "question": "Which actor played the adult superhero form of Shazam in the 2019 DCEU film?",
       "options": [
         "Zachary Levi",
         "Asher Angel",
-        "Both A and B",
-        "Neither"
+        "Dwayne Johnson",
+        "Jack Dylan Grazer"
       ],
-      "correct_answer": "Both A and B",
-      "difficulty": "medium"
+      "correct_answer": "Zachary Levi",
+      "difficulty": "easy"
     },
     {
       "id": "dcu_191",
@@ -3101,14 +3101,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What organization does Bruce Wayne run as his day job?",
+      "question": "What is the name of Bruce Wayne's primary philanthropic charitable organization?",
       "options": [
+        "Wayne Foundation",
         "Wayne Enterprises",
-        "Wayne Industries",
-        "Wayne Corp",
-        "All refer to the same"
+        "Bruce Wayne Fund",
+        "Gotham Trust"
       ],
-      "correct_answer": "All refer to the same",
+      "correct_answer": "Wayne Foundation",
       "difficulty": "medium"
     },
     {
@@ -3485,14 +3485,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What is the source of Black Adam's powers?",
+      "question": "Unlike Shazam who draws on Greek legends, Black Adam's powers are granted by six figures from which ancient civilization?",
       "options": [
-        "Egyptian gods",
-        "Greek gods",
-        "Magic",
-        "Both A and C"
+        "Ancient Greece",
+        "Ancient Egypt",
+        "Ancient Rome",
+        "Ancient Mesopotamia"
       ],
-      "correct_answer": "Both A and C",
+      "correct_answer": "Ancient Egypt",
       "difficulty": "medium"
     },
     {
@@ -3885,14 +3885,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "Who founded the Justice League in most versions?",
+      "question": "In the classic DC Comics continuity, how many heroes are recognized as the original founding members of the Justice League?",
       "options": [
-        "Superman",
-        "Batman",
-        "Wonder Woman",
-        "All founding members together"
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
       ],
-      "correct_answer": "All founding members together",
+      "correct_answer": "Seven",
       "difficulty": "medium"
     },
     {
@@ -4205,14 +4205,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "Who is the main villain in Shazam?",
+      "question": "In the original Fawcett/DC Comics, which bald mad scientist is Billy Batson's most persistent arch-enemy?",
       "options": [
         "Black Adam",
-        "Dr. Sivana",
-        "Both are major villains",
-        "Mr. Mind"
+        "Doctor Sivana",
+        "Mr. Mind",
+        "Sabbac"
       ],
-      "correct_answer": "Both are major villains",
+      "correct_answer": "Doctor Sivana",
       "difficulty": "medium"
     },
     {
@@ -4253,14 +4253,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "Who is the arch-enemy of the Teen Titans?",
+      "question": "In the 2003 animated Teen Titans series, which masked villain serves as the team's primary antagonist in Season 1?",
       "options": [
-        "Deathstroke",
         "Trigon",
+        "Slade",
         "Brother Blood",
-        "All are major enemies"
+        "Terra"
       ],
-      "correct_answer": "All are major enemies",
+      "correct_answer": "Slade",
       "difficulty": "medium"
     },
     {
@@ -4941,14 +4941,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "Who is the main villain in Wonder Woman 1984?",
+      "question": "In Wonder Woman 1984, what ancient wish-granting artifact drives the film's central conflict?",
       "options": [
-        "Cheetah",
-        "Maxwell Lord",
-        "Both",
-        "Ares"
+        "Dreamstone",
+        "Philosopher's Stone",
+        "Wishing Well",
+        "Magic Lamp"
       ],
-      "correct_answer": "Both",
+      "correct_answer": "Dreamstone",
       "difficulty": "medium"
     },
     {
@@ -5773,14 +5773,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "What major DC Comics event rebooted the universe in 2011?",
+      "question": "What Geoff Johns storyline directly triggered the 'New 52' reboot of the DC Universe in 2011?",
       "options": [
         "Flashpoint",
-        "Crisis on Infinite Earths",
-        "New 52",
-        "Both A and C"
+        "Final Crisis",
+        "Infinite Crisis",
+        "Zero Hour"
       ],
-      "correct_answer": "Both A and C",
+      "correct_answer": "Flashpoint",
       "difficulty": "medium"
     },
     {
@@ -6093,14 +6093,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What team consists of reformed villains led by Amanda Waller?",
+      "question": "What is the official government designation for the covert team known publicly as the Suicide Squad?",
       "options": [
-        "Suicide Squad",
         "Task Force X",
-        "Both names for same team",
-        "Redemption Squad"
+        "Operation Deadshot",
+        "Black Cell",
+        "Project Cadmus"
       ],
-      "correct_answer": "Both names for same team",
+      "correct_answer": "Task Force X",
       "difficulty": "easy"
     },
     {
@@ -6173,14 +6173,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "Who is the main antagonist of the Injustice storyline?",
+      "question": "In the Injustice: Gods Among Us storyline, which hero becomes a ruthless dictator after the Joker tricks him into a devastating act?",
       "options": [
+        "Batman",
         "Superman",
-        "Joker",
-        "Both are major antagonists",
-        "Batman"
+        "Wonder Woman",
+        "Green Lantern"
       ],
-      "correct_answer": "Both are major antagonists",
+      "correct_answer": "Superman",
       "difficulty": "medium"
     },
     {
@@ -6413,14 +6413,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "What is the name of the alternate universe where heroes are villains?",
+      "question": "In DC's multiverse, what is the Earth designation for the universe where the roles of heroes and villains are reversed?",
       "options": [
+        "Earth-1",
         "Earth-3",
-        "Bizarro World",
-        "Crime Syndicate Earth",
-        "All refer to it"
+        "Earth-2",
+        "Earth-51"
       ],
-      "correct_answer": "All refer to it",
+      "correct_answer": "Earth-3",
       "difficulty": "medium"
     }
   ],

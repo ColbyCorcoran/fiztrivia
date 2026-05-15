@@ -35437,17 +35437,15 @@
         "id": "sci_124",
         "category": "Science",
         "subcategory": "Biology",
-        "question": "What do bees collect from flowers?",
+        "question": "What sweet liquid do bees collect from flowers to produce honey?",
         "options": [
-          "Water",
           "Nectar",
           "Pollen",
-          "Both B and C"
+          "Sap",
+          "Dew"
         ],
-        "correct_answer": "Both B and C",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Nectar",
+        "difficulty": "easy"
       },
       {
         "id": "sci_125",
@@ -49570,18 +49568,16 @@
       {
         "id": "bib_246",
         "category": "Bible",
-        "subcategory": "Bible Trivia",
-        "question": "In the book of Daniel, what were the names of Daniel's three friends who were thrown into the fiery furnace?",
+        "subcategory": "Old Testament Events",
+        "question": "What were the Babylonian names of Daniel's three friends who were thrown into the fiery furnace in Nebuchadnezzar's kingdom?",
         "options": [
           "Shadrach, Meshach, and Abednego",
           "Hananiah, Mishael, and Azariah",
           "Belteshazzar, Shadrach, and Meshach",
-          "Both A and B"
+          "Jehoiakim, Zedekiah, and Baruch"
         ],
-        "correct_answer": "Both A and B",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Shadrach, Meshach, and Abednego",
+        "difficulty": "medium"
       },
       {
         "id": "bib_247",

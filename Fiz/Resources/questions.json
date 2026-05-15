@@ -1125,15 +1125,15 @@
         "id": "ent_072",
         "category": "Entertainment",
         "subcategory": "Action/Adventure",
-        "question": "What is the name of the island where Jurassic Park is located?",
+        "question": "What game warden, responsible for Jurassic Park's safety, is killed by Velociraptors during the dinosaur breakout?",
         "options": [
-          "Isla Sorna",
-          "Isla Pena",
-          "Isla Nublar",
-          "Isla Muerta"
+          "Dennis Nedry",
+          "Ray Arnold",
+          "Donald Gennaro",
+          "Robert Muldoon"
         ],
-        "correct_answer": "Isla Nublar",
-        "difficulty": "medium",
+        "correct_answer": "Robert Muldoon",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -3845,15 +3845,15 @@
         "id": "ent_242",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "Who plays Ellen Ripley in Alien?",
+        "question": "In Alien, what parasite attaches to a host's face and implants a xenomorph embryo inside them?",
         "options": [
-          "Linda Hamilton",
-          "Sigourney Weaver",
-          "Carrie Fisher",
-          "Jamie Lee Curtis"
+          "Chestburster",
+          "Alien Queen",
+          "Xenomorph",
+          "Facehugger"
         ],
-        "correct_answer": "Sigourney Weaver",
-        "difficulty": "easy",
+        "correct_answer": "Facehugger",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -3893,15 +3893,15 @@
         "id": "ent_245",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the time machine in Doctor Who?",
+        "question": "In Doctor Who, what alien species is the Doctor, known for their ability to regenerate and travel through time?",
         "options": [
-          "Time Turner",
-          "TARDIS",
-          "DeLorean",
-          "Sonic Screwdriver"
+          "Cyberman",
+          "Dalek",
+          "Time Lord",
+          "Silurian"
         ],
-        "correct_answer": "TARDIS",
-        "difficulty": "easy",
+        "correct_answer": "Time Lord",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -4085,15 +4085,15 @@
         "id": "ent_257",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the ship in Alien?",
+        "question": "Who plays the android Bishop in the 1986 James Cameron sequel Aliens?",
         "options": [
-          "Covenant",
-          "Prometheus",
-          "Nostromo",
-          "Sulaco"
+          "Bill Paxton",
+          "Paul Reiser",
+          "Michael Biehn",
+          "Lance Henriksen"
         ],
-        "correct_answer": "Nostromo",
-        "difficulty": "easy",
+        "correct_answer": "Lance Henriksen",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -4261,15 +4261,15 @@
         "id": "ent_269",
         "category": "Entertainment",
         "subcategory": "Sci-Fi/Fantasy",
-        "question": "What is the name of the AI computer in 2001: A Space Odyssey?",
+        "question": "What Strauss tone poem accompanies the dawn-of-humanity sequence that opens '2001: A Space Odyssey'?",
         "options": [
-          "HAL 9000",
-          "JARVIS",
-          "VIKI",
-          "Skynet"
+          "The Blue Danube",
+          "Moonlight Sonata",
+          "Also Sprach Zarathustra",
+          "Ride of the Valkyries"
         ],
-        "correct_answer": "HAL 9000",
-        "difficulty": "medium",
+        "correct_answer": "Also Sprach Zarathustra",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -9593,14 +9593,14 @@
         "id": "mus_002",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "Which composer is famous for the Star Wars theme?",
+        "question": "What 1975 Queen song blends rock, opera, and ballad styles in a nearly six-minute operatic epic?",
         "options": [
-          "Hans Zimmer",
-          "Alan Silvestri",
-          "Howard Shore",
-          "John Williams"
+          "Radio Ga Ga",
+          "We Are the Champions",
+          "Don't Stop Me Now",
+          "Bohemian Rhapsody"
         ],
-        "correct_answer": "John Williams",
+        "correct_answer": "Bohemian Rhapsody",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -9609,15 +9609,15 @@
         "id": "mus_003",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "Who composed the music for Jaws?",
+        "question": "Which jazz singer, nicknamed the 'Velvet Fog,' is best known for his silky interpretation of 'The Christmas Song'?",
         "options": [
-          "James Horner",
-          "Danny Elfman",
-          "Hans Zimmer",
-          "John Williams"
+          "Frank Sinatra",
+          "Tony Bennett",
+          "Nat King Cole",
+          "Mel Tormé"
         ],
-        "correct_answer": "John Williams",
-        "difficulty": "medium",
+        "correct_answer": "Mel Tormé",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -10089,15 +10089,15 @@
         "id": "mus_033",
         "category": "Music",
         "subcategory": "Film & TV",
-        "question": "What TV show features the Rembrandts' 'I'll Be There for You'?",
+        "question": "Which singer-songwriter wrote and originally recorded the 1988 folk-rock hit 'Fast Car'?",
         "options": [
-          "Seinfeld",
-          "Friends",
-          "Cheers",
-          "Frasier"
+          "Sheryl Crow",
+          "Joan Armatrading",
+          "Tracy Chapman",
+          "Bonnie Raitt"
         ],
-        "correct_answer": "Friends",
-        "difficulty": "easy",
+        "correct_answer": "Tracy Chapman",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -27567,15 +27567,15 @@
         "id": "geo_229",
         "category": "Geography",
         "subcategory": "Flags",
-        "question": "Which country's flag features the Dharmachakra wheel?",
+        "question": "In which US state is Mammoth Cave, the world's longest known cave system, located?",
         "options": [
-          "India",
-          "Mongolia",
-          "Bhutan",
-          "Tibet"
+          "Tennessee",
+          "Missouri",
+          "Virginia",
+          "Kentucky"
         ],
-        "correct_answer": "India",
-        "difficulty": "hard",
+        "correct_answer": "Kentucky",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -27967,15 +27967,15 @@
         "id": "geo_254",
         "category": "Geography",
         "subcategory": "Landmarks & Monuments",
-        "question": "Where are the carved faces of Mount Rushmore?",
+        "question": "Which Central American country permanently abolished its military in 1948, becoming the first nation to do so constitutionally?",
         "options": [
-          "Wyoming",
-          "North Dakota",
-          "Montana",
-          "South Dakota"
+          "Panama",
+          "El Salvador",
+          "Guatemala",
+          "Costa Rica"
         ],
-        "correct_answer": "South Dakota",
-        "difficulty": "easy",
+        "correct_answer": "Costa Rica",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -30881,15 +30881,15 @@
         "id": "spt_285",
         "category": "Sports",
         "subcategory": "International Competition",
-        "question": "Which athlete has won the most Olympic gold medals overall?",
+        "question": "In which Olympic sport would an athlete perform the 'snatch' and the 'clean and jerk'?",
         "options": [
-          "Paavo Nurmi",
-          "Usain Bolt",
-          "Michael Phelps",
-          "Carl Lewis"
+          "Powerlifting",
+          "Wrestling",
+          "Gymnastics",
+          "Weightlifting"
         ],
-        "correct_answer": "Michael Phelps",
-        "difficulty": "medium",
+        "correct_answer": "Weightlifting",
+        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
@@ -31937,15 +31937,15 @@
         "id": "spt_377",
         "category": "Sports",
         "subcategory": "Sports History & Records",
-        "question": "Who holds the record for most Olympic gold medals?",
+        "question": "Which country has won the most Summer Olympic gold medals in history?",
         "options": [
-          "Mark Spitz",
-          "Michael Phelps",
-          "Carl Lewis",
-          "Usain Bolt"
+          "Russia",
+          "China",
+          "Great Britain",
+          "United States"
         ],
-        "correct_answer": "Michael Phelps",
-        "difficulty": "easy",
+        "correct_answer": "United States",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -33265,15 +33265,15 @@
         "id": "spt_461",
         "category": "Sports",
         "subcategory": "Athletes & Biography",
-        "question": "Who was the first athlete to appear on a Wheaties box?",
+        "question": "What fielding position did Lou Gehrig play for the New York Yankees throughout his career?",
         "options": [
-          "Babe Ruth",
-          "Jack Armstrong",
-          "Lou Gehrig",
-          "Bob Richards"
+          "Second base",
+          "Shortstop",
+          "Third base",
+          "First base"
         ],
-        "correct_answer": "Lou Gehrig",
-        "difficulty": "hard",
+        "correct_answer": "First base",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -35091,15 +35091,15 @@
         "id": "sci_099",
         "category": "Science",
         "subcategory": "Biology",
-        "question": "What molecule carries genetic information?",
+        "question": "What coiled two-stranded structure, discovered by Watson and Crick in 1953, carries an organism's genetic code?",
         "options": [
-          "Protein",
-          "DNA",
-          "RNA",
-          "Lipid"
+          "Triple helix",
+          "Single strand",
+          "Alpha helix",
+          "Double helix"
         ],
-        "correct_answer": "DNA",
-        "difficulty": "easy",
+        "correct_answer": "Double helix",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -35123,15 +35123,15 @@
         "id": "sci_101",
         "category": "Science",
         "subcategory": "Biology",
-        "question": "What is the name of the molecule that carries genetic information?",
+        "question": "What molecular building blocks do ribosomes link together in sequence to form proteins inside cells?",
         "options": [
-          "Lipid",
-          "RNA",
-          "Protein",
-          "DNA"
+          "Nucleotides",
+          "Fatty acids",
+          "Monosaccharides",
+          "Amino acids"
         ],
-        "correct_answer": "DNA",
-        "difficulty": "easy",
+        "correct_answer": "Amino acids",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -35219,15 +35219,15 @@
         "id": "sci_107",
         "category": "Science",
         "subcategory": "Biology",
-        "question": "What pigment gives plants their green color and is essential for photosynthesis?",
+        "question": "What process describes the passive movement of molecules from an area of high concentration to low concentration?",
         "options": [
-          "Carotene",
-          "Chlorophyll",
-          "Xanthophyll",
-          "Anthocyanin"
+          "Osmosis",
+          "Active transport",
+          "Endocytosis",
+          "Diffusion"
         ],
-        "correct_answer": "Chlorophyll",
-        "difficulty": "easy",
+        "correct_answer": "Diffusion",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -36499,15 +36499,15 @@
         "id": "sci_187",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "What makes plants green?",
+        "question": "What is the SI unit for amount of substance, representing approximately 6.02 × 10²³ particles or entities?",
         "options": [
-          "Sunlight",
-          "Chlorophyll",
-          "Water",
-          "Soil"
+          "Kelvin",
+          "Pascal",
+          "Farad",
+          "Mole"
         ],
-        "correct_answer": "Chlorophyll",
-        "difficulty": "medium",
+        "correct_answer": "Mole",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -36595,15 +36595,15 @@
         "id": "sci_193",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "What is the most abundant element in Earth's atmosphere?",
+        "question": "What nuclear process releases enormous energy by splitting a heavy atom's nucleus into lighter fragments?",
         "options": [
-          "Oxygen",
-          "Carbon dioxide",
-          "Nitrogen",
-          "Argon"
+          "Nuclear fusion",
+          "Radioactive decay",
+          "Chain reaction",
+          "Nuclear fission"
         ],
-        "correct_answer": "Nitrogen",
-        "difficulty": "medium",
+        "correct_answer": "Nuclear fission",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -36627,14 +36627,14 @@
         "id": "sci_195",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "What is the main gas in the air we breathe?",
+        "question": "What physical property of a sound wave determines its volume or loudness?",
         "options": [
-          "Hydrogen",
-          "Oxygen",
-          "Carbon dioxide",
-          "Nitrogen"
+          "Frequency",
+          "Wavelength",
+          "Speed",
+          "Amplitude"
         ],
-        "correct_answer": "Nitrogen",
+        "correct_answer": "Amplitude",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -36723,14 +36723,14 @@
         "id": "sci_201",
         "category": "Science",
         "subcategory": "Chemistry",
-        "question": "What is an acid with a pH less than?",
+        "question": "What acid, produced by lactic acid bacteria during fermentation, gives yogurt and sourdough their characteristic sour taste?",
         "options": [
-          "10",
-          "14",
-          "7",
-          "5"
+          "Citric acid",
+          "Acetic acid",
+          "Oxalic acid",
+          "Lactic acid"
         ],
-        "correct_answer": "7",
+        "correct_answer": "Lactic acid",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -37347,15 +37347,15 @@
         "id": "sci_240",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is the force that pulls objects toward Earth?",
+        "question": "What physical property of a sound wave determines whether we perceive the pitch as high or low?",
         "options": [
-          "Friction",
-          "Centripetal force",
-          "Magnetism",
-          "Gravity"
+          "Amplitude",
+          "Wavelength",
+          "Speed",
+          "Frequency"
         ],
-        "correct_answer": "Gravity",
-        "difficulty": "easy",
+        "correct_answer": "Frequency",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -37795,15 +37795,15 @@
         "id": "sci_268",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is the SI unit of force?",
+        "question": "What phenomenon occurs when white light separates into its component colors as it passes through a glass prism?",
         "options": [
-          "Joule",
-          "Pascal",
-          "Watt",
-          "Newton"
+          "Refraction",
+          "Reflection",
+          "Diffraction",
+          "Dispersion"
         ],
-        "correct_answer": "Newton",
-        "difficulty": "medium",
+        "correct_answer": "Dispersion",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -38307,15 +38307,15 @@
         "id": "sci_300",
         "category": "Science",
         "subcategory": "Physics",
-        "question": "What is the unit of force in the International System of Units (SI)?",
+        "question": "What term describes a material that resists or prevents the flow of electrical current, such as rubber or glass?",
         "options": [
-          "Newton",
-          "Joule",
-          "Pascal",
-          "Watt"
+          "Conductor",
+          "Semiconductor",
+          "Resistor",
+          "Insulator"
         ],
-        "correct_answer": "Newton",
-        "difficulty": "hard",
+        "correct_answer": "Insulator",
+        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       }
@@ -40085,15 +40085,15 @@
         "id": "nat_109",
         "category": "Nature",
         "subcategory": "Plants & Flowers",
-        "question": "Which part of the plant grows underground?",
+        "question": "What type of symbiotic relationship benefits both organisms involved, such as the clownfish and sea anemone?",
         "options": [
-          "Roots",
-          "Flowers",
-          "Stem",
-          "Leaves"
+          "Commensalism",
+          "Parasitism",
+          "Predation",
+          "Mutualism"
         ],
-        "correct_answer": "Roots",
-        "difficulty": "easy",
+        "correct_answer": "Mutualism",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -40853,15 +40853,15 @@
         "id": "nat_050",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What part of the tree takes in water?",
+        "question": "What tiny hair-like extensions from root cells dramatically increase a plant's surface area for absorbing water and minerals?",
         "options": [
-          "Trunk",
-          "Leaves",
-          "Roots",
-          "Branches"
+          "Rhizomes",
+          "Lateral roots",
+          "Mycorrhizae",
+          "Root hairs"
         ],
-        "correct_answer": "Roots",
-        "difficulty": "easy",
+        "correct_answer": "Root hairs",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -41125,15 +41125,15 @@
         "id": "nat_140",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What do we call trees that lose all their leaves in winter?",
+        "question": "What term describes a leaf arrangement where leaflets are aligned on both sides of a central stalk, resembling a feather?",
         "options": [
-          "Coniferous",
-          "Deciduous",
-          "Perennial",
-          "Evergreen"
+          "Palmate",
+          "Cordate",
+          "Lobed",
+          "Pinnate"
         ],
-        "correct_answer": "Deciduous",
-        "difficulty": "medium",
+        "correct_answer": "Pinnate",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -41205,15 +41205,15 @@
         "id": "nat_185",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What type of tree loses its leaves in autumn?",
+        "question": "Which mammal lays eggs, has a duck-like bill, a beaver-like tail, and venomous spurs on its hind legs?",
         "options": [
-          "Coniferous",
-          "Tropical",
-          "Deciduous",
-          "Evergreen"
+          "Echidna",
+          "Quoll",
+          "Wombat",
+          "Platypus"
         ],
-        "correct_answer": "Deciduous",
-        "difficulty": "medium",
+        "correct_answer": "Platypus",
+        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
@@ -41541,14 +41541,14 @@
         "id": "nat_248",
         "category": "Nature",
         "subcategory": "Trees",
-        "question": "What is the fastest-growing tree species?",
+        "question": "What is the world's largest rodent, a semi-aquatic mammal from South America often found near rivers and lakes?",
         "options": [
-          "Eucalyptus",
-          "Bamboo",
-          "Poplar",
-          "Willow"
+          "Beaver",
+          "Marmot",
+          "Nutria",
+          "Capybara"
         ],
-        "correct_answer": "Bamboo",
+        "correct_answer": "Capybara",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -42293,15 +42293,15 @@
         "id": "nat_121",
         "category": "Nature",
         "subcategory": "Weather",
-        "question": "What do we call frozen rain that bounces?",
+        "question": "What dangerous aviation weather phenomenon involves a sudden change in wind speed or direction over a very short distance?",
         "options": [
-          "Sleet",
-          "Ice",
-          "Hail",
-          "Snow"
+          "Microburst",
+          "Turbulence",
+          "Clear air turbulence",
+          "Wind shear"
         ],
-        "correct_answer": "Sleet",
-        "difficulty": "medium",
+        "correct_answer": "Wind shear",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -42517,14 +42517,14 @@
         "id": "nat_208",
         "category": "Nature",
         "subcategory": "Weather",
-        "question": "What is the name of the phenomenon when rain freezes before hitting the ground?",
+        "question": "What type of precipitation forms as layers of ice accumulate inside a thunderstorm cloud before falling to the ground?",
         "options": [
-          "Graupel",
-          "Freezing rain",
           "Sleet",
+          "Freezing rain",
+          "Snow pellets",
           "Hail"
         ],
-        "correct_answer": "Sleet",
+        "correct_answer": "Hail",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -44615,14 +44615,14 @@
         "id": "his_096",
         "category": "History",
         "subcategory": "Church History",
-        "question": "In what year did the Great Schism occur, splitting the Eastern and Western churches?",
+        "question": "What 14th-15th century crisis in the Catholic Church saw multiple rival claimants simultaneously declare themselves the true pope?",
         "options": [
-          "1096",
-          "1204",
-          "1054",
-          "1066"
+          "Investiture Controversy",
+          "Great Schism",
+          "Protestant Reformation",
+          "Western Schism"
         ],
-        "correct_answer": "1054",
+        "correct_answer": "Western Schism",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -45527,14 +45527,14 @@
         "id": "his_153",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What year did the Battle of Hastings take place?",
+        "question": "What comprehensive land survey commissioned by William the Conqueror in 1086 documented English landholdings and resources?",
         "options": [
-          "1086",
-          "1099",
-          "1066",
-          "1087"
+          "Magna Carta",
+          "Bayeux Tapestry",
+          "Book of Kells",
+          "Domesday Book"
         ],
-        "correct_answer": "1066",
+        "correct_answer": "Domesday Book",
         "difficulty": "medium",
         "topic": null,
         "subtopic": null
@@ -46087,14 +46087,14 @@
         "id": "his_188",
         "category": "History",
         "subcategory": "Medieval History",
-        "question": "What year did the Great Schism split the Christian church into East and West?",
+        "question": "During which period (1309–1377) did the papacy relocate from Rome to Avignon, France, under French political influence?",
         "options": [
-          "1066",
-          "1095",
-          "1054",
-          "1204"
+          "Papal Inquisition",
+          "Great Schism",
+          "Concordat of Worms",
+          "Avignon Papacy"
         ],
-        "correct_answer": "1054",
+        "correct_answer": "Avignon Papacy",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -50393,14 +50393,14 @@
         "id": "bib_340",
         "category": "Bible",
         "subcategory": "Biblical History",
-        "question": "What king built the first temple in Jerusalem?",
+        "question": "Which Old Testament prophet was taken to heaven in a chariot of fire without experiencing death?",
         "options": [
-          "Saul",
-          "Hezekiah",
-          "David",
-          "Solomon"
+          "Elisha",
+          "Moses",
+          "Enoch",
+          "Elijah"
         ],
-        "correct_answer": "Solomon",
+        "correct_answer": "Elijah",
         "difficulty": "easy",
         "topic": null,
         "subtopic": null
@@ -51001,15 +51001,15 @@
         "id": "bib_378",
         "category": "Bible",
         "subcategory": "Biblical Theology",
-        "question": "What does the word 'Messiah' mean?",
+        "question": "Which woman anointed Jesus's feet with costly perfume at a dinner in Bethany, drawing Judas's criticism about wasted money?",
         "options": [
-          "Prophet",
-          "King",
-          "Anointed One",
-          "Savior"
+          "Mary Magdalene",
+          "Martha",
+          "Salome",
+          "Mary of Bethany"
         ],
-        "correct_answer": "Anointed One",
-        "difficulty": "easy",
+        "correct_answer": "Mary of Bethany",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -51913,15 +51913,15 @@
         "id": "bib_439",
         "category": "Bible",
         "subcategory": "Bible Languages",
-        "question": "What does 'Christ' mean in Greek?",
+        "question": "How many letters in the New Testament are traditionally attributed to the apostle Paul?",
         "options": [
-          "Lord",
-          "Savior",
-          "Anointed One",
-          "King"
+          "7",
+          "10",
+          "13",
+          "15"
         ],
-        "correct_answer": "Anointed One",
-        "difficulty": "easy",
+        "correct_answer": "13",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },
@@ -53547,15 +53547,15 @@
         "id": "foo_062",
         "category": "Food",
         "subcategory": "Cooking",
-        "question": "What cooking technique involves submerging food in vacuum-sealed bags in temperature-controlled water?",
+        "question": "What cooking technique surrounds food with hot dry air in an oven, caramelizing its exterior to develop rich flavors?",
         "options": [
           "Braising",
           "Steaming",
-          "Sous vide",
-          "Poaching"
+          "Poaching",
+          "Roasting"
         ],
-        "correct_answer": "Sous vide",
-        "difficulty": "hard",
+        "correct_answer": "Roasting",
+        "difficulty": "easy",
         "topic": null,
         "subtopic": null
       },
@@ -53595,15 +53595,15 @@
         "id": "foo_065",
         "category": "Food",
         "subcategory": "Cooking",
-        "question": "What is the French term for 'cooked under pressure'?",
+        "question": "What does the French culinary term 'sous vide' literally mean in English?",
         "options": [
-          "En papillote",
-          "Flambé",
-          "Sous vide",
-          "Au gratin"
+          "Under pressure",
+          "Low and slow",
+          "Water bath",
+          "Under vacuum"
         ],
-        "correct_answer": "Sous vide",
-        "difficulty": "hard",
+        "correct_answer": "Under vacuum",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -55339,15 +55339,15 @@
         "id": "foo_174",
         "category": "Food",
         "subcategory": "Food History",
-        "question": "Who is the host of 'Hell's Kitchen'?",
+        "question": "What culinary technique involves simmering a liquid until excess water evaporates, concentrating and intensifying its flavors?",
         "options": [
-          "Gordon Ramsay",
-          "Anthony Bourdain",
-          "Alton Brown",
-          "Jamie Oliver"
+          "Emulsification",
+          "Clarification",
+          "Tempering",
+          "Reduction"
         ],
-        "correct_answer": "Gordon Ramsay",
-        "difficulty": "easy",
+        "correct_answer": "Reduction",
+        "difficulty": "medium",
         "topic": null,
         "subtopic": null
       },
@@ -57003,14 +57003,14 @@
         "id": "foo_278",
         "category": "Food",
         "subcategory": "Cooking",
-        "question": "What ingredient gives Worcestershire sauce its distinctive flavor?",
+        "question": "What firm Italian sheep's milk cheese, often aged in caves near Rome, is commonly grated over pasta as an alternative to Parmesan?",
         "options": [
-          "Vinegar",
-          "Anchovies",
-          "Soy sauce",
-          "Molasses"
+          "Manchego",
+          "Asiago",
+          "Grana Padano",
+          "Pecorino Romano"
         ],
-        "correct_answer": "Anchovies",
+        "correct_answer": "Pecorino Romano",
         "difficulty": "hard",
         "topic": null,
         "subtopic": null
@@ -57323,15 +57323,15 @@
         "id": "foo_298",
         "category": "Food",
         "subcategory": "Dishes & Cuisines",
-        "question": "What is the national dish of Spain made with rice, saffron, and seafood?",
+        "question": "What French culinary term describes the aromatic base of diced onions, celery, and carrots used to flavor stocks and sauces?",
         "options": [
-          "Paella",
-          "Risotto",
-          "Jambalaya",
-          "Biryani"
+          "Soffritto",
+          "Bouquet garni",
+          "Brunoise",
+          "Mirepoix"
         ],
-        "correct_answer": "Paella",
-        "difficulty": "medium",
+        "correct_answer": "Mirepoix",
+        "difficulty": "hard",
         "topic": null,
         "subtopic": null
       },

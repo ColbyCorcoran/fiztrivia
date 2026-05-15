@@ -2406,14 +2406,14 @@
       "subcategory": "Cooking",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Ingredients & Making",
-      "question": "What is the primary acid used to create sour candy coatings?",
+      "question": "What is the purpose of adding glycerin to fondant and soft candy recipes?",
       "options": [
-        "Citric acid",
-        "Acetic acid",
-        "Lactic acid",
-        "Malic acid"
+        "Keep the candy moist and pliable",
+        "Add sweetness",
+        "Prevent crystallization",
+        "Create air bubbles"
       ],
-      "correct_answer": "Citric acid",
+      "correct_answer": "Keep the candy moist and pliable",
       "difficulty": "medium"
     },
     {
@@ -2916,14 +2916,14 @@
       "id": "cnd_181",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
-      "question": "Which British chocolate bar features honeycomb toffee covered in chocolate?",
+      "question": "In what year did Rowntree's introduce Smarties, the candy-coated chocolate buttons, in the United Kingdom?",
       "options": [
-        "Crunchie",
-        "Flake",
-        "Wispa",
-        "Twirl"
+        "1927",
+        "1937",
+        "1945",
+        "1952"
       ],
-      "correct_answer": "Crunchie",
+      "correct_answer": "1937",
       "difficulty": "medium",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Around the World"
@@ -3236,14 +3236,14 @@
       "id": "cnd_201",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
-      "question": "In what year was the first Toblerone bar created?",
+      "question": "In which Swiss municipality, near Zurich, is the Lindt & Sprüngli chocolate factory and Chocolate Museum located?",
       "options": [
-        "1876",
-        "1899",
-        "1908",
-        "1920"
+        "Geneva",
+        "Kilchberg",
+        "Zurich",
+        "Basel"
       ],
-      "correct_answer": "1908",
+      "correct_answer": "Kilchberg",
       "difficulty": "hard",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Around the World"
@@ -3380,14 +3380,14 @@
       "id": "cnd_210",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
-      "question": "What is the traditional starch base used in authentic Turkish Delight?",
+      "question": "Which country supplies approximately 45% of the world's cocoa beans, making it the largest cocoa exporter?",
       "options": [
-        "Wheat starch",
-        "Corn starch",
-        "Rice starch",
-        "Potato starch"
+        "Ghana",
+        "Nigeria",
+        "Ivory Coast (Côte d'Ivoire)",
+        "Ecuador"
       ],
-      "correct_answer": "Corn starch",
+      "correct_answer": "Ivory Coast (Côte d'Ivoire)",
       "difficulty": "hard",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Around the World"
@@ -3526,14 +3526,14 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What holiday traditionally features candy in birthday cakes?",
+      "question": "Which candy company acquired the Sweethearts Conversation Hearts brand after NECCO went bankrupt in 2018?",
       "options": [
-        "Birthdays",
-        "New Year's",
-        "Thanksgiving",
-        "Independence Day"
+        "Mars",
+        "Spangler Candy Company",
+        "Brach's",
+        "Hershey's"
       ],
-      "correct_answer": "Birthdays",
+      "correct_answer": "Spangler Candy Company",
       "difficulty": "easy"
     },
     {
@@ -3782,14 +3782,14 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What was candy corn originally called when it was first created?",
+      "question": "In what year did Mars first trademark the term 'Fun Size' for its smaller Halloween candy bar versions?",
       "options": [
-        "Chicken Feed",
-        "Autumn Corn",
-        "Harvest Candy",
-        "Fall Treats"
+        "1955",
+        "1960",
+        "1968",
+        "1975"
       ],
-      "correct_answer": "Chicken Feed",
+      "correct_answer": "1968",
       "difficulty": "medium"
     },
     {
@@ -3990,14 +3990,14 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What was the first flavor of jellybeans ever created?",
+      "question": "Which U.S. President was well known for keeping a large jar of Jelly Belly jelly beans on his Oval Office desk?",
       "options": [
-        "Unknown, but licorice was among the earliest",
-        "Cherry",
-        "Lemon",
-        "Orange"
+        "Jimmy Carter",
+        "Ronald Reagan",
+        "George H.W. Bush",
+        "Bill Clinton"
       ],
-      "correct_answer": "Unknown, but licorice was among the earliest",
+      "correct_answer": "Ronald Reagan",
       "difficulty": "hard"
     },
     {
@@ -4054,14 +4054,14 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What percentage of parents admit to stealing candy from their children's Halloween haul?",
+      "question": "In what year did Thorntons in the UK set the Guinness World Record for the largest chocolate bar, weighing over 12,770 pounds?",
       "options": [
-        "About 90%",
-        "About 50%",
-        "About 25%",
-        "About 75%"
+        "2008",
+        "2011",
+        "2014",
+        "2017"
       ],
-      "correct_answer": "About 90%",
+      "correct_answer": "2011",
       "difficulty": "hard"
     },
     {
@@ -4086,14 +4086,14 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What temperature must chocolate reach to properly temper for making Valentine's Day chocolates?",
+      "question": "What is the fun fact about candy corn's three colored sections — do the white, orange, and yellow sections taste different?",
       "options": [
-        "88-90°F (31-32°C)",
-        "75-80°F (24-27°C)",
-        "100-105°F (38-41°C)",
-        "65-70°F (18-21°C)"
+        "Yes — each section has a distinct flavor",
+        "No — all three sections have the same honey-vanilla flavor",
+        "Only the white tip has a different flavor",
+        "The yellow base is sweeter than the other sections"
       ],
-      "correct_answer": "88-90°F (31-32°C)",
+      "correct_answer": "No — all three sections have the same honey-vanilla flavor",
       "difficulty": "hard"
     },
     {
@@ -4164,14 +4164,14 @@
       "id": "cnd_259",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "Which candy bar's iconic advertising slogan is \"Give me a break\"?",
+      "question": "Outside the United States, which company manufactures Kit Kat bars under license from Rowntree's?",
       "options": [
-        "Twix",
-        "Kit Kat",
-        "Snickers",
-        "Crunch"
+        "Cadbury",
+        "Nestlé",
+        "Mars",
+        "Ferrero"
       ],
-      "correct_answer": "Kit Kat",
+      "correct_answer": "Nestlé",
       "difficulty": "easy",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Pop Culture"
@@ -4420,14 +4420,14 @@
       "id": "cnd_275",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What was the first M&M color to be retired and later brought back by popular vote?",
+      "question": "Which M&M mascot character, introduced in the 1990s, is portrayed as female and wears white go-go boots?",
       "options": [
         "Red",
-        "Blue",
-        "Tan",
-        "Purple"
+        "Yellow",
+        "Green",
+        "Brown"
       ],
-      "correct_answer": "Red",
+      "correct_answer": "Green",
       "difficulty": "medium",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Pop Culture"
@@ -4452,14 +4452,14 @@
       "id": "cnd_277",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "Which candy brand's long-running advertising campaign featured the tagline \"Taste the Rainbow\"?",
+      "question": "Which candy brand's famous commercials featured the tagline 'Two great tastes that taste great together'?",
       "options": [
-        "M&M's",
-        "Skittles",
-        "Starburst",
-        "Jolly Ranchers"
+        "Snickers",
+        "Kit Kat",
+        "Reese's",
+        "Twix"
       ],
-      "correct_answer": "Skittles",
+      "correct_answer": "Reese's",
       "difficulty": "medium",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Pop Culture"

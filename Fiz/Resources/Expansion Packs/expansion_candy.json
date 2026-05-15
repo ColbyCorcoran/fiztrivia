@@ -696,7 +696,7 @@
       "subtopic": "Candy Types",
       "question": "Which candy brand produces the popular chewy fruit candies called Starburst?",
       "options": [
-        "Nestl\u00e9",
+        "Nestlé",
         "Mars",
         "Hershey's",
         "Ferrero"
@@ -1096,12 +1096,12 @@
       "subtopic": "Candy Types",
       "question": "What temperature range defines the 'hard crack' stage used for making lollipops and hard candies?",
       "options": [
-        "250-266\u00b0F",
-        "270-290\u00b0F",
-        "300-310\u00b0F",
-        "320-350\u00b0F"
+        "250-266°F",
+        "270-290°F",
+        "300-310°F",
+        "320-350°F"
       ],
-      "correct_answer": "300-310\u00b0F",
+      "correct_answer": "300-310°F",
       "difficulty": "hard"
     },
     {
@@ -1338,10 +1338,10 @@
       "options": [
         "Lindt",
         "Toblerone",
-        "Nestl\u00e9",
+        "Nestlé",
         "Suchard"
       ],
-      "correct_answer": "Nestl\u00e9",
+      "correct_answer": "Nestlé",
       "difficulty": "medium"
     },
     {
@@ -1403,7 +1403,7 @@
         "Tootsie Roll Industries",
         "Mars",
         "Hershey's",
-        "Nestl\u00e9"
+        "Nestlé"
       ],
       "correct_answer": "Tootsie Roll Industries",
       "difficulty": "medium"
@@ -1499,7 +1499,7 @@
         "Fry's",
         "Cadbury",
         "Hershey's",
-        "Nestl\u00e9"
+        "Nestlé"
       ],
       "correct_answer": "Fry's",
       "difficulty": "medium"
@@ -2120,12 +2120,12 @@
       "subtopic": "Ingredients & Making",
       "question": "At what temperature does sugar reach the 'hard crack' stage in candy making?",
       "options": [
-        "300-310\u00b0F (149-154\u00b0C)",
-        "220-234\u00b0F (104-112\u00b0C)",
-        "270-290\u00b0F (132-143\u00b0C)",
-        "350-370\u00b0F (177-188\u00b0C)"
+        "300-310°F (149-154°C)",
+        "220-234°F (104-112°C)",
+        "270-290°F (132-143°C)",
+        "350-370°F (177-188°C)"
       ],
-      "correct_answer": "300-310\u00b0F (149-154\u00b0C)",
+      "correct_answer": "300-310°F (149-154°C)",
       "difficulty": "medium"
     },
     {
@@ -2264,12 +2264,12 @@
       "subtopic": "Ingredients & Making",
       "question": "At what temperature range does sugar reach the 'soft crack' stage?",
       "options": [
-        "270-290\u00b0F (132-143\u00b0C)",
-        "230-240\u00b0F (110-116\u00b0C)",
-        "300-310\u00b0F (149-154\u00b0C)",
-        "340-350\u00b0F (171-177\u00b0C)"
+        "270-290°F (132-143°C)",
+        "230-240°F (110-116°C)",
+        "300-310°F (149-154°C)",
+        "340-350°F (171-177°C)"
       ],
-      "correct_answer": "270-290\u00b0F (132-143\u00b0C)",
+      "correct_answer": "270-290°F (132-143°C)",
       "difficulty": "medium"
     },
     {
@@ -2504,12 +2504,12 @@
       "subtopic": "Ingredients & Making",
       "question": "What temperature range is the 'firm ball' stage in candy making?",
       "options": [
-        "244-248\u00b0F (118-120\u00b0C)",
-        "234-240\u00b0F (112-116\u00b0C)",
-        "250-266\u00b0F (121-130\u00b0C)",
-        "270-290\u00b0F (132-143\u00b0C)"
+        "244-248°F (118-120°C)",
+        "234-240°F (112-116°C)",
+        "250-266°F (121-130°C)",
+        "270-290°F (132-143°C)"
       ],
-      "correct_answer": "244-248\u00b0F (118-120\u00b0C)",
+      "correct_answer": "244-248°F (118-120°C)",
       "difficulty": "medium"
     },
     {
@@ -2568,12 +2568,12 @@
       "subtopic": "Ingredients & Making",
       "question": "What is the ideal tempering temperature for dark chocolate when working with it?",
       "options": [
-        "88-90\u00b0F (31-32\u00b0C)",
-        "70-75\u00b0F (21-24\u00b0C)",
-        "100-105\u00b0F (38-41\u00b0C)",
-        "115-120\u00b0F (46-49\u00b0C)"
+        "88-90°F (31-32°C)",
+        "70-75°F (21-24°C)",
+        "100-105°F (38-41°C)",
+        "115-120°F (46-49°C)"
       ],
-      "correct_answer": "88-90\u00b0F (31-32\u00b0C)",
+      "correct_answer": "88-90°F (31-32°C)",
       "difficulty": "hard"
     },
     {
@@ -3014,9 +3014,9 @@
       "subcategory": "Dishes & Cuisines",
       "question": "Which French candy is known for its hard caramel squares wrapped in edible rice paper?",
       "options": [
-        "Drag\u00e9es",
+        "Dragées",
         "Calissons",
-        "Nougat de Mont\u00e9limar",
+        "Nougat de Montélimar",
         "Carambar"
       ],
       "correct_answer": "Carambar",
@@ -3060,7 +3060,7 @@
       "id": "cnd_190",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
-      "question": "Which European country is famous for producing \"drag\u00e9es,\" sugar-coated almonds traditionally given as wedding favors?",
+      "question": "Which European country is famous for producing \"dragées,\" sugar-coated almonds traditionally given as wedding favors?",
       "options": [
         "France",
         "Italy",
@@ -3108,7 +3108,7 @@
       "id": "cnd_193",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
-      "question": "Which Scandinavian country is famous for its 'Djungelvr\u00e5l' (Jungle Roar) salty licorice?",
+      "question": "Which Scandinavian country is famous for its 'Djungelvrål' (Jungle Roar) salty licorice?",
       "options": [
         "Norway",
         "Sweden",
@@ -3129,7 +3129,7 @@
         "Pulparindo",
         "Mazapan",
         "Glorias",
-        "Alegr\u00edas"
+        "Alegrías"
       ],
       "correct_answer": "Mazapan",
       "difficulty": "medium",
@@ -3206,12 +3206,12 @@
       "subcategory": "Dishes & Cuisines",
       "question": "Which German chocolate bar features a whole hazelnut in every segment?",
       "options": [
-        "Ritter Sport",
         "Milka",
+        "Ritter Sport",
         "Kinder Bueno",
-        "Whole Nut by Ritter Sport"
+        "Lindt Excellence"
       ],
-      "correct_answer": "Whole Nut by Ritter Sport",
+      "correct_answer": "Ritter Sport",
       "difficulty": "medium",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Around the World"
@@ -3220,14 +3220,14 @@
       "id": "cnd_200",
       "category": "Food",
       "subcategory": "Dishes & Cuisines",
-      "question": "What is the name of the popular Brazilian chocolate candy made by Nestl\u00e9?",
+      "question": "What is the name of the popular Brazilian chocolate candy made by Nestlé?",
       "options": [
         "Sonho de Valsa",
         "Bis",
         "Serenata de Amor",
-        "Prest\u00edgio"
+        "Prestígio"
       ],
-      "correct_answer": "Prest\u00edgio",
+      "correct_answer": "Prestígio",
       "difficulty": "medium",
       "topic": "com.fiz.pack.candy",
       "subtopic": "Around the World"
@@ -3494,7 +3494,7 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What are decorative sugar candies shaped like skulls called during D\u00eda de los Muertos?",
+      "question": "What are decorative sugar candies shaped like skulls called during Día de los Muertos?",
       "options": [
         "Sugar skulls",
         "Death candy",
@@ -3846,14 +3846,14 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "What traditional Mexican candy is made for D\u00eda de los Muertos besides sugar skulls?",
+      "question": "What traditional Mexican candy is made for Día de los Muertos besides sugar skulls?",
       "options": [
-        "Alfe\u00f1ique",
+        "Alfeñique",
         "Tamarindo",
         "Mazapan",
         "Pulparindo"
       ],
-      "correct_answer": "Alfe\u00f1ique",
+      "correct_answer": "Alfeñique",
       "difficulty": "medium"
     },
     {
@@ -4038,7 +4038,7 @@
       "subtopic": "Holidays & Occasions",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "In what century were sugar skulls first created for D\u00eda de los Muertos?",
+      "question": "In what century were sugar skulls first created for Día de los Muertos?",
       "options": [
         "17th century",
         "15th century",
@@ -4088,12 +4088,12 @@
       "subcategory": "Food History",
       "question": "What temperature must chocolate reach to properly temper for making Valentine's Day chocolates?",
       "options": [
-        "88-90\u00b0F (31-32\u00b0C)",
-        "75-80\u00b0F (24-27\u00b0C)",
-        "100-105\u00b0F (38-41\u00b0C)",
-        "65-70\u00b0F (18-21\u00b0C)"
+        "88-90°F (31-32°C)",
+        "75-80°F (24-27°C)",
+        "100-105°F (38-41°C)",
+        "65-70°F (18-21°C)"
       ],
-      "correct_answer": "88-90\u00b0F (31-32\u00b0C)",
+      "correct_answer": "88-90°F (31-32°C)",
       "difficulty": "hard"
     },
     {
@@ -4148,7 +4148,7 @@
       "id": "cnd_258",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "Which classic film features a chocolate factory owned by Willy Wonka?",
+      "question": "Which 2005 Tim Burton film features a chocolate factory owned by Willy Wonka?",
       "options": [
         "Charlie and the Chocolate Factory",
         "The Sweet Shop",
@@ -4548,7 +4548,7 @@
       "id": "cnd_283",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "Which candy mascot is known for the phrase 'Silly rabbit, [candy] are for kids!'?",
+      "question": "Which candy and cereal brand is associated with the slogan 'Silly rabbit, ___ are for kids!'?",
       "options": [
         "Lucky Charms",
         "Cocoa Puffs",
@@ -4708,12 +4708,12 @@
       "id": "cnd_293",
       "category": "Food",
       "subcategory": "Food History",
-      "question": "Forest Mars Sr. developed a hard-shelled chocolate candy after observing soldiers eating what candy during the Spanish Civil War?",
+      "question": "Forrest Mars Sr. developed a hard-shelled chocolate candy after observing soldiers eating what candy during the Spanish Civil War?",
       "options": [
         "Smarties",
         "Rowntree's Chocolate Beans",
         "Cadbury Buttons",
-        "Nestl\u00e9 Drops"
+        "Nestlé Drops"
       ],
       "correct_answer": "Rowntree's Chocolate Beans",
       "difficulty": "hard",

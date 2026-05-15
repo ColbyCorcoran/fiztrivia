@@ -265,14 +265,14 @@
       "id": "dcu_016",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What is the name of Green Lantern's oath?",
+      "question": "What is the opening line of the Green Lantern Oath recited by Hal Jordan?",
       "options": [
-        "Green Lantern Oath",
-        "Lantern's Creed",
-        "Ring Bearer's Oath",
-        "Guardian's Pledge"
+        "Through the darkest dark and lightest light",
+        "In brightest day, in blackest night",
+        "By my ring and by my will",
+        "Against all evil, by the Corps"
       ],
-      "correct_answer": "Green Lantern Oath",
+      "correct_answer": "In brightest day, in blackest night",
       "difficulty": "medium",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies"
@@ -393,14 +393,14 @@
       "id": "dcu_024",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What is Constantine's real name?",
+      "question": "In which DC Comics series did John Constantine first appear as a supporting character?",
       "options": [
-        "John Constantine",
-        "Jason Blood",
-        "Tim Hunter",
-        "Felix Faust"
+        "Hellblazer",
+        "Swamp Thing",
+        "Animal Man",
+        "Justice League Dark"
       ],
-      "correct_answer": "John Constantine",
+      "correct_answer": "Swamp Thing",
       "difficulty": "hard",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies"
@@ -425,14 +425,14 @@
       "id": "dcu_026",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What is Lobo's real name?",
+      "question": "Lobo is an alien bounty hunter who claims to be the last survivor of his species. What is his home planet?",
       "options": [
-        "Lobo",
-        "Lucius",
-        "Logan",
-        "Lars"
+        "Apokolips",
+        "Czarnia",
+        "Warworld",
+        "Thanagar"
       ],
-      "correct_answer": "Lobo",
+      "correct_answer": "Czarnia",
       "difficulty": "hard",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies"
@@ -796,15 +796,15 @@
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
-      "subtopic": "Teams & Organizations",
-      "question": "What is the name of Gotham City's police department, whose Commissioner is a key Batman ally?",
+      "subtopic": "Locations & Worlds",
+      "question": "What is the name of the maximum-security prison in Gotham City that holds non-superpowered criminals?",
       "options": [
-        "Metro City PD",
-        "Gotham City Police Department",
-        "Central City PD",
-        "Star City PD"
+        "Arkham Asylum",
+        "Blackgate",
+        "Belle Reve",
+        "Iron Heights"
       ],
-      "correct_answer": "Gotham City Police Department",
+      "correct_answer": "Blackgate",
       "difficulty": "easy"
     },
     {
@@ -973,14 +973,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What special property does Wonder Woman's Lasso of Truth have?",
+      "question": "In DC's New 52 continuity, which ancient Greek god is revealed to be Wonder Woman's biological father?",
       "options": [
-        "It burns enemies",
-        "It forces people to tell the truth",
-        "It can cut through anything",
-        "It grants wishes"
+        "Ares",
+        "Zeus",
+        "Poseidon",
+        "Apollo"
       ],
-      "correct_answer": "It forces people to tell the truth",
+      "correct_answer": "Zeus",
       "difficulty": "easy"
     },
     {
@@ -1053,14 +1053,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Powers & Abilities",
-      "question": "What heat-based vision power does Superman use to melt or burn objects at a distance?",
+      "question": "Which Superman ability allows him to see through solid objects, blocked only by lead?",
       "options": [
-        "Laser vision",
-        "Plasma vision",
         "Heat vision",
-        "X-ray vision"
+        "Telescopic vision",
+        "X-ray vision",
+        "Infrared vision"
       ],
-      "correct_answer": "Heat vision",
+      "correct_answer": "X-ray vision",
       "difficulty": "medium"
     },
     {
@@ -1389,14 +1389,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "What is the name of the Reverse-Flash's alter ego?",
+      "question": "Barry Allen's nemesis Professor Zoom traveled back from the future to torment him. From which century did he originate?",
       "options": [
-        "Eobard Thawne",
-        "Hunter Zolomon",
-        "Barry Allen",
-        "Wally West"
+        "30th century",
+        "25th century",
+        "40th century",
+        "22nd century"
       ],
-      "correct_answer": "Eobard Thawne",
+      "correct_answer": "25th century",
       "difficulty": "hard"
     },
     {
@@ -2477,14 +2477,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Locations & Worlds",
-      "question": "What is the name of Krypton's capital city?",
+      "question": "What Kryptonian material is Superman's Fortress of Solitude primarily constructed from?",
       "options": [
-        "Kandor",
-        "Argo City",
-        "Kryptonopolis",
-        "Metropolis"
+        "Ice",
+        "Steel",
+        "Kryptonian crystal",
+        "Vibranium"
       ],
-      "correct_answer": "Kandor",
+      "correct_answer": "Kryptonian crystal",
       "difficulty": "hard"
     },
     {
@@ -3085,14 +3085,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What is the name of the team that includes Robotman, Negative Man, and Elasti-Girl?",
+      "question": "The Doom Patrol is often said to have inspired which Marvel team, as both debuted in 1963 with similar misfit-heroes concepts?",
       "options": [
-        "Doom Patrol",
-        "Teen Titans",
-        "Justice League",
-        "Outsiders"
+        "The Avengers",
+        "The X-Men",
+        "The Fantastic Four",
+        "The Guardians of the Galaxy"
       ],
-      "correct_answer": "Doom Patrol",
+      "correct_answer": "The X-Men",
       "difficulty": "medium"
     },
     {
@@ -3181,14 +3181,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What organization did Oliver Queen's father help create in Arrow?",
+      "question": "In Arrow Season 1, what is the name of Malcolm Merlyn's catastrophic plot to destroy the Glades slum district?",
       "options": [
         "The List",
         "The Undertaking",
-        "ARGUS",
-        "Queen Consolidated"
+        "Operation Starling",
+        "The Great Purge"
       ],
-      "correct_answer": "Queen Consolidated",
+      "correct_answer": "The Undertaking",
       "difficulty": "hard"
     },
     {
@@ -3613,14 +3613,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies",
-      "question": "Who is Batman's son?",
+      "question": "Who is Damian Wayne's maternal grandfather and the legendary leader of the League of Assassins?",
       "options": [
-        "Damian Wayne",
-        "Dick Grayson",
-        "Tim Drake",
-        "Jason Todd"
+        "Ra's al Ghul",
+        "Deathstroke",
+        "The Demon",
+        "Bronze Tiger"
       ],
-      "correct_answer": "Damian Wayne",
+      "correct_answer": "Ra's al Ghul",
       "difficulty": "medium"
     },
     {
@@ -3805,14 +3805,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "Superman is most associated with which superhero team, the premier DC heroes group he helped found?",
+      "question": "In DC Comics, which three heroes form the 'Trinity' — the symbolic core of the DC Universe?",
       "options": [
-        "Teen Titans",
-        "Doom Patrol",
-        "Justice League",
-        "Legion of Super-Heroes"
+        "Flash, Green Lantern, and Aquaman",
+        "Superman, Batman, and Wonder Woman",
+        "Superman, Batman, and The Flash",
+        "Batman, Green Arrow, and Aquaman"
       ],
-      "correct_answer": "Justice League",
+      "correct_answer": "Superman, Batman, and Wonder Woman",
       "difficulty": "medium"
     },
     {
@@ -3949,14 +3949,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What is the name of Lex Luthor's company in most versions?",
+      "question": "In DC Comics, Lex Luthor once won the highest political office in the United States. What was the position?",
       "options": [
-        "LexCorp",
-        "Luthor Industries",
-        "Lex Enterprises",
-        "Luthor Corp"
+        "Mayor of Metropolis",
+        "Senator of New York",
+        "President of the United States",
+        "Secretary General of the UN"
       ],
-      "correct_answer": "LexCorp",
+      "correct_answer": "President of the United States",
       "difficulty": "easy"
     },
     {
@@ -4269,14 +4269,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Villains & Antagonists",
-      "question": "Who is Raven's father?",
+      "question": "How many eyes does the demon Trigon possess, a visual marker of his monstrous non-human nature?",
       "options": [
-        "Trigon",
-        "Ares",
-        "Hades",
-        "Darkseid"
+        "Two eyes",
+        "Three eyes",
+        "Four eyes",
+        "Six eyes"
       ],
-      "correct_answer": "Trigon",
+      "correct_answer": "Four eyes",
       "difficulty": "medium"
     },
     {
@@ -4365,14 +4365,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies",
-      "question": "What is Oracle's real identity?",
+      "question": "After recovering the ability to walk, Barbara Gordon reclaimed which Bat-family superhero identity?",
       "options": [
-        "Barbara Gordon",
-        "Stephanie Brown",
-        "Cassandra Cain",
-        "Helena Bertinelli"
+        "Batgirl",
+        "Oracle",
+        "Huntress",
+        "Black Canary"
       ],
-      "correct_answer": "Barbara Gordon",
+      "correct_answer": "Batgirl",
       "difficulty": "medium"
     },
     {
@@ -4381,14 +4381,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies",
-      "question": "What happened to Barbara Gordon that made her become Oracle?",
+      "question": "In which famous Alan Moore Batman graphic novel is Barbara Gordon shot and paralyzed by the Joker?",
       "options": [
-        "Paralyzed by Joker",
-        "Retired from crime-fighting",
-        "Promoted to police commissioner",
-        "Lost her powers"
+        "The Long Halloween",
+        "No Man's Land",
+        "The Killing Joke",
+        "Knightfall"
       ],
-      "correct_answer": "Paralyzed by Joker",
+      "correct_answer": "The Killing Joke",
       "difficulty": "medium"
     },
     {
@@ -4509,14 +4509,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "What year was Wonder Woman (2017) released?",
+      "question": "During which real-world war does the majority of the Wonder Woman (2017) film take place?",
       "options": [
-        "2016",
-        "2017",
-        "2018",
-        "2019"
+        "World War I",
+        "World War II",
+        "The Korean War",
+        "Vietnam War"
       ],
-      "correct_answer": "2017",
+      "correct_answer": "World War I",
       "difficulty": "easy"
     },
     {
@@ -4621,14 +4621,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "What team did Stargirl join in the TV series?",
+      "question": "In the Stargirl TV series, who is Courtney Whitmore's stepfather and partner who pilots the S.T.R.I.P.E. suit?",
       "options": [
-        "Justice Society of America",
-        "Justice League",
-        "Teen Titans",
-        "Young Justice"
+        "Jay Garrick",
+        "Pat Dugan",
+        "Henry King Sr.",
+        "Mike Dugan"
       ],
-      "correct_answer": "Justice Society of America",
+      "correct_answer": "Pat Dugan",
       "difficulty": "medium"
     },
     {
@@ -4685,14 +4685,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Teams & Organizations",
-      "question": "Dick Grayson left the Teen Titans and became Nightwing. In which city does he primarily operate as a solo hero?",
+      "question": "Dick Grayson adopted the Nightwing identity partly inspired by a story told to him by which fellow Justice League member?",
       "options": [
-        "Gotham City",
-        "Metropolis",
-        "Star City",
-        "Bludhaven"
+        "Batman",
+        "Superman",
+        "Alfred",
+        "Barry Allen"
       ],
-      "correct_answer": "Bludhaven",
+      "correct_answer": "Superman",
       "difficulty": "medium"
     },
     {
@@ -5181,14 +5181,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Heroes & Allies",
-      "question": "What is the real name of Arsenal?",
+      "question": "In the DC Comics storyline 'Cry for Justice,' which limb did Roy Harper lose, prompting his darker turn?",
       "options": [
-        "Roy Harper",
-        "Connor Hawke",
-        "Oliver Queen",
-        "Tommy Merlyn"
+        "His left arm",
+        "His right arm",
+        "His right leg",
+        "Both legs"
       ],
-      "correct_answer": "Roy Harper",
+      "correct_answer": "His right arm",
       "difficulty": "hard"
     },
     {
@@ -5837,14 +5837,14 @@
       "subcategory": "Action/Adventure",
       "topic": "com.fiz.pack.dc",
       "subtopic": "Trivia & Events",
-      "question": "Who temporarily replaced Batman in the Knightfall storyline?",
+      "question": "Before confronting Batman directly in 'Knightfall,' how did Bane strategically weaken him?",
       "options": [
-        "Jean-Paul Valley",
-        "Dick Grayson",
-        "Tim Drake",
-        "Jason Todd"
+        "Exposed his secret identity",
+        "Freed all the villains from Arkham Asylum",
+        "Poisoned him with Venom",
+        "Ambushed him in the Batcave"
       ],
-      "correct_answer": "Jean-Paul Valley",
+      "correct_answer": "Freed all the villains from Arkham Asylum",
       "difficulty": "hard"
     },
     {

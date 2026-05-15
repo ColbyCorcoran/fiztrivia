@@ -2157,14 +2157,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Quotes",
-      "question": "What does Dwight say about his perfect crime?",
+      "question": "In Dwight's 'perfect crime' monologue, what does he steal from Tiffany's instead of going for the vault?",
       "options": [
-        "I steal the chandelier",
-        "I break into Tiffany's at midnight",
-        "I take the diamonds",
-        "I escape through the roof"
+        "The diamonds",
+        "The chandelier",
+        "The jewelry",
+        "The necklaces"
       ],
-      "correct_answer": "I break into Tiffany's at midnight",
+      "correct_answer": "The chandelier",
       "difficulty": "hard"
     },
     {
@@ -2274,7 +2274,7 @@
         "Dwight Jr.",
         "Philip",
         "Michael",
-        "Phillip Schrute"
+        "Evan"
       ],
       "correct_answer": "Philip",
       "difficulty": "medium"
@@ -2396,15 +2396,15 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Trivia",
-      "question": "What does Michael name his hypothetical son?",
+      "question": "What is the name of Michael Scott's fictional spy character in his self-produced film?",
       "options": [
-        "Little Michael",
+        "Agent Scott",
         "Michael Scarn",
-        "Michael Jr.",
-        "Threat Level"
+        "Mike Danger",
+        "Super Mifflin"
       ],
       "correct_answer": "Michael Scarn",
-      "difficulty": "hard"
+      "difficulty": "medium"
     },
     {
       "id": "off_paid_120",
@@ -3606,14 +3606,14 @@
       "subcategory": "Drama/Comedy",
       "topic": "com.fiz.pack.the_office",
       "subtopic": "Characters",
-      "question": "What does Michael wear to work sometimes?",
+      "question": "What is Michael Scott's full name?",
       "options": [
-        "Always a suit",
-        "Always casual",
-        "A suit or casual clothes",
-        "Uniform"
+        "Michael John Scott",
+        "Michael Gary Scott",
+        "Michael Lee Scott",
+        "Michael James Scott"
       ],
-      "correct_answer": "A suit or casual clothes",
+      "correct_answer": "Michael Gary Scott",
       "difficulty": "medium"
     },
     {

@@ -9878,18 +9878,16 @@
       {
         "id": "mus_020",
         "category": "Music",
-        "subcategory": "Film & TV",
-        "question": "Which composer created the score for Interstellar?",
+        "subcategory": "Classic Rock",
+        "question": "Which 1977 Fleetwood Mac album became one of the best-selling albums of all time?",
         "options": [
-          "Hans Zimmer",
-          "Howard Shore",
-          "John Williams",
-          "Danny Elfman"
+          "Rumours",
+          "Tusk",
+          "Mirage",
+          "Tango in the Night"
         ],
-        "correct_answer": "Hans Zimmer",
-        "difficulty": "hard",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Rumours",
+        "difficulty": "medium"
       },
       {
         "id": "mus_021",
@@ -10150,18 +10148,16 @@
       {
         "id": "mus_037",
         "category": "Music",
-        "subcategory": "Film & TV",
-        "question": "Who composed the score for Dune (2021)?",
+        "subcategory": "Rock",
+        "question": "Which band is known for combining heavy metal guitar riffs with rap vocals, with hits like 'Killing in the Name'?",
         "options": [
-          "Ludwig Göransson",
-          "Hildur Guðnadóttir",
-          "Daniel Pemberton",
-          "Hans Zimmer"
+          "Rage Against the Machine",
+          "Linkin Park",
+          "System of a Down",
+          "Audioslave"
         ],
-        "correct_answer": "Hans Zimmer",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Rage Against the Machine",
+        "difficulty": "medium"
       },
       {
         "id": "mus_038",
@@ -10790,18 +10786,16 @@
       {
         "id": "mus_077",
         "category": "Music",
-        "subcategory": "History & Eras",
-        "question": "What decade is known for the Seattle grunge scene?",
+        "subcategory": "Genres",
+        "question": "Which genre, originating in Jamaica in the late 1970s, features a slow tempo and bass-heavy sound as a descendant of reggae?",
         "options": [
-          "2000s",
-          "1980s",
-          "1970s",
-          "1990s"
+          "Dub",
+          "Ska",
+          "Rocksteady",
+          "Dancehall"
         ],
-        "correct_answer": "1990s",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Dub",
+        "difficulty": "hard"
       },
       {
         "id": "mus_078",
@@ -10822,18 +10816,16 @@
       {
         "id": "mus_079",
         "category": "Music",
-        "subcategory": "History & Eras",
-        "question": "What decade saw the birth of rock and roll?",
+        "subcategory": "Film & TV Music",
+        "question": "Which composer wrote the iconic 'Moon River' for the film Breakfast at Tiffany's?",
         "options": [
-          "1940s",
-          "1970s",
-          "1960s",
-          "1950s"
+          "Henry Mancini",
+          "John Williams",
+          "Bernard Herrmann",
+          "Burt Bacharach"
         ],
-        "correct_answer": "1950s",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Henry Mancini",
+        "difficulty": "medium"
       },
       {
         "id": "mus_080",
@@ -21450,18 +21442,16 @@
       {
         "id": "art_144",
         "category": "Art",
-        "subcategory": "Sculpture",
-        "question": "Who sculpted 'The Burghers of Calais'?",
+        "subcategory": "Painting",
+        "question": "Which Italian Baroque painter is known for his dramatic use of light and shadow, a technique called chiaroscuro, in works like 'Judith Beheading Holofernes'?",
         "options": [
-          "Auguste Rodin",
-          "Charles Despiau",
-          "Camille Claudel",
-          "Antoine Bourdelle"
+          "Caravaggio",
+          "Titian",
+          "Tintoretto",
+          "Veronese"
         ],
-        "correct_answer": "Auguste Rodin",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Caravaggio",
+        "difficulty": "medium"
       },
       {
         "id": "art_145",
@@ -21611,17 +21601,15 @@
         "id": "art_154",
         "category": "Art",
         "subcategory": "Sculpture",
-        "question": "Who sculpted 'The Age of Bronze'?",
+        "question": "Which Romanian-French sculptor is known for highly simplified abstract forms, such as 'Bird in Space'?",
         "options": [
-          "Antoine Bourdelle",
-          "Émile Antoine Bourdelle",
-          "Camille Claudel",
-          "Auguste Rodin"
+          "Constantin Brancusi",
+          "Alberto Giacometti",
+          "Alexander Calder",
+          "Henry Moore"
         ],
-        "correct_answer": "Auguste Rodin",
-        "difficulty": "medium",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Constantin Brancusi",
+        "difficulty": "hard"
       },
       {
         "id": "art_155",
@@ -39688,18 +39676,16 @@
       {
         "id": "nat_230",
         "category": "Nature",
-        "subcategory": "Animals & Wildlife",
-        "question": "What is the only mammal that can fly?",
+        "subcategory": "Animals",
+        "question": "What biological sonar system do bats use to navigate and hunt in the dark?",
         "options": [
-          "Flying squirrel",
-          "Sugar glider",
-          "Bat",
-          "Flying lemur"
+          "Echolocation",
+          "Infrared vision",
+          "Magnetic sense",
+          "Electroreception"
         ],
-        "correct_answer": "Bat",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Echolocation",
+        "difficulty": "easy"
       },
       {
         "id": "nat_004",
@@ -51828,18 +51814,16 @@
       {
         "id": "bib_435",
         "category": "Bible",
-        "subcategory": "Bible Languages",
-        "question": "What does 'Alleluia' mean?",
+        "subcategory": "Bible History",
+        "question": "Which book of the Bible records the history of the early Christian church after Jesus's ascension?",
         "options": [
-          "Praise the Lord",
-          "Thank you",
-          "Bless you",
-          "Amen"
+          "Acts",
+          "Romans",
+          "Galatians",
+          "Ephesians"
         ],
-        "correct_answer": "Praise the Lord",
-        "difficulty": "easy",
-        "topic": null,
-        "subtopic": null
+        "correct_answer": "Acts",
+        "difficulty": "easy"
       },
       {
         "id": "bib_436",

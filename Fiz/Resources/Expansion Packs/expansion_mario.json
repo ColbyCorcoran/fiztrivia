@@ -404,14 +404,14 @@
       "id": "mar_024",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "Who is the main villain that lives in a castle filled with lava?",
+      "question": "In Super Mario 64, what is the name of the final stage where Mario battles Bowser for the last time?",
       "options": [
-        "Bowser",
-        "Wario",
-        "King Boo",
-        "Donkey Kong"
+        "Bowser's Dark World",
+        "Bowser's Fire Sea",
+        "Bowser in the Sky",
+        "Bowser's Galaxy Reactor"
       ],
-      "correct_answer": "Bowser",
+      "correct_answer": "Bowser in the Sky",
       "difficulty": "easy",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Locations & Worlds"
@@ -1926,14 +1926,14 @@
       "id": "mar_119",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "Which Mario game introduced Yoshi as a rideable companion?",
+      "question": "What unique flying ability does Blue Yoshi have in Super Mario World compared to other Yoshi colors?",
       "options": [
-        "Super Mario Bros.",
-        "Super Mario Bros. 2",
-        "Super Mario World",
-        "Super Mario 64"
+        "It can breathe fire while flying",
+        "It can fly when carrying any shell in its mouth",
+        "It can float indefinitely",
+        "It can dive underwater"
       ],
-      "correct_answer": "Super Mario World",
+      "correct_answer": "It can fly when carrying any shell in its mouth",
       "difficulty": "easy",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Games & Gameplay"
@@ -2086,14 +2086,14 @@
       "id": "mar_129",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "In Super Mario Bros. 3, what suit allows Mario to fly?",
+      "question": "What is the name of the long-distance running jump move in Super Mario 64?",
       "options": [
-        "Cape Feather",
-        "Tanooki Suit",
-        "Wing Cap",
-        "P-Wing"
+        "Dive Jump",
+        "Long Jump",
+        "Slide Leap",
+        "Sprint Jump"
       ],
-      "correct_answer": "Tanooki Suit",
+      "correct_answer": "Long Jump",
       "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Games & Gameplay"
@@ -2374,14 +2374,14 @@
       "id": "mar_147",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "In Luigi's Mansion, what tool does Luigi use to capture ghosts?",
+      "question": "What is the name of the homing Mario Kart item that automatically targets and strikes the racer in first place?",
       "options": [
-        "Ghost Trap",
-        "Poltergust 3000",
-        "Vacuum Cleaner",
-        "Spirit Sucker"
+        "Red Shell",
+        "Blue Shell",
+        "Bob-omb",
+        "Bullet Bill"
       ],
-      "correct_answer": "Poltergust 3000",
+      "correct_answer": "Blue Shell",
       "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Games & Gameplay"
@@ -2486,14 +2486,14 @@
       "id": "mar_154",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "In Super Mario Bros., which world is known as the 'water world'?",
+      "question": "What is the name of the secret warp area in Super Mario Bros. where Mario can travel directly to later worlds?",
       "options": [
-        "World 1",
-        "World 2",
-        "World 3",
-        "World 4"
+        "Pipe Room",
+        "Star Road",
+        "Warp Zone",
+        "Bonus Stage"
       ],
-      "correct_answer": "World 2",
+      "correct_answer": "Warp Zone",
       "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Games & Gameplay"
@@ -2870,17 +2870,17 @@
       "id": "mar_178",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What animal suit gives Mario a tail and the ability to fly in Super Mario Bros. 3?",
+      "question": "What is the name of the skeletal, undead version of Bowser introduced in New Super Mario Bros.?",
       "options": [
-        "Tanooki Suit",
-        "Frog Suit",
-        "Hammer Suit",
-        "Penguin Suit"
+        "Dry Bowser",
+        "Bone Bowser",
+        "Ghost Bowser",
+        "Dead Bowser"
       ],
-      "correct_answer": "Tanooki Suit",
+      "correct_answer": "Dry Bowser",
       "difficulty": "easy",
       "topic": "com.fiz.pack.mario",
-      "subtopic": "Power-ups & Items"
+      "subtopic": "Enemies & Bosses"
     },
     {
       "id": "mar_179",
@@ -3878,14 +3878,14 @@
       "id": "mar_241",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "In Super Mario 64, what is the first painting Mario can jump into?",
+      "question": "What is the name of the Super Mario 64 level where Mario can enter two versions of the same world — one tiny and one giant?",
       "options": [
-        "Bob-omb Battlefield",
-        "Whomp's Fortress",
-        "Cool Cool Mountain",
-        "Big Boo's Haunt"
+        "Shifting Sand Land",
+        "Tall Tall Mountain",
+        "Wet-Dry World",
+        "Tiny-Huge Island"
       ],
-      "correct_answer": "Bob-omb Battlefield",
+      "correct_answer": "Tiny-Huge Island",
       "difficulty": "easy",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Locations & Worlds"
@@ -5846,14 +5846,14 @@
       "id": "mar_364",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "What is the name of the giant Chain Chomp boss in Super Mario 64?",
+      "question": "What is the name of the sun enemy in Super Mario Bros. 3 that relentlessly chases Mario through desert levels?",
       "options": [
-        "Chain Chomp (it's unnamed)",
-        "King Chomp",
-        "Big Chomp",
-        "Mega Chain"
+        "Fire Sun",
+        "Angry Sun",
+        "Desert Star",
+        "Blaze Ball"
       ],
-      "correct_answer": "Chain Chomp (it's unnamed)",
+      "correct_answer": "Angry Sun",
       "difficulty": "hard",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Enemies & Bosses"
@@ -6006,14 +6006,14 @@
       "id": "mar_374",
       "category": "Technology",
       "subcategory": "Video Games",
-      "question": "How many Bob-ombs does King Bob-omb throw at once in Super Mario 64?",
+      "question": "In Super Mario 64, what is King Bob-omb's one rule that Mario must follow during their fight?",
       "options": [
-        "He doesn't throw them in that game",
-        "Two",
-        "Three",
-        "Five"
+        "Mario must only use Bob-ombs as weapons",
+        "Mario must not throw him off the summit",
+        "Mario must jump on him three times",
+        "Mario must fight without running"
       ],
-      "correct_answer": "He doesn't throw them in that game",
+      "correct_answer": "Mario must not throw him off the summit",
       "difficulty": "hard",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Enemies & Bosses"
@@ -6839,15 +6839,15 @@
       "category": "Technology",
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
-      "subtopic": "Music & Sound",
-      "question": "What was the total size constraint for all audio data in the original Super Mario Bros. ROM?",
+      "subtopic": "Trivia & History",
+      "question": "What character appears on the roof of Peach's Castle in Super Mario 64 after all 120 Power Stars are collected?",
       "options": [
-        "Approximately 40 KB total ROM (including all code and data)",
-        "1 MB",
-        "512 KB",
-        "8 MB"
+        "Toad",
+        "Yoshi",
+        "Bowser Jr.",
+        "Wario"
       ],
-      "correct_answer": "Approximately 40 KB total ROM (including all code and data)",
+      "correct_answer": "Yoshi",
       "difficulty": "hard"
     },
     {
@@ -7096,14 +7096,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What was Mario's original occupation in Donkey Kong?",
+      "question": "In what year was the original Mario Bros. arcade game first released?",
       "options": [
-        "Carpenter",
-        "Plumber",
-        "Doctor",
-        "Construction Worker"
+        "1980",
+        "1981",
+        "1983",
+        "1985"
       ],
-      "correct_answer": "Carpenter",
+      "correct_answer": "1983",
       "difficulty": "easy"
     },
     {
@@ -7144,14 +7144,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "In the Mario universe, what is the name of Luigi's ghost-catching vacuum cleaner?",
+      "question": "What is the name of the acrobatic move in Super Mario 64 where Mario kicks off a wall?",
       "options": [
-        "Ghost Buster",
-        "Poltergust 3000",
-        "Specter Sucker",
-        "Boo Blaster"
+        "Side Flip",
+        "Wall Kick",
+        "Bounce Jump",
+        "Vault Leap"
       ],
-      "correct_answer": "Poltergust 3000",
+      "correct_answer": "Wall Kick",
       "difficulty": "medium"
     },
     {
@@ -7176,14 +7176,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What color is Mario's iconic hat?",
+      "question": "Which Mario Kart item, when activated, temporarily shrinks every other racer on the track?",
       "options": [
-        "Red",
-        "Blue",
-        "Green",
-        "Yellow"
+        "Star",
+        "Blue Shell",
+        "Lightning",
+        "Bullet Bill"
       ],
-      "correct_answer": "Red",
+      "correct_answer": "Lightning",
       "difficulty": "easy"
     },
     {
@@ -7224,14 +7224,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What is the main villain Mario typically fights?",
+      "question": "What is the name of Super Mario Odyssey's in-game photo feature that lets players take and share screenshots?",
       "options": [
-        "Bowser",
-        "Wario",
-        "Donkey Kong",
-        "King Boo"
+        "Photo Mode",
+        "Snapshot Mode",
+        "Camera Club",
+        "Cap Cam"
       ],
-      "correct_answer": "Bowser",
+      "correct_answer": "Snapshot Mode",
       "difficulty": "easy"
     },
     {
@@ -7304,14 +7304,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What was the first 3D Mario game?",
+      "question": "In Super Mario Bros. 3, what rare item grants Mario permanent flight for an entire level without a running start?",
       "options": [
-        "Super Mario 64",
-        "Super Mario Sunshine",
-        "Super Mario Galaxy",
-        "Super Mario 3D Land"
+        "Super Leaf",
+        "Tanooki Suit",
+        "Starman",
+        "P-Wing"
       ],
-      "correct_answer": "Super Mario 64",
+      "correct_answer": "P-Wing",
       "difficulty": "medium"
     },
     {
@@ -7432,14 +7432,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "Which Mario game was the first to introduce Yoshi?",
+      "question": "What special ground-stomp effect does Yellow Yoshi create in Super Mario World when it lands while carrying a shell?",
       "options": [
-        "Super Mario World",
-        "Super Mario Bros. 3",
-        "Yoshi's Island",
-        "Super Mario 64"
+        "A fireball burst",
+        "A shockwave that stuns nearby enemies",
+        "A coin shower",
+        "A speed boost"
       ],
-      "correct_answer": "Super Mario World",
+      "correct_answer": "A shockwave that stuns nearby enemies",
       "difficulty": "medium"
     },
     {
@@ -7448,14 +7448,14 @@
       "subcategory": "Video Games",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Trivia & History",
-      "question": "What was Mario's original profession in the Donkey Kong arcade game?",
+      "question": "What is the name of the three-jump combo move in Super Mario 64 where Mario performs an escalating jump sequence?",
       "options": [
-        "Carpenter",
-        "Plumber",
-        "Construction worker",
-        "Firefighter"
+        "Double Jump",
+        "Super Jump",
+        "Triple Jump",
+        "Combo Leap"
       ],
-      "correct_answer": "Carpenter",
+      "correct_answer": "Triple Jump",
       "difficulty": "medium"
     },
     {

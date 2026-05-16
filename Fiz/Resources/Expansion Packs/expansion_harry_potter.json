@@ -1038,14 +1038,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "Who is the author of the Harry Potter books?",
+      "question": "What form does Harry Potter's Patronus take?",
       "options": [
-        "J.R.R. Tolkien",
-        "C.S. Lewis",
-        "Roald Dahl",
-        "J.K. Rowling"
+        "Stag",
+        "Wolf",
+        "Hare",
+        "Dog"
       ],
-      "correct_answer": "J.K. Rowling",
+      "correct_answer": "Stag",
       "difficulty": "easy"
     },
     {
@@ -1262,14 +1262,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "Who becomes Head of Gryffindor after McGonagall?",
+      "question": "What is the name of Albus Dumbledore's younger sister?",
       "options": [
-        "Neville Longbottom",
-        "Hermione Granger",
-        "Harry Potter",
-        "Not explicitly stated"
+        "Ariana",
+        "Minerva",
+        "Narcissa",
+        "Andromeda"
       ],
-      "correct_answer": "Not explicitly stated",
+      "correct_answer": "Ariana",
       "difficulty": "hard"
     },
     {
@@ -1326,14 +1326,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "Who is Barty Crouch Jr.'s godfather?",
+      "question": "What type of wood is Voldemort's wand made of?",
       "options": [
-        "Albus Dumbledore",
-        "Igor Karkaroff",
-        "Cornelius Fudge",
-        "Not mentioned"
+        "Yew",
+        "Holly",
+        "Elder",
+        "Blackthorn"
       ],
-      "correct_answer": "Not mentioned",
+      "correct_answer": "Yew",
       "difficulty": "hard"
     },
     {
@@ -1966,14 +1966,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "What are Voldemort's snake's name?",
+      "question": "What color are Harry Potter's eyes described as in the books?",
       "options": [
-        "Basilisk",
-        "Fang",
-        "Norbert",
-        "Nagini"
+        "Blue",
+        "Green",
+        "Brown",
+        "Grey"
       ],
-      "correct_answer": "Nagini",
+      "correct_answer": "Green",
       "difficulty": "easy"
     },
     {
@@ -2158,14 +2158,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "Who killed Fred Weasley?",
+      "question": "On Voldemort's orders, who casts the Killing Curse that kills Cedric Diggory in the graveyard?",
       "options": [
+        "Peter Pettigrew",
         "Bellatrix Lestrange",
-        "Antonin Dolohov",
-        "Fenrir Greyback",
-        "Augustus Rookwood"
+        "Barty Crouch Jr.",
+        "Voldemort himself"
       ],
-      "correct_answer": "Augustus Rookwood",
+      "correct_answer": "Peter Pettigrew",
       "difficulty": "hard"
     },
     {
@@ -3102,14 +3102,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Spells & Magic",
-      "question": "What spell creates darkness?",
+      "question": "What does the magical effect 'Priori Incantatem' reveal?",
       "options": [
-        "Nox",
-        "Peruvian Instant Darkness Powder",
-        "Obscuro",
-        "Tenebris"
+        "The last spells cast by a wand",
+        "The caster's true identity",
+        "Hidden objects nearby",
+        "The caster's Patronus form"
       ],
-      "correct_answer": "Peruvian Instant Darkness Powder",
+      "correct_answer": "The last spells cast by a wand",
       "difficulty": "hard"
     },
     {
@@ -3438,14 +3438,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Hogwarts",
-      "question": "What subjects are taught at Hogwarts?",
+      "question": "Which teaching position at Hogwarts does Severus Snape secretly covet above all others?",
       "options": [
-        "Only magic",
-        "Many including Potions, Charms, etc",
-        "Only Defense",
-        "Reading and Math"
+        "Defense Against the Dark Arts",
+        "Transfiguration",
+        "Charms",
+        "Divination"
       ],
-      "correct_answer": "Many including Potions, Charms, etc",
+      "correct_answer": "Defense Against the Dark Arts",
       "difficulty": "easy"
     },
     {
@@ -4222,14 +4222,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Books & Plot",
-      "question": "What is the first Harry Potter book?",
+      "question": "What does Harry receive anonymously as a Christmas gift in his first year at Hogwarts?",
       "options": [
-        "Chamber of Secrets",
-        "Philosopher's/Sorcerer's Stone",
-        "Prisoner of Azkaban",
-        "Goblet of Fire"
+        "His father's Invisibility Cloak",
+        "A Nimbus 2000",
+        "Chocolate Frogs",
+        "A Remembrall"
       ],
-      "correct_answer": "Philosopher's/Sorcerer's Stone",
+      "correct_answer": "His father's Invisibility Cloak",
       "difficulty": "easy"
     },
     {
@@ -4974,14 +4974,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Books & Plot",
-      "question": "Who owned the Elder Wand?",
+      "question": "Which of the three Peverell brothers received the Elder Wand from Death?",
       "options": [
-        "Just Dumbledore",
-        "Just Voldemort",
-        "Many",
-        "Grindelwald"
+        "Antioch",
+        "Cadmus",
+        "Ignotus",
+        "Marvolo"
       ],
-      "correct_answer": "Many",
+      "correct_answer": "Antioch",
       "difficulty": "medium"
     },
     {
@@ -4990,14 +4990,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Books & Plot",
-      "question": "What happens to the Elder Wand?",
+      "question": "In the books, what does Harry do with the Elder Wand after defeating Voldemort?",
       "options": [
-        "Voldemort gets it",
-        "Dumbledore keeps it",
-        "Harry breaks it or hides it",
-        "Destroyed"
+        "Returns it to Dumbledore's tomb",
+        "Breaks it in half",
+        "Keeps it",
+        "Gives it to McGonagall"
       ],
-      "correct_answer": "Harry breaks it or hides it",
+      "correct_answer": "Returns it to Dumbledore's tomb",
       "difficulty": "medium"
     },
     {
@@ -6142,15 +6142,15 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Movies",
-      "question": "What is different between books and films?",
+      "question": "Which Harry Potter film grossed the most money worldwide?",
       "options": [
-        "Nothing",
-        "Everything",
-        "Many details omitted/changed",
-        "Just endings"
+        "Deathly Hallows Part 2",
+        "Deathly Hallows Part 1",
+        "Sorcerer's Stone",
+        "Goblet of Fire"
       ],
-      "correct_answer": "Many details omitted/changed",
-      "difficulty": "easy"
+      "correct_answer": "Deathly Hallows Part 2",
+      "difficulty": "medium"
     },
     {
       "id": "hp_paid_362",
@@ -7534,14 +7534,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "What is Ron's middle name?",
+      "question": "What is Hermione Granger's middle name?",
       "options": [
-        "Bilius",
-        "Arthur",
-        "William",
-        "Frederick"
+        "Jean",
+        "Jane",
+        "Rose",
+        "Alice"
       ],
-      "correct_answer": "Bilius",
+      "correct_answer": "Jean",
       "difficulty": "medium"
     },
     {
@@ -7968,12 +7968,12 @@
       "subtopic": "Movies",
       "question": "What color is Hermione's Yule Ball dress?",
       "options": [
-        "Pink/periwinkle blue",
+        "Periwinkle blue",
         "Red",
-        "Blue",
+        "Pink",
         "Green"
       ],
-      "correct_answer": "Pink/periwinkle blue",
+      "correct_answer": "Periwinkle blue",
       "difficulty": "medium"
     },
     {
@@ -8158,14 +8158,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Hogwarts",
-      "question": "What platform do students take to board the Hogwarts Express?",
+      "question": "What guards the moving staircase entrance to Dumbledore's office?",
       "options": [
-        "Platform 9 3/4",
-        "Platform 9",
-        "Platform 10",
-        "Platform 8 3/4"
+        "A stone gargoyle",
+        "A portrait",
+        "A locked door",
+        "A suit of armor"
       ],
-      "correct_answer": "Platform 9 3/4",
+      "correct_answer": "A stone gargoyle",
       "difficulty": "easy"
     },
     {
@@ -8205,7 +8205,7 @@
       "category": "Literature",
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Characters",
+      "subtopic": "Spells & Magic",
       "question": "What does the spell 'Expecto Patronum' do?",
       "options": [
         "Repels Dementors",
@@ -8221,7 +8221,7 @@
       "category": "Literature",
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Spells & Magic",
+      "subtopic": "Magical Creatures",
       "question": "What magical creature can only be seen by those who have witnessed death?",
       "options": [
         "Thestrals",
@@ -8254,14 +8254,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Characters",
-      "question": "What are the names of Harry's children?",
+      "question": "What is the name of Draco Malfoy's son, shown in the epilogue?",
       "options": [
-        "James, Albus, and Lily",
-        "Ron, Hermione, and Ginny",
-        "Sirius, Remus, and Luna",
-        "Fred, George, and Molly"
+        "Scorpius",
+        "Lucius",
+        "Abraxas",
+        "Corvus"
       ],
-      "correct_answer": "James, Albus, and Lily",
+      "correct_answer": "Scorpius",
       "difficulty": "hard"
     },
     {
@@ -8301,7 +8301,7 @@
       "category": "Literature",
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Characters",
+      "subtopic": "Books & Plot",
       "question": "What plant does Harry eat to breathe underwater?",
       "options": [
         "Gillyweed",
@@ -8366,14 +8366,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Magical Creatures",
-      "question": "What is the name of Hagrid's dragon?",
+      "question": "What breed of dragon does Hagrid illegally hatch from a black egg in his hut?",
       "options": [
-        "Norbert",
-        "Norberta",
-        "Charlie",
-        "Both A and B"
+        "Norwegian Ridgeback",
+        "Hungarian Horntail",
+        "Welsh Green",
+        "Chinese Fireball"
       ],
-      "correct_answer": "Both A and B",
+      "correct_answer": "Norwegian Ridgeback",
       "difficulty": "medium"
     },
     {
@@ -8382,14 +8382,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
       "subtopic": "Hogwarts",
-      "question": "What house is Luna Lovegood in?",
+      "question": "Who is the head of Ravenclaw House at Hogwarts?",
       "options": [
-        "Ravenclaw",
-        "Gryffindor",
-        "Hufflepuff",
-        "Slytherin"
+        "Filius Flitwick",
+        "Pomona Sprout",
+        "Horace Slughorn",
+        "Sybill Trelawney"
       ],
-      "correct_answer": "Ravenclaw",
+      "correct_answer": "Filius Flitwick",
       "difficulty": "medium"
     },
     {
@@ -8445,7 +8445,7 @@
       "category": "Literature",
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Hogwarts",
+      "subtopic": "Characters",
       "question": "What is the name of Sirius Black's house-elf?",
       "options": [
         "Kreacher",
@@ -8509,7 +8509,7 @@
       "category": "Literature",
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.harry_potter",
-      "subtopic": "Spells & Magic",
+      "subtopic": "Wizarding World",
       "question": "What magical device is used to review memories?",
       "options": [
         "Pensieve",

@@ -1609,11 +1609,11 @@
       "question": "What is the name of the level Donkey Kong throws barrels at Mario in the original Donkey Kong arcade?",
       "options": [
         "Construction Site",
-        "25m (Girders)",
+        "25m",
         "Barrel Factory",
         "Jungle Stage"
       ],
-      "correct_answer": "25m (Girders)",
+      "correct_answer": "25m",
       "difficulty": "medium",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Characters"
@@ -3848,12 +3848,12 @@
       "subcategory": "Video Games",
       "question": "What is the rarest naturally occurring power-up in Super Mario World's standard levels?",
       "options": [
-        "The Yoshi Wings (blue shell on Yoshi)",
+        "The Yoshi Wings",
         "The Cape Feather",
         "The Fire Flower",
         "The 3-Up Moon"
       ],
-      "correct_answer": "The Yoshi Wings (blue shell on Yoshi)",
+      "correct_answer": "The Yoshi Wings",
       "difficulty": "hard",
       "topic": "com.fiz.pack.mario",
       "subtopic": "Power-ups & Items"
@@ -6298,12 +6298,12 @@
       "subtopic": "Music & Sound",
       "question": "What musical time signature is the main Super Mario Bros. theme written in?",
       "options": [
-        "4/4 (common time)",
+        "4/4",
         "3/4 (waltz time)",
         "6/8",
         "5/4"
       ],
-      "correct_answer": "4/4 (common time)",
+      "correct_answer": "4/4",
       "difficulty": "medium"
     },
     {
@@ -6330,12 +6330,12 @@
       "subtopic": "Music & Sound",
       "question": "What real-world city inspired the New Donk City music in Super Mario Odyssey?",
       "options": [
-        "New York City (jazz/big band style)",
+        "New York City",
         "Tokyo",
         "Paris",
         "London"
       ],
-      "correct_answer": "New York City (jazz/big band style)",
+      "correct_answer": "New York City",
       "difficulty": "medium"
     },
     {
@@ -6362,12 +6362,12 @@
       "subtopic": "Music & Sound",
       "question": "What synthesizer chip did the NES use for its audio?",
       "options": [
-        "2A03 (part of the CPU)",
+        "2A03",
         "YM2612",
         "SPC700",
         "PSG"
       ],
-      "correct_answer": "2A03 (part of the CPU)",
+      "correct_answer": "2A03",
       "difficulty": "medium"
     },
     {
@@ -6410,12 +6410,12 @@
       "subtopic": "Music & Sound",
       "question": "In Super Mario Galaxy, which orchestra recorded the soundtrack?",
       "options": [
-        "The Mario Galaxy Orchestra (a specially assembled group)",
+        "The Mario Galaxy Orchestra",
         "London Symphony Orchestra",
         "Tokyo Philharmonic",
         "Boston Pops"
       ],
-      "correct_answer": "The Mario Galaxy Orchestra (a specially assembled group)",
+      "correct_answer": "The Mario Galaxy Orchestra",
       "difficulty": "medium"
     },
     {
@@ -6474,12 +6474,12 @@
       "subtopic": "Music & Sound",
       "question": "What sound chip did the Super Nintendo use for enhanced audio compared to the NES?",
       "options": [
-        "SPC700 (Sony sound chip)",
+        "SPC700",
         "2A03",
         "YM2612",
         "POKEY"
       ],
-      "correct_answer": "SPC700 (Sony sound chip)",
+      "correct_answer": "SPC700",
       "difficulty": "medium"
     },
     {
@@ -6554,12 +6554,12 @@
       "subtopic": "Music & Sound",
       "question": "In Super Mario 64, what track plays in Bob-omb Battlefield?",
       "options": [
-        "Bob-omb Battlefield (a marching theme)",
+        "Bob-omb Battlefield",
         "Dire, Dire Docks",
         "Slider",
         "Koopa's Road"
       ],
-      "correct_answer": "Bob-omb Battlefield (a marching theme)",
+      "correct_answer": "Bob-omb Battlefield",
       "difficulty": "medium"
     },
     {
@@ -6794,12 +6794,12 @@
       "subtopic": "Music & Sound",
       "question": "How many total NES sound channels did Koji Kondo have to work with for all music AND sound effects in Super Mario Bros.?",
       "options": [
-        "5 channels (3 for music, 2 for effects)",
+        "5 channels",
         "16 channels",
         "2 channels",
         "32 channels"
       ],
-      "correct_answer": "5 channels (3 for music, 2 for effects)",
+      "correct_answer": "5 channels",
       "difficulty": "hard"
     },
     {
@@ -6858,12 +6858,12 @@
       "subtopic": "Music & Sound",
       "question": "Who sang the vocals for 'Jump Up, Super Star!' in Super Mario Odyssey?",
       "options": [
-        "Kate Higgins (as Pauline)",
+        "Kate Higgins",
         "Koji Kondo",
         "Charles Martinet",
         "Shigeru Miyamoto"
       ],
-      "correct_answer": "Kate Higgins (as Pauline)",
+      "correct_answer": "Kate Higgins",
       "difficulty": "hard"
     },
     {
@@ -6938,12 +6938,12 @@
       "subtopic": "Music & Sound",
       "question": "What limitation caused Koji Kondo to prioritize melody over harmony in early Mario games?",
       "options": [
-        "Limited polyphony (number of simultaneous notes)",
+        "Limited polyphony",
         "Time constraints",
         "Nintendo's artistic direction",
         "Personal preference only"
       ],
-      "correct_answer": "Limited polyphony (number of simultaneous notes)",
+      "correct_answer": "Limited polyphony",
       "difficulty": "hard"
     },
     {

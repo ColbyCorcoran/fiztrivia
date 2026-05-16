@@ -209,18 +209,18 @@
     {
       "id": "frd_012",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Episodes & Plot Lines",
+      "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Monica famously keep in her apartment?",
+      "question": "What does Monica keep hidden behind a locked closet door that reveals her secret messy side?",
       "options": [
-        "An overly organized space",
-        "A messy room",
-        "A hidden closet",
-        "A pet"
+        "Junk, clutter, and old things she hoards",
+        "Christmas decorations",
+        "Old photos from her heavy days",
+        "Chandler's gifts"
       ],
-      "correct_answer": "An overly organized space",
-      "difficulty": "easy"
+      "correct_answer": "Junk, clutter, and old things she hoards",
+      "difficulty": "medium"
     },
     {
       "id": "frd_013",
@@ -273,17 +273,17 @@
     {
       "id": "frd_016",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
+      "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Complete Chandler's sarcastic phrase: 'Could I BE any more...'",
+      "question": "Where do Monica and Chandler first sleep together, secretly starting their relationship?",
       "options": [
-        "[sarcastic]",
-        "[excited]",
-        "[happy]",
-        "[angry]"
+        "In London during Ross's wedding to Emily",
+        "At Central Perk on New Year's Eve",
+        "In Monica's apartment after a party",
+        "On a group trip to Las Vegas"
       ],
-      "correct_answer": "[sarcastic]",
+      "correct_answer": "In London during Ross's wedding to Emily",
       "difficulty": "easy"
     },
     {
@@ -484,7 +484,7 @@
       "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who does Ross have a baby with?",
+      "question": "Who is the mother of Ross's daughter Emma?",
       "options": [
         "Rachel",
         "Carol",
@@ -952,12 +952,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who was a prom date?",
       "options": [
-        "Monica (went with Roy Gublik)",
-        "Rachel and Ross",
-        "Chandler and Monica",
-        "Joey and Phoebe"
+        "Monica",
+        "Rachel",
+        "Chandler",
+        "Joey"
       ],
-      "correct_answer": "Monica (went with Roy Gublik)",
+      "correct_answer": "Monica",
       "difficulty": "easy"
     },
     {
@@ -1014,14 +1014,14 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What did Monica weigh in high school?",
+      "question": "Why does Monica become determined to lose weight after overhearing Chandler call her fat at Thanksgiving?",
       "options": [
-        "She was overweight",
-        "She was very thin",
-        "Average weight",
-        "Athletic build"
+        "To get back at Chandler — but then falls for him instead",
+        "To impress Ross's friends",
+        "To fit into a bridesmaid dress",
+        "To qualify for a sports team"
       ],
-      "correct_answer": "She was overweight",
+      "correct_answer": "To get back at Chandler — but then falls for him instead",
       "difficulty": "medium"
     },
     {
@@ -1062,14 +1062,14 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Ross's second wife's name?",
+      "question": "What embarrassing thing happens when Ross over-whitens his teeth before a date?",
       "options": [
-        "Emily",
-        "Carol",
-        "Rachel",
-        "Julie"
+        "They glow bright white under black light",
+        "They turn yellow from the chemicals",
+        "They become extremely sensitive",
+        "One tooth falls out"
       ],
-      "correct_answer": "Emily",
+      "correct_answer": "They glow bright white under black light",
       "difficulty": "medium"
     },
     {
@@ -1094,15 +1094,15 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Chandler's job that nobody understands?",
+      "question": "What nickname does Chandler have for his unique way of pausing mid-sentence for sarcastic emphasis?",
       "options": [
-        "Statistical analysis and data reconfiguration",
-        "Accountant",
-        "IT manager",
-        "Sales"
+        "Could I BE any more...",
+        "How you doin'?",
+        "We were on a break!",
+        "Oh. My. God."
       ],
-      "correct_answer": "Statistical analysis and data reconfiguration",
-      "difficulty": "medium"
+      "correct_answer": "Could I BE any more...",
+      "difficulty": "easy"
     },
     {
       "id": "frd_068",
@@ -1160,12 +1160,12 @@
       "subcategory": "Drama/Comedy",
       "question": "What does Rachel fear?",
       "options": [
-        "Swings (from childhood)",
+        "Swings",
         "Heights",
         "Spiders",
         "Water"
       ],
-      "correct_answer": "Swings (from childhood)",
+      "correct_answer": "Swings",
       "difficulty": "medium"
     },
     {
@@ -1288,12 +1288,12 @@
       "subcategory": "Drama/Comedy",
       "question": "What does Rachel's father do for a living?",
       "options": [
-        "Doctor (cardiologist)",
+        "Cardiologist",
         "Lawyer",
         "Businessman",
         "Professor"
       ],
-      "correct_answer": "Doctor (cardiologist)",
+      "correct_answer": "Cardiologist",
       "difficulty": "medium"
     },
     {
@@ -1318,14 +1318,14 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Joey's talent?",
+      "question": "What accent does Joey attempt in an audition, which comes out hilariously wrong?",
       "options": [
-        "Acting",
-        "Singing",
-        "Dancing",
-        "Comedy"
+        "A French accent that sounds like gibberish",
+        "A British accent that becomes Scottish",
+        "A Russian accent that becomes German",
+        "An Italian accent that becomes Spanish"
       ],
-      "correct_answer": "Acting",
+      "correct_answer": "A French accent that sounds like gibberish",
       "difficulty": "medium"
     },
     {
@@ -1334,47 +1334,47 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross collect?",
+      "question": "What is the name of the bracelet Joey buys for Chandler after getting a big paycheck from Days of Our Lives?",
       "options": [
-        "Dinosaur stuff",
-        "Comics",
-        "Stamps",
-        "Coins"
+        "The Bracelet Buddy",
+        "The Friendship Chain",
+        "The Joey Special",
+        "The Gold Buddy"
       ],
-      "correct_answer": "Dinosaur stuff",
-      "difficulty": "medium"
+      "correct_answer": "The Bracelet Buddy",
+      "difficulty": "hard"
     },
     {
       "id": "frd_083",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Characters & Personalities",
+      "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Phoebe's massage business called?",
+      "question": "What is Phoebe's birth name before she changed it, which she reveals surprises everyone?",
       "options": [
-        "She's a freelance masseuse",
-        "Phoebe's Massages",
-        "Relaxation Station",
-        "Healing Hands"
+        "Princess Consuela Banana Hammock",
+        "Regina Phalange",
+        "Lily Abbott",
+        "Ursula Buffay"
       ],
-      "correct_answer": "She's a freelance masseuse",
-      "difficulty": "medium"
+      "correct_answer": "Princess Consuela Banana Hammock",
+      "difficulty": "hard"
     },
     {
       "id": "frd_084",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Characters & Personalities",
+      "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Monica's greatest achievement?",
+      "question": "What job does Monica get at the start of Season 9 in Westchester after moving out of the city?",
       "options": [
-        "Becoming a head chef",
-        "Getting married",
-        "Her apartment",
-        "Beating Rachel"
+        "Head chef at a new restaurant there",
+        "Stay-at-home mom",
+        "Caterer",
+        "Restaurant consultant"
       ],
-      "correct_answer": "Becoming a head chef",
-      "difficulty": "medium"
+      "correct_answer": "Head chef at a new restaurant there",
+      "difficulty": "hard"
     },
     {
       "id": "frd_085",
@@ -1382,14 +1382,14 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Rachel's biggest transformation?",
+      "question": "What cosmetic procedure had Rachel undergone as a teenager that she initially denies to Ross?",
       "options": [
-        "From spoiled to independent",
-        "From mean to nice",
-        "From lazy to hardworking",
-        "From shy to confident"
+        "A nose job",
+        "Teeth whitening",
+        "Ear pinning",
+        "Lip filler"
       ],
-      "correct_answer": "From spoiled to independent",
+      "correct_answer": "A nose job",
       "difficulty": "medium"
     },
     {
@@ -1398,14 +1398,14 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Chandler do to cope with stress?",
+      "question": "What is Chandler's former bad habit that he successfully quit before the show begins, though he occasionally relapses?",
       "options": [
-        "Makes jokes",
-        "Smokes",
-        "Eats",
-        "Exercises"
+        "Smoking",
+        "Drinking",
+        "Gambling",
+        "Overeating"
       ],
-      "correct_answer": "Makes jokes",
+      "correct_answer": "Smoking",
       "difficulty": "medium"
     },
     {
@@ -1414,15 +1414,15 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Joey most proud of?",
+      "question": "What does Joey give Chandler as a friendship gift — a piece of jewelry — after getting rich from Days of Our Lives?",
       "options": [
-        "His acting career",
-        "His looks",
-        "His intelligence",
-        "His family"
+        "A gold bracelet called the Bracelet Buddy",
+        "A watch",
+        "A necklace",
+        "A ring"
       ],
-      "correct_answer": "His acting career",
-      "difficulty": "medium"
+      "correct_answer": "A gold bracelet called the Bracelet Buddy",
+      "difficulty": "hard"
     },
     {
       "id": "frd_088",
@@ -1430,14 +1430,14 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Ross's defining trait?",
+      "question": "What is the name of the scientist David, who is one of Phoebe's most serious long-term love interests?",
       "options": [
-        "His intelligence and nerdiness",
-        "His muscles",
-        "His humor",
-        "His wealth"
+        "A physicist who moves to Minsk",
+        "A chemist in London",
+        "A biologist in Paris",
+        "A geologist in Rome"
       ],
-      "correct_answer": "His intelligence and nerdiness",
+      "correct_answer": "A physicist who moves to Minsk",
       "difficulty": "medium"
     },
     {
@@ -1496,12 +1496,12 @@
       "subcategory": "Drama/Comedy",
       "question": "What is Joey's PIN number?",
       "options": [
-        "5639 (corresponding to JOEY on keypad)",
+        "5639",
         "1234",
         "0000",
         "1111"
       ],
-      "correct_answer": "5639 (corresponding to JOEY on keypad)",
+      "correct_answer": "5639",
       "difficulty": "hard"
     },
     {
@@ -1510,14 +1510,14 @@
       "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What fake British accent does Ross use?",
+      "question": "In 'The One with the Embryos,' who acts as quiz master during the high-stakes trivia game?",
       "options": [
-        "A terrible fake accent",
-        "Cockney",
-        "Posh British",
-        "Scottish"
+        "Ross",
+        "Gunther",
+        "Richard Burke",
+        "Mr. Heckles"
       ],
-      "correct_answer": "A terrible fake accent",
+      "correct_answer": "Ross",
       "difficulty": "hard"
     },
     {
@@ -1638,15 +1638,15 @@
       "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "In what city does Friends take place?",
+      "question": "What is the name of the downstairs neighbor who constantly complains about the noise above him?",
       "options": [
-        "New York City",
-        "Los Angeles",
-        "Chicago",
-        "Boston"
+        "Mr. Heckles",
+        "Mr. Tribbiani",
+        "Mr. Bing",
+        "Mr. Terry"
       ],
-      "correct_answer": "New York City",
-      "difficulty": "easy"
+      "correct_answer": "Mr. Heckles",
+      "difficulty": "medium"
     },
     {
       "id": "frd_102",
@@ -1654,31 +1654,31 @@
       "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is the name of the coffee shop?",
+      "question": "In which neighborhood of Manhattan is Monica's apartment building located?",
       "options": [
-        "Central Perk",
-        "Java Joe's",
-        "The Coffee Bean",
-        "Cafe Central"
+        "Greenwich Village",
+        "Upper East Side",
+        "SoHo",
+        "Brooklyn"
       ],
-      "correct_answer": "Central Perk",
-      "difficulty": "easy"
+      "correct_answer": "Greenwich Village",
+      "difficulty": "medium"
     },
     {
       "id": "frd_103",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Episodes & Plot Lines",
+      "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "How many seasons did Friends have?",
+      "question": "In which season of Friends does Phoebe give birth to triplets in the 100th episode?",
       "options": [
-        "10",
-        "8",
-        "9",
-        "12"
+        "Season 5",
+        "Season 4",
+        "Season 6",
+        "Season 3"
       ],
-      "correct_answer": "10",
-      "difficulty": "easy"
+      "correct_answer": "Season 5",
+      "difficulty": "medium"
     },
     {
       "id": "frd_104",
@@ -1734,15 +1734,15 @@
       "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross say wrong at his wedding to Emily?",
+      "question": "In which season does Ross marry Emily Waltham in London?",
       "options": [
-        "Rachel's name",
-        "Emily's last name",
-        "His vows",
-        "The date"
+        "Season 4",
+        "Season 3",
+        "Season 5",
+        "Season 6"
       ],
-      "correct_answer": "Rachel's name",
-      "difficulty": "easy"
+      "correct_answer": "Season 4",
+      "difficulty": "medium"
     },
     {
       "id": "frd_108",
@@ -1912,12 +1912,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who proposes with the wrong ring?",
       "options": [
-        "Joey (to Rachel)",
+        "Joey",
         "Ross",
         "Chandler",
         "Richard"
       ],
-      "correct_answer": "Joey (to Rachel)",
+      "correct_answer": "Joey",
       "difficulty": "easy"
     },
     {
@@ -1926,14 +1926,14 @@
       "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross get stuck in at the museum?",
+      "question": "What does Ross use in a panic to try to remove tight leather pants stuck on his legs on a date?",
       "options": [
-        "Leather pants",
-        "A door",
-        "A window",
-        "An elevator"
+        "Powder and lotion mixed into a paste",
+        "Olive oil",
+        "Baby powder only",
+        "He cuts them off"
       ],
-      "correct_answer": "Leather pants",
+      "correct_answer": "Powder and lotion mixed into a paste",
       "difficulty": "medium"
     },
     {
@@ -2054,14 +2054,14 @@
       "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Rachel do to her hair?",
+      "question": "What iconic hairstyle does Rachel sport in early seasons that becomes a nationwide trend?",
       "options": [
-        "Gets a famous haircut (The Rachel)",
-        "Dyes it",
-        "Cuts it short",
-        "Perms it"
+        "The Rachel",
+        "The shag",
+        "The bob",
+        "The pixie cut"
       ],
-      "correct_answer": "Gets a famous haircut (The Rachel)",
+      "correct_answer": "The Rachel",
       "difficulty": "medium"
     },
     {
@@ -2134,14 +2134,14 @@
       "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross wear?",
+      "question": "What is the name of Ross's friend he calls from the bathroom for advice about the leather pants?",
       "options": [
-        "Leather pants to a date",
-        "A tuxedo",
-        "A costume",
-        "Shorts"
+        "Joey",
+        "Chandler",
+        "Richard",
+        "Gunther"
       ],
-      "correct_answer": "Leather pants to a date",
+      "correct_answer": "Joey",
       "difficulty": "medium"
     },
     {
@@ -2152,12 +2152,12 @@
       "subcategory": "Drama/Comedy",
       "question": "What does Joey learn?",
       "options": [
-        "French (poorly)",
+        "French",
         "Spanish",
         "Italian",
         "German"
       ],
-      "correct_answer": "French (poorly)",
+      "correct_answer": "French",
       "difficulty": "medium"
     },
     {
@@ -2566,14 +2566,14 @@
       "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is the apartment number?",
+      "question": "What is the apartment number of Monica's apartment in the later seasons of the show?",
       "options": [
-        "20 (Monica's)",
+        "20",
         "5",
         "10",
         "15"
       ],
-      "correct_answer": "20 (Monica's)",
+      "correct_answer": "20",
       "difficulty": "hard"
     },
     {
@@ -2598,14 +2598,14 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who says 'How you doin'?'",
+      "question": "What does Phoebe say to describe why Ross and Rachel are meant to be together, comparing them to a type of crustacean?",
       "options": [
-        "Joey",
-        "Chandler",
-        "Ross",
-        "Richard"
+        "He's her lobster",
+        "They're like clams",
+        "They're two peas",
+        "He's her shrimp"
       ],
-      "correct_answer": "Joey",
+      "correct_answer": "He's her lobster",
       "difficulty": "easy"
     },
     {
@@ -2630,15 +2630,15 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who says 'Oh. My. God.'",
+      "question": "What does Chandler famously say he cannot do normally when a camera is pointed at him?",
       "options": [
-        "Janice",
-        "Rachel",
-        "Monica",
-        "Phoebe"
+        "Smile — he always makes a weird face",
+        "Stand still",
+        "Look at the lens",
+        "Keep his eyes open"
       ],
-      "correct_answer": "Janice",
-      "difficulty": "easy"
+      "correct_answer": "Smile — he always makes a weird face",
+      "difficulty": "medium"
     },
     {
       "id": "frd_164",
@@ -2694,15 +2694,15 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Joey say he doesn't do?",
+      "question": "What does Ross call the special gravy-soaked middle piece of bread in his legendary Thanksgiving leftover sandwich?",
       "options": [
-        "Share food",
-        "Share money",
-        "Share clothes",
-        "Share secrets"
+        "The Moist Maker",
+        "The Secret Layer",
+        "The Gravy Bread",
+        "The Middle Slice"
       ],
-      "correct_answer": "Share food",
-      "difficulty": "easy"
+      "correct_answer": "The Moist Maker",
+      "difficulty": "medium"
     },
     {
       "id": "frd_168",
@@ -2710,31 +2710,31 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Monica say about cleaning?",
+      "question": "What is Monica Geller's enthusiastic verbal tic when she's agreeing with something exciting?",
       "options": [
-        "I know! (when agreeing)",
-        "Clean it up",
-        "It's perfect",
-        "Don't touch"
+        "'I know!'",
+        "'You're right!'",
+        "'Exactly!'",
+        "'Of course!'"
       ],
-      "correct_answer": "I know! (when agreeing)",
-      "difficulty": "easy"
+      "correct_answer": "'I know!'",
+      "difficulty": "medium"
     },
     {
       "id": "frd_169",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
+      "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Phoebe call herself?",
+      "question": "What does Phoebe pretend is wrong with the plane's 'phlange' to stop Rachel from flying to Paris?",
       "options": [
-        "Regina Phalange",
-        "Princess",
-        "Doctor",
-        "Chef"
+        "She invents a fake aircraft part problem",
+        "She pulls the fire alarm",
+        "She claims to be a pilot",
+        "She calls the airline to cancel"
       ],
-      "correct_answer": "Regina Phalange",
-      "difficulty": "easy"
+      "correct_answer": "She invents a fake aircraft part problem",
+      "difficulty": "medium"
     },
     {
       "id": "frd_170",
@@ -2742,14 +2742,14 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross say about his expertise?",
+      "question": "What does Ross often remind people about his academic credentials?",
       "options": [
-        "I'm a doctor (of paleontology)",
-        "I'm smart",
-        "I know things",
-        "Trust me"
+        "He has a PhD",
+        "He went to Harvard",
+        "He has a master's degree",
+        "He's board-certified"
       ],
-      "correct_answer": "I'm a doctor (of paleontology)",
+      "correct_answer": "He has a PhD",
       "difficulty": "easy"
     },
     {
@@ -2758,14 +2758,14 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Rachel say when confused?",
+      "question": "What does Rachel say to the men in the room when they offer opinions during her labor?",
       "options": [
-        "No uterus, no opinion (to men)",
-        "I don't know",
-        "What?",
-        "Seriously?"
+        "No uterus, no opinion",
+        "Stay out of this",
+        "You wouldn't understand",
+        "Mind your own business"
       ],
-      "correct_answer": "No uterus, no opinion (to men)",
+      "correct_answer": "No uterus, no opinion",
       "difficulty": "easy"
     },
     {
@@ -2803,18 +2803,18 @@
     {
       "id": "frd_174",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
+      "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross say about his divorces?",
+      "question": "What was the name of Ross's student he briefly dated, causing a scandal at his university?",
       "options": [
-        "He's divorced three times",
-        "He's unlucky",
-        "He's cursed",
-        "He gives up"
+        "Elizabeth Stevens",
+        "Sarah Williams",
+        "Amy Parker",
+        "Julie Chen"
       ],
-      "correct_answer": "He's divorced three times",
-      "difficulty": "easy"
+      "correct_answer": "Elizabeth Stevens",
+      "difficulty": "medium"
     },
     {
       "id": "frd_175",
@@ -2838,15 +2838,15 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Phoebe say about her beliefs?",
+      "question": "What does Phoebe famously say she does not have when people ask about her long-term planning?",
       "options": [
-        "I don't even have a pla- (plan)",
-        "Weird stuff",
-        "Strange things",
-        "Unique ideas"
+        "A plan",
+        "A schedule",
+        "A goal",
+        "A budget"
       ],
-      "correct_answer": "I don't even have a pla- (plan)",
-      "difficulty": "easy"
+      "correct_answer": "A plan",
+      "difficulty": "medium"
     },
     {
       "id": "frd_177",
@@ -2883,17 +2883,17 @@
     {
       "id": "frd_179",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
+      "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Joey say about food?",
+      "question": "What deal does Joey make with Phoebe when she craves meat during her surrogate pregnancy?",
       "options": [
-        "Joey doesn't share food",
-        "Food is life",
-        "I love food",
-        "Hungry"
+        "He gives up eating meat for every serving she eats",
+        "He doubles his own meat intake",
+        "He becomes vegetarian alongside her",
+        "He cooks all her meat dishes for her"
       ],
-      "correct_answer": "Joey doesn't share food",
+      "correct_answer": "He gives up eating meat for every serving she eats",
       "difficulty": "medium"
     },
     {
@@ -2902,14 +2902,14 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross say repeatedly?",
+      "question": "How long is the letter Rachel writes to Ross asking if he read it 'front and back'?",
       "options": [
-        "We were on a break",
-        "I love Rachel",
-        "Unbelievable",
-        "Come on"
+        "18 pages",
+        "5 pages",
+        "10 pages",
+        "3 pages"
       ],
-      "correct_answer": "We were on a break",
+      "correct_answer": "18 pages",
       "difficulty": "medium"
     },
     {
@@ -2982,14 +2982,14 @@
       "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Episodes & Plot Lines",
-      "question": "What does Ross buy that is way too small?",
+      "question": "What self-defense concept does Ross claim to possess that can sense danger from all directions?",
       "options": [
-        "Leather pants",
-        "A couch",
-        "A shirt",
-        "A car"
+        "Unagi",
+        "Karate",
+        "Kung Fu",
+        "Judo"
       ],
-      "correct_answer": "Leather pants",
+      "correct_answer": "Unagi",
       "difficulty": "medium"
     },
     {
@@ -3062,15 +3062,15 @@
       "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Episodes & Plot Lines",
-      "question": "What does Joey put on his head when he's sad?",
+      "question": "What is the name of the Japanese cologne brand Joey models for in an embarrassing advertisement?",
       "options": [
-        "A hat",
-        "The turkey",
-        "A bag",
-        "Sunglasses"
+        "Ichiban",
+        "Yamamoto",
+        "Tokyo Blue",
+        "Samurai Gold"
       ],
-      "correct_answer": "The turkey",
-      "difficulty": "medium"
+      "correct_answer": "Ichiban",
+      "difficulty": "hard"
     },
     {
       "id": "frd_191",
@@ -3078,14 +3078,14 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Joey say to women?",
+      "question": "What is Chandler's involuntary facial response that makes every photo of him look awful?",
       "options": [
-        "How you doin'?",
-        "Hey beautiful",
-        "Hi there",
-        "What's up"
+        "He can't stop making a weird smirk",
+        "He closes his eyes",
+        "He looks away",
+        "He opens his mouth"
       ],
-      "correct_answer": "How you doin'?",
+      "correct_answer": "He can't stop making a weird smirk",
       "difficulty": "medium"
     },
     {
@@ -3139,18 +3139,18 @@
     {
       "id": "frd_195",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
+      "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross say about his marriages?",
+      "question": "What does Carol, Ross's first wife, do that ends their marriage?",
       "options": [
-        "Three divorces",
-        "Bad luck",
-        "Complicated",
-        "It happens"
+        "She comes out as a lesbian and falls for Susan Bunch",
+        "She moves to another city for work",
+        "She cheats with a colleague",
+        "She decides she doesn't want children"
       ],
-      "correct_answer": "Three divorces",
-      "difficulty": "medium"
+      "correct_answer": "She comes out as a lesbian and falls for Susan Bunch",
+      "difficulty": "easy"
     },
     {
       "id": "frd_196",
@@ -3347,18 +3347,18 @@
     {
       "id": "frd_208",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
+      "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does the group say?",
+      "question": "In the famous Thanksgiving quiz game in 'The One with the Embryos,' what do Monica and Chandler win?",
       "options": [
-        "I'll be there for you",
-        "We're friends",
-        "Together",
-        "Best friends"
+        "The guys' apartment",
+        "A cash prize",
+        "Joey's duck",
+        "A free dinner"
       ],
-      "correct_answer": "I'll be there for you",
-      "difficulty": "medium"
+      "correct_answer": "The guys' apartment",
+      "difficulty": "easy"
     },
     {
       "id": "frd_209",
@@ -3398,14 +3398,14 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Chandler's TV Guide say?",
+      "question": "What does Monica say when she discovers a locked closet that Chandler insists she never open?",
       "options": [
-        "Miss Chanandler Bong",
-        "Mr. Bing",
-        "Chandler Bing",
-        "C. Bing"
+        "That's MY closet!",
+        "What's in there?",
+        "Open it now!",
+        "It doesn't bother me"
       ],
-      "correct_answer": "Miss Chanandler Bong",
+      "correct_answer": "That's MY closet!",
       "difficulty": "hard"
     },
     {
@@ -3462,14 +3462,14 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Phoebe say her name is?",
+      "question": "What does Phoebe say to an airport official claiming to be a doctor representing a passenger named Régine Philange?",
       "options": [
-        "Regina Phalange",
-        "Vikki",
-        "Phyllis",
-        "Susan"
+        "She uses it to stall Rachel's departure to Paris",
+        "She is trying to get a free upgrade",
+        "She is checking in for a flight",
+        "She is reporting a lost bag"
       ],
-      "correct_answer": "Regina Phalange",
+      "correct_answer": "She uses it to stall Rachel's departure to Paris",
       "difficulty": "hard"
     },
     {
@@ -3510,31 +3510,31 @@
       "subtopic": "Quotes & Catchphrases",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Rachel say about beef?",
+      "question": "What does Phoebe believe the stray cat she finds in Season 4 contains?",
       "options": [
-        "'It tastes like feet'",
-        "It's good",
-        "Yum",
-        "Delicious"
+        "The spirit of her late mother Lily",
+        "A lucky omen",
+        "Nothing — it's just a cat",
+        "The soul of a stranger"
       ],
-      "correct_answer": "'It tastes like feet'",
+      "correct_answer": "The spirit of her late mother Lily",
       "difficulty": "hard"
     },
     {
       "id": "frd_219",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Quotes & Catchphrases",
+      "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Ross say while moving?",
+      "question": "What item does Ross insist on moving himself up a staircase without professional help, leading to the 'pivot' disaster?",
       "options": [
-        "'Pivot! Pivot! Pivot!'",
-        "Push",
-        "Careful",
-        "Slow"
+        "A large sofa",
+        "A king-size bed",
+        "A dresser",
+        "A dining table"
       ],
-      "correct_answer": "'Pivot! Pivot! Pivot!'",
-      "difficulty": "hard"
+      "correct_answer": "A large sofa",
+      "difficulty": "easy"
     },
     {
       "id": "frd_220",
@@ -3638,15 +3638,15 @@
       "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Chandler's job?",
+      "question": "Where does Ross work that has both a museum and a university affiliation?",
       "options": [
-        "Statistical analysis",
-        "Lawyer",
-        "Doctor",
-        "Teacher"
+        "The Museum of Natural History and NYU",
+        "The Metropolitan Museum and Columbia",
+        "The Smithsonian and Princeton",
+        "The Natural History Museum and Harvard"
       ],
-      "correct_answer": "Statistical analysis",
-      "difficulty": "easy"
+      "correct_answer": "The Museum of Natural History and NYU",
+      "difficulty": "medium"
     },
     {
       "id": "frd_227",
@@ -3702,15 +3702,15 @@
       "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Joey's soap opera role?",
+      "question": "What happens to Dr. Drake Ramoray that temporarily takes Joey off Days of Our Lives?",
       "options": [
-        "Dr. Drake Ramoray",
-        "Dr. Dan Ramoray",
-        "Drake Ramoray",
-        "Dr. David"
+        "He falls down an elevator shaft and is written off",
+        "He retires",
+        "He moves to another hospital",
+        "He gets fired from the hospital"
       ],
-      "correct_answer": "Dr. Drake Ramoray",
-      "difficulty": "easy"
+      "correct_answer": "He falls down an elevator shaft and is written off",
+      "difficulty": "medium"
     },
     {
       "id": "frd_231",
@@ -3750,14 +3750,14 @@
       "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Where does Rachel get a job offer?",
+      "question": "What does Rachel ultimately decide to do at the airport when Ross tells her he loves her in the finale?",
       "options": [
-        "Paris",
-        "London",
-        "Milan",
-        "Tokyo"
+        "Get off the plane to stay with Ross",
+        "Board the flight to Paris",
+        "Call him from the gate",
+        "Ask for more time to decide"
       ],
-      "correct_answer": "Paris",
+      "correct_answer": "Get off the plane to stay with Ross",
       "difficulty": "easy"
     },
     {
@@ -4006,15 +4006,15 @@
       "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Joey star in?",
+      "question": "When Dr. Drake Ramoray is killed off on Days of Our Lives, how is Joey eventually brought back to the show?",
       "options": [
-        "Days of Our Lives",
-        "Another show",
-        "Movies only",
-        "Theater only"
+        "He receives a brain transplant from a deceased female character",
+        "He was never actually killed — it was a dream",
+        "He fakes his own death and returns in disguise",
+        "A new actor takes over the role"
       ],
-      "correct_answer": "Days of Our Lives",
-      "difficulty": "medium"
+      "correct_answer": "He receives a brain transplant from a deceased female character",
+      "difficulty": "hard"
     },
     {
       "id": "frd_250",
@@ -4102,14 +4102,14 @@
       "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Jobs & Careers",
-      "question": "Where does Chandler move for work?",
+      "question": "What new career does Chandler pursue after quitting his data job, starting as an unpaid intern?",
       "options": [
-        "Boston",
-        "Tulsa",
-        "Chicago",
-        "Philadelphia"
+        "Advertising",
+        "Marketing",
+        "Teaching",
+        "Sales"
       ],
-      "correct_answer": "Tulsa",
+      "correct_answer": "Advertising",
       "difficulty": "medium"
     },
     {
@@ -4214,15 +4214,15 @@
       "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Rachel get offered?",
+      "question": "Who gets Rachel the job offer in Paris by making a phone call on her behalf?",
       "options": [
-        "Paris job",
-        "London job",
-        "LA job",
-        "Milan job"
+        "Mark Robinson",
+        "Tag Jones",
+        "Joshua Burgin",
+        "Gavin Mitchell"
       ],
-      "correct_answer": "Paris job",
-      "difficulty": "medium"
+      "correct_answer": "Mark Robinson",
+      "difficulty": "hard"
     },
     {
       "id": "frd_263",
@@ -4230,15 +4230,15 @@
       "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Chandler transfer to?",
+      "question": "What is Chandler's specific role in advertising that he works his way up to?",
       "options": [
-        "Tulsa temporarily",
-        "Chicago",
-        "Boston",
-        "Atlanta"
+        "Copywriter",
+        "Art director",
+        "Account manager",
+        "Media planner"
       ],
-      "correct_answer": "Tulsa temporarily",
-      "difficulty": "medium"
+      "correct_answer": "Copywriter",
+      "difficulty": "hard"
     },
     {
       "id": "frd_264",
@@ -4275,18 +4275,18 @@
     {
       "id": "frd_266",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Jobs & Careers",
+      "subtopic": "Episodes & Plot Lines",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Phoebe do for her brother?",
+      "question": "What are the names of the triplets Phoebe gives birth to as a surrogate for her brother Frank Jr.?",
       "options": [
-        "Surrogate pregnancy",
-        "Babysitting",
-        "Money help",
-        "Housing"
+        "Frank Jr. Jr., Leslie, and Chandler",
+        "Lily, Jack, and Emma",
+        "Ben, Carol, and Susan",
+        "Ross, Rachel, and Joey"
       ],
-      "correct_answer": "Surrogate pregnancy",
-      "difficulty": "medium"
+      "correct_answer": "Frank Jr. Jr., Leslie, and Chandler",
+      "difficulty": "hard"
     },
     {
       "id": "frd_267",
@@ -4326,14 +4326,14 @@
       "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is Chandler's exact job title?",
+      "question": "What does Joey model for a tacky product advertisement that Chandler finds in a men's restroom?",
       "options": [
-        "Statistical Analysis and Data Reconfiguration",
-        "Data Analyst",
-        "IT Specialist",
-        "Systems Manager"
+        "VD awareness poster",
+        "Cologne advertisement",
+        "Energy drink label",
+        "Hair product bottle"
       ],
-      "correct_answer": "Statistical Analysis and Data Reconfiguration",
+      "correct_answer": "VD awareness poster",
       "difficulty": "hard"
     },
     {
@@ -4390,15 +4390,15 @@
       "subtopic": "Jobs & Careers",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What does Rachel's Paris job offer?",
+      "question": "What job does Chandler quit his data career to pursue as an unpaid intern in his late 30s?",
       "options": [
-        "Louis Vuitton",
-        "Gucci",
-        "Prada",
-        "Chanel"
+        "Advertising copywriting",
+        "Marketing",
+        "Sales management",
+        "Public relations"
       ],
-      "correct_answer": "Louis Vuitton",
-      "difficulty": "hard"
+      "correct_answer": "Advertising copywriting",
+      "difficulty": "medium"
     },
     {
       "id": "frd_274",
@@ -4518,15 +4518,15 @@
       "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who does Monica marry?",
+      "question": "In which city do Monica and Chandler get married, in a ceremony almost derailed by Richard's return?",
       "options": [
-        "Chandler",
-        "Richard",
-        "Pete",
-        "Fun Bobby"
+        "New York City",
+        "Las Vegas",
+        "London",
+        "Barbados"
       ],
-      "correct_answer": "Chandler",
-      "difficulty": "easy"
+      "correct_answer": "New York City",
+      "difficulty": "medium"
     },
     {
       "id": "frd_282",
@@ -4534,14 +4534,14 @@
       "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Quotes & Catchphrases",
-      "question": "What does Phoebe's song about a cat say?",
+      "question": "In what language does Phoebe attempt to teach Joey so he can audition for a role, with hilariously bad results?",
       "options": [
-        "Smelly Cat",
-        "Fluffy Cat",
-        "Angry Cat",
-        "Sad Cat"
+        "French",
+        "Italian",
+        "Spanish",
+        "German"
       ],
-      "correct_answer": "Smelly Cat",
+      "correct_answer": "French",
       "difficulty": "easy"
     },
     {
@@ -4728,12 +4728,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who marries a gay ice dancer?",
       "options": [
-        "Phoebe (to Duncan)",
+        "Phoebe",
         "Monica",
         "Rachel",
         "Carol"
       ],
-      "correct_answer": "Phoebe (to Duncan)",
+      "correct_answer": "Phoebe",
       "difficulty": "easy"
     },
     {
@@ -4760,12 +4760,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who dates Rachel's sister?",
       "options": [
-        "Ross (later)",
+        "Ross",
         "Joey",
         "Chandler",
         "Richard"
       ],
-      "correct_answer": "Ross (later)",
+      "correct_answer": "Ross",
       "difficulty": "easy"
     },
     {
@@ -4774,14 +4774,14 @@
       "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who kissed everyone in the group?",
+      "question": "What does Phoebe say to describe the soul-mate bond between Ross and Rachel?",
       "options": [
-        "Rachel (kissed all 5)",
-        "Monica",
-        "Phoebe",
-        "Ross"
+        "He's her lobster",
+        "They're meant to be",
+        "They're cosmic",
+        "It's written in the stars"
       ],
-      "correct_answer": "Rachel (kissed all 5)",
+      "correct_answer": "He's her lobster",
       "difficulty": "easy"
     },
     {
@@ -4824,12 +4824,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who does Phoebe almost marry?",
       "options": [
-        "David (the scientist)",
+        "David",
         "Mike",
         "Gary",
         "Duncan"
       ],
-      "correct_answer": "David (the scientist)",
+      "correct_answer": "David",
       "difficulty": "medium"
     },
     {
@@ -4870,15 +4870,15 @@
       "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who does Joey have feelings for?",
+      "question": "Which of Rachel's two sisters dated Ross after he and Rachel broke up?",
       "options": [
-        "Rachel",
-        "Phoebe",
-        "Monica",
-        "No one"
+        "Jill",
+        "Amy",
+        "Sandra",
+        "Bonnie"
       ],
-      "correct_answer": "Rachel",
-      "difficulty": "medium"
+      "correct_answer": "Jill",
+      "difficulty": "hard"
     },
     {
       "id": "frd_304",
@@ -4904,12 +4904,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who proposes incorrectly?",
       "options": [
-        "Joey to Rachel by mistake",
+        "Joey",
         "Ross",
         "Chandler",
         "Richard"
       ],
-      "correct_answer": "Joey to Rachel by mistake",
+      "correct_answer": "Joey",
       "difficulty": "medium"
     },
     {
@@ -5000,12 +5000,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who dates a millionaire?",
       "options": [
-        "Monica dates Pete",
+        "Monica",
         "Rachel",
         "Phoebe",
         "No one"
       ],
-      "correct_answer": "Monica dates Pete",
+      "correct_answer": "Monica",
       "difficulty": "medium"
     },
     {
@@ -5078,15 +5078,15 @@
       "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who has three divorces?",
+      "question": "Who is the birth mother that Chandler and Monica adopt their twins from in the finale season?",
       "options": [
-        "Ross",
-        "Chandler",
-        "Joey",
-        "No one"
+        "Erica",
+        "Amy",
+        "Sarah",
+        "Jennifer"
       ],
-      "correct_answer": "Ross",
-      "difficulty": "medium"
+      "correct_answer": "Erica",
+      "difficulty": "hard"
     },
     {
       "id": "frd_317",
@@ -5094,15 +5094,15 @@
       "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who dates an ophthalmologist?",
+      "question": "What is the last name of Phoebe's husband Mike, who she marries in Season 10?",
       "options": [
-        "Rachel dates Joshua",
-        "Monica",
-        "Phoebe",
-        "No one"
+        "Hannigan",
+        "Sullivan",
+        "Wheeler",
+        "Bradford"
       ],
-      "correct_answer": "Rachel dates Joshua",
-      "difficulty": "medium"
+      "correct_answer": "Hannigan",
+      "difficulty": "hard"
     },
     {
       "id": "frd_318",
@@ -5174,14 +5174,14 @@
       "subtopic": "Dating & Relationships",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who dates their sister's ex?",
+      "question": "What tanning mishap leaves Ross extremely over-tanned on only one side of his body?",
       "options": [
-        "Ross and Rachel (Rachel's ex Barry)",
-        "Monica and Ross",
-        "Chandler and Ross",
-        "No one"
+        "He faces the wrong direction in the booth multiple times",
+        "He falls asleep under a UV lamp",
+        "He uses double-strength tanning lotion",
+        "He stays in the booth twice as long as recommended"
       ],
-      "correct_answer": "Ross and Rachel (Rachel's ex Barry)",
+      "correct_answer": "He faces the wrong direction in the booth multiple times",
       "difficulty": "medium"
     },
     {
@@ -5256,12 +5256,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who gets left at the altar?",
       "options": [
-        "Barry leaves Rachel",
+        "Barry Farber",
         "Ross",
         "Chandler",
         "Monica"
       ],
-      "correct_answer": "Barry leaves Rachel",
+      "correct_answer": "Barry Farber",
       "difficulty": "medium"
     },
     {
@@ -5286,15 +5286,15 @@
       "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Quotes & Catchphrases",
-      "question": "What does Ross say about being on a break?",
+      "question": "What does Joey say instead of 'moot point,' using a cow-based analogy?",
       "options": [
-        "We were on a break!",
-        "It doesn't matter",
-        "She'll understand",
-        "I was wrong"
+        "'It's a moo point'",
+        "'It's a bull point'",
+        "'It's a cow point'",
+        "'It's a steer point'"
       ],
-      "correct_answer": "We were on a break!",
-      "difficulty": "easy"
+      "correct_answer": "'It's a moo point'",
+      "difficulty": "medium"
     },
     {
       "id": "frd_330",
@@ -5448,12 +5448,12 @@
       "subcategory": "Drama/Comedy",
       "question": "Who does Phoebe marry in Vegas?",
       "options": [
-        "No one (Ross and Rachel did)",
+        "No one — she was already married to Duncan",
         "Mike",
         "David",
-        "Duncan"
+        "Gary"
       ],
-      "correct_answer": "No one (Ross and Rachel did)",
+      "correct_answer": "No one — she was already married to Duncan",
       "difficulty": "hard"
     },
     {
@@ -5510,31 +5510,31 @@
       "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "question": "What city is Friends set in?",
+      "question": "What is the address of the building used as the exterior shot of Monica's apartment in establishing shots?",
       "options": [
-        "Los Angeles",
-        "Chicago",
-        "New York",
-        "Boston"
+        "90 Bedford Street, New York",
+        "55 Central Park West",
+        "742 Evergreen Terrace",
+        "10 Mercer Street"
       ],
-      "correct_answer": "New York",
-      "difficulty": "easy"
+      "correct_answer": "90 Bedford Street, New York",
+      "difficulty": "hard"
     },
     {
       "id": "frd_344",
       "topic": "com.fiz.pack.friends",
-      "subtopic": "Trivia & Behind the Scenes",
+      "subtopic": "Characters & Personalities",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "How many main cast members?",
+      "question": "What Holiday character does Ross dress up as to teach Ben about Hanukkah?",
       "options": [
-        "Six",
-        "Five",
-        "Seven",
-        "Four"
+        "The Holiday Armadillo",
+        "Hanukkah Harry",
+        "The Hanukkah Goat",
+        "The Winter Armadillo"
       ],
-      "correct_answer": "Six",
-      "difficulty": "easy"
+      "correct_answer": "The Holiday Armadillo",
+      "difficulty": "medium"
     },
     {
       "id": "frd_345",
@@ -5542,15 +5542,15 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who sings the theme song?",
+      "question": "Who are the two creators and executive producers of Friends?",
       "options": [
-        "The Rembrandts",
-        "The Beatles",
-        "Boyz II Men",
-        "R.E.M."
+        "David Crane and Marta Kauffman",
+        "Kevin Bright and Marta Kauffman",
+        "David Crane and Kevin Bright",
+        "Matt LeBlanc and Jennifer Aniston"
       ],
-      "correct_answer": "The Rembrandts",
-      "difficulty": "easy"
+      "correct_answer": "David Crane and Marta Kauffman",
+      "difficulty": "medium"
     },
     {
       "id": "frd_346",
@@ -5558,15 +5558,15 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is the theme song called?",
+      "question": "What are the only two main cast members who are also the only ones who never directed an episode?",
       "options": [
-        "I'll Be There for You",
-        "Friends Forever",
-        "Together",
-        "Best Friends"
+        "Matt LeBlanc and Lisa Kudrow",
+        "Jennifer Aniston and Courteney Cox",
+        "David Schwimmer and Matthew Perry",
+        "None — all six directed"
       ],
-      "correct_answer": "I'll Be There for You",
-      "difficulty": "easy"
+      "correct_answer": "Matt LeBlanc and Lisa Kudrow",
+      "difficulty": "hard"
     },
     {
       "id": "frd_347",
@@ -5606,15 +5606,15 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "How many seasons of Friends were produced in total?",
+      "question": "What was the unique broadcast format of the Friends series finale 'The Last One'?",
       "options": [
-        "Eight",
-        "Nine",
-        "Ten",
-        "Eleven"
+        "A double-length two-part episode aired together",
+        "A normal-length single episode",
+        "A three-part event",
+        "A live episode"
       ],
-      "correct_answer": "Ten",
-      "difficulty": "easy"
+      "correct_answer": "A double-length two-part episode aired together",
+      "difficulty": "medium"
     },
     {
       "id": "frd_350",
@@ -5670,14 +5670,14 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "How many seasons aired?",
+      "question": "What naming convention is used for all Friends episode titles?",
       "options": [
-        "10",
-        "8",
-        "9",
-        "12"
+        "\"The One With/Where...\" format",
+        "\"Friends: Season X\" format",
+        "\"Episode X: Title\" format",
+        "No special format"
       ],
-      "correct_answer": "10",
+      "correct_answer": "\"The One With/Where...\" format",
       "difficulty": "easy"
     },
     {
@@ -5814,14 +5814,14 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What fountain appears in opening?",
+      "question": "What were the two working titles Friends used before settling on its final name?",
       "options": [
-        "Warner Bros Ranch fountain",
-        "Central Park",
-        "A New York fountain",
-        "Studio fountain"
+        "Insomnia Cafe and Six of One",
+        "Manhattan Friends and Six of One",
+        "The Group and Friends Like Us",
+        "Central Perk and Six Friends"
       ],
-      "correct_answer": "Warner Bros Ranch fountain",
+      "correct_answer": "Insomnia Cafe and Six of One",
       "difficulty": "medium"
     },
     {
@@ -5830,14 +5830,14 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "How long did Friends run?",
+      "question": "What year did Friends air its milestone 100th episode, titled 'The One Hundredth'?",
       "options": [
-        "10 seasons",
-        "8 seasons",
-        "9 seasons",
-        "12 seasons"
+        "1998",
+        "1997",
+        "1999",
+        "2000"
       ],
-      "correct_answer": "10 seasons",
+      "correct_answer": "1998",
       "difficulty": "medium"
     },
     {
@@ -5846,14 +5846,14 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who created Friends?",
+      "question": "Where is the Friends cast fountain scene from the opening title sequence actually filmed?",
       "options": [
-        "David Crane and Marta Kauffman",
-        "Matthew Perry",
-        "Jennifer Aniston",
-        "David Schwimmer"
+        "Warner Bros. Ranch in Burbank, California",
+        "Central Park, New York",
+        "Rockefeller Center",
+        "A Los Angeles park"
       ],
-      "correct_answer": "David Crane and Marta Kauffman",
+      "correct_answer": "Warner Bros. Ranch in Burbank, California",
       "difficulty": "medium"
     },
     {
@@ -5878,15 +5878,15 @@
       "subcategory": "Sitcoms",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "question": "How many Emmy Awards did Friends win?",
+      "question": "What was the name of the spin-off series featuring Joey Tribbiani that premiered in 2004?",
       "options": [
-        "2",
-        "4",
-        "6",
-        "8"
+        "Joey",
+        "Tribbiani",
+        "Days of Our Lives",
+        "The Joey Show"
       ],
-      "correct_answer": "6",
-      "difficulty": "medium"
+      "correct_answer": "Joey",
+      "difficulty": "easy"
     },
     {
       "id": "frd_367",
@@ -5910,15 +5910,15 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What show followed Friends?",
+      "question": "In what year did Friends win the Emmy Award for Outstanding Comedy Series — its first and only win in that category?",
       "options": [
-        "Various (ER, Will & Grace, etc.)",
-        "Seinfeld",
-        "Frasier",
-        "Nothing"
+        "2002",
+        "1995",
+        "1998",
+        "2004"
       ],
-      "correct_answer": "Various (ER, Will & Grace, etc.)",
-      "difficulty": "medium"
+      "correct_answer": "2002",
+      "difficulty": "hard"
     },
     {
       "id": "frd_369",
@@ -5958,14 +5958,14 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Who performed theme song?",
+      "question": "What was the alternate title Friends was pitched under before being named 'Friends'?",
       "options": [
-        "The Rembrandts",
-        "REM",
-        "U2",
-        "The Beatles"
+        "Six of One",
+        "The Gang",
+        "Manhattan",
+        "Together"
       ],
-      "correct_answer": "The Rembrandts",
+      "correct_answer": "Six of One",
       "difficulty": "medium"
     },
     {
@@ -5974,15 +5974,15 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "What is theme song called?",
+      "question": "At the end of the series finale, where do Monica and Chandler move with their adopted twins?",
       "options": [
-        "I'll Be There for You",
-        "Friends Forever",
-        "Best Friends",
-        "Together"
+        "Westchester, New York",
+        "New Jersey",
+        "Connecticut",
+        "Long Island"
       ],
-      "correct_answer": "I'll Be There for You",
-      "difficulty": "medium"
+      "correct_answer": "Westchester, New York",
+      "difficulty": "hard"
     },
     {
       "id": "frd_373",
@@ -5990,14 +5990,14 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "When did Friends premiere?",
+      "question": "How much did each main cast member earn per episode by the final two seasons?",
       "options": [
-        "September 1994",
-        "1993",
-        "1995",
-        "1996"
+        "$1 million",
+        "$500,000",
+        "$750,000",
+        "$250,000"
       ],
-      "correct_answer": "September 1994",
+      "correct_answer": "$1 million",
       "difficulty": "medium"
     },
     {
@@ -6006,14 +6006,14 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "When did Friends end?",
+      "question": "Approximately how many viewers in the United States watched the Friends series finale?",
       "options": [
-        "May 2004",
-        "2003",
-        "2005",
-        "2006"
+        "52.5 million",
+        "40 million",
+        "30 million",
+        "65 million"
       ],
-      "correct_answer": "May 2004",
+      "correct_answer": "52.5 million",
       "difficulty": "medium"
     },
     {
@@ -6038,7 +6038,7 @@
       "subcategory": "TV Shows",
       "topic": "com.fiz.pack.friends",
       "subtopic": "Trivia & Behind the Scenes",
-      "question": "What is the name of Central Perk's manager?",
+      "question": "Which Central Perk employee is secretly in love with Rachel Green throughout the entire series?",
       "options": [
         "Gunther",
         "Terry",
@@ -6134,14 +6134,14 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "How many Emmy wins?",
+      "question": "How many seasons did the Friends spin-off starring Matt LeBlanc run before cancellation?",
       "options": [
-        "6 wins",
-        "10",
-        "15",
-        "20"
+        "2 seasons",
+        "1 season",
+        "3 seasons",
+        "4 seasons"
       ],
-      "correct_answer": "6 wins",
+      "correct_answer": "2 seasons",
       "difficulty": "medium"
     },
     {
@@ -6166,15 +6166,15 @@
       "subtopic": "Trivia & Behind the Scenes",
       "category": "Entertainment",
       "subcategory": "Drama/Comedy",
-      "question": "Where is the apartment set?",
+      "question": "What was the first name ever used for the show in the original pilot script before any other working title?",
       "options": [
-        "Studio in California",
-        "Real NYC apartment",
-        "Various locations",
-        "New York studio"
+        "Insomnia Cafe",
+        "Six of One",
+        "Friends Like Us",
+        "The Group"
       ],
-      "correct_answer": "Studio in California",
-      "difficulty": "medium"
+      "correct_answer": "Insomnia Cafe",
+      "difficulty": "hard"
     },
     {
       "id": "frd_385",

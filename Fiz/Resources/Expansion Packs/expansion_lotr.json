@@ -1350,14 +1350,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "What is the name of the pony the hobbits acquire in Bree?",
+      "question": "How many dwarves make up Thorin Oakenshield's company in The Hobbit?",
       "options": [
-        "Sam",
-        "Bill",
-        "Tom",
-        "Bob"
+        "9",
+        "11",
+        "12",
+        "13"
       ],
-      "correct_answer": "Bill",
+      "correct_answer": "13",
       "difficulty": "medium"
     },
     {
@@ -1606,14 +1606,14 @@
       "subcategory": "Sci-Fi/Fantasy",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Which member of Thorin's company is Gimli's father?",
+      "question": "What is the name of Thorin Oakenshield's grandfather who was murdered by the orc Azog?",
       "options": [
-        "Balin",
-        "Dwalin",
-        "Glóin",
-        "Óin"
+        "Thrór",
+        "Thráin",
+        "Dáin Ironfoot",
+        "Balin"
       ],
-      "correct_answer": "Glóin",
+      "correct_answer": "Thrór",
       "difficulty": "medium"
     },
     {
@@ -1622,14 +1622,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Characters & Fellowship",
-      "question": "Who is the Lady of the Golden Wood?",
+      "question": "After the War of the Ring, what title does Gimli hold as lord of the caves beneath Helm's Deep?",
       "options": [
-        "Arwen",
-        "Éowyn",
-        "Galadriel",
-        "Goldberry"
+        "Lord of Moria",
+        "Lord of Erebor",
+        "Lord of the Glittering Caves",
+        "King of the Iron Hills"
       ],
-      "correct_answer": "Galadriel",
+      "correct_answer": "Lord of the Glittering Caves",
       "difficulty": "medium"
     },
     {
@@ -2214,14 +2214,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Plot & Story",
-      "question": "Where do Frodo and Sam first encounter Gollum?",
+      "question": "What does Aragorn name his firstborn son, who succeeds him as King of Gondor?",
       "options": [
-        "In Moria",
-        "In the Dead Marshes",
-        "At Weathertop",
-        "In Mordor"
+        "Isildur II",
+        "Eldarion",
+        "Arathorn",
+        "Boromir II"
       ],
-      "correct_answer": "In the Dead Marshes",
+      "correct_answer": "Eldarion",
       "difficulty": "easy"
     },
     {
@@ -3174,14 +3174,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Plot & Story",
-      "question": "How many times does Bilbo use the Ring in The Hobbit?",
+      "question": "In Tolkien's The Hobbit, which character kills Bolg, the orc leader, at the Battle of Five Armies?",
       "options": [
-        "3 times",
-        "5 times",
-        "Several times",
-        "Once"
+        "Thorin",
+        "Bilbo",
+        "Beorn",
+        "Gandalf"
       ],
-      "correct_answer": "Several times",
+      "correct_answer": "Beorn",
       "difficulty": "hard"
     },
     {
@@ -3334,14 +3334,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Locations & Realms",
-      "question": "Where does the Council of Elrond take place?",
+      "question": "What is the name of the great hall of the kings of Rohan in Edoras?",
       "options": [
-        "Gondor",
-        "Rohan",
-        "Rivendell",
-        "Lothlórien"
+        "Orthanc",
+        "Meduseld",
+        "The Hornburg",
+        "Dunharrow"
       ],
-      "correct_answer": "Rivendell",
+      "correct_answer": "Meduseld",
       "difficulty": "easy"
     },
     {
@@ -3942,14 +3942,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Locations & Realms",
-      "question": "What is the gap between the Misty Mountains where Isengard is located called?",
+      "question": "What is the name of the ancient harbor city that serves as the home port of the Corsairs who threaten Gondor?",
       "options": [
-        "The Gap of Calenardhon",
-        "The Gap of Rohan",
-        "Both are correct",
-        "Nan Curunír"
+        "Pelargir",
+        "Umbar",
+        "Dol Amroth",
+        "Edhellond"
       ],
-      "correct_answer": "Both are correct",
+      "correct_answer": "Umbar",
       "difficulty": "medium"
     },
     {
@@ -4614,14 +4614,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "What do the Ents destroy?",
+      "question": "What is the name of the orc who murdered Thrór at Moria, triggering the War of Dwarves and Orcs?",
       "options": [
-        "Mordor",
-        "Helm's Deep",
-        "Isengard",
-        "Minas Morgul"
+        "Bolg",
+        "Azog",
+        "Gothmog",
+        "Lurtz"
       ],
-      "correct_answer": "Isengard",
+      "correct_answer": "Azog",
       "difficulty": "easy"
     },
     {
@@ -5222,14 +5222,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "What injures Frodo on Weathertop?",
+      "question": "Who becomes King of Rohan after Théoden falls at the Battle of Pelennor Fields?",
       "options": [
-        "A sword",
-        "A Morgul blade",
-        "An arrow",
-        "A spear"
+        "Théodred",
+        "Éomer",
+        "Faramir",
+        "Grimbold"
       ],
-      "correct_answer": "A Morgul blade",
+      "correct_answer": "Éomer",
       "difficulty": "medium"
     },
     {
@@ -5382,14 +5382,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "What battle marked the end of the Second Age?",
+      "question": "What is the name of the decisive Dwarven battle fought at the East-gate of Moria that ended the War of Dwarves and Orcs?",
       "options": [
-        "Dagorlad",
+        "The Battle of Five Armies",
         "The Last Alliance",
-        "The Siege of Barad-dûr",
-        "All are part of the same campaign"
+        "The Battle of Azanulbizar",
+        "The Siege of Barad-dûr"
       ],
-      "correct_answer": "All are part of the same campaign",
+      "correct_answer": "The Battle of Azanulbizar",
       "difficulty": "hard"
     },
     {
@@ -5414,14 +5414,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Battles & Conflicts",
-      "question": "What is the name of the blade that wounded Frodo?",
+      "question": "What ancient weapon of Morgoth is the great battering ram 'Grond' at Minas Tirith named in memory of?",
       "options": [
-        "A Morgul blade",
-        "A Barrow-blade",
-        "An Orcish dagger",
-        "A cursed knife"
+        "Morgoth's great axe",
+        "Morgoth's great mace",
+        "An ancient Elvish war hammer",
+        "Sauron's first weapon"
       ],
-      "correct_answer": "A Morgul blade",
+      "correct_answer": "Morgoth's great mace",
       "difficulty": "hard"
     },
     {
@@ -5445,15 +5445,15 @@
       "category": "Literature",
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
-      "subtopic": "Battles & Conflicts",
-      "question": "What ancient battle does Gandalf reference on Zirakzigil?",
+      "subtopic": "Lore & History",
+      "question": "What language did J.R.R. Tolkien create specifically for the Dwarves of Middle-earth?",
       "options": [
-        "None",
-        "The war of Dwarves and Orcs",
-        "The Last Alliance",
-        "The Battle of Sudden Flame"
+        "Sindarin",
+        "Quenya",
+        "Khuzdul",
+        "The Black Speech"
       ],
-      "correct_answer": "The war of Dwarves and Orcs",
+      "correct_answer": "Khuzdul",
       "difficulty": "hard"
     },
     {
@@ -5702,14 +5702,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "What do hobbits call their coming of age?",
+      "question": "At what age do hobbits officially come of age?",
       "options": [
-        "Adulthood",
-        "Coming of age",
-        "Their tweens",
-        "Maturity"
+        "21",
+        "30",
+        "33",
+        "40"
       ],
-      "correct_answer": "Coming of age",
+      "correct_answer": "33",
       "difficulty": "easy"
     },
     {
@@ -6518,14 +6518,14 @@
       "subcategory": "Movies",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Lore & History",
-      "question": "Who gives Gandalf Shadowfax?",
+      "question": "What title does Shadowfax hold among all the horses of Middle-earth?",
       "options": [
-        "He takes him",
-        "Théoden",
-        "Éomer",
-        "He finds him wild"
+        "King of Horses",
+        "Lord of the Mearas",
+        "Chief of All Steeds",
+        "Master of Rohan"
       ],
-      "correct_answer": "Théoden",
+      "correct_answer": "Lord of the Mearas",
       "difficulty": "medium"
     },
     {
@@ -6918,14 +6918,14 @@
       "subcategory": "Fantasy Literature",
       "topic": "com.fiz.pack.lotr",
       "subtopic": "Quotes & Dialogue",
-      "question": "Who says 'A wizard is never late, nor is he early'?",
+      "question": "Complete Aragorn's speech at the Black Gate: 'A day may come when the courage of men fails... but it is not ____.'",
       "options": [
-        "Saruman",
-        "Gandalf",
-        "Elrond",
-        "Galadriel"
+        "today",
+        "this day",
+        "this hour",
+        "our time"
       ],
-      "correct_answer": "Gandalf",
+      "correct_answer": "this day",
       "difficulty": "easy"
     },
     {

@@ -613,14 +613,14 @@
       "id": "mcu_038",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What AI replaced JARVIS?",
+      "question": "What is the name of the circular chest device Tony Stark builds that powers his Iron Man suits and keeps him alive?",
       "options": [
-        "FRIDAY",
-        "EDITH",
-        "KAREN",
-        "HELEN"
+        "Repulsor Core",
+        "Arc Reactor",
+        "Stark Power Cell",
+        "Iron Core"
       ],
-      "correct_answer": "FRIDAY",
+      "correct_answer": "Arc Reactor",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Trivia & Events"
@@ -629,17 +629,17 @@
       "id": "mcu_039",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What cosmic entity devours planets?",
+      "question": "Who is the ruler of New Asgard after Thor departs at the end of Thor: Love and Thunder?",
       "options": [
-        "Galactus",
-        "Dormammu",
-        "Eternity",
-        "Death"
+        "Thor",
+        "Valkyrie",
+        "Sif",
+        "Heimdall"
       ],
-      "correct_answer": "Galactus",
+      "correct_answer": "Valkyrie",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
-      "subtopic": "Locations & Worlds"
+      "subtopic": "Heroes & Characters"
     },
     {
       "id": "mcu_040",
@@ -950,14 +950,14 @@
       "id": "mcu_059",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What planet is the Collector's museum located on?",
+      "question": "What is Knowhere, the unusual space station where the Collector keeps his museum?",
       "options": [
-        "Knowhere",
-        "Xandar",
-        "Sakaar",
-        "Titan"
+        "An abandoned space station",
+        "The severed head of a deceased Celestial",
+        "A hollowed-out asteroid",
+        "A decommissioned Kree outpost"
       ],
-      "correct_answer": "Knowhere",
+      "correct_answer": "The severed head of a deceased Celestial",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -1142,14 +1142,14 @@
       "id": "mcu_071",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What elite group protects the Black Panther?",
+      "question": "What is the name of the Wakandan spy network that operates internationally to protect Wakanda's interests?",
       "options": [
-        "Dora Milaje",
-        "Jabari Tribe",
         "War Dogs",
-        "Border Tribe"
+        "Shadow Council",
+        "Panther Corps",
+        "Wakandan Intelligence"
       ],
-      "correct_answer": "Dora Milaje",
+      "correct_answer": "War Dogs",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
@@ -1556,14 +1556,14 @@
       "id": "mcu_097",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What alien race does Thanos belong to?",
+      "question": "What did Thanos progressively replace on Nebula throughout her life as punishment for losing to Gamora?",
       "options": [
-        "Titan",
-        "Kree",
-        "Skrull",
-        "Chitauri"
+        "Her organic body parts with cybernetics",
+        "Her memories",
+        "Her emotions",
+        "Her Infinity Stone connections"
       ],
-      "correct_answer": "Titan",
+      "correct_answer": "Her organic body parts with cybernetics",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Villains & Antagonists"
@@ -1922,14 +1922,14 @@
       "id": "mcu_120",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What European country is Sokovia based on?",
+      "question": "What is the name of the sacred waterfall in Wakanda where challengers fight for the throne in ritual combat?",
       "options": [
-        "Eastern Europe",
-        "Russia",
-        "Germany",
-        "Poland"
+        "Warrior Falls",
+        "The Great Mound",
+        "The Vibranium Fields",
+        "Birnin Zana Falls"
       ],
-      "correct_answer": "Eastern Europe",
+      "correct_answer": "Warrior Falls",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -2114,14 +2114,14 @@
       "id": "mcu_132",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What hidden city does Black Panther rule?",
+      "question": "What is the name of Wakanda's capital city?",
       "options": [
-        "Wakanda",
-        "Atlantis",
-        "K'un-Lun",
-        "Attilan"
+        "Birnin Zana",
+        "Kumasi",
+        "Jabariland",
+        "The Golden Capital"
       ],
-      "correct_answer": "Wakanda",
+      "correct_answer": "Birnin Zana",
       "difficulty": "easy",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -2482,14 +2482,14 @@
       "id": "mcu_155",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What element does Tony Stark synthesize?",
+      "question": "In Avengers: Age of Ultron, what material does Ultron use to craft his near-indestructible final body?",
       "options": [
-        "New element",
         "Vibranium",
         "Adamantium",
-        "Uru"
+        "Uru metal",
+        "Carbonadium"
       ],
-      "correct_answer": "New element",
+      "correct_answer": "Vibranium",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Powers & Abilities"
@@ -2832,14 +2832,14 @@
       "id": "mcu_177",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What fictional country neighbors Wakanda?",
+      "question": "What unique mutation does Namor possess that gives him the ability to fly in Black Panther: Wakanda Forever?",
       "options": [
-        "No specific neighbor shown",
-        "Genosha",
-        "Latveria",
-        "Madripoor"
+        "Small feathered wings on his ankles",
+        "A Talokan power stone",
+        "Enhanced leg muscles",
+        "A winged jetpack"
       ],
-      "correct_answer": "No specific neighbor shown",
+      "correct_answer": "Small feathered wings on his ankles",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -3440,28 +3440,28 @@
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations",
       "category": "Entertainment",
-      "question": "What advanced weapons research division of S.H.I.E.L.D. does Iron Man help dismantle in the MCU?",
+      "question": "In The Falcon and the Winter Soldier, what superhero identity does John Walker adopt after being stripped of the Captain America shield?",
       "options": [
-        "Hydra",
-        "A.I.M.",
-        "S.W.O.R.D.",
-        "Ten Rings"
+        "U.S. Agent",
+        "Patriot",
+        "Super-Soldier",
+        "Battlestar"
       ],
-      "correct_answer": "Hydra",
+      "correct_answer": "U.S. Agent",
       "difficulty": "medium"
     },
     {
       "id": "mcu_216",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What mind control substance affects Widows?",
+      "question": "What is the name of the electrical shock weapon Black Widow wears on her wrists in combat?",
       "options": [
-        "Chemical mind control",
-        "Telepathy",
-        "Brain implant",
-        "Hypnosis"
+        "Widow's Bite",
+        "Black Sting",
+        "Taser Brace",
+        "Shock Gauntlet"
       ],
-      "correct_answer": "Chemical mind control",
+      "correct_answer": "Widow's Bite",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Powers & Abilities"
@@ -4012,14 +4012,14 @@
       "id": "mcu_251",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What underwater civilization does Namor rule?",
+      "question": "What rare resource discovered underwater connects Talokan to Wakanda and creates tension between the two nations?",
       "options": [
-        "Talokan",
-        "Atlantis",
-        "Lemuria",
-        "Oceanus"
+        "Vibranium",
+        "Adamantium",
+        "Uru metal",
+        "Tesseract energy"
       ],
-      "correct_answer": "Talokan",
+      "correct_answer": "Vibranium",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Villains & Antagonists"
@@ -4045,28 +4045,28 @@
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Trivia & Events",
       "category": "Entertainment",
-      "question": "In 'Black Panther: Wakanda Forever', which new character takes up the Black Panther mantle?",
+      "question": "Who is the leader of the Jabari Tribe who challenges T'Challa for the Wakandan throne in Black Panther?",
       "options": [
-        "Shuri",
         "M'Baku",
+        "W'Kabi",
         "Okoye",
-        "Nakia"
+        "Killmonger"
       ],
-      "correct_answer": "Shuri",
+      "correct_answer": "M'Baku",
       "difficulty": "medium"
     },
     {
       "id": "mcu_254",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What nation does Wakanda nearly go to war with?",
+      "question": "What is Okoye's military title in Wakanda's defense forces?",
       "options": [
-        "Talokan",
-        "United States",
-        "Russia",
-        "Atlantis"
+        "General of the Dora Milaje",
+        "Commander of the Border Tribe",
+        "Captain of the Royal Guard",
+        "Chief War Dog"
       ],
-      "correct_answer": "Talokan",
+      "correct_answer": "General of the Dora Milaje",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
@@ -4235,14 +4235,14 @@
       "id": "mcu_265",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What rebel group opposes Kang in Quantumania?",
+      "question": "What is MODOK's true identity in Ant-Man and the Wasp: Quantumania?",
       "options": [
-        "Freedom Fighters",
-        "Resistance",
-        "Rebels",
-        "Underground"
+        "Darren Cross",
+        "Scott Lang",
+        "Elihas Starr",
+        "Bill Foster"
       ],
-      "correct_answer": "Freedom Fighters",
+      "correct_answer": "Darren Cross",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
@@ -4331,14 +4331,14 @@
       "id": "mcu_271",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What new Guardians team forms?",
+      "question": "In 'What If...?', what is the name of the cosmic being who observes alternate universe events but has sworn an oath not to interfere?",
       "options": [
-        "New Guardians of the Galaxy",
-        "Guardians 2.0",
-        "Cosmic Avengers",
-        "Star Force"
+        "Uatu the Watcher",
+        "The Living Tribunal",
+        "Eternity",
+        "A Celestial"
       ],
-      "correct_answer": "New Guardians of the Galaxy",
+      "correct_answer": "Uatu the Watcher",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
@@ -4808,14 +4808,14 @@
       "id": "mcu_301",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What organization does Fury assemble in The Marvels?",
+      "question": "What is the name of the team of super-powered operatives that Contessa Valentina Allegra de Fontaine secretly assembles in the MCU?",
       "options": [
-        "S.A.B.E.R.",
-        "S.H.I.E.L.D.",
-        "Avengers",
-        "S.W.O.R.D."
+        "Thunderbolts",
+        "Dark Avengers",
+        "Shadow Initiative",
+        "The Commission"
       ],
-      "correct_answer": "S.A.B.E.R.",
+      "correct_answer": "Thunderbolts",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
@@ -5208,14 +5208,14 @@
       "id": "mcu_326",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What time-travel device does Cable use?",
+      "question": "In Deadpool 2, who is the young mutant that Cable travels back in time to prevent from becoming a murderer?",
       "options": [
-        "Time-travel technology",
-        "Infinity Stone",
-        "Magic",
-        "Mutant power"
+        "Russell Collins",
+        "Ajax",
+        "Angel Dust",
+        "Vanessa"
       ],
-      "correct_answer": "Time-travel technology",
+      "correct_answer": "Russell Collins",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Powers & Abilities"
@@ -5287,7 +5287,7 @@
       "id": "mcu_331",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What breaking technique does Deadpool use?",
+      "question": "What comedic narrative technique is Deadpool famous for, involving speaking directly to the audience?",
       "options": [
         "Fourth wall breaking",
         "Wall running",
@@ -5335,14 +5335,14 @@
       "id": "mcu_334",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What Canadian wilderness appears in Logan?",
+      "question": "What Texas border city serves as the primary setting at the beginning of Logan?",
       "options": [
-        "Canadian Rockies",
-        "Alaska",
-        "Montana",
-        "Wyoming"
+        "El Paso",
+        "Laredo",
+        "San Antonio",
+        "Amarillo"
       ],
-      "correct_answer": "Canadian Rockies",
+      "correct_answer": "El Paso",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -5734,14 +5734,14 @@
       "id": "mcu_359",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What government agency hunts mutants?",
+      "question": "What government-created program produces the giant robotic Sentinels used to hunt mutants in X-Men: Days of Future Past?",
       "options": [
-        "Department of Mutant Affairs",
-        "S.H.I.E.L.D.",
-        "FBI",
-        "CIA"
+        "The Sentinel Program",
+        "Weapon X",
+        "Project Wideawake",
+        "Trask Industries"
       ],
-      "correct_answer": "Department of Mutant Affairs",
+      "correct_answer": "The Sentinel Program",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
@@ -5750,7 +5750,7 @@
       "id": "mcu_360",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What diamond form does Emma Frost have?",
+      "question": "What does Emma Frost's body transform into when she uses her secondary mutation in the X-Men films?",
       "options": [
         "Diamond skin",
         "Crystal form",
@@ -5829,14 +5829,14 @@
       "id": "mcu_365",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What resistance group fights Sentinels?",
+      "question": "Who is the industrialist and scientist who creates the Sentinel program in X-Men: Days of Future Past?",
       "options": [
-        "X-Men resistance",
-        "Brotherhood",
-        "Morlocks",
-        "New Mutants"
+        "Bolivar Trask",
+        "William Stryker",
+        "Sebastian Shaw",
+        "Robert Kelly"
       ],
-      "correct_answer": "X-Men resistance",
+      "correct_answer": "Bolivar Trask",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
@@ -5988,14 +5988,14 @@
       "id": "mcu_375",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What alien force corrupts Jean Grey?",
+      "question": "What song plays during Quicksilver's famous slow-motion kitchen rescue scene in X-Men: Days of Future Past?",
       "options": [
-        "Phoenix Force",
-        "Symbiote",
-        "Dark Dimension",
-        "Infinity Stone"
+        "Time in a Bottle",
+        "Sweet Dreams",
+        "Under Pressure",
+        "Heroes"
       ],
-      "correct_answer": "Phoenix Force",
+      "correct_answer": "Time in a Bottle",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Villains & Antagonists"
@@ -6084,14 +6084,14 @@
       "id": "mcu_381",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What island does Magneto control in X2?",
+      "question": "How does Magneto escape from his plastic prison in X2: X-Men United?",
       "options": [
-        "Alkali Lake",
-        "Genosha",
-        "Alcatraz",
-        "Liberty Island"
+        "By extracting iron from a guard's blood",
+        "By using a plastic tool",
+        "With Mystique's help using a weapon",
+        "By manipulating electrical systems"
       ],
-      "correct_answer": "Alkali Lake",
+      "correct_answer": "By extracting iron from a guard's blood",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Villains & Antagonists"
@@ -6180,14 +6180,14 @@
       "id": "mcu_387",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What cure threatens mutants in Last Stand?",
+      "question": "Whose natural power suppresses all other mutant abilities, making him the source of the mutant cure in X-Men: The Last Stand?",
       "options": [
-        "Mutant cure",
-        "Sentinel program",
-        "Weapon X",
-        "Phoenix Force"
+        "Leech",
+        "Rogue",
+        "Jean Grey",
+        "Mystique"
       ],
-      "correct_answer": "Mutant cure",
+      "correct_answer": "Leech",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Villains & Antagonists"
@@ -6292,14 +6292,14 @@
       "id": "mcu_394",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What dimension does the Darkhold come from?",
+      "question": "What Norwegian village becomes the home of Asgardian refugees after the destruction of Asgard in Avengers: Endgame?",
       "options": [
-        "Dark Dimension",
-        "Quantum Realm",
-        "Mirror Dimension",
-        "Hell"
+        "New Asgard",
+        "Tønsberg",
+        "Vanaheim outpost",
+        "The Bifrost landing"
       ],
-      "correct_answer": "Dark Dimension",
+      "correct_answer": "New Asgard",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -6563,14 +6563,14 @@
       "id": "mcu_411",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What cloud creature threatens Earth?",
+      "question": "What is the name of the super-powered team Contessa Valentina is secretly assembling as seen across multiple MCU films?",
       "options": [
-        "Galactus",
-        "Dormammu",
-        "Ego",
-        "Thanos"
+        "Thunderbolts",
+        "Dark Avengers",
+        "A-Force",
+        "Shadow Initiative"
       ],
-      "correct_answer": "Galactus",
+      "correct_answer": "Thunderbolts",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Villains & Antagonists"
@@ -6959,14 +6959,14 @@
       "id": "mcu_436",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What bridge is Gwen Stacy's death associated with?",
+      "question": "In The Amazing Spider-Man 2, what structure does the Green Goblin drop Gwen Stacy from, leading to her death?",
       "options": [
-        "George Washington Bridge",
-        "Brooklyn Bridge",
-        "Manhattan Bridge",
-        "Queensboro Bridge"
+        "A clock tower",
+        "The Brooklyn Bridge",
+        "The George Washington Bridge",
+        "The Queensboro Bridge"
       ],
-      "correct_answer": "George Washington Bridge",
+      "correct_answer": "A clock tower",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -7150,14 +7150,14 @@
       "id": "mcu_448",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What construction site appears in Spider-Man 3?",
+      "question": "In Spider-Man: No Way Home, what famous New York landmark serves as the site of the climactic final battle?",
       "options": [
-        "Steel construction",
-        "Skyscraper",
-        "Bridge",
-        "Tunnel"
+        "The Statue of Liberty",
+        "Times Square",
+        "Brooklyn Bridge",
+        "Central Park"
       ],
-      "correct_answer": "Steel construction",
+      "correct_answer": "The Statue of Liberty",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -7389,14 +7389,14 @@
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Trivia & Events",
       "category": "Entertainment",
-      "question": "In 'Venom: Let There Be Carnage', what is the name of the serial killer who bonds with the Carnage symbiote?",
+      "question": "What is the name of Cletus Kasady's love interest who also has symbiote-related powers in Venom: Let There Be Carnage?",
       "options": [
-        "Cletus Kasady",
-        "Carlton Drake",
-        "Eddie Brock",
-        "Dylan Brock"
+        "Shriek",
+        "She-Venom",
+        "Scorn",
+        "Toxin"
       ],
-      "correct_answer": "Cletus Kasady",
+      "correct_answer": "Shriek",
       "difficulty": "easy"
     },
     {
@@ -7546,14 +7546,14 @@
       "id": "mcu_473",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What Spider-Force protects the multiverse?",
+      "question": "Who is Miles Morales's uncle who operates as the villain the Prowler in Spider-Man: Into the Spider-Verse?",
       "options": [
-        "Spider-Society",
-        "Web Warriors",
-        "Spider Army",
-        "Spider-Men"
+        "Aaron Davis",
+        "Jefferson Davis",
+        "Rio Morales",
+        "Donald Glover"
       ],
-      "correct_answer": "Spider-Society",
+      "correct_answer": "Aaron Davis",
       "difficulty": "hard",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
@@ -7609,14 +7609,14 @@
       "id": "mcu_477",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "Who is Kraven the Hunter?",
+      "question": "Who is the half-brother of Kraven the Hunter who is also a classic Spider-Man villain?",
       "options": [
-        "Big game hunter villain",
-        "Symbiote host",
-        "Mutant",
-        "Spider-Man ally"
+        "The Chameleon",
+        "Scorpion",
+        "Vulture",
+        "Rhino"
       ],
-      "correct_answer": "Big game hunter villain",
+      "correct_answer": "The Chameleon",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Villains & Antagonists"
@@ -7657,14 +7657,14 @@
       "id": "mcu_480",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What enhanced abilities does Kraven have?",
+      "question": "What type of artificial being is Vision in the MCU, created from vibranium, Tony Stark's JARVIS AI, and the Mind Stone?",
       "options": [
-        "Enhanced strength and senses",
-        "Super speed",
-        "Flight",
-        "Telepathy"
+        "A synthezoid",
+        "A cyborg",
+        "An android",
+        "A replicant"
       ],
-      "correct_answer": "Enhanced strength and senses",
+      "correct_answer": "A synthezoid",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Powers & Abilities"
@@ -7721,14 +7721,14 @@
       "id": "mcu_484",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What underground world do vampires inhabit?",
+      "question": "What is the real name of the Marvel character known as Blade, the Daywalker?",
       "options": [
-        "Vampire society",
-        "Hell",
-        "Dark Dimension",
-        "Underworld"
+        "Eric Brooks",
+        "Hannibal King",
+        "Frank Drake",
+        "Deacon Frost"
       ],
-      "correct_answer": "Vampire society",
+      "correct_answer": "Eric Brooks",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Locations & Worlds"
@@ -7943,7 +7943,7 @@
       "id": "mcu_498",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What dimension exists in Doctor Strange?",
+      "question": "What parallel dimension in Doctor Strange reflects the real world but cannot be altered by those within it?",
       "options": [
         "Mirror Dimension",
         "Quantum Realm",
@@ -7959,14 +7959,14 @@
       "id": "mcu_499",
       "category": "Entertainment",
       "subcategory": "Action/Adventure",
-      "question": "What council oversees the Sacred Timeline?",
+      "question": "What comic-relief Loki Variant — an actual reptile — appears in the Loki Disney+ series?",
       "options": [
-        "Time Variance Authority",
-        "Avengers",
-        "S.H.I.E.L.D.",
-        "Illuminati"
+        "Alligator Loki",
+        "President Loki",
+        "Boastful Loki",
+        "Kid Loki"
       ],
-      "correct_answer": "Time Variance Authority",
+      "correct_answer": "Alligator Loki",
       "difficulty": "medium",
       "topic": "com.fiz.pack.marvel",
       "subtopic": "Teams & Organizations"
